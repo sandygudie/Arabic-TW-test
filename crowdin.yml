@@ -1,0 +1,9 @@
+files:
+  - source: /book/website/
+    ignore_settings: 1
+    ignore:
+      - '*.txt'
+      - '*.yml'
+      - _redirect
+      - LICENSE
+    translation: /book/website/%language%/%original_file_name%
