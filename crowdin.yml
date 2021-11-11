@@ -1,4 +1,11 @@
 files:
   - source: /book/website/
-    ignore_settings: 1
+    ignore:
+      - '*.jpg'
+      - '*.yml'
+      - '*.css'
+      - '*.js'
+      - _redirects
+      - '*.txt'
+      - LICENSE.md
     translation: /book/website/%language%/%original_file_name%
