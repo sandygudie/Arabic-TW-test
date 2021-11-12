@@ -150,13 +150,15 @@ Digital Object Identifier
 ```{glossary}
 
 Epistemology
- Theory of knowledge and deals with how knowledge is gathered and from which sources. In research terms your view of the world and of knowledge strongly influences your interpretation of data and therefore your philosophical standpoint should be made clear from the beginning. (Source: [Post by Nicole Brown](https://www.nicole-brown.co.uk/epistemology/))
+ 知識がどのように集められるか、そしてどの源からどのように集められるかについての理論と扱う。 研究用語では、自分の世界観や知識がデータの解釈に大きな影響を与えるため、最初から哲学的な立場を明確にする必要があります。 (ソース:
 
-Equitable, Diverse and Inclusive Practices
-  Ensuring scholarship is open to anyone without barriers based on factors such as race, background, gender, and sexual orientation.
+(https://www.nicole-brown.co) k/epistemology/)) 
+
+ 公平で多様で包括的な実践
+  人種などの要因に基づく障壁のない人に奨学金を確保することは誰にでも開かれています。 性別や性的指向を背景にしています
 
 End to End Test
-  A test that runs the program from beginning to end and verifies that the output is correct.
+  プログラムを最初から最後まで実行し、出力が正しいことを検証するテスト。
 
 ```
 ---
@@ -226,14 +228,14 @@ Human Readable
 統合テスト
   個々のユニットをグループとして組み合わせてテストするソフトウェアテストのレベル。 このレベルのテストの目的は、積分ユニット間の相互作用における欠陥を露出させることです。
 
-Intersectionality
-People's own unique experiences of social status, discrimination, oppression and anything that can marginalise them based on the hierarchy or combination or identities and backgrounds such as gender, race, class, sexual orientation, physical ability and so on. This term was coined by Kimberley Crenshaw. [see the post by Womankind](https://www.womankind.org.uk/intersectionality-101-what-is-it-and-why-is-it-important/)).
+交差性
+社会的地位、差別の人々自身のユニークな経験 抑圧と何でもそれらを階層や組み合わせやアイデンティティや 性別などの背景に基づいて取り除くことができます 人種、階級、性的指向、身体能力など この用語はキンバリー・クレンシャーによって造られました。 format@@0(https://www.womankind.org.uk/intersectionality-101-what-is-it-and-why-is-it-important/)).
 
-Issues
-  Bug tracking system for GitHub. Collaborators can use issues to report bugs, request features, or set milestones for projects. Issues are tracked, reported, and closed by collaborators during the development process. They’re a great way of communicating with your team and reporting progress.
+問題
+  GitHubのバグ追跡システム。 コラボレーターは、課題を使用してバグの報告、機能のリクエスト、プロジェクトのマイルストーンの設定を行うことができます。 問題は、開発プロセス中に共同作業者によって追跡、報告、およびクローズされます。 彼らはあなたのチームと連絡を取り、進捗状況を報告するのに最適な方法です。
 
-Issue Tracking
-  The process of tracking current issues on the project, such as bug fixing, rolling out new features or community engagement plans.
+課題追跡
+  プロジェクトの現在の問題を追跡するプロセス(バグ修正、新機能の展開、コミュニティエンゲージメント計画など)。
 ```
 ---
 ## J
@@ -367,26 +369,26 @@ ORCID
 Phony Target
   偽のターゲットは、ファイルシステム上のファイルに対応していないものです。 ターゲットは .PHONY ターゲットの前提条件として偽としてマークされます。
 
-Positionality
- Differences in social position and power shape identities and access in society. In acknowledging positionality, we also acknowledge intersecting social locations and complex power dynamics (also see: Intersectionality).
+位置性
+ 社会的立場や権力の違い、社会におけるアイデンティティとアクセス。 位置性を認識する上で、我々はまた、交差する社会的な位置と複雑なパワーダイナミクス(も参照してください:交差性)を認める。
 
-Power Users
-  These are people who are already familiar enough with a platform to know the gotchas and tricks that make their experience more efficient.
+パワーユーザー
+  これらは、自分の経験をより効率的にするgotchasやトリックを知るためのプラットフォームに十分に精通している人々です。
 
-Preprint
-   A preprint is a version of a scholarly or scientific paper that precedes formal peer review and publication in a peer-reviewed scholarly or scientific journal. It is usually uploaded by the authors to a public server where it is available openly.
+プリプリント
+   プリプリントは、査読付き学術雑誌または学術雑誌に正式なピアレビューおよび出版に先行する学術または科学論文のバージョンです。 通常、著者によって公開サーバーにアップロードされ、公開サーバーにアップロードされます。
 
-Prerequisite
-  The prerequisite(s) of a rule correspond to files or other targets in the Makefile that must be up to date before the rule is run.
+前提条件
+  ルールの前提条件は、ルールが実行される前に最新でなければならない Makefile 内のファイルまたはその他のターゲットに対応します。
 
-Project Design
-  An early phase of the project where a project's key features, structure, criteria for success, and major deliverables are all planned out.
+プロジェクト・デザイン
+  プロジェクトの主要な機能、構造、成功基準、主要成果物がすべて計画される初期段階。
 
-Pull Request
-  Proposed changes to a remote repository. Collaborators without write access can send a pull request to the administrator with the changes they’ve made to the repo. The administrator can then approve and merge or reject the changes to the main repository. For open source projects pull requests can be sent by anyone that has forked a project.
+プルリクエスト
+  リモートリポジトリへの変更提案。 書き込み権限のないコラボレーターは、リポジトリに加えた変更を含むプルリクエストを管理者に送信できます。 管理者は、メインリポジトリへの変更を承認およびマージまたは拒否できます。 オープンソースプロジェクトの場合、プロジェクトをフォークした人なら誰でもプルリクエストを送信できます。
 
-Push
-  Sending changes to a remote repo. The remote repository is updated with the changes pushed and now mirrors the local repo.
+プッシュ
+  リモートリポジトリに変更を送信します。 リモートリポジトリはプッシュされた変更で更新され、ローカルリポジトリがミラーされるようになりました。
 ```
 ---
 ## Q
@@ -466,29 +468,29 @@ Runtime Test
 自己アーカイブ
   出版物やその他の研究成果を適切なリポジトリ、機関または主題ベースに配置する 禁輸期間やそのようなアーカイブに寄託される許可されたバージョンの制限など、出版社によってもたらされる可能性のある制限に従っています
 
-Self Reflection
-  Activity of thinking about our thoughts, feelings, emotions, behaviour action, and the reasons that may lie behind them. Taking the time for reflection we can grow our understanding of who we are, what our values are, and why we think, feel, and act the way we do. When we self-reflect and become more conscious of what drives us, we can more easily make changes that help us more easily develop our self or improve our life including the way we conduct research (source: [Berkeley Wellbeing](https://www.berkeleywellbeing.com/what-is-self-reflection.html)).
+自己<unk>
+  私たちの考え、感情、感情、行動行動、そしてそれらの背後にある理由について考える活動。 反省の時間をかけて、私たちは自分が誰であるかを理解することができます。 私たちの価値観を理解し考え感じ行動を起こすのです 私たちが自ら反省し、私たちを動かすものをより意識するようになったとき 私たちの研究方法を含めて、より簡単に自己を発展させたり、生活を向上させたりすることができます(ソース: [Berkeley Wellbeing](https://www) erkeleywellbeing.com/what-is-self-reflection.html))
 
 SHA
-  Unique string of numbers of letters used to identify every commit or node in the repository.
+  リポジトリ内のすべてのコミットまたはノードを識別するために使用される文字列のユニークな文字列。
 
-Shared authorship
- Some journals permit the use of group names but many require contributors to be listed and/or the writing group to be named. This is the same as group authorship.
+共著者の共有
+ いくつかのジャーナルは、グループ名の使用を許可していますが、投稿者がリストされたり、書き込みグループが名前されたりする必要があります。 これはグループの作家と同じです。
 
-Smoke Testing
-  Very brief initial checks that ensure the basic requirements required to run the project hold. If these fail there is no point proceeding to additional levels of testing until they are fixed.
+煙テスト
+  プロジェクトホールドを実行するために必要な基本的な要件を確実にする非常に簡単な初期チェック。 これらが失敗した場合、修正されるまで追加のレベルのテストに進むことはありません。
 
-Staged
-  Staging the changes that will be included in the next git commit.
+ステージ
+  次の git コミットに含まれる変更をステージングします。
 
-Stochastic Code
-  Code which, while correct, does not always output the same result. For example a program that outputs ten random numbers will generate a different result each time, despite being correct.
+確率コード
+  コードは正しいが、必ずしも同じ結果を出力するわけではない。 例えば、10個の乱数を出力するプログラムは、正しいにもかかわらず、毎回異なる結果を生成します。
 
-Syntax
-  The structure of statements in a computer language.
+構文
+  文の構造。
 
-System Testing
-  A level of the software testing process where a complete, integrated system is tested. The purpose of this test is to evaluate whether the system as a whole gives the correct outputs for given inputs. Also see end to end test.
+システムテスト
+  完全で統合されたシステムをテストするソフトウェアテストプロセスのレベル。 このテストの目的は、システム全体が与えられた入力に正しい出力を与えるかどうかを評価することです。 エンドツーエンドテストも参照してください。
 
 ```
 ---
