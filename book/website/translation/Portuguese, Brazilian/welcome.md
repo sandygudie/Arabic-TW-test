@@ -1,9 +1,9 @@
 (bem-vindo)=
 # Boas-vindas
 
-*Bem-vindo ao manual do Manual The Turing Way para reprodutível, ética e colaborativa de dados.*
+*Bem-vinda ao manual The Turing Way para ciência de dados reprodutível, ética e colaborativa.*
 
-_O projeto Turing Way_ é de código aberto, colaboração aberta e conduzida pela comunidade. Nós envolvemos e apoiamos uma comunidade diversificada de colaboradores para tornar a ciência de dados acessível, compreensível e eficaz para todos. Nosso objetivo é fornecer toda a informação que pesquisadores e cientistas de dados da academia, a indústria e o sector público precisam de garantir que os projectos em que trabalham são fáceis de reproduzir e de reutilizar.
+_The Turing Way_ é um projeto de código aberto, colaboração aberta e conduzido pela comunidade. Nós envolvemos e apoiamos uma comunidade diversificada de colaboradores para tornar a ciência de dados acessível, compreensível e eficaz para todas as pessoas. Nosso objetivo é fornecer toda a informação que pesquisadores e cientistas de dados da academia, a indústria e o sector público precisam de garantir que os projectos em que trabalham são fáceis de reproduzir e de reutilizar.
 
 ```{admonition} Top Tip
 Dica :class:
