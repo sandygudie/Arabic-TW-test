@@ -1,7 +1,7 @@
 (bem-vindo)=
 # Boas-vindas
 
-*Bem-vinda ao manual The Turing Way para ciência de dados reprodutível, ética e colaborativa.*
+*Tenha boas-vindas ao guia The Turing Way para ciência de dados reprodutível, ética e colaborativa.*
 
 _The Turing Way_ é um projeto de código aberto, colaboração aberta e conduzido pela comunidade. Nós envolvemos e apoiamos uma comunidade diversificada de colaboradores para tornar a ciência de dados acessível, compreensível e eficaz para todas as pessoas. Nosso objetivo é fornecer toda a informação necessária para que pesquisadores e cientistas de dados da academia, a indústria e o sector público garantam que os projetos em que trabalham são fáceis de reproduzir e de reutilizar.
 
@@ -12,12 +12,12 @@ Comece com um conceito, ferramenta ou método de que você precisa agora, no seu
 Navegue pelos diferentes guias que compõem o livro ou use a caixa de pesquisa para pesquisar tudo o que você gostaria de aprender primeiro.
 ```
 
-Todas as partes interessadas, incluindo investigadores, engenheiros de software, líderes de projetos e equipes de financiamento, são encorajadas a usar _The Turing Way_ para entender seus papéis e responsabilidade de reprodutibilidade em Ciência de dados. You can inspect our resources on [GitHub](https://github.com/alan-turing-institute/the-turing-way), contribute to the project as described in our [contribution guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) and re-use all materials ([see the License](https://github.com/alan-turing-institute/the-turing-way/blob/main/LICENSE.md)).
+Todas as partes interessadas, incluindo investigadores, engenheiros de software, líderes de projetos e equipes de financiamento, são encorajadas a usar _The Turing Way_ para entender seus papéis e responsabilidades na reprodutibilidade em ciência de dados. You can inspect our resources on [GitHub](https://github.com/alan-turing-institute/the-turing-way), contribute to the project as described in our [contribution guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) and re-use all materials ([see the License](https://github.com/alan-turing-institute/the-turing-way/blob/main/LICENSE.md)).
 
 ```{figure} figures/welcome.jpg
 ---
-nome: Bem-vindo, e-imagem
-alt: O projeto Caminho de Turing é ilustrado como uma estrada ou caminho com lojas para diferentes habilidades de ciência de dados. As pessoas podem entrar e sair com o seu carrinho de compras e escolher o que precisam.
+name: welcome-image
+alt: O projeto The Turing Way é ilustrado como uma estrada ou caminho com lojas para diferentes habilidades em ciência de dados. As pessoas podem entrar e sair com o seu carrinho de compras e escolher o que precisam.
 ---
 Ilustração de projeto _The Turing Way_ por Scriberia. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
 ```
@@ -25,7 +25,7 @@ Ilustração de projeto _The Turing Way_ por Scriberia. Zenodo. [http://doi.org/
 (welcome-community)=
 ## Nossa Comunidade
 
-A comunidade de _The Turing Way_ é dedicada a fazer pesquisa colaborativa, reutilizável e transparente "muito fácil para não fazer". Isso significa investir nas competências sociotécnicas necessárias para trabalhar numa equipe, para construir algo mais significativo do que qualquer indivíduo poderia proporcionar sozinho.
+A comunidade de _The Turing Way_ é dedicada a fazer pesquisa colaborativa, reutilizável e transparente que seja tão fácil "muito fácil para não fazer". Isso significa investir nas competências sociotécnicas necessárias para trabalhar numa equipe, para construir algo mais significativo do que qualquer indivíduo poderia proporcionar sozinho.
 
 _The Turing Way_ é:
 
@@ -39,13 +39,13 @@ O livro é escrito colaborativamente e aberto desde o início. Para tornar esse 
 
 ```{figure} figures/theturingway-chapters.jpg
 ---
-nome: teturingway-chapters
-alt: The Turing Way Guide to reprodutible research and it's stucture a show a set of doors to representation, how it is built on chapters and sub chapters of the different area of the guide
+nome: theturingway-chapters
+alt: O guia The Turing Way para pesquisa reprodutível e sua estrutura ilustradas como uma série de portas que representam a estrutura em capítulos e sub-capítulos 
 ---
-_The Turing Way_ project ilustration by Scriberia. Versão original do Zenodo. http://doi.org/10.5281/zenodo.3695300.
+Ilustração por _The Turing Way_ por Scriberia. Versão original em Zenodo. http://doi.org/10.5281/zenodo.3695300.
 ```
 
-Embora _The Turing Way_ receba apoio e financiamento do [The Alan Turing Institute](https://www.turing.ac.uk/), o projeto foi projetado para ser uma colaboração global. Temos contributos de todo o Reino Unido e da Índia, México, Austrália, EUA e muitos países europeus. Os capítulos foram escritos, revistos e controlados por membros de institutos de investigação e universidades, departamentos governamentais e indústria. Estamos empenhados em criar um espaço onde pessoas com diversos conhecimentos e experiências vividas possam compartilhar seu conhecimento com outras pessoas, para que todos possamos usar a ciência de dados para melhorar o mundo.
+Embora _The Turing Way_ receba apoio e financiamento do [The Alan Turing Institute](https://www.turing.ac.uk/), o projeto foi projetado para ser uma colaboração global. Temos contribuições de todo o Reino Unido e da Índia, México, Austrália, EUA e muitos países europeus. Os capítulos foram escritos, revistos e curados por membros de institutos de investigação e universidades, departamentos governamentais e indústria. Nosso compromisso é criar um espaço onde pessoas com diversos conhecimentos e experiências vividas possam compartilhar seu conhecimento com outras pessoas, para que possamos usar a ciência de dados para melhorar o mundo.
 
 Valorizamos a participação de todos os membros da nossa comunidade e queremos garantir que todos os contribuintes tenham uma experiência agradável e realizante. Assim, todos os que participam do projeto _The Turing Way_ devem mostrar respeito e cortesia para com outros membros da comunidade a todo momento. Todas as contribuições devem obedecer ao nosso [código de conduta](https://github.com/alan-turing-institute/the-turing-way/blob/main/CODE_OF_CONDUCT.md).
 
