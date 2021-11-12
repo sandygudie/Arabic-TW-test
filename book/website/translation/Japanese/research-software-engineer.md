@@ -1,41 +1,41 @@
-(cl-infrastructure-rse)=
-# Research Software Engineer: Overview
+(cl-インフラストラクチャ-rse)=
+# Research Software Engineer: 概要
 
-Research Software Engineers (RSEs) are programmers with scientific backgrounds who play increasingly critical roles in the conduct of research and production of research software tools. They are highly skilled team members who can also conduct their own research as part of their role.
+Research Software Engineers(RSE)は、研究ソフトウェアツールの研究および生産においてますます重要な役割を果たす科学的背景を持つプログラマーです。 彼らは、自分たちの役割の一環として研究を行うことができる高度に熟練したチームメンバーです。
 
 
-(cl-infrastructure-rse-role)=
-## What do Research Software Engineers do?
-RSEs work on research projects. They may be assigned to projects based on skills or background from a pool of other RSEs, or be specifically hired to work on a project.
+(cl-インフラストラクチャ-rse-role)=
+## リサーチソフトウェアエンジニアは何をしますか?
+RSEは研究プロジェクトに取り組んでいます。 彼らは他のRSEのプールからスキルや背景に基づいてプロジェクトに割り当てることができます。 特にプロジェクトに雇用されることになります
 
-Additionally, RSEs can also be PIs and run their own independent research projects, depending on the institution and policies of the projects they are working on.
+また、RSEはPIであり、独自の独立した研究プロジェクトを運営することもできます。 彼らが取り組んでいるプロジェクトの制度や方針によっては
 
-## Who are Research Software Engineers?
-RSEs typically have a scientific or research background, often developing programming skills during masters or doctoral studies. You can find out more about the backgrounds of RSEs through the [Software Sustinability Institute's 2018 Survey](https://www.software.ac.uk/blog/2018-03-12-what-do-we-know-about-rses-results-our-international-surveys).
+## 研究ソフトウェアエンジニアとは誰ですか?
+RSEは、通常、科学的または研究的背景を持っています, 多くの場合、マスターや博士研究中にプログラミングスキルを開発します. RSEの背景については、 [ソフトウェア・サスティナビリティ・インスティテュートの2018年調査](https://www.software.ac.uk/blog/2018-03-12-what-do-we-know-about-rses-results-our-international-surveys)をご覧ください。
 
-## What qualifications or skills do you need to be a Research Software Engineer?
-There are not specific formal qualifications needed to become an RSE, but the majority will have at least one advanced degree (masters or doctoral level). However, all RSEs are able to program, with the majority coding in Python, SQL, R, C/C++ or JavaScript. RSEs are also likely to understand concepts such as agile development, integration and testing, software architecture, and version control.
+## 研究ソフトウェアエンジニアになるためには、どのような資格やスキルが必要ですか?
+RSEになるために必要な特定の正式な資格はありませんが、大多数は少なくとも1つの上級学位(修士または博士)を持っています。 しかし、すべてのRSEはPython、SQL、R、C/C++、JavaScriptのコーディングでプログラムすることができます。 RSEは、アジャイル開発、インテグレーション、テスト、ソフトウェアアーキテクチャ、バージョン管理などの概念を理解する可能性があります。
 
-## Challenges for Research Software Engineers
-* Lack of formal pathways for development
-* Production of software and tools not always recognised as a research output
-* RSEs not viewed as researchers in their own right
-* Adjusting to working on different projects, possibly far from their original background
+## 研究ソフトウェアエンジニアにとっての課題
+* 形式的な開発経路の不足
+* ソフトウェアとツールの生産は、必ずしも研究成果として認識されていません
+* RSEは自分の権利で研究者として見ない
+* 異なるプロジェクトに取り組むように調整しています。元のバックグラウンドから遠くなる可能性があります。
 
-## Benefits of having Research Software Engineers
-* Highly technical skills that support researchers who cannot program
-* Sharing of best practices in research software engineering across projects
-* Apply cross-disciplinary knowledge to different projects
-* Software will be more reliable and robust, supporting reuse and reproducibility
+## 研究ソフトウェアエンジニアを持つ利点
+* プログラムできない研究者をサポートする高度な技術スキル
+* プロジェクト間の研究ソフトウェアエンジニアリングにおけるベストプラクティスの共有
+* 異なるプロジェクトに学際的な知識を適用します
+* ソフトウェアはより信頼性が高く、堅牢で、再利用と再現性をサポートします。
 
-(cl-infrastructure-rse-support)=
-## Organisations that support Research Software Engineers
-* [Society for Research Engineering](https://society-rse.org/)
-* [Software Sustainability Institute](https://www.software.ac.uk/)
+(cl-インフラストラクチャ-rse-support)=
+## 研究ソフトウェアエンジニアを支援する組織
+* [Research Engineering学会](https://society-rse.org/)
+* [ソフトウェアサステナビリティ研究所](https://www.software.ac.uk/)
 
-(cl-infrastructure-rse-summary)=
+(cl-インフラストラクチャ-rse-summary)=
 ## Summary
-Research Software Engineers are highly skilled, valuable members of any research group that is conducting computational research. They bring technical programming skills as well as best practices from software architecture and open source development to academic research. Some also conduct their own independent research projects.
+Research Software Engineersは、計算研究を行っているあらゆる研究グループの非常に熟練した貴重なメンバーです。 彼らは、ソフトウェアアーキテクチャやオープンソース開発から学術研究に至るまで、技術的なプログラミングスキルとベストプラクティスを提供します。 また、独自の研究プロジェクトを行う人もいます。
 
 
 
