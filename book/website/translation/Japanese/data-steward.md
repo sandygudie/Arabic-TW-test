@@ -1,78 +1,78 @@
-(cl-infrastructure-datastewards)=
-# Data Stewards: Overview
+(cl-インフラストラクチャ-datastewards)=
+# データスチュワード: 概要
 
-Data Stewards are a growing role within scientific communities. 'Data Steward' is an umbrella term for numerous support roles that involve the creation, management and usage of research data (see also the {ref}`rr-rdm` chapter).
+データスチュワードは科学コミュニティ内でますます重要な役割を果たしています。 「データスチュワード」は、作成を含む多くのサポート役割の傘下の用語です。 研究データの管理と使用法 ( {ref}`rr-rdm` 章も参照してください)。
 
-(cl-infrastructure-datastewards-tasks)=
-## What do Data Stewards do?
-The core responsibilities of a Data Steward can vary, ranging from policy advisor/consultant, to hands-on operational tasks, to technical or ICT-related tasks. A Data Steward facilitates the quality, integrity and access to (meta)data in a manner that is consistent with the appropriate laws and institutional policies, ensuring professional treatment of data throughout all stages of the research project. See also: {cite:ps}`Verheul2019DataStewardship`
+(cl-インフラストラクチャ-datewards-tasks)=
+## Data Stewardsは何をしますか?
+データスチュワードの中核的な責任は、ポリシーアドバイザー/コンサルタントから、実践的な運用タスク、技術的またはICT関連のタスクに至るまで、さまざまです。 データスチュワードは、適切な法律および制度的ポリシーと整合的な方法で、品質、完全性および(メタ)データへのアクセスを容易にします。 研究プロジェクトの全段階を通じてデータの専門的な処理を確保しています 関連トピック: {cite:ps}`Verheul2019DataStewardship`
 
-Each role is varied but the main activities are typically focused around data, stewardship, and advising researchers:
-* Leading policy development and implementation on research data management
-* Act as a spokesperson, create awareness for the added value of good data management
-* Assist in planning the collection, management and publication of data in research projects
-* Explore, analyse and assess trends in research data management at your institute/research group
-* Develop and run training events on research data management
+各役割はさまざまですが、主な活動は通常、データ、スチュワードシップ、およびアドバイス研究者を中心に集中しています。
+* 研究データ管理における政策開発と実施
+* スポークスマンとしての行為は、良いデータ管理の付加価値に対する意識を作成します
+* 研究プロジェクトにおけるデータの収集、管理、公開の計画を支援する
+* 所属機関/研究グループの研究データ管理の傾向を調査、分析、評価する
+* 研究データ管理に関するトレーニング・イベントの開発と実行
 
-The day-to-day tasks of a Data Steward could include:
-* Checking and advising on a Data Management Plan (see {ref}`rr-rdm-dmp` for more information)
-* Providing support for grant proposals
-* Providing data management training
-* Guiding a researcher through the data sharing process
-* Leading discussions on what type of data to preserve for the long time and what data to share publicly
-* Planning for upcoming community information sessions, trainings, events
-* Providing information (through emails or on a website)
-* Writing a blog on a topic related to research data management
-* Being involved in international communities and working groups to improve the recommended practises or advocate for the importance of research data
-* And a lot more!
-
-
-(cl-infrastructure-datastewards-skills)=
-## What qualifications or skills do you need to be a Data Steward?
-There is currently no formal track to take to become a Data Steward. Most Data Stewards have a masters or doctoral education, or a background in research and education. This background is needed to speak the same language as scientific staff, so that it becomes easier to understand their requirements and concerns. Depending on the particular focus of the position, you would need a more technical/ICT background, knowledge of discipline specific matters or experience with advising and policy construction. Soft skills are important in the advisory/policy roles, as you need to..
-
-The “Towards FAIR data stewardship as profession” report ({cite:ps}`Scholtens2019FAIRSteward`) concluded that there are eight competency areas that of importance to Data Stewards:
-1. Policy/strategy: designing or raising awareness of research data management policies and regulations
-2. Compliance: advise on how to confer to research data management policies and regulations
-3. Facilitating FAIR/recommended research data management practices
-4. Services: propose, implement and monitor data management services and improve work processes
-5. Data infrastructure: identify requirements for infrastructure and tools
-6. Knowledge management: identify the level of research data management knowledge and skills
-7. Network and communication: set up networks to increase awareness and participate in (inter)national research data management networks
-8. Data sharing: archiving and publishing
-
-Next to these specific areas coordination of work and development of soft skills may be important. See also: {cite:ps}`Jetten2021DataStewardship`
-
-Generally, Data Stewards acquire these skills through learning-on-the-job, which is facilitated by existing networks (see {ref}`cl-infrastructure-datastewards-support` below). Through these networks experiences can be exchanged with peers, which is beneficial for personal and professional development. An examples of these collaborative efforts is the '23 Things: Support for Research Data'({cite:ps}`Jetten201923ThingsData`) that provides a good overview of helpful resources for Data Stewards. Depending on the role of the Data Steward, learning discipline specific skills may be important through contributing to specific projects or attending conferences and meetings on relevant topics. As the research culture adapts to (inter)national changes, so too do the skills of the Data Steward that have to be continuously updated.
+データスチュワードの日々のタスクには以下のものがあります:
+* データ管理計画の確認と助言(詳細は {ref}`rrdm-dmp` を参照してください)
+* 助成金提案への支援
+* データ管理トレーニングの提供
+* データ共有プロセスを通じて研究者を指導する
+* 長期間保存するデータの種類と公開するデータの種類についての議論を行います
+* 今後のコミュニティ情報セッション、トレーニング、イベントの計画
+* 情報の提供(電子メールまたはウェブサイトを通じて)
+* 研究データ管理に関連するトピックに関するブログを書く
+* 研究データの重要性について推奨される実践や提唱を改善するために、国際社会やワーキンググループに参加すること
+* そしてもっとたくさん!
 
 
-(cl-infrastructure-datastewards-challenges)=
-## Challenges for Data Stewards
-* As Data Steward is a relatively new profession (~2017), their job profile is not always formally defined and their career-track may be unclear.
-* It is difficult to increase the awareness of the presence of the data steward and/or existing data policies, especially when resources are limited.
-* It takes time to know the researchers and earn their trust, which is important to be able to adequately advise them and work together to improve data management practises.
-* Not everyone sees the move towards a more transparent research culture as beneficial, and you can be met with resistance from researchers that do not want to change their existing workflows.
-* There might be limited resources and time to cover all the support requests from researchers. Often there's only a small central team of Data Stewards available to the entire instutite.
-* It is not always clear when you're providing high quality support and where you could improve, as there is no formal education and there is not always a strong feedback culture at your institute.
+(cl-インフラストラクチャ-datastewards-skills)=
+## データスチュワードになるためにはどのような資格やスキルが必要ですか?
+現在、データスチュワードになるための正式なトラックはありません。 ほとんどのデータスチュワードは、修士または博士課程の教育、または研究と教育の背景を持っています。 このような背景は、科学スタッフと同じ言語を話すことで、彼らの要件や懸念事項を理解しやすくなります。 位置の特定の焦点に応じて、より技術的/ICTの背景が必要になります。 専門分野の知識やアドバイスや政策構築の経験があります ソフトスキルはアドバイザリー/ポリシーの役割で重要です。必要に応じて。
 
-(cl-infrastructure-datastewards-benefits)=
-## Benefits of having Data Stewards
-* Sharing  information or provide training for data management so that researchers don't have to reinvent the wheel themselves and can easily learn about recommended practises, which will ultimately improve the quality of research.
-* Data Stewards can provide reassurance to researchers, by providing feedback on their Data Management Plans, practises and providing advise on alternative solutions.
-* Support for larger, collaborative grants where data management and open science are an integral part of the proposal ([Horizon Europe](https://ec.europa.eu/info/research-and-innovation/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en)).
-* Data Stewards can play a leading role in developing policies regarding data and software management.
-* Data Stewards can provide answers to questions from researchers, or direct them to other relevant staff that will be able to answer the question.
+「専門家としてのFAIRデータ管理に向けて」レポート({cite:ps}`Scholtens2019FAIRSteward`) は、データ管理者にとって重要な8つの能力分野があると結論付けました。
+1. 政策・戦略：研究データ管理の方針や規制に対する意識を高めること。
+2. コンプライアンス:データ管理の方針や規制を研究する方法について助言します
+3. FAIR/推奨研究データ管理の実践を容易にする
+4. サービス: データ管理サービスの提案、実装、監視、作業プロセスの改善
+5. データ インフラストラクチャ: インフラストラクチャとツールの要件を特定する
+6. 知識管理: 研究データ管理の知識とスキルのレベルを特定する
+7. ネットワークとコミュニケーション：認識を高め、全国の研究データ管理ネットワークに参加するためのネットワークを構築する
+8. データ共有: アーカイブと公開
 
-(cl-infrastructure-datastewards-support)=
-## Organisations that support Data Stewards
-* [Research Data Alliance](https://www.rd-alliance.org/)
-* [DTL-Data Stewards Interest Group](https://www.dtls.nl/about/community/interest-groups/data-stewards-interest-group/)
+これらの具体的な分野の隣に、仕事の調整とソフトスキルの開発が重要であるかもしれません。 関連トピック: {cite:ps}`Jetten2021DataStewardship`
+
+一般的に、Data Stewards は、既存のネットワークによって促進される、on-the-job 学習を通じてこれらのスキルを習得します(後述の {ref}`cl-Infrastructure-datastewards-support` を参照)。 これらのネットワークの経験を通じて、個人的かつ専門的な発展に有益なピアと交換することができます。 これらの共同作業の例としては、「23 Things: Research Dataのサポート」({cite:ps}`Jetten201923ThingsData`)が挙げられます。 データスチュワードの役割に応じて、 特定のプロジェクトに貢献したり、関連するトピックに関する会議や会議に出席することで、特定のスキルを学ぶことが重要かもしれません。 研究文化が(国家間の)変化に適応するにつれて、データスチュワードのスキルも継続的に更新する必要があります。
+
+
+(cl-インフラストラクチャ-datastewards-challenges)=
+## データスチュワードのための課題
+* データスチュワードは比較的新しい職業(~2017)であるため、その職業プロファイルは必ずしも正式に定義されているわけではなく、キャリア・トラックは不明な場合があります。
+* 特にリソースが限られている場合、データスチュワードおよび/または既存のデータポリシーの存在に対する認識を高めることは困難です。
+* 研究者を知って信頼を得るには時間がかかります。 適切にアドバイスし協力してデータ管理のプラクティスを改善することが重要です
+* 誰もが、より透明性の高い研究文化への移行を有益と考えているわけではありません。 既存のワークフローを変更したくない研究者からの抵抗を受けることができます
+* リソースも時間も限られていて、研究者からのすべてのサポートリクエストをカバーすることができます。 多くの場合、instutite全体で利用可能なデータスチュワードの小さな中央チームだけがあります。
+* 質の高いサポートをいつ提供しているか、どこで改善できるかは必ずしも明らかではありません。 正式な教育がないからといって研究所に強いフィードバック文化があるとは限りません
+
+(cl-インフラストラクチャ-datastewards-benefits)=
+## データスチュワードを持つメリット
+* 研究者自身がホイールを改革する必要がなく、推奨されるプラクティスについて簡単に学ぶことができるように、情報を共有したり、データ管理のためのトレーニングを提供します。 最終的には研究の質が向上します
+* Data Stewardsは、データ管理計画に関するフィードバックを提供し、代替ソリューションに関する助言を提供することにより、研究者に安心感を提供することができます。
+* データ管理とオープンサイエンスが提案の不可欠な部分である大規模で共同研究助成金のサポート([Horizon Europe](https://ec.europa.eu/info/research-and-innovation/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en))。
+* データスチュワードは、データおよびソフトウェア管理に関するポリシーの策定において主導的な役割を果たすことができます。
+* Data Stewardsは、研究者からの質問への回答を提供したり、質問に答えられるような他の関係者にそれらを指示することができます。
+
+(cl-インフラストラクチャ-datastewards-support)=
+## データスチュワードをサポートする組織
+* [同盟研究](https://www.rd-alliance.org/)
+* [DTLデータスチュワーズインタレストグループ](https://www.dtls.nl/about/community/interest-groups/data-stewards-interest-group/)
 * [Research Data Access & Preservation](https://rdapassociation.org/)
 
 
-(cl-infrastructure-datastewards-summary)=
+(cl-インフラストラクチャ-datastewards-summary)=
 ## Summary
-Data Stewards are an important part of scientific communities, supporting recommended data management practices and saving researchers time by supporting them in these efforts. They do not have a formal career path or qualifications, but typically have a scientific or research background themselves.
+Data Stewardsは科学コミュニティの重要な部分であり、推奨データ管理の実践を支援し、研究者の時間を節約することができます。 彼らは正式なキャリアパスや資格を持っていません, しかし、通常、科学的または研究の背景自体を持っています.
 
 
 <!-- 
