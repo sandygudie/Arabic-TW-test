@@ -1,84 +1,84 @@
-(cl-infrastructure-communitymanagers)=
-# Community Managers: Overview
+(cl-infrastruktur-communitymanager)=
+# Community-Manager: Übersicht
 
-Community Managers are a growing role within scientific communities. They organise, support, maintain, grow, develop, evaluate and collaborate with people involved in research and scientific communities.
+Community Managers sind eine wachsende Rolle in wissenschaftlichen Gemeinschaften. Sie organisieren, unterstützen, pflegen, wachsen, entwickeln, bewerten und kooperieren mit Menschen aus Forschung und Wissenschaft.
 
-(cl-infrastructure-communitymanagers-tasks)=
-## What do Community Managers do?
+(cl-infrastruktur-communitymanager-Aufgaben) =
+## Was machen Community Manager?
 
-Community Managers main objective is to organise groups of scientists, researchers and/or patients and the public around shared research topics and objectives. They are often employed by professional societies, universities, research institutions, larger programmes, and non-profit organisations.
+Das Hauptziel der Community Managers ist die Organisation von Gruppen von Wissenschaftlern, Forschern und/oder Patienten und der Öffentlichkeit über gemeinsame Forschungsthemen und -ziele. Sie werden häufig von Berufsgesellschaften, Universitäten, Forschungseinrichtungen, größeren Programmen und gemeinnützigen Organisationen eingesetzt.
 
-Each role is varied but the main activities are typically focused around compassion, stewardship, and collaboration with the community:
-* Catalyse connections with all stakeholders
-* Foster communities (integrating communities together)
-* Linking the right people up together (based on expertise and interests)
-* Active community member
-* Communicating technical topics to non-technical colleagues and vice versa
-* Encouraging high standards of reproducible, ethical, inclusive and collaborative data science
-* Creating sub-networks within the community around shared experiences, for example, such as an early career researcher network
+Jede Rolle ist unterschiedlich, aber die Hauptaktivitäten konzentrieren sich in der Regel auf Mitgefühl, Treuhandschaft und Zusammenarbeit mit der Gemeinschaft:
+* Verbindungen mit allen Stakeholdern katalysieren
+* Geförderte Gemeinschaften (Integration von Gemeinschaften zusammen)
+* Vernetzung der richtigen Menschen (basierend auf Fachwissen und Interessen)
+* Aktives Community-Mitglied
+* Technische Themen mit nicht-technischen Kollegen kommunizieren und umgekehrt
+* Förderung hoher Standards für reproduzierbare, ethische, integrative und gemeinschaftliche Datenwissenschaften
+* Erstellen von Unternetzwerken innerhalb der Community über gemeinsame Erfahrungen, zum Beispiel über ein Netzwerk für frühzeitige Karriereforscher
 
-The day-to-day tasks of a community manager could include:
-* Organising and hosting community calls
-* Onboarding new members
-* Attending community leadership meetings
-* Writing community reports or newsletters
-* Maintaining and updating the community site
-* Posting on social media
-* Planning for upcoming community initiatives
-* Running training courses & workshops
-* Reading publications relevant to the community
-* Managing membership lists
-* Mentoring community contributions
-* Creating informational materials to help the wider field or public learn about the community and their projects
-* And a lot more!
+Die täglichen Aufgaben eines Community-Managers könnten beinhalten:
+* Organisieren und Hosting von Community-Anrufen
+* Onboarding-neue Mitglieder
+* Teilnahme an Community-Führungstreffen
+* Schreiben von Gemeinschaftsberichten oder Newslettern
+* Pflege und Aktualisierung der Community-Seite
+* Beiträge in sozialen Medien
+* Planung für kommende Gemeinschaftsinitiativen
+* Laufende Schulungskurse & Workshops
+* Lese-Publikationen, die für die Community relevant sind
+* Mitgliederlisten verwalten
+* Mentoring Community-Beiträge
+* Erstellung von Informationsmaterialien, um dem breiteren Feld oder der Öffentlichkeit zu helfen über die Gemeinschaft und ihre Projekte zu lernen
+* Und noch viel mehr!
 
-(cl-infrastructure-communitymanagers-skills)=
-## What qualifications or skills do you need to be a Community Manager?
-The vast majority of community managers will have a scientific background that may include advanced degrees (at a masters or doctoral level). Many community managers also have a background related to the specific field or discipline they manage a community in, but not all of them do. If the community is associated with software or programming, it is common for community managers to also have some coding skills.
+(cl-infrastruktur-communitymanager-Fähigkeiten) =
+## Welche Qualifikationen oder Fähigkeiten benötigen Sie, um Community Manager zu sein?
+Die überwiegende Mehrheit der Verwalter der Gemeinschaft wird einen wissenschaftlichen Hintergrund haben, der fortgeschrittene Abschlüsse (Master oder Doktoranden) umfassen kann. Viele Community-Manager haben auch einen Hintergrund, der sich auf das jeweilige Feld oder die Disziplin bezieht, in der sie eine Community verwalten, aber nicht alle von ihnen tun das. Wenn die Community mit Software oder Programmierung assoziiert ist, ist es üblich, dass Community-Manager auch einige Programmierkenntnisse besitzen.
 
-There is no professionally recognised qualification or training course to become a scientific community manager, but organisations do offer training and resources to help support the professional development of people in these roles. The values and approaches community managers bring to their roles are often the most important qualifications for success as a community manager.
+Es gibt keinen beruflich anerkannten Qualifikations- oder Ausbildungskurs, um wissenschaftlicher Community Manager zu werden aber Organisationen bieten Ausbildung und Ressourcen an, um die berufliche Entwicklung von Menschen in diesen Rollen zu unterstützen. Die Werte und Herangehensweisen an die Community-Manager stellen oft die wichtigsten Erfolgsqualifikationen als Community-Manager dar.
 
 ```{admonition} CSCCE Skills Wheel - Five Core Competancies 
-The Center for Scientific Collaboration and Community Engagement have released a skills wheel showing the wide variety of different skills a scientific community manager might need to perform their roles. 
-The five core competancies they highlight for community managers are: technical skills, communication, programme management, programme development and interpersonal. 
-Every community manager role will need a different balance of these skills depending on the needs, aims and platforms of the community. 
+Das Center for Scientific Collaboration und das Engagement der Gemeinschaft haben ein Kompetenzrad entwickelt, das zeigt, wie vielfältig die verschiedenen Fähigkeiten sind, die ein wissenschaftlicher Verwalter für seine Aufgaben benötigt. 
+Die fünf Kernkompetenzen für Community-Manager sind: technische Kompetenzen, Kommunikation, Programmmanagement, Programmentwicklung und interpersonal. 
+Jede Rolle des Community-Managers wird ein anderes Gleichgewicht dieser Fähigkeiten benötigen, je nach Bedarf, Zielen und Plattformen der Gemeinschaft. 
 
-You can find the Skills Wheel on Zendo here: [https://zenodo.org/record/4437294#.YYjzg07P1aQ](https://zenodo.org/record/4437294#.YYjzg07P1aQ)
+Du kannst das Skills Wheel auf Zendo finden: [https://zenodo.org/record/4437294#.Yjzg07P1aQ](https://zenodo.org/record/4437294#.Yjzg07P1aQ)
 ```
 
-(cl-infrastructure-communitymanagers-challenges)=
-## Challenges for Community Managers
-* Need to mediate between community members
-* May not be seen as a part of the community themselves and need to build trust and credibility within it
-* Need to have a lot of different skills (technical, interpersonal, project management)
-* Supporting and encouraging engagement in the community
-* Building infrastructure from scratch in newly created roles
-* Being seen as a professional in their own right and not just adminstrative staff
-* Connecting with new audiences who are not aware of the community
-* Translating between different groups in the same field or institution
-* Managing tasks where there is little formal process in place
-* Managing the different priorities of different stakeholder groups
-* Not always visible when things go well!
-* Lack of formal career progression
+(cl-infrastruktur-communitymanager-Herausforderung)=
+## Herausforderungen für Community-Manager
+* Benötigt Vermittlung zwischen Community-Mitgliedern
+* Kann nicht als Teil der Gemeinschaft selbst angesehen werden und muss Vertrauen und Glaubwürdigkeit in ihr aufbauen
+* Benötigen Sie viele unterschiedliche Fähigkeiten (technisches, interpersonales, Projektmanagement)
+* Unterstützung und Förderung des Engagements in der Gemeinschaft
+* Infrastruktur von Grund auf in neu geschaffenen Rollen bauen
+* Als eigenständiger Fachmann angesehen werden und nicht nur als administratives Personal
+* Verbindung mit neuen Zielgruppen, die sich der Community nicht bewusst sind
+* Übersetzung zwischen verschiedenen Gruppen im selben Feld oder Institution
+* Verwaltung von Aufgaben, bei denen nur wenig formale Prozesse vorhanden sind
+* Die Verwaltung der verschiedenen Prioritäten verschiedener Interessengruppen
+* Nicht immer sichtbar, wenn die Dinge gut gehen!
+* Mangel an formalen Karriereschritten
 
-(cl-infrastructure-communitymanagers-benefits)=
-## Benefits to having Community Managers
-* Able to offer meta-thinking about how the community is structured and run
-* Shares best practices around communication, collaboration, diversity, equity and inclusion, and other areas of research
-* Supports the upskilling of members via technical skill sharing and training
-* Supports other members of the community to take on more active roles, increasing resilience and expansion of the community
-* Stewarding initiatives to develop the community such as data standards, a code of conduct, or training workshops
-* Offers a stable base for the community, to make sure meetings happen on time
-* Connecting groups working on similar projects together, to support increased collaboration
-* Breaking down siloes between departments, fields, research groups
-* Greater understanding of the needs of the community
+(cl-infrastruktur-communitymanager-Vorteile)=
+## Vorteile von Community-Managern
+* Möglichkeit, Meta-Gedanken darüber anzubieten, wie die Community strukturiert und ausgeführt wird
+* Teilt Best Practices rund um Kommunikation, Zusammenarbeit, Vielfalt, Gerechtigkeit und Inklusion und andere Forschungsbereiche
+* Unterstützt das Upskilling von Mitgliedern durch das Teilen technischer Fähigkeiten und das Training
+* Unterstützt andere Mitglieder der Gemeinschaft bei der Übernahme aktiverer Rollen, der Erhöhung der Widerstandsfähigkeit und der Erweiterung der Gemeinschaft
+* Stewarding-Initiativen zur Entwicklung der Gemeinschaft wie Datenstandards, Verhaltenskodex oder Schulungswerkstätten
+* Bietet eine stabile Basis für die Gemeinschaft, um sicherzustellen, dass Meetings rechtzeitig stattfinden
+* Verbinden von Gruppen, die an ähnlichen Projekten arbeiten, um eine verstärkte Zusammenarbeit zu unterstützen
+* Aufteilung von Silos nach Abteilungen, Feldern, Forschungsgruppen
+* Mehr Verständnis für die Bedürfnisse der Gemeinschaft
 
 
-(cl-infrastructure-communitymanagers-organisations)=
-## Organisations that support Community Managers
-The Center for Scientific Collaboration and Community Engagement ([cscce.org](https://www.cscce.org/) works to _"professionalize and institutionalize the role of the community engagement manager (CEM) within science."_ They offer training, co-created resources, research, and an active community of practice for scientific community managers to connect and support each other.
+(cl-infrastruktur-communitymanager-Organisation)=
+## Organisationen, die Community-Manager unterstützen
+Das Zentrum für wissenschaftliche Zusammenarbeit und Engagement der Gemeinschaft ([cscce. rg](https://www.cscce.org/) arbeitet daran, _"die Rolle des Community engagement Managers (CEM) innerhalb der Wissenschaft zu professionalisieren und zu institutionalisieren._ Sie bieten Ausbildung, kogeschaffene Ressourcen, Forschung, und eine aktive Praxisgemeinschaft für wissenschaftliche Community-Manager, sich miteinander zu verbinden und zu unterstützen.
 
-(cl-infrastructure-communitymanagers-summary)=
+(cl-infrastruktur-communitymanager-Zusammenfassung)=
 ## Summary
-Community Managers are an important part of scientific communities, supporting collaboration, best practices, and stewarding their communities as they develop. They do not have a formal career path or qualifications, but typically have a scientific or research background themselves. 
+Community-Manager sind ein wichtiger Teil wissenschaftlicher Gemeinden, unterstützen Kooperation, bewährte Verfahren und betreuen ihre Communities im Entwicklungsprozess. Sie verfügen nicht über einen formalen Karriereweg oder Qualifikationen, haben aber in der Regel selbst einen wissenschaftlichen oder wissenschaftlichen Hintergrund. 
 
