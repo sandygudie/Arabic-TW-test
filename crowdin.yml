@@ -8,4 +8,4 @@ files:
       - _redirects
       - '*.txt'
       - LICENSE.md
-    translation: /book/website/%language%/%original_file_name%
+    translation: /book/website/translation/%language%/%original_file_name%
