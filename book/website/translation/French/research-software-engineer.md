@@ -1,41 +1,41 @@
 (cl-infrastructure-rse)=
-# Research Software Engineer: Overview
+# Ingénieur de logiciel de recherche : Aperçu
 
-Research Software Engineers (RSEs) are programmers with scientific backgrounds who play increasingly critical roles in the conduct of research and production of research software tools. They are highly skilled team members who can also conduct their own research as part of their role.
+Les ingénieurs de logiciels de recherche (ERS) sont des programmeurs possédant des antécédents scientifiques qui jouent un rôle de plus en plus important dans la conduite de la recherche et la production d'outils logiciels de recherche. Ce sont des membres d'équipes hautement qualifiées qui peuvent également mener leurs propres recherches dans le cadre de leur rôle.
 
 
-(cl-infrastructure-rse-role)=
-## What do Research Software Engineers do?
-RSEs work on research projects. They may be assigned to projects based on skills or background from a pool of other RSEs, or be specifically hired to work on a project.
+(cl-infrastructure-rse-rôle)=
+## Que font les ingénieurs de logiciels de recherche ?
+Les ESR travaillent sur des projets de recherche. Ils peuvent être affectés à des projets basés sur des compétences ou des antécédents provenant d'un groupe d'autres RSE, ou être embauché spécifiquement pour travailler sur un projet.
 
-Additionally, RSEs can also be PIs and run their own independent research projects, depending on the institution and policies of the projects they are working on.
+De plus, les ESR peuvent également être des PIs et gérer leurs propres projets de recherche indépendants, en fonction de l'institution et des politiques des projets sur lesquels ils travaillent.
 
-## Who are Research Software Engineers?
-RSEs typically have a scientific or research background, often developing programming skills during masters or doctoral studies. You can find out more about the backgrounds of RSEs through the [Software Sustinability Institute's 2018 Survey](https://www.software.ac.uk/blog/2018-03-12-what-do-we-know-about-rses-results-our-international-surveys).
+## Qui sont les ingénieurs logiciels de recherche ?
+Les ESR ont généralement des antécédents scientifiques ou de recherche, souvent en développant des compétences en programmation pendant les maîtrises ou les études de doctorat. Vous pouvez en savoir plus sur les fondements des RSE à travers l'enquête [de l'Institut de Sustinabilité Logiciel 2018](https://www.software.ac.uk/blog/2018-03-12-what-do-we-know-about-rses-results-our-international-surveys).
 
-## What qualifications or skills do you need to be a Research Software Engineer?
-There are not specific formal qualifications needed to become an RSE, but the majority will have at least one advanced degree (masters or doctoral level). However, all RSEs are able to program, with the majority coding in Python, SQL, R, C/C++ or JavaScript. RSEs are also likely to understand concepts such as agile development, integration and testing, software architecture, and version control.
+## Quelles qualifications ou compétences avez-vous besoin d'être ingénieur de logiciels de recherche ?
+Il n'y a pas de qualifications formelles spécifiques nécessaires pour devenir un ESR, mais la majorité aura au moins un diplôme avancé (maîtrise ou doctorat). Cependant, tous les RSE sont capables de programmer, avec le codage majoritaire en Python, SQL, R, C/C++ ou JavaScript. Les ESR sont également susceptibles de comprendre des concepts tels que le développement agile et l'intégration et les tests, l'architecture logicielle et le contrôle des versions.
 
-## Challenges for Research Software Engineers
-* Lack of formal pathways for development
-* Production of software and tools not always recognised as a research output
-* RSEs not viewed as researchers in their own right
-* Adjusting to working on different projects, possibly far from their original background
+## Défis pour les ingénieurs de logiciels de recherche
+* Manque de voies formelles pour le développement
+* La production de logiciels et d'outils n'est pas toujours reconnue comme une production de recherche
+* Les ESR ne sont pas considérées comme des chercheurs à part entière
+* Ajuster au travail sur différents projets, peut-être loin de leur arrière-plan d'origine
 
-## Benefits of having Research Software Engineers
-* Highly technical skills that support researchers who cannot program
-* Sharing of best practices in research software engineering across projects
-* Apply cross-disciplinary knowledge to different projects
-* Software will be more reliable and robust, supporting reuse and reproducibility
+## Avantages d'avoir des ingénieurs de logiciels de recherche
+* Des compétences techniques élevées qui soutiennent les chercheurs qui ne peuvent pas programmer
+* Partage des meilleures pratiques en ingénierie logicielle de recherche dans tous les projets
+* Appliquer les connaissances transdisciplinaires à différents projets
+* Le logiciel sera plus fiable et plus robuste, supportant la réutilisation et la reproductibilité
 
 (cl-infrastructure-rse-support)=
-## Organisations that support Research Software Engineers
-* [Society for Research Engineering](https://society-rse.org/)
-* [Software Sustainability Institute](https://www.software.ac.uk/)
+## Organisations qui supportent les ingénieurs de logiciels de recherche
+* [Société d'Ingénierie de Recherche](https://society-rse.org/)
+* [Institut de durabilité des logiciels](https://www.software.ac.uk/)
 
 (cl-infrastructure-rse-summary)=
 ## Summary
-Research Software Engineers are highly skilled, valuable members of any research group that is conducting computational research. They bring technical programming skills as well as best practices from software architecture and open source development to academic research. Some also conduct their own independent research projects.
+Les ingénieurs de logiciels de recherche sont des membres très compétents et précieux de tout groupe de recherche qui mène des recherches informatiques. Ils apportent des compétences en programmation technique ainsi que des meilleures pratiques de l'architecture logicielle et du développement du logiciel libre à la recherche universitaire. Certains mènent également leurs propres projets de recherche indépendants.
 
 
 
