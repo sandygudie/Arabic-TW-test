@@ -149,14 +149,14 @@ Docker Registration
 
 ```{glossary}
 
-Epistemology
- Theory of knowledge and deals with how knowledge is gathered and from which sources. In research terms your view of the world and of knowledge strongly influences your interpretation of data and therefore your philosophical standpoint should be made clear from the beginning. (Source: [Post by Nicole Brown](https://www.nicole-brown.co.uk/epistemology/))
+史诗
+ 知识理论和处理如何收集知识和从哪个来源收集知识。 从研究角度来看，你对世界和知识的看法对你们对数据的解释有很大影响，因此从一开始就应明确你们的哲学观点。 (资料来源：[Nicole Brown的帖子](https://www.nicole-brown.co)。 k/sultemology/))
 
-Equitable, Diverse and Inclusive Practices
-  Ensuring scholarship is open to anyone without barriers based on factors such as race, background, gender, and sexual orientation.
+平等、多样化和包容的做法
+  确保奖学金向任何人开放，没有基于种族等因素的障碍。 背景、性别和性取向。
 
-End to End Test
-  A test that runs the program from beginning to end and verifies that the output is correct.
+结束测试
+  是一个从开始到结束运行程序的测试，并验证输出是否正确。
 
 ```
 ---
@@ -226,14 +226,14 @@ Helm
 集成测试
   一个层次的软件测试，将单个单元合并并作为一个组进行测试。 这一测试水平的目的是揭示一体化单位之间相互作用中的缺陷。
 
-Intersectionality
-People's own unique experiences of social status, discrimination, oppression and anything that can marginalise them based on the hierarchy or combination or identities and backgrounds such as gender, race, class, sexual orientation, physical ability and so on. This term was coined by Kimberley Crenshaw. [see the post by Womankind](https://www.womankind.org.uk/intersectionality-101-what-is-it-and-why-is-it-important/)).
+交叉性
+人民自己独特的社会地位、歧视经历， 委员会还建议缔约国采取一切适当措施，消除对妇女的歧视，特别是基于等级或组合或身份和性别等背景的歧视和任何可能使她们边缘化的因素。 种族、阶级、性取向、身体能力等等。 这个词是由金伯利的克伦肖所创造的。 [见妇女的帖子](https://www.womankind.org.uk/intersectionality-101-what-it-and-why-is-it-it-important/))。
 
-Issues
-  Bug tracking system for GitHub. Collaborators can use issues to report bugs, request features, or set milestones for projects. Issues are tracked, reported, and closed by collaborators during the development process. They’re a great way of communicating with your team and reporting progress.
+问题
+  GitHub 的 Bug 跟踪系统。 协作者可以使用问题报告错误、请求功能或为项目设定里程碑。 合作者在开发过程中跟踪、报告和结案。 他们是与你的团队沟通和报告进度的好办法。
 
-Issue Tracking
-  The process of tracking current issues on the project, such as bug fixing, rolling out new features or community engagement plans.
+问题跟踪
+  跟踪项目当前问题的过程，例如修复错误、推出新功能或社区参与计划。
 ```
 ---
 ## 日
@@ -367,26 +367,26 @@ Persona Canvas
 Phony 目标
   是一个与文件系统上的文件不对应的目标。 一个目标被标记为恐惧，将它作为.PHONY目标的先决条件。
 
-Positionality
- Differences in social position and power shape identities and access in society. In acknowledging positionality, we also acknowledge intersecting social locations and complex power dynamics (also see: Intersectionality).
+定位性
+ 社会地位和权力形成特征的差异和社会接入的机会。 在承认位置的同时，我们也承认社会位置和复杂的权力动态相互交织（另见：交叉性）。
 
-Power Users
-  These are people who are already familiar enough with a platform to know the gotchas and tricks that make their experience more efficient.
+能量用户
+  这些人已经非常熟悉一个平台，知道使他们的体验更有效率的获得和技巧。
 
-Preprint
-   A preprint is a version of a scholarly or scientific paper that precedes formal peer review and publication in a peer-reviewed scholarly or scientific journal. It is usually uploaded by the authors to a public server where it is available openly.
+前印
+   是在同行审查的学术或科学杂志上发表正式同行审查和正式出版之前的学术或科学文件。 它通常由作者上传到一个公开可用的公共服务器。
 
-Prerequisite
-  The prerequisite(s) of a rule correspond to files or other targets in the Makefile that must be up to date before the rule is run.
+前提
+  规则的前提条件对应在 Makefile 中的文件或其他目标，而这些文件或目标必须在规则运行之前更新。
 
-Project Design
-  An early phase of the project where a project's key features, structure, criteria for success, and major deliverables are all planned out.
+项目设计
+  一个项目的早期阶段，项目的主要特点、结构、成功标准和主要可达到的目标都已规划完毕。
 
-Pull Request
-  Proposed changes to a remote repository. Collaborators without write access can send a pull request to the administrator with the changes they’ve made to the repo. The administrator can then approve and merge or reject the changes to the main repository. For open source projects pull requests can be sent by anyone that has forked a project.
+拉取请求
+  提议的更改到远程存储库。 没有写访问权限的协作者可以向管理员发送拉取请求，并且他们已经对仓库进行了修改。 然后管理员可以批准并合并或拒绝对主仓库的更改。 对于开源项目，任何人都可以发送拉取请求。
 
-Push
-  Sending changes to a remote repo. The remote repository is updated with the changes pushed and now mirrors the local repo.
+按下
+  发送更改到远程仓库中。 远程存储库已被推送更新，现在正在镜像本地存储库。
 ```
 ---
 ## Q
@@ -466,29 +466,29 @@ Research Compendia
 自封归档
   将出版物或其他研究产出放置在适当的储存库、机构或主题上。 按照出版商可能施加的限制，例如禁运期或对允许存入这类档案的版本加以限制。
 
-Self Reflection
-  Activity of thinking about our thoughts, feelings, emotions, behaviour action, and the reasons that may lie behind them. Taking the time for reflection we can grow our understanding of who we are, what our values are, and why we think, feel, and act the way we do. When we self-reflect and become more conscious of what drives us, we can more easily make changes that help us more easily develop our self or improve our life including the way we conduct research (source: [Berkeley Wellbeing](https://www.berkeleywellbeing.com/what-is-self-reflection.html)).
+自我反思
+  思考我们的思想、感情、情感、行为举止以及可能背后的原因。 在思考的时候，我们能够更加了解我们是谁。 我们的价值观是什么，以及为什么我们想、感觉和以何种方式行事。 当我们自我反思并更加意识到推动我们的因素时， 我们可以更容易地进行变革，帮助我们更容易地发展自己或改善自己的生活，包括我们进行研究的方式(资料来源：[Berkeley Wellbeing](https://www)。 erkeleywellbeing.com/what-is-selreflection.html)。
 
 SHA
-  Unique string of numbers of letters used to identify every commit or node in the repository.
+  用于识别仓库中每个提交或节点的字母的唯一字符串。
 
-Shared authorship
- Some journals permit the use of group names but many require contributors to be listed and/or the writing group to be named. This is the same as group authorship.
+共享作者
+ 某些日记允许使用组名，但许多日记要求贡献者被列出和/或写入组名。 这与小组作者相同。
 
-Smoke Testing
-  Very brief initial checks that ensure the basic requirements required to run the project hold. If these fail there is no point proceeding to additional levels of testing until they are fixed.
+烟雾测试
+  非常简短的初步检查，确保运行项目挂卡所需的基本要求。 如果未能做到这一点，在确定试验水平之前就没有任何意义。
 
 Staged
-  Staging the changes that will be included in the next git commit.
+  Staging the changes will be included in the next commit.
 
-Stochastic Code
-  Code which, while correct, does not always output the same result. For example a program that outputs ten random numbers will generate a different result each time, despite being correct.
+存档代码
+  正确，但并不总是输出相同的结果。 例如，一个输出10个随机数的程序将每次产生不同的结果，尽管是正确的。
 
-Syntax
-  The structure of statements in a computer language.
+语法
+  计算机语言的语句结构。
 
-System Testing
-  A level of the software testing process where a complete, integrated system is tested. The purpose of this test is to evaluate whether the system as a whole gives the correct outputs for given inputs. Also see end to end test.
+系统测试
+  在测试一个完整、综合的系统的软件测试过程中达到一个水平。 这项试验的目的是评估整个系统是否为特定投入提供了正确的产出。 也见结束端测试。
 
 ```
 ---
@@ -559,4 +559,4 @@ YAML
 ```{glossary}
 
 ```
---->
+---->
