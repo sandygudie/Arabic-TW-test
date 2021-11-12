@@ -1,4 +1,4 @@
-(bem-vindo)=
+(welcome)=
 # Boas-vindas
 
 *Tenha boas-vindas ao guia The Turing Way para ciência de dados reprodutível, ética e colaborativa.*
@@ -7,7 +7,7 @@ _The Turing Way_ é um projeto de código aberto, colaboração aberta e conduzi
 
 ```{admonition} Top Tip
 :class: tip
-_The Turing Way_ não deve ser lido do início ao fim.
+_The Turing Way_ não é para ser lido do início ao fim.
 Comece com um conceito, ferramenta ou método de que você precisa agora, no seu trabalho atual.
 Navegue pelos diferentes guias que compõem o livro ou use a caixa de pesquisa para pesquisar tudo o que você gostaria de aprender primeiro.
 ```
@@ -49,14 +49,14 @@ Embora _The Turing Way_ receba apoio e financiamento do [The Alan Turing Institu
 
 Valorizamos a participação de todos os membros da nossa comunidade e queremos garantir que todos os contribuintes tenham uma experiência agradável e realizante. Assim, todos os que participam do projeto _The Turing Way_ devem mostrar respeito e cortesia para com outros membros da comunidade a todo momento. Todas as contribuições devem obedecer ao nosso [código de conduta](https://github.com/alan-turing-institute/the-turing-way/blob/main/CODE_OF_CONDUCT.md).
 
-![Se mostrando a captura de tela de tabelas de colaboradores, sorrindo rostos e emojis representando os tipos de contribuições em uma tabela](https://media.giphy.com/media/gKIUisnjpj2PS75nOJ/giphy.gif)
+![Gif mostrando a captura de tela da tabela de colaboradores, carinhas felizes e emojis representando os tipos de contribuições em uma tabela](https://media.giphy.com/media/gKIUisnjpj2PS75nOJ/giphy.gif)
 
-(bem-vindo-história)=
+(welcome-history)=
 ## Histórico
 
-O livro começou em janeiro de 2019 como um guia para reprodutibilidade, cobrindo {ref}`rr-vcs`, {ref}`rr-test`, e {ref}`rr-ci`. No entanto, as competências técnicas são apenas um aspecto para tornar a investigação científica de dados "aberta a todos" e, por isso, em Fevereiro de 2020, _A Caminho da Turing_ se expandiu em uma série de guias: {ref}`rr`, {ref}`pd`, {ref}`cm`, {ref}`cl`e {ref}`er`.
+O livro começou em janeiro de 2019 como um guia para reprodutibilidade, cobrindo {ref}`rr-vcs`, {ref}`rr-test`, e {ref}`rr-ci`. No entanto, as competências técnicas são apenas um aspecto para tornar a investigação científica de dados "aberta a todas as pessoas" e, por isso, em Fevereiro de 2020, _The Turing Way_ se expandiu em uma série de guias: {ref}`rr`, {ref}`pd`, {ref}`cm`, {ref}`cl`e {ref}`er`.
 
-(bem-vindo(citar)=
+(welcome-citing)=
 ## Citando _The Turing Way_
 
 Todo o material em _The Turing Way_ está disponível sob uma licença [CC-BY 4.0](https://github.com/alan-turing-institute/the-turing-way/blob/main/LICENSE.md).
@@ -65,10 +65,10 @@ Você pode citar _The Turing Way_ através do arquivo do Zenodo do do projeto us
 
 A citação será algo como:
 
-> A Turing Way, Becky Arnold, Louise Bowler, Sarah Gibson, Patricia Herterich, Rosie Higman, … Quirstie Whitaker. (2019, 25 de março). Modo de Turing: Um manual para Ciência de Dados Reprodutiva (Versão v0.0.4). Zenodo. http://doi.org/10.5281/zenodo.3233986
+> A Turing Way, Becky Arnold, Louise Bowler, Sarah Gibson, Patricia Herterich, Rosie Higman, … Kirstie Whitaker. (2019, 25 de março). The Turing Way: Um manual para Ciência de Dados Reprodutível (Versão v0.0.4). Zenodo. http://doi.org/10.5281/zenodo.3233986
 
 Por favor, visite o [link DOI](https://doi.org/10.5281/zenodo.3233853) embora para obter a versão mais recente - o acima não é gerado automaticamente e pode estar desatualizado. Os DOIs nos permitem arquivar o repositório e são úteis para rastrear o trabalho em publicações acadêmicas.
 
 Você também pode compartilhar o URL legível para uma página no livro, por exemplo, {ref}`https://the-turing-way.netlify. pp/reproducible-research/overview/overview-definitions.html <rr-overview-definitions>`, mas esteja ciente de que o projeto está em desenvolvimento e estes links podem mudar ao longo do tempo. Você pode querer incluir um [link para arquivo da web](http://web.archive.org), como: [https://web.archive.org/web/20191030093753/https://the-turing-way. etlify.com/reproducibility/03/definitions.html](https://web.archive.org/web/20191030093753/https://the-turing-way.netlify.com/reproducibility/03/definitions.html), para garantir que você não acabe com links quebrados em qualquer lugar!
 
-Nós realmente apreciamos quaisquer referências que você faça ao projeto _The Turing Way_ em seu trabalho, e esperamos que ele seja útil. Se você tiver alguma dúvida, por favor, [entre em contato](https://github.com/alan-turing-institute/the-turing-way#get-in-touch).
+Nós realmente apreciamos todas as referências que você fizer ao projeto _The Turing Way_ em seu trabalho, e esperamos que ele seja útil. Se você tiver alguma dúvida, por favor, [entre em contato](https://github.com/alan-turing-institute/the-turing-way#get-in-touch).
