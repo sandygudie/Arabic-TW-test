@@ -1,41 +1,41 @@
-(cl-infrastructure-rse)=
-# Research Software Engineer: Overview
+(cl-infrastruktur-rse)=
+# Research Software Engineer: Übersicht
 
-Research Software Engineers (RSEs) are programmers with scientific backgrounds who play increasingly critical roles in the conduct of research and production of research software tools. They are highly skilled team members who can also conduct their own research as part of their role.
+Research Software Engineers (RSE) sind Programmierer mit wissenschaftlichem Hintergrund, die zunehmend kritische Rollen bei der Forschung und Produktion von Forschungs-Software-Tools spielen. Sie sind hochqualifizierte Teammitglieder, die auch ihre eigene Forschung als Teil ihrer Rolle betreiben können.
 
 
-(cl-infrastructure-rse-role)=
-## What do Research Software Engineers do?
-RSEs work on research projects. They may be assigned to projects based on skills or background from a pool of other RSEs, or be specifically hired to work on a project.
+(cl-infrastruktur-rse-Rolle)=
+## Was machen Research Software Engineers eigentlich?
+RSEs arbeiten an Forschungsprojekten. Sie können Projekten zugewiesen werden, die auf Fähigkeiten oder Hintergrund aus einem Pool von anderen RSEs basieren, oder speziell eingestellt werden, um an einem Projekt zu arbeiten.
 
-Additionally, RSEs can also be PIs and run their own independent research projects, depending on the institution and policies of the projects they are working on.
+Zusätzlich können RSEs auch PIs sein und eigene unabhängige Forschungsprojekte durchführen je nach Institution und Politik der Projekte, an denen sie arbeiten.
 
-## Who are Research Software Engineers?
-RSEs typically have a scientific or research background, often developing programming skills during masters or doctoral studies. You can find out more about the backgrounds of RSEs through the [Software Sustinability Institute's 2018 Survey](https://www.software.ac.uk/blog/2018-03-12-what-do-we-know-about-rses-results-our-international-surveys).
+## Wer sind Research Software Engineering?
+RSEs haben in der Regel einen wissenschaftlichen oder wissenschaftlichen Hintergrund, wobei sie oft Programmierkenntnisse während Masterstudien oder Doktorarbeiten entwickeln. Mehr über die Hintergründe von RSEs erfahren Sie in der Umfrage des [Software Sustinability Institute 2018](https://www.software.ac.uk/blog/2018-03-12-what-do-we-know-about-rses-results-our-international-surveys).
 
-## What qualifications or skills do you need to be a Research Software Engineer?
-There are not specific formal qualifications needed to become an RSE, but the majority will have at least one advanced degree (masters or doctoral level). However, all RSEs are able to program, with the majority coding in Python, SQL, R, C/C++ or JavaScript. RSEs are also likely to understand concepts such as agile development, integration and testing, software architecture, and version control.
+## Welche Qualifikationen oder Fähigkeiten benötigen Sie, um ein Research Software Engineer zu sein?
+Es werden keine spezifischen formellen Qualifikationen benötigt, um eine RSE zu werden, aber die Mehrheit wird mindestens einen fortgeschrittenen Abschluss haben (Meister oder Doktoranden). Allerdings sind alle RSEs in der Lage, mit der Mehrheitscodierung in Python, SQL, R, C/C++ oder JavaScript zu programmieren. RSEs verstehen wahrscheinlich auch Konzepte wie agile Entwicklung, Integration und Testing, Software-Architektur und Versionskontrolle.
 
-## Challenges for Research Software Engineers
-* Lack of formal pathways for development
-* Production of software and tools not always recognised as a research output
-* RSEs not viewed as researchers in their own right
-* Adjusting to working on different projects, possibly far from their original background
+## Herausforderungen für Software-Ingenieure erforschen
+* Mangel an formellen Wegen für die Entwicklung
+* Produktion von Software und Werkzeugen nicht immer als Forschungsleistung erkannt
+* RSEs werden nicht als Forscher angesehen
+* Anpassung an die Arbeit an verschiedenen Projekten, möglicherweise weit von ihrem ursprünglichen Hintergrund entfernt
 
-## Benefits of having Research Software Engineers
-* Highly technical skills that support researchers who cannot program
-* Sharing of best practices in research software engineering across projects
-* Apply cross-disciplinary knowledge to different projects
-* Software will be more reliable and robust, supporting reuse and reproducibility
+## Vorteile von Forschungssoftware-Ingenieuren
+* Hoch technische Fähigkeiten, die Forscher unterstützen, die nicht programmieren können
+* Austausch von Best Practices in der Softwareentwicklung über Projekte hinweg
+* Disziplinarübergreifendes Wissen auf verschiedene Projekte anwenden
+* Software wird zuverlässiger und robuster sein, unterstützt Wiederverwendung und Reproduzierbarkeit
 
-(cl-infrastructure-rse-support)=
-## Organisations that support Research Software Engineers
+(cl-infrastruktur-rse-support)=
+## Organisationen, die Software-Ingenieure für Forschung unterstützen
 * [Society for Research Engineering](https://society-rse.org/)
-* [Software Sustainability Institute](https://www.software.ac.uk/)
+* [Software-Nachhaltigkeitsinstitut](https://www.software.ac.uk/)
 
-(cl-infrastructure-rse-summary)=
+(cl-infrastruktur-rse-Zusammenfassung)=
 ## Summary
-Research Software Engineers are highly skilled, valuable members of any research group that is conducting computational research. They bring technical programming skills as well as best practices from software architecture and open source development to academic research. Some also conduct their own independent research projects.
+Research Software Engineers sind hochqualifizierte, wertvolle Mitglieder jeder Forschungsgruppe, die Computerforschung betreibt. Sie bringen sowohl technische Programmierkenntnisse als auch Best Practices von der Softwarearchitektur und Open-Source-Entwicklung bis hin zur akademischen Forschung mit. Einige führen auch eigene eigenständige Forschungsprojekte durch.
 
 
 
