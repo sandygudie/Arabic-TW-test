@@ -1,84 +1,84 @@
-(cl-infrastructure-communitymanagers)=
-# Community Managers: Overview
+(cl-インフラストラクチャ-コミュニティマネージャー)=
+# コミュニティ・マネージャー: 概要
 
-Community Managers are a growing role within scientific communities. They organise, support, maintain, grow, develop, evaluate and collaborate with people involved in research and scientific communities.
+コミュニティマネージャーは科学コミュニティの中でますます重要な役割を果たしています。 彼らは研究や科学コミュニティに関わる人々と組織化、支援、維持、成長、評価、協力を行っています。
 
-(cl-infrastructure-communitymanagers-tasks)=
-## What do Community Managers do?
+(cl-インフラストラクチャ-コミュニティマネージャー-tasks)=
+## コミュニティマネージャーは何をしますか?
 
-Community Managers main objective is to organise groups of scientists, researchers and/or patients and the public around shared research topics and objectives. They are often employed by professional societies, universities, research institutions, larger programmes, and non-profit organisations.
+コミュニティマネージャーの主な目的は、科学者、研究者および/または患者のグループと共有された研究テーマおよび目的に関する一般の人々を組織することです。 彼らは多くの場合、プロの社会に雇われています, 大学, 研究機関, より大きなプログラム, そして、非営利団体.
 
-Each role is varied but the main activities are typically focused around compassion, stewardship, and collaboration with the community:
-* Catalyse connections with all stakeholders
-* Foster communities (integrating communities together)
-* Linking the right people up together (based on expertise and interests)
-* Active community member
-* Communicating technical topics to non-technical colleagues and vice versa
-* Encouraging high standards of reproducible, ethical, inclusive and collaborative data science
-* Creating sub-networks within the community around shared experiences, for example, such as an early career researcher network
+各役割はさまざまですが、主な活動は通常、思いやり、スチュワードシップ、コミュニティとのコラボレーションに焦点を当てています。
+* すべてのステークホルダーとの接続
+* コミュニティを育てる（一緒にコミュニティを統合する）
+* 適切な人々を一緒にリンクする（専門知識と興味に基づく）
+* アクティブなコミュニティメンバー
+* 技術的なトピックを非技術的な同僚に、その逆に連絡する
+* 再現性、倫理的、包括的かつ協調的なデータサイエンスの高い基準を奨励する
+* 例えば、キャリア初期の研究者ネットワークなど、共有された経験を基にしたサブネットワークをコミュニティ内に作成します
 
-The day-to-day tasks of a community manager could include:
-* Organising and hosting community calls
-* Onboarding new members
-* Attending community leadership meetings
-* Writing community reports or newsletters
-* Maintaining and updating the community site
-* Posting on social media
-* Planning for upcoming community initiatives
-* Running training courses & workshops
-* Reading publications relevant to the community
-* Managing membership lists
-* Mentoring community contributions
-* Creating informational materials to help the wider field or public learn about the community and their projects
-* And a lot more!
+コミュニティマネージャーの日々のタスクには以下のものがあります:
+* コミュニティー通話の開催とホスティング
+* 新規メンバーの登録
+* コミュニティリーダーシップ会議への参加
+* コミュニティレポートやニュースレターを書く
+* コミュニティサイトの維持と更新
+* ソーシャルメディアへの投稿
+* 今後のコミュニティイニシアチブの計画
+* トレーニングコース & ワークショップを実行しています
+* コミュニティに関連する出版物を読んでいます
+* メンバーシップリストの管理
+* メンターコミュニティへの貢献
+* より広い分野または一般にコミュニティとそのプロジェクトについて学ぶための情報資料を作成する
+* そしてもっとたくさん!
 
-(cl-infrastructure-communitymanagers-skills)=
-## What qualifications or skills do you need to be a Community Manager?
-The vast majority of community managers will have a scientific background that may include advanced degrees (at a masters or doctoral level). Many community managers also have a background related to the specific field or discipline they manage a community in, but not all of them do. If the community is associated with software or programming, it is common for community managers to also have some coding skills.
+(cl-インフラストラクチャ-コミュニティマネージャー-スキル)=
+## コミュニティマネージャーになるためには、どのような資格やスキルが必要ですか?
+コミュニティマネージャの大多数は、(マスターまたは博士レベルで)高度な学位を含むことができる科学的な背景を持っています。 多くのコミュニティマネージャーはまた、彼らがコミュニティを管理する特定の分野や規律に関連する背景を持っていますが、それらのすべてがそうではありません。 コミュニティがソフトウェアやプログラミングに関連付けられている場合、コミュニティ管理者はコーディングスキルを持つことが一般的です。
 
-There is no professionally recognised qualification or training course to become a scientific community manager, but organisations do offer training and resources to help support the professional development of people in these roles. The values and approaches community managers bring to their roles are often the most important qualifications for success as a community manager.
+科学コミュニティマネージャーになるための専門的な資格やトレーニングコースはありません。 しかし、組織は、これらの役割の人々の専門的な発展を支援するためのトレーニングとリソースを提供しています。 コミュニティマネージャーの役割にもたらす価値観とアプローチは、コミュニティマネージャーとして成功するための最も重要な資格です。
 
 ```{admonition} CSCCE Skills Wheel - Five Core Competancies 
-The Center for Scientific Collaboration and Community Engagement have released a skills wheel showing the wide variety of different skills a scientific community manager might need to perform their roles. 
-The five core competancies they highlight for community managers are: technical skills, communication, programme management, programme development and interpersonal. 
-Every community manager role will need a different balance of these skills depending on the needs, aims and platforms of the community. 
+サイエンティフィック・コラボレーションとコミュニティ・エンゲージメントセンターは、コミュニティのマネージャーが自分の役割を果たすために必要なさまざまなスキルを示すスキルホイールをリリースしました。 
+彼らがコミュニティマネージャーのために強調する5つのコアコンピテンシーは次のとおりです: 技術スキル, コミュニケーション, プログラム管理, プログラム開発と個人間. 
+すべてのコミュニティマネージャーの役割は、コミュニティのニーズ、目的、プラットフォームに応じて、これらのスキルの異なるバランスを必要とします。 
 
-You can find the Skills Wheel on Zendo here: [https://zenodo.org/record/4437294#.YYjzg07P1aQ](https://zenodo.org/record/4437294#.YYjzg07P1aQ)
+スキルホイールは Zendo にあります: [https://zenodo.org/record/4437294#.YYjzg07P1aQ](https://zenodo.org/record/4437294#.YYjzg07P1aQ)
 ```
 
-(cl-infrastructure-communitymanagers-challenges)=
-## Challenges for Community Managers
-* Need to mediate between community members
-* May not be seen as a part of the community themselves and need to build trust and credibility within it
-* Need to have a lot of different skills (technical, interpersonal, project management)
-* Supporting and encouraging engagement in the community
-* Building infrastructure from scratch in newly created roles
-* Being seen as a professional in their own right and not just adminstrative staff
-* Connecting with new audiences who are not aware of the community
-* Translating between different groups in the same field or institution
-* Managing tasks where there is little formal process in place
-* Managing the different priorities of different stakeholder groups
-* Not always visible when things go well!
-* Lack of formal career progression
+(cl-インフラストラクチャー・コミュニティ・マネージャー・チャレンジ)=
+## コミュニティマネージャーのためのチャレンジ
+* コミュニティメンバー間の仲介が必要
+* コミュニティ自身の一部として見なされることができないため、その中で信頼性と信頼性を構築する必要があります
+* さまざまなスキル(技術、個人間、プロジェクト管理)が必要です
+* コミュニティへの支援と奨励活動
+* 新しく作成された役割でインフラを一から構築する
+* 管理者的なスタッフだけではなく、自分の権利の専門家として見られている
+* コミュニティに気づいていない新しいオーディエンスとつながります
+* 同じフィールドまたは教育機関の異なるグループ間で翻訳する
+* 正式なプロセスが少ない場合のタスクの管理
+* さまざまなステークホルダーグループの優先順位を管理する
+* 物事がうまくいくときに必ずしも目に見えるわけではありません!
+* 正式なキャリア形成の不足
 
-(cl-infrastructure-communitymanagers-benefits)=
-## Benefits to having Community Managers
-* Able to offer meta-thinking about how the community is structured and run
-* Shares best practices around communication, collaboration, diversity, equity and inclusion, and other areas of research
-* Supports the upskilling of members via technical skill sharing and training
-* Supports other members of the community to take on more active roles, increasing resilience and expansion of the community
-* Stewarding initiatives to develop the community such as data standards, a code of conduct, or training workshops
-* Offers a stable base for the community, to make sure meetings happen on time
-* Connecting groups working on similar projects together, to support increased collaboration
-* Breaking down siloes between departments, fields, research groups
-* Greater understanding of the needs of the community
+(cl-インフラストラクチャ-コミュニティマネージャー-利点)=
+## コミュニティマネージャーを持つ利点
+* コミュニティがどのように構造化され実行されるかについてのメタ思考を提供することができます
+* コミュニケーション、コラボレーション、多様性、公平性、包摂性、その他の研究分野に関するベストプラクティスを共有します
+* 技術スキルの共有とトレーニングを通じてメンバーのスキルアップをサポート
+* コミュニティの他のメンバーがより積極的な役割を果たし、コミュニティの回復力と拡大を支援する
+* データ基準、行動規範、研修ワークショップなど、コミュニティを発展させるためのイニシアチブを管理する
+* 時間通りにミーティングができるよう、コミュニティの安定した拠点を提供します。
+* 同様のプロジェクトに取り組んでいるグループを連携させ、コラボレーションの増加をサポートします。
+* 部門間のサイロを破壊する, フィールド, 研究グループ
+* コミュニティーのニーズをより深く理解する
 
 
-(cl-infrastructure-communitymanagers-organisations)=
-## Organisations that support Community Managers
+(cl-インフラストラクチャ-コミュニティマネージャー組織)=
+## コミュニティマネージャーをサポートする組織
 The Center for Scientific Collaboration and Community Engagement ([cscce.org](https://www.cscce.org/) works to _"professionalize and institutionalize the role of the community engagement manager (CEM) within science."_ They offer training, co-created resources, research, and an active community of practice for scientific community managers to connect and support each other.
 
-(cl-infrastructure-communitymanagers-summary)=
+(cl-インフラストラクチャ-コミュニティマネージャー-summary)=
 ## Summary
-Community Managers are an important part of scientific communities, supporting collaboration, best practices, and stewarding their communities as they develop. They do not have a formal career path or qualifications, but typically have a scientific or research background themselves. 
+コミュニティマネージャーは、科学的コミュニティの重要な部分であり、コラボレーション、ベストプラクティス、そして彼らが発展するにつれてコミュニティを管理することを支援します。 彼らは正式なキャリアパスや資格を持っていません, しかし、通常、科学的または研究の背景自体を持っています. 
 
