@@ -3,31 +3,31 @@
 
 *Bem-vinda ao manual The Turing Way para ciência de dados reprodutível, ética e colaborativa.*
 
-_The Turing Way_ é um projeto de código aberto, colaboração aberta e conduzido pela comunidade. Nós envolvemos e apoiamos uma comunidade diversificada de colaboradores para tornar a ciência de dados acessível, compreensível e eficaz para todas as pessoas. Nosso objetivo é fornecer toda a informação que pesquisadores e cientistas de dados da academia, a indústria e o sector público precisam de garantir que os projectos em que trabalham são fáceis de reproduzir e de reutilizar.
+_The Turing Way_ é um projeto de código aberto, colaboração aberta e conduzido pela comunidade. Nós envolvemos e apoiamos uma comunidade diversificada de colaboradores para tornar a ciência de dados acessível, compreensível e eficaz para todas as pessoas. Nosso objetivo é fornecer toda a informação necessária para que pesquisadores e cientistas de dados da academia, a indústria e o sector público garantam que os projetos em que trabalham são fáceis de reproduzir e de reutilizar.
 
 ```{admonition} Top Tip
-Dica :class:
+:class: tip
 _The Turing Way_ não deve ser lido do início ao fim.
 Comece com um conceito, ferramenta ou método de que você precisa agora, no seu trabalho atual.
 Navegue pelos diferentes guias que compõem o livro ou use a caixa de pesquisa para pesquisar tudo o que você gostaria de aprender primeiro.
 ```
 
-Todas as partes interessadas, incluindo investigadores, engenheiros de software, líderes de projetos e equipes de financiamento, são encorajados a usar _The Turing Way_ para entender seus papéis e responsabilidade de reprodutibilidade em Ciência de dados. You can inspect our resources on [GitHub](https://github.com/alan-turing-institute/the-turing-way), contribute to the project as described in our [contribution guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) and re-use all materials ([see the License](https://github.com/alan-turing-institute/the-turing-way/blob/main/LICENSE.md)).
+Todas as partes interessadas, incluindo investigadores, engenheiros de software, líderes de projetos e equipes de financiamento, são encorajadas a usar _The Turing Way_ para entender seus papéis e responsabilidade de reprodutibilidade em Ciência de dados. You can inspect our resources on [GitHub](https://github.com/alan-turing-institute/the-turing-way), contribute to the project as described in our [contribution guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) and re-use all materials ([see the License](https://github.com/alan-turing-institute/the-turing-way/blob/main/LICENSE.md)).
 
 ```{figure} figures/welcome.jpg
 ---
 nome: Bem-vindo, e-imagem
 alt: O projeto Caminho de Turing é ilustrado como uma estrada ou caminho com lojas para diferentes habilidades de ciência de dados. As pessoas podem entrar e sair com o seu carrinho de compras e escolher o que precisam.
 ---
-_A Turing Way_ ilustração de projeto por Scriberia. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
+Ilustração de projeto _The Turing Way_ por Scriberia. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
 ```
 
-(bem-vindo-comunidade)=
+(welcome-community)=
 ## Nossa Comunidade
 
-_A comunidade Turing Way_ é dedicada a fazer pesquisa colaborativa, reutilizável e transparente "muito fácil de não fazer". Isso significa investir nas competências sociotécnicas necessárias para trabalhar numa equipa, para construir algo mais significativo do que qualquer indivíduo poderia proporcionar sozinho.
+A comunidade de _The Turing Way_ é dedicada a fazer pesquisa colaborativa, reutilizável e transparente "muito fácil para não fazer". Isso significa investir nas competências sociotécnicas necessárias para trabalhar numa equipe, para construir algo mais significativo do que qualquer indivíduo poderia proporcionar sozinho.
 
-_A Caminho da Turing_ é:
+_The Turing Way_ é:
 
 * um livro
 * uma comunidade
@@ -35,7 +35,7 @@ _A Caminho da Turing_ é:
 
 Esperamos que você ache útil o conteúdo do livro. Tudo aqui está disponível gratuitamente sob uma [licença CC-BY](https://github.com/alan-turing-institute/the-turing-way/blob/main/LICENSE.md). Use e reutilize o que precisar, para qualquer propósito.
 
-O livro é escrito colaborativamente e aberto desde o início. Para tornar esse projeto verdadeiramente acessível e útil para todos, convidamos você a contribuir com suas habilidades e trazer suas perspectivas para esse projeto. Para se juntar a esta comunidade, por favor leia nossas [diretrizes de contribuição](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) e formas de [entrar em contato](https://github.com/alan-turing-institute/the-turing-way#get-in-touch). Mais informações sobre a comunidade e o projeto estão disponíveis no {ref}`ch`. Estamos ansiosos para expandir e construir _The Turing Way_ juntos.
+O livro é escrito colaborativamente e aberto desde o início. Para tornar esse projeto verdadeiramente acessível e útil para todas as pessoas, convidamos você a contribuir com suas habilidades e trazer suas perspectivas para esse projeto. Para se juntar a esta comunidade, por favor leia nossas [diretrizes de contribuição](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) e formas de [entrar em contato](https://github.com/alan-turing-institute/the-turing-way#get-in-touch). Mais informações sobre a comunidade e o projeto estão disponíveis no {ref}`ch`. Estamos ansiosos para expandir e construir _The Turing Way_ juntos.
 
 ```{figure} figures/theturingway-chapters.jpg
 ---
