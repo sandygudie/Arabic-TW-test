@@ -149,14 +149,14 @@ Digital Object Identifier
 
 ```{glossary}
 
-Epistemology
- Theory of knowledge and deals with how knowledge is gathered and from which sources. In research terms your view of the world and of knowledge strongly influences your interpretation of data and therefore your philosophical standpoint should be made clear from the beginning. (Source: [Post by Nicole Brown](https://www.nicole-brown.co.uk/epistemology/))
+Epistemologie
+ Wissenstheorie und Umgang mit der Art und Weise, wie Wissen gewonnen wird und aus welchen Quellen. Ihre Sicht auf die Welt und das Wissen beeinflusst Ihre Interpretation von Daten stark, und deshalb sollte Ihr philosophischer Standpunkt von Anfang an deutlich gemacht werden. (Quelle: [Post by Nicole Brown](https://www.nicole-brown.co. k/Epistemologie/))
 
-Equitable, Diverse and Inclusive Practices
-  Ensuring scholarship is open to anyone without barriers based on factors such as race, background, gender, and sexual orientation.
+Ausgewogene, Diverse und Inclusive Practices
+  Stipendiat ist offen für jeden ohne Barrieren aufgrund von Faktoren wie Rasse, Herkunft, Geschlecht und sexuelle Orientierung.
 
 End to End Test
-  A test that runs the program from beginning to end and verifies that the output is correct.
+  Ein Test, der das Programm vom Anfang bis zum Ende ausführt und überprüft, ob die Ausgabe korrekt ist.
 
 ```
 ---
@@ -226,14 +226,14 @@ Bild
 Integrationstests
   Eine Stufe des Software-Testens, bei der einzelne Einheiten als Gruppe kombiniert und getestet werden. Der Zweck dieser Teststufe ist es, Fehler in der Interaktion zwischen integrierten Einheiten zu enthüllen.
 
-Intersectionality
-People's own unique experiences of social status, discrimination, oppression and anything that can marginalise them based on the hierarchy or combination or identities and backgrounds such as gender, race, class, sexual orientation, physical ability and so on. This term was coined by Kimberley Crenshaw. [see the post by Womankind](https://www.womankind.org.uk/intersectionality-101-what-is-it-and-why-is-it-important/)).
+Intersektionalität
+Eigene Erfahrungen mit sozialem Status, Diskriminierung, Unterdrückung und alles, was sie aufgrund der Hierarchie oder Kombination oder Identitäten und Hintergründe wie Geschlecht marginalisieren kann. Rasse, Klasse, sexuelle Orientierung, körperliche Fähigkeiten und so weiter. Dieser Begriff wurde von Kimberley Crenshaw geprägt. [siehe den Beitrag von Womankind](https://www.womankind.org.uk/intersectionality-101-what-is-it-it-important/)).
 
-Issues
-  Bug tracking system for GitHub. Collaborators can use issues to report bugs, request features, or set milestones for projects. Issues are tracked, reported, and closed by collaborators during the development process. They’re a great way of communicating with your team and reporting progress.
+Probleme
+  Fehlerverfolgungssystem für GitHub. Mitarbeiter können Probleme nutzen, um Fehler zu melden, Funktionen anzufordern oder Meilensteine für Projekte festzulegen. Probleme werden von Mitarbeitern während des Entwicklungsprozesses verfolgt, gemeldet und geschlossen. Sie sind eine großartige Möglichkeit, mit Ihrem Team zu kommunizieren und Fortschritte zu melden.
 
-Issue Tracking
-  The process of tracking current issues on the project, such as bug fixing, rolling out new features or community engagement plans.
+Fehlerverfolgung
+  Der Prozess der Verfolgung aktueller Probleme im Projekt, wie Fehlerbehebung, Erstellung neuer Funktionen oder Gemeinschaftspläne.
 ```
 ---
 ## J
@@ -367,26 +367,26 @@ Persona Leinwand
 Phony Target
   Ein Phony Target ist eines, das nicht mit einer Datei im Dateisystem übereinstimmt. Ein Ziel ist als Phonie markiert, indem es zur Voraussetzung des .PHONY Ziels gemacht wird.
 
-Positionality
- Differences in social position and power shape identities and access in society. In acknowledging positionality, we also acknowledge intersecting social locations and complex power dynamics (also see: Intersectionality).
+Positionalität
+ Unterschiede in sozialer Position und Macht prägen Identitäten und den Zugang zur Gesellschaft. Indem wir die Positionalität anerkennen, erkennen wir auch die Überschneidung sozialer Standorte und die komplexe Machtdynamik (auch siehe: Intersektionalität).
 
-Power Users
-  These are people who are already familiar enough with a platform to know the gotchas and tricks that make their experience more efficient.
+Power User
+  Das sind Leute, die bereits mit einer Plattform vertraut sind, um die Gotchas und Tricks kennenzulernen, die ihre Erfahrung effizienter machen.
 
-Preprint
-   A preprint is a version of a scholarly or scientific paper that precedes formal peer review and publication in a peer-reviewed scholarly or scientific journal. It is usually uploaded by the authors to a public server where it is available openly.
+Vorabdruck
+   Ein Vorabdruck ist eine Version eines wissenschaftlichen oder wissenschaftlichen Papiers, das einer formalen Peer-Rezension und Veröffentlichung in einem wissenschaftlich geprüften wissenschaftlichen oder wissenschaftlichen Journal vorausgeht. Es wird normalerweise von den Autoren auf einen öffentlichen Server hochgeladen, auf dem es öffentlich verfügbar ist.
 
-Prerequisite
-  The prerequisite(s) of a rule correspond to files or other targets in the Makefile that must be up to date before the rule is run.
+Voraussetzung
+  Die Voraussetzung(en) einer Regel entsprechen Dateien oder anderen Zielen im Makefile, die aktualisiert sein müssen, bevor die Regel ausgeführt wird.
 
-Project Design
-  An early phase of the project where a project's key features, structure, criteria for success, and major deliverables are all planned out.
+Projekt Design
+  Eine frühe Phase des Projekts, in der die wichtigsten Merkmale, Struktur, Erfolgskriterien und wichtige Ergebnisse geplant sind.
 
-Pull Request
-  Proposed changes to a remote repository. Collaborators without write access can send a pull request to the administrator with the changes they’ve made to the repo. The administrator can then approve and merge or reject the changes to the main repository. For open source projects pull requests can be sent by anyone that has forked a project.
+Pull-Request
+  schlug Änderungen an einem Remote-Repository vor. Mitarbeiter ohne Schreibzugriff können einen Pull-Request an den Administrator mit den Änderungen schicken, die sie an der Repo vorgenommen haben. Der Administrator kann dann die Änderungen am Hauptarchiv genehmigen und zusammenführen oder ablehnen. Für Open-Source-Projekte können Pull-Requests von jedem gesendet werden, der ein Projekt abgeforkt hat.
 
 Push
-  Sending changes to a remote repo. The remote repository is updated with the changes pushed and now mirrors the local repo.
+  Änderungen an ein Remote-Repo senden. Das entfernte Repository wird mit den Änderungen aktualisiert und spiegeln nun die lokale Repo.
 ```
 ---
 ## F
@@ -466,29 +466,29 @@ Runtime Test
 Selbstarchivierung:
   Eine Publikation oder andere Forschungsergebnisse in einem geeigneten Repository, institutionell oder fachbezogen platzieren nach den möglichen Einschränkungen durch den Herausgeber, zum Beispiel einen Embargo-Zeitraum oder Beschränkungen der zugelassenen Version, die in solchen Archiven hinterlegt werden können.
 
-Self Reflection
-  Activity of thinking about our thoughts, feelings, emotions, behaviour action, and the reasons that may lie behind them. Taking the time for reflection we can grow our understanding of who we are, what our values are, and why we think, feel, and act the way we do. When we self-reflect and become more conscious of what drives us, we can more easily make changes that help us more easily develop our self or improve our life including the way we conduct research (source: [Berkeley Wellbeing](https://www.berkeleywellbeing.com/what-is-self-reflection.html)).
+Selbstreflexion
+  Aktivität des Denkens über unsere Gedanken, Gefühle, Gefühle, Verhaltensweisen und die Gründe die ihnen zugrunde liegen könnten. Wenn wir uns die Zeit der Reflexion nehmen, können wir unser Verständnis dafür erweitern, wer wir sind was unsere Werte sind und warum wir denken, fühlen und so handeln. Wenn wir uns selbst reflektieren und uns dessen bewusst werden, was uns treibt, wir können Änderungen leichter vornehmen, die uns dabei helfen, uns selbst zu entwickeln oder unser Leben zu verbessern, einschließlich der Art und Weise, wie wir Forschung betreiben (Quelle: [Berkeley Wellbeing](https://www. erkeleywellbeing.com/what-is-self-reflection.html)).
 
 SHA
-  Unique string of numbers of letters used to identify every commit or node in the repository.
+  Eindeutige Zeichenkette von Buchstaben, die zur Identifizierung jedes Commit oder jeden Knoten im Projektarchiv verwendet werden.
 
-Shared authorship
- Some journals permit the use of group names but many require contributors to be listed and/or the writing group to be named. This is the same as group authorship.
+Gemeinsame Autorschaft
+ Einige Zeitschriften erlauben die Verwendung von Gruppennamen, aber viele verlangen, dass Mitwirkende aufgelistet und/oder die Schreibgruppe benannt werden. Dies ist das Gleiche wie die Gruppen-Autorschaft.
 
 Smoke Testing
-  Very brief initial checks that ensure the basic requirements required to run the project hold. If these fail there is no point proceeding to additional levels of testing until they are fixed.
+  Sehr kurze anfängliche Prüfungen, die sicherstellen, dass die grundlegenden Anforderungen für die Ausführung des Projekts eingehalten werden. Wenn diese fehlschlagen, hat es keinen Sinn, weitere Teststufen einzuführen, bis sie behoben sind.
 
 Staged
-  Staging the changes that will be included in the next git commit.
+  Staging der Änderungen, die im nächsten git Commit enthalten sind.
 
 Stochastic Code
-  Code which, while correct, does not always output the same result. For example a program that outputs ten random numbers will generate a different result each time, despite being correct.
+  Code, der zwar korrekt ist, aber nicht immer das gleiche Ergebnis ausgibt. Zum Beispiel erzeugt ein Programm, das zehn zufällige Zahlen ausgibt, jedes Mal ein anderes Ergebnis, obwohl es korrekt ist.
 
 Syntax
-  The structure of statements in a computer language.
+  Die Struktur der Anweisungen in einer Computersprache.
 
 System Testing
-  A level of the software testing process where a complete, integrated system is tested. The purpose of this test is to evaluate whether the system as a whole gives the correct outputs for given inputs. Also see end to end test.
+  Eine Stufe des Software-Testprozesses, bei der ein komplettes und integriertes System getestet wird. Der Zweck dieses Tests ist es, zu beurteilen, ob das System als Ganzes die richtigen Ausgänge für die gegebenen Eingaben liefert. Siehe auch Ende bis Ende-Test.
 
 ```
 ---
