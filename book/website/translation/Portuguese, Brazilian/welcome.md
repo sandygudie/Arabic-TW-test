@@ -3,7 +3,7 @@
 
 *Tenha boas-vindas ao guia The Turing Way para ciência de dados reprodutível, ética e colaborativa.*
 
-_The Turing Way_ é um projeto de código aberto, colaboração aberta e conduzido pela comunidade. Nós envolvemos e apoiamos uma comunidade diversificada de colaboradores para tornar a ciência de dados acessível, compreensível e eficaz para todas as pessoas. Nosso objetivo é fornecer toda a informação necessária para que pesquisadores e cientistas de dados da academia, a indústria e o sector público garantam que os projetos em que trabalham são fáceis de reproduzir e de reutilizar.
+_The Turing Way_ é um projeto de código aberto, colaboração aberta e conduzido pela comunidade. Nós incluímos e apoiamos uma comunidade diversificada de colaboradores para tornar a ciência de dados acessível, compreensível e eficaz para todas as pessoas. Nosso objetivo é fornecer todas as informações necessárias para que pesquisadores e cientistas de dados na academia, a indústria e o sector público consigam assegurar que os projetos em que trabalham sejam fáceis de reproduzir e de reutilizar.
 
 ```{admonition} Top Tip
 :class: tip
@@ -25,7 +25,7 @@ Ilustração de projeto _The Turing Way_ por Scriberia. Zenodo. [http://doi.org/
 (welcome-community)=
 ## Nossa Comunidade
 
-A comunidade de _The Turing Way_ é dedicada a fazer pesquisa colaborativa, reutilizável e transparente que seja tão fácil "muito fácil para não fazer". Isso significa investir nas competências sociotécnicas necessárias para trabalhar numa equipe, para construir algo mais significativo do que qualquer indivíduo poderia proporcionar sozinho.
+A comunidade de _The Turing Way_ é dedicada a fazer pesquisa colaborativa, reutilizável e transparente que seja "tão fácil de fazer que não valha a pena não fazer". Isso significa investir nas competências sociotécnicas necessárias para trabalhar numa equipe, para construir algo mais significativo do que qualquer indivíduo poderia proporcionar sozinho.
 
 _The Turing Way_ é:
 
@@ -63,11 +63,11 @@ Todo o material em _The Turing Way_ está disponível sob uma licença [CC-BY 4.
 
 Você pode citar _The Turing Way_ através do arquivo do Zenodo do do projeto usando o DOI: [10.5281/zenodo.3233853](https://doi.org/10.5281/zenodo.3233853).
 
-A citação será algo como:
+A citação será similar a esta:
 
-> A Turing Way, Becky Arnold, Louise Bowler, Sarah Gibson, Patricia Herterich, Rosie Higman, … Kirstie Whitaker. (2019, 25 de março). The Turing Way: Um manual para Ciência de Dados Reprodutível (Versão v0.0.4). Zenodo. http://doi.org/10.5281/zenodo.3233986
+> The Turing Way Community, Becky Arnold, Louise Bowler, Sarah Gibson, Patricia Herterich, Rosie Higman, … Kirstie Whitaker. (2019, March 25). The Turing Way: Um manual para Ciência de Dados Reprodutível (Versão v0.0.4). Zenodo. http://doi.org/10.5281/zenodo.3233986
 
-Por favor, visite o [link DOI](https://doi.org/10.5281/zenodo.3233853) embora para obter a versão mais recente - o acima não é gerado automaticamente e pode estar desatualizado. Os DOIs nos permitem arquivar o repositório e são úteis para rastrear o trabalho em publicações acadêmicas.
+No entanto, por favor visite o [link DOI](https://doi.org/10.5281/zenodo.3233853) para obter a versão mais recente - a citação acima não é gerada automaticamente e pode estar desatualizada. Os DOIs nos permitem arquivar o repositório e são úteis para rastrear o trabalho em publicações acadêmicas.
 
 Você também pode compartilhar o URL legível para uma página no livro, por exemplo, {ref}`https://the-turing-way.netlify. pp/reproducible-research/overview/overview-definitions.html <rr-overview-definitions>`, mas esteja ciente de que o projeto está em desenvolvimento e estes links podem mudar ao longo do tempo. Você pode querer incluir um [link para arquivo da web](http://web.archive.org), como: [https://web.archive.org/web/20191030093753/https://the-turing-way. etlify.com/reproducibility/03/definitions.html](https://web.archive.org/web/20191030093753/https://the-turing-way.netlify.com/reproducibility/03/definitions.html), para garantir que você não acabe com links quebrados em qualquer lugar!
 
