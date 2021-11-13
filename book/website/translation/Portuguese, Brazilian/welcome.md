@@ -12,7 +12,7 @@ Comece com um conceito, ferramenta ou método de que você precisa agora, no seu
 Navegue pelos diferentes guias que compõem o livro ou use a caixa de pesquisa para pesquisar tudo o que você gostaria de aprender primeiro.
 ```
 
-Todas as partes interessadas, incluindo investigadores, engenheiros de software, líderes de projetos e equipes de financiamento, são encorajadas a usar _The Turing Way_ para entender seus papéis e responsabilidades na reprodutibilidade em ciência de dados. You can inspect our resources on [GitHub](https://github.com/alan-turing-institute/the-turing-way), contribute to the project as described in our [contribution guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) and re-use all materials ([see the License](https://github.com/alan-turing-institute/the-turing-way/blob/main/LICENSE.md)).
+Todas as partes interessadas, incluindo investigadores, engenheiros de software, líderes de projetos e equipes de financiamento, são encorajadas a usar _The Turing Way_ para entender seus papéis e responsabilidades na reprodutibilidade em ciência de dados. Você pode inspecionar nossos recursos no [GitHub](https://github.com/alan-turing-institute/the-turing-way), contribuir para o projeto conforme descrito em nossas [diretrizes de contribuição](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) e reutilizar todos os materiais ([consulte a Licença](https://github.com/alan-turing-institute/the-turing-way/blob/main/LICENSE.md)).
 
 ```{figure} figures/welcome.jpg
 ---
