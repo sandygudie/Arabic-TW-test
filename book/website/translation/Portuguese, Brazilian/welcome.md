@@ -39,7 +39,7 @@ O livro é escrito colaborativamente e aberto desde o início. Para tornar esse 
 
 ```{figure} figures/theturingway-chapters.jpg
 ---
-nome: theturingway-chapters
+name: theturingway-chapters
 alt: O guia The Turing Way para pesquisa reprodutível e sua estrutura ilustradas como uma série de portas que representam a estrutura em capítulos e sub-capítulos 
 ---
 Ilustração por _The Turing Way_ por Scriberia. Versão original em Zenodo. http://doi.org/10.5281/zenodo.3695300.
