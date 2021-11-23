@@ -13,6 +13,7 @@ Es gibt mehrere Möglichkeiten, die Software-Qualität zu verbessern, die relati
 
 Statische Code-Analyse ist eine Methode, die Code untersucht und Software-Verwundbarkeiten entdeckt, bevor Ihr Code ausgeführt wird oder das Projekt gebaut und verteilt wird. Diese Analyse ist in der Lage, Qualitätsprobleme zu identifizieren, einschließlich Sicherheitslücken und Fehlern. Neben dem Auffinden von Fehlern können viele dieser Tools auch dazu beitragen, einen konsistenten Programmierstil zu erhalten.
 
+(rr-code-Qualität-Vorteile)=
 ### Vorteile der statischen Codeanalyse
 
 - Schreibe qualitativ hochwertigen Code: Frühe Erkennung möglicher Programmierfehler hilft Entwicklern zu wissen, wo sie schief gelaufen sind.
