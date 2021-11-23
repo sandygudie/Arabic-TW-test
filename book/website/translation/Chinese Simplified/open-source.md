@@ -35,12 +35,14 @@
 (rr-open-source-benefitsresearch)=
 ## How Open Source Software Benefits Research
 
-开放源码软件在若干方面有利于研究：
+开放源码软件有几种有益于研究的方式：
 
 (rr-open-source-benefits-reusable)=
 ### 可重新使用
 
 开放源码软件项目使研究人员能够利用彼此的工作。 这使研究人员能够将他们的努力应用于高价值工作。 有时有人说，“所有简单的问题都已经得到解决”。 博彩、内容管理和操作系统都是既定(和主流)开放源码解决方案的问题。 虽然开发者可以花费开放源码社区已经完美的时间再造轮子， 使用世界上最好的轮子，尤其是当那轮对你来说没有代价时。 这减少了重复劳动，使研究人员能够集中精力应对尚未解决的挑战。
+
+The {ref}`rr-code-reuse` provides a more in-depth list of different aspects to consider for making your code more reusable, whether this is a small script or a library.
 
 (rr-open-source-benefits research-check)=
 ### 可选的
