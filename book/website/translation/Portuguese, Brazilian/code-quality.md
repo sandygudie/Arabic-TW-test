@@ -13,6 +13,7 @@ Existem várias maneiras de melhorar a qualidade do software que requerem relati
 
 Análise de código estático é um método que examina o código e detecta vulnerabilidades de software antes do seu código ser executado ou do projeto ser construído e implantado. Esta análise é capaz de identificar questões de qualidade, incluindo fragilidades e erros de segurança. Além de encontrar bugs, muitas dessas ferramentas também podem ajudar a manter um estilo de codificação consistente.
 
+(rr-code-qualia-vantagens)=
 ### Vantagens da análise de código estático
 
 - Escreva código de alta qualidade: detecção precoce de possíveis erros de programação ajuda os desenvolvedores a saber onde eles deram errado.
