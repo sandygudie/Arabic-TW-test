@@ -58,12 +58,32 @@ In Bezug auf die Version erlauben einige Zeitschriften die Verbreitung der einge
 
 Was den Zeitpunkt betrifft, das Papier öffentlich zugänglich zu machen, so legen viele Zeitschriften einen Zeitraum von seiner ursprünglichen Veröffentlichung fest - der Embargo-Periode. die können zwischen Null und 60 Monate - wurden die Veröffentlichung des Papiers ist nicht zulässig. Einige Zeitschriften schließen Embargos je nach Version ein oder aus. Zum Beispiel könnte die akzeptierte Version nach der Veröffentlichung öffentlich zugänglich gemacht werden, aber die veröffentlichte Version muss 12 Monate warten. Sie können die Zeitschriftenrichtlinien über die Selbstarchivierung mit [SHERPA/RoMEO](http://www.sherpa.ac.uk/romeo/index.php) einsehen.
 
+```{figure} ../../figures/routes-to-OA.jpg
+---
+Höhe: 500px
+Name: routes-to-OA
+alt: Ein Bild eines Zugs, der die Routen für das Publizieren des Zugriffs anzeigt. Die grüne Route wird als kostenlos signalisiert und zeigt am Ende einen Vordruckserver zum Reise- und Selbstarchiv an. Die Gold- und Diamantenrouten werden signalisiert, als der Autor bezahlt, Geldgeber oder Institution zahlen und die Veröffentlichung in einem offenen Zeitschriftenblatt der Reise zeigen.
+---
+Routen zum offenen Publizieren.
+_The Turing Way_ Projekt-Illustration von Scriberia. Wird unter einer CC-BY 4.0 Lizenz verwendet. Originalversion auf Zenodo. [http://doi.org/10.5281/zenodo.5706310](http://doi.org/10.5281/zenodo.5706310)
+```
+
 (rr-open-access-why)=
 ## Warum sollten Sie Ihre Forschung offen teilen?
 
 Forschung ist nutzlos, wenn sie nicht geteilt wird; selbst die beste Forschung ist wirkungslos, wenn andere nicht in der Lage sind, sie zu lesen und darauf aufzubauen. Teilen Sie Ihre Forschung offen und machen Sie Ihre Ergebnisse anderen in Ihrem Bereich und darüber hinaus bekannt (via Vorabdruck, Gold Open Access Publishing, Selbstarchivierung oder eine Kombination der 3! kann den Forschern helfen, effektiver mit einem besseren Verständnis der Literatur zu arbeiten und hilft, Doppelarbeit zu vermeiden - kein Forscher (oder Geldgeber) will Zeit und Geld verschwenden, wenn sie wissen, dass es anderswo versucht wurde. Wenn die Forschung offen ist und dem breitestmöglichen Leserpool zur Verfügung steht, bedeutet dies auch, dass sie eher kontrolliert und reproduziert wird. Darüber hinaus Es kann argumentiert werden, dass Steuerzahler, die für einen Großteil der in Zeitschriften publizierten Forschung bezahlen, ein Recht auf den Zugang zu den Informationen haben, die sich aus dieser Investition ergeben, ohne Gebühr.
 
 Das Publizieren hat auch Vorteile für Sie als Autor. Ihre Arbeit wird wahrscheinlich ein größeres Publikum erreichen, was bedeutet, dass sie eine breitere gesellschaftliche Wirkung haben kann. Veröffentlichte Beiträge haben auch eher einen Zitiervorteil {cite}`Tennant2016openaccess`.
+
+```{figure} ../../figures/share-work-openly.jpg
+---
+Höhe: 500px
+Name: share-work-offen
+alt: Ein Plakatbild einer Bahnfahrt und fünf Gründe, warum Sie Ihre Forschung offen teilen sollten, werden kommentiert.
+---
+Vorteile, deine Forschung offen zu teilen:
+_Die Turing Way_ Projekt-Illustration von Scriberia. Wird unter einer CC-BY 4.0 Lizenz verwendet. Originalversion auf Zenodo. [http://doi.org/10.5281/zenodo.5706310](http://doi.org/10.5281/zenodo.5706310)
+```
 
 (rr-open-access-future)=
 ## Die Zukunft des offenen Zugangs
