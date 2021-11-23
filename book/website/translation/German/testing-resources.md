@@ -61,4 +61,38 @@ Lesen Sie das Kapitel über reproduzierbare Computer-Umgebungen und dann das Kap
 
 ## Verwendete Materialien: Glossar
 
-- [niederländisches eScience Zentrum](https://guide.esciencecenter.nl/best_practices/testing.html) **Creative Commons Namensnennung 4.0 Internationale Lizenz**
+- [niederländisches eScience Zentrum](https://guide.esciencecenter.nl/#/best_practices/testing) **Creative Commons Namensnennung 4.0 Internationale Lizenz**
+
+### Definitionen/Glossar
+
+- **Akzeptierungstest:** Ein Test, dass das Programm die grundlegenden Anforderungen des Projekts erfüllt.
+
+- **Code-Code:** Ein Maß, das beschreibt, wie viel des Quellcodes von der Testsuite ausgeübt wird.
+
+- **Ende-Test:** Ein Test, der das Programm vom Anfang bis zum Ende ausführt und überprüft, ob die Ausgabe korrekt ist.
+
+- **Integrationstest:** Ein Test, bei dem Code-Einheiten kombiniert und ausgeführt werden, und die Ausgabe überprüft wird, um zu überprüfen, dass die Einheiten korrekt integriert wurden.
+
+- **Verhöhnung:** Ersetzen Sie ein echtes Objekt durch ein angebliches zu verwendendes Objekt beim Ausführen von Tests.
+
+- **Regressionstest:** Vergleicht das Ergebnis eines Tests vor und nach der Änderung des Codes. Wenn sich die Ausgabe geändert hat, wurde irgendwo ein Problem in das Programm eingeführt, und ein Fehler wird geworfen.
+
+- **Laufzeittest:** Tests eingebettet in das Programm, die als Teil des Programms ausgeführt werden.
+
+- **Smoke Test:** Sehr kurze Erstprüfungen, die sicherstellen, dass die grundlegenden Anforderungen für die Ausführung des Projekts eingehalten werden.
+
+- **Stochastischer Code:** Code, der zwar korrekt ist, aber nicht immer das gleiche Ergebnis ausgibt. Zum Beispiel erzeugt ein Programm, das zehn zufällige Zahlen ausgibt, jedes Mal ein anderes Ergebnis, obwohl es korrekt ist.
+
+- **Systemtest:** Siehe "End to end test".
+
+- **Testgetriebene Entwicklung:** Ein Prozess der Code-Entwicklung, bei dem Unit-Tests vor den Einheiten selbst geschrieben werden.
+
+- **Teststub:** Falsche Implementierungen von Teilen des Codes, die in Testing verwendet werden, um Abhängigkeiten zu entfernen.
+
+- **Testsuite:** Die Tests, die für ein Projekt geschrieben wurden.
+
+- **Test-Framework:** Werkzeuge, die das Schreiben und Ausführen von Tests weniger arbeitsintensiv machen.
+
+- **Einheit:** Ein kleines Stück Code, das eine einfache Sache macht. Es hat in der Regel einen oder ein paar Eingänge und normalerweise eine einzige Ausgabe.
+
+- **Einheitstest:** Ein Test, der das Verhalten einer Einheit überprüft.
