@@ -7,20 +7,21 @@ Premièrement, il y a des tests positifs et des tests négatifs. Les tests posit
 
 En plus de ces deux types de tests, il y a aussi différents niveaux de tests qui testent différents aspects d'un projet. Ces niveaux sont décrits ci-dessous et des tests positifs et négatifs peuvent être présents à l'un de ces niveaux. Une suite de tests approfondis contiendra des tests à tous ces niveaux (même si certains niveaux auront besoin de très peu de choses).
 
+(rr-testing-types-of-testing)=
 ## Types de tests
 
-[Essais de fumée](#Smoke_testing): Très brèves vérifications initiales qui garantissent les exigences de base requises pour exécuter le projet en attente. En cas d'échec, il ne sert à rien de passer à des niveaux de test supplémentaires jusqu'à ce qu'ils soient corrigés.
+[Smoke testing](#Smoke_testing): Very brief initial checks that ensures the basic requirements required to run the project hold. If these fail there is no point proceeding to additional levels of testing until they are fixed.
 
-[Tests unitaires](#Unit_tests): Un niveau du processus de test logiciel où des unités individuelles d'un logiciel sont testées. Le but est de valider que chaque unité du logiciel effectue comme prévu.
+[Unit testing](#Unit_tests):    A level of the software testing process where individual units of a software are tested. The purpose is to validate that each unit of the software performs as designed.
 
-[Essais d'intégration](#Integration_testing): Un niveau de test logiciel où les unités individuelles sont combinées et testées en groupe. Le but de ce niveau de test est de révéler les défauts dans l'interaction entre les unités intégrées.
+[Integration testing](#Integration_testing): A level of software testing where individual units are combined and tested as a group. The purpose of this level of testing is to expose faults in the interaction between integrated units.
 
-[Tests système](#System_tests): Un niveau du processus de test logiciel où un système complet et intégré est testé. Le but de ce test est d'évaluer si le système dans son ensemble donne les bons résultats pour les entrées données.
+[System testing](#System_tests):    A level of the software testing process where a complete, integrated system is tested. The purpose of this test is to evaluate whether the system as a whole gives the correct outputs for given inputs.
 
-[Test d'acceptation](#Acceptance_testing): Un niveau du processus de test logiciel où un système est testé pour être acceptable. Le but de ce test est d'évaluer la conformité du système avec les exigences du projet et d'évaluer s'il est acceptable à cette fin.
+[Acceptance testing](#Acceptance_testing):  A level of the software testing process where a system is tested for acceptability. The purpose of this test is to evaluate the system's compliance with the project requirements and assess whether it is acceptable for the purpose.
 
-Voici une analogie : pendant le processus de fabrication d'un stylo à bille, le capuchon, le corps, la queue, la cartouche d'encre et la bille sont produites séparément et testées séparément. Quand deux ou plusieurs unités sont prêtes, elles sont assemblées et les tests d'intégration sont effectués, par exemple un test pour vérifier que le capuchon s'adapte sur le corps. Lorsque le stylo complet est intégré, des tests système sont effectués pour vérifier qu'il peut être utilisé pour écrire comme n'importe quel stylo. Le test d'acceptation peut être un contrôle pour s'assurer que le stylo est la couleur que le client a commandée.
+Here's an analogy: during the process of manufacturing a ballpoint pen, the cap, the body, the tail, the ink cartridge and the ballpoint are produced separately and unit tested separately. When two or more units are ready, they are assembled and integration testing is performed, for example a test to check the cap fits on the body. When the complete pen is integrated, system testing is performed to check it can be used to write like any pen should. Acceptance testing could be a check to ensure the pen is the colour the customer ordered.
 
-Il y a aussi un autre type de tests appelés tests de régression. Le test de régression est un type de test qui peut être effectué à l'un des quatre niveaux principaux et compare les résultats des tests avant et après une modification du code, et donne une erreur si elles sont différentes.
+There is also another kind of testing called regression testing. Regression testing is a type of testing that can be performed at any of the four main levels and compares the results of tests before and after a change is made to the code, and gives an error if these are different.
 
-Ces différents types de tests sont discutés plus en détail dans les sous-chapitres suivants.
+These different types of tests are discussed in more detail in the next subchapters.
