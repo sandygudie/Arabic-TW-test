@@ -10,57 +10,54 @@ Manchmal enthält der Code ein Element der Zufälligkeit, ein häufiges Beispiel
 
 Zufällige Zahlen Samen sind ein wenig schwierig zu erklären, so ist hier ein Beispiel. Hier ist ein kleines Python-Skript, das drei zufällige Zahlen ausgibt.
 
-    ```
-    zufällig
+```python
+zufällig
 
-    # drei zufällige Zahlen drucken
-    print(random.random())
-    print(random.random())
-    print(random.random())
-    ```
+# drei zufällige Zahlen drucken
+print(random.random())
+print(random.random())
+print(random.random())
+```
 
 Dieses Skript hat keine Bugs, aber wenn du es wiederholt ausführst, wirst du jedes Mal unterschiedliche Antworten bekommen. Jetzt setzen wir einen zufälligen Zahlenseed.
 
-    ```
-    zufällig
+```python
+zufällig
 
-    # Setze eine zufällige Zahl
-    random.seed(1)
+# Setze eine zufällige Zahl
+random.seed(1)
 
-    # 3 zufällige Zahlen ausgeben
-    print(random.random())
-    print(random.random())
-    print(random.random())
-    ```
+# 3 zufällige Zahlen ausgeben
+print(random.random())
+print(random.random())
+print(random.random())
+```
 
 Wenn du dieses Skript ausführst, gibt es aus
 
-    ```
-    0.134364244112
-    0.847433736937
-    0.763774618977
-    ```
+```python
+0.134364244112
+0.847433736937
+0.763774618977
+```
 
 und jedes Mal, wenn Sie dieses Skript ausführen, erhalten Sie die *selbe* Ausgabe, es druckt die *gleichen* drei zufällige Zahlen. Wenn der Seed der zufälligen Zahl geändert wird, erhalten Sie verschiedene drei zufällige Zahlen:
 
-    ```
-    0.956034271889
-    0.947827487059
-    0.0565513677268
-    ```
+```python
+0.956034271889
+0.947827487059
+0.0565513677268
+```
 aber diese Zahlen erhalten Sie jedes Mal, wenn das Skript in der Zukunft ausgeführt wird.
 
 Zufällige Zahlen Samen sind eine Möglichkeit, die Dinge zuverlässig zufällig zu machen. Ein Risiko bei Tests, die von Zufallszahlen abhängen, kann jedoch spröde sein. Sagen Sie, dass Sie eine Funktion wie folgt strukturiert haben:
 
-    ```
-    def my_function()
-
-      a = calculation_that_uses_two_random_numbers()
-
-      b = calculation_that_uses_five_random_numbers()
-
-      c = a + b
-    ```
+```python
+def my_function():
+  a = calculation_that_uses_two_random_numbers()
+  b = calculation_that_uses_five_random_numbers()
+  c = a + b
+```
 
 Wenn Sie den Zufallszahlenseed einstellen, erhalten Sie immer denselben Wert von `c`, so dass er getestet werden kann. Aber sagen Sie, das Modell wurde geändert und die Funktion, die `eine` berechnt, verwendet eine andere Anzahl zufälliger Zahlen, die es zuvor gemacht hat. Jetzt wird `nicht nur ein` anders sein, sondern `b` wird auch sein weil sich, wie oben angegeben, die zufälligen Zahlen mit einem zufälligen Zahlenseed in einer festen Reihenfolge befinden. Als Ergebnis werden sich die zufälligen Zahlen für die Berechnung von `b` geändert haben. Dies kann dazu führen, dass Tests fehlschlagen, wenn es tatsächlich keinen Fehler gibt.
 
@@ -111,7 +108,7 @@ alt:
 ---
 ```
 
-Sie könnten leicht zu dem Schluss kommen, dass es einen Fehler gibt, da es unwahrscheinlich ist, dass ein See sein Volumen verdreifacht und ihn dann in wenigen Stunden wieder verliert. Solche "Augenbrauen"-Tests sind zeitaufwendig, da sie von einem Menschen durchgeführt werden müssen. Jedoch kann der Prozess teilweise oder vollständig automatisiert werden, indem grundlegende "Vernunftprüfungen" erstellt werden. Zum Beispiel sollte der Wasserspiegel zu einem bestimmten Zeitpunkt etwa 10 % des Wasserspiegels im vorherigen Schritt sein. Eine weitere Überprüfung könnte sein, dass es keine negativen Werte gibt, da ein See nicht -30% voll sein kann. Diese Art von Tests kann nicht alles abdecken, was sichtbar falsch sein kann, aber sie sind viel einfacher zu automatisieren und werden für die meisten Fälle ausreichen.
+Sie könnten leicht zu dem Schluss kommen, dass es einen Fehler gibt, da es unwahrscheinlich ist, dass ein See sein Volumen verdreifacht und ihn dann in wenigen Stunden wieder verliert. Solche "Augenbrauen"-Tests sind zeitaufwendig, da sie von einem Menschen durchgeführt werden müssen. Der Prozess kann jedoch teilweise oder vollständig automatisiert werden, indem grundlegende "Vernunftprüfungen" erstellt werden. Zum Beispiel sollte der Wasserspiegel zu einem Zeitpunkt etwa 10 % des Wasserspiegels im vorherigen Schritt sein. Eine weitere Überprüfung könnte sein, dass es keine negativen Werte gibt, da ein See nicht -30% voll sein kann. Diese Art von Tests kann nicht alles abdecken, was sichtbar falsch sein kann, aber sie sind viel einfacher zu automatisieren und werden für die meisten Fälle ausreichen.
 
 (rr-testing-challenges-non-integer)=
 ## Prüfung, ob nicht ganze Zahlen gleich sind
@@ -122,43 +119,43 @@ Es gibt eine Komplikation beim Testen wenn die Antwort einer Code-Ausgabe gleich
 
 Wenn wir `einen` und 0.2 bis `b` zuweisen und deren Summe ausdrucken, erhalten wir wie erwartet 0,3, wie erwartet.
 
-    ```
-    >>> a = 0.1
-    >>> b = 0.2
-    >>> print(a + b)
-    0.3
-    ```
+```python
+>>> a = 0.1
+>>> b = 0.2
+>>> print(a + b)
+0.3
+```
 
 Wenn wir jedoch das Ergebnis von `` plus `b` bis 0.3 vergleichen, bekommen wir False.
 
-    ```
-    >>> print(a + b == 0.3)
-    False
-    ```
+```python
+>>> print(a + b == 0.3)
+False
+```
 
 Wenn wir den Wert von `ein` plus `b` direkt anzeigen, sehen wir einen subtilen Fehlerrand.
 
-    ```
-    >>> a + b
-    0.300000000000004
-    ```
+```python
+>>> a + b
+0.300000000000004
+```
 
-Dies liegt daran, dass Fließkommazahlen Näherungen von realen Zahlen sind. Das Ergebnis der Fließkommaberechnungen kann von der Compiler- oder Interpreterarchitektur sowie der Prozessor- oder Systemarchitektur und der Anzahl der verwendeten CPUs oder Prozesse abhängen. Offensichtlich kann dies ein großes Hindernis für das Schreiben von Tests darstellen.
+Dies liegt daran, dass Fließkommazahlen Näherungen von realen Zahlen sind. Das Ergebnis der Fließkommaberechnungen kann von der Compiler- oder Interpreterarchitektur und der Prozessor- oder Systemarchitektur sowie der Anzahl der verwendeten CPUs oder Prozesse abhängen. Dies kann ein großes Hindernis für das Schreiben von Tests darstellen.
 
 ### Gleichheit in einer Schwebepunktwelt
 
-Beim Vergleich von Fließkommazahlen für Gleichberechtigung müssen wir mit einer gegebenen Toleranz vergleichen, alternativ als Schwellenwert oder Delta. Zum Beispiel wir könnten die berechneten und erwarteten Werte einiger Zahlen als gleich betrachten, wenn der absolute Wert ihrer Differenz innerhalb des absoluten Wertes unserer Toleranz liegt.
+Beim Vergleich von Fließkommazahlen für Gleichberechtigung müssen wir innerhalb einer gegebenen Toleranz mit einem Schwellenwert oder einem Delta vergleichen. Zum Beispiel wir könnten die berechneten und erwarteten Werte einiger Zahlen als gleich betrachten, wenn der absolute Wert ihrer Differenz innerhalb des absoluten Wertes unserer Toleranz liegt.
 
 Viele Test-Frameworks bieten Funktionen zum Vergleich der Gleichberechtigung von Fließkommazahlen mit einer gegebenen Toleranz. Zum Beispiel für den Pytest-Rahmen:
 
-    ```
-    import pytest
+```python
+import pytest
 
-    a = 0.1
-    b = 0.2
-    c = a + b
-    assert c == pytest.approx(0.3)
-    ```
+a = 0.1
+b = 0.2
+c = a + b
+assert c == pytest.approx(0.3)
+```
 
 dies passt, aber wenn die 0.3 auf 0.4 geändert wurde, würde sie fehlschlagen.
 
