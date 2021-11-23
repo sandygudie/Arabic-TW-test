@@ -1,3 +1,4 @@
+(rr-código-estilo-y-formato)=
 # Estilo de código y formato
 
 Un estilo de codificación es un conjunto de convenciones sobre cómo formatear el código. Por ejemplo, ¿a qué llamas tus variables? ¿Utiliza espacios o pestañas para la sangría? ¿Dónde ponen sus comentarios? El uso consistente del mismo estilo a lo largo de su código hace que sea más fácil de leer. El código que es fácil de leer es más fácil de entender por usted, así como por posibles colaboradores. Por lo tanto, adherirse a un estilo de codificación reduce el riesgo de errores y hace más fácil trabajar juntos en software. [¿Por qué Coding Style Matters](http://coding.smashingmagazine.com/2012/10/25/why-coding-style-matters/) es un buen artículo sobre por qué los estilos de codificación importan y cómo aumentan la calidad del software.
