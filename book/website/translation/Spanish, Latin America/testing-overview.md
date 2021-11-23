@@ -7,6 +7,7 @@ En primer lugar, hay pruebas positivas y pruebas negativas. Las pruebas positiva
 
 Además de estos dos tipos de pruebas, existen diferentes niveles de pruebas que prueban diferentes aspectos de un proyecto. Estos niveles se describen a continuación y se pueden presentar pruebas positivas y negativas en cualquiera de estos niveles. Una suite de pruebas completa contendrá pruebas en todos estos niveles (aunque algunos niveles necesitarán muy pocos).
 
+(rr-testing-types-of-testing)=
 ## Tipos de pruebas
 
 [Pruebas de humo](#Smoke_testing): Comprobaciones iniciales muy breves que garantizan los requisitos básicos necesarios para ejecutar el proyecto. Si estos fallan no tiene sentido pasar a niveles adicionales de pruebas hasta que se corrigan.
