@@ -58,12 +58,32 @@ En ce qui concerne la version, certaines revues permettent la diffusion des vers
 
 En ce qui concerne le moment de rendre le document accessible au public, de nombreuses revues établissent une période à partir de sa publication originale - la période d'embargo, qui peut aller de zéro à 60 mois - le papier rendu public n'est pas autorisé. Certaines revues incluent ou excluent les embargos selon les versions. Par exemple, la version acceptée pourrait être rendue publique après publication, mais la version publiée doit attendre 12 mois. Vous pouvez consulter les politiques de journal sur l'auto-archivage en utilisant [SHERPA/RoMEO](http://www.sherpa.ac.uk/romeo/index.php).
 
+```{figure} ../../figures/routes-to-OA.jpg
+---
+hauteur : 500px
+nom : routes-to-OA
+alt : Une image d'un train montrant les routes pour ouvrir l'accès à la publication. La route verte est signalée comme gratuite et montre un serveur préimprimé au début du voyage et des archives à la fin. Les routes de l'or et du diamant sont signalées par le paiement par l'auteur, le bailleur de fonds ou l'institution et montrent la publication dans une partie du journal en accès libre du voyage.
+---
+Route vers la publication ouverte.
+Illustration du projet _Turing Way_ par Scriberia. Utilisé sous licence CC-BY 4.0. Version originale sur Zenodo. [http://doi.org/10.5281/zenodo.5706310](http://doi.org/10.5281/zenodo.5706310)
+```
+
 (rr-open-access-pourquoi)=
 ## Pourquoi devriez-vous partager votre recherche ouvertement?
 
 La recherche est inutile si elle n'est pas partagée; même la meilleure recherche est inefficace si d'autres ne sont pas capables de la lire et de la construire. Partagez vos recherches ouvertement et faites connaître vos résultats à d'autres personnes dans votre domaine et au-delà (par le biais de la pré-impression, gold open accès publication, auto-archivage ou une combinaison de la 3! peut aider les chercheurs à mieux comprendre la littérature et à éviter la duplication des efforts - aucun chercheur (ou bailleur de fonds) ne veut perdre de temps et d'argent en menant une étude s'ils savent qu'elle a été tentée ailleurs. La recherche étant ouverte et disponible pour le plus grand nombre de lecteurs possible, elle est également plus susceptible d'être vérifiée et reproduite. De plus, On peut prétendre que les contribuables qui paient la plupart des recherches publiées dans les revues ont le droit d'accéder gratuitement aux informations qui résultent de cet investissement.
 
 Publier ouvertement a également des avantages pour vous en tant qu'auteur. Votre travail est susceptible de toucher un plus grand public, ce qui signifie qu'il peut avoir un impact sociétal plus large. Les articles publiés ouvertement sont également plus susceptibles d'avoir un avantage de citation {cite}`Tennant2016openaccess`.
+
+```{figure} ../../figures/share-work-openly.jpg
+---
+hauteur: 500px
+nom: travail partagé-ouvert
+alt: Une image d'affiche d'un voyage en train et en cours de route cinq raisons pour lesquelles vous devriez partager vos recherches ouvertement sont annotées.
+---
+Avantages à partager vos recherches ouvertement
+illustration du projet _The Turing Way_ par Scriberia. Utilisé sous licence CC-BY 4.0. Version originale sur Zenodo. [http://doi.org/10.5281/zenodo.5706310](http://doi.org/10.5281/zenodo.5706310)
+```
 
 (rr-open-access-future)=
 ## L’avenir du libre accès
