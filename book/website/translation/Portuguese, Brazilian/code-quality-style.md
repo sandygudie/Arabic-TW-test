@@ -1,3 +1,4 @@
+(rr-code-style-and-formatting)=
 # Estilo e Formatação de Código
 
 Um estilo de codificação é um conjunto de convenções sobre como formatar código. Por exemplo, como se chama as suas variáveis? Você usa espaços ou guias para recuo? Onde você coloca os comentários? Usar consistentemente o mesmo estilo em todo o seu código facilita a leitura. Código que é fácil de ler é mais fácil de entender por você e por possíveis colaboradores. Por conseguinte, aderir a um estilo de codificação reduz o risco de erros e torna mais fácil trabalhar em conjunto em software. [Por que a codificação de estilos é importante](http://coding.smashingmagazine.com/2012/10/25/why-coding-style-matters/) é um artigo legal sobre por que os estilos de codificação importam e como eles aumentam a qualidade do software.
