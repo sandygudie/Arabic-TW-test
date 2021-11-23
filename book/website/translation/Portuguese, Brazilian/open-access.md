@@ -58,12 +58,32 @@ No que se refere à versão, algumas revistas permitem a divulgação das versõ
 
 No que se refere ao momento de tornar o documento público público, muitos revistas estabelecem um período a partir da sua publicação original - o período do embargo. que podem ir de zero a 60 meses - tornar o documento acessível ao público não é permitido. Alguns diários incluem ou excluem embargos dependendo das versões. Por exemplo, a versão aceita poderia ser disponibilizada ao público após a publicação, mas a versão publicada deve esperar 12 meses. Você pode verificar as políticas de diário sobre auto-arquivamento usando [SHERPA/RoMEO](http://www.sherpa.ac.uk/romeo/index.php).
 
+```{figure} ../../figures/routes-to-OA.jpg
+---
+altura: 500px
+nome: rotas-para-OA
+alt: Uma imagem de um trem mostrando as rotas para abrir a publicação do acesso. A rota verde é sinalizada como gratuita e mostra um servidor de pré-impressão no início da jornada e arquivo próprio no final. As rotas do ouro e dos diamantes são sinalizadas como o autor paga e o financiador ou a instituição paga e mostram a publicação em uma parte do diário de acesso aberto da jornada.
+---
+Rotas para publicação aberta.
+_O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. Versão original em Zenodo. [http://doi.org/10.5281/zenodo.5706310](http://doi.org/10.5281/zenodo.5706310)
+```
+
 (rr-open-access-porquê)=
 ## Por que você deve compartilhar sua pesquisa em breve?
 
 A investigação é inútil se não for partilhada; mesmo a melhor investigação é ineficaz se outros não forem capazes de a ler e de a desenvolver. Compartilhar sua pesquisa abertamente e divulgar seus resultados para outros no seu campo e além (via pré-impressão, gold open access publishing, auto-arquivamento ou uma combinação dos 3! pode ajudar os pesquisadores a trabalhar de forma mais eficaz com uma melhor compreensão da literatura e ajuda a evitar a duplicação de esforços (ou financiador) que o pesquisador quer desperdiçar tempo e dinheiro realizando um estudo, se eles souberem que foi tentada em outro lugar. Uma investigação aberta e acessível ao maior número possível de leitores significa também que é mais provável que seja verificada e reproduzida. Além Pode argumentar-se que os contribuintes que pagam grande parte da pesquisa publicada em revistas têm o direito de aceder sem culpa alguma à informação resultante desse investimento.
 
 A publicação aberta também tem benefícios para você, como autor. É provável que o seu trabalho chegue a um público de maiores dimensões, o que significa que pode ter um impacto social mais amplo. Papéis publicados abertamente também são mais propensos a ter uma vantagem em citação {cite}`Tennant2016openaccess`.
+
+```{figure} ../../figures/share-work-openly.jpg
+---
+height: 500px
+name: share-work-openly
+alt: Uma imagem de cartaz de uma jornada de trem e ao longo do caminho cinco razões pelas quais você deve compartilhar sua pesquisa abertamente é anotada.
+---
+Vantagens de compartilhar sua pesquisa abertamente
+_A Turing Way_ projeto ilustrado por Scriberia. Usado sob uma licença CC-BY 4.0. Versão original em Zenodo. [http://doi.org/10.5281/zenodo.5706310](http://doi.org/10.5281/zenodo.5706310)
+```
 
 (futuro-aberta-rrr-aberto)=
 ## O Futuro do Acesso Aberto
