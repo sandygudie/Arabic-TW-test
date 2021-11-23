@@ -7,6 +7,7 @@ Erstens gibt es positive und negative Tests. Positive Tests überprüfen, ob etw
 
 Zusätzlich zu diesen beiden Arten von Tests gibt es auch verschiedene Teststufen, die verschiedene Aspekte eines Projekts testen. Diese Ebenen sind unten aufgeführt, und auf jedem dieser Ebenen können sowohl positive als auch negative Tests vorhanden sein. Eine gründliche Testsuite wird Tests auf allen diesen Stufen enthalten (obwohl einige Stufen nur sehr wenige benötigen).
 
+(rr-testing-types-of-testing)=
 ## Test-Typen
 
 [Smoke Test](#Smoke_testing): Sehr kurze anfängliche Prüfungen, die die grundlegenden Anforderungen für die Ausführung des Projekts sicherstellen. Wenn diese fehlschlagen, hat es keinen Sinn, weitere Teststufen einzuführen, bis sie behoben sind.
