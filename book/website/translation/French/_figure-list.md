@@ -41,18 +41,18 @@
 | format@@0 ResearchCompendium    | Compendium de recherche              | Illustration sur le compendium de recherche                                                       |
 | matrice de risque               | évaluation des risques               |                                                                                                   |
 | format@@0 robo_debt             | Activisme                            | Illustration représentant la prise de décision automatisée biaisée                                |
-| routes_to_OA                  | Open research                        | Train route showing green, gold and diamond routes to publishing open access                      |
-| scientificunionbadge            | Ethical Research                     | Image of an enamel badge                                                                          |
-| share_work_openly             | Open research                        | A poster image showing the advantages to sharing your work openly                                 |
-| sub_branch                      | Version control                      | Illustrates version control branch + sub branch                                                   |
-| testing_motivation_1          | Testing                              | Example of consequence of not testing code                                                        |
-| testing_motivation_2          | Testing                              | Example of consequence of not testing code                                                        |
-| Travis_badge_fail             | Intégration continue                 | A readme with a failing Travis badge                                                              |
-| Travis_badge_pass             | Continuous integration               | A readme with a passing Travis badge                                                              |
-| Travis_build                    | Continuous integration               | What the Travis dashboard looks like                                                              |
-| two_branches                    | Version control                      | Illustrates version control master + two branches                                                 |
-| virtual_machine                 | Environnements reproductibles        | Example of a virtual Ubuntu machine on windows                                                    |
-| VM_create_machine             | Environnements reproductibles        | How to create a virtual machine in VirtualBox                                                     |
-| VM_export_machine             | Environnements reproductibles        | How to export a virtual machine in VirtualBox                                                     |
-| VM_start_machine              | Reproducible environments            | How to start a virtual machine in VirtualBox                                                      |
-| workdir_example                 | Reproducible environments            | Example of using workdir in Dockerfiles                                                           |
+| itinéraires vers OA             | Ouvrir la recherche                  | Route des trains montrant les routes vertes, or et diamants pour publier un accès libre           |
+| badge d'union scientifique      | Recherche éthique                    | Image d'un badge en émail                                                                         |
+| Partager_ouvertement            | Ouvrir la recherche                  | Une image d'affiche montrant les avantages de partager ouvertement votre travail                  |
+| sous-branche                    | Contrôle de version                  | Illustration de la branche de contrôle de version + sous-branche                                  |
+| test_motivation_1             | Tests en cours                       | Exemple de conséquence du non-test du code                                                        |
+| test_motivation_2             | Tests en cours                       | Exemple de conséquence du non-test du code                                                        |
+| format@@0 Travis_badge_failed | Intégration continue                 | Un readme avec un badge Travis défaillant                                                         |
+| format@@0 Travis_badge_pass   | Intégration continue                 | Un lisez-moi avec un badge Travis qui passe                                                       |
+| format@@0 Travis_build          | Intégration continue                 | À quoi ressemble le tableau de bord Travis                                                        |
+| deux_branches                   | Contrôle de version                  | Illustrate le maître de contrôle de version + deux branches                                       |
+| machine virtuelle               | Environnements reproductibles        | Exemple de machine virtuelle Ubuntu sur les fenêtres                                              |
+| Créer une machine               | Environnements reproductibles        | Comment créer une machine virtuelle dans VirtualBox                                               |
+| Machine d'exportation VM        | Environnements reproductibles        | Comment exporter une machine virtuelle dans VirtualBox                                            |
+| Machine de démarrage VM         | Environnements reproductibles        | Comment démarrer une machine virtuelle dans VirtualBox                                            |
+| workdir_exemple                 | Environnements reproductibles        | Exemple d'utilisation du répertoire de travail dans les fichiers Dockerfiles                      |
