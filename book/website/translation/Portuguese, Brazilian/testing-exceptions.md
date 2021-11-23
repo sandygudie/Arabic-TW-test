@@ -10,58 +10,55 @@
 
 Número aleatório de sementes são um pouco difíceis de explicar, então aqui está um exemplo. Aqui está um pouco de script Python que imprime três números aleatórios.
 
-    ```
-    importar aleatório
+```python
+importar aleatório
 
-    # Imprimir três números aleatórios
-    print(random.random())
-    print(random.random())
-    print(random.random())
-    ```
+# Imprimir três números aleatórios
+print(random.random())
+print(random.random())
+print(random.random())
+```
 
 Este script não tem bugs, mas se você executá-lo repetidamente receberá respostas diferentes de cada vez. Agora vamos definir um número aleatório de semente.
 
-    ```
-    importar aleatório
+```python
+importar aleatório
 
-    # Definir uma seed com número aleatório
-    aleatório.seed(1)
+# Definir uma seed com número aleatório
+aleatório.seed(1)
 
-    # Imprimir três números aleatórios
-    print(random.random())
-    print(random.random())
-    print(random.random()) 
+# Imprimir três números aleatórios
+print(random.random())
+print(random.random())
+print(random.random()) 
  print(random.random())
-    ```
+```
 
 Se você executar este script ele será executado
 
-    ```
-    0.134364244112
-    0.847433736937
-    0.763774618977
-    ```
+```python
+0.134364244112
+0.847433736937
+0.763774618977
+```
 
 e toda vez que você executar este script você receberá a *mesma* saída, ele vai imprimir o *mesmo* três números aleatórios. Se a semente do número aleatório for alterada, você receberá três números aleatórios:
 
-    ```
-    0.956034271889
-    0.947827487059
-    0.0565513677268
-    ```
+```python
+0.956034271889
+0.947827487059
+0.0565513677268
+```
 mas de novo você obterá os mesmos números toda vez que o script for executado no futuro.
 
 Sementes numéricas aleatórias são uma maneira de tornar as coisas confiavelmente aleatórias. No entanto, um risco com testes que dependem de sementes com números aleatórios é que eles podem ser frágeis. Diga que você tem uma função estruturada algo como isto:
 
-    ```
-    def minha_function()
-
-      a = calculation_that_uses_two_random_numbers()
-
-      b = calculation_that_uses_five_random_numbers()
-
-      c = a + b
-    ```
+```python
+def minha_function():
+  a = calculation_that_uses_two_random_numbers()
+  b = calculation_that_uses_cinco_random_numbers()
+  c = a + b
+```
 
 Se você definir a semente de número aleatório você sempre terá o mesmo valor de `c`, para que possa ser testada. Mas, diga que o modelo é alterado e a função que calcula `um` usa um número diferente de números aleatórios que ele fez anteriormente. Agora não só `um` será diferente, mas `b` também, também. porque como mostrado acima os números aleatórios retornados dado um número aleatório de semente está em uma ordem fixa. Como resultado, os números aleatórios produzidos para calcular `b` terão sido alterados. Isso pode levar a testes falhando quando na verdade não há nenhum erro.
 
@@ -112,7 +109,7 @@ alt:
 ---
 ```
 
-eles poderiam facilmente concluir que há um erro, pois é improvável que um lago tripla seu volume e depois o perca novamente no espaço de algumas horas. Testes de "sombola" como estes consomem tempo e devem ser feitos por um ser humano. No entanto, o processo pode ser parcialmente ou totalmente automatizado criando "verificações básicas de sanidade". Por exemplo, o nível da água numa determinada altura deveria estar, por exemplo, entre 10% do nível da água no período anterior. Outra verificação poderia ser a de que não existem valores negativos, uma vez que um lago não pode estar -30% cheio. Este tipo de testes não pode cobrir todas as maneiras possíveis de algo ser visivelmente errado. mas são muito mais fáceis de automatizar e serão suficientes para a maioria dos casos.
+eles poderiam facilmente concluir que há um erro, pois é improvável que um lago tripla seu volume e depois o perca novamente no espaço de algumas horas. Testes de "Olho" como estes são demorados, pois devem ser feitos por um ser humano. No entanto, o processo pode ser parcialmente ou totalmente automatizado criando "verificações básicas de sanidade". Por exemplo, o nível da água numa determinada altura deveria estar, por exemplo, entre 10% do nível da água no período anterior. Outra verificação poderia ser a de que não existem valores negativos, uma vez que um lago não pode estar -30% cheio. Este tipo de testes não pode cobrir todas as maneiras possíveis de algo ser visivelmente errado. mas são muito mais fáceis de automatizar e serão suficientes para a maioria dos casos.
 
 (rr-testing-desafios-não-inteiro)=
 ## Testando se os números não-inteiros são iguais
@@ -123,43 +120,43 @@ Há uma complicação com o teste se a resposta um pedaço de saídas de código
 
 Se atribuirmos 0.1 a `um` e 0.2 a `b` e imprimirmos o seu som, ficaremos 0.3, como esperado.
 
-    ```
-    >>> a = 0.1
-    >>> b = 0.2
-    >>> impressão (uma + b)
-    0.3
-    ```
+```python
+>>> a = 0.1
+>>> b = 0.2
+>>> impressão (uma + b)
+0.3
+```
 
 Se, no entanto, compararmos o resultado de `um` mais `b` com 0.3, ficamos falsos.
 
-    ```
-    >>> print(a + b == 0.3)
-    Falso
-    ```
+```python
+>>> print(a + b == 0.3)
+Falso
+```
 
 Se nós mostrarmos o valor de `um` mais `b` diretamente, podemos ver que existe uma margem de erro sutil.
 
-    ```
-    >>> a + b
-    0.30000000000000004
-    ```
+```python
+>>> a + b
+0.30000000000000004
+```
 
-Isso porque os números de ponto flutuante são aproximações de números reais. O resultado dos cálculos do ponto flutuante pode depender do compilador ou interpretador, processador ou arquitetura do sistema e número de CPUs ou processos sendo utilizados. É evidente que isto pode constituir um obstáculo importante para a elaboração de testes.
+Isso porque os números de ponto flutuante são aproximações de números reais. O resultado dos cálculos de pontos flutuantes pode depender do compilador ou interpretador, processador ou arquitetura do sistema e número de CPUs ou processos sendo utilizados. Isto pode representar um obstáculo importante para a elaboração de testes.
 
 ### Igualdade em um mundo de ponto flutuante
 
-Quando comparamos números de pontos flutuantes para a igualdade, temos de comparar com uma determinada tolerância, ou seja, com um limiar ou um delta. Por exemplo, podemos considerar os valores calculados e esperados de algum número como iguais se o valor absoluto de sua diferença estiver dentro do valor absoluto de nossa tolerância.
+Quando comparamos números de pontos flutuantes para a igualdade, temos de comparar com uma determinada tolerância, designada como limiar ou delta. Por exemplo, podemos considerar os valores calculados e esperados de algum número como iguais se o valor absoluto de sua diferença estiver dentro do valor absoluto de nossa tolerância.
 
-Muitos quadros de ensaio fornecem funções para comparar a igualdade de números de pontos flutuantes com uma determinada tolerância. Por exemplo, para o framework pytest:
+Muitos quadros de ensaio proporcionam funções para comparar a igualdade dos números de pontos flutuantes com uma determinada tolerância. Por exemplo, para o framework pytest:
 
-    ```
-    import pytest
+```python
+import pytest
 
-    a = 0,1
-    b = 0{,}2
-    c = a + b
-    assert c == pytest.approx(0{,}3)
-    ```
+a = 0,1
+b = 0{,}2
+c = a + b
+assert c == pytest.approx(0{,}3)
+```
 
 isso passa, mas se os 0,3 fossem alterados para 0,4 falharia.
 
