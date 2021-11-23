@@ -41,16 +41,18 @@
 | خلاصة البحوث                | خلاصة البحوث                         | مثال توضيحي على خلاصة البحوث                                                      |
 | خطر_مصفوفة                  | تقييم المخاطر                        |                                                                                   |
 | الروبوت_الدين               | النشاط                               | المثال التوضيحي الذي يصور صنع القرار الآلي المتحيز                                |
-| شارة الاتحاد العلمي         | البحوث الأخلاقية                     | صورة شارة الأنميل                                                                 |
-| فرع                         | التحكم في الإصدار                    | فرع مراقبة الإصدارات التوضيحية + فرع فرعي                                         |
-| اختبار_تحفيز_1            | اختبار                               | مثال على نتيجة عدم اختبار رمز                                                     |
-| اختبار_تحفيز_2            | اختبار                               | مثال على نتيجة عدم اختبار رمز                                                     |
-| Travis_badge_فشل          | التكامل المستمر                      | قراءة مع شارة ترافيس الفاشلة                                                      |
-| تمرير_الشارة_Travis_      | التكامل المستمر                      | قراءة مع شارة ترافيس مرورة                                                        |
-| Travis_Building             | التكامل المستمر                      | ما تبدو لوحة تحكم ترافيس                                                          |
-| فرعان                       | التحكم في الإصدار                    | رئيس مراقبة النسخ التوضيحية + فرعين                                               |
-| آلة افتراضية                | البيئات القابلة للتكرير              | مثال على آلة Ubuntu الافتراضية على النوافذ                                        |
-| VM_إنشاء_آلة              | البيئات القابلة للتكرير              | كيفية إنشاء آلة افتراضية في الصندوق الافتراضي                                     |
-| ماكينة تصدير_VM_          | البيئات القابلة للتكرير              | كيفية تصدير آلة افتراضية في الصندوق الافتراضي                                     |
-| VM_بدء_آلة                | البيئات القابلة للتكرير              | كيفية تشغيل آلة افتراضية في الصندوق الافتراضي                                     |
-| مثال_العمل                  | البيئات القابلة للتكرير              | مثال لاستخدام العامل في ملفات Dockerfiles                                         |
+| routes_to_OA              | Open research                        | Train route showing green, gold and diamond routes to publishing open access      |
+| scientificunionbadge        | Ethical Research                     | Image of an enamel badge                                                          |
+| share_work_openly         | Open research                        | A poster image showing the advantages to sharing your work openly                 |
+| sub_branch                  | Version control                      | Illustrates version control branch + sub branch                                   |
+| testing_motivation_1      | Testing                              | Example of consequence of not testing code                                        |
+| testing_motivation_2      | Testing                              | Example of consequence of not testing code                                        |
+| Travis_badge_fail         | التكامل المستمر                      | A readme with a failing Travis badge                                              |
+| Travis_badge_pass         | Continuous integration               | A readme with a passing Travis badge                                              |
+| Travis_build                | Continuous integration               | What the Travis dashboard looks like                                              |
+| two_branches                | Version control                      | Illustrates version control master + two branches                                 |
+| virtual_machine             | البيئات القابلة للتكرير              | Example of a virtual Ubuntu machine on windows                                    |
+| VM_create_machine         | البيئات القابلة للتكرير              | How to create a virtual machine in VirtualBox                                     |
+| VM_export_machine         | البيئات القابلة للتكرير              | How to export a virtual machine in VirtualBox                                     |
+| VM_start_machine          | Reproducible environments            | How to start a virtual machine in VirtualBox                                      |
+| workdir_example             | Reproducible environments            | Example of using workdir in Dockerfiles                                           |
