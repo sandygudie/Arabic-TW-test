@@ -61,4 +61,38 @@ Trate de leer el capítulo sobre ambientes computacionales reproducibles y luego
 
 ## Materiales utilizados: glosario
 
-- [Centro Holandés de eScience](https://guide.esciencecenter.nl/best_practices/testing.html) **Licencia Creative Commons Attribution 4.0 International**
+- [Centro Holandés de eScience](https://guide.esciencecenter.nl/#/best_practices/testing) **Licencia Creative Commons Attribution 4.0 International**
+
+### Definiciones/glosario
+
+- **Prueba de aceptancia:** Una prueba que el programa cumple con los requisitos fundamentales del proyecto.
+
+- **Cobertura del código:** Una medida que describe la cantidad del código fuente que ejerce la suite de pruebas.
+
+- **Prueba de fin a fin:** Una prueba que ejecuta el programa de principio a fin y verifica que la salida es correcta.
+
+- **Prueba de integración:** Una prueba donde las unidades de código se combinan y ejecutan, y la salida se verifica para comprobar que las unidades han sido correctamente integradas.
+
+- **Mocking:** Reemplaza un objeto real con uno fingido para usar al ejecutar pruebas.
+
+- **Prueba de regresión:** Comparando el resultado de una prueba antes y después de que el código ha sido alterado. Si la salida ha cambiado un problema ha sido introducido en algún lugar del programa, y se produce un error.
+
+- **Prueba de ejecución:** Pruebas incrustadas en el programa que se ejecutan como parte de él.
+
+- **Prueba de humo:** Comprobaciones iniciales muy breves que aseguran los requisitos básicos necesarios para ejecutar el proyecto.
+
+- **Código estocástico:** Código que, si es correcto, no siempre produce el mismo resultado. Por ejemplo, un programa que produce diez números aleatorios generará un resultado diferente cada vez, a pesar de ser correcto.
+
+- **Prueba del sistema:** Vea "end to end test".
+
+- **Desarrollo impulsado por pruebas:** Un proceso de desarrollo de código donde las pruebas unitarias se escriben antes que las unidades mismas.
+
+- **Base de pruebas:** Implementaciones falsas de partes de código que se utilizan en pruebas para eliminar dependencias.
+
+- **Test suite:** Las pruebas que se han escrito para un proyecto.
+
+- **Marco de prueba:** Herramientas que hacen que la escritura y ejecución de pruebas sean menos intensivas.
+
+- **Unidad:** Un pequeño fragmento de código que hace una cosa simple. Normalmente tiene una o unas pocas entradas y generalmente una sola salida.
+
+- **Prueba unitaria:** Una prueba que comprueba el comportamiento de una unidad.
