@@ -1,3 +1,4 @@
+(rr-code-style-and-formating)=
 # Code-Stil und Formatierung
 
 Ein Code-Stil ist eine Reihe von Konventionen zum Formatieren von Code. Zum Beispiel, was nennen Sie Ihre Variablen? Verwenden Sie Leerzeichen oder Tabs für Einrücken? Wo bringen Sie Einwände? Durch die konsequente Verwendung des gleichen Stils während des gesamten Codes wird das Lesen vereinfacht. Code, der leicht zu lesen ist, ist sowohl von Ihnen als auch von potenziellen Mitarbeitern leichter zu verstehen. Das Festhalten an einem Programmierstil verringert somit das Fehlerrisiko und erleichtert die Zusammenarbeit im Bereich Software. [Warum Coding Style wichtig ist](http://coding.smashingmagazine.com/2012/10/25/why-coding-style-matters/) ist ein netter Artikel darüber, warum Codierungsstile wichtig sind und wie sie die Software-Qualität erhöhen.
