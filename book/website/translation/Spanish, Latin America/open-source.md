@@ -35,12 +35,14 @@ Los investigadores que hacen uso del software de código abierto suelen hacer ca
 (rr-open-source-benefitsresearch)=
 ## Cómo Beneficios de Software de Código Abierto
 
-Hay varios en los que la investigación de los beneficios del software de código abierto:
+Hay varias maneras en las que el software de código abierto beneficia la investigación:
 
 (rr-open-source-benefitsresearch-reutilizable)=
 ### Reutilizable
 
 Los proyectos de software de código abierto permiten a los investigadores aprovechar el trabajo de los demás. Esto permite a los investigadores aplicar sus esfuerzos al trabajo de gran valor. A veces se dice que “ya se han resuelto todos los problemas fáciles”. El bloque, la gestión de contenidos y los sistemas operativos son problemas con soluciones de código abierto establecidas (y de código abierto, por nombrar algunas. Mientras que los desarrolladores podrían pasar su tiempo reinventando ruedas que la comunidad de código abierto ya ha perfeccionado, es muy preferible usar la mejor rueda del mundo, especialmente cuando la rueda llega sin coste alguno. Esto reduce la duplicación del esfuerzo y permite a los investigadores centrarse en desafíos aún sin resolver.
+
+El {ref}`rr-code-reuse` proporciona una lista más profunda de diferentes aspectos a considerar para hacer tu código más reutilizable, si se trata de un pequeño script o una biblioteca.
 
 (rr-open-source-benefitsresearch-checkable)=
 ### Comprobable
