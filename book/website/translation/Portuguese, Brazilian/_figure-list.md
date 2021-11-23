@@ -41,7 +41,9 @@
 | PesquisarCompendium               | Pesquisa Compendium                  | Ilustração no compêndio da pesquisa                                                       |
 | risco_matriz                      | avaliação_risco                      |                                                                                           |
 | dívida_robô                       | Ativismo                             | Ilustração retratando decisões automatizadas tendenciosas                                 |
+| rotas_para_OA                   | Pesquisa aberta                      | Rota de trem mostrando rotas verdes, ouro e diamantes para publicar acesso aberto         |
 | selo científico                   | Pesquisa Ética                       | Imagem de um emblema enamel                                                               |
+| Compartilhar_abertamente_       | Pesquisa aberta                      | Um cartaz de imagem mostrando as vantagens de compartilhar seu trabalho abertamente       |
 | suporte_ramo                      | Controle de versão                   | Ilustra ramo de controle de versão + sub branch                                           |
 | motivação_teste_1               | Testando                             | Exemplo de consequência de não teste código                                               |
 | motivação_teste_2               | Testando                             | Exemplo de consequência de não teste código                                               |
