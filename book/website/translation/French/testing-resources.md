@@ -61,38 +61,38 @@ Essayez de lire le chapitre sur les environnements de calcul reproductibles et e
 
 ## Matériaux utilisés : glossaire
 
-- [Netherlands eScience centre](https://guide.esciencecenter.nl/#/best_practices/testing) **Creative Commons Attribution 4.0 International License**
+- [Centre eScience néerlandais](https://guide.esciencecenter.nl/#/best_practices/testing) **Creative Commons Paternité 4.0 Licence internationale**
 
-### Definitions/glossary
+### Définitions/glossaire
 
-- **Acceptance test:** A test that the program meets the project's fundamental requirements.
+- **Test d'acceptation :** Un test que le programme répond aux exigences fondamentales du projet.
 
-- **Code coverage:** A measure which describes how much of the source code is exercised by the test suite.
+- **Couverture de code :** Une mesure qui décrit combien de code source est exercé par la suite d'essai.
 
-- **End to end test:** A test that runs the program from beginning to end and verifies that the output is correct.
+- **Test de fin à fin :** Un test qui exécute le programme du début à la fin et vérifie que la sortie est correcte.
 
-- **Integration test:** A test where units of code are combined and run, and the output is verified to check the units have been correctly integrated.
+- **Test d'intégration :** Un test où les unités de code sont combinées et exécutées, et la sortie est vérifiée pour vérifier que les unités ont été correctement intégrées.
 
-- **Mocking:** Replace a real object with a pretend one to use when running tests.
+- **Mocking :** Remplace un objet réel par un prétendu utiliser lors de l'exécution de tests.
 
-- **Regression test:** Comparing the result of a test before and after the code has been altered. If the output has changed a problem has been introduced somewhere in the program, and an error is thrown.
+- **Tests de régression :** Comparant le résultat d'un essai avant et après que le code a été modifié. Si la sortie a changé, un problème a été introduit quelque part dans le programme, et une erreur est levée.
 
-- **Runtime test:** Tests embedded within the program which are run as part of it.
+- **Tests d'exécution :** Tests intégrés dans le programme qui y sont exécutés.
 
-- **Smoke test:** Very brief initial checks that ensure the basic requirements needed to run the project hold.
+- **Test de fumée :** Très brèves vérifications initiales qui assurent les exigences de base nécessaires pour exécuter le projet maintenu.
 
-- **Stochastic code:** Code which, while correct, does not always output the same result. For example a program that outputs ten random numbers will generate a different result each time, despite being correct.
+- **Code Stochastique :** Code qui, bien que correct, ne produit pas toujours le même résultat. Par exemple, un programme qui donne dix nombres aléatoires générera un résultat différent à chaque fois, bien qu'il soit correct.
 
-- **System test:** See "end to end test".
+- **Test système :** Voir "end to end test".
 
-- **Test driven development:** A process of code development where unit tests are written before the units themselves.
+- **Test de développement piloté :** Un processus de développement de code où les tests unitaires sont écrits avant les unités elles-mêmes.
 
-- **Test stub:** Fake implementations of parts of code which are used in testing to remove dependences.
+- **Test stub :** Fausses implémentations de parties de code qui sont utilisées dans le test pour supprimer les dépendances.
 
-- **Test suite:** The tests that have been written for a project.
+- **Suite de test :** Les tests qui ont été écrits pour un projet.
 
-- **Testing framework:** Tools that make writing and running tests less labour intensive.
+- **Cadre de test :** Outils qui rendent l'écriture et l'exécution de tests moins intensifs en main-d'œuvre.
 
-- **Unit:** A small piece of code that does one simple thing. It usually has one or a few inputs and usually a single output.
+- **Unité :** Un petit morceau de code qui fait une chose simple. Il a généralement une ou quelques entrées et généralement une seule sortie.
 
-- **Unit test:** A test that checks the behaviour of a unit.
+- **Test unitaire :** Un test qui vérifie le comportement d'une unité.
