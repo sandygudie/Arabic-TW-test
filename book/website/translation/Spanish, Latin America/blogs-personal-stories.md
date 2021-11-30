@@ -10,7 +10,7 @@ Puedes encontrar más información sobre su trabajo en los siguientes enlaces:
 * Twitter: [@DrVeronikaCH](https://twitter.com/DrVeronikaCH)
 * ORCID: [0000-0003-0176-9324](https://orcid.org/0000-0003-0176-9324)
 
-We would like to thank **Dr Veronika Cheplygina** for answering our interview questions about her very successful blog series called ['How I fail'](https://veronikach.com/failure/).
+Nos gustaría agradecer **a la Dra. Veronika Cheplygina** por responder a nuestras preguntas de entrevista sobre su exitosa serie de blogs llamada ['Cómo fallo'](https://veronikach.com/failure/).
 
 ## 1. ¿Por qué comenzó su blog?
 
