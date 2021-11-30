@@ -1,12 +1,12 @@
 (bienvenida)=
-# Bienvenida
+# Bienvenidos
 
 *Bienvenido al manual de The Turing Way para la ciencia de datos reproducible, ética y colaborativa.*
 
-_El proyecto de la Vía Turística_ es de código abierto, colaboración abierta y unidad comunitaria. Involucramos y apoyamos a una comunidad diversa de colaboradores para hacer que las ciencias de datos sean accesibles, asequibles y eficaces para todos. Nuestro objetivo es proporcionar toda la información que investigadores y científicos de datos en el mundo académico, la industria y el sector público deben garantizar que los proyectos en los que trabajan sean fáciles de reproducir y reutilizar.
+_El proyecto Turing Way_ es de código abierto, colaboración abierta y liderado por la comunidad. Involucramos y apoyamos a una comunidad diversa de colaboradores para hacer que las ciencias de datos sean accesibles, asequibles y eficaces para todos. Nuestro objetivo es proporcionar toda la información que investigadores y científicos de datos en el mundo académico, la industria y el sector público deben garantizar que los proyectos en los que trabajan sean fáciles de reproducir y reutilizar.
 
 ```{admonition} Top Tip
-Consejo :class:
+:class: tip
 _The Turing Way_ no está pensado para ser leído de principio a fin.
 Comience con un concepto, herramienta o método que necesita ahora, en su trabajo actual.
 Navega por las diferentes guías que componen el libro, o usa el cuadro de búsqueda para buscar lo que quieras aprender primero.
@@ -27,7 +27,7 @@ _The Turing Way_ ilustración del proyecto por Scriberia. Zenodo. [http://doi.or
 
 _La comunidad de Turing Way_ está dedicada a hacer una investigación colaborativa, reutilizable y transparente "demasiado fácil de hacer". Eso significa invertir en las habilidades técnicas necesarias para trabajar en equipo, para construir algo más significativo de lo que cualquier persona podría ofrecer por sí sola.
 
-_La Vía Turística_ es:
+_The Turing Way_ es:
 
 * un libro
 * una comunidad
