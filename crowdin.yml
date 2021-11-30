@@ -3,4 +3,5 @@ files:
     ignore_settings: 1
     ignore:
       - LICENSE.md
-    translation: /book/website/translation/%language%/%original_file_name%
+      - _toc.yml
+    translation: /book/website/translation/%language%/%original_path%/%original_file_name%
