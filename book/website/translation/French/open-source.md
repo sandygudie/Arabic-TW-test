@@ -35,12 +35,14 @@ Les chercheurs qui utilisent des logiciels libres leur apportent souvent des mod
 (rr-open-source-benefitsresearch)=
 ## Comment le logiciel libre bénéficie à la recherche
 
-Il y en a plusieurs dans lesquelles les logiciels libres bénéficient à la recherche :
+Il y a plusieurs façons de bénéficier de la recherche sur les logiciels libres :
 
 (rr-open-source-benefitsresearch-reutilisable)=
 ### Réutilisable
 
 Les projets de logiciels libres permettent aux chercheurs de tirer parti du travail de chacun. Cela permet aux chercheurs d’appliquer leurs efforts à des travaux de grande valeur. On dit parfois que « tous les problèmes faciles ont déjà été résolus ». Blogging, gestion de contenu et systèmes d'exploitation sont tous des problèmes avec des solutions open-source établies (et traditionnelles) pour n'en citer que quelques-unes. Alors que les développeurs pouvaient passer leur temps à réinventer des roues que la communauté open-source a déjà perfectionnées, Il est très préférable d’utiliser la meilleure roue du monde, surtout lorsque cette roue vous est offerte gratuitement. Cela réduit la duplication des efforts et permet aux chercheurs de se concentrer sur les défis non résolus.
+
+La {ref}`rr-code-reuse` fournit une liste plus approfondie de différents aspects à considérer pour rendre votre code plus réutilisable, que ce soit un petit script ou une bibliothèque.
 
 (rr-open-source-benefitsresearch-checkable)=
 ### Vérifiable

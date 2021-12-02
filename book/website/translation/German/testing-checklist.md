@@ -1,6 +1,8 @@
 # Checkliste für Code-Tests
 
-Diese Checkliste enthält viele Elemente. As [mentioned](#Write_tests_any_tests) it is far better to do some of the items than none of them. Lassen Sie sich nicht entmutigen, wenn diese Liste der Aufgaben unüberwindbar erscheint.
+Diese Checkliste enthält viele Elemente. Wie {ref}`bereits erwähnt hat<rr-testing-write-tests>`, ist es viel besser, einige der Elemente zu tun als keines von ihnen. Lassen Sie sich nicht entmutigen, wenn diese Liste der Aufgaben unüberwindbar erscheint.
+
+<a name="Writing_tests"></a>
 
 ## Schreibe Tests
 
@@ -12,12 +14,14 @@ Diese Checkliste enthält viele Elemente. As [mentioned](#Write_tests_any_tests)
 - Wenn dies für Ihr Projekt angemessen ist, schreiben Sie Akzeptanztests.
 - Fügen Sie Laufzeit-Tests in Ihr Projekt ein.
 
+<a name="Good_practice_checks"></a>
+
 ## bewährte Praxisprüfungen
 
-- Dokumentation der Tests und wie sie ausgeführt werden.
-- Schreiben Sie Skripte, um alle Ressourcen einzurichten und zu konfigurieren, die benötigt werden, um die Tests auszuführen.
-- Wählen und nutzen Sie ein Test-Framework.
-- Führen Sie die Tests regelmäßig aus.
-- Automatisieren Sie den Prozess der Ausführung von Tests. Ziehen Sie dazu in Betracht, die kontinuierliche Integration zu nutzen (siehe Kapitel zur kontinuierlichen Integration).
-- Überprüfen Sie die Code-Abdeckung Ihrer Tests und versuchen Sie es zu verbessern.
-- Verbinden Sie die Überprüfung des Codes mit einem Partner.
+- [ ] Dokumentation der Tests und wie sie ausgeführt werden.
+  - [ ] Schreiben Sie Skripte, um alle Ressourcen einzurichten und zu konfigurieren, die benötigt werden, um die Tests durchzuführen.
+- [ ] Wählen und nutzen Sie ein Test-Framework.
+- [ ] Führen Sie die Tests regelmäßig aus.
+  - [ ] Automatisieren Sie den Prozess der Ausführung von Tests. Ziehen Sie dazu in Betracht, die kontinuierliche Integration zu nutzen (siehe Kapitel zur kontinuierlichen Integration).
+- [ ] Überprüfen Sie die Code-Abdeckung Ihrer Tests und versuchen Sie es zu verbessern.
+- [ ] Engage in Code Rezension mit einem Partner.

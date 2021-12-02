@@ -41,7 +41,9 @@
 | Forschungskompendium                          | Forschungskompendium                | Illustration des Forschungskompendiums                                                     |
 | Matrix                                        | Risikobewertung                     |                                                                                            |
 | Roboter-Schulden                              | Aktivismus                          | Illustration der voreingenommenen automatisierten Entscheidungsfindung                     |
+| zu OA                                         | Forschung öffnen                    | Zugstrecke mit grünen, goldenen und Diamantrouten zur Veröffentlichung des offenen Zugangs |
 | wissenschaftlich gewerkschaftliches Abzeichen | Ethische Forschung                  | Bild eines E-Mail-Abzeichens                                                               |
+| freie_work_offen                            | Forschung öffnen                    | Ein Plakatbild, das die Vorteile zeigt, Ihre Arbeit offen zu teilen                        |
 | sub_Branch                                    | Versionskontrolle                   | Illustrates Versionsverwaltungszweig + Unterzweig                                          |
 | testing_motivation_1                        | Testen                              | Beispiel für die Konsequenz des nicht getesteten Codes                                     |
 | testing_motivation_2                        | Testen                              | Beispiel für die Konsequenz des nicht getesteten Codes                                     |

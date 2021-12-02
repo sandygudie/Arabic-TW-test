@@ -41,7 +41,9 @@
 | format@@0 ResearchCompendium    | Compendium de recherche              | Illustration sur le compendium de recherche                                                       |
 | matrice de risque               | évaluation des risques               |                                                                                                   |
 | format@@0 robo_debt             | Activisme                            | Illustration représentant la prise de décision automatisée biaisée                                |
+| itinéraires vers OA             | Ouvrir la recherche                  | Route des trains montrant les routes vertes, or et diamants pour publier un accès libre           |
 | badge d'union scientifique      | Recherche éthique                    | Image d'un badge en émail                                                                         |
+| Partager_ouvertement            | Ouvrir la recherche                  | Une image d'affiche montrant les avantages de partager ouvertement votre travail                  |
 | sous-branche                    | Contrôle de version                  | Illustration de la branche de contrôle de version + sous-branche                                  |
 | test_motivation_1             | Tests en cours                       | Exemple de conséquence du non-test du code                                                        |
 | test_motivation_2             | Tests en cours                       | Exemple de conséquence du non-test du code                                                        |

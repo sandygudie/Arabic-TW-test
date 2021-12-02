@@ -7,6 +7,7 @@ Em primeiro lugar, há testes positivos e testes negativos. Testes positivos ver
 
 Para além destes dois tipos de testes, existem também diferentes níveis de testes que testam diferentes aspectos de um projecto. Estes níveis estão descritos abaixo e tanto os testes positivos como os negativos podem estar presentes em qualquer um destes níveis. Um conjunto de testes completo conterá testes a todos estes níveis (embora alguns níveis precisem de poucos).
 
+(rr-testing-types-of-testing)=
 ## Tipos de Teste
 
 [Teste de fumaça](#Smoke_testing): Verificações iniciais muito breves que garantem os requisitos básicos necessários para executar a retenção do projeto. Se estas falhas, não vale a pena avançar para níveis adicionais de testes até que sejam fixados.

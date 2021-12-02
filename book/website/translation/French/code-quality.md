@@ -13,6 +13,7 @@ Il y a plusieurs façons d'améliorer la qualité des logiciels qui nécessitent
 
 L'analyse de code statique est une méthode qui examine le code et détecte les vulnérabilités logicielles avant l'exécution de votre code ou que le projet soit construit et déployé. Cette analyse est capable d'identifier les problèmes de qualité, y compris les faiblesses de sécurité et les erreurs. En plus de trouver des bogues, beaucoup de ces outils peuvent également aider à maintenir un style de codage cohérent.
 
+(rr-code-qualité-avantages)=
 ### Avantages de l'analyse de code statique
 
 - Écrire du code de haute qualité : La détection précoce d'éventuelles erreurs de programmation aide les développeurs à savoir où ils se sont mal passés.

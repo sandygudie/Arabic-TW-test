@@ -35,12 +35,14 @@ Forscher, die Open-Source-Software nutzen, machen oft Änderungen an ihnen, wie 
 (rr-open-source-benefitsresearch)=
 ## Wie Open-Source-Software Forschung nutzt
 
-Es gibt mehrere Bereiche, in denen Open-Source-Software Forschung nutzt:
+Es gibt verschiedene Möglichkeiten, wie Open-Source-Software Forschung nutzt:
 
 (rr-open-source-benefitsresearch-wiederverwendbar)=
 ### Wiederverwendbar
 
 Open-Source-Software-Projekte ermöglichen es Forschern, die Arbeit des anderen zu nutzen. Dies ermöglicht es Forschern, ihre Anstrengungen auf hochwertige Arbeit zu richten. Manchmal wird gesagt, dass „alle einfachen Probleme bereits gelöst sind“. Blogging, Content-Management und Betriebssysteme sind alle Probleme mit etablierten (und Mainstream) Open-Source-Lösungen, um nur einige zu nennen. Während Entwickler ihre Zeit damit verbringen konnten, Räder neu zu erfinden, die die Open-Source-Community bereits perfektioniert hat, es ist sehr vorzuziehen, das beste Rad der Welt zu benutzen, vor allem, wenn dieses Rad für Sie kostenlos kommt. Dies reduziert Doppelarbeit und ermöglicht es Forschern, sich auf noch ungelöste Herausforderungen zu konzentrieren.
+
+Die {ref}`rrr-code-reuse` bietet eine detailliertere Liste von verschiedenen Aspekten, um Ihren Code wiederverwendbarer zu machen ob dies ein kleines Skript oder eine Bibliothek ist.
 
 (rr-open-source-benefitsresearch-checkable)=
 ### Prüfbar

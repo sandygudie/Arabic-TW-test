@@ -1,6 +1,8 @@
 # Checklist para teste de código
 
-Esta lista de verificação contém um monte de itens. Como [mencionado](#Write_tests_any_tests) é muito melhor fazer alguns dos itens do que nenhum deles. Não desanime se esta lista de tarefas parecer intransponível.
+Esta lista de verificação contém um monte de itens. Como {ref}`mencionado antes de<rr-testing-write-tests>`, é muito melhor fazer alguns dos itens do que nenhum deles. Não desanime se esta lista de tarefas parecer intransponível.
+
+<a name="Writing_tests"></a>
 
 ## Testes de escrita
 
@@ -12,12 +14,14 @@ Esta lista de verificação contém um monte de itens. Como [mencionado](#Write_
 - Se apropriado para testes de aceitação de seu projeto.
 - Adicione testes de tempo de execução ao seu projeto.
 
+<a name="Good_practice_checks"></a>
+
 ## Boas verificações práticas
 
-- Documento os testes e como executá-los.
-- Escrever scripts para configurar e configurar todos os recursos necessários para executar os testes.
-- Escolha e utilize um quadro de teste.
-- Execute os testes regularmente.
-- Automatize o processo de execução de testes. Considere utilizar a integração contínua (ver capítulo de integração contínua) para fazer isso.
-- Verifique a cobertura do código de seus testes e tente melhorá-lo.
-- Participe da revisão de código com um parceiro.
+- [ ] Documento os testes e como executá-los.
+  - [ ] Escrever scripts para configurar e configurar todos os recursos necessários para executar os testes.
+- [ ] Escolha e faça uso de um framework de teste.
+- [ ] Execute os testes regularmente.
+  - [ ] Automatize o processo de testes em execução. Considere utilizar a integração contínua (ver capítulo de integração contínua) para fazer isso.
+- [ ] Verifique a cobertura do código de seus testes e tente melhorá-lo.
+- [ ] Participe da revisão de código com um parceiro.

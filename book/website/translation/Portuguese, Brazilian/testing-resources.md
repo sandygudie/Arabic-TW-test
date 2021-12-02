@@ -61,4 +61,38 @@ Tente ler o capítulo sobre ambientes computacionais reproduzíveis e, em seguid
 
 ## Materiais usados: glossário
 
-- [Centro de Ciência da Holanda](https://guide.esciencecenter.nl/best_practices/testing.html) **Creative Commons Atribuição 4.0 Internacional da Licença**
+- [Centro de Ciência da Holanda](https://guide.esciencecenter.nl/#/best_practices/testing) **Creative Commons Atribuição 4.0 Internacional da Licença**
+
+### Definições/glossário
+
+- **Teste para Aceitação** Um teste se o programa atende aos requisitos fundamentais do projeto.
+
+- **Cobertura de código:** Uma medida que descreve quanto do código-fonte está sendo exercido pela suíte de teste.
+
+- **Teste final a fim:** Um teste que executa o programa do início ao fim e verifica se a saída está correta.
+
+- **Teste de integração:** Um teste onde as unidades de código são combinadas e executadas, e a saída é verificada para verificar se as unidades foram corretamente integradas.
+
+- **Mascaramento:** Substitua um objeto real com um finge usar ao executar testes.
+
+- **Teste de regressão:** Comparação do resultado de um teste antes e depois do código ser alterado. Se a saída mudou um problema foi introduzido em algum lugar do programa, e um erro é lançado.
+
+- **Teste de execução:** Testes incorporados no programa que são executados como parte dele.
+
+- **Teste de fumaça:** Verificações iniciais muito rápidas que garantem os requisitos básicos necessários para executar a retenção do projeto.
+
+- **Código estocástico:** Código que, embora correto, nem sempre produz o mesmo resultado. Por exemplo, um programa que produz dez números aleatórios irá gerar um resultado diferente a cada vez, apesar de estar correto.
+
+- **Teste do sistema:** Veja "end to end test".
+
+- **Teste o desenvolvimento orientado:** Um processo de desenvolvimento de código onde testes de unidade são escritos antes das próprias unidades.
+
+- **Teste stub:** Implementações falsas de partes do código que são usadas no teste para remover dependências.
+
+- **Teste suite:** Os testes que foram escritos para um projeto.
+
+- **Quadro de testes:** Ferramentas que tornam a escrita e o funcionamento dos testes menos intensivos.
+
+- **Unidade:** Uma pequena parte de código que faz uma coisa simples. Geralmente ele tem uma ou algumas entradas e geralmente uma única saída.
+
+- **Teste da unidade:** Um teste que verifica o comportamento de uma unidade.

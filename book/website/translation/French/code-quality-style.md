@@ -1,3 +1,4 @@
+(rr-code-style-and-formatting)=
 # Style de code et mise en forme
 
 Un style de codage est un ensemble de conventions sur la façon de formater le code. Par exemple, que nommez-vous vos variables ? Utilisez-vous des espaces ou des tabulations pour l'indentation ? Où avez-vous des commentaires? En utilisant le même style dans tout votre code, il est plus facile à lire. Le code facile à lire est plus facile à comprendre par vous ainsi que par les collaborateurs potentiels. Par conséquent, adhérer à un style de codage réduit les risques d'erreurs et facilite la collaboration sur le logiciel. [Pourquoi Coding Style Matter](http://coding.smashingmagazine.com/2012/10/25/why-coding-style-matters/) est un article sympa sur pourquoi les styles de codage sont importants et comment ils augmentent la qualité du logiciel.

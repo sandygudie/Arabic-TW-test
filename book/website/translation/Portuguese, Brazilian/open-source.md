@@ -35,12 +35,14 @@ Pesquisadores que usam software de código aberto geralmente fazem alterações 
 (pesquisa rr-open-source-benefits)=
 ## Como beneficiar a pesquisa de software em código aberto
 
-Existem vários nos quais o software de código aberto beneficia a pesquisa:
+Existem várias maneiras pelas quais o software de código aberto beneficia a pesquisa:
 
 (rr-open-source-benefitspesquisch-reusable)=
 ### Reutilizável
 
 Os projetos de software de código aberto permitem que os pesquisadores tirem proveito do trabalho uns dos outros. Isso permite que os investigadores apliquem os seus esforços no trabalho de grande valor. Diz-se por vezes que “todos os problemas fáceis já foram resolvidos”. Blogging, gerenciamento de conteúdo e sistemas operacionais são todos problemas com soluções de código aberto estabelecidas (e convencionais), para nomear algumas. Enquanto os desenvolvedores poderiam gastar seu tempo reinventando rodas que a comunidade de código aberto já fez, é altamente preferível usar a melhor roda do mundo, especialmente quando essa roda vem a qualquer preço. Isto reduz a duplicação de esforços e permite que os pesquisadores se concentrem em desafios ainda por resolver.
+
+O {ref}`rr-code-reuse` fornece uma lista mais aprofundada de diferentes aspectos a considerar para tornar seu código mais reutilizável, se este é um pequeno script ou uma biblioteca.
 
 (rr-open-source-benefitspesquisao-checkable)=
 ### Verificável

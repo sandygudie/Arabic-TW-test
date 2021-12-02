@@ -61,4 +61,38 @@ Essayez de lire le chapitre sur les environnements de calcul reproductibles et e
 
 ## Matériaux utilisés : glossaire
 
-- [Centre eScience néerlandais](https://guide.esciencecenter.nl/best_practices/testing.html) **Creative Commons Paternité 4.0 Licence internationale**
+- [Centre eScience néerlandais](https://guide.esciencecenter.nl/#/best_practices/testing) **Creative Commons Paternité 4.0 Licence internationale**
+
+### Définitions/glossaire
+
+- **Test d'acceptation :** Un test que le programme répond aux exigences fondamentales du projet.
+
+- **Couverture de code :** Une mesure qui décrit combien de code source est exercé par la suite d'essai.
+
+- **Test de fin à fin :** Un test qui exécute le programme du début à la fin et vérifie que la sortie est correcte.
+
+- **Test d'intégration :** Un test où les unités de code sont combinées et exécutées, et la sortie est vérifiée pour vérifier que les unités ont été correctement intégrées.
+
+- **Mocking :** Remplace un objet réel par un prétendu utiliser lors de l'exécution de tests.
+
+- **Tests de régression :** Comparant le résultat d'un essai avant et après que le code a été modifié. Si la sortie a changé, un problème a été introduit quelque part dans le programme, et une erreur est levée.
+
+- **Tests d'exécution :** Tests intégrés dans le programme qui y sont exécutés.
+
+- **Test de fumée :** Très brèves vérifications initiales qui assurent les exigences de base nécessaires pour exécuter le projet maintenu.
+
+- **Code Stochastique :** Code qui, bien que correct, ne produit pas toujours le même résultat. Par exemple, un programme qui donne dix nombres aléatoires générera un résultat différent à chaque fois, bien qu'il soit correct.
+
+- **Test système :** Voir "end to end test".
+
+- **Test de développement piloté :** Un processus de développement de code où les tests unitaires sont écrits avant les unités elles-mêmes.
+
+- **Test stub :** Fausses implémentations de parties de code qui sont utilisées dans le test pour supprimer les dépendances.
+
+- **Suite de test :** Les tests qui ont été écrits pour un projet.
+
+- **Cadre de test :** Outils qui rendent l'écriture et l'exécution de tests moins intensifs en main-d'œuvre.
+
+- **Unité :** Un petit morceau de code qui fait une chose simple. Il a généralement une ou quelques entrées et généralement une seule sortie.
+
+- **Test unitaire :** Un test qui vérifie le comportement d'une unité.

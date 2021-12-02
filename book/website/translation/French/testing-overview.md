@@ -7,6 +7,7 @@ Premièrement, il y a des tests positifs et des tests négatifs. Les tests posit
 
 En plus de ces deux types de tests, il y a aussi différents niveaux de tests qui testent différents aspects d'un projet. Ces niveaux sont décrits ci-dessous et des tests positifs et négatifs peuvent être présents à l'un de ces niveaux. Une suite de tests approfondis contiendra des tests à tous ces niveaux (même si certains niveaux auront besoin de très peu de choses).
 
+(rr-testing-types-of-testing)=
 ## Types de tests
 
 [Essais de fumée](#Smoke_testing): Très brèves vérifications initiales qui garantissent les exigences de base requises pour exécuter le projet en attente. En cas d'échec, il ne sert à rien de passer à des niveaux de test supplémentaires jusqu'à ce qu'ils soient corrigés.

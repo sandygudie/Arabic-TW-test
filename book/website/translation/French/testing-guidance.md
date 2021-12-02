@@ -1,24 +1,27 @@
+<a name="General_guidance_and_good_practice_for_testing"></a>
+
 # Orientations générales et bonnes pratiques pour les tests
 
-Il y a un certain nombre de tests qui ont chacun des meilleures pratiques spécifiques à eux. Néanmoins, il existe certaines orientations générales qui s'appliquent à toutes ces questions, qui seront exposées ici.
+Il y a plusieurs {ref}`types différents`<rr-testing-types-of-testing> de tests qui ont chacun les meilleures pratiques spécifiques à eux. Néanmoins, il existe des orientations générales qui s'appliquent à toutes ces questions, qui seront exposées ici.
 
+(rr-testing-write-tests)=
 ## Ecrire des tests - N'importe quel test !
 
-Lancer le processus d'écriture des tests peut être accablant, surtout si vous avez une grande base de code. De plus, comme on l’a mentionné, il existe de nombreux types de tests et la mise en œuvre de tous ces tests peut sembler une montagne impossible à escalader. C'est pourquoi le seul élément d'orientation le plus important de ce chapitre est le suivant : **écrire des tests**. Tester une petite chose dans un code de plusieurs milliers de lignes est infiniment mieux que de tester aucune chose dans un code de plusieurs milliers de lignes. Vous ne pourrez peut-être pas tout faire, mais faire *quelque chose* est précieux.
+Lancer le processus d'écriture des tests peut être accablant, surtout si vous avez une grande base de code. De plus, comme on l’a mentionné, il existe de nombreux types de tests et la mise en œuvre de tous ces tests peut sembler une montagne impossible à escalader. C'est pourquoi le seul élément d'orientation le plus important de ce chapitre est le suivant : **écrire des tests**. Tester une petite chose dans un code de plusieurs milliers de lignes est infiniment mieux que de tester rien dans un code de plusieurs milliers de lignes. Vous ne pourrez peut-être pas tout faire, mais faire *quelque chose* est précieux.
 
 Faites des améliorations là où vous le pouvez, et faites de votre mieux pour inclure les tests avec le nouveau code que vous écrivez même s'il n'est pas possible d'écrire des tests pour tout le code déjà écrit.
 
 ## Exécuter les tests
 
-Le deuxième conseil le plus important dans ce chapitre : exécuter les tests. Avoir une belle et parfaite suite de tests n'est pas utile si vous l'exécutez rarement. Laisser de longs écarts entre les exécutions de test rend plus difficile le suivi de ce qui s'est mal passé lorsqu'un test échoue parce que beaucoup de choses dans le code auront changé. Également si cela fait des semaines ou des mois que les tests ont été exécutés et qu'ils échouent, il est difficile ou impossible de savoir quels travaux / résultats ont été effectués pendant le temps écoulé sont toujours valides, et qui doivent être jetés car ils auraient pu être touchés par le bug.
+Le deuxième conseil le plus important dans ce chapitre : exécuter les tests. Avoir une belle et parfaite suite de tests n'est pas utile si vous l'exécutez rarement. Laisser de longs écarts entre les épreuves de test rend plus difficile le suivi de ce qui s'est mal passé lorsqu'un test échoue parce que, une grande partie du code aura changé. En outre, si cela a été des semaines ou des mois depuis que les tests ont été exécutés et qu'ils ont échoué, il est difficile ou impossible de savoir quels résultats ont été obtenus entre-temps sont toujours valables, et qui doivent être jetés car ils auraient pu être touchés par le bug.
 
-Il est donc préférable d'automatiser vos tests autant que possible. Si chaque test doit être exécuté individuellement, alors ce processus ennuyeux et pénible sera probablement négligé. Cela peut être fait en utilisant un framework de test ([discuté plus tard](#Use_a_testing_framework)). [Jenkins](https://jenkins.io) est un autre bon outil pour cela. Idéalement, réglez vos tests pour qu'ils fonctionnent à intervalles réguliers, éventuellement chaque nuit.
+Il est préférable d'automatiser vos tests autant que possible. Si chaque test doit être exécuté individuellement, alors ce processus ennuyeux et pénible sera probablement négligé. Cela peut être fait en utilisant un framework de test ([discuté plus tard](#use-a-testing-framework)). [Jenkins](https://jenkins.io) est un autre bon outil pour cela. Idéalement, réglez vos tests pour qu'ils fonctionnent à intervalles réguliers, peut-être tous les soirs.
 
 Envisagez de mettre en place une intégration continue (discutée dans le chapitre d'intégration continue) de votre projet. Cela exécutera automatiquement vos tests chaque fois que vous apportez une modification à votre code et, Selon le logiciel d'intégration continue que vous utilisez, vous avertirez si l'un des tests échoue.
 
 ## Considérez combien de temps vos tests doivent être exécutés
 
-Certains tests, comme les [tests unitaires](#Unit_tests) ne testent qu'un petit bout de code et sont donc généralement très rapides. Cependant d'autres types de tests, tels que [tests système](#System_tests) qui testent le code de bout en bout de bout en bout, peut prendre beaucoup de temps à exécuter selon le code. En tant que tel, il peut être obstructif d'exécuter toute la suite de tests après chaque petit peu de travail. Dans ce cas, il vaut mieux faire des tests de poids plus légers tels que des tests unitaires fréquemment, et des tests plus longs seulement une fois par jour du jour au lendemain. Il est également bon de mettre à l'échelle le nombre de chaque type de tests que vous avez en rapport avec le temps qu'ils prennent à exécuter. Vous devriez avoir beaucoup de tests unitaires (ou d'autres types de tests qui sont rapides) mais beaucoup moins de tests qui prennent beaucoup de temps à exécuter.
+Certains tests, comme {ref}`rr-testing-unittest` ne testent qu'un petit bout de code et sont donc généralement très rapides. Cependant d'autres types de tests, tels que {ref}`rr-testing-systemtest` qui testent tout le code de bout en bout peut prendre beaucoup de temps à exécuter selon le code. En tant que tel, il peut être obstructif d'exécuter toute la suite de tests après chaque petit peu de travail. Dans ce cas, il vaut mieux faire des tests de poids plus légers tels que des tests unitaires fréquemment, et des tests plus longs seulement une fois par jour du jour au lendemain. Il est également bon de mettre à l'échelle le nombre de chaque type de tests que vous avez en rapport avec le temps qu'ils prennent à exécuter. Vous devriez avoir beaucoup de tests unitaires (ou d'autres types de tests qui sont rapides) mais beaucoup moins de tests qui prennent beaucoup de temps à exécuter.
 
 ## Documentez les tests et comment les exécuter
 
@@ -26,7 +29,7 @@ Il est important de fournir une documentation qui décrit comment exécuter les 
 
 - Toutes les ressources, telles que les fichiers du jeu de données de test qui sont nécessaires
 - Tous les réglages de configuration nécessaires pour exécuter les tests
-- Quels logiciels (tels que [les frameworks de test](#Use_a_testing_framework)) doivent être installés
+- Quels logiciels (tels que [les frameworks de test](#use-a-testing-framework)) doivent être installés
 
 Idéalement, vous devriez fournir des scripts pour configurer et configurer toutes les ressources nécessaires.
 
@@ -65,13 +68,13 @@ Bien que les C++ et C modernes soient encore pour la plupart compatibles, ils ne
 
 ## Visez à avoir une bonne couverture de code
 
-La couverture du code est une mesure de la quantité de votre code "couvert" par les tests. Plus précisément, c'est une mesure de la part de votre code qui est exécutée lorsque des tests sont effectués. Ainsi, par exemple, si vous avez une instruction `if` mais seulement tester des choses où l'instruction if évalue à "True" alors aucun du code qui tombe sous "Faux" ne sera exécuté. En conséquence, votre couverture de code serait < 100% (le nombre exact dépendrait de la quantité de code dans les cas True et Faux). La couverture de code n'inclut pas de documentation comme des commentaires, donc ajouter plus de documentation n'affecte pas vos pourcentages.
+La couverture du code est une mesure de la quantité de votre code "couvert" par les tests. Plus précisément, c'est une mesure de la part de votre code qui est exécutée lorsque des tests sont effectués. Ainsi, par exemple, si vous avez une instruction `if` mais seulement tester des choses où l'instruction if évalue à "Faux" alors aucun du code dans le bloc if ne sera exécuté. En conséquence, votre couverture de code serait < 100%. La couverture de code n'inclut pas de documentation comme des commentaires, donc ajouter plus de documentation n'affecte pas vos pourcentages.
 
 Comme on l'a dit, tous les tests sont une amélioration par rapport à aucun test. Néanmoins, il est bon d'aspirer au moins à ce que votre couverture de code soit aussi élevée que possible.
 
-La plupart des langages de programmation ont des outils soit intégrés, soit importés, soit dans le cadre des frameworks de test, qui mesurent automatiquement la couverture de code. Il y a aussi un joli petit bot [](https://codecov.io/) pour mesurer la couverture de code également disponible.
+La plupart des langages de programmation ont des outils soit intégrés, soit importés, soit dans le cadre des frameworks de test, qui mesurent automatiquement la couverture de code. Il y a un joli petit bot [](https://codecov.io/) pour mesurer la couverture de code également disponible.
 
-**Pitfall : L'illusion de bonne couverture.** Dans certains cas, le même code peut et doit probablement être testé de plusieurs manières. Par exemple, la couverture peut rapidement augmenter sur le code qui applique des tests de « vérification de l'état de santé » à sa sortie ([voir ci-dessous](#tests-that-are-difficult-to-quantify)), mais cela n'exclut pas le risque que le code produise la réponse largement correcte pour les mauvaises raisons. En général, les meilleurs tests sont ceux qui isolent les plus petits plutôt que les plus gros morceaux de code cohérent, et ainsi choisir les étapes individuelles de la logique. Essaie d'être guidée en pensant aux choses possibles qui pourraient arriver à un morceau de code particulier dans l'exécution de l'ensemble et de tester ces cas individuels. Souvent, cela se traduira par le même code testé plusieurs fois - c'est une bonne chose !
+**Pitfall : L'illusion de bonne couverture.** Dans certains cas, le même code peut et doit probablement être testé de plusieurs manières. Par exemple, la couverture peut rapidement augmenter sur le code qui applique des tests de « vérification de santé » à sa sortie (voir aussi {ref}<rr-testing-challenges-difficult-quatify>), mais cela n'exclut pas le risque que le code produise la réponse largement correcte pour les mauvaises raisons. En général, les meilleurs tests sont ceux qui isolent les plus petits plutôt que les plus gros morceaux de code cohérent, et ainsi choisir les étapes individuelles de la logique. Essaie d'être guidée en pensant aux choses possibles qui pourraient arriver à un morceau de code particulier dans l'exécution de l'ensemble et de tester ces cas individuels. Souvent, cela se traduira par le même code testé plusieurs fois - c'est une bonne chose !
 
 ## Utiliser les doubles/moquettes/doublures de test le cas échéant
 
