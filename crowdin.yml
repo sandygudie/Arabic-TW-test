@@ -4,4 +4,10 @@ files:
     ignore:
       - LICENSE.md
       - _toc.yml
+      - _config.yml
+      - _redirects
+      - requirements.txt
+      - *.jpg
+      - *.png
+      - runtime.txt
     translation: /book/website/translation/%three_letters_code%/%original_path%/%original_file_name%
