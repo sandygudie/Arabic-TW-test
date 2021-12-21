@@ -10,4 +10,4 @@ files:
       - *.jpg
       - *.png
       - runtime.txt
-    translation: /book/website/translation/%three_letters_code%/%original_path%/%original_file_name%
+    translation: /book/translation/%three_letters_code%/%original_path%/%original_file_name%
