@@ -1,0 +1,3994 @@
+
+<!DOCTYPE html>
+
+<html lang="ش">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الحاويات &#8212; طريق التورنج</title>
+    
+  <link href="../../_static/css/theme.css" rel="stylesheet" />
+  <link href="../../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="../../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/book-stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/language_data.js"></script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <link rel="canonical" href="https://the-turing-way.netlify.com/reproducible-research/renv/renv-containers.html" />
+    <link rel="shortcut icon" href="../../_static/favicon-32x32.png"/>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="الموارد وقائمة المراجعة" href="renv-resources.html" />
+    <link rel="prev" title="الآلات الظاهرية" href="renv-virtualmachine.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../../_static/logo.jpg" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">طريق التورنج</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../welcome.html">
+   مرحبا بك
+  </a>
+ </li>
+</ul>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="../reproducible-research.html">
+   دليل البحوث القابلة للتكرير
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../overview.html">
+     Overview
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+    <label for="toctree-checkbox-2">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../overview/overview-definitions.html">
+       Definitions
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../overview/overview-benefit.html">
+       Added Advantages
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../overview/overview-barriers.html">
+       Barriers
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../overview/overview-resources.html">
+       Resources
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../open.html">
+     Open Research
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+    <label for="toctree-checkbox-3">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../open/open-data.html">
+       Open Data
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../open/open-source.html">
+       Open Source Software
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../open/open-hardware.html">
+       Open Hardware
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../open/open-access.html">
+       Open Access
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../open/open-notebooks.html">
+       Open Notebooks
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../open/open-scholarship.html">
+       Open Scholarship
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../open/open-checklist.html">
+       Checklist
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../open/open-resources.html">
+       Resources
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../vcs.html">
+     Version Control
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+    <label for="toctree-checkbox-4">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../vcs/vcs-workflow.html">
+       General Workflow
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../vcs/vcs-git.html">
+       Getting Started with Git
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../vcs/vcs-git-commit.html">
+       Git Commit Command
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../vcs/vcs-git-compare.html">
+       Retrieving and Comparing Versions
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../vcs/vcs-git-branches.html">
+       Git Branches
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../vcs/vcs-git-merge.html">
+       Merging Branches in Git
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../vcs/vcs-git-interactive.html">
+       Interactive, Visual Git
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../vcs/vcs-github.html">
+       Git Commands to Work on GitHub
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../vcs/vcs-git-summary.html">
+       Summary Table of Git Commands
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../vcs/vcs-data.html">
+       Version Control for Data
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../vcs/vcs-personal-stories.html">
+       Personal Stories
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../vcs/vcs-checklist.html">
+       Checklist
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../vcs/vcs-resources.html">
+       Resources
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../licensing.html">
+     Licensing
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+    <label for="toctree-checkbox-5">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../licensing/licensing-software.html">
+       Software Licenses
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../licensing/licensing-compatibility.html">
+       License Compatibililty
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../licensing/licensing-data.html">
+       Data Licenses
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../licensing/licensing-checklist.html">
+       Checklist
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../rdm.html">
+     Research Data Management
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
+    <label for="toctree-checkbox-6">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../rdm/rdm-data.html">
+       Research Data
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../rdm/rdm-dmp.html">
+       Data Management Plan
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../rdm/rdm-fair.html">
+       The FAIR Principles and Practices
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../rdm/rdm-personal.html">
+       Personal data management
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../rdm/rdm-storage.html">
+       Data Storage and Organisation
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../rdm/rdm-spreadsheets.html">
+       Data Organisation in Spreadsheets
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../rdm/rdm-metadata.html">
+       Documentation and Metadata
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../rdm/rdm-sharing.html">
+       Sharing and Archiving Data
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../rdm/rdm-toolkits.html">
+       Research Data Management Toolkits
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../rdm/rdm-stories.html">
+       Personal Impact Stories
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../rdm/rdm-checklist.html">
+       Checklist
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../rdm/rdm-resources.html">
+       Resources
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 current active has-children">
+    <a class="reference internal" href="../renv.html">
+     Reproducible Environments
+    </a>
+    <input checked="" class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
+    <label for="toctree-checkbox-7">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul class="current">
+     <li class="toctree-l3">
+      <a class="reference internal" href="renv-options.html">
+       Capturing Computational Environments
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="renv-package.html">
+       Package Management Systems
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="renv-yaml.html">
+       YAML
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="renv-binder.html">
+       Binder
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="renv-virtualmachine.html">
+       Virtual Machines
+      </a>
+     </li>
+     <li class="toctree-l3 current active">
+      <a class="current reference internal" href="#">
+       Containers
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="renv-resources.html">
+       Resources and Checklist
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../binderhub.html">
+     BinderHub
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/>
+    <label for="toctree-checkbox-8">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../binderhub/binderhub-introduction.html">
+       Introduction to BinderHub
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../binderhub/binderhub-compute.html">
+       Compute Resources
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../binderhub/binderhub-build.html">
+       Build Your Own BinderHub
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../binderhub/binderhub-resources.html">
+       Resources for BinderHub
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../code-quality.html">
+     Code quality
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/>
+    <label for="toctree-checkbox-9">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../code-quality/code-quality-style.html">
+       Code Style and Formatting
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../code-quality/code-quality-resources.html">
+       Checklist and Resources
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../testing.html">
+     Code Testing
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/>
+    <label for="toctree-checkbox-10">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../testing/testing-guidance.html">
+       General Guidance for Testing
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../testing/testing-overview.html">
+       Overview of Testing Types
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../testing/testing-smoketest.html">
+       Smoke Testing
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../testing/testing-unittest.html">
+       Unit Testing
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../testing/testing-integrationtest.html">
+       Integration Testing
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../testing/testing-systemtest.html">
+       System Testing
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../testing/testing-acceptance-regression.html">
+       Acceptance and Regression Testing
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../testing/testing-runtime.html">
+       Runtime Testing
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../testing/testing-driven-development.html">
+       Test Driven Development
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../testing/testing-exceptions.html">
+       Challenges and Exceptional Cases
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../testing/testing-checklist.html">
+       Checklist for Code Testing
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../testing/testing-resources.html">
+       Further Recommendations
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../reviewing.html">
+     Code Reviewing Process
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" type="checkbox"/>
+    <label for="toctree-checkbox-11">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../reviewing/reviewing-motivation.html">
+       Motivation for code reviewing
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../reviewing/reviewing-recommend.html">
+       Recommendations for code reviewing
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../reviewing/reviewing-workflow.html">
+       Code review workflow
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../reviewing/reviewing-checklist.html">
+       Checklist for code reviewing
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../reviewing/reviewing-resources.html">
+       Resources for code reviewing
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../ci.html">
+     Continuous Integration (CI)
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" type="checkbox"/>
+    <label for="toctree-checkbox-12">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../ci/ci-options.html">
+       Intro to Continuous integration (CI)
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../ci/ci-github-actions.html">
+       Getting started with GitHub actions
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../ci/ci-building-gh-actions.html">
+       Building a Block of a GitHub actions
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../ci/ci-practices.html">
+       Best practices and recommendations
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../ci/ci-resources.html">
+       Checklist and Resources
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../make.html">
+     Reproducible Research with Make
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-13" name="toctree-checkbox-13" type="checkbox"/>
+    <label for="toctree-checkbox-13">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../make/make-examples.html">
+       Learn "Make" by examples
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../make/make-debugging.html">
+       Debugging Makefiles
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../make/make-casestudy.html">
+       Case Study of a Reproducible Paper
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../make/make-results.html">
+       Including numerical results and tables
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../make/make-resources.html">
+       Resources for "Make"
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../make/make-appendix.html">
+       Appendix
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../compendia.html">
+     Research Compendia
+    </a>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../risk-assess.html">
+     Risk Assessment
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-14" name="toctree-checkbox-14" type="checkbox"/>
+    <label for="toctree-checkbox-14">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../risk-assess/risk-assess-impact.html">
+       Complexity and Impact of Risk Assessment
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../risk-assess/risk-assess-resources.html">
+       Summary of Risk Assessment
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../case-studies.html">
+     Case Studies
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-15" name="toctree-checkbox-15" type="checkbox"/>
+    <label for="toctree-checkbox-15">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../case-studies/case-study-statistical.html">
+       A Statistical Methods Manuscript
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../project-design/project-design.html">
+   دليل تصميم المشروع
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-16" name="toctree-checkbox-16" type="checkbox"/>
+  <label for="toctree-checkbox-16">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../project-design/pd-overview.html">
+     Overview of Project Design
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-17" name="toctree-checkbox-17" type="checkbox"/>
+    <label for="toctree-checkbox-17">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../project-design/pd-overview/pd-overview-planning.html">
+       Planning for Project Design
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../project-design/pd-overview/pd-overview-repro.html">
+       Communication and Collaboration
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../project-design/pd-overview/pd-overview-methods.html">
+       Reproducibility Methods
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../project-design/pd-overview/pd-overview-version.html">
+       Version Control and Documentation
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../project-design/pd-overview/pd-overview-sharing.html">
+       Sharing Your Research Work
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../project-design/project-repo.html">
+     Creating Project Repositories
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-18" name="toctree-checkbox-18" type="checkbox"/>
+    <label for="toctree-checkbox-18">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../project-design/project-repo/project-repo-readme.html">
+       Landing Page - README File
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../project-design/project-repo/project-repo-roadmapping.html">
+       Roadmapping
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../project-design/project-repo/project-repo-contributors.html">
+       Contributors and Communication Pathways
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../project-design/project-repo/project-repo-participation.html">
+       Participation Guidelines
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../project-design/project-repo/project-repo-advanced.html">
+       Advanced Structure for Data Analysis
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../project-design/project-repo/project-repo-resources.html">
+       Further Recommendations
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../project-design/persona.html">
+     Personas and Pathways
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-19" name="toctree-checkbox-19" type="checkbox"/>
+    <label for="toctree-checkbox-19">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../project-design/persona/persona-creation.html">
+       Persona Creation Tool
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../project-design/persona/persona-contributors.html">
+       Contributor Pathways
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../project-design/filenaming.html">
+     File Naming Convention
+    </a>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../project-design/code-styling.html">
+     Code Styling and Linting
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-20" name="toctree-checkbox-20" type="checkbox"/>
+    <label for="toctree-checkbox-20">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../project-design/code-styling/code-styling-guidelines.html">
+       Guidelines for Code Styling
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../project-design/code-styling/code-styling-readability.html">
+       Writing Human Readable Code
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../project-design/code-styling/code-styling-tools.html">
+       Code Styling Tools
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../communication/communication.html">
+   دليل الاتصالات
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-21" name="toctree-checkbox-21" type="checkbox"/>
+  <label for="toctree-checkbox-21">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../communication/comms-overview.html">
+     Overview of Guide for Communication
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-22" name="toctree-checkbox-22" type="checkbox"/>
+    <label for="toctree-checkbox-22">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../communication/comms-overview/comms-overview-principles.html">
+       Principles of Communicating with Wider Audiences
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../communication/comms-overview/comms-overview-accessibly.html">
+       Communicating Accessibly
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../communication/comms-overview/comms-overview-resources.html">
+       Resources and Recommendations
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../communication/blogs.html">
+     Blogs for Research Communication
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-23" name="toctree-checkbox-23" type="checkbox"/>
+    <label for="toctree-checkbox-23">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../communication/blogs/blogs-webpage.html">
+       Building a Webpage for Blogs
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../communication/blogs/blogs-personal-stories.html">
+       Personal stories - Blogs
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../communication/lay-summaries.html">
+     Lay Summaries
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-24" name="toctree-checkbox-24" type="checkbox"/>
+    <label for="toctree-checkbox-24">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../communication/lay-summaries/lay-summaries-personal-stories.html">
+       Personal Stories - Lay summaries
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../communication/podcasts.html">
+     Podcasts for Research Communication
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-25" name="toctree-checkbox-25" type="checkbox"/>
+    <label for="toctree-checkbox-25">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../communication/podcasts/podcasts-personal-stories.html">
+       Personal Stories - Podcasts
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../communication/presentations.html">
+     Presenting Posters and Conference Talks
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-26" name="toctree-checkbox-26" type="checkbox"/>
+    <label for="toctree-checkbox-26">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../communication/presentations/presentations-remote.html">
+       Presenting at Remote Events
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../communication/presentations/presentations-personal-stories.html">
+       القصص الشخصية - عرض خارج النظام الخاص بك
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../communication/social-media.html">
+     Social Media for Research Communications
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-27" name="toctree-checkbox-27" type="checkbox"/>
+    <label for="toctree-checkbox-27">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../communication/social-media/social-media-twitter-tips.html">
+       Tips for starting with twitter
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../communication/social-media/social-media-twitter-multiple.html">
+       Managing multiple twitter accounts
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../communication/citable.html">
+     Making Research Objects Citable
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-28" name="toctree-checkbox-28" type="checkbox"/>
+    <label for="toctree-checkbox-28">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../communication/citable/citable-steps.html">
+       Steps for Making Research Objects Citable
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../communication/citable/citable-cite.html">
+       Citing Research Objects
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../communication/citable/citable-linking.html">
+       ربط عناصر البحث
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../communication/citable/citable-orcid.html">
+       ORCID to Collect your Research Objects
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../communication/citable/citable-resources.html">
+       Checklists and Resources
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../communication/os-comms.html">
+     Communications in Open Source Projects
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-29" name="toctree-checkbox-29" type="checkbox"/>
+    <label for="toctree-checkbox-29">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../communication/os-comms/os-comms-issue-tracking.html">
+       Issue Tracking
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../communication/os-comms/os-comms-channels.html">
+       Communication Channels
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../communication/aa.html">
+     Authorship and Contributions on Academic Articles
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-30" name="toctree-checkbox-30" type="checkbox"/>
+    <label for="toctree-checkbox-30">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul class="simple">
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../collaboration/collaboration.html">
+   دليل التعاون
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-31" name="toctree-checkbox-31" type="checkbox"/>
+  <label for="toctree-checkbox-31">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../collaboration/github-novice.html">
+     Getting Started With GitHub
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-32" name="toctree-checkbox-32" type="checkbox"/>
+    <label for="toctree-checkbox-32">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../collaboration/github-novice/github-novice-motivation.html">
+       Motivation for Using GitHub
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../collaboration/github-novice/github-novice-firststeps.html">
+       First steps on GitHub
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../collaboration/github-novice/github-novice-features.html">
+       Using more GitHub features
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../collaboration/github-novice/github-novice-advanced.html">
+       Advanced GitHub features
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../collaboration/maintain-review.html">
+     Maintainers and Reviewers on GitHub
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-33" name="toctree-checkbox-33" type="checkbox"/>
+    <label for="toctree-checkbox-33">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../collaboration/maintain-review/maintain-review-maintenance.html">
+       Project Maintenance
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../collaboration/maintain-review/maintain-review-permissions.html">
+       Ownership and Permissions
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../collaboration/maintain-review/maintain-review-review.html">
+       Reviewing Contributions
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../collaboration/maintain-review/maintain-review-merge.html">
+       Merging Contributions
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../collaboration/maintain-review/maintain-review-resources.html">
+       Resources
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../collaboration/new-community.html">
+     Managing a New Community and Team
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-34" name="toctree-checkbox-34" type="checkbox"/>
+    <label for="toctree-checkbox-34">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../collaboration/new-community/new-community-guide.html">
+       Guide to Planning a Community
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../collaboration/new-community/new-community-techissues.html">
+       Addressing Technical Issues
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../collaboration/new-community/new-community-differences.html">
+       Valuing Diversity and Differences
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../collaboration/leadership.html">
+     Leadership in Data Science
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-35" name="toctree-checkbox-35" type="checkbox"/>
+    <label for="toctree-checkbox-35">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../collaboration/leadership/leadership-stories.html">
+       Personal Stories of Leadership
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../collaboration/research-infrastructure-roles.html">
+     Research Infrastructure Roles
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-36" name="toctree-checkbox-36" type="checkbox"/>
+    <label for="toctree-checkbox-36">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../collaboration/research-infrastructure-roles/community-manager.html">
+       Community Managers Overview
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../collaboration/research-infrastructure-roles/data-steward.html">
+       Data Stewards Overview
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../collaboration/research-infrastructure-roles/data-steward/data-steward-casestudy.html">
+       Data Steward Case Study
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../collaboration/research-infrastructure-roles/research-software-engineer.html">
+       Research Software Engineers Overview
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../collaboration/remote-collab.html">
+     Remote Collaboration
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-37" name="toctree-checkbox-37" type="checkbox"/>
+    <label for="toctree-checkbox-37">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../collaboration/remote-collab/remote-collab-meetings.html">
+       Organising Remote Meetings
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../collaboration/remote-collab/remote-collab-guidelines.html">
+       Guidelines for Remote Collaboration
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../collaboration/remote-collab/remote-collab-tools.html">
+       Tools for Remote Collaboration
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../collaboration/remote-collab/remote-collab-coworking.html">
+       Organising Online Coworking Calls
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../collaboration/remote-collab/remote-collab-conferences.html">
+       Organising Remote Conferences
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../collaboration/remote-collab/remote-collab-chairs.html">
+       Chairing Remote Events
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../collaboration/remote-collab/remote-collab-participation.html">
+       Participating in Remote Events
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../collaboration/remote-collab/remote-collab-management.html">
+       Managing Distributed Teams
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../collaboration/remote-collab/remote-collab-informal.html">
+       Informal Coffee Chats
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../collaboration/remote-collab/remote-collab-prosandcons.html">
+       Perceived Pros and Cons
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../collaboration/shared-ownership.html">
+     Shared Ownership in Open Source Projects
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-38" name="toctree-checkbox-38" type="checkbox"/>
+    <label for="toctree-checkbox-38">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../collaboration/shared-ownership/shared-ownership-projects.html">
+       Project Ownership
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../collaboration/shared-ownership/shared-ownership-models.html">
+       Shared Ownership Models
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../collaboration/shared-ownership/shared-ownership-challenges.html">
+       Challenges with Applying Ownership Models Retroactively
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../collaboration/shared-ownership/shared-ownership-defaults.html">
+       Nudging for a Better Default
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../ethical-research/ethical-research.html">
+   دليل البحوث الأخلاقية
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-39" name="toctree-checkbox-39" type="checkbox"/>
+  <label for="toctree-checkbox-39">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../ethical-research/ethics-intro.html">
+     Introduction to Research Ethics
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../ethical-research/ethics-committees.html">
+     Research Ethics Committees Workflows
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../ethical-research/preclinical-research.html">
+     Ethical Decisions in Preclinical Research
+    </a>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../ethical-research/law-policy.html">
+     Law, Policy and Human Rights in Ethics
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-40" name="toctree-checkbox-40" type="checkbox"/>
+    <label for="toctree-checkbox-40">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../ethical-research/law-policy/law-policy-ethics.html">
+       Ethics and law
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../ethical-research/law-policy/law-policy-rights.html">
+       Human rights
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../ethical-research/law-policy/law-policy-resources.html">
+       Further Recommendations
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../ethical-research/activism.html">
+     Activism for Researchers
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-41" name="toctree-checkbox-41" type="checkbox"/>
+    <label for="toctree-checkbox-41">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../ethical-research/activism/activism-unionisation.html">
+       Unionisation
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../ethical-research/activism/activism-whistleblowing.html">
+       Whistleblowing
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../ethical-research/activism/activism-robodebt.html">
+       Case study - Robodebt
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../ethical-research/activism/activism-case-study-google.html">
+       Case study - Google Workers
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../ethical-research/internal-policy.html">
+     Internal Policy Advocacy
+    </a>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../ethical-research/self-reflection.html">
+     Self-Reflection
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-42" name="toctree-checkbox-42" type="checkbox"/>
+    <label for="toctree-checkbox-42">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../ethical-research/self-reflection/sr-positionality.html">
+       Identity and Positionality
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../ethical-research/self-reflection/sr-power.html">
+       Power and Privilege
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../ethical-research/self-reflection/sr-prompts.html">
+       Self-Reflection Prompts
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../ethical-research/self-reflection/sr-resources.html">
+       Resources
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../community-handbook/community-handbook.html">
+   دليل المجتمع
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-43" name="toctree-checkbox-43" type="checkbox"/>
+  <label for="toctree-checkbox-43">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../community-handbook/coc.html">
+     Code of Conduct
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-44" name="toctree-checkbox-44" type="checkbox"/>
+    <label for="toctree-checkbox-44">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/coc/coc-details.html">
+       Code of Conduct in Detail
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/coc/coc-reporting.html">
+       Incident Reporting Guideline
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/coc/coc-enforcement.html">
+       Enforcement Manual
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/coc/coc-acknowledgement.html">
+       Acnowledgements
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../community-handbook/style.html">
+     Style Guide
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-45" name="toctree-checkbox-45" type="checkbox"/>
+    <label for="toctree-checkbox-45">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/style/style-citing.html">
+       Citing and Referencing External Resources
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/style/style-crossref.html">
+       Cross-Referencing Sections and Chapters
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/style/style-figures.html">
+       Using Figures
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/style/style-more-styling.html">
+       Glossary, Special Blocks and More Styling
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/style/style-custom-styling.html">
+       Custom Styling
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../community-handbook/consistency.html">
+     Maintaining Consistency
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-46" name="toctree-checkbox-46" type="checkbox"/>
+    <label for="toctree-checkbox-46">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/consistency/consistency-formatting.html">
+       Formatting
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/consistency/consistency-structure.html">
+       Structure
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/consistency/consistency-language.html">
+       Language
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../community-handbook/contributing.html">
+     Contributing and Developing Chapters - Templates and Workflow
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-47" name="toctree-checkbox-47" type="checkbox"/>
+    <label for="toctree-checkbox-47">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/contributing/contributing-templates.html">
+       Templates
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/contributing/contributing-workflow.html">
+       Workflow
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../community-handbook/acknowledgement.html">
+     Acknowledging Contributors
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-48" name="toctree-checkbox-48" type="checkbox"/>
+    <label for="toctree-checkbox-48">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/acknowledgement/acknowledgement-members.html">
+       Community Members and Shared Ownership
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/acknowledgement/acknowledgement-record.html">
+       Record of Contributions
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/acknowledgement/acknowledgement-examples.html">
+       Different Contributions and Acknowledgements
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../community-handbook/newsletters.html">
+     Monthly Newsletters
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-49" name="toctree-checkbox-49" type="checkbox"/>
+    <label for="toctree-checkbox-49">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/newsletters/newsletters-process.html">
+       A Process of Creating a newsletter
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/newsletters/newsletters-style.html">
+       Newsletter's Style Guide
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/newsletters/newsletters-template.html">
+       The Turing Way Newsletter Template
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../community-handbook/bookdash.html">
+     Book Dash Events
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-50" name="toctree-checkbox-50" type="checkbox"/>
+    <label for="toctree-checkbox-50">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/bookdash/bookdash-application.html">
+       Application and Review Process
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/bookdash/bookdash-logistics.html">
+       Book Dash Logistics
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/bookdash/bookdash-selection.html">
+       Participant Selection Process
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/bookdash/bookdash-events.html">
+       Book Dash Main Event Plans
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/bookdash/bookdash-after.html">
+       After the Book Dash
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../community-handbook/coworking.html">
+     Community Coworking Calls
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-51" name="toctree-checkbox-51" type="checkbox"/>
+    <label for="toctree-checkbox-51">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/coworking/coworking-motivation.html">
+       Background, Motivations, and Techniques
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/coworking/coworking-collabcafe.html">
+       Online Collaboration Cafe
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/coworking/coworking-weekly.html">
+       Weekly Coworking Calls
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/coworking/coworking-organisation.html">
+       Organising coworking calls
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../community-handbook/templates.html">
+     Template Collection
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-52" name="toctree-checkbox-52" type="checkbox"/>
+    <label for="toctree-checkbox-52">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/templates/template-bookdash-index.html">
+       Book Dash Main Shared Document
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/templates/template-bookdash-precall.html">
+       Book Dash Pre-event Onboarding
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/templates/template-bookdash-github.html">
+       Book Dash GitHub Session
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/templates/template-bookdash-notes.html">
+       Book Dash Template for Shared Notes
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/templates/template-bookdash-feedback.html">
+       Book Dash Template for Feedback
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/templates/template-coworking-collabcafe.html">
+       Online Collaboration Cafe Templates
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/templates/template-coworking-weekly.html">
+       Weekly Coworking Call Template
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../community-handbook/templates/template-newsletter-draft.html">
+       Template for Drafting Newsletters
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../afterword/afterword.html">
+   بعد الكلمة
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-53" name="toctree-checkbox-53" type="checkbox"/>
+  <label for="toctree-checkbox-53">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../afterword/legal-disclaimer.html">
+     Legal Disclaimer
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../afterword/glossary.html">
+     Glossary
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../afterword/bibliography.html">
+     Bibliography
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../afterword/contributors-record.html">
+     سجل الاشتراكات
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  قم بزيارة مستودع <a href="https://github.com/alan-turing-institute/the-turing-way">GitHub</a> <div>هذا الكتاب مدعوم من قبل <a href="https://jupyterbook.org">كتاب المشتري</a></div>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../_sources/reproducible-research/renv/renv-containers.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/alan-turing-institute/the-turing-way"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/alan-turing-institute/the-turing-way/issues/new?title=Issue%20on%20page%20%2Freproducible-research/renv/renv-containers.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        <a class="edit-button" href="https://github.com/alan-turing-institute/the-turing-way/edit/الرئيسية/كتاب/موقع/reproducible-research/renv/renv-containers.md"><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#rr-renv-buers-why">
+   لماذا الحاويات؟
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#rr-renv-buers-what">
+   ما هي الحاويات؟
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#rr-renv-containers-images">
+   ما هي الصور؟
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#rr-renv-buers-docker">
+   ما هو دوكر؟
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#docker">
+   تثبيت Docker
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#rr-renv-containers-commands">
+   أوامر المفتاح
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#dockerfiles">
+   كتابة ملفات Dockerfiles
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#rr-renv-containers-dockerfiles-workdir">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       دوري
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#rr-renv-containers-dockerfiles-commands">
+     أوامر أخرى
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#dockerignore">
+   صور البناء و
+   <code class="docutils literal notranslate">
+    <span class="pre">
+     .dockerignore
+    </span>
+   </code>
+   ملفات
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#rr-renv-containers-sharing">
+   مشاركة الصور
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#rr-renv-containers-copying">
+   نسخ الملفات إلى الحاويات ومن الحاويات
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#r-renv-buers-volumes">
+   الصوت
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#rr-renv-containers-singarity">
+   التفرد
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#rr-renv-containers-singarity-storage">
+     التخزين الطويل الأجل لصور الحاويات
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#rr-renv-buers-warning">
+   كلمات التحذير
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <p>حاويات (rr-renv) =</p>
+<div class="section" id="id1">
+<h1>الحاويات<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="rr-renv-buers-why">
+<span id="id2"></span><h2>لماذا الحاويات؟<a class="headerlink" href="#rr-renv-buers-why" title="Permalink to this headline">¶</a></h2>
+<p>وحتى بالنسبة للمشاريع المعقدة، يمكن أن يكون حجم مجموعة الاعتماد على البرمجيات ضخما. خذ خط أنابيب بسيط لبناء تقرير pdf لتحليل نصي في R باستخدام <code class="docutils literal notranslate"><span class="pre">Rmarkdown</span></code>، على سبيل المثال. لجعل هذا قابل للتأثر، لا يقتصر الأمر على ما يلي: <code class="docutils literal notranslate"><span class="pre">1</span></code> ضرورة تركيب حزم إعادة التدوير ذات الصلة، و<code class="docutils literal notranslate"><span class="pre">2</span></code> ضرورة أن تكون صيغة إعادة التدوير هي نفسها، ولكن أيضا '3<code class="docutils literal notranslate"><span class="pre">إصدارات</span></code>Pandoc<code class="docutils literal notranslate"><span class="pre">و</span></code>LaTeX` يجب أن تكون نفس الإصدارات أثناء التشغيل.</p>
+<p>وبدلاً من محاولة حل هذه التبعيات عن طريق مدير مجموعة (مثل كوندا) - وهو ما يعتمد أيضاً على توافر جميع البرمجيات المطلوبة في مدير حزمة واحد - قد يكون من الأسهل إنشاء لقطة لبيئة الحوسبة بأكملها بما في ذلك جميع التبعيات. بعد ذلك تكون هذه البيئات الحاسوبية قائمة بذاتها، ومن ثم اسم &quot;الحاويات&quot;.</p>
+</div>
+<div class="section" id="rr-renv-buers-what">
+<span id="id3"></span><h2>ما هي الحاويات؟<a class="headerlink" href="#rr-renv-buers-what" title="Permalink to this headline">¶</a></h2>
+<p>تسمح الحاويات للباحث بتجميع مشروع مع جميع الأجزاء التي يحتاج إليها - مثل المكتبات، الإعتمادات، وإعدادات النظام - وشحنها كلها كحزمة واحدة. ويمكن لأي شخص بعد ذلك أن يفتح حاوية ويعمل داخلها، مشاهدة المشروع والتفاعل معه كما لو أن الآلة التي يصلون إليها متطابقة مع الآلة المحددة في الحاوية - بغض النظر عن البيئة الحسابية الخاصة بهم <em>بالفعل</em>. تم تصميمها لجعلها أسهل نقل المشاريع بين بيئات مختلفة جدا.</p>
+<p>بطريقة ما ، الحاويات تتصرف كآلة افتراضية. وبالنسبة للعالم الخارجي، تبدو وكأنها نظامها الكامل. ومع ذلك، وخلافا لآلة افتراضية، بدلا من إنشاء نظام تشغيل افتراضي كامل بالإضافة إلى جميع البرمجيات والأدوات المعبأة عادة بنظام واحد، ولا تتضمن الحاويات إلا المكونات الفردية التي تحتاجها لتشغيل المشروع الذي تحتويه. وهذا يعطي دفعة كبيرة للأداء ويقلل من حجم التطبيق.</p>
+<p>وتعتبر الحاويات وسيلة مفيدة بشكل خاص لاستنساخ البحوث التي تعتمد على برمجيات لتكوينها بطريقة معينة. أو التي تستخدم المكتبات التي تختلف بين النظم المختلفة (أو لا توجد فيها). وباختصار، الحاويات هي طريقة أكثر قوة لتقاسم البحوث القابلة للاستنساخ من نظم إدارة الطرود أو بيندر لأنها تستنسخ كامل النظام المستخدم في البحوث، ليس فقط الحزم التي استخدمها صراحة. وجوهها السلبي الرئيسي هو ذلك بسبب عمقها الأكبر، وهي أصعب من الناحية المفاهيمية من العديد من الأساليب الأخرى لتكرار البيئات الحسابية.</p>
+<p>يقدم بن كوري نظرة عامة سهلة المنال بشكل معقول للمفاهيم الأساسية في <a class="reference external" href="https://www.youtube.com/watch?v=EnJ7qX9fkcU">'ما هي الحاوية؟'</a>.</p>
+</div>
+<div class="section" id="rr-renv-containers-images">
+<span id="id4"></span><h2>ما هي الصور؟<a class="headerlink" href="#rr-renv-containers-images" title="Permalink to this headline">¶</a></h2>
+<p>الصور هي الملفات المستخدمة لإنشاء الحاويات. البشر لا يصنعون الصور، إنهم يكتبون وصفات لتوليد الصور. وعندئذ تكون نسخ الحاويات مطابقة من الصور.</p>
+<p>فكر في ذلك مثل:</p>
+<ul class="simple">
+<li><p>ملف وصفة مكتوب بشري يحتوي على جميع الخطوات لتوليد نسخة عمل من المشروع وبيئته الحاسوبية. ولكن لا توجد مواد فعلية. فكر في هذا كمخطط.</p></li>
+<li><p>بناء صورة يأخذ تلك الوصفة ويستخدمها، يجمع كل الحزم، مكتبات البرمجيات، و التشكيلات اللازمة لإنشاء المشروع الكامل والبيئة و تجميعهما في مجموعة مختصرة. فكر في صور مثل قطعة من الأثاث المسطح مصنوعة باستخدام المخطط.</p></li>
+<li><p>وتأخذ الحاويات هذه الصورة وتجمع نسخة كاملة العمل من المشروع والبيئة اللازمة لتشغيله. فكر في هذا على أنه تجميع لأثاث الحزمة المسطحة.</p></li>
+</ul>
+<p>لذا إذا أراد أحد الباحثين السماح للآخرين باستنساخ عملهم، سيحتاجون إلى كتابة ملف وصفة ، ويستخدمونه لبناء صورة لمشروعهم. يمكنهم بعد ذلك مشاركة ملف الصورة هذا مع أي شخص يريد تكرار عملهم. ويمكن لذلك الشخص أن يستخدم الصورة لتوليد حاوية تحتوي على نسخة عمل من المشروع.</p>
+</div>
+<div class="section" id="rr-renv-buers-docker">
+<span id="id5"></span><h2>ما هو دوكر؟<a class="headerlink" href="#rr-renv-buers-docker" title="Permalink to this headline">¶</a></h2>
+<p>وهناك العديد من الأدوات المتاحة لإنشاء الحاويات والعمل معها. وسوف نركز على شركة Docker، التي تستخدم على نطاق واسع، ولكننا ندرك أن هناك أمورا أخرى مثل التفرد. يفضل التفرد في بعض الأحيان لاستخدامه في نظم الحوسبة عالية الأداء لأنه لا يحتاج إلى أذونات <code class="docutils literal notranslate"><span class="pre">sudo</span></code> ليتم تشغيلها، في حين يفعل Docker.</p>
+<p>في Docker، تُعرف ملفات الوصفات المستخدمة لإنشاء الصور باسم Dockerfiles، ويجب أن تسمى <code class="docutils literal notranslate"><span class="pre">Dockerfile</span></code>.</p>
+<p><a class="reference external" href="https://hub.docker.com/">Docker Hub</a> يستضيف العديد من الصور المصنوعة مسبقاً، مثل <a class="reference external" href="https://hub.docker.com/_/ubuntu">صور</a> لماكينات أوبونتو، التي يمكن تنزيلها والبناء عليها. هذا يجعل عملية كتابة Dockerfiles سهلة نسبياً لأن المستخدمين نادراً ما يحتاجون إلى البدء من الصفر، يمكنهم فقط تخصيص الصور الموجودة. ومع ذلك، فإن هذا يجعل المستخدم عرضة لمشاكل أمنية مشابهة على النحو الموصوف في <span class="xref std std-ref">rrr-renv-yaml-Security</span> من الفصل الفرعي <span class="xref std std-ref">rrr-renv-yaml</span>:</p>
+<ul class="simple">
+<li><p>من الممكن تضمين التعليمات البرمجية الضارة في صور Docker</p></li>
+<li><p>ومن الممكن للأشخاص الذين ينتجون الصور أن يدرجوا فيها دون علم برمجيات ذات مواطن ضعف أمنية.</p></li>
+</ul>
+<p><a class="reference external" href="https://opensource.com/business/14/7/docker-security-selinux">هذه المقالة</a> تذهب أعمق إلى نقاط الضعف الأمنية المحتملة للحاويات، وهنا <a class="reference external" href="https://opensource.com/business/14/9/security-for-docker">تفصيل تفصيلي</a> لميزات الأمان الحالية داخل Docker, و كيفية عملهم. أفضل نصيحة لاستخدام الصور التي بناها الآخرون هو، كالمعتاد، قم بتنزيل وتشغيل شيء ما على جهازك فقط إذا كان من مصدر موثوق به. Docker Hub لديه شارات &quot;صورة رسمية&quot; للصور الشائعة الاستخدام والمتحقق منها كما هو مبين هنا:</p>
+</div>
+<div class="section" id="docker">
+<span id="rr-renv-containers-installdocker"></span><h2>تثبيت Docker<a class="headerlink" href="#docker" title="Permalink to this headline">¶</a></h2>
+<p>أجهزة تثبيت Docker على مجموعة متنوعة من الأنظمة المختلفة متوفرة <a class="reference external" href="https://docs.docker.com/install/">هنا</a>. تعليمات التثبيت التفصيلية متوفرة أيضا لمجموعة متنوعة من أنظمة التشغيل مثل <a class="reference external" href="https://docs.docker.com/install/linux/docker-ce/ubuntu/">Ubuntu</a>، <a class="reference external" href="https://docs.docker.com/install/linux/docker-ce/debian/">Debian</a>، <a class="reference external" href="https://docs.docker.com/docker-for-mac/install/">Macs</a>، و <a class="reference external" href="https://docs.docker.com/docker-for-windows/install/">Windows</a>.</p>
+</div>
+<div class="section" id="rr-renv-containers-commands">
+<span id="id6"></span><h2>أوامر المفتاح<a class="headerlink" href="#rr-renv-containers-commands" title="Permalink to this headline">¶</a></h2>
+<p>فيما يلي بعض الأوامر الرئيسية لإنشاء الحاويات والعمل معها:</p>
+<ul>
+<li><p>لبناء صورة من ملف Dockerfile، انتقل إلى الدليل حيث ملف Dockerer وتشغيل:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">سوكدو</span> <span class="n">دفتر</span> <span class="n">إنشاء</span> <span class="o">-</span> <span class="n">وسم</span> <span class="n">الصورة_الاسم</span> <span class="o">.</span>
+</pre></div>
+</div>
+</li>
+<li><p>لتسجيل الصور على النظام الخاص بك، استخدم:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">صور</span> <span class="n">Ssudo</span> <span class="n">Socker</span>
+</pre></div>
+</div>
+</li>
+<li><p>لإزالة صورة، قم بتشغيل:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">صورة_اسم</span> <span class="n">Ssudo</span> <span class="n">docker</span> <span class="n">rmi</span>
+</pre></div>
+</div>
+</li>
+<li><p>لفتح حاوية من صورة، قم بتشغيل:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">docker</span> <span class="n">تشغيل</span> <span class="o">-</span><span class="n">i</span> <span class="o">-</span><span class="n">t</span> <span class="n">image_name</span>
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">-i</span> <span class="pre">-t</span></code> يفتح تلقائياً محطة طرفية تفاعلية داخل الحاوية حتى تتمكن من عرض ملفات المشروع والتفاعل معها.</p>
+</li>
+<li><p>للخروج من محطة طرفية تفاعلية، استخدم:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">الخروج</span>
+</pre></div>
+</div>
+</li>
+<li><p>للحصول على قائمة بالحاويات النشطة مع المعرفات، قم بتشغيل:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">حاويات</span> <span class="n">مرفأ</span> <span class="n">سوكر</span>
+</pre></div>
+</div>
+</li>
+<li><p>وهناك أيضا ثلاثة أوامر رئيسية تستخدم لتغيير حالة الحاويات:</p>
+<ul>
+<li><p>إيقاف العملية التي تشغل الحاوية مؤقتاً مؤقتاً.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">معرف</span> <span class="n">حاوية</span> <span class="n">السوكر</span> <span class="n">مؤقتاً</span>
+</pre></div>
+</div>
+<p>يمكن عدم إيقاف الحاويات مؤقتاً عن طريق استبدال <code class="docutils literal notranslate"><span class="pre">إيقاف</span> <span class="pre">مؤقت</span></code> بـ <code class="docutils literal notranslate"><span class="pre">عدم</span> <span class="pre">إيقاف</span> <span class="pre">مؤقت</span></code>.</p>
+</li>
+<li><p>إيقاف حاوية ما يؤدي إلى إنهاء العملية التي تشغلها. يجب إيقاف الحاوية قبل أن يمكن حذفها.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">سوكدو</span> <span class="n">يوقف</span> <span class="n">الحاوية_ID</span>
+</pre></div>
+</div>
+<p>يمكن إعادة تشغيل الحاوية الموقوفة عن طريق استبدال <code class="docutils literal notranslate"><span class="pre">توقف</span></code> بـ <code class="docutils literal notranslate"><span class="pre">إعادة</span> <span class="pre">تشغيل</span></code>.</p>
+</li>
+<li><p>إذا <code class="docutils literal notranslate"><span class="pre">إيقاف</span></code> لا يمكن قتل حاويات العمل باستخدام</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">سوكدو</span> <span class="n">مقتل</span> <span class="n">الحاوية_ID</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</li>
+<li><p>لإزالة الحاوية، قم بتشغيل:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">docker</span> <span class="n">rm</span> <span class="n">container_ID</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</div>
+<div class="section" id="dockerfiles">
+<span id="rr-renv-containers-dockerfiles"></span><h2>كتابة ملفات Dockerfiles<a class="headerlink" href="#dockerfiles" title="Permalink to this headline">¶</a></h2>
+<p>دعونا نمر عبر تشريح دكيرفيلٍ بسيط جداً:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># الخطوة 1: إعداد البيئة الحسابية</span>
+
+<span class="c1"># تعيين الصورة الأساسية</span>
+<span class="n">من</span> <span class="n">ubuntu</span><span class="p">:</span><span class="mf">18.</span> <span class="mi">4</span>
+
+<span class="c1"># الحزم التثبيت المطلوبة لتشغيل المشروع</span>
+<span class="n">تحديث</span> <span class="n">RUN</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="o">&amp;&amp;</span> \
+    <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="o">-</span><span class="n">y</span> <span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">install</span><span class="o">-</span><span class="n">recommends</span> <span class="n">python3</span><span class="o">.</span> <span class="n">python3</span><span class="o">-</span><span class="n">pip</span> <span class="o">&amp;&amp;</span> \
+    <span class="n">rm</span> <span class="o">-</span><span class="n">rf</span> <span class="o">/</span><span class="n">var</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">apt</span><span class="o">/</span><span class="n">lists</span><span class="o">/*</span>
+<span class="n">RUN</span> <span class="n">python3</span> <span class="o">-</span><span class="n">m</span> <span class="n">pip</span> <span class="n">install</span> <span class="n">numpy</span>
+
+<span class="c1">#-------------------------</span>
+
+<span class="c1"># الخطوة 2: إدراج ملفات المشروع في الصورة</span>
+
+<span class="c1"># نسخ الملفات من دليل `project_files&#39; على بناء صورة الآلة</span>
+<span class="c1"># في مجلد `project` في الحاوية. هذا المجلد وأي أدلة مفقودة</span>
+<span class="c1"># في مساره يتم إنشاؤها تلقائيا.</span>
+<span class="n">مشروع_ملفات</span><span class="o">/</span><span class="n">مشروع</span><span class="o">/</span><span class="n">COPY</span>
+</pre></div>
+</div>
+<p>هذا يبدو معقدا، ولكن معظم الأسطر في هذا المثال هي تعليقات (يسبقها <code class="docutils literal notranslate"><span class="pre">#</span></code>'s). وهناك ستة أسطر فقط من الشفرة الفعلية. الأول من هذه البيانات هو عبارة <code class="docutils literal notranslate"><span class="pre">من</span></code> تحدد صورة أساسية. جميع ملفات Dockerfiles تتطلب منبثقة، حتى لو كانت فقط <code class="docutils literal notranslate"><span class="pre">من</span> <span class="pre">سكراتش</span></code>. جميع الأوامر التالية في Dockerfile مبنية على الصورة الأساسية لإنشاء نسخة فعالة من مشروع الباحث. تحديد إصدار للصورة (<code class="docutils literal notranslate"><span class="pre">18.04</span></code> في هذه الحالة) اختياري. بيد أن هذه الممارسة هي أفضل الممارسات لأنها تكفل بقاء ملف Dockerfile الخاص بنا ساري المفعول بعد صدور إصدارات جديدة من Ubuntu، التي قد لا تشمل الحزم (أو إصدارات محددة منها) التي نحتاجها في وقت لاحق (على سبيل المثال <code class="docutils literal notranslate"><span class="pre">python3.</span></code>).</p>
+<p>من الجدير قضاء الوقت لاختيار صورة أساسية ملائمة، كما أن القيام بذلك يمكن أن يقلل من حجم العمل الذي ينطوي عليه كتابة ملف Dockerfile بشكل كبير. على سبيل المثال، يمكن العثور على مجموعة من الصور مع لغة البرمجة R المضمنة فيها <a class="reference external" href="https://github.com/rocker-org/rocker-versioned">هنا</a>. إذا استفاد مشروع ما من &quot;ص&quot;، من المناسب استخدام واحدة من هذه كصورة أساسية بدلاً من قضاء الوقت في كتابة أوامر Dockerfile لتثبيت R.</p>
+<p>أكبر كتلة من الخطوط تأتي بعد ذلك. إنها سلسلة من <code class="docutils literal notranslate"><span class="pre">بيانات</span> <span class="pre">RUN</span></code> التي تشغل أوامر القذيفة عند بناء الصورة. في هذه الكتلة، يتم استخدامها لتثبيت البرمجيات اللازمة لتشغيل المشروع. كتلة <code class="docutils literal notranslate"><span class="pre">RUN</span></code> الأولى هي سلسلة أوامر من هذا النموذج:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">RUN</span> <span class="n">command_to_do_thing_1</span> \
+   <span class="o">&amp;&amp;</span> <span class="n">command_to_do_thing_2</span> \
+   <span class="o">&amp;&amp;</span> <span class="n">command_to_do_thing_3</span> \
+   <span class="o">&amp;&amp;</span> <span class="n">command_to_do_thing_4</span>
+</pre></div>
+</div>
+<p>من الممارسات الجيدة تجميع الأوامر ذات الصلة في كتلة واحدة <code class="docutils literal notranslate"><span class="pre">RUN</span></code> لتقليل الحجم النهائي لصورك ب <a class="reference external" href="https://docs.docker.com/develop/develop-images/#minimize-the-number-of-layers">لتجنب إنشاء طبقات غير ضرورية</a>. نحن أيضا نتابع أفضل الممارسات باستخدام <code class="docutils literal notranslate"><span class="pre">--no-install-recommend</span></code> إلى <a class="reference external" href="https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#dont-install-unnecessary-packages">لتجنب تثبيت حزم غير ضرورية</a> و <a class="reference external" href="https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#run">لتنظيف ذاكرة التخزين المؤقت ``</a>، وكلاهما يقلل من حجم صور ديبا أو أوبونتو.</p>
+<p>بعد أن قمنا بتثبيت Python، نستخدم بيان RUN آخر لتثبيت مكتبة مطلوبة بواسطة التعليمات البرمجية.</p>
+<p>أخيرا يتم استخدام أمر <code class="docutils literal notranslate"><span class="pre">COPY</span></code> لنسخ ملفات المشروع من الماكينة التي تبني الصورة إلى الصورة نفسها. بناء الجملة لهذا الأمر هو <code class="docutils literal notranslate"><span class="pre">COPY</span> <span class="pre">file_to_coplocation_in_container_to_copy_to</span></code>. في هذا المثال ، يتم تضمين جميع الملفات في دليل <code class="docutils literal notranslate"><span class="pre">project_files</span></code> في ملف المشروع `` في الحاوية. لاحظ أنه يمكنك فقط نسخ الملفات من الدليل حيث يوجد ملف Docker، أو الدلائل الفرعية داخلها (في المثال ، هذا هو <code class="docutils literal notranslate"><span class="pre">project_files</span></code> subdirectory).</p>
+<p>الأمر <code class="docutils literal notranslate"><span class="pre">المضاف</span></code> لديه نفس القدرات مثل <code class="docutils literal notranslate"><span class="pre">COPY</span></code>، ولكن يمكن استخدامه أيضا لإضافة ملفات ليست على مبنى الآلة للصورة. على سبيل المثال، يمكن استخدامه لتضمين الملفات المستضيفة عبر الإنترنت من خلال متابعة <code class="docutils literal notranslate"><span class="pre">إضافة</span></code> مع عنوان URL للملف. من الممارسات الجيدة استخدام <code class="docutils literal notranslate"><span class="pre">COPY</span></code>، باستثناء حيث <code class="docutils literal notranslate"><span class="pre">إضافة</span></code> مطلوبة تحديداً. كما أن مصطلح <code class="docutils literal notranslate"><span class="pre">COPY</span></code> هو أكثر وضوحا بشأن ما يجري عمله.</p>
+<p>إليك ما يحدث إذا تم فتح حاوية من صورة تسمى <code class="docutils literal notranslate"><span class="pre">book_example</span></code>، مبنية من المثال أعلاه:</p>
+<p>كما ترون، تم إنشاء الدليل <code class="docutils literal notranslate"><span class="pre">المشروع</span></code> وداخل ملفات المشروع <code class="docutils literal notranslate"><span class="pre">تحليل.</span> <span class="pre">y</span></code> و <code class="docutils literal notranslate"><span class="pre">data.csv</span></code> تم نسخها فيها. لأن Dockerfile يحتوي بالفعل على البرنامج المطلوب للمشروع، في الصورة، يعمل البرنامج النصي <code class="docutils literal notranslate"><span class="pre">analysis.py</span></code> دون تثبيت المزيد من البرامج.</p>
+<div class="section" id="rr-renv-containers-dockerfiles-workdir">
+<span id="id7"></span><h3><code class="docutils literal notranslate"><span class="pre">دوري</span></code><a class="headerlink" href="#rr-renv-containers-dockerfiles-workdir" title="Permalink to this headline">¶</a></h3>
+<p>يمكن استخدام هذا الأمر في Dockerfiles لتغيير دليل العمل الحالي. الأوامر التي تتبع هذا في ملف Dockerfile سيتم تطبيقها داخل دليل العمل الجديد ما لم/حتى يقوم <code class="docutils literal notranslate"><span class="pre">WORKDIR</span></code> بتغيير دليل العمل. وعندما تفتح حاوية بمحطة طرفية تفاعلية، تفتح المحطة الطرفية في دليل العمل النهائي. هنا مثال بسيط لملف Dockerfile الذي يستخدم <code class="docutils literal notranslate"><span class="pre">WORKDIR</span></code>والحاوية التي يولدها.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># الإعداد الأساسي</span>
+<span class="n">من</span> <span class="n">أوبونتو</span>
+<span class="n">تحديث</span> <span class="n">RUN</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span>
+
+<span class="c1"># اصنع مجلد يسمى A</span>
+<span class="n">RUN</span> <span class="n">mkdir</span> <span class="n">A</span>
+
+<span class="c1"># اجعل دليل العمل A</span>
+<span class="n">WORKDIR</span> <span class="n">A</span>
+
+<span class="c1"># اصنع دليلين، واحد يسمى B_1 وواحد يسمى B_2</span>
+<span class="n">RUN</span> <span class="n">mkdir</span> <span class="n">B_1</span>
+<span class="n">RUN</span> <span class="n">mkdir</span> <span class="n">B_2</span>
+</pre></div>
+</div>
+<p>تم إنشاء الدليلين <code class="docutils literal notranslate"><span class="pre">B_1</span></code> و <code class="docutils literal notranslate"><span class="pre">B_2</span></code> داخل الدليل <code class="docutils literal notranslate"><span class="pre">A</span></code>.</p>
+<p><code class="docutils literal notranslate"><span class="pre">WORKDIR</span></code> يجب أن تستخدم عندما يكون تغيير الدلائل ضرورياً أثناء بناء صورة. قد يكون من المغري استخدام <code class="docutils literal notranslate"><span class="pre">RUN</span> <span class="pre">cd</span> <span class="pre">directory_name</span></code> بدلاً من ذلك، لأن هذه الجملة ستكون أكثر إلماماً بتلك التي تعمل عادة عبر سطر الأوامر، ولكن هذا يمكن أن يؤدي إلى أخطاء. بعد كل بيان <code class="docutils literal notranslate"><span class="pre">RUN</span></code> في ملف Dockerfile، يتم حفظ الصورة، ويتم تطبيق أي الأوامر التالية على الصورة من جديد. على سبيل المثال، هنا ما يحدث في المثال أعلاه إذا تم تبديل سطر <code class="docutils literal notranslate"><span class="pre">WORKDIR</span> <span class="pre">A</span></code> مقابل <code class="docutils literal notranslate"><span class="pre">RUN</span> <span class="pre">cd</span> <span class="pre">A</span></code>.</p>
+<p>جميع الدلائل كانت في أعلى مستوى في هذه الحالة، بدلاً من أن يكون <code class="docutils literal notranslate"><span class="pre">B_1</span></code> و <code class="docutils literal notranslate"><span class="pre">B_2</span></code> داخل <code class="docutils literal notranslate"><span class="pre">A</span></code>. هذا لأن الصورة تمت إعادة تشغيلها بعد أمر <code class="docutils literal notranslate"><span class="pre">RUN</span> <span class="pre">cd</span> <span class="pre">A</span></code> وفتحها في أعلى مستوى (الجذر) بشكل افتراضي، بحيث يكون هذا هو المكان الذي بدأ فيه نفاذ الأوامر <code class="docutils literal notranslate"><span class="pre">mkdir</span> <span class="pre">B_1</span></code> و <code class="docutils literal notranslate"><span class="pre">mkdir</span> <span class="pre">B_2</span></code>.</p>
+</div>
+<div class="section" id="rr-renv-containers-dockerfiles-commands">
+<span id="id8"></span><h3>أوامر أخرى<a class="headerlink" href="#rr-renv-containers-dockerfiles-commands" title="Permalink to this headline">¶</a></h3>
+<p>وتشمل الأوامر الأخرى التي تستخدم في بعض الأحيان في Dockerfiles ما يلي:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">CMD</span></code>: يستخدم هذا لتشغيل الأوامر بمجرد فتح الحاوية. هذا مختلف عن أوامر RUN التي هي أوامر تعمل كجزء من <em>إعداد</em> حاوية. على سبيل المثال، للحصول على رسالة ترحيب عند فتح حاوية من الصورة، يمكن استخدام <code class="docutils literal notranslate"><span class="pre">CMD</span></code> على النحو التالي:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>CMD [&quot;صديق&quot;،&quot;مرحباً! لقد فتحت هذه الحاوية!&quot;]
+</pre></div>
+</div>
+<p>من الممارسات الجيدة استخدام CMD لأي أوامر تحتاج إلى تشغيلها قبل أن يبدأ شخص العمل في الحاوية بدلا من إجبار المستخدمين على تشغيلها بأنفسهم (والثقة بأنهم سيعلمون حتى أنهم بحاجة إليهم).</p>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">الأصوات</span></code>: سيتم مناقشة هذه <span class="xref std std-ref">لاحقاً</span>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">MAINTAINER</span></code>: يحتوي هذا على معلومات عن الشخص الذي كتب ملف Dockerfile. ويدرج عادة في الجزء العلوي من ملف Dockerfile.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">EXPOSE</span></code>: هذا يشمل المنافذ التي يجب أن تكون معرضة. هو أكثر صلة بالناس الذين يستخدمون Docker لمشاركة تطبيقات الويب.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">USER</span></code>: تغيير المستخدم الذي يتم تشغيل أمر ك(مفيد لإسقاط الامتيازات).</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="dockerignore">
+<span id="rr-renv-containers-dockerignore"></span><h2>صور البناء و <code class="docutils literal notranslate"><span class="pre">.dockerignore</span></code> ملفات<a class="headerlink" href="#dockerignore" title="Permalink to this headline">¶</a></h2>
+<p>كما ذكر في <a class="reference internal" href="#rr-renv-containers-commands"><span class="std std-ref">أوامر المفاتيح</span></a> القسم ، لبناء صورة فتح محطة طرفية في نفس الدليل كـ ملف Dockerfile الذي سيتم استخدامه وتشغيله:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">قم</span> <span class="n">بتركيب</span> <span class="n">منصة</span> <span class="n">الدفتر</span> <span class="o">-</span> <span class="n">وسم</span> <span class="n">الاسم_إلى_give_image</span> <span class="o">.</span>
+</pre></div>
+</div>
+<p>عندما يتم بناء صورة كل شيء في دليل Dockerfile's و أدناه (هذا يسمى &quot;السياق&quot;) يتم إرساله إلى Docker daemon لبناء الصورة. يستخدم دايمون Dockerfile وسياقه لبناء الصورة. إذا كان السياق يحتوي على العديد من الملفات الكبيرة، التي ليست ضرورية لبناء الصورة، (مثلا ملفات البيانات القديمة) ثم هي مضيعة للوقت ترسلها إلى المكان. والقيام بذلك يمكن أن يجعل عملية بناء صورة بطيئة. يمكن استبعاد الملفات من السياق عن طريق إدراجها في ملف نصي يسمى <code class="docutils literal notranslate"><span class="pre">.dockerignore</span></code>. ومن الممارسات الجيدة القيام بذلك.</p>
+<p>لا تحتاج الملفات إلى أن تكون مدرجة بشكل فردي في ملف <code class="docutils literal notranslate"><span class="pre">.dockerignore</span></code>. فيما يلي مثال على محتويات ملف <code class="docutils literal notranslate"><span class="pre">.dockerignore</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">*.</span><span class="n">jpg</span>
+<span class="o">**/*.</span><span class="n">png</span>
+<span class="n">data_files</span><span class="o">/*</span>
+<span class="n">file_to_exclude</span><span class="o">.</span><span class="n">txt</span>
+</pre></div>
+</div>
+<p>وهذا يستبعد من السياق:</p>
+<ul class="simple">
+<li><p>كل ملفات <code class="docutils literal notranslate"><span class="pre">.jpg</span></code> في نفس الدليل كملف Dockerfile</p></li>
+<li><p>كل ملفات <code class="docutils literal notranslate"><span class="pre">.png</span></code> في نفس المجلد مثل ملف Dockerfile <em>أو أي أدلة فرعية داخله</em></p></li>
+<li><p>جميع الملفات داخل دليل <code class="docutils literal notranslate"><span class="pre">data_files</span></code></p></li>
+<li><p>الملف المسمى <code class="docutils literal notranslate"><span class="pre">file_to_exclude.txt</span></code></p></li>
+</ul>
+</div>
+<div class="section" id="rr-renv-containers-sharing">
+<span id="id9"></span><h2>مشاركة الصور<a class="headerlink" href="#rr-renv-containers-sharing" title="Permalink to this headline">¶</a></h2>
+<p>يمكن مشاركة صور Docker بسهولة أكبر من خلال <a class="reference external" href="https://hub.docker.com/">Docker Hub</a>، الذي يتطلب حساب. قل باحثين، أليس وبوب، يتعاونون في مشروع وترغب أليس في مشاركة صورة لبعض عملها مع بوب.</p>
+<p>للقيام بذلك، يجب على أليس أن:</p>
+<ul>
+<li><p>اكتب ملف Dockerfile لإنتاج صورة لعملها.</p></li>
+<li><p>بناء الصورة. هي (تكون مبتكرة) تدعوها image_name</p></li>
+<li><p>اذهب إلى DockerHub و قم بالتسجيل للحصول على حساب. قل أليس (مرة أخرى، كونك مبتكر) يختار اسم المستخدم <code class="docutils literal notranslate"><span class="pre">username_Alice</span></code></p></li>
+<li><p>تسجيل الدخول إلى DockerHub عبر المحطة الطرفية على جهازها باستخدام ما يلي:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">تسجيل</span> <span class="n">الدخول</span> <span class="n">لـ</span> <span class="n">sudo</span> <span class="n">docker</span>
+</pre></div>
+</div>
+</li>
+<li><p>وضع علامة على صورة مشروعها على جهازها عبر سطر الأوامر عن طريق تقديم اسم الصورة واستخدام نمط <code class="docutils literal notranslate"><span class="pre">اسم</span> <span class="pre">المستخدم/image_name:version</span></code>. إذاً تقوم أليس بتشغيل الأمر:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">سرد</span> <span class="n">علامة</span> <span class="n">Docker</span> <span class="n">imagage_name</span> <span class="n">username_Alice</span><span class="o">/</span><span class="n">image_name</span><span class="p">:</span><span class="n">version_1</span>
+</pre></div>
+</div>
+</li>
+<li><p>اضغط الصورة إلى حسابها في مركز دوكر باستخدام :</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">قم</span> <span class="n">بالضغط</span> <span class="n">على</span> <span class="n">اسم</span> <span class="n">المستخدم</span> <span class="o">-</span> <span class="n">Alice</span><span class="o">/</span><span class="n">image_name</span><span class="p">:</span><span class="n">version_1</span>
+</pre></div>
+</div>
+</li>
+<li><p>صورة أليس الآن على الإنترنت ويمكن تنزيلها. من جديد إلى بوب...</p></li>
+</ul>
+<p>بوب (بافتراض أن Docker مثبت) يمكنه فتح حاوية من صورة أليس بمجرد تشغيلها</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">قم</span> <span class="n">بتشغيل</span><span class="o">-</span><span class="n">i</span> <span class="o">-</span><span class="n">t</span> <span class="n">username_Alice</span><span class="o">/</span><span class="n">image_name</span><span class="p">:</span><span class="n">version_1</span>
+</pre></div>
+</div>
+<p>مبدئيًا، سيقوم Docker بالبحث عن هذه الصورة على آلة Bob. عندما لا يجد ذلك، فإنه <em>تلقائيًا</em> بحث DockerHub، قم بتنزيل صورة أليس وفتح الحاوية مع عمل أليس وبيئتها على آلة بوب.</p>
+</div>
+<div class="section" id="rr-renv-containers-copying">
+<span id="id10"></span><h2>نسخ الملفات إلى الحاويات ومن الحاويات<a class="headerlink" href="#rr-renv-containers-copying" title="Permalink to this headline">¶</a></h2>
+<p>الحاويات تعمل مثل الماكينات الافتراضية؛ ونتيجة لذلك، فإن نسخ الملفات إلى الداخل والخروج منها ليس تافهاً مثل نسخ الملفات إلى مواقع مختلفة داخل نفس الحاسوب.</p>
+<p>يمكن نسخ ملف من الآلة التي تقوم بتشغيل حاوية إلى الحاوية باستخدام ما يلي:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">سرد</span> <span class="n">ملف</span> <span class="n">cp</span> <span class="n">الخاص</span> <span class="n">بالدفتر_اسم</span> <span class="n">الحاوية_ID</span><span class="p">:</span><span class="n">path_to_where_to_put_file</span><span class="o">/</span><span class="n">file_name</span>
+</pre></div>
+</div>
+<p>قم بالتذكير بأنه يمكن الحصول على معرفات الحاويات باستخدام <code class="docutils literal notranslate"><span class="pre">سودو</span> <span class="pre">دفتر</span> <span class="pre">الحاويات</span></code>.</p>
+<p>يمكن نسخ ملف من داخل الحاوية إلى الآلة التي تشغل الحاوية عن طريق تشغيل الأمر التالي على الآلة التي تشغل الحاوية:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">سرد</span> <span class="n">حاوية</span> <span class="n">قفص</span> <span class="n">الجدار_ID</span><span class="p">:</span><span class="n">path_to_file</span><span class="o">/</span><span class="n">file_name</span> <span class="n">path_to_to_to_put_file</span><span class="o">/</span><span class="n">file_name</span>
+</pre></div>
+</div>
+<p>إذا تم استبدال الجزء الثاني ( <code class="docutils literal notranslate"><span class="pre">path_to_where_to_put_file/file_name</span></code>بـ <code class="docutils literal notranslate"><span class="pre">.</span></code>، ثم سيتم نسخ الملف إلى أي دليل تقوم المحطة الطرفية بتشغيل الأمر.</p>
+</div>
+<div class="section" id="r-renv-buers-volumes">
+<span id="id11"></span><h2>الصوت<a class="headerlink" href="#r-renv-buers-volumes" title="Permalink to this headline">¶</a></h2>
+<p>وفي كل مرة تفتح فيها حاوية من صورة، تكون تلك الحاوية جديدة تماما. قل أن الحاوية تفتح، والعمل في داخلها. إذا كانت تلك الحاوية مغلقة، والصورة التي أتت منها تستخدم مرة أخرى لبدء حاوية أخرى، ولن يكون أي عمل من هذا القبيل في العمل الجديد. وسيكون لها ببساطة حالة البداية الموصوفة في الصورة.</p>
+<p>ويمكن أن تكون هذه مشكلة إذا أراد أحد الباحثين العمل في حاوية مع مرور الوقت. لحسن الحظ، هناك طريقة حول هذا باستخدام المجلدات. وتخزن المجلدات العمل المنجز داخل حاوية حتى بعد إغلاقها، ويمكن استخدامها لتحميل ذلك العمل في حاويات مقبلة.</p>
+<p>لإنشاء / استخدام مجلد، تشغيل:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">docker</span> <span class="n">تشغيل</span> <span class="o">-</span><span class="n">i</span> <span class="o">-</span><span class="n">t</span> <span class="o">--</span><span class="n">mount</span> <span class="n">source</span><span class="o">=</span><span class="n">volume_name</span><span class="p">,</span><span class="n">target</span><span class="o">=/</span><span class="n">target_directory</span> <span class="n">image_name</span>
+</pre></div>
+</div>
+<p>يجب أن تعطي المجلد الخاص بك إسم وصفي أكثر من <code class="docutils literal notranslate"><span class="pre">volume_name</span></code>. مجلد <code class="docutils literal notranslate"><span class="pre">الهدف</span></code> مطلوب؛ العمل داخل هذا الدليل فقط سيتم حفظه في المجلد. وبمجرد قيام الباحث بإغلاق الحاوية كأمر عادي. وعندما يعودون إلى المشروع ويرغبون في مواصلة عملهم، فإنهم لا يحتاجون إلا إلى استخدام نفس الأمر الوارد أعلاه، وستقوم بتحميل العمل الوارد في <code class="docutils literal notranslate"><span class="pre">volume_name</span></code> في الحاوية الجديدة. وسيوفر أي عمل جديد هناك أيضا.</p>
+<p>فيما يلي قائمة بالأوامر ذات الصلة بالمجلد:</p>
+<ul class="simple">
+<li><p>لتسجيل المجلدات: <code class="docutils literal notranslate"><span class="pre">سودو</span> <span class="pre">دفتر</span> <span class="pre">الصوت</span></code></p></li>
+<li><p>لحذف مجلد: <code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">docker</span> <span class="pre">volume</span> <span class="pre">rm</span> <span class="pre">volume_name</span></code></p></li>
+<li><p>لحذف جميع المجلدات غير المرتبطة: <code class="docutils literal notranslate"><span class="pre">تمايز</span> <span class="pre">مستوى</span> <span class="pre">الصوت</span> <span class="pre">sudo</span> <span class="pre">docker</span></code></p></li>
+</ul>
+<p>إذا كان عند حذف الحاوية، <code class="docutils literal notranslate"><span class="pre">-v</span></code> تم تضمينه بعد <code class="docutils literal notranslate"><span class="pre">rm</span></code> في <code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">docker</span> <span class="pre">rm</span> <span class="pre">container_ID</span></code>، سيتم أيضا حذف أي مجلدات مرتبطة بالحاوية.</p>
+</div>
+<div class="section" id="rr-renv-containers-singarity">
+<span id="id12"></span><h2>التفرد<a class="headerlink" href="#rr-renv-containers-singarity" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p><strong>المتطلبات الأساسية</strong>: في الوقت الحاضر، يعمل التفرد فقط على أنظمة لينكس (على سبيل المثال أوبونتو). إذا كنت تستخدم macOS، <a class="reference external" href="https://www.sylabs.io/singularity-desktop-macos/">سطح المكتب الفردي لـ macOS</a> في مرحلة الإصدار &quot;Beta&quot;.</p>
+</div></blockquote>
+<p>ومن العيوب الهامة لاستخدام Docker في البحوث القابلة للتكرار، أنه لا يقصد به أن يكون تطبيقا للفضاء بين المستخدمين، بل أن يكون أداة لمديري الخوادم. ومن هذا المنطلق، يتطلب الوصول الجذري إلى العمل. غير أنه لا يوجد سبب يدعو إلى أن يتطلب إجراء تحليل إمكانية وصول المستعملين إلى جذورها. وهذا مهم بشكل خاص عندما تجري الحسابات على مورد مشترك مثل نظم HPC حيث لن يكون للمستخدمين أي إمكانية للوصول إلى الجذر.</p>
+<p>تم تقديم برنامج حاوية <a class="reference external" href="https://www.sylabs.io/">وحدة</a> لمعالجة هذه المشكلة. تم إنشاء وحدة مع أنظمة HPC والبحوث القابلة لإعادة التدوين في الاعتبار (انظر [this](<a class="reference external" href="https://www.youtube.com/watch?v=DA87Ba2dpNM">https://www.youtube.com/watch?v=DA87Ba2dpNM</a> فيديو). لا يتطلب الوصول إلى الجذر لتشغيله (فقط لبناء حاوية <em>صور</em>! ومن ثم يمكن مستخدمي الحواسيب HPC من بناء صور للحاويات محليا قبل إجراء تحليلات لمجموعة عالية الأداء، على سبيل المثال. وكمنفعة إضافية، وهذا يجعل من الممكن استخدام أي برنامج حاسوبي تقريبا على نظام HPC دون الحاجة إلى إثراء الموظفين الإداريين بتثبيته.</p>
+<p>علاوة على ذلك، بما أن Docker هو __ نهج النقل بالحاويات الأكثر شهرة، فإن التفرد يهدف إلى الحفاظ على التوافق مع حاويات الرصيف. هذا يعني أنه يمكن استخدام الوحدة لتشغيل حاويات الأرصفة العادية (دون الحاجة إلى الوصول إلى الجذر!).</p>
+<p>يمكن استخدام التفرد لتشغيل صور Docker أو توسيعها عن طريق بناء صور جديدة مبنية على حاويات الأرصفة كطبقة قاعدة. على سبيل المثال، يمكننا استخدام التفرد لإنشاء حاوية فانيليا أوبونتو مع قذيفة باستخدام صورة رصيف أوبونتو:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">قذيفة</span> <span class="n">مفردة</span> <span class="n">docker</span><span class="p">:</span><span class="o">//</span><span class="n">ubuntu</span>
+</pre></div>
+</div>
+<blockquote>
+<div><p>(اكتب <code class="docutils literal notranslate"><span class="pre">الخروج</span></code> لمغادرة القذيفة التفاعلية مرة أخرى).</p>
+</div></blockquote>
+<p>تماما كما يتم بناء صور المرفأ باستخدام ملفات <code class="docutils literal notranslate"><span class="pre">Dockerfile</span></code> ، يتم بناء حاويات التفرد من ملفات تعريف الوحدة. العملية و الجملة مشابهة لملف المرفأ، ولكن هناك اختلافات دقيقة. كحد أدنى من الأمثلة على العمل، يمكننا بناء حاوية <code class="docutils literal notranslate"><span class="pre">Lolcow</span></code> استنادًا إلى صورة حاوية حاوية أوبونتو الرسمية. ضع ما يلي في ملف <code class="docutils literal notranslate"><span class="pre">lolcow.def</span></code> (استناداً إلى <a class="reference external" href="https://www.sylabs.io/guides/3.2/user-guide/build_a_container.html">مستندات التفرد</a>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Bootstrap: docker
+من: ubuntu
+
+%post
+    apt-get -y تحديث
+    apt-get - y install ثروة البقر
+
+%en&lt;unk&gt; ment
+    تصدير LC_ALL=C
+    تصدير PATH=/usr/games:$PATH
+
+%runscript
+    fortune &lt;unk&gt; cowsay &lt;unk&gt; lolcat
+</pre></div>
+</div>
+<p>هذه 'الوصفة' تستخدم صورة دفتر كأساس (<code class="docutils literal notranslate"><span class="pre">ubuntu</span></code>)، تثبيت بعض <code class="docutils literal notranslate"><span class="pre">حزم</span> <span class="pre">apt</span></code> ، وتعديل بعض متغيرات البيئة ، ويحدد البرنامج النصي `` (الذي يتم تنفيذه باستخدام <code class="docutils literal notranslate"><span class="pre">تشغيل</span> <span class="pre">الوحدة</span></code> الأمر). يمكن العثور على تفاصيل تنسيق ملف تعريف التفرد في <a class="reference external" href="https://www.sylabs.io/docs/">الوثائق الرسمية</a>.</p>
+<p>بعد ذلك يمكن بناء صورة حاوية (تتطلب جذر!) من خلال:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">قم</span> <span class="n">ببناء</span> <span class="n">الوحدة</span> <span class="n">lolcow</span><span class="o">.</span><span class="n">simg</span> <span class="n">lolcow</span><span class="o">.</span><span class="k">def</span>
+</pre></div>
+</div>
+<p>سيؤدي هذا إلى سحب صورة أوبونتو من دوكيرهوب، قم بتشغيل خطوات الوصفة في ملف التعريف وانتاج ملف صورة مخرج واحد (<code class="docutils literal notranslate"><span class="pre">Lolcow.</span> <span class="pre">img</span></code>). أخيرا تم تنفيذ <code class="docutils literal notranslate"><span class="pre">runscript</span></code> كـ</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">وحدة</span> <span class="n">تشغيل</span> <span class="n">lolcow</span><span class="o">.</span><span class="n">simg</span>
+</pre></div>
+</div>
+<p>من الناحية المثالية، يجب أن ترى بقرة لطيفة من طراز ASCII وبعض كلمات الحكمة:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">___________________________________</span>
+<span class="o">/</span> <span class="n">سيتم</span> <span class="n">دعوتك</span> <span class="n">لمساعدة</span> \
+\ <span class="n">صديق</span> <span class="n">في</span> <span class="n">مشكلة</span><span class="o">.</span>                <span class="o">/</span>
+<span class="o">-----------------------------------</span>
+       \   <span class="o">^</span><span class="n">__</span><span class="o">^</span>
+        \  <span class="p">(</span><span class="n">oo</span><span class="p">)</span>\<span class="n">_______</span>
+           <span class="p">(</span><span class="n">__</span><span class="p">)</span>\       <span class="p">)</span>\<span class="o">/</span>\
+               <span class="o">||----</span><span class="n">w</span> <span class="o">|</span>
+               <span class="o">||</span>     <span class="o">||</span>
+</pre></div>
+</div>
+<p>وبما أن الحاويات تتمشى مع HPC، فإن الحاويات الفريدة مدعومة أيضا بطائفة واسعة من أدوات إدارة سير العمل. على سبيل المثال، يدعم كل من <a class="reference external" href="https://snakemake.readthedocs.io/en/stable/">snakemake</a> و <a class="reference external" href="https://www.nextflow.io/docs/latest/singularity.html">nextflow</a> حاويات أحادية لوظيفة محددة. وهذا يجعل الحاويات الفريدة مناسبة بشكل فريد لتوازي تدفق العمل في نظم HPC باستخدام مدير عبء العمل في <a class="reference external" href="https://slurm.schedmd.com/documentation.html">الفقير</a> المستخدم على نطاق واسع. فاستخدام التفرد والحاويات والتدفق اللاحق هو طريقة لتوسيع نطاق إمكانية التكرار إلى نطاق هائل. وعلاوة على ذلك، وكفائدة إضافية، لم يعد جلب تدفقات العمل من آلة حاسوبية مكتبية إلى نظام HPC يتطلب كتابة نصوص مخصصة لتقديم الوظائف.</p>
+<div class="section" id="rr-renv-containers-singarity-storage">
+<span id="id13"></span><h3>التخزين الطويل الأجل لصور الحاويات<a class="headerlink" href="#rr-renv-containers-singarity-storage" title="Permalink to this headline">¶</a></h3>
+<p>ومن المهم الإشارة إلى أن مجرد ملف وصفة الحاويات لا يمكن تكراره في حد ذاته لأن عملية البناء تعتمد على مصادر مختلفة (متاحة على الإنترنت). ومن ثم فإن نفس ملف الوصفة قد يؤدي إلى صور مختلفة إذا تم تحديث المصادر الأساسية.</p>
+<p>لتحقيق إمكانية التكرار الحقيقية، من المهم تخزين الحاوية الفعلية <em>صور</em>. بالنسبة لصور التفرد، هذا أمر سهل بشكل خاص لأن الصورة هي ببساطة ملف كبير. ويمكن أن تختلف هذه الأشكال من حيث الحجم، من بضع عشرات من الحاويات الدقيقة إلى عدة غيغابايت، وبالتالي فهي غير مناسبة لتخزينها في مستودع git نفسه مجاناً، والحل الطويل الأجل لتخزين صور الحاويات هو <a class="reference external" href="https://zenodo.org/">زينودو. rg</a> الذي يسمح بما يصل إلى 50 جيغابايت لكل مستودع. بما أن تعدين zenodo DOIs لجميع المحتويات التي تم تحميلها، فإن الصور يمكن الاستشهاد بها على الفور. In contrast to <a class="reference external" href="https://hub.docker.com/">Docker Hub</a> (which also only accepts docker images), zenodo is also clearly geared towards long-term storage and discoverability via a sophisticated metadata system. ومن ثم فهو مناسب بشكل مثالي لتخزين الحاويات العلمية المرتبطة بتحليلات معينة لأن هذه الحاويات لا تتغير بمرور الوقت.</p>
+</div>
+</div>
+<div class="section" id="rr-renv-buers-warning">
+<span id="id14"></span><h2>كلمات التحذير<a class="headerlink" href="#rr-renv-buers-warning" title="Permalink to this headline">¶</a></h2>
+<p>وعلى الرغم من أن التفرد والمركبة قد تبدو متماثلة، فإنهما مختلفان جدا من الناحية المفاهيمية. وإلى جانب الحقيقة الواضحة المتمثلة في أن التفرد لا يتطلب الوصول الجذري إلى الحاويات المشغّلة، كما أنه يعالج التمييز بين نظام ملفات الحاويات والمضيف بطريقة مختلفة. على سبيل المثال، بشكل افتراضي، تتضمن الوحدة بضع نقاط ربط في الحاوية، وهي:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">$HOME</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">/sys:/sys</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">/proc:/proc</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">/tmp:/tmp</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">/var/tmp:/var/tmp</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">/etc/resolv.conf:/etc/resolv.conf</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">/etc/passwd:/etc/passwd</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">$PWD</span></code></p></li>
+</ul>
+<p>ملاحظة: <code class="docutils literal notranslate"><span class="pre">$PWD</span></code> يأتي في متناول اليد، لأنه يعني أن جميع الملفات في دليل العمل مرئية داخل الحاوية. غير أن ربط <code class="docutils literal notranslate"><span class="pre">$HOME</span></code> بشكل افتراضي يعني أيضا أن البرنامج باستخدام ملفات التكوين من <code class="docutils literal notranslate"><span class="pre">$HOME</span></code> قد يتصرف بشكل غير متوقع لأن ملفات التكوين الخاصة بالصورة قد تم الكتابة فوقها مع إعدادات المستخدمين الحاليين في <code class="docutils literal notranslate"><span class="pre">$HOME</span></code>. وفي حين أن هذا السلوك مفيد في سيناريوهات مركبات الكربون الهيدروكلورية فلورية، فإنه يحتمل أن يكون خطراً على البحوث القابلة للتكرار. وتفاديا للمشاكل المحتملة، ينبغي الإشارة إلى أي برنامج حاسوبي مركب في حاوية مفردة إلى ملف تشكيل عالمي مستقل للمستعملين.</p>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./reproducible-research/renv"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+            
+
+
+
+<div class='prev-next-bottom'>
+    
+    <div id="prev">
+        <a class="left-prev" href="renv-virtualmachine.html" title="previous page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">previous</p>
+                <p class="prevnext-title">الآلات الظاهرية</p>
+            </div>
+        </a>
+    </div>
+     <div id="next">
+        <a class="right-next" href="renv-resources.html" title="next page">
+            <div class="prevnext-info">
+                <p class="prevnext-label">next</p>
+                <p class="prevnext-title">الموارد وقائمة المراجعة</p>
+            </div>
+            <i class="prevnext-label fas fa-angle-right"></i>
+        </a>
+     </div>
+
+</div>
+        
+        </div>
+    </div>
+    <footer class="footer">
+    <div class="container">
+      <p>
+        
+          By مجتمع درب تورينج<br/>
+        
+            &copy; Copyright 2020-2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+<script async="" src="https://www.google-analytics.com/analytics.js"></script>
+<script>
+                        window.ga = window.ga || function () {
+                            (ga.q = ga.q || []).push(arguments) };
+                        ga.l = +new Date;
+                        ga('create', 'UA-167881009-1', 'auto');
+                        ga('set', 'anonymizeIp', true);
+                        ga('send', 'pageview');
+                    </script>
+
+  </body>
+</html>
