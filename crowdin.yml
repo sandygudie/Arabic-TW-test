@@ -1,3 +1,12 @@
-files:
-  - source: /book/website/
-    translation: /book/translation/%three_letters_code%/%original_path%/%original_file_name%
+"project_id": "1"                     #open project and go to Integrations > API
+"api_token": "f6370ea946720f63c48cc615cabde1c5449866bab71274737e74995f7f46dff71b24292ccec08972"          #open profile settings and go to API > New Token > create Token
+#"base_path": "/project-base-path"
+"base_url": "https://turingway.crowdin.com"
+"preserve_hierarchy": true
+
+"files": [
+  {
+    "source": "/book/website/",                                     #source files filter
+    "translation": /book/translation/%three_letters_code%/%original_path%/%original_file_name%    #where translations are stored
+  }
+]
