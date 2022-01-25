@@ -7,6 +7,16 @@
 "files": [
   {
     "source": "/book/website/",                                     #source files filter
-    "translation": /book/translation/%three_letters_code%/%original_path%/%original_file_name%    #where translations are stored
+    "translation": "/book/translation/%three_letters_code%/%original_path%/%original_file_name%",
+    "ignore": [
+      "LICENSE.md", #ignore the translated files
+      "_toc.yml",                                   #ignore 1.txt, a.txt, folder/1.txt, folder/a.txt
+      "_config.yml",                               #ignore 1.txt, folder/1.txt
+      "_redirects",                               #ignore crowdin?test.txt, folder/crowdin?test.txt
+      "/requirements.txt",
+      "runtime.txt",                               #ignore crowdin?test.txt, folder/crowdin?test.txt
+      "*.png",                     #ignore 123.txt , folder/123.tx      #ignore 123.txt , folder/123.txt
+      "*.jpg"                             #ignore 123_test.txt, folder/123_test.txt
+    ]   #where translations are stored
   }
 ]
