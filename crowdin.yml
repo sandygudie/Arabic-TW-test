@@ -1,5 +1,5 @@
 "project_id": "1"                     #open project and go to Integrations > API
-"api_token": "f6370ea946720f63c48cc615cabde1c5449866bab71274737e74995f7f46dff71b24292ccec08972"          #open profile settings and go to API > New Token > create Token
+"api_token": ${{ CROWDIN.SuperSecret }}          #open profile settings and go to API > New Token > create Token
 #"base_path": "/project-base-path"
 "base_url": "https://turingway.crowdin.com"
 "preserve_hierarchy": true
