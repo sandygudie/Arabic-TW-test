@@ -1,22 +1,16 @@
-"project_id": "1"                     #open project and go to Integrations > API
-"api_token": ${{ secrets.CROWDIN }}          #open profile settings and go to API > New Token > create Token
-#"base_path": "/project-base-path"
-"base_url": "https://turingway.crowdin.com"
-"preserve_hierarchy": true
-
-"files": [
-  {
-    "source": "/book/website/",                                     #source files filter
-    "translation": "/book/translation/%three_letters_code%/%original_path%/%original_file_name%",
-    "ignore": [
-      "LICENSE.md",
-      "_toc.yml",
-      "_config.yml",
-      "_redirects",
-      "/requirements.txt",
-      "runtime.txt",
-      "*.png",
-      "*.jpg"
-    ]   
-  }
-]
+project_id: '1'
+api_token: '${{ secrets.CROWDIN }}'
+base_url: 'https://turingway.crowdin.com'
+preserve_hierarchy: true
+files:
+  - source: /book/website/
+    ignore:
+      - LICENSE.md
+      - _toc.yml
+      - _config.yml
+      - _redirects
+      - /requirements.txt
+      - runtime.txt
+      - '*.png'
+      - '*.jpg'
+    translation: /book/translation/%three_letters_code%/%original_path%/%original_file_name%
