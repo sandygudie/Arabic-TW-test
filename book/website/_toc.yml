@@ -106,6 +106,8 @@ parts:
         file: reproducible-research/rdm/rdm-metadata
       - title: Sharing and Archiving Data
         file: reproducible-research/rdm/rdm-sharing
+      - title: Data Article
+        file: reproducible-research/rdm/rdm-article
       - title: Research Data Management Toolkits
         file: reproducible-research/rdm/rdm-toolkits
       - title: Personal Impact Stories
@@ -531,7 +533,7 @@ parts:
         file: community-handbook/coc/coc-reporting
       - title: Enforcement Manual
         file: community-handbook/coc/coc-enforcement
-      - title: Acnowledgements
+      - title: Acknowledgements
         file: community-handbook/coc/coc-acknowledgement
     - title: Style Guide
       file: community-handbook/style
