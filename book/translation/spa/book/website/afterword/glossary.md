@@ -227,7 +227,7 @@ Prueba de integración
   Un nivel de prueba de software donde las unidades individuales se combinan y prueban como un grupo. El propósito de este nivel de pruebas es exponer fallos en la interacción entre unidades integradas.
 
 Interseccionalidad
-Las propias experiencias únicas de las personas con estatus social, discriminación, opresión y cualquier cosa que pueda marginarlos en base a la jerarquía o combinación o identidades y antecedentes como el género, raza, clase, orientación sexual, habilidad física, etc. Este término fue acuñado por Kimberley Crenshaw. [ver el post de Womankind](https://www.womankind.org.uk/intersectionality-101-what-is-it-and-why-is-it-important/)).
+  La forma en que las identidades de una persona (género, raza, clase, orientación sexual, la capacidad física y otros) puede solaparse e interconectarse para formar una experiencia única de condición social, discriminación u opresión. Este término fue acuñado por el profesor Kimberle Crenshaw.
 
 Problemas
   Sistema de seguimiento de errores para GitHub. Los colaboradores pueden usar problemas para reportar errores, solicitar características o establecer hitos para proyectos. Los problemas son seguidos, reportados y cerrados por los colaboradores durante el proceso de desarrollo. Son una excelente forma de comunicarse con su equipo y de informar de su progreso.
