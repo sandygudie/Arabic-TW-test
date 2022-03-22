@@ -227,7 +227,7 @@ Teste de integração
   Um nível de teste de software onde unidades individuais são combinadas e testadas como um grupo. O objectivo deste nível de testes é expor as falhas na interacção entre unidades integradas.
 
 Interseccionalidade
-próprias experiências únicas de estado social, discriminação opressão e qualquer coisa que possa marginalizá-los com base na hierarquia, combinação ou identidades e antecedentes como género, raça, classe, orientação sexual, capacidade física e assim por diante. Este termo foi criado por Kimberley Crenshaw. [veja o cargo de Womankind](https://www.womankind.org.uk/intersectionality-101-what-is-it-and-why-is-it-important/)).
+  A forma como as identidades de uma pessoa (gênero, raça, classe, orientação sexual, capacidade física e outros) podem sobrepor-se e cruzar-se para formar uma experiência única de estatuto social, discriminação ou opressão. Este termo foi cunhado pelo Professor Kimberle├Crenshaw.
 
 Problemas
   sistema de rastreamento de bugs para GitHub. Os colaboradores podem usar problemas para relatar bugs, solicitar recursos ou definir marcos para projetos. Os problemas são controlados, reportados e fechados pelos colaboradores durante o processo de desenvolvimento. Eles são uma ótima maneira de se comunicar com a sua equipe e relatar o progresso.
