@@ -15,4 +15,12 @@ files:
       - '*.png'
       - '*.jpg'
       - _build/html
+      - _static
+      - _*
+      - scripts
+      - requirements
+      - assets
+      - figures
+      - analytic
+      - translation
     translation: /book/translation/%three_letters_code%/%original_path%/%original_file_name%
