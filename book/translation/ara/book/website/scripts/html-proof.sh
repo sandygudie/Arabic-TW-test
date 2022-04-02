@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
-تعيين -e # إيقاف البرنامج النصي عند الخطأ
+set -e # halt script on error
 
-إنشاء موقع 
-حزمة exec htmlproofer --allow-hash-href \
---افترض-ملحق./_الموقع \
---تجاهل url "/\/apple-touch*.*/,/\/images/logo/favicon.ico/,/#*/" \
---ديناص-خارجي \
---فقط_4xx 
-
+make site 
+bundle exec htmlproofer --allow-hash-href \
+--assume-extension ./_site \
+--url-ignore "/\/apple-touch*.*/,/\/images/logo/favicon.ico/,/#*/" \
+--disable-external \
+--only_4xx 
