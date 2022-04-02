@@ -13,4 +13,5 @@ files:
       - runtime.txt
       - '*.png'
       - '*.jpg'
+      - /_build/html
     translation: /book/translation/%three_letters_code%/%original_path%/%original_file_name%
