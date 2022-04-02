@@ -1,0 +1,2102 @@
+
+<!DOCTYPE html>
+
+<html lang="ar">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>crwdns660572:0crwdne660572:0</title>
+    
+  <link href="../../_static/css/theme.css" rel="stylesheet" />
+  <link href="../../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+ href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+ href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/sphinx-book-theme.e8e5499552300ddf5d7adccae7cc3b70.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/book-stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <link rel="canonical" href="https://the-turing-way.netlify.com/project-design/pd-overview/pd-overview-methods.html" />
+    <link rel="shortcut icon" href="../../_static/favicon-32x32.png"/>
+    <link rel="index" title="crwdns660574:0crwdne660574:0" href="../../genindex.html" />
+    <link rel="search" title="crwdns660576:0crwdne660576:0" href="../../search.html" />
+    <link rel="next" title="crwdns660578:0crwdne660578:0" href="pd-overview-version.html" />
+    <link rel="prev" title="crwdns660580:0crwdne660580:0" href="pd-overview-repro.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="crwdns660582:0crwdne660582:0">
+      
+      <img src="crwdns660584:0crwdne660584:0" class="logo" alt="crwdns660586:0crwdne660586:0">
+      
+      
+      crwdns660588:0crwdne660588:0
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="crwdns660590:0crwdne660590:0" aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="crwdns660592:0crwdne660592:0">
+   crwdns660594:0crwdne660594:0
+  </a>
+ </li>
+</ul>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="crwdns660596:0crwdne660596:0">
+   crwdns660598:0crwdne660598:0
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns660600:0crwdne660600:0">
+     crwdns660602:0crwdne660602:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+    <label for="toctree-checkbox-2">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660604:0crwdne660604:0">
+       crwdns660606:0crwdne660606:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660608:0crwdne660608:0">
+       crwdns660610:0crwdne660610:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660612:0crwdne660612:0">
+       crwdns660614:0crwdne660614:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660616:0crwdne660616:0">
+       crwdns660618:0crwdne660618:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns660620:0crwdne660620:0">
+     crwdns660622:0crwdne660622:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+    <label for="toctree-checkbox-3">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660624:0crwdne660624:0">
+       crwdns660626:0crwdne660626:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660628:0crwdne660628:0">
+       crwdns660630:0crwdne660630:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660632:0crwdne660632:0">
+       crwdns660634:0crwdne660634:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660636:0crwdne660636:0">
+       crwdns660638:0crwdne660638:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660640:0crwdne660640:0">
+       crwdns660642:0crwdne660642:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660644:0crwdne660644:0">
+       crwdns660646:0crwdne660646:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660648:0crwdne660648:0">
+       crwdns660650:0crwdne660650:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660652:0crwdne660652:0">
+       crwdns660654:0crwdne660654:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns660656:0crwdne660656:0">
+     crwdns660658:0crwdne660658:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+    <label for="toctree-checkbox-4">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660660:0crwdne660660:0">
+       crwdns660662:0crwdne660662:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660664:0crwdne660664:0">
+       crwdns660666:0crwdne660666:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660668:0crwdne660668:0">
+       crwdns660670:0crwdne660670:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660672:0crwdne660672:0">
+       crwdns660674:0crwdne660674:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660676:0crwdne660676:0">
+       crwdns660678:0crwdne660678:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660680:0crwdne660680:0">
+       crwdns660682:0crwdne660682:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660684:0crwdne660684:0">
+       crwdns660686:0crwdne660686:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660688:0crwdne660688:0">
+       crwdns660690:0crwdne660690:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660692:0crwdne660692:0">
+       crwdns660694:0crwdne660694:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660696:0crwdne660696:0">
+       crwdns660698:0crwdne660698:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660700:0crwdne660700:0">
+       crwdns660702:0crwdne660702:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660704:0crwdne660704:0">
+       crwdns660706:0crwdne660706:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660708:0crwdne660708:0">
+       crwdns660710:0crwdne660710:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns660712:0crwdne660712:0">
+     crwdns660714:0crwdne660714:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+    <label for="toctree-checkbox-5">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660716:0crwdne660716:0">
+       crwdns660718:0crwdne660718:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660720:0crwdne660720:0">
+       crwdns660722:0crwdne660722:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660724:0crwdne660724:0">
+       crwdns660726:0crwdne660726:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660728:0crwdne660728:0">
+       crwdns660730:0crwdne660730:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns660732:0crwdne660732:0">
+     crwdns660734:0crwdne660734:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
+    <label for="toctree-checkbox-6">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660736:0crwdne660736:0">
+       crwdns660738:0crwdne660738:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660740:0crwdne660740:0">
+       crwdns660742:0crwdne660742:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660744:0crwdne660744:0">
+       crwdns660746:0crwdne660746:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660748:0crwdne660748:0">
+       crwdns660750:0crwdne660750:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660752:0crwdne660752:0">
+       crwdns660754:0crwdne660754:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660756:0crwdne660756:0">
+       crwdns660758:0crwdne660758:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660760:0crwdne660760:0">
+       crwdns660762:0crwdne660762:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660764:0crwdne660764:0">
+       crwdns660766:0crwdne660766:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660768:0crwdne660768:0">
+       crwdns660770:0crwdne660770:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660772:0crwdne660772:0">
+       crwdns660774:0crwdne660774:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660776:0crwdne660776:0">
+       crwdns660778:0crwdne660778:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660780:0crwdne660780:0">
+       crwdns660782:0crwdne660782:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660784:0crwdne660784:0">
+       crwdns660786:0crwdne660786:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns660788:0crwdne660788:0">
+     crwdns660790:0crwdne660790:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
+    <label for="toctree-checkbox-7">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660792:0crwdne660792:0">
+       crwdns660794:0crwdne660794:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660796:0crwdne660796:0">
+       crwdns660798:0crwdne660798:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660800:0crwdne660800:0">
+       crwdns660802:0crwdne660802:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660804:0crwdne660804:0">
+       crwdns660806:0crwdne660806:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660808:0crwdne660808:0">
+       crwdns660810:0crwdne660810:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660812:0crwdne660812:0">
+       crwdns660814:0crwdne660814:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns660816:0crwdne660816:0">
+     crwdns660818:0crwdne660818:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/>
+    <label for="toctree-checkbox-8">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660820:0crwdne660820:0">
+       crwdns660822:0crwdne660822:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660824:0crwdne660824:0">
+       crwdns660826:0crwdne660826:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660828:0crwdne660828:0">
+       crwdns660830:0crwdne660830:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660832:0crwdne660832:0">
+       crwdns660834:0crwdne660834:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns660836:0crwdne660836:0">
+     crwdns660838:0crwdne660838:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/>
+    <label for="toctree-checkbox-9">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660840:0crwdne660840:0">
+       crwdns660842:0crwdne660842:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660844:0crwdne660844:0">
+       crwdns660846:0crwdne660846:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns660848:0crwdne660848:0">
+     crwdns660850:0crwdne660850:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/>
+    <label for="toctree-checkbox-10">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660852:0crwdne660852:0">
+       crwdns660854:0crwdne660854:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660856:0crwdne660856:0">
+       crwdns660858:0crwdne660858:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660860:0crwdne660860:0">
+       crwdns660862:0crwdne660862:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660864:0crwdne660864:0">
+       crwdns660866:0crwdne660866:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660868:0crwdne660868:0">
+       crwdns660870:0crwdne660870:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660872:0crwdne660872:0">
+       crwdns660874:0crwdne660874:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660876:0crwdne660876:0">
+       crwdns660878:0crwdne660878:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660880:0crwdne660880:0">
+       crwdns660882:0crwdne660882:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660884:0crwdne660884:0">
+       crwdns660886:0crwdne660886:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660888:0crwdne660888:0">
+       crwdns660890:0crwdne660890:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660892:0crwdne660892:0">
+       crwdns660894:0crwdne660894:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660896:0crwdne660896:0">
+       crwdns660898:0crwdne660898:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns660900:0crwdne660900:0">
+     crwdns660902:0crwdne660902:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" type="checkbox"/>
+    <label for="toctree-checkbox-11">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660904:0crwdne660904:0">
+       crwdns660906:0crwdne660906:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660908:0crwdne660908:0">
+       crwdns660910:0crwdne660910:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660912:0crwdne660912:0">
+       crwdns660914:0crwdne660914:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660916:0crwdne660916:0">
+       crwdns660918:0crwdne660918:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660920:0crwdne660920:0">
+       crwdns660922:0crwdne660922:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns660924:0crwdne660924:0">
+     crwdns660926:0crwdne660926:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" type="checkbox"/>
+    <label for="toctree-checkbox-12">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660928:0crwdne660928:0">
+       crwdns660930:0crwdne660930:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660932:0crwdne660932:0">
+       crwdns660934:0crwdne660934:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns660936:0crwdne660936:0">
+     crwdns660938:0crwdne660938:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-13" name="toctree-checkbox-13" type="checkbox"/>
+    <label for="toctree-checkbox-13">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660940:0crwdne660940:0">
+       crwdns660942:0crwdne660942:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660944:0crwdne660944:0">
+       crwdns660946:0crwdne660946:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660948:0crwdne660948:0">
+       crwdns660950:0crwdne660950:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660952:0crwdne660952:0">
+       crwdns660954:0crwdne660954:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660956:0crwdne660956:0">
+       crwdns660958:0crwdne660958:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns660960:0crwdne660960:0">
+     crwdns660962:0crwdne660962:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-14" name="toctree-checkbox-14" type="checkbox"/>
+    <label for="toctree-checkbox-14">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660964:0crwdne660964:0">
+       crwdns660966:0crwdne660966:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660968:0crwdne660968:0">
+       crwdns660970:0crwdne660970:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660972:0crwdne660972:0">
+       crwdns660974:0crwdne660974:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660976:0crwdne660976:0">
+       crwdns660978:0crwdne660978:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660980:0crwdne660980:0">
+       crwdns660982:0crwdne660982:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660984:0crwdne660984:0">
+       crwdns660986:0crwdne660986:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="crwdns660988:0crwdne660988:0">
+     crwdns660990:0crwdne660990:0
+    </a>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns660992:0crwdne660992:0">
+     crwdns660994:0crwdne660994:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-15" name="toctree-checkbox-15" type="checkbox"/>
+    <label for="toctree-checkbox-15">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns660996:0crwdne660996:0">
+       crwdns660998:0crwdne660998:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661000:0crwdne661000:0">
+       crwdns661002:0crwdne661002:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns661004:0crwdne661004:0">
+     crwdns661006:0crwdne661006:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-16" name="toctree-checkbox-16" type="checkbox"/>
+    <label for="toctree-checkbox-16">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661008:0crwdne661008:0">
+       crwdns661010:0crwdne661010:0
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="crwdns661012:0crwdne661012:0">
+   crwdns661014:0crwdne661014:0
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-17" name="toctree-checkbox-17" type="checkbox"/>
+  <label for="toctree-checkbox-17">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2 current active has-children">
+    <a class="reference internal" href="crwdns661016:0crwdne661016:0">
+     crwdns661018:0crwdne661018:0
+    </a>
+    <input checked="" class="toctree-checkbox" id="toctree-checkbox-18" name="toctree-checkbox-18" type="checkbox"/>
+    <label for="toctree-checkbox-18">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul class="current">
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661020:0crwdne661020:0">
+       crwdns661022:0crwdne661022:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661024:0crwdne661024:0">
+       crwdns661026:0crwdne661026:0
+      </a>
+     </li>
+     <li class="toctree-l3 current active">
+      <a class="current reference internal" href="crwdns661028:0crwdne661028:0">
+       crwdns661030:0crwdne661030:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661032:0crwdne661032:0">
+       crwdns661034:0crwdne661034:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661036:0crwdne661036:0">
+       crwdns661038:0crwdne661038:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns661040:0crwdne661040:0">
+     crwdns661042:0crwdne661042:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-19" name="toctree-checkbox-19" type="checkbox"/>
+    <label for="toctree-checkbox-19">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661044:0crwdne661044:0">
+       crwdns661046:0crwdne661046:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661048:0crwdne661048:0">
+       crwdns661050:0crwdne661050:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661052:0crwdne661052:0">
+       crwdns661054:0crwdne661054:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661056:0crwdne661056:0">
+       crwdns661058:0crwdne661058:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661060:0crwdne661060:0">
+       crwdns661062:0crwdne661062:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661064:0crwdne661064:0">
+       crwdns661066:0crwdne661066:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns661068:0crwdne661068:0">
+     crwdns661070:0crwdne661070:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-20" name="toctree-checkbox-20" type="checkbox"/>
+    <label for="toctree-checkbox-20">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661072:0crwdne661072:0">
+       crwdns661074:0crwdne661074:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661076:0crwdne661076:0">
+       crwdns661078:0crwdne661078:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="crwdns661080:0crwdne661080:0">
+     crwdns661082:0crwdne661082:0
+    </a>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns661084:0crwdne661084:0">
+     crwdns661086:0crwdne661086:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-21" name="toctree-checkbox-21" type="checkbox"/>
+    <label for="toctree-checkbox-21">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661088:0crwdne661088:0">
+       crwdns661090:0crwdne661090:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661092:0crwdne661092:0">
+       crwdns661094:0crwdne661094:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661096:0crwdne661096:0">
+       crwdns661098:0crwdne661098:0
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="crwdns661100:0crwdne661100:0">
+   crwdns661102:0crwdne661102:0
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-22" name="toctree-checkbox-22" type="checkbox"/>
+  <label for="toctree-checkbox-22">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns661104:0crwdne661104:0">
+     crwdns661106:0crwdne661106:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-23" name="toctree-checkbox-23" type="checkbox"/>
+    <label for="toctree-checkbox-23">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661108:0crwdne661108:0">
+       crwdns661110:0crwdne661110:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661112:0crwdne661112:0">
+       crwdns661114:0crwdne661114:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661116:0crwdne661116:0">
+       crwdns661118:0crwdne661118:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns661120:0crwdne661120:0">
+     crwdns661122:0crwdne661122:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-24" name="toctree-checkbox-24" type="checkbox"/>
+    <label for="toctree-checkbox-24">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661124:0crwdne661124:0">
+       crwdns661126:0crwdne661126:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661128:0crwdne661128:0">
+       crwdns661130:0crwdne661130:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns661132:0crwdne661132:0">
+     crwdns661134:0crwdne661134:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-25" name="toctree-checkbox-25" type="checkbox"/>
+    <label for="toctree-checkbox-25">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661136:0crwdne661136:0">
+       crwdns661138:0crwdne661138:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns661140:0crwdne661140:0">
+     crwdns661142:0crwdne661142:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-26" name="toctree-checkbox-26" type="checkbox"/>
+    <label for="toctree-checkbox-26">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661144:0crwdne661144:0">
+       crwdns661146:0crwdne661146:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns661148:0crwdne661148:0">
+     crwdns661150:0crwdne661150:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-27" name="toctree-checkbox-27" type="checkbox"/>
+    <label for="toctree-checkbox-27">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661152:0crwdne661152:0">
+       crwdns661154:0crwdne661154:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661156:0crwdne661156:0">
+       crwdns661158:0crwdne661158:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns661160:0crwdne661160:0">
+     crwdns661162:0crwdne661162:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-28" name="toctree-checkbox-28" type="checkbox"/>
+    <label for="toctree-checkbox-28">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661164:0crwdne661164:0">
+       crwdns661166:0crwdne661166:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661168:0crwdne661168:0">
+       crwdns661170:0crwdne661170:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns661172:0crwdne661172:0">
+     crwdns661174:0crwdne661174:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-29" name="toctree-checkbox-29" type="checkbox"/>
+    <label for="toctree-checkbox-29">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661176:0crwdne661176:0">
+       crwdns661178:0crwdne661178:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661180:0crwdne661180:0">
+       crwdns661182:0crwdne661182:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661184:0crwdne661184:0">
+       crwdns661186:0crwdne661186:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661188:0crwdne661188:0">
+       crwdns661190:0crwdne661190:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661192:0crwdne661192:0">
+       crwdns661194:0crwdne661194:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661196:0crwdne661196:0">
+       crwdns661198:0crwdne661198:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661200:0crwdne661200:0">
+       crwdns661202:0crwdne661202:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns661204:0crwdne661204:0">
+     crwdns661206:0crwdne661206:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-30" name="toctree-checkbox-30" type="checkbox"/>
+    <label for="toctree-checkbox-30">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661208:0crwdne661208:0">
+       crwdns661210:0crwdne661210:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661212:0crwdne661212:0">
+       crwdns661214:0crwdne661214:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns661216:0crwdne661216:0">
+     crwdns661218:0crwdne661218:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-31" name="toctree-checkbox-31" type="checkbox"/>
+    <label for="toctree-checkbox-31">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661220:0crwdne661220:0">
+       crwdns661222:0crwdne661222:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661224:0crwdne661224:0">
+       crwdns661226:0crwdne661226:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661228:0crwdne661228:0">
+       crwdns661230:0crwdne661230:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661232:0crwdne661232:0">
+       crwdns661234:0crwdne661234:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661236:0crwdne661236:0">
+       crwdns661238:0crwdne661238:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661240:0crwdne661240:0">
+       crwdns661242:0crwdne661242:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661244:0crwdne661244:0">
+       crwdns661246:0crwdne661246:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661248:0crwdne661248:0">
+       crwdns661250:0crwdne661250:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns661252:0crwdne661252:0">
+     crwdns661254:0crwdne661254:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-32" name="toctree-checkbox-32" type="checkbox"/>
+    <label for="toctree-checkbox-32">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661256:0crwdne661256:0">
+       crwdns661258:0crwdne661258:0
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="crwdns661260:0crwdne661260:0">
+   crwdns661262:0crwdne661262:0
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-33" name="toctree-checkbox-33" type="checkbox"/>
+  <label for="toctree-checkbox-33">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns661264:0crwdne661264:0">
+     crwdns661266:0crwdne661266:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-34" name="toctree-checkbox-34" type="checkbox"/>
+    <label for="toctree-checkbox-34">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661268:0crwdne661268:0">
+       crwdns661270:0crwdne661270:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661272:0crwdne661272:0">
+       crwdns661274:0crwdne661274:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661276:0crwdne661276:0">
+       crwdns661278:0crwdne661278:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661280:0crwdne661280:0">
+       crwdns661282:0crwdne661282:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns661284:0crwdne661284:0">
+     crwdns661286:0crwdne661286:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-35" name="toctree-checkbox-35" type="checkbox"/>
+    <label for="toctree-checkbox-35">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661288:0crwdne661288:0">
+       crwdns661290:0crwdne661290:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661292:0crwdne661292:0">
+       crwdns661294:0crwdne661294:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661296:0crwdne661296:0">
+       crwdns661298:0crwdne661298:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661300:0crwdne661300:0">
+       crwdns661302:0crwdne661302:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661304:0crwdne661304:0">
+       crwdns661306:0crwdne661306:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns661308:0crwdne661308:0">
+     crwdns661310:0crwdne661310:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-36" name="toctree-checkbox-36" type="checkbox"/>
+    <label for="toctree-checkbox-36">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661312:0crwdne661312:0">
+       crwdns661314:0crwdne661314:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661316:0crwdne661316:0">
+       crwdns661318:0crwdne661318:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661320:0crwdne661320:0">
+       crwdns661322:0crwdne661322:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661324:0crwdne661324:0">
+       crwdns661326:0crwdne661326:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns661328:0crwdne661328:0">
+     crwdns661330:0crwdne661330:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-37" name="toctree-checkbox-37" type="checkbox"/>
+    <label for="toctree-checkbox-37">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661332:0crwdne661332:0">
+       crwdns661334:0crwdne661334:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns661336:0crwdne661336:0">
+     crwdns661338:0crwdne661338:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-38" name="toctree-checkbox-38" type="checkbox"/>
+    <label for="toctree-checkbox-38">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661340:0crwdne661340:0">
+       crwdns661342:0crwdne661342:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661344:0crwdne661344:0">
+       crwdns661346:0crwdne661346:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661348:0crwdne661348:0">
+       crwdns661350:0crwdne661350:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661352:0crwdne661352:0">
+       crwdns661354:0crwdne661354:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661356:0crwdne661356:0">
+       crwdns661358:0crwdne661358:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns661360:0crwdne661360:0">
+     crwdns661362:0crwdne661362:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-39" name="toctree-checkbox-39" type="checkbox"/>
+    <label for="toctree-checkbox-39">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661364:0crwdne661364:0">
+       crwdns661366:0crwdne661366:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661368:0crwdne661368:0">
+       crwdns661370:0crwdne661370:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661372:0crwdne661372:0">
+       crwdns661374:0crwdne661374:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661376:0crwdne661376:0">
+       crwdns661378:0crwdne661378:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661380:0crwdne661380:0">
+       crwdns661382:0crwdne661382:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661384:0crwdne661384:0">
+       crwdns661386:0crwdne661386:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661388:0crwdne661388:0">
+       crwdns661390:0crwdne661390:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661392:0crwdne661392:0">
+       crwdns661394:0crwdne661394:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661396:0crwdne661396:0">
+       crwdns661398:0crwdne661398:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661400:0crwdne661400:0">
+       crwdns661402:0crwdne661402:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns661404:0crwdne661404:0">
+     crwdns661406:0crwdne661406:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-40" name="toctree-checkbox-40" type="checkbox"/>
+    <label for="toctree-checkbox-40">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661408:0crwdne661408:0">
+       crwdns661410:0crwdne661410:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661412:0crwdne661412:0">
+       crwdns661414:0crwdne661414:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661416:0crwdne661416:0">
+       crwdns661418:0crwdne661418:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661420:0crwdne661420:0">
+       crwdns661422:0crwdne661422:0
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="crwdns661424:0crwdne661424:0">
+   crwdns661426:0crwdne661426:0
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-41" name="toctree-checkbox-41" type="checkbox"/>
+  <label for="toctree-checkbox-41">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="crwdns661428:0crwdne661428:0">
+     crwdns661430:0crwdne661430:0
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="crwdns661432:0crwdne661432:0">
+     crwdns661434:0crwdne661434:0
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="crwdns661436:0crwdne661436:0">
+     crwdns661438:0crwdne661438:0
+    </a>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns661440:0crwdne661440:0">
+     crwdns661442:0crwdne661442:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-42" name="toctree-checkbox-42" type="checkbox"/>
+    <label for="toctree-checkbox-42">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661444:0crwdne661444:0">
+       crwdns661446:0crwdne661446:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661448:0crwdne661448:0">
+       crwdns661450:0crwdne661450:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661452:0crwdne661452:0">
+       crwdns661454:0crwdne661454:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns661456:0crwdne661456:0">
+     crwdns661458:0crwdne661458:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-43" name="toctree-checkbox-43" type="checkbox"/>
+    <label for="toctree-checkbox-43">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661460:0crwdne661460:0">
+       crwdns661462:0crwdne661462:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661464:0crwdne661464:0">
+       crwdns661466:0crwdne661466:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661468:0crwdne661468:0">
+       crwdns661470:0crwdne661470:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661472:0crwdne661472:0">
+       crwdns661474:0crwdne661474:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="crwdns661476:0crwdne661476:0">
+     crwdns661478:0crwdne661478:0
+    </a>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns661480:0crwdne661480:0">
+     crwdns661482:0crwdne661482:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-44" name="toctree-checkbox-44" type="checkbox"/>
+    <label for="toctree-checkbox-44">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661484:0crwdne661484:0">
+       crwdns661486:0crwdne661486:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661488:0crwdne661488:0">
+       crwdns661490:0crwdne661490:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661492:0crwdne661492:0">
+       crwdns661494:0crwdne661494:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661496:0crwdne661496:0">
+       crwdns661498:0crwdne661498:0
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="crwdns661500:0crwdne661500:0">
+   crwdns661502:0crwdne661502:0
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-45" name="toctree-checkbox-45" type="checkbox"/>
+  <label for="toctree-checkbox-45">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns661504:0crwdne661504:0">
+     crwdns661506:0crwdne661506:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-46" name="toctree-checkbox-46" type="checkbox"/>
+    <label for="toctree-checkbox-46">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661508:0crwdne661508:0">
+       crwdns661510:0crwdne661510:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661512:0crwdne661512:0">
+       crwdns661514:0crwdne661514:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661516:0crwdne661516:0">
+       crwdns661518:0crwdne661518:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661520:0crwdne661520:0">
+       crwdns661522:0crwdne661522:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns661524:0crwdne661524:0">
+     crwdns661526:0crwdne661526:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-47" name="toctree-checkbox-47" type="checkbox"/>
+    <label for="toctree-checkbox-47">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661528:0crwdne661528:0">
+       crwdns661530:0crwdne661530:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661532:0crwdne661532:0">
+       crwdns661534:0crwdne661534:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661536:0crwdne661536:0">
+       crwdns661538:0crwdne661538:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661540:0crwdne661540:0">
+       crwdns661542:0crwdne661542:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661544:0crwdne661544:0">
+       crwdns661546:0crwdne661546:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns661548:0crwdne661548:0">
+     crwdns661550:0crwdne661550:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-48" name="toctree-checkbox-48" type="checkbox"/>
+    <label for="toctree-checkbox-48">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661552:0crwdne661552:0">
+       crwdns661554:0crwdne661554:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661556:0crwdne661556:0">
+       crwdns661558:0crwdne661558:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661560:0crwdne661560:0">
+       crwdns661562:0crwdne661562:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns661564:0crwdne661564:0">
+     crwdns661566:0crwdne661566:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-49" name="toctree-checkbox-49" type="checkbox"/>
+    <label for="toctree-checkbox-49">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661568:0crwdne661568:0">
+       crwdns661570:0crwdne661570:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661572:0crwdne661572:0">
+       crwdns661574:0crwdne661574:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns661576:0crwdne661576:0">
+     crwdns661578:0crwdne661578:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-50" name="toctree-checkbox-50" type="checkbox"/>
+    <label for="toctree-checkbox-50">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661580:0crwdne661580:0">
+       crwdns661582:0crwdne661582:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661584:0crwdne661584:0">
+       crwdns661586:0crwdne661586:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661588:0crwdne661588:0">
+       crwdns661590:0crwdne661590:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns661592:0crwdne661592:0">
+     crwdns661594:0crwdne661594:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-51" name="toctree-checkbox-51" type="checkbox"/>
+    <label for="toctree-checkbox-51">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661596:0crwdne661596:0">
+       crwdns661598:0crwdne661598:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661600:0crwdne661600:0">
+       crwdns661602:0crwdne661602:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661604:0crwdne661604:0">
+       crwdns661606:0crwdne661606:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns661608:0crwdne661608:0">
+     crwdns661610:0crwdne661610:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-52" name="toctree-checkbox-52" type="checkbox"/>
+    <label for="toctree-checkbox-52">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661612:0crwdne661612:0">
+       crwdns661614:0crwdne661614:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661616:0crwdne661616:0">
+       crwdns661618:0crwdne661618:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661620:0crwdne661620:0">
+       crwdns661622:0crwdne661622:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661624:0crwdne661624:0">
+       crwdns661626:0crwdne661626:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661628:0crwdne661628:0">
+       crwdns661630:0crwdne661630:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns661632:0crwdne661632:0">
+     crwdns661634:0crwdne661634:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-53" name="toctree-checkbox-53" type="checkbox"/>
+    <label for="toctree-checkbox-53">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661636:0crwdne661636:0">
+       crwdns661638:0crwdne661638:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661640:0crwdne661640:0">
+       crwdns661642:0crwdne661642:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661644:0crwdne661644:0">
+       crwdns661646:0crwdne661646:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661648:0crwdne661648:0">
+       crwdns661650:0crwdne661650:0
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="crwdns661652:0crwdne661652:0">
+     crwdns661654:0crwdne661654:0
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-54" name="toctree-checkbox-54" type="checkbox"/>
+    <label for="toctree-checkbox-54">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661656:0crwdne661656:0">
+       crwdns661658:0crwdne661658:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661660:0crwdne661660:0">
+       crwdns661662:0crwdne661662:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661664:0crwdne661664:0">
+       crwdns661666:0crwdne661666:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661668:0crwdne661668:0">
+       crwdns661670:0crwdne661670:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661672:0crwdne661672:0">
+       crwdns661674:0crwdne661674:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661676:0crwdne661676:0">
+       crwdns661678:0crwdne661678:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661680:0crwdne661680:0">
+       crwdns661682:0crwdne661682:0
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="crwdns661684:0crwdne661684:0">
+       crwdns661686:0crwdne661686:0
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="crwdns661688:0crwdne661688:0">
+   crwdns661690:0crwdne661690:0
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-55" name="toctree-checkbox-55" type="checkbox"/>
+  <label for="toctree-checkbox-55">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="crwdns661692:0crwdne661692:0">
+     crwdns661694:0crwdne661694:0
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="crwdns661696:0crwdne661696:0">
+     crwdns661698:0crwdne661698:0
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="crwdns661700:0crwdne661700:0">
+     crwdns661702:0crwdne661702:0
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="crwdns661704:0crwdne661704:0">
+     crwdns661706:0crwdne661706:0
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  crwdns661708:0crwdne661708:0 <div>crwdns661710:0crwdne661710:0</div>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="tooltip"
+                data-placement="left" data-target=".site-navigation" aria-controls="site-navigation" aria-expanded="true"
+                aria-label="Toggle navigation" title="crwdns661712:0crwdne661712:0">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        crwdns661714:0crwdne661714:0
+        <!-- Download PDF via print -->
+        crwdns661716:0crwdne661716:0
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        crwdns661724:0%20ocrwdnd661724:0%20pcrwdnd661724:0%20crwdnd661724:0%2Fcrwdnd661724:0%20icrwdnd661724:0%20ccrwdnd661724:0%20hecrwdne661724:0
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="crwdns661726:0crwdne661726:0"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> crwdns661728:0crwdne661728:0
+            </div>
+            <nav id="bd-toc-nav">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="crwdns661730:0crwdne661730:0">
+   crwdns661732:0crwdne661732:0
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="crwdns661734:0crwdne661734:0">
+   crwdns661736:0crwdne661736:0
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="crwdns661738:0crwdne661738:0">
+   crwdns661740:0crwdne661740:0
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="crwdns661742:0crwdne661742:0">
+   crwdns661744:0crwdne661744:0
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="crwdns661746:0crwdne661746:0">
+   crwdns661748:0crwdne661748:0
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="crwdns661750:0crwdne661750:0">
+   crwdns661752:0crwdne661752:0
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="reproducibility-methods">
+<span id="pd-overview-methods"></span><h1>crwdns661754:0crwdne661754:0</h1>
+<p>crwdns661756:0crwdne661756:0
+crwdns661758:0crwdne661758:0</p>
+<ul class="simple">
+<li><p>crwdns661760:0crwdne661760:0</p></li>
+<li><p>crwdns661762:0crwdne661762:0</p></li>
+<li><p>crwdns661764:0crwdne661764:0</p></li>
+</ul>
+<div class="section" id="choose-a-license">
+<span id="pd-overview-methods-license"></span><h2>crwdns661766:0crwdne661766:0</h2>
+<p>crwdns661768:0crwdne661768:0
+crwdns661770:0crwdne661770:0
+crwdns661772:0crwdne661772:0</p>
+<p>crwdns661774:0crwdne661774:0
+crwdns661776:0crwdne661776:0</p>
+<p>crwdns661778:0crwdne661778:0</p>
+</div>
+<div class="section" id="data-management-plan">
+<span id="pd-overview-planning-dmp"></span><h2>crwdns661780:0crwdne661780:0</h2>
+<p>crwdns661782:0crwdne661782:0
+crwdns661784:0crwdne661784:0
+crwdns661786:0crwdne661786:0</p>
+<p>crwdns661788:0crwdne661788:0
+crwdns661790:0crwdne661790:0</p>
+</div>
+<div class="section" id="computational-reproducibility">
+<span id="pd-overview-methods-comprepro"></span><h2>crwdns661792:0crwdne661792:0</h2>
+<p>crwdns661794:0crwdne661794:0</p>
+<p>crwdns661796:0crwdne661796:0
+crwdns661798:0crwdne661798:0</p>
+<ul class="simple">
+<li><p>crwdns661800:0crwdne661800:0</p></li>
+<li><p>crwdns661802:0crwdne661802:0</p></li>
+<li><p>crwdns661804:0crwdne661804:0
+crwdns661806:0crwdne661806:0</p></li>
+</ul>
+<p>crwdns661808:0crwdne661808:0</p>
+</div>
+<div class="section" id="documenting-the-design-of-your-study">
+<span id="pd-overview-methods-docs"></span><h2>crwdns661810:0crwdne661810:0</h2>
+<p>crwdns661812:0crwdne661812:0</p>
+<p>crwdns661814:0crwdne661814:0 crwdns661816:0crwdne661816:0</p>
+</div>
+<div class="section" id="collaborating-and-asking-for-help">
+<span id="pd-overview-planning-help"></span><h2>crwdns661818:0crwdne661818:0</h2>
+<p>crwdns661820:0crwdne661820:0 crwdns661822:0crwdne661822:0</p>
+<p>crwdns661824:0crwdne661824:0</p>
+</div>
+<div class="section" id="reference">
+<h2>crwdns661826:0crwdne661826:0</h2>
+<p>crwdns661828:0crwdne661828:0 crwdns661830:0crwdne661830:0 crwdns661832:0crwdne661832:0 crwdns661834:0crwdne661834:0</p>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./project-design/pd-overview"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+    crwdns661836:0crwdne661836:0
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          crwdns661838:0crwdne661838:0<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+<script async="" src="https://www.google-analytics.com/analytics.js"></script>
+<script>
+                        window.ga = window.ga || function () {
+                            (ga.q = ga.q || []).push(arguments) };
+                        ga.l = +new Date;
+                        ga('create', 'UA-167881009-1', 'auto');
+                        ga('set', 'anonymizeIp', true);
+                        ga('send', 'pageview');
+                    </script>
+
+  </body>
+</html>
