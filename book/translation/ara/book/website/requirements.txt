@@ -1,13 +1,13 @@
-# Requirements for the demo notebooks
-# Useful for MyBinder configuration
-pandas==1.0.5
-numpy==1.21.0
-matplotlib==3.2.2
-datascience
-folium
-jupyter-book==0.11.2
-sphinxcontrib-bibtex~=2.2.0
-sphinx-click
-sphinx_inline_tabs
-sphinxext-rediraffe~=0.2.3
-Jinja2<3.1
+crwdns34021:0crwdne34021:0
+crwdns34023:0crwdne34023:0
+crwdns34025:0crwdne34025:0
+crwdns431236:0crwdne431236:0
+crwdns34029:0crwdne34029:0
+crwdns34031:0crwdne34031:0
+crwdns34033:0crwdne34033:0
+crwdns34035:0crwdne34035:0
+crwdns34037:0crwdne34037:0
+crwdns34039:0crwdne34039:0
+crwdns34041:0crwdne34041:0
+crwdns34043:0crwdne34043:0
+crwdns431238:0crwdne431238:0
