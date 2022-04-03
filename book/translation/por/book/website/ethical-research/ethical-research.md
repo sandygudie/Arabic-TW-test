@@ -9,8 +9,7 @@ Os cientistas de dados tomam decisões orientadas para os dados que exigem a rec
 ---
 nome: ética
 alta: uma ilustração de um martelo de madeira rotulado com a lei está atingindo uma tábua rotulada com uma ética com uma citação "considere uma restrição necessária ao compartilhamento de diferentes tipos de dados
----
-Pesquisa de Ética. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+--- Pesquisa de Ética. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
 Neste guia, convidamos discussões e orientações sobre considerações éticas que um cientista de dados deve ter em mente para garantir não só que o seu trabalho mantém um elevado nível de integridade moral, mas também que o seu trabalho é realizado segundo os mais elevados padrões científicos.
