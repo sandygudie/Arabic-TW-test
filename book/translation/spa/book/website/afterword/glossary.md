@@ -37,7 +37,7 @@ Rama
   Una versión paralela de un repositorio. Aunque está contenido en el mismo repositorio le permite desarrollarlo por separado y luego fusionar cambios de nuevo en el repositorio "en vivo" o con otras ramas cuando sea apropiado.
 
 Error
-  Esto es un error, falla o falla en un programa de ordenador o sistema que provoca que produzca un resultado incorrecto o inesperado. o comportarse de maneras no intencionadas.
+  Esto es un error, falla o falla en un programa de ordenador o sistema que provoca que produzca un resultado incorrecto o inesperado.
 
 Construye
   un grupo de trabajos. Por ejemplo, una compilación podría tener dos trabajos, cada uno de los cuales prueba un proyecto con una versión diferente de un lenguaje de programación. Una construcción termina cuando todos sus trabajos están terminados.
@@ -185,9 +185,7 @@ Github
   Un alojamiento de código en línea y servicio de control de versión. Tiene muchas características para ayudar a la colaboración entre usuarios, y alberga un gran número de proyectos de código abierto.
 
 GitLab
-  GitLab es una herramienta de ciclo de vida de DevOps basada en web que proporciona un administrador de repositorio Git que proporciona wiki, seguimiento de incidencias e integración continua y funciones de despliegue de pipeline, utilizando una licencia de código abierto, desarrollada por GitLab Inc.
-
-Autor fantasma
+  GitLab es una herramienta de ciclo de vida de DevOps basada en web que proporciona un administrador de repositorio Git que proporciona wiki, seguimiento de incidencias e integración continua y funciones de despliegue de pipeline, utilizando una licencia de código abierto, desarrollada por GitLab Inc. Autor fantasma
  Es una persona que escribe un artículo académico sin haber llevado a cabo la investigación. Podría ser un escritor profesional. A menudo no calificarían como autor con arreglo a los criterios de la ICMJE para autoría.
 
 Autor del regalo
