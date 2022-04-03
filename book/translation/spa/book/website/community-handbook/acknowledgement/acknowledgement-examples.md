@@ -175,4 +175,4 @@ Miembros del equipo, los colaboradores principales y los miembros de la comunida
 
 **Reconocimiento:** Estos miembros son reconocidos con 📆 (`ProjectManagement`) emoji en la tabla de colaboradores.
 
-*¿Nos perdimos de publicar un tipo de contribución? Por favor, cree un problema en el repositorio de GitHub para discutirlo con los miembros del equipo.*
+*¿Nos perdimos de publicar un tipo de contribución? ¿Nos perdimos de publicar un tipo de contribución? Por favor, cree un problema en el repositorio de GitHub para discutirlo con los miembros del equipo.*
