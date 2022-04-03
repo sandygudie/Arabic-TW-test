@@ -155,7 +155,7 @@ Make debería eliminar la salida y los archivos intermedios después del primer 
 (rr-make-ejemplos-makefile3)=
 ### Makefile n° 3 (Objetivos de Telefonia)
 
-Normalmente, `todas las` y `limpias` se definen como [fonfonía Objetivos](https://www.gnu.org/software/make/manual/make.html#Phony-Targets). Estos son objetivos que no crean un archivo de salida. Si no está marcado como `. HONY` estos objetivos siempre serían ejecutados si surgen en una dependencia, pero ya no se ejecutará si se crea un directorio/archivo que se llama `all` o `clean`. Por lo tanto, agregamos una línea en la parte superior del Makefile para definir estos dos como objetivos fónicos:
+Normalmente, `todas las` y `limpias` se definen como [fonfonía Objetivos](https://www.gnu.org/software/make/manual/make.html#Phony-Targets). Estos son objetivos que no crean un archivo de salida. HONY</code> estos objetivos siempre serían ejecutados si surgen en una dependencia, pero ya no se ejecutará si se crea un directorio/archivo que se llama `all` o `clean`. Por lo tanto, agregamos una línea en la parte superior del Makefile para definir estos dos como objetivos fónicos:
 
 ```makefile
 # Makefile for analysis report
@@ -306,11 +306,7 @@ $(FIGURES): salida/figure_%. ng: data/input_file_%.csv scripts/generate_histogra
     python scripts/generate_histogram.py -i $< -o $@
 
 output/report.pdf: report/report. ex $(FIGURES)
-    cd report/ && pdflatex report.tex && mv report. df ../$@
-
-limpieza:
-    rm -f salida/report.pdf
-    rm -f $(FIGURES)
+    cd report/ && pdflatex report.tex && mv report.
 ```
 
 Primero, usamos la función `comodín` para crear una variable que muestre todos los archivos CSV en el directorio de datos y uno que lista solo el antiguo `input_file_{N}. archivos sv`:
