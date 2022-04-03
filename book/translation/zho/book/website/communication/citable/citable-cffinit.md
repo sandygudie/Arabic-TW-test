@@ -9,11 +9,11 @@
 
 ```{figure} ../../figures/gifs/cffinit-0.gif
 ---
-名称：cffinit-0
+名称：cffinit-final
 宽度：80%
-Alt：贴纸着落页面
+高度：完整表单的最后一页。
 ---
-贴纸登陆页。 [^ cffinitversion]
+完整表单的最后一页。 [^ cffinitversion]
 ```
 
 ## 开始
@@ -45,7 +45,7 @@ Alt：贴纸着落页面
 宽度：80%
 高度：表单的第一页，标题、信息和类型。 字段已填充。
 ---
-表单的第一页，标题、消息和类型. 字段已填充。 [^ cffinitversion]
+表单的第一页，标题、消息和类型. 字段已填充。 字段已填充。 [^ cffinitversion]
 ```
 
 ## 作者
