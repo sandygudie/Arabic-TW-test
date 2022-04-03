@@ -32,8 +32,8 @@ Hackathons 也可以将GitHub 仓库变成版本控制 :cowboy_hat_face 的西�
 
 简而言之， 我认为黑客非常重视项目开发的编码方面(在 [不幸的命名公约](https://github.com/hackseq/October_2016/issues/24)的帮助下， 查看 [Bio-IT Hackathon 博客](https://grp-bio-it.embl-community.io/blogs/posts/2019-08-29-hackathon-report/)的最后一段， 但这不是一个良好项目所依赖的唯一支柱。
 
-所以，如果你对领导黑客项目感到紧张，我会告诉你：打破模组。 您的项目不必遵循典型的哈克事件的规则！ 以最适合你的队友和手头任务的方式开展工作。 最重要的是， _有趣！_
+所以，如果你对领导黑客项目感到紧张，我会告诉你：打破模组。 您的项目不必遵循典型的哈克事件的规则！ 以最适合你的队友和手头任务的方式开展工作。 最重要的是， _有趣！ _
 
-快乐的黑客！ (不！)
+快乐的黑客！ (不！
 
 _若要读取更长版本的博客，请查看介质上的 [原始帖子](https://blog.jupyter.org/diving-into-leadership-to-build-push-button-code-df2a075c9914)。_
