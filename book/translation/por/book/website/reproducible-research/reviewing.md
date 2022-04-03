@@ -13,8 +13,7 @@
 height: 500px
 nome: caçando bugs
 alt: pessoas pegando insetos diferentes de maneiras diferentes - representando bugs em nosso código ou projeto.
----
-Caçando bugs. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+--- Caçando bugs. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
 (rr-reviewing-sumy)=
