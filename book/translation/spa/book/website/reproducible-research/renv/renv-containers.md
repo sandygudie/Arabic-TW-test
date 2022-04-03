@@ -214,7 +214,7 @@ Otros comandos que a veces se utilizan en Dockerfiles incluyen:
 
 - `CMD`: Esto se utiliza para ejecutar comandos tan pronto como el contenedor se abra. Esto es diferente de los comandos RUN que son comandos ejecutados como parte de _configurar_ un contenedor. Por ejemplo, para tener un mensaje de bienvenida cuando se abre un contenedor desde la imagen, `CMD` podría utilizarse de la siguiente manera:
   ```
-  CMD ["echo","¡Bienvenido! ¡Acabas de abrir este contenedor!"]
+  CMD ["echo","¡Bienvenido! ¡Acabas de abrir este contenedor!"] ¡Acabas de abrir este contenedor!"]
   ```
   Es una buena práctica usar CMD para cualquier comando que necesite ejecutarse antes de que alguien empiece a trabajar en el contenedor en lugar de forzar a los usuarios a ejecutarlos a sí mismos (y confiar en que incluso sabrán que necesitan).
 - `VOLUMAS`: Estas serán discutidas {ref}`después <rr-renv-containers-volumes>`.
@@ -328,6 +328,19 @@ Si, al eliminar un contenedor, una `-v` se incluye después de `rm` en `sudo doc
 (rr-renv-contenedores-singularidad)=
 ## Singularidad
 
+Up until April 2020, the only way to run Docker was with root access. "Rootless" mode was made available as part of the [v20.10](https://docs.docker.com/engine/security/rootless/) release. Rootless mode is currently only avaliable on Linux and requires an initial install of Docker >= v20.10.
+
+The underyling difference between Docker without and with rootless mode is that perviously any system running Docker had a daemon running as `uid0` that creates and owns all images, but with rootless mode the user creates and owns any images that they initialize. To install and run the rootless version of Docker as a non-root user, use the following commands (where `20.10` refers to the installed version of Docker):
+
+```
+concha de singularidad docker://ubuntu
+```
+
+The following prequisites, which are part of the [`shadow-utils`](https://github.com/shadow-maint/shadow) package are required to run Docker rootless: `newuidmap` and `newgidmap`.
+
+(rr-renv-containers-singularity)=
+## Palabras de Advertencia
+
 
 > **Prerrequisitos**: Actualmente, la Singularidad sólo se ejecuta en sistemas Linux (por ejemplo Ubuntu). Si usas macOS, [Escritorio de singularidad para macOS](https://www.sylabs.io/singularity-desktop-macos/) está en fase de lanzamiento "Beta".
 
@@ -339,13 +352,6 @@ Además, dado que Docker es _el_ enfoque de contenedor más conocido, la singula
 
 La singularidad puede utilizarse para ejecutar imágenes Docker o ampliarlas construyendo nuevas imágenes basadas en contenedores docker como una capa base. Por ejemplo, podríamos usar singularidad para crear un contenedor de vainilla ubuntu con una shell usando la imagen de docker de ubuntu:
 
-```
-concha de singularidad docker://ubuntu
-```
-
-> (escribe `exit` para volver a dejar el shell interactivo).
-
-Así como las imágenes docker se construyen utilizando archivos `Dockerfile` , los contenedores de singularidad se construyen a partir de archivos de definición de singularidad. El proceso y la sintaxis son similares a los archivos docker, pero hay diferencias sutiles. Como un ejemplo de trabajo mínimo, podemos construir un contenedor de `lolcow` basado en la imagen oficial del contenedor docker ubuntu. Pon lo siguiente en un archivo `lolcow.def` (basado en la [documentación de Singularidad](https://www.sylabs.io/guides/3.2/user-guide/build_a_container.html)):
 ```
 Bootstrap: docker
 De: ubuntu
@@ -362,9 +368,28 @@ De: ubuntu
     fortune | cowsay | lolcat
 ```
 
+> (escribe `exit` para volver a dejar el shell interactivo).
+
+Así como las imágenes docker se construyen utilizando archivos `Dockerfile` , los contenedores de singularidad se construyen a partir de archivos de definición de singularidad. El proceso y la sintaxis son similares a los archivos docker, pero hay diferencias sutiles. Como un ejemplo de trabajo mínimo, podemos construir un contenedor de `lolcow` basado en la imagen oficial del contenedor docker ubuntu. Pon lo siguiente en un archivo `lolcow.def` (basado en la [documentación de Singularidad](https://www.sylabs.io/guides/3.2/user-guide/build_a_container.html)):
+```
+Bootstrap: docker
+From: ubuntu
+
+%post
+    apt-get -y update
+    apt-get -y install fortune cowsay lolcat
+
+%environment
+    export LC_ALL=C
+    export PATH=/usr/games:$PATH
+
+%runscript
+    fortune | cowsay | lolcat
+```
+
 Esta 'receta' utiliza una imagen docker como base (`ubuntu`), instala algunos paquetes `apt` , modifica algunas variables de entorno, y especifica el script de ejecución `` (que se ejecuta usando el comando `de ejecución` de singularidad). Los detalles sobre el formato de archivo de definición de singularidad se pueden encontrar en la documentación oficial [](https://www.sylabs.io/docs/).
 
-Una imagen de contenedor puede construirse (¡requiere root!) por ejemplo:
+(rr-renv-containers-singularidad-almacenamiento)=
 
 ```
 sudo singularity build lolcow.simg lolcow.def
@@ -392,7 +417,7 @@ ___________________________________
 
 Siendo compatible con HPC, los contenedores de singularidad también están soportados por una amplia gama de herramientas de gestión de flujo de trabajo. Por ejemplo, tanto [snakemake](https://snakemake.readthedocs.io/en/stable/) como [nextflow](https://www.nextflow.io/docs/latest/singularity.html) soportan contenedores de singularidad específicos para el trabajo. Esto hace que los contenedores de singularidad sean únicos para paralelizar los flujos de trabajo en sistemas HPC utilizando el extensamente utilizado gestor de carga de trabajo de [slurm](https://slurm.schedmd.com/documentation.html). Utilizando singularidad, contenedores y snakemake/nextflow es una manera de escalar la reproducibilidad a una escala masiva. Además, como beneficio añadido, traer flujos de trabajo desde una máquina de escritorio a un sistema HPC ya no requiere escribir scripts de trabajo personalizados.
 
-(rr-renv-containers-singularidad-almacenamiento)=
+(rr-renv-containers-singularity-storage)=
 ### Almacenamiento largo de imágenes de contenedor
 
 Es importante tener en cuenta que un simple archivo de receta de contenedor no es reproducible en sí mismo, ya que el proceso de compilación depende de varias fuentes (en línea). Por lo tanto, el mismo archivo de receta podría llevar a diferentes imágenes si se actualizaran las fuentes subyacentes.
@@ -400,7 +425,7 @@ Es importante tener en cuenta que un simple archivo de receta de contenedor no e
 Para lograr una verdadera reproducibilidad, es importante almacenar las _imágenes_ del contenedor real. Para las imágenes de singularidad, esto es particularmente fácil, ya que una imagen es simplemente un archivo grande. Pueden variar en tamaño, desde unas pocas decenas de megabytes (microcontenedores) hasta varios gigabytes, y por lo tanto no son adecuados para ser almacenados en un repositorio git ellos mismos Un libre, citable, y solución a largo plazo para almacenar imágenes de contenedores es [zenodo. rg](https://zenodo.org/) que permite hasta 50 Gb por repositorio. Dado que zenodo mints DOI para todo el contenido cargado, las imágenes son inmediatamente citables. En contraste con [Docker Hub](https://hub.docker.com/) (que también acepta solo imágenes docker), zenodo también está claramente engrandecido hacia el almacenamiento y la detección a largo plazo mediante un sofisticado sistema de metadatas. Por lo tanto, es ideal para almacenar contenedores científicos asociados con análisis particulares, ya que estos tienden a no cambiar con el tiempo.
 
 (rr-renv-containers-warning)=
-## Palabras de Advertencia
+## Words of Warning
 
 Aunque la singularidad y el estibador pueden parecer similares, son conceptualmente muy diferentes. Además del hecho obvio de que la singularidad no requiere acceso root para ejecutar contenedores, también maneja la distinción entre el sistema de ficheros anfitrión y contenedor de forma diferente. Por ejemplo, por defecto, la singularidad incluye algunos puntos de enlace en el contenedor, a saber:
 
