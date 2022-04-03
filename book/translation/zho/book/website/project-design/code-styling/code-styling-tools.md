@@ -20,7 +20,7 @@ alt: lintr 输出显示要添加空格的建议 移除评论代码，移除训�
 
 ## Autopep8
 
-[Autopep8](https://pypi.org/project/autopep8/) 是一个 Python 模块，可以从终端运行，并自动格式化一个文件到 [pycodestyle](https://github.com/PyCQA/pycodestyle) (先前称为pep8) 指南。  
+[Autopep8](https://pypi.org/project/autopep8/) 是一个 Python 模块，可以从终端运行，并自动格式化一个文件到 [pycodestyle](https://github.com/PyCQA/pycodestyle) (先前称为pep8) 指南。   
 它在 [pypy](https://pypi.org) 上可用，可以使用管道安装。
 
 ```
