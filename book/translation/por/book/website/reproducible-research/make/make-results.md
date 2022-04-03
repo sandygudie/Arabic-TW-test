@@ -6,13 +6,8 @@ Neste momento você pode estar pensando "Isso é tão legal que agora posso incl
 O papel reprodutível ligado acima mostra uma maneira de fazê-lo: Depois que os resultados são calculados, eles são escritos na forma de uma mesa LaTeX . Aqui está como uma dessas tabelas se parece logo após ser calculada:
 
 ```latex
-\start{tabular}{lrrr|rrrr}
-Propriedade & HypoParsr & Sniffer & Suite & Padrão & Tipo & Sem Tie & Full\\
-\hline
-Delimitador & 87. 8 & 86,82 & 65.41 & 92,61 & 88,33 & 91. 8 & \textbf{94.92}\\
-Quotechar & 82. 0 & 92,36 & 44,60 & 95. 3 & 90.10 & 93,80 & \textbf{97.36}\\
-Escapechar & 87. 6 & 94,37 & 74,85 & 97,95 & 96,26 & 95. 4 & \textbf{99.25}\\
-Geral & 80. 0 & 85,45 & 38,19 & 90. 9 & 83.61 & 90.61 & \textbf{93.75}\\
+\start{tabular}{lrrr|rrrr} Propriedade & HypoParsr & Sniffer & Suite & Padrão & Tipo & Sem Tie & Full\\
+\hline Delimitador & 87. 8 & 86,82 & 65.41 & 92,61 & 88,33 & 91. 8 & \textbf{94.92}\\ Quotechar & 82. 0 & 92,36 & 44,60 & 95. 3 & 90.10 & 93,80 & \textbf{97.36}\\ Escapechar & 87. 6 & 94,37 & 74,85 & 97,95 & 96,26 & 95. 4 & \textbf{99.25}\\ Geral & 80. 0 & 85,45 & 38,19 & 90. 9 & 83.61 & 90.61 & \textbf{93.75}\\
 \hline
 \end{tabular}
 ```
