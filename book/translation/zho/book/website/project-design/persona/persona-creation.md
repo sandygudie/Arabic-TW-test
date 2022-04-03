@@ -121,9 +121,9 @@ Persona Canvas by [DESIGNBETTERBUSINESS.COM](https://www.designabetterbusiness.t
 
 ## 把它放在一个人画布
 
-人画布可以用来将您的所有响应集中在一个地方， 与您的同事分享您的智力模型的这种具体信息(我们的思想抽象概念)，并创建一个通用语言来交流您的社区成员。 用户和贡献者。
+人画布可以用来将您的所有响应集中在一个地方， 与您的同事分享您的智力模型的这种具体信息(我们的思想抽象概念)，并创建一个通用语言来交流您的社区成员。
 
-[https://www.designabetterbusiness。 ools](https://www.designabetterbusiness.tools) 创建了多个个人画布(其中一个显示在上面的图中)，这些画布可在 CC-BY ShareAlim 4 下重新使用。 许可证，可以在这里下载 [](https://www.designabetterbusiness.tools/tools/persona-canvas)
+[https://www.designabetterbusiness。 ools](https://www.designabetterbusiness.tools) 创建了多个个人画布(其中一个显示在上面的图中)，这些画布可在 CC-BY ShareAlim 4 下重新使用。 许可证，可以在这里下载
 
 ## _种人的例子_ 社区诱人之路
 
