@@ -27,7 +27,7 @@ Este repositório básico contém todo o código que vamos precisar neste tutori
 
 ```text
 .
-── dados /
+. ── dados /
 ─── input_file_1.csv
 ── input_file_2.csv
 ── LICENSE
@@ -89,7 +89,7 @@ $ faz saída/report.pdf
 
 Se tudo funcionou corretamente, as duas figuras serão criadas e o relatório pdf será construído.
 
-Vamos passar pelo Makefile em um pouco mais detalhes. Temos três regras, duas para as figuras e uma para o relatório. Vamos analisar a regra para `saída/figurre_1.png` primeiro. Esta regra tem o destino `output/figure_1.png` que tem dois pré-requisitos: `data/input_file_1.csv` e `scripts/generate_histogram.py`. . Ao dar ao arquivo de saída, estes pré-requisitos serão atualizados se algum desses arquivos mudar. Este é um das razões pelas quais fazer foi criado: atualizar os arquivos de saída quando os arquivos de origem forem alterados.
+Vamos passar pelo Makefile em um pouco mais detalhes. Temos três regras, duas para as figuras e uma para o relatório. Vamos analisar a regra para `saída/figurre_1.png` primeiro. Esta regra tem o destino `output/figure_1.png` que tem dois pré-requisitos: `data/input_file_1.csv` e `scripts/generate_histogram.py`. Ao dar ao arquivo de saída, estes pré-requisitos serão atualizados se algum desses arquivos mudar. Este é um das razões pelas quais fazer foi criado: atualizar os arquivos de saída quando os arquivos de origem forem alterados.
 
 Você notará que a linha de receita chama Python com o nome do script e usa flags de linha de comando (`-i` e `-o`) para marcar a entrada e a saída do script. Este não é um requisito para o uso do Maware, mas faz com que seja fácil ver qual arquivo é uma entrada para o script e qual é uma saída.
 
@@ -292,9 +292,7 @@ Vamos mostrar primeiro o Makefile completo e depois descrever as diferentes linh
 
 ```makefile
 # Makefile para o relatório de análise
-#
-
-ALL_CSV = $(wildcard data/*.csv)
+# ALL_CSV = $(wildcard data/*.csv)
 INPUT_CSV = $(wildcard data/input_file_*. sv)
 DADA = $(filter $(INPUT_CSV),$(ALL_CSV))
 IGURES = $(patsubst data/input_file_%. sv,output/figure_%.png,$(DATA))
@@ -307,11 +305,7 @@ $(FIGURES): output/figure_%. ng: data/input_file_%.csv scripts/generate_histogra
     scripts/generate_histogram.py -i $< -o $@
 
 output/report.pdf: relatório/relatório. ex $(FIGURES)
-    relatório cd && pdflatex.tex && mv report. df ../$@
-
-limpo:
-    rm -f output/report.pdf
-    rm -f $(FIGURES)
+    relatório cd && pdflatex.tex && mv report.
 ```
 
 Primeiramente, usamos a função `curinga` para criar uma variável que lista todos os arquivos CSV no diretório de dados e um que lista apenas o antigo{N}`input_file_ . arquivos sv`:
