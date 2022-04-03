@@ -20,7 +20,7 @@ _人人生而自由，在尊严和权利上一律平等_ (《世界人权宣言�
 
 <!--- add Scriberia human rights illustration here -->
 
-有些人权法是由联合国在全球一级制定的。 There are nine [core human rights instruments](https://www.ohchr.org/EN/ProfessionalInterest/Pages/CoreInstruments.aspx). 这些文书包括关于公民权利和政治权利的一般性文书、关于经济、社会和文化权利的一般性文书以及关于特定人民的文书。 例如儿童或残疾人，或酷刑或种族歧视等特定专题。 每一项文书都由一个专家委员会负责监督：“条约机构”。 每隔几年 每个已签署人权文书的国家都必须向条约机构报告它们执行条约的情况。 条约机构就该国如何继续改进其执行情况提出建议。 条约机构还定期就如何解释条约的不同条款发布更详细的指导意见。 帮助各国更好地理解其义务是什么。
+有些人权法是由联合国在全球一级制定的。 There are nine [core human rights instruments](https://www.ohchr.org/EN/ProfessionalInterest/Pages/CoreInstruments.aspx). 这些文书包括关于公民权利和政治权利的一般性文书、关于经济、社会和文化权利的一般性文书以及关于特定人民的文书。 例如儿童或残疾人，或酷刑或种族歧视等特定专题。 这些文书包括关于公民权利和政治权利的一般性文书、关于经济、社会和文化权利的一般性文书以及关于特定人民的文书。 例如儿童或残疾人，或酷刑或种族歧视等特定专题。 每一项文书都由一个专家委员会负责监督：“条约机构”。 每隔几年 每个已签署人权文书的国家都必须向条约机构报告它们执行条约的情况。 条约机构就该国如何继续改进其执行情况提出建议。 条约机构还定期就如何解释条约的不同条款发布更详细的指导意见。 帮助各国更好地理解其义务是什么。
 
 还有一些区域人权文书：
 - [African Charter on Human and People's Rights](https://au.int/en/treaties/african-charter-human-and-peoples-rights), which covers 54 of the 55 members of the [African Union](https://au.int/en/member_states/countryprofiles2).
@@ -28,7 +28,7 @@ _人人生而自由，在尊严和权利上一律平等_ (《世界人权宣言�
 - [European Convention on Human Rights](https://www.coe.int/en/web/conventions/full-list/-/conventions/treaty/005), which include the 47 members of the [Council of Europe](https://www.coe.int/en/web/about-us/our-member-states)
 - [Charter of Fundamental Rights of the European Union](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:12012P/TXT), which covers the 27 members of the [European Union](https://europa.eu/european-union/about-eu/countries_en)
 
-一些国家已经批准了一些适用于它们的条约：这意味着它们已经将这些条约的内容纳入了本国法律。 许多国家还设立了国家人权机构，独立监测和调查该国侵犯人权的情况。 并就履行其义务向政府提供咨询意见。
+一些国家已经批准了一些适用于它们的条约：这意味着它们已经将这些条约的内容纳入了本国法律。 许多国家还设立了国家人权机构，独立监测和调查该国侵犯人权的情况。
 
 已签署条约的国家承诺执行这些条约。 但是，充分执行条约的进程，以便一国的每个人都能享受条约中的所有权利。 这需要各国采取大量行动。 包括非政府组织在内的运动团体努力缩小各国已经承诺做什么与迄今实际做什么之间的差距。 一些宣传小组是国际性的，就许多不同的人权问题开展工作。 有些问题只涉及少数几个问题，或在世界上一小部分地区。
 
@@ -45,7 +45,7 @@ _人人生而自由，在尊严和权利上一律平等_ (《世界人权宣言�
 
 确保研究符合人权不仅仅是为了确保研究不会受到伤害。 这也可能涉及积极促进权利的工作。
 
-4. 研究人员和数据科学家一般应确保：
+研究人员和数据科学家一般应确保：
 - **尊重** 人权：这意味着不做本身就侵犯人权的工作
 - **保护** 人权：这意味着试图确保他们的工作不被他人用来侵犯人权
 - **实现** 人权：这意味着做一些工作，积极帮助其他人享受他们的所有人权
