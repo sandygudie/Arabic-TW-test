@@ -115,14 +115,11 @@ Vamos ver a anatomia de um Dockerfile muito simples:
 ```
 # Etapa 1: Configure o ambiente computacional
 
-# Defina a imagem base
-FROM ubuntu:18. 4
+# Defina a imagem base FROM ubuntu:18. 4
 
-# Instalar pacotes necessários para executar o projeto
-RUN apt-get update && \
+# Instalar pacotes necessários para executar o projeto RUN apt-get update && \
     apt-get install -y --no-install-recommend python3. python3-pip && \
-    rm -rf /var/lib/apt/lists/*
-RUN python3 -m pip install numpy
+    rm -rf /var/lib/apt/lists/* RUN python3 -m pip install numpy
 
 #-----------------------
 
@@ -172,19 +169,13 @@ Como você pode ver, o projeto `diretório` foi criado, e dentro dos arquivos do
 Esse comando pode ser usado no Dockerfiles para alterar o diretório de trabalho atual. Os comandos que seguem isso no arquivo Dockerfile serão aplicados dentro do novo diretório de trabalho a não ser / até que outro `WORKDIR` mude o diretório de trabalho. Quando um recipiente for aberto com um terminal interativo, o terminal será aberto no diretório de trabalho final. Aqui está um exemplo simples de um arquivo Dockerfile que usa `WORKDIR`e o contêiner que ele gera.
 
 ```
-# Configuração básica
-FROM ubuntu
-Atualização do apt-get RUN
+FROM ubuntu Atualização do apt-get RUN
 
-# Faça um diretório chamado
-RUN mkdir A
+# Faça um diretório chamado RUN mkdir A
 
-# Faça o diretório de trabalho A
-WORKDIR A
+# Faça o diretório de trabalho A WORKDIR A
 
-# Faça dois diretórios, um chamado B_1 e um chamado B_2
-RUN mkdir B_1
-RUN mkdir B_2
+# Faça dois diretórios, um chamado B_1 e um chamado B_2 RUN mkdir B_1 RUN mkdir B_2
 ```
 
 ```{figure} ../../figures/workdir-example.png
@@ -212,7 +203,7 @@ Todos os diretórios estão no nível superior neste caso, em vez de `B_1` e `B_
 
 Outros comandos que às vezes são usados em arquivos do Dockerfiles incluem:
 
-- `CMD`: Isso é usado para executar comandos assim que o contêiner é aberto. Isso é diferente de comandos RUN que são comandos executados como parte da _configuração de um contêiner_ Por exemplo, para ter uma mensagem de boas-vindas quando um contêiner é aberto na imagem `CMD` pode ser usado da seguinte forma:
+- `CMD`: Isso é usado para executar comandos assim que o contêiner é aberto. Isso é diferente de comandos RUN que são comandos executados como parte da _configuração de um contêiner_ Por exemplo, para ter uma mensagem de boas-vindas quando um contêiner é aberto na imagem `CMD` pode ser usado da seguinte forma: Por exemplo, para ter uma mensagem de boas-vindas quando um contêiner é aberto na imagem `CMD` pode ser usado da seguinte forma:
   ```
   CMD ["echo","Bem-vindo! Você acabou de abrir este contêiner!"]
   ```
@@ -225,7 +216,7 @@ Outros comandos que às vezes são usados em arquivos do Dockerfiles incluem:
 (rr-renv-containers-dockerignore)=
 ## Construindo imagens e `.dockerignore` Arquivos
 
-Como mencionado na seção de comandos chave de {ref}` <rr-renv-containers-commands>` , Para construir uma imagem, abra um terminal no mesmo diretório que o arquivo Dockerfile a ser usado e executado:
+Como mencionado na seção de comandos chave de {ref}`<rr-renv-containers-commands>` , Para construir uma imagem, abra um terminal no mesmo diretório que o arquivo Dockerfile a ser usado e executado:
 
 ```
 sudo docker build --tag name_to_give_image .
@@ -325,8 +316,21 @@ Abaixo está uma lista de comandos relacionados ao volume:
 
 Se ao excluir um contêiner, um `-v` é incluído após `rm` no `sudo docker rm container_ID`, qualquer volume associado ao contêiner também será excluído.
 
-(rr-renv-containers-singularity)=
+(rr-renv-containers-rootless)=
 ## Singularidade
+
+Up until April 2020, the only way to run Docker was with root access. "Rootless" mode was made available as part of the [v20.10](https://docs.docker.com/engine/security/rootless/) release. Rootless mode is currently only avaliable on Linux and requires an initial install of Docker >= v20.10.
+
+The underyling difference between Docker without and with rootless mode is that perviously any system running Docker had a daemon running as `uid0` that creates and owns all images, but with rootless mode the user creates and owns any images that they initialize. To install and run the rootless version of Docker as a non-root user, use the following commands (where `20.10` refers to the installed version of Docker):
+
+```
+shell de singularidade docker://ubuntu
+```
+
+The following prequisites, which are part of the [`shadow-utils`](https://github.com/shadow-maint/shadow) package are required to run Docker rootless: `newuidmap` and `newgidmap`.
+
+(rr-renv-containers-singularity)=
+## Palavras de Aviso
 
 
 > **Pré-requisitos**: No momento, Singularity só é executado em sistemas Linux (por exemplo, Ubuntu). Se você usar o macOS, [Singularity Desktop para macOS](https://www.sylabs.io/singularity-desktop-macos/) está no estágio de lançamento "Beta".
@@ -340,26 +344,14 @@ Furthermore, since Docker is _the_ most well-known containerization approach, si
 Singularidade pode ser usada para executar imagens Docker ou estendê-las construindo novas imagens com base em docker containers como camada base. Por exemplo, poderíamos usar a singularidade para criar um recipiente de ubuntu vanilla com um casco usando a imagem docker de ubuntu:
 
 ```
-shell de singularidade docker://ubuntu
+singularity shell docker://ubuntu
 ```
 
 > (digite `exit` para deixar o shell interativo novamente).
 
 Assim como as imagens docker são construídas usando `o arquivo Dockerfile` arquivos, contêineres singularidade são construídos a partir de arquivos de definição de singularidade. O processo e a sintaxe são semelhantes aos arquivos docker, mas existem diferenças subtis. Como um exemplo mínimo de funcionamento, podemos construir um contêiner `lolcow` com base na imagem oficial do docker do ubuntu. Coloque o seguinte em um arquivo `lolcow.def` (com base na [Documentação do Singularity](https://www.sylabs.io/guides/3.2/user-guide/build_a_container.html)):
 ```
-Bootstrap: docker
-From: ubuntu
-
-%pperde
-    apt-get -y update
-    apt-get -y install fortune cowsay lolcat
-
-%environment
-    export LC_ALL=C
-    export PATH=/usr/games:$PATH
-
-%runscript
-    fortune ├lolcat
+sudo singularidade construir lolcow.simg lolcow.def
 ```
 
 Esta 'receita' usa uma imagem docker como base (`ubuntu`), instala alguns pacotes `apt` e modifica algumas variáveis de ambiente, e especifica o `runscript` (que é executado usando o comando `singularidade run`). Detalhes sobre o formato do arquivo de definição de singularidade podem ser encontrados na [documentação oficial](https://www.sylabs.io/docs/).
@@ -367,13 +359,13 @@ Esta 'receita' usa uma imagem docker como base (`ubuntu`), instala alguns pacote
 Uma imagem de contêiner pode ser construída (exigindo root!) via:
 
 ```
-sudo singularidade construir lolcow.simg lolcow.def
-```
-
-Isto irá puxar a imagem ubuntu do DockerHub, executar as etapas da receita no arquivo de definição e produzir um único arquivo de imagem de saída (`lolvaca. img`). Finalmente, o script `` é executado como
-
-```
 singularidade run lolcow.simg
+```
+
+Isto irá puxar a imagem ubuntu do DockerHub, executar as etapas da receita no arquivo de definição e produzir um único arquivo de imagem de saída (`lolvaca. img`). Finally the `runscript` is executed as
+
+```
+singularity run lolcow.simg
 ```
 
 De preferência, você deveria ver uma bela vaca ASCII e algumas palavras de sabedoria:
@@ -397,10 +389,14 @@ Sendo compatível com HPC, contêineres de singularidade também são suportados
 
 É importante notar que um simples arquivo de receitas de contêiner não é reproduzível em si, uma vez que o processo de construção depende de várias fontes (on-line). Assim, o mesmo arquivo de receita pode levar a imagens diferentes se as fontes subjacentes forem atualizadas.
 
-Para alcançar a reprodutibilidade verdadeira, é importante armazenar o contêiner _imagens_. Para imagens singulares, isso é particularmente fácil, já que uma imagem é simplesmente um arquivo grande. Estas podem variar em tamanho, de algumas dezenas de megabytes (microcontainers) a vários gigabytes, e, portanto, não são adequados para ser armazenado em um repositório git em si Um repositório gratuito, solução elegível e de longo prazo para armazenar imagens contêines é [zenodo. rg](https://zenodo.org/) que permite até 50 Gb por repositório. Desde que zenodo mints DOIs para todo o conteúdo enviado, as imagens são imediatamente referenciáveis. Em contraste com o [Docker Hub](https://hub.docker.com/) (que também aceita apenas imagens docker), zenodo também está claramente orientado para o armazenamento a longo prazo e para a descoberta através de um sistema de metadados sofisticado. Assim, é idealmente adequado para armazenar contentores científicos associados a análises específicas, uma vez que estas tendem a não mudar com o tempo.
+Para alcançar a reprodutibilidade verdadeira, é importante armazenar o contêiner _imagens_. Para imagens singulares, isso é particularmente fácil, já que uma imagem é simplesmente um arquivo grande. Estas podem variar em tamanho, de algumas dezenas de megabytes (microcontainers) a vários gigabytes, e, portanto, não são adequados para ser armazenado em um repositório git em si Um repositório gratuito, solução elegível e de longo prazo para armazenar imagens contêines é
+
+zenodo. Desde que zenodo mints DOIs para todo o conteúdo enviado, as imagens são imediatamente referenciáveis. Em contraste com o [Docker Hub](https://hub.docker.com/) (que também aceita apenas imagens docker), zenodo também está claramente orientado para o armazenamento a longo prazo e para a descoberta através de um sistema de metadados sofisticado. Assim, é idealmente adequado para armazenar contentores científicos associados a análises específicas, uma vez que estas tendem a não mudar com o tempo.</p> 
 
 (rr-renv-containers-warning)=
-## Palavras de Aviso
+
+
+## Words of Warning
 
 Embora a singularidade e o docker possam parecer semelhantes, são conceitualmente muito diferentes. Além do fato óbvio que a singularidade não requer acesso root para contêineres executados, lida também com a distinção entre o sistema de arquivos de host e o de contêiner de forma diferente. Por exemplo, por padrão, a singularidade inclui alguns pontos de bind no container, nomeadamente:
 
