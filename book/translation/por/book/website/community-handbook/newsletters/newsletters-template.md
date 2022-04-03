@@ -6,9 +6,7 @@ O modelo delineado abaixo é o que temos usado como guia para coletar itens de n
 ```
 Data: Mês DD YYYY
 
-# título
-
-Olá Turing Way amigos!
+# título Olá Turing Way amigos!
 
 Este mês...
 
@@ -51,9 +49,7 @@ Find more details on these topics below 👇
 - [Slack channel](https://join.slack.com/t/theturingway/shared_invite/zt-fn608gvb-h_ZSpoA29cCdUwR~TIqpBw)
 - [Public Gitter channel](https://gitter.im/alan-turing-institute/the-turing-way)
 - [YouTube Videos](https://www.youtube.com/channel/UCPDxZv5BMzAw0mPobCbMNuA)
-- [Twitter Channel](https://twitter.com/turingway)
-
-You are welcome to contribute content for the next newsletter by
+- [Twitter Channel](https://twitter.com/turingway) You are welcome to contribute content for the next newsletter by
 emailing [Malvika Sharan](mailto:msharan@turing.ac.uk).
 
 *Perdeu as últimas newsletters?*
