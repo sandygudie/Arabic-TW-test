@@ -50,4 +50,4 @@
 
 ## 参考
 
-Turkyilmaz-van der Velden, Y., Dintzner, N., Teperek, M., "Reproduciability Starts from You Today." Patterns, vol. 同上，第1号，第6号，2020年9月11日，第100099页，doi:10.1016/j.patter.2020.100099页。 [在科学直接上读取在线](https://www.sciencedirect.com/science/article/pii/S2666389920301331)
+Turkyilmaz-van der Velden, Y., Dintzner, N., Teperek, M., "Reproduciability Starts from You Today." Patterns, vol. 同上，第1号，第6号，2020年9月11日，第100099页，doi:10.1016/j.patter.2020.100099页。 Patterns, vol. 同上，第1号，第6号，2020年9月11日，第100099页，doi:10.1016/j.patter.2020.100099页。 [在科学直接上读取在线](https://www.sciencedirect.com/science/article/pii/S2666389920301331)
