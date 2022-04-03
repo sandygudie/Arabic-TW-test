@@ -35,7 +35,7 @@ O movimento de Acesso Aberto levou à criação de diários de Acesso Aberto, on
 
 O Gold Open Access Publicing (ou às vezes referido como libre) pode ser definido como o pagamento de uma Carga de Processamento de Artigo (APC) a um diário para que eles publiquem a versão final do seu artigo sob uma licença de acesso aberto que então está online de forma permanente e livre para qualquer pessoa. O autor manterá os direitos autorais de seu artigo, geralmente por meio de uma [licença Creative Commons](https://creativecommons.org/) de sua escolha, que dita o que outros podem fazer com o artigo. Você pode saber mais sobre APCs neste [vídeo](https://www.youtube.com/watch?v=QAeTKUpZq_Y).
 
-Muitas vezes, pode haver interpretações erróneas sobre a publicação em jornais de Acesso Aberto - uma vez que são mais recentes no sistema em que muitas vezes são erroneamente considerados como "menos rigoroso" ou "menor qualidade" do que as revistas "tradicionais". Alguns investigadores foram também apanhados no que se designa por "publicação predatória" - onde são induzidos a pagar uma acusação de processamento de artigos a revistas fraudulentas e que não fornecem processos editoriais que analisam os artigos por qualidade e legitimidade. Seguindo o [Think.Check.Enviar diretrizes](https://thinkchecksubmit.org/) pode ajudar pesquisadores a evitar periódicos predatórios.
+Muitas vezes, pode haver interpretações erróneas sobre a publicação em jornais de Acesso Aberto - uma vez que são mais recentes no sistema em que muitas vezes são erroneamente considerados como "menos rigoroso" ou "menor qualidade" do que as revistas "tradicionais". Alguns investigadores foram também apanhados no que se designa por "publicação predatória" - onde são induzidos a pagar uma acusação de processamento de artigos a revistas fraudulentas e que não fornecem processos editoriais que analisam os artigos por qualidade e legitimidade. Seguindo o [Think. Check. Enviar diretrizes](https://thinkchecksubmit.org/) pode ajudar pesquisadores a evitar periódicos predatórios.
 
 Uma crítica em torno da publicação Open Access é também o custo. Os APC podem, de um modo geral, rondar os 2000 dólares ou mais, o que pode, portanto, ser proibitivo para autores em todo o mundo. Alguns editores oferecem descontos ou isenções aos autores de países classificados pelo Banco Mundial como economias de baixo rendimento ou APCs podem ser cobertos pelo seu financiador como parte da sua subvenção.
 
@@ -63,8 +63,7 @@ No que se refere ao momento de tornar o documento público público, muitos revi
 altura: 500px
 nome: rotas-para-OA
 alt: Uma imagem de um trem mostrando as rotas para abrir a publicação do acesso. A rota verde é sinalizada como gratuita e mostra um servidor de pré-impressão no início da jornada e arquivo próprio no final. As rotas do ouro e dos diamantes são sinalizadas como o autor paga e o financiador ou a instituição paga e mostram a publicação em uma parte do diário de acesso aberto da jornada.
----
-Rotas para publicação aberta.
+--- Rotas para publicação aberta.
 _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. Versão original em Zenodo. [http://doi.org/10.5281/zenodo.5706310](http://doi.org/10.5281/zenodo.5706310)
 ```
 
@@ -80,8 +79,7 @@ A publicação aberta também tem benefícios para você, como autor. É prováv
 height: 500px
 name: share-work-openly
 alt: Uma imagem de cartaz de uma jornada de trem e ao longo do caminho cinco razões pelas quais você deve compartilhar sua pesquisa abertamente é anotada.
----
-Vantagens de compartilhar sua pesquisa abertamente
+--- Vantagens de compartilhar sua pesquisa abertamente
 _A Turing Way_ projeto ilustrado por Scriberia. Usado sob uma licença CC-BY 4.0. Versão original em Zenodo. [http://doi.org/10.5281/zenodo.5706310](http://doi.org/10.5281/zenodo.5706310)
 ```
 
