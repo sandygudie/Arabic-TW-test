@@ -138,7 +138,7 @@ Reconocemos que la siguiente lista es muy centrada en el Reino Unido y acogería
 * **Unite**, Reino Unido, la mayor unión de servicios profesionales con más de 1 millón de miembros [sitio web](https://unitetheunion.org/)
 * **Universidad & Union (UCU)**, Reino Unido, cubre investigadores, personal académico y grados superiores de personal de servicios profesionales en Educación Superior & Instituciones de educación adicional [sitio web](https://www.ucu.org.uk/)
 * **Prospector**, Reino Unido, unión que cubre a científicos & ingenieros [sitio web](https://members.prospect.org.uk/our-industries/science/index)
-* **Unión de Servicios Públicos y Comerciales (PCS)**, Reino Unido, sitio web de la unión de servicios civiles [](https://www.pcs.org.uk/about-pcs)
+* **Unión de Servicios Públicos y Comerciales (PCS)**, Reino Unido, sitio web de la unión de servicios civiles
 * Votos Unidos del Mundo (UVW), Rama de trabajadores del sector de Charity [sitio web](https://www.uvwunion.org.uk/en/sectors/charity-sector/)
 * Sindicato de Trabajadores Independientes de Gran Bretaña (IWGB), Rama de Trabajadores del Sector de Calidad [sitio web](https://iwgb.org.uk/page/iwgb-charity-workers-branch/)
     * IWGB también tiene varias ramas que cubren limpiadores, recepcionistas y trabajadores del sector de juegos
