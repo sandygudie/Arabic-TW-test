@@ -11,8 +11,7 @@ Outra forma de as separar é através do modo como a investigação reproduzida 
 ---
 nome: ambientes computacionais
 alt: Uma imagem das várias ferramentas usadas para capturar ambientes computacionais
----
-Formas de capturar ambientes computacionais
+--- Formas de capturar ambientes computacionais
 ```
 
 Uma breve descrição de cada uma dessas ferramentas é fornecida abaixo
