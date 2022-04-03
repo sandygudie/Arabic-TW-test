@@ -61,7 +61,7 @@ No que se refere aos materiais, assegurem-se de que estão acessíveis. Como men
 
 Quando prepara uma conversa, quando passo a orçamentar o tempo que me leva a juntá-la, Acrescento um dia ou mais para verificar a sua acessibilidade. A licença é fundamental para que seu público saiba como pode reutilizar seu material e, se eles não puderem reutilizá-lo, para deixá-lo claro.
 
-Finalmente, uma frase muito argentina: "Não se levante no seu cavalo alto"; mantenham a conversa com a paz de espírito que vem de conhecer o seu trabalho e a sua disciplina, mas também com uma humildade adequada. Tem de reconhecer que pode haver perguntas a que não sabe responder.
+Por último, una frase muy argentina: “no pararse arriba del caballo”, dar la charla con la tranquilidad que conocés tu trabajo y tu disciplina, pero con la humildad que corresponde. Hay que reconocer que puede haber preguntas que no sepas responder.
 
 O mesmo se aplica à língua, onde você pode ser tecnicamente correcto sem usar uma linguagem complexa. No entanto, se se usa termos técnicos porque se tem de o fazer, é preciso explicá-los ou fazer uma analogia com as coisas do dia-a-dia. Por exemplo, um programa de computador é como uma receita: você dá instruções para o computador. É por isso que é fundamental conhecer o vosso público, pois nessa altura saberemos com que contar quando explicarmos conceitos mais complexos.
 
@@ -151,7 +151,7 @@ Con respecto a los materiales, evitar que no sean accesibles.  Como mencioné a
 
 Cuando hago una charla, dentro del tiempo que me lleva armarla, le agrego uno o dos días más para chequear la accesibilidad. La licencia es fundamental para que sepan cómo pueden reusar tu material y, si no lo pueden reusar, que quede claro.
 
-Por último, una frase muy argentina: “no pararse arriba del caballo”, dar la charla con la tranquilidad que conocés tu trabajo y tu disciplina, pero con la humildad que corresponde. Hay que reconocer que puede haber preguntas que no sepas responder.
+Finalmente, uma frase muito argentina: "Não se levante no seu cavalo alto"; mantenham a conversa com a paz de espírito que vem de conhecer o seu trabalho e a sua disciplina, mas também com uma humildade adequada. Tem de reconhecer que pode haver perguntas a que não sabe responder.
 
 Lo mismo pasa con el lenguaje, donde se puede ser correcto técnicamente sin utilizar un lenguaje complejo. Sin embargo, si empleas términos técnicos porque los tenés que usar sí o sí, hay que explicarlos o hacer una analogía con cosas de la vida cotidiana. Por ejemplo, un programa de computación es como una receta: le das instrucciones a la computadora. Por eso es clave conocer a tu audiencia, porque podés saber en qué apoyarte al momento de explicar conceptos más complejos.
 
@@ -163,7 +163,7 @@ En mi caso, las charlas que doy tienen que ver con Ciencia de Datos, con Agro y 
 Si me invitan a dar una charla como investigadora de INTA tampoco cobro, porque es parte de mi trabajo.  
 Cuando me invitan a dar una charla por mi trabajo en las comunidades de práctica o no relacionado con INTA, si son de universidades públicas, de grupos como R-Ladies, para eventos y conferencias gratuitos, las hago como una forma de devolver gran parte de lo que recibí.
 
-Vivo en un país que me permitió educarme con un sistema que lo mantenemos entre todos, y dar este tipo de capacitaciones es una forma de retribución. Hoy en día, tengo suficiente privilegio como para poder realizar este tipo de actividades sin cobrar; no todo el mundo puede, y tampoco se tienen que sentir obligadas.
+Vivo en un país que me permitió educarme con un sistema que lo mantenemos entre todos, y dar este tipo de capacitaciones es una forma de retribución. Hoy en día, tengo suficiente privilegio como para poder realizar este tipo de actividades sin cobrar; no todo el mundo puede, y tampoco se tienen que sentir obligadas. Hoy en día, tengo suficiente privilegio como para poder realizar este tipo de actividades sin cobrar; no todo el mundo puede, y tampoco se tienen que sentir obligadas.
 
 Hay algunas personas que tienen una guía a la hora de ser invitada a dar una charla, por ejemplo [Tatiana Mac](https://gist.github.com/tatianamac/493ca668ee7f7c07a5b282f6d9132552#file-tatiana-mac-speaker-rider-md), [Greg Wilson](https://third-bit.com/talks/speaking/) y Steph Locke.
 
@@ -171,7 +171,7 @@ Estas también son cuestiones que yo tomo en cuenta, ¿es un panel todo de homb
 
  ## 5. ¿Qué perspectivas tenés de tus futuras charlas? A fila de interesse,em um probar?
 
-Últimamente, me piden que haga charlas sobre tres temas: comunidades de práctica, ciencia y datos aplicados al agro (con casos), y ciencias y datos en geotecnología. Es complejo mantener el entusiasmo de contar siempre lo mismo porque, además, uno se siente medio impostor pensando en cuántas veces más va a dar la misma charla. El tema es que, a veces, te invitan porque la vieron y quieren replicarla en otro ámbito.
+Últimamente, me piden que haga charlas sobre tres temas: comunidades de práctica, ciencia y datos aplicados al agro (con casos), y ciencias y datos en geotecnología. Es complejo mantener el entusiasmo de contar siempre lo mismo porque, además, uno se siente medio impostor pensando en cuántas veces más va a dar la misma charla. Es complejo mantener el entusiasmo de contar siempre lo mismo porque, además, uno se siente medio impostor pensando en cuántas veces más va a dar la misma charla. El tema es que, a veces, te invitan porque la vieron y quieren replicarla en otro ámbito.
 
 Lo que hago, en general, es ir actualizándolas cuando tengo nuevos resultados o casos de uso y, dependiendo de la audiencia que me dicen que va a haber, ejemplifico en detalle o explico con más detalle los conceptos que necesito que se conozcan para que se aproveche más la charla.
 
