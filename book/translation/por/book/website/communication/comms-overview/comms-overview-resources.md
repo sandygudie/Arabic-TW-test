@@ -22,7 +22,7 @@ Leia mais neste capítulo: {ref}`cm-blogs`.
 ### Alguns dos nossos blogs favoritos
 * Dr. Veronika Cheplygina [Como eu falho a série](https://veronikach.com/failure/)
 * [Blog do Instituto de Sustentabilidade de Software](https://www.software.ac.uk/blog)
-* [Aberto](https://openworking.wordpress.com/) por 4TU.ResearchData & TU Delft Library e dados avançados. Usa WordPress.
+* [Aberto](https://openworking.wordpress.com/) por 4TU. ResearchData & TU Delft Library e dados avançados. Usa WordPress.
 * [Metadocencia](https://metadocencia.netlify.app/post/) - Isto é em espanhol, mas você também pode lê-lo em inglês [aqui](https://metadocencia.netlify.app/en/post/).
 
 (cm-coments-overview-resources-lay)=
