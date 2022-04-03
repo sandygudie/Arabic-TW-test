@@ -22,7 +22,7 @@
 
 - [复现性是 硬](https://kbroman.wordpress.com/tag/reproducible-research/)。 讨论 使一个研究项目可以使用 Make 复制。
 
-- [GNU Make for Repuciable Data Analysis](http://zmjones.com/make/). 使用 Make 进行可复制分析的参数 与上面相似.
+- [GNU Make for Repuciable Data Analysis](http://zmjones.com/make/). 使用 Make 进行可复制分析的参数 与上面相似. 使用 Make 进行可复制分析的参数 与上面相似.
 
 - [使用 制作](http://byronjsmith.com/make-bml/) 来复现生物信息管道。 一个关于使用 制作数据分析的相当广泛的教程。
 
@@ -38,14 +38,14 @@
 (rr-make-resource-alternatives)=
 ## 可供选择的替代办法
 
-There are [many alternatives to Make](https://en.wikipedia.org/wiki/List_of_build_automation_software). 在 以下是一些抓住我们眼睛的东西，这可能是值得看起来的。
+There are [many alternatives to Make](https://en.wikipedia.org/wiki/List_of_build_automation_software). 在 以下是一些抓住我们眼睛的东西，这可能是值得看起来的。 在 以下是一些抓住我们眼睛的东西，这可能是值得看起来的。
 
 - [SnakeMake](https://snakemake.readthedocs.io/en/stable/). 基于 Python3 的 替代Make。 Snakemake 支持文件名中的多个通配符， 支持规则中的 Python 代码。 并且可以在工作站、 群集、网格和云端上运行工作流，无需修改。
 
 - [Tup](http://gittup.org/tup/index.html). 快速构建系统处理 从下往上而不是Make自上而下的先决条件。 速度看起来 令人印象深刻，描述它的文件令人感兴趣，但对于小的 项目来说，Make 的速度将不会成为瓶颈。 The Tupfile syntax is not compatible with that of Makefiles.
 
-- [Bazel](https://www.bazel.build). 谷歌的烈焰喷射 构建系统的开源版本。
+- [Bazel](https://www.bazel.build). [Bazel](https://www.bazel.build). 谷歌的烈焰喷射 构建系统的开源版本。
 
-- [桶](https://buckbuild.com/) . . Facebook的构建系统。
+- [桶](https://buckbuild.com/) . . [桶](https://buckbuild.com/) . . Facebook的构建系统。
 
 
