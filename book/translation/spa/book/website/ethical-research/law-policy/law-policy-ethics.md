@@ -61,9 +61,10 @@ El trabajo ético también puede incluir el pensamiento crítico sobre los contr
 
 ## Cómo cambiar las leyes
 
-La ley no es estática e inmutable. La ley es hecha por los seres humanos y puede ser modificada por los humanos. Si usted siente que la ley en su jurisdicción funciona de una manera que no ayuda o daña, considere unirse a esfuerzos para cambiarla! Cambiar las leyes es un proyecto a largo plazo y puede llevar décadas.
+La ley no es estática e inmutable. La ley es hecha por los seres humanos y puede ser modificada por los humanos. Si usted siente que la ley en su jurisdicción funciona de una manera que no ayuda o daña, considere unirse a esfuerzos para cambiarla! Cambiar las leyes es un proyecto a largo plazo y puede llevar décadas. Cambiar las leyes es un proyecto a largo plazo y puede llevar décadas.
 
 Esta sección no pretende explicar cómo hacer esto: un buen punto de partida es encontrar una organización de campaña que esté trabajando en el tema, y pregunte cómo participar.<!--- edite esto para referirse al capítulo del activismo, cuando lo hayamos escrito -->Ver detalles en los capítulos de {ref}`er-activismo` para más detalles.
+<!--- edite esto para referirse al capítulo del activismo, cuando lo hayamos escrito --> Ver detalles en los capítulos de {ref}`er-activismo` para más detalles.
 
 ## Política
 
