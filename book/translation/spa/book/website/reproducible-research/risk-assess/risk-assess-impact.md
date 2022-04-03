@@ -38,7 +38,7 @@ El punto clave de estos estudios de caso es que cada pieza de software tiene nec
 
 ## Más sobre la medición de la complejidad
 
-Una medida de la complejidad es el conteo de líneas. Cuantas más líneas tengas más lugares hay para cometer un error. Sin embargo, hay otras cosas que podrían preocuparse. ¿En cuántas bibliotecas dependen? ¿Cuántas funciones hay? Todas ellas miden la complejidad del código. La complejidad también puede tomar otras formas. ¿Cuántos casos de uso hay? ¿Su software de recuento de blob sólo se utiliza para contar los bloques en las biosciences? ¿Hay gente que lo usa para contar las manchas en las imágenes CCTV? ¿En qué tipo de ordenador lo utilizan las personas? ¿CPU? ¿GPU? ¿Raspberry Pi? Echa una vista amplia de tu software.
+Una medida de la complejidad es el conteo de líneas. Cuantas más líneas tengas más lugares hay para cometer un error. Sin embargo, hay otras cosas que podrían preocuparse. ¿En cuántas bibliotecas dependen? ¿Cuántas funciones hay? Todas ellas miden la complejidad del código. La complejidad también puede tomar otras formas. ¿Cuántos casos de uso hay? ¿Su software de recuento de blob sólo se utiliza para contar los bloques en las biosciences? ¿Hay gente que lo usa para contar las manchas en las imágenes CCTV? ¿En qué tipo de ordenador lo utilizan las personas? ¿CPU? ¿GPU? ¿Raspberry Pi? ¿CPU? ¿GPU? ¿Raspberry Pi? Echa una vista amplia de tu software.
 
 ## Más sobre la medición del impacto
 
