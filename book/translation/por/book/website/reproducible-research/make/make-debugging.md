@@ -9,7 +9,7 @@ Com as informações de `` você pode imprimir o valor atual de uma variável pa
 $(info $$DATA = $(DATA))
 ```
 
-Isto irá imprimir `DATA = data/action.csv ... data/western.csv`. .
+Isto irá imprimir `DATA = data/action.csv ... data/western.csv`.
 
 Com o comando `de erro` você pode parar a execução de Make em um certo ponto do Makefile. Isso é útil quando você deseja imprimir o valor de uma variável de e não executar ainda mais:
 
