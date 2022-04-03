@@ -32,8 +32,7 @@ Commits devem ser 'atômicos', o que significa que **eles devem fazer uma coisa 
 ---
 nome: flipped-taj-mahal
 alt: Uma fotografia invertida do Taj Mahal para chamar a atenção do leitor.
----
-Inverteu Taj Mahal
+--- Inverteu Taj Mahal
 ```
 
 dois arquivos são alterados:
