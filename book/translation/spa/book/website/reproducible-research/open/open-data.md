@@ -45,7 +45,7 @@ Muchos ámbitos de las disciplinas científicas implican trabajar con datos pers
 (rr-open-data-barrers-consentimiento)=
 ### Consentimiento
 
-Para que los datos de investigación anónimos estén disponibles para su futura reutilización, los formularios de consentimiento deben incluir el intercambio de estos datos con otros investigadores. La investigación hasta ahora sugiere que los participantes del estudio normalmente están menos preocupados por los datos que se archivan y comparten de lo que los investigadores piensan {cite:ps}`archivar Kuula2010`. Las hojas de información del participante y los formularios de consentimiento deben incluir cómo se almacenarán los datos de investigación, preservado y utilizado a largo plazo, y cómo se protegerá la confidencialidad cuando sea necesario.
+Para que los datos de investigación anónimos estén disponibles para su futura reutilización, los formularios de consentimiento deben incluir el intercambio de estos datos con otros investigadores. Las hojas de información del participante y los formularios de consentimiento deben incluir cómo se almacenarán los datos de investigación, preservado y utilizado a largo plazo, y cómo se protegerá la confidencialidad cuando sea necesario. La investigación hasta ahora sugiere que los participantes del estudio normalmente están menos preocupados por los datos que se archivan y comparten de lo que los investigadores piensan {cite:ps}`archivar Kuula2010`.
 
 (rr-open-data-barrers-anonimización)=
 ### Anonymisation
