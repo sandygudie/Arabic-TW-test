@@ -22,7 +22,7 @@
 ### 我们最喜欢的博客
 * Veronika Cheplygina博士的 [我如何失败系列](https://veronikach.com/failure/)
 * [软件可持续性研究所博客](https://www.software.ac.uk/blog)
-* [通过4TU研究数据 & TU Delft 库和数据Steward来打开工作](https://openworking.wordpress.com/) 使用 WordPress。
+* [通过4TU研究数据 & TU Delft 库和数据Steward来打开工作](https://openworking.wordpress.com/) 使用 WordPress。 使用 WordPress。
 * [Metaddocencia](https://metadocencia.netlify.app/post/) - 这是西班牙语，但你也可以在这里以英文 [阅读](https://metadocencia.netlify.app/en/post/)。
 
 (cm-comms-overview-resource-lay)=
@@ -66,10 +66,10 @@
 * [Canva](https://www.canva.com) 图标。
 
 用于录制语音：
-* [OBS](https://obsproject.com). 请参阅 [本指南用于使用软件可持续性研究所的 OBS](https://software.ac.uk/fellowship-programme/2019/application-video-guide)。
+* [OBS](https://obsproject.com). [OBS](https://obsproject.com). 请参阅 [本指南用于使用软件可持续性研究所的 OBS](https://software.ac.uk/fellowship-programme/2019/application-video-guide)。
 * [Amara](https://amara.org) 或 [Otter](https://otter.ai/) 可以用于生成您的字幕。 缩放或谷歌会议等视频会议平台也有标题。
 
-* 提供远程语音(或班级)的许多技术方面和工具都在 [在线教学的 Carpentris 提示](https://carpentries.org/blog/2020/03/tips-for-teaching-online/) 和网络研讨会 [RStudio 的“短通知在线教学”](https://rstd.io/teach-online-2020) 中涉及。 a 本节若干点的来源。
+* 提供远程语音(或班级)的许多技术方面和工具都在 [在线教学的 Carpentris 提示](https://carpentries.org/blog/2020/03/tips-for-teaching-online/) 和网络研讨会 [RStudio 的“短通知在线教学”](https://rstd.io/teach-online-2020) 中涉及。
 
 * Outlier会议在 [语音开发](https://docs.google.com/presentation/d/1VltGZmwfFcqwJ_pMwNx-ECfhgtl0dhxYC99qM5xnV-U/), [结构](https://docs.google.com/presentation/d/1XyFdpqjlvXd_8kIl3dJFHhGTcywX0tayQtHXXYUi9DQ/)和 [技术设置](https://https://docs.google.com/presentation/d/1ZLrVBs5Zt9_DDu2TYUN3CzsEr1WiMXbwj-AP5m9Rbhc/) 等方面有一些优秀的技巧。
 
