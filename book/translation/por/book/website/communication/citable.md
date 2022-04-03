@@ -18,8 +18,7 @@ E se você conseguisse crédito pelos seus esforços de reprodução? Neste cap�
 ---
 nome: orcid-ids
 alt: Esta imagem mostra uma pesquisadora feminina no centro com seus braços gerados. Está rodeada de uma órbita de vários documentos. No canto superior esquerdo, há uma legenda que diz 'ORCID IDS', enquanto no canto inferior direito há o texto que diz - "Um anel para governar todos os resultados".
----
-ORCID permite que um pesquisador conecte seu perfil a todos os objetos de pesquisa publicados, Cada um deles tem também os seus identificadores persistentes e únicos. Você aprenderá sobre isso neste capítulo. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+--- ORCID permite que um pesquisador conecte seu perfil a todos os objetos de pesquisa publicados, Cada um deles tem também os seus identificadores persistentes e únicos. Você aprenderá sobre isso neste capítulo. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
 (motivação-cm-citabível)=
