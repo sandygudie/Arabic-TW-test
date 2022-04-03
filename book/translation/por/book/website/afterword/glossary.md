@@ -11,11 +11,11 @@ Teste de Aceitação
 Reconhecimentos
  Quando contribuições para um projeto que não se qualifica como autoria são escritas. Registo descrito o nome dos colaboradores e a contribuição que eles fizeram.
 
-Adiciona
- o Comando usado para adicionar arquivos à área de preparo. Permite ao usuário especificar quais arquivos ou diretórios devem incluir no próximo commit.
+Todos os autores são co-autores do livro como um todo. Adiciona
+ o Comando usado para adicionar arquivos à área de preparo.
 
-Autores
-  neste contexto são os contribuidores do projeto The Turing Way_ que deram uma contribuição substancial para o projeto, como escrever um subcapítulo, facilitando interações comunitárias, mantendo a infraestrutura do projeto e apoiando a participação de outros através de contribuições mentais. Todos os autores são co-autores do livro como um todo.
+Permite ao usuário especificar quais arquivos ou diretórios devem incluir no próximo commit. Autores
+  neste contexto são os contribuidores do projeto The Turing Way_ que deram uma contribuição substancial para o projeto, como escrever um subcapítulo, facilitando interações comunitárias, mantendo a infraestrutura do projeto e apoiando a participação de outros através de contribuições mentais.
 
 ```
 ---
@@ -37,7 +37,7 @@ Branch
   Uma versão paralela de um repositório. Embora ele esteja contido no mesmo repositório, ele permite que você o desenvolva separadamente e então mescle as alterações de volta ao repositório "live" ou com outros ramos, quando apropriado.
 
 Bug
-  Isto é um erro, falhas ou falhas em um programa de computador ou sistema que fazem com que produza um resultado incorreto ou inesperado. ou para se comportar de formas indesejadas.
+  Isto é um erro, falhas ou falhas em um programa de computador ou sistema que fazem com que produza um resultado incorreto ou inesperado.
 
 Construa
   Um grupo de trabalho. Por exemplo, uma construção pode ter dois empregos, cada um deles testa um projeto com uma versão diferente de uma linguagem de programação. Uma construção termina quando todas as suas tarefas são concluídas.
@@ -132,9 +132,7 @@ Recipiente Docker
   Um ambiente computacional ativo executado a partir de uma imagem Docker.
 
 Dockerfile
-  Um arquivo usado para criar imagens Docker
-
-Docker Image
+  Um arquivo usado para criar imagens Docker Docker Image
   Um conjunto de instruções legível para criar um ambiente computacional específico.
 
 Docker Registry
@@ -150,9 +148,7 @@ Identificador Digital de Objeto
 ```{glossary}
 
 Epistemologia
- Teoria de conhecimento e lida com como conhecimento é coletado e de quais fontes. Em termos de pesquisa, a sua visão do mundo e do conhecimento influencia fortemente a sua interpretação dos dados, pelo que a sua posição filosófica deve ser clarificada desde o início. (Fonte: [Postagem de Nicole Brown](https://www.nicole-brown.co. k/epistemology/))
-
-Práticas Equitáveis, Diversas e Inclusivas
+ Teoria de conhecimento e lida com como conhecimento é coletado e de quais fontes. Em termos de pesquisa, a sua visão do mundo e do conhecimento influencia fortemente a sua interpretação dos dados, pelo que a sua posição filosófica deve ser clarificada desde o início. (Fonte: [Postagem de Nicole Brown](https://www.nicole-brown.co. k/epistemology/)) Práticas Equitáveis, Diversas e Inclusivas
   A bolsa de estudos está aberta a qualquer um sem barreiras baseadas em fatores como raça, antecedentes, sexo e orientação sexual.
 
 Teste de ponta a ponta
@@ -185,9 +181,7 @@ Github
   Um serviço online de hospedagem de código e controle de versão. Ele tem muitos recursos para ajudar na colaboração entre usuários e hospeda um grande número de projetos de código aberto.
 
 GitLab
-  GitLab é uma ferramenta de ciclo de vida de DevOps online que fornece um gerenciador de repositórios do Git-repository fornecendo wiki, rastreamento de problemas e recursos de pipeline de integração e implantação contínua, usando uma licença open-source, desenvolvida pelo GitLab Inc.
-
-Autor fantasma
+  GitLab é uma ferramenta de ciclo de vida de DevOps online que fornece um gerenciador de repositórios do Git-repository fornecendo wiki, rastreamento de problemas e recursos de pipeline de integração e implantação contínua, usando uma licença open-source, desenvolvida pelo GitLab Inc. Autor fantasma
  É uma pessoa que escreve um artigo acadêmico sem ter feito a pesquisa. Poderia ser um escritor profissional. Muitas vezes, não são considerados como escritores ao abrigo dos critérios de autorização da ICJE.
 
 Autor de presente
@@ -200,7 +194,7 @@ Garantidor
  Além de cumprir critérios para ser um autor nomeado, alguns revistas exigem um ou mais autores que assumem a responsabilidade pela integridade do trabalho como um todo desde o início ao artigo publicado.
 ```
 ---
-## A
+## Um
 
 ```{glossary}
 Cabeça
@@ -424,9 +418,7 @@ Reproduzível
   Um resultado é reprodutível quando as mesmas etapas de análise realizadas no mesmo conjunto de dados produzem a mesma resposta.
 
 Renderizado a Saída
-  Isto é como o texto ficará em uma página online no Github ou página web
-
-Compendia de Pesquisa
+  Isto é como o texto ficará em uma página online no Github ou página web Compendia de Pesquisa
   Esta é uma coleção de todas as partes digitais de um projeto de pesquisa, incluindo dados, código, textos (protocolos, relatórios, questionários, metadados). A colecção é criada de modo a que todos os resultados sejam reproduzidos de forma directa.
 
 Gerenciamento de Dados de Pesquisas
