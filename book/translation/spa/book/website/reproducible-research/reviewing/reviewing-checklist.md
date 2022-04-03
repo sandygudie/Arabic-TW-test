@@ -9,7 +9,7 @@ En todos los casos, el objetivo es utilizar su experiencia de programación para
 
 ## Para el codificador
 
-- ¿Cumple el nuevo código con los estándares requeridos del proyecto? Los estándares normalmente están escritos bajo `pautas de contribución` por el proyecto al que estás contribuyendo.
+- Compruebe los estándares requeridos del proyecto. Los estándares normalmente están escritos en `pautas de contribución` por el proyecto al que estás contribuyendo.
 - ¿Hay [documentación](#documentation) que cumpla con los estándares requeridos del proyecto?
 - ¿Estás siguiendo cualquier {ref}`guía de estilo<rr-code-quality>declarada` para el proyecto?
 - ¿Hay nuevas [pruebas](#tests) para el nuevo material, basadas en los estándares requeridos del proyecto?
@@ -21,7 +21,7 @@ En todos los casos, el objetivo es utilizar su experiencia de programación para
 
 ## Para el revisor
 
-- Compruebe los estándares requeridos del proyecto. Los estándares normalmente están escritos en `pautas de contribución` por el proyecto al que estás contribuyendo.
+- Compruebe los estándares requeridos del proyecto. ¿Cumple el nuevo código con los estándares requeridos del proyecto? Los estándares normalmente están escritos bajo `pautas de contribución` por el proyecto al que estás contribuyendo.
 - Check the code meets basic project {ref}`style guide<rr-code-quality>`, if this is not automatically checked by {ref}`continuous integration (CI)<rr-ci>`.
 - ¿Las [pruebas](#tests) y [documentación](#documentation) se ajustan a los estándares?
 - ¿Todo el código se entiende fácilmente? Dependiendo del idioma, los archivos pueden contener interfaces, clases u otras definiciones de tipo, y funciones (ver [Archivería](#architecture)). Los conceptos arquitectónicos esenciales se pueden revisar de la siguiente manera:
@@ -47,7 +47,7 @@ La documentación es un requisito previo para usar, desarrollar y revisar el pro
 - ¿Se enumeran los requisitos detallados?
 - ¿Los requisitos están clasificados según [MoSCoW](https://en.wikipedia.org/wiki/MoSCoW_method)?
 - ¿Se documenta el uso y la función de las bibliotecas de terceros?
-- ¿Está documentada la estructura/arquitectura del programa? (ver abajo)
+- ¿Está documentada la estructura/arquitectura del programa? (ver abajo) (ver abajo)
 - ¿Hay un manual de instalación?
 - ¿Hay un manual de usuario?
 - ¿Hay documentación sobre cómo contribuir?
@@ -126,7 +126,7 @@ Ten en cuenta que la mayoría de los siguientes elementos asumen un estilo de pr
 - ¿Se comentan casos de borde y cosas inusuales?
 - ¿Hay algún código incompleto?
 - ¿Se puede dividir esta función (¿no es demasiado larga)?
-- ¿Funciona? Realizar la función prevista, lógica correcta, ...
+- ¿Funciona? ¿Funciona? Realizar la función prevista, lógica correcta, ...
 - ¿Es fácil de entender?
 - ¿Hay código redundante o duplicado? (DRY)
 - ¿Los bucles tienen una longitud determinada y terminan correctamente?
