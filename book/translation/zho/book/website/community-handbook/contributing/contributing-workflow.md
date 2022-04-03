@@ -39,8 +39,15 @@ book\website
 |   |   |   vcs-git-commit.md
 |   |   |   ...
 | | | vcs-personal-stories.md
+condur| cvcs-checklist。
+| | | vcs-personal-stories.md
 condur| cvcs-checklist。 d
 |xvcs-resources。 d
+x|
+| |
+| relevant clape (new chapter 文件夹)
+| | | | | ...
+d
 x|
 | |
 | relevant clape (new chapter 文件夹)
@@ -49,6 +56,7 @@ x|
 原始－－－－－项目设计 <---- (项目设计指南文件夹)
     与项目设计.md
     个周期...
+```
 ```
 ````
 
@@ -73,6 +81,13 @@ x|
 
 ````{admonition} Updating the book-wide table of contents
 :class: 下拉了
+```
+
+- 文件: reducible-research/reducible-research
+  部分:
+...
+
+  :class: 下拉了
 ```
 
 - 文件: reducible-research/reducible-research
