@@ -24,9 +24,10 @@
 
 - [语义版本](https://semver.org) **知识共享 - CC BY 3.0**
 
-- [A. Brinckman, et al., Computing environment for reproductivity: Capturing the “All Tale”, Future Generation Computer Systems (2018), https://doi. rg/10.1016/j.future.2017.12.029](https://www.sciencedirect.com/science/article/pii/S0167739X17310695) **Attribution 4.0 International (CC BY 4.0)**
-
-- [显示独一无二性的纸张](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0177459) **CC0 1.0 普遍性(CC0 1.0)**
+-
+A. [A. Brinckman, et al., Computing environment for reproductivity: Capturing the “All Tale”, Future Generation Computer Systems (2018), https://doi. rg/10.1016/j.future.2017.12.029](https://www.sciencedirect.com/science/article/pii/S0167739X17310695) **Attribution 4.0 International (CC BY 4.0)**</p></li> 
+  
+  - [显示独一无二性的纸张](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0177459) **CC0 1.0 普遍性(CC0 1.0)**
 
 - [显示独一无二性的纸张](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0177459) **CC0 1.0 普遍性(CC0 1.0)**
 
@@ -36,7 +37,7 @@
 
 - [YAML 教程](https://gettaurus.org/docs/YAMLTutorial/) **[Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0)**
 
-- [绑定示例](https://opendreamkit.org/2017/11/02/use-case-publishing-reproducible-notebooks/) **授权使用 Juliette Taka、Logilab 和 OpenDreamKit 项目。**
+- [绑定示例](https://opendreamkit.org/2017/11/02/use-case-publishing-reproducible-notebooks/) **授权使用 Juliette Taka、Logilab 和 OpenDreamKit 项目。 **
 
 - [mybinder 文档介绍](https://github.com/jupyterhub/binder/blob/master/doc/introduction.rst) **[BSD 3-Clause](https://github.com/binder-examples/requirements/blob/master/LICENSE)**
 
@@ -47,9 +48,11 @@
 - [零到Binder](https://github.com/Build-a-binder/build-a-binder.github.io/blob/master/workshop/10-zero-to-binder.md) **[BSD 3-条款](https://github.com/binder-examples/requirements/blob/master/LICENSE)**
 
 - [Bryan Brown LITA 博客](https://litablog.org/2014/12/virtual-machines-in-a-nutshell/) **[授予用于教育的版权](http://www.ala.org/copyright)**
-- [什么是码头？](https://opensource.com/resources/what-docker) **CC BY-SA 4.0**
 
-- [什么是容器？](https://opensource.com/resources/what-are-linux-containers?intcmp=7016000000127cYAAQ) **CC BY-SA 4.0**
+- [什么是码头？ ](https://opensource.com/resources/what-docker) **CC BY-SA 4.0**
+
+- [什么是容器？ ](https://opensource.com/resources/what-are-linux-containers?intcmp=7016000000127cYAAQ) **CC BY-SA 4.0**
+
 - [停靠木工](http://www.manicstreetpreacher.co.uk/docker-carpentry/aio/) **知识共享属性4.0**
 - [Geohackweek教程](https://geohackweek.github.io/Introductory/docker-tutorial_temp/) **知识共享属性3.0已取消**
-- [Nuchat, D., Sochat, V., Marwick, B., Eglen, S., Head, T., Hirst, T., & Evans, B. (2020, November 10). 编写Dockerfiles 用于可复制数据科学的十条简单规则，https://doi.org/10.1371/journal.pcbi.1008316 ](https://github.com/nuest/ten-simple-rules-dockerfiles) **知识共享署名4.0 International**
+- [Nuchat, D., Sochat, V., Marwick, B., Eglen, S., Head, T., Hirst, T., & Evans, B. (2020, November 10). 编写Dockerfiles 用于可复制数据科学的十条简单规则，https://doi.org/10.1371/journal.pcbi.1008316 ](https://github.com/nuest/ten-simple-rules-dockerfiles) **知识共享署名4.0 International** 编写Dockerfiles 用于可复制数据科学的十条简单规则，https://doi.org/10.1371/journal.pcbi.1008316 </a> **知识共享署名4.0 International**</ul>
