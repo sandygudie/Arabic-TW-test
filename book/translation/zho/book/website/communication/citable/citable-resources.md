@@ -7,7 +7,7 @@
 - 选择关键数据集和您的结论所依赖的软件
 - 像你想引证一张纸一样引证数据和软件
 - 发布您自己的数据/软件并引用它
-- 获取 [ORCID ID！](https://orcid.org/)
+- 获取 [ORCID ID！ ](https://orcid.org/)
 
 (cm-citable-checklist-data)=
 ## 对于数据创建者
