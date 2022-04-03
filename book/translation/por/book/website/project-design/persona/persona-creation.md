@@ -15,8 +15,7 @@ Comece dando à sua persona um nome real e um papel real com a ajuda de algumas 
 ---
 nome: persona-criação
 alt: Persona Canvas por DESIGNBETTERBUSINESS.COM
----
-Persona Canvas por [DESIGNBETTERBUSINESS.COM](https://www.designabetterbusiness.tools/tools/persona-canvas) disponíveis sob a licença CC-BY-SA 4.0
+--- Persona Canvas por [DESIGNBETTERBUSINESS.COM](https://www.designabetterbusiness.tools/tools/persona-canvas) disponíveis sob a licença CC-BY-SA 4.0
 ```
 
 ### Seção 2: Fundo e demografia
