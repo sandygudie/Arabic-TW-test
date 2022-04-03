@@ -24,7 +24,7 @@ La siguiente tabla compara características de listas de correo, foros y chats. 
 
 - **Media sharing:** ¿Pueden los medios de comunicación, como capturas de pantalla, ser fácilmente compartidos en esta plataforma?
 - **Archivable:** ¿La historia de las conversaciones es fácilmente accesible?
-- **Persistente:** ¿Las conversaciones permanecen disponibles y accesibles en la plataforma? Si no es "para siempre", por cuánto tiempo? Si no todas las conversaciones, ¿qué proporción?
+- **Fácilmente exportable:** ¿Las conversaciones se almacenan en un formato consistente? ¿Están disponibles las herramientas para exportar las conversaciones (a un archivo, por ejemplo)? Si no es "para siempre", por cuánto tiempo? Si no todas las conversaciones, ¿qué proporción?
 - **Noisy:** ¿Cuántas notificaciones recibirán las personas y puede el número de notificaciones ser administrado por usuarios/administradores?
 - **Abrir:** ¿Puede alguien unirse a la plataforma o hay un proceso de invitación/aprobación?
 - **Consistente experiencia de usuario (UX):** ¿La plataforma parece consistente independientemente del navegador o cliente de correo electrónico del usuario?
@@ -33,7 +33,7 @@ La siguiente tabla compara características de listas de correo, foros y chats. 
 - **Perfiles de usuario:** ¿Es fácil saber quién está participando en la conversación y cuáles son sus roles en el proyecto?
 - **Capacidades de "Seguir"/"bloqueo":** ¿Los usuarios pueden elegir qué mensajes están alertados?
 - **Buscable por tema:** ¿Las conversaciones pueden ser categorizadas y buscadas por categoría?
-- **Fácilmente exportable:** ¿Las conversaciones se almacenan en un formato consistente? ¿Están disponibles las herramientas para exportar las conversaciones (a un archivo, por ejemplo)?
+- **Persistente:** ¿Las conversaciones permanecen disponibles y accesibles en la plataforma? Si no es "para siempre", por cuánto tiempo? Si no todas las conversaciones, ¿qué proporción?
 
 | Característica                      | Listas de correo | Foros |    Chatear    |
 |:----------------------------------- |:----------------:|:-----:|:-------------:|
