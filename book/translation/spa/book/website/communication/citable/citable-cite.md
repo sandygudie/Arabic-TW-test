@@ -10,7 +10,7 @@ Debe citar objetos de investigación directamente en el papel en lugares donde s
 - Acceso a la información (una URL o DOI)
 
 Un estilo de cita es un arreglo específico, orden y formato de la información necesaria para una cita. Por ejemplo, El estilo MLA fue desarrollado por la Asociación de Lenguas Modernas (originalmente utilizada en las humanidades) y el estilo APA fue desarrollado por la Asociación Psicológica Americana (originalmente utilizada en psicología y ciencias sociales).
-- El estilo de cita de MLA utiliza el siguiente formato: `Author. "Título de la fuente" Título del contenedor, Otros colaboradores, versión, número, editor, fecha de publicación, ubicación.`
+- El estilo de cita de MLA utiliza el siguiente formato: `Author. "Título de la fuente" "Título de la fuente" Título del contenedor, Otros colaboradores, versión, número, editor, fecha de publicación, ubicación.`
 - El estilo de cita APA utiliza el siguiente formato: `Author. (Año). Título del conjunto de datos (Versión). [Recuperado desde] ***O*** [DOI]`
 
 Vea [Guía de estilos de citas de Scribbr](https://www.scribbr.com/citing-sources/citation-styles/). Vea también [recurso FORCE11](https://www.force11.org/node/4771).
@@ -24,7 +24,7 @@ Puede encontrar ejemplos de estas afirmaciones en las políticas de autor de los
 
 ### Ejemplos de instrucción de disponibilidad de datos:
 
-**Utilizando el Identificador Digital de Objetos (DOI):** "Los datos que apoyan los resultados de este estudio están abiertamente disponibles en [nombre del repositorio] en http://doi. rg/[doi].”
+**Utilizando el Identificador Digital de Objetos (DOI):** "Los datos que apoyan los resultados de este estudio están abiertamente disponibles en [nombre del repositorio] en http://doi.
 
 **Si no se emite ningún DOI:**
 - “Los datos que apoyan los resultados de este estudio están abiertamente disponibles en [nombre del repositorio] en [URL], número de referencia [número de referencia].”
