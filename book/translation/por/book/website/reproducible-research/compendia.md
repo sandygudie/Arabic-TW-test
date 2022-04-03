@@ -55,7 +55,7 @@ compendium/
 ── dados
 ├── meu_data.csv
 ─── analysis
-── my_script.R
+── my_script. R
 ── DESCRIPTION
 ─ README.md
 ```
@@ -68,9 +68,8 @@ A seguinte pasta pode ser considerada um compêndio de pesquisa executável. Con
 compêndio /
 ── CITATION
 ─── código
-── analyse_data.R
-── clean_data.
-── data_clean
+── analyse_data. R
+── clean_data. ── data_clean
 ── data_clean.csv
 ── data_raw
 ─── datapackage. son
@@ -80,7 +79,7 @@ compêndio /
 ├──── flow_chart. peg
 ── LICENSE
 ─── Makefile
-── papel de papel.Rmd
+── papel de papel. Rmd
 ─ README.md
 ```
 
@@ -89,7 +88,7 @@ compêndio /
 Os princípios do compêndio da pesquisa afirmam que deve separar claramente Métodos, Dados e Output. Simplificado, isso significa que devemos distinguir entre três tipos de arquivos e pastas:
 
 - **Somente leitura**: dados brutos (``data_raw\`), metadados (``datapackage.json`,`CITATION`)
-- **Gerado por seres humanos**: código (`clean_data.R`, `analyse_data.`), papel (`papel.Rmd`), documentação (`README.md`)
+- **Gerado por seres humanos**: código (`clean_data. R`, `analyse_data.`), papel (`papel. Rmd`), documentação (`README.md`)
 - **Projeto gerado**: dados limpos (``data_clean\`, figuras (``figuras\`), outras saídas
 
 Os exemplos mencionados aqui não são exaustivos e alguns podem ser primeiramente "gerado-humano" e em algum momento se tornam "somente leitura" (por exemplo, um humano pode gerar o datapackage `de metadados de dados. son`, mas uma vez que isso é feito, pode se tornar algo para não ser tocado). Por outras palavras, se uma pasta contém ficheiros em qualquer destas categorias, pode depender do ciclo de vida do projeto.
