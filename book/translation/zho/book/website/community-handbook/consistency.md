@@ -2,7 +2,7 @@
 # 保持一致性
 
 _诱惑方式_ 是一个开放源码项目，它使世界各地的贡献者能够利用他们的技能。 建立和扩大其内容所需的知识和专门知识。 _导星路径_ 指南正在不断演变。 与来自不同背景的个人共同开发的多个章节――他们都热衷于围绕数据科学和研究分享知识。 为了维持和支持这个充满活力的社区， _正在前进的道路_ 书应该保持连贯性和可访问性。
-{ref}`ch样式` 章节已经为整个书中保持一致风格提供了指导方针。 然而，并非所有章节都遵循这些建议，因为它们往往是由不同的作者异常写成的。 Reviewing consistency across _The Turing Way_ alone is reasonably challenging. This points towards a need to encourage and support our contributors to maintain consistency throughout the chapters in _The Turing Way_ guides. 因此，本章将概述一份逐步一致的核对清单，用以指导我们的贡献者。 Each step will emphasize a consistency check to look out for as they design and develop chapters in _The Turing Way_ or bring consistency to existing chapters.
+{ref}`ch样式` 章节已经为整个书中保持一致风格提供了指导方针。 然而，并非所有章节都遵循这些建议，因为它们往往是由不同的作者异常写成的。 Reviewing consistency across _The Turing Way_ alone is reasonably challenging. Reviewing consistency across _The Turing Way_ alone is reasonably challenging. This points towards a need to encourage and support our contributors to maintain consistency throughout the chapters in _The Turing Way_ guides. 因此，本章将概述一份逐步一致的核对清单，用以指导我们的贡献者。 因此，本章将概述一份逐步一致的核对清单，用以指导我们的贡献者。 Each step will emphasize a consistency check to look out for as they design and develop chapters in _The Turing Way_ or bring consistency to existing chapters.
 
 (ch-一致性要求)=
 ## 硬对软要求
@@ -11,7 +11,7 @@ _诱惑方式_ 是一个开放源码项目，它使世界各地的贡献者能�
 
 另一方面，软性要求是一章应通过的对一致性的适当检查。 这些检查大大提高了书的整体外观和感受，但如果不能融入你的贡献，这些检查就可以安全地被忽略。 您总是可以返回查看您过去的贡献并提升他们的内容。
 
-An overview of these requirements is itemised {ref}`below <ch-consistency-requirements-checklist>`. 为便于描述，这些一致性检查按格式、结构和语言分类。 各分章更详细地解释了这些问题，并说明了如何能够实现这些目标。
+An overview of these requirements is itemised {ref}`below <ch-consistency-requirements-checklist>`. 为便于描述，这些一致性检查按格式、结构和语言分类。 为便于描述，这些一致性检查按格式、结构和语言分类。 各分章更详细地解释了这些问题，并说明了如何能够实现这些目标。
 
 ```{important} Please note that these requirements are not exhaustive or definitive, and neither are their classifications rigid.
 此外，没有任何物品本质上比其他物品更重要。
