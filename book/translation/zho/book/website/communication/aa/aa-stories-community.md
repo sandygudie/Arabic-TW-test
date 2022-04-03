@@ -13,7 +13,7 @@ Brinhack是一个开放的科学界，它有一个创新的会议形式，在一
 * [Github](https://github.com/complexbrains)
 * [推特](https://twitter.com/complexbrains)
 
-**1. 您学科的 *是正常的* 学术论文作者实践？ 或曾经是通常做法？**
+**1. 1. 您学科的 *是正常的* 学术论文作者实践？ 或曾经是通常做法？**
 
 **还原：** 我的背景是生物学和心理学。 大多数论文是多作者，因此有不止一个作者。 单一作者可能会发生，但不能用于实验性工作。 这项工作通常涉及至少一名具备博士后研究员或博士生的主要调查员。
 
@@ -35,7 +35,7 @@ Brinhack是一个开放的科学界，它有一个创新的会议形式，在一
 美国物理研究所迄今作出的唯一定义是 _“作者应限于对这一概念作出重大贡献的人。 设计、执行， 或对研究报告的解释”_, 它仍然没有就如何以最公平和一致的方式评价各期刊、机构和实验室的贡献提供明确的指导方针。
 
 
-**2. 在你的项目中讨论作者的时候？**
+**2. 2. 在你的项目中讨论作者的时候？**
 
 **Remi:** 这个项目很早就完成了。 我们举行了前三次会议中的一些会议。 其中两个主要问题是如何处理作者和我们想要争取的期刊。 我们还讨论了我们如何分清这些任务。
 
@@ -52,7 +52,7 @@ Brinhack是一个开放的科学界，它有一个创新的会议形式，在一
 因此，这些集合体作者模式仍然是一个需要更广泛讨论的专题，由于时间的压力，这是不可能的。
 
 
-**3. 谁在你的项目中讨论过作者？**
+**3. 3. 谁在你的项目中讨论过作者？**
 
 **记住：** 每个人都被纳入项目开始时的讨论，我们对此进行了表决。
 
@@ -69,7 +69,7 @@ Brinhack是一个开放的科学界，它有一个创新的会议形式，在一
 **伊西尔：** 也要讨论，要完成的投票 已经作出或将要作出的决定都是通过公共交流渠道和一个包含所有贡献者的谷歌电子邮件清单分享的，目的是确保每个人都有机会看到这种信息或以某种方式跟踪这一进程。
 
 
-**4. 你决定在你的项目中采取什么办法？**
+**4. 4. 你决定在你的项目中采取什么办法？**
 
 **记住：** 我们的准则规定我们将作者分为三组：
 
@@ -86,7 +86,7 @@ Brinhack是一个开放的科学界，它有一个创新的会议形式，在一
 由于个人的时间安排和承诺。 有些人只能在讨论开始时在场，有些人一直在场，有些人终于能够作出贡献。 然而，在今天结束时， 我们尽力量化在整个进程中任何时候所作的任何贡献，而不论所显示的存在数量。
 
 
-**5. 你如何以实际方式撰写纸张？**
+**5. 5. 你如何以实际方式撰写纸张？**
 
 **记住：** 我们开始集思广益，将纸打破为不同的部分，然后创建了子团队。 每个小组在其中一个部门工作。 至少有4个小组。
 
@@ -107,7 +107,7 @@ Brinhack是一个开放的科学界，它有一个创新的会议形式，在一
 虽然这是有益的，因为我们在完成手头的任务方面与时俱进。 使这个组织在小组成员之间更加明确，可能使更多代表各种背景和意见的贡献者有更多的机会作出贡献。
 
 
-**6. 这样做有什么问题？**
+**6. 6. 这样做有什么问题？**
 
 **记住：** 我们在为核心团队指定的排名系统。 我们不希望核心小组这样做，我们希望更多地采取自下而上的做法。 如同对他们的贡献有点厌倦的制度一样。
 
@@ -128,13 +128,13 @@ Brinhack是一个开放的科学界，它有一个创新的会议形式，在一
 
 
 
-**7. 您在写作和项目中使用了哪些协作工具？**
+**7. 7. 您在写作和项目中使用了哪些协作工具？**
 
 **Remi:** 我们使用了谷歌文档和表格。 还有供作者参考的表格。 但在中国等一些国家，一些谷歌工具无法使用。 因此，我们很高兴能够讨论使用何种工具，以便每个人从一开始就能够获得同样的软件和工具。
 
 **Isil：** 也因为我们有很多关于在布伦哈克事件下运行的多年活动和项目的补充细节。 由于字数有限，所以无法进入纸张。 我们创建了一个补充的 Jupyterbook，我们在Github 上有一个公共存储库， 这就是该书内容的Markdown 文档。 用于处理数据的子文件和许多图形来总结数据。
 
-[来自盲人社区的最近文章](https://pubmed.ncbi.nlm.nih.gov/33932337/): Gau R, Noble S, Heuer K, Bottenhorn KL, Bilgin IP, Yang YF, Huntenburg JM, Bayer JM, Bethlehem RAI, Rhoads SA, Vogelbacher C、Borghesani V、Levitis E、Wang HT、Van Den Bossche S、Kobeleva X、Legarreta JH, Guay S, Atay SM, Varoquaux GP, Huijser DC, SandstroindistiumMS, Herholz P, Nastase SA, Badhwar A, Dumas G, Schwab S, Moia S, Dayan M, Bassil Y, Brooks P, Mancini M, Shine JM, O'Connor D, Xie X, Poggiali D, Friedrich P, Heinsfeld AS, Riedl L, Toro R, Caballero-Gaudes C, Eklund A, Garner KG, Nolan CR, Demeter DV, Barrios FA, Merchant JS, McDevitt EA, Oostenveld R, Craddock RC, Rokem A, Doyle A, Ghosh SS, Nikolaidis A, Stanley OW, Uruncovuela E; 布伦哈克社区。 **Brahinhack：发展开放、包容、社区驱动的神经科学文化。** Neuron。 2021 Jun 2;109(11)：1769-1775. i: 10.116/j.neuron.2021.04.001。 Epub 2021 Apr 30 PMID： 33932337。
+[来自盲人社区的最近文章](https://pubmed.ncbi.nlm.nih.gov/33932337/): Gau R, Noble S, Heuer K, Bottenhorn KL, Bilgin IP, Yang YF, Huntenburg JM, Bayer JM, Bethlehem RAI, Rhoads SA, Vogelbacher C、Borghesani V、Levitis E、Wang HT、Van Den Bossche S、Kobeleva X、Legarreta JH, Guay S, Atay SM, Varoquaux GP, Huijser DC, SandstroindistiumMS, Herholz P, Nastase SA, Badhwar A, Dumas G, Schwab S, Moia S, Dayan M, Bassil Y, Brooks P, Mancini M, Shine JM, O'Connor D, Xie X, Poggiali D, Friedrich P, Heinsfeld AS, Riedl L, Toro R, Caballero-Gaudes C, Eklund A, Garner KG, Nolan CR, Demeter DV, Barrios FA, Merchant JS, McDevitt EA, Oostenveld R, Craddock RC, Rokem A, Doyle A, Ghosh SS, Nikolaidis A, Stanley OW, Uruncovuela E; 布伦哈克社区。 **Brahinhack：发展开放、包容、社区驱动的神经科学文化。 ** Neuron。 **Brahinhack：发展开放、包容、社区驱动的神经科学文化。** Neuron。 2021 Jun 2;109(11)：1769-1775. i: 10.116/j.neuron.2021.04.001。 i: 10.116/j.neuron.2021.04.001。 Epub 2021 Apr 30 PMID： 33932337。 PMID： 33932337。
 
 *这次访谈是由Emma Karoune进行的。*
 
