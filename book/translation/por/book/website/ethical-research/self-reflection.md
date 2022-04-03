@@ -18,8 +18,7 @@ Nossas experiências e identidades vividas nos dão uma determinada lente para v
 ---
 nome: reflexão automática
 alternativa: Uma mulher fica em uma loja de óculos ao lado da assistente da loja que está segurando uma série de óculos para que ela experimente. Ela está a tentar ler um sinal para testar a sua visão, que contém as palavras "Sexualidade", "Círculo", "Área", "Classe", "Educação" e "Sexualidade". O letreiro na porta da loja diz "Reflexão autónoma - venha ver você mesmo". 
----
-Reflexão própria. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+--- Reflexão própria. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
 (er-auto-reflexão-motivação)=
