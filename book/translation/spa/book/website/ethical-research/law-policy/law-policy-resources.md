@@ -16,5 +16,5 @@
 - [Algoritmos y derechos humanos - Estudio sobre la dimensión de los derechos humanos de las técnicas automatizadas de procesamiento de datos y posibles implicaciones regulatorias](https://rm.coe.int/algorithms-and-human-rights-en-rev/16807956b5) (_Consejo de Europa_)
 - [Feminismo de datos](https://data-feminism.mitpress.mit.edu/) (_libro de Catherine D'Ignazio y Lauren Klein_)
 - [Artículo 8: Respeto de su vida privada y familiar](https://www.equalityhumanrights.com/en/human-rights-act/article-8-respect-your-private-and-family-life) (_Comisión de Derechos Humanos y Igualdad de Reino Unido_)
-- Comentario general No. 16 Artículo 17 (El derecho a respetar la privacidad, la familia, el hogar y la correspondencia y protección del honor y la reputación) 1988 (HRI/GEN/1/Rev9) (_Comité de Derechos Humanos de las Naciones Unidas_)
+- 16 Artículo 17 (El derecho a respetar la privacidad, la familia, el hogar y la correspondencia y protección del honor y la reputación) 1988 (HRI/GEN/1/Rev9) (_Comité de Derechos Humanos de las Naciones Unidas_)
 - [Toonen v Australia](https://remedy.org.au/cases/24/) (_Resumen del caso de éxito presentado por Nicholas Toonen contra de la criminalización del sexo de los exual en Tasmania en 1994_)
