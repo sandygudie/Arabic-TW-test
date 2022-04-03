@@ -20,9 +20,7 @@ Por exemplo, [termos que começam com 'A'](https://the-turing-way.netlify.app/af
 
 ## Um
 
-```{glossary}
-
-Teste de Aceitação
+```{glossary} Teste de Aceitação
  Um nível do processo de teste do software onde um sistema é testado para aceitabilidade. O objectivo deste teste é avaliar a conformidade do sistema com os requisitos do projecto e avaliar se é aceitável para o fim.
 
 Adiciona
@@ -47,8 +45,7 @@ O Livro de Júpiter permite o uso de blocos de conteúdo especial para destacar 
 Para adicionar um bloco de conteúdo especial (nota, aviso ou admonial) à sua página, use a seguinte directiva:
 
 ````
-```{note}
-Esta é uma nota de exemplo!
+```{note} Esta é uma nota de exemplo!
 ```
 ````
 que renderiza da seguinte forma:
@@ -60,8 +57,7 @@ Esta é uma nota de exemplo!
 Você pode dar títulos e estilos personalizados de blocos de conteúdo para reforçar sua mensagem pretendida. Por exemplo, se você quiser avisar o leitor sobre algo, poderá fazer um bloco de aviso usando a seguinte directiva:
 
 ````
-```{warning}
-Este é um aviso severo!
+```{warning} Este é um aviso severo!
 ```
 ````
 Note o novo título, ícone e esquema de cores.
