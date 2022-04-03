@@ -1,5 +1,4 @@
 (rr-reviewing-motivation)=
-<!-- omit in toc -->
 # Importância e Benefícios Pessoais
 
 *Como isso irá ajudá-lo/por que isso é útil*
