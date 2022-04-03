@@ -17,8 +17,7 @@ Um exemplo disso é mostrado abaixo.
 ---
 nome: main-branch
 alt: Uma ilustração de um branch principal
----
-Uma ilustração de um branch principal
+--- Uma ilustração de um branch principal
 ```
 
 Em vários sistemas de controle de versão, você poderá adicionar um comentário toda vez que salvar uma nova versão. Estes comentários devem ser claros e concisos para que seja fácil compreender que alterações foram propostas e que atualizações foram feitas numa versão. Isso garante que é fácil encontrar o que você está procurando quando precisa voltar para uma versão passada. Seus colaboradores lhe agradecerão, mas também as futuras versões de si mesmo.
@@ -32,10 +31,8 @@ Quando você estiver satisfeito com as novas alterações, você pode apresentá
 
 ```{figure} ../../figures/one-branch.png
 ---
-nome: um branch
-alt: uma ilustração de um desenvolvimento e um ramo principal no git
----
-Uma ilustração de um desenvolvimento e um ramo principal no git.
+nome: subbranch1
+alt: uma ilustração de um ramo de desenvolvimento no git. --- Um ramo de desenvolvimento no git.
 ```
 
 Você pode ter mais de um ramo da sua cópia principal. Se uma de suas ramificações acabar não funcionando, você poderá abandoná-la ou excluí-la sem afetar o principal ramo do seu projeto.
@@ -44,18 +41,17 @@ Você pode ter mais de um ramo da sua cópia principal. Se uma de suas ramifica�
 ---
 nome: dois ramos
 alt: Uma ilustração de dois ramos de desenvolvimento e um principal ramo no git
----
-Dois ramos de desenvolvimento e um principal git.
+--- Dois ramos de desenvolvimento e um principal git.
 ```
 
 Se você quiser, pode criar ramos a partir de ramos (e ramos fora desses ramos e assim por diante).
 
 ```{figure} ../../figures/sub-branch.png
 ---
-nome: subbranch1
-alt: uma ilustração de um ramo de desenvolvimento no git.
+nome: um branch
+alt: uma ilustração de um desenvolvimento e um ramo principal no git
 ---
-Um ramo de desenvolvimento no git.
+Uma ilustração de um desenvolvimento e um ramo principal no git.
 ```
 
 Não importa quantas filiais você tem, você pode acessar as versões anteriores feitas em qualquer uma delas. Se você estiver curioso para saber como usar esse recurso na prática, você encontrará mais detalhes adiante algumas seções.
