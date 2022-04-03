@@ -12,7 +12,7 @@ Spreadsheetsets, such as Microsoft Excel文件, google sheets, and their Open So
 只有在数据集是以可用于计算机和研究人员的特定格式收集和编排时，预报表才是一种强有力的工具。
 
 (rr-rdm-电子表格-nondata)=
-## 1. 避免非数据内容
+## 1. 1. 避免非数据内容
 
 电子表格用于以表格形式组织数据。 主题、对象和它们之间的关系分别变成一行、单元格和列。 例如，主题： `expert`, relationship: `是在日期`, 和对象： `2020-06-06` 给每次实验提供一行 用于 `实验日期`的一列，单元格中的值 `2020-06-06`。 不幸的是，电子表格程序允许您添加其他类型的内容，例如颜色到特定的单元格。 虽然它可能在某个时候对研究人员有所帮助， 人们需要记住，这种类型的 **单元格修改不应被视为数据**， 主要是因为它们不能导出到其他软件。
 
@@ -30,13 +30,13 @@ Spreadsheetsets, such as Microsoft Excel文件, google sheets, and their Open So
 
 ```
 (rr-rdm-电子表格格式)=
-## 2. Streadsheets Tidy 格式
+## 2. 2. Streadsheets Tidy 格式
 
 If the spreadsheet is poorly organised, then it may be [difficult for collaborators](https://luisdva.github.io/pls-don't-do-this/) to easily {ref}`read-in and re-use <rr-rdm-fair>` your data for further analysis.
 
-事实上，数据科学家的大部分工作是将数据变成计算机可以阅读的形式。 然而，仍然存在着这种情况。 当信息分成几个电子表格和在获得数据之前没有具体的数据转换计划时，这种情况耗费了大量时间。
+事实上，数据科学家的大部分工作是将数据变成计算机可以阅读的形式。 当信息分成几个电子表格和在获得数据之前没有具体的数据转换计划时，这种情况耗费了大量时间。
 
-简化数据使用的规则非常简单，这些规则涉及 [**tidy data**](https://en.wikipedia.org/w/index.php?title=Tidy_data&oldid=962241815) tidy数据格式允许在电子表格软件中易于过滤和排序数据。
+简化数据使用的规则非常简单，这些规则涉及 [**tidy data**](https://en.wikipedia.org/w/index.php?title=Tidy_data&oldid=962241815) tidy数据格式允许在电子表格软件中易于过滤和排序数据。 tidy数据格式允许在电子表格软件中易于过滤和排序数据。
 
 简体：
 
@@ -62,10 +62,10 @@ alt: 图像描述了tidy 数据。 一个列代表一个变量，一个列代表
 有可用的数据验证工具，例如https://goodtables.io，您可以自动检查您的电子表格是否是潮湿的。
 
 (rr-rdm-电子表格的一致性)=
-## 3. 一致值
+## 3. 3. 一致值
 
 当您使用多个电子表格或在数据收集过程中与团队合作时， 必须确保以同样的术语输入同样的信息， 而且同一术语总是传达同样的信息。 In the example of iris data, if some people use different terms to record information for a specific column - such as naming the column `species` instead of `Species` or using `iris setosa`, `set.` or `i.setosa` instead of `setosa` - the creation of a reproducible workflow will be more difficult, and errors may even be overlooked.  
-Discrepancies often lead to errors, especially when the same terms could mean different things depending on who is entering the data. For example, indicating date as `02-03` will mean February the 3<sup>rd</sup> in the USA, but March the 2<sup>nd</sup> in Europe.
+Discrepancies often lead to errors, especially when the same terms could mean different things depending on who is entering the data. For example, indicating date as `02-03` will mean February the 3<sup>rd</sup> in the USA, but March the 2<sup>nd</sup> in Europe. For example, indicating date as `02-03` will mean February the 3<sup>rd</sup> in the USA, but March the 2<sup>nd</sup> in Europe.
 
 一个由 `数据字典` 或 `分类法` 用于README 文件的公认术语和文档是很好的做法。 根据您使用的软件，您可以在特定列中限制接受的值。 如果有这种分类法或生物学，使用它可以使您(和其他人)与其他数据集一起使用这些数据。 例如， 您可以使用通用的 `男性，` 和 `女方` 术语来描述动物的性别(无首都) 在不使用缩略语的情况下，有许多术语使用这些术语。 此外，您可能想要使用一些额外的工具来验证电子表格，然后将其纳入分析中。
 
@@ -76,7 +76,7 @@ Discrepancies often lead to errors, especially when the same terms could mean di
 最后，您还应该知道您的电子表格程序的默认行为。 不同程序和不同版本的同一程序可能不同。 例如，在Excel的法文或德文版本中，通常用逗号标明小数。 在英文版本中使用一个点，因为逗号没有意义(`9, ) 00` 将被翻译成 `9000` 或 `9` 取决于您使用的版本)。
 
 (rr-rdm-电子表格-操纵)=
-## 4. 数据操纵和分析
+## 4. 4. 数据操纵和分析
 
 ***不要操纵或分析电子表格程序中的数据。***
 
@@ -93,8 +93,8 @@ Discrepancies often lead to errors, especially when the same terms could mean di
 (rr-rdm-电子表格-tips-several)=
 ### 使用几张木板
 
-我们常常使用不同但相关的数据表。 它确实是一种方便的工具，特别是当人们想要与同事们分享完整的数据集时。  
-另一方面，CSV 文件一次只保存一个工作表。 虽然大多数数据分析软件有几种方法导入 `xlsx` 文件， 实用的解决方案是使用 `xlsx` 格式，同时确保每个工作表都有CSV 格式的信息。 一个更好的解决办法，尤其是长期储存的解决办法，是将所有工作单单独保存到一个CSV文件并将它们放在一起。 这个解决方案还允许包含可能采用不同格式的额外文档(例如)。 解释标题和所选单位含义的文本文件)。
+我们常常使用不同但相关的数据表。 它确实是一种方便的工具，特别是当人们想要与同事们分享完整的数据集时。   
+另一方面，CSV 文件一次只保存一个工作表。 虽然大多数数据分析软件有几种方法导入 `xlsx` 文件， 实用的解决方案是使用 `xlsx` 格式，同时确保每个工作表都有CSV 格式的信息。 一个更好的解决办法，尤其是长期储存的解决办法，是将所有工作单单独保存到一个CSV文件并将它们放在一起。 这个解决方案还允许包含可能采用不同格式的额外文档(例如)。
 
 (rr-rdm-电子表格-提示设计)=
 ### 电子表格设计
