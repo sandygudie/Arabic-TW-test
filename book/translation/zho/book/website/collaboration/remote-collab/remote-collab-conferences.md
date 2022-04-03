@@ -152,7 +152,7 @@
 
 ***中阶段***
 
-*选择一个标准平台来管理您所有的表格，例如 [Surveymonkey](https://www.surveymonkey.com/) 或 [Google 表格](https://www.google.com/forms/about/), 使用关于如何确保收集到的数据的安全性的说明*
+选择一个标准平台来管理您所有的表格，例如 [Surveymonkey](https://www.surveymonkey.com/) 或 [Google 表格](https://www.google.com/forms/about/), 使用关于如何确保收集到的数据的安全性的说明
 
 - 主题建议表。
 - 发言者建议的形式。
@@ -176,7 +176,7 @@
 - 如果届会应平行举行，则应根据届会主题/主题制定议程。
 - 除了会谈外，还有大量的分会场、短会场和其他交流技能的机会。
 - 提供未被选定进行长时间会谈的新的和令人感兴趣的议题，作为在短时间或闪电会谈中提出其想法的机会。
-- 没有直播闪光的谈话和海报演示。 邀请预先录制的闪电会谈和关于可以在展览馆集合的海报的会谈（例如） a 每个人都可以访问的 YouTube 播放列表。
+- 邀请预先录制的闪电会谈和关于可以在展览馆集合的海报的会谈（例如） a 每个人都可以访问的 YouTube 播放列表。
   - 对于海报会话，创建一个可以轻松浏览的在线海报画库。
     * 使用 [F1000 Research](https://f1000research.com/posters/8-400), [Zenodo](https://zenodo.org/), [Figshare](https://figshare.com/) 或 [Open Science Framework (OSF)](https://osf.io/meetings) 以确保DOI 被分配到每个提交，并允许浏览收藏。 其他选项是 Flicker, Unsplash 和 Google 照片。
     * 在共享文档中分享每个海报与其在线视频的链接。
@@ -300,5 +300,5 @@
 
 ## 参考书目
 
-- 运行会议</em> 的 *清单是 [Gallantries (Galaxy+The Carpentries手册)](https://galaxy-carpentries.github.io/gallantries/handbook) 的一个扩展版本的 [Carpentres 讲习班清单](https://docs.carpentries.org/topic_folders/hosts_instructors/hosts_instructors_checklist.html)</li>
-- The *Checklist for running a longer event such as a conference or sprint* is a summarised version of the debrief document written by the [chairs of the 1st CarpentryCon conference](https://2018.carpentrycon.org/) organisation committee.</ul>
+- 运行会议</em> 的 *清单是 [Gallantries (Galaxy+The Carpentries手册)](https://galaxy-carpentries.github.io/gallantries/handbook) 的一个扩展版本的 [Carpentres 讲习班清单](https://docs.carpentries.org/topic_folders/hosts_instructors/hosts_instructors_checklist.html)
+- The *Checklist for running a longer event such as a conference or sprint* is a summarised version of the debrief document written by the [chairs of the 1st CarpentryCon conference](https://2018.carpentrycon.org/) organisation committee.
