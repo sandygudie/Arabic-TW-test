@@ -46,7 +46,7 @@ Um documento que pode ser editado de forma colaborativa em tempo real permite qu
 O registro de eventos eficazes é o primeiro lugar para saber quem vai participar do seu evento. É especialmente importante quando os eventos são destinados a um grande grupo de pessoas.
 
 - [Zoom](https://support.zoom.us/hc/en-us/articles/204619915-Scheduling-a-Webinar-with-Registration): agendar uma reunião online e um webinar com o registro no Zoom fornece um formulário breve automaticamente antes de receber o link para ingressar no webinar.
-- [Eventbrite](https://www.eventbrite.com/): Um gerenciamento de eventos e site de ticketing O serviço permite aos usuários navegarem, criarem e promoverem eventos locais. O serviço cobra uma taxa para os organizadores do evento em troca dos serviços de ingresso on-line, a menos que o evento seja gratuito.
+- [Eventbrite](https://www.eventbrite.com/): Um gerenciamento de eventos e site de ticketing [Eventbrite](https://www.eventbrite.com/): Um gerenciamento de eventos e site de ticketing O serviço permite aos usuários navegarem, criarem e promoverem eventos locais. O serviço cobra uma taxa para os organizadores do evento em troca dos serviços de ingresso on-line, a menos que o evento seja gratuito.
 - [Formulário Google](https://en.wikipedia.org/wiki/Google_Forms): Google Forms é um software de administração de pesquisa que permite a coleta de registros/dados que podem ser inseridos automaticamente em uma planilha.
 
 ## Hospedando chamadas on-line
