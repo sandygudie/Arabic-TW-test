@@ -5,8 +5,7 @@
 ---
 nome: dívida robótica
 alternativa: Esta ilustração mostra uma grande máquina que diz 'você nos deve". Tem algumas pessoas a automatizar a chamada da dívida, o que está a afectar a comunidade de baixos rendimentos - há pessoas em cadeiras de rodas, uma mãe cansada que olha com uma criança e uma criança e um homem aflitivos ao seu lado.
----
-Ilustração de decisões automatizadas afetando de forma desproporcionada comunidades de baixa renda.
+--- Ilustração de decisões automatizadas afetando de forma desproporcionada comunidades de baixa renda.
 _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
