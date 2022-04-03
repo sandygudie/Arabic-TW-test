@@ -4,7 +4,7 @@
 (rr-make-resources-manual)=
 ## Manualmente
 
-- [A Referência Oficial de Criação de Referência manual.](https://www.gnu.org/software/make/manual/make.html)
+- https://www.gnu.org/software/make/manual/make.html
 
 (rr-make-resources-discussions)=
 ## Discussões
