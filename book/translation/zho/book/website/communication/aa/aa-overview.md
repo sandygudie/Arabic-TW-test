@@ -8,7 +8,7 @@
 (cm-aa-overview-who)=
 ## 谁是作者？ 还是他们实际上是贡献者？
 
-将名称分配给出版物可能是个棘手的生意。 然而，仍然存在着这种情况。 一个需要在项目开始时作出的重要决定是，该项目制作的文章上的名字是否将是作者还是贡献者？ 或两者兼而有之。
+将名称分配给出版物可能是个棘手的生意。 一个需要在项目开始时作出的重要决定是，该项目制作的文章上的名字是否将是作者还是贡献者？
 
 由于期刊和出版商都有关于作者标准的具体政策，因此这个决定可能根本得不到你们的注意。 因此， 如果您想要在特定的日记中发布，您将必须遵守策略并在您的项目中就此达成协议。
 
@@ -27,7 +27,7 @@
 
 与学术界关于更改名称影响的讨论的联系：
 * 会话中的文章 - [三位科学家如何在婚姻情况下改变姓名对个人和职业的影响](https://theconversation.com/how-three-scientists-navigated-the-personal-and-career-implications-of-a-name-change-with-marriage-114918)
-* [已婚妇女在学术界——你是否改变了名字？](https://www.reddit.com/r/AskAcademia/comments/2dfqho/married_women_in_academia_did_you_change_your/)
+* 已婚妇女在学术界——你是否改变了名字？
 * 伦敦经济学院社会科学博客对社会经济的影响—— [学术出版具有横贯性。 必须允许作者追溯性地更改他们的名字](https://blogs.lse.ac.uk/impactofsocialsciences/2020/09/30/for-academic-publishing-to-be-trans-inclusive-authors-must-be-allowed-to-retroactively-change-their-names/)。
 
 本章并不是反对这种竞争性引证的学术文化的地方，但必须指出，现在有许多不同类型的产出可以不同方式归类。 因此，我们目前看到期刊文章的唯一重要性发生缓慢变化。 这种产出可包括数据集， 记录研究项目的代码或博客，就通信和研究的可复制性而言，这些代码或博客的价值基本上与期刊文章相同。
