@@ -5,7 +5,7 @@
 
 - No toque los datos crudos. Copia de seguridad en algún lugar razonable y guarda una copia de sólo lectura.
 
-- ¡Ten un plan! Decide dónde se almacenarán tus datos, qué se llama, cuando/si necesita ser borrado BEFORE comienza a recolectarlo y anotarlo en un plan de gestión de datos. Si recopila datos confidenciales, ¡planea el consentimiento para compartir desde el principio!
+- ¡Ten un plan! ¡Ten un plan! Decide dónde se almacenarán tus datos, qué se llama, cuando/si necesita ser borrado BEFORE comienza a recolectarlo y anotarlo en un plan de gestión de datos. Si recopila datos confidenciales, ¡planea el consentimiento para compartir desde el principio!
 
 - Documentar todo. Sabes quién era la peor persona para responder a los correos electrónicos es cuál era la frecuencia de muestreo del canal X. No, no él, en realidad es usted mismo hace un año. ¡Mantenga la documentación con los datos!
 
