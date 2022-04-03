@@ -34,10 +34,10 @@ cs. d <---- (página inicial para o capítulo de controle de versão)
 £new-chapéu <---- (página inicial para um novo capítulo)
 eqüentões)
 ├─vcs (pasta de capítulo)
-├├─vcs-workflow. d
-Econômico-vcs-git. d
+├├─vcs-workflow. d Econômico-vcs-git. d
 eg vcs-git-commit.md
-exereto...
+exereto... £™vcs-personal-stories.md
+ahead to be 'checklist' de vcs.
 £™vcs-personal-stories.md
 ahead to be 'checklist' de vcs. d
 ereposição_vcs-resources. d
@@ -91,7 +91,7 @@ Por exemplo, porque o [Estudo de caso de Métodos Estatísticos](https://the-tur
 (ch-contributing-workflow-referencing)=
 ## Fontes externas de referência adequadamente
 
-Certifique-se de que as fontes externas sejam referenciadas corretamente e incluídas no _arquivo bibtex do The Turing Way_ centralizado, conforme recomendado no guia de estilo [](https://the-turing-way.netlify.app/community-handbook/style/style-citing.html)
+Certifique-se de que as fontes externas sejam referenciadas corretamente e incluídas no _arquivo bibtex do The Turing Way_ centralizado, conforme recomendado no guia de estilo
 
 (ch-contributing-workflow-glossário)=
 ## Atualizar o glossário geral
