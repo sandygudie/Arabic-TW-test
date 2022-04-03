@@ -14,8 +14,7 @@ As leis e as políticas são feitas pelas pessoas e estão sujeitas a negociaç�
 ---
 nome: direitos humanos
 alt: Imagem mostra duas pessoas sentadas no chão. Estão a sorrir e a olhar para o muro de betão denominado "direitos humanos", que é assegurado por uma cadeia pesada e por um bloqueio pesado. Por detrás do muro há vários monstros que ilustram os violadores dos direitos humanos e elementos nocivos da sociedade que podem violar leis e políticas na ausência deste muro de protecção.
----
-Ilustração sobre direitos humanos, leis e políticas.
+--- Ilustração sobre direitos humanos, leis e políticas.
 _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: 10.5281/zenodo.3332807.
 ```
 
