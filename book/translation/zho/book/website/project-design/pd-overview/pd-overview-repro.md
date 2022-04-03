@@ -72,7 +72,7 @@ We recommend reading the following chapters to understand effective communicatio
 ### 准备更改
 
 ```{note}
-**我独自工作，我是否需要思考项目设计？**
+**我独自工作，我是否需要思考项目设计？ **
 
 简短的答案是“是”。
 项目设计将使您能够为自己管理您的工作(见： {ref}`入门<pd-overview-planning-started>`)。
@@ -80,8 +80,8 @@ We recommend reading the following chapters to understand effective communicatio
 在项目设计早期进行少量的工作和投入时间，在任何需要改变的情况下都节省了很多时间。
 ```
 
-一个项目确实很难从为一个人设计的做法转向为一个小组工作的做法。 因此，如果您必须让其他人参与您的项目，就必须记录和使用能够使协作的做法。 考虑到良好的团队做法，即使是个人经管的项目，也会使他们很容易有效地实现他们的目标。 例如，您可以在您的项目中定义目标并通过询问如下问题来确定任务： 如何分割我的工作？ 如何进行审查，如何作出决定，等等。 了解 [放大方法](http://www.agilenutshell.com/) 如何帮助适应变化。 在我们关于团队工作的 {ref}`部分学习良好团队练习<cl-new-community-teamwork>`。
+一个项目确实很难从为一个人设计的做法转向为一个小组工作的做法。 因此，如果您必须让其他人参与您的项目，就必须记录和使用能够使协作的做法。 考虑到良好的团队做法，即使是个人经管的项目，也会使他们很容易有效地实现他们的目标。 例如，您可以在您的项目中定义目标并通过询问如下问题来确定任务： 如何分割我的工作？ 了解 [放大方法](http://www.agilenutshell.com/) 如何帮助适应变化。 在我们关于团队工作的 {ref}`部分学习良好团队练习<cl-new-community-teamwork>`。
 
 项目设计不能确保一切都按计划进行，否则就不会有意料之外的挑战。 然而，它有助于事先为风险管理做好准备，并更好地适应变化。 另外，查看 [软件工程背景下更改曲线](http://www.agilemodeling.com/essays/costOfChange.htm) 的成本。
 
-_This chapter summarises participants' notes from a short workshop called "Good Practices for Designing Software Development Projects (The Turing Way)" at the [Collaboration Workshop 2021](https://www.software.ac.uk/cw21)  hosted by [Software Sustainability Institute](https://www.software.ac.uk). 讲习班由Malvika Sharan、Emma Karoune和Batool Almarzouq在2021年3月31日讲演。 Zenodo. DOI： [10.5281/zenodo.4650221](https://doi.org/10.5281/zenodo.4650221)。_
+_This chapter summarises participants' notes from a short workshop called "Good Practices for Designing Software Development Projects (The Turing Way)" at the [Collaboration Workshop 2021](https://www.software.ac.uk/cw21)  hosted by [Software Sustainability Institute](https://www.software.ac.uk). 讲习班由Malvika Sharan、Emma Karoune和Batool Almarzouq在2021年3月31日讲演。 讲习班由Malvika Sharan、Emma Karoune和Batool Almarzouq在2021年3月31日讲演。 Zenodo. Zenodo. DOI： [10.5281/zenodo.4650221](https://doi.org/10.5281/zenodo.4650221)。_
