@@ -13,8 +13,7 @@ Existem várias definições de reprodutibilidade em uso, e discutimos estas com
 height: 500px
 name: reproducible
 alt: Uma pessoa mostrando a outra pessoa quais passos dar para fazer a pesquisa de dados reprodutível.
----
-Ilustração do projeto _The Turing Way_ por Scriberia. Utilizada sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+--- Ilustração do projeto _The Turing Way_ por Scriberia. Utilizada sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
 _The Turing Way_ começou por definir a reprodutibilidade no contexto deste manual, explicitando a sua importância para a ciência e os cientistas, e fornecendo uma visão geral dos conceitos, ferramentas e recursos comuns. Os primeiros capítulos eram sobre {ref}`controle de versão<rr-vcs>`, {ref}`testes<rr-testing>`, e {ref}`ambientes computacionais reprodutíveis<rr-renv>`. Desde o início deste projeto em 2019, muitos capítulos adicionais foram escritos, editados, revisados, lidos e promovidos por mais de 100 pessoas contribuidoras.
