@@ -26,7 +26,10 @@
 
 欢迎大家加入我们的非正式讨论的Gitter渠道。 他们还可以注册接收我们每月的通讯： [https://tinyletter.com/TuringWay/](https://tinyletter.com/TuringWay/)。 我们是 [@turingway](https://twitter.com/turingway)在 Twitter 上，我们在那里发送定期更新。
 
-如果您有更多关于该项目的想法或疑问，那么Book Dash事件或与我们社区相关的其他东西， 请随时联系团队成员 [theturingway@gmail。 om](mailto:theturingway@gmail.com)。
+如果您有更多关于该项目的想法或疑问，那么Book Dash事件或与我们社区相关的其他东西， 请随时联系团队成员
+theturingway@gmail。</p> 
+
+
 
 ## 报告和补充材料
 
