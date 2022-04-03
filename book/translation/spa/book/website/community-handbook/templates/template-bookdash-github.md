@@ -39,13 +39,12 @@ Nombre / Instituto o afiliación / ¿Qué aspecto específico de GitHub encuentr
 
 🗣️ ¡Bienvenido!
 
-- Recordatorio: [Código de conducta & directrices de participación comunitaria](https://the-turing-way.netlify.app/community-handbook/coc. tml)
+[Código de conducta & directrices de participación comunitaria](https://the-turing-way.netlify.app/community-handbook/coc. tml)
 - Si experimentas o eres testigo de un comportamiento inaceptable, o tienes otras preocupaciones, por favor informarlo contactando con los organizadores - Malvika y Kirstie. ([theturingway@gmail.com](mailto:theturingway@gmail.com)).
 
 ### Llamada rol
 
-- Nombre / Pregunta del rompecabezas: Comparte algo de la naturaleza que te ha impresionado o te ha traído paz recientemente - quizás una flor, una vista, una foto, un perfume, una planta en macetas, un pájaro que voló pasado... 
-* 
+- Nombre / Pregunta del rompecabezas: Comparte algo de la naturaleza que te ha impresionado o te ha traído paz recientemente - quizás una flor, una vista, una foto, un perfume, una planta en macetas, un pájaro que voló pasado... * 
 * 
 *  
 
@@ -82,6 +81,9 @@ Nombre / Instituto o afiliación / ¿Qué aspecto específico de GitHub encuentr
 **Comentarios**
 
 ¿Qué funcionó? ¿Qué no funcionó? ¿Qué soporte adicional necesitaría antes o durante el Cuadro de Control de Libro?
+
+-
+-
 
 -
 -
