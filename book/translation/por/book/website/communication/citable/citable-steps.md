@@ -31,8 +31,7 @@ As publicações on-line são anexadas a identificadores persistentes que são u
 ---
 nome: faça-o
 alternativa: Esta imagem exibe três caixas com materiais no topo. A caixa principal do meio contém "identificadores" escritos nele com três discos em cima, que são rotulados como "conjuntos de dados". Ambas as caixas a seu lado têm artigos de diário sobre eles. Uma seta no topo da imagem aponta para essas imagens como sendo 'Identificadores Digitais de Objetos Identificadores'. Há um texto no fundo da imagem que diz "Persistente", "Único", "Confiável".
----
-Identificadores Digitais de Objetos ou DOIs são persistentes, únicos e confiáveis. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+--- Identificadores Digitais de Objetos ou DOIs são persistentes, únicos e confiáveis. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
 Identificadores exclusivos ou ligações persistentes para objetos digitais são mais chamados formalmente de [Identificadores Digitais de Objeto ou DOIs](https://en.wikipedia.org/wiki/Digital_object_identifier). Usar DOIs torna muito mais fácil para outros citar seus dados reduz o risco de podridão de link e significa que você pode rastrear como sua pesquisa está sendo usada e citada.
