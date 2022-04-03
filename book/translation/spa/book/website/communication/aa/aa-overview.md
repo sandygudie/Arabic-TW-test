@@ -21,7 +21,7 @@ Por lo tanto, sigue siendo común dar la autoría sólo a aquellos que realmente
 (cm-aa-primero)=
 ## Primer dominio del autor
 
-Ser el primer autor impacta la reputación y visibilidad de esa persona debido a una visión percibida de que esta persona hace la mayor contribución, índices de citación que en el pasado sólo contaron citas para el primer autor nombrado, y citas dentro de artículos académicos que se acortan al nombre del primer autor con *et al* (Ref: Frandsen & Nicolaisen 2010). El número de citas que tienen los documentos y en qué revistas se publican son a menudo criterios importantes para obtener nuevos puestos de trabajo. conseguir promociones y ganar solicitudes de financiación.
+Ser el primer autor impacta la reputación y visibilidad de esa persona debido a una visión percibida de que esta persona hace la mayor contribución, índices de citación que en el pasado sólo contaron citas para el primer autor nombrado, y citas dentro de artículos académicos que se acortan al nombre del primer autor con *et al* (Ref: Frandsen & Nicolaisen 2010). (latín para "y otros") {cite:ps}`Frandsen2010name,VanPraag2008benefits`. El número de citas que tienen los documentos y en qué revistas se publican son a menudo criterios importantes para obtener nuevos puestos de trabajo. conseguir promociones y ganar solicitudes de financiación.
 
 La práctica del primer autor que se ocupa de otros también tiene implicaciones sociales. Por ejemplo, podría ser una decisión difícil para un investigador cambiar su nombre. debido al matrimonio o a la divorcia, ya que esta acción podría tener un impacto negativo en su cuidador de investigación.
 
@@ -36,7 +36,7 @@ Aquí hay dos buenos artículos sobre cómo debemos alejarnos de la cultura de l
 * [No más el primer autor, no más el último autor de Gretchen Kisher](https://www.nature.com/articles/d41586-018-06779-2)
 * [Desafíos en la evaluación de contribuciones a la investigación reproducible y a la ciencia abierta por Malvika Sharan](https://malvikasharan.github.io/blogs/dora-panel-open-science/).
 
-Sin embargo, las decisiones relativas a la autoría siguen siendo fundamentales en la mente de la mayoría de los académicos y también se utilizan como un indicador del impacto de los proyectos. Por lo tanto, hay que tomar decisiones sobre la autoría y las dos decisiones principales que hay que tomar son: ¿quién debería obtener la autoría en el papel? y qué orden deben tomar los nombres?
+Sin embargo, las decisiones relativas a la autoría siguen siendo fundamentales en la mente de la mayoría de los académicos y también se utilizan como un indicador del impacto de los proyectos. Por lo tanto, hay que tomar decisiones sobre la autoría y las dos decisiones principales que hay que tomar son: ¿quién debería obtener la autoría en el papel? y qué orden deben tomar los nombres? y qué orden deben tomar los nombres?
 
 Las contribuciones a los proyectos de investigación y cómo se traducen en la autoría de un artículo de revista se abordan de muchas maneras diferentes dependiendo de la disciplina en la que se base el estudio. la ubicación de la publicación (que se utiliza la revista o el editor), la motivación de los colaboradores del proyecto y el número de personas involucradas en el proyecto. El orden del nombre está fuertemente basado en una tradición disciplinaria específica de lo que se entiende por ese orden y esto puede crear tensión cuando se establecen nuevas colaboraciones de investigación.
 
