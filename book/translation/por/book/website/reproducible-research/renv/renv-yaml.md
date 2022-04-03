@@ -18,8 +18,7 @@ distância: xenial
 # Use a linguagem de programação Python
 idioma: python
 
-# Use a versão do Python 3.
-python: 3.2
+# Use a versão do Python 3. python: 3.2
 
 # Use o pacote Python numpy e use a versão 1. Pacotes 6.1
 :
