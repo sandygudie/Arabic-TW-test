@@ -6,8 +6,7 @@ O padrão generalizado na academia tem sido, e continua a ser, trabalhar individ
 ---
 nome: nova comunidade
 alt: uma ilustração de 2 pessoas que estão trabalhando juntos e discutindo um gráfico de dados.
----
-Fazer trabalho em equipe. [Imagem sem realeza de muitos Pixels](https://www.manypixels.co/gallery/)
+--- Fazer trabalho em equipe. [Imagem sem realeza de muitos Pixels](https://www.manypixels.co/gallery/)
 ```
 
 ## Estrutura de equipes
