@@ -98,4 +98,4 @@ Aquí están los pasos para publicar el borrador del boletín en línea y enviar
 - Actualice la tabla índice en el archivo [README.md](https://github.com/alan-turing-institute/the-turing-way/blob/main/communications/newsletters/README.md) con los detalles del boletín publicado recientemente.
 - Tweet sobre él de [@turingway](https://twitter.com/turingway).
 - Envía una notificación en los canales [Gitter](https://gitter.im/alan-turing-institute/the-turing-way) y [Slack](https://theturingway.slack.com).
-- ¡Haz una danza celebratoria! (¡Esto es obligatorio! 💃)
+- ¡Haz una danza celebratoria! (¡Esto es obligatorio! 💃) (¡Esto es obligatorio! 💃)
