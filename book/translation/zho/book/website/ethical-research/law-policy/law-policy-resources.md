@@ -11,7 +11,7 @@
 - 我的工作是否实现了人权？
 
 ## 进一步阅读
-- [人工智能：什么人权可以用它来做吗？](https://points.datasociety.net/artificial-intelligence-whats-human-rights-got-to-do-with-it-4622ec1566d5)  (_博客帖子由 Christiaan van Veen 和 Corinne Cath_)
+- [人工智能：什么人权可以用它来做吗？ ](https://points.datasociety.net/artificial-intelligence-whats-human-rights-got-to-do-with-it-4622ec1566d5)  (_博客帖子由 Christiaan van Veen 和 Corinne Cath_)
 - [《世界人权宣言》70：将人权置于设计中心， 开发和部署人工智能](https://hrbdt.ac.uk/the-universal-declaration-of-human-rights-at-70-putting-human-rights-at-the-heart-of-the-design-development-and-deployment-of-artificial-intelligence/) (_人权、大型数据和技术项目，联合王国艾塞克斯大学，_)
 - [算法和人权――关于自动数据处理技术的人权层面和可能涉及的监管问题的研究](https://rm.coe.int/algorithms-and-human-rights-en-rev/16807956b5) (_欧洲理事会_)
 - [数据女性化](https://data-feminism.mitpress.mit.edu/) (_由Catherine D'Ignazio 和 Lauren Klein 编写_)
