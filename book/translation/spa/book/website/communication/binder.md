@@ -95,7 +95,7 @@ Muchas preguntas comunes se responden en la página [Acerca de mybinder.org](htt
 
 Desgraciadamente, no pueden. Al menos, no desde la línea de comandos en una instancia de Binder en ejecución.
 
-Escribiendo de nuevo a un repositorio alojado, ya sea en GitHub o alguna otra plataforma, requerirá una credencial de algún tipo para autorizarte a escribir en ese repositorio. Y como ya se ha mencionado, mybinder. rg es un servicio completamente público y no debe proporcionar ninguna información sensible a una instancia de Binder que se ejecute bajo ninguna circunstancia.
+Escribiendo de nuevo a un repositorio alojado, ya sea en GitHub o alguna otra plataforma, requerirá una credencial de algún tipo para autorizarte a escribir en ese repositorio. rg es un servicio completamente público y no debe proporcionar ninguna información sensible a una instancia de Binder que se ejecute bajo ninguna circunstancia.
 
 Sin embargo, mybinder. rg ejecuta un complemento llamado [`jupyter-offlinenotebook`](https://github.com/manics/jupyter-offlinenotebook) que proporciona un botón de descarga para guardar sus cuadernos localmente, _¡incluso si tu navegador ha perdido su conexión con la infraestructura de la nube que proporciona el ordenador!_ Esto significa que puede guardar su progreso localmente, actualizar su repositorio con sus cuadernos guardados y volver a abrir su Binder con los cuadernos actualizados.
 
