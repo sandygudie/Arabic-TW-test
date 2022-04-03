@@ -9,9 +9,9 @@ Para empezar, visita [`cffinit`](https://citation-file-format.github.io/cff-init
 
 ```{figure} ../../figures/gifs/cffinit-0.gif
 ---
-name: cffinit-0
+nombre: cffinit-1
 ancho: 80%
-alt: Página de tierra de cffinit.
+alt:
 ---
 Página de tierra de cffinit. [^cffinitversion]
 ```
@@ -22,11 +22,11 @@ En la primera página de la aplicación, introduzca el título de su obra, escri
 
 ```{figure} ../../figures/gifs/cffinit-1.gif
 ---
-nombre: cffinit-1
+name: cffinit-0
 ancho: 80%
-alt: Primera página de la aplicación, para título, mensaje y tipo. Los campos están vacíos.
+alt: Página de tierra de cffinit.
 ---
-Primera página de la aplicación, para título, mensaje y tipo. [^cffinitversion]
+Página de tierra de cffinit. [^cffinitversion]
 ```
 
 Puedes ver la vista previa del archivo `CITATION.cff` generado a la derecha.
@@ -43,7 +43,7 @@ Haga clic en siguiente para continuar a la pantalla de **Autores**.
 ---
 name: cffinit-1-filled
 ancho: 80%
-alt: Primera página del formulario, para título, mensaje y tipo. Los campos están llenos.
+alt: Primera página del formulario, para título, mensaje y tipo. Los campos están vacíos.
 ---
 Primera página del formulario, para título, mensaje y tipo. Los campos están llenos. [^cffinitversion]
 ```
@@ -83,7 +83,7 @@ Segunda página del formulario, para los autores. Un autor lleno. [^cffinitversi
 
 ## Mínimo `archivo CITATION.cff`
 
-¡Enhorabuena! Ahora tu archivo `CITATION.cff` cumple con los requisitos mínimos. En esta pantalla puede descargar el archivo generado o copiarlo desde el widget de vista previa. Le recomendamos encarecidamente que añada más información. Haga clic en el botón "Añadir más" para añadir más campos a su archivo de citas para hacerlo aún mejor.
+¡Enhorabuena! ¡Enhorabuena! Ahora tu archivo `CITATION.cff` cumple con los requisitos mínimos. En esta pantalla puede descargar el archivo generado o copiarlo desde el widget de vista previa. Le recomendamos encarecidamente que añada más información. Haga clic en el botón "Añadir más" para añadir más campos a su archivo de citas para hacerlo aún mejor.
 
 ```{figure} ../../figures/gifs/cffinit-3.gif
 ---
