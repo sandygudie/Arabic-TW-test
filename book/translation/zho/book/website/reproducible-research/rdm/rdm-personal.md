@@ -69,22 +69,22 @@
 
 There are a number of strategies that you can adopt to **safeguard the privacy** of your research subjects:
 
-**1. 最大限度地减少数据**
+**1. 1. 最大限度地减少数据**
 
 * 如果不需要个人信息，请不要收集。
 * 定期审查您是否保留不必要的识别信息。
 * 当识别信息不再需要时，安全移除、删除或销毁它。
 
-**2. 数据保留限制**
+**2. 2. 数据保留限制**
 * 决定在删除直接标识符、应用更复杂的地名化技术或完全删除数据之前保留可识别数据的时间。
 * 当删除敏感数据时，您需要意识到删除文件的标准方法(例如将文件移动到回收站和清空文件) 并不安全。 这些已删除的文件可能已恢复。 使用 BleachBit 等软件安全地删除数据。
 
-**3. 安全数据传输**
+**3. 3. 安全数据传输**
 * 在决定传输个人数据之前，您应该考虑是否有必要传输可识别的数据。 例如，数据是否可以去除识别或匿名？
 * 如果数据不能被无法识别，那么您必须确保您有权传输个人数据。 而且有适当的保障措施来保护过境之前、过境期间和过境之后的数据。
 * 您的大学或研究所往往会提供安全文件传输的解决方案。 联系您的研究数据、隐私或IT支持团队以获取指导。
 
-**4. 加密**
+**4. 加密 加密**
 * 加密提供保护，确保只有拥有相关加密密钥(或密码)的人才能访问内容。
     * 在磁盘上保护：Windows的Bitlocker，MacOS 的 FileVault
     * “容器”级别上的保护(包含多个文件的文件夹)：Veracrypt (或MacOS存档)
@@ -94,12 +94,12 @@ There are a number of strategies that you can adopt to **safeguard the privacy**
       * 更复杂的设置：使用 PGP 配刀(也可以用于安全发送电子邮件)
     * 请参阅 [Ghent大学加密研究人员手册](https://osf.io/nx8km/) 了解更多细节和分步指南
 
-**5. 访问权限**
+**5. 5. 访问权限**
 * 共享文件夹权限的管理。
 * 密码保护。
 
 
-**6. Anonymisation**
+**6. 6. Anonymisation**
 
 Anonymisation 是一种去除数据集中的识别信息的过程。 它主要用于在不泄露数据所含机密信息的情况下分享或公布数据，同时限制信息的流失。
 * 在可能的情况下，直接识别符（如姓名、地址、地址） 一旦不再需要识别资料，就应删除电话号码和帐号。 您可以删除数据或替换为假名。 对于定性数据，您应在记录面谈时替换或概括识别特性。
@@ -108,11 +108,11 @@ Anonymisation 是一种去除数据集中的识别信息的过程。 它主要�
    * 因此，当打算分享可能可识别的数据或数据产生的产出时， 您可能需要考虑更先进的匿名技术，例如统计披露控制(SDC，参见 [本手册](https://securedatagroup.org/sdc-handbook/) 了解更多信息)。
 * 欲了解更多有关匿名的信息，您可以观看 [这次由Enrico Glerean](https://www.youtube.com/watch?v=ILXeA4fx3cI) 举办的研讨会。
 
-**7. 共享敏感数据**
+**7. 7. 共享敏感数据**
 
 如果您打算分享或发布您的数据，您必须确保您的数据是适当和安全的共享。 例如，你应考虑数据是否能够适当地使用地名， 以及是否仍然有效地使用偏离地名的数据(另见 {ref}`数据共享障碍<rr-rdm-sharing>`开放的研究章节)。 在应用方法去除识别和匿名敏感数据之后，仍然可能存在重新识别的风险(见 {cite}`Meyer2018个人数据`)。
 
-另一项安全措施或替代脱离接触的措施正在实施出入控制，以确保数据得到适当和安全的分享。 This may involve finding a data repository which can provide suitable access controls (see [here](https://osf.io/tvyxz/wiki/8.%20Approved%20Protected%20Access%20Repositories/) for a list of protected Access Repositories). 这些仓库可以提供对项目元数据的访问，这些元数据允许他人查找， {ref}`引述数据<cm-citable-cite>` 限制访问/条件访问还为潜在的重新用户提供他们访问数据所需的信息，使数据 {ref}`FAIR <rr-rdm-fair>` 例如，获取数据的条件可能要求潜在数据重新使用者：
+另一项安全措施或替代脱离接触的措施正在实施出入控制，以确保数据得到适当和安全的分享。 This may involve finding a data repository which can provide suitable access controls (see [here](https://osf.io/tvyxz/wiki/8.%20Approved%20Protected%20Access%20Repositories/) for a list of protected Access Repositories). 这些仓库可以提供对项目元数据的访问，这些元数据允许他人查找， {ref}`引述数据<cm-citable-cite>` 限制访问/条件访问还为潜在的重新用户提供他们访问数据所需的信息，使数据 {ref}`FAIR <rr-rdm-fair>` 例如，获取数据的条件可能要求潜在数据重新使用者： 这些仓库可以提供对项目元数据的访问，这些元数据允许他人查找， {ref}`引述数据<cm-citable-cite>` 限制访问/条件访问还为潜在的重新用户提供他们访问数据所需的信息，使数据 {ref}`FAIR <rr-rdm-fair>` 例如，获取数据的条件可能要求潜在数据重新使用者：
   * 登记和/或提供联系人详细信息，以确保重新使用者真正了解自己的责任
   * 提供关于如何使用数据的信息
   * 同意条件（数据安全、隐私、同意书中包含的限制）
@@ -120,13 +120,13 @@ Anonymisation 是一种去除数据集中的识别信息的过程。 它主要�
 **资源**
 * [保护敏感数据课程](https://mantra.edina.ac.uk/protectionrightsandaccess) 由 [MANTRA](https://mantra.edina.ac.uk)
 * {cite}`Meyer2018personaldata`.
-* [由 [Zosia Beckles 介绍](https://youtu.be/J9kWkzK83i4)](https://www.youtube.com/watch?v=J9kWkzK83i4&list=PLyeHH3bEQqIbgbw75gheV27nFF2ctPPpR&index=1), [Michele Voznick](https://youtu.be/w5v5d6r6irs) and [Tessa Darbyshire](https://youtu.be/jEFu1ykVI_I) on Responsible Data Management: Legal & Ethical Aspects as part of the [Fail it session](https://www.youtube.com/c/AI4ScientificDiscovery).
+* [由 \[Zosia Beckles 介绍\](https://youtu.be/J9kWkzK83i4)](https://www.youtube.com/watch?v=J9kWkzK83i4&list=PLyeHH3bEQqIbgbw75gheV27nFF2ctPPpR&index=1), [Michele Voznick](https://youtu.be/w5v5d6r6irs) and [Tessa Darbyshire](https://youtu.be/jEFu1ykVI_I) on Responsible Data Management: Legal & Ethical Aspects as part of the [Fail it session](https://www.youtube.com/c/AI4ScientificDiscovery).
 * [Presentation](https://www.youtube.com/watch?v=H2mv6q4WwOU&) by Rob Gommans on GDPR and the Processing of (Identifiable) Image, Audio, and Video Data for Scientific Research Purposes.
 * [Presentation](https://youtu.be/_3bufely0c0) by Stephan Heunis on Brain research data and personal data privacy: practical tips to share and protect.
 * [Presentation](https://youtu.be/eAKhI0qde2w?t=1104) by Walter Scholger on the GDPR with resources such as informed consent templates (18:30 - 38:50).
 * [介绍](https://www.youtube.com/watch?v=PSe2V1KTQ8w&) 如何处理艾尔托大学Enrico Glerean和PaIndependent ivi Lindstrom的个人数据。 查看 [这里](https://www.aalto.fi/en/services/rdm-training) 查看整个课程。
-* [由Rosalie Salameh 在GDRPR上演示](https://www.youtube.com/watch?v=J457qBdQ3xo)
+* 由Rosalie Salameh 在GDRPR上演示
 * [通过设计展示](https://vimeo.com/362161972) 和 [文章](https://www.smashingmagazine.com/2017/07/privacy-by-design-framework/) **的隐私**
-* [关于Hina Zahid分享数据中的伦理和法律问题的介绍](https://www.youtube.com/watch?v=2WebuDlzEIw&list=PLG87Imnep1Sln3F69_kBROUrIbT5iderf&index=2)
+* 关于Hina Zahid分享数据中的伦理和法律问题的介绍
 * [由Hanne Elsen在研究生命周期中幻灯片](https://osf.io/5xhya/) 关于隐私和GDPR 。
 * [关于数据共享数据去鉴别程序的讲习班材料](https://osf.io/em3da/)。
