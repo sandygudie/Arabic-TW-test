@@ -11,8 +11,7 @@
 ---
 nome: a forma de reconhecimento
 alt: A imagem mostra o atual sistema de reconhecimento com muitas pessoas segurando uma pessoa. Nessa altura, a Turing Way reconhece todos os contribuintes, pois pensamos que todos devem ser igualmente reconhecidos, para que todos estejamos ao mesmo nível. Ele também mostra um robô para representar o bot de todos-colaboradores e as pessoas que escrevem em seu arquivo de contribuidores.
----
-Ilustração sobre reconhecimento do The Turing Way.
+--- Ilustração sobre reconhecimento do The Turing Way.
 _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: 10.5281/zenodo.3332807.
 ```
 
