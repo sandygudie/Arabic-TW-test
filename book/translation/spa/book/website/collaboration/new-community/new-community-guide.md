@@ -1,7 +1,7 @@
 (cl-new-community-guide)=
 # Guía para planear una comunidad
 
-¿Qué pasa si iniciaste un proyecto con un pensamiento como: “¡Tengo esta gran idea que quiero probar en estos datos públicos!”? No hay nada de lo que preocuparse si usted es el único que trabaja en ello. Sin embargo, si quieres desarrollar este proyecto - eres responsable de hacer que la gente se sienta incluida en tu proyecto.
+¿Qué pasa si iniciaste un proyecto con un pensamiento como: “¡Tengo esta gran idea que quiero probar en estos datos públicos!”? No hay nada de lo que preocuparse si usted es el único que trabaja en ello. No hay nada de lo que preocuparse si usted es el único que trabaja en ello. Sin embargo, si quieres desarrollar este proyecto - eres responsable de hacer que la gente se sienta incluida en tu proyecto.
 
 Como 'líder del proyecto', Usted quiere crear un ambiente acogedor e inclusivo y crear el primer conjunto de visiones y metas para sus colaboradores. No puedes suponer que todos con los que colaboras conozcan lo que se espera de ellos cuando empiecen a trabajar con otros en tu proyecto. Por lo tanto, es importante establecer las expectativas correctas desde el principio para tu comunidad. aunque puede que no hayas planeado tener uno (ver más detalles: {cite:ps}`Sharan2020Apr`).
 
