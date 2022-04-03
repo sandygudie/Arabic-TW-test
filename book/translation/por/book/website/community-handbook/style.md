@@ -44,8 +44,7 @@ Algumas destas abreviações são:
 height: 400px
 nome: latin-abreviação
 alt: uma imagem com uma lista de 3 abreviações latinas
----
-Uma lista de abreviações latinas para *exempli gratia* (por exemplo), *et-cetera* (assim por diante) e *id est* (isso é).
+--- Uma lista de abreviações latinas para *exempli gratia* (por exemplo), *et-cetera* (assim por diante) e *id est* (isso é).
 Captura de tela de parte da [lista de Abreviações Latinas Comuns para o estilo APA](https://blog.apastyle.org/files/apa-latin-abbreviations-table-2.pdf).
 ```
 
