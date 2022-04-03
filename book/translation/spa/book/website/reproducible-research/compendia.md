@@ -70,8 +70,7 @@ compendio/
 CITUDES (Codigo de tencia)
 (codigo de tencia)
 (t.). analyse_data.R
-(t.). Limpieza_datos.
-→ data_clean
+(t.). Limpieza_datos. → data_clean
 Ninguno: datos_clean.csv
 Ninguno: datos_raw
 tórax. son
@@ -81,8 +80,7 @@ Ninguno: figuras
 diagrama. flow_chart. peg
 ★ LICENSE
 ✓ ★ Makefile
-→ → Papel.Rmd
-Ningunos: README.md
+→ → Papel.
 ```
 
 #### Métodos separados, Data, Salida
@@ -93,55 +91,65 @@ Los principios de un compendio de investigación afirman que debe separar claram
 - **Generado humanamente**: código (`clean_data.R`, `analyse_data.`), papel (`paper.Rmd`), documentación (`README.md`)
 - **Project-generated**: limpia datos (``data_clean\`, figuras (``figuras\`), otro resultado
 
-Los ejemplos mencionados aquí no son exhaustivos y algunos pueden ser "generados por el hombre" y en algún momento convertirse en "solo lectura" (por ejemplo, un humano puede generar el paquete de datos `de metadatos de datos. hijo`, pero una vez que se haga puede convertirse en algo que no se toque). En otras palabras, si una carpeta contiene archivos en cualquiera de estas categorías, puede depender del ciclo de vida del proyecto.
+Los ejemplos mencionados aquí no son exhaustivos y algunos pueden ser "generados por el hombre" y en algún momento convertirse en "solo lectura" (por ejemplo, un humano puede generar el paquete de datos de metadatos de datos.
+En otras palabras, si una carpeta contiene archivos en cualquiera de estas categorías, puede depender del ciclo de vida del proyecto.</p>
 
+<h3 spaces-before="0">Creando un Compendio</h3>
 
-### Creando un Compendio
+<p spaces-before="0">Si ya utiliza algunas de las herramientas de este libro - tales como el control de versiones, Makefiles, y/o ambientes reproducibles - puede venir naturalmente a usted crear un compendio de investigación.
+Esto es, porque un repositorio de control de versiones puede ser un compendio de investigación; Un Makefile lo hace ejecutable; Un entorno reproducible hace que sea reproducible.
+Crear un compendio de investigación, Recomendamos primero pensar en <em x-id="3">cuáles son los componentes de su proyecto</em> y crear la estructura de carpetas en consecuencia.
+Utilice nombres para archivos y carpetas que hagan más fácil que otros entiendan lo que contienen.
+Es una buena idea pensar en esto temprano en el proceso de investigación y comenzar su proyecto con la mentalidad de que el resultado final es un compendio de investigación en lugar de un simple documento de investigación.</p>
 
-Si ya utiliza algunas de las herramientas de este libro - tales como el control de versiones, Makefiles, y/o ambientes reproducibles - puede venir naturalmente a usted crear un compendio de investigación. Esto es, porque un repositorio de control de versiones puede ser un compendio de investigación; Un Makefile lo hace ejecutable; Un entorno reproducible hace que sea reproducible. Crear un compendio de investigación, Recomendamos primero pensar en *cuáles son los componentes de su proyecto* y crear la estructura de carpetas en consecuencia. Utilice nombres para archivos y carpetas que hagan más fácil que otros entiendan lo que contienen. Es una buena idea pensar en esto temprano en el proceso de investigación y comenzar su proyecto con la mentalidad de que el resultado final es un compendio de investigación en lugar de un simple documento de investigación.
+<h3 spaces-before="0">Publicando un Compendio</h3>
 
+<p spaces-before="0">Hay varias opciones para publicar un compendio de investigación:</p>
 
-### Publicando un Compendio
+<ul>
+<li>En una plataforma de versiones como GitHub o GitLab (potencialmente con un enlace a Binder).</li>
+<li>En un archivo de investigación como Zenodo o el Open Science Framework (OSF).</li>
+<li>Como material complementario de una publicación en papel.</li>
+</ul>
 
-Hay varias opciones para publicar un compendio de investigación:
+<p spaces-before="0">Por ejemplo, vea la etiqueta/etiqueta/comunidad "research-compendium" (aplicada en GitHub, Zenodo, OSF) o como sustituto del término "compendio de investigación" en la descripción (usada en GitLab). Para más información, vea también <a href="https://research-compendium.science">Compendio de Investigación</a>.</p>
 
-- En una plataforma de versiones como GitHub o GitLab (potencialmente con un enlace a Binder).
-- En un archivo de investigación como Zenodo o el Open Science Framework (OSF).
-- Como material complementario de una publicación en papel.
+<p spaces-before="0">En el futuro, el compendio de investigación puede ser incluso la propia publicación que permite la revisión por pares de todo el proyecto de investigación.</p>
 
-Por ejemplo, vea la etiqueta/etiqueta/comunidad "research-compendium" (aplicada en GitHub, Zenodo, OSF) o como sustituto del término "compendio de investigación" en la descripción (usada en GitLab). Para más información, vea también [Compendio de Investigación](https://research-compendium.science).
+<p spaces-before="0">(rr-compendia-using)=</p>
 
-En el futuro, el compendio de investigación puede ser incluso la propia publicación que permite la revisión por pares de todo el proyecto de investigación.
+<h3 spaces-before="0">Usando un Compendio</h3>
 
-(rr-compendia-using)=
-### Usando un Compendio
+<p spaces-before="0">Un compendio de investigación puede ser utilizado de varias formas, incluyendo (pero no limitado a):</p>
 
-Un compendio de investigación puede ser utilizado de varias formas, incluyendo (pero no limitado a):
+<ul>
+<li>Revisión de pares: Si los pares pueden comprobar lo que han hecho, pueden revisarlo mucho más a fondo.</li>
+<li>Entendida investigación: Si realmente quieres entender lo que alguien ha hecho en su proyecto de investigación, el compendio de investigación es lo que se necesita ver.</li>
+<li>Enseñar: La compendia de investigación puede ser un buen ejemplo para ser utilizada en la enseñanza.</li>
+<li>Estudios de reproducibilidad / hacks repro: Un compendio de investigación permite que otros investigadores intenten (y esperemos que tengan éxito) rehacer sus cálculos.</li>
+</ul>
 
-- Revisión de pares: Si los pares pueden comprobar lo que han hecho, pueden revisarlo mucho más a fondo.
-- Entendida investigación: Si realmente quieres entender lo que alguien ha hecho en su proyecto de investigación, el compendio de investigación es lo que se necesita ver.
-- Enseñar: La compendia de investigación puede ser un buen ejemplo para ser utilizada en la enseñanza.
-- Estudios de reproducibilidad / hacks repro: Un compendio de investigación permite que otros investigadores intenten (y esperemos que tengan éxito) rehacer sus cálculos.
+<h2 spaces-before="0">Checklist</h2>
 
+<p spaces-before="0">Para crear un compendio de investigación, siga estos pasos:</p>
 
-## Checklist
+<ul>
+<li>Piensa en una buena estructura de carpetas (ver ejemplo arriba)</li>
+<li>Crear estructura de carpetas (directorios principales y subdirectorios)</li>
+<li>Opcional: Hacer el compendio en un repositorio git</li>
+<li>Añadir todos los archivos necesarios para reproducir los resultados del proyecto</li>
+<li>Intenta tener el compendio lo más limpio y fácil de usar posible cuando lo publique para que otros lo usen</li>
+<li>Opcional: Haga que un par compruebe el compendio y compruebe si funciona correctamente</li>
+<li>Publica tu compendio</li>
+</ul>
 
-Para crear un compendio de investigación, siga estos pasos:
+<h2 spaces-before="0">Leyendo más</h2>
 
-- Piensa en una buena estructura de carpetas (ver ejemplo arriba)
-- Crear estructura de carpetas (directorios principales y subdirectorios)
-- Opcional: Hacer el compendio en un repositorio git
-- Añadir todos los archivos necesarios para reproducir los resultados del proyecto
-- Intenta tener el compendio lo más limpio y fácil de usar posible cuando lo publique para que otros lo usen
-- Opcional: Haga que un par compruebe el compendio y compruebe si funciona correctamente
-- Publica tu compendio
+<ul>
+<li>El sitio web <a href="https://research-compendium.science">Compendio de Investigación</a> contiene enlaces a más recursos y publicaciones sobre compendia de investigación, así como enlaces a ejemplos.</li>
+</ul>
 
-## Leyendo más
-
-- El sitio web [Compendio de Investigación](https://research-compendium.science) contiene enlaces a más recursos y publicaciones sobre compendia de investigación, así como enlaces a ejemplos.
-
-
-<!---
+<p spaces-before="0"><!---
 > top 3/5 resources to read on this topic (if they weren't licensed so we could include them above already) at the top, maybe in their own box/in bold.
 > less relevant/favourite resources in case someone wants to dig into this in detail
--->
+--></p>
