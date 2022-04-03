@@ -11,7 +11,7 @@
 * [Hadley Wickham's](http://adv-r.had.co.nz/Style.html) style guide for R.
 * [谷歌的](https://google.github.io/styleguide/Rguide.xml) 样式指南 R. 。
 * [Microsoft 的](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions) 样式指南 C#。
-* [针对C的 PEP7](https://www.python.org/dev/peps/pep-0007/)
+* 针对C的 PEP7
 
 然而，为了快速启动，以下部分提供了一些代码风格建议。
 
@@ -23,7 +23,7 @@
 data <- read.csv("2019-05-17_Turing-Way_Book-Dash.csv")
 
 ```
-R样式指南建议保留文件名的基本名称。 这也许适合于小型紧凑型项目，但对于大型项目来说，有大量类似的文档。 或者如果您没有使用版本控制(见第/章)？ 使用二氧化碳捕获和封存准则可能更为合适。 欲了解更多详情，请查看关于 {ref}`文件命名<pd-filenaming>` 的章节。
+R样式指南建议保留文件名的基本名称。 这也许适合于小型紧凑型项目，但对于大型项目来说，有大量类似的文档。 或者如果您没有使用版本控制(见第/章)？ 欲了解更多详情，请查看关于 {ref}`文件命名<pd-filenaming>` 的章节。
 
 ### Versioning
 
@@ -41,7 +41,7 @@ my-package_1_0_0.py
 
 ### 命名协议
 
-为了清晰和可读性，为您的变量选择一组命名协议是有用的。 有一种很大的品种，一些人可以相当大地说出哪种品种是正确的(对你来说是正确的！)。 这些措施包括：
+为了清晰和可读性，为您的变量选择一组命名协议是有用的。 有一种很大的品种，一些人可以相当大地说出哪种品种是正确的(对你来说是正确的！ 这些措施包括：
 
 - 迷彩案件
 - 小CamelCase
