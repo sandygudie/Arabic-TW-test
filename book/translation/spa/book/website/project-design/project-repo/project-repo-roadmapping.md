@@ -18,7 +18,7 @@ Un mapa de ruta puede describirse en la página de destino o en el archivo READM
 
 1. Resumen del proyecto para proporcionar una visión general y el estado actual de su proyecto.
 2. Incorporar información que describe cómo otros pueden involucrarse y qué tareas inmediatas pueden hacer.
-3. Línea temporal con metas a corto y largo plazo para su proyecto que describen las tareas que hay que realizar. en qué están trabajando los contribuyentes y dónde va a pasar a continuación. Por ejemplo, si se realiza una nueva versión del proyecto o un evento será organizado.
+3. Línea temporal con metas a corto y largo plazo para su proyecto que describen las tareas que hay que realizar. Por ejemplo, si se realiza una nueva versión del proyecto o un evento será organizado.
 
 Para más detalles, por favor vea [esta presentación](https://docs.google.com/presentation/d/e/2PACX-1vSMCLWnN1_lO4ofD9cCjN9TJxyHYIvBFfgarOlwi95G4JJ5m672v-sYFbvfRyHPag83XviEJBrIecga/pub?start=false&loop=false&delayms=3000) por el programa [Open Life Science](https://openlifesci.org/) de capacitación y mentoría.
 
