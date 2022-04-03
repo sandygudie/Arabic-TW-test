@@ -5,7 +5,7 @@
 
 > 作为协作的对话
 
-在一个开源项目中， 核心或领导小组与更广泛的社区之间以在线互动形式进行了大量协作(可能有许多协作！)。 It is therefore really important to plan carefully _how_ and _where_ these interactions take place. 社区互动应保持项目的透明度和公开性，以促进您社区的发展。 平台的选择应确保您的项目对合作者是欢迎、开放和安全的。
+在一个开源项目中， 核心或领导小组与更广泛的社区之间以在线互动形式进行了大量协作(可能有许多协作！ It is therefore really important to plan carefully _how_ and _where_ these interactions take place. 社区互动应保持项目的透明度和公开性，以促进您社区的发展。 社区互动应保持项目的透明度和公开性，以促进您社区的发展。 平台的选择应确保您的项目对合作者是欢迎、开放和安全的。
 
 本章概述了跟踪、支持和维持社区互动的最常见方式，例如提出问题。 报告错误和吸引捐款导致项目的改进。
 
