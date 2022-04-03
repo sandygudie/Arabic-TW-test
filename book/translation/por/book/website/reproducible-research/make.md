@@ -20,8 +20,7 @@ Um projeto de ciência de dados ou de pesquisa pode ser visto como uma árvore d
 ---
 nome: Faça pesquisa-dag
 alt: Esquema de um projeto de pesquisa.
----
-Esquema de um projeto de pesquisa.
+--- Esquema de um projeto de pesquisa.
 ```
 
 (rr-make-intro)=
