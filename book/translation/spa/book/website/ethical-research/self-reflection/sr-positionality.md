@@ -29,5 +29,5 @@ Las Gracias Sociales son una mnemónica para ayudar a cubrir aspectos de identid
 Las Graces son un lugar útil para empezar a pensar en tus identidades intersectoriales.
 
 También puede ser útil preguntar:
-- ¿Con cuál de las Gracia Social me identifico particularmente? ¿Hay algunos que me destacaron enseguida?
+- ¿Con cuál de las Gracia Social me identifico particularmente? ¿Hay algunos que me destacaron enseguida? ¿Hay algunos que me destacaron enseguida?
 - ¿Qué Gracia Social no me destacó y por qué podría ser? 
