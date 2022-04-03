@@ -18,7 +18,7 @@ Jobs:
       - 使用: actions/checkout@v2
 ```
 
-**1. 名称**
+**1. 1. 名称**
 
 这是工作流程的名称并且是可选的。 GitHub 将使用此名称显示在仓库动作页面上。
 ```
@@ -26,9 +26,9 @@ Jobs:
     Hello World 软件包
 ```
 
-**2. 在**
+**2. 在 在**
 
-</code> 字段上的 `告诉GHA 何时运行。 例如，我们可以随时在 <code>推送` 或 `拉` 在 `主` 分支上运行工作流。
+字段上的 `告诉GHA 何时运行。 例如，我们可以随时在 <code>推送` 或 `拉` 在 `主` 分支上运行工作流。
 ```
 于：
   推送：
@@ -38,7 +38,7 @@ Jobs:
 ```
 有许多事件可以用来触发工作流。 您可以在这里探索他们 [](https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-syntax-for-github-actions)。
 
-**3. 任务和步骤**
+**3. 3. 任务和步骤**
 
 这个模块定义了行动流程的核心组件。 工作流是由 `个任务` 做的。 每个作业还需要一个特定的主机来运行， `运行：` 字段是我们指定的。 模板工作流程正在运行最新版本的 Ubuntu, 一个 Linux 操作系统的 `构建` 作业。
 
@@ -71,4 +71,4 @@ Jobs:
 
 最基本的操作是 `actions/checkout@v2`。 这使用一个 GitHub 提供的操作 [`签出`](https://github.com/actions/checkout) 以允许工作流访问资源库的内容。 作业的所有步骤依次在与作业相关的运行器上运行。 默认情况下，如果一个步骤失败，任务的后续步骤会被跳过。 每个运行的关键词代表一个新流程和运行器环境中的外壳。 当您提供多行命令时，每一行都会运行在同一外壳中。
 
-提供所有现有备选办法的全面指南超出了本概述的范围。 我们促请您在上一节中研究 [官方参考文档](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions) 和/或CI 配置开源项目引用。
+我们促请您在上一节中研究 [官方参考文档](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions) 和/或CI 配置开源项目引用。
