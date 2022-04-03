@@ -68,13 +68,11 @@ $ bits que podem ser finalizados no checkout
 
 Neste branch você vai notar que há um novo script no diretório **scripts** chamado `generate_qplot.py`. Este script funciona de forma semelhante ao `generate_histogram. y` script (ele tem a mesma sintaxe de linha de comando), mas ele gera um [QQ-plot](https://en.wikipedia.org/wiki/Q%E2%80%93Q_plot). O arquivo **report.tex** também foi atualizado para incorporar estes pontos.
 
-Após mudar para o branch `em latas` , haverá um repositório que contém uma regra separada para gerar os PQ-Q. Este Makefile se parece com isto:
+Após mudar para o branch `em latas` , haverá um repositório que contém uma regra separada para gerar os PQ-Q. Este Makefile se parece com isto: Este Makefile se parece com isto:
 
 ```makefile
 # Makefile for analysis report
-#
-
-ALL_CSV = $(wildcard data/*.csv)
+# ALL_CSV = $(wildcard data/*.csv)
 DATA = $(filter-out $(wildcard data/input_file_*.csv),$(ALL_CSV))
 HISTOGRAMS = $(patsubst data/%.csv,output/figure_%.png,$(DATA))
 QQPLOTS = $(patsubst data/%.csv,output/qqplot_%.png,$(DATA))
@@ -108,14 +106,13 @@ saída/$(1)_$(2).png: data/$(2).csv scripts/generate_$(1). y
 endef
 ```
 
-Observe que nesta receita usamos `$(1)` para qualquer `histograma` ou `qqplot` e `$(2)` para o gênero. Isso corresponde a argumentos de função esperados de para a receita em modo `run-script-on-data` pronta. Além disso, observe que usamos `$$<` e `$$@` na receita atual, com dois símbolos `` por escapar Para realmente criar todos os alvos, precisamos de uma linha que chame essa receita em lata.  Em nosso caso, usamos um laço duplo para sobre os gêneros e os scripts:
+Observe que nesta receita usamos `$(1)` para qualquer `histograma` ou `qqplot` e `$(2)` para o gênero. Isso corresponde a argumentos de função esperados de para a receita em modo `run-script-on-data` pronta. Além disso, observe que usamos `$$<` e `$$@` na receita atual, com dois símbolos `` por escapar Para realmente criar todos os alvos, precisamos de uma linha que chame essa receita em lata. Para realmente criar todos os alvos, precisamos de uma linha que chame essa receita em lata.  Em nosso caso, usamos um laço duplo para sobre os gêneros e os scripts:
 
 ```makefile
 $(foreach genre,$(GENRES),\
     $(foreach script,$(SCRIPTS),\
         $(call run-script-on-data,$(script),$(genre))) \
     ) \
-
 ```
 
 Nessas linhas, o caractere `` é usado para manter linhas longas.
@@ -124,14 +121,10 @@ O Makefile completo então se torna:
 
 ```makefile
 # Makefile para o relatório de análise
-#
-
-ALL_CSV = $(wildcard data/*.csv)
+# ALL_CSV = $(wildcard data/*.csv)
 DATA = $(filter-out $(wildcard data/input_file_*. sv),$(ALL_CSV))
 HISTOGRAMS = $(patsubst %,output/histogram_%.png,$(GENRES))
-QPLOTS = $(patsubst %,output/qqplot_%. ng,$(GENRES))
-
-GENRAS = $(patsubst data/%.csv,%,$(DATA))
+QPLOTS = $(patsubst %,output/qqplot_%. ng,$(GENRES)) GENRAS = $(patsubst data/%.csv,%,$(DATA))
 SCRIPTS = histograma qplot
 
 .PHONY: tudo limpo
