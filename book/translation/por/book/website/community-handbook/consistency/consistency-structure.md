@@ -17,13 +17,12 @@ The `_toc.yml` file is where _The Turing Way's_ table of contents (ToC) lives. A
 ---
 nome: arquivo vazio
 alt: um arquivo vazio que foi incluído na Tabela de Conteúdos da Via de Turing. Os leitores ainda podem navegar para arquivos vazios quando forem incluídos na tabela de conteúdo.
----
-Arquivos vazios incluídos Tabela de Conteúdo da Via de Exibição ainda podem ser acessados pelos leitores.
+--- Arquivos vazios incluídos Tabela de Conteúdo da Via de Exibição ainda podem ser acessados pelos leitores.
 ```
 
 Uma sugestão geral é remover referências a tais arquivos do ToC e levantar um problema no _repositório_ The Turing Way [Github](https://github.com/alan-turing-institute/the-turing-way) para que o conteúdo seja escrito para esses arquivos. Quando o conteúdo for escrito, os arquivos podem ser adicionados ao ToC.
 
-Por exemplo, [esta issue](https://github.com/alan-turing-institute/the-turing-way/issues/1391) tem como curadoria uma lista de arquivos vazios e incompletos atualmente em _The Turing Way_, , e [esta PR](https://github.com/alan-turing-institute/the-turing-way/pull/1448) escreve o conteúdo para o subcapítulo `Licenças de Dados` exibido na imagem {ref}` <empty-toc-file>`.
+Por exemplo, [esta issue](https://github.com/alan-turing-institute/the-turing-way/issues/1391) tem como curadoria uma lista de arquivos vazios e incompletos atualmente em _The Turing Way_, , e [esta PR](https://github.com/alan-turing-institute/the-turing-way/pull/1448) escreve o conteúdo para o subcapítulo `Licenças de Dados` exibido na imagem {ref}`<empty-toc-file>`.
 
 (ch-consistência-estrutura-hr-estrutura)=
 ### Verificar 2: Certifique-se de que os capítulos seguem uma estrutura consistente
@@ -34,8 +33,7 @@ _A Caminho de Turing_ é composto por cinco guias que contêm vários capítulos
 ---
 nome: estrutura de capítulo recomendada
 alt: A estrutura recomendada para capítulos na Via de Turing. Os capítulos devem ter uma página de destino com secções para pré-requisitos, resumos e por que razão o capítulo é útil. Os capítulos também devem ter uma lista de verificação e um subcapítulo de recursos, além do resto do conteúdo do capítulo.
----
-A estrutura recomendada para capítulos na Via Turing.
+--- A estrutura recomendada para capítulos na Via Turing.
 ```
 
 - **Página inicial:**
@@ -64,8 +62,7 @@ Alguns capítulos em _The Turing Way_ foram escritos com uma tabela de conteúdo
 ---
 nome: muitos-e-tabela-de conteúdo
 alt: Um subcapítulo no Caminho de Turing com três tabelas de conteúdo. Duas que são geradas pelo Jupyter Book e uma feita pelo autor do capítulo.
----
-A tabela de conteúdos escrita manualmente é desnecessária, já que o Livro de Jupyter gera automaticamente duas tabelas de conteúdo separadas.
+--- A tabela de conteúdos escrita manualmente é desnecessária, já que o Livro de Jupyter gera automaticamente duas tabelas de conteúdo separadas.
 ```
 #### Demonstração
 
