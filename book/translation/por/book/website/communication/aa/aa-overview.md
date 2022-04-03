@@ -21,7 +21,7 @@ Portanto, Continua a ser comum dar autoria apenas àqueles que realmente partici
 (cm-aa-visualização-primeiro)=
 ## Domínio do primeiro autor
 
-Ser o primeiro autor impacta a reputação e a visibilidade da pessoa devido a uma visão percebida de que esta pessoa faz a maior contribuição, índices de citação que, no passado, contaram apenas citações para o autor do primeiro nome, e citações em artigos acadêmicos sendo encurtados para o nome do primeiro autor com *et al* (Ref: Frandsen & Nicolaisen 2010). O número de referências feitas por documentos e em que jornais são publicados são frequentemente critérios importantes para a obtenção de novos empregos. ser promovido e ganhar aplicativos de financiamento.
+Ser o primeiro autor impacta a reputação e a visibilidade da pessoa devido a uma visão percebida de que esta pessoa faz a maior contribuição, índices de citação que, no passado, contaram apenas citações para o autor do primeiro nome, e citações em artigos acadêmicos sendo encurtados para o nome do primeiro autor com *et al* (Ref: Frandsen & Nicolaisen 2010). (latina para "e outros") {cite:ps}`Frandsen2010name,VanPraag2008benefits`. O número de referências feitas por documentos e em que jornais são publicados são frequentemente critérios importantes para a obtenção de novos empregos. ser promovido e ganhar aplicativos de financiamento.
 
 A prática de o primeiro autor ocupar um lugar de destaque sobre outros tem também implicações sociais. Por exemplo, pode ser uma decisão difícil para um pesquisador alterar seu nome, devido ao casamento ou ao divórcio, uma vez que esta acção pode ter um impacto negativo na sua carreira de investigação.
 
