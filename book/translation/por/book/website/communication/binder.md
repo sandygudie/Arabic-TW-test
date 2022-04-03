@@ -51,8 +51,7 @@ O desenho animado abaixo, por Juliette Taka, demonstra um fluxo de trabalho que 
 ---
 nome: binder_comic
 alt: Uma ilustração dos passos que uma pessoa pode dar para criar um projeto binderizado.
----
-Crédito digital: [Juliette Taka, Logilab e o projeto OpenDreamkit](https://opendreamkit.org/2017/11/02/use-case-publishing-reproducible-notebooks/)
+--- Crédito digital: [Juliette Taka, Logilab e o projeto OpenDreamkit](https://opendreamkit.org/2017/11/02/use-case-publishing-reproducible-notebooks/)
 ```
 
 Você pode saber mais sobre Project Binder e mybinder.org na sua página [Sobre mybinder.org](https://mybinder.readthedocs.io/en/latest/about/about.html).
@@ -103,8 +102,7 @@ No entanto, mybinder. rg executa um complemento chamado [`jupyter-offlinenoteboo
 ---
 nome: binder_notebook_banner
 alt: uma captura de tela do painel de controle de um Notebook Jupyter com um botão de download destacado por um retângulo roxo.
----
-Usando este botão "Download" em um Jupyter Notebook em execução no mybinder. rg permitirá que você salve seus notebooks localmente, mesmo depois de a instância Binder ter sido desconectada de recursos computacionais.
+--- Usando este botão "Download" em um Jupyter Notebook em execução no mybinder. rg permitirá que você salve seus notebooks localmente, mesmo depois de a instância Binder ter sido desconectada de recursos computacionais.
 ```
 
 ### Como posso colaborar com meus pares em mybinder.org?
