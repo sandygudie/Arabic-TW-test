@@ -121,7 +121,7 @@ DD YYYYY月我们将主办一次一小时的GitHub 介绍会议。 从 16:00 - 1
 
 *显示并告诉活动：*
 
-- 带着一些你可以展示和告诉他人的东西。你喜欢喜欢的爱好、 侧边项目或工作项目(而不是Ting Way)。
+- 带着一些你可以展示和告诉他人的东西。 你喜欢喜欢的爱好、 侧边项目或工作项目(而不是Ting Way)。
 - 我们将非正式地走到会议厅周围，有机会听取你们的意见，交流除我们的书籍破折计划以外的想法和想法。
 - 你无需发言。 我们将完全由你来决定。 我们期待着与你一起学习。
 
@@ -205,7 +205,7 @@ _这对于我们向我们的供资者解释为什么这一活动是有价值的�
 
 ## :gift: 您对项目的贡献
 
-**请阅读并遵循我们的项目 [贡献指南](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md)！** :sparkles:
+**请阅读并遵循我们的项目 [贡献指南](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md)！ ** :sparkles:
 
 如果你发现它们令人困惑，很难关注或认为需要添加信息，请告诉我们！ 这将有助于我们改进向前迈进的每个人的贡献经验。
 
@@ -230,7 +230,7 @@ _这对于我们向我们的供资者解释为什么这一活动是有价值的�
 * 您也可以与他人合作，或者通过检查 [未决问题列表](https://github.com/alan-turing-institute/the-turing-way/issues) 来慢慢开始
 * 校对 [现有章节](https://the-turing-way.netlify.com) (检查typos、语法和链接)
 * 在现有一章中添加更多信息
-* 建议新章节的主题(特别是如果你可以写它们！)
+* 建议新章节的主题(特别是如果你可以写它们！
     * 一个章节可以是至少 3 个段落长度——你可以就3个段落写什么？
     * 您希望在研究生涯开始时学习什么技能或工具？
 * 审阅 `[准备审查]` [拉取请求](https://github.com/alan-turing-institute/the-turing-way/pulls)
