@@ -24,9 +24,10 @@ A [documentação Docker](https://docs.docker.com/get-started/) contém muitas i
 
 - [Versão semântica](https://semver.org) **Creative Commons - CC BY 3.0**
 
-- [A. Brinckman, et al., Computação de ambientes para reprodutibilidade: Capturando o "All Tale", Sistemas de Computação de Geração Futura (2018), https://doi. rg/10.1016/j.future.2017.12.029](https://www.sciencedirect.com/science/article/pii/S0167739X17310695) **Atribuição 4.0 Internacional (CC BY 4.0)**
-
-- [Papel apresentando singularidade](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0177459) **CC0 1.0 Universal (CC0 1.0)**
+-
+A. [A. Brinckman, et al., Computação de ambientes para reprodutibilidade: Capturando o "All Tale", Sistemas de Computação de Geração Futura (2018), https://doi. rg/10.1016/j.future.2017.12.029](https://www.sciencedirect.com/science/article/pii/S0167739X17310695) **Atribuição 4.0 Internacional (CC BY 4.0)**</p></li> 
+  
+  - [Papel apresentando singularidade](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0177459) **CC0 1.0 Universal (CC0 1.0)**
 
 - [Papel apresentando singularidade](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0177459) **CC0 1.0 Universal (CC0 1.0)**
 
@@ -47,9 +48,11 @@ A [documentação Docker](https://docs.docker.com/get-started/) contém muitas i
 - [Zero para Binder](https://github.com/Build-a-binder/build-a-binder.github.io/blob/master/workshop/10-zero-to-binder.md) **[BSD 3-Clause](https://github.com/binder-examples/requirements/blob/master/LICENSE)**
 
 - [Blog Bryan Brown LITA](https://litablog.org/2014/12/virtual-machines-in-a-nutshell/) **[Direitos Autorais concedidos para uso educacional](http://www.ala.org/copyright)**
+
 - [O que é docker?](https://opensource.com/resources/what-docker) **CC BY-SA 4.0**
 
 - [O que são contêineres?](https://opensource.com/resources/what-are-linux-containers?intcmp=7016000000127cYAAQ) **CC BY-SA 4.0**
+
 - [Docker carpentry](http://www.manicstreetpreacher.co.uk/docker-carpentry/aio/) **Creative Commons Attribution 4.0**
 - [Tutorial Geohackweek](https://geohackweek.github.io/Introductory/docker-tutorial_temp/) **Creative Commons Atribuição 3.0 Não Reportada**
-- [Nutrição, D., Sochat, V., Marwick, B., Eglen, S., Head, T., Hirst, T., & Evans, B. (2020, 10 de novembro). Dez regras simples para escrever arquivos Dockerpara reprodutíveis de ciência de dados, https://doi.org/10.1371/journal.pcbi.1008316 ](https://github.com/nuest/ten-simple-rules-dockerfiles) **Creative Commons Attribution 4.0 International**
+- [Nutrição, D., Sochat, V., Marwick, B., Eglen, S., Head, T., Hirst, T., & Evans, B. (2020, 10 de novembro). Dez regras simples para escrever arquivos Dockerpara reprodutíveis de ciência de dados, https://doi.org/10.1371/journal.pcbi.1008316 ](https://github.com/nuest/ten-simple-rules-dockerfiles) **Creative Commons Attribution 4.0 International**</ul>
