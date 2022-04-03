@@ -8,7 +8,7 @@ ORCID是'Open Researcher and Contributor ID'的缩写。 对于作为研究者�
 观看此短视频以获取更多信息：
 <div class="video-container">
   <iframe src="https://player.vimeo.com/video/97150912" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-  <p><a href="https://vimeo.com/97150912">什么是ORCID？</a> 来自 <a href="https://vimeo.com/orcidvideos">ORCID</a> 的 <a href="https://vimeo.com">Vimeo</a>。</p>
+  <p><a href="https://vimeo.com/97150912">什么是ORCID？ </a> 来自 <a href="https://vimeo.com/orcidvideos">ORCID</a> 的 <a href="https://vimeo.com">Vimeo</a>。</p>
 </div>
 
 (cm-citable-orcid-why)=
