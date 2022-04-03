@@ -8,17 +8,13 @@
 # Turing Way Book <Month Year>: Plusos e Deltas - <Location>
 
 ➕Pluses
----
-
-Por favor, adicione algo que você gostou do Book Dash. Podemos utilizá-los para anunciar o projecto Turing Way e nos relatórios de impacto para os nossos financiadores. Se você não deseja que seu comentário seja adicionado ao repositório do GitHub (e, portanto, que seja publicado), por favor adicione o 🤫 no início da linha.
+--- Por favor, adicione algo que você gostou do Book Dash. Podemos utilizá-los para anunciar o projecto Turing Way e nos relatórios de impacto para os nossos financiadores. Se você não deseja que seu comentário seja adicionado ao repositório do GitHub (e, portanto, que seja publicado), por favor adicione o 🤫 no início da linha.
 
 -
 -
 
 :arrow_up_small:Deltas
----
-
-Por favor, adicione algo que você mudaria no Dash. Nós nunca executamos um antes e todos os seus comentários serão muito valiosos. Se você não deseja que seu comentário seja adicionado ao repositório do GitHub (e, portanto, que seja publicado), por favor adicione o 🤫 no início da linha.
+--- Por favor, adicione algo que você mudaria no Dash. Nós nunca executamos um antes e todos os seus comentários serão muito valiosos. Se você não deseja que seu comentário seja adicionado ao repositório do GitHub (e, portanto, que seja publicado), por favor adicione o 🤫 no início da linha.
 
 -
 -
