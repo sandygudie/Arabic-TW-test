@@ -15,7 +15,7 @@ Enquanto estiver na superfície isto se parece com um arquivo CSV normal, quando
 
 Recentemente, pesquisadores do Alan Turing Institute apresentaram um método que atinge 97% de precisão em um grande corpus de arquivos CSV, com uma melhoria de 21% em relação às abordagens existentes em arquivos CSV não padrão. Esta pesquisa foi feita para ser reproduzida através do uso do Make e está disponível através de um repositório on-line: [https://github.com/alan-turing-institute/CSV_Wrangling](https://github.com/alan-turing-institute/CSV_Wrangling).
 
-Abaixo, descreveremos brevemente como é o Makefile para esse projeto. Para o arquivo completo, por favor veja o repositório. O Makefile consiste de várias seções:
+Abaixo, descreveremos brevemente como é o Makefile para esse projeto.  Para o arquivo completo, por favor veja o repositório. O Makefile consiste de várias seções:
 
 1. Coleta de dados: porque os dados são coletados de fontes públicas o repositório contém um script Python que permite que qualquer pessoa baixe os dados por meio de um simples comando `faça os dados`.
 
