@@ -16,8 +16,7 @@ El uso de ramas mantiene el código de trabajo a salvo, especialmente en colabor
 ```{figure} ../../figures/sub-branch.png
 ---
 name: sub-branch
-alt: Una ilustración de ramificación en Git. Se muestran cuatro ramas nombradas principal: Característica A, Característica B, y Característica A-1. La característica A y B son ramas de la rama principal, mientras que la Feature A-1 es una rama hecha de Feature A.
----
+alt: Una ilustración de ramificación en Git. Se muestran cuatro ramas nombradas principal: Característica A, Característica B, y Característica A-1. La característica A y B son ramas de la rama principal, mientras que la Feature A-1 es una rama hecha de Feature A. ---
 Una ilustración de ramificación en Git
 ```
 
