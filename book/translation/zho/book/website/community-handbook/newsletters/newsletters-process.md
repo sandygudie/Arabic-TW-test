@@ -14,7 +14,7 @@
 
 开始起草有几种方法：
 
-1. 在适当的目录中创建 _的新分支。_ [GitHub 版本库](https://github.com/alan-turing-institute/the-turing-way/) (在下一章关于 {ref}的说明`新闻通讯的风格指南 <ch-newsletters-style>`)。
+1. 在适当的目录中创建 _的新分支。 _ [GitHub 版本库](https://github.com/alan-turing-institute/the-turing-way/) (在下一章关于 {ref}的说明`新闻通讯的风格指南 <ch-newsletters-style>`)。
 
 您可以通过拉取请求 (PR)，在本地或在线处理此 GitHub 分支。 如果在线工作，请保持您的 PR 的草稿模式或在标题中添加 "[WIP]" (正在进行中)。
 
@@ -48,7 +48,7 @@ The newsletter should focus more on the contributing and new members, and highli
 
 根据为每个新闻项目收集的点数， 为下一小节中说明的语言和格式编写1-2个小段。
 
-在有用时提供链接。 向可能与新闻相关联的社区成员提供公正的信贷，并在段落末尾加上句子和与更多信息的链接。
+向可能与新闻相关联的社区成员提供公正的信贷，并在段落末尾加上句子和与更多信息的链接。
 
 ### 校对您的草稿
 
@@ -91,11 +91,11 @@ The newsletter should focus more on the contributing and new members, and highli
 - 一旦确认其格式和内容，通讯将通过单击“发送给所有人”发送给注册成员。
 - [在线通讯](https://tinyletter.com/TuringWay/) 可以通过链接共享，也可以被未订阅的成员阅读。
 
-*(赚钱让您的通讯 [在这里](https://www.sitepoint.com/how-start-a-newsletter-in-minutes-with-tinyletter/)。)*
+*(赚钱让您的通讯 [在这里](https://www.sitepoint.com/how-start-a-newsletter-in-minutes-with-tinyletter/)。 )*
 
  **它已发布，现在是什么？**
 
 - 更新 [README.md文件](https://github.com/alan-turing-institute/the-turing-way/blob/main/communications/newsletters/README.md) 中的索引表，并提供新发布的新闻的详细信息。
 - 从 [@turingway](https://twitter.com/turingway) 了解这个问题。
 - 在 [Gitter](https://gitter.im/alan-turing-institute/the-turing-way) and [Slack](https://theturingway.slack.com) 频道发送通知。
-- 做一个庆祝舞蹈！ (这是强制性的! 💃)
+- 做一个庆祝舞蹈！ (这是强制性的! 💃) 💃)
