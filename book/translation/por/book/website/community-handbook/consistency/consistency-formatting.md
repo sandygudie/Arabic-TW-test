@@ -27,8 +27,7 @@ Por exemplo, {ref}`html-to-markdown` descreve uma tabela que foi escrita em `HTM
 ---
 nome: html-to-markdown
 alt: Uma captura de tela de uma tabela mal formatada escrita em HTML. A mesa é esmagada e não tem fronteiras de coluna nem de linha. Isto torna difícil para um leitor decifrar o seu significado.
----
-O conteúdo escrito em HTML pode não ser renderizado corretamente.
+--- O conteúdo escrito em HTML pode não ser renderizado corretamente.
 ```
 
 Quando reformatada para Markdown, a tabela fica mais limpa e mais fácil de ler:
@@ -37,8 +36,7 @@ Quando reformatada para Markdown, a tabela fica mais limpa e mais fácil de ler:
 ---
 nome: html-to-markdown2
 alt: Uma captura de tela de uma tabela convertida em Markdown de HTML. A tabela se torna mais fácil de ler e entender quando convertida em Markdown.
----
-Converter HTML em Markdown torna o livro Caminho de Exibição mais fácil de ler.
+--- Converter HTML em Markdown torna o livro Caminho de Exibição mais fácil de ler.
 ```
 ```{note} Uma PR que aborda essa verificação pode ser encontrada [aqui](https://github.com/alan-turing-institute/the-turing-way/pull/1460).
 ```
@@ -92,8 +90,7 @@ No entanto, as caixas de seleção não são exibidas conforme previsto na vers�
 ---
 nome: formatação da checklist
 alt: Quando o subcapítulo da Checklist de qualquer capítulo é escrito em Markdown como uma lista de tarefas com caixas de seleção, colchetes são exibidos ao invés de caixas de seleção na versão web do livro.
----
-As caixas de seleção são exibidas como colchetes quadrados na versão web do livro.
+--- As caixas de seleção são exibidas como colchetes quadrados na versão web do livro.
 ```
 
 Assim, recomendamos que você formate os subcapítulos da sua Lista de Verificação como listas não ordenadas em suas futuras contribuições e edite capítulos anteriores que seguem a outra convenção:
@@ -163,7 +160,7 @@ Ao escrever texto de ALT, lembre-se de:
 
 Note que as imagens incluídas no livro _The Turing Way_ devem ser menores que 1MB. Isso permite que o livro carregue mais rapidamente, especialmente para os leitores que podem ter conexões de internet lentas.
 
-Por favor, consulte o guia de estilo {ref}` <ch-style-figures>` para exemplos em formatação de imagens usando `MyST` e adicionando texto ALT a elas. Ao incluir imagens nas suas contribuições, pode ser melhor evitar o parâmetro altura já que o valor errado pode fazer sua imagem parecer distorcida em dispositivos móveis. Você deve sempre verificar como sua imagem fica na prévia Netlify do livro quando você faz uma PR.
+Por favor, consulte o guia de estilo {ref}`<ch-style-figures>` para exemplos em formatação de imagens usando `MyST` e adicionando texto ALT a elas. Ao incluir imagens nas suas contribuições, pode ser melhor evitar o parâmetro altura já que o valor errado pode fazer sua imagem parecer distorcida em dispositivos móveis. Você deve sempre verificar como sua imagem fica na prévia Netlify do livro quando você faz uma PR.
 
 #### Demonstração
 
@@ -185,8 +182,7 @@ Alguns capítulos e subcapítulos em _The Turing Way_ não coincidem com suas re
 ---
 nome: incompatível-toc
 alt: Um subcapítulo cujo título difere de sua referência na tabela de conteúdo. O título do subcapítulo é "Usando folhas para dados de pesquisa", no entanto, na tabela de conteúdos, é chamado de "Organização de dados em planilhas de dados".
----
-O título deste subcapítulo é 'Usando planilhas para pesquisa de dados', no entanto a tabela de conteúdo refere-se ao mesmo ficheiro de "Organização de dados em planilhas de dados".
+--- O título deste subcapítulo é 'Usando planilhas para pesquisa de dados', no entanto a tabela de conteúdo refere-se ao mesmo ficheiro de "Organização de dados em planilhas de dados".
 ```
 
 Assegurando que o conteúdo da _A Caminho de Turing_ passe por esta verificação, uma recomendação a seguir é manter os títulos curtos. Ao escrever um novo capítulo, certifique-se de que o título é curto e tenha o mesmo nome na tabela de conteúdo. Da mesma forma, ao revisar os capítulos existentes, se seu título e referência na tabela de conteúdo difere, torna o menor dos dois títulos do capítulo e atualize `_toc. ml` se necessário.
