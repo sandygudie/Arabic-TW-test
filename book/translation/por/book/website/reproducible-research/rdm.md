@@ -3,8 +3,7 @@
 height: 400px
 nome: data-ecosystem
 alt: imagem do ecossistema de dados com dados privados e públicos
----
-Abrir e fechar dados para reprodução.
+--- Abrir e fechar dados para reprodução.
 _O projeto Turing Way_ ilustração por Scriberia. Versão original em Zenodo. http://doi.org/10.5281/zenodo.3695300. 
 ```
 
