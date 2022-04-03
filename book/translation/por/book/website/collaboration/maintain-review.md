@@ -8,7 +8,7 @@
 | {ref}`Experiência com controle de versão<rr-vcs>` | Útil        |
 
 ## Summary
-Para qualquer projeto de código aberto uma das tarefas mais desafiadoras para um novo colaborador é identificar formas de se envolver fazendo contribuições on-line para propor alterações adequadas. Diretrizes de contribuição de projetos de código aberto descrevem como membros da comunidade podem fazer tal contribuição, mas muitas vezes não explicam como é que se pode contribuir para o projecto tornando-se um mantenedor do projecto. Os mantenedores de projeto dedicados da equipe principal do projeto ou comunidade de voluntários muitas vezes assumem a função de apoiar tais contribuições por outros colaboradores.
+Para qualquer projeto de código aberto uma das tarefas mais desafiadoras para um novo colaborador é identificar formas de se envolver fazendo contribuições on-line para propor alterações adequadas. Os mantenedores de projeto dedicados da equipe principal do projeto ou comunidade de voluntários muitas vezes assumem a função de apoiar tais contribuições por outros colaboradores. Diretrizes de contribuição de projetos de código aberto descrevem como membros da comunidade podem fazer tal contribuição, mas muitas vezes não explicam como é que se pode contribuir para o projecto tornando-se um mantenedor do projecto.
 
 Este subcapítulo lança luz sobre o papel e as tarefas de mantenedores do projeto que gerenciam ou coordenam as discussões da comunidade e as contribuições, apoie o desenvolvimento de recursos, ajude no teste de issues e revise Pull Requests ou PRs em um projeto colaborativo online no GitHub. Fornece também as melhores práticas a serem utilizadas enquanto contribui para um projeto como mantenedor.
 
