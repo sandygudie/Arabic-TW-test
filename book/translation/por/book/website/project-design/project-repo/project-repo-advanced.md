@@ -25,7 +25,7 @@ Pasta do Projeto/
 ── CODE_OF_CONDUCT          <- Código de Conduta para projetos da comunidade
 ── CONTRIBUTING             <- Guia de contribuição para colaboradores
 ─ LICENSE                  <- licença de software
-── . .                      <- quaisquer outros arquivos que você possa ter adicionado para o seu projeto
+── . . <- quaisquer outros arquivos que você possa ter adicionado para o seu projeto
 ─ LEIA-ME. d                <- informações sobre o repositório
 ```
 
@@ -40,7 +40,7 @@ O principal benefício de projetar seu repositório adicionando intencionalmente
 Ao compartilhar seus recursos por meio do repositório, considere os seguintes aspectos da reprodutibilidade em sua pesquisa:
 
 - Transparência e abertura
-- Sistema de controle de versão (nenhum outro arquivo como final_v1_FINAL.R, final_v2_FINAL.R, ...)
+- Sistema de controle de versão (nenhum outro arquivo como final_v1_FINAL. R, final_v2_FINAL. R, ...)
 - Faça com que seja fácil navegar para que você economize tempo para todos os envolvidos
 - Considere {ref}`aspectos pd-overview-repro`
 - Certifique-se de fornecer detalhes suficientes para que outros possam desenvolver o seu trabalho
@@ -74,11 +74,10 @@ Pasta do Projeto/
 ── clean/
 named@@5─ data_clean. sv
 ── analise                 <- scripts
-── meu_script.
-─── resultados                  <- saída da análise     
+── meu_script. ─── resultados                  <- saída da análise     
 ── figuras
 ── . itignore               <- arquivos excluídos do controle de versão do git 
-─ installing.                <- configuração de ambiente
+─ installing. <- configuração de ambiente
 ── CODE_OF_CONDUCT          <- Código de Conduta para projetos da comunidade
 ── CONTRIBUTING             <- Guia de Contribuição para colaboradores
 ── LICENSE                  <- licença de software
@@ -91,16 +90,7 @@ named@@5─ data_clean. sv
 Este exemplo mostra arquivos diferentes e diretório que um projeto pode conter ao criar um aplicativo de software ou ferramentas de engenharia de pesquisa.
 
 ```
-Pasta do Projeto/                        
-── analise                 <- scripts
-── meu_script.
-── build                    <- arquivos construídos, Makefile
-─ debugar
-├─ release
-── data
-├── raw /
-├── raw / 
- ── meu_data. sv
+sv
 ├── limpo/
 ── data_clean. sv
 ── docs                     <- documentação
@@ -120,7 +110,7 @@ Pasta do Projeto/
 ── exemplo                  <- aplicação de exemplo de código
 ── LICENSE                  <- licença de software
 ── ambiente. ml          <- configuração de ambiente anaconda   
-─ instale.                <- Configuração de ambiente R
+─ instale. <- Configuração de ambiente R
 require─ requisitos. xt         <- configuração do ambiente python
 ── runtime. xt              <- R em configuração do binder
 ── relatório. d                <- relatório de análise
