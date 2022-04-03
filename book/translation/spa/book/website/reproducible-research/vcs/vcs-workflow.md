@@ -52,10 +52,11 @@ Si quieres, puedes crear ramas a partir de ramas (y ramas fuera de esas ramas, e
 
 ```{figure} ../../figures/sub-branch.png
 ---
-nombre: sub-branch1
-alt: Una ilustración de una rama de desarrollo en git.
+name: one-branch
+alt:
+Una ilustración de un desarrollo y rama principal en git
 ---
-Una rama de desarrollo en git.
+Una ilustración de un desarrollo y una rama principal en git.
 ```
 
 No importa cuántas ramas tengas, puedes acceder a las versiones anteriores que hayas hecho en cualquiera de ellas. Si tienes curiosidad por saber cómo usar esta característica en la práctica, encontrarás más detalles a continuación algunas secciones.
