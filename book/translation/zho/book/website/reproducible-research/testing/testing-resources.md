@@ -12,7 +12,7 @@
 
 ## 所用材料：测试的一般指导和良好做法
 
-- [SSI 测试软件博客](https://www.software.ac.uk/resources/guides/testing-your-software?_ga=2.39233514.830272891.1552653652-1336468516.1531506806) **知识共享属名协议、非商业2.5许可。**
+- [SSI 测试软件博客](https://www.software.ac.uk/resources/guides/testing-your-software?_ga=2.39233514.830272891.1552653652-1336468516.1531506806) **知识共享属名协议、非商业2.5许可。 **
 - [正在试用课程](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch03tests/03pytest.html) **知识共享并重新组合**
 - [嘲讽](https://www.vogella.com/tutorials/Mockito/article.html) **署名-非商业性分享-相同方式的 3.0 德国 (CC BY-NC-SA 3.0 DE)**
 - [用浮点测试](https://github.com/softwaresaved/automated_testing/blob/master/README.md) **Apache 许可证 2.0**
@@ -23,25 +23,25 @@
 
 ## 使用的材料：烟雾测试
 
-- [Digitalocean](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **知识共享 Attributtion-NonCommercial-ShareAlis 4.0 International License。**
+- [Digitalocean](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **知识共享 Attributtion-NonCommercial-ShareAlis 4.0 International License。 **
 
 ## 使用的材料：单元测试
 
-- [一个连续集成的介绍](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **知识共享署名-非商业性分享-类似的 4.0 国际许可协议。**
+- [一个连续集成的介绍](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **知识共享署名-非商业性分享-类似的 4.0 国际许可协议。 **
 - [软件测试基础：单元测试](http://softwaretestingfundamentals.com/unit-testing/) **复制左右-2019 STF**
 
 ## 使用的材料：整合测试
 
-- [一个连续集成的介绍](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **知识共享署名-非商业性分享-类似的 4.0 国际许可协议。**
+- [一个连续集成的介绍](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **知识共享署名-非商业性分享-类似的 4.0 国际许可协议。 **
 - [软件测试基础：集成测试](http://softwaretestingfundamentals.com/integration-testing/) **复制左右-2019 STF**
 
 ## 使用的材料：系统测试
 
 - [软件测试基础：系统测试](http://softwaretestingfundamentals.com/system-testing/) **复制左右-2019 STF**
-- [一个连续集成的介绍](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **知识共享署名-非商业性分享-类似的 4.0 国际许可协议。**
+- [一个连续集成的介绍](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **知识共享署名-非商业性分享-类似的 4.0 国际许可协议。 **
 
 ## 使用的材料：验收测试
-- [一个连续集成的介绍](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **知识共享署名-非商业性分享-类似的 4.0 国际许可协议。**
+- [一个连续集成的介绍](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **知识共享署名-非商业性分享-类似的 4.0 国际许可协议。 **
 
 ## 使用的材料：回归测试
 
@@ -56,8 +56,8 @@
 
 ## 所用材料：由测试驱动的开发
 
-- [测试您的软件](https://software.ac.uk/resources/guides/testing-your-software) **知识共享署名-非商业性3.0 许可。**
-- [为什么bother](http://soundsoftware.ac.uk/unit-testing-why-bother/) **知识共享署名-非商业性3.0 许可。**
+- [测试您的软件](https://software.ac.uk/resources/guides/testing-your-software) **知识共享署名-非商业性3.0 许可。 **
+- [为什么bother](http://soundsoftware.ac.uk/unit-testing-why-bother/) **知识共享署名-非商业性3.0 许可。 **
 
 ## 使用的材料：术语表
 
