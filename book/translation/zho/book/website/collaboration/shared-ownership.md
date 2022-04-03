@@ -6,9 +6,7 @@
 ```{figure} ../figures/open-source-collaboration.jpg
 ---
 名称：开放源码协作
-备选案文：这个示例表明，封闭源项目是由机构或个人的需要驱动的，而开放源码社区则允许不同的人相互作用。 交换意见 利用“社区――社区”原则
-协作并建立资源
-与由机构个人动机驱动的封闭源项目相比，开放源码合作途径。 图片积分: _Ting Way_Community, & Spreria。 （11月20日）。 故事书中的插图描述. Zenodo. http://doi.org/10.5281/zenodo.4323154
+备选案文：这个示例表明，封闭源项目是由机构或个人的需要驱动的，而开放源码社区则允许不同的人相互作用。 图片积分: _Ting Way_Community, & Spreria。 （11月20日）。 故事书中的插图描述. Zenodo. http://doi.org/10.5281/zenodo.4323154
 ```
 
 ## B. 动机。
