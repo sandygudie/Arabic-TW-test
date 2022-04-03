@@ -56,7 +56,7 @@
 
 注意出售免费软件、保修或开发服务完全可以接受； 这是关于使用软件做事的自由，而不是关于其价格。
 
-还使用了另外两个类似的定义； 开放源代码研究所 [开放源代码定义](https://opensource.org/osd-annotated) and [Debian Free Software Guidelines](https://www.debian.org/social_contract#guidelines). 上面由Richard Stallman提出的自由软件定义是最简单明了的，实际上，它所界定的类别几乎完全相同。
+还使用了另外两个类似的定义； 开放源代码研究所 [开放源代码定义](https://opensource.org/osd-annotated) and [Debian Free Software Guidelines](https://www.debian.org/social_contract#guidelines). 上面由Richard Stallman提出的自由软件定义是最简单明了的，实际上，它所界定的类别几乎完全相同。 上面由Richard Stallman提出的自由软件定义是最简单明了的，实际上，它所界定的类别几乎完全相同。
 
 非免费软件是专有的。 您不允许复制或修改的软件属于此类别。 像带有使用限制的软件一样，例如“仅供研究使用”或“仅供非商业使用”。
 
