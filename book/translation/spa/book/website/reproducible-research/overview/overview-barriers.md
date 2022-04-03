@@ -21,17 +21,17 @@ Este capítulo describe algunas de esas barreras y algunas sugerencias para elud
 (rr-overview-barriers-incentives)=
 ## Incentivos limitados para dar evidencia contra ti
 
-La [sexta Enmienda](https://en.wikipedia.org/wiki/Fifth_Amendment_to_the_United_States_Constitution) a la Constitución de los Estados Unidos incluye una cláusula que dice que nadie "será obligado en ningún caso penal a ser testigo contra [them]sel[ves]". (Editado al lenguaje neutral de género.) "abogar por el quinto paso" significa que alguien opta por no dar pruebas de que podría haber habido algo mal en su comportamiento pasado. Tienen derecho a permanecer en silencio.
+La [sexta Enmienda](https://en.wikipedia.org/wiki/Fifth_Amendment_to_the_United_States_Constitution) a la Constitución de los Estados Unidos incluye una cláusula que dice que nadie "será obligado en ningún caso penal a ser testigo contra [them]sel[ves]". (Editado al lenguaje neutral de género.) (Editado al lenguaje neutral de género.) "abogar por el quinto paso" significa que alguien opta por no dar pruebas de que podría haber habido algo mal en su comportamiento pasado. Tienen derecho a permanecer en silencio.
 
 Sabemos que nadie quiere incriminarse a sí mismo, y también que nadie es infalible. Poner tu código y datos en línea puede ser muy revelador e intimidante, y forma parte de la condición humana ser nervioso de ser juzgado por otros. Aunque no hay ninguna _ley_ que regule la comunicación de la investigación reproducible - a menos que cometa fraude explícito en su trabajo - compartir errores que encuentre en su trabajo está fuertemente disociado.
 
 ```{figure} ../../figures/make-ok-to-be-human.jpg
 ---
-height: 500px
-name: make-ok-to-be-human
-alt: Una caricatura de una mujer que sostiene una carpeta de archivos y que parece preocupada. Según la burbuja de pensamiento, si comparto mis datos, la gente podría encontrar errores. El título de las imágenes lee la necesidad de hacer que sea humano.
+ancho: 500px
+nombre: help-you-future
+alt: Una caricatura de una mujer que pasa una carpeta de documentos de vuelta a sí misma. La burbuja de voz dice que en el futuro principalmente tienes registros para ti.
 ---
-Una ilustración de la barrera "suplicar la quinta" donde nuestra cultura actual desincentiva el reconocimiento y la corrección de errores.
+Aunque dejar clara la documentación puede sentir que está tomando mucho tiempo en este momento, estás ayudando a tus colaboradores y a tus colaboradores a recordar lo que has hecho para que sea fácil reutilizar el trabajo o hacer cambios en el futuro.
 Illustration by The Ludic Group LLP from Kirstie Whitaker keynote presentation at Scientific Data in 2017.
 Utilizado bajo una licencia CC-BY 4.0.
 DOI: [10.6084/m9.figshare.5577340.v1](https://doi.org/10.6084/m9.figshare.5577340.v1).
@@ -44,7 +44,7 @@ Lo que es más importante, necesitamos alejarnos de una cultura en la que public
 (rr-overview-barrers-publication)=
 ## Población de la publicación hacia los nuevos hallazgos
 
-¡Los nuevos resultados no son necesariamente precisos o interesantes, pero son recompensados en el mundo académico! Los papeles que no encuentran relaciones estadísticamente significativas son difíciles de publicar, especialmente si los resultados *no* reproducen los resultados publicados previamente. (Esto incluye hallazgos estadísticamente significativos que van en la dirección opuesta al trabajo ya publicado.) Del mismo modo, un artículo podría ser menos probable que sea aceptado en una revista o conferencia si reproduce con éxito resultados ya publicados en lugar de producir un nuevo conjunto. Hay una buena posibilidad de que los revisores digan "ya sabemos esto" y rechacen la presentación.
+¡Los nuevos resultados no son necesariamente precisos o interesantes, pero son recompensados en el mundo académico! Los papeles que no encuentran relaciones estadísticamente significativas son difíciles de publicar, especialmente si los resultados *no* reproducen los resultados publicados previamente. (Esto incluye hallazgos estadísticamente significativos que van en la dirección opuesta al trabajo ya publicado.) (Esto incluye hallazgos estadísticamente significativos que van en la dirección opuesta al trabajo ya publicado.) Del mismo modo, un artículo podría ser menos probable que sea aceptado en una revista o conferencia si reproduce con éxito resultados ya publicados en lugar de producir un nuevo conjunto. Hay una buena posibilidad de que los revisores digan "ya sabemos esto" y rechacen la presentación.
 
 El sesgo hacia la novela en la ciencia de la información significa que muchos investigadores están disociados de hacer el trabajo para documentar, probar y compartir su código y datos. John Ioannidis publicó un artículo influyente en 2005 titulado "Why Most Published Research False" {cite:ps}`Ioannidis2005False` que discute los muchos factores que contribuyen al sesgo de la publicación. Dados estos sesgos, es muy probable que haya mucho trabajo duplicado en las ciencias de los datos. Demasiados investigadores diferentes están formulando la misma pregunta, no obtener la respuesta que esperan o desean, y luego no decir a nadie lo que han encontrado.
 
@@ -91,9 +91,9 @@ También puede dedicarse tiempo a comunicarse con los colaboradores para acordar
 
 ```{figure} ../../figures/help-you-of-the-future.jpg
 ---
-ancho: 500px
-nombre: help-you-future
-alt: Una caricatura de una mujer que pasa una carpeta de documentos de vuelta a sí misma. La burbuja de voz dice que en el futuro principalmente tienes registros para ti.
+height: 500px
+name: make-ok-to-be-human
+alt: Una caricatura de una mujer que sostiene una carpeta de archivos y que parece preocupada. La burbuja de voz dice que en el futuro principalmente tienes registros para ti.
 ---
 Aunque dejar clara la documentación puede sentir que está tomando mucho tiempo en este momento, estás ayudando a tus colaboradores y a tus colaboradores a recordar lo que has hecho para que sea fácil reutilizar el trabajo o hacer cambios en el futuro.
 Illustration by The Ludic Group LLP from Kirstie Whitaker keynote presentation at Scientific Data in 2017.
@@ -115,7 +115,7 @@ En casi todos los casos, hacer código y datos de código abierto requiere una m
 (rr-vista-barreras-habilidades)=
 ## Requiere habilidades adicionales
 
-Como puedes saber por el número cada vez mayor de capítulos en _The Turing Way_, trabajar reproduciblemente requiere habilidades que no siempre se enseñan en programas de formación. Usted - o alguien de su equipo - podría necesitar desarrollar experiencia en ingeniería de datos, Ingeniería de software de investigación, escritura técnica para documentación o gestión de proyectos en GitHub. Esa es una barrera importante cuando las estructuras de incentivo actuales no están alineadas con el aprendizaje de estas habilidades (ver las barreras en {ref}`suplicar la quinta<rr-overview-barriers-incentives>`, {ref}`sesgo de publicación hacia nuevos hallazgos<rr-overview-barriers-publication>`, {ref}`mantenida con estándares más altos que otros<rr-overview-barriers-standards>`, y {ref}`no considerados para una promoción<rr-overview-barriers-promotion>`!) Sin embargo, esta es la barrera principal que en _The Turing Way_ estamos trabajando para desmantenderse contigo. Esperamos que disfrutes aprendiendo estas habilidades con nosotros y que nos ayudes a mejorar el libro como tú lo haces.
+Como puedes saber por el número cada vez mayor de capítulos en _The Turing Way_, trabajar reproduciblemente requiere habilidades que no siempre se enseñan en programas de formación. Usted - o alguien de su equipo - podría necesitar desarrollar experiencia en ingeniería de datos, Ingeniería de software de investigación, escritura técnica para documentación o gestión de proyectos en GitHub. Esa es una barrera importante cuando las estructuras de incentivo actuales no están alineadas con el aprendizaje de estas habilidades (ver las barreras en {ref}`suplicar la quinta<rr-overview-barriers-incentives>`, {ref}`sesgo de publicación hacia nuevos hallazgos<rr-overview-barriers-publication>`, {ref}`mantenida con estándares más altos que otros<rr-overview-barriers-standards>`, y {ref}`no considerados para una promoción<rr-overview-barriers-promotion>`!) Sin embargo, esta es la barrera principal que en _The Turing Way_ estamos trabajando para desmantenderse contigo. Sin embargo, esta es la barrera principal que en _The Turing Way_ estamos trabajando para desmantenderse contigo. Esperamos que disfrutes aprendiendo estas habilidades con nosotros y que nos ayudes a mejorar el libro como tú lo haces.
 
 > "Un viaje de miles de millas comienza con un solo paso" (chino: [Lao Tzu](https://en.wikipedia.org/wiki/A_journey_of_a_thousand_miles_begins_with_a_single_step)).
 
