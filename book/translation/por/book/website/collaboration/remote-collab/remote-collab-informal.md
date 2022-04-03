@@ -8,8 +8,7 @@ Quando uma equipe está trabalhando remotamente, eles podem se reunir em momento
 nome: remote-book-dash
 largura: 500px
 alt: Uma pessoa sentada em uma cadeira em frente ao computador com seu cão ao lado. Há quatro pessoas diferentes que ingressaram online com seu café / bebidas para um bate-papo informal.
----
-Bate-Papo de Café Informal. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+--- Bate-Papo de Café Informal. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
 ## Motivação
