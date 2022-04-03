@@ -11,7 +11,7 @@ Para identificar qual pode ser o melhor formato para as suas chamadas de coorden
 
 **Objetivo das suas chamadas de co-trabalho**
 
-Em _The Turing Way_, conforme descrito na motivação de {ref}` <ch-coworking-motivation>` subcapítulo, hospedamos esses apelos à construção de conexões, apoiando os nossos colaboradores, integrando novos membros e celebrando o seu trabalho.
+Em _The Turing Way_, conforme descrito na motivação de {ref}`<ch-coworking-motivation>` subcapítulo, hospedamos esses apelos à construção de conexões, apoiando os nossos colaboradores, integrando novos membros e celebrando o seu trabalho.
 
 O seu objetivo de hospedar chamadas de trabalho pode ser completamente diferente e identificar isso é importante para você planejar as restantes logísticas. Alguns outros cenários poderiam ser:
   - Se você trabalha a partir de casa, gostaria de ver seus colegas e ficar ligado a eles através de horários de trabalho designados.
