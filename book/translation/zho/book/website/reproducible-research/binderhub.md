@@ -18,6 +18,8 @@ name: binderhub
 alt: A representation of the BinderHub architecture that involves GitHub, repo2docker, docker, jupyterhub and shipping to clients in company.
 ---
 关于 BinderHub 架构的插图。
+---
+关于 BinderHub 架构的插图。
 Stereteria的绘画线路项目示例。 在 CC-BY 4.0 许可下使用。 DOI：10.5281/zenodo.3332807。
 ```
 
