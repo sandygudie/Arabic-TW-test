@@ -20,8 +20,7 @@ Os repositórios de projetos online requerem documentação para que todos os co
 ---
 nome: file-management-manual
 alt: imagem mostra duas pessoas organizando arquivos. Uma pessoa é holdinng de um arquivo README e outra pessoa está lendo os detalhes para configurar os dados e os arquivos de análise na gaveta
----
-A Illustração sobre como gerenciar arquivos em um repositório.
+--- A Illustração sobre como gerenciar arquivos em um repositório.
 _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: 10.5281/zenodo.3332807.
 ```
 
