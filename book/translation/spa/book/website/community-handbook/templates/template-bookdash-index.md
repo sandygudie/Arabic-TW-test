@@ -71,12 +71,12 @@ Nota: https://hackmd.io/@turingway/bookdash-may2021-day1 <--- update this
 
 #### Desarrollo & Sesiones de red <--- actualiza esta tabla
 
-| Hora          | Orden del día                                                       | Anfitriones      | Asistentes |
-| ------------- | ------------------------------------------------------------------- | ---------------- | ---------- |
-| 08:00 - 10:30 | ver notas                                                           | Habla por nombre | nombres    |
-| 11:00 - 12:30 | ==Discusión temática & Red: Comunicación visual & Illustraciones==± | nombre           | nombres    |
-| 14:00 - 16:30 | ver notas                                                           | Sin hablar       | nombres    |
-| 17:00 - 19:30 | ver notas                                                           | Habla por nombre | nombres    |
+| Hora          | Orden del día                           | Anfitriones      | Asistentes |
+| ------------- | --------------------------------------- | ---------------- | ---------- |
+| 08:00 - 10:30 | ver notas                               | Habla por nombre | nombres    |
+| 11:00 - 12:30 | Comunicación visual & Illustraciones==± | nombre           | nombres    |
+| 14:00 - 16:30 | ver notas                               | Sin hablar       | nombres    |
+| 17:00 - 19:30 | ver notas                               | Habla por nombre | nombres    |
 
 ±Tema: **TBA**
 
@@ -86,12 +86,12 @@ Nota: https://hackmd.io/@turingway/bookdash-may2021-day2 <--- update this
 
 #### Desarrollo & Sesiones de red <--- actualiza esta tabla
 
-| Hora          | Orden del día                                               | Anfitriones | Asistentes |
-| ------------- | ----------------------------------------------------------- | ----------- | ---------- |
-| 08:00 - 10:30 | ver notas                                                   | nombre      | nombres    |
-| 11:00 - 13:30 | ver notas                                                   | nombre      | nombres    |
-| 14:00 - 15:30 | ==Discusión temática & Red: Accesibilidad & Comunicación==± | nombre      | nombres    |
-| 17:00 - 19:30 | ver notas                                                   | nombre      | nombres    |
+| Hora          | Orden del día                   | Anfitriones | Asistentes |
+| ------------- | ------------------------------- | ----------- | ---------- |
+| 08:00 - 10:30 | ver notas                       | nombre      | nombres    |
+| 11:00 - 13:30 | ver notas                       | nombre      | nombres    |
+| 14:00 - 15:30 | Accesibilidad & Comunicación==± | nombre      | nombres    |
+| 17:00 - 19:30 | ver notas                       | nombre      | nombres    |
 
 ±Tema: **TBA**
 
@@ -167,7 +167,7 @@ Estas sesiones están abiertas al público. Siéntase libre de invitar a tus col
 
 :heavy_plus_sign::arrow_up_small: Pluss y deltas - Documento Final de Comentarios <--- actualizar enlaces
 ---
-**IMPORTANTE:** Por favor, tómate unos minutos para **compartir tus destacados** como un comentario bajo el asunto [#1973](https://github.com/alan-turing-institute/the-turing-way/issues/1937) y **proporciona comentarios** (más y delta: https://hackmd. o/@turingway/bookdash-may2021-feedback) del evento.
+**IMPORTANTE:** Por favor, tómate unos minutos para **compartir tus destacados** como un comentario bajo el asunto [#1973](https://github.com/alan-turing-institute/the-turing-way/issues/1937) y **proporciona comentarios** (más y delta: https://hackmd.
 
 _Estos serán extremadamente valiosos para que expliquemos a nuestros financiadores por qué este evento fue valioso, y aprender sobre su experiencia, lo que ha disfrutado y cómo podemos mejorar eventos futuros._
 
@@ -184,7 +184,7 @@ Cualquier comentario del día a día durante el evento se puede compartir direct
 ### Canales de comunicación
 
 - Canal de Slack: [enlace de invitación](https://join.slack.com/t/theturingway/shared_invite/zt-fn608gvb-h_ZSpoA29cCdUwR~TIqpBw)
-    - ¿Nuevo en Slack? [Ver esta guía de inicio rápido](https://hackmd.io/@turingway/slack-guide)
+    - ¿Nuevo en Slack? ¿Nuevo en Slack? [Ver esta guía de inicio rápido](https://hackmd.io/@turingway/slack-guide)
 - Lista de correo: https://tinyletter.com/TuringWay/
 - Twitter account: https://twitter.com/turingway
 
