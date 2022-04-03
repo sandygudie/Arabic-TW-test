@@ -43,9 +43,12 @@ Conseguem imaginar a possibilidade de tentar combinar todas estas questões num 
 
 Na experiência da equipe do projeto Binder, a maioria dos membros da comunidade contribuem para apenas um ou dois desses projetos. Assim, a consolidação do acesso a todas as questões por parte de todas as partes do trabalho não constitui uma prioridade para a sua comunidade.
 
-Eles acham que ter distribuído rastreamento de issues permite que os membros da comunidade que só podem trabalhar com JupyterHub contribuam confortavelmente sem precisar estar familiarizado com tudo o que entra executando [mybinder. rg](https://mybinder.org). .
+Eles acham que ter distribuído rastreamento de issues permite que os membros da comunidade que só podem trabalhar com JupyterHub contribuam confortavelmente sem precisar estar familiarizado com tudo o que entra executando
+mybinder.</p> 
 
 (os-comms-issue-tracking-issuse-issues-case-centralizado-issue)=
+
+
 ### Repositório de Issues Centralizado
 
 Com um grande projecto, pode ser tentador reunir todas as suas questões num só lugar para facilitar a gestão: um sistema centralizado. Se você estiver usando problemas para rastrear um serviço central, lista pessoal a fazer e responder a perguntas como se uma tarefa tivesse alta prioridade ou se já fosse atribuída a alguém, Depois, dar seguimento a um sistema centralizado é uma boa opção e não precisa necessariamente de ser distribuída por toda a nossa comunidade.
@@ -59,6 +62,8 @@ No entanto, em termos de envolvimento com a sua comunidade, esse sistema central
 Um impacto muito grande na comunidade de ter um board de issues separado é que quando as pessoas visitam seu repositório de código, parece um projeto inativo porque não há issues ou conversas em curso onde o código está hospedado. Isso pode fazer com que os membros da comunidade acreditem que o código não está mais sendo ativamente desenvolvido/mantido/suportado e podem optar por usar outro pacote de código-fonte ou software.
 
 (os-vírgulas-issue-tracking-comparative-table)=
+
+
 ## Tabela Comparativa
 
 A tabela abaixo compara as funcionalidades dos repositórios de issues distribuídos e centralizados para um projeto multi-repositório.
@@ -74,7 +79,10 @@ A tabela abaixo compara as funcionalidades dos repositórios de issues distribu�
 | Aparece ativos para a comunidade             |                            |                  ✅                  |
 | Volume gerenciável                           |                            |                  ✅                  |
 
+
 *Usuários de energia = Estas são pessoas que já estão familiarizadas o suficiente com uma plataforma para saber as doces e truques que tornam sua experiência mais eficiente
+
+
 
 ## Leitura mais recente
 
