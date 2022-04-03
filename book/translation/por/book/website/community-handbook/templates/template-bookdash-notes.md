@@ -22,9 +22,7 @@ relógio de Cuckoo: https://cuckoo. eam/tw-bookdash
 
 a cada dia realizaremos 3 sessões de desenvolvimento e uma sessão temática de discussão/rede onde você pode interagir com os outros. continue sua sessão de desenvolvimento fora do sistema ou faça uma pausa, pois é mais sustentável e útil para sua participação.
 
-Cada sessão de desenvolvimento seguirá a técnica Pomodoro que também utilizamos para as nossas chamadas de trabalho. Usaremos o [relógio de compartilhamento (cuckoo) compartilhado pelo navegador](https://cuckoo.team/tw-bookdash) para gerir o nosso tempo ([Capítulo de cooperação em The Turing Way](https://the-turing-way.netlify.app/community-handbook/coworking/coworking-motivation.html)
-
-Todo o tempo fornecido em London Time (UTC+1). Please use this link to convert in your time zone: convert time: https://arewemeetingyet.com/london/YYYY-MM-DD/hh:mm (update DD: date, hh:mm: hours:minutes)
+Cada sessão de desenvolvimento seguirá a técnica Pomodoro que também utilizamos para as nossas chamadas de trabalho. Usaremos o [relógio de compartilhamento (cuckoo) compartilhado pelo navegador](https://cuckoo.team/tw-bookdash) para gerir o nosso tempo ([Capítulo de cooperação em The Turing Way](https://the-turing-way.netlify.app/community-handbook/coworking/coworking-motivation.html) Todo o tempo fornecido em London Time (UTC+1). Please use this link to convert in your time zone: convert time: https://arewemeetingyet.com/london/YYYY-MM-DD/hh:mm (update DD: date, hh:mm: hours:minutes)
 
 **Use the Pomodoro sessions for comfort breaks as needed**
 
@@ -54,9 +52,7 @@ Todo o tempo fornecido em London Time (UTC+1). Please use this link to convert i
 
 ### :wave: Cadastre-se
 
-*Por favor, adicione seu nome a esta lista, mas lembre-se de que este é um documento público, então use um pseudônimo se preferir, ou apenas sinta-se livre para deixar seu nome.
-
-*Nome (pronomes - opcional) / Instituto / Twitter, GitHub / icebreaker: Que música/música/artista/álbum te deixa de bom humor! :musical_score: 
+*Por favor, adicione seu nome a esta lista, mas lembre-se de que este é um documento público, então use um pseudônimo se preferir, ou apenas sinta-se livre para deixar seu nome. *Nome (pronomes - opcional) / Instituto / Twitter, GitHub / icebreaker: Que música/música/artista/álbum te deixa de bom humor! :musical_score: 
 
 * 
 * 
@@ -75,11 +71,7 @@ Todo o tempo fornecido em London Time (UTC+1). Please use this link to convert i
 
 ### :busts_in_silhouette::speech_balloon: Planejando suas contribuições: rompa (10 minutos)
 
-*Em grupos de 3 explore e discuta sobre o que você gostaria de ver neste livro, ou como você pode contribuir. :sparkles: :space_invader: :rocket: :star2:
-
-Você pode usar seus objetivos SMART para guiar suas discussões <-- fornecer um link para as notas da chamada de integração
-
-*Liste os resultados nos quais você está trabalhando abaixo! Include your GitHub username, one sentence description and links to relevant issues and pull requests.*
+*Em grupos de 3 explore e discuta sobre o que você gostaria de ver neste livro, ou como você pode contribuir. :sparkles: :space_invader: :rocket: :star2: Include your GitHub username, one sentence description and links to relevant issues and pull requests.*
 
 ### :dart: Your goals for the book dash <--- used for only day-1
 
