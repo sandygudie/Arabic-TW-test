@@ -30,7 +30,7 @@ _Ting Way_ 项目示意图由 Storeria 标明。 在 CC-BY 4.0 许可下使用�
 
 **可重复：** 数据应该得到很好的描述，以便能够在不同的设置中使用、合并和扩展。
 
-You can find a more detailed [overview of the FAIR principles by GO FAIR](https://www.go-fair.org/fair-principles) of what the FAIR principles recommend. 你也可以阅读 [错误的](https://doi.org/10.5281/zenodo.2248200) 来理解对每项原则的解释。
+You can find a more detailed [overview of the FAIR principles by GO FAIR](https://www.go-fair.org/fair-principles) of what the FAIR principles recommend. 你也可以阅读 [错误的](https://doi.org/10.5281/zenodo.2248200) 来理解对每项原则的解释。 你也可以阅读 [错误的](https://doi.org/10.5281/zenodo.2248200) 来理解对每项原则的解释。
 
 制作数据“FAIR”与打开数据不同。 无障碍是指已经制定了查阅数据的程序。 数据应尽可能公开，必要时应保密。
 
