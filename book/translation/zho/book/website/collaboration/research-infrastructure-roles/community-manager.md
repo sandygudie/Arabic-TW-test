@@ -76,7 +76,7 @@
 
 (cl-infrastructure-communitymanagers-organisations)=
 ## 支持社区管理人员的组织
-科学合作和社区参与中心（[csc）。 rg](https://www.cscce.org/) 适用于 _“使社区参与管理员(CEM)在科学中的作用专业化和制度化。_ 他们提供培训、共同创立的资源、研究、 科学界管理人员相互联系和相互支持的积极实践社区。
+科学合作和社区参与中心（[csc）。 rg](https://www.cscce.org/) 适用于 _“使社区参与管理员(CEM)在科学中的作用专业化和制度化。 _ 他们提供培训、共同创立的资源、研究、 科学界管理人员相互联系和相互支持的积极实践社区。
 
 (cl-infrastructure-communitymanagers-summary)=
 ## Summary
