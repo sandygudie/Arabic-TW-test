@@ -18,6 +18,6 @@
 这种作用的一个缺点是，有时只是在学院一级从事这一专题的人才可能是孤独的。 很难与其他与研究关系不那么密切的支助联系在一起。 我非常幸运的是，我在研究生院和一个学院信息办公室有很好的同事。 他们乐于在与教师有关的事项上进行协作， 比如我们试图减少的博士项目的持续时间，或者任何关于开放访问出版物的数据。 这种作用的另一个消极方面是，没有明确规定职业发展方向。 提高职业发展阶梯的一个办法是发挥数据管理协调员的作用。 这将使我远离研究人员的队伍。 在我的工作中，我最喜欢的是与研究人员的互动。
 
 ## 福利
-作为数据向导，我在决定我应该从事哪些活动方面拥有很大的自主权。 例如，提高我的技能或学习新的技能，如编程。 我还可以参加(内部)国家网络，如 [数据Steward Interest Group](https://www.dtls.nl/about/community/interest-groups/data-stewards-interest-group/), The Ting Way。 [开放生命科学](https://openlifesci.org/), [开放研究日历](https://openresearchcalendar.org/) 团队, [研究数据联盟](https://www.rd-alliance.org/groups/physical-samples-and-collections-research-data-ecosystem-ig). 所有这些活动以及我得到支持的各种各样的问题导致时间安排非常不同， 在哪里从来没有一天完全一样。
+作为数据向导，我在决定我应该从事哪些活动方面拥有很大的自主权。 例如，提高我的技能或学习新的技能，如编程。 我还可以参加(内部)国家网络，如 [数据Steward Interest Group](https://www.dtls.nl/about/community/interest-groups/data-stewards-interest-group/), The Ting Way。 [开放生命科学](https://openlifesci.org/), [开放研究日历](https://openresearchcalendar.org/) 团队, [研究数据联盟](https://www.rd-alliance.org/groups/physical-samples-and-collections-research-data-ecosystem-ig). 所有这些活动以及我得到支持的各种各样的问题导致时间安排非常不同， 在哪里从来没有一天完全一样。 所有这些活动以及我得到支持的各种各样的问题导致时间安排非常不同， 在哪里从来没有一天完全一样。
 
 
