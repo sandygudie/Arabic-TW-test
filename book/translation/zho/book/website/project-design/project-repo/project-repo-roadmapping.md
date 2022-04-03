@@ -18,7 +18,7 @@ Stereteria的绘画线路项目示例。 在 CC-BY 4.0 许可下使用。 DOI：
 
 1. 提供项目概述和您的项目的当前状态。
 2. 随时登载信息，说明他人如何参与以及他们能够立即完成哪些任务。
-3. 包含您项目的短期和长期目标的时间线描述需要完成的任务。 捐助国正在开展哪些工作，下一步将在哪里进行。 例如，如果项目将重新发布，或者将主办一个活动。
+3. 包含您项目的短期和长期目标的时间线描述需要完成的任务。 例如，如果项目将重新发布，或者将主办一个活动。
 
 欲了解详情，请查看 [此演示](https://docs.google.com/presentation/d/e/2PACX-1vSMCLWnN1_lO4ofD9cCjN9TJxyHYIvBFfgarOlwi95G4JJ5m672v-sYFbvfRyHPag83XviEJBrIecga/pub?start=false&loop=false&delayms=3000) 由 [开放生命科学](https://openlifesci.org/) 培训和辅导方案。
 
