@@ -50,6 +50,7 @@ Para añadir un bloque de contenido especial (nota, advertencia o advertencia) a
 ```{note}
 ¡Esta es una nota de ejemplo!
 ```
+```
 ````
 que se muestra de la siguiente manera:
 
@@ -62,6 +63,7 @@ Puedes dar a los bloques de contenido títulos personalizados y estilo para refo
 ````
 ```{warning}
 ¡Esta es una advertencia severa!
+```
 ```
 ````
 Tenga en cuenta el nuevo título, icono y esquema de colores.
