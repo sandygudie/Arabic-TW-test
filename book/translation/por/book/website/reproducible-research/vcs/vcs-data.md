@@ -15,8 +15,7 @@ Tais processos dinâmicos são excelentes e benéficos para a ciência, uma vez 
 altura: 500px
 nome: proveniência
 alt: Provença em que dados em que a versão estava subjacente a qual a computação é crucial para a reprodução.
----
-Proveniência em que dados em que versão estava subjacente que a computação é crucial para a reprodutibilidade.
+--- Proveniência em que dados em que versão estava subjacente que a computação é crucial para a reprodutibilidade.
 _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
