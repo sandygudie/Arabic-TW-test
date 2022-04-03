@@ -10,8 +10,8 @@
 - 访问信息 (URL 或 DOI)
 
 引文风格是引文所需的特定安排、顺序和信息格式。 例如， 现代语言协会（最初用于人文学）开发了现代语言协会的风格，美国心理学协会（原用于心理学和社会科学）开发了美国心理学协会的风格。
-- MLA 引文风格使用以下格式： `作者 “源名称” 容器的标题，其他贡献者，版本，Number，出版，出版日期，位置。`
-- APA 引文风格使用以下格式： `作者 (年份)。 数据集的标题(版本号)。 [检索] ***OR*** [DOI]`
+- MLA 引文风格使用以下格式： `作者 “源名称” MLA 引文风格使用以下格式： <code>作者 “源名称” 容器的标题，其他贡献者，版本，Number，出版，出版日期，位置。 `
+- APA 引文风格使用以下格式： `作者 (年份)。 (年份)。 数据集的标题(版本号)。 [检索] ***OR*** [DOI]`
 
 查看 [Scr引文样式指南](https://www.scribbr.com/citing-sources/citation-styles/)。 还见 [FORCE11资源](https://www.force11.org/node/4771)。
 
@@ -24,7 +24,7 @@
 
 ### 数据具备情况说明示例：
 
-**使用 Digital Object Identifier (DOI)：** “支持本研究结果的数据可公开查阅http://doi [repositorial name] 。 rg/[doi]。”
+**使用 Digital Object Identifier (DOI)：** “支持本研究结果的数据可公开查阅http://doi [repositorial name] 。
 
 **如果没有发布DOI：**
 - “支持本研究结果的数据可公开查阅 \[URL\]\[仓库名称\]，参考号[参考号]。”
@@ -33,8 +33,8 @@
 - “支持调查结果的数据将在公布之日起\[6个月]禁运之后，以[URL/DOI\]\[存放地名\]提供，以便使研究结果商业化。”
 
 **当无法提供数据时：**
-- “这些限制适用于支持本研究结果的数据。 [举例说，限制的解释性质。] 如果数据含有可能损害研究参与者隐私的信息，则可通过联系[姓名和联系细节]并经[第三方姓名]许可，根据合理请求提供数据。”
--  “可索取支持本研究结果的数据。 访问条件和程序可以在 [EASY](https://easy.dans.knaw.nl/ui/home) 等限制访问仓库的 URL。]”
+- “这些限制适用于支持本研究结果的数据。 ] 如果数据含有可能损害研究参与者隐私的信息，则可通过联系[姓名和联系细节]并经[第三方姓名]许可，根据合理请求提供数据。”
+-  “可索取支持本研究结果的数据。 访问条件和程序可以在 [EASY](https://easy.dans.knaw.nl/ui/home) 等限制访问仓库的 URL。 ]”
 
 **更多数据可用性说明示例：**
 
@@ -49,7 +49,7 @@
 
 - 创建一个文件，告诉人们如何引用您的软件。 使用此 [便捷指南](https://citation-file-format.github.io/cff-initializer-javascript/) 格式化文件。
 - 将您的GitHub 帐户链接到Zenodo帐户。 本指南解释了 [如何](https://guides.github.com/activities/citable-code/)
-- 您可以通过添加 `zenodo 来告诉Zenodo 你想要包含什么信息或元数据。 son` 文件，在这里介绍 [](https://guide.esciencecenter.nl/citable_software/making_software_citable.html)
+- 您可以通过添加 `zenodo 来告诉Zenodo 你想要包含什么信息或元数据。 son` 文件，在这里介绍
 - 在 Zenodo 上，将切换到你想要发布的 GitHub 仓库的“on”位置。
 - 在 GitHub 上，点击 *创建新版本的* 按钮。 Zenodo应该自动收到通知，并且应该提供一个您仓库当前状态的快照副本(仅一个分支, 还应该为这个快照指定一个持久性标识符(DOI)。
 - 在您的软件的任何引文中使用 DOI 并告诉任何合作者和用户也这样做！
