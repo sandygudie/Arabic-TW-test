@@ -16,6 +16,12 @@
 
 事件...
 
+本月...
+
+冲出...
+
+事件...
+
 在:backhand_index_pointing_down下面找到这些主题的更多细节：
 
 
@@ -56,6 +62,8 @@
 You are welcome to contribute content for the next newsletter by
 emailing [Malvika Sharan](mailto:msharan@turing.ac.uk).
 
-*您错过了上次的通讯吗？*
+*您错过了上次的通讯吗？
+
+*
 *查看他们 [here](https://tinyletter.com/TuringWay/archive).*
 ```
