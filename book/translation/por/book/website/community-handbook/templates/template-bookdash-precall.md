@@ -21,9 +21,7 @@
 [TOC]
 
 :sunflower: Welcome!  
----
-
-Esta chamada está agendada para os participantes convidados do próximo evento de Dash do Livro sediado pela The Turing Way em curso, de 17 a 21 de maio online.
+--- Esta chamada está agendada para os participantes convidados do próximo evento de Dash do Livro sediado pela The Turing Way em curso, de 17 a 21 de maio online.
 
 Por favor, note que se espera que todos que participam do projeto The Turing Way_ respeitem nosso [Código de Conduta](https://github.com/alan-turing-institute/the-turing-way/blob/main/CODE_OF_CONDUCT.md).
 
@@ -69,9 +67,7 @@ Por favor, veja mais detalhes sobre o [projeto](https://github.com/alan-turing-i
     * [Materiais de introdução](https://hackmd. o/@turingway/bookdash-may2021-index#GitHub-Resources) <--- atualize este
 
 :dart: objetivo de configuração do exercício: Breakout
----
-
-Gostaríamos de ajudar a criar alguns planos e tópicos que você gostaria de explorar para suas contribuições na _A Turing Way_. 
+--- 
 - Por favor, note que essa meta de configuração pode estar relacionada às sugestões feitas pelos revisores com base no seu aplicativo (veja o seu e-mail de aceitação). 
 - Ficaremos encantados em trabalhar com você para garantir que você esteja animado com a sua contribuição para o evento Book Dash. 
 - Estes tópicos podem ser algo que ou está ausente nos capítulos existentes ou precisam de ser actualizados no projeto.
@@ -86,14 +82,10 @@ Definir nossas metas pessoais nos ajudará a nos preparar melhor para sua partic
 - **R**elevante: eles são importantes e práticos.
 - **T** vinculação: eles especificam um prazo para quando o objetivo será atingido.
 
-*Estamos usando [este modelo](https://freespiritpublishingblog.com/wp-content/uploads/2015/08/setting-smart-goals.pdf) por Danielle R. Schultz (2015).
-
-<! -COPY BELOW-->
+*Estamos usando [este modelo](https://freespiritpublishingblog.com/wp-content/uploads/2015/08/setting-smart-goals.pdf) por Danielle R. Schultz (2015). <! -COPY BELOW-->
 
 > [nome=Nome]
-> **S**pecific: O que eu quero conseguir?
-> **M**fácil: Como vou medir meu sucesso?:
-> **Ttainable: consigo atingir essa meta realmente? Que medidas tomarei?
+> **S**pecific: O que eu quero conseguir? Que medidas tomarei?
     > passo 1:
     > passo 2:
     > passo 3:
@@ -102,8 +94,7 @@ Definir nossas metas pessoais nos ajudará a nos preparar melhor para sua partic
 > Declaração de objetivo:
 
 > [nome=nome]
-> **S**pecificação: o que quero realizar?
-> **M**fácil: Como vou medir meu sucesso?:
+> **S**pecificação: o que quero realizar? > **M**fácil: Como vou medir meu sucesso?:
 > **Ttainível: Posso alcançar essa meta realmente? Que medidas tomarei?
     > passo 1:
     > passo 2:
