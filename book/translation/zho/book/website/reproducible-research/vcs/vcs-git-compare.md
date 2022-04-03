@@ -26,7 +26,7 @@ git 签出SHA_of_the_version
 
 承诺应该是“原子”，这意味着 **他们应该做一件简单的事情，他们应该完全做**。 例如，一个“原子”承诺可能会添加一个新的函数或重命名一个变量。 如果你的项目都有许多不同的更改，那么你的项目都会被承诺在一起。 如果在该版本中出现任何错误，很难解决问题。 此外，撤销全部承诺可能会使有效和有益的工作付诸东流。
 
-**是很好的做法，可以指定要提交的文件**, 也就是说，。 按名称(`git 添加 your_file_name`) 将文件添加到暂存区域，而不是添加所有 (`git 添加.`。 这将防止您无意地将不同的更改捆绑在一起。 例如，如果您在主要处理B文件时对A文件作了更改， 你在提交时可能已经忘记了这一点。 使用 `git 添加。`, 文件 A 将被带到该行程上。 If there are several *unrelated* changes that should not be added together in a *single* file, `git add -p your_file_name` will let you interactively chose which changes to add. 尽管如此， **你不一定需要在处理多个文件时进行每个文件提交** ，而只需要处理一个问题。 例如，如果我们在本章中添加一个数字，选择一个可以通过以下方式获得某人的注意力：
+**是很好的做法，可以指定要提交的文件**, 也就是说，。 按名称(`git 添加 your_file_name`) 将文件添加到暂存区域，而不是添加所有 (`git 添加.`。 这将防止您无意地将不同的更改捆绑在一起。 例如，如果您在主要处理B文件时对A文件作了更改， 你在提交时可能已经忘记了这一点。 使用 `git 添加。 `, 文件 A 将被带到该行程上。 If there are several *unrelated* changes that should not be added together in a *single* file, `git add -p your_file_name` will let you interactively chose which changes to add. 尽管如此， **你不一定需要在处理多个文件时进行每个文件提交** ，而只需要处理一个问题。 尽管如此， **你不一定需要在处理多个文件时进行每个文件提交** ，而只需要处理一个问题。 例如，如果我们在本章中添加一个数字，选择一个可以通过以下方式获得某人的注意力：
 
 ```{figure} ../../figures/flipped-taj-mahal.png
 ---
