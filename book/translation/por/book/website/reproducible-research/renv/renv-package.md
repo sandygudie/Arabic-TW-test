@@ -90,8 +90,7 @@ Note que você pode precisar usar a fonte `` em vez de `conda` se você estiver 
 Uma vez que um ambiente é ativado, você deverá ver o nome do ambiente antes de cada prompt no seu terminal:
 
 ```
-(Project_One) $ python --version
-Python 3.7.1
+(Project_One) $ python --version Python 3.7.1
 ```
 
 (rr-renv-pacote-excluindo)=
@@ -148,7 +147,7 @@ Esta é a melhor maneira de instalar pacotes de dentro do Conda, pois também in
 pip install scipy
 ```
 
-irá instalar o pacote `scipy` explicitamente - desde que o `pip` seja instalado dentro do ambiente de Conda atualmente ativo. Infelizmente, quando Conda e `pip` são usados juntos para criar um ambiente, pode conduzir a um estado que pode ser difícil de reproduzir. Especificamente, executar Conda depois do `pip` pode potencialmente substituir ou quebrar pacotes instalados via `pip`. Uma maneira de evitar isso é instalando o maior número possível de requisitos no Conda, e então usando o pip. Informações detalhadas podem ser lidas no post, [Usando o Pip em um ambiente de Conda](https://www.anaconda.com/using-pip-in-a-conda-environment/).
+irá instalar o pacote `scipy` explicitamente - desde que o `pip` seja instalado dentro do ambiente de Conda atualmente ativo. Infelizmente, quando Conda e `pip` são usados juntos para criar um ambiente, pode conduzir a um estado que pode ser difícil de reproduzir. Especificamente, executar Conda depois do `pip` pode potencialmente substituir ou quebrar pacotes instalados via `pip`. Uma maneira de evitar isso é instalando o maior número possível de requisitos no Conda, e então usando o pip. Uma maneira de evitar isso é instalando o maior número possível de requisitos no Conda, e então usando o pip. Informações detalhadas podem ser lidas no post, [Usando o Pip em um ambiente de Conda](https://www.anaconda.com/using-pip-in-a-conda-environment/).
 
 Embora os pacotes do Python tenham sido usados em muitos dos exemplos dados aqui, os pacotes do Conda não precisam ser pacotes do Python. Por exemplo, aqui o idioma base R está instalado juntamente com o pacote R `r-yaml`:
 
