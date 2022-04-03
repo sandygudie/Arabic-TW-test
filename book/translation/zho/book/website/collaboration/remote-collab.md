@@ -9,7 +9,7 @@
 名称：分布式协作
 Alt：一个站在地球上，几乎与不同时区的人在不同的计算机屏幕上进行交互
 ---
-分布式协作. Stereteria的绘画线路项目示例。 在 CC-BY 4.0 许可下使用。 DOI：[10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)。
+分布式协作. Stereteria的绘画线路项目示例。 Stereteria的绘画线路项目示例。 在 CC-BY 4.0 许可下使用。 DOI：[10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)。
 ```
 
 远程合作是开放源码项目或在线社区的一种标准做法。 在过去几年中，随着越来越多的公司在远离主要办事处的地区扩大其业务，它受到人们的欢迎（例如： [Mozilla](https://www.mozilla.org/en-GB/)), 或完全作为远程公司存在(例如， [RStudio](https://rstudio.com/about/))。
