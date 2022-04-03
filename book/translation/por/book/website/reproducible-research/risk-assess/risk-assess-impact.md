@@ -10,8 +10,7 @@ Uma matriz de risco é uma maneira muito popular de quantificar o que está acon
 ---
 nome: matriz de risco
 alt: impacto vs matriz de risco de complexidade
----
-Impacto vs matriz de risco de complexidade
+--- Impacto vs matriz de risco de complexidade
 ```
 
 No nosso caso, utilizaremos como dois eixos a "complexidade" e o "impacto". Alguns estudos de caso mostram como funciona…
@@ -26,7 +25,7 @@ Caso 1
 
 > Aqui, Richard decide que a complexidade e o impacto deste pequeno software são baixos. Portanto, usar o controle de versão e a documentação de escrita é desproporcionado neste momento. Ele decide fazer uma corrida seca, ecoando a linha de envio no terminal para que possa verificá-lo rapidamente.
 > Algumas semanas depois, alguém no laboratório quer fazer a mesma coisa. Richard oferece seu script como funcionou muito bem para ele. Os golos se mudaram. Richard pausa por mais alguns segundos e reavalia o risco…
-> …5 anos depois, O script de Richard evoluiu para um grande sistema de controle de fluxo de trabalho, permitindo que várias universidades gerenciem fluxos de trabalho complexos que consistem em 1000's de empregos apresentados a uma série de diferentes recursos de computação. O software agora tem um quadro de projectos formais que define a governação e a direção do software, assegurar que seja sustentável e satisfaça as necessidades dos 100 utilizadores em todo o mundo.
+> Richard pausa por mais alguns segundos e reavalia o risco… …5 anos depois, O script de Richard evoluiu para um grande sistema de controle de fluxo de trabalho, permitindo que várias universidades gerenciem fluxos de trabalho complexos que consistem em 1000's de empregos apresentados a uma série de diferentes recursos de computação. O software agora tem um quadro de projectos formais que define a governação e a direção do software, assegurar que seja sustentável e satisfaça as necessidades dos 100 utilizadores em todo o mundo.
 
 Caso 2...
 
