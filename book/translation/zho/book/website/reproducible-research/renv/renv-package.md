@@ -1,7 +1,7 @@
 (rr-renv-package)=
 # 软件包管理系统
 
-软件包管理员安装并跟踪您在环境中使用的不同软件包(及其版本)。 There are quite a few to choose from, for example, Yum, Zypper, dpkg, and Nix (which will be mentioned in the {ref}`rr-renv-binder` section). 我们将侧重于 [Conda](https://conda.io/en/latest/), 它有几个有用的功能。
+软件包管理员安装并跟踪您在环境中使用的不同软件包(及其版本)。 There are quite a few to choose from, for example, Yum, Zypper, dpkg, and Nix (which will be mentioned in the {ref}`rr-renv-binder` section). 我们将侧重于 [Conda](https://conda.io/en/latest/), 它有几个有用的功能。 我们将侧重于 [Conda](https://conda.io/en/latest/), 它有几个有用的功能。
 
 (rr-renv-package-conda)=
 ## Conda 怎么办？
@@ -177,7 +177,7 @@ conda install-c channel_name package_name
 (rr-renv-package-exporting)=
 ## 导出和复制计算环境
 
-Conda 环境可以轻松地导出到 YAML 格式的人类可读文件。 YAML 文件在本章中更详细地讨论了 {ref}` <rr-renv-yaml>`。
+Conda 环境可以轻松地导出到 YAML 格式的人类可读文件。 YAML 文件在本章中更详细地讨论了 {ref}`<rr-renv-yaml>`。
 
 若要将 conda 环境导出到名为 `environment.yml`的文件，请激活环境，然后运行：
 
