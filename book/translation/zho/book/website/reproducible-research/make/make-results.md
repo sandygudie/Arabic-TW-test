@@ -11,10 +11,7 @@
 \hline
 分隔符 & 87. 8 & 86.82 & 65.41 & 92.61 & 88.33 & 91。 8 & \textbf{94.92}\\
 Quotechar & 82. 0 & 92.36 & 44.60 & 95。 3 & 90.10 & 93.80 & \textbf{97.36}\\
-Escapechar & 87. 6 & 94.37 & 74.85 & 97.95 & 96.26 & 95。 4 & \textbf{99.25}\\
-通盘 & 80。 0 & 8545 & 38.19 & 90。 9 & 83.61 & 90.61 & \textbf{93.75}\\
-\hline
-\end{tabular}
+Escapechar & 87. 6 & 94.37 & 74.85 & 97.95 & 96.26 & 95。
 ```
 
 要将此表包含在您的手稿中，您可以使用 LaTeX 的 `\input{}` 函数。 如果表格的文件名为 `mytable.tex`, 此命令 可以插入到您的手稿中:
@@ -29,6 +26,8 @@ Escapechar & 87. 6 & 94.37 & 74.85 & 97.95 & 96.26 & 95。 4 & \textbf{99.25}\\
 
 ```latex
 \step{table}
+    \begin{tabular*}{ccc}
+        \textbf{Variable} & \textbf{Mean}   & \textbf{std \step{table}
     \begin{tabular*}{ccc}
         \textbf{Variable} & \textbf{Mean}   & \textbf{std 绕道} \
         \hline
