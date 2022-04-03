@@ -64,6 +64,7 @@ O trabalho ético também pode incluir uma reflexão crítica sobre os contratos
 A lei não é estática nem inalterável. A lei é feita pelos seres humanos e pode ser alterada pelo homem. Se você sente que a lei na sua jurisdição funciona de uma forma que não é útil ou prejudicial, considere unir esforços para mudá-lo! Alterar a legislação é um projecto a longo prazo e pode levar décadas.
 
 Esta secção não pretende explicar como o fazer: um bom local para começar é encontrar uma organização de campanha que esteja a trabalhar no assunto, e pergunte a eles como se envolver.<!--- edite isto para se referir ao capítulo de ativismo, quando tivermos escrito -->Veja detalhes nos capítulos no {ref}`er-activismo` para mais detalhes.
+<!--- edite isto para se referir ao capítulo de ativismo, quando tivermos escrito --> Veja detalhes nos capítulos no {ref}`er-activismo` para mais detalhes.
 
 ## Política
 
