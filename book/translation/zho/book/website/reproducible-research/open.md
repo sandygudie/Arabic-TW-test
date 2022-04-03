@@ -20,7 +20,7 @@ _Ting Way_ 项目示意图由 Storeria 标明。 在 CC-BY 4.0 许可下使用�
 (rr-open-summary)=
 ## Summary
 
-开放式研究旨在通过使研究更易复制、透明、可重复使用、协作、负责任和向社会开放来改变研究工作。 它推动改变以数字工具开展和传播研究的方式。 一个开放式研究的定义， [是经济合作与发展组织(经合组织)提供的](https://www.fct.pt/dsi/docs/Making_Open_Science_a_Reality.pdf "Making Open Science a Reality, OECD Science, Technology and Industry Policy Papers No. 25")， 这是一种做法，即“由政府资助的研究成果的主要产出——出版物和研究数据——以数字格式向公众开放，无限制或限制最少。” 为了在研究中实现这种公开性，研究过程的每一个要素应：
+开放式研究旨在通过使研究更易复制、透明、可重复使用、协作、负责任和向社会开放来改变研究工作。 它推动改变以数字工具开展和传播研究的方式。 一个开放式研究的定义， [是经济合作与发展组织(经合组织)提供的](https://www.fct.pt/dsi/docs/Making_Open_Science_a_Reality.pdf "Making Open Science a Reality, OECD Science, Technology and Industry Policy Papers No. 25")， 这是一种做法，即“由政府资助的研究成果的主要产出——出版物和研究数据——以数字格式向公众开放，无限制或限制最少。” 为了在研究中实现这种公开性，研究过程的每一个要素应： 为了在研究中实现这种公开性，研究过程的每一个要素应：
 
 - _公开的_: 很难使用密码和付费墙等障碍后隐藏的知识并从中受益。
 - _可以重新使用_: 研究输出需要被适当授权，以便潜在的用户知道对重新使用的任何限制。
