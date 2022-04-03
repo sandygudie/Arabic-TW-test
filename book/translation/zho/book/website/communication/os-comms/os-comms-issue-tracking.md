@@ -1,7 +1,7 @@
 (cm-os-comms-issue-tracking)=
 # 问题跟踪
 
-大多数软件开发项目都有某种问题板，可以方便地跟踪项目中的当前问题。 例如修复错误，展开新功能，或社区参与计划。 [GitHub](https://github.com) (一个非常受欢迎的协作平台) 有一个内置的 [问题跟踪器](https://guides.github.com/features/issues/) 和 [项目板](https://help.github.com/en/github/managing-your-work-on-github/about-project-boards) 可以将问题一起进行比较以追踪更具体的进度。 更高级别的目标。
+大多数软件开发项目都有某种问题板，可以方便地跟踪项目中的当前问题。 例如修复错误，展开新功能，或社区参与计划。 [GitHub](https://github.com) (一个非常受欢迎的协作平台) 有一个内置的 [问题跟踪器](https://guides.github.com/features/issues/) 和 [项目板](https://help.github.com/en/github/managing-your-work-on-github/about-project-boards) 可以将问题一起进行比较以追踪更具体的进度。
 
 本节讨论了为什么问题跟踪是有用的，以及你可以在哪里储存它们。
 
@@ -29,7 +29,7 @@
 (os-comms-issue-tracking-purpose-issues-case study)=
 #### 案例研究：mybinder.org
 
-[mybinder。 rg](https://mybinder.org) 是一个方便用户通过云端轻松分享可重复分析和计算环境的平台。 [Jupyter 笔记本](https://jupyter-notebook.readthedocs.io/en/stable/) 这个项目分散在若干不同的仓库，每个仓库都是一个单独的工具，可以与其他仓库分开使用。 它们是：
+[mybinder。 rg](https://mybinder.org) 是一个方便用户通过云端轻松分享可重复分析和计算环境的平台。 这个项目分散在若干不同的仓库，每个仓库都是一个单独的工具，可以与其他仓库分开使用。 它们是：
 
 - [repo2docker](https://github.com/jupyter/repo2docker) , ,
 - [Kubernetes JupyterHub](https://github.com/jupyterhub/zero-to-jupyterhub-k8s),
@@ -43,9 +43,12 @@ Jupyter生态系统中还有一些与Binder联系很薄弱的工具。 项目Bin
 
 根据Binder项目小组的经验，大多数社区成员只为其中一个或两个项目作出贡献。 因此，让所有工作部门更多地接触所有问题并不是他们所在社区的高度优先事项。
 
-他们发现，分发问题跟踪后，社区中那些只能在朱皮特尔胡布工作的成员能够轻松地作出贡献，而不需要熟悉运行 [mybinder的一切。 rg](https://mybinder.org)。
+他们发现，分发问题跟踪后，社区中那些只能在朱皮特尔胡布工作的成员能够轻松地作出贡献，而不需要熟悉运行
+mybinder的一切。</p> 
 
 (os-comms-issue-tracking-designe-issues-centralised-issue)=
+
+
 ### 集中问题仓库
 
 有了一个大型项目，为了更容易的管理而将你的所有问题整理成一个地方是有吸引力的。 如果您正在使用问题跟踪中央服务，个人待办事宜列表。 并回答问题，如某项任务是高优先级还是它已经分配给某人， 然后在中央系统中跟踪问题是一个很好的选择，它不一定需要分发给你们更广泛的社区。
@@ -59,6 +62,8 @@ Jupyter生态系统中还有一些与Binder联系很薄弱的工具。 项目Bin
 一个单独的议题板对社区的影响非常大，当人们访问你的代码仓库时， 它看起来像一个不活跃的项目，因为没有问题或会话在代码托管中。 这可能会使社区成员相信代码不再被积极开发/维护/支持，并且可能选择使用另一个代码或软件包。
 
 (os-comms-issue-tracking-comparative-table)=
+
+
 ## 对比表
 
 下表比较了一个多版本库项目的分布式和集中式问题仓库的特征。
@@ -74,7 +79,10 @@ Jupyter生态系统中还有一些与Binder联系很薄弱的工具。 项目Bin
 | 在社区活动时显示    |                    |    ✅     |
 | 可管理的音量      |                    |    ✅     |
 
+
 *电源用户 = 这些人已经非常熟悉一个平台，知道使他们的体验更有效率的获得方法和技巧。
+
+
 
 ## 进一步阅读
 
