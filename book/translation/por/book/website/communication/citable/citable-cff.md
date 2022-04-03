@@ -8,8 +8,7 @@ O [Formato de Arquivo de Citação](https://citation-file-format.github.io) perm
 nome: reconhecimento
 largura: 500px
 alt: Pesquisar desenvolvedores de software obtêm reconhecimento fazendo o software ser citado.
----
-Os desenvolvedores de software de pesquisa são reconhecidos fazendo o software ser citado. _O projeto Turing Way_ ilustração por Scriberia. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
+--- Os desenvolvedores de software de pesquisa são reconhecidos fazendo o software ser citado. _O projeto Turing Way_ ilustração por Scriberia. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
 ```
 
 Para fornecer esses metadados, comece por escrever um arquivo `CITATION.cff` e inclua-o com seu software ou conjunto de dados. Uma `CITAÇÃO. o arquivo ff` agrega a informação em um formato de valor-chave que pode ser facilmente interpretado e atualizado por humanos, e interpretado e convertido com ferramentas existentes.
@@ -26,8 +25,7 @@ Existem ótimas vantagens ao usar o arquivo `CITATION.cff` para as informações
 nome: largura do software-credit
 500px
 alt: Mais créditos para os criadores de software.
----
-Mais créditos para os criadores de software. _O projeto Turing Way_ ilustração por Scriberia. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
+--- Mais créditos para os criadores de software. _O projeto Turing Way_ ilustração por Scriberia. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
 ```
 
 É mais fácil para os usuários de seu software:
@@ -46,8 +44,7 @@ Um exemplo mínimo de um arquivo válido de `CITATION.cff` , que contém apenas 
 autores:
   - nomes familiares: Fazer
     nome-dados: João
-cff-version: 1.2.
-mensagem: "Se você usa este software, por favor citá-lo usando os metadados deste arquivo."
+cff-version: 1.2. mensagem: "Se você usa este software, por favor citá-lo usando os metadados deste arquivo."
 título: "Meu software de pesquisa"
 ```
 
