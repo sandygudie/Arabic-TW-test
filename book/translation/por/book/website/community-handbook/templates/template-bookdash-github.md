@@ -35,7 +35,7 @@
 Nome / Instituto ou afiliação / Que aspecto específico do GitHub você acha desafiador?
 * 
 * 
- 
+
 
 🗣️ Bem-vindo!
 
@@ -44,8 +44,7 @@ Nome / Instituto ou afiliação / Que aspecto específico do GitHub você acha d
 
 ### Roll call
 
-- Name / Icebreaker question: Share something from nature that has awed you or brought you peace recently - perhaps a flower, a view, a photo, a scent, a potted plant, a bird that flew past... 
-* 
+- Name / Icebreaker question: Share something from nature that has awed you or brought you peace recently - perhaps a flower, a view, a photo, a scent, a potted plant, a bird that flew past... * 
 * 
 *  
 
@@ -79,9 +78,7 @@ Nome / Instituto ou afiliação / Que aspecto específico do GitHub você acha d
   - 
   -
 
-**Feedback**
-
-What worked? O que não funcionou? Que apoio adicional você precisaria antes ou durante o Dash?
+**Feedback** What worked? O que não funcionou? Que apoio adicional você precisaria antes ou durante o Dash?
 
 -
 -
