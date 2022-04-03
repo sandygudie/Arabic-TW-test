@@ -15,8 +15,7 @@ Esta seção introduz brevemente os principais conceitos de *Pesquisa Responsáv
 ---
 nome: pesquisa ética
 alt: Uma pessoa procura a integridade da pesquisa e outra pessoa segura um mapa e procura as consequências da pesquisa.
----
-Olhando para diferentes aspectos da ética da pesquisa. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+--- Olhando para diferentes aspectos da ética da pesquisa. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
 ## Motivação
