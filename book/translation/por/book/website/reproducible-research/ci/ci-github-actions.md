@@ -30,8 +30,7 @@ _A Turing Way_ ilustração de projeto por Scriberia. Usado sob uma licença CC-
 ---
 nome: Contínuo - Nov20
 alt: Uma ilustração de como a integração contínua funciona com vários trabalhos e ações trabalhando lado a lado para ilustrar os passos para mostrar a integração com a versão principal.
----
-À esquerda: ilustração de projeto The Turing Way_ por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807). À direita: Diagrama geral dos conceitos mais importantes das Ações GitHub, adaptado de [morioh.com](https://morioh.com/p/aadcfe6cac57).
+--- À esquerda: ilustração de projeto The Turing Way_ por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807). À direita: Diagrama geral dos conceitos mais importantes das Ações GitHub, adaptado de [morioh.com](https://morioh.com/p/aadcfe6cac57).
 ```
 
 ### 2. Trabalho
