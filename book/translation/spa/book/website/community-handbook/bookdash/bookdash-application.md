@@ -7,27 +7,32 @@ En este subcapítulo, hemos proporcionado detalles sobre la solicitud y el proce
 
 ## Llamada para aplicaciones
 
-El evento de guión de libros está organizado para hasta 15 participantes. La razón detrás de mantenerlo pequeño es permitir que los miembros del equipo principal ofrezcan mentoría específica a los participantes invitados y hacer de esto una interactiva, evento íntimo, divertido y productivo.
+El evento de guión de libros está organizado para hasta 15 participantes. The event is divided into multiple sessions with small groups of participants attending in their time zone. La razón detrás de mantenerlo pequeño es permitir que los miembros del equipo principal ofrezcan mentoría específica a los participantes invitados y hacer de esto una interactiva, evento íntimo, divertido y productivo.
 
 Para realizar esta selección de forma justa, se abre una convocatoria de solicitudes con al menos 3 meses de antelación para que los miembros interesados puedan compartir sus habilidades, y los resultados esperados a través de una aplicación corta. Las aplicaciones se mantienen abiertas durante un mínimo de 4 semanas y la línea de tiempo se comunica claramente a través de nuestros boletines, Twitter feed y formulario de solicitud.
+
+This application can take 30-45 minutes to complete. We have created this template document with all the questions to prepare a draft before submission: https://tinyurl.com/tw-bookdash-template.
+
+Seguimos pensando en formas de garantizar la privacidad y la protección de datos. Actualmente, todas estas respuestas son manejadas de forma segura bajo la ley [RGPD (Regulación General de Protección de Datos)](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) (aprender sobre la creación de [encuestas a prueba de RGP](https://www.surveylegend.com/gdpr/how-to-make-gdpr-proof-surveys-or-forms/)). Todos nuestros solicitantes deben estar de acuerdo con la siguiente declaración del GDPR al enviar su solicitud:
+> *Necesitamos almacenar su dirección de correo electrónico para ponerse en contacto con usted. The information provided in this form will be shared only with The Turing Way Book Dash organisers to help them review your application fairly. Todos los detalles proporcionados se almacenarán en un Google Drive al que solo tienen acceso los miembros principales de _The Turing Way_. Los servidores están basados en los Estados Unidos. Usted puede solicitar que su dirección de correo electrónico y otra información identificable sea eliminada de nuestra base de datos en cualquier momento. Si tiene alguna pregunta, póngase en contacto con los miembros del equipo enviando un correo electrónico a turingway@gmail.com. You may edit your responses after submission until 21 May 2022. Please select the "I understand and I accept" option before proceeding.*
+
+We ask if applicants have previously participated in a Book Dash so that they can express their interest to join the Book Dash review and planning committee for this event:
+> We encourage returning applicants to The Turing Way Book Dash to join the planning committee. They will take on advisory and leading roles for the Book Dash events in 2022 by getting involved in application Review, selection process, organisation meeting, session host and mentorship or accessibility-related support they can offer based on their willingness, availability and interest. For any questions, please email theturingway@gmail.com.
 
 En 150 palabras, cada uno de los solicitantes responde a las siguientes preguntas:
 - ¿Qué podría contribuir al Camino de Turing?
 - ¿Qué ganarías al formar parte del guión del libro Turing Way?
 
+We ask an optional question for returning members to express their interest to take on leadership roles in designing and organising Book Dashes:
+- ¿Ha respondido el solicitante a las preguntas de la solicitud?
+
 Estas respuestas a las preguntas en el formulario de solicitud nos ayudan a seleccionar un grupo de personas que podrán trabajar juntos de forma eficaz y abarcar un amplio conjunto de posibles contribuciones a la Vía Turing. No esperamos que los candidatos hayan contribuido previamente al proyecto o estén familiarizados con nuestra infraestructura de proyectos como la contribución basada en GitHub. Buscamos más ideas sobre lo que piensan que es importante y útil para otros que hacen ciencia de datos en el escenario actual.
-
-
 
 A continuación formulamos algunas preguntas demográficas. Queremos asegurarnos de que el grupo seleccionado de participantes traiga múltiples habilidades, conocimientos y experiencia a _The Turing Way_. Nuestro objetivo es involucrar a miembros de diversos grupos, especialmente a aquellos que tradicionalmente están excluidos de la ciencia de la información basada en el género, la etnicidad y la etapa de carrera. Por lo tanto, pedimos a nuestros solicitantes que indiquen si se consideran miembros de uno o varios grupos históricamente subrepresentados. Aquí pueden añadir cualquier otra información sobre sí mismos que piensen que el equipo central debería saber al revisar su aplicación (como LGBTQ+, inmigrante, deshabilitado, padre, cuidador, miembros del POC).
 
 Buscamos eliminar cualquier barrera que impida que nuestros participantes asistan al evento. Por lo tanto, utilizamos este formulario para evaluar qué apoyo podemos ofrecer, incluidos los requisitos de financiación. a nuestros participantes para que puedan asistir cómodamente al evento. Los solicitantes pueden mencionar sus requisitos de viaje, alojamiento, cuidado de niños y accesibilidad para su participación.
 
-Seguimos pensando en formas de garantizar la privacidad y la protección de datos. Actualmente, todas estas respuestas son manejadas de forma segura bajo la ley [RGPD (Regulación General de Protección de Datos)](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) (aprender sobre la creación de [encuestas a prueba de RGP](https://www.surveylegend.com/gdpr/how-to-make-gdpr-proof-surveys-or-forms/)).
-
-Todos nuestros solicitantes deben estar de acuerdo con la siguiente declaración del GDPR al enviar su solicitud:
-
-*Necesitamos almacenar su dirección de correo electrónico para ponerse en contacto con usted. Todos los detalles proporcionados se almacenarán en un Google Drive al que solo tienen acceso los miembros principales de _The Turing Way_. Los servidores están basados en los Estados Unidos. Usted puede solicitar que su dirección de correo electrónico y otra información identificable sea eliminada de nuestra base de datos en cualquier momento. Si tiene alguna pregunta, póngase en contacto con los miembros del equipo enviando un correo electrónico a turingway@gmail.com.*
+Finally, we provide details regarding the event schedule and ask our applicants to indicate which time slots for collaborative co-working and social sessions would work for their time zones.
 
 ## Proceso de revisión
 
@@ -38,23 +43,23 @@ Las solicitudes para _El puntaje de libros de la Vía Turística_ son revisadas 
 (ch-bookdash-application-rubrics)=
 ### Rúbricas para puntuar aplicaciones
 
-Los revisores invitados evaluarán a los participantes a través de múltiples dimensiones con puntajes de 1, 2 o 3.
+Basándose en su evaluación de las solicitudes, proporcionarán puntuaciones para diferentes criterios que serán evaluados de la siguiente manera:
 
 Pedimos a nuestros revisores que consideren las siguientes preguntas:
 
-* ¿Ha respondido el solicitante a las preguntas de la solicitud?
+* Has the applicant answered the application questions?
 * ¿Tiene el solicitante una idea clara, festiva y pertinente de cómo contribuirá al guión del libro?    Esta puntuación corresponde generalmente a las reseñas de "no listo", "entusiasta" y "clara" respectivamente:
 * ¿Es el candidato entusiasmado con la reproducibilidad y los objetivos de _The Turing Way_?
 
 
-Basándose en su evaluación de las solicitudes, proporcionarán puntuaciones para diferentes criterios que serán evaluados de la siguiente manera:
+(Este rúbrico de puntuación se basa en los criterios de selección de los líderes abiertos de Mozilla y las ciencias de la vida abierta)
 1. Los candidatos que puntuen **sobre todo 1 s** no tienen una idea clara o un tema listo para contribuir o no tienen una comprensión clara de las metas generales de _The Turing Way_ y el guión de los libros en general.
 2. Los candidatos que puntuen **sobre todo 2 s** son entusiasmados si no totalmente aptos para el proyecto/evento, por ejemplo, pueden venir con algunas ideas para una contribución que actualmente no está en el ámbito del proyecto/evento.
 3. Los candidatos que puntuen **sobre todo 3** están claramente listos, orientados hacia la meta, interesado en contribuir al proyecto y encantado de aprender de otros durante el evento.
 
 **Tabla resumiendo nuestro rúbrico de puntuación y criterios para cada puntuación:**
 
-(Este rúbrico de puntuación se basa en los criterios de selección de los líderes abiertos de Mozilla y las ciencias de la vida abierta)
+*This scoring rubric is based on the Mozilla Open Leaders and Open Life Science (OLS) selection criteria as described in the 'Review Rubrics' on [this GitHub repository](https://github.com/open-life-science/application-forms).*
 
 | Secciones                                                              | Puntaje 1                                                                                                                                                                                                                                         | Punto 2                                                                                                                                                                                                                               |                                                                                                                                                                                                                                                                                                       Punto 3 |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
@@ -63,7 +68,7 @@ Basándose en su evaluación de las solicitudes, proporcionarán puntuaciones pa
 | **Propósito de participación y lo que obtendrán del guión del libro:** | (no preparado) Los propósitos para la participación en el guión del libro parecen casi enteramente centrados en sí mismos y sobre el estado del solicitante. en lugar de participar en la comunidad _The Turing Way_ para desarrollar el proyecto | (entusiasta) Los propósitos para la participación en el evento de guión del libro no están completamente claros de la aplicación o son limitados (aunque útiles), como error tipográfico o corrección de errores                      | (clara) Los propósitos de participación en el evento de guión del libro son valiosos en muchos sentidos y es probable que ayuden al solicitante a convertirse en un colaborador activo y a tomar posesión de su trabajo en el proyecto _The Turing Way_ y en el ecosistema más amplio en sus propios derechos |
 | **Disposición de colaborar y contribuir después del guión del libro:** | (no listo) Parece cerrado a formas de trabajo colaborativas o más interesadas en un solo aspecto de la ciencia de datos, investigación o tema relacionado                                                                                         | (entusiasmo) Parece entusiasmado de aprender de otros y _el proyecto The Turing Way_ , pero de forma general sin mucha comprensión de lo que estas cosas significan aún                                                               |                                                                                                                                                                                            (claro) Parece entusiasmado de colaborar con otros y está motivado para contribuir a la comunidad _The Turing Way_ |
 
-Las siguientes secciones están destinadas a recoger la respuesta abierta por parte de los revisores:
+También se pide a los revisores que revelen si algún conflicto de intereses puede haber influido en su revisión que conduzca a cualquier parcialidad en su decisión.
 
 Pedimos a todos los revisores que terminen la revisión describiendo la aplicación, los aspectos de representación del solicitante y las motivaciones para sus puntuaciones para facilitar la conversación durante la discusión del panel de selección bajo estas cuestiones.
 
@@ -72,7 +77,7 @@ Pedimos a todos los revisores que terminen la revisión describiendo la aplicaci
 - Por favor proporcione 1-2 oraciones resumidas sobre esta aplicación para facilitar la discusión durante el panel de selección
 ```
 
-También se pide a los revisores que revelen si algún conflicto de intereses puede haber influido en su revisión que conduzca a cualquier parcialidad en su decisión.
+Reviewers are also asked to disclose if any conflict of interest may have influenced their review leading to any bias in their decision.
 
 ```
 - Por favor, indique si tiene algún conflicto de interés con la propuesta descrita en esta aplicación o si conoce a este solicitante personalmente que puede llevar a una decisión sesgada
