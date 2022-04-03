@@ -9,8 +9,7 @@ A ferramenta [LearnGitBranching](https://learngitbranching.js.org/) criada por [
 ---
 nome: interativo-learn-git
 alt: Uma ilustração do interativo, Aprenda Git Brnaching interface de ferramenta
----
-Um desafio na ferramenta Aprendizado GitBranch.
+--- Um desafio na ferramenta Aprendizado GitBranch.
 ```
 
 As capacidades de sandbox desta ferramenta também a tornam um ótimo lugar para testar comandos antes de executá-los no seu repositório real.
