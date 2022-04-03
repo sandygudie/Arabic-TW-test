@@ -61,6 +61,8 @@ Cuando surja un conflicto de fusión, se marcará durante el proceso de fusión.
 ```
 <<<<<<< HEAD
 print('hola mundo!!!')
+<<<<<<< HEAD
+print('hola mundo!!!')
 =======
 print('Hola Mundo')
 >>>>>>> principal
