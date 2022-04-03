@@ -13,8 +13,7 @@
 ---
 nome: pesquisa aberta
 alternativa: Esta imagem mostra um pesquisador evoluindo suas práticas de pesquisa para se mover em direção à era da pesquisa aberta. A imagem começa com a pessoa que está ansiosa por engajar com ciência aberta, lentamente dá alguns passos, Sinta-se confortável em compartilhar seu trabalho e finalmente comece a colaborar com os outros.
----
-Ilustração do projeto _The Turing Way_ por Scriberia. Utilizada sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+--- Ilustração do projeto _The Turing Way_ por Scriberia. Utilizada sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
 (rr-open-sumy)=
@@ -64,8 +63,7 @@ As práticas abertas também beneficiam os pesquisadores que os propagam. Por ex
 height: 500px
 nome: citações de acesso aberto
 alt: Um diagrama da relação entre as taxas de citação e disciplina
----
-A taxa relativa de citação (OA: non-OA) nos 19 campos de pesquisa. Essa taxa é definida como a média de citação de artigos em OA dividida pela taxa média de citação de artigos não OA. Vários pontos para a mesma disciplina indicam estimativas diferentes do mesmo estudo ou estimativas de vários estudos. (Veja nota de rodapé 1 para referências.)
+--- A taxa relativa de citação (OA: non-OA) nos 19 campos de pesquisa. Essa taxa é definida como a média de citação de artigos em OA dividida pela taxa média de citação de artigos não OA. Vários pontos para a mesma disciplina indicam estimativas diferentes do mesmo estudo ou estimativas de vários estudos. (Veja nota de rodapé 1 para referências.)
 ```
 
 Outra vantagem da abertura é que, embora as colaborações na investigação sejam essenciais para promover o conhecimento, identificar e estabelecer uma ligação com os colaboradores adequados não é trivial. As práticas abertas podem facilitar a conexão dos pesquisadores ao aumentar a visibilidade e a visibilidade do trabalho de cada um, facilitando o acesso rápido a novos dados e recursos de software e criando novas oportunidades para interagir e contribuir para os projetos comunais em curso.
