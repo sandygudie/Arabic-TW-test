@@ -7,8 +7,7 @@ A defesa da política interna é quando indivíduos ou grupos associados a uma c
 ---
 nome: advocacy
 alt: Uma pessoa assina uma petição realizada por outra pessoa, em frente a um grupo de pessoas marchando sob um estandarte lendo "Advogada!"
----
-Existem diferentes maneiras de participar do advocacia. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.4906004](https://doi.org/10.5281/zenodo.4906004).
+--- Existem diferentes maneiras de participar do advocacia. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.4906004](https://doi.org/10.5281/zenodo.4906004).
 ```
 
 ## Como defender internamente
