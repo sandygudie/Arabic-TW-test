@@ -25,14 +25,11 @@ O Comité de Planejamento de Dash reúne depois que eles marcaram individualment
 
 Todos os candidatos são contactados com pelo menos 4 semanas de antecedência para que possam avaliar a sua situação e a sua disponibilidade para o .
 
-Após confirmação, lhes são fornecidos detalhes de registo através dos quais possam compartilhar todas as informações que possam ajudá-los e os organizadores que se preparam para o Book Dash. É pedido aos participantes que se familiarizem com
-_O repositório [ _ The Turing Way_ GitHub](https://github.com/alan-turing-institute/the-turing-way) onde eles farão suas contribuições durante o Book Dash. As [diretrizes de contribuição](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) e {ref}`Código de Conduta<ch-coc>` do projeto também são compartilhadas com os participantes que são aplicáveis ao Dash de Livro também.</p> 
+Após confirmação, lhes são fornecidos detalhes de registo através dos quais possam compartilhar todas as informações que possam ajudá-los e os organizadores que se preparam para o Book Dash. É pedido aos participantes que se familiarizem com _O repositório [ _ The Turing Way_ GitHub](https://github.com/alan-turing-institute/the-turing-way) onde eles farão suas contribuições durante o Book Dash. As [diretrizes de contribuição](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) e {ref}`Código de Conduta<ch-coc>` do projeto também são compartilhadas com os participantes que são aplicáveis ao Dash de Livro também.
 
 Para apoiar ainda mais os participantes, as chamadas pré-eventos são hospedadas e outros detalhes são compartilhados diretamente por e-mail (discutido no próximo subcapítulo). Os nomes dos participantes selecionados são anunciados no _The Turing Way_ newsletter e nas plataformas de mídia social quando acordados com os participantes.
 
 (ch-bookdash-aplicacao-adicional-materiais)=
-
-
 ## Materiais adicionais
 
 - [Modelo para o formulário de aplicação](https://docs.google.com/forms/d/14JbI_Xqr8vRWAidzcVFhB-5iITA6n9BOZ0RX_aSDauU/edit?usp=sharing)
