@@ -78,7 +78,7 @@ Ninguno/dokumento/dokumento/s ...
 ├── results                  <- analysis output     
 │   └── figures
 ├── .gitignore               <- files excluded from git version control 
-├── install.R                <- environment setup
+├── install. R                <- environment setup
 ├── CODE_OF_CONDUCT          <- Code of Conduct for community projects
 ├── CONTRIBUTING             <- Contribution guideline for collaborators
 ├── LICENSE                  <- software license
@@ -93,8 +93,7 @@ Este ejemplo muestra diferentes archivos y directorio que un proyecto puede cont
 ```
 Carpeta de Proyecto/                        
 Ningun análisis                 <- secuencias de comandos
-mañana: my_script.
-► Compilación                    <- archivos construidos, Makefile
+mañana: my_script. ► Compilación                    <- archivos construidos, Makefile
 | mañanotidiano debug
 | mañana: lanzamiento
 mañanos-datos
@@ -119,7 +118,7 @@ registros. xt                 <- historial de todas las actualizaciones importan
 ✓ ejemplo                  <- aplicación de código de ejemplo
 → LICENSE                  <- licencia de software
 ✓ ambiente. ml          <- configuración de entorno anaconda   
-☆ install.                <- Configuración de entorno R
+☆ install. <- Configuración de entorno R
 Requisitos de 2020. xt         <- configuración de entorno de python
 (tiempo de ejecución). xt              <- R en la configuración de binder
 report. d                <- informe de análisis
