@@ -1,9 +1,9 @@
 (ch-style-custom-styling)=
 # 自定义样式
 
-Although content contributed to _The Turing Way_ should be written in {ref}`Markdown <ch-consistency-formatting-hr-markdown>` where possible, sometimes, `HTML` syntax may be necessary to format your contribution the way you desire. Jupyter 书已将Markdown语法转换为 `HTML`， 让我们有一个网页版的 _Tinging Way_ 本书成为可能。 结果， 编写您自己的自定义 `HTML` 可能会在您的新内容在线出现的方式上带来一些与本书其他内容相比的变化。
+Although content contributed to _The Turing Way_ should be written in {ref}`Markdown <ch-consistency-formatting-hr-markdown>` where possible, sometimes, `HTML` syntax may be necessary to format your contribution the way you desire. Jupyter 书已将Markdown语法转换为 `HTML`， 让我们有一个网页版的 _Tinging Way_ 本书成为可能。 Jupyter 书已将Markdown语法转换为 `HTML`， 让我们有一个网页版的 _Tinging Way_ 本书成为可能。 结果， 编写您自己的自定义 `HTML` 可能会在您的新内容在线出现的方式上带来一些与本书其他内容相比的变化。
 
-为了最大限度地缩小这种差异， _诱惑方式_ 维持书签内 [样式表](https://github.com/alan-turing-institute/the-turing-way/blob/main/book/website/_static/book-stylesheet.css) 以控制书内容的外观和感觉。 当您的贡献包含 `HTML` 时。 请参阅这些样式表，并将相关类和 ID 添加到您 `HTML` 元素中。 这将确保您的新内容符合 _的整体风格。导星方式_ 书中。
+为了最大限度地缩小这种差异， _诱惑方式_ 维持书签内 [样式表](https://github.com/alan-turing-institute/the-turing-way/blob/main/book/website/_static/book-stylesheet.css) 以控制书内容的外观和感觉。 当您的贡献包含 `HTML` 时。 请参阅这些样式表，并将相关类和 ID 添加到您 `HTML` 元素中。 这将确保您的新内容符合 _的整体风格。</p>
 
 在本小章中，我们解释了如何利用书的样式表风格来样式你在使用案例中的贡献。 如果你想要改进书的风格，本小章还简要概述了如何这样做。
 
@@ -20,7 +20,7 @@ Although content contributed to _The Turing Way_ should be written in {ref}`Mark
 1. 然后点击显示的选项范围中的 `嵌入的` 选项。
 
 
-The `HTML` code you copy will be an [`iframe`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) element. 例如：
+The `HTML` code you copy will be an [`iframe`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) element. 例如： 例如：
 
 ```
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MdOS6tPq8fc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -28,7 +28,7 @@ The `HTML` code you copy will be an [`iframe`](https://developer.mozilla.org/en-
 
 默认情况下， `iframes` 不具有响应性，这意味着您刚刚嵌入的视频将无法在移动设备上为读者访问。 解决这个问题 _Ting Way's_ 样式表定义了类和样式，允许 `iframe` 调整大小并适应该书读取的屏幕。
 
-利用此自定义风格， 在 `div` 标签中将 `iframe` 折叠，并给 `div` 元素一个 `视频容器` 类. 例如：
+利用此自定义风格， 在 `div` 标签中将 `iframe` 折叠，并给 `div` 元素一个 `视频容器` 类. 例如： 例如：
 
 ```
 <div class="video-container">
