@@ -40,17 +40,22 @@ Especificações para todos os tipos de contribuições feitas para _The Turing 
 
 Esses destaques podem ser decididos individualmente pelos contribuidores para registrar o que consideram ser seu significativo e útil para o seu perfil pessoal. Isso pode ser complementado com materiais de suporte tais links para capítulos, pull request, issues e posts de blog.
 
-Esse registro pode ser traduzido diretamente para o desenvolvimento profissional de nossos membros da comunidade, que pode ser usado para aprimorar seu portfólio pessoal ou profissional (perfil, CV, retomar) (consulte os [`colaboradores. d`](https://github.com/alan-turing-institute/the-turing-way/edit/acknowledging-contributors/contributors.md) arquivo).
+Esse registro pode ser traduzido diretamente para o desenvolvimento profissional de nossos membros da comunidade, que pode ser usado para aprimorar seu portfólio pessoal ou profissional (perfil, CV, retomar) (consulte os
 
-_A Caminho de Turing_ foi originalmente financiada por um [Fundo de Prioridade Estratégica](https://www.ukri.org/research/themes-and-programmes/strategic-priorities-fund/) investimento para o Alan Turing Institute para apoiar [AI For Science and Government](https://www.turing.ac.uk/research/asg). Os destaques pessoais são muito valiosos para capturar o impacto que _The Turing Way_ tem para os membros da sua comunidade em termos de rede pessoal, desenvolvimento profissional, partilha de competências e outras actividades relevantes, e como têm tido impactos positivos em torno da transparência, reprodutibilidade e colaboração ética na sua organização.
+`colaboradores.</p>
 
-### Gravando diferentes tipos de contribuições
+<p spaces-before="0"><em x-id="4">A Caminho de Turing</em> foi originalmente financiada por um <a href="https://www.ukri.org/research/themes-and-programmes/strategic-priorities-fund/">Fundo de Prioridade Estratégica</a> investimento para o Alan Turing Institute para apoiar <a href="https://www.turing.ac.uk/research/asg">AI For Science and Government</a>.
+Os destaques pessoais são muito valiosos para capturar o impacto que <em x-id="4">The Turing Way</em> tem para os membros da sua comunidade em termos de rede pessoal, desenvolvimento profissional, partilha de competências e outras actividades relevantes, e como têm tido impactos positivos em torno da transparência, reprodutibilidade e colaboração ética na sua organização.</p>
 
-Nos tipos de contribuição discutidos abaixo, nós usamos cenários de alguns dos tipos de contribuição mais comuns.
+<h3 spaces-before="0">Gravando diferentes tipos de contribuições</h3>
 
-Estes exemplos também são delineados no próximo subcapítulo {ref}`Exemplos de conhecimento <ch-acknowledgement-examples>` juntamente com outros tipos de contribuições feitas para _The Turing Way_.
+<p spaces-before="0">Nos tipos de contribuição discutidos abaixo, nós usamos cenários de alguns dos tipos de contribuição mais comuns.</p>
+
+<p spaces-before="0">Estes exemplos também são delineados no próximo subcapítulo {ref}<code>Exemplos de conhecimento <ch-acknowledgement-examples>` juntamente com outros tipos de contribuições feitas para _The Turing Way_.</p> 
 
 **Recomendamos o uso destas afirmações de exemplo apenas como guia.** Como contribuinte, poderá adicionar quantos detalhes forem úteis para o seu registro.
+
+
 
 #### Correções de erros
 
@@ -62,6 +67,8 @@ O arquivo do contribuidor será atualizado para os contribuidores com uma instru
 
 * Destaques pessoais: > Eu consertei erros de digitação e fiz outras contribuições `outros detalhes, como seções identificadas do livro que não são claras`.
 
+
+
 #### Revisando capítulos e outros pull requests
 
 *O processo de revisão de um capítulo recém-contribuído ou uma subseção de um capítulo existente envolve a aprovação da linguagem e da estrutura de um capítulo ou uma seção de um capítulo, sinalizando erros ou tipos, pedindo esclarecimentos se certas partes do conteúdo ou declarações não estiverem claras, Sugerir modificações e melhorar a qualidade global da contribuição de alguém.*
@@ -71,6 +78,8 @@ Qualquer pessoa que avalie um capítulo é listado como revisores e é reconheci
 O arquivo do contribuidor será atualizado para os contribuidores com uma instrução similar à abaixo:
 
 * Destaques pessoais: > Eu revisei o nome do capítulo `do Capítulo`. > Fiz outras contribuições para o capítulo `outros detalhes como estruturar e adicionar referências`.
+
+
 
 #### Contribuição do capítulo
 
@@ -82,6 +91,8 @@ O arquivo do contribuidor será atualizado para os contribuidores com uma instru
 
 * Destaque pessoal: > Eu projetei e escrevi um capítulo no `nome de capítulo` e `detalhes sobre revisão e estruturação de novo conteúdo`.
 
+
+
 #### Tradução
 
 *O processo de tradução em _The Turing Way_ inclui aspectos que traduzem _capítulos The Turing Way_ em idiomas diferentes de inglês e revisando eles.* A infra-estrutura de tradução a partir de Maio de 2020 é [Trasix](https://www.transifex.com/theturingway/theturingway/dashboard/).
@@ -91,6 +102,8 @@ Colaboradores que participarem do processo de tradução serão reconhecidos na 
 O arquivo do contribuidor será atualizado para os contribuidores com uma instrução similar à abaixo:
 
 * Destaques pessoais: > Eu traduzi parte do capítulo `nome do capítulo` para o idioma ``. Eu também tenho `detalhes como projetado e implementado um processo para traduzir o livro para várias línguas, Múltiplos colaboradores mentais na comunidade e traduziu 3 capítulos da The Turing Way para o Chinês`.
+
+
 
 #### Suporte organizacional
 
@@ -102,6 +115,8 @@ Todas as contribuições de uma organização colaborativa serão atualizadas co
 
 * Destaque pessoal: > Eu fiz contribuições `tipo de contribuição` para os capítulos `nome do capítulo`. Também tenho `detalhes sobre outras contribuições, como gerenciar uma equipe de colaboradores, escrevendo um capítulo`.
 
+
+
 #### Manutenção
 
 *Trabalho de manutenção no _The Turing Way_ se aplica às conversas em espaços da comunidade, infraestrutura técnica, plataformas online de hospedagem para o livro e infraestrutura de tradução do Transifex.*
@@ -111,6 +126,8 @@ Os colaboradores serão reconhecidos na tabela de colaboradores com os emojis �
 O arquivo do contribuidor será atualizado para os contribuidores com uma instrução similar à abaixo:
 
 * Destaques pessoais: > Eu possuo `detalhes como respostas às perguntas no canal do Gitter da comunidade, diversos colaboradores mentais da comunidade e revisou os pull requests para corrigir erros de digitação no livro, mantém a infraestrutura do backend do projeto, fornecer suporte e solução sobre o livro Jupyter e integração contínua, projetado e implementado um processo para traduzir o livro em várias línguas, ajudou vários colaboradores a facilitar os esforços de tradução`.
+
+
 
 #### Representando o Caminho de Exibição
 
