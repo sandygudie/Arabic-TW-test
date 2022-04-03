@@ -9,7 +9,7 @@ Obrigado por se juntar à Caverna de Colaboração online da _Turing Way_! Estam
 
 (*Recomendamos levar seu chá, café ou sua bebida favorita a esta caverna! :smile:*)
 
-**O que?** *A Turing Way é um **guia leve para reproduzir, ciências e pesquisas de dados**. Esta cafeteria de colaboração visa envolver os pesquisadores interessados em aprender e compartilhar mais sobre este tema em um **livro online**: https://the-turing-way. etlify.com*
+**O que?** *A Turing Way é um **guia leve para reproduzir, ciências e pesquisas de dados**. Esta cafeteria de colaboração visa envolver os pesquisadores interessados em aprender e compartilhar mais sobre este tema em um **livro online**: https://the-turing-way.</p>
 
 *Leia mais sobre isso aqui: https://the-turing-way.netlify.app/community-handbook/coworking.html*
 
