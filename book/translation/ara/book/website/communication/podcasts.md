@@ -1,18 +1,18 @@
-crwdns832822:0crwdne832822:0
-# crwdns832824:0crwdne832824:0
+(m-podcasts)=
+# Podcasts للاتصالات البحثية
 
-crwdns832826:0crwdne832826:0 crwdns832828:0crwdne832828:0 crwdns832830:0crwdne832830:0 crwdns832832:0crwdne832832:0 crwdns832834:0crwdne832834:0
+podcast هو برنامج صوتي يمكنك الاشتراك فيه والاستماع إليه في التطبيق. إنها مثل المدونات كما تركز على موضوع معين. ويمكن أن يكون البث الإذاعي المباشر جهدا منفردا ولكنه يعمل بشكل أفضل كعمل تعاوني. ويتراوح طول البث الصوتي الصوتي (podcasts) بين فترة قصيرة مدتها دقيقة واحدة وساعات أطول من ذلك بكثير متواصلة. كما أنها تتفاوت من تواتر يومي إلى شهري.
 
-crwdns832836:0crwdne832836:0
-## crwdns832838:0crwdne832838:0
+(م-podcasts-how)=
+## بدء Podcast
 
-* crwdns832840:0crwdne832840:0
+* [كيفية تشغيل podcast](https://www.podcastinsights.com/start-a-podcast/?gclid=CjwKCAiA9vOABhBfEiwATCi7GNV7zJl0tHaVkW-7DCjVdAwGa4q0vbaXB44xsSBHp7YBO8K6pH0syBoCVtUQAvD_BwE) إذا كان لديك تجربة في صنع podcasts وترغب في الكتابة بمزيد من التفصيل حول هذا لمساعدة الآخرين، ثم يرجى الاتصال بنا.
 
-crwdns832842:0crwdne832842:0
-## crwdns832844:0crwdne832844:0
+(م م-podcasts-recommendations)=
+## بعض من Podcasts الموصى بها
 
-* crwdns832846:0crwdne832846:0
-* crwdns832848:0crwdne832848:0
-* crwdns832850:0crwdne832850:0
-* crwdns832852:0crwdne832852:0
-* crwdns832854:0crwdne832854:0
+* [Orion Open Science](https://www.orion-openscience.eu/publications/training-materials/201902/podcasts).
+* [حديث العلوم المفتوح](https://soundcloud.com/opensciencetalk).
+* [تورينج Podcast](https://www.turing.ac.uk/news/turing-podcast).
+* [ReproducibiliTea Podcast](https://soundcloud.com/reproducibilitea).
+* [قصص علمية مفتوحة](https://podcasts.apple.com/gb/podcast/open-science-stories/id1547403532).
