@@ -1,10 +1,10 @@
-(موارد الصيانة والاستعراض) =
-# الموارد
+crwdns825296:0crwdne825296:0
+# crwdns825298:0crwdne825298:0
 
-* [اتصالات المجتمع للمصدر المفتوح](https://the-turing-way.netlify.app/open-source-comms/intro.html) لديها بعض المعلومات ذات الصلة للمشاركة في هذا المشروع المجتمعي.
-* [مساعدة GitHub](https://help.github.com/en) هي مورد عظيم لمعرفة كل شيء تقريبا فيما يتعلق بالتعاون على مشروع GitHub .
-* [دليل المصدر المفتوح](https://opensource.guide/) يوفر أدلة ذات صلة بالمصدر المفتوح. وقد غطت هذه الأدلة معظم المواضيع سواء أكان ذلك قائما أم مساهما.
-* [مقالة حول استخدام أدوات البحث مفتوحة المصدر](https://opensource.com/education/15/11/tools-analyze-collaborate-share-research)
-* [دليل طلبات السحب](https://www.atlassian.com/blog/git/written-unwritten-guide-pull-requests)
-* [كيفية توجيه سير العمل](https://www.atlassian.com/git/tutorials/comparing-workflows)
-* [مدونة حول المصدر المفتوح والأوساط الأكاديمية](https://opensource.com/article/19/9/how-open-source-academic-work)
+* crwdns825300:0crwdne825300:0
+* crwdns825302:0crwdne825302:0
+* crwdns825304:0crwdne825304:0 crwdns825306:0crwdne825306:0
+* [crwdns825310:0crwdne825310:0](crwdns825308:0crwdne825308:0)
+* [crwdns825314:0crwdne825314:0](crwdns825312:0crwdne825312:0)
+* [crwdns825318:0crwdne825318:0](crwdns825316:0crwdne825316:0)
+* [crwdns825322:0crwdne825322:0](crwdns825320:0crwdne825320:0)
