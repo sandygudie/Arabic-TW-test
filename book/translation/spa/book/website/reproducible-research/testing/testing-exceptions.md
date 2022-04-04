@@ -168,4 +168,8 @@ Los frameworks de prueba unitaria para otros idiomas también suelen proporciona
 - JUnit para Java: org.junit.Assert.assertEquals(doble esperado, doble actual, doble delta)
 - prueba para R:
   - expect_equal(real, esperado, tolerancia=DELTA) - error absoluto dentro de DELTA
-  - expect_equal(real, esperado, escala=esperado, tolerancia=DELTA) - error relativo dentro de DE L T A
+  - expect_equal(real, esperado, escala=esperado, tolerancia=DELTA) - error relativo dentro de DELTA
+- Mañana:
+  - `val1 ≈ val2`
+  - `isapprox(val1, val2, atol=✫ _delta, rtol=rel_delta)`
+  - `Test.jl` with `mañana`: `@test val1 ► val2 atol=is_delta rtol=rel_delta`

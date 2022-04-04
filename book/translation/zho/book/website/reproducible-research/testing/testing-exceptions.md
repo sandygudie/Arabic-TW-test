@@ -170,4 +170,8 @@ sectc == pytest.approx(0.3)
 - JUnit for Java : org.junit.Assert.assertEquals(双倍预期、双倍实际、双倍三角洲)
 - 测试为 R：
   - 期望等价(实际, 预期, 容忍=DELTA) - 绝对错误
-  - 期望等价(实际，预期，比例=预期，容忍度=DELTA) - DEL T A中的相对错误
+  - 期望等价(实际，预期，尺寸=预期，容忍度=DELTA) - DELTA中的相对错误
+- 朱利亚：
+  - `val1 ≈ val2`
+  - `isapprox(val1, val2, atol=abs_delta, rtol=rel_delta)`
+  - `Test.jl` with `origin.`: `@test val1 assistance val2 atol=abs_delta rtol=rel_delta`

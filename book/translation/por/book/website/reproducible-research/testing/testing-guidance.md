@@ -65,6 +65,9 @@ Enquanto C++ e C modernos ainda são principalmente compatíveis, eles não são
 - Testes unitários Fortran:
   - fundição
   - pfunilônio (funciona com MPI)
+- julia
+  - Test.jl (stdlib)
+  - ReTest.jl
 
 ## Mire em ter uma boa cobertura de código
 

@@ -65,6 +65,9 @@ Some tests, like {ref}`rr-testing-unittest` only test a small piece of code and 
 - Fortran 单元测试：
   - 英尺单位
   - pfunt (与 MPI 一起工作)
+- 朱利亚
+  - Test.jl (stdlib)
+  - ReTest.jl
 
 ## 力求有一个很好的代码范围
 

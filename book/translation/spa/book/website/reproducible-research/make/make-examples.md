@@ -295,18 +295,22 @@ Primero mostraremos el Makefile completo y luego describiremos las diferentes l�
 
 ALL_CSV = $(wildcard data/*.csv)
 INPUT_CSV = $(wildcard data/input_file_*. sv)
-DATA = $(filtro $(INPUT_CSV),$(ALL_CSV))
-ARCHIVOS = $(patsubst data/input_file_%. sv,output/figure_%.png,$(DATA))
+DATA = $(filter-out $(INPUT_CSV),$(ALL_CSV))
+ARCHIVOS = $(datos patsubsta/%. sv,output/figure_%.png,$(DATA))
 
 .PHONY: todo limpio
 
 todo: salida/report.pdf
 
-$(FIGURES): salida/figure_%. ng: data/input_file_%.csv scripts/generate_histogram.py
+$(FIGURES): salida/figure_%. ng: data/%.csv scripts/generate_histogram.py
     python scripts/generate_histogram.py -i $< -o $@
 
 output/report.pdf: report/report. ex $(FIGURES)
-    cd report/ && pdflatex report.tex && mv report.
+    cd report/ && pdflatex report.tex && mv report. df ../$@
+
+limpieza:
+    rm -f salida/report.pdf
+    rm -f $(FIGURES)
 ```
 
 Primero, usamos la función `comodín` para crear una variable que muestre todos los archivos CSV en el directorio de datos y uno que lista solo el antiguo `input_file_{N}. archivos sv`:
@@ -321,10 +325,10 @@ Una convención de código para Makefiles es utilizar todas las mayúsculas para
 A continuación, creamos una variable para listar sólo los archivos de datos que nos interesan filtrando el `INPUT_CSV` de `ALL_CSV`:
 
 ```makefile
-DATA = $(filtro $(INPUT_CSV),$(ALL_CSV))
+DATA = $(filter-out $(INPUT_CSV),$(ALL_CSV))
 ```
 
-Esta línea utiliza la función [`filtro`](https://www.gnu.org/software/make/manual/make.html#index-filter) para eliminar elementos que no coinciden con la variable `INPUT_CSV` de la variable `ALL_CSV` .  Tenga en cuenta que utilizamos tanto la sintaxis `$( ... )` para funciones y variables. Finalmente, usaremos la variable `DATA` para crear una variable `ARCHIVOS` con la salida deseada:
+Esta línea utiliza la función [`filter-out`](https://www.gnu.org/software/make/manual/make.html#index-filter_002dout) para eliminar elementos en la variable `INPUT_CSV` de la variable `ALL_CSV` .  Tenga en cuenta que utilizamos tanto la sintaxis `$( ... )` para funciones y variables. Finalmente, usaremos la variable `DATA` para crear una variable `ARCHIVOS` con la salida deseada:
 
 ```makefile
 FIGURES = $(patsubst data/%.csv,output/figure_%.png,$(DATA))

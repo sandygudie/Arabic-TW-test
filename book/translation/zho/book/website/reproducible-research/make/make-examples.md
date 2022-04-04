@@ -289,20 +289,27 @@ sv`) 并且已经有一个 基本的 Python 脚本 **脚本** 和 基本报告 L
 我们会先显示完整的 Makefile 文件，然后以 更详细的方式描述不同的行。 完整文件是：
 
 ```makefile
-├── data/
-│   ├── action.csv
-│   ├── ...
-│   ├── input_file_1.csv
-│   ├── input_file_2.csv
-│   ├── ...
-csidentified - - western.csv
--- -- -- LICENSE
--- -- -- output/
--- -- -- -- -- README.md
--- -- -- report/
-cin：-- report.tex
-integrated - -- - scripts/
-    --generate_histogram.py
+# 用于分析报告的 Makefile
+#
+
+ALL_CSV = $(wildcard data/*.csv)
+INPUT_CSV = $(wildcard data/input_file_*)。 sv)
+DATA = $(过滤器输出 $(INPUT_CSV),$(ALL_CSV))
+FIGURES = $(patsubst data/% sv,output/figure_%.png,$(DATA))
+
+.PHONY: all clean
+
+all : output/report.pdf
+
+$(FIGURES): output/figure_% ng：data/%.csv 脚本/generate_histogram.py
+    python 脚本/generate_histogram.py -i $< -o $@
+
+output/report.pdf：report/report. ex $(FIGURES)
+    cd report/ && pdflatex report.tex && mv report. df ../$@
+
+clean:
+    rm -f output/report.pdf
+    rm -f $(FIGURES)
 ```
 
 第一： 我们使用 `通配符` 来创建一个变量，在数据目录中列出所有 CSV 文件，并且只列出旧的 `input_file_{N}。 sv` 文件：
@@ -317,10 +324,10 @@ A code convention for Makefiles is to use all capitals for variable names and de
 Next, we create a variable to list only the data files that we're interested in by filtering out the `INPUT_CSV` from `ALL_CSV`:
 
 ```makefile
-DATA = $(过滤器 $(INPUT_CSV),$(ALL_CSV))
+DATA = $(过滤器输出 $(INPUT_CSV),$(ALL_CSV))
 ```
 
-此行使用 [`过滤`](https://www.gnu.org/software/make/manual/make.html#index-filter) 函数删除不匹配 `INPUT_CSV` 变量从 `ALL_CSV` 变量。  请注意，我们对函数使用 `$( ... )` 语法和 变量。 最后，我们将使用 `DATA` 变量创建一个 `FIGURES` 变量与所需的输出：
+此行使用了 [`过滤器`](https://www.gnu.org/software/make/manual/make.html#index-filter_002dout) 函数去除 `INPUT_CSV` 变量从 `ALL_CSV` 变量。  请注意，我们对函数使用 `$( ... )` 语法和 变量。 最后，我们将使用 `DATA` 变量创建一个 `FIGURES` 变量与所需的输出：
 
 ```makefile
 FIGURES = $(patsubst data/%.csv,output/figure_%.png,$(DATA))
