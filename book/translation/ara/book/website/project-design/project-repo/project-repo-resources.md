@@ -1,33 +1,36 @@
-crwdns804606:0crwdne804606:0
-# crwdns804608:0crwdne804608:0
+(مشروع -repo-recommendations)=
+# التوصيات والموارد
 
-crwdns804610:0crwdne804610:0
-## crwdns804612:0crwdne804612:0
+(مشروع - توصية - قائمة مرجعية) =
+## قائمة التحقق لإعداد مشروعك
 
-* crwdns804614:0crwdne804614:0
-* crwdns804616:0crwdne804616:0
-* crwdns804618:0crwdne804618:0
-* crwdns804620:0crwdne804620:0
-* crwdns804622:0crwdne804622:0
+* إنشاء ملف README و Vision
+* إنشاء خارطة طريق مشروع لمشاركتها
+* إنشاء ملف مشاركة
+* حدد & اعتمد مدونة قواعد سلوك مع دليل الإبلاغ &
+* يمكنك أيضا إنشاء صفحة مخصصة لمساعدة أعضاء مجتمعك على استكشاف مشروعك وموارده (انظر [Django Documentation](https://docs.djangoproject.com/)).
 
-crwdns804624:0crwdne804624:0
+وتشكل هذه الوثائق أيضا أدوات فعالة لبناء المجتمعات المحلية حيث أنها تدعم المساهمين الأوائل في الحصول على سهولة الوصول إليها وتسهل على المساهمين السابقين العودة.
 
-### crwdns804626:0crwdne804626:0
+### GitHub Insights
 
-crwdns804628:0crwdne804628:0 crwdns804630:0crwdne804630:0
+ويشجع GitHub الممارسة التعاونية في مبادئها التوجيهية المجتمعية. يوفر تبويب الرؤى في مشروع GitHub الخاص بك قسما يسمى "المجتمع" الذي يتضمن قائمة بالمستندات الموصى بها التي ينبغي أن يكون لدى مشروعك.
 
 ```{figure} ../../figures/community-profile.png
-crwdns804632:0crwdne804632:0
-crwdns804634:0crwdne804634:0
+---
+الاسم: ملف المجتمع
+البديل : صورة لقائمة التحقق في قسم المجتمع من علامة التبويب الخاصة بمشروع GitHub .
+---
+قائمة مرجعية بالمستندات الموصى بها
 ```
 
-crwdns804636:0crwdne804636:0
-## crwdns804638:0crwdne804638:0
+(مشروع - توصيات - متقدمة)=
+## الموارد اللازمة للهيكل المتقدم لتحليل البيانات
 
-- crwdns804640:0{ref}crwdne804640:0
-- crwdns804642:0crwdne804642:0 crwdns804644:0crwdne804644:0 crwdns804646:0crwdne804646:0
-- crwdns804648:0crwdne804648:0 crwdns804650:0crwdne804650:0 crwdns804652:0crwdne804652:0 crwdns804654:0crwdne804654:0
-- crwdns804656:0crwdne804656:0 crwdns804658:0crwdne804658:0 crwdns804660:0crwdne804660:0 crwdns804662:0crwdne804662:0 crwdns804664:0crwdne804664:0 crwdns804666:0crwdne804666:0 crwdns804668:0crwdne804668:0
-- crwdns804670:0crwdne804670:0 crwdns804672:0crwdne804672:0 crwdns804674:0crwdne804674:0 crwdns804676:0crwdne804676:0 crwdns804678:0crwdne804678:0
-- crwdns804680:0crwdne804680:0 crwdns804682:0crwdne804682:0
-- crwdns804684:0crwdne804684:0 crwdns804686:0crwdne804686:0 crwdns804688:0crwdne804688:0 crwdns804690:0crwdne804690:0
+- راجع الفصل الخاص بـ {ref}`rr-compendia`.
+- ماكس جوزيف، [كيف (ولماذا) إعداد خلاصة بحثية](https://mbjoseph.github.io/intro-research-compendia/#1). (2020، 19 آذار/مارس). عرض
+- Nüst, D., Boettiger, C., & Marwick, B. (2018). [كيفية قراءة خلاصة البحث](https://arxiv.org/abs/1806.09525v1). arXiv, 1806.09525. مخطوط.
+- no, J. A. (2016). [عشر قواعد بسيطة للاستفادة من Git و GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004947). حساب PLoS. بيول، 12(7)، 1004947. doi: 10.1371/journal.pcbi.1004947. مادة مستعرضة من النظراء.
+- Venigalla, A. S. M., & Chimalakonda, S. (2021). [ماذا يوجد في مستودع GitHub ؟ -- منظور التوثيق البرمجي](https://arxiv.org/abs/2102.12727v2). arXiv, 2102.12727.
+- [العلاقة بين استخدام المجلد وعدد الفروك: دراسة حالة إفرادية على مستودعات Github](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.650.8150). (2021، يوليو 02).
+- Marwick, B., Boettiger, C., & Mullen, L. (2018). [تغليف العمل التحليلي للبيانات باستخدام R (والأصدقاء)](https://www.tandfonline.com/doi/abs/10.1080/00031305.2017.1375986). الإحصائيون الأمريكيون، 72(1)، 80-88. دوي: 10.1080/00031305.2017.1375986
