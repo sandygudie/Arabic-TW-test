@@ -292,20 +292,26 @@ Vamos mostrar primeiro o Makefile completo e depois descrever as diferentes linh
 
 ```makefile
 # Makefile para o relatório de análise
-# ALL_CSV = $(wildcard data/*.csv)
+#
+
+ALL_CSV = $(wildcard data/*.csv)
 INPUT_CSV = $(wildcard data/input_file_*. sv)
-DADA = $(filter $(INPUT_CSV),$(ALL_CSV))
-IGURES = $(patsubst data/input_file_%. sv,output/figure_%.png,$(DATA))
+DADA = $(filter-out $(INPUT_CSV),$(ALL_CSV))
+FIGURES = $(patsubst data/%. sv,output/figure_%.png,$(DATA))
 
 .PHONY: tudo limpo
 
 toda: output/report.pdf
 
-$(FIGURES): output/figure_%. ng: data/input_file_%.csv scripts/generate_histogram.py
-    scripts/generate_histogram.py -i $< -o $@
+$(FIGURES): output/figure_%. ng: data/%.csv scripts/generate_histogram.py
+    scripts python generate_histogram.py -i $< -o $@
 
 output/report.pdf: relatório/relatório. ex $(FIGURES)
-    relatório cd && pdflatex.tex && mv report.
+    relatório cd && pdflatex.tex && mv report. df ../$@
+
+limpo:
+    rm -f output/report.pdf
+    rm -f $(FIGURES)
 ```
 
 Primeiramente, usamos a função `curinga` para criar uma variável que lista todos os arquivos CSV no diretório de dados e um que lista apenas o antigo{N}`input_file_ . arquivos sv`:
@@ -320,10 +326,10 @@ Uma convenção de código para Makefiles é usar todas as maiúsculas para nome
 Em seguida, criamos uma variável para listar apenas os arquivos de dados em que estamos interessados filtrando o `INPUT_CSV` de `ALL_CSV`:
 
 ```makefile
-DADOS = $(filter $(INPUT_CSV),$(ALL_CSV), )
+DADOS = $(filter-out $(INPUT_CSV),$(ALL_CSV))
 ```
 
-Esta linha utiliza a função [`filtro`](https://www.gnu.org/software/make/manual/make.html#index-filter) para remover itens que não correspondem à variável `INPUT_CSV` da variável `ALL_CSV` .  Observe que usamos ambos a sintaxe `$( ... )` para funções e variáveis. Finalmente, usaremos a variável `DADOS` para criar uma variável `IGURES` com a saída desejada:
+Essa linha utiliza a função [`filter-out`](https://www.gnu.org/software/make/manual/make.html#index-filter_002dout) para remover itens na variável `INPUT_CSV` da variável `ALL_CSV` .  Observe que usamos ambos a sintaxe `$( ... )` para funções e variáveis. Finalmente, usaremos a variável `DADOS` para criar uma variável `IGURES` com a saída desejada:
 
 ```makefile
 FIGURES = $(patsubst data/%.csv,output/figure_%.png,$(DATA))
