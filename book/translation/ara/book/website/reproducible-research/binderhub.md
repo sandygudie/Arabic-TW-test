@@ -1,26 +1,23 @@
-(r-binderhub)=
-# بيندرهوب
+crwdns804792:0crwdne804792:0
+# crwdns804794:0crwdne804794:0
 
-## الشروط الأولية/مستوى المهارة الموصى بها
+## crwdns804796:0crwdne804796:0
 
-| الشروط المسبقة                            | الأهمية |
-| ----------------------------------------- | ------- |
-| {ref}`التحكم في الإصدار<rr-vcs>`    | مهم جدا |
-| {ref}`بيئات قابلة للتكرار<rr-renv>` | مهم جدا |
+| crwdns804798:0crwdne804798:0      | crwdns804800:0crwdne804800:0 |
+| --------------------------------- | ---------------------------- |
+| crwdns804802:0{ref}crwdne804802:0 | crwdns804804:0crwdne804804:0 |
+| crwdns804806:0{ref}crwdne804806:0 | crwdns804808:0crwdne804808:0 |
 
-سيناقش هذا الفصل [BinderHub](https://binderhub.readthedocs.io/en/latest/index.html)، وهو مسحوق تكنولوجيا السحابة [Binder](https://mybinder.readthedocs.io/en/latest/). سوف نغطي التكنولوجيات والأدوات التي يستخدمها BinderHub والموارد التي ستحتاج إليها لإعداد BinderHub.
+crwdns804810:0crwdne804810:0 crwdns804812:0crwdne804812:0
 
-ويستهدف هذا الفصل في المقام الأول مهندسي البرمجيات البحثية وخدمات تكنولوجيا المعلومات الذين يرغبون في توفير BinderHub كخدمة لمجموعة من الباحثين. على الرغم من أن أي شخص يمكنه بناء BinderHub.
+crwdns804814:0crwdne804814:0 crwdns804816:0crwdne804816:0
 
 ```{figure} ../figures/binderhub.jpg
----
-الاسم: Binderhub
-البديل : تمثيل بنية BinderHub التي تشمل GitHub, repo2docker, docker, jupyterhub والشحن للعملاء في الشركة.
----
-توضيح عن هندسة BinderHub المعمارية.
-_توضيح مشروع طريق التورين_ من سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DO: 10.5281/zenodo.3332807.
+crwdns804818:0crwdne804818:0
+crwdns804820:0crwdne804820:0
+crwdns804822:0crwdne804822:0 crwdns804824:0crwdne804824:0 crwdns804826:0crwdne804826:0
 ```
 
-## الدافع
+## crwdns804828:0crwdne804828:0
 
-ستعطيك قراءة هذا الفصل صورة أوضح لكيفية خدمات Binder (مثل [mybinder. rg](https://mybinder.org)) تعمل التكنولوجيات التي تعمل على تشغيل BinderHub وكيف تتفاعل فيما بينها. ويغطي هذا الفصل أيضاً الأسباب التي تجعلك تبني BinderHub، بدلاً من استخدام الخدمة العامة في mybinder.org.
+crwdns804830:0crwdne804830:0 crwdns804832:0crwdne804832:0
