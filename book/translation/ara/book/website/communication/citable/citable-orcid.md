@@ -1,30 +1,30 @@
-(cm-citable-orcid)=
-# ORCID لجمع عناصر البحث الخاصة بك
+crwdns793224:0crwdne793224:0
+# crwdns793226:0crwdne793226:0
 
-يمكنك استخدام ORCID للوصول إلى الخدمات التي تستخدم ORCID، على سبيل المثال، أو الاشتراك متطلبات الناشر، تمويل بوابات الإدارة ([البحث](https://researchfish.com/))، [CRIS (نظام معلومات البحث الحالي)](https://en.wikipedia.org/wiki/Current_research_information_system) في مؤسستك ومستودع البيانات مثل [Zenodo](https://zenodo.org).
+crwdns793228:0crwdne793228:0
 
-ORCID هو اختصار لـ "الباحث المفتوح والمعرف المساهم". ORCID هو معرف فريد طويل الأمد لك كباحث، على غرار رقم الهوية الشخصي الذي قد تصدره حكومتك لك.
+crwdns793230:0crwdne793230:0 crwdns793232:0crwdne793232:0
 
-شاهد هذا الفيديو القصير للحصول على مزيد من المعلومات:
+crwdns793234:0crwdne793234:0
 <div class="video-container">
-  <iframe src="https://player.vimeo.com/video/97150912" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-  <p><a href="https://vimeo.com/97150912">ما هو ORCID؟</a> من <a href="https://vimeo.com/orcidvideos">ORCID</a> على <a href="https://vimeo.com">Vimeo</a>.</p>
+  <iframe src="crwdns793236:0crwdne793236:0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+  <p>crwdns793238:0crwdne793238:0</p>
 </div>
 
-(م - حاتل - لوه)=
-## لماذا يجب أن تحصل على ORCID
+crwdns793240:0crwdne793240:0
+## crwdns793242:0crwdne793242:0
 
-يسمح لك ORCID بتوفير هوية فريدة لجسم العمل الخاص بك بغض النظر عن اسمك. إنه يمكّنك من الجمع ويمكّن الآخرين من العثور على كل ما تقوم به من أعمال بحثية وما يتصل بها من نواتج حتى يمكنهم استخدامها والاستشهاد بها.
+crwdns793244:0crwdne793244:0 crwdns793246:0crwdne793246:0
 
-جميع الكائنات البحثية الخاصة بك ذات المقاييس المختلفة ستظل مرتبطة بالمعرف الفريد الخاص بك حتى لو قمت بتغيير اسمك أو مؤسستك. بهذه الطريقة، يجب عليك إدخال المعلومات مرة واحدة فقط.
+crwdns793248:0crwdne793248:0 crwdns793250:0crwdne793250:0
 
-يمكنك استخدام ORCID للوصول إلى الخدمات التي تستخدم ORCID، على سبيل المثال، أو الاشتراك متطلبات الناشر، تمويل بوابات الإدارة ([البحث](https://researchfish.com/))، [CRIS (نظام معلومات البحث الحالي)](https://en.wikipedia.org/wiki/Current_research_information_system) في مؤسستك ومستودع البيانات مثل [Zenodo](https://zenodo.org).
+crwdns793252:0crwdne793252:0
 
-يمكنك استخدام ORCID الخاص بك في CV/استئناف حتى يتمكن أي شخص من إلقاء نظرة على جميع نواتج بحثك. يمكنك أيضًا استخدام ملف ORCID الخاص بك لإنشاء CV باستخدام \[ROpenSci package rorcid\](rorcid: https://github.com/ropensci/rorcid) كما هو مبين [هنا](https://discuss.ropensci.org/t/using-rorcid-to-generate-a-website-cv/1806).
+crwdns793254:0crwdne793254:0 crwdns793256:0crwdne793256:0
 
-(م - سيتابل-إستخدام)=
-## استخدام ORCID
+crwdns793258:0crwdne793258:0
+## crwdns793260:0crwdne793260:0
 
-يمكنك التسجيل بسرعة كبيرة هنا: [https://orcid.org/login](https://orcid.org/login). بمجرد أن تقوم بالتسجيل والتحقق من عنوان البريد الإلكتروني الخاص بك يمكنك البدء في إضافة في المخرجات الخاصة بك عن طريق استيرادها من خلال [المنظمات الموثوق بها](https://support.orcid.org/hc/en-us/articles/360006973893) و [البحث و رابط المعالجات](https://support.orcid.org/hc/en-us/articles/360006973653-Add-works-by-direct-import-from-other-systems)
+crwdns793262:0crwdne793262:0 crwdns793264:0crwdne793264:0
 
-يمكنك استخدام ORCID الخاص بك كلما دُعيت للقيام بذلك، أعطِ [المنظمات الموثوق بها](https://support.orcid.org/hc/en-us/articles/360006973893) (أسفل)، الناشرين، المؤسسات) الإذن لتحديث سجل ORCID الخاص بك تلقائيا.
+crwdns793266:0crwdne793266:0
