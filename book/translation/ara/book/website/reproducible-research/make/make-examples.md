@@ -288,16 +288,16 @@ $ git الخروج من البيانات الكبيرة# الخروج من فر�
 ALL_CSV = $(Wildcard data/*.csv)
 INPUT_CSV = $(wildcard data/input_file_*. sv)
 DATA = $(تصفية $(INPUT_CSV)،$(ALL_CSV))
-FIGURES = $(بيانات براءة الاختراع/input_file_%. sv,output/figure_%.png,$(DATA))
+FIGURES = $(بيانات براءة الاختراع/٪. sv,output/figure_%.png,$(DATA))
 
 .PHONY: جميع
 
 كل: خرج/report.pdf
 
-$(FIGURES): خرج/figure_%. ng: data/input_file_%.csv scripts/generate_histogram.py
-    python scripts/generate_histogram.py -i $< - o $@
+$(FIGURES): خرج/figure_%. ng: data/%.csv scripts/generate_histogram.py
+    python scripts/generate_histogram.py -i $< -o $@
 
-خرج/report.pdf: report/report. ex $(FIGURES)
+خرج/report.pdf: report/report/report. ex $(FIGURES)
     cd report/ && pdflatex report.tex && mv report df ../$@
 
 نظيف:
@@ -320,7 +320,7 @@ INPUT_CSV = $(wildcard data/input_file_*.csv)
 DATA = $(تصفية $(INPUT_CSV)،$(ALL_CSV))
 ```
 
-يستخدم هذا السطر [`عامل التصفية`](https://www.gnu.org/software/make/manual/make.html#index-filter) لإزالة العناصر التي لا تتطابق مع متغير `INPUT_CSV` من `ALL_CSV` المتغير.  لاحظ أننا نستخدم بناء الجملة `$( ... )` للدوال و المتغيرات. أخيرا، سوف نستخدم متغير `DATA` لإنشاء متغير `FGURES` مع المخرج المطلوب:
+يستخدم هذا السطر [`عامل تصفية`](https://www.gnu.org/software/make/manual/make.html#index-filter_002dout) لإزالة العناصر في `INPUT_CSV` متغير `ALL_CSV` متغير.  لاحظ أننا نستخدم بناء الجملة `$( ... )` للدوال و المتغيرات. أخيرا، سوف نستخدم متغير `DATA` لإنشاء متغير `FGURES` مع المخرج المطلوب:
 
 ```makefile
 FGURES = $(بيانات براءة الاختراع/%.csv,output/figure_%.png,$(DATA))
