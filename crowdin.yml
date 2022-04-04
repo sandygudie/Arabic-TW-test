@@ -10,7 +10,7 @@ files:
       - _toc.yml
       - _config.yml
       - _redirects
-      - /requirements.txt
+      - requirements.txt
       - runtime.txt
       - '*.png'
       - '*.jpg'
