@@ -1,13 +1,13 @@
-crwdns811606:0crwdne811606:0
-# crwdns811608:0crwdne811608:0
+(ص-ردم-موارد)=
+# الموارد
 
-crwdns811610:0crwdne811610:0
-## crwdns811612:0crwdne811612:0
+(rr-rdm-resources-learn)=
+## ماذا نتعلم التالي
 
-crwdns811614:0{ref}crwdnd811614:0{ref}crwdne811614:0
+إذا لم تقم بقراءة الفصلين في {ref}`rr-open` و {ref}`cm-cable` حتى الآن، قد ترغب في قراءته الآن لمزيد من السياق حول كيفية دعم إدارة بيانات البحث للبحث المفتوح وكيف يمكن لهذه الممارسات أن تؤدي إلى الحصول على إسناد لعملك.
 
-crwdns811616:0crwdne811616:0
-## crwdns811618:0crwdne811618:0
+(rr-rdm-resources-reading)=
+## المزيد من القراءة
 
-- [crwdns811622:0crwdne811622:0](crwdns811620:0crwdne811620:0)
-- [crwdns811626:0crwdne811626:0](crwdns811624:0crwdne811624:0)
+- [إرشادات مفصلة بشأن تبادل البيانات الشخصية أو الحساسة من دائرة البيانات في المملكة المتحدة](https://www.ukdataservice.ac.uk/manage-data/legal-ethical/consent-data-sharing.aspx)
+- [لمحة عامة عن حلول التخزين ومزاياها وعيوبها](https://datasupport.researchdata.nl/en/start-the-course/iii-the-research-phase/storing-data)
