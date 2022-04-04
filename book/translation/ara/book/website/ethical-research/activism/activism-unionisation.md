@@ -1,173 +1,173 @@
-crwdns17241:0crwdne17241:0
-# crwdns17243:0crwdne17243:0
+crwdns800920:0crwdne800920:0
+# crwdns800922:0crwdne800922:0
 
-crwdns17245:0crwdne17245:0
-## crwdns17247:0crwdne17247:0
+crwdns800924:0crwdne800924:0
+## crwdns800926:0crwdne800926:0
 
-crwdns17249:0crwdne17249:0 crwdns17251:0crwdne17251:0 crwdns17253:0crwdne17253:0
+crwdns800928:0crwdne800928:0 crwdns800930:0crwdne800930:0 crwdns800932:0crwdne800932:0
 
-crwdns17255:0crwdne17255:0 crwdns17257:0crwdne17257:0
+crwdns800934:0crwdne800934:0 crwdns800936:0crwdne800936:0
 
-crwdns17259:0crwdne17259:0 crwdns17261:0crwdne17261:0 crwdns17263:0crwdne17263:0
+crwdns800938:0crwdne800938:0 crwdns800940:0crwdne800940:0 crwdns800942:0crwdne800942:0
 
-crwdns17265:0crwdne17265:0
-## crwdns17267:0crwdne17267:0
+crwdns800944:0crwdne800944:0
+## crwdns800946:0crwdne800946:0
 
-crwdns17269:0crwdne17269:0 crwdns17271:0crwdne17271:0
+crwdns800948:0crwdne800948:0 crwdns800950:0crwdne800950:0
 
-crwdns17273:0crwdne17273:0
+crwdns800952:0crwdne800952:0
 
-crwdns17275:0crwdne17275:0
-* crwdns17277:0crwdne17277:0
-* crwdns17279:0crwdne17279:0
+crwdns800954:0crwdne800954:0
+* crwdns800956:0crwdne800956:0
+* crwdns800958:0crwdne800958:0
 
-crwdns17281:0crwdne17281:0
-* crwdns17283:0crwdne17283:0
-* crwdns17285:0crwdne17285:0
-* crwdns17287:0crwdne17287:0
-* crwdns17289:0crwdne17289:0
-* crwdns17291:0crwdne17291:0
-* crwdns17293:0crwdne17293:0
-* crwdns17295:0crwdne17295:0
+crwdns800960:0crwdne800960:0
+* crwdns800962:0crwdne800962:0
+* crwdns800964:0crwdne800964:0
+* crwdns800966:0crwdne800966:0
+* crwdns800968:0crwdne800968:0
+* crwdns800970:0crwdne800970:0
+* crwdns800972:0crwdne800972:0
+* crwdns800974:0crwdne800974:0
 
-crwdns17297:0crwdne17297:0
-* crwdns17299:0crwdne17299:0
-* crwdns17301:0crwdne17301:0
+crwdns800976:0crwdne800976:0
+* crwdns800978:0crwdne800978:0
+* crwdns800980:0crwdne800980:0
 
-crwdns17303:0crwdne17303:0
-### crwdns17305:0crwdne17305:0
+crwdns800982:0crwdne800982:0
+### crwdns800984:0crwdne800984:0
 
-crwdns17307:0crwdne17307:0 crwdns17309:0crwdne17309:0 crwdns17311:0crwdne17311:0
+crwdns800986:0crwdne800986:0 crwdns800988:0crwdne800988:0 crwdns800990:0crwdne800990:0
 
-crwdns17313:0crwdne17313:0
-## crwdns17315:0crwdne17315:0
+crwdns800992:0crwdne800992:0
+## crwdns800994:0crwdne800994:0
 
-crwdns17317:0crwdne17317:0
+crwdns800996:0crwdne800996:0
 
-* crwdns17319:0crwdne17319:0
-* crwdns17321:0crwdne17321:0
-* crwdns17323:0crwdne17323:0
-* crwdns17325:0crwdne17325:0
-* crwdns17327:0crwdne17327:0
-* crwdns17329:0crwdne17329:0
+* crwdns800998:0crwdne800998:0
+* crwdns801000:0crwdne801000:0
+* crwdns801002:0crwdne801002:0
+* crwdns801004:0crwdne801004:0
+* crwdns801006:0crwdne801006:0
+* crwdns801008:0crwdne801008:0
 
-crwdns17331:0crwdne17331:0 crwdns17333:0crwdne17333:0
+crwdns801010:0crwdne801010:0 crwdns801012:0crwdne801012:0
 
-crwdns17335:0crwdne17335:0
-### crwdns17337:0crwdne17337:0
+crwdns801014:0crwdne801014:0
+### crwdns801016:0crwdne801016:0
 
-crwdns17339:0crwdne17339:0
+crwdns801018:0crwdne801018:0
 
 ```{figure} ../../figures/scientific-union-badge.jpg
-crwdns17341:0crwdne17341:0
-crwdns17343:0crwdne17343:0 crwdns17345:0crwdne17345:0
+crwdns801020:0crwdne801020:0
+crwdns801022:0crwdne801022:0 crwdns801024:0crwdne801024:0
 ```
-> crwdns17347:0crwdne17347:0 crwdns17349:0crwdne17349:0 crwdns17351:0crwdne17351:0 crwdns17353:0crwdne17353:0 crwdns17355:0crwdne17355:0 crwdns17357:0crwdne17357:0
+> crwdns801026:0crwdne801026:0 crwdns801028:0crwdne801028:0 crwdns801030:0crwdne801030:0 crwdns801032:0crwdne801032:0 crwdns801034:0crwdne801034:0 crwdns801036:0crwdne801036:0
 
-crwdns17359:0%2Ccrwdnd17359:0%2Ccrwdnd17359:0%2Ccrwdne17359:0
+crwdns801038:0%2Ccrwdnd801038:0%2Ccrwdnd801038:0%2Ccrwdne801038:0
 
-crwdns17361:0crwdne17361:0
-## crwdns17363:0crwdne17363:0
+crwdns801040:0crwdne801040:0
+## crwdns801042:0crwdne801042:0
 
-crwdns17365:0crwdne17365:0 crwdns17367:0crwdne17367:0 crwdns17369:0crwdne17369:0 crwdns17371:0crwdne17371:0 crwdns17373:0crwdne17373:0
+crwdns801044:0crwdne801044:0 crwdns801046:0crwdne801046:0 crwdns801048:0crwdne801048:0 crwdns801050:0crwdne801050:0 crwdns801052:0crwdne801052:0
 
-crwdns17375:0crwdne17375:0 crwdns17377:0crwdne17377:0
+crwdns801054:0crwdne801054:0 crwdns801056:0crwdne801056:0
 
-crwdns17379:0crwdne17379:0 crwdns17381:0crwdne17381:0
+crwdns801058:0crwdne801058:0 crwdns801060:0crwdne801060:0
 
-crwdns17383:0crwdne17383:0
-## crwdns17385:0crwdne17385:0
+crwdns801062:0crwdne801062:0
+## crwdns801064:0crwdne801064:0
 
-crwdns17387:0crwdne17387:0
+crwdns801066:0crwdne801066:0
 
-### crwdns17389:0crwdne17389:0
+### crwdns801068:0crwdne801068:0
 
-crwdns17391:0crwdne17391:0 crwdns17393:0crwdne17393:0 crwdns17395:0crwdne17395:0 crwdns17397:0crwdne17397:0 crwdns17399:0crwdne17399:0
+crwdns801070:0crwdne801070:0 crwdns801072:0crwdne801072:0 crwdns801074:0crwdne801074:0 crwdns801076:0crwdne801076:0 crwdns801078:0crwdne801078:0
 
-crwdns17401:0crwdne17401:0 crwdns17403:0crwdne17403:0 crwdns17405:0crwdne17405:0 crwdns17407:0crwdne17407:0
+crwdns801080:0crwdne801080:0 crwdns801082:0crwdne801082:0 crwdns801084:0crwdne801084:0 crwdns801086:0crwdne801086:0
 
-crwdns17409:0crwdne17409:0 crwdns17411:0crwdne17411:0 crwdns17413:0crwdne17413:0
+crwdns801088:0crwdne801088:0 crwdns801090:0crwdne801090:0 crwdns801092:0crwdne801092:0
 
-crwdns17415:0crwdne17415:0 crwdns17417:0crwdne17417:0 crwdns17419:0crwdne17419:0
+crwdns801094:0crwdne801094:0 crwdns801096:0crwdne801096:0 crwdns801098:0crwdne801098:0
 
-crwdns17421:0crwdne17421:0
-### crwdns17423:0crwdne17423:0
+crwdns801100:0crwdne801100:0
+### crwdns801102:0crwdne801102:0
 
-crwdns17425:0crwdne17425:0 crwdns17427:0crwdne17427:0
+crwdns801104:0crwdne801104:0 crwdns801106:0crwdne801106:0
 
-crwdns17429:0crwdne17429:0
-* crwdns17431:0crwdne17431:0
-* crwdns17433:0crwdne17433:0
-* crwdns17435:0crwdne17435:0
-* crwdns17437:0crwdne17437:0
+crwdns801108:0crwdne801108:0
+* crwdns801110:0crwdne801110:0
+* crwdns801112:0crwdne801112:0
+* crwdns801114:0crwdne801114:0
+* crwdns801116:0crwdne801116:0
 
-crwdns17439:0crwdne17439:0 crwdns17441:0crwdne17441:0
+crwdns801118:0crwdne801118:0 crwdns801120:0crwdne801120:0
 
-crwdns17443:0crwdne17443:0
-### crwdns17445:0crwdne17445:0
+crwdns801122:0crwdne801122:0
+### crwdns801124:0crwdne801124:0
 
-crwdns17447:0crwdne17447:0 crwdns17449:0crwdne17449:0
+crwdns801126:0crwdne801126:0 crwdns801128:0crwdne801128:0
 
-crwdns17451:0crwdne17451:0
+crwdns801130:0crwdne801130:0
 
-crwdns17453:0crwdne17453:0 crwdns17455:0crwdne17455:0
+crwdns801132:0crwdne801132:0 crwdns801134:0crwdne801134:0
 
-crwdns17457:0crwdne17457:0
-#### crwdns17459:0crwdne17459:0
-crwdns17461:0crwdne17461:0
+crwdns801136:0crwdne801136:0
+#### crwdns801138:0crwdne801138:0
+crwdns801140:0crwdne801140:0
 
-crwdns17463:0crwdne17463:0
+crwdns801142:0crwdne801142:0
 
-* [crwdns17467:0crwdne17467:0](crwdns17465:0crwdne17465:0)
-* [crwdns17471:0crwdne17471:0](crwdns17469:0crwdne17469:0)
+* [crwdns801146:0crwdne801146:0](crwdns801144:0crwdne801144:0)
+* [crwdns801150:0crwdne801150:0](crwdns801148:0crwdne801148:0)
 
-crwdns17473:0crwdne17473:0
-### crwdns17475:0crwdne17475:0
+crwdns801152:0crwdne801152:0
+### crwdns801154:0crwdne801154:0
 
-crwdns17477:0crwdne17477:0
+crwdns801156:0crwdne801156:0
 
-#### crwdns17479:0crwdne17479:0
-* crwdns17481:0crwdne17481:0
+#### crwdns801158:0crwdne801158:0
+* crwdns801160:0crwdne801160:0
 
-#### crwdns17483:0crwdne17483:0
-* crwdns17485:0crwdne17485:0
-* crwdns17487:0crwdne17487:0
-* crwdns17489:0crwdne17489:0
-* crwdns17491:0crwdne17491:0
-* crwdns17493:0crwdne17493:0
-* crwdns17495:0crwdne17495:0
-    * crwdns17497:0crwdne17497:0
+#### crwdns801162:0crwdne801162:0
+* crwdns801164:0crwdne801164:0
+* crwdns801166:0crwdne801166:0
+* crwdns801168:0crwdne801168:0
+* crwdns801170:0crwdne801170:0
+* crwdns801172:0crwdne801172:0
+* crwdns801174:0crwdne801174:0
+    * crwdns801176:0crwdne801176:0
 
-#### crwdns17499:0crwdne17499:0
-* crwdns17501:0crwdne17501:0
+#### crwdns801178:0crwdne801178:0
+* crwdns801180:0crwdne801180:0
 
-#### crwdns17503:0crwdne17503:0
-* crwdns17505:0crwdne17505:0 crwdns17507:0crwdne17507:0
-* crwdns17509:0crwdne17509:0 crwdns17511:0crwdne17511:0
-* crwdns17513:0crwdne17513:0
-* crwdns17515:0crwdne17515:0
+#### crwdns801182:0crwdne801182:0
+* crwdns801184:0crwdne801184:0 crwdns801186:0crwdne801186:0
+* crwdns801188:0crwdne801188:0 crwdns801190:0crwdne801190:0
+* crwdns801192:0crwdne801192:0
+* crwdns801194:0crwdne801194:0
 
-#### crwdns17517:0crwdne17517:0
-* crwdns17519:0crwdne17519:0
-* crwdns17521:0crwdne17521:0
-* crwdns17523:0crwdne17523:0
-* crwdns17525:0crwdne17525:0
-* crwdns17527:0crwdne17527:0
+#### crwdns801196:0crwdne801196:0
+* crwdns801198:0crwdne801198:0
+* crwdns801200:0crwdne801200:0
+* crwdns801202:0crwdne801202:0
+* crwdns801204:0crwdne801204:0
+* crwdns801206:0crwdne801206:0
 
-#### crwdns17529:0crwdne17529:0
-* crwdns17531:0crwdne17531:0
-* crwdns17533:0crwdne17533:0
-* crwdns17535:0%Ccrwdne17535:0
+#### crwdns801208:0crwdne801208:0
+* crwdns801210:0crwdne801210:0
+* crwdns801212:0crwdne801212:0
+* crwdns801214:0%Ccrwdne801214:0
 
 
-#### crwdns17537:0crwdne17537:0
-* crwdns17539:0crwdne17539:0
+#### crwdns801216:0crwdne801216:0
+* crwdns801218:0crwdne801218:0
 
-#### crwdns17541:0crwdne17541:0
-* crwdns17543:0crwdne17543:0
-* [crwdns17547:0crwdne17547:0](crwdns17545:0crwdne17545:0)
+#### crwdns801220:0crwdne801220:0
+* crwdns801222:0crwdne801222:0
+* [crwdns801226:0crwdne801226:0](crwdns801224:0crwdne801224:0)
 
-crwdns17549:0crwdne17549:0
-## crwdns17551:0crwdne17551:0
+crwdns801228:0crwdne801228:0
+## crwdns801230:0crwdne801230:0
 
-crwdns17553:0crwdne17553:0 crwdns17555:0crwdne17555:0 crwdns17557:0crwdne17557:0
+crwdns801232:0crwdne801232:0 crwdns801234:0crwdne801234:0 crwdns801236:0crwdne801236:0
