@@ -1,32 +1,32 @@
-# الموارد
+# crwdns802596:0crwdne802596:0
 
-## فروع أخرى ذات صلة في سبيل التوريد
+## crwdns802598:0crwdne802598:0
 
-* [تقييم التنوع والاختلافات](https://the-turing-way.netlify.app/collaboration/new-community/new-community-differences.html)
+* [crwdns802602:0crwdne802602:0](crwdns802600:0crwdne802600:0)
 
-* [نشاط الباحثين](https://the-turing-way.netlify.app/ethical-research/activism.html)
+* [crwdns802606:0crwdne802606:0](crwdns802604:0crwdne802604:0)
 
-## باء - الموارد الإضافية لممارسة التأمل الذاتي والردود والموقف
-وتشير بعض هذه الموارد إلى بحوث نوعية ولكنها تنطبق على نطاق واسع على الوضع عموما.
+## crwdns802608:0crwdne802608:0
+crwdns802610:0crwdne802610:0
 
-* ماكينتوش، ب. (1988) [الامتياز الأبيض: فك تعبئة الفن المخفي](https://admin.artsci.washington.edu/sites/adming/files/unpacking-invisible-knapsack.pdf) {cite:ps}`mcintosh1988white`
+* crwdns802612:0{cite:ps}crwdne802612:0
 
-* Gebru, T. et al. (2018) [صحائف بيانات لمجموعات البيانات](https://www.microsoft.com/en-us/research/uploads/prod/2019/01/1803.09010.pdf) {cite:ps}`gebru2018datashets`
+* crwdns802614:0{cite:ps}crwdne802614:0
 
-* جاكوبسون، د. ومصطفى، ن. (2019) [خريطة الهوية الاجتماعية: أداة للرد على الوضع الواضح في البحث النوعي الحرج](https://journals.sagepub.com/doi/full/10.1177/1609406919870075) {cite:ps}`جاكوبسون2019الاجتماعي`
+* crwdns802616:0{cite:ps}crwdne802616:0
 
-* هولمز، أ. هولمز، أ. (2020) [موقف الباحث - الاعتبار لتأثيره ومكانه في البحث النوعي - دليل الباحث الجديد.](https://files.eric.ed.gov/fulltext/EJ1268044.pdf) {cite:ps}`Holmes2020باحث`
+* crwdns802618:0crwdne802618:0 crwdns802620:0{cite:ps}crwdne802620:0
 
-## مزيد من القراءة بشأن الموقف والردود في مجال العلم
+## crwdns802622:0crwdne802622:0
 
-* هاراواي، د. (1988) [معرفة الموقف: السؤال العلمي في الحركة النسائية وامتياز المنظور الجزئي](https://www.jstor.org/stable/3178066) {cite:ps}`هاراواي 1988`
+* crwdns802624:0{cite:ps}crwdne802624:0
 
-* ريكر، B. (2017) [المرونة والموقف والموقف في سياق بحث البيانات الكبيرة](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2911652) {cite:ps}`ricker2017reflexivity`
+* crwdns802626:0{cite:ps}crwdne802626:0
 
-* Gebru, T. et al. (2018) [صحائف بيانات لمجموعات البيانات](https://www.microsoft.com/en-us/research/uploads/prod/2019/01/1803.09010.pdf) {cite:ps}`gebru2018datashets`
+* crwdns802628:0crwdne802628:0 crwdns802630:0{cite:ps}crwdne802630:0
 
-* كوستانزا - شوكك، S., (2020) [تصميم العدالة: ممارسات المجتمع المحلي لبناء العالم الذي نحتاج إليه](https://design-justice.pubpub.org/) {cite:ps}`كستانزا 2020تصميم`
+* crwdns802632:0{cite:ps}crwdne802632:0
 
-* D'ignazio, C., & Klein, L. F. (2020). [بيانات الحركة النسائية](https://mitpress.mit.edu/books/data-feminism) {cite:ps}`بيانات 2020`
+* crwdns802634:0crwdne802634:0 crwdns802636:0crwdne802636:0 crwdns802638:0{cite:ps}crwdne802638:0
 
-* Birhane, A. (2021) [المظالم الخوارزمية: نهج الأخلاقيات العلاقية](https://www.sciencedirect.com/science/article/pii/S2666389921000155) {cite:ps}`birhane2021algorithmic`
+* crwdns802640:0{cite:ps}crwdne802640:0
