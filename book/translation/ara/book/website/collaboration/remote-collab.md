@@ -1,14 +1,14 @@
-crwdns6199:0crwdne6199:0
-# crwdns6201:0crwdne6201:0
+crwdns787350:0crwdne787350:0
+# crwdns787352:0crwdne787352:0
 
-crwdns6203:0crwdne6203:0 crwdns6205:0crwdne6205:0
+crwdns787354:0crwdne787354:0 crwdns787356:0crwdne787356:0
 
 ```{figure} ../figures/distributed-collaboration.jpg
-crwdns6207:0crwdne6207:0 crwdns6209:0crwdne6209:0 crwdns6211:0crwdne6211:0 crwdns6213:0crwdne6213:0
+crwdns787358:0crwdne787358:0 crwdns787360:0crwdne787360:0 crwdns787362:0crwdne787362:0 crwdns787364:0crwdne787364:0
 ```
 
-crwdns6215:0crwdne6215:0 crwdns6217:0crwdne6217:0
+crwdns787366:0crwdne787366:0 crwdns787368:0crwdne787368:0
 
-crwdns6219:0crwdne6219:0 crwdns6221:0crwdne6221:0
+crwdns787370:0crwdne787370:0 crwdns787372:0crwdne787372:0
 
 <!--- Add a summary of all the subchapters --->
