@@ -9,10 +9,10 @@
 宽度：500px
 Alt：研究软件开发者通过使软件易于辨认而获得承认。
 ---
-研究软件开发者通过使软件易用而获得承认。 Stereteria的绘画线路项目示例。 Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
+研究软件开发者通过使软件易用而获得承认。 Stereteria的绘画线路项目示例。 Zenodo. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
 ```
 
-若要提供此元数据，请先编写一个 `CITATION.cff` 文件，并将其包含在您的软件或数据集中。 `个诱惑。 ff` 文件将信息汇总到一个关键值格式中，它可以被人类轻松地解释和更新。 并使用现有工具轻松解析和转换。
+若要提供此元数据，请先编写一个 `CITATION.cff` 文件，并将其包含在您的软件或数据集中。 ff</code> 文件将信息汇总到一个关键值格式中，它可以被人类轻松地解释和更新。 并使用现有工具轻松解析和转换。
 
 (cm-citable-cff-why)=
 ## 为什么使用 `CITATION.cff`？
@@ -27,7 +27,7 @@ Alt：研究软件开发者通过使软件易于辨认而获得承认。
 宽度：500px
 Alt：为软件创建者提供更多积分。
 ---
-为软件创建者提供更多积分。 Stereteria的绘画线路项目示例。 Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
+为软件创建者提供更多积分。 Stereteria的绘画线路项目示例。 Zenodo. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
 ```
 
 它对您的软件用户来说更容易：
@@ -46,21 +46,18 @@ Alt：为软件创建者提供更多积分。
 作者：
   - 家庭名：做
     给定的名字：John
-cff-version：1.2。
-消息：“如果您使用此软件，请使用此文件的元数据说明。”
+cff-version：1.2。 消息：“如果您使用此软件，请使用此文件的元数据说明。”
 标题：“我的研究软件”
 ```
 
 然而，添加更多的字段可以帮助您创建更多的软件描述性元数据。 下面的例子还提供了软件的重要信息，如版本、发行日期、DOI、许可证、关键字。
 
 ```yaml
-摘要：“这是我精彩的研究软件。 它做了许多事情。
-作者：
+摘要：“这是我精彩的研究软件。 它做了许多事情。 作者：
   - 家庭名称： Doe
     给定的名字：John
     orcid: "https://orcid. rg/000000-0001-88888-99”
-cff-version：1.2。
-日期发布: "2021-10-13"
+cff-version：1.2。 日期发布: "2021-10-13"
 标识符:
   - 描述: "这是我的研究软件所有版本的存档快照的集合"
     类型: doi
@@ -71,8 +68,7 @@ cff-version：1.2。
 关键词：
   - "惊人的软件"
   - 研究
-许可证：Apache-2。
-消息：“如果您使用此软件，请使用此文件的元数据说明。”
+许可证：Apache-2。 消息：“如果您使用此软件，请使用此文件的元数据说明。”
 仓库代码：“https://github。 om/citation-file-form/my-research-software”
 title: "My Research Software"
 version: 0.11.2
@@ -117,7 +113,7 @@ version: 0.11.2
 为了确保您的 GitHub 仓库始终有一个有效的 `CITATION.cff` 文件，您可以使用 [cff-validator](https://github.com/marketplace/actions/cff-validator) GitHub 操作。
 ```
 
-#### 步骤2 将您的 `CITATION.cff` 添加到公共代码库
+#### 步骤2 步骤2 将您的 `CITATION.cff` 添加到公共代码库
 
 创建有效的 `CITATION。 ff` 文件， 您需要将其添加到您的代码或数据存储库的根目录，以便能够轻松地找到和引用。
 

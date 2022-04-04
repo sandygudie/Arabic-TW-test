@@ -14,8 +14,7 @@ Este capítulo dá uma visão geral das formas mais comuns de rastrear, apoiar e
 nome: ferramentas de pesquisa
 largura: 500px
 alt: poucas pessoas estão procurando diferentes informações sobre experimento, ferramentas, privacidade. Existem diferentes locais ou canais onde esses detalhes podem ser identificados, o que é exibido de forma definitiva.
----
-Idetizando o canal certo para se comunicar e encontrar informações. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+--- Idetizando o canal certo para se comunicar e encontrar informações. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
 ## Fundo de Motivação de anúncio

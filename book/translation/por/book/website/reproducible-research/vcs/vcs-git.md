@@ -32,8 +32,7 @@ Esse comando coloca seus arquivos recém-adicionados ou qualquer outra mudança 
 ---
 nome: change-stage-repo
 alt: Uma ilustração do `git add` e dos comandos do commit.
----
-Como 'git add' e 'git commit' funciona
+--- Como 'git add' e 'git commit' funciona
 ```
 
 Se você nunca tem certeza de quais arquivos foram adicionados, quais arquivos foram alterados ou quais arquivos não estão monitorados, você pode executar o seguinte para descobrir:

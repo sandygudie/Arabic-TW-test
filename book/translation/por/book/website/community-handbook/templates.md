@@ -8,8 +8,7 @@
 height: 200px
 nome: templates
 alt: Uma ilustração de uma pessoa, provavelmente um arquiteto fazendo um esboço
----
-Ilustração de um processo de esboço. [Imagem sem realeza de muitos Pixels](https://www.manypixels.co/gallery/)
+--- Ilustração de um processo de esboço. [Imagem sem realeza de muitos Pixels](https://www.manypixels.co/gallery/)
 ```
 
 (ch-modelo-livreiro)=

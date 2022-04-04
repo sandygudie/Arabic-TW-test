@@ -30,7 +30,7 @@ No es una buena práctica esperar hasta que haya terminado de redactar un docume
     * Esto debe incluir:
         * Las revistas a las que estás dirigiéndote - esto significa que puedes enterarte de sus propias políticas de autoría.
         * Cómo se decidirá el orden de los autores o está siguiendo un tipo de modelo/definición de autoría desde el principio.
-        * ¿Cómo seguirás las contribuciones - ¿se hará para todas las contribuciones o una lista seleccionada? ¿Cómo lo hará? ¿un bot de lista de verificación/todos los colaboradores? ¿Quién se encargará de mantener la lista de colaboradores?
+        * ¿Cómo seguirás las contribuciones - ¿se hará para todas las contribuciones o una lista seleccionada? ¿Cómo lo hará? ¿Cómo lo hará? ¿un bot de lista de verificación/todos los colaboradores? ¿Quién se encargará de mantener la lista de colaboradores? ¿Quién se encargará de mantener la lista de colaboradores?
         * Si la política de autoridad/directrices serán revisadas, cuándo se hará esto y cómo se hará.
 
 * Producir documentación sobre las decisiones que se han tomado en estas reuniones.

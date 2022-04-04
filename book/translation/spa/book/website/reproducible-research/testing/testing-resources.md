@@ -25,7 +25,7 @@ Trate de leer el capítulo sobre ambientes computacionales reproducibles y luego
 
 - [Digital ocean](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License**
 
-## Materiales utilizados: Prueba unitaria
+## Materiales utilizados: Ejecución de pruebas
 
 - [Una introducción a la integración continua](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Licencia Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International**
 - [Pruebas de software fundamentales: pruebas unitarias](http://softwaretestingfundamentals.com/unit-testing/) **Copiada - 2019 STF**

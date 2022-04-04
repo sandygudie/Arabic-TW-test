@@ -166,7 +166,7 @@ Quadros de teste unitários para outras línguas também frequentemente fornecem
 - CPPUnit for C++: CPPUNIT_ASSERT_DOUBLES_EQUAL(esperado, atual, delta)
 - googletest para C++: ASSERT_NEAR(val1, val2, abs_error)
 - FRUIT para Fortran: subrotinine assert_eq_double_in_range_(var1, var2, delta, mensagem)
-- JUnit for Java: org.junit.Assert.assertEquals(double expected, double real delta)
+- JUnit for Java: org.junit. Assert.assertEquals(double expected, double real delta)
 - teste para R:
   - expect_equal(atual, esperado, tolerance=DELTA) - erro absoluto dentro do DELTA
   - expect_equal(real, esperada, scale=expected, tolerance=DELTA) - erro relativo dentro do DE T A

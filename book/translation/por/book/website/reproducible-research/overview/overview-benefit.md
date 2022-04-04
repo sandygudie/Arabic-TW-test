@@ -8,8 +8,7 @@ Na seção {ref}`rr-over-definitions` (definições), discutimos os diferentes a
 ---
 nome: reasons-reproducibility
 alt: Por que devemos nos importar em trabalhar reprodutível.
----
-Uma ilustração de razões pelas quais devemos nos preocupar em trabalhar reprodutível.
+--- Uma ilustração de razões pelas quais devemos nos preocupar em trabalhar reprodutível.
 ```
 
 **1. Acompanhe o histórico completo de suas pesquisas**

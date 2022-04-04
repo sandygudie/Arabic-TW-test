@@ -9,8 +9,7 @@ O exemplo mais recente é a pandemia COVID-19 e eventos relacionados {cite:ps}`W
 ---
 nome: comunidade de gestão
 alt: uma ilustração de muitas pessoas parando em uma plataforma acadêmica. Algumas delas estão a ajudar outras pessoas a juntarem-se a elas para trabalharem em conjunto.
----
-Descolonizar o Conhecimento através de abordagens inclusivas e colaborativas. _A Via Turing, & Scriberia. (2020, Novembro). Ilustrações do Caminho de Turing book dashes. Zenodo. http://doi.org/10.5281/zenodo.4323154
+--- Descolonizar o Conhecimento através de abordagens inclusivas e colaborativas. _A Via Turing, & Scriberia. (2020, Novembro). Ilustrações do Caminho de Turing book dashes. Zenodo. http://doi.org/10.5281/zenodo.4323154
 ```
 
 Estes esforços orientados para a acção resultam de uma motivação para congregar e combinar os nossos conhecimentos científicos para resolver situações sem precedentes, que é, sem dúvida, uma forma ideal de avançar. No entanto, a formação de colaborações eficazes é um processo exigente, mesmo nos melhores tempos. Manter uma equipe envolvida é uma atividade contínua que requer verificação e avaliação regulares. Com base em cada avaliação, podemos alterar e melhorar nosso fluxo de trabalho e práticas comunitárias. No entanto, quando criamos apressadamente um projeto para resolver um problema imediato à mão. não temos o benefício de tempo para realizar tal avaliação. Por conseguinte, é ainda mais importante ser intencional na criação de equipas e comunidades e aplicar as melhores práticas testadas e testadas desde o início.

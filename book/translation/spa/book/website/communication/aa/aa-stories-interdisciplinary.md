@@ -18,7 +18,7 @@ Reúne a un grupo interdisciplinario de investigadores de diversas disciplinas p
 * [ORCID](http://orcid.org/0000-0001-8455-7196)
 * [Sitio web](https://github.com/mcollardanuy)
 
-**1. ¿Cuál es la *práctica normal* de la autoría de los documentos académicos en tu disciplina? o solía ser la práctica normal?**
+**1. ¿Cuál es la *práctica normal* de la autoría de los documentos académicos en tu disciplina? o solía ser la práctica normal? o solía ser la práctica normal?**
 
 Somos un proyecto interdisciplinario y por lo tanto traemos con nosotros las prácticas habituales de autoría de dos disciplinas distintas: la cosmética computacional y las humanidades (Historia). Esto hace que sea más complicado cuando se trata de decidir cómo abordar la autoría en nuestras publicaciones.
 

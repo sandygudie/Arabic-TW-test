@@ -28,7 +28,7 @@ alt: Un resumen gráfico de xtas. Un gran rectángulo representa las xtas de tra
 Un resumen gráfico de xtas.
 ```
 
-xtas está escrito en Python, y utiliza una serie de bibliotecas Python que están licenciadas bajo licencias libres. Estos incluyen las licencias BSD y MIT simples, la versión 2 de la Licencia Apache permisiva. (ALv2), GNU Lesser General Public License versión 2.1 (LGPLv2.1), y GNU General Public License versión 2 o posterior (GPLv2+).
+xtas en su conjunto, y el código xtas Python, pueden ser licenciados de la forma que deseen los autores, así que usaron la Apache License v2.0. Si distribuyen chardet, deben hacerlo bajo la licencia LGPL v2.1 otorgada por sus propietarios de derechos de autor.
 
 (Tenga en cuenta que la dependencia de la librería GPLv2+ Python está obsoleta, pero por el bien de estos ejemplos, asumiremos que todavía está ahí.)
 
@@ -51,7 +51,7 @@ xtas usa [Snowball](https://snowballstem.org/), una librería basada en Python. 
 
 #### ¿Qué obras separadas están ahí, y qué se deriva de qué?
 
-Hay tres obras: Snowball, el código xtas Python y el trabajo combinado xtas. El trabajo combinado se deriva del código Snowball y xtas Python, ambos trabajos independientes.
+Hay tres obras: unidecode, el código xtas Python y el trabajo combinado. El trabajo combinado deriva de unidecode y el código Python xtas.
 
 Tenga en cuenta que el ALv2 y el LGPL v2. indica explícitamente que el código fuente que está destinado a funcionar en combinación con una biblioteca no es un trabajo derivado, mientras que el binario resultante (estática o dinámicamente) de unir las piezas juntas. Otras licencias, incluyendo el GPL, no hacen ninguna declaración explícita al respecto.
 
@@ -73,9 +73,9 @@ Si los autores xtas redistribuyen Snowball, deben hacerlo bajo la licencia BSD o
 ```{figure} ../../figures/xtas-chardet96.png
 ---
 nombre: xtas-chardet96
-alt: Una ilustración del ejemplo xtas vs. chardet. Un gran rectángulo representa las xtas de trabajo combinadas. Dentro de este rectángulo, hay un amplio y bajo rectángulo en la parte superior que representa el código xtas Python, licenciado bajo la Apache License v2. Debajo de eso hay un cuadrado que contiene las palabras "chardet" y "Python lib LGPLv2.1".
+alt: Una ilustración del ejemplo xtas vs. Un gran rectángulo representa las xtas de trabajo combinadas. Dentro de este rectángulo, hay un amplio y bajo rectángulo en la parte superior que representa el código xtas Python, licenciado bajo la Apache License v2. Debajo de eso hay un cuadrado que contiene las palabras "chardet" y "Python lib LGPLv2.1".
 ---
-Una ilustración del ejemplo xtas vs. chardet.
+Una ilustración del ejemplo xtas vs.
 ```
 
 xtas usa [chardet](https://pypi.org/project/chardet/), una biblioteca de Python para detectar el conjunto de caracteres usado en una cadena de texto. Chardet está publicado bajo la Licencia Pública General Lesser GNU v2.1. Considerando sólo xtas y chardet, podemos responder las tres preguntas de la siguiente manera.
@@ -90,7 +90,7 @@ Chardet está licenciado bajo una licencia de copyleft débil, por lo que puede 
 
 #### ¿Cómo se debe licenciar la(s) obra(s) obras?
 
-xtas en su conjunto, y el código xtas Python, pueden ser licenciados de la forma que deseen los autores, así que usaron la Apache License v2.0. Si distribuyen chardet, deben hacerlo bajo la licencia LGPL v2.1 otorgada por sus propietarios de derechos de autor.
+Los autores de xtas deben elegir una licencia para el código de xtas Python que sea compatible con al menos una de las licencias bajo las cuales se puede distribuir unidecode para que otros puedan ensamblar y distribuir trabajos combinados. El ALv2 es compatible con el GPLv3 (pero no con el GPLv2, por razones técnicas), por lo que pueden usarlo aquí.
 
 (rr-licencia-compatibilidad-ejemplos-apachevsgplv2)=
 ### Apache vs. GPLv2
@@ -98,16 +98,16 @@ xtas en su conjunto, y el código xtas Python, pueden ser licenciados de la form
 ```{figure} ../../figures/xtas-unidecode96.png
 ---
 name: xtas-unidecode96
-alt: Una ilustración del ejemplo xtas vs. unidecode. El gran rectángulo representa las xtas de trabajo combinadas. Dentro de este rectángulo, hay un amplio y bajo rectángulo en la parte superior que representa el código xtas Python, licenciado bajo la Apache License v2. Debajo de eso hay un cuadrado que contiene las palabras "unidecode" y "Python lib GPLv2+".
+alt: Una ilustración del ejemplo xtas vs. El gran rectángulo representa las xtas de trabajo combinadas. Dentro de este rectángulo, hay un amplio y bajo rectángulo en la parte superior que representa el código xtas Python, licenciado bajo la Apache License v2. Debajo de eso hay un cuadrado que contiene las palabras "unidecode" y "Python lib GPLv2+".
 ---
-Una ilustración del ejemplo xtas vs. unidecode.
+Una ilustración del ejemplo xtas vs.
 ```
 
 xtas previamente usó [unidecode](https://pypi.org/project/Unidecode/), una biblioteca de Python para convertir texto codificado de acuerdo a The Unicode® Standard a una aproximación ASCII de él. Unidecode se publica bajo la Licencia Pública General GNU versión 2 o posterior (GPLv2+). Considerando sólo xtas y unidecode, podemos responder las tres preguntas de la siguiente manera.
 
 #### ¿Qué obras separadas están ahí, y qué se deriva de qué?
 
-Hay tres obras: unidecode, el código xtas Python y el trabajo combinado. El trabajo combinado deriva de unidecode y el código Python xtas.
+Hay tres obras: Snowball, el código xtas Python y el trabajo combinado xtas. El trabajo combinado se deriva del código Snowball y xtas Python, ambos trabajos independientes.
 
 Si el código de Python xtas es un trabajo derivado de unidecode no está claramente definido por la ley, y no hay jurisprudencia al respecto. La licencia Apache y la LGPL afirman explícitamente que no es para el propósito de esas licencias, pero la GPL no contiene tal cláusula.
 
@@ -166,9 +166,9 @@ xtas puede ejecutar el [programa Stanford CoreNLP](https://stanfordnlp.github.io
 ```{figure} ../../figures/xtas-corenlp1-96.png
 ---
 nombre: xtas-corenlp1-96
-alt: Una ilustración del ejemplo xtas vs. CoreNLP. El cuadrado representa las xtas de trabajo combinadas. Dentro de este cuadrado, hay un amplio y bajo rectángulo en la parte superior que representa el código xtas Python, licenciado bajo la Apache License v2. Debajo de ese es un cuadrado que contiene las palabras "Stanford CoreNLP" y "Java program GPLv3+".
+alt: Una ilustración del ejemplo xtas vs. El cuadrado representa las xtas de trabajo combinadas. Dentro de este cuadrado, hay un amplio y bajo rectángulo en la parte superior que representa el código xtas Python, licenciado bajo la Apache License v2. Debajo de ese es un cuadrado que contiene las palabras "Stanford CoreNLP" y "Java program GPLv3+".
 ---
-Una ilustración del ejemplo xtas vs. CoreNLP.
+Una ilustración del ejemplo xtas vs.
 ```
 
 Una interpretación de esta situación es que no es diferente de llamar a una función en una biblioteca y que cualquier distribución de xtas, en su conjunto, incluida CoreNLP, debería estar por tanto bajo el GPLv3+. Contribuir a esta interpretación es el hecho de que xtas descargará e instalará CoreNLP automáticamente si es necesario.

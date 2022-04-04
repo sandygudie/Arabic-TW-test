@@ -24,7 +24,7 @@ Você pode encontrar exemplos dessas afirmações nas políticas do autor (dados
 
 ### Exemplos da disponibilidade de dados:
 
-**Usando o Digital Object Identifier (DOI):** “Os dados que suportam as descobertas deste estudo estão abertamente disponíveis no [nome do repositório] em http://doi. rg/[doi].”
+**Usando o Digital Object Identifier (DOI):** “Os dados que suportam as descobertas deste estudo estão abertamente disponíveis no [nome do repositório] em http://doi.
 
 **Se nenhum DOI for emitido:**
 - Os dados que suportam as conclusões deste estudo estão abertamente disponíveis no [nome do repositório] em [URL], número de referência [número de referência]".

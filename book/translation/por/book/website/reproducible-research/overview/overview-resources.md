@@ -13,7 +13,7 @@ Para recursos adicionais como vídeos e papéis de referência na reprodutibilid
 
 * Barba, L. (2017): Barba-group Reproducibility Syllabus. figshare. Papel. https://doi.org/10.6084/m9.figshare.4879928.v1
 
-* Piwowar, H. A., & Vision, T. J. (2013). Reutilização de dados e a vantagem de citação de dados abertos. PeerJ, 1, e175. https://doi.org/10.7717/peerj.175
+* Piwowar, H. A., & Vision, T. J. (2013). (2013). Reutilização de dados e a vantagem de citação de dados abertos. PeerJ, 1, e175. https://doi.org/10.7717/peerj.175
 
 * Whitaker, Kirstie (2018): Barreiras para reprodutíveis de pesquisa (e como superá-las). figshare. Papel. https://doi.org/10.6084/m9.figshare.7140050.v2
 

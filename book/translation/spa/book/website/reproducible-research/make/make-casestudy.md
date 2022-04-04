@@ -34,7 +34,7 @@ Below we will briefly describe what the Makefile for such a project looks like. 
 
    ```makefile
    check_clean:
-    @echo -n "Are you sure? [y/N]" && read ans && [ $$ans == y ]
+    @echo -n "Are you sure? [y/N]" && read ans && [ $$ans == y ] [y/N]" && read ans && [ $$ans == y ]
    ```
 
 It is important to emphasize that this file was not created in one go, but was constructed iteratively. The Makefile started as a way to run several dialect detection methods on a collection of input files and gradually grew to include the creation of figures and tables from the result files. Thus the advice for using Make for reproducibility is to *start small and start early*.

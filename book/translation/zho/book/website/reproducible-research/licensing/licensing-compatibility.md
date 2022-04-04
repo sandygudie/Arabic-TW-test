@@ -7,7 +7,7 @@
 
 例如，GNU GPL与专有许可证不兼容： 因为它要求合并工作必须在 GPL 下许可，但不允许附加限制。 持有专有许可证的部分作品是这种额外的限制， 所以您不能发布这种组合(除非GPL代码的版权所有者给予特殊的权限)。
 
-当你使用不同的软件一起解决一个问题时， 并想要分发结果。这里是您必须回答的问题：
+当你使用不同的软件一起解决一个问题时， 并想要分发结果。 这里是您必须回答的问题：
 
 - 哪种不同的工作是在那里进行的，什么是从什么中得出的？
 - 能否分发衍生作品？ 许可证是否允许这样做，它们是否兼容？
@@ -30,7 +30,7 @@ xtas的图形概述。
 
 xtas 本身是用Python写的，它使用了一些Python库，这些库是使用共同的免费许可证授权的。 这些包括简单的 BSD 和 MIT 许可证，允许的 Apache 许可证版本 2。 （ALv2）、GNU 较低一般公共许可证版本2.1（LGPLv2.1）和GNU 通用公共许可证版本2或更高版本（GPLv2+）。
 
-(请注意，对 GPLv2+ Python 库的依赖已经废弃， 但为了这些例子，我们将假定仍然存在。)
+(请注意，对 GPLv2+ Python 库的依赖已经废弃， 但为了这些例子，我们将假定仍然存在。 )
 
 xtas的 Python 代码在 Apache 许可版本 2.0 下分发。 既然xtas作者拥有版权。 他们可以以他们喜欢的任何方式许可它(尽管对GPL依赖关系有灰色区域, 见下文)。 xtas 作者不分发任何合并作品或二进制作品，但在下面的示例中 我们将假定有一项联合工作，以便我们能够考虑如何才能获得许可。
 
@@ -42,7 +42,7 @@ xtas的 Python 代码在 Apache 许可版本 2.0 下分发。 既然xtas作者�
 ```{figure} ../../figures/xtas-snowball96.png
 ---
 名称：xtas-snowball96
-alt: xtas vs. Snowball的示例.  一个大的矩形代表合并工作的 xta。 在这个矩形中，顶部有一个低方形，代表了由 Apache License v2 授权的 xtas Python 代码。 下面是一个正方形，包含“雪球钢铁”和“Python lib BSD”。
+alt: xtas vs. Snowball的示例.  一个大的矩形代表合并工作的 xta。  一个大的矩形代表合并工作的 xta。 在这个矩形中，顶部有一个低方形，代表了由 Apache License v2 授权的 xtas Python 代码。 下面是一个正方形，包含“雪球钢铁”和“Python lib BSD”。
 ---
 是 xtas 和 Snowball的示例。
 ```
@@ -65,7 +65,7 @@ Snowball是在许可的许可下许可的。 它可以在该许可证下重新�
 
 xtas Python 代码和 xtas 合并工作是在 Apache 许可协议v2.0 下许可的。
 
-如果xtas 作者重新发行雪球，他们必须使用Snowball作者颁发的 BSD 许可证这样做。 (他们不能授予Snowball更多的权限，因为他们并不拥有版权，出于同样的原因，其他限制将无法执行。)
+如果xtas 作者重新发行雪球，他们必须使用Snowball作者颁发的 BSD 许可证这样做。 (他们不能授予Snowball更多的权限，因为他们并不拥有版权，出于同样的原因，其他限制将无法执行。
 
 (rr-licensing-compatibility-examples-apachevslgpl)=
 ### Apache 与 LGPL
@@ -73,7 +73,9 @@ xtas Python 代码和 xtas 合并工作是在 Apache 许可协议v2.0 下许可�
 ```{figure} ../../figures/xtas-chardet96.png
 ---
 名称：xtas-chardet96
-alt: xtas vs. chardet 示例. 一个大的矩形代表合并工作的 xta。 在这个矩形中，顶部有一个低方形，代表了由 Apache License v2 授权的 xtas Python 代码。 下面是一个包含“chardet”和“Python lib LGPLv2.1”字样的正方形。
+alt: xtas vs. chardet 示例. 一个大的矩形代表合并工作的 xta。 ---
+名称：xtas-overview.96
+ 一个大的矩形代表合并工作的 xta。 在这个矩形中，顶部有一个低方形，代表了由 Apache License v2 授权的 xtas Python 代码。 下面是一个包含“chardet”和“Python lib LGPLv2.1”字样的正方形。
 ---
 是 xtas 和 chart 示例的示例。
 ```
@@ -98,7 +100,7 @@ Chardet是使用软弱的左边许可证授权的，所以它可以根据该许�
 ```{figure} ../../figures/xtas-unidecode96.png
 ---
 名称：xtas-unidecode96
-alt: xtas vs. unidecode 示例. 大长方形代表合并工作 xtas。 在这个矩形中，顶部有一个低方形，代表了由 Apache License v2 授权的 xtas Python 代码。 下面是一个正方形，包含“unidecode”和“Python lib GPLv2+”。
+alt: xtas vs. unidecode 示例. 大长方形代表合并工作 xtas。 大长方形代表合并工作 xtas。 在这个矩形中，顶部有一个低方形，代表了由 Apache License v2 授权的 xtas Python 代码。 下面是一个正方形，包含“unidecode”和“Python lib GPLv2+”。
 ---
 是 xtas vs unidecode 示例的示例。
 ```
@@ -109,7 +111,7 @@ xtas 先前使用 [unidecode](https://pypi.org/project/Unidecode/), Python 库�
 
 有三项工作：unidecode、xtas Python代码和合并工作。 综合工作产生于Unidecode和xtas Python代码。
 
-xtas Python代码是否是Unidecode的衍生作品，法律没有明确界定。 而且没有这方面的判例法。 Apache许可和LGPL明确声明它不是为了这些许可目的： 但GPL没有载有这样的条款。
+xtas Python代码是否是Unidecode的衍生作品，法律没有明确界定。 Apache许可和LGPL明确声明它不是为了这些许可目的： 但GPL没有载有这样的条款。
 
 由于它们是单独开发的，而且在xtas代码中没有来自unidecode的代码， 我们在这里认为，这不是一项衍生的工作。
 
@@ -156,7 +158,7 @@ Albt：xtas和所有 Python 库的示例说明。 一个大的矩形代表合并
 
 #### 如何授予作品许可证？
 
-xtas Python 代码应该在 Apache License v2 下和GPL 3或更高版本下的合并工作授权使用。 (备选案文请参阅上面的 {ref}`Unicode 示例 <rr-licensing-compatibility-examples-apachevsgplv2>`。)
+xtas Python 代码应该在 Apache License v2 下和GPL 3或更高版本下的合并工作授权使用。 (备选案文请参阅上面的 {ref}`Unicode 示例 <rr-licensing-compatibility-examples-apachevsgplv2>`。 )
 
 
 ### 呼叫外部程序
@@ -166,7 +168,7 @@ xtas 可以运行 [Stanford CoreNLP 程序](https://stanfordnlp.github.io/CoreNL
 ```{figure} ../../figures/xtas-corenlp1-96.png
 ---
 名称：xtas-corenlp1-96
-alt: xtas 与 CoreNLP 示例的图示. 方形代表合并工作xta。 在这个正方形中，顶部有一个低方形，代表了在 Apache License v2 下许可的 xtas Python 代码。 下面是一个正方形，其中包含"Stanford CorenNLP"和"Java program GPLv3+"。
+alt: xtas 与 CoreNLP 示例的图示. 方形代表合并工作xta。 方形代表合并工作xta。 在这个正方形中，顶部有一个低方形，代表了在 Apache License v2 下许可的 xtas Python 代码。 下面是一个正方形，其中包含"Stanford CorenNLP"和"Java program GPLv3+"。
 ---
 是 xtas 与 CoreNLP 示例的示例。
 ```
@@ -183,18 +185,18 @@ alt: xtas 与 CoreNLP 示例的图示. 方形代表合并工作xta。 在这个�
 
 另一种解释是，xtas和CoreNLP是分开的工作，xtas只是就其标准用户界面与CorreNLP联系。
 
-在这个解释中，xtas是一个帮助用户使用Python语言的 CoreNLP 程序的单独程序。 而不是CorenLP的衍生作品。 我们可以在这里考虑类似于包安装程序和命令外壳的xtas。 它们显然不是他们安装的包或他们启动的程序的衍生作品。
+在这个解释中，xtas是一个帮助用户使用Python语言的 CoreNLP 程序的单独程序。 我们可以在这里考虑类似于包安装程序和命令外壳的xtas。 它们显然不是他们安装的包或他们启动的程序的衍生作品。
 
 根据这一解释， xtas 整体(不包括CoreNLP)可在任何特定许可证下分发(但须受其他依赖方的限制)。
 
-实际上，xtas作者根本没有分发CorreNLP。他们只是发行Apache License 第二版的 xtas Python 代码。
+整个xtas 和 xtas Python 代码可以被作者以任何方式授权，因此他们使用Apache License v2.0 如果他们发行钱，他们必须按照其版权所有人颁发的LGPL v2.1许可证这样做。
 
 
 ### GPLv3与专有许可证
 
 在这个示例项目中，我们想把 [OpenIFS 全局循环模型](https://confluence.ecmwf.int/display/OIFS) 与 [DALES 大编辑模拟模型](https://github.com/dalesteam/dales) 结合起来。 这两种模型都可以作为图书馆使用，所以该项目需要将OpenIFS 和 Dales 图书馆合并为一个程序。
 
-（这是一个简化的例子，这个项目的现实是一个或两个更复杂的节点。） 下面不是我们所做的。)
+（这是一个简化的例子，这个项目的现实是一个或两个更复杂的节点。） 下面不是我们所做的。 )
 
 OpenIFS 库(ECMWF 天气模型代码的一部分)是一个专有许可证，允许运行程序和私下修改， 但不允许分配程序或任何衍生品。 DALES 发布于GPL版本3。
 

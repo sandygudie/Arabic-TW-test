@@ -34,7 +34,7 @@
 按照 {ref}`FAIR原则 <rr-rdm-FAIR>`, 尽可能以公开格式上传数据，并包含足够的文档和元数据，以便其他人能够理解您的数据。 还必须考虑提供信息的文件格式。 数据应以结构化和标准化的格式提供，以支持互操作性、可追踪性和有效的再利用。 在许多情况下，这将包括以多种、标准化格式提供数据，以便能够由计算机处理并供人使用。
 
 ## D. 关于数据共享的额外资源
-* '[你可以如何使研究数据可以访问？](https://www.software.ac.uk/how-can-you-make-research-data-accessible)': 一个包含五个步骤的博客使你的数据更容易访问
+* '[你可以如何使研究数据可以访问？ ](https://www.software.ac.uk/how-can-you-make-research-data-accessible)': 一个包含五个步骤的博客使你的数据更容易访问
 * 欧洲联盟委员会的 [数据指南](https://open-research-europe.ec.europa.eu/for-authors/data-guidelines)
 
 (rr-rdm-data-availability-statement)=

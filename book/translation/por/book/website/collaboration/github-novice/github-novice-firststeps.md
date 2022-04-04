@@ -25,8 +25,7 @@ Isto é o que você deveria ver agora. É a página inicial do seu repositório.
 nome: github-basic-diagram
 alt: Diagrama anotado do repositório após a sua criação, explicando os recursos principais. Os principais recursos são explicados na lenda da figura.
 alinhamento: esquerda
----
-Diagrama anotado do repositório após sua criação básica, explicando os recursos principais. No lado esquerdo da página, temos os seguintes recursos:
+--- Diagrama anotado do repositório após sua criação básica, explicando os recursos principais. No lado esquerdo da página, temos os seguintes recursos:
 - **1. Usuário:** Nome de usuário do GitHub (conta). Neste exemplo, o nome de usuário é “EKaroune”.
 - **2. Repositório:** diretório do projeto (também conhecido como repo). Neste exemplo, o nome do repositório é "teste repo".
 - **3. Código:** esta aba leva você de volta à sua página inicial. Isto mostra as pastas que você fez no repositório.
@@ -63,8 +62,7 @@ Agora você pode editar o arquivo. Vamos falar sobre como salvar suas mudanças 
 nome: github-readme-before-edit
 alt: Diagrama anotado do arquivo README.md, se você clicar no nome do arquivo na sua página inicial. Os principais recursos são explicados na lenda da figura.
 alinhamento: esquerda
----
-Diagrama anotado do arquivo LEIAME.md se você clicar no nome do arquivo na sua página inicial.
+--- Diagrama anotado do arquivo LEIAME.md se você clicar no nome do arquivo na sua página inicial.
 - **1. Arquivo do repositório e atual:** o nome do repositório e o nome do arquivo que você está visualizando.
 - **2. Ramo principal:** ramo ativo ("main" é o padrão). Use para mudar para diferentes ramos do seu repositório (se houver mais ramos criados anteriormente).
 - **3. Contribuidores:** número de contribuidores (usuários) para o seu arquivo.
@@ -80,8 +78,7 @@ Diagrama anotado do arquivo LEIAME.md se você clicar no nome do arquivo na sua 
 nome: github-readme-after-edit
 alt: Diagrama anotado do README.md no modo de edição – antes de editar. Explicado no título.
 alinhamento: esquerda
----
-Diagrama anotado do README.md no modo de edição – antes de editar.
+--- Diagrama anotado do README.md no modo de edição – antes de editar.
 - **1. Pré-visualizar as alterações:** pressione para ver seu texto renderizado (como ele aparecerá no GitHub ou em uma página da web).
 - **2. Arquivo de edição:** Pressione esta guia para editar o conteúdo do seu arquivo LEIAME.md.
 - **3. Adicione conteúdo ao LEIAME.md:** escreva o texto Markdown para o seu arquivo LEIAME.md. Atualmente, você só tem o título do repositório nesse arquivo.
@@ -113,8 +110,7 @@ Se você clicar no link acima, ele levará ao arquivo LEIAME.arquivo. Você pode
 nome: /github-edited-readme
 alt: Diagrama anotado do README.md no modo de edição – com um template adicionado. Os recursos são explicados na lenda da figura.
 alinhamento: esquerda
----
-Diagrama anotado do README.md no modo de edição – com um modelo adicionado.
+--- Diagrama anotado do README.md no modo de edição – com um modelo adicionado.
 - **1. Usando MarkDown para adicionar conteúdo para LEIAME.md:** o texto Markdown (denotado por '.md' na extensão do arquivo) para o seu arquivo LEIAME.md. Este exemplo mostra o arquivo de template que tem seções diferentes (cabeçalhos e subcabeçalhos são criados usando um ou mais símbolos '#'. Veja a {ref}`formatando consistência seção do Manual da Comunidade<ch-consistency-formatting-hr-markdown>` para mais informações sobre como usar o Markdown.
 ```
 ### Enviando - ou salvar - suas alterações

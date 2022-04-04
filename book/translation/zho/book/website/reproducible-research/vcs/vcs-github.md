@@ -12,7 +12,7 @@
 (rr-vcs-github-local)=
 ## 创建在线存储库的本地副本
 
-到目前为止，本章中引入的所有Git命令都与本地、未连接的Git仓库有关。 为了与其他人合作，托管服务，如GitHub 可以存储本地版本库的 *克隆* (副本) 并向他人曝光。 通常，您将有一个本地版本库和一个 *远程版本的*。 您的本地仓库已连接到网络克隆。 从技术角度来看，基于网络的克隆是本地存储库中的 `个远程`。 通常，这个遥控器叫做“起源”。 Having a web-based remote allows you to *push* changes to your project online. 它使其他人能够获取自己的存储库克隆(将您的存储库复制到本地计算机)， 做出更改，并提交一个 *拉取请求* ，允许您整合他们的更改。 例如，可以使用下面的Git命令创建一个独立的项目本地副本：
+到目前为止，本章中引入的所有Git命令都与本地、未连接的Git仓库有关。 为了与其他人合作，托管服务，如GitHub 可以存储本地版本库的 *克隆* (副本) 并向他人曝光。 通常，您将有一个本地版本库和一个 *远程版本的*。 您的本地仓库已连接到网络克隆。 从技术角度来看，基于网络的克隆是本地存储库中的 `个远程`。 通常，这个遥控器叫做“起源”。 Having a web-based remote allows you to *push* changes to your project online. 它使其他人能够获取自己的存储库克隆(将您的存储库复制到本地计算机)， 做出更改，并提交一个 *拉取请求* ，允许您整合他们的更改。 它使其他人能够获取自己的存储库克隆(将您的存储库复制到本地计算机)， 做出更改，并提交一个 *拉取请求* ，允许您整合他们的更改。 例如，可以使用下面的Git命令创建一个独立的项目本地副本：
 
 ```
 git clone <insert GitHub link of the repository here>
@@ -29,12 +29,13 @@ git 推送
 (rr-vcs-github-online)=
 ## 将计算机上的本地项目链接到在线仓库
 
-要将您计算机上的一个项目连接到一个新的 GitHub 仓库(最好使用相同的名称), 您需要遵循创建Git 存储库的标准工作流(在 {ref}r-vcs-workflow`rr-vcs-workflow` subchapter中描述)，在终端中发布以下一组命令。 逐一：
+要将您计算机上的一个项目连接到一个新的 GitHub 仓库(最好使用相同的名称), 您需要遵循创建Git 存储库的标准工作流(在 {ref}r-vcs-workflow`rr-vcs-workflow` subchapter中描述)，在终端中发布以下一组命令。
 
 ```
 cd <your project folder>
 git init
 git 添加 .
+git 提交
 git 提交
 ```
 假设你有一个你想要连接到这个项目的GitHub 仓库，运行以下命令：

@@ -39,7 +39,9 @@ mañanas/as (carpeta de capítulos)
 | | vcs-git. d
 | | | vcs-git-commit.md
 | | | ...
-| | | vcs-personal-stories.md
+d
+| | | vcs-git-commit.md
+| | | ... | | | vcs-personal-stories.md
 mañana.md | mañvcs-checklist. d
 ► | Cv-recursos. d
 mañana|
@@ -63,7 +65,7 @@ Por favor, sigue _las convenciones de la Vía de Turno_ para nombrar archivos. C
 (ch-contributing-workflow-guidelines)=
 ## Seguir las pautas de estilo y consistencia
 
-Mientras escribes tu capítulo, ten en mente _el estilo_ [del Vía Turnadora](https://the-turing-way.netlify.app/community-handbook/style.html) y [las recomendaciones](https://the-turing-way.netlify.app/community-handbook/consistency.html) de consistencia Esto asegura que su nuevo contenido sea accesible y se adapte al estilo, estructura y formato general del libro.
+Mientras escribes tu capítulo, ten en mente _el estilo_ [del Vía Turnadora](https://the-turing-way.netlify.app/community-handbook/style.html) y [las recomendaciones](https://the-turing-way.netlify.app/community-handbook/consistency.html) de consistencia Esto asegura que su nuevo contenido sea accesible y se adapte al estilo, estructura y formato general del libro. Esto asegura que su nuevo contenido sea accesible y se adapte al estilo, estructura y formato general del libro.
 
 (ch-contributing-workflow-toc)=
 ## Añade tus nuevos archivos a la tabla de contenidos del libro
@@ -92,7 +94,7 @@ Por ejemplo, porque el [Manuscrito de Métodos Estatisticos](https://the-turing-
 (ch-contributing-workflow-referencing)=
 ## Fuentes externas de referencia apropiadamente
 
-Asegúrate de que las fuentes externas están correctamente referenciadas e incluidas en el archivo bibtex centralizado de _The Turing Way_ según se recomienda en la guía de estilo [](https://the-turing-way.netlify.app/community-handbook/style/style-citing.html)
+Asegúrate de que las fuentes externas están correctamente referenciadas e incluidas en el archivo bibtex centralizado de _The Turing Way_ según se recomienda en la guía de estilo
 
 (ch-contributing-workflow-glosary)=
 ## Actualizar el glosario de todo el libro

@@ -24,7 +24,8 @@ alt: tabla con diferentes emojis que utiliza el bot de colaboradores
 
 ## 2. Archivo de colaboradores
 
-El archivo de colaboradores, llamado [`colaboradores. d`](https://github.com/alan-turing-institute/the-turing-way/blob/main/contributors.md) en el repositorio de GitHub, incluirá detalles específicos proporcionados por los miembros de la comunidad en relación con sus actividades en el proyecto. Esto será referido como `detalle del colaborador` en el resto de este documento:
+Resaltados personales: `Contribuciones de GitHub, PRs y problemas.
+A continuación se han discutido más detalles.`
 
 > `Nombre del colaborador` * Rol: `Esta es una entrada opcional para cualquier contribuidor de rol específico han asumido en el proyecto. También es un lugar para mencionar la fecha/año ya que un colaborador ha asumido este papel. Ejemplos, "Contribuyente Principal (2018-present)", Líder de traducción (2020), o Miembro del Comité de Conducta (2019-2020).` * GitHub id: `GitHub id, ejemplo: [@kirstiejane](http://github. om/kirstiejane)` * ORCID: `ORCID id del colaborador, ejemplo: [0000-0001-8498-4059](https://orcid. rg/0000-0001-8498-4059)` * Biografía corta: `1-2 frases sobre sí mismos`
 
@@ -40,17 +41,22 @@ Especificaciones para todo tipo de contribuciones hechas hacia _La Vía Turísti
 
 Estos puntos destacados pueden ser decididos individualmente por los contribuyentes para registrar lo que consideran su significante y útil para su perfil personal. Esto puede ser complementado con materiales de apoyo tales enlaces a capítulos, solicitud de extracción y publicaciones del blog.
 
-Este registro puede traducirse directamente al desarrollo profesional de nuestros miembros de la comunidad, que pueden ser utilizados para mejorar su cartera personal o profesional (perfil, CV, resume) (ver [`colaboradores. d`](https://github.com/alan-turing-institute/the-turing-way/edit/acknowledging-contributors/contributors.md) archivo).
+Este registro puede traducirse directamente al desarrollo profesional de nuestros miembros de la comunidad, que pueden ser utilizados para mejorar su cartera personal o profesional (perfil, CV, resume) (ver
 
-_La Vía Turística_ fue originalmente financiada por un [Fondo Estratégico de Prioría](https://www.ukri.org/research/themes-and-programmes/strategic-priorities-fund/) inversión en el Instituto Alan Turing para apoyar [IA para la Ciencia y el Gobierno](https://www.turing.ac.uk/research/asg). Los puntos destacados personales son muy valiosos para capturar el impacto que _La Vía Turística_ tiene para sus miembros de la comunidad en términos de redes personales, desarrollo profesional, compartir habilidades y otras actividades relevantes, y cómo han tenido impactos positivos en torno a la transparencia, la reproducibilidad y la colaboración ética en su organización.
+`colaboradores.</p>
 
-### Grabando diferentes tipos de contribuciones
+<p spaces-before="0"><em x-id="4">La Vía Turística</em> fue originalmente financiada por un <a href="https://www.ukri.org/research/themes-and-programmes/strategic-priorities-fund/">Fondo Estratégico de Prioría</a> inversión en el Instituto Alan Turing para apoyar <a href="https://www.turing.ac.uk/research/asg">IA para la Ciencia y el Gobierno</a>.
+Los puntos destacados personales son muy valiosos para capturar el impacto que <em x-id="4">La Vía Turística</em> tiene para sus miembros de la comunidad en términos de redes personales, desarrollo profesional, compartir habilidades y otras actividades relevantes, y cómo han tenido impactos positivos en torno a la transparencia, la reproducibilidad y la colaboración ética en su organización.</p>
 
-En los tipos de contribución que se describen a continuación, utilizamos escenarios de algunos de los tipos de contribución más comunes.
+<h3 spaces-before="0">Grabando diferentes tipos de contribuciones</h3>
 
-Estos ejemplos también se describen en el siguiente subcapítulo {ref}`Ejemplos de reconocimiento <ch-acknowledgement-examples>` junto con otros tipos de contribuciones que se hacen a _La Vía Turística_.
+<p spaces-before="0">En los tipos de contribución que se describen a continuación, utilizamos escenarios de algunos de los tipos de contribución más comunes.</p>
+
+<p spaces-before="0">Estos ejemplos también se describen en el siguiente subcapítulo {ref}<code>Ejemplos de reconocimiento <ch-acknowledgement-examples>` junto con otros tipos de contribuciones que se hacen a _La Vía Turística_.</p> 
 
 **Recomendamos usar estas declaraciones de ejemplo sólo como una guía.** Como colaborador, podrá agregar tantos detalles como útiles para su registro.
+
+
 
 #### Corrección de errores
 
@@ -62,6 +68,8 @@ El archivo del colaborador se actualizará para los colaboradores con una propos
 
 * Resaltados personales: > He corregido errores tipográficos e hice otras contribuciones `otros detalles como secciones identificadas del libro que no están claras`.
 
+
+
 #### Revisando capítulos y otros pull requests
 
 *El proceso de revisión de un capítulo recién contribuido o una subsección de un capítulo existente implica aprobar el idioma y la estructura de un capítulo o una sección de un capítulo, errores de marcación o errores tipográficos, pidiendo aclaraciones si ciertas partes del contenido o declaraciones no están claras, sugerir modificaciones y mejorar la calidad general de la contribución de alguien.*
@@ -71,6 +79,8 @@ Cualquiera que revise un capítulo aparece como revisores y se reconozca con �
 El archivo del colaborador se actualizará para los colaboradores con una declaración similar como la siguiente:
 
 * Resaltados personales: > He revisado el capítulo `Nombre del capítulo`. > Hice otras contribuciones al capítulo `otros detalles como la estructura y la adición de referencias`.
+
+
 
 #### Contribución del capítulo
 
@@ -82,6 +92,8 @@ El archivo del colaborador se actualizará para los colaboradores con una declar
 
 * Resaltados personales: > He diseñado y escrito un capítulo en `nombre del capítulo` y `detalles sobre la revisión y estructuración de nuevo contenido`.
 
+
+
 #### Traducción
 
 *El proceso de traducción en _La Vía Turística_ incluye aspectos que traducen _La Vía Turística_ capítulos a idiomas distintos del inglés y revisarlos.* La infraestructura de traducción a partir de mayo de 2020 es [Trasifex](https://www.transifex.com/theturingway/theturingway/dashboard/).
@@ -91,6 +103,8 @@ Los colaboradores que participen en el proceso de traducción serán reconocidos
 El archivo del colaborador se actualizará para los colaboradores con una declaración similar como la siguiente:
 
 * Resaltados personales: > He traducido parte del capítulo `nombre del capítulo` al idioma ``. También tengo `detalles como el diseño e implementación de un proceso para traducir el libro a múltiples idiomas, Múltiples colaboradores de la comunidad y ha traducido 3 capítulos de The Turing Way al chino`.
+
+
 
 #### Soporte organizativo
 
@@ -102,6 +116,8 @@ Cada contribución de la organización colaboradora se actualizará con una decl
 
 * Resaltados personales: > He hecho contribuciones `tipo de contribución` a los capítulos `nombre del capítulo`. También tengo `detalles sobre otras contribuciones como la gestión de un equipo de colaboradores, escribiendo un capítulo`.
 
+
+
 #### Mantenimiento
 
 *Trabajo de mantenimiento en _The Turing Way_ se aplica a las conversaciones en espacios comunitarios, infraestructura técnica, plataformas de alojamiento en línea para el libro y la infraestructura de traducción de Transifex.*
@@ -111,6 +127,8 @@ Los colaboradores serán reconocidos en la tabla de colaboradores con el :speech
 El archivo del colaborador se actualizará para los colaboradores con una declaración similar como la siguiente:
 
 * Resaltados personales: > Tengo `detalles como responder a preguntas en el canal Gitter de la comunidad, varios colaboradores mentalizados dentro de la comunidad y han revisado pull requests para corregir errores tipográficos en el libro, mantiene la infraestructura de backend del proyecto, proporcionar soporte y solución con respecto al libro de Jupyter e integración continua diseñó e implementó un proceso para traducir el libro a varios idiomas, ayudó a varios colaboradores a facilitar los esfuerzos de traducción`.
+
+
 
 #### Representando la Vía Turística
 

@@ -9,6 +9,7 @@
 name: open-market
 alt: A description of Open Scholarship as a market with other elements of Open Research under its
 ---
+---
 ```
 
 (rr-open奖学金-resources)=
@@ -58,7 +59,7 @@ PPI is *not*:
 PPI *是*:
 - _Involvement_: patients and members of the public contribute at *all* stages of the research cycle.
 
-当将PPI纳入研究时，研究人员与</em> 志愿者一起工作 *，而不是做关于* 的工作 *工作。 PPI志愿人员通常是病人或公众成员，对某些研究领域特别感兴趣。 这意味着这个专题往往是个人的，而且参与研究周期可以是一种增强能力的经验。 对研究人员来说，PPI常常从志愿人员的专门知识中获得独特和宝贵的见解，而研究人员并不总是能够预测这一点。</p>
+当将PPI纳入研究时，研究人员与</em> 志愿者一起工作 *，而不是做关于* 的工作 *工作。 PPI志愿人员通常是病人或公众成员，对某些研究领域特别感兴趣。 这意味着这个专题往往是个人的，而且参与研究周期可以是一种增强能力的经验。 对研究人员来说，PPI常常从志愿人员的专门知识中获得独特和宝贵的见解，而研究人员并不总是能够预测这一点。
 
 在一个项目的早期阶段考虑PPI是一个好主意。 最好是在任何赠款申请或要求道德批准的申请书编写之前。 PPI志愿者可以通过多种方式帮助研究人员，例如：
 1. 产生或影响研究问题。

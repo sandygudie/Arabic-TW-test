@@ -73,11 +73,11 @@ mybinder.org no puede acceder a los repositorios privados, ya que esto requerir�
 🚦🚦🚦
 1) Ve a **<https://mybinder.org>** 2) Escribe la URL de tu repositorio en el recuadro "GitHub repo o URL". Debería verse así:
 > **https://github.com/YOUR-USERNAME/my-first-binder** 3) A medida que escribes, la página web genera un enlace en la "Copiar la URL a continuación. ." box Debería verse así: **https://mybinder. rg/v2/gh/YOUR-USERNAME/my-first-binder/HEAD** 4) Copiarlo, abrir una nueva pestaña del navegador y visitar esa URL - Verás un "girador" cuando Binder lance el repositorio
-Si todo funcionó sin problemas, verás una interfaz de JupyterLab.
+`Hola de Binder!` debe imprimirse en el terminal.
 (z2b-fondo-1)=
 ### ¿Qué está pasando en segundo plano? - Parte 1
-Mientras esperas, BinderHub (el backend de Binder) es:
-- Obteniendo tu repositorio de GitHub
+Era fácil empezar, pero nuestro entorno es barebones - ¡Añadamos una **dependencia**!
+- Comparte la URL **https://mybinder.org/v2/gh/YOUR-USERNAME/my-first-binder/HEAD** directamente
 - Analizando el contenido
 - Construir una imagen Docker basada en tu repositorio
 - Iniciando esa imagen de Docker en la nube
@@ -101,12 +101,12 @@ Mientras esperas, BinderHub (el backend de Binder) es:
 2. En la nueva ventana de terminal, escribe `Rscript -e 'source("hello.R")'` y luego presiona return
 ````
 
-`Hola de Binder!` debe imprimirse en el terminal.
+(z2b-fondo-2)=
 
 (z2b-step-4)=
 ## 4. Dependencias fijadas
 
-Era fácil empezar, pero nuestro entorno es barebones - ¡Añadamos una **dependencia**!
+(z2b-dependencias)=
 
 🚦🚦🚦
 
@@ -150,7 +150,7 @@ Estos mensajes rojos no necesariamente significan que haya un problema con tu co
 (z2b-fondo-2)=
 ### ¿Qué está pasando en segundo plano? - Parte 2
 
-Esta vez, BinderHub leerá el archivo de configuración que agregó e instalará la versión específica del paquete que solicitó.
+Binder trata de compartir tu trabajo fácilmente y hay dos maneras de hacerlo:
 
 (z2b-dependencias)=
 ### Más sobre las dependencias fijadas
@@ -250,14 +250,14 @@ El envío de cambios de vuelta al repositorio de GitHub a través del contenedor
 (z2b-step-6)=
 ## 6. Compartiendo tu trabajo
 
-Binder trata de compartir tu trabajo fácilmente y hay dos maneras de hacerlo:
+(z2b-pequeño-archivos)=
 
 - Comparte la URL **https://mybinder.org/v2/gh/YOUR-USERNAME/my-first-binder/HEAD** directamente
 - Visita **[https://mybinder. rg](https://mybinder.org)**, escribe la URL de tu repositorio y copia el fragmento de texto estructurado o Markdown en tu `README. d` archivo. Este fragmento renderizará una insignia que la gente puede hacer clic, que se ve así: ![Binda](https://mybinder.org/badge_logo.svg)
 
 🚦🚦🚦
 
-1) Añade el fragmento **Markdown** de **<https://mybinder.org>** al archivo `README.md` en tu repositorio
+Esto es ideal para archivos de hasta **10MB**.
    - La barra gris que muestra una insignia se desplegará para revelar los fragmentos. Haga clic en el icono del portapapeles junto a la casilla marcada con "m" para copiar automáticamente el fragmento de Markdown. 2) ¡Haz clic en la insignia para asegurarte de que funciona!
 
 (z2b-step-7)=
@@ -284,14 +284,14 @@ Las imágenes nuevas sólo se construyen cuando Binder ve una nueva confirmació
 Por lo tanto, los datos sólo se descargan una vez cuando se construye la imagen de Docker, no cada vez que se lanza el enlace.
 ```
 
-(z2b-i-files)=
+Con el fin de soportar el acceso a archivos privados, necesitarías crear un despliegue local de [BinderHub](https://binderhub.readthedocs.io) donde puedes decidir las compensaciones de seguridad tú mismo.
 ### Grandes archivos públicos
 
 No es práctico colocar archivos grandes en su repositorio de GitHub o incluirlos directamente en la imagen que construye Binder . La mejor opción para archivos grandes es utilizar una biblioteca específica al formato de datos para transmitir los datos a medida que lo estás usando o descargarlos bajo demanda como parte de tu código.
 
 Por razones de seguridad, el tráfico saliente de su Binder está restringido únicamente a conexiones HTTP/S o GitHub. No podrá utilizar sitios FTP para obtener datos en mybinder.org.
 
-(z2b-archivos-privados)=
+(z2b-o-notebooks)=
 ### Archivos privados
 
 No hay forma de acceder a archivos que no son públicos desde mybinder.org. Deberías considerar toda la información de tu Binder como pública, lo que significa que:
@@ -300,7 +300,7 @@ No hay forma de acceder a archivos que no son públicos desde mybinder.org. Debe
 - no debería escribir contraseñas en un Binder corriendo en mybinder.org;
 - no debería subir su clave SSH privada o token de API a un Binder en ejecución.
 
-Con el fin de soportar el acceso a archivos privados, necesitarías crear un despliegue local de [BinderHub](https://binderhub.readthedocs.io) donde puedes decidir las compensaciones de seguridad tú mismo.
+Esta es la estructura de la URL dentro de una instancia de Binder en ejecución ejecutando JupyterLab:
 
 ```{note}
 Construir un BinderHub no es una tarea sencilla y generalmente es asumido por grupos de IT/RSE por razones relacionadas con la gestión de mantenimiento, seguridad y gobernanza.

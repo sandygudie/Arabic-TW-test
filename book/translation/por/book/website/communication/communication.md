@@ -10,8 +10,7 @@ O processo de análise de dados, as estatísticas e o desenvolvimento do projeto
 nome: largura da comunicação
 largura: 500px
 alt: Uma rede de pessoas trocando e compartilhando informações diferentes
----
-Rede de comunicação para compartilhar, aprendizado e ensinando. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+--- Rede de comunicação para compartilhar, aprendizado e ensinando. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
 Neste guia, Saudamos as contribuições para o desenvolvimento de capítulos e orientações sobre a comunicação eficaz do resultado baseado em dados para diferentes tipos de público que podem ou não estar cientes da análise de dados científicos. Estamos animados para apoiar cientistas de dados desenvolvendo habilidades que variam de visualização interativa, como conversar, escrever o seu primeiro papel e ser entrevistado pelos meios de comunicação.

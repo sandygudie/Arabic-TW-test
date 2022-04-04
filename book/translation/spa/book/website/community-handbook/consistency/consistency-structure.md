@@ -76,9 +76,9 @@ La tabla de contenidos escrita manualmente es innecesaria ya que Jupyter Book au
 (ch-consistencia-estructura-hr-cita)=
 ### Asegurar que las fuentes externas sean citadas y referenciadas correctamente
 
-Como se describe en la guía de estilo {ref}`<ch-style-citing>`, _Las referencias de la Vía Turística_se almacenan en un archivo BibTeX llamado `referencias. ib`. Al escribir un nuevo contenido, asegúrese de que la información eliminada de fuentes externas se cite usando el formato BibTeX y se agregue a las referencias `. ib archivo` según corresponda.
+Como se describe en la guía de estilo {ref}`<ch-style-citing>`, _Las referencias de la Vía Turística_se almacenan en un archivo BibTeX llamado `referencias. ib`. Al escribir un nuevo contenido, asegúrese de que la información eliminada de fuentes externas se cite usando el formato BibTeX y se agregue a las referencias `.</p>
 
-La guía de estilo {ref}`<ch-style-citing>` demuestra cómo agregar una nueva referencia al archivo BibTeX centralizado, y muestra cómo puede incluirse esta referencia en su escritura.
+<p spaces-before="0">La guía de estilo {ref}<code><ch-style-citing>` demuestra cómo agregar una nueva referencia al archivo BibTeX centralizado, y muestra cómo puede incluirse esta referencia en su escritura.
 
 
 (ch-consistencia-estructura-soft-req)=

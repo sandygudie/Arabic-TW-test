@@ -14,8 +14,7 @@ Uma persona é um detalhe de um usuário ou membro imaginário, baseado em obser
 height: 400px
 nome: pessoa,
 alt: 4 pessoas com diversas aparências estão conversando uma com a outra. partilhar ideias directamente entre si e também partilhar nas redes sociais.
----
-Pessoas compartilhando suas ideias por meio de conversas diretas e nas redes sociais. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+--- Pessoas compartilhando suas ideias por meio de conversas diretas e nas redes sociais. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
 

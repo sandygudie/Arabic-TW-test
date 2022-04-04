@@ -49,5 +49,5 @@ Puedes usar esta [lista de verificación](https://ukdataservice.ac.uk/learning-h
 - [Portal de Gestión de Datos de Investigación de TU Delft](https://www.tudelft.nl/en/library/research-data-management)
 - [Videos (3-7 min) sobre la gestión de datos por Kristin Briney](https://www.youtube.com/watch?v=K5_ocBG5xek&list=PLEor4jq8YPgK_sgEiAcpHZLw-62mufXus)
 - Briney, Kristin. Gestión de datos para investigadores: Organize, mantenga y comparta sus datos para el éxito de la investigación, Pelagic Publicación, 2015.
-- Briney, K.A., Coates, H. and Goben, A., 2020 Foundational Practices of Research Data Management. Investigaciones Ideas y Outcomes 6: e56508. [https://doi.org/10.3897/rio.6.e56508](https://doi.org/10.3897/rio.6.e56508)
+- Briney, K. A., Coates, H. and Goben, A., 2020 Foundational Practices of Research Data Management. Investigaciones Ideas y Outcomes 6: e56508. [https://doi.org/10.3897/rio.6.e56508](https://doi.org/10.3897/rio.6.e56508)
 - Hart EM, Barmby P, LeBauer D, Michonneau F, Mount S, Mulrooney P, et al. (2016) Diez reglas sencillas para el almacenamiento de datos digitales. PLoS Comput Biol 12(10): e1005097. [https://doi.org/10.1371/journal.pcbi.1005097](https://doi.org/10.1371/journal.pcbi.1005097)

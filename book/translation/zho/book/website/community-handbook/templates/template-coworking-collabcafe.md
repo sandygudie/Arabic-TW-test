@@ -7,17 +7,17 @@
 
 感谢您加入 _美味之路_的在线协作咖啡厅！ 我们很高兴你在这里 :coffee: :sparkles: :cake:
 
-(*我们确实建议将您实际的茶叶、咖啡、水或您最喜欢的饮料带到这个咖啡厅! :smile:*)
+*广告和促销您的活动，或任何激动您工作的东西。 * :sparkl：
 
-**什么？** *美味的方法是一个 **轻微的可复制数据科学和研究指南**。 这个协作咖啡馆的目的是让有兴趣学习和分享更多关于这个主题的研究人员参与 **在线书**: https://the-turing-way. etlify.com*
+**什么？ ** *美味的方法是一个 **轻微的可复制数据科学和研究指南**。 这个协作咖啡馆的目的是让有兴趣学习和分享更多关于这个主题的研究人员参与 **在线书**: https://the-turing-way. etlify.com*
 
 *在这里阅读更多关于它的信息：https://the-turing-way.netlify.app/community-handbook/coworking.html*
 
-**谁？** ***每个人** 有意复制、道德规范， 欢迎和包容性强的数据科学和研究加入Ting Way 项目的全部或任何部分，社区和/或这一呼叫。*
+**谁？ ** ***每个人** 有意复制、道德规范， 欢迎和包容性强的数据科学和研究加入Ting Way 项目的全部或任何部分，社区和/或这一呼叫。</p>
 
-**什么时候？** DD 月YYYYYYY, HH:MM BST (本地时间链接从 https://arewemeetingyet.com)
+**什么时候？ ** DD 月YYYYYYY, HH:MM BST (本地时间链接从 https://arewemeetingyet.com)
 
-**如何？** *缩放链接将在通话开始10分钟前提供*
+**如何？ ** *缩放链接将在通话开始10分钟前提供*
 
 ***欢迎所有提问、评论和建议！***
 
@@ -42,7 +42,7 @@ https://cuckoo.team/collabcafe
 ### 在下方注册
 *名称 + <A fun Icebreaker> + 表示它的表情([表情板](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md))*
 
-*(请记住，这是一个公开文档。) 如果你喜欢的话，你可以使用一个假名。)*
+*(请记住，这是一个公开文档。 ) 如果你喜欢的话，你可以使用一个假名。 )*
 
 ### 对话开始
 
@@ -97,9 +97,7 @@ https://cuckoo.team/tw-collabcafe
 以下是关于好的首次贡献的一些建议：
 
 - 在 [本书](https://the-turing-way.netlify.com) 和/或 [版本库](https://github.com/alan-turing-institute/the-turing-way) 中修复一个输入。
-- 在 GitHub</a> 上打开一个
-问题以标记书中不明确或重复的信息。</li> 
-  
-  - 修复 [旧问题](https://github.com/alan-turing-institute/the-turing-way/issues) 或评论 [拉取请求](https://github.com/alan-turing-institute/the-turing-way/pulls)。
+- 在 GitHub</a> 上打开一个 问题以标记书中不明确或重复的信息。
 - 在这个 [谷歌形式](https://goo.gl/forms/akFqZEIy2kxAjfZW2) 中写下你个人的可复制研究体验。
-- 在GitHub上查看更多信息：https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md</ul>
+- 在GitHub上查看更多信息：https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md
+- 在GitHub上查看更多信息：https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md

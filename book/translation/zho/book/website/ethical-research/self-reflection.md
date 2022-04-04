@@ -32,4 +32,4 @@
 (er-自我反思影响)=
 ## 影响
 
-关于研究和数据科学自我思考的重要性的这一章借鉴了从理论和女权主义（纯黑女权主义）理论出发的著作。 最值得注意的是Patricia Hill Collins' 矩阵统治 {cite:ps}`collins1990黑色`, 金伯利利耶斯·克伦沙乌的交叉理论 {cite:ps}`crenshaw1989年去边缘化`除了其他外，Donna Haraway在那里的知识库 {cite:ps}`haraway1988年的位置`等等。 最近，Catherine D'Ignazio和Lauren Klein的书《数据女权主义》 {cite:ps}`dataFeminism202020`将这些想法带到数据科学中。 和研究人员如Abea Birhane {cite:ps}`birhane2021算法`和 Timnit Gebrun {cite:ps}`gebru2018数据表` 资源科提供了进一步资源的完整清单。 
+关于研究和数据科学自我思考的重要性的这一章借鉴了从理论和女权主义（纯黑女权主义）理论出发的著作。 最值得注意的是Patricia Hill Collins' 矩阵统治 {cite:ps}`collins1990黑色`, 金伯利利耶斯·克伦沙乌的交叉理论 {cite:ps}`crenshaw1989年去边缘化`除了其他外，Donna Haraway在那里的知识库 {cite:ps}`haraway1988年的位置`等等。 最近，Catherine D'Ignazio和Lauren Klein的书《数据女权主义》 {cite:ps}`dataFeminism202020`将这些想法带到数据科学中。 和研究人员如Abea Birhane {cite:ps}`birhane2021算法`和 Timnit Gebrun {cite:ps}`gebru2018数据表` 资源科提供了进一步资源的完整清单。 资源科提供了进一步资源的完整清单。 

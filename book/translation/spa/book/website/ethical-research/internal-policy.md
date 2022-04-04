@@ -6,7 +6,7 @@ La defensa de la política interna es cuando individuos o grupos asociados con u
 ```{figure} ../figures/advocacy.jpg
 ---
 nombre: abogacía
-alt: Una persona firma una petición sostenida por otra persona. delante de un grupo de personas que marchan bajo un estandarte que dice "¡Abogacía!"
+alt: Una persona firma una petición sostenida por otra persona.
 ---
 Hay diferentes maneras de tomar parte en la abogacía. _The Turing Way_ proyecto de ilustración por Scriberia. Utilizado bajo una licencia CC-BY 4.0. DOI: [10.5281/zenodo.4906004](https://doi.org/10.5281/zenodo.4906004).
 ```
@@ -15,7 +15,7 @@ Hay diferentes maneras de tomar parte en la abogacía. _The Turing Way_ proyecto
 Un conjunto básico de medidas que puedes tomar para la promoción de políticas internas (adaptado a las [directrices](https://knowhow.ncvo.org.uk/how-to/how-to-run-effective-campaigns) producidas por el NCVO en el Reino Unido, usado bajo [CC BY-NC-SA 4. licencia](https://creativecommons.org/licenses/by-nc-sa/4.0/)):
 1. Definir el problema
     - ¿Cuál es el problema del que están preocupados?
-    - ¿Está vinculado a otras cuestiones o políticas? Herramientas como [árboles de problemas](https://www.odi.org/publications/5258-planning-tools-problem-tree-analysis) pueden ser útiles para mapear qué más está contribuyendo al problema. Puede darse el caso de que la política que a usted le preocupa se base en otras políticas internas o en problemas. Quizás quiera hacer campaña contra ellos.
+    - ¿Está vinculado a otras cuestiones o políticas? ¿Está vinculado a otras cuestiones o políticas? Herramientas como [árboles de problemas](https://www.odi.org/publications/5258-planning-tools-problem-tree-analysis) pueden ser útiles para mapear qué más está contribuyendo al problema. Puede darse el caso de que la política que a usted le preocupa se base en otras políticas internas o en problemas. Quizás quiera hacer campaña contra ellos.
     - ¿Puede encapsular el problema en un mensaje breve y fácil de entender?
 2. Recolectar evidencia
     - Investiga la cuestión sobre la que estás haciendo campaña a fondo
@@ -28,7 +28,7 @@ Un conjunto básico de medidas que puedes tomar para la promoción de políticas
     - Obtén la aprobación de personas que tienen el poder en tu campo, o en otras áreas
     - Encuentre formas de involucrar a sus colegas, dentro y fuera de la organización: por ejemplo, firmar una petición puede ser un primer paso
 4. Saber a quién hacer lobby
-    - Identifique sus rutas de influencia. ¿Quién está en condiciones de cambiar? ¿Cómo llegarás?
+    - Identifique sus rutas de influencia. ¿Quién está en condiciones de cambiar? ¿Cómo llegarás? ¿Cómo llegarás?
     - Piense en sus propios contactos: puede llegar directamente a la gente o necesita ir a través de otras personas
     - No te desanimes en el primer hurdle, ¡lobbying es trabajo duro!
 5. Usar una gama de tácticas

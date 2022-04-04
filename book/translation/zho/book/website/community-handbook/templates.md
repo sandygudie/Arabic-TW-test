@@ -15,7 +15,7 @@ alt: 一个人的图示， 可能是一个设计师制作草图
 (ch-template-bookdash)=
 ## 预定破折号事件
 
-共享便笺 (HackMD) 有四个MarkDown 模板 反馈和 GitHub 问题，用于组织和运行 _Ting Way_ 预订破折号事件。 这些模板可以被重新使用并适合在 _内外的不同事件。导入路径_ 社区。
+共享便笺 (HackMD) 有四个MarkDown 模板 反馈和 GitHub 问题，用于组织和运行 _Ting Way_ 预订破折号事件。 这些模板可以被重新使用并适合在 _内外的不同事件。</p>
 
 - {ref}`索引页面的 HackMD 模板<ch-template-bookdash-index>`
 - {ref}`事件前调用HackMD 模板<ch-template-bookdash-precall>`

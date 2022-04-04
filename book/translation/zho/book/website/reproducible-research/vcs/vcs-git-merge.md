@@ -64,6 +64,9 @@ print('hello world!!!')
 =======
 print('Hello World')
 >>>>>>> main
+=======
+print('Hello World')
+>>>>>>> main
 ```
 `<<<<<<<`: 表示有合并冲突的行的开头。 第一组行是你试图合并更改的文件中的行数。
 
@@ -89,7 +92,7 @@ git 合并 --abort
 
 在您开始尝试解决冲突之前， 确保你完全理解这些更改以及它们是如何不兼容的，以避免使事情变得更加紧凑的风险。 合并冲突可能会令人恐惧地解决问题，特别是如果你合并了分支，这些分支在许多承诺之前发生了分歧，而且现在有许多不兼容之处。 然而，值得记住的是，你以前的版本是安全的，你可以在不影响过去版本的情况下解决这个问题。 这就是为什么 **经常将对方的更改合并到您的工作中** 是好的做法。
 
-有些工具可用来帮助解决合并冲突，有些工具是免费的；有些工具则不是免费的。 找到并熟悉为您服务的人。 常用的合并工具包括 [KDiff3](http://kdiff3.sourceforge.net/), [Beyond Compare](https://www.scootersoftware.com/), [Meld](http://meldmerge.org/), 和 [P4合并](https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge). 设置一个工具作为您的默认操作：
+有些工具可用来帮助解决合并冲突，有些工具是免费的；有些工具则不是免费的。 找到并熟悉为您服务的人。 常用的合并工具包括 [KDiff3](http://kdiff3.sourceforge.net/), [Beyond Compare](https://www.scootersoftware.com/), [Meld](http://meldmerge.org/), 和 [P4合并](https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge). 设置一个工具作为您的默认操作： 设置一个工具作为您的默认操作：
 
 ```
 git config --global merge.tool name_of_the_tool

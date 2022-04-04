@@ -8,7 +8,7 @@
 
 我们不应认为用于分析的数据是静态的。 一旦获得，它就不会改变，也不会成为对某项分析的投入和我们科学成果的基础。 实际情况是，数据很少没有改变。 例如，在整个科学项目中，数据集可以用新的数据加以扩充，适应新的命名办法。 重组为不同的文件分级，使用新的数据点更新或修改以修复任何错误。
 
-Such dynamic processes are excellent and beneficial for science as they ensure that data is usable and up-to-date, but they can be confusing if they are not adequately documented. 如果作为计算科学结果基础的数据集在没有版本控制的情况下发生了变化， 可重复性可能受到威胁：结果可能无效，或者基于不同版本之间更改的文件名的脚本可能会中断。 特别是如果原始数据被没有版本控制的新数据所取代，则分析的原始结果可能无法转载。 因此， 版本控制数据和其他大型文件，与版本控制代码或手稿的方式类似，有助于确保项目的可重复性，并捕获结果的出处； hat 是“精确的子集和数据版本，一组结果来自”。 与一个研究项目的所有其他组成部分一道，准确版本中确定的数据是研究成果的一部分。
+Such dynamic processes are excellent and beneficial for science as they ensure that data is usable and up-to-date, but they can be confusing if they are not adequately documented. 如果作为计算科学结果基础的数据集在没有版本控制的情况下发生了变化， 可重复性可能受到威胁：结果可能无效，或者基于不同版本之间更改的文件名的脚本可能会中断。 如果作为计算科学结果基础的数据集在没有版本控制的情况下发生了变化， 可重复性可能受到威胁：结果可能无效，或者基于不同版本之间更改的文件名的脚本可能会中断。 特别是如果原始数据被没有版本控制的新数据所取代，则分析的原始结果可能无法转载。 因此， 版本控制数据和其他大型文件，与版本控制代码或手稿的方式类似，有助于确保项目的可重复性，并捕获结果的出处； hat 是“精确的子集和数据版本，一组结果来自”。 与一个研究项目的所有其他组成部分一道，准确版本中确定的数据是研究成果的一部分。
 
 ```{figure} ../../figures/provenance.jpg
 ---
@@ -42,7 +42,7 @@ Stereteria的绘画线路项目示例。 在 CC-BY 4.0 许可下使用。 DOI：
 (rr-vcs-data-tools-gitannex)=
 ### `git-annex`
 
-[`git-annex`](https://git-annex.branchable.com/) 工具是一个分布式系统，可以管理和共享独立于中央服务或服务器的大型文件。 `git-annex` 管理资源库中单独目录中的所有文件 _内容_ (`)。 it/annex/objects`, 所谓的 _附件_仅放置文件 _name_ 含有一些元数据的 Git 版本控制。 当一个配有附件的Git仓库被推送到诸如GitHub 之类的网络托管服务时，不会上传附件中储存的内容。 相反，它们可以被推到一个存储系统（例如网页服务器）， 但也包括第三方服务，如Dropbox、Google Drive、Amazon S3。box。 om, 和 [更多](https://git-annex.branchable.com/special_remotes/)。 如果一个附有附件的仓库被克隆， 默认情况下，克隆不会包含所有附件文件的 _内容_ ，但只显示文件名。 这使储存库变小，即使它跟踪了数百千兆字节的数据和快速克隆。 当文件内容存储在一个或多个免费或商业的外部存储解决方案中。 当需要时，任何文件内容都可以通过 `git-annex获取` 命令从外部文件存储。
+[`git-annex`](https://git-annex.branchable.com/) 工具是一个分布式系统，可以管理和共享独立于中央服务或服务器的大型文件。 `git-annex` 管理资源库中单独目录中的所有文件 _内容_ (`)。 it/annex/objects`, 所谓的 _附件_仅放置文件 _name_ 含有一些元数据的 Git 版本控制。 当一个配有附件的Git仓库被推送到诸如GitHub 之类的网络托管服务时，不会上传附件中储存的内容。 相反，它们可以被推到一个存储系统（例如网页服务器）， 但也包括第三方服务，如Dropbox、Google Drive、Amazon S3。 box。 om, 和 [更多](https://git-annex.branchable.com/special_remotes/)。 如果一个附有附件的仓库被克隆， 默认情况下，克隆不会包含所有附件文件的 _内容_ ，但只显示文件名。 这使储存库变小，即使它跟踪了数百千兆字节的数据和快速克隆。 当文件内容存储在一个或多个免费或商业的外部存储解决方案中。 当需要时，任何文件内容都可以通过 `git-annex获取` 命令从外部文件存储。
 
 (rr-vcs-data tools-datalad)=
 ### DataLad

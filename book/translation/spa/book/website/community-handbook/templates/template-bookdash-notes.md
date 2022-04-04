@@ -54,6 +54,20 @@ Todo el tiempo proporcionado en Londres Time (UTC+1). Utilice este enlace para c
 
 ### :wave: Regístrate
 
+*Por favor, añade tu nombre a esta lista, pero recuerde que este es un documento público, así que use un seudónimo si lo prefiere, o simplemente siéntase libre de dejar su nombre. 
+
+**Sala 1 (Reproducibilidad):** (añadir nombre)
+**Sala 2 (Etóticos):** (añadir nombre)
+**Sala 3 (Comunicación):** (añadir nombre)
+**Sala 4 (Diseño de proyecto):** (añadir nombre)
+**Sala 5 (Infraestructura):** (añadir nombre)
+**Sala 6 (Sala Individual)**
+
+:one: Día 1: Mes DD YAA
+---
+
+### :wave: Regístrate
+
 *Por favor, añade tu nombre a esta lista, pero recuerde que este es un documento público, así que use un seudónimo si lo prefiere, o simplemente siéntase libre de dejar su nombre.
 
 *Nombre (pronouns - opcional) / Instituto / Twitter, GitHub / icebreaker: ¿Qué canción/música/artista/álbum te pone de buen humor! :musical_score: 
@@ -76,6 +90,10 @@ Todo el tiempo proporcionado en Londres Time (UTC+1). Utilice este enlace para c
 ### :busts_in_silhouette::speech_balloon: Planeando tus contribuciones: breakout (10 minutos)
 
 *En grupos de 3 explorar y discutir sobre lo que te gustaría ver en este libro, o cómo puedes contribuir. :sparkles: :space_invader: :rocket: :star2:
+
+Puedes usar tus objetivos SMART para guiar tus discusiones <-- proporciona un enlace a las notas de la llamada de incorporación
+
+*¡Lista en lo que estás trabajando a continuación! :sparkles: :space_invader: :rocket: :star2:
 
 Puedes usar tus objetivos SMART para guiar tus discusiones <-- proporciona un enlace a las notas de la llamada de incorporación
 

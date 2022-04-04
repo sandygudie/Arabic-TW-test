@@ -12,8 +12,7 @@ Para começar, visite [`cffinit`](https://citation-file-format.github.io/cff-ini
 name: cffinit-0
 largura: 80%
 alt: Página inicial do cffinit.
----
-Página inicial do café. [^cffinitversion]
+--- Página inicial do café. [^cffinitversion]
 ```
 
 ## Iniciar
@@ -22,11 +21,10 @@ Na primeira página do aplicativo, digite o título do seu trabalho, escreva uma
 
 ```{figure} ../../figures/gifs/cffinit-1.gif
 ---
-nome: cffinit-1
+nome: cffinit-2
 largura: 80%
-alt: Primeira página da aplicação, para Título, Mensagem e Tipo. Os campos estão vazios.
----
-Primeira página da aplicação, para Título, Mensagem e Tipo. [^cffinitversion]
+alt: Segunda página do formulário, para Autores. ---
+Segunda página do formulário, para Autores. [^cffinitversion]
 ```
 
 Você pode ver a visualização do arquivo `CITATION.cff` gerado à direita.
@@ -43,9 +41,8 @@ Clique ao lado para continuar para a tela de **Autores**.
 ---
 nome: cffinit-1
 largura: 80%
-alt: Primeira página do formulário, para Título, Mensagem e Tipo. Campos estão preenchidos.
----
-Primeira página do formulário, para Título, Mensagem e Tipo. Campos estão preenchidos. [^cffinitversion]
+alt: Primeira página da aplicação, para Título, Mensagem e Tipo. Os campos estão vazios.
+--- Primeira página da aplicação, para Título, Mensagem e Tipo. [^cffinitversion]
 ```
 
 ## Autores
@@ -57,8 +54,7 @@ O esquema CFF requer pelo menos um autor no arquivo `CITATION.cff`. Clique no bo
 nome: cffinit-2
 largura: 80%
 alt: Segunda página do formulário, para Autores.
----
-Segunda página do formulário, para Autores. [^cffinitversion]
+--- Segunda página do formulário, para Autores. [^cffinitversion]
 ```
 
 ```{figure} ../../figures/gifs/cffinit-2-add-author.gif
@@ -77,8 +73,7 @@ Depois de adicionar um autor, você tem a informação mínima necessária para 
 name: cffinit-2-filled
 width: 80%
 alt: Second page of the form, for Authors. Um autor preenchido.
----
-Segunda página do formulário, para Autores. Um autor preenchido. [^cffinitversion]
+--- Segunda página do formulário, para Autores. Um autor preenchido. [^cffinitversion]
 ```
 
 ## Arquivo mínimo `CITATION.cff`
@@ -90,8 +85,7 @@ Muito bem! Agora, seu arquivo de `CITATION.cff` atende aos requisitos mínimos. 
 nome: cffinit-3
 largura: 80%
 alt: Última página do formulário mínimo.
----
-Última página do formulário mínimo. [^cffinitversion]
+--- Última página do formulário mínimo. [^cffinitversion]
 ```
 
 ## Campos adicionais
@@ -115,8 +109,7 @@ Nesta tela, você verá novos passos no stepper. Aqui está uma breve descriçã
 name: cffinit-3-advanced
 width: 80%
 alt: Terceira página do formulário. Mais opções aparecem à esquerda.
----
-Terceira página do formulário. Mais opções aparecem à esquerda. [^cffinitversion]
+--- Terceira página do formulário. Mais opções aparecem à esquerda. [^cffinitversion]
 ```
 
 Clique próximo para começar a adicionar campos adicionais.
@@ -130,6 +123,5 @@ Clique próximo para começar a adicionar campos adicionais.
 nome: cffinit-final
 largura: 80%
 alt: Última página do formulário completo.
----
-Última página do formulário completo. [^cffinitversion]
+--- Última página do formulário completo. [^cffinitversion]
 ```

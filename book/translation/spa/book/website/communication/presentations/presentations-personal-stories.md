@@ -9,7 +9,7 @@ Averigua más sobre su trabajo aquí:
 
 **Yanina** es investigadora en [INTA en La Pampa, Argentina](https://inta.gob.ar/personas/bellini.yanina), aplicando la ciencia de datos al sector agrícola. Es licenciada en Sistemas de Información y Master en Minería de Datos y Gestión del Conocimiento. Es cofundadora y organizadora de múltiples espacios de colaboración como Metadocencia, RLadies y LatinR entre otros. Ha organizado más de 70 eventos (de ámbito regional e internacional), entre ellos la presidenta general de la Organización, Nadas Argentinas de Informática (2020-2021), fundador y actual presidente de LatinR (una de las conferencias latinoamericanas más grandes sobre el uso de R en investigación y desarrollo) y uno de los coordinadores globales de useR! 2021. Tanto en su papel de investigadora como en la comunidad R. trabaja para hacer que la ciencia sea lo más reproducible y abierta posible utilizando herramientas informáticas abiertas.
 
-## 1. ¿Cuándo comenzó a dar charlas sobre sus investigaciones en eventos no académicos?
+## 1. ¿Cuándo comenzaste a dar charlas sobre tu trabajo como investigadora en eventos no académicos?
 
 Trabajo en [INTA](https://www.argentina.gob.ar/inta) (Instituto Nacional de Tecnología Agrícola), que es una institución científica. Nuestras actividades están organizadas en investigación & desarrollo y transferencia de conocimiento & extensión, ambos con el mismo peso e importancia. Todo lo que tiene que ver con la enseñanza, el alcance, la comunicación, y la transferencia del conocimiento de nuestra producción a los agentes sociales del sector agrícola y del público en general forma parte de nuestro trabajo. Dentro de INTA, actividades de formación y comunicación, ya sea a través de un curso, un taller, Un artículo, o una entrevista en un periódico, radio o televisión, son importantes y necesarios. Nuestras actividades sólo tienen sentido si la gente utiliza lo que hacemos.
 
@@ -61,7 +61,7 @@ En cuanto a los materiales, asegúrese de que son accesibles. Como mencioné ant
 
 Cuando preparo una charla, cuando estoy cumpliendo el tiempo me lleva ponerla junta, Añado un o dos días más para comprobar su accesibilidad. La licencia es fundamental para que su audiencia sepa cómo puede reutilizar su material y, si no puede reutilizarlo, para dejarlo claro.
 
-Por último, una frase muy argentina: "No te levantes en tu caballo alto"; ofrezca la charla con la tranquilidad que viene de conocer su trabajo y su disciplina, pero también con la humildad adecuada. Tiene que reconocer que puede haber preguntas que no sabe responder.
+Por último, una frase muy argentina: “no pararse arriba del caballo”, dar la charla con la tranquilidad que conocés tu trabajo y tu disciplina, pero con la humildad que corresponde. Hay que reconocer que puede haber preguntas que no sepas responder.
 
 Lo mismo ocurre con el idioma, donde puede ser técnicamente correcto sin utilizar un lenguaje complejo. Sin embargo, si utiliza términos técnicos porque tiene que hacerlo, tiene que explicarlos o hacer una analogía con las cosas cotidianas. Por ejemplo, un programa de ordenador es como una receta: usted da instrucciones al ordenador. Por eso es fundamental conocer a su público, ya que entonces usted sabe en qué confiar cuando explica conceptos más complejos.
 
@@ -73,7 +73,7 @@ Algunas personas tienen una directriz cuando se trata de ser invitadas a pronunc
 
 Estas son también preguntas que tengo en cuenta: ¿Es una pancarta de todos los hombres? ¿El evento tiene un Código de Conducta? ¿Es un acceso abierto o tiene beneficios para las personas menos favorecidas? De nuevo, si se puede exigir este tipo de cosas en los eventos en los que se va a participar, ayudaremos a generar entornos más amigables y seguros. A veces uno no tiene la posibilidad o el privilegio de elegir, así que aquellos de nosotros que podemos hacerlo.
 
-## 5. ¿Qué perspectivas tienen para sus futuras conversaciones? ¿Qué le interesaría probar?
+## 5. ¿Qué perspectivas tienen para sus futuras conversaciones? ¿Qué le interesaría probar? ¿Qué le interesaría probar?
 
 Últimamente, se me ha pedido que dé charlas sobre tres temas: comunidades de práctica, ciencia y datos aplicados a la agricultura (con casos de uso), y ciencia y datos en geotecnología. Es difícil mantener el entusiasmo de decir siempre lo mismo porque, además, se siente como un impostor pensando cuántas veces más va a dar la misma charla. La cosa es que, a veces, te invitan porque lo han visto y quieren replicarlo en otro entorno.
 
@@ -81,7 +81,7 @@ Lo que generalmente hago es actualizar las conversaciones cuando tengo nuevos re
 
 Cabe señalar que existe una gran necesidad de reanudar las actividades cara a cara. Espero que las actividades virtuales continúen porque abrieron un panorama de participación (como profesor y como asistente) que no tenía antes; me permitieron asistir a actividades que habrían estado fuera de mi alcance si tuviera que estar allí en persona (Ecuador, Bolivia, EE.UU ) ya que tengo dos niños pequeños y evito viajes largos, al menos hasta que sean mayores. Así que, sin acontecimientos virtuales, no habría podido llegar a tanta gente. Veremos lo que pasa, lo que el futuro espera. Creo que este año y la mayor parte del año próximo, continuaremos de la misma manera, al menos en el Sur (Global).
 
-En cuanto a las herramientas para dar cursos y charlas, aplico mucho de lo que enseñamos en MetaDocencia y funciona muy bien. Espero seguir aprendiendo; actualmente, Estoy leyendo un par de libros que espero me ayudarán: *Enseñar en la sala de clases en línea* de Doug Lemov, *The Discussion Book* de Stephen Brookfield, y *The Programmer's Brain* de Felienne Hermans.
+Con respecto a las herramientas para dar cursos y charlas, aplico mucho lo que enseñamos en MetaDocencia y funciona muy bien. Espero seguir aprendiendo; actualmente, estoy leyendo un par de libros que espero ayuden: *Teaching in the Online Classroom* de Doug Lemov, *The Discussion Book* de Stephen Brookfield y *The Programmer’s Brain* de Felienne Hermans.
 
 *Esta entrevista fue realizada por Maria Nanton.*
 
@@ -97,9 +97,9 @@ Podés interiorizarte en su trabajo en los siguientes links:
 * [ORCID](https://orcid.org/0000-0002-4522-7466)
 * [Twitter](https://twitter.com/yabellini)
 
-**Yanina** es investigadora del [INTA en La Pampa, Argentina](https://inta.gob.ar/personas/bellini.yanina) aplicando ciencia de datos al sector agropecuario. Es Licenciada en Sistemas de Información y Magíster en Explotación de Datos y Gestión del Conocimiento. Es cofundadora y organizadora en múltiples espacios colaborativos como Metadocencia, RLadies y LatinR entre otros. Organizar más de 70 eventos (de alcance regional e internacional) entre los que se destacan ser presidente general de las mañanas argentinas de Informaciótica (2020-2021) y fundadora y actual presidente de LatinR, Una de las conferencias latinoamericanas más grandes sobre el uso de R en investigación y desarrollo y una de las coordinadoras globales de useR! 2021. Tanto en su rol como investigadora como con la comunidad R trabaja buscando hacer que la ciencia sea lo más reproducible y abierta posible utilizando herramientas informáticas abiertas.
+**Yanina** es investigadora del [INTA en La Pampa, Argentina](https://inta.gob.ar/personas/bellini.yanina) aplicando ciencia de datos al sector agropecuario. Es Licenciada en Sistemas de Información y Magíster en Explotación de Datos y Gestión del Conocimiento. Es cofundadora y organizadora en múltiples espacios colaborativos como Metadocencia, RLadies y LatinR entre otros. Ha organizado más de 70 eventos (de ámbito regional e internacional), entre ellos la presidenta general de la Organización, Nadas Argentinas de Informática (2020-2021), fundador y actual presidente de LatinR (una de las conferencias latinoamericanas más grandes sobre el uso de R en investigación y desarrollo) y uno de los coordinadores globales de useR! 2021. 2021. Tanto en su rol como investigadora como con la comunidad R trabaja buscando hacer que la ciencia sea lo más reproducible y abierta posible utilizando herramientas informáticas abiertas.
 
-## 1. ¿Cuándo comenzaste a dar charlas sobre tu trabajo como investigadora en eventos no académicos?
+## 1. ¿Cuándo comenzó a dar charlas sobre sus investigaciones en eventos no académicos?
 
 Yo trabajo en el [INTA](https://www.argentina.gob.ar/inta) (Instituto Nacional de Tecnología Agropecuaria), que es una institución cientifica. Nuestras actividades están organizadas en investigación y desarrollo y transferencia y extensión, ambas con el mismo peso e importancia. Todo lo que tiene que ver con hacer enseñar, difundir, comunicar, transferir conocimiento de nuestros desarrollos a actores del sector agropecuario y al público en general, es parte de nuestro trabajo. Dentro del INTA, las actividades de formación y comunicación, ya sea por medio de un curso, taller, de una nota o entrevista en un diario, radio, televisión, son importantes y necesarias. Solo tenemos sentido si la gente utiliza lo que hacemos.
 
@@ -151,7 +151,7 @@ Con respecto a los materiales, evitar que no sean accesibles.  Como mencioné a
 
 Cuando hago una charla, dentro del tiempo que me lleva armarla, le agrego uno o dos días más para chequear la accesibilidad. La licencia es fundamental para que sepan cómo pueden reusar tu material y, si no lo pueden reusar, que quede claro.
 
-Por último, una frase muy argentina: “no pararse arriba del caballo”, dar la charla con la tranquilidad que conocés tu trabajo y tu disciplina, pero con la humildad que corresponde. Hay que reconocer que puede haber preguntas que no sepas responder.
+Por último, una frase muy argentina: "No te levantes en tu caballo alto"; ofrezca la charla con la tranquilidad que viene de conocer su trabajo y su disciplina, pero también con la humildad adecuada. Tiene que reconocer que puede haber preguntas que no sabe responder.
 
 Lo mismo pasa con el lenguaje, donde se puede ser correcto técnicamente sin utilizar un lenguaje complejo. Sin embargo, si empleas términos técnicos porque los tenés que usar sí o sí, hay que explicarlos o hacer una analogía con cosas de la vida cotidiana. Por ejemplo, un programa de computación es como una receta: le das instrucciones a la computadora. Por eso es clave conocer a tu audiencia, porque podés saber en qué apoyarte al momento de explicar conceptos más complejos.
 
@@ -169,14 +169,14 @@ Hay algunas personas que tienen una guía a la hora de ser invitada a dar una c
 
 Estas también son cuestiones que yo tomo en cuenta, ¿es un panel todo de hombres?, ¿el evento tiene un Código de Conducta?, ¿Es de acceso libre o bien tiene beneficios para personas menos favorecidas?. De nuevo, si uno puede exigir este tipo de cosas en los eventos que va a participar estaremos ayudando a generar ambientes más amigables y seguros.  A veces no se tiene la posibilidad o el privilegio de elegir, quienes podemos, debemos hacerlo.
 
- ## 5. ¿Qué perspectivas tenés de tus futuras charlas? ¿Te interesa probar?
+ ## 5. ¿Qué perspectivas tenés de tus futuras charlas? ¿Te interesa probar? ¿Te interesa probar?
 
 Últimamente, me piden que haga charlas sobre tres temas: comunidades de práctica, ciencia y datos aplicados al agro (con casos), y ciencias y datos en geotecnología. Es complejo mantener el entusiasmo de contar siempre lo mismo porque, además, uno se siente medio impostor pensando en cuántas veces más va a dar la misma charla. El tema es que, a veces, te invitan porque la vieron y quieren replicarla en otro ámbito.
 
 Lo que hago, en general, es ir actualizándolas cuando tengo nuevos resultados o casos de uso y, dependiendo de la audiencia que me dicen que va a haber, ejemplifico en detalle o explico con más detalle los conceptos que necesito que se conozcan para que se aproveche más la charla.
 
-Se puede observar que hay una gran necesidad de parte de la gente por volver a lo presencial. Yo espero que siga el tema virtual porque se me abrió un panorama de participación (como disertante y como asistente) que no tenía; me permitió llegar a lugares que hubiesen sido imposible si eran presenciales (Ecuador, Bolivia, EE. UU., África) ya que tengo dos hijos chiquitos y evito realizar viajes largos, por lo menos hasta que sean más grandes. Entonces, sin la virtualidad no hubiese podido llegar a tanta gente. Vamos a ver qué ocurre, qué nos depara el futuro. Yo pienso que este año y gran parte del año que viene, vamos a seguir igual, al menos en el sur.
+Se puede observar que hay una gran necesidad de parte de la gente por volver a lo presencial. Yo espero que siga el tema virtual porque se me abrió un panorama de participación (como disertante y como asistente) que no tenía; me permitió llegar a lugares que hubiesen sido imposible si eran presenciales (Ecuador, Bolivia, EE. UU., África) ya que tengo dos hijos chiquitos y evito realizar viajes largos, por lo menos hasta que sean más grandes. UU., África) ya que tengo dos hijos chiquitos y evito realizar viajes largos, por lo menos hasta que sean más grandes. Entonces, sin la virtualidad no hubiese podido llegar a tanta gente. Vamos a ver qué ocurre, qué nos depara el futuro. Yo pienso que este año y gran parte del año que viene, vamos a seguir igual, al menos en el sur.
 
-Con respecto a las herramientas para dar cursos y charlas, aplico mucho lo que enseñamos en MetaDocencia y funciona muy bien. Espero seguir aprendiendo; actualmente, estoy leyendo un par de libros que espero ayuden: *Teaching in the Online Classroom* de Doug Lemov, *The Discussion Book* de Stephen Brookfield y *The Programmer’s Brain* de Felienne Hermans.
+En cuanto a las herramientas para dar cursos y charlas, aplico mucho de lo que enseñamos en MetaDocencia y funciona muy bien. Espero seguir aprendiendo; actualmente, Estoy leyendo un par de libros que espero me ayudarán: *Enseñar en la sala de clases en línea* de Doug Lemov, *The Discussion Book* de Stephen Brookfield, y *The Programmer's Brain* de Felienne Hermans.
 
 *Esta entrevista fue desarrollada por Maria Nanton.*

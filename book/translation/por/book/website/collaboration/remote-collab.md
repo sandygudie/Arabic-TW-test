@@ -8,8 +8,7 @@ A colaboração remota refere-se à capacidade de interagir e trabalhar com outr
 height: 500px
 nome: colaboração distribuída
 alt: Uma pessoa de pé em um globo e interagindo virtualmente com pessoas em diferentes fusos horários em diferentes telas de computador
----
-Colaboração Distribuída. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+--- Colaboração Distribuída. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
 A colaboração remota é uma prática padrão em projetos de código aberto ou comunidades on-line. Ganhou popularidade nos últimos anos à medida que cada vez mais empresas expandem as suas empresas em áreas longe da localização do escritório principal (por exemplo, [Mozilla](https://www.mozilla.org/en-GB/)), ou existe inteiramente como uma empresa remota (por exemplo, [RStudio](https://rstudio.com/about/)).

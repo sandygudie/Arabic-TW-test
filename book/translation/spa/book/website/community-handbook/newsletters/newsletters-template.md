@@ -49,7 +49,9 @@ Find more details on these topics below 👇
 - [_The Turing Way_ book](https://the-turing-way.netlify.com)
 - [Repositorio de GitHub](https://github.com/alan-turing-institute/the-turing-way)
 - [Canal de Slack](https://join.slack.com/t/theturingway/shared_invite/zt-fn608gvb-h_ZSpoA29cdUwR~TIqpBw)
-- [Canal público Gitter](https://gitter. m/alan-turing-institute/the-turing-way)
+- [Canal público Gitter](https://gitter.
+
+m/alan-turing-institute/the-turing-way)
 - [YouTube Videos](https://www.youtube.com/channel/UCPDxZv5BMzAw0mPobCbMNuA)
 - [Twitter Channel](https://twitter.com/turingway)
 

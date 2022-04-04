@@ -10,8 +10,7 @@ Técnicas de design do projeto podem ajudar os pesquisadores a identificar e com
 altura: 500px
 nome: projeto-design-overview
 alt: Esta ilustração mostra uma etapa com um troféu rotulado como 'troféu pesquisa reprodutível'. Uma equipa diversificada de quatro pessoas está a ajudar-se mutuamente a levar escadas para o troféu. A escadaria tem três conjuntos de rótulos indicando etapas de pesquisa como (1) antes, o que inclui "equipe, financiamento, pergunta, metodologia, aprovação, licença', (2) durante o qual se inclui controle de versão e documentação, e (3) depois disso inclui etapas de arquivamento e publicação.
----
-Ilustração da visão geral do projeto _O projeto Turing Way_ ilustração por Scriberia.
+--- Ilustração da visão geral do projeto _O projeto Turing Way_ ilustração por Scriberia.
 Usado sob uma licença CC-BY 4.0.
 DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
 ```

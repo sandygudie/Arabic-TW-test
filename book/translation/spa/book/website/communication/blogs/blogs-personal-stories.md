@@ -35,7 +35,7 @@ Para el blog, tengo un sentido de qué tipo de persona lee mi blog, incluso si n
 
 ## 4. ¿Qué herramientas/software utilizas más para producir tu blog?
 
-Primariamente WordPress. Yo uso Mail.Up para enviar un boletín de noticias (sólo si hay nuevos mensajes) y Canva si hago gráficos (pero generalmente soy demasiado perezoso). WordPress comparte mis nuevos posts en Twitter y LinkedIn.
+Primariamente WordPress. Yo uso Mail. Up para enviar un boletín de noticias (sólo si hay nuevos mensajes) y Canva si hago gráficos (pero generalmente soy demasiado perezoso). WordPress comparte mis nuevos posts en Twitter y LinkedIn.
 
 ## 5. ¿Tienes algún consejo para otras personas que puedan estar interesadas en iniciar un blog?
 

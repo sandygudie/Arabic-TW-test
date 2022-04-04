@@ -59,4 +59,4 @@ p {
 }
 ```
 
-Si crees que el estilo introducido en _The Turing way_ puede ser útil para otros usuarios de Jupyter Book por favor considere hacer una contribución al proyecto creando un nuevo problema de GitHub e iniciando una discusión con sus mantenedores: [https://github. om/executablebooks/jupyter-book/issues](https://github.com/executablebooks/jupyter-book/issues).
+Si crees que el estilo introducido en _The Turing way_ puede ser útil para otros usuarios de Jupyter Book por favor considere hacer una contribución al proyecto creando un nuevo problema de GitHub e iniciando una discusión con sus mantenedores: https://github.</p>

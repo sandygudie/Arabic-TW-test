@@ -64,6 +64,9 @@ print('olá mundo!!!')
 =======
 print('Olá Mundod')
 >>>>>>> principal
+=======
+print('Olá Mundod')
+>>>>>>> principal
 ```
 `<<<<<<<`: Indica o início das linhas que tiveram um conflito de merge. O primeiro conjunto de linhas são as linhas do arquivo em que você estava tentando mesclar as alterações.
 
@@ -77,7 +80,7 @@ Você resolve um conflito editando o arquivo para mesclar manualmente as partes 
 print('Olá Mundo!!!')
 ```
 
-Depois de ter corrigido os conflitos, commit a nova versão. V. Exa. resolveu agora o conflito. Se durante o processo, você precisa de um lembrete de quais arquivos estão nos conflitos, você pode usar `git status` para descobrir.
+Depois de ter corrigido os conflitos, commit a nova versão. resolveu agora o conflito. Se durante o processo, você precisa de um lembrete de quais arquivos estão nos conflitos, você pode usar `git status` para descobrir.
 
 Se você achar que há conflitos particularmente desagradáveis, e você deseja abortar o merge que pode usar:
 ```

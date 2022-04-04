@@ -23,7 +23,7 @@ Nem todos os dados podem ser disponibilizados abertamente, devido a questões é
 
 Os dados devem ser compartilhados formalmente, abertos, e o repositório de dados indexado [{term}`def<Repository>`] quando possível, para que ele fique acessível no longo prazo. Repositórios de dados adequados por assunto, tipo de conteúdo ou local podem ser encontrados no [Re3data. rg](https://www.re3data.org/), e no [FAIRsharing](https://fairsharing.org/databases) onde você também pode ver quais padrões (metadados e identificador) os repositórios implementam e qual jornal/editor os recomenda. Se possível usar um repositório que atribui um DOI, um identificador de objeto digital, para facilitar a citação de seus dados. Dê uma olhada no {ref}`cm-citable` para ver como compartilhar e citar seus dados e outros objetos de pesquisa. A seção de {ref}`cm-citable-linking` explica várias opções para vincular seus dados e outros objetos de pesquisa.
 
-Alguns repositórios de dados públicos são [Zenodo](https://zenodo.org/), [Figshare](https://figshare.com/), [4TU.ResearchData](https://data.4tu.nl/info/en), e [Dryad](https://datadryad.org/).
+Alguns repositórios de dados públicos são [Zenodo](https://zenodo.org/), [Figshare](https://figshare.com/), [4TU. ResearchData](https://data.4tu.nl/info/en), e [Dryad](https://datadryad.org/).
 
 ### Passo 3: Escolha uma licença e link para seu papel e código
 

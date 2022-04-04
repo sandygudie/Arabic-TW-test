@@ -10,8 +10,7 @@ Não é necessário conhecimento anterior.
 ---
 name: research-cycle
 alt: O processo de pesquisa é representado como um ciclo perpétuo de gerar ideias de pesquisa, realizando o planejamento e design de dados, coleta de dados e processamento e análise de dados, publicando, preservando e portanto permitindo a reutilização de dados. 
----
-Ilustração do projeto _The Turing Way_ por Scriberia. Utilizada sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+--- Ilustração do projeto _The Turing Way_ por Scriberia. Utilizada sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
 (rr-overview-sumy)=

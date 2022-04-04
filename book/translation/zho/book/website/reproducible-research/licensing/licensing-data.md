@@ -63,7 +63,7 @@ ODBL在ODC-By许可证上又增加了两个限制。 第一个是您数据的任
 (rr-licensing-data options)=
 ## 其他许可选项
 
-还可以选择其他数据许可证，这些许可证可能是在特定使用案例或社区的情况下开发的，或者不是在全球范围内广泛使用的。 这些包括由国家政府开发的许可证，例如 [挪威开放政府数据许可证](https://data.norge.no/nlod/en/) {cite:ps}`nlod2020政府数据` 这种许可证往往是相应国家建议的数据许可证办法，特别是公共机构制作或拥有的数据。 另一个例子是联合王国国家档案馆开发的 [开放政府许可证](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/) 或 OGL。
+还可以选择其他数据许可证，这些许可证可能是在特定使用案例或社区的情况下开发的，或者不是在全球范围内广泛使用的。 这些包括由国家政府开发的许可证，例如 [挪威开放政府数据许可证](https://data.norge.no/nlod/en/) {cite:ps}`nlod2020政府数据` 这种许可证往往是相应国家建议的数据许可证办法，特别是公共机构制作或拥有的数据。 这种许可证往往是相应国家建议的数据许可证办法，特别是公共机构制作或拥有的数据。 另一个例子是联合王国国家档案馆开发的 [开放政府许可证](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/) 或 OGL。
 
 [数据管理中心（DCC）指南](https://www.dcc.ac.uk/guidance/how-guides/license-research-data) {cite:ps}`ball2011licenes` 关于如何授权研究数据在本章讨论的许可证上过期， 并提供更多关于 [准备许可证](https://www.dcc.ac.uk/guidance/how-guides/license-research-data#x1-6000), [别斯波克许可证](https://www.dcc.ac.uk/guidance/how-guides/license-research-data#x1-7000), [多重许可](https://www.dcc.ac.uk/guidance/how-guides/license-research-data#x1-13000) 和 [许可数据机制](https://www.dcc.ac.uk/guidance/how-guides/license-research-data#x1-14000)。
 

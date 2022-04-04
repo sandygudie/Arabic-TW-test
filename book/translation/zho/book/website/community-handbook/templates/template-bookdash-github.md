@@ -39,8 +39,16 @@
 
 🗣️ 欢迎!
 
+* 
+* 
+* 
+
+🗣️ 欢迎!
+
 - 提醒：[行为守则 & 社区参与准则](https://the-turing-way.netlify.app/community-handbook/coc)。 tml
 - 如果您经历或见证了不可接受的行为，或有任何其他顾虑。 请联系组织者Malvika和Kirstie报告。 ([theturingway@gmail.com](mailto:theturingway@gmail.com)).
+
+([theturingway@gmail.com](mailto:theturingway@gmail.com)).
 
 ### 滚称为
 

@@ -15,12 +15,10 @@ Você pode ver um log dos seus commits anteriores usando
 git log
 ```
 
-No relatório do seu terminal, você verá que cada versão é automaticamente marcada com uma sequência única de números e letras, chamada SHA. Você pode identificar, acessar e comparar versões diferentes usando o SHA correspondente. Aqui está um exemplo de um commit no log do Git: O SHA está na primeira linha, e além deste SHA, o log também contém informações sobre a data, a hora e o autor da alteração, bem como a mensagem de commit ("erro de digitação menor corrigido").
+No relatório do seu terminal, você verá que cada versão é automaticamente marcada com uma sequência única de números e letras, chamada SHA. Você pode identificar, acessar e comparar versões diferentes usando o SHA correspondente. Você pode identificar, acessar e comparar versões diferentes usando o SHA correspondente. Aqui está um exemplo de um commit no log do Git: O SHA está na primeira linha, e além deste SHA, o log também contém informações sobre a data, a hora e o autor da alteração, bem como a mensagem de commit ("erro de digitação menor corrigido").
 
 ```
-commit 0346c937d0c451f6c622c5800a46f9e9e1c2b035
-Autor: Malvika Sharan <some@email.com>
-Data: 6 de maio de 18 de 22:40 2020 +0100
+commit 0346c937d0c451f6c622c5800a46f9e9e1c2b035 Autor: Malvika Sharan <some@email.com> Data: 6 de maio de 18 de 22:40 2020 +0100
 
     pequeno erro de digitação
 
@@ -57,9 +55,7 @@ Isto torna muito mais fácil procurar rapidamente através de um grande número 
 Aqui está um bom exemplo de uma estrutura de mensagens de commit:
 
 ```
-Curto (50 caracteres. ou menos) resumo das alterações
-
-Texto explicativo mais detalhado, se necessário. Envolva-o a
+Curto (50 caracteres. ou menos) resumo das alterações Texto explicativo mais detalhado, se necessário. Envolva-o a
 cerca de 72 caracteres. Em alguns contextos, a primeira linha
 é tratada como o assunto de um e-mail e o resto de
 o texto como o corpo. A linha em branco que separa o resumo

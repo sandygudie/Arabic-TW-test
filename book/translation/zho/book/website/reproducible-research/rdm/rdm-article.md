@@ -6,7 +6,7 @@
 (rr-rdm-artic-motives)=
 ## 通过数据文章共享数据的动机。
 
-数据文章符合 {ref}`FAIR principles<rr-rdm-fair>`特别是因为大多数发布者都会鼓励您通过数据存储库共享数据。 The benefit of a Data Article is that your output will be {ref}`peer reviewed<cm-peer-review>`, something which is generally not the case for datasets that are archived on {ref}`data repositories<rr-rdm-sharing>`. 它还通过传统上更注重出版产出的研究评估程序，促进对数据集的承认。 因此，公布数据文件将提高数据的可见度、可信度和可用性，并使您作为数据制作者获得认可。
+数据文章符合 {ref}`FAIR principles<rr-rdm-fair>`特别是因为大多数发布者都会鼓励您通过数据存储库共享数据。 The benefit of a Data Article is that your output will be {ref}`peer reviewed<cm-peer-review>`, something which is generally not the case for datasets that are archived on {ref}`data repositories<rr-rdm-sharing>`. 它还通过传统上更注重出版产出的研究评估程序，促进对数据集的承认。 它还通过传统上更注重出版产出的研究评估程序，促进对数据集的承认。 因此，公布数据文件将提高数据的可见度、可信度和可用性，并使您作为数据制作者获得认可。
 
 
 (rr-rdm-article-options)=
@@ -25,7 +25,7 @@
 |                [科学数据](https://www.nature.com/sdata/)                 |                                           [1790 欧元](https://www.nature.com/sdata/oa) ([见USD](https://www.xe.com/currencyconverter/convert/?Amount=1790&From=EUR&To=USD))                                           |
 |       [简要数据](https://www.journals.elsevier.com/data-in-brief)        |                                                                           [美元&nbsp;500](https://www.journals.elsevier.com/data-in-brief)                                                                           |
 |                   [中国科学数据](http://www.csdata.org/)                   |                                  [RMB&nbsp;3000 ](http://www.csdata.org/en/p/static/1329/) ([查看 USD](https://www.xe.com/currencyconverter/convert/?Amount=3000&From=CNY&To=USD))                                   |
-|              [数据科学日记](https://datascience.codata.org/)               |                                      [](https://datascience.codata.org/about/submissions/) ([见美元](https://www.xe.com/currencyconverter/convert/?Amount=650&From=GBP&To=USD))                                       |
+|              [数据科学日记](https://datascience.codata.org/)               |                                                                 ([见美元](https://www.xe.com/currencyconverter/convert/?Amount=650&From=GBP&To=USD))                                                                  |
 |               [数据](https://www.mdpi.com/journal/data)                |                                   [CHF&nbsp;1400 ](https://www.mdpi.com/journal/data/apc) ([查看 USD](https://www.xe.com/currencyconverter/convert/?Amount=1400&From=CHF&To=USD))                                    |
 |         [GigaScience](https://academic.oup.com/gigascience)          |                   [1089 欧元](https://academic.oup.com/gigascience/pages/charges_licensing_and_self_archiving) ([见美元](https://www.xe.com/currencyconverter/convert/?Amount=1089&From=EUR&To=USD))                    |
 |   [Gigabyte](https://gigabytejournal.com/information-for-authors)    |                                                            [美元&nbsp;350美元](https://gigabytejournal.com/open-access-and-apc#article-processing-charges)                                                             |

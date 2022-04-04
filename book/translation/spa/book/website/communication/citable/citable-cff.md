@@ -12,7 +12,7 @@ alt: Los desarrolladores de software de investigación obtienen reconocimiento a
 Los desarrolladores de software de investigación obtienen reconocimiento al hacer citable de software. _The Turing Way_ proyecto de ilustración por Scriberia. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
 ```
 
-Para proporcionar estos metadatos, comience escribiendo un archivo `CITATION.cff` e introdúzcalo con su software o conjunto de datos. Una CITACIÓN `. El archivo` agrega la información en un formato clave-valor que puede ser fácilmente interpretado y actualizado por humanos, y fácilmente analizada y convertida con herramientas existentes.
+Para proporcionar estos metadatos, comience escribiendo un archivo `CITATION.cff` e introdúzcalo con su software o conjunto de datos. El archivo</code> agrega la información en un formato clave-valor que puede ser fácilmente interpretado y actualizado por humanos, y fácilmente analizada y convertida con herramientas existentes.
 
 (cm-citable-cff-por qué)=
 ## ¿Por qué usar `CITATION.cff`?
@@ -46,21 +46,17 @@ Un ejemplo mínimo de un archivo `CITATION.cff` , que solo contiene las claves r
 authors:
   - family-names: Doe
     given-names: John
-cff-version: 1.2.
-mensaje: "Si utiliza este software, por favor cite los metadatos de este archivo."
-title: "Mi software de investigación"
+cff-version: 1.2. mensaje: "Si utiliza este software, por favor cite los metadatos de este archivo." title: "Mi software de investigación"
 ```
 
 Sin embargo, añadir más campos puede ayudarle a crear metadatos más descriptivos de su software. El ejemplo a continuación también proporciona información importante de software como versión, fecha de lanzamiento, DOI, licencia, palabras clave.
 
 ```yaml
-abstract: "Este es mi impresionante software de investigación. Hace muchas cosas.
-authors:
+abstract: "Este es mi impresionante software de investigación. Hace muchas cosas. authors:
   - family-names: Doe
     given-names: John
     orcid: "https://orcid. rg/0000-0001-8888-9999"
-cff-version: 1.2.
-date-released: "2021-10-13"
+cff-version: 1.2. date-released: "2021-10-13"
 identificadores:
   - description: "Esta es la colección de instantáneas archivadas de todas las versiones de My Research Software"
     tipe: doi
@@ -71,9 +67,7 @@ identificadores:
 palabras clave:
   - "increíble software"
   - investigación
-licencia: Apache-2.
-mensaje: "Si usas este software, por favor cite los metadatos de este archivo."
-código del repositorio: "https://github. om/cita-archivo-formato/mi-investigación-software"
+licencia: Apache-2. mensaje: "Si usas este software, por favor cite los metadatos de este archivo." código del repositorio: "https://github. om/cita-archivo-formato/mi-investigación-software"
 título: "Mi software de investigación"
 versión: 0.11.2
 ```

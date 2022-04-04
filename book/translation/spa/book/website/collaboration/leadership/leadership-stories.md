@@ -8,15 +8,15 @@ Los hackathons pueden ser escenarios bastante intimidantes en los que te puedes 
 
 Ahora imagínese si usted lidera y coordina un grupo de personas para trabajar en su idea de proyecto?
 
-¡Sí! ¡Esto es un reto para muchos! ¡He estado allí, y también estaba íntimo! Así que déjame compartir algunas de las cosas que aprendí la primera vez que dirigí un proyecto hackathon en el [primer sprint de Microsoft Research Software Reactor](https://research-software-reactor.github.io/blog/sprint0).
+¡Sí! ¡Sí! ¡Esto es un reto para muchos! ¡He estado allí, y también estaba íntimo! Así que déjame compartir algunas de las cosas que aprendí la primera vez que dirigí un proyecto hackathon en el [primer sprint de Microsoft Research Software Reactor](https://research-software-reactor.github.io/blog/sprint0).
 
 ## No te concentres en el código
 
-Hay muchas cosas diferentes que van a hacer un proyecto, más allá del propio código. De la misma manera, hay muchas personas con diferentes habilidades que pueden unirse a su proyecto hackathon - no sólo programadores! Los buenos líderes pueden identificar las fortalezas de su equipo, específicamente donde se pueden aprovechar mejor las diferentes habilidades en un proyecto.
+Hay muchas cosas diferentes que van a hacer un proyecto, más allá del propio código. De la misma manera, hay muchas personas con diferentes habilidades que pueden unirse a su proyecto hackathon - no sólo programadores! Los buenos líderes pueden identificar las fortalezas de su equipo, específicamente donde se pueden aprovechar mejor las diferentes habilidades en un proyecto. Los buenos líderes pueden identificar las fortalezas de su equipo, específicamente donde se pueden aprovechar mejor las diferentes habilidades en un proyecto.
 
 Cosas como la documentación suelen dejarse hasta los últimos momentos de un proyecto, aunque es igual de importante. si no más, que el propio código! Si tienes a alguien en tu equipo que le guste escribir, la documentación puede mantenerse actualizada a medida que tu código base cambie a través del hackathon.
 
-El mayor beneficio de tener un software bien documentado al final del hackathon es que será mucho más fácil para su equipo continuar contribuyendo al proyecto una vez que el evento haya terminado. La última fase de poner un proyecto en un estado de producción listo toma más tiempo y esfuerzo, ¡pero afortunadamente ya has documentado tu proceso de alcance y el camino para llegar allí! 😉
+El mayor beneficio de tener un software bien documentado al final del hackathon es que será mucho más fácil para su equipo continuar contribuyendo al proyecto una vez que el evento haya terminado. La última fase de poner un proyecto en un estado de producción listo toma más tiempo y esfuerzo, ¡pero afortunadamente ya has documentado tu proceso de alcance y el camino para llegar allí! 😉 😉
 
 ## Encuentra tu estilo de liderazgo
 

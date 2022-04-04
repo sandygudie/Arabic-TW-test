@@ -12,8 +12,7 @@ Nós trazemos a prática de trabalho para _The Turing Way_ usando chamadas de tr
 height: 300px
 name: coworking
 alt: Uma ilustração de um grupo de pessoas que estão trabalhando juntos e discutindo algo
----
-Uma ilustração de um grupo de trabalho. [Imagem sem realeza de muitos Pixels](https://www.manypixels. o/gallery/)
+--- Uma ilustração de um grupo de trabalho. [Imagem sem realeza de muitos Pixels](https://www.manypixels. o/gallery/)
 Nossas chamadas de trabalho oferecem oportunidades para os membros da comunidade alocarem tempo para as tarefas desejadas na _A Caminho de Turing_ e fazê-los terminar, parcialmente ou totalmente, com o apoio de outras pessoas que podem ajudar a discutir os seus planos, partilhar ideias ou responsabilizar-se.
 ```
 

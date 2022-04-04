@@ -11,11 +11,11 @@
 (rr-renv-containers-what)=
 ## 什么是容器？
 
-容器允许研究人员将一个项目与它所需要的所有部件（如图书馆）包装起来。 依赖关系和系统设置 - 并将其作为一个软件包发送。 然后任何人都可以打开容器并在容器内工作。 查看并与项目交互，好像他们从容器中访问的机器与容器中指定的机器是相同的。不管他们的计算环境 _实际是_ 是什么。 它们的设计是为了使 更容易在非常不同的环境之间传输项目。
+容器允许研究人员将一个项目与它所需要的所有部件（如图书馆）包装起来。 依赖关系和系统设置 - 并将其作为一个软件包发送。 然后任何人都可以打开容器并在容器内工作。 查看并与项目交互，好像他们从容器中访问的机器与容器中指定的机器是相同的。 不管他们的计算环境 _实际是_ 是什么。 它们的设计是为了使 更容易在非常不同的环境之间传输项目。
 
 从某种意义上说，容器的行为就像一个虚拟机一样。 对外部世界而言，他们看起来像自己的完整系统。 然而，与虚拟机不同的是，而不是创建一个完整的虚拟操作系统，加上通常用一个软件和工具。 容器只含有它们所需要的个别组件才能操作它们所包含的项目。 这大大提高了性能，减少了应用程序的大小。
 
-容器是一种特别有用的复制研究方法，它依赖于某种方式配置软件。 或利用不同系统（或不存在）不同系统之间的图书馆。 概括而言， 容器是一种比包件管理系统或Binder更强有力的分享可再生产研究的方法，因为它们复制了用于研究的整个系统。 不仅仅是它明确使用的软件包。 它们的主要不利方面是由于它们的深度更高。 它们在概念上比许多其他重复计算环境的方法更难掌握和生产。
+容器是一种特别有用的复制研究方法，它依赖于某种方式配置软件。 或利用不同系统（或不存在）不同系统之间的图书馆。 概括而言， 容器是一种比包件管理系统或Binder更强有力的分享可再生产研究的方法，因为它们复制了用于研究的整个系统。 它们在概念上比许多其他重复计算环境的方法更难掌握和生产。
 
 Ben Corrie对 [“什么是容器？”](https://www.youtube.com/watch?v=EnJ7qX9fkcU) 中的核心概念提供了一个可以合理理解的概述。
 
@@ -134,7 +134,7 @@ RUN python3 -m pip install numpy
 COPY 工程文件/项目
 ```
 
-这看起来很复杂，但这个示例中的大多数行都是注释(前面有 `#`'s)。 实际代码只有六行。 其中第一个是一个 `FROM` 语句，指定了一个基础图像。 所有Dockerfiles 都需要一个 FROM，即使它只是 `FROCH`。 Dockerfile 下面的所有命令都建立在基础图像的基础上，使研究人员的项目能够正常运行。 指定图像版本 (`18.04` 在此情况下) 是可选的。 然而，这是最佳做法，因为它确保我们的 Dockerfile 在新版本的 Ubuntu 之后仍然有效， 它可能不包括我们稍后需要的软件包 (或其中的特定版本) (例如， `python3)。`。
+这看起来很复杂，但这个示例中的大多数行都是注释(前面有 `#`'s)。 实际代码只有六行。 其中第一个是一个 `FROM` 语句，指定了一个基础图像。 所有Dockerfiles 都需要一个 FROM，即使它只是 `FROCH`。 Dockerfile 下面的所有命令都建立在基础图像的基础上，使研究人员的项目能够正常运行。 指定图像版本 (`18.04` 在此情况下) 是可选的。 然而，这是最佳做法，因为它确保我们的 Dockerfile 在新版本的 Ubuntu 之后仍然有效， 它可能不包括我们稍后需要的软件包 (或其中的特定版本) (例如， `python3)。 `。
 
 值得花时间选择适当的基本图像， 这样做可以大大减少编写Dockerfile所需的工作量。 例如，包含在其中的 R 编程语言的图像集可以在这里找到 [](https://github.com/rocker-org/rocker-versioned)。 如果一个项目使用R, 使用其中之一作为基本图像而不是在你的 Dockerfile 中写入命令以安装R是方便的。
 
@@ -169,7 +169,7 @@ alt: A screen sharing of when a container is open from an image
 (rr-renv-containers-dockerfiles-workdir)=
 ### `WorkDIR`
 
-此命令可以在 Dockerfiles 中用于更改当前工作目录。 在 Dockerfile 中跟随此操作的命令将在新的工作目录中应用，除非/直到另一个 `WorKDIR` 更改工作目录。 当一个容器与一个交互式终端打开时，终端将在最后工作目录中打开. 这是一个使用 `WORKDIR`和它生成的容器的 Dockerfile的简单例子。
+此命令可以在 Dockerfiles 中用于更改当前工作目录。 在 Dockerfile 中跟随此操作的命令将在新的工作目录中应用，除非/直到另一个 `WorKDIR` 更改工作目录。 当一个容器与一个交互式终端打开时，终端将在最后工作目录中打开. 当一个容器与一个交互式终端打开时，终端将在最后工作目录中打开. 这是一个使用 `WORKDIR`和它生成的容器的 Dockerfile的简单例子。
 
 ```
 # 基本设置
@@ -214,10 +214,10 @@ Dockerfiles有时使用的其他命令包括：
 
 - `CMD`: 这用于在容器打开后立即运行命令。 这不同于作为 _设置_ 个容器的一部分运行的RUN命令。 例如，为了在容器从图像中打开时有一个欢迎消息， `CMD` 可以用作以下用途：
   ```
-  CMD ["回声","欢迎! 你刚刚打开了这个容器！"]
+  CMD ["回声","欢迎! 你刚刚打开了这个容器！"] 你刚刚打开了这个容器！"]
   ```
   在某人开始在容器 工作之前需要运行的任何命令都使用CMD，而不是强迫用户自己运行它们（而且相信他们甚至知道自己需要）是很好的做法。
-- `VOLUMES`: 这些将会在稍后讨论 {ref}` <rr-renv-containers-volumes>`
+- `VOLUMES`: 这些将会在稍后讨论 {ref}`<rr-renv-containers-volumes>`
 - `MAINTAINER`: 这包含着编写Docker文件的人的信息。 它通常包含在Docker文件的顶部。
 - `EXPOSE`: 这包括应该曝光的端口。 它对使用 Docker 的人更适合分享网页应用。
 - `USER`: 更改命令运行的用户 (用于丢弃权限)。
@@ -225,7 +225,7 @@ Dockerfiles有时使用的其他命令包括：
 (rr-renv-containers-dockerignore)=
 ## 正在构建图像和 `.dockerinvate` 个文件
 
-如 {ref}`密钥命令 <rr-renv-containers-commands>` 部分所述。 要在与 要使用并运行的 Dockerfile 相同的目录中创建一个终端：
+将相关命令分组为单个 `RUN` 块是一个好的做法，以减少您图像的最终大小为 [避免创建不必要的图层](https://docs.docker.com/develop/develop-images/#minimize-the-number-of-layers) 我们还遵循最佳做法，使用 `--no-install-recommended` to [避免安装不必要的软件包](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#dont-install-unnecessary-packages) 和 [清理 `apt-cache`](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#run)两者都进一步缩小了Debian 或 Ubuntu 图像的大小。
 
 ```
 sudo docker build--tag name_to_give_image
@@ -328,24 +328,30 @@ sudo docker 运行 -i -t --mount source=volume_name,target=/target_directory ima
 (rr-renv-containers-sinularity)=
 ## 独一无二性
 
+Up until April 2020, the only way to run Docker was with root access. "Rootless" mode was made available as part of the [v20.10](https://docs.docker.com/engine/security/rootless/) release. Rootless mode is currently only avaliable on Linux and requires an initial install of Docker >= v20.10.
 
-> **前提条件**: 目前单纯性只在 Linux 系统上运行 (例如，Ubuntu). 如果您使用 macOS， [macOS 的 Singularity 桌面](https://www.sylabs.io/singularity-desktop-macos/) 处于“Beta”发布阶段。
-
-使用 Docker进行可复制研究的一个重要缺陷是，它不是作为一个用户空间应用，而是作为服务器管理员的工具。 因此，它需要有根基才能运作。 然而，没有理由为什么进行分析需要用户获得Root权限。 当使用用户永远不会有Root权限的高清系统等共享资源进行计算时，这一点尤其重要。
-
-为了解决这个问题，引入了 [独一无二的](https://www.sylabs.io/) 集装箱软件。 高频谱系统创建了独特性并考虑到可复制的研究(见 \[this\](https://www.youtube.com/watch?v=DA87Ba2dpNM video)。 它不需要运行 root 权限(仅构建容器 _镜像_！ 这样，HPC用户就能在当地制作容器图像，然后才能对高性能集群进行分析。 作为附加福利。 这使得几乎任何软件都可以在高清数据中心系统上使用，而不必为安装该系统配备管理员。
-
-Furthermore, since Docker is _the_ most well-known containerization approach, singularity aims at maintaining compatibility with docker containers. 这意味着单一性可以用来运行正常的停泊器容器(不需要root存取!)。
-
-独特性可以用来运行 Docker 图像或通过基于基层的 docker 容器构建新图像来扩展它们。 例如，我们可以使用单独的方式创建一个带有炮弹的原生的ubuntu容器，使用 ubuntu 码头图像：
+The underyling difference between Docker without and with rootless mode is that perviously any system running Docker had a daemon running as `uid0` that creates and owns all images, but with rootless mode the user creates and owns any images that they initialize. To install and run the rootless version of Docker as a non-root user, use the following commands (where `20.10` refers to the installed version of Docker):
 
 ```
 单纯的 shell docker://ubuntu
 ```
 
-> (输入 `退出` 以便再次离开交互式外壳)
+Furthermore, since Docker is _the_ most well-known containerization approach, singularity aims at maintaining compatibility with docker containers. 这意味着单一性可以用来运行正常的停泊器容器(不需要root存取!)。
 
-Just as docker images are built using `Dockerfile` files, singularity containers are built from singularity definition files. 进程和语法类似于码头文件，但有微妙的差异。 作为最起码的工作示例，我们可以基于官方的 ubuntu 码头容器图像构建一个 `lolcow` 容器。 将以下内容放入 `lolcow.def` 文件(基于 [独特性文档](https://www.sylabs.io/guides/3.2/user-guide/build_a_container.html))：
+(rr-renv-containers-singularity)=
+## 警告单词
+
+
+> **前提条件**: 目前单纯性只在 Linux 系统上运行 (例如，Ubuntu). 如果您使用 macOS， [macOS 的 Singularity 桌面](https://www.sylabs.io/singularity-desktop-macos/) 处于“Beta”发布阶段。 如果您使用 macOS， [macOS 的 Singularity 桌面](https://www.sylabs.io/singularity-desktop-macos/) 处于“Beta”发布阶段。
+
+使用 Docker进行可复制研究的一个重要缺陷是，它不是作为一个用户空间应用，而是作为服务器管理员的工具。 因此，它需要有根基才能运作。 然而，没有理由为什么进行分析需要用户获得Root权限。 当使用用户永远不会有Root权限的高清系统等共享资源进行计算时，这一点尤其重要。
+
+为了解决这个问题，引入了 [独一无二的](https://www.sylabs.io/) 集装箱软件。 高频谱系统创建了独特性并考虑到可复制的研究(见 \[this\](https://www.youtube.com/watch?v=DA87Ba2dpNM video)。 它不需要运行 root 权限(仅构建容器 _镜像_！ 这样，HPC用户就能在当地制作容器图像，然后才能对高性能集群进行分析。 As an added benefit, this makes it possible to use almost any software on an HPC system without having to bother admin staff with installing it.
+
+Furthermore, since Docker is _the_ most well-known containerization approach, singularity aims at maintaining compatibility with docker containers. This means that singularity can be used to run normal docker containers (without requiring root access!).
+
+独特性可以用来运行 Docker 图像或通过基于基层的 docker 容器构建新图像来扩展它们。 例如，我们可以使用单独的方式创建一个带有炮弹的原生的ubuntu容器，使用 ubuntu 码头图像：
+
 ```
 Bootstrap: docker
 From: ubuntu
@@ -362,18 +368,25 @@ From: ubuntu
     frife | cowsay | lolcat
 ```
 
-这个“recipe”使用停靠图像作为基础 (`ubuntu`), 安装一些 `apt` 软件包，修改一些环境变量， 并指定 `运行脚本` (使用 `独一无二性运行` 命令执行)。 单一性定义文件格式的详细信息可在官方的 [文档](https://www.sylabs.io/docs/) 中找到。
+> (输入 `退出` 以便再次离开交互式外壳)
 
-然后可以构建容器图像 (需要 root!) 通过：
-
+Just as docker images are built using `Dockerfile` files, singularity containers are built from singularity definition files. 进程和语法类似于码头文件，但有微妙的差异。 The process and syntax are similar to docker files, but there are subtle differences. 作为最起码的工作示例，我们可以基于官方的 ubuntu 码头容器图像构建一个 `lolcow` 容器。 将以下内容放入 `lolcow.def` 文件(基于 [独特性文档](https://www.sylabs.io/guides/3.2/user-guide/build_a_container.html))：
 ```
 sudo sidularity building lolcow.simg lolcow.def
+```
+
+这个“recipe”使用停靠图像作为基础 (`ubuntu`), 安装一些 `apt` 软件包，修改一些环境变量， 并指定 `运行脚本` (使用 `独一无二性运行` 命令执行)。 单一性定义文件格式的详细信息可在官方的 [文档](https://www.sylabs.io/docs/) 中找到。
+
+(rr-renv-containers-sinularity-storage)=
+
+```
+单纯性运行lolcow.simg
 ```
 
 这将从 DockerHub 拉取ubuntu 图像， 在定义文件中运行配方的步骤并生成单一输出图像文件(`lolcow)。 img`)。 最后执行 `运行脚本`
 
 ```
-单纯性运行lolcow.simg
+singularity run lolcow.simg
 ```
 
 理想的情况是，你应该看到一个漂亮的 ASCII 母牛和几个智慧词：
@@ -392,15 +405,19 @@ ___________________________________
 
 HPC兼容，单一性容器也得到各种工作流程管理工具的支持。 例如， [吸附](https://snakemake.readthedocs.io/en/stable/) 和 [下一步流动](https://www.nextflow.io/docs/latest/singularity.html) 都支持针对工作的唯一性容器。 这使得独特的容器特别适合于使用广泛使用的 [slurm](https://slurm.schedmd.com/documentation.html) 工作量管理器来平行处理高清系统上的工作流程。 使用单一性、容器和快照/下流是一种将可再生产量降到大规模的方法。 此外，作为一种额外的益处，将桌面机器的工作流程带到高清系统不再需要自定义作业提交脚本。
 
-(rr-renv-containers-sinularity-storage)=
+(rr-renv-containers-singularity-storage)=
 ### 容器图像的长期存储
 
 必须指出，仅仅是一个集装箱配方文件本身并不是可以复制的，因为构建过程取决于各种(在线)来源。 因此，如果基础源更新，相同的配方文件可能会导致不同的图像。
 
-要实现真正的可复制性，必须存储实际容器 _图像_。 对于独一无二的图像，这样做特别容易，因为图像只是一个大的文件。 它们的大小可能各不相同，从几十个兆字节（微型容器）到几个千兆字节不等。 因此不适合存储在 git 存储库本身 免费， 存储容器图像的可接受和长期解决办法是 [zenodo。 rg](https://zenodo.org/) 每个仓库最多允许50Gb 既然zenodo 对所有上传的内容都会显示DOI，图像就可以立即被读取。 与 [Docker Hub](https://hub.docker.com/) 相反(它也只接受停泊器图像)， zenodo还通过一个复杂的元数据系统明确地面向长期储存和发现。 因此，它最适合于储存与具体分析有关的科学集装箱，因为这些集装箱往往不会随着时间的推移而变化。
+要实现真正的可复制性，必须存储实际容器 _图像_。 对于独一无二的图像，这样做特别容易，因为图像只是一个大的文件。 它们的大小可能各不相同，从几十个兆字节（微型容器）到几个千兆字节不等。 因此不适合存储在 git 存储库本身 免费， 存储容器图像的可接受和长期解决办法是
+
+zenodo。 Since zenodo mints DOIs for all content uploaded, the images are immediately citable. 与 [Docker Hub](https://hub.docker.com/) 相反(它也只接受停泊器图像)， zenodo还通过一个复杂的元数据系统明确地面向长期储存和发现。 因此，它最适合于储存与具体分析有关的科学集装箱，因为这些集装箱往往不会随着时间的推移而变化。</p> 
 
 (rr-renv-containers-warning)=
-## 警告单词
+
+
+## Words of Warning
 
 尽管单一性和码头看起来类似，但它们在概念上是非常不同的。 除了单一性不需要Root访问运行的容器这一显而易见的事实， 它还以不同方式处理主机和集装箱文件系统之间的区别。 例如，在默认情况下，单一性包括容器中的几个绑定点，即：
 

@@ -9,7 +9,7 @@ _诱导之道_ 协作咖啡馆(或带重量的“食堂”)实际上是每个月
 
 协作咖啡厅的时间安排可以从 [社区日历](https://calendar.google.com/calendar/embed?src=theturingway%40gmail.com&ctz=Europe%2FLondon) 查看。 我们还在我们的 [个月新闻简讯](https://tinyletter.com/TuringWay/archive)中宣布通话，发送提醒到 [Slack频道](https://tinyurl.com/jointuringwayslack) 和 [Twitter](https://twitter.com/turingway)。
 
-虽然已排定2小时， 我们的理解是，对许多感兴趣的与会者来说，一次或多次可能不可能对整个两个小时作出承诺。 因此，欢迎您只要您的时间表允许就加入。
+虽然已排定2小时， 我们的理解是，对许多感兴趣的与会者来说，一次或多次可能不可能对整个两个小时作出承诺。
 
 如果在线协作咖啡厅当前的日程表不适合您的时区。 欢迎您为您的社区/时区单独主办一个协作咖啡厅。 请打开一个新的问题 (参见 [此示例](https://github.com/alan-turing-institute/the-turing-way/issues/684))，或联系 _Ting Way_ 团队成员了解详情。 我们还正在编写一个关于这些电话的主机的指南([issue #925](https://github.com/alan-turing-institute/the-turing-way/issues/925))。
 
@@ -30,7 +30,8 @@ _诱导之道_ 协作咖啡馆(或带重量的“食堂”)实际上是每个月
 
 **加成**
 
-您可以观看这个视频来观看Kirstie 和 Malvika 规划协作咖啡厅的结构和格式。 <iframe width="560" height="315" src="https://www.youtube.com/embed/XUw5kpypeo8" title="YouTube 视频播放器" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
+您可以观看这个视频来观看Kirstie 和 Malvika 规划协作咖啡厅的结构和格式。
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XUw5kpypeo8" title="YouTube 视频播放器" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 日程安排
 
@@ -61,7 +62,9 @@ _诱导之道_ 协作咖啡馆(或带重量的“食堂”)实际上是每个月
 
 **想看看我们如何运行这些电话？**
 
-我们已经在YouTube上张贴了我们协作咖啡厅的一些视频。 观看视频，看看Kirstie是如何在首次启动时接听电话的。 <iframe width="560" height="315" src="https://www.youtube.com/embed/I0z7OEbBzes" title="YouTube 视频播放器" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
+我们已经在YouTube上张贴了我们协作咖啡厅的一些视频。 观看视频，看看Kirstie是如何在首次启动时接听电话的。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I0z7OEbBzes" title="YouTube 视频播放器" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### 通话期间
 - 通话期间使用便笺，在您主持通话时分享信息
@@ -114,13 +117,13 @@ _诱导之道_ 协作咖啡馆(或带重量的“食堂”)实际上是每个月
 * 你对今年感到非常高兴？
 * 您最喜欢的蛋糕/冰盖中的火焰是什么？
 
-*你还有另一个有趣的问题要问别人吗？* *[取得联系](/README.md#get-in-touch) 并告诉我们！* *我们喜欢有创意的建议！*
+*你还有另一个有趣的问题要问别人吗？ * *[取得联系](/README.md#get-in-touch) 并告诉我们！ * *我们喜欢有创意的建议！</p>
 
 下面是2019年9月第二个协作咖啡馆的一个例子：
 
-> *此周的名字+最大成就+表情符号能够最好地解释你的日期* *(请记住，这是一个公开的文档)。 如果你喜欢的话，你可以使用一个假名。)*
+> *此周的名字+最大成就+表情符号能够最好地解释你的日期* *(请记住，这是一个公开的文档)。 如果你喜欢的话，你可以使用一个假名。 )*
 > 
-> * Kirstie Whitaker + 有一个为一篇极难开启的文章撰写的结构！ + 🤦‍♀️ (因为我有这几次混杂的时间-百岁！)
+> * Kirstie Whitaker + 有一个为一篇极难开启的文章撰写的结构！ + 🤦‍♀️ (因为我有这几次混杂的时间-百岁！ )
 > * Malvika Sharan + 从节假日回来，准备好进行激动人心的工作 :D + :grimacing:
 
 正如你们可以看到的那样，说明中的一个提醒是，它们是在公开文件中。 如果你能够添加同样多或少的信息，你可以轻松地分享，这样做是很好的。
@@ -129,13 +132,13 @@ _诱导之道_ 协作咖啡馆(或带重量的“食堂”)实际上是每个月
 
 在 **对话开始器** 部分中，我们鼓励每个人发布他们的活动广告或从他们的社区提供更新。
 
-这些都不必是刻画路"分支"！ **我们想知道你正在做的所有很酷的事情。** :sparkles：
+这些都不必是刻画路"分支"！ **我们想知道你正在做的所有很酷的事情。</p>
 
 ### 好的第一个贡献
 
 我们希望协作咖啡馆成为欢迎新老会员加入 _诱惑方式_ 社区的地方。
 
-In brainstorming these events, we imagined that some people may want to add new material that they've created before to the book, others may want to finish a contribution that they've started, and still others might want to learn new skills including _how_ to contribute to _The Turing Way_. These are **all** great reasons to join us!
+In brainstorming these events, we imagined that some people may want to add new material that they've created before to the book, others may want to finish a contribution that they've started, and still others might want to learn new skills including _how_ to contribute to _The Turing Way_. These are **all** great reasons to join us! These are **all** great reasons to join us!
 
 我们总是有人在团队中帮助您集思广益，回答关于如何纳入您的工作的任何问题。
 
@@ -157,7 +160,7 @@ In brainstorming these events, we imagined that some people may want to add new 
 
 > **课外课题提案**
 > 
-> *如果您有一个想要在分区讨论的主题， 请将其添加到下面并放在你的名字旁边。* *如果您喜欢已经推荐的主题之一。 请在该名称旁添加您的名字。* *团队工作使梦想正常。* *关于分会房间的更多信息，请参阅 [GitHub 上的描述](https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md#breakout-rooms)*
+> *如果您有一个想要在分区讨论的主题， 请将其添加到下面并放在你的名字旁边。 * *如果您喜欢已经推荐的主题之一。 请在该名称旁添加您的名字。 * *团队工作使梦想正常。 * *关于分会房间的更多信息，请参阅 [GitHub 上的描述](https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md#breakout-rooms)*
 
 为每届会议编写的文件 您可以提议在分会房间里进行对话或添加您的名字来加入已经在列表中的建议。
 

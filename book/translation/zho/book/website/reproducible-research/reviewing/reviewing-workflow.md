@@ -20,15 +20,15 @@ _Ting Way_ 项目示意图由 Storeria 标明。 在 CC-BY 4.0 许可下使用�
 
 ## 准备代码
 
-在请求审查之前，请确保您已经达到了您正在贡献的项目的所有明显质量基准。 这意味着请确保您已经检查过审核列表(见代码&lt;rr-checklist-for-code-review&gt;</code> 的 {ref}`清单)。</p>
+在请求审查之前，请确保您已经达到了您正在贡献的项目的所有明显质量基准。 这意味着请确保您已经检查过审核列表(见代码&lt;rr-checklist-for-code-review&gt;</code> 的 {ref}`清单)。
 
-<p spaces-before="0">审核者应检查这些内容(见编程器的 {ref}<code>清单<rr-checklist-for-code-review>`)， 但这些方面的缺陷应该是偶尔的监督，而不是系统性的。
+审核者应检查这些内容(见编程器的 {ref}<code>清单<rr-checklist-for-code-review>`)， 但这些方面的缺陷应该是偶尔的监督，而不是系统性的。
 
-## 提议更改
+## 合并更改
 
 在 GitHub 系统中，评论直接从 [拉取请求页](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) 开始并经常访问。 审查步骤发生在编程员认为他们的贡献已经完成并且该贡献已并入项目的中继代码的各点之间。 所以它与一个单一的拉请求密切相关。
 
-Within the Github environment, projects can be configured to *require* a review before a given pull request can be merged. 即使这个选项尚未被选中，仍然可以(甚至最佳做法)手动请求对一个待处理的合并请求进行审查。
+Within the Github environment, projects can be configured to *require* a review before a given pull request can be merged. 即使这个选项尚未被选中，仍然可以(甚至最佳做法)手动请求对一个待处理的合并请求进行审查。 即使这个选项尚未被选中，仍然可以(甚至最佳做法)手动请求对一个待处理的合并请求进行审查。
 
 ## 创建并讨论评论
 
@@ -42,7 +42,7 @@ Within the Github environment, projects can be configured to *require* a review 
 
 ## 通过 GitHub 通信结果
 
-在 Github, 评论应该添加到 `文件更改了` 部分。 这样他们可以被附加到特定的代码行中，见 [GitHub 审查脉冲请求中的更改](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/reviewing-changes-in-pull-requests)。 以这种方式发表许多小的评论，而不是用其中的一切作一整套大的文字，以便将不同的问题分开处理。 在相关情况下，请参阅现有问题和文件。
+这样他们可以被附加到特定的代码行中，见 [GitHub 审查脉冲请求中的更改](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/reviewing-changes-in-pull-requests)。 以这种方式发表许多小的评论，而不是用其中的一切作一整套大的文字，以便将不同的问题分开处理。 以这种方式发表许多小的评论，而不是用其中的一切作一整套大的文字，以便将不同的问题分开处理。 在相关情况下，请参阅现有问题和文件。
 
 如果您正在审查现有代码而不是更改，那么使用拉取请求仍然是方便的。 如果你发现一个问题有一个明显的解决方案，你可以以通常的方式提交一个带有补丁的拉请求。
 

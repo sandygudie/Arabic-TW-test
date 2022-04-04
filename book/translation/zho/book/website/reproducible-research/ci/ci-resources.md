@@ -47,7 +47,7 @@
 
 - [什么是 CI](https://github.com/travis-ci/docs-travis-ci-com/blob/master/user/for-beginners.md) **MIT**
 - [SSI 博客](https://software.ac.uk/using-continuous-integration-build-and-test-your-software?_ga=2.231776223.1391442519.1547641475-1644026160.1541158284) **知识共享属性分配，非商业2.5许可**
-- [持续整合、持续部署和连续投递之间的差异](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **知识共享署名-非商业用途-相同方式4.0国际许可。**
+- [持续整合、持续部署和连续投递之间的差异](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **知识共享署名-非商业用途-相同方式4.0国际许可。 **
 - [CI 与 python](https://docs.python-guide.org/scenarios/ci/) **Attributtion-NonCommercial-ShareAlis 3.0 取消**
 - [开始使用 GitHub 行动：概念和教程](https://www.padok.fr/en/blog/github-actions)
 - [使用 GitHub 操作的 CI/CD 教程](https://dev.to/michaelcurrin/intro-tutorial-to-ci-cd-with-github-actions-2ba8)

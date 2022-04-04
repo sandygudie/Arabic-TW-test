@@ -56,9 +56,9 @@ Esta figura puede ser referida en otros archivos utilizando el rol {ref} como:
 Ten en cuenta que una altura de 500px funciona muy bien con el libro _The Turing Way_ , pero esto es solo una sugerencia.
 (ch-style-figures-alttext)=
 ## Texto alternativo
-Se utiliza texto alternativo o texto alternativo para describir la apariencia y función de una imagen en una página HTML. Nuestra figura de ejemplo puede explicarse con esta frase: *Dos personas navegando felizmente archivos en un cajón de documentos.*
+Se utiliza texto alternativo o texto alternativo para describir la apariencia y función de una imagen en una página HTML. Nuestra figura de ejemplo puede explicarse con esta frase: *Dos personas navegando felizmente archivos en un cajón de documentos.* Añadir texto alternativo a figura es uno de los primeros principios de accesibilidad web.
 Añadir texto alternativo a figura es uno de los primeros principios de accesibilidad web. El software lector de pantalla puede leer un texto alternativo para explicar mejor el contenido de la figura a sus usuarios.
-Todos los componentes de tu figura (ubicación del archivo de imagen, tamaño, nombre, nombre texto alt y título) se pueden encapsular en una sección dentro de un archivo markdown utilizando la siguiente directiva:
+(ch-style-figuras-subtítulo)=
 
 ````
 ```{figure} ../../figures/file-collection.jpg
@@ -73,14 +73,11 @@ _The Turing Way_ ilustración del proyecto por Scriberia. Utilizado bajo una lic
 Otra ventaja de usar texto alternativo es cuando una imagen no puede ser cargada en un navegador, o el enlace a los saltos de la imagen, se muestra en lugar de una figura como se muestra a continuación:
 
 ```{figure} ../../figures/alt-text-demo.png
----
-name: alt-text-demo
-alt: Dos personas navegando felizmente archivos en un cajón de documentos.
----
-_The Turing Way_ ilustración del proyecto por Scriberia. Utilizado bajo una licencia CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+Haciendo tu primer pull request en GitHub.
+<em x-id="4">The Turing Way</em> project ilustration by Scriberia. Utilizado bajo una licencia CC-BY 4.0. DOI: <a href="https://doi.org/10.5281/zenodo.3332807">10.5281/zenodo.3332807</a>.
 ```
 
-Cuando todos estos componentes se utilizan correctamente, una figura incluida en un archivo será renderizada en el libro en línea como en esta página:
+Por ejemplo, un título podría decir:
 
 ```{figure} ../../figures/file-collection.jpg
 ---
@@ -96,9 +93,9 @@ _The Turing Way_ ilustración del proyecto por Scriberia. Utilizado bajo una lic
 
 Los subtítulos aparecen debajo de la figura. Deberían ser breves y concisos e incluir una referencia a la fuente de donde proceden. En particular, es importante describir la licencia bajo la cual se reutiliza la imagen.
 
-Por ejemplo, un título podría decir:
+(ch-style-figuras-avanzadas)=
 
-> Haciendo tu primer pull request en GitHub. _The Turing Way_ project ilustration by Scriberia. Utilizado bajo una licencia CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+> Haciendo tu primer pull request en GitHub. _The Turing Way_ project ilustration by Scriberia. Utilizado bajo una licencia CC-BY 4.0. DOI: \[10.5281/zenodo.3332807\](https://doi.org/10.5281/zenodo.3332807).
 
 La sintaxis para esta imagen es la siguiente, y la forma en que aparece en el libro está debajo del fragmento de código.
 

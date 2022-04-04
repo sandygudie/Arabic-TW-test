@@ -12,8 +12,7 @@ Conforme mencionado anteriormente, existem algumas ferramentas automáticas que 
 altura: 500px
 nome: lintr_output
 alt: saída lintr mostrando recomendações para adicionar espaço, remover código comentado, remover espaço em branco no treinamento, tem tamanho de caractere por linha menor que 80 quando necessário no código de entrada.
----
-Um exemplo de como a saída do lintr pode parecer para um arquivo de entrada com código R.
+--- Um exemplo de como a saída do lintr pode parecer para um arquivo de entrada com código R.
 ```
 
 Para obter mais detalhes, por favor, visite o [repositório do GitHub](https://github.com/jimhester/lintr).

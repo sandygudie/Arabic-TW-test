@@ -7,8 +7,7 @@ Se você planeja uma grande peça de trabalho em seu projeto, é uma boa ideia p
 ---
 nome: planejamento do projeto
 alternativo: imagem mostra uma mão segurando um smartphone com um mapa marcado com marcos 1, 2 e 3. Esse aplicativo de telefone para mapa ou analogia de navegador é útil para entender marcos e roteiros de projetos em projetos de pesquisa.
----
-Ilustração sobre o roteiro do projeto.
+--- Ilustração sobre o roteiro do projeto.
 _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: 10.5281/zenodo.3332807.
 ```
 

@@ -7,7 +7,7 @@ Aqui estão alguns aspectos a considerar quando seu código é fácil de ser lid
 
 ## Comprimento da linha
 
-Existe algum acordo quanto à duração das linhas de codificação. O PEP8 sugere um máximo de 79 caracteres por linha e 80 pelo guia de estilo R. Isso significa que as linhas podem caber facilmente na tela, e várias janelas de programação podem ser abertas. Argumenta-se que se sua linha for maior do que isso, sua função é muito complexa e deve ser separada! Este é o cerne do método Tidy na programação R, que até tem um operador especial `%>%` que passa o objeto anterior para a próxima função, assim são necessários menos caracteres:
+Existe algum acordo quanto à duração das linhas de codificação. O PEP8 sugere um máximo de 79 caracteres por linha e 80 pelo guia de estilo R. Isso significa que as linhas podem caber facilmente na tela, e várias janelas de programação podem ser abertas. Isso significa que as linhas podem caber facilmente na tela, e várias janelas de programação podem ser abertas. Argumenta-se que se sua linha for maior do que isso, sua função é muito complexa e deve ser separada! Este é o cerne do método Tidy na programação R, que até tem um operador especial `%>%` que passa o objeto anterior para a próxima função, assim são necessários menos caracteres:
 
 ```r
 recoded_melt_dat <- read_csv('~/files/2019-05-17_dat.csv') %>%
@@ -39,8 +39,7 @@ print(my_func(2))
 Para comentários mais longos, a informação pode ser incluída acima do bloco de código. Em Python, você pode usar marcas de fala triplas como parênteses. Isto irá comentar qualquer coisa.
 
 ```python
-"""
-A função a seguir recebe um número, multiplica-o por 5 e subtrata 2.
+""" A função a seguir recebe um número, multiplica-o por 5 e subtrata 2.
 Isto pode parecer inútil, mas é simples de manifestar.
 """
 def minhafunc(numb): #python função

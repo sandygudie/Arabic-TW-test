@@ -90,7 +90,7 @@ Sin embargo, si no puede editar directamente el repositorio (cuando no es un pro
 (rr-vcs-github-contributing)=
 ## Contribuir a otros proyectos
 
-Cuando crea una copia local de un repositorio, sólo mantiene las versiones de los ficheros que están en el repositorio al crear esa copia. Si se hacen cambios en el repositorio original posteriormente, su copia se dessincronizará. Esto puede provocar problemas como conflictos en el contenido del archivo al hacer una pull request o fusionar cambios de su rama al repositorio principal. Por lo tanto, al trabajar en diferentes ramas o bifurcaciones de un repositorio, es una buena práctica para mantenerlos actualizados con el repositorio principal y en sincronización con el repositorio original.
+Cuando crea una copia local de un repositorio, sólo mantiene las versiones de los ficheros que están en el repositorio al crear esa copia. Por lo tanto, al trabajar en diferentes ramas o bifurcaciones de un repositorio, es una buena práctica para mantenerlos actualizados con el repositorio principal y en sincronización con el repositorio original. Si se hacen cambios en el repositorio original posteriormente, su copia se dessincronizará. Esto puede provocar problemas como conflictos en el contenido del archivo al hacer una pull request o fusionar cambios de su rama al repositorio principal.
 
 (rr-vcs-github-contributing-workflow)=
 ### Un flujo de trabajo para contribuir a otros proyectos de Github a través de `git`:

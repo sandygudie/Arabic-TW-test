@@ -21,17 +21,17 @@
 
 我们已经讨论了为什么分享您的工作是重要的，我们已经到了我们决定在协作平台上发布一些带有分析代码的Jupyter 笔记本的程度。 例如GitHub
 
-GitHub 是一个分享代码 _的强大平台。_。 如果仓库是公开的，任何人都可以导航到你的笔记本并阅读内容。 然而， _运行_ 代码要比像GitHub 那样显示更复杂得多。 运行代码需要很多相互依赖的部分，如：
+GitHub 是一个分享代码 _的强大平台。 如果仓库是公开的，任何人都可以导航到你的笔记本并阅读内容。 然而， _运行_ 代码要比像GitHub 那样显示更复杂得多。 运行代码需要很多相互依赖的部分，如：</p>
 
 - a. 守则本身的副本；
 - 执行它的适当软件；
 - 代码所依赖的任何额外软件包不是核心软件的一部分；
 - 分析所需的任何输入数据；
-- 你还需要一些硬件(一台电脑！) 来运行它。
+- 你还需要一些硬件(一台电脑！ ) 来运行它。
 
 除获得所有这些部分外，还要获得所有这些部分， 您还必须正确地安装这些软件，使它们不会受到影响或与您的机器上可能运行的其他软件发生冲突。 这是很多工作！
 
-How much easier would it be if we could **run code in the browser**, similar to how it's displayed? 这是Binder项目的目的。
+How much easier would it be if we could **run code in the browser**, similar to how it's displayed? 这是Binder项目的目的。 这是Binder项目的目的。
 
 项目Binder为用户提供以下基础设施：
 
@@ -63,9 +63,9 @@ How much easier would it be if we could **run code in the browser**, similar to 
 在本节中，有一些相关的术语，为了明确起见，将在此概述：
 
 - **Project Binder**: 一个开放的社区，能够创建清晰的、交互式的、可反应的环境。 此项目的技术输出是 {ref}`rr-binder枢纽`
-- **BinderHub**: 一个基于云的基础结构，用于生成绑定。 最广泛使用的是 [mybinder.org](https://mybinder.org), 它是由 Project Binder 团队维护的。 它基于一系列开源工具，包括 [JupyterHub](https://z2jh.jupyter.org)， 通过浏览器向用户提供云计算资源； and [`repo2docker`](https://repo2docker.readthedocs.io/), for building docker images from projects. 由于这是一个开放的项目，可以创建其他BinderHubs来支持更专业化的配置。 其中一个配置可以包括身份验证，以使私人仓库能够在密切的合作者之间分享。
+- **BinderHub**: 一个基于云的基础结构，用于生成绑定。 最广泛使用的是 [mybinder.org](https://mybinder.org), 它是由 Project Binder 团队维护的。 它基于一系列开源工具，包括 [JupyterHub](https://z2jh.jupyter.org)， 通过浏览器向用户提供云计算资源； and [`repo2docker`](https://repo2docker.readthedocs.io/), for building docker images from projects. 由于这是一个开放的项目，可以创建其他BinderHubs来支持更专业化的配置。 由于这是一个开放的项目，可以创建其他BinderHubs来支持更专业化的配置。 其中一个配置可以包括身份验证，以使私人仓库能够在密切的合作者之间分享。
 - **一个 Binder**: 一个可以透过浏览器在云端运行的可复现的计算环境中查看和交互的项目的可分享版本。 By automating the installation of the computing environment (as discussed in the {ref}`rr-renv` chapter), Project Binder transforms the overhead of sharing such an environment into the act of sharing a URL.
-- **[mybinder.org](https://mybinder.org)**: 一个公开和免费的 BinderHub 因为它是公开的，如果您的项目需要任何个人或敏感信息(例如密码)，您不应该使用它。
+- **[mybinder.org](https://mybinder.org)**: 一个公开和免费的 BinderHub 因为它是公开的，如果您的项目需要任何个人或敏感信息(例如密码)，您不应该使用它。 因为它是公开的，如果您的项目需要任何个人或敏感信息(例如密码)，您不应该使用它。
 - **绑定**: 从一个项目创建一个绑定器的过程。
 
 (binder-appropriate)=
@@ -95,9 +95,9 @@ Hence, mybinder.org is **not** an appropriate place to perform end-to-end replic
 
 不幸的是，你不能做到。 至少在运行中的 Binder 实例的命令行中不能。
 
-写回托管仓库，无论是在 GitHub 上还是其他平台， 将需要某种凭据授权您写入该仓库。 正如已经提到的那样，我是有约束力的。 rg 是一种完全的公共服务，不应在任何情况下向运行中的Binder实例提供任何敏感信息。
+写回托管仓库，无论是在 GitHub 上还是其他平台， 将需要某种凭据授权您写入该仓库。 rg 是一种完全的公共服务，不应在任何情况下向运行中的Binder实例提供任何敏感信息。
 
-然而，这一条是有约束力的。 rg 运行一个名为 [`jupyter-offlinenotebook`](https://github.com/manics/jupyter-offlinenotebook) 的附加组件提供了一个下载按钮以保存本地笔记本。 _即使您的浏览器已经失去了与提供计算机的云端基础设施的连接！_ 这意味着您可以在本地保存您的进度 用你保存的笔记本更新你的仓库，并用更新的笔记本重新启动你的笔记本。
+然而，这一条是有约束力的。 rg 运行一个名为 [`jupyter-offlinenotebook`](https://github.com/manics/jupyter-offlinenotebook) 的附加组件提供了一个下载按钮以保存本地笔记本。 _即使您的浏览器已经失去了与提供计算机的云端基础设施的连接！ _ 这意味着您可以在本地保存您的进度 用你保存的笔记本更新你的仓库，并用更新的笔记本重新启动你的笔记本。
 
 ```{figure} ../figures/binder_notebook_banner.jpg
 ---

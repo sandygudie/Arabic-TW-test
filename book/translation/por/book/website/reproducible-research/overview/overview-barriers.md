@@ -10,8 +10,7 @@ Nesta seção, cobrimos algumas das (reais e percebidas) barreiras que você pod
 largura: 500px
 nome: reprodutibilidade-barreiras
 alt: Deslize da apresentação mostrando as diferentes barreiras para reprodutibilidade. O texto no centro diz "Barreiras à pesquisa reprodutível" e as seguintes barreiras estão organizadas no sentido horário em torno do deslizamento - não é considerado para promoção, Segurado a um padrão mais alto que outros, Viés de publicação para descobertas de romances, liderar o 5, Tomar o tempo, Suportar usuários adicionais, Requer habilidades adicionais.
----
-Um slide delineando algumas das barreiras para reprodutível pesquisa por Kirstie Whitaker [fale sobre A Turing Way_](https://youtu.be/wZeoZaIV0VE?t=312) em [csv,conf,v4](https://csvconf.com/2019) em maio de 2019.
+--- Um slide delineando algumas das barreiras para reprodutível pesquisa por Kirstie Whitaker [fale sobre A Turing Way_](https://youtu.be/wZeoZaIV0VE?t=312) em [csv,conf,v4](https://csvconf.com/2019) em maio de 2019.
 Usado sob uma licença CC-BY 4.0.
 DOI: [10.5281/zenodo.2669547](https://doi.org/10.5281/zenodo.2669547).
 ```
@@ -21,17 +20,16 @@ Este capítulo descreve algumas dessas barreiras, e algumas sugestões para as c
 (rr-vos-visão-barreiras-incentivos)=
 ## Incentivos limitados para fornecer provas contra si mesmo
 
-A [Quinta Alteração](https://en.wikipedia.org/wiki/Fifth_Amendment_to_the_United_States_Constitution) à Constituição dos Estados Unidos inclui uma cláusula segundo a qual ninguém "será obrigado, em qualquer caso criminal, a ser testemunha contra [them]navio[ves]". (Edicado a linguagem de gênero neutro.) "Defender a quinta" significa que alguém opta por não dar provas de que poderia ter havido algo de errado no seu comportamento passado. Têm o direito de permanecer em silêncio.
+A [Quinta Alteração](https://en.wikipedia.org/wiki/Fifth_Amendment_to_the_United_States_Constitution) à Constituição dos Estados Unidos inclui uma cláusula segundo a qual ninguém "será obrigado, em qualquer caso criminal, a ser testemunha contra [them]navio[ves]". (Edicado a linguagem de gênero neutro.) (Edicado a linguagem de gênero neutro.) "Defender a quinta" significa que alguém opta por não dar provas de que poderia ter havido algo de errado no seu comportamento passado. Têm o direito de permanecer em silêncio.
 
 Sabemos que ninguém quer incriminar-se a si próprio e também que ninguém é infalível. Colocar seu código e seus dados online pode ser muito revelador e intimidador, e faz parte da condição humana estar nervoso por ser julgado pelos outros. Embora não exista nenhuma _lei_ que rege a comunicação de pesquisas reprodutíveis - a menos que você cometer fraude explícita no seu trabalho - a partilha de erros que você encontre em seu trabalho é fortemente desincentivada.
 
 ```{figure} ../../figures/make-ok-to-be-human.jpg
 ---
-height: 500px
-nome: make-ok-to-be-human
-alt: Um desenho animado de uma mulher que segura uma pasta de arquivos e parece preocupada. Bolha de pensamento diz: se eu compartilhar meus dados, as pessoas podem encontrar erros. A legenda nas imagens diz que é preciso fazer com que seja humana.
----
-Uma ilustração da barreira "suplicar a quinta" onde nossa cultura atual desincentiva o reconhecimento e a correção de erros.
+largura: 500px
+name: help-you-of-the-future
+alt: Um desenho animado de uma mulher que volta para si mesma uma pasta de documentos. Bolha de fala diz que você está mantendo registros para você no futuro. ---
+Embora tornar uma documentação clara pode parecer que está demorando muito tempo no momento, você está ajudando você e seus colaboradores lembram o que você fez para que seja fácil reutilizar o trabalho ou fazer alterações no futuro.
 Ilustração por The Ludic Group LLP da apresentação de keynote do Kirstie Whitaker em Dados Científicos de 2017.
 Usado sob uma licença CC-BY 4.0.
 DOI: [10.6084/m9.figshare.5577340.v1](https://doi.org/10.6084/m9.figshare.5577340.v1).
@@ -44,7 +42,7 @@ O mais importante, precisamos nos afastar de uma cultura onde publicar nada é m
 (rr-overview-barriers-publicação)=
 ## Viés de publicação para descobertas novas
 
-Os novos resultados não são necessariamente precisos ou interessantes, mas são recompensados no mundo académico! Papéis que não encontram relações estatisticamente significativas são difíceis de publicar, particularmente se os resultados *não* reproduzem descobertas publicadas anteriormente. (Isso inclui descobertas estatisticamente significativas que vão na direcção oposta à do trabalho já publicado.) Da mesma forma, um artigo pode ser menos provável de ser aceito por um diário ou uma conferência se ele reproduz resultados já publicados com sucesso em vez de produzir um novo conjunto. Há uma boa chance de os revisores dizerem "já sabemos disso" e rejeitarem o envio.
+Os novos resultados não são necessariamente precisos ou interessantes, mas são recompensados no mundo académico! Papéis que não encontram relações estatisticamente significativas são difíceis de publicar, particularmente se os resultados *não* reproduzem descobertas publicadas anteriormente. (Isso inclui descobertas estatisticamente significativas que vão na direcção oposta à do trabalho já publicado.) (Isso inclui descobertas estatisticamente significativas que vão na direcção oposta à do trabalho já publicado.) Da mesma forma, um artigo pode ser menos provável de ser aceito por um diário ou uma conferência se ele reproduz resultados já publicados com sucesso em vez de produzir um novo conjunto. Há uma boa chance de os revisores dizerem "já sabemos disso" e rejeitarem o envio.
 
 O preconceito para a novidade na ciência de dados significa que muitos investigadores estão desincentivados de fazer o trabalho para documentar, testar e compartilhar seus códigos e dados. John Ioannidis publicou um documento influente em 2005 intitulado "Por que as mais publicadas pesquisas descobertas são falsas" {cite:ps}`Ioannidis2005False` que discute os muitos fatores que contribuem para a publicação de viés. Tendo em conta estes preconceitos, é muito provável que haja muito trabalho duplicado na ciência dos dados. Muitos pesquisadores diferentes fazem a mesma pergunta, não obter a resposta que esperam ou que queiram e depois não dizer a ninguém o que encontraram.
 
@@ -91,9 +89,9 @@ Também pode ser gasto tempo comunicando com os colaboradores para concordar sob
 
 ```{figure} ../../figures/help-you-of-the-future.jpg
 ---
-largura: 500px
-name: help-you-of-the-future
-alt: Um desenho animado de uma mulher que volta para si mesma uma pasta de documentos. Bolha de fala diz que você está mantendo registros para você no futuro.
+height: 500px
+nome: make-ok-to-be-human
+alt: Um desenho animado de uma mulher que segura uma pasta de arquivos e parece preocupada. Bolha de fala diz que você está mantendo registros para você no futuro.
 ---
 Embora tornar uma documentação clara pode parecer que está demorando muito tempo no momento, você está ajudando você e seus colaboradores lembram o que você fez para que seja fácil reutilizar o trabalho ou fazer alterações no futuro.
 Ilustração por The Ludic Group LLP da apresentação de keynote do Kirstie Whitaker em Dados Científicos de 2017.
@@ -115,7 +113,7 @@ Em quase todos os casos, a criação de código e de código aberto requer uma d
 (rr-overview-barriers-habilidades)=
 ## Requer habilidades adicionais
 
-Como você pode ver pelo número crescente de capítulos em _The Turing Way_, trabalhar de forma reprodutiva requer competências que nem sempre são ensinadas em programas de formação. Você - ou alguém da sua equipe - pode precisar desenvolver experiência em engenharia de dados, pesquisar engenharia de software, escrita técnica para documentação ou gerenciamento de projetos no GitHub. Essa é uma grande barreira quando as estruturas de incentivo atuais não estão alinhadas com o aprendizado dessas habilidades (veja as barreiras no {ref}`invocando o quinto<rr-overview-barriers-incentives>`, {ref}`viés de publicação para novas descobertas<rr-overview-barriers-publication>`, {ref}`mantidos em padrões mais altos do que outros<rr-overview-barriers-standards>`, e {ref}`não são considerados para promoção<rr-overview-barriers-promotion>`!) No entanto, esta é a principal barreira que nós no _The Turing Way_ estamos trabalhando para desmantelar com você. Esperamos que você goste de aprender estas habilidades conosco e que nos ajude a melhorar o livro como quiser.
+Como você pode ver pelo número crescente de capítulos em _The Turing Way_, trabalhar de forma reprodutiva requer competências que nem sempre são ensinadas em programas de formação. Você - ou alguém da sua equipe - pode precisar desenvolver experiência em engenharia de dados, pesquisar engenharia de software, escrita técnica para documentação ou gerenciamento de projetos no GitHub. Essa é uma grande barreira quando as estruturas de incentivo atuais não estão alinhadas com o aprendizado dessas habilidades (veja as barreiras no {ref}`invocando o quinto<rr-overview-barriers-incentives>`, {ref}`viés de publicação para novas descobertas<rr-overview-barriers-publication>`, {ref}`mantidos em padrões mais altos do que outros<rr-overview-barriers-standards>`, e {ref}`não são considerados para promoção<rr-overview-barriers-promotion>`!) No entanto, esta é a principal barreira que nós no _The Turing Way_ estamos trabalhando para desmantelar com você. No entanto, esta é a principal barreira que nós no _The Turing Way_ estamos trabalhando para desmantelar com você. Esperamos que você goste de aprender estas habilidades conosco e que nos ajude a melhorar o livro como quiser.
 
 > "Uma jornada de mil milhas começa com um único passo" (filósofo chinês [Lao Tzu](https://en.wikipedia.org/wiki/A_journey_of_a_thousand_miles_begins_with_a_single_step)).
 

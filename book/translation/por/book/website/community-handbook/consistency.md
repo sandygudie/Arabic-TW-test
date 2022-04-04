@@ -24,8 +24,7 @@ Se você identificar mais problemas de consistência que precisam ser abordados,
 altura: 400px
 nome: teturingway-consisty-consist
 alt: Esta ilustração mostra uma escada indicando o caminho para manter a consistência que tem três pilares - formatação, estrutura e linguagem. Uma pessoa está guiando dois novos colaboradores no estar.
----
-Pathway para manter a consistência. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+--- Pathway para manter a consistência. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
 (ch-consistência-requisitos-checklist)=

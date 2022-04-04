@@ -18,8 +18,7 @@ os: linux
 # 使用编程语言 Python
 语言: python
 
-# 使用版本的 Python 3。
-python: 3.2
+# 使用版本的 Python 3。 python: 3.2
 
 # 使用 Python 软件包编号并使用版本 1。 6.1
 软件包：
@@ -100,11 +99,11 @@ jedi:
 (rr-renv-yaml-environment)=
 ## 如何使用 Yaml 来定义计算环境
 
-由于其简洁性，YAML 文件可以手写。 Alternatively, they can be automatically generated as discussed in the {ref}`rr-renv-package` subchapter. 从YAML文件中可以通过几种方式复制计算环境。
+由于其简洁性，YAML 文件可以手写。 Alternatively, they can be automatically generated as discussed in the {ref}`rr-renv-package` subchapter. 从YAML文件中可以通过几种方式复制计算环境。 从YAML文件中可以通过几种方式复制计算环境。
 
-- **手动。** 可以通过仔细安装指定的软件包来手动完成。 因为YAML 文件也可以指定可能与试图复制环境的人相匹配的操作系统和版本， 这可能需要使用 {ref}`rrr-renv-vm`
+- **手动。 ** 可以通过仔细安装指定的软件包来手动完成。 因为YAML 文件也可以指定可能与试图复制环境的人相匹配的操作系统和版本， 这可能需要使用 {ref}`rrr-renv-vm`
 
-- **通过Conda等包管理系统。** 正如 {ref}`所讨论的 <rr-renv-package>`以及能够从计算环境生成YAML 文件。 Conda 也可以从 YAML 文件生成计算环境。
+- **通过Conda等包管理系统。 ** 正如 {ref}`所讨论的 <rr-renv-package>`以及能够从计算环境生成YAML 文件。 Conda 也可以从 YAML 文件生成计算环境。
 
 (rr-renv-yaml-security)=
 ## 安全问题

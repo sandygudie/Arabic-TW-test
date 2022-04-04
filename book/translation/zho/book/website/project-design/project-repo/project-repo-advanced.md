@@ -22,11 +22,27 @@
 
 ```
 项目文件夹/
-/ ---- ---社区项目的 CODE_OF_CONDUCT          <- 社区项目的行为守则
-| -- --CONTRIBUTING             <- 合作者的贡献指南
-------- LICENSE                  <- 软件许可证
----. 。                      <- 您可能已经为您的项目添加的任何其他文件
---README d                <- 关于仓库的信息
+/ *--docs                     <- 文档
+codex. --codelist.txt 
+cernet---project_plan.txt
+codes--- ...
+│   └── deliverables.txt
+├── data
+│   └── raw/
+│       └── my_data.csv
+│   └── clean/
+│       └── data_clean.csv
+├── analysis                 <- scripts
+│   └── my_script.R
+├── results                  <- analysis output     
+│   └── figures
+├── .gitignore               <- files excluded from git version control 
+├── install.R                <- environment setup
+├── CODE_OF_CONDUCT          <- Code of Conduct for community projects
+├── CONTRIBUTING             <- Contribution guideline for collaborators
+├── LICENSE                  <- software license
+├── README.md                <- information about the repo
+└── report.md                <- report of project
 ```
 
 在本小章中，我们概述了设计一个仓库的好处和考虑因素，以及一个示例结构和指导您工作流程的进一步资源。

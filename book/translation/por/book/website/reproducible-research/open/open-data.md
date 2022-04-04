@@ -45,7 +45,7 @@ Muitas áreas de disciplinas científicas envolvem o trabalho com dados pessoais
 (rr-dados-barreiras-consentimentos)=
 ### Consentimento
 
-Para que os dados de pesquisa anonimamente sejam disponibilizados para futura reutilização, formulários de consentimento devem cobrir o compartilhamento desses dados com outros investigadores. Pesquisas até agora sugerem que os participantes dos estudos geralmente estão menos preocupados com os dados arquivados e compartilhados que os pesquisadores acham que {cite:ps}`Kuula2010archiving`. As folhas de informação dos participantes e formulários de consentimento devem incluir como os dados de pesquisa serão armazenados, preservado e utilizado a longo prazo e como a confidencialidade será protegida quando necessário.
+Para que os dados de pesquisa anonimamente sejam disponibilizados para futura reutilização, formulários de consentimento devem cobrir o compartilhamento desses dados com outros investigadores. As folhas de informação dos participantes e formulários de consentimento devem incluir como os dados de pesquisa serão armazenados, preservado e utilizado a longo prazo e como a confidencialidade será protegida quando necessário. Pesquisas até agora sugerem que os participantes dos estudos geralmente estão menos preocupados com os dados arquivados e compartilhados que os pesquisadores acham que {cite:ps}`Kuula2010archiving`.
 
 (barreiras-abertas-anonimização)=
 ### Anonymisation

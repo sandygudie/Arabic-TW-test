@@ -15,15 +15,15 @@ Algunos de estos recursos se refieren a la investigación de calidad, pero son a
 
 * Jacobson, D. y Mustafa, N. (2019) [Mapa de identidad social: una herramienta de reflexividad para practicar la posicionalidad explícita en la investigación de calidad crítica](https://journals.sagepub.com/doi/full/10.1177/1609406919870075) {cite:ps}`jacobson2019social`
 
-* Holmes, A.G.D. (2020) [Positionality del investigador - Una consideración de su influencia y lugar en la investigación cualitativa - una nueva guía del investigador.](https://files.eric.ed.gov/fulltext/EJ1268044.pdf) {cite:ps}`holmes2020 investigador`
+* Holmes, A. G.D. (2020) [Positionality del investigador - Una consideración de su influencia y lugar en la investigación cualitativa - una nueva guía del investigador.](https://files.eric.ed.gov/fulltext/EJ1268044.pdf) {cite:ps}`holmes2020 investigador`
 
 ## Leer más sobre la posicionalidad y la reflexividad en la ciencia
 
 * Haraway, D. (1988) [Conocimientos locales: La cuestión de la ciencia en el feminismo y el privilegio de la perspectiva parcial](https://www.jstor.org/stable/3178066) {cite:ps}`haraway1988situated`
 
-* Ricker, B. (2017) [Reflexividad, Positionality and Rigor in the Context of Big Data Research](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2911652) {cite:ps}`ricker2017reflexivity`
+* Jafar, A. N.J. (2018) [¿Qué es la posicionalidad y debe expresarse en estudios cuantitativos?](https://emj.bmj.com/content/35/5/323) {cite:ps}`jafar2018positionality`
 
-* Jafar, A.N.J. (2018) [¿Qué es la posicionalidad y debe expresarse en estudios cuantitativos?](https://emj.bmj.com/content/35/5/323) {cite:ps}`jafar2018positionality`
+* Ricker, B. (2017) [Reflexividad, Positionality and Rigor in the Context of Big Data Research](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2911652) {cite:ps}`ricker2017reflexivity`
 
 * Costanza-Chock, S., (2020) [Diseño Justico: Prácticas Led Comunitaria para Construir el Mundo que necesitamos](https://design-justice.pubpub.org/) {cite:ps}`costanza2020design`
 

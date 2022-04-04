@@ -6,7 +6,7 @@
 (cm-podcasts-how )=
 ## 开始播客
 
-* [如何开始播客](https://www.podcastinsights.com/start-a-podcast/?gclid=CjwKCAiA9vOABhBfEiwATCi7GNV7zJl0tHaVkW-7DCjVdAwGa4q0vbaXB44xsSBHp7YBO8K6pH0syBoCVtUQAvD_BwE) 如果你有做播客的经验并希望更详细地写下这个信息来帮助他人。 然后请联系我们。
+* [如何开始播客](https://www.podcastinsights.com/start-a-podcast/?gclid=CjwKCAiA9vOABhBfEiwATCi7GNV7zJl0tHaVkW-7DCjVdAwGa4q0vbaXB44xsSBHp7YBO8K6pH0syBoCVtUQAvD_BwE) 如果你有做播客的经验并希望更详细地写下这个信息来帮助他人。
 
 (cm-podcass-recommendations)=
 ## 我们推荐的播客数

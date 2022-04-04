@@ -56,9 +56,9 @@ The {ref}`rr-code-reuse` provides a more in-depth list of different aspects to c
 (rr-open-source-run)=
 ## 如何运行您的开源软件项目
 
-您可以打开源代码，一个正在进行中的工作，或者多年被关闭的源代码。 在最基本的层面，您需要做的只是将您的代码放在网上的某个地方，这可能会持续很长时间。 你可以将你的代码分配为 DOI [{term}`def<Digital Object Identifier>`] (在关于 {ref}的章节中讨论过`rr-rdmsharing`). 这有助于确保如果有人使用您的工作或以您的工作为基础，您可以获得适当的积分。
+您可以打开源代码，一个正在进行中的工作，或者多年被关闭的源代码。 在最基本的层面，您需要做的只是将您的代码放在网上的某个地方，这可能会持续很长时间。 你可以将你的代码分配为 DOI [{term}`def<Digital Object Identifier>`] (在关于 {ref}的章节中讨论过`rr-rdmsharing`). 这有助于确保如果有人使用您的工作或以您的工作为基础，您可以获得适当的积分。 这有助于确保如果有人使用您的工作或以您的工作为基础，您可以获得适当的积分。
 
-提供您的代码的热门地方是 GitHub [{term}`def<Github>`] (见关于 {ref}`rr-vcs` 的章节)。 您必须包含一个许可文件，说明任何人都有权限使用、复制和修改您的工作。 没有这一点，任何人都不能合法地使用你的工作，因此它不是开源的。 The {ref}`rr-licensing` chapter will help you to pick the best license for your project. 还有几个其他文件你应该包含在你的代码中，如下所述。
+提供您的代码的热门地方是 GitHub [{term}`def<Github>`] (见关于 {ref}`rr-vcs` 的章节)。 您必须包含一个许可文件，说明任何人都有权限使用、复制和修改您的工作。 没有这一点，任何人都不能合法地使用你的工作，因此它不是开源的。 The {ref}`rr-licensing` chapter will help you to pick the best license for your project. 还有几个其他文件你应该包含在你的代码中，如下所述。 还有几个其他文件你应该包含在你的代码中，如下所述。
 
 (rr-open-source-run-readme)=
 ### 通过添加信息到您的README来欢迎用户

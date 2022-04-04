@@ -10,10 +10,10 @@
 
 下面的清单将有助于以有条理的方式审慎建立研究项目中的协作关系。
 
-本文所列的做法源于参加一些成功的开放研究社区和牵头社区驱动项目如 [Carpentes](https://carpentries.org)的作者的经验，并且受到这些经验的限制。 [Mozilla 开放领袖](https://mozilla.github.io/open-leadership-training-series/), [开放生命科学](https://openlifesci.org/) 和 _“正在进行的方法_ 阅读本章时，请注意您可能需要对性质可能非常不同的项目进行调整(例如)。 资料来源不完全公开）。
+[Mozilla 开放领袖](https://mozilla.github.io/open-leadership-training-series/), [开放生命科学](https://openlifesci.org/) 和 _“正在进行的方法_ 阅读本章时，请注意您可能需要对性质可能非常不同的项目进行调整(例如)。 资料来源不完全公开）。 阅读本章时，请注意您可能需要对性质可能非常不同的项目进行调整(例如)。 资料来源不完全公开）。
 
 (cl-new-community-guide-checklist-comms-platform)=
-### 1. 选择一个通信平台
+### 1. 1. 选择一个通信平台
 
 - 当领导一个开放项目时，使用协作和开放的平台，如 [GitHub](http://github.com/) 或 [GitLab](https://about.gitlab.com/)。
 - 评价对任何实时通信的需要 比如，如果文本聊天系统，例如 [Slack](https://slack.com) 或 [Element/Matrix](https://element.io/get-started) 会有用，或者邮件列表是否足够(阅读详细信息 {ref}`通信频道 <cm-os-comms-channels>`)。
@@ -22,7 +22,7 @@
 - 确保这些平台的选择是为了确保加入这些平台的障碍较小。
 
 (cl-new-community guide-checklist-proj-summary)=
-### 2. 提供一个项目摘要文件：
+### 2. 2. 提供一个项目摘要文件：
 
 - 您的项目中的第一个文档应该是一个项目摘要文件，它在 GitHub 仓库中将是一个 [README.md文件](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes)。
 - 这将提供有关您的项目的基本信息，以便人们能够评估为什么您的项目会对他们有兴趣。
@@ -32,7 +32,7 @@
   - 例如见 [Atom project](https://github.com/atom/atom)。
 
 (cl-new-community-guide-checklist-code-conduct)=
-### 3. 选择一个行为守则：
+### 3. 3. 选择一个行为守则：
 
 - 在您的项目中添加一个开源项目 [行为准则](https://opensourceconduct.com/)。
 - 这份文件不应被用作象征，非常重要的是要有意识地作出努力。
@@ -42,7 +42,7 @@
   - 这可以在 [GitHub 问题](https://help.github.com/en/github/managing-your-work-on-github/about-issues)或 [拉取请求](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) 上完成。
 
 (cl-new-community contribut-guidelines)=
-### 4. 提供贡献指南和交互路径：
+### 4. 4. 提供贡献指南和交互路径：
 
 - 深思熟虑的指导方针帮助人们决定他们可以选择哪种途径为你的项目做出贡献。 或者如果他们想要加入您的社区。
 - 确保您的社区互动和不同的贡献途径是公开、包容和明确的。
@@ -53,7 +53,7 @@
   - 请参阅 [_Ting Way_的提交文件](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) 以供参考。
 
 （cl-new-community）=
-### 5. 创建基本管理/领导结构：
+### 5. 5. 创建基本管理/领导结构：
 
 - 公开项目中的领导结构应旨在赋予他人权力，发展你们社区的机构和问责制。
 - 您可以先列出您的项目中的不同任务，并邀请您的成员领导这些任务。
@@ -70,7 +70,7 @@
 - 如果需要立即解决一些问题，这将是特别有益的。
 
 (cl-new-community approach)=
-### 7. 识别失败的方法并停止主题：
+### 7. 7. 识别失败的方法并停止主题：
 
 - 因此，发展以反复的方式进行，定期重新审视你们的计划和想法，并让你们的成员参与这一进程。
 - 检查是否存在应合并或更改的并行动态或多个方法。
@@ -82,7 +82,7 @@
   - [初学者关于Scrum and Agile Project Management的指南](https://blog.trello.com/beginners-guide-scrum-and-agile-project-management)
 
 (cl-new-community)=
-### 8. 您的项目文件和传播计划：
+### 8. 8. 您的项目文件和传播计划：
 
 - 当新成员加入你的项目时，他们必须能够找到他们所需要的信息，而不必询问你。
 - 着力制定文件计划，将通过分享关于过去决定或项目用途的决策过程的一般信息，使您摆脱许多与通信有关的挑战。

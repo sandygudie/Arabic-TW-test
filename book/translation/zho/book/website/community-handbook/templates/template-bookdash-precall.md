@@ -34,7 +34,7 @@
 - Introductions (互相了解): 10 minutes
 - About Book Dash([logistics, accessible support, socials](https://hackmd. o/@turingway/bookdash-may2021-index): 10 分钟
 - [SMART objective setting](https://www.atlassian.com/blog/productivity/how to written smart-goals) (or quit writing): 15 minutes
-- A Strieria artists will be there !! - 你想要得到一些说明吗？ (you should [check this out(https://zenodo.org/record/3332808))
+- A Strieria artists will be there !! - 你想要得到一些说明吗？ - 你想要得到一些说明吗？ (you should [check this out(https://zenodo.org/record/3332808))
 - Report out and general discussion: 30 minutes
 - Wrap up and final words: 5 minutes
 
@@ -63,6 +63,8 @@
 ---
 <!-- Other important details discussed during the meeting can be entered here. -->
 
+* 详细 [Presentation](https://zenodo.org/record/3615259) 项目([video](https://www.youtube)。 -->
+
 * 详细 [Presentation](https://zenodo.org/record/3615259) 项目([video](https://www.youtube)。 om/watch?v=dlycvMU45ek)) <- 更新这个
 * 查看索引HackMd：https://hackmd.io/@turingway/bookdash-may2021-index <- 更新这个
 * GitHub：https://github。 om/Alan-turing-institute/the-turing-way
@@ -80,20 +82,17 @@
 
 
 设定我们的个人目标将有助于我们更好地为您的参与做准备：
-- **S**特设：他们准确地说明了您想要完成的任务，并且通常回答5个Ws (Who？ 什么? 在哪里？ 什么时候？ 为什么？)
+- **S**特设：他们准确地说明了您想要完成的任务，并且通常回答5个Ws (Who？ 什么? 什么? 在哪里？ 什么时候？ 为什么？
+)
 **M**easula：它们提供了一个具体的成功指标。
 - **当然：它们是现实的。
 - **R**海拔：它们是重要和实用的。
 - **T**ime-bound：他们指定了目标何时实现的截止日期。
 
-*我们正在使用Danielle R. Schultz（2015年）的[本模板](https://freespiritpublishingblog.com/wp-content/uploads/2015/08/setting-smart-goals.pdf)。
-
-<-复制IT BELOW-->
+*我们正在使用Danielle R. Schultz（2015年）的[本模板](https://freespiritpublishingblog.com/wp-content/uploads/2015/08/setting-smart-goals.pdf)。 <-复制IT BELOW-->
 
 > [name=name]
-> **S**设置：我想完成什么？
-> **M**easula: 我如何衡量我的成功？
-> **A**tainable: 我能否现实地实现这个目标？ 我将采取什么步骤？
+> **S**设置：我想完成什么？ 我将采取什么步骤？
     > 第1步：
     > 第 2步：
     > 第 3步：
@@ -105,11 +104,11 @@
 > **S**专设：我想完成什么？
 > **M**easula: 我如何衡量我的成功？
 > **A**tainable: 我能否现实地实现这个目标？ 我将采取什么步骤？
-    > 第1步：
-    > 第 2步：
-    > 第 3步：
-> **R**高 
-> **T**ime-bound: 什么是我的目标截止日期？ (可能在11月9日至13日之间)： 
+    (可能在11月9日至13日之间)： 
+> 目标声明：
+
+> [name=Name]
+> **S**专设：我想完成什么？ (可能在11月9日至13日之间)： 
 > 目标声明：
 >
 
@@ -127,6 +126,7 @@
 以下是一些关于好的第一个贡献的建议：
 
 - 通过在[书](https://the-turing-way)中提出一些修改来审查现有的一章。 etlify.com)和/或 [repository](https://github.com/alan-turing-institute/the-turing-way).
+- 在书中标注不明确或重复的信息，方法是在GitHub上创建一个[期](https://github.com/alan-turing-institute/the-turing-way/issues)。
 - 在书中标注不明确或重复的信息，方法是在GitHub上创建一个[期](https://github.com/alan-turing-institute/the-turing-way/issues)。
 - 修复[旧问题](https://github.com/alan-turing-institute/the-turing-way/issues)或评论[拉取请求](https://github.com/alan-turing-institute/the-turing-way/pulls)。
 - 用这个 [google form](https://goo.gl/forms/akFqZEy2kxAjfZW2) 写下你个人的可复制研究体验。

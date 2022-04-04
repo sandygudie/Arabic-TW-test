@@ -15,7 +15,7 @@ Este subcapítulo proporciona una lista estructurada de tareas que se dedican a 
   - ¿Se recomienda mantener la cámara web y el micrófono? ¿Se pueden apagar durante la llamada?
   - ¿Hay una contraseña necesaria para unirse a la llamada? ¿Pueden unirse los asistentes antes del anfitrión?
   - ¿Cómo pueden los asistentes garantizar la privacidad de su familia? ¿Proporcionar instrucciones para desenfocar su fondo o usar un fondo virtual?
-  - ¿Cómo podrán participar los asistentes en un debate en curso? ¿Cómo pueden levantarse las manos para pedir personalmente a la silla?
+  - ¿Cómo podrán participar los asistentes en un debate en curso? ¿Cómo podrán participar los asistentes en un debate en curso? ¿Cómo pueden levantarse las manos para pedir personalmente a la silla?
   - ¿Qué tipo de desafíos pueden enfrentar los asistentes mientras se unen a la llamada/reunión y cómo pueden resolverlos?
 - Identificar una silla y un tomador de notas para la reunión.
   - Comparte directrices y protocolos para presidir y tomar notas.

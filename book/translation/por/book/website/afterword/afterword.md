@@ -9,6 +9,5 @@ A colaboração da comunidade e os aspectos de desenvolvimento do livro foram es
 height: 400px
 nome: road-to-reproducibility
 alt: Três mãos segurando lupa e variando 'road to reprodutibility' de The Turig Way.
----
-Estrada para a Reprodutividade. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+--- Estrada para a Reprodutividade. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```

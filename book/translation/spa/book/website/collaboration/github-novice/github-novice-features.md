@@ -14,7 +14,7 @@ Ahora que tu repositorio está configurado, estás listo para añadir más cosas
 
 * Haga clic en el botón "Añadir archivo" y, a continuación, cree un nuevo archivo.
 * Esto le dará un archivo en blanco para editar.
-* Al nombrar el archivo, primero escriba el nombre de la carpeta (existente o nuevo) y luego una barra de selección, seguido por el nombre del archivo: "carpeta-nombre/nombre de archivo. xt".
+* Al nombrar el archivo, primero escriba el nombre de la carpeta (existente o nuevo) y luego una barra de selección, seguido por el nombre del archivo: "carpeta-nombre/nombre de archivo.
 * Editar el contenido del archivo.
 * Guarde los cambios usando el botón "commit". Recuerda escribir un {ref}`mensaje de commit<rr-vcs-commit-messages>` para ayudarte a recordar los cambios que has hecho.
 

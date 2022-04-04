@@ -14,7 +14,7 @@
 (rr-make-appendix-installing)=
 ## 安装 Make
 
-首先，检查您是否已安装 GNU 在终端类型中：
+首先，检查您是否已安装 GNU 在终端类型中： 在终端类型中：
 
 ```bash
 $ make
@@ -32,7 +32,7 @@ $ make --version
 
 要安装 GNU Make, 请按照以下说明:
 
-- **Linux**: 使用您的软件包管理器安装 Make 例如在Arch Linux上：
+- **Linux**: 使用您的软件包管理器安装 Make 例如在Arch Linux上： 例如在Arch Linux上：
 
   ```bash
   $ sudo pacman -S make
@@ -68,7 +68,7 @@ In a data science pipeline, it may be quite common to apply multiple scripts to 
 
 在这个分支上，你会注意到 **脚本** 目录中有一个新脚本，名为 `Generate_qqplot.py`。 此脚本的工作类似于 `Generate_histogram。 y` 脚本 (它有相同的命令行语法)，但它 生成一个 [QQ-绘图](https://en.wikipedia.org/wiki/Q%E2%80%93Q_plot)。 **report.tex** 文件也已更新，以纳入这些绘图。
 
-After switching to the `canned` branch there will be a Makefile in the repository that contains a separate rule for generating the QQ-plots. 此 Makefile 看起来像这样：
+After switching to the `canned` branch there will be a Makefile in the repository that contains a separate rule for generating the QQ-plots. 此 Makefile 看起来像这样： 此 Makefile 看起来像这样：
 
 ```makefile
 # Makefile for analysis report
@@ -99,7 +99,7 @@ clean:
 
 您会注意到，直方图和QQ-绘图的规则非常相似。
 
-As the number of scripts that you want to run on your data grows, this may lead to a large number of rules in the Makefile that are almost exactly the same. 我们可以通过创建一个 [*罐头 配方*](https://www.gnu.org/software/make/manual/html_node/Canned-Recipes.html) 将脚本名称和流派名称作为输入来简化这一点：
+In a data science pipeline, it may be quite common to apply multiple scripts to the same data (for instance when you're comparing methods or testing different parameters). 在这种情况下，在只有脚本名称更改时为每个脚本单独写一个 规则可能变得很费解。 为了简化这个 进程，我们可以让创建一个所谓的 [*预设* 配方](https://www.gnu.org/software/make/manual/make.html#Canned-Recipes)
 
 ```makefile
 定义运行脚本至数据

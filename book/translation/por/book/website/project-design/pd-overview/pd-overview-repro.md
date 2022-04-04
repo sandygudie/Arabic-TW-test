@@ -72,15 +72,13 @@ Aprender sobre erros de design passados pode nos dar uma ideia do que podemos fa
 ### Preparando-se para a mudança
 
 ```{note}
-**Eu trabalho sozinho, preciso pensar no projeto desenhado?**
-
-A resposta curta é "sim".
+**Eu trabalho sozinho, preciso pensar no projeto desenhado?** A resposta curta é "sim".
 O projeto permitirá que você gerencie seu trabalho bem para si mesmo (veja a seção: {ref}`Primeiros passos<pd-overview-planning-started>`).
 
 Um pouco de trabalho e de investimento no tempo cedo na concepção do projeto economiza muito tempo mais tarde, quando quaisquer circunstâncias que exijam mudança.
 ```
 
-É realmente difícil para um projeto passar de práticas que foram projetadas para uma pessoa para práticas que trabalham para uma equipe. Por conseguinte, é essencial documentar e usar práticas que permitam a colaboração se e quando é necessário envolver outros no seu projeto. Considerar boas práticas em equipe, mesmo para um projeto gerenciado por indivíduos, torna mais fácil para eles atingirem seus objetivos. Por exemplo, você pode definir objetivos no seu projeto e identificar tarefas fazendo perguntas como: como meu trabalho pode ser dividido, como será revisto, como serão tomadas as decisões, etc. Saiba como [metodologias ágeis](http://www.agilenutshell.com/) ajudam a adaptar mudanças. Saiba mais sobre boas práticas de equipe na nossa seção de {ref}`no trabalho em equipe<cl-new-community-teamwork>`.
+É realmente difícil para um projeto passar de práticas que foram projetadas para uma pessoa para práticas que trabalham para uma equipe. Por conseguinte, é essencial documentar e usar práticas que permitam a colaboração se e quando é necessário envolver outros no seu projeto. Considerar boas práticas em equipe, mesmo para um projeto gerenciado por indivíduos, torna mais fácil para eles atingirem seus objetivos. Por exemplo, você pode definir objetivos no seu projeto e identificar tarefas fazendo perguntas como: como meu trabalho pode ser dividido, como será revisto, como serão tomadas as decisões, etc. Saiba como [metodologias ágeis](http://www.agilenutshell.com/) ajudam a adaptar mudanças. Saiba como [metodologias ágeis](http://www.agilenutshell.com/) ajudam a adaptar mudanças. Saiba mais sobre boas práticas de equipe na nossa seção de {ref}`no trabalho em equipe<cl-new-community-teamwork>`.
 
 O projeto não garantirá que tudo corra sempre como planejado ou que não haverá desafios inesperados. No entanto, ajuda a preparar antecipadamente a gestão dos riscos e a adaptar-se melhor às mudanças. Além disso, veja [O custo da curva de mudança](http://www.agilemodeling.com/essays/costOfChange.htm) no contexto do Engenheiro de Software.
 

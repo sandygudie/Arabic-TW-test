@@ -19,7 +19,7 @@ La motivación detrás de la organización de estas llamadas en línea para la c
 
 Nuestro objetivo es crear un espacio seguro para la experiencia compartida, la conexión, el apoyo y la colaboración para la comunidad distribuida de _The Turing Way_.
 
-Si quieres asistir a estas llamadas pero no sabes en qué trabajar, no te preocupes! _Los miembros del equipo central de Turing Way_ estarán en la llamada y te señalarán algunos puntos de partida en el proyecto y otros esfuerzos en curso donde puedes marcar la diferencia.
+Si quieres asistir a estas llamadas pero no sabes en qué trabajar, no te preocupes! Si quieres asistir a estas llamadas pero no sabes en qué trabajar, no te preocupes! _Los miembros del equipo central de Turing Way_ estarán en la llamada y te señalarán algunos puntos de partida en el proyecto y otros esfuerzos en curso donde puedes marcar la diferencia.
 
 ## Técnicas
 
@@ -33,7 +33,7 @@ Estas llamadas utilizan una combinación de dos técnicas:
 
 El [cierre & Escribir!](https://shutupwrite.com/) son *reuniones locales de escritura donde se hace tu escritura*. Su método [](https://shutupwrite.com/method) divide el proceso de escritura en ocho pasos: ideación, estructura, borrado, editación, reestructuración y revisión, pulido, publicación y promoción. Animan a sus participantes a identificar lo que quieren escribir y dónde están en este proceso de ocho pasos. Una vez que identifiquen su punto de partida y se comprometan a superar los siguientes pasos practicando la consistencia *de forma constante hasta el "Fin"*.
 
-Ellos explican que el cierre & Escritura! los eventos proporcionan dos cosas:
+Ellos explican que el cierre & Escritura! los eventos proporcionan dos cosas: los eventos proporcionan dos cosas:
 
 **1. Contabilidad & Formación de hábitos:**
 

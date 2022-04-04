@@ -19,7 +19,7 @@ _the Ting Way_ 并不意味着从开始到结束都要阅读。
 名称：欢迎图片
 备选案文：展示了导览方式项目作为一条道路或道路，商店可以提供不同的数据科学技能。 人们可以用他们的购物车进出，并挑选和选择他们所需要的东西。
 ---
-_Ting Way_ 项目示意图由 Storeria 标明。 Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
+_Ting Way_ 项目示意图由 Storeria 标明。 Zenodo. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
 ```
 
 (欢迎社区)=
@@ -47,7 +47,7 @@ _The Ting Way_ project alogic by Stereria的。 Zenodo的原始版本。 http://
 
 虽然 _诱惑方式_ 得到 [艾伦·托格研究所](https://www.turing.ac.uk/)的支持和资助， 该项目旨在成为全球协作。 我们有来自整个联合王国、印度、墨西哥、澳大利亚、美国和许多欧洲国家的捐助。 研究机构和大学、政府部门和工业界的成员已经撰写、审查和整理了这些章节。 我们致力于创造一个空间，使具有不同专门知识和生活经验的人能够与其他人分享其知识，从而使我们大家能够利用数据科学来改善世界。
 
-我们珍视我们社区每个成员的参与，并希望确保每个捐助国都有一个愉快和充实的经历。 Accordingly, everyone who participates in _The Turing Way_ project is expected to show respect and courtesy to other community members at all times. 所有贡献必须遵守我们的 [行为准则](https://github.com/alan-turing-institute/the-turing-way/blob/main/CODE_OF_CONDUCT.md)。
+我们珍视我们社区每个成员的参与，并希望确保每个捐助国都有一个愉快和充实的经历。 Accordingly, everyone who participates in _The Turing Way_ project is expected to show respect and courtesy to other community members at all times. 所有贡献必须遵守我们的 [行为准则](https://github.com/alan-turing-institute/the-turing-way/blob/main/CODE_OF_CONDUCT.md)。 所有贡献必须遵守我们的 [行为准则](https://github.com/alan-turing-institute/the-turing-way/blob/main/CODE_OF_CONDUCT.md)。
 
 ![Gif显示对贡献者表的屏幕捕获，表中显示贡献类型的表、笑脸和emoji](https://media.giphy.com/media/gKIUisnjpj2PS75nOJ/giphy.gif)
 
@@ -59,13 +59,13 @@ The book started in January 2019 as a guide for reproducibility, covering {ref}`
 (欢迎引用)=
 ## 引用 _诱惑路径_
 
-_的所有材料。宝藏路径_ 都是在 [CC-BY 4.0 许可证](https://github.com/alan-turing-institute/the-turing-way/blob/main/LICENSE.md) 下提供的。
+_的所有材料。 宝藏路径_ 都是在 [CC-BY 4.0 许可证](https://github.com/alan-turing-institute/the-turing-way/blob/main/LICENSE.md) 下提供的。
 
 您可以使用 DOI: [10.5281/zenodo.3233853](https://doi.org/10.5281/zenodo.3233853) 通过项目的 Zenodo 归档引用 _诱惑路径_。
 
 引文将看起来像：
 
-> Ting Way Community, Becky Arnold, Louise Bowler, Sarah Gibson, Patricia Herterich, Rosie Higman, … Kirstie Whitaker。 （2019年，3月25日）。 Ting Way: A Handbook for Repuciable Data Science (Version v0.0.4). Zenodo. http://doi.org/10.5281/zenodo.3233986
+> Ting Way Community, Becky Arnold, Louise Bowler, Sarah Gibson, Patricia Herterich, Rosie Higman, … Kirstie Whitaker。 Kirstie Whitaker。 （2019年，3月25日）。 Ting Way: A Handbook for Repuciable Data Science (Version v0.0.4). Zenodo. http://doi.org/10.5281/zenodo.3233986 Zenodo. http://doi.org/10.5281/zenodo.3233986
 
 请访问 [DOI 链接](https://doi.org/10.5281/zenodo.3233853) 以获取最新版本 - 上面的版本不是自动生成的并且可能已经过时。 DOI允许我们存档存储库，并且有助于跟踪学术出版物中的工作。
 

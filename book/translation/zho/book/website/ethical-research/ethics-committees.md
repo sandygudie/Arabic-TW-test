@@ -19,22 +19,22 @@
 ## 项目描述
 > 请说明你的项目的目标和目的。
 
-**理由。** REC需要知道你的项目是什么，它正在寻求实现什么以及它为什么重要。 区域经济共同体需要了解一个项目需要什么来考虑其对道德的影响。
+**理由。 ** REC需要知道你的项目是什么，它正在寻求实现什么以及它为什么重要。 区域经济共同体需要了解一个项目需要什么来考虑其对道德的影响。
 
 **回答这个问题** 是分享你的工作所带来的好处的机会。 这个问题一般可以用成功的赠款提案中关于项目的书面材料来解决。 由于项目能够迅速变化，所以应该确保以往对项目的描述有新的信息更新。
 
 对这一问题的更强有力的答复也将解释该项目如何符合贵机构更广泛的目标、挑战和目标。 就慈善机构而言，提及贵机构的“慈善物品”是很重要的。 例如，见 [GOV.UK](https://www.gov.uk/government/publications/example-charitable-objects)。
 
-2. 为答复本问题，提供：
-1. 您的项目的详细目标；
-2. 清楚地描述正在回答的科学问题；
-3. 回答你的项目问题的明确动机；
-4. 说明你的项目如何符合你的机构的战略价值和目标。
+因此，对这一问题的答复需要提供：
+1. 为答复本问题，提供：
+2. 您的项目的详细目标；
+3. 清楚地描述正在回答的科学问题；
+4. 回答你的项目问题的明确动机；
 
 ## 数据和方法
 > 请解释您将使用哪些数据以及原因。 请解释如何使用这些数据。
 
-**理由。** 整个项目中出现的一些伦理问题将与所使用的数据和研究方法有关。 例如，所使用的数据可能被填充了 ["缺失数据集"](https://github.com/MimiOnuoha/missing-datasets), 而且，如果以未加制约的假设为基础，方法可能会有问题。
+</strong> 整个项目中出现的一些伦理问题将与所使用的数据和研究方法有关。 例如，所使用的数据可能被填充了 ["缺失数据集"](https://github.com/MimiOnuoha/missing-datasets), 而且，如果以未加制约的假设为基础，方法可能会有问题。
 
 **回答这个问题** 需要详细描述项目的数据和方法。 还必须说明 *为什么需要* 概述的数据，而所描述的方法对工作来说是最好的。
 
@@ -50,7 +50,7 @@
 ## 同意
 > 您将如何确保为您的研究收集的任何个人数据都是在获得自由知情同意的情况下进行的？
 
-**说明理由。** 确保征得各方同意的目的， 个人资料的使用或再利用是为了尊重个人的自主权，并根据相关立法行事。 它也是庄严载入法律的一个重要概念。 例如，在《一般数据保护条例》中， *同意* 被定义为：
+**说明理由。 ** 确保征得各方同意的目的， 个人资料的使用或再利用是为了尊重个人的自主权，并根据相关立法行事。 它也是庄严载入法律的一个重要概念。 例如，在《一般数据保护条例》中， *同意* 被定义为：
 > “对数据主体的任何自由的、具体的、知情的和明确的表示， 1. 通过一项声明或一项明确的扶持行动， 表示同意处理与其相关的个人资料”([ICO](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/consent/what-is-valid-consent/))
 
 **回答这个问题** 需要思考如何来源数据——数据来自何处以及它们涉及谁。 将法律讨论搁置一边，这个问题需要采取两种办法中的一种：
@@ -60,7 +60,7 @@
 ## 隐私和安全
 > 您将如何确保您的项目使用的任何敏感信息都是安全的，并且只能提供给研究小组的相关成员？
 
-**说明理由。** 隐私权是一项基本人权(见 [本章草案](https://github.com/alan-turing-institute/the-turing-way/pull/1394/files?short_path=b95854e#diff-b95854e17574ab3b68f2f89991e4dddf199e01901dc8e235d87e2b0c8980a4d9) *关于更多关于人权的诱惑方式* 关于人权)。 因此，必须以尊重隐私的方式开展项目。
+**说明理由。 ** 隐私权是一项基本人权(见 [本章草案](https://github.com/alan-turing-institute/the-turing-way/pull/1394/files?short_path=b95854e#diff-b95854e17574ab3b68f2f89991e4dddf199e01901dc8e235d87e2b0c8980a4d9) *关于更多关于人权的诱惑方式* 关于人权)。 因此，必须以尊重隐私的方式开展项目。
 
 **回答这个问题** 可能需要审查您的机构的内部政策。 特别是在处理个人资料时，您的机构可能已经制定了数据政策。 以及进行数据保护影响评估的过程(详情请参阅 [ICO](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/accountability-and-governance/data-protection-impact-assessments/))。 一些供资者还制定了处理在其资助的研究过程中收集或使用的数据的政策。 贵机构还可能有安全的信息技术基础设施来储存数据，并确保正确的存取水平。 值得问的是，贵机构中是否有这种政策和程序。
 
@@ -82,7 +82,7 @@
 1. 该项目所涉及的（社会、环境和个人）风险，
 2. 为减轻这些风险而采取的措施。
 
-第一点需要进一步思考前四个问题中已经概述的各种议题（回顾方法和数据收集做法如何可能引起道德问题）。 并认真考虑您的项目产出的潜在风险。
+The second point relates with the actions taken to *mitigate* identified risks. 换言之，仅仅描述可能出现的错误是不够的——必须解释如何合理地避免风险。
 
 The second point relates with the actions taken to *mitigate* identified risks. 换言之，仅仅描述可能出现的错误是不够的——必须解释如何合理地避免风险。
 
@@ -94,6 +94,6 @@ The second point relates with the actions taken to *mitigate* identified risks. 
 我们将重点放在如何对每一个广泛问题作出反应上，可以总结以下意见：
 1. 请在您的答复中详细说明——REC越知道他们就越容易考虑项目对伦理的影响。
 2. 使用您的项目的其他文档向REC提供信息。 虽然文件可能需要更新，但使用其他有关文件可以使这一过程更加直截了当。 这类文件可能是赠款建议、数据管理计划、数据保护影响评估……
-3. 找到与您的项目相关的伦理资源。 科学项目的研究对象多种多样。 多年来提供了许多道德操守框架。 例如，数据科学的一个完善的框架是 [五个保险箱](https://www.ukdataservice.ac.uk/manage-data/legal-ethical/access-control/five-safes)。 管理艺术家情报的一个全面资源是 [*了解人造情报道德和安全*](https://www.turing.ac.uk/sites/default/files/2019-08/understanding_artificial_intelligence_ethics_and_safety.pdf) 为暴露在滥用网上内容的研究人员的福祉制定了一个更加具体的框架： [*研究滥用内容的研究人员指南*](https://github.com/bvidgen/Challenges-and-frontiers-in-abusive-content-detection/blob/master/Challenges%20and%20frontiers%20in%20abusive%20content%20detection%20Appendix%20-%20researcher%20guidelines.pdf)
+3. 找到与您的项目相关的伦理资源。 科学项目的研究对象多种多样。 多年来提供了许多道德操守框架。 例如，数据科学的一个完善的框架是 [五个保险箱](https://www.ukdataservice.ac.uk/manage-data/legal-ethical/access-control/five-safes)。 管理艺术家情报的一个全面资源是 [*了解人造情报道德和安全*](https://www.turing.ac.uk/sites/default/files/2019-08/understanding_artificial_intelligence_ethics_and_safety.pdf) 为暴露在滥用网上内容的研究人员的福祉制定了一个更加具体的框架： [*研究滥用内容的研究人员指南*](https://github.com/bvidgen/Challenges-and-frontiers-in-abusive-content-detection/blob/master/Challenges%20and%20frontiers%20in%20abusive%20content%20detection%20Appendix%20-%20researcher%20guidelines.pdf) 为暴露在滥用网上内容的研究人员的福祉制定了一个更加具体的框架： [*研究滥用内容的研究人员指南*](https://github.com/bvidgen/Challenges-and-frontiers-in-abusive-content-detection/blob/master/Challenges%20and%20frontiers%20in%20abusive%20content%20detection%20Appendix%20-%20researcher%20guidelines.pdf)
 
 ***Chapter Tags**: this chape are managed for the `Ting Data Study Group` (`turing-dsg`).*

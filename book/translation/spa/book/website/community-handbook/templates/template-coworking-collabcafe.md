@@ -7,15 +7,15 @@
 
 ¡Gracias por unirte a _Turing Way_en el Café de Colaboración en línea! Estamos encantados de tenerte aquí :coffee: :sparkles: :cake:
 
-(*¡Recomendamos traer tu té real, café, agua o tu bebida favorita a este café! :smile:*)
+(*¡Recomendamos traer tu té real, café, agua o tu bebida favorita a este café! :smile:*) :smile:</em>)
 
-**¿Qué?** *La Vía Turing es una **guía ligeramente opinada para la ciencia y la investigación de datos reproducibles**. Este café de colaboración apunta a comprometerse con investigadores interesados en aprender y compartir más sobre este tema en un **libro en línea**: https://the-turing-way. etlify.com*
+**¿Qué?** *La Vía Turing es una **guía ligeramente opinada para la ciencia y la investigación de datos reproducibles**. Este café de colaboración apunta a comprometerse con investigadores interesados en aprender y compartir más sobre este tema en un **libro en línea**: https://the-turing-way.</p>
 
 *Lea más sobre esto aquí: https://the-turing-way.netlify.app/community-handbook/coworking.html*
 
 **¿Qué?** ***Todo el mundo** interesado en reproducible, ético, y la ciencia de datos e investigación inclusiva son bienvenidos a unirse a la totalidad o cualquier parte del proyecto The Turing Way, comunidad y/o esta llamada.*
 
-**¿Cuándo?** DD Mes AAAA, HH:MM BST (enlace para hora local desde https://arewemeetingyet.com)
+**¿Cuándo?** DD Mes AAAA, HH: MM BST (enlace para hora local desde https://arewemeetingyet.com)
 
 **¿Cómo?** *El enlace al zoom se proporcionará 10 minutos antes de la llamada*
 
@@ -30,7 +30,7 @@
 * Directrices de contribución: https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md
 * Chatea en Gitter: https://gitter.im/alan-turing-institute/the-turing-way
 * Únete a la lista de correo: https://tinyletter.com/TuringWay
-* ¿No puedes unirte al café de colaboración pero quieres trabajar con nosotros? Échale un vistazo a las llamadas de cooperación durante la semana: https://hackmd.io/@malvikasharan/TW-coworking
+* ¿No puedes unirte al café de colaboración pero quieres trabajar con nosotros? ¿No puedes unirte al café de colaboración pero quieres trabajar con nosotros? Échale un vistazo a las llamadas de cooperación durante la semana: https://hackmd.io/@malvikasharan/TW-coworking
 
 ### Código de conducta
 

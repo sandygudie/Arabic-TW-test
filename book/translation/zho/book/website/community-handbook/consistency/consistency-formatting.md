@@ -36,7 +36,7 @@ alt：用HTML写入的格式不正确的表的截图。 这个表格被浪费在
 ```{figure} ../../figures/html-to-markdown2.png
 ---
 名称：html-markdown2
-Alt：从HTML转换为Markdown 的表的截图 当转换为Markdown时，该表更容易阅读和理解。
+Alt：从HTML转换为Markdown 的表的截图 当转换为Markdown时，该表更容易阅读和理解。 当转换为Markdown时，该表更容易阅读和理解。
 ---
 将 HTML 转换为 Markdown 使得读取诱惑路径书更加容易。
 ```
@@ -127,7 +127,7 @@ _The Ting Way_ has a [booksible stylesheet](https://github)。 Oom/alan-turing-i
 ## 另一个标题
 ```
 
-_中的几个文件。_ 书没有遵循这个公约。 这种文件列表可以在 [这个问题](https://github.com/alan-turing-institute/the-turing-way/issues/1321)中找到。 and [此 PR](https://github.com/alan-turing-institute/the-turing-way/pull/1451) 是一个很好的例子，说明如何修复一个非连续标题的文件。
+_中的几个文件。 _ 书没有遵循这个公约。 这种文件列表可以在 [这个问题](https://github.com/alan-turing-institute/the-turing-way/issues/1321)中找到。 and [此 PR](https://github.com/alan-turing-institute/the-turing-way/pull/1451) 是一个很好的例子，说明如何修复一个非连续标题的文件。
 
 #### 演示模式
 
@@ -151,7 +151,7 @@ _中的几个文件。_ 书没有遵循这个公约。 这种文件列表可以�
 (ch-consisting-hr-images)=
 ### 检查 4：在图像格式中使用 `MyST`
 
-_中的一些数字和图像。正在使用 Markdown 语法嵌入。_。。 虽然这个作品，但它不允许图像适应该书读取的设备的屏幕大小。
+_中的一些数字和图像。 正在使用 Markdown 语法嵌入。 虽然这个作品，但它不允许图像适应该书读取的设备的屏幕大小。</p>
 
 Markdown Text (`MyST`) 是一个触发此问题的Markdown的闪烁，它使得在 _Ting Way_ 中的响应图像成为可能。
 
@@ -163,7 +163,7 @@ Markdown Text (`MyST`) 是一个触发此问题的Markdown的闪烁，它使得�
 
 请注意，包含在 _Ting 路径_ 书中的图像应该小于 1MB。 这使书载量更快，尤其是对于网络连接速度较慢的读者。
 
-关于使用 `MyST` 格式化图像的示例，请参考 {ref}`样式指南 <ch-style-figures>` 并向它们添加ALT 文本。 何时将图像纳入您的报告中。 最好是避免高度参数，因为错误的值可能会使您的图像在移动设备上被扭曲。 当您制作PR时，您应该随时检查您的图像如何在 Netlify 预览中看到。
+关于使用 `MyST` 格式化图像的示例，请参考 {ref}`样式指南 <ch-style-figures>` 并向它们添加ALT 文本。 最好是避免高度参数，因为错误的值可能会使您的图像在移动设备上被扭曲。 当您制作PR时，您应该随时检查您的图像如何在 Netlify 预览中看到。
 
 #### 演示模式
 
@@ -174,7 +174,7 @@ Markdown Text (`MyST`) 是一个触发此问题的Markdown的闪烁，它使得�
 (ch-一致性格式-sr)=
 ## 软要求
 
-Soft requirements help improve the overall look and feel of _The Turing Way_. 一旦实施，这些检查可能不受注意，但它们也有助于使 _诱惑之路_ 成为一件已磨成的工作。 处理 _的软要求。正在酝酿的怀_ 格式包括：
+Soft requirements help improve the overall look and feel of _The Turing Way_. 一旦实施，这些检查可能不受注意，但它们也有助于使 _诱惑之路_ 成为一件已磨成的工作。 处理 _的软要求。 正在酝酿的怀_ 格式包括：
 
 (ch-一致性格式-sr-one)=
 ### 勾选1： 确保章节/子章节的名称较短，并准确映射它们在 `_toc.yml 中的标题`
@@ -206,7 +206,7 @@ _中的一些章节和小章节_ 与页面左边出现的全书目录中的相�
 (ch-一致性格式-sr-2)=
 ### 检查 2: 确保标题适当的标题
 
-_中一些章节的标题_ 不使用标题。 [标题外壳](https://en.wikipedia.org/wiki/Title_case) 是一种资本化风格，用于格式化已发布作品的标题和标题。 作为寻求在 _中进行可复制的数据科学、标题和标题的个人可引用的参考资料。Ting Way_ 应该是标题。
+_中一些章节的标题_ 不使用标题。 [标题外壳](https://en.wikipedia.org/wiki/Title_case) 是一种资本化风格，用于格式化已发布作品的标题和标题。 作为寻求在 _中进行可复制的数据科学、标题和标题的个人可引用的参考资料。 Ting Way_ 应该是标题。
 
 虽然 _诱惑方式_ 并不遵循特定的标题资本化风格，但一些一般性的、非详尽无遗的规则包括：
 - 使用主或重要单词

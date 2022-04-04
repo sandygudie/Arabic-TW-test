@@ -5,6 +5,7 @@ name: data-ecosystem
 alt: image of the data ecosystem with private and public data
 ---
 Open and closed data for reducity
+Stereteria的绘画线路项目示例。
 Stereteria的绘画线路项目示例。 Zenodo的原始版本。 http://doi.org/10.5281/zenodo.3695300。 
 ```
 

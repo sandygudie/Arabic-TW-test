@@ -10,7 +10,7 @@
 - [ORCID: 0000-0001-5306-5690](https://orcid.org/0000-0001-5306-5690)
 - [在LinkedIn上的个人资料](https://uk.linkedin.com/in/sasansone)
 - [在SlideShare上的对话](https://www.slideshare.net/SusannaSansone)
-- [Twitter。是的，我是FAIRlady](https://twitter.com/SusannaASansone)
+- [Twitter。 是的，我是FAIRlady](https://twitter.com/SusannaASansone)
 - [GitHub 上的活动；yeah, 没有代码很抱歉。](https://github.com/SusannaSansone)
 - [Google Scholar](https://scholar.google.co.uk/citations?user=gfJ8wsIAAAAJ&hl=en)
 
@@ -26,4 +26,4 @@ FAIR 不是一把魔法棒。 要促成和实施这种转变，还有许多工�
 
 在研究数据管理方面，历史就是未来。 我设想的未来是一个经常以透明方式提供科学证据的未来。 值得信赖和坚持不懈地支持同侪审查并经受住可再生能源，支持新的成果和发现，并有效地推动科学向前发展。
 
-**我的咨询意见： _已知，不知道！_**
+**我的咨询意见： _已知，不知道！ _**

@@ -16,8 +16,7 @@ Por outras palavras, a academia premeia muito a criação de conhecimentos. O in
 ---
 nome: gerentes de aplicação-pesquisa
 alt: Uma ilustração retratando os carneiros dos animais como gerentes de aplicativos de pesquisa que estão se conectando com os usuários, aplicar a investigação no mundo real e facilitar um processo inovador em infra-estruturas de investigação.
----
-Os Gerentes de Aplicações de Pesquisa trabalham com a equipe de pesquisa para incorporar às organizações de usuários. _A Via Turing, & Scriberia. (2020, Novembro). Ilustrações do Caminho de Turing book dashes. Zenodo. http://doi.org/10.5281/zenodo.4323154
+--- Os Gerentes de Aplicações de Pesquisa trabalham com a equipe de pesquisa para incorporar às organizações de usuários. _A Via Turing, & Scriberia. (2020, Novembro). Ilustrações do Caminho de Turing book dashes. Zenodo. http://doi.org/10.5281/zenodo.4323154
 ```
 
 

@@ -18,8 +18,7 @@ dist: xenial
 # Utilice el lenguaje de programación Python
 language: python
 
-# Utilice la versión de Python 3.
-python: 3.2
+# Utilice la versión de Python 3. python: 3.2
 
 # Usa el paquete Python numpy y usa la versión 1. 6.1
 paquetes:

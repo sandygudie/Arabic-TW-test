@@ -12,7 +12,7 @@ Brainhack es una comunidad científica abierta que tiene un formato de reunión 
 * [Github](https://github.com/complexbrains)
 * [Twitter](https://twitter.com/complexbrains)
 
-**1. ¿Cuál es la *práctica normal* de la autoría de los documentos académicos en tu disciplina? o solía ser la práctica normal?**
+**1. ¿Cuál es la *práctica normal* de la autoría de los documentos académicos en tu disciplina? o solía ser la práctica normal? o solía ser la práctica normal?**
 
 **Remión:** Mis antecedentes están en Biología y Psicología. La mayoría de las publicaciones son de autor múltiple y por lo tanto tienen más de un autor. La única autoría puede ocurrir pero no para el trabajo experimental. Este trabajo generalmente involucra al menos a un Investigador Principal con un Investigador Postdoctoral o estudiante de doctorado.
 

@@ -30,7 +30,8 @@ Temos um template para o {ref}`Colaboração<ch-template-coworking-collabcafe>`,
 
 **Bônus**
 
-Você pode assistir este vídeo para ver o Kirstie e o Malvika planejar a estrutura e o formato do Cafen de Colaboração. <iframe width="560" height="315" src="https://www.youtube.com/embed/XUw5kpypeo8" title="Reprodutor de vídeo do YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
+Você pode assistir este vídeo para ver o Kirstie e o Malvika planejar a estrutura e o formato do Cafen de Colaboração.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XUw5kpypeo8" title="Reprodutor de vídeo do YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Agendamento
 
@@ -61,7 +62,9 @@ Vamos executar o seguinte cronograma em cada Cálculo de Colaboração:
 
 **Quer ver como executamos essas chamadas?**
 
-Publicamos alguns vídeos do nosso Colaborador Cafeës no YouTube. Assista ao vídeo para ver como Kirstie sediou as chamadas quando elas foram iniciadas. <iframe width="560" height="315" src="https://www.youtube.com/embed/I0z7OEbBzes" title="Reprodutor de vídeo do YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
+Publicamos alguns vídeos do nosso Colaborador Cafeës no YouTube. Assista ao vídeo para ver como Kirstie sediou as chamadas quando elas foram iniciadas.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I0z7OEbBzes" title="Reprodutor de vídeo do YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### Durante a Chamada
 - Utilize as notas durante a chamada para compartilhar informações à medida que você preside à chamada

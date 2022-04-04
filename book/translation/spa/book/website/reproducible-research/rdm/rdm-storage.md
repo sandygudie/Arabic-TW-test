@@ -23,7 +23,7 @@ Especialmente si está tratando datos personales o confidenciales necesita asegu
 
 Su institución podría proporcionar soluciones de almacenamiento local y políticas o pautas que restringen lo que puede utilizar. Por lo tanto, le recomendamos que se familiarice con sus políticas y recomendaciones locales.
 
-Cuando esté listo para publicar los datos a la comunidad en general. también puede buscar las bases de datos y repositorios apropiados en [FAIRsharing](https://fairsharing.org/databases), de acuerdo a su tipo de datos y tipo de acceso a los datos. Learn more about this in the {ref}`rr-rdm-sharing` subchapter.
+también puede buscar las bases de datos y repositorios apropiados en [FAIRsharing](https://fairsharing.org/databases), de acuerdo a su tipo de datos y tipo de acceso a los datos. Learn more about this in the {ref}`rr-rdm-sharing` subchapter.
 
 (rr-rdm-organización-almacenamiento)=
 ## Organización de datos

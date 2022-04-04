@@ -28,12 +28,12 @@
 
 传统上，许多期刊是订阅期刊，意味着其内容是在付费墙后面的。 大学可以订阅该期刊。 允许您访问其内容，如果您以订阅机构为基础，或者您可以支付一次性费用访问单个文章。
 
-开放访问运动导致创建了开放访问日记。 如果内容对每个人开放，无需支付或是订阅机构的成员。 这些杂志的数量仍在迅速增加，有17篇。 00 列于Open Access Journals [DOAJ](http://www.doaj.org) (数据获取2021年11月)。
+如果内容对每个人开放，无需支付或是订阅机构的成员。 这些杂志的数量仍在迅速增加，有17篇。 00 列于Open Access Journals [DOAJ](http://www.doaj.org) (数据获取2021年11月)。
 
 (rr-open-access-gold-publishing)=
 #### Gold 开放访问发布
 
-Gold Open Access Publishing(或有时称为libre)可以定义为向日记支付文章处理费(APC)，因此他们可以在开放访问许可下发布您文章的最后版本， 然后可以为任何人在线永久和免费获取。 作者将保留其文章的版权。 通常通过他们所选择的 [创作共用许可证](https://creativecommons.org/) 来决定他人可以对文章做些什么。 您可以在此 [视频](https://www.youtube.com/watch?v=QAeTKUpZq_Y) 中找到更多关于 APC的信息。
+Gold Open Access Publishing(或有时称为libre)可以定义为向日记支付文章处理费(APC)，因此他们可以在开放访问许可下发布您文章的最后版本， 然后可以为任何人在线永久和免费获取。 作者将保留其文章的版权。 作者将保留其文章的版权。 通常通过他们所选择的 [创作共用许可证](https://creativecommons.org/) 来决定他人可以对文章做些什么。 您可以在此 [视频](https://www.youtube.com/watch?v=QAeTKUpZq_Y) 中找到更多关于 APC的信息。
 
 人们往往会对公开访问新闻界发表错误的看法——因为它们对系统较新，往往被错误地认为比“传统”新闻界“不够严格”或“质量较低”。 有些研究人员也被困在所谓的“掠夺性出版”中，他们被骗向欺诈性的期刊支付文章处理费，而不提供能够检查文章质量和合法性的编辑程序。 按照 [Think.Check.check.提交 Guidelines](https://thinkchecksubmit.org/) 可以帮助研究人员避免掠夺性期刊。
 

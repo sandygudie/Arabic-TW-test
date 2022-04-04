@@ -31,7 +31,8 @@ Es buena práctica **especificar los archivos a confirmar**, es decir, agregar a
 ```{figure} ../../figures/flipped-taj-mahal.png
 ---
 nombre: volteado-taj-mahal
-alt: Una foto volteada del Taj Mahal para atraer la atención del lector
+alt:
+Una foto volteada del Taj Mahal para atraer la atención del lector
 ---
 Volteado Taj Mahal
 ```

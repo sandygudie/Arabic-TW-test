@@ -7,7 +7,7 @@
 (rr-testing-wrtests)=
 ## 写测试-任何测试！
 
-开始写入测试的过程可能会非常庞大，特别是如果你有一个大的代码基础。 此外，如上所述，有许多类型的测试，所有测试的实施似乎都是不可能登山的山脉。 这就是为什么本章中最重要的指导内容如下： **写一些测试**。 在代码中测试一件很长的小件事，这件事比测试一件长于数千行的代码中没有什么要好。 您可能无法做所有事情，但是做 *个很有价值。* 是很有价值的。
+开始写入测试的过程可能会非常庞大，特别是如果你有一个大的代码基础。 此外，如上所述，有许多类型的测试，所有测试的实施似乎都是不可能登山的山脉。 这就是为什么本章中最重要的指导内容如下： **写一些测试**。 在代码中测试一件很长的小件事，这件事比测试一件长于数千行的代码中没有什么要好。 您可能无法做所有事情，但是做 *个很有价值。 * 是很有价值的。
 
 在您可以的地方进行改进 并尽最大努力将测试包括在您写的新代码中，即使不可能为已写入的所有代码写入测试。
 
@@ -21,7 +21,7 @@
 
 ## 请考虑运行测试需要多长时间
 
-Some tests, like {ref}`rr-testing-unittest` only test a small piece of code and so typically are very fast. However other kinds of tests, such as {ref}`rr-testing-systemtest` which test the entire code from end to end, may take a long time to run depending on the code. 因此，在每次几分工作之后运行整个测试套装都可能是阻碍性的。 在这种情况下，最好是经常进行体重较轻的检验，如单体检验，而长时间的检验则是每天隔夜只进行一次。 您每种测试的数量相对于运行需要多长时间，也是很好的。 您应该有很多单元测试(或其他类型的测试速度较快)，但要运行很长时间的测试要少得多。
+Some tests, like {ref}`rr-testing-unittest` only test a small piece of code and so typically are very fast. However other kinds of tests, such as {ref}`rr-testing-systemtest` which test the entire code from end to end, may take a long time to run depending on the code. 因此，在每次几分工作之后运行整个测试套装都可能是阻碍性的。 However other kinds of tests, such as {ref}`rr-testing-systemtest` which test the entire code from end to end, may take a long time to run depending on the code. 因此，在每次几分工作之后运行整个测试套装都可能是阻碍性的。 在这种情况下，最好是经常进行体重较轻的检验，如单体检验，而长时间的检验则是每天隔夜只进行一次。 您每种测试的数量相对于运行需要多长时间，也是很好的。 您应该有很多单元测试(或其他类型的测试速度较快)，但要运行很长时间的测试要少得多。
 
 ## 记录测试和如何运行
 
@@ -74,7 +74,7 @@ Some tests, like {ref}`rr-testing-unittest` only test a small piece of code and 
 
 大多数编程语言都有可以输入的工具，或者可以导入的工具，或者作为测试框架的一部分，自动衡量代码覆盖面。 测量代码覆盖面也有很好的 [bot](https://codecov.io/)。
 
-**弹着：覆盖面好的幻想。** 在某些情况下，相同的代码可以而且可能应该以多种方式测试。 例如，可以快速增加对输出应用“健康检查”测试的代码的覆盖率(另见 {ref})<rr-testing-challenges-difficult-quatify>但这并不排除这样的风险：由于错误的原因，代码正在产生基本正确的答案。 一般而言，最好的测试是将前后一致的代码中的较小而不是较大的组别隔开。 然后挑出单独的逻辑步骤。 尝试以思考在执行整个过程中可能出现的特定代码块的可能情况为指导。 并检验这些个别案件。 这常常会导致同一代码经过多次测试——这是个好事！
+**弹着：覆盖面好的幻想。 ** 在某些情况下，相同的代码可以而且可能应该以多种方式测试。 例如，可以快速增加对输出应用“健康检查”测试的代码的覆盖率(另见 {ref})<rr-testing-challenges-difficult-quatify>但这并不排除这样的风险：由于错误的原因，代码正在产生基本正确的答案。 一般而言，最好的测试是将前后一致的代码中的较小而不是较大的组别隔开。 然后挑出单独的逻辑步骤。 尝试以思考在执行整个过程中可能出现的特定代码块的可能情况为指导。 并检验这些个别案件。 这常常会导致同一代码经过多次测试——这是个好事！
 
 ## 酌情使用双倍测试/模拟器
 

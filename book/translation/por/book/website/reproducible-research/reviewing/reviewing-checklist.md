@@ -28,22 +28,16 @@ Em todos os casos, o objetivo é usar sua experiência em programação para des
   - Confira as listas de [interfaces](#interfaces).
   - Verifique as classes [e digite as listas](#classes-and-types).
   - Verifique as listas [de função/método](#function-method-declarations).
-  - Verifique as listas</a> de definições de função/método
-.</li> </ul></li> 
-    
-    - Os [testes](#tests) realmente garantem que o código é robusto em seu uso pretendido? 
-    - Há algum erro ou outro defeito?
-- Os problemas de [segurança](#security) estão tratados corretamente? 
-    - Verifique a [segurança de novos códigos](#security-of-new-codes).
-- O novo código atende aos [requisitos legais](#legal)?</ul> 
-
-
+  - Verifique as listas</a> de definições de função/método .
+- Os [testes](#tests) realmente garantem que o código é robusto em seu uso pretendido?
+  - Há algum erro ou outro defeito?
+- Os problemas de [segurança](#security) estão tratados corretamente?
+  - Verifique a [segurança de novos códigos](#security-of-new-codes).
+- O novo código atende aos [requisitos legais](#legal)?
 
 ## Verificação de nível do programa
 
 Aqui está uma lista de coisas para considerar quando olhar para o programa como um todo, ao invés de olhar para um arquivo ou alteração individual.
-
-
 
 ### Documentação
 
@@ -56,11 +50,9 @@ A documentação é um pré-requisito para usar, desenvolver e analisar o progra
 - A estrutura/arquitetura do programa é documentada? (veja abaixo)
 - Há um manual de instalação?
 - Há um manual de usuário?
-- Existe documentação sobre como contribuir? 
-    - Incluindo como enviar alterações
+- Existe documentação sobre como contribuir?
+  - Incluindo como enviar alterações
   - Incluindo como documentar as alterações
-
-
 
 ### Arquitetura
 
@@ -69,11 +61,8 @@ Estes itens são principalmente importantes para programas maiores, mas ainda po
 - O programa está dividido em módulos claramente separados?
 - Serão estes módulos tão pequenos como podem ser?
 - Existe uma estrutura de dependências clara, hierárquica ou em camadas entre estes módulos?
-  
-    - Se não, a funcionalidade deve ser recombinada, ou talvez módulos interdependentes fortemente devem ser combinados.
+  - Se não, a funcionalidade deve ser recombinada, ou talvez módulos interdependentes fortemente devem ser combinados.
 - É possível simplificar o design?
-
-
 
 ### Segurança
 
@@ -81,34 +70,28 @@ Se você estiver fazendo um software que é acessível ao mundo exterior (por ex
 
 - Quais módulos lidam com a entrada do usuário?
 - Quais módulos geram saída?
-- São compartimentados de entrada e saída? 
-    - Se não, considere fazer módulos separados que gerenciam todas as entradas e saída, então a validação pode acontecer em um só lugar.
-- Em que módulos os dados não são confiáveis? 
-    - Quanto menos melhor.
-- Os dados não confiáveis são compartimentados? 
-    - Idealmente, valide no módulo de entrada e passa somente dados validados para outras partes.
-
-
+- São compartimentados de entrada e saída?
+  - Se não, considere fazer módulos separados que gerenciam todas as entradas e saída, então a validação pode acontecer em um só lugar.
+- Em que módulos os dados não são confiáveis?
+  - Quanto menos melhor.
+- Os dados não confiáveis são compartimentados?
+  - Idealmente, valide no módulo de entrada e passa somente dados validados para outras partes.
 
 ### Informações
 
 Como um desenvolvedor, você deve prestar atenção aos direitos legais dos criadores do código que você está usando. Aqui estão algumas coisas para verificar. Em de dúvida, pergunte a alguém que experienciou licenciamento para obter conselhos.
 
 - As licenças de todos os módulos/bibliotecas que são utilizadas estão documentadas?
-- Os requisitos definidos por essas licenças estão preenchidos? 
-    - As licenças estão incluídas onde for necessário?
+- Os requisitos definidos por essas licenças estão preenchidos?
+  - As licenças estão incluídas onde for necessário?
   - As declarações de direitos autorais estão incluídas no código, quando for necessário?
   - As declarações de direitos autorais estão incluídas na documentação onde for necessário?
 - As licenças de todas as peças são compatíveis entre si?
 - A licença do projeto é compatível com todas as bibliotecas?
 
-
-
 ## Checklist de Arquivo/Alterar nível
 
 Quando você está verificando alterações individuais ou arquivos em uma pull request, o código em si torna-se sujeito de escrutínio. Dependendo do idioma, arquivos podem conter interfaces, classes ou outros tipos de definição e funções. Todos esses devem ser verificados.
-
-
 
 ### Interfaces
 
@@ -118,22 +101,18 @@ Quando você está verificando alterações individuais ou arquivos em uma pull 
 
 Observe que a maioria dos itens a seguir assume um estilo de programação orientada a objetos, que pode não ser relevante para o código que você está vendo.
 
-
-
 ### Classes e tipos
 
-- A classe é documentada? 
-    - Os programas externos são necessários para a classe documentada?
+- A classe é documentada?
+  - Os programas externos são necessários para a classe documentada?
 - Será que tem uma única responsabilidade? Pode ser dividido?
 - Se projetado para ser estendido, pode ser?
 - Se não foi projetado para ser estendido, será que é protegido contra isso?
 - Se for derivado de outra classe, você pode substituir um objeto desta classe por um de sua classe pai?
-- A classe está desestabilizada? 
-    - As dependências são claras e explícitas?
+- A classe está desestabilizada?
+  - As dependências são claras e explícitas?
   - Tem um pequeno número de dependências?
   - Será que depende das interfaces, ao invés de classes?
-
-
 
 ### Declarações de Função/Método
 
@@ -141,8 +120,6 @@ Observe que a maioria dos itens a seguir assume um estilo de programação orien
 - Os dados de entrada e saída estão documentados? Incluindo unidades?
 - As pré-condições e pós-condições são documentadas?
 - São casos de arestas e coisas incomuns comentados?
-
-
 
 ### Definições Função/Método
 
@@ -156,16 +133,12 @@ Observe que a maioria dos itens a seguir assume um estilo de programação orien
 - A depuração ou o código de log pode ser removido?
 - Algum dos códigos pode ser substituído pelas funções da biblioteca?
 
-
-
 ### Segurança de novos códigos
 
 - Se você está usando uma biblioteca, você verifica erros que ela retorna?
 - Todas as entradas de dados são verificadas?
 - Os valores de saída são checados e codificados corretamente?
 - Parâmetros inválidos são tratados corretamente?
-
-
 
 ### Testes
 

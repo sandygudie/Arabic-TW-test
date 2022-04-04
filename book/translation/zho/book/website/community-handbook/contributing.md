@@ -11,7 +11,7 @@
 name: thate-could-be-chapter
 alt： Kirstie 的草图说：“那可以是一章”
 ---
-"那可以是诱惑路中的一章！" - 基尔斯蒂·惠塔克尔。 Stereteria的绘画线路项目示例。 在 CC-BY 4.0 许可下使用。 DOI：[10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)。
+"那可以是诱惑路中的一章！" - 基尔斯蒂·惠塔克尔。 - 基尔斯蒂·惠塔克尔。 Stereteria的绘画线路项目示例。 在 CC-BY 4.0 许可下使用。 DOI：[10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)。
 ```
 
 本章简要概述编写章节的工作流程和 _Ting Way_ 的个案研究。 如果你希望作出贡献，我们鼓励你阅读并遵循这些建议。 另外，请确保您在准备您的贡献时除了阅读我们的 [贡献者指南](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) 之外，还阅读我们的 [风格](https://the-turing-way.netlify.app/community-handbook/style.html) 和 [一致性](https://the-turing-way.netlify.app/community-handbook/consistency.html) 建议。

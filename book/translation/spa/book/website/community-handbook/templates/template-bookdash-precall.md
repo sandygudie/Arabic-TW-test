@@ -34,6 +34,8 @@ Por favor vea más detalles sobre [el proyecto](https://github.com/alan-turing-i
 - Introducciones (conocerse mutuamente): 10 minutos
 - Acerca de la Guía del Libro ([logística, soporte de accesibilidad, sociales](https://hackmd. o/@turingway/bookdash-may2021-index)): 10 minutos
 - [ejercicio de configuración de objetivos SMART](https://www.atlassian.com/blog/productivity/how-to-write-smart-goals) en breakout (o escritura silenciosa): 15 minutos
+- Un artista de Scriberia estará allí!! - ¿Quiere obtener alguna ilustración? o/@turingway/bookdash-may2021-index)): 10 minutos
+- [ejercicio de configuración de objetivos SMART](https://www.atlassian.com/blog/productivity/how-to-write-smart-goals) en breakout (o escritura silenciosa): 15 minutos
 - Un artista de Scriberia estará allí!! - ¿Quiere obtener alguna ilustración? (you should [check this out(https://zenodo.org/record/3332808))
 - Report out and general discussion: 30 minutes
 - Wrap up and final words: 5 minutes
@@ -86,19 +88,24 @@ Establecer nuestras metas personales nos ayudará a prepararnos mejor para tu pa
 - **R**elevante: Son importantes y prácticos.
 - **T**límite**: especifican una fecha límite para cuándo se alcanzará el objetivo.
 
-*Estamos usando [esta plantilla](https://fre)[video] publishingblog.com/wp-content/uploads/2015/08/setting-smart-goals.pdf) por la Sra. R. Schultz (2015).
-
-<! -COPY IT BELOW-->
+*Estamos usando [esta plantilla](https://fre)[video] publishingblog.com/wp-content/uploads/2015/08/setting-smart-goals.pdf) por la Sra. R. Schultz (2015). <! -COPY IT BELOW-->
 
 > [name=Name]
 > **S**pecific: ¿Qué quiero cumplir?
 > **M**easurable: ¿Cómo voy a medir mi éxito?:
 > **A**ttainable: ¿Puedo alcanzar este objetivo realistamente? ¿Qué medidas tomaré?
+    ¿Qué medidas tomaré?
     > paso 1:
     > paso 2:
     > paso 3:
 > **R**elevante: ¿Esta meta cumple con una necesidad específica? 
 > **T**límite: ¿Cuál es el plazo límite de mi objetivo? (potencialmente entre el 9 y el 13 de Noviembre): 
+> Declaración de meta:
+
+> [name=Nombre]
+> **S**Especific: ¿Qué quiero cumplir?
+> **M**easurable: ¿Cómo voy a medir mi éxito?:
+> **A**ttainable: ¿Puedo lograr realmente este objetivo? (potencialmente entre el 9 y el 13 de Noviembre): 
 > Declaración de meta:
 
 > [name=Nombre]

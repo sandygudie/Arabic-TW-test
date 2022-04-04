@@ -9,8 +9,7 @@ Neste guia, apresentamos instrumentos, métodos e recomendações para comunicar
 ---
 nome: estilos de comunicação-comunicação
 alternativo: Duas pessoas sentadas trabalhando. Um que utiliza uma pena e rola com as palavras inacessíveis e demasiado técnicas escritas na rolagem. A outra pessoa que está sentada num computador com diferentes métodos de comunicação saídos do computador, incluindo blogues, podcasts, sumários e meios sociais. Há também dicionários de línguas estrangeiras que mostram que é importante traduzir a nossa investigação em línguas diferentes. Acessibilidade está escrita na tela do computador.
----
-Ilustração sobre comunicação com um público mais amplo.
+--- Ilustração sobre comunicação com um público mais amplo.
 _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: 10.5281/zenodo.3332807.
 ```
 

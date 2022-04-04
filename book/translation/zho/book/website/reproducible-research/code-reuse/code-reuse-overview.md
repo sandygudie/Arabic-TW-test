@@ -1,11 +1,11 @@
 (rr-code-reuse-reuse-recommendation)=
 # 代码重复使用概览
 
-本节载有使您的软件更易重新使用的建议清单。 The {ref}`rr-code-reuse-details` section contains a more in-depth explanation of each of these recommendations. 您可以遵循更适合您的软件类型的建议，并跳过与您的情况无关的建议。
+本节载有使您的软件更易重新使用的建议清单。 The {ref}`rr-code-reuse-details` section contains a more in-depth explanation of each of these recommendations. 您可以遵循更适合您的软件类型的建议，并跳过与您的情况无关的建议。 您可以遵循更适合您的软件类型的建议，并跳过与您的情况无关的建议。
 
 ## 可重复的建议
 
-1. 请确保您可以找到它(在空间中。意味着：能够定位仓库/项目)
+1. 请确保您可以找到它(在空间中。 意味着：能够定位仓库/项目)
 1. 请确保您可以找到它(时间；含义：能够找到某个特定版本)
 1. 请确保您可以执行相同的操作序列
 1. 请确保您的环境和操作顺序是稳固的，不需要人来复制已经做过的工作

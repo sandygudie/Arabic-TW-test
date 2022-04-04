@@ -14,7 +14,7 @@ Agora que seu repositório está configurado, você está pronto para adicionar 
 
 * Clique no botão "adicionar arquivo" e depois crie um novo arquivo.
 * Isso lhe dará um arquivo em branco para editar.
-* Ao nomear o arquivo, o primeiro tipo no nome da pasta (existente ou novo) e depois uma barra, Seguido pelo nome do arquivo: "pasta-nome/nome do arquivo. xt".
+* Ao nomear o arquivo, o primeiro tipo no nome da pasta (existente ou novo) e depois uma barra, Seguido pelo nome do arquivo: "pasta-nome/nome do arquivo.
 * Editar o conteúdo do arquivo.
 * Salve suas alterações usando o botão "commit". Lembre-se de digitar uma {ref}`mensagem de commit<rr-vcs-commit-messages>` para ajudá-lo a lembrar quais mudanças você fez.
 
@@ -43,8 +43,7 @@ Guias de projetos no GitHub ajudam você a organizar e priorizar seu trabalho. �
 nome: github-project
 alt: Diagrama anotado de um repositório de projeto colaborativo. Explicado na legenda.
 alinhamento: à esquerda
----
-Diagrama anotado de um repositório de projeto colaborativo.
+--- Diagrama anotado de um repositório de projeto colaborativo.
 - Etiquetas no lado esquerdo da imagem:
   - **1. Projeto:** Isso mostra os quadros de projetos para este repositório.
   - **2. Issues:** Todas as tarefas que foram levantadas neste repositório.

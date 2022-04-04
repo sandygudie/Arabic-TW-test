@@ -24,7 +24,7 @@
 
 (rr-code-reuse-reuse-recommendation-checklist)=
 ## 如何使您的代码更加可重新使用
-本节载有使您的软件更易重新使用的建议清单。 The {ref}`rr-code-reuse-recommendation-details` section contains a more in-depth explanation of each of these recommendations. 您可以遵循更适合您的软件类型的建议，并跳过与您的情况无关的建议。
+本节载有使您的软件更易重新使用的建议清单。 The {ref}`rr-code-reuse-recommendation-details` section contains a more in-depth explanation of each of these recommendations. 您可以遵循更适合您的软件类型的建议，并跳过与您的情况无关的建议。 您可以遵循更适合您的软件类型的建议，并跳过与您的情况无关的建议。
 
 ### 可重复的建议
 1. 请确保您可以找到它(在空格中)
@@ -74,32 +74,32 @@
 
 (rr-code-reuse-reuse-recommendation-details)=
 ## 可重复使用的代码建议
-请确保您(或其他人)可以重新使用您的代码来做同样的事情。 The {ref}`rr-code-reuse-recommendation-checklist` section contains a checklist of recommendations for making your software more reusable. 在本节中，对其中每项建议作了更深入的解释，并指明了本指南其他有关部分。
+请确保您(或其他人)可以重新使用您的代码来做同样的事情。 The {ref}`rr-code-reuse-recommendation-checklist` section contains a checklist of recommendations for making your software more reusable. 在本节中，对其中每项建议作了更深入的解释，并指明了本指南其他有关部分。 在本节中，对其中每项建议作了更深入的解释，并指明了本指南其他有关部分。
 
 ### 可重复的建议
 在这个阶段，你可能甚至不需要能够打开并读取代码。 你只是想确保你可以重新运行所有需要的步骤并获得相同的结果。
 
-#### 1. 请确保您可以找到它(在空格中)
+#### 1. 1. 请确保您可以找到它(在空格中)
 您的代码必须公开存储并与合作者共享。 它有一个独特的持久识别码，以便每个人都能找到并获得它。
 
 **还见**: {ref}`rr-vcs`
 
-#### 2. 请确保您可以找到它(在时间上)
+#### 2. 2. 请确保您可以找到它(在时间上)
 最理想的情况是，代码的时间演变是用版本控制记录的。 这允许您从过去获取特定版本。
 
 **还见**: {ref}`rr-vcs`
 
-#### 3. 请确保您可以执行相同的操作序列
+#### 3. 3. 请确保您可以执行相同的操作序列
 建立环境的人往往也是撰写代码的人和知道能够重新运行代码和复制结果所需步骤的确切顺序的人。 这肯定能够得到认真的记录，供另一个人再做。
 
 **还见**: [Reducible Research CodeRefinery 课程](https://coderefinery.github.io/reproducible-research/)
 
-#### 4. 请确保您的环境和操作顺序是稳固的，不需要人来复制已经做过的工作
+#### 4. 4. 请确保您的环境和操作顺序是稳固的，不需要人来复制已经做过的工作
 你不想依赖人类。 他们往往犯错误，即使他们的用意不好。 所以你想要你的环境被脚本并在需要时被重新创建，你想要你的操作序列由一个管道脚本运行，这个脚本把所有的步骤序列合在一起。
 
 **还见**: {ref}`rr-renv-options`
 
-#### 5. 授权您的代码
+#### 5. 5. 授权您的代码
 请确保您的代码附加许可证，并指定当人们重新使用它时您想被引用的方式。 考虑使用允许再使用的许可协议。 此外，您应该选择一个与您的软件依赖的库或包的许可兼容的许可证。
 
 **还见**: {ref}`rr-licensing-software`, {ref}`rr-licensing-software permissive`, {ref}`rr-licensing-compatibility`
@@ -109,7 +109,7 @@
 
 **还见**: {ref}`cm-citable-cite-software`
 
-#### 7. 包含必要的数据
+#### 7. 7. 包含必要的数据
 如果软件依赖于任何类型的数据，数据应该可用
 
 **还见**: {ref}`rr-rdm-data`
@@ -117,17 +117,17 @@
 ### 可重新运行的建议
 请确保您(或其他人)可以重新使用它来做你做的事情，但有不同的数据/不同的参数
 
-#### 1. 移除硬代码位并使代码模块化
+#### 1. 1. 移除硬代码位并使代码模块化
 您不想要有您的数据或分析参数的详细信息被编入代码。 如果某些东西可以变成可重复使用的函数，将其与硬代码参数分开，然后将其变成自己可以使用的(重新)函数。 使模块纯度：给出相同的输入，一个纯函数总是返回相同的值。
 
 **还见**: [CodeRefinery模块代码开发课程](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md/#1)
 
-#### 2. 测试你制作的模块可以使用不同类型的输入数据或参数
+#### 2. 2. 测试你制作的模块可以使用不同类型的输入数据或参数
 您可能还不知道您的代码将如何在未来被重新使用。 但如果您可以测试允许的参数，您可以防止它不被使用。
 
 **还见**: [CodeRefinery 课程关于自动测试](https://coderefinery.github.io/testing/motivation/)
 
-#### 3. 将模块变成一个包/工具箱
+#### 3. 3. 将模块变成一个包/工具箱
 更多地将你的项目的细节与可以在你的项目中被其他人或其他人重新使用的bit分开。
 
 **还见**: {ref}`rr-renv-package`, [Packaging software](https://scicomp.aalto.fi/scicomp/packaging-software/), [Software python](https://aaltoscicomp.github.io/python-for-scicomp/packaging/)
@@ -135,7 +135,7 @@
 ### 可移动的建议
 可携带性是指向新环境传输软件的能力。 这可能是指相同（但不是相同）机器，但也可以是指新的硬件结构、操作系统等等。 这两者对于软件的再利用都很重要。
 
-#### 1. 请确保您可以重新创建它所生活的环境
+#### 1. 1. 请确保您可以重新创建它所生活的环境
 环境是及时的一种脆弱的快照，它默默地伴随了该守则。 它可以包括操作软件的人员、人类准备数据的步骤。 硬件、操作系统、库、外部软件包/工具箱/依赖项。 所有这些都可以仔细地记载，让另一个人重新采取所有同样的准确步骤。
 
 **还见**: {ref}`rr-renv`
@@ -143,10 +143,10 @@
 ### 可扩展和可修改的建议
 请确保其他人可以在你的代码基础上扩展并改进它。
 
-#### 1. 请确保你的代码可以被人类读
+#### 1. 1. 请确保你的代码可以被人类读
 它往往支付更多的费用给其他人写代码，以便他们能够阅读(包括你的未来)。 一个带有模糊变量名称的密码内线人比将一个班轮分成多个步骤和可读变量名具有意义更快或更有效率。 此外，使用编码约定将帮助其他读者。
 
 **还见**: {ref}`rr-code-style-and-forming`, {ref}`rr-code-quality-advantages`
 
-#### 1. 请确保评论已存在
+#### 1. 1. 请确保评论已存在
 在写入实际代码之前写下评论。 想象一下，某人可以只读评论并跳过评论之间的所有代码位，并获得关于正在发生的事情的全景，好像他们阅读了整个代码。

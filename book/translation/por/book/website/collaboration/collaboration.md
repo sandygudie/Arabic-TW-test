@@ -10,8 +10,7 @@ A ciência dos dados é definida pela sua interdisciplinaridade. O nosso trabalh
 nome: colaboração
 largura: 500px
 alt: Uma dica de iceberg é rotulada com os termos técnicos relacionados ao projeto, e alguns mergulhadores estão explorando uma enorme parte de iceberg debaixo d'água, que são rotulados com termos colaborativos orientados para a comunidade
----
-Há mais para colaboração do que vemos. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+--- Há mais para colaboração do que vemos. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
 Há muitas competências diferentes que são necessárias para trabalhar bem em grupos com uma vasta gama de conhecimentos. Neste guia, saudamos as contribuições no desenvolvimento de orientações sobre o seguinte (mas não se limitando a) tópicos:

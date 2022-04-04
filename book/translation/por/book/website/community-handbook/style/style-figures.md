@@ -58,7 +58,7 @@ Por favor, note que uma altura de 500px funciona muito bem com o livro _The Turi
 ## Texto alternativo
 Texto alternativo ou texto alternativo são usados para descrever a aparência e a função de uma imagem em uma página HTML. Nossa figura de exemplo pode ser explicada com esta frase: *Duas pessoas podem navegar felizes arquivos em uma gaveta de documentos.*
 Adicionar textos alternativos para figurar é um dos primeiros princípios da acessibilidade à Internet. Software para leitor de tela pode ler textos alternativos para explicar melhor o conteúdo da figura aos seus usuários.
-Todos os componentes da sua figura (local do arquivo de imagem, tamanho, nome texto alternativo e título) pode ser encapsulado na seção dentro de um arquivo markdown usando a seguinte directiva:
+(modelo-figuras-do-legenda)=
 
 ````
 ```{figure} ../../figures/file-collection.jpg
@@ -80,7 +80,7 @@ alt: Duas pessoas feliz navegando arquivos em uma gaveta de documentos.
 _A Turing Way_ ilustração de projeto por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-Quando todos esses componentes são usados corretamente, uma figura incluída em um arquivo será renderizada no livro online, como nesta página:
+Por exemplo, uma legenda poderia dizer:
 
 ```{figure} ../../figures/file-collection.jpg
 ---
@@ -96,7 +96,7 @@ _A Turing Way_ ilustração de projeto por Scriberia. Usado sob uma licença CC-
 
 Legendas aparecem abaixo da figura. Devem ser curtos e concisos e incluir uma referência à fonte de onde são retirados. Em particular, é importante descrever a licença ao abrigo da qual a imagem é reutilizada.
 
-Por exemplo, uma legenda poderia dizer:
+(modelo-figuras-avançadas)=
 
 > Fazendo seu primeiro pull request no GitHub. _A ilustração do projeto Caminho de Turing_ por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 
@@ -108,8 +108,7 @@ A sintaxe desta imagem é a seguinte, e a forma como aparece no livro está abai
 height: 400px
 name: first-pull-request
 alt: A person helping out another person making their first pull request on GitHub
----
-Making your first pull request on GitHub.
+--- Making your first pull request on GitHub.
 _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 ````
@@ -119,8 +118,7 @@ _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 
 height: 400px
 nome: primeiro pull request
 alt: Uma pessoa ajudando outra pessoa fazendo seu primeiro pull request no GitHub
----
-Fazendo seu primeiro pull request no GitHub.
+--- Fazendo seu primeiro pull request no GitHub.
 _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 

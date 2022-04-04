@@ -22,12 +22,14 @@
 alt: Schematic of a research project.
 ---
 一个研究项目的方案。
+---
+一个研究项目的方案。
 ```
 
 (rr-make-intro)=
 ## 要制作的简介
 
-制作是一个构建自动化工具。 它使用一个名为 Makefile 的配置文件，其中包含 *规则* 来生成什么。 使用 *配方* 设定配置 *目标* 目标可以有可选的 *前提条件*。  前提条件 可以是您计算机或其他目标上的文件。 根据目标和前提条件的依赖树来决定构建 (技术上) 这是一个 {ref}`rr-make-resources-tools` It uses the *modification time* of prerequisites to update targets only when needed.
+制作是一个构建自动化工具。 它使用一个名为 Makefile 的配置文件，其中包含 *规则* 来生成什么。 使用 *配方* 设定配置 *目标* 目标可以有可选的 *前提条件*。  目标可以有可选的 *前提条件*。  前提条件 可以是您计算机或其他目标上的文件。 根据目标和前提条件的依赖树来决定构建 (技术上) 这是一个 {ref}`rr-make-resources-tools` 根据目标和前提条件的依赖树来决定构建 (技术上) 这是一个 {ref}`rr-make-resources-tools` It uses the *modification time* of prerequisites to update targets only when needed.
 
 (rr-make-why)=
 ### 为什么要使用 Make for Reproduciable？
@@ -43,4 +45,4 @@ alt: Schematic of a research project.
 1. 因为Makefile 是文本文件，他们很容易分享并保持在版本 控制。
 1. 使用 Make 不排除使用 Travis 和 Docker等其他工具。
 
-您可以通过一个聪明的Makefile共享完整分析(代码、数据)。 和 计算工作流程，让合作者或您的文档 的读者重新计算您的结果。 通过使用 LaTeX 等工具，您甚至可以生成一个完整的手稿， 包含新计算的数字和结果！ This can increase the trust in the research output that you generate, it can make your research more accessible, and it can make collaborating easier. 本章可以向您展示如何开始操作。
+您可以通过一个聪明的Makefile共享完整分析(代码、数据)。 和 计算工作流程，让合作者或您的文档 的读者重新计算您的结果。 通过使用 LaTeX 等工具，您甚至可以生成一个完整的手稿， 包含新计算的数字和结果！ This can increase the trust in the research output that you generate, it can make your research more accessible, and it can make collaborating easier. 本章可以向您展示如何开始操作。 本章可以向您展示如何开始操作。

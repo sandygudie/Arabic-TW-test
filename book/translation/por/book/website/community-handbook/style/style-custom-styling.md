@@ -59,4 +59,4 @@ p {
 }
 ```
 
-Se você acha que o estilo introduzido na _maneira de exibição_ pode ser útil para outros usuários do Livro do Júpiter Por favor, considere fazer uma contribuição a montante para o projeto, criando um novo problema no GitHub e iniciando uma discussão com seus mantenedores: [https://github. om/executablebooks/jupyter-book/issues](https://github.com/executablebooks/jupyter-book/issues).
+Se você acha que o estilo introduzido na _maneira de exibição_ pode ser útil para outros usuários do Livro do Júpiter Por favor, considere fazer uma contribuição a montante para o projeto, criando um novo problema no GitHub e iniciando uma discussão com seus mantenedores: https://github.</p>

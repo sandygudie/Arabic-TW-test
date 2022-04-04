@@ -23,6 +23,8 @@ salida = array1 + array2
 if (output.size() != array1.size()):
   error ( '¡El array de salida tiene un tamaño incorrecto!'' )
 
+devuelve salida )
+
 devuelve salida
 ```
 

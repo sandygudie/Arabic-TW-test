@@ -50,8 +50,7 @@ Resumindo :
 ---
 nome: tidy-1
 alt: A imagem retrata dados de ordens. Uma coluna representa uma variável, uma linha representa uma amostra, e uma célula representa uma peça de informação.
----
-Uma ilustração de dados de ordenação.
+--- Uma ilustração de dados de ordenação.
 ```
 
 Três regras fazem uma ordenação do conjunto de dados:

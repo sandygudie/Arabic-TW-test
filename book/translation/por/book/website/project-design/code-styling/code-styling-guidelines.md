@@ -27,7 +27,7 @@ O guia de estilo R sugere manter os nomes de arquivos básicos. Isso pode ser ad
 
 ### Versioning
 
-Uma consideração adicional à nomeação de arquivos é versionar o seu software. Usar diretrizes de versão ajudará a evitar o uso de palavras como `_FINAL.R`. Uma convenção típica é a abordagem MajorMinorPatch (ou MajorMinorRevision). Nisto, sua primeira tentativa em um pacote ou biblioteca pode ser assim:
+Uma consideração adicional à nomeação de arquivos é versionar o seu software. Usar diretrizes de versão ajudará a evitar o uso de palavras como `_FINAL. R`. Uma convenção típica é a abordagem MajorMinorPatch (ou MajorMinorRevision). Nisto, sua primeira tentativa em um pacote ou biblioteca pode ser assim:
 ```
 meu-pacote_1_0_0.py
 ```

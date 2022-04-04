@@ -16,8 +16,7 @@ Este capítulo destina-se principalmente aos Engenheiros de Software de Pesquisa
 ---
 nome: binderhub
 alt: Uma representação da arquitetura do BinderHub que envolve GitHub, repo2docker, docker, jupyterhub e envio para clientes na empresa.
----
-Ilustração sobre a arquitetura de BinderHub.
+--- Ilustração sobre a arquitetura de BinderHub.
 _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: 10.5281/zenodo.3332807.
 ```
 

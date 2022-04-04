@@ -32,7 +32,7 @@ alt: 花园里有着在花园不同部分工作的全套民俗。 有人欢迎�
 
 如果您是新的并想要与我们连接，加入我们的 [Gitter频道](https://gitter.im/alan-turing-institute/the-turing-way)。 我们还主办双月的 [在线协作咖啡厅](https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md) ，以便在线与我们的社区成员在线合作。 这是向其他社区成员征求意见和征求他们对你的工作的反馈和评论的适当场所。
 
-对于具体的问题或问题，您可以通过电子邮件联系我们的社区管理员 **Malvika Sharan** [msharan@turing.ac.uk](mailto:msharan@turing.ac.uk) 或者，您可以通过电子邮件联系主要调查员 **Kirstie Whitaker** [kwhitaker@turing.ac.uk](mailto:kwhitaker@turing.ac.uk)
+对于具体的问题或问题，您可以通过电子邮件联系我们的社区管理员 **Malvika Sharan** [msharan@turing.ac.uk](mailto:msharan@turing.ac.uk) 或者，您可以通过电子邮件联系主要调查员 **Kirstie Whitaker** [kwhitaker@turing.ac.uk](mailto:kwhitaker@turing.ac.uk) 或者，您可以通过电子邮件联系主要调查员 **Kirstie Whitaker** [kwhitaker@turing.ac.uk](mailto:kwhitaker@turing.ac.uk)
 
 若要随时更新我们的社区活动，请订阅 [_Ting Way_ 日历](https://calendar.google.com/calendar?cid=dGhldHVyaW5nd2F5QGdtYWlsLmNvbQ)。 若要接收月报， [请加入我们的邮件列表](https://tinyletter.com/TuringWay)
 
@@ -44,14 +44,9 @@ alt: 花园里有着在花园不同部分工作的全套民俗。 有人欢迎�
 
 - 在 [本书](https://the-turing-way.netlify.com) 和/或 [版本库](https://github.com/alan-turing-institute/the-turing-way) 中修复一个输入。
 - 在 GitHub</a> 上打开一个
-
-问题以标记书中不明确或重复的信息。</li> 
-  
-  - 修复 [旧问题](https://github.com/alan-turing-institute/the-turing-way/issues) 或评论 [拉取请求](https://github.com/alan-turing-institute/the-turing-way/pulls)。
+- 修复 [旧问题](https://github.com/alan-turing-institute/the-turing-way/issues) 或评论 [拉取请求](https://github.com/alan-turing-institute/the-turing-way/pulls)。
 - 在这个 [谷歌形式](https://goo.gl/forms/akFqZEIy2kxAjfZW2) 中写下你个人的可复制研究体验。
-- 在GitHub上查看更多信息：https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md</ul> 
-
-
+- 在GitHub上查看更多信息：https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md
 
 ## 诱惑的道路联系点
 

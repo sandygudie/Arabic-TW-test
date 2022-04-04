@@ -30,7 +30,8 @@ Tenemos una plantilla para los {ref}`Cafés de Colaboración<ch-template-coworki
 
 **Bono**
 
-Puede ver este video para ver Kirstie y Malvika planificar la estructura y el formato del Café de Colaboración. <iframe width="560" height="315" src="https://www.youtube.com/embed/XUw5kpypeo8" title="Reproductor de vídeo de YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
+Puede ver este video para ver Kirstie y Malvika planificar la estructura y el formato del Café de Colaboración.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XUw5kpypeo8" title="Reproductor de vídeo de YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Programar
 
@@ -61,7 +62,9 @@ Ejecutaremos el siguiente programa durante cada Cafe de Colaboración:
 
 **¿Quieres ver cómo ejecutamos estas llamadas?**
 
-Hemos publicado algunos videos de nuestro Collaboration Cafés en YouTube. Vea el vídeo para ver cómo Kirstie organizó las llamadas cuando se lanzó por primera vez. <iframe width="560" height="315" src="https://www.youtube.com/embed/I0z7OEbBzes" title="Reproductor de vídeo de YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
+Hemos publicado algunos videos de nuestro Collaboration Cafés en YouTube. Vea el vídeo para ver cómo Kirstie organizó las llamadas cuando se lanzó por primera vez.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I0z7OEbBzes" title="Reproductor de vídeo de YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### Durante la llamada
 - Utilice las notas durante la llamada para compartir información mientras usted preside la llamada
@@ -120,7 +123,7 @@ He aquí un ejemplo del segundo Café de Colaboración en septiembre de 2019:
 
 > *Nombre + mayor logro de esta semana + emoji que mejor explica tu día* *(Recuerda que este es un documento público. Puedes usar un seudónimo si lo prefieres.)*
 > 
-> * Kirstie Whitaker + obtuvo una estructura escrita para un artículo que había sido muy difícil de empezar! + 🤦‍♀️ (¡porque me mezclé estos tiempos - ¡pues!)
+> * Kirstie Whitaker + obtuvo una estructura escrita para un artículo que había sido muy difícil de empezar! + 🤦‍♀️ (¡porque me mezclé estos tiempos - ¡pues!) + 🤦‍♀️ (¡porque me mezclé estos tiempos - ¡pues!)
 > * Malvika Sharan + Volviendo de vacaciones, listo para un trabajo emocionante :D + :grimacing:
 
 Como puede ver, hay un recordatorio en las notas de que están en un documento público. Está totalmente bien que añadas tanta o tan poca información como que te sientas cómodo compartir.
@@ -129,7 +132,7 @@ Como puede ver, hay un recordatorio en las notas de que están en un documento p
 
 En la sección de **Conversación de notas** de las notas de HackMD, animamos a todos a publicitar sus eventos o a dar una actualización de su comunidad.
 
-¡Estos no tienen que ser Turing Way "marcados"! **Queremos saber sobre todas las cosas geniales en las que estás trabajando.**✨
+¡Estos no tienen que ser Turing Way "marcados"! ¡Estos no tienen que ser Turing Way "marcados"! **Queremos saber sobre todas las cosas geniales en las que estás trabajando.**✨
 
 ### Buenas primeras contribuciones
 

@@ -9,11 +9,11 @@
 
 免费提供这些资源的一些网站有：
 
-* [用于图标和照片的 Noun 项目](https://thenounproject.com)
+* 用于图标和照片的 Noun 项目
 * [为照片打开](https://unsplash.com)
-* [照片的Pexels](https://www.pexels.com)
+* 照片的Pexels
 * [Freepik](https://www.freepik.com/free-photos-vectors/english) 用于图标和图案
-* [图标的静态](https://www.flaticon.com/free-icons/english)
+* https://www.flaticon.com/free-icons/english
 * [Canva](https://www.canva.com) 图标的
 
 ## 录制对话的技术设置
@@ -29,7 +29,7 @@
 ### 声音设置
 
 * 对于听力不强的听众来说，声音质量总是比视频质量更重要。
-* 在陈述之前。 将您的声音记录在演示文稿中使用的同一设备，以检查声音质量并进行任何调整以确保简洁。
+* 将您的声音记录在演示文稿中使用的同一设备，以检查声音质量并进行任何调整以确保简洁。
 
 ### 录制视频
 

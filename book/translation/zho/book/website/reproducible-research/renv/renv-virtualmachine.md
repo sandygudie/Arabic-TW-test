@@ -16,7 +16,7 @@ Alt：虚拟机的屏幕截图。
 
 ```
 
-用户可以随意下载、安装、备份和销毁虚拟机，这就是为什么他们是分享可再生产研究的有吸引力的工具。 研究往往需要特定的软件或系统设置。 如果研究人员希望在其计算机上复制另一方的著作， 对其环境进行必要的改变以便管理该项目可能会影响其工作。 For example, in the {ref}`rr-renv-useful` section of this chapter, we described how using a different version of Python can lead to unexpected changes in the results of an analysis. 说一个研究人员安装更新版本的 Python 以复制分析，因为分析只需要更新版本中的功能。 这样，他们就使自己的工作面临危险。 虚拟机消除了这种风险；下载的任何工具或改变的设置只会影响到虚拟机，保持生殖器研究安全。 如果他们在虚拟机中无意中破坏某些东西，他们可以删除它并做另一个。 VM实际上是一个隔离区。
+用户可以随意下载、安装、备份和销毁虚拟机，这就是为什么他们是分享可再生产研究的有吸引力的工具。 研究往往需要特定的软件或系统设置。 如果研究人员希望在其计算机上复制另一方的著作， 对其环境进行必要的改变以便管理该项目可能会影响其工作。 For example, in the {ref}`rr-renv-useful` section of this chapter, we described how using a different version of Python can lead to unexpected changes in the results of an analysis. 说一个研究人员安装更新版本的 Python 以复制分析，因为分析只需要更新版本中的功能。 说一个研究人员安装更新版本的 Python 以复制分析，因为分析只需要更新版本中的功能。 这样，他们就使自己的工作面临危险。 虚拟机消除了这种风险；下载的任何工具或改变的设置只会影响到虚拟机，保持生殖器研究安全。 如果他们在虚拟机中无意中破坏某些东西，他们可以删除它并做另一个。 VM实际上是一个隔离区。
 
 (rr-renv-vm-research)=
 ## 使用虚拟机进行可复制研究
@@ -26,7 +26,7 @@ Alt：虚拟机的屏幕截图。
 (rr-renv-vm-research-setting)=
 ### 设置虚拟机
 
-首先，选择生成VM的工具 这里选择了广泛使用的 [虚拟框](https://www.virtualbox.org/)。 下载并在您的系统上安装它。 要创建一个新机器，请点击左上角的“新机器”。 一个窗口将弹出您可以在哪里输入机器名称并选择要使用的操作系统 (和版本)。 在下图中，正在创建一个叫做 `demo_VM` 运行Ubuntu的机器：
+首先，选择生成VM的工具 首先，选择生成VM的工具 这里选择了广泛使用的 [虚拟框](https://www.virtualbox.org/)。 下载并在您的系统上安装它。 要创建一个新机器，请点击左上角的“新机器”。 一个窗口将弹出您可以在哪里输入机器名称并选择要使用的操作系统 (和版本)。 在下图中，正在创建一个叫做 `demo_VM` 运行Ubuntu的机器：
 
 ```{figure} ../../figures/vm-create-machine.png
 ---
@@ -54,7 +54,7 @@ Alt: 显示如何启动虚拟机的屏幕截图。
 (rr-renv-vm-research-sharing)=
 ### 共享虚拟机
 
-研究人员可以对其虚拟机进行研究，然后将其导出。 To export a VM, click `File` in the top left and then `Export`. 这将导出虚拟机作为可以共享的单个文件。
+研究人员可以对其虚拟机进行研究，然后将其导出。 To export a VM, click `File` in the top left and then `Export`. To export a VM, click `File` in the top left and then `Export`. 这将导出虚拟机作为可以共享的单个文件。
 
 ```{figure} ../../figures/vm-export-machine.png
 ---

@@ -8,7 +8,7 @@ Mais recentemente, as sínteses sumárias estão a tornar-se uma exigência de r
 (cm-lay-summaries-what)=
 ## O que é um Resumo de Lay?
 
-Um resumo laico é um resumo de um projecto de investigação ou uma proposta de investigação que é geralmente escrita para os membros do público. em vez de pesquisadores ou profissionais. Deve ser escrito em inglês simples, evite o uso de jargão e explique quaisquer termos técnicos que precisam ser incluídos {cite:ps}`Duke2012summary`.
+Um resumo laico é um resumo de um projecto de investigação ou uma proposta de investigação que é geralmente escrita para os membros do público. Deve ser escrito em inglês simples, evite o uso de jargão e explique quaisquer termos técnicos que precisam ser incluídos {cite:ps}`Duke2012summary`.
 
 (cm-lay-summaries-porquê)=
 ## Por que escrever sumários de Lay?

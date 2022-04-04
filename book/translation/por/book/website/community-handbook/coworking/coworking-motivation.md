@@ -19,7 +19,7 @@ A motivação por trás da hospedagem destas chamadas online para _A Caminho da 
 
 Buscamos criar um espaço seguro para experiência compartilhada, conexão, suporte e colaboração para a comunidade distribuída de _The Turing Way_.
 
-Se você quer ir a essas chamadas, mas não sabe no que trabalhar. Não se preocupe! _A Caminho em Turing_ os membros do núcleo da equipe estarão em chamada e o apontarão para alguns pontos de partida no projeto e outros esforços contínuos, onde você pode fazer a diferença.
+Se você quer ir a essas chamadas, mas não sabe no que trabalhar. _A Caminho em Turing_ os membros do núcleo da equipe estarão em chamada e o apontarão para alguns pontos de partida no projeto e outros esforços contínuos, onde você pode fazer a diferença.
 
 ## Técnicas
 

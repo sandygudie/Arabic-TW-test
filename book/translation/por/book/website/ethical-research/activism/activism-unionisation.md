@@ -63,9 +63,7 @@ Tratava-se de um sindicato para cientistas fundado no início do século XX, que
 height: 500px
 nome: cientifica-union-badge
 alt: Um emblema azul com AScW, que significa a Associação de Trabalhadores Científicos impressos num cenário de madeira.
----
-AScW (significa
-Emblema da Associação de Trabalhadores Científicos). Imagem da conta do Instagram [@BadgesofStruggle](https://www.instagram.com/badgesofstruggle/) *(texto e imagem reproduzidos sob CC-BY com permissão da conta)*
+--- AScW (significa Emblema da Associação de Trabalhadores Científicos). Imagem da conta do Instagram [@BadgesofStruggle](https://www.instagram.com/badgesofstruggle/) *(texto e imagem reproduzidos sob CC-BY com permissão da conta)*
 ```
 > A união começou sua história como a União Nacional dos Trabalhadores Científicos em 1918, como resultado da rápida e crescente classe e consciência profissional, bem como a politização dos cientistas na sequência da Primeira Guerra Mundial. Em 1927 o nome foi alterado para o AScW, e continuou assim até 1968, quando se uniu com a Associação do Pessoal de Supervisão, Executivos e técnicos (ASSET) para formar a Associação dos Staffs Científicos, Técnicos e Gestores (ASTMS) um precursor do MSF e, em última análise, unificado. A união foi estabelecida “com uma plataforma explicitamente socialista”, e várias das suas principais figuras eram cientistas respeitados e socialistas activos e membros do Partido Comunista, como Hyman Levy e John Desmond Bernal. Vários vencedores do Prêmio Nobel eram membros. Os cientistas e técnicos sindicais organizados na investigação governamental e no sector privado, e se tornou um proeminente propaganda para a expansão da R&D de financiamento público, bem como tomar posições políticas sobre o uso ético da ciência, contra a ameaça global do fascismo e da orientação da investigação científica para fins pacíficos. A AScW continuou a encontrar a Federação Mundial dos Trabalhadores Científicos em 1946, uma organização que durante a Guerra Fria foi acusada de seguir a linha soviética e de ser uma frente comunista.
 
@@ -138,7 +136,7 @@ Reconhecemos que a lista abaixo é muito centrada no Reino Unido e gostaríamos 
 * **Unite**, Reino Unido, a maior união de serviços profissionais com mais de 1 milhão de membros [site](https://unitetheunion.org/)
 * **University & Colleges Union (UCU)**, Reino Unido, abrange pesquisadores, pessoal académico e altos graus de pessoal de serviços profissionais no Ensino Superior & Instituições de Ensino Futuro [website](https://www.ucu.org.uk/)
 * **Prospect**, Reino Unido, union covering scientists & engineers [website](https://members.prospect.org.uk/our-industries/science/index)
-* **Sites da União de Serviços Públicos e Comerciais (PCS)**, Reino Unido, União de Serviços Públicos [](https://www.pcs.org.uk/about-pcs)
+* **Sites da União de Serviços Públicos e Comerciais (PCS)**, Reino Unido, União de Serviços Públicos
 * United Voices of the World (UVW), Charity Sector Workers Branch [site](https://www.uvwunion.org.uk/en/sectors/charity-sector/)
 * Sindicato Independente de Trabalhadores da Grã-Bretanha (IWGB), Gabinete de Trabalhadores do Setor de Caridade [site](https://iwgb.org.uk/page/iwgb-charity-workers-branch/)
     * IWGB também tem uma série de ramificações cobrindo limpezas, recepcionistas e trabalhadores da indústria de jogos
@@ -150,17 +148,17 @@ Reconhecemos que a lista abaixo é muito centrada no Reino Unido e gostaríamos 
 * **Neutrampolim Française De├mocratique du Travail (CFDT)** é a maior confederação sindical francesa por número de membros. Ela se originou como um ramo secular do sindicato cristão Confect, de├aise des Travailleurs Chre^\\tiens (CFTC) [site](https://cfdt.fr/)
 * **Confe├de├ration Ge^\\neale du Travail (CGT)** é o segundo maior sindicato francês por um número de membros. A CGT está concentrando sua atenção no sindicalismo no site [do setor privado](https://www.cgt.fr/)
 * **A Confe├de├ration Ge├neale du Travail-Force Ouvrie├re (CGT-FO)** foi fundada por antigos membros da Confederação Geral de Trabalho (CGT) que acusou essa federação para ser influenciada pelo site [do Partido Comunista Francês](https://www.force-ouvriere.fr/?lang=fr)
-* **Confe^\\de-ration Franconëaise de l’Encadrement-Confe├de─ration Ge├neł rale des Cadres (CFE-CGC)** é exclusivamente focado na organização de sindicatos para funcionários profissionais com educação superior ou em cargos executivos ou em site de gestão [](https://cfecgc.org/)
+* **Confe^\\de-ration Franconëaise de l’Encadrement-Confe├de─ration Ge├neł rale des Cadres (CFE-CGC)** é exclusivamente focado na organização de sindicatos para funcionários profissionais com educação superior ou em cargos executivos ou em site de gestão
 
 #### Itália
 * **A Confederazione Generale Italiana Lavoratori (CGIL)** é a maior união italiana que conta mais de 5 milhões de membros [no site](http://www.cgil.it/)
-* **A Confederazione Italiana Sindacato dei Lavoratori (CISL)** é baseada em grupos de valores católicos romanos ligados ao site da Democracia Cristã [](https://www.cisl.it/)
-* **Unione Italiana Lavoratori (UIL)** é o socialista, social democrático, (republican) e secular dividido do site CGIL [](https://www.uil.it/)
+* **A Confederazione Italiana Sindacato dei Lavoratori (CISL)** é baseada em grupos de valores católicos romanos ligados ao site da Democracia Cristã
+* **Unione Italiana Lavoratori (UIL)** é o socialista, social democrático, (republican) e secular dividido do site CGIL
 * **Único Sindacale Professori e Ricercatori (USPUR)** é destinado a professores e pesquisadores [do site](https://www.uspur.it/)
 * **Úone Degli Universitari (UDU)** é focado em melhorar a experiência de estudantes universitários e a futura carreira [site](https://www.unionedegliuniversitari.it/)
 
 #### Espanha
-* **Unio➲ n General de Trabajadores (UGT)** é um dos principais sindicatos espanhóis, historicamente afiliado ao site do Partido dos Trabalhadores Socialistas Europeus (PSOE) [](https://www.ugt.es/)
+* **Unio➲ n General de Trabajadores (UGT)** é um dos principais sindicatos espanhóis, historicamente afiliado ao site do Partido dos Trabalhadores Socialistas Europeus (PSOE)
 * **Confederacio├n Sindical de Comisiones Obreras (CCOO)** é a segunda maior união da Espanha e é o site [de eleições de trabalho](https://www.ccoo.es/)
 * **** A Federacion de Jovenes Investigadores (FJI-Precarios) </strong> está focada em melhorar as condições de trabalho de jovens pesquisadores, defender a dignidade da profissão de investigador, e em geral, melhorar a situação da ciência na Espanha [website](http://precarios.org/Qui%C3%A9nes+somos)
 

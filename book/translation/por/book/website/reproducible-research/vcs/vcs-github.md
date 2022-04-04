@@ -90,7 +90,7 @@ No entanto, se você não puder editar o repositório diretamente (quando você 
 (rr-vcs-github-contributing)=
 ## Contribuindo para outros projetos
 
-Quando você cria uma cópia local de um repositório, você só mantém as versões dos arquivos que estão no repositório no momento de criar essa cópia. Se alguma alteração for feita no repositório original, sua cópia ficará dessincronizada. Isso pode levar a problemas como conteúdo de arquivo conflitante ao fazer um pull request ou fazer merge de alterações do branch para o repositório principal. Portanto, ao trabalhar em diferentes filiais ou forks de um repositório, é uma boa prática mantê-los atualizados com o repositório principal e em sincronia com o repositório original.
+Quando você cria uma cópia local de um repositório, você só mantém as versões dos arquivos que estão no repositório no momento de criar essa cópia. Portanto, ao trabalhar em diferentes filiais ou forks de um repositório, é uma boa prática mantê-los atualizados com o repositório principal e em sincronia com o repositório original. Se alguma alteração for feita no repositório original, sua cópia ficará dessincronizada. Isso pode levar a problemas como conteúdo de arquivo conflitante ao fazer um pull request ou fazer merge de alterações do branch para o repositório principal.
 
 (rr-vcs-github-contributing-workflow)=
 ### Um Fluxo de Trabalho para Contribuir com Outros projetos Github via `git`:
