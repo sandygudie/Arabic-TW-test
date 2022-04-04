@@ -1,51 +1,51 @@
-(r-make-resources)=
-# الموارد لـ "صنع"
+crwdns846800:0crwdne846800:0
+# crwdns846802:0crwdne846802:0
 
-(r-make-resources-manual)=
-## دليل
+crwdns846804:0crwdne846804:0
+## crwdns846806:0crwdne846806:0
 
-- [دليل المرجع الرسمي ](https://www.gnu.org/software/make/manual/make.html).
+- crwdns846808:0crwdne846808:0
 
-(الموارد - المناقشات) =
-## المناقشات
+crwdns846810:0crwdne846810:0
+## crwdns846812:0crwdne846812:0
 
-- [مناقشة حول صنع HackerNews](https://news.ycombinator.com/item?id=15041986).
+- crwdns846814:0crwdne846814:0
 
-- [جعل متكرر نظر في ضار](http://aegis.sourceforge.net/auug97.pdf). هذه ورقة معلومة حول لماذا لا يجب عليك استخدام المداخلات. للإيجاز: إذا فعلت هذا لا يستطيع رؤية DAG بأكمله وهذا يؤدي إلى مشاكل.
+- crwdns846816:0crwdne846816:0 crwdns846818:0crwdne846818:0 crwdns846820:0crwdne846820:0
 
-- [جعل غير متكرر نظر في ضار](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/03/hadrian.pdf): هذه ورقة بحث تصف إخفاقات صنع للبنايات الكبيرة و المعقدة.
+- crwdns846822:0crwdne846822:0
 
-(r-make-resources-blogs)=
-## المدوّنات
+crwdns846824:0crwdne846824:0
+## crwdns846826:0crwdne846826:0
 
-بالطبع نحن لسنا أول من يقترح استخدام "صنع للتأثير"! تم العثور على مشاركات المدونة المذكورة أدناه بعد كتابة البرنامج التعليمي أعلاه، ولكن يمكن إضافة المزيد من المعلومات والأمثلة.
+crwdns846828:0crwdne846828:0 crwdns846830:0crwdne846830:0
 
-- [قابلية التكرار صعبة](https://kbroman.wordpress.com/tag/reproducible-research/). مناقشة إنشاء مشروع بحث قابل للاستنساخ باستخدام Make.
+- crwdns846832:0crwdne846832:0 crwdns846834:0crwdne846834:0
 
-- [غنو صنع لتحليل البيانات القابلة للنسخ](http://zmjones.com/make/). لإستخدام اصنع لتحليل قابل للتكاثر في نفس النسق كما نفعل أعلاه.
+- crwdns846836:0crwdne846836:0 crwdns846838:0crwdne846838:0
 
-- [أنابيب المعلومات الحيوية القابلة للتكرار باستخدام صنع](http://byronjsmith.com/make-bml/). دروس موسعة جدا حول استخدام اصنع لتحليل البيانات.
+- crwdns846840:0crwdne846840:0 crwdns846842:0crwdne846842:0
 
-- [التحليل التلقائي للبيانات خطوط الأنابيب](http://stat545.com/automation04_make-activity.html). برنامج تعليمي مماثل يستخدم R للتحليل.
+- crwdns846844:0crwdne846844:0 crwdns846846:0crwdne846846:0
 
-- [كتابة ورقة قابلة للاستنساخ](http://handbook.datalad.org/en/latest/usecases/reproducible-paper.html#automation-with-existing-tools). دروس مشابهة مع بايثون باستخدام المتغيرات لتجميع الجداول في المخطوطة .
+- crwdns846848:0crwdne846848:0 crwdns846850:0crwdne846850:0
 
-(r-make-resources-أدوات)=
-## أدوات
+crwdns846852:0crwdne846852:0
+## crwdns846854:0crwdne846854:0
 
-- رسم DAG لـ Makefile باستخدام [makefile2graph](https://github.com/lindenb/makefile2graph).
+- crwdns846856:0crwdne846856:0
 
-(r-make-resources-Alternatives)=
-## بدائل لعمل
+crwdns846858:0crwdne846858:0
+## crwdns846860:0crwdne846860:0
 
-هناك [العديد من البدائل صنع](https://en.wikipedia.org/wiki/List_of_build_automation_software). في الأسفل هناك بعض الذين ألقوا القبض على عينينا، وقد يكون ذلك يستحق النظرة.
+crwdns846862:0crwdne846862:0 crwdns846864:0crwdne846864:0
 
-- [SnakeMake](https://snakemake.readthedocs.io/en/stable/). القائم على Python3 بديل لمايك. يدعم Snakemake العديد من البطاقات البرية في أسماء الملفات، يدعم رمز Python في القواعد. ويمكن تشغيل سير العمل على محطات العمل، مجموعات، الشبكة، وفي السحابة دون تعديل.
+- crwdns846866:0crwdne846866:0 crwdns846868:0crwdne846868:0 crwdns846870:0crwdne846870:0
 
-- [Tup](http://gittup.org/tup/index.html). نظام بناء سريع يجهز المتطلبات الأساسية من أسفل إلى أعلى بدلاً من "ماكي" من أعلى إلى أسفل. تبدو السرعة مثيرة للإعجاب والورقة التي تصفها مثيرة للاهتمام، ولكن للمشاريع الصغيرة لن تكون سرعة ماكي اختناق. بناء صيغة ملف Tupfile ليس متوافقاً مع صيغة Makefiles.
+- crwdns846872:0crwdne846872:0 crwdns846874:0crwdne846874:0 crwdns846876:0crwdne846876:0 crwdns846878:0crwdne846878:0
 
-- [Bazel](https://www.bazel.build). نسخة مفتوحة المصدر من نظام بناء Blaze الخاص بجوجل.
+- crwdns846880:0crwdne846880:0 crwdns846882:0crwdne846882:0
 
-- [Buck](https://buckbuild.com/). نظام بناء الفيسبوك.
+- crwdns846884:0crwdne846884:0 crwdns846886:0crwdne846886:0
 
 
