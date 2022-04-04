@@ -1,10 +1,15 @@
-# crwdns821234:0crwdne821234:0
+# الخاتمة
 
-crwdns821236:0crwdne821236:0 crwdns821238:0{ref}crwdnd821238:0{ref}crwdnd821238:0{ref}crwdne821238:0
+الجزء الأخير من كتاب _ (The Turing Way) منهج تورينج _ يسمى **الخاتمة**. اتباعا لهذا المبدأ التصميمي للكتب القياسية، قمنا حتى الآن بإدراج {ref}`المسرد`، {ref}`ثبت المراجع` و {ref}`سجل المساهمين` كمواد تكميلية لـ _طريق التجديد_.
 
-crwdns821240:0crwdne821240:0
+تم كتابة جوانب التعاون المجتمعي والتنمية من الكتاب في قسم [دليل المجتمع](../community-handbook/community-handbook) من هذا الكتاب.
 
 ```{figure} ../figures/road-to-reproducibility.jpg
-crwdns821242:0crwdne821242:0
-crwdns821244:0crwdne821244:0 crwdns821246:0crwdne821246:0 crwdns821248:0crwdne821248:0 crwdns821250:0crwdne821250:0
+height: 400px
+name: road-to-reproducibility
+alt: Three hands holding magnifying glasses and varifying 'road to reproducibility' of The Turig Way.
+CONTEXTEDIT
+CONTEXTEDIT
+---
+الطريق إلى إمكانية التكرار. _توضيح مشروع طريق التورين_ من سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
 ```
