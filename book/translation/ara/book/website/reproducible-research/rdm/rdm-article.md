@@ -1,67 +1,67 @@
-(r-rdm-article)=
-# مشاركة بياناتك من خلال مقالة بيانات
+crwdns849088:0crwdne849088:0
+# crwdns849090:0crwdne849090:0
 
-ومقال عن البيانات (يعرف أيضا باسم ورقة بيانات/مذكرة/إصدار، أو مقالة قاعدة البيانات) هو منشور يركز على وصف مجموعة البيانات. وهي تستخدم هيكل مقالة المجلة التقليدية. غير أنها تركز على جمع البيانات والجوانب المنهجية ولا تركز عموما على تفسير النتائج أو مناقشتها.
+crwdns849092:0crwdne849092:0 crwdns849094:0crwdne849094:0
 
-(r-rdm-article-الحافز)=
-## الدوافع لمشاركة البيانات من خلال مقال بيانات
+crwdns849096:0crwdne849096:0
+## crwdns849098:0crwdne849098:0
 
-مقالات البيانات تتوافق مع {ref}`مبادئ FAIR<rr-rdm-fair>`، خاصة لأن معظم الناشرين سيشجعونك على مشاركة البيانات من خلال مستودع البيانات. فائدة مقالة البيانات هي أن إخراجك سيكون {ref}`استعراض النظراء<cm-peer-review>`، شيء لا ينطبق عموما على مجموعات البيانات التي يتم أرشفتها على {ref}`مستودعات البيانات<rr-rdm-sharing>`. كما أنه ييسر التعرف على مجموعات البيانات من خلال إجراءات تقييم البحوث التي تركز بصورة تقليدية أكثر على نواتج المنشورات. ولذلك فإن نشر ورقة بيانات من شأنه أن يزيد من وضوح البيانات ومصداقيتها وقابليتها للاستخدام، فضلا عن إعطائك الفضل كمنتج للبيانات.
-
-
-(خيارات r-rdm-article-Option)=
-## خيارات لنشر مقالة بيانات
-
-يمكنك أن تجد أدناه بعض المجلات التي تنشر مقالات أو ورقات البيانات. وقد جمعت المعلومات المتعلقة بالتكاليف في شباط/فبراير 2022.
-
-إذا كنت تخطط لنشر تحليل لبياناتك المنشورة، قد يكون من المفيد التدقيق في المجلة أنهم لن يعتبروا مقالة بيانات على تلك المجموعة من البيانات على أنها 'منشور سابق`(انظر قائمة المجلات في 'المنشورات السابقة` [F1000Research (غير شاملة](https://f1000research.com/data-policies)).
+crwdns849100:0{ref}crwdne849100:0 crwdns849102:0{ref}crwdnd849102:0{ref}crwdne849102:0 crwdns849104:0crwdne849104:0 crwdns849106:0crwdne849106:0
 
 
-### انضباطا غير مشرف
+crwdns849108:0crwdne849108:0
+## crwdns849110:0crwdne849110:0
 
-|                                    نوع المقالة                                    |                                                                                                           تقديرات التكاليف                                                                                                           |
-|:---------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| [النتائج التجريبية](https://www.cambridge.org/core/journals/experimental-results) | [775 جنيه استرليني](https://www.cambridge.org/core/journals/experimental-results/information/instructions-for-authors#articleprocessingcharges) ([انظر $](https://www.xe.com/currencyconverter/convert/?Amount=775&From=GBP&To=USD)) |
-|                 [البيانات العلمية](https://www.nature.com/sdata/)                 |                                                  [يورو 1790](https://www.nature.com/sdata/oa) ([انظر $](https://www.xe.com/currencyconverter/convert/?Amount=1790&From=EUR&To=USD))                                                  |
-|        [البيانات باختصار](https://www.journals.elsevier.com/data-in-brief)        |                                                                                    [$&nbsp;500](https://www.journals.elsevier.com/data-in-brief)                                                                                     |
-|                  [بيانات الصين العلمية](http://www.csdata.org/)                   |                                           [RMB&nbsp;3000 ](http://www.csdata.org/en/p/static/1329/) ([انظر $](https://www.xe.com/currencyconverter/convert/?Amount=3000&From=CNY&To=USD))                                            |
-|              [يومية علوم البيانات](https://datascience.codata.org/)               |                                     [650 جنيه استرليني](https://datascience.codata.org/about/submissions/) ([انظر $](https://www.xe.com/currencyconverter/convert/?Amount=650&From=GBP&To=USD))                                      |
-|                   [البيانات](https://www.mdpi.com/journal/data)                   |                                            [CHF&nbsp;1400 ](https://www.mdpi.com/journal/data/apc) ([انظر $](https://www.xe.com/currencyconverter/convert/?Amount=1400&From=CHF&To=USD))                                             |
-|               [جيغاي العلوم](https://academic.oup.com/gigascience)                |                          [1089 يورو](https://academic.oup.com/gigascience/pages/charges_licensing_and_self_archiving) ([انظر $](https://www.xe.com/currencyconverter/convert/?Amount=1089&From=EUR&To=USD))                          |
-|          [Gigabyte](https://gigabytejournal.com/information-for-authors)          |                                                                       [$&nbsp;350](https://gigabytejournal.com/open-access-and-apc#article-processing-charges)                                                                       |
-|           [F1000بحث](https://think.f1000research.com/about-data-notes/)           |                                                                      [دولار أمريكي&nbsp;800](https://f1000research.com/for-authors/article-processing-charges)                                                                       |
+crwdns849112:0crwdne849112:0 crwdns849114:0crwdne849114:0
+
+crwdns849116:0crwdne849116:0
 
 
-### انضباط محدد
-|          الانضباط          |                                                           الناشر/اليومية                                                           |                                                                                                  تقديرات التكاليف                                                                                                  |
-|:--------------------------:|:----------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-|         علم الآثار         |                              [يومية بيانات الآثار المفتوحة](https://openarchaeologydata.metajnl.com/)                              |                                                       100 جنيه استرليني ([انظر $](https://www.xe.com/currencyconverter/convert/?Amount=100&From=GBP&To=USD))                                                       |
-|         علم الآثار         |                                     [فتح الفصل الرابع](https://www.openquaternary.com/about/)                                      |                            [300 جنيه استرليني](https://www.openquaternary.com/about/submissions/) ([انظر $](https://www.xe.com/currencyconverter/convert/?Amount=300&From=GBP&To=USD))                             |
-|        Biodiversity        |                                      [مجلة بيانات التنوع البيولوجي](https://bdj.pensoft.net/)                                      |                                     [يورو 650](https://bdj.pensoft.net/about#CoreCharges) ([انظر $](https://www.xe.com/currencyconverter/convert/?Amount=650&From=EUR&To=USD))                                     |
-|        Biodiversity        |                           [سجلات الغواصات الحيوية](https://www.reabic.net/journals/bir/Submission.aspx)                            |                               [~560 يورو](https://www.reabic.net/journals/bir/Submission.aspx)  ([انظر $](https://www.xe.com/currencyconverter/convert/?Amount=560&From=EUR&To=USD))                               |
-|        Biodiversity        |                                   [BioRisk](https://biorisk.pensoft.net/about#Author-Guidelines)                                   |                            [يورو 450](https://biorisk.pensoft.net/about#ArticleProcessingCharges)  ([انظر $](https://www.xe.com/currencyconverter/convert/?Amount=450&From=EUR&To=USD))                            |
-|        Biodiversity        |               [بيوتا كولومبيانا](http://revistas.humboldt.org.co/index.php/biota/about/submissions#authorGuidelines)               |                                                                                                         0                                                                                                          |
-|        Biodiversity        |                               [قائمة التحقق](https://checklist.pensoft.net/about#Authors-Guidelines)                               |                           [250 يورو](https://checklist.pensoft.net/about#ArticleProcessingCharges)  ([انظر $](https://www.xe.com/currencyconverter/convert/?Amount=250&From=EUR&To=USD))                           |
-|        Biodiversity        |                                  [ميكوكيس](https://mycokeys.pensoft.net/about#Author-Guidelines)                                   |                                                                       [متغير](https://mycokeys.pensoft.net/about#Article-Processing-Charges)                                                                       |
-|        Biodiversity        |                           [حفظ الطبيعة](https://natureconservation.pensoft.net/about#Author-Guidelines)                            |                     [950 يورو](https://natureconservation.pensoft.net/about#Article-Processing-Charges)  ([انظر $](https://www.xe.com/currencyconverter/convert/?Amount=950&From=EUR&To=USD))                      |
-|        Biodiversity        |                                             [نيو بيوتا](https://neobiota.pensoft.net/)                                             |                           [950 يورو](https://neobiota.pensoft.net/about#ArticleProcessingCharges)  ([انظر $](https://www.xe.com/currencyconverter/convert/?Amount=950&From=EUR&To=USD))                            |
-|        Biodiversity        |                                 [PhytoKeys](https://phytokeys.pensoft.net/about#Author-Guidelines)                                 |                           [يورو 780](https://phytokeys.pensoft.net/about#ArticleProcessingCharges)  ([انظر $](https://www.xe.com/currencyconverter/convert/?Amount=780&From=EUR&To=USD))                           |
-|        Biodiversity        |                                 [ZooKeys](https://zookeys.pensoft.net/about#SubmissionGuidelines)                                  |                            [يورو 780](https://zookeys.pensoft.net/about#ArticleProcessingCharges)  ([انظر $](https://www.xe.com/currencyconverter/convert/?Amount=780&From=EUR&To=USD))                            |
-|      بيولوجيا (نبات)       |   [بيولوجيا نباتات BMC](https://bmcplantbiol.biomedcentral.com/submission-guidelines/preparing-your-manuscript/database-article)   |                                  [يورو 2090](https://bmcplantbiol.biomedcentral.com/about)  ([انظر $](https://www.xe.com/currencyconverter/convert/?Amount=2090&From=EUR&To=USD))                                  |
-| التنوع البيولوجي (الغابات) |        [أنباء علوم الغابات](https://annforsci.biomedcentral.com/submission-guidelines/preparing-your-manuscript/data-paper)        |                   [يورو 1690](https://annforsci.biomedcentral.com/submission-guidelines/fees-and-funding) ([انظر $](https://www.xe.com/currencyconverter/convert/?Amount=1690&From=EUR&To=USD))                    |
-|           Botany           | [الدراسات النباتية](https://as-botanicalstudies.springeropen.com/submission-guidelines/preparing-your-manuscript/database-article) |                               [يورو 1745](https://as-botanicalstudies.springeropen.com/about)  ([انظر $](https://www.xe.com/currencyconverter/convert/?Amount=1745&From=EUR&To=USD))                               |
-|           كيمياء           |    [يومية المعلوماتية الكيميائية](https://jcheminf.biomedcentral.com/submission-guidelines/preparing-your-manuscript/data-note)    |                                                                                   [0](https://jcheminf.biomedcentral.com/about)                                                                                    |
-|       علوم الكمبيوتر       |                                              [Jaiio](https://www.sadio.org.ar/jaiio/)                                              |                                                                                  [متغير](https://50jaiio.sadio.org.ar/aranceles)                                                                                   |
-|        الإيكولوجيا         |                                    [البحوث الإيكولوجية](http://www.esj.ne.jp/er/datapaper.html)                                    |                                                     [دولاراً&nbsp;3000](https://esj-journals.onlinelibrary.wiley.com/hub/journal/14401703/homepage/forauthors)                                                     |
-|        الإيكولوجيا         |  [الإيكولوجيا](https://esajournals.onlinelibrary.wiley.com/hub/journal/19399170/resources/types-of-contributions-ecy#Data_Papers)  |                                                               [متغير](https://esajournals.onlinelibrary.wiley.com/hub/journal/19399170/open-access)                                                                |
-|        الإيكولوجيا         |       [البيئة العالمية والجغرافيا الأحيائية](https://onlinelibrary.wiley.com/page/journal/14668238/homepage/forauthors.html)       | [3050 يورو](https://authorservices.wiley.com/author-resources/Journal-Authors/open-access/article-publication-charges.html)  ([انظر $](https://www.xe.com/currencyconverter/convert/?Amount=3050&From=EUR&To=USD)) |
-|         علوم الأرض         |            [مجلة بيانات العلوم الجغرافية](https://rmets-onlinelibrary-wiley-com.tudelft.idm.oclc.org/journal/20496060)             |             [يورو 1450](https://rmets.onlinelibrary.wiley.com/hub/journal/20496060/article-publication-charge)  ([انظر $](https://www.xe.com/currencyconverter/convert/?Amount=1450&From=EUR&To=USD))              |
-|         علوم الأرض         |                              [بيانات علوم النظام الأرضي](https://www.earth-system-science-data.net/)                               |                                                                                                         0                                                                                                          |
-|         علوم الأرض         |          [بيانات الأرض الكبيرة](https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=tbed20)          |          [910 يورو](https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=tbed20&#apc)  ([انظر $](https://www.xe.com/currencyconverter/convert/?Amount=910&From=EUR&To=USD))           |
-|        الإيكولوجيا         |   [إيكولوجيا وتطور BMC](https://bmcecolevol.biomedcentral.com/submission-guidelines/preparing-your-manuscript/database-article)    |              [يورو 2090](https://preview-bmcecolevol.biomedcentral.com/submission-guidelines/fees-and-funding)  ([انظر $](https://www.xe.com/currencyconverter/convert/?Amount=2090&From=EUR&To=USD))              |
-|           الصحة            |                            [فتح البيانات الصحية](https://openhealthdata.metajnl.com/about/submissions/)                            |                          [100 جنيه استرليني](https://openhealthdata.metajnl.com/about/submissions/) ([انظر $](https://www.xe.com/currencyconverter/convert/?Amount=100&From=GBP&To=USD))                           |
-|      العلوم الإنسانية      |                   [يومية البيانات الإنسانية المفتوحة](https://openhumanitiesdata.metajnl.com/about/submissions/)                   |                        [450 جنيه استرليني](https://openhumanitiesdata.metajnl.com/about/submissions/) ([انظر $](https://www.xe.com/currencyconverter/convert/?Amount=450&From=GBP&To=USD))                         |
-|         علم النفس          |                    [يومية بيانات علم النفس المفتوح](https://openpsychologydata.metajnl.com/about/submissions/)                     |                        [450 جنيه استرليني](https://openpsychologydata.metajnl.com/about/submissions/) ([انظر $](https://www.xe.com/currencyconverter/convert/?Amount=450&From=GBP&To=USD))                         |
-|         علم النفس          |                              [يومية الكوغنيوم](https://www.journalofcognition.org/about/submissions/)                              |                             [يورو 1150](https://www.journalofcognition.org/about/submissions/)  ([انظر $](https://www.xe.com/currencyconverter/convert/?Amount=1150&From=EUR&To=USD))                              |
-|            علم             |              [Arxius de Miscel·lània Zoològica](http://amz.museucienciesjournals.cat/how-it-is-published/?lang=en)               |                                                                        [0](http://amz.museucienciesjournals.cat/editorial-policy/?lang=en)                                                                         |
+### crwdns849118:0crwdne849118:0
+
+|                 crwdns849120:0crwdne849120:0                 |                 crwdns849122:0crwdne849122:0                 |
+|:------------------------------------------------------------:|:------------------------------------------------------------:|
+| [crwdns849126:0crwdne849126:0](crwdns849124:0crwdne849124:0) |                 crwdns849128:0crwdne849128:0                 |
+| [crwdns849132:0crwdne849132:0](crwdns849130:0crwdne849130:0) |                 crwdns849134:0crwdne849134:0                 |
+| [crwdns849138:0crwdne849138:0](crwdns849136:0crwdne849136:0) | [crwdns849142:0crwdne849142:0](crwdns849140:0crwdne849140:0) |
+| [crwdns849146:0crwdne849146:0](crwdns849144:0crwdne849144:0) |                 crwdns849148:0crwdne849148:0                 |
+| [crwdns849152:0crwdne849152:0](crwdns849150:0crwdne849150:0) |                 crwdns849154:0crwdne849154:0                 |
+| [crwdns849158:0crwdne849158:0](crwdns849156:0crwdne849156:0) |                 crwdns849160:0crwdne849160:0                 |
+| [crwdns849164:0crwdne849164:0](crwdns849162:0crwdne849162:0) |                 crwdns849166:0crwdne849166:0                 |
+| [crwdns849170:0crwdne849170:0](crwdns849168:0crwdne849168:0) | [crwdns849174:0crwdne849174:0](crwdns849172:0crwdne849172:0) |
+| [crwdns849178:0crwdne849178:0](crwdns849176:0crwdne849176:0) | [crwdns849182:0crwdne849182:0](crwdns849180:0crwdne849180:0) |
+
+
+### crwdns849184:0crwdne849184:0
+| crwdns849186:0crwdne849186:0 |                 crwdns849188:0crwdne849188:0                 |                 crwdns849190:0crwdne849190:0                 |
+|:----------------------------:|:------------------------------------------------------------:|:------------------------------------------------------------:|
+| crwdns849192:0crwdne849192:0 | [crwdns849196:0crwdne849196:0](crwdns849194:0crwdne849194:0) |                 crwdns849198:0crwdne849198:0                 |
+| crwdns849200:0crwdne849200:0 | [crwdns849204:0crwdne849204:0](crwdns849202:0crwdne849202:0) |                 crwdns849206:0crwdne849206:0                 |
+| crwdns849208:0crwdne849208:0 | [crwdns849212:0crwdne849212:0](crwdns849210:0crwdne849210:0) |                 crwdns849214:0crwdne849214:0                 |
+| crwdns849216:0crwdne849216:0 | [crwdns849220:0crwdne849220:0](crwdns849218:0crwdne849218:0) |                 crwdns849222:0crwdne849222:0                 |
+| crwdns849224:0crwdne849224:0 | [crwdns849228:0crwdne849228:0](crwdns849226:0crwdne849226:0) |                 crwdns849230:0crwdne849230:0                 |
+| crwdns849232:0crwdne849232:0 | [crwdns849236:0crwdne849236:0](crwdns849234:0crwdne849234:0) |                 crwdns849238:0crwdne849238:0                 |
+| crwdns849240:0crwdne849240:0 | [crwdns849244:0crwdne849244:0](crwdns849242:0crwdne849242:0) |                 crwdns849246:0crwdne849246:0                 |
+| crwdns849248:0crwdne849248:0 | [crwdns849252:0crwdne849252:0](crwdns849250:0crwdne849250:0) | [crwdns849256:0crwdne849256:0](crwdns849254:0crwdne849254:0) |
+| crwdns849258:0crwdne849258:0 | [crwdns849262:0crwdne849262:0](crwdns849260:0crwdne849260:0) |                 crwdns849264:0crwdne849264:0                 |
+| crwdns849266:0crwdne849266:0 | [crwdns849270:0crwdne849270:0](crwdns849268:0crwdne849268:0) |                 crwdns849272:0crwdne849272:0                 |
+| crwdns849274:0crwdne849274:0 | [crwdns849278:0crwdne849278:0](crwdns849276:0crwdne849276:0) |                 crwdns849280:0crwdne849280:0                 |
+| crwdns849282:0crwdne849282:0 | [crwdns849286:0crwdne849286:0](crwdns849284:0crwdne849284:0) |                 crwdns849288:0crwdne849288:0                 |
+| crwdns849290:0crwdne849290:0 | [crwdns849294:0crwdne849294:0](crwdns849292:0crwdne849292:0) |                 crwdns849296:0crwdne849296:0                 |
+| crwdns849298:0crwdne849298:0 | [crwdns849302:0crwdne849302:0](crwdns849300:0crwdne849300:0) |                 crwdns849304:0crwdne849304:0                 |
+| crwdns849306:0crwdne849306:0 | [crwdns849310:0crwdne849310:0](crwdns849308:0crwdne849308:0) |                 crwdns849312:0crwdne849312:0                 |
+| crwdns849314:0crwdne849314:0 | [crwdns849318:0crwdne849318:0](crwdns849316:0crwdne849316:0) | [crwdns849322:0crwdne849322:0](crwdns849320:0crwdne849320:0) |
+| crwdns849324:0crwdne849324:0 | [crwdns849328:0crwdne849328:0](crwdns849326:0crwdne849326:0) | [crwdns849332:0crwdne849332:0](crwdns849330:0crwdne849330:0) |
+| crwdns849334:0crwdne849334:0 | [crwdns849338:0crwdne849338:0](crwdns849336:0crwdne849336:0) | [crwdns849342:0crwdne849342:0](crwdns849340:0crwdne849340:0) |
+| crwdns849344:0crwdne849344:0 | [crwdns849348:0crwdne849348:0](crwdns849346:0crwdne849346:0) | [crwdns849352:0crwdne849352:0](crwdns849350:0crwdne849350:0) |
+| crwdns849354:0crwdne849354:0 | [crwdns849358:0crwdne849358:0](crwdns849356:0crwdne849356:0) |                 crwdns849360:0crwdne849360:0                 |
+| crwdns849362:0crwdne849362:0 | [crwdns849366:0crwdne849366:0](crwdns849364:0crwdne849364:0) |                 crwdns849368:0crwdne849368:0                 |
+| crwdns849370:0crwdne849370:0 | [crwdns849374:0crwdne849374:0](crwdns849372:0crwdne849372:0) |                 crwdns849376:0crwdne849376:0                 |
+| crwdns849378:0crwdne849378:0 | [crwdns849382:0crwdne849382:0](crwdns849380:0crwdne849380:0) |                 crwdns849384:0crwdne849384:0                 |
+| crwdns849386:0crwdne849386:0 | [crwdns849390:0crwdne849390:0](crwdns849388:0crwdne849388:0) |                 crwdns849392:0crwdne849392:0                 |
+| crwdns849394:0crwdne849394:0 | [crwdns849398:0crwdne849398:0](crwdns849396:0crwdne849396:0) |                 crwdns849400:0crwdne849400:0                 |
+| crwdns849402:0crwdne849402:0 | [crwdns849406:0crwdne849406:0](crwdns849404:0crwdne849404:0) |                 crwdns849408:0crwdne849408:0                 |
+| crwdns849410:0crwdne849410:0 | [crwdns849414:0crwdne849414:0](crwdns849412:0crwdne849412:0) |                 crwdns849416:0crwdne849416:0                 |
+| crwdns849418:0crwdne849418:0 | [crwdns849422:0crwdne849422:0](crwdns849420:0crwdne849420:0) |                 crwdns849424:0crwdne849424:0                 |
+| crwdns849426:0crwdne849426:0 | [crwdns849430:0crwdne849430:0](crwdns849428:0crwdne849428:0) | [crwdns849434:0crwdne849434:0](crwdns849432:0crwdne849432:0) |
 
