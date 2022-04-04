@@ -1,251 +1,366 @@
-crwdns807994:0crwdne807994:0
-# crwdns807996:0crwdne807996:0
+(r-make-examples-learnmake)=
+# تعلم "صنع" عن طريق الأمثلة
 
-crwdns807998:0crwdne807998:0
-## crwdns808000:0crwdne808000:0
+(r-make-examples-makefiles)=
+## ماكيفيلز
 
-crwdns808002:0crwdne808002:0 crwdns808004:0crwdne808004:0 crwdns808006:0crwdne808006:0 crwdns808008:0crwdne808008:0
+أحد الأشياء التي قد تثني أحدهم عن استخدام صنع هو أن Makefiles الموجودة يمكن أن تبدو معقدة جداً، وقد يبدو أنه من الصعب تكييف واحد لاحتياجاتك الخاصة. في هذا البرنامج التعليمي العملي سننشئ Makefile من الصفر لمشروع تحليل البيانات الحقيقي. الفكرة هي شرح ميزات مختلفة لصنع بتكرار عدة إصدارات من Makefile لهذا المشروع. نأمل أن تسمح لك التجربة التي تكسبها من هذا البرنامج التعليمي بإنشاء Makefiles لمشاريعك الخاصة.
 
-crwdns808010:0crwdne808010:0 crwdns808012:0crwdne808012:0
+سنقوم بإنشاء `Makefile` لخط أنابيب لتحليل البيانات. The task is as follows:
 
-> **crwdns808014:0crwdne808014:0**
+> **المهام: نظراً لبعض مجموعات البيانات، أنشئ تقرير موجز (في pdf) يحتوي على الرسوم البيانية لمجموعات البيانات هذه.**
 
-crwdns808016:0crwdne808016:0
+(بالطبع مهمة البيانات هذه بسيطة جدا للتركيز على كيفية استخدام Make.)
 
-*crwdns808018:0crwdne808018:0*
+*خلال الكتل البرمجية للدرس التعليمي التي تبدأ باشارة دولار (`$`) يقصد أن تكتب في المحطة.*
 
-crwdns808020:0crwdne808020:0
-### crwdns808022:0crwdne808022:0
+(r-make-examples-settingup)=
+### إعداد
 
-crwdns808024:0crwdne808024:0 crwdns808026:0crwdne808026:0
+لقد قمنا بإنشاء مستودع أساسي لهذه المهمة، والذي يحتوي بالفعل على كل ما نحتاجه (*باستثناء ماكيفيل للدورة!* للبدء، استنسخ المستودع الأساسي باستخدام بواسطة: للبدء، استنسخ المستودع الأساسي باستخدام بواسطة:
 
 ```bash
-crwdns808028:0crwdne808028:0
+$ git نسخة https://github.com/alan-turing-institute/IntroToMake
 ```
 
-crwdns808030:0crwdne808030:0
+يحتوي هذا المستودع الأساسي على جميع التعليمات البرمجية التي سنحتاجها في هذا البرنامج التعليمي، وينبغي أن يحتوي على هذا المحتوى:
 
 ```text
-crwdns808032:0crwdne808032:0
-crwdns808034:0crwdne808034:0
+.
+├── data/
+│   ├── input_file_1.csv
+│   └── input_file_2.csv
+├── LICENSE
+├── output/
+├── README.md
+├── report/
+│   └── report.tex
+└── scripts/
+    └── generate_histogram.py
 ```
 
-- crwdns808036:0crwdne808036:0
-- crwdns808038:0crwdne808038:0
-- crwdns808040:0crwdne808040:0
-- crwdns808042:0crwdne808042:0
+- **البيانات**: الدليل مع مجموعتين من البيانات التي سنقوم بتحليلها
+- **التقرير**: دليل الإدخال للتقرير
+- **البرامج النصية**: دليل البرنامج النصي للتحليل
+- **المخرجات**: دليل الإخراج للأرقام والتقرير
 
-crwdns808044:0crwdne808044:0
+ستلاحظ أن هناك مجموعتين من البيانات في دليل **** (`input_file_1.csv` و `input_file_2. sv`) وأن هناك بالفعل نص بايثون الأساسي في **البرامج النصية** وتقرير أساسي ملف LaTeX في **التقرير**.
 
-crwdns808046:0crwdne808046:0
+إذا كنت ترغب في المتابعة، تأكد من أن لديك `matplotlib` و `numpy` مثبت:
 
 ```bash
-crwdns808048:0crwdne808048:0
+$ pip install matplotlib numpy
 ```
 
-crwdns808050:0crwdne808050:0
+ستحتاج أيضًا إلى نسخة عمل من `pdflatex` وبالطبع `تصنع`.
 
-crwdns808052:0{ref}crwdne808052:0
+للحصول على تعليمات التثبيت لـ Make، راجع {ref}`rr-make-appendix-instx-`.
 
-crwdns808054:0crwdne808054:0
-### crwdns808056:0crwdne808056:0
+(r-make-examples-makefile1)=
+### ماكيفيلي رقم 1 (الأساسيات)
 
-crwdns808058:0crwdne808058:0 crwdns808060:0crwdne808060:0
+دعونا ننشئ أول ماكيفيلي. في المحطة الطرفية، انتقل إلى مستودع `مقدمة` الذي استنسخته للتو:
 
 ```bash
-crwdns808062:0crwdne808062:0
+$ cd مقدمة
 ```
 
-crwdns808064:0crwdne808064:0
+باستخدام المحرر المفضل لديك، قم بإنشاء ملف يسمى `Makefile` مع المحتوى التالي:
 
 ```makefile
-crwdns808066:0crwdne808066:0
-```
-crwdns808068:0crwdne808068:0
+# تقرير Makefile لتحليل
 
-crwdns808070:0crwdne808070:0
+خرج/figure_1.png: data/input_file_1.csv scripts/generate_histogram.py
+    python scripts/generate_histogram.py -i data/input_file_1.csv -o output/figure_1.png
+
+خرج/figure_2.png: data/input_file_2.csv scripts/generate_histogram. y
+    نصوص python scripts/generate_histogram.py -i data/input_file_2.csv -o output/figure_2.png
+
+output/report.pdf: report/report. الناتج السابق/figure_1.png output/figure_2.png
+    cd report/ && pdflatex report.tex && mv report.pdf ../output/report.pdf
+```
+العين في كل وصفة هو ***علامات التبويب***، لا تقبل Makefiles الدخول مع المسافات.
+
+يجب أن تكون الآن قادراً على الكتابة:
 
 ```bash
-crwdns808072:0crwdne808072:0
+$ صنع الناتج/report.pdf
 ```
 
-crwdns808074:0crwdne808074:0
+إذا كان كل شيء يعمل بشكل صحيح، سيتم إنشاء الرقمين وسيتم بناء تقرير pdf
 
-crwdns808076:0crwdne808076:0 crwdns808078:0crwdne808078:0 crwdns808080:0crwdne808080:0 crwdns808082:0crwdne808082:0 crwdns808084:0crwdne808084:0 crwdns808086:0crwdne808086:0
+دعونا نمر عبر ماكيفيلي بمزيد من التفصيل. لدينا ثلاث قواعد، اثنتان للأرقام وواحدة للتقرير. دعونا ننظر إلى القاعدة لـ `خرج/figure_1.png` أولا. هذه القاعدة لها هدف `خرج/figure_1.png` الذي يحتوي على شرطين أساسيين: `data/input_file_1.csv` و `scripts/generate_histogram.py`. من خلال إعطاء ملف الإخراج هذه المتطلبات المسبقة سيتم تحديثها إذا تغير أي من هذه الملفات. هذا هو واحد من الأسباب التي أدت إلى إنشاء الإنشاء: لتحديث ملفات الإخراج عندما تتغير ملفات المصدر .
 
-crwdns808088:0crwdne808088:0 crwdns808090:0crwdne808090:0
+ستلاحظ أن خط الوصفة يستدعي Python باسم البرنامج النصي ويستخدم أعلام خط الأوامر (`-i` و `-o`) لوضع علامة على إدخال و إخراج النص النصي. هذا ليس مطلوبا لاستخدام المايك، لكنه يجعل من السهل رؤية أي ملف هو مدخل إلى البرنامج النصي وأي هو المخرج.
 
-crwdns808092:0crwdne808092:0 crwdns808094:0crwdne808094:0 crwdns808096:0crwdne808096:0 crwdns808098:0crwdne808098:0
+القاعدة الخاصة بتقرير PDF متشابهة جداً، ولكن لديها ثلاثة شروط مسبقة (مصدر لاتيكس وكلا الرقمين). لاحظ أن الوصفة تغير دليل العمل قبل الاتصال بـ LaTeX كما تنقل ملف PDF الذي تم إنشاؤه إلى دليل الخروج. نحن نفعل ذلك للحفاظ على الملفات الوسيطة لاتيكس في دليل التقرير ومع ذلك، من المهم تمييز القاعدة المذكورة أعلاه عن ما يلي:
 
 ```makefile
-crwdns808100:0crwdne808100:0
+# لا تفعل هذا
+الناتج/report.pdf: report/report.tex output/figure_1.png output/figure_2.png
+    cd report/
+    pdflatex report.tex
+    mv report.pdf ../output/report.pdf
 ```
 
-crwdns808102:0crwdne808102:0 crwdns808104:0crwdne808104:0 crwdns808106:0crwdne808106:0
+وتضع هذه القاعدة الأوامر الثلاثة على خطوط منفصلة. ومع ذلك، **اجعل ينفذ كل سطر بشكل مستقل** في قطعة فرعية منفصلة، لذلك تغيير دليل العمل في السطر الأول ليس له أي تأثير على الثاني، ولن يمنع الفشل في السطر الثاني من تنفيذ الخط الثالث. لذلك، نجمع الأوامر الثلاثة في وصفة واحدة أعلاه.
 
-crwdns808108:0crwdne808108:0
+هذا ما تبدو عليه شجرة التبعية لهذا ماكيفيلي:
 
-![crwdns808112:0crwdne808112:0](crwdns808110:0crwdne808110:0) crwdns808114:0[makefile2graph]crwdne808114:0 crwdns808116:0{ref}crwdne808116:0
+![DAG لماكيفيلي رقم 1](../../figures/makefile-no1.png) <small style="margin: 5pt auto; text-align: center; display: block;"> الرسم البياني للتبعية لأول ماكيفيل، تم إنشاؤه باستخدام [makefile2graph](https://github.com/lindenb/makefile2graph). لاحظ التشابه مع الشكل {ref}`في المقدمة<rr-make-summary>`!</small>
 
-crwdns808118:0crwdne808118:0
-### crwdns808120:0crwdne808120:0
+(r-make-examples-makefile2)=
+### ماكيفيلي رقم 2 (الكل والنظيف)
 
-crwdns808122:0crwdne808122:0 crwdns808124:0crwdne808124:0
+في أول ماكيفيلي لدينا القواعد الأساسية. يمكننا أن نتمسك بـ إذا أردنا ذلك، ولكن هناك بعض التحسينات التي يمكننا إدخالها:
 
-1. crwdns808126:0crwdne808126:0
+1. يجب علينا الآن أن نتصل صراحةً بـ `صنع المخرجات/report.pdf` إذا أردنا إعداد التقرير.
 
-2. crwdns808128:0crwdne808128:0
+2. ليس لدينا طريقة للتنظيف والبدء في البداية.
 
-crwdns808130:0crwdne808130:0 crwdns808132:0crwdne808132:0
+دعونا نعالج هذا بإضافة هدفين جديدين: `كل` و `نظيف`. في محرر الخاص بك، قم بتغيير محتويات Makefile لإضافة `جميع` و `نظيف` كـ :
 
 ```makefile
-crwdns808134:0crwdne808134:0
+# Makefile لتقرير التحليل
+
+كل: خرج/report.pdf
+
+خرج/figure_1.png: data/input_file_1.csv scripts/generate_histogram.py
+    python scripts/generate_histogram. y -i data/input_file_1.csv -o خرج/figure_1.png
+
+خرج/figure_2.png: data/input_file_2.csv scripts/generate_histogram.py
+    python scripts/generate_histogram. y -i data/input_file_2.csv -o output/figure_2.png
+
+output/report.pdf: report/report.tex output/figure_1.png output/figure_2.png
+    cd report/ && pdflatex report ex && mv report.pdf ../output/report. df
+
+التنظيف:
+    rm -f خرج/report.pdf
+    rm -f خرج /figure_*.png
 ```
 
-crwdns808136:0crwdne808136:0 crwdns808138:0crwdne808138:0  crwdns808140:0crwdne808140:0  crwdns808142:0crwdne808142:0 crwdns808144:0crwdne808144:0 crwdns808146:0crwdne808146:0
+لاحظ أننا أضفنا هدف `كل` إلى الجزء العلوي من الملف. نحن نقوم بهذا لأن جعل تنفيذ الهدف *أول* </em> عندما لا يتم تحديد هدف صريح.  إذاً يمكنك الآن كتابة `جعل` على سطر الأوامر وسوف تقوم بنفس الشيء كما `تصنع كل`.  لاحظ أيضا أننا أضفنا التقرير فقط كشرط مسبق من `كل` لأن هذا هو المخرجات المطلوبة لدينا والقواعد الأخرى تساعد في بناء هذا المخرج. إذا كان لديك العديد من المخرجات، يمكنك إضافة هذه كشروط أخرى إلى `جميع` الهدف. تسمية الهدف الرئيسي `الكل` هي اتفاقية ماكيفيليس التي يتبعها العديد من الناس.
 
-crwdns808148:0crwdne808148:0 crwdns808150:0crwdne808150:0
+قاعدة `نظيف` عادة ما تكون في الأسفل، ولكن هذا أسلوب أكثر من متطلبات . لاحظ أننا نستخدم علم `-f` إلى `rm` للتأكد من أنه لا يشكو عندما لا يوجد ملف لإزالته.
 
-crwdns808152:0crwdne808152:0
+يمكنك تجربة Makefile الجديدة عن طريق التشغيل:
 
 ```bash
-crwdns808154:0crwdne808154:0
+$ اجعل
+دولارات نظيفة
 ```
 
-crwdns808156:0crwdne808156:0
+يجب إزالة الإخراج والملفات الوسيطة بعد الأمر الأول، وإنشاءها مرة أخرى بعد الثانية.
 
-crwdns808158:0crwdne808158:0
-### crwdns808160:0crwdne808160:0
+(r-make-examples-makefile3)=
+### ماكيفيلي رقم 3 (أهداف الهاتف)
 
-crwdns808162:0crwdne808162:0 crwdns808164:0crwdne808164:0 crwdns808166:0crwdne808166:0 crwdns808168:0crwdne808168:0
+عادة `كل` و `نظيف` يتم تعريفها على أنها ما يسمى [الهواتف الأهداف](https://www.gnu.org/software/make/manual/make.html#Phony-Targets). هذه هي الأهداف التي لا تخلق في الواقع ملفا للمخرج. إذا لم يتم وضع علامة كـ `. هـ` هذه الأهداف سوف يتم تشغيلها دائماً إذا ظهرت في تبعية، ولكن لن يتم تشغيله بعد الآن إذا تم إنشاء دليل/ملف يسمى `كل` أو `نظيف`. لذلك نحن نضيف سطراً في الجزء العلوي من ماكيفيلي لتعريف هذين النوعين كأهداف صوتية :
 
 ```makefile
-crwdns808170:0crwdne808170:0
+# Makefile للحصول على تقرير التحليل
+
+.PHONY: جميع
+
+نظيف: خرج/report.pdf
+
+خرج/figure_1.png: data/input_file_1.csv scripts/generate_histogram.py
+    python scripts/generate_histogram. y -i data/input_file_1.csv - o خرج/figure_1.png
+
+خرج/figure_2.png: data/input_file_2.csv scripts/generate_histogram.py
+    python scripts/generate_histogram. y -i data/input_file_2.csv -o output/figure_2.png
+
+output/report.pdf: report/report.tex output/figure_1.png output/figure_2.png
+    cd report/ && pdflatex report ex && mv report.pdf ../output/report.
 ```
 
-crwdns808172:0crwdne808172:0 crwdns808174:0crwdne808174:0 crwdns808176:0crwdne808176:0
+أهداف الهاتف مفيدة أيضا عندما تريد استخدامها بشكل متكرر. في هذه الحالة ستحدد الدلائل الفرعية كأهداف صوتية. يمكنك قراءة المزيد حول [الأهداف الصوتية في الوثائق](https://www.gnu.org/software/make/manual/make.html#Phony-Targets)، ولكن حتى الآن يكفي أن نعرف أن `كل` و `نظيف` عادة يعلن عنها كصوت.
 
-> crwdns808178:0crwdne808178:0
+> سيدينو: هدف آخر هو عادة الصوت هو اختبار ****، في حال كان لديك دليل اختبارات تسمى **اختبار** وتريد أن يكون لديك هدف لتشغيلها وهو ما يسمى أيضًا **اختبار**.
 
-crwdns808180:0crwdne808180:0
-### crwdns808182:0crwdne808182:0
+(r-make-examples-makefile4)=
+### Makefile رقم 4 (المتغيرات التلقائية وقواعد النمط)
 
-crwdns808184:0crwdne808184:0 crwdns808186:0crwdne808186:0
+ليس هناك أي خطأ في ماكيفيلي لدينا الآن، لكنه معجب نوعا ما لأننا أعلنا جميع الأهداف صراحة باستخدام قواعد منفصلة. يمكننا تبسيط هذا باستخدام [تلقائي المتغيرات](https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html) و [نمط القواعد](https://www.gnu.org/software/make/manual/html_node/Pattern-Rules.html#Pattern-Rules).
 
-crwdns808188:0crwdne808188:0
-#### crwdns808190:0crwdne808190:0
+(r-make-examples-automaticvar)=
+#### المتغيرات التلقائية.
 
-crwdns808192:0crwdne808192:0 crwdns808194:0crwdne808194:0
+مع المتغيرات التلقائية يمكننا استخدام أسماء الشروط المسبقة والأهداف في الوصفة. إليك كيف يمكننا أن نفعل ذلك من أجل قواعد الأرقام :
 
 ```makefile
-crwdns808196:0crwdne808196:0
+# Makefile للحصول على تقرير تحليلي
+
+.PHONY: جميع
+
+نظيف: خرج/report.pdf
+
+خرج/figure_1.png: data/input_file_1.csv scripts/generate_histogram. y
+    نصوص python scripts/generate_histogram.py -i $< - o $@
+
+خرج/figure_2.png: data/input_file_2.csv scripts/generate_histogram.py
+    python scripts/generate_histogram. y -i $< -o $@
+
+خرج/report.pdf: report/report.tex output/figure_1. ng خرج/figure_2.png
+    cd report && pdflatex report ex && mv report.pdf ../output/report.
 ```
 
-crwdns808198:0crwdne808198:0 crwdns808200:0crwdne808200:0
+لقد استبدلنا أسماء الملفات المدخلة والمخرجة في الوصفات على التوالي ب `$<`، الذي يشير إلى شرط *الأول* و `$ @` الذي يشير إلى هدف **. يمكنك تذكر `$<` لأنه مثل السهم الذي يشير إلى البداية (*أولاً* شرط)، ويمكنك تذكر `$@` (الدولار *في*) [كهدف كنت تستهدفه *في*](https://jameshfisher.com/2016/12/07/makefile-automatic-variables/).
 
-crwdns808202:0crwdne808202:0
+هناك المزيد من المتغيرات التلقائية التي يمكنك استخدامها، راجع [الوثائق ](https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html).
 
-crwdns808204:0crwdne808204:0
-#### crwdns808206:0crwdne808206:0
+(r-make-examples-patternes)=
+#### قواعد النمط
 
-crwdns808208:0crwdne808208:0  crwdns808210:0crwdne808210:0 crwdns808212:0crwdne808212:0
+لاحظ أن وصفات الأرقام قد أصبحت متطابقة!  لأننا لا نود تكرار أنفسنا، يمكننا دمج قاعدتي في قاعدة واحدة باستخدام *قواعد النمط*. قواعد النمط تسمح لك باستخدام رمز `%` كبطاقة برية ودمج القاعدتين في واحد:
 
 ```makefile
-crwdns808214:0crwdne808214:0
+# Makefile للحصول على تقرير تحليلي
+
+.PHONY: جميع
+
+نظيف: خرج/report.pdf
+
+خرج/figure_%.png: data/input_file_%. sv scripts/generate_histogram.py
+    python scripts/generate_histogram.py -i $< - o $@
+
+خرج/تقرير. df: report/report.tex output/figure_1.png output/figure_2.png
+    cd report/ && pdflatex report.tex && mv report df ../output/report.pdf
+
+النظيفة:
+    rm -f output/report.pdf
+    rm -f output/figure_*.png
 ```
 
-crwdns808216:0crwdne808216:0 crwdns808218:0crwdne808218:0
+رمز `%` هو الآن بطاقة برية (في حالتن) تأخذ القيمة `1` أو `2` بناء على ملفات الإدخال في `دليل البيانات`. يمكنك التحقق من أن كل شيء لا يزال يعمل بتشغيل `جعل` نظيفة يتبعها `اجعله`.
 
-crwdns808220:0crwdne808220:0
+ميزة لهذا هو أنه إذا كنت ترغب الآن في إضافة مجموعة بيانات أخرى، قل `input_file_3`، ثم ستحتاج فقط إلى إضافة ذلك إلى قاعدة تقرير !
 
-crwdns808222:0crwdne808222:0
-### crwdns808224:0crwdne808224:0
+(r-make-examples-makefile5)=
+### ماكيفيلي رقم 5 (البطاقات البرية والمسارات)
 
-crwdns808226:0crwdne808226:0 crwdns808228:0crwdne808228:0
+عندما يصبح Makefiles أكثر تعقيدا، قد ترغب في استخدام المزيد من الميزات المتقدمة مثل مخرجات البناء لجميع الملفات في دليل الإدخال. بينما قواعد النمط ستجعلك طريقا طويلا، اجعل لديه أيضا ميزات للبطاقات البرية والتلاعب بالسلسلة أو المسار عندما تكون قواعد النمط غير كافية.
 
-crwdns808230:0crwdne808230:0 crwdns808232:0crwdne808232:0
+بينما تم ترقيم ملفات الإدخال الخاصة بنا سابقا، سنقوم الآن بالتبديل إلى سيناريو حيث لديهم أسماء ذات مغزى. دعونا نتحول إلى فرع `كبير` :
 
 ```bash
-crwdns808234:0crwdne808234:0
+$ git الخروج من البيانات الكبيرة# الخروج من فرع البيانات الكبير
 ```
 
-crwdns808236:0crwdne808236:0
+يبدو هيكل الدليل الآن هكذا:
 
 ```text
-crwdns808238:0crwdne808238:0
-crwdns808240:0crwdne808240:0
-crwdns808242:0crwdne808242:0
+<unk> <unk> <unk> ', data/
+<unk> <unk> <unk> <unk> <unk> ', action.csv
+<unk> <unk> <unk> <unk> <unk> ', ...
+│   ├── input_file_1.csv
+│   ├── input_file_2.csv
+│   ├── ...
+│   └── western.csv
+├── LICENSE
+├── output/
+├── README.md
+├── report/
+│   └── report.tex
+└── scripts/
+    └── generate_histogram.py
 ```
 
-crwdns808244:0crwdne808244:0 crwdns808246:0crwdne808246:0
+كما ترون، يحتوي دليل بيانات **** الآن على ملفات إضافية للمدخلات التي تم تسميتها بشكل أكثر معنى (البيانات هي تصنيفات أفلام IMBD حسب نوع الجنس). أيضًا ، تم تحديث ملف **report.tex** للعمل مع الأرقام المتوقعة.
 
-crwdns808248:0{genre}crwdnd808248:0{genre}crwdnd808248:0{N}crwdne808248:0
+سنقوم بتكييف Makefile لإنشاء رقم في دليل المخرجات يسمى `histogram_{genre}. ng` لكل `{genre}csv` ملف، مع استبعاد `input_file_{N}csv` الملفات.
 
-> crwdns808250:0{N}crwdne808250:0 crwdns808252:0crwdne808252:0
+> سيدينو: إذا كان علينا إزالة ملفات `input_file_{N}.csv` ، نمط ستكون كافية هنا. هذا يسلط الضوء على أنه في بعض الأحيان يجب تطوير بنية الدليل الخاص بك و Makefile جنبا إلى جنب.
 
-crwdns808254:0crwdne808254:0
+قبل تغيير Makefil، قم بتشغيل
 
 ```bash
-crwdns808256:0crwdne808256:0
+نظف $
 ```
-crwdns808258:0crwdne808258:0
+لإزالة ملفات الإخراج.
 
-crwdns808260:0crwdne808260:0 crwdns808262:0crwdne808262:0
+سوف نعرض Makefile بالكامل أولاً ثم نصف الخطوط المختلفة في المزيد من التفاصيل. الملف الكامل هو:
 
 ```makefile
-crwdns808264:0$(INPUT_CSV)crwdnd808264:0$(ALL_CSV)crwdnd808264:0$(DATA)crwdnd808264:0$(FIGURES)crwdnd808264:0$(FIGURES)crwdnd808264:0$(FIGURES)crwdne808264:0
+# Makefile للتقرير التحليلي
+#
+
+ALL_CSV = $(Wildcard data/*.csv)
+INPUT_CSV = $(wildcard data/input_file_*. sv)
+DATA = $(تصفية $(INPUT_CSV)،$(ALL_CSV))
+FIGURES = $(بيانات براءة الاختراع/input_file_%. sv,output/figure_%.png,$(DATA))
+
+.PHONY: جميع
+
+كل: خرج/report.pdf
+
+$(FIGURES): خرج/figure_%. ng: data/input_file_%.csv scripts/generate_histogram.py
+    python scripts/generate_histogram.py -i $< - o $@
+
+خرج/report.pdf: report/report. ex $(FIGURES)
+    cd report/ && pdflatex report.tex && mv report df ../$@
+
+نظيف:
+    rm -f خرج/report.pdf
+    rm -f $(FIGURES)
 ```
 
-crwdns808266:0{N}crwdne808266:0
+أولاً، نحن نستخدم دالة `Wildcard` لإنشاء متغير يسرد كل ملفات CSV في دليل البيانات و واحد يسرد فقط القديم`input_file_{N}. ملفات sv`:
 
 ```makefile
-crwdns808268:0crwdne808268:0
+ALL_CSV = $(Wildcard data/*.csv)
+INPUT_CSV = $(wildcard data/input_file_*.csv)
 ```
 
-crwdns808270:0crwdne808270:0
+اتفاقية التعليمات البرمجية لـ Makefiles هي استخدام جميع العواصم للأسماء المتغيرة و تعريفها في الجزء العلوي من الملف.
 
-crwdns808272:0crwdne808272:0
+بعد ذلك، نحن ننشئ متغير لقائمة فقط ملفات البيانات التي نحن مهتمون بها عن طريق تصفية `INPUT_CSV` من `ALL_CSV`:
 
 ```makefile
-crwdns808274:0$(INPUT_CSV)crwdnd808274:0$(ALL_CSV)crwdne808274:0
+DATA = $(تصفية $(INPUT_CSV)،$(ALL_CSV))
 ```
 
-crwdns808276:0crwdne808276:0  crwdns808278:0crwdne808278:0 crwdns808280:0crwdne808280:0
+يستخدم هذا السطر [`عامل التصفية`](https://www.gnu.org/software/make/manual/make.html#index-filter) لإزالة العناصر التي لا تتطابق مع متغير `INPUT_CSV` من `ALL_CSV` المتغير.  لاحظ أننا نستخدم بناء الجملة `$( ... )` للدوال و المتغيرات. أخيرا، سوف نستخدم متغير `DATA` لإنشاء متغير `FGURES` مع المخرج المطلوب:
 
 ```makefile
-crwdns808282:0$(DATA)crwdne808282:0
+FGURES = $(بيانات براءة الاختراع/%.csv,output/figure_%.png,$(DATA))
 ```
 
-crwdns808284:0{genre}crwdnd808284:0{genre}crwdne808284:0 crwdns808286:0crwdne808286:0
+هنا استخدمنا الدالة [`براءات الاختراع`](https://www.gnu.org/software/make/manual/make.html#index-patsubst-1) لتحويل الإدخال في متغير `DATA` (الذي يتبع `البيانات/{genre}. sv` pattern) إلى أسماء الملفات المطلوبة (باستخدام `خرج/figure_{genre}.png`). لاحظ أن حرف `%` يشير إلى الجزء من اسم الملف الذي سيكون نفسه في كل من الإدخال والناتج.
 
-crwdns808288:0crwdne808288:0
+ونحن نستخدم الآن هذه المتغيرات في قاعدة توليد الأرقام على النحو التالي:
 
 ```makefile
-crwdns808290:0$(FIGURES)crwdne808290:0
+$(FIGURES): خرج/figure_%.png: data/%.csv scripts/generate_histogram.py
+    python scripts/generate_histogram.py -i $< -o $@
 ```
 
-crwdns808292:0$(FIGURES)crwdne808292:0 crwdns808294:0crwdne808294:0 crwdns808296:0crwdne808296:0
+تطبق هذه القاعدة مرة أخرى نمط: إنها تأخذ قائمة من الأهداف (`$(FIGURES)`) التي تتبع جميعها نمطا معينا (`خرج/figure_%. ng`) واستنادا إلى ذلك ينشئ شرطا أساسيا (`البيانات/%.csv`). قاعدة النمط هذه هي مختلفة قليلاً عن القاعدة التي رأيناها من قبل لأنها تستخدم رمزين `:` رموز. إنها تسمى قاعدة [النمط الثابت ](https://www.gnu.org/software/make/manual/make.html#Static-Pattern).
 
-crwdns808298:0crwdne808298:0
+بالطبع علينا تحديث قاعدة `report.pdf` أيضًا:
 
 ```makefile
-crwdns808300:0$(FIGURES)crwdne808300:0
+خرج/report.pdf: report/report.tex $(FIGURES)
+    cd report/ && pdflatex report.tex && mv report.pdf ../$@
 ```
 
-crwdns808302:0crwdne808302:0
+وقاعدة `نظيف`:
 
 ```makefile
-crwdns808304:0$(FIGURES)crwdne808304:0
+clean:
+    rm -f output/report.pdf
+    rm -f $(FIGURES)
 ```
 
-crwdns808306:0crwdne808306:0 crwdns808308:0crwdne808308:0
+إذا قمت بتشغيل هذه الماكيفيل، سوف تحتاج إلى بناء 28 رقما. قد ترغب في استخدام علامة `-j` إلى `جعل` لبناء هذه الأهداف **بالتوازي!**
 
 ```bash
-crwdns808310:0crwdne808310:0
+$ اصنع -ي-ي4
 ```
 
-crwdns808312:0crwdne808312:0
+القدرة على بناء الأهداف بالتوازي مفيدة جدا عندما يكون لمشروعك العديد من التبعيات!
 
-crwdns808314:0crwdne808314:0
+ملف PDF الناتج يجب أن يبدو مثل هذا:
 
-![crwdns808318:0crwdne808318:0](crwdns808316:0crwdne808316:0)crwdns808320:0crwdne808320:0
+![تقرير مع جميع الأنواع](../../figures/make-report-all-genres.png)<small
+style="margin: 5pt auto; text-align: center; display: block;">عرض مضغوط للتقرير مع الهستوغرام لجميع الأنواع.</small>
