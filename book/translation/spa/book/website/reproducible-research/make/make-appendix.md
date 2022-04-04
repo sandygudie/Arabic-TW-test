@@ -56,7 +56,7 @@ Para instalar GNU Make, siga estas instrucciones:
 
 *Esta sección continúa el tutorial anterior y muestra una característica de Hacer para la generación automática de reglas.*
 
-En un pipeline de ciencias de datos, puede ser bastante común aplicar múltiples scripts a los mismos datos (por ejemplo cuando se comparan métodos o se prueban parámetros diferentes). En ese caso, puede volverse tedioso escribir una regla separada para cada script cuando solo el nombre del script cambie. To simplify this process, we can let Make expand a so-called [*canned* recipe](https://www.gnu.org/software/make/manual/make.html#Canned-Recipes).
+En un pipeline de ciencias de datos, puede ser bastante común aplicar múltiples scripts a los mismos datos (por ejemplo cuando se comparan métodos o se prueban parámetros diferentes). En ese caso, puede volverse tedioso escribir una regla separada para cada script cuando solo el nombre del script cambie. Para simplificar este proceso, podemos dejar que expandamos una [*receta enlatada* ](https://www.gnu.org/software/make/manual/make.html#Canned-Recipes).
 
 Para seguir la rama `, cambie a la rama` predefinida:
 
