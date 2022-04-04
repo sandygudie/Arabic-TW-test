@@ -1,58 +1,62 @@
-crwdns799380:0crwdne799380:0
-# crwdns799382:0crwdne799382:0
+(النمط - النمط المخصص)=
+# نمط مخصص
 
-crwdns799384:0{ref}crwdne799384:0 crwdns799386:0crwdne799386:0 crwdns799388:0crwdne799388:0
+على الرغم من أن المحتوى ساهم في _طريق اللارجح_ يجب أن يكتب في {ref}`Markdown <ch-consistency-formatting-hr-markdown>` كلما كان ذلك ممكناً، في بعض الأحيان، `HTML` بناء الجملة قد يكون ضرورياً لتهيئة مساهمتك بالطريقة التي تريدها. بالفعل ، كتاب المشتري يحول بناء جمل Markdown إلى `HTML`، جعل من الممكن الحصول على نسخة على الويب من _كتاب طريق الترينغ_ ونتيجة لذلك، الكتابة الخاصة بك `HTML` قد تقدم بعض التغييرات في الطريقة التي يظهر بها المحتوى الجديد على الإنترنت مقارنة ببقية الكتاب. ونتيجة لذلك، الكتابة الخاصة بك `HTML` قد تقدم بعض التغييرات في الطريقة التي يظهر بها المحتوى الجديد على الإنترنت مقارنة ببقية الكتاب.
 
-crwdns799390:0crwdne799390:0 crwdns799392:0crwdne799392:0 crwdns799394:0crwdne799394:0
+للتقليل من هذا التفاوت، _طريق الترقيق_ يحافظ على [صحائف الأنماط على مستوى الكتاب](https://github.com/alan-turing-institute/the-turing-way/blob/main/book/website/_static/book-stylesheet.css) التي تتحكم في مظهر والشعور بمحتوى الكتاب. عند إدراج `HTML` في المساهمات، يرجى الرجوع إلى أوراق الأنماط هذه وإضافة الفئات والمعرفات ذات الصلة المحددة هناك إلى عناصر الـ `HTML` الخاصة بك. وهذا يضمن أن المحتوى الجديد الخاص بك يتوافق مع النمط العام للكتاب _طريق التوريق_.
 
-crwdns799396:0crwdne799396:0 crwdns799398:0crwdne799398:0
+في هذا الفصل الفرعي، نقدم شرحاً لكيفية الاستفادة من ألواح أساليب الكتاب لتصميم إسهاماتك في عينة من حالات الاستخدام. إذا كنت ترغب في تحسين أسلوب الكتاب، فإن هذا الفصل الفرعي يقدم أيضا لمحة عامة موجزة عن كيفية القيام بذلك.
 
-crwdns799400:0crwdne799400:0
-## crwdns799402:0crwdne799402:0
+(طراز النمط المخصص-النمط النمطي) =
+## استخدام الورق النمطي
 
-crwdns799404:0crwdne799404:0
-### crwdns799406:0crwdne799406:0
+(أشرطة فيديو-نمط مخصص)=
+### فيديوهات
 
-crwdns799408:0crwdne799408:0 crwdns799410:0crwdne799410:0
+في حين أنه من الممكن تضمين الصور و الصور المتحركة في المحتوى الخاص بك باستخدام بناء الـ Markdown، من الممكن حاليا فقط تضمين مقاطع الفيديو مع `HTML`. والأكثر من ذلك، نحن لا نوصي بإضافة مقاطع فيديو مباشرة إلى _الطريق الوشيك_ مستودع Github لأن ملفات الفيديو عادة ما تكون كبيرة وسوف تجعل تحميل الكتاب أبطأ بكثير، خاصة للقراء الذين لديهم اتصالات إنترنت بطيئة.
 
-crwdns799412:0crwdne799412:0
-1. crwdns799414:0crwdne799414:0
-1. crwdns799416:0crwdne799416:0
+لإضافة فيديو إلى مساهمتك ، قم بتحميله أولا إلى _طريق اللارجح_ قناة يوتيوب، ثم نسخ/لصق رمز HTML `` الذي يتم إنشاؤه عندما تقوم بما يلي:
+1. انقر على خيار `مشاركة` تحت الفيديو،
+1. ثم انقر فوق خيار `تضمين` من مجموعة الخيارات التي تظهر
 
 
-crwdns799418:0crwdne799418:0 crwdns799420:0crwdne799420:0
-
-```
-crwdns799422:0crwdne799422:0
-```
-
-crwdns799424:0crwdne799424:0 crwdns799426:0crwdne799426:0
-
-crwdns799428:0crwdne799428:0 crwdns799430:0crwdne799430:0
+رمز `HTML` الذي قمت بنسخه سيكون [`iframe`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) عنصر. وعلى سبيل المثال:
 
 ```
-crwdns799432:0crwdne799432:0
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MdOS6tPq8fc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ```
 
-crwdns799434:0crwdne799434:0
+بشكل افتراضي، `iframes` غير مستجيبة، مما يعني أن الفيديو الذي أدمجته للتو لن يكون في متناول القراء على الأجهزة المحمولة. لإصلاح هذا، _ورقة الطباعة_ تحدد الفئات والأسلوب التي تسمح `الإطارات` بتغيير الحجم وتلائم الشاشة التي يقرأ منها الكتاب.
+
+لاستخدام هذا الأسلوب المخصص، قم بتغليف `iframe` في `وسوم` وقم بإعطاء عنصر `Dv` `حاوية فيديو`. وعلى سبيل المثال:
+
+```
+<div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/MdOS6tPq8fc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+```
+
+ومن ثم فإن الرمز المذكور أعلاه ينص على ما يلي:
 
 <div class="video-container">
-    <iframe width="560" height="315" src="crwdns799436:0crwdne799436:0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/MdOS6tPq8fc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-crwdns799438:0crwdne799438:0
-## crwdns799440:0crwdne799440:0
+(تحسين النمط المخصص) =
+## تحسين _طريقة التوت_
 
-crwdns799442:0crwdne799442:0 crwdns799444:0crwdne799444:0
+يعمل كتاب المشتري عن طريق تحويل صياغة Markdown إلى `HTML`. لذلك، لتحسين النمط العام للكتاب، يجب أن تستهدف قواعد `CSS` عناصر `HTML` التي يولدها كتاب المشتري.
 
-crwdns799446:0crwdne799446:0 crwdns799448:0crwdne799448:0
+قبل كتابة أي CSS، افحص رمز مصدر HTML الخاص بالكتاب أولاً. هذا يعطيك فكرة عن العناصر التي يجب استهدافها، وقد يساعدك على معرفة كيفية هيكلة قواعد CSS الخاصة بك.
 
-crwdns799450:0crwdne799450:0 crwdns799452:0crwdne799452:0 crwdns799454:0crwdne799454:0
+كل متصفحات الويب تسمح لك بعرض شفرة المصدر للمواقع بسهولة. على أجهزة الكمبيوتر التي تعمل بنظام Windows OS، يتم ذلك باستخدام `CTRL + U`. بالنسبة للحواسيب التي تعمل بنظام تشغيل Mac OS، يتم ذلك باستخدام `خيار + الأمر + U`.
 
-crwdns799456:0crwdne799456:0 crwdns799458:0crwdne799458:0
+بمجرد تحديد العنصر (العناصر) الذي تريد تعديله، اكتب CSS الخاص بك في _ملف طريق التوبيخ_ [ورقة الطرائد](https://github.com/alan-turing-institute/the-turing-way/blob/main/book/website/_static/book-stylesheet.css). إذا كان على سبيل المثال لقد أردت تغيير `خط العائلة` من نص الفقرة عبر _كتاب الطريق_ بأكمله، ثم يمكنك إضافة قاعدة CSS التالية إلى أوراق النماذج التي تستهدف جميع العناصر التي تحتوي على `<p>` علامة:
 
 ```
-crwdns799460:0crwdne799460:0
+p {
+    خط الأسرة: georgia, garamond, serif;
+}
 ```
 
-crwdns799462:0crwdne799462:0
+إذا كنت تعتقد أن الأسلوب المقدم في _طريقة تورينغ_ يمكن أن يكون مفيدا لمستخدمي كتاب المشتري الآخرين، يرجى النظر في تقديم مساهمة في المشروع في المرحلة التمهيدية من خلال إنشاء مشكلة GitHub جديدة وبدء مناقشة مع مشرفي المشروع : [https://github. om/executablebooks/jupyter-book/issu](https://github.com/executablebooks/jupyter-book/issues)
