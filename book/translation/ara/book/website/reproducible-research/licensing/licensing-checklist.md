@@ -1,17 +1,17 @@
-crwdns845384:0crwdne845384:0
-# crwdns845386:0crwdne845386:0
+(rr-licensing-checklist)=
+# Checklist
 
-crwdns845388:0crwdne845388:0
+هذه قائمة مرجعية لإضافة ترخيص إلى مستودع المشروع الخاص بك.
 
-- crwdns845390:0crwdne845390:0
-- crwdns845392:0crwdne845392:0
-- crwdns845394:0crwdne845394:0
-- crwdns845396:0crwdne845396:0
-- crwdns845398:0crwdne845398:0
+- اذهب إلى مجلد مستودعك (كمبيوتر محلي أو مستودع عبر الإنترنت على GitHub/GitLab/BitBucket)
+- إنشاء ملف جديد واسم جديد هو `License.txt` أو `License.md` استنادًا إلى تفضيلك تنسيق الملف
+- اختر نوع ترخيص (أو ترخيص متعدد للمحتوى المختلط) مناسب لمشروعك (زيارة [choosealicense.com](https://choosealicense.com/))
+- نسخ محتوى الترخيص إلى الملف المنشأ حديثا، على سبيل المثال، يمكنك استخدام ترخيص مفتوح المصدر [CC-BY 4.](https://choosealicense.com/licenses/cc-by-4.0/) لمحتوى النص و [رخصة MIT](https://choosealicense.com/licenses/mit/) للبرنامج
+- حفظ الملف الخاص بك وإضافة التفاصيل في ملف README.md الخاص بك
 
-crwdns845400:0crwdne845400:0
-## crwdns845402:0crwdne845402:0
+(r-licensing-read)=
+## المزيد من القراءة
 
-crwdns845404:0crwdne845404:0
+موارد إضافية يمكنك قراءتها لمعرفة المزيد عن تراخيص البرمجيات.
 
- - [crwdns845408:0crwdne845408:0](crwdns845406:0crwdne845406:0)
+ - [تراخيص المصدر المفتوح: ماهية الرخص وأسبابها](https://arstechnica.com/gadgets/2020/02/how-to-choose-an-open-source-license/)
