@@ -1,42 +1,42 @@
-crwdns29995:0crwdne29995:0
-# crwdns29997:0crwdne29997:0
+crwdns813264:0crwdne813264:0
+# crwdns813266:0crwdne813266:0
 
-crwdns29999:0crwdne29999:0 crwdns30001:0crwdne30001:0 crwdns30003:0crwdne30003:0
+crwdns813268:0crwdne813268:0 crwdns813270:0crwdne813270:0 crwdns813272:0crwdne813272:0
 
-crwdns30005:0crwdne30005:0
+crwdns813274:0crwdne813274:0
 
-crwdns30007:0crwdne30007:0 crwdns30009:0crwdne30009:0 crwdns30011:0crwdne30011:0
+crwdns813276:0crwdne813276:0 crwdns813278:0crwdne813278:0 crwdns813280:0crwdne813280:0
 
 ```{figure} ../../figures/computational-environments.jpg
-crwdns30013:0crwdne30013:0
+crwdns813282:0crwdne813282:0
 ```
 
-crwdns30015:0crwdne30015:0
+crwdns813284:0crwdne813284:0
 
 
-crwdns30017:0crwdne30017:0
-## crwdns30019:0crwdne30019:0
+crwdns813286:0crwdne813286:0
+## crwdns813288:0crwdne813288:0
 
-crwdns30021:0{term}crwdne30021:0 crwdns30023:0crwdne30023:0
-
-
-crwdns30025:0crwdne30025:0
-## crwdns30027:0crwdne30027:0
-
-crwdns30029:0{term}crwdne30029:0 crwdns30031:0crwdne30031:0 crwdns30033:0crwdne30033:0 crwdns30035:0{ref}crwdne30035:0
+crwdns813290:0{term}crwdne813290:0 crwdns813292:0crwdne813292:0
 
 
-crwdns30037:0crwdne30037:0
-## crwdns30039:0crwdne30039:0
+crwdns813294:0crwdne813294:0
+## crwdns813296:0crwdne813296:0
 
-crwdns30041:0{term}crwdne30041:0 crwdns30043:0crwdne30043:0 crwdns30045:0crwdne30045:0 crwdns30047:0crwdne30047:0 crwdns30049:0crwdne30049:0 crwdns30051:0crwdne30051:0 crwdns30053:0crwdne30053:0
+crwdns813298:0{term}crwdne813298:0 crwdns813300:0crwdne813300:0 crwdns813302:0crwdne813302:0 crwdns813304:0{ref}crwdne813304:0
 
 
-crwdns30055:0crwdne30055:0
-## crwdns30057:0crwdne30057:0
+crwdns813306:0crwdne813306:0
+## crwdns813308:0crwdne813308:0
 
-crwdns30059:0{term}crwdne30059:0 crwdns30061:0crwdne30061:0
+crwdns813310:0{term}crwdne813310:0 crwdns813312:0crwdne813312:0 crwdns813314:0crwdne813314:0 crwdns813316:0crwdne813316:0 crwdns813318:0crwdne813318:0 crwdns813320:0crwdne813320:0 crwdns813322:0crwdne813322:0
 
-crwdns30063:0crwdne30063:0 crwdns30065:0crwdne30065:0 crwdns30067:0crwdne30067:0
 
-crwdns30069:0crwdne30069:0 crwdns30071:0crwdne30071:0
+crwdns813324:0crwdne813324:0
+## crwdns813326:0crwdne813326:0
+
+crwdns813328:0{term}crwdne813328:0 crwdns813330:0crwdne813330:0
+
+crwdns813332:0crwdne813332:0 crwdns813334:0crwdne813334:0 crwdns813336:0crwdne813336:0
+
+crwdns813338:0crwdne813338:0 crwdns813340:0crwdne813340:0
