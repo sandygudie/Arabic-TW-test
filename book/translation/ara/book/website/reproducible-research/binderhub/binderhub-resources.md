@@ -1,17 +1,17 @@
-(خ ع - محرج - موارد)=
-# الموارد
+crwdns804962:0crwdne804962:0
+# crwdns804964:0crwdne804964:0
 
-## مزيد من القراءة
+## crwdns804966:0crwdne804966:0
 
-- [وثائق العشاء](https://mybinder.readthedocs.io/en/latest/)
-- [وثائق BinderHub](https://binderhub.readthedocs.io/en/latest/index.html)
-- [صفر إلى جوبيترهوب مع وثائق كوبرنيتس](https://zero-to-jupyterhub.readthedocs.io/en/latest/index.html)
-- [وثائق JupyterHub](https://jupyterhub.readthedocs.io/en/stable/)
-- [_طريق التدوين_ بناء ورشة عمل BinderHub](http://bit.ly/zero-to-binderhub-workshop)
+- [crwdns804970:0crwdne804970:0](crwdns804968:0crwdne804968:0)
+- [crwdns804974:0crwdne804974:0](crwdns804972:0crwdne804972:0)
+- [crwdns804978:0crwdne804978:0](crwdns804976:0crwdne804976:0)
+- [crwdns804982:0crwdne804982:0](crwdns804980:0crwdne804980:0)
+- [crwdns804986:0crwdne804986:0](crwdns804984:0crwdne804984:0)
 
-## المراجع الخاصة بهذا الفصل
+## crwdns804988:0crwdne804988:0
 
-- **وثائق كوبيرنيت**: [https://kubernetes.io/](https://kubernetes.io/)
-- **وثائق مرحبا**: [https://helm.sh/](https://helm.sh/)
-- **repo2docker**: [https://repo2docker.readthedocs.io/en/latest/?badge=latest](https://repo2docker.readthedocs.io/en/latest/?badge=latest)
-- **وثائق Microsoft Azure حول التحكم في الوصول على أساس الأدوار**: [https://docs.microsoft.com/en-us/azure/role-based-access-control/overview](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview)
+- crwdns804990:0crwdne804990:0
+- crwdns804992:0crwdne804992:0
+- crwdns804994:0crwdne804994:0
+- crwdns804996:0crwdne804996:0
