@@ -1,74 +1,90 @@
-crwdns799160:0crwdne799160:0
-# crwdns799162:0crwdne799162:0
+(ch-style-citing)=
+# الاستشهاد والإشارة
 
-crwdns799164:0crwdne799164:0 crwdns799166:0crwdne799166:0
+نحن نحافظ على ملف [BibTeX](http://www.bibtex.org/) مركزي يحتوي على جميع المراجع. الملف موجود داخل هذا المستودع في الملف [`./book/website/_bibliography/references.bib`][turingbib].
 
-## crwdns799168:0crwdne799168:0
+## أساسيات ملف BibTeX
 
-crwdns799170:0crwdne799170:0 crwdns799172:0crwdne799172:0
+ملفات BibTeX هي طريقة لتنسيق قوائم المراجع بطريقة منظمة. وتشمل العناصر الأساسية للمدخل نوعا مرجعيا، ومفتاح استشهاد فريد من نوعه، وسلسلة من أزواج القيمة الرئيسية التي تصف المرجع (على سبيل المثال المؤلف أو العنوان).
 
-crwdns799174:0crwdne799174:0 crwdns799176:0crwdne799176:0 crwdns799178:0crwdne799178:0 crwdns799180:0crwdne799180:0 crwdns799182:0crwdne799182:0
+هناك عدد من الكلمات الرئيسية لأنواع المراجع المختلفة في BibTeX. لحسن الحظ، هناك أدوات للمساعدة في تنسيق المراجع في بناء بنية BibTeX. إذا كنت تعرف DOI كمرجع خاص بك، يمكنك استخدام [doi2bib](https://doi2bib.org/) للمساعدة في تعبئة مدخل BibTeX جيد بما فيه الكفاية. على سبيل المثال، [هنا](https://doi2bib.org/bib/https://doi.org/10.5281/zenodo.3233853) هو مدخل BibTeX جيد بما فيه الكفاية لدليل طريق تورينج نفسه. أداة جيدة أخرى هي [عالم جوجل](https://scholar.google.com/)، حيث تبحث عن مرجع، انقر فوق الاقتباس المزدوج الكبير `"`، ثم انقر على "BibTeX" بالقرب من الأسفل.
 
-crwdns799184:0crwdne799184:0
+وترد أدناه أمثلة على إدراج مرجع على شكل BibTeX.
 
-## crwdns799186:0crwdne799186:0
+## إضافة مرجع جديد في `references.bib`
 
-crwdns799188:0crwdne799188:0
+يمكنك تعديل الملف المرجعي محلياً باستخدام طريقة من:
 
-- crwdns799190:0crwdne799190:0
-- crwdns799192:0crwdne799192:0
+- تحرير [`references.bib`][turingbib] مباشرة باستخدام محرر نص
+- تحرير [`references.bib`][turingbib] مباشرة باستخدام برنامج إدارة مثل [JabRef](http://www.jabref.org/) (Linux, Windows, macOS) أو [BibDesk](https://bibdesk.sourceforge.io/) (macOS)
 
-crwdns799194:0crwdne799194:0 crwdns799196:0crwdne799196:0
-
-```
-crwdns799198:0{Baker, Monya}crwdnd799198:0{Nature}crwdnd799198:0{533}crwdnd799198:0{26}crwdnd799198:0{353--66}crwdnd799198:0{2016}crwdne799198:0
-```
-
-**crwdns799200:0crwdne799200:0**
-
-## crwdns799202:0crwdne799202:0
-
-crwdns799204:0crwdne799204:0
+نحن نستخدم صيغة BBtex القياسية لإضافة إدخال جديد. على سبيل المثال، هناك إدخال في ملف [`references.bib`][turingbib] كالتالي:
 
 ```
-crwdns799206:0crwdne799206:0
+@article{baker2016reproduciability ،
+    author={Baker, Monya}،
+    title={Reproducibility crisis? ،
+    مجلة ={Nature}،
+    مجلد ={533}،
+    رقم ={26}،
+    الصفحات ={353--66}،
+    سنة ={2016}
+}
 ```
 
-crwdns799208:0crwdne799208:0
+**إنهاء التحرير بإضافة إدخال جديد في نهاية الملف.**
 
-1. crwdns799210:0crwdne799210:0
-2. crwdns799212:0crwdne799212:0
-3. crwdns799214:0crwdne799214:0 crwdns799216:0crwdne799216:0
+## دليل نمط مفتاح الاستشهاد
 
-## crwdns799218:0crwdne799218:0
-
-crwdns799220:0crwdne799220:0
-
-crwdns799222:0crwdne799222:0
-
-- crwdns799224:0crwdne799224:0
-```
-crwdns799226:0{cite:ps}crwdne799226:0
+نوصي باستخدام الهيكل التالي لمفاتيح الاقتباس:
 
 ```
-crwdns799228:0crwdne799228:0
-- crwdns799230:0crwdne799230:0
-```
-crwdns799232:0{cite:ps}crwdne799232:0
+كلمة المؤلف
 ```
 
-crwdns799234:0crwdne799234:0
+حيث:
+
+1. `المؤلف` هو اسم عائلة المؤلف الأول (`بيكر` أعلاه)
+2. `سنة` هي السنة (`2016` أعلاه)
+3. `كلمة` هي أول كلمة ذات مغزى في العنوان (`إمكانية التكرار` أعلاه). ملاحظة، هذا ذاتي" اختيار اسم يجعل من السهل تذكر الإشارة عندما ترى مفتاح الاقتباس.
+
+## إضافة مرجع جديد في النص
+
+لإدراج اقتباس في المحتوى الخاص بك، نتبع التوصية من خلال [كتاب المشتري](https://jupyterbook.org/content/citations.html) الذي يستخدم [`ملحقات`](https://sphinxcontrib-bibtex.readthedocs.io/en/latest/).
+
+والمفاهيم الرئيسية هي:
+
+- تضمين مرجع باستخدام :
+```
+{cite:ps}`CITEKEY`
 
 ```
-crwdns799236:0{cite:ps}crwdne799236:0
+هنا `CITEKEY` هو مفتاح الاستشهاد المقابل في [`المراجع .bib`][turingbib].
+- يمكنك أيضًا تضمين العديد من الإشارات في ذهاب واحد عن طريق الفصل بين CITEKEYs بفاصلة:
+```
+{cite:ps}`CITEKEY1,CITEKEY2,CITEKEY3`
 ```
 
-crwdns799238:0{cite:ps}crwdne799238:0
+سنستشهد بالمقال الذي قمنا بتعديله في وقت سابق في ملف [`reference.bib`][turingbib] بإستخدام:
 
-crwdns799240:0{ref}crwdne799240:0
+```
+{cite:ps}`Kula2010archiving`
+```
+
+سيظهر هذا في فصلك كـ {cite:ps}`خبازر2016إمكانية التكرار`.
+
+يتوفر المدخل الكامل للببليوغرافيا في نهاية هذا الكتاب (انظر {ref}`موارد <bibliography>`) باستخدام التوجيهات:
 
     ```{bibliography} ../_bibliography/references.bib
 
     ```
 
-crwdns799242:0crwdne799242:0
+للحصول على الاستخدام المتقدم، راجع [التوثيق بواسطة sphinxcontrib-bibtex](https://sphinxcontrib-bibtex.readthedocs.io/en/latest/usage.html)، والذي هو امتداد Sphinx لاستشهاد نمط BibTeX.
+
+[turingbib]: https://github.com/alan-turing-institute/the-turing-way/blob/main/book/website/_bibliography/references.bib
+
+[turingbib]: https://github.com/alan-turing-institute/the-turing-way/blob/main/book/website/_bibliography/references.bib
+
+[turingbib]: https://github.com/alan-turing-institute/the-turing-way/blob/main/book/website/_bibliography/references.bib
+
+[turingbib]: https://github.com/alan-turing-institute/the-turing-way/blob/main/book/website/_bibliography/references.bib
