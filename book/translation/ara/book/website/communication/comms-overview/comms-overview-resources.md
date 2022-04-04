@@ -1,88 +1,88 @@
-crwdns793620:0crwdne793620:0
-# crwdns793622:0crwdne793622:0
+(م م-أوامر - نظرة عامة-الموارد)=
+# الموارد والتوصيات
 
-crwdns793624:0crwdne793624:0
-## crwdns793626:0crwdne793626:0
+(m-comms-overview-resources-accessibility)=
+## إمكانية الوصول
 
-crwdns793628:0{ref}crwdne793628:0
+اقرأ المزيد في هذا الفصل: {ref}`cm-comms-overview-available`.
 
-* crwdns793630:0crwdne793630:0
-* crwdns793632:0crwdne793632:0
-* crwdns793634:0crwdne793634:0
+* [شبكة القدرة](https://abilitynet.org.uk/) للأدلة لجعل المستندات الخاصة بك أكثر سهولة الوصول.
+* [آلة حاسبة التباين](https://contrastchecker.com/) هي موقع جيد للتحقق بحرية مما إذا كنت تستوفي معايير إمكانية الوصول إلى محتوى الويب (WCAG).
+* [Outlier conf](https://www.outlierconf.com/) مثال جيد على إمكانية الوصول إلى رسوم المشاركة في المؤتمرات والخبرة في البيانات (مقابل التصوير).
 
-crwdns793636:0crwdne793636:0
-## crwdns793638:0crwdne793638:0
+(m-comms-overview-resources-blogs)=
+## المدوّنات
 
-crwdns793640:0{ref}crwdne793640:0
+اقرأ المزيد في هذا الفصل: {ref}`cm-blogs`.
 
-* crwdns793642:0crwdne793642:0
-* [crwdns793646:0crwdne793646:0](crwdns793644:0crwdne793644:0)
-* [crwdns793650:0crwdne793650:0](crwdns793648:0crwdne793648:0)
+* [20 مقياس كل مدوّن يحتاج إلى تتبع لقياس النجاح](https://www.dreamhost.com/blog/metrics-every-blogger-needs-to-track/).
+* [بدء تشغيل مدونة Wordpress](https://www.podcastinsights.com/start-a-wordpress-blog/)
+* [مقارنة مواقع Google و Wordpress](https://superbwebsitebuilders.com/google-sites-vs-wordpress)
 
-### crwdns793652:0crwdne793652:0
-* crwdns793654:0crwdne793654:0
-* [crwdns793658:0crwdne793658:0](crwdns793656:0crwdne793656:0)
-* crwdns793660:0crwdne793660:0 crwdns793662:0crwdne793662:0
-* crwdns793664:0crwdne793664:0
+### بعض مدوناتنا المفضلة
+* الدكتورة فيرونيكا شيبليجينا [كيف فشلت في سلسلة](https://veronikach.com/failure/)
+* [مدونة معهد استدامة البرمجيات](https://www.software.ac.uk/blog)
+* [افتح العمل](https://openworking.wordpress.com/) بواسطة 4TU. ResearchData & TU Delft Library و Data Stewards. يستخدم WordPress.
+* [Metadocencia](https://metadocencia.netlify.app/post/) - هذا باللغة الاسبانية ولكن يمكنك أيضا قراءته باللغة الإنجليزية [هنا](https://metadocencia.netlify.app/en/post/).
 
-crwdns793666:0crwdne793666:0
-## crwdns793668:0crwdne793668:0
+(m-comms-overview-resources-lay)=
+## ملخصات معلنة
 
-crwdns793670:0{ref}crwdne793670:0
+اقرأ المزيد في هذا الفصل: {ref}`سم - ملخصات`.
 
-* crwdns793672:0crwdne793672:0
+* انظر  [Perfecting the lay Summary](https://bitesizebio.com/10871/perfecting-that-lay-summary/) للحصول على مثال جيد لكيفية تغيير الخلاصة إلى موجز عادي.
 
-**crwdns793674:0crwdne793674:0**
-* [crwdns793678:0crwdne793678:0](crwdns793676:0crwdne793676:0)
-* [crwdns793682:0crwdne793682:0](crwdns793680:0crwdne793680:0)
+**اختبارات قابلية القراءة:**
+* [Hemingway app](http://www.hemingwayapp.com/)
+* [اختبار القابلية للقراءة في كلمة الفوز](http://thefirstword.co.uk/readabilitytest/)
 
 
-crwdns793684:0crwdne793684:0
-## crwdns793686:0crwdne793686:0
+(m-comms-overview-resources-podcasts)=
+## Podcasts
 
-crwdns793688:0{ref}crwdne793688:0
+اقرأ المزيد في هذا الفصل: {ref}`cm-podcasts`.
 
-* crwdns793690:0crwdne793690:0
+* [كيفية تشغيل مدونة podcast](https://www.podcastinsights.com/start-a-podcast/?gclid=CjwKCAiA9vOABhBfEiwATCi7GNV7zJl0tHaVkW-7DCjVdAwGa4q0vbaXB44xsSBHp7YBO8K6pH0syBoCVtUQAvD_BwE).
 
-### crwdns793692:0crwdne793692:0
-* crwdns793694:0crwdne793694:0
-* crwdns793696:0crwdne793696:0
-* crwdns793698:0crwdne793698:0
-* crwdns793700:0crwdne793700:0
-* crwdns793702:0crwdne793702:0
+### بعض البث الصوتي المفضل لدينا
+* [Orion Open Science](https://www.orion-openscience.eu/publications/training-materials/201902/podcasts).
+* [حديث العلوم المفتوح](https://soundcloud.com/opensciencetalk).
+* [تورينج Podcast](https://www.turing.ac.uk/news/turing-podcast).
+* [ReproducibiliTea Podcast](https://soundcloud.com/reproducibilitea).
+* [قصص علمية مفتوحة](https://podcasts.apple.com/gb/podcast/open-science-stories/id1547403532).
 
-crwdns793704:0crwdne793704:0
-## crwdns793706:0crwdne793706:0
+(أوامر استعراض عام-الموارد - العروض)=
+## العروض
 
-crwdns793708:0{ref}crwdne793708:0
+اقرأ المزيد في هذا الفصل: {ref}`سم عرض`.
 
-crwdns793710:0crwdne793710:0
+وفيما يلي بعض المواقع التي توفر موارد مجانية تقوم بجوانب مختلفة من أشكال التواجد:
 
-* crwdns793712:0crwdne793712:0
-* crwdns793714:0crwdne793714:0
-* crwdns793716:0crwdne793716:0
-* crwdns793718:0crwdne793718:0
-* crwdns793720:0crwdne793720:0
-* crwdns793722:0crwdne793722:0
+* [مشروع نون](https://thenounproject.com) للأيقونات والصور.
+* [Unsplash](https://unsplash.com) للصور.
+* [السلاسل](https://www.pexels.com) للصور.
+* [فريك](https://www.freepik.com/free-photos-vectors/english) للأيقونات والرسوم التوضيحية.
+* [Flaticon](https://www.flaticon.com/free-icons/english) للأيقونات
+* [كانفا](https://www.canva.com) للأيقونات
 
-crwdns793724:0crwdne793724:0
-* crwdns793726:0crwdne793726:0 crwdns793728:0crwdne793728:0
-* crwdns793730:0crwdne793730:0 crwdns793732:0crwdne793732:0
+لتسجيل المحادثات:
+* [OBS](https://obsproject.com). انظر [هذا الدليل لاستخدام OBS](https://software.ac.uk/fellowship-programme/2019/application-video-guide) من قبل معهد استدامة البرمجيات.
+* [أمارا](https://amara.org) أو [Otter](https://otter.ai/) يمكن استخدامها لتوليد الترجمات الخاصة بك. منصات التداول بالفيديو مثل التكبير أو اجتماع جوجل لها أيضا تعليقات.
 
-* crwdns793734:0crwdne793734:0
+* العديد من الجوانب التقنية والأدوات لإلقاء محادثات (أو فصول) عن بعد مغطاة في [نصائح النجارة لتدريس الإنترنت](https://carpentries.org/blog/2020/03/tips-for-teaching-online/) و ["التعليم عبر الإنترنت على الإشعار القصير"](https://rstd.io/teach-online-2020) بواسطة RStudio، مصدر لعدة نقاط في هذا الفرع.
 
-* crwdns793736:0crwdne793736:0
+* يحتوي مؤتمر Outlier على بعض النصائح الممتازة حول [تطوير الكلام](https://docs.google.com/presentation/d/1VltGZmwfFcqwJ_pMwNx-ECfhgtl0dhxYC99qM5xnV-U/)و [بنية](https://docs.google.com/presentation/d/1XyFdpqjlvXd_8kIl3dJFHhGTcywX0tayQtHXXYUi9DQ/)و [الإعداد الفني](https://https://docs.google.com/presentation/d/1ZLrVBs5Zt9_DDu2TYUN3CzsEr1WiMXbwj-AP5m9Rbhc/).
 
-* crwdns793738:0crwdne793738:0
+* تقدم المؤلف نانسي دوارتي بعض الأفكار في كتبها ومقالاتها و [تتحدث](https://://www.ted.com/talks/nancy_duarte_the_secret_structure_of_great_talks?) حول كيفية تشكيل العروض التي تنطوي على دعوة للعمل.
 
-crwdns793740:0crwdne793740:0
-## crwdns793742:0crwdne793742:0
+(m-comms-overview-resources-social)=
+## وسائل التواصل الاجتماعي
 
-crwdns793744:0{ref}crwdne793744:0
+اقرأ المزيد في هذا الفصل: {ref}`سم - الوسائط الاجتماعية`.
 
-* [crwdns793748:0crwdne793748:0](crwdns793746:0crwdne793746:0)
-* [crwdns793752:0crwdne793752:0](crwdns793750:0crwdne793750:0)
-* crwdns793754:0crwdne793754:0
-* [crwdns793758:0crwdne793758:0](crwdns793756:0crwdne793756:0)
-* [crwdns793762:0crwdne793762:0](crwdns793760:0crwdne793760:0)
-* [crwdns793766:0crwdne793766:0](crwdns793764:0crwdne793764:0)
+* [تغريدة](https://tweetdeck.twitter.com/)
+* [مخزن](https://buffer.com/)
+* هذا دليل [جيد للحصول على الإعداد على تويتر](https://www.wired.com/story/how-to-setup-twitter-search-hashtag-and-login-help/).
+* [عشر قواعد بسيطة للبدء على تويتر كعالم](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007513)
+* [عشر قواعد بسيطة للتغريدات الحية في المؤتمرات العلمية](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003789)
+* [كيفية استخدام تويتر لتعزيز مهنتك البحثية](https://www.nature.com/articles/d41586-019-00535-w)
