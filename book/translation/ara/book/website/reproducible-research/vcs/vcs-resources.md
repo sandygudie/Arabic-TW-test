@@ -1,45 +1,45 @@
-crwdns855634:0crwdne855634:0
-# crwdns855636:0crwdne855636:0
-crwdns855638:0crwdne855638:0
+(rr-vcs-resources)=
+# الموارد
+المزيد من الموارد لمعرفة المزيد عن أنظمة تحكم الإصدار، Git، و GitHub.
 
-crwdns855640:0crwdne855640:0
-## crwdns855642:0crwdne855642:0
+(rr-vcs-resources-learn)=
+## ماذا نتعلم التالي
 
-crwdns855644:0crwdne855644:0 crwdns855646:0crwdne855646:0 crwdns855648:0crwdne855648:0
+انظر إلى أفضل الممارسات لكتابة شفرة جيدة النوعية (على سبيل المثال، اتفاقيات التسمية الجيدة، والتعليقات المفيدة، وهيكل شفرات نموذجية). والعديد من هذه المهارات ينطبق أيضا على استخدام التحكم في النسخ بشكل جيد (مثلا لكتابة رسائل الالتزام الجيدة). كما أنها تسهل استخدام التحكم في الإصدار عن طريق الحفاظ على التغييرات الأنيقة والموقعة.
 
-crwdns855650:0crwdne855650:0
-## crwdns855652:0crwdne855652:0
+(rr-vcs-resources-reading)=
+## المزيد من القراءة
 
-- crwdns855654:0crwdne855654:0
-- crwdns855656:0crwdne855656:0
-- crwdns855658:0crwdne855658:0
-- crwdns855660:0crwdne855660:0
-- crwdns855662:0crwdne855662:0
-- crwdns855664:0crwdne855664:0
+- يمكن العثور على كتاب مجاني ومتعمق جدا حول العديد من ميزات Git [هنا](https://Git-scm.com/book/en/v2).
+- يمكن العثور على ورقة غش مفيدة Git [هنا](https://education.github.com/git-cheat-sheet-education.pdf).
+- يمكن العثور على دروس تفاعلية للتعرف على نفسك مع GitHub في [https://lab.github.com/](https://lab.github.com/).
+- يمكن العثور على دروس تفاعلية لـ DataLad في [handbook.datalad.org](http://handbook.datalad.org)، ويمكن العثور على دروس تفاعلية من git-annex على [git-annex. Branchable.com/walkthrough](https://git-annex.branchable.com/walkthrough/).
+- يمكن العثور على مقالة حول مزامنة شوكة من المستودع للحفاظ على تحديثها مع مستودع التمهيد [هنا](https://help.github.com/en/articles/syncing-a-fork).
+- إذا كنت ترغب في فعل كل شيء في المتصفح نفسه، يمكن العثور على تعليمات للقيام بذلك [هنا](https://github.com/KirstieJane/STEMMRoleModels/wiki/Syncing-your-fork-to-the-original-repository-via-the-browser).
 
-crwdns855666:0crwdne855666:0
-## crwdns855668:0crwdne855668:0
+(rr-vcs-resources-references)=
+## المراجع
 
-- crwdns855670:0crwdne855670:0
-- crwdns855672:0crwdne855672:0
-- crwdns855674:0crwdne855674:0
-- crwdns855676:0crwdne855676:0
-- crwdns855678:0crwdne855678:0
-- crwdns855680:0crwdne855680:0
-- crwdns855682:0crwdne855682:0
-- crwdns855684:0crwdne855684:0
-- crwdns855686:0crwdne855686:0
-- crwdns855688:0crwdne855688:0
-- crwdns855690:0crwdne855690:0
-- crwdns855692:0crwdne855692:0
-- crwdns855694:0crwdne855694:0
-- crwdns855696:0crwdne855696:0
-- crwdns855698:0crwdne855698:0
-- crwdns855700:0crwdne855700:0
-- crwdns855702:0crwdne855702:0
-- crwdns855704:0crwdne855704:0
-- crwdns855706:0crwdne855706:0
-- crwdns855708:0crwdne855708:0
-- crwdns855710:0crwdne855710:0
-- crwdns855712:0crwdne855712:0
-- crwdns855714:0crwdne855714:0
+- [1.](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Controls) **رخصة المشاع الإبداعي-غير تجاري-المساهمة مثل 3.0 غير مرخصة**
+- [2.](https://link.springer.com/article/10.1186/1751-0473-8-7) **[رخصة إسناد المشاع الإبداعي](http://creativecommons.org/licenses/by/2.0)** *أشياء مفيدة أخرى في هذه الورقة، يمكن استخدام مدخلهم كجزء من مدخل الكتاب*
+- [3.](http://crlionline.net/node/198) **الإذن الذي يمنحه الكاتب (بيتر ريمان) 15/12/18**
+- [4-](https://tonysyu.github.io/source-control-for-scientists-and-soloists.html#.XA6Q3mj7RPY) **إذن مقدم البلاغ (Tony Yu) 15/12/18**
+- [5.](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository#ch02-git-basics-chapter) **رخصة المشاع الإبداعي-غير تجاري-المساهمة مثل 3.0 غير مرخصة.**
+- [6.](https://githowto.com/undoing_committed_changes) **المشاع الإبداعي في الإسناد-غير تجاري-مشاركة 4.0 دولية**
+- [7.](https://www.atlassian.com/git/tutorials/saving-changes/git-diff) **رخصة المشاع الإبداعي 2.5 أستراليا.**
+- [8.](http://sethrobertson.github.io/GitBestPractices/) **المشاع الإبداعي-حصة مثل 3.0 عام**
+- [9.](https://guide.esciencecenter.nl/best_practices/version_control.html) **رخصة المشاع الإبداعي نسبة 4.0 الدولية**
+- [10.](https://git-scm.com/book/en/v2/Distributed-Git-Contributing-to-a-Project) **رخصة المشاع الإبداعي-غير تجاري-المساهمة مثل 3.0 غير مرخصة**
+- [11.](https://opensource.com/article/18/5/git-branching) **رخصة المشاع الإبداعي**
+- [12.](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches) **GU GENERAL PUBLICNSE الإصدار 3**
+- [13.](http://genomewiki.ucsc.edu/index.php/Resolving_merge_conflicts_in_Git) **["تم منحك رخصة محدودة لنسخ أي شيء من هذا الموقع"](http://genomewiki.ucsc.edu/index.php/Genomewiki:General_disclaimer)**
+- [14.](https://githowto.com/resolving_conflicts) **المشاع الإبداعي -غير تجاري-مشاركة 4.0 الدولية**
+- [15.](https://opensource.com/article/18/1/step-step-guide-git) **Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**
+- [16.](https://kbroman.org/github_tutorial/pages/init.html) **الإسناد 3.0 لم يتم ترحيله (CC BY 3.0)**
+- [17.](https://opensource.com/article/18/2/how-clone-modify-add-delete-git-files) **Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**
+- [18.](https://thejunkland.com/blog/how-to-write-good-readme.html) **Creative Commons Attribution-NonCommercial 2.5 License**
+- [19.](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) **MIT**
+- [20.](https://commons.wikimedia.org/wiki/Taj_Mahal#/media/File:Taj_Mahal_in_March_2004.jpg) **رخصة GU Free Docuations**
+- [21.](https://juristr.com/blog/2013/04/git-explained/) **رخصة المشاع الإبداعي-المشاركة الدولية مثل 4.0**
+- [22.](http://simpleprimate.com/github-for-web-designers/glossary.html) **Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**
+- [23.](https://www.atlassian.com/git/tutorials/merging-vs-rebasing) **رخصة المشاع الإبداعي 2.5 أستراليا**
