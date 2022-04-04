@@ -1,64 +1,64 @@
-(خ ع - موارد
-# قائمة المراجعة والموارد
+crwdns844112:0crwdne844112:0
+# crwdns844114:0crwdne844114:0
 
-## Checklist
+## crwdns844116:0crwdne844116:0
 
-- لديك مشروع تتعاون معه على الأقل مع شخص واحد آخر
-- ضع المشروع على GitHub
-- جعل أعضاء المشروع يلتزمون بانتظام بعملهم في هذا المستودع المركزي
-- وينبغي أن يكون لهذا المشروع بعض الاختبارات على الأقل
-- كتابة ملف `ci.yml` التي:
-  - يجب أن يكون داخل `.github/workflow`
-  - حدد اسم حدث GitHub الذي يشغل سير العمل باستخدام مفتاح `` على YMAL.
-  - يحدد آلة مضيف محددة لتشغيل الوظيفة باستخدام `وظائف` و `قيد التشغيل`.
-  - يتضمن الرمز لتثبيت أي تبعيات مطلوبة لتشغيل المشروع في خطوة مسبقة_التثبيت
-  - يحتوي على برنامج نصي لتشغيل اختبارات المشروع
-- قم بإلزام ملف `ci.yml` بمستودع GitHub للمشروع
-- في كل مرة يتم دفع التزام جديد ، يقوم ترافيس بتشغيل الاختبارات وإرجاع النتائج. إذا كان هذا التقرير الذي يرتكب سبباً في فشل الاختبار/الاختبارات فعندئذ يجد المشكلة ويصلحها في أقرب وقت ممكن
+- crwdns844118:0crwdne844118:0
+- crwdns844120:0crwdne844120:0
+- crwdns844122:0crwdne844122:0
+- crwdns844124:0crwdne844124:0
+- crwdns844126:0crwdne844126:0
+  - crwdns844128:0crwdne844128:0
+  - crwdns844130:0crwdne844130:0
+  - crwdns844132:0crwdne844132:0
+  - crwdns844134:0crwdne844134:0
+  - crwdns844136:0crwdne844136:0
+- crwdns844138:0crwdne844138:0
+- crwdns844140:0crwdne844140:0 crwdns844142:0crwdne844142:0
 
-## ماذا نتعلم بعد ذلك
+## crwdns844144:0crwdne844144:0
 
-إذا لم تكن قد قرأت بالفعل الفصل الخاص بالاختبار، فمن المقترح القيام بذلك لمعرفة المزيد عن مختلف أنواع الاختبارات وفوائدها من أجل الاستفادة إلى أقصى حد ممكن من CI.
+crwdns844146:0crwdne844146:0
 
-## التعاريف/المسرد
+## crwdns844148:0crwdne844148:0
 
-**التكامل المستمر:** عملية الجمع المنتظم لعمل أعضاء المشروع في نسخة مركزية. يسمى أيضا CI. وعادة ما تجري برامجيات المعلومات والاتصالات اختبارات على النسخة المتكاملة من مشروع لتحديد أوجه التضارب والعيوب التي يسببها الدمج.
+crwdns844150:0crwdne844150:0 crwdns844152:0crwdne844152:0 crwdns844154:0crwdne844154:0
 
-**بناء:** مجموعة من الوظائف. فعلى سبيل المثال، قد يكون للبناء وظيفتان، يختبر كل منهما مشروعا له صيغة مختلفة من لغة البرمجة. سينتهي البناء عندما تنتهي جميع وظائفه.
+crwdns844156:0crwdne844156:0 crwdns844158:0crwdne844158:0 crwdns844160:0crwdne844160:0
 
-**البيئة الحسابية:** البيئة التي يتم فيها تشغيل المشروع، بما في ذلك نظام التشغيل، والبرمجيات المثبتة عليه، وإصدارات كليهما.
+crwdns844162:0crwdne844162:0
 
-**GitHub:** منصة تحكم إصدار مستخدمة على نطاق واسع.
+crwdns844164:0crwdne844164:0
 
-**إجراءات GitHub** هي خدمة CI/CD تعمل على مستودع GitHub .
+crwdns844166:0crwdne844166:0
 
-**سير العمل** هي ملفات YAML المخزنة في دليل _.github/workflows_ للمستودع.
+crwdns844168:0crwdne844168:0
 
-**الإجراء** هو حزمة يمكنك استيرادها واستخدامها في **سير العمل الخاص بك**. يوفر GitHub **[إجراءات السوق](https://github.com/marketplace?type=actions)** للعثور على إجراءات للاستخدام في سير العمل.
+crwdns844170:0crwdne844170:0 crwdns844172:0crwdne844172:0
 
-**الوظيفة** هي آلة افتراضية تدير سلسلة من **خطوات**. **الوظائف** متوازية بشكل افتراضي، ولكن **الخطوات** متسلسلة بشكل افتراضي.
+crwdns844174:0crwdne844174:0 crwdns844176:0crwdne844176:0
 
-## دروس عملية
+## crwdns844178:0crwdne844178:0
 
-- لجعلك تبدأ مع GitHub Actions, Padok يوفر [درسا عمليا](https://github.com/padok-team/github-actions-tutorial) حيث يمكنك بناء سير العمل الذي يختبر تلقائيا، يبني ويصدر وينشر خدمة صغيرة بسيطة.
-- يوفر مختبر تعليم GitHub أيضا دليلا تفاعليا لـ [مشاريع عملية لتعلم إجراءات GitHub](https://lab.github.com/githubtraining/github-actions:-continuous-integration).
+- crwdns844180:0crwdne844180:0
+- crwdns844182:0crwdne844182:0
 
-## المراجع
+## crwdns844184:0crwdne844184:0
 
-- [ما هو CI](https://github.com/travis-ci/docs-travis-ci-com/blob/master/user/for-beginners.md) **MIT**
-- [SSI blog](https://software.ac.uk/using-continuous-integration-build-and-test-your-software?_ga=2.231776223.1391442519.1547641475-1644026160.1541158284) **Creative Commons Attribution Non-Commercial 2.5 License**
-- [الفرق بين الدمج المستمر، النشر المستمر، والاستلام المستمر](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **المشاع الإبداعي-غير التجاري - المساهمة مثل 4.0 الترخيص الدولي.**
-- [CI مع python](https://docs.python-guide.org/scenarios/ci/) **لم يتم ترحيل الإسناد-غير تجاري-مشاركة 3.0**
-- [البدء مع أعمال GitHub : مفاهيم ودروس تعليمية](https://www.padok.fr/en/blog/github-actions)
-- [دروس CI/CD باستخدام إجراءات GitHub](https://dev.to/michaelcurrin/intro-tutorial-to-ci-cd-with-github-actions-2ba8)
-- [إنشاء إجراء حاوية Docker](https://docs.github.com/en/actions/creating-actions/creating-a-docker-container-action)
+- crwdns844186:0crwdne844186:0
+- crwdns844188:0crwdne844188:0
+- crwdns844190:0crwdne844190:0
+- crwdns844192:0crwdne844192:0
+- [crwdns844196:0crwdne844196:0](crwdns844194:0crwdne844194:0)
+- [crwdns844200:0crwdne844200:0](crwdns844198:0crwdne844198:0)
+- [crwdns844204:0crwdne844204:0](crwdns844202:0crwdne844202:0)
 
-### المواد المستخدمة: ما هي إجراءات Github وكيف تعمل ؟
+### crwdns844206:0crwdne844206:0
 
-- [ورقة إجراءات GitHub](https://resources.github.com/whitepapers/GitHub-Actions-Cheat-sheet/)
-- [مستندات GitHub : الإجراءات - المفاهيم الأساسية](https://docs.github.com/en/actions/getting-started-with-github-actions/core-concepts-for-github-actions)
-- [مستندات GitHub : الإجراءات - تكوين وإدارة سير العمل](https://docs.github.com/en/actions/configuring-and-managing-workflows)
+- [crwdns844210:0crwdne844210:0](crwdns844208:0crwdne844208:0)
+- [crwdns844214:0crwdne844214:0](crwdns844212:0crwdne844212:0)
+- [crwdns844218:0crwdne844218:0](crwdns844216:0crwdne844216:0)
 
-## الإشادة
+## crwdns844220:0crwdne844220:0
 
-شكرا لمجموعة ديفيد جونز من جامعة شيفيلد ريس، لمناقشاتها المفيدة.
+crwdns844222:0crwdne844222:0
