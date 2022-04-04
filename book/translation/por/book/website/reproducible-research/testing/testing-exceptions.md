@@ -169,4 +169,8 @@ Quadros de teste unitários para outras línguas também frequentemente fornecem
 - JUnit for Java: org.junit. Assert.assertEquals(double expected, double real delta)
 - teste para R:
   - expect_equal(atual, esperado, tolerance=DELTA) - erro absoluto dentro do DELTA
-  - expect_equal(real, esperada, scale=expected, tolerance=DELTA) - erro relativo dentro do DE T A
+  - expect_equal(real, esperado, scale=expected, tolerance=DELTA) - erro relativo dentro de DELTA
+- julia:
+  - `val1 ≈ val2`
+  - `isapprox(val1, val2, atol=abs_delta, rtol=rel_delta)`
+  - `Test.jl` com `├`: `@test val1 ├val2 atol=abs_delta rtol=rel_delta`
