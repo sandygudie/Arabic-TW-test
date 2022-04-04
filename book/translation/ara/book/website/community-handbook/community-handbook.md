@@ -1,59 +1,55 @@
-(ch)=
-# دليل المجتمع
+crwdns835624:0crwdne835624:0
+# crwdns835626:0crwdne835626:0
 
-***هذا دليل مجتمعي يناقش جوانب من مشروع "طريق الشحن" الذي يمكن استخدامه للمشاركة في هذا المجتمع.***
+***crwdns835628:0crwdne835628:0***
 
-_طريق التورين_ هو مشروع كتاب بقيادة المجتمع المحلي ويتضمن منظورات متنوعة للباحثين، • الممولون والمربون والمتعلمون ومختلف أصحاب المصلحة من جميع أنحاء العالم.
+crwdns835630:0crwdne835630:0
 
-ويهدف جزء دليل المجتمع المحلي من هذا الكتاب إلى تقديم معلومات عن المشروع، • طرق العمل، والجوانب الأخرى التي يمكن أن تجعل مشاركة المجتمع المحلي عادلة لأعضائنا.
+crwdns835632:0crwdne835632:0
 
-ونحن ممتنون بشكل لا يصدق لأفراد مجتمعنا المحلي الذين هم القراء والمؤلفون والمشاركون والمساهمون والمتعاونون والمقدمون والمساعدون والمؤيدون.
+crwdns835634:0crwdne835634:0
 
-شكرا لك على انضمامك إلى الرحلة الرائعة ل _طريق اللعنة_!
+crwdns835636:0crwdne835636:0
 
 ```{figure} ../figures/community.jpg
----
-الطول: 400px
-الاسم: المجتمع
-البديل : حديقة مليئة بالناس الذين يعملون في أجزاء مختلفة من الحديقة. شخص ما يرحب بالآخرين، شخص ما يدرس الأساسيات، شخص ما يكتب أفضل الممارسات، شخص ما يساعد هذا المجتمع على النمو.
----
-*مجتمع طريق التورين* الذي تم تصويره كحديقة. _توضيح مشروع طريق التورين_ من سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
+crwdns835638:0crwdne835638:0 crwdns835640:0crwdne835640:0
+crwdns835642:0crwdne835642:0 crwdns835644:0crwdne835644:0 crwdns835646:0crwdne835646:0 crwdns835648:0crwdne835648:0
 ```
 
-## سلسلة الكتب المتعلقة برخصة طريق اللمس
+## crwdns835650:0crwdne835650:0
 
-جميع المحتويات في سلسلة الكتب هذه مرخصة بموجب ترخيص [المشاع الإبداعي إسناد 4.0 الدولي (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.ast) (CC BY 4.0).
+crwdns835652:0crwdne835652:0
 
-يمكن الوصول إلى الملفات الأصلية عبر الإنترنت في مستودع GitHub [](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/website).
+crwdns835654:0crwdne835654:0
 
-## روابط مفيدة
+## crwdns835656:0crwdne835656:0
 
-قم بزيارة مستودع طرق GitHub في [https://github.com/alan-turing-institute/the-turing-way](https://github.com/alan-turing-institute/the-turing-way) لمعرفة ما نعمل عليه. ابدأ في المساهمة في الكتاب من خلال قراءة [إرشادات المساهمة](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) الخاصة بنا.
+crwdns835658:0crwdne835658:0 crwdns835660:0crwdne835660:0
 
-إذا كنت جديداً وترغب في التواصل معنا، انضم إلى قناتنا [Gitter](https://gitter.im/alan-turing-institute/the-turing-way). نحن أيضًا نستضيف نصف شهريًا [التعاون عبر الإنترنت](https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md) للتعايش عبر الإنترنت مع أعضاء مجتمعنا على الإنترنت. سيكون هذا هو المكان المناسب للحصول على الآراء من أعضاء المجتمع الآخرين وطلب تعليقاتهم ومراجعتهم لعملك.
+crwdns835662:0crwdne835662:0 crwdns835664:0crwdne835664:0 crwdns835666:0crwdne835666:0
 
-للحصول على أسئلة أو شواغل محددة، يمكنك الاتصال بمدير مجتمعنا **مالفيكا شارن** عن طريق البريد الإلكتروني [msharan@turing.ac.uk](mailto:msharan@turing.ac.uk). بدلاً من ذلك، يمكنك الاتصال بالمحقق الرئيسي **Kirstie Whitaker** عبر البريد الإلكتروني على [kwhitaker@turing.ac.uk](mailto:kwhitaker@turing.ac.uk).
+crwdns835668:0crwdne835668:0 crwdns835670:0crwdne835670:0
 
-لمواصلة التحديث مع أحداث مجتمعنا، اشترك في [_طريق التوفير_ التقويم](https://calendar.google.com/calendar?cid=dGhldHVyaW5nd2F5QGdtYWlsLmNvbQ). لتلقي الرسائل الإخبارية الشهرية، [انضم إلى قائمتنا البريدية](https://tinyletter.com/TuringWay)
+crwdns835672:0crwdne835672:0 crwdns835674:0crwdne835674:0
 
-نحن أيضًا على [تويتر](https://twitter.com/turingway)، تابعنا للتحديثات اليومية.
+crwdns835676:0crwdne835676:0
 
-### هل تذهب إلى أين تبدأ؟
+### crwdns835678:0crwdne835678:0
 
-وفيما يلي بعض الاقتراحات للحصول على مساهمات أولى جيدة:
+crwdns835680:0crwdne835680:0
 
-- إصلاح نموذج في [الكتاب](https://the-turing-way.netlify.com) و/أو [مستودع](https://github.com/alan-turing-institute/the-turing-way).
-- وضع علامة على المعلومات غير الواضحة أو المكررة في الكتاب عن طريق فتح مشكلة [على GitHub](https://github.com/alan-turing-institute/the-turing-way/issues).
-- إصلاح [مشكلة قديمة](https://github.com/alan-turing-institute/the-turing-way/issues) أو التعليق على [طلبات السحب](https://github.com/alan-turing-institute/the-turing-way/pulls).
-- اكتب تجربتك الشخصية في البحث القابل للتكاثر في شكل [جوجل](https://goo.gl/forms/akFqZEIy2kxAjfZW2).
-- انظر المزيد من المعلومات على GitHub: https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-cooperation-cafe.md
+- crwdns835682:0crwdne835682:0
+- crwdns835684:0crwdne835684:0
+- crwdns835686:0crwdne835686:0
+- crwdns835688:0crwdne835688:0
+- crwdns835690:0crwdne835690:0
 
-## نقاط الاتصال عبر تورينج
+## crwdns835692:0crwdne835692:0
 
-المحقق الرئيسي في هذا المشروع هو [الدكتور كيرستي ويتكر](https://whitakerlab.github.io/about). تقود برنامج بحوث الأدوات والممارسات والنظم في [معهد آلان تورينغ](http://turing.ac.uk).
+crwdns835694:0crwdne835694:0 crwdns835696:0crwdne835696:0
 
-مدير المجتمع هو [مالفيكا شارن](https://about.me/malvikasharan). هي مشارك بحثي في [معهد آلان تورينغ](http://turing.ac.uk).
+crwdns835698:0crwdne835698:0 crwdns835700:0crwdne835700:0
 
-يمكنك الاتصال بهم على قناة المجتمع Gitter [https://gitter.im/alan-turing-institute/the-turing-way](https://gitter.im/alan-turing-institute/the-turing-way). يمكنك كتابة بريد إلكتروني إلى مالفيكا شارن لأي سؤال عن طريق استخدام البريد الإلكتروني المجتمعي [theturingway@gmail. م](mailto:theturingway@gmail.com) أو اتصل بها مباشرة عن طريق البريد الإلكتروني [msharan@turing.ac.uk](mailto:msharan@turing.ac.uk). في حالة رغبتك في الوصول مباشرة إلى Kirstie، يرجى مراسلتها على [kwhitaker@turing.ac.uk](mailto:kwhitaker@turing.ac.uk).
+crwdns835702:0crwdne835702:0 crwdns835704:0crwdne835704:0 crwdns835706:0crwdne835706:0
 
-للحصول على تفاصيل الاتصال للاستفسارات والإبلاغ المتعلقة بمدونة قواعد السلوك. يرجى الاطلاع على {ref}`ملف مدونة قواعد السلوك <ch-coc>` في هذا الدليل المجتمعي.
+crwdns835708:0{ref}crwdne835708:0
