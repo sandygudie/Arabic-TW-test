@@ -1,63 +1,68 @@
-crwdns796042:0crwdne796042:0
-# crwdns796044:0crwdne796044:0
+(ch-bookdash)=
+# _طريق التدوين_ اشارات الكتاب
 
-crwdns796046:0crwdne796046:0 crwdns796048:0crwdne796048:0
+_الطريق الوشيك_ [أحداث الكتاب](https://the-turing-way.netlify.app/community-handbook/bookdash.html) هي نسخة أقل كثافة من [سباقات الكتاب](https://en.wikipedia.org/wiki/Book_sprint), حيث يعمل المشاركون بشكل تعاوني على _الطريق الوشيك_ كتاب متزامنة لتطوير فصول جديدة ومراجعة/تحرير الفصول الموجودة لجعلها أكثر سهولة الوصول، شاملة ومستكملة. كما أنها تسهم في تعزيز المشروع بتحسين الطرق التي نعمل بها في المجتمع المحلي ونأخذ زمام المبادرة في إنجاز مختلف المهام أو المشاريع الفرعية.
 
-crwdns796050:0crwdne796050:0 crwdns796052:0crwdne796052:0 crwdns796054:0crwdne796054:0 crwdns796056:0crwdne796056:0 crwdns796058:0crwdne796058:0
+في الماضي، قمنا بتنظيم أحداث كتاب باش لمدة 1-2 يوم، شخصيا أو في شكل هجيني، حيث قام أحد المشاركين بالتنسيق مع فريقهم عن بعد. غير أنه لضمان تكافؤ الفرص للمشاركين الدوليين للانضمام إلى الأنشطة التي تستضيفها شخصياً أثناء انتشار وباء COVID-19 والتصدي لها، بدأنا باستضافة علامات الكتاب بشكل افتراضي. هذه المقالات الافتراضية للكتاب مدتها خمسة أيام، مصممة للمشاركة المرنة من جانب الأعضاء في مختلف المناطق الزمنية. ويمكن للمشاركين أن يختاروا كل يوم دورة عمل مشتركة قصيرة مدتها 2.5 ساعة أو أكثر بناء على توافرها، بدلا من أن يلتزموا طوال يوم عملهم. In the future, we will co-design hybrid events with "online-first" approach for the Book Dash attendees who will have the opportunity to organise small local meet-ups for collaboration and social events.
 
 ```{figure} ../figures/first-pull-request.png
-crwdns796060:0crwdne796060:0
-crwdns796062:0crwdne796062:0 crwdns796064:0crwdne796064:0 crwdns796066:0crwdne796066:0
+---
+الطول: 400px
+الاسم: book-dash
+بديل : شخص يساعد شخص آخر في تقديم طلب السحب الأول على GitHub
+---
+تقديم طلب السحب الأول على GitHub.
+_توضيح مشروع طريق التورين_ من سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
 ```
 
-## crwdns796068:0crwdne796068:0
+## الدعوة إلى مساهمات مختلفة
 
-crwdns796070:0crwdne796070:0
-- crwdns796072:0crwdne796072:0 crwdns796074:0{ref}crwdne796074:0
-- crwdns796076:0crwdne796076:0 crwdns796078:0crwdne796078:0
+للمشاركين الذين يحضرون لوحة الكتب عن بعد:
+- First time Book Dash attendees who have previously interacted with the project or community who send in their application describing where/how in the project and community they would like to contribute. See the {ref}`eligibility<ch-bookdash-eligibility>` section for details.
+- Previous Book Dash attendees to express their interest to participate again as a contributors, members of planning committee and/or mentors. Book Dash mentors facilitating other attendees' contributions in one or multiple of the contribution sessions based on their interest and availability.
 
-crwdns796080:0crwdne796080:0 crwdns796082:0crwdne796082:0
+كدليل موجه للمجتمع المحلي، _طريق الترقيق_ يهدف إلى الاشتراك في إنشاء محتويات تكون مفهومة ومفيدة لمجتمع أوسع من علماء البيانات والباحثين. ومن ثم، _طريق التوريق_ يرحب على وجه التحديد بالمساهمين من مختلف المجالات، الهويات، وخلفيات يمكن أن تقترح أفكاراً وتعمل على جوانب جديدة من فصل قائم أو أن تنشئ فصولاً جديدة في دليله.
 
-crwdns796084:0crwdne796084:0 crwdns796086:0crwdne796086:0
+وتدار جميع المساهمات من خلال GitHub. بما أن العديد من المشاركين في كتاب داش الكتاب هم أعضاء جدد في المجتمع، وكثيراً ما يكونون مستخدمين جدد لشركة GitHub، أعضاء الفريق يتأكدون من أنهم يستغرقون وقتاً لتقديم المشروع ويدرسون التعاون من خلال GitHub قبل كتاب Dash.
 
-crwdns796088:0crwdne796088:0
+وتشمل المهارات والمساهمات التي ندعوها في كتاب Dash، على سبيل المثال لا الحصر، ما يلي:
 
-- crwdns796090:0crwdne796090:0
-- crwdns796092:0crwdne796092:0
-- crwdns796094:0crwdne796094:0
-- crwdns796096:0crwdne796096:0
-- crwdns796098:0crwdne796098:0
-- crwdns796100:0crwdne796100:0
-- crwdns796102:0crwdne796102:0
-- crwdns796104:0crwdne796104:0
-- crwdns796106:0crwdne796106:0
-- crwdns796108:0crwdne796108:0
-- crwdns796110:0crwdne796110:0
+- ويقدم الدعم المالي لجميع المشاركين الذين يحتاجون إلى السفر إلى مكان الحدث لتغطية تكاليف سفرهم، • بناء القدرات في مجال رعاية الأطفال والمصروفات ذات الصلة مثل رعاية الأطفال أو المتطلبات الخاصة المتعلقة بإمكانية الوصول.
+- في الماضي، بسبب نموذج التمويل لـ _طريق التوريق_، كان علينا أن نقصر اختيارنا على المساهمين داخل البلدان الأوروبية.
+- تحرير المحتوى الحالي ومراجعته.
+- • الأدوات والأساليب التقنية في مجال علوم البيانات.
+- الاهتمام بإنشاء محتوى بشأن بناء المجتمع المحلي والتعاون.
+- • تطوير موارد التعلم والمحتوى القابل لإعادة الاستخدام بشأن الأخلاقيات والمعلومات.
+- المهارات الفنية للرسوم التوضيحية، ورسائل الرسم، والرسوم البيانية.
+- تعزيز جوانب الكتاب على الإنترنت (على سبيل المثال، CSS والتخطيط، والتفاعل، والتكامل المستمر).
+- • تحسين إمكانية الوصول إلى المحتوى وتقاسم مبادئ تيسير الوصول في مجال علم البيانات.
+- مهارات تصوير البيانات وأفضل الممارسات.
+- مهارات سرد القصص التي يمكن أن تساعد على جعل محتوانا أكثر انخراطا.
 
-crwdns796112:0crwdne796112:0
-## crwdns796114:0crwdne796114:0
+(ch-bookdash-eligibility)=
+## من يجب أن يتقدم بالطلب للانضمام إلى دفتر الكتاب
 
-crwdns796116:0crwdne796116:0 crwdns796118:0crwdne796118:0 crwdns796120:0crwdne796120:0
+نريد أن ندعم المشاركين في الاستفادة إلى أقصى حد من أحداث داش الكتاب هذه. ولذلك، نشجع الطلبات المقدمة من أعضاء مجتمعنا، بما في ذلك المساهمون الجدد والقائمون على حد سواء. نريد أن يعرف مقدمو الطلبات عن _طريق التوريق_، كيف نعمل بشكل تعاوني ولدينا فكرة جيدة عن كيفية إسهامهم في مواردنا.
 
-crwdns796122:0crwdne796122:0 crwdns796124:0crwdne796124:0 crwdns796126:0crwdne796126:0 crwdns796128:0crwdne796128:0
+This does not mean that you must have contributed to the project before - it is more about having used the project and/or interacted with our community in some way, such as during a community event or via our GitHub repository. Some familiarity with the project and how we work in the community will help our participants collaborate during the Book Dash more easily, even if this is with the support of more experienced community members. وإذا كنت قد سبق أن ساهمت في مشروع تعاوني أو كان لديكم اقتراح محدد للمساهمة فيهم، فإنك مشجَّع بشدة على تقديم الطلب. يمكنك الاتصال بأحد المساهمين الأساسيين الذين يمكنهم مساعدتك في تشكيل فكرتك عن طريق تحديد أين وكيف يتناسبون مع الرؤية الأكبر للمشروع.
 
-crwdns796130:0{ref}crwdnd796130:0{ref}crwdne796130:0 crwdns796132:0crwdne796132:0
+إذا لم تكن قد تفاعلت مع مجتمعنا من قبل، ولكن تريد المشاركة في داش الكتاب، يرجى الانضمام إلى أحد أحداث مجتمعنا مثل [جلسات العمل المشتركة](https://the-turing-way.netlify.app/community-handbook/coworking/coworking-weekly.html) أو [مقهى التعاون](https://the-turing-way.netlify.app/community-handbook/coworking/coworking-collabcafe.html#ch-coworking-collabcafe). بهذه الطريقة، ستحصل على معرفة عن مشروعنا وتفهم المزيد عن كيفية المساهمة خلال لوحة كتاب.
 
-## crwdns796134:0crwdne796134:0
+## دعم المشاركة الشخصية والهجينة والبعيدة
 
-crwdns796136:0crwdne796136:0
+وقد تم تنظيم نشرات كتابية سابقة للمشاركة الشخصية في أماكن تقع في المملكة المتحدة (البلد الأصلي للمشروع)، كأحداث هجينة، أو على الإنترنت كلياً.
 
-**crwdns796138:0crwdne796138:0**
-* crwdns796140:0crwdne796140:0
-* crwdns796142:0crwdne796142:0
+**بالنسبة للمشاركين الذين يحضرون نشرة الكتاب شخصياً:**
+* All the participants who need to travel to the event's venue are offered financial support to cover their travel, accommodation, and related expense such as childcare or special accessibility requirements.
+* In the past, due to the funding model of _The Turing Way_, we had to limit our selection to the contributors within European countries.
 
-**crwdns796144:0crwdne796144:0**
-* crwdns796146:0crwdne796146:0 crwdns796148:0crwdne796148:0 crwdns796150:0crwdne796150:0
-* crwdns796152:0crwdne796152:0 crwdns796154:0crwdne796154:0 crwdns796156:0crwdne796156:0
-* crwdns796158:0crwdne796158:0
+**For participants attending a Book Dash remotely:**
+* وقد قمنا بتجربة المشاركة الهجينة (البعيدة الجزئية) حيث قام أحد المشاركين بالتنسيق مع فريقهم عن بعد. واستناداً إلى نجاح هذا الشكل المختلط والطلب الإضافي على المزيد من المشاركة عن بُعد، لقد شهدنا حدثين افتراضيين لم يشتركا في السفر. وفي المستقبل، ونهدف إلى تجريب شكل محاور متعددة تسمح لمجموعات صغيرة متعددة في جميع أنحاء العالم بأن تجتمع شخصيا بينما تعمل بالتزامن مع مساهمين دوليين آخرين عن بعد.
+* ويتاح الدعم المالي لدعم احتياجات المشاركين من إمكانية الوصول عن بعد في نشرات الكتاب الهجينة والنائية تماما. وهي تشمل (دون أن تقتصر على) الوصول المؤقت إلى شبكة الإنترنت العالية السرعة، ومنحة رعاية الطفل، والنشر الحي أثناء الحدث. وهذه المنح متاحة أيضا لاستئجار أو شراء معدات صغيرة مثل سماعات الرأس أو كاميرا الويب لتعزيز الخبرة العامة للمشاركين.
+* كما أن هناك دعماً مالياً لتكاليف المعيشة مثل شراء الوجبات الغذائية أو العلاج للمناسبات الاجتماعية على شبكة الإنترنت خلال كتاب Dash.
 
-## crwdns796160:0crwdne796160:0
+## المزيد من الموارد على دفتر الكتاب
 
-crwdns796162:0{ref}crwdnd796162:0{ref}crwdnd796162:0{ref}crwdne796162:0
+في هذا الفصل، نناقش تطبيق {ref}`<ch-bookdash-application>`، {ref}`التحضير للحدث واختيار المشاركين<ch-bookdash-preparation>` و {ref}`التحضير للحدث<ch-bookdash-events>` عمليات.
 
-crwdns796164:0{ref}crwdne796164:0
+يتم توفير جميع القوالب المرتبطة بتجزئة الكتب في {ref}`مجموعة قالب المجتمع<ch-templates>`.
