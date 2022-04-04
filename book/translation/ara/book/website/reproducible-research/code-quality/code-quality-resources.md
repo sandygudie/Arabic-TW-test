@@ -1,30 +1,30 @@
-# crwdns805830:0crwdne805830:0
+# توصيات القائمة المرجعية والقراءة
 
-## crwdns805832:0crwdne805832:0
+## Checklist
 
-### crwdns805834:0crwdne805834:0
+### للتنسيق التلقائي للكود
 
-- crwdns805836:0crwdne805836:0
-- crwdns805838:0crwdne805838:0
-- crwdns805840:0crwdne805840:0
+- [ ] اكتب رمز التطوير الخاص بك في محرر النصوص المفضل لديك.
+- [ ] تمكين التنسيق التلقائي في المحرر الخاص بك عن طريق تغيير التفضيلات/الإعدادات.
+- [ ] اكتب `Ctrl + s` (windows, linux) أو `<unk> + s` (mac) لحفظ العمل لتنسيق التعليمة البرمجية.
 
-### crwdns805842:0crwdne805842:0
+### لتحليل الكود الثابت
 
-- crwdns805844:0crwdne805844:0
-- crwdns805846:0crwdne805846:0
-- crwdns805848:0{ref}crwdne805848:0
+- [ ] قم ببناء المشروع لتمكين `شتاء` لتحديد الأخطاء/التحذيرات في الكود (إن وجدت).
+- [ ] إجراء التغييرات ذات الصلة وتكرار الخطوة المذكورة أعلاه.
+- [ ] {ref}`التزم ودفع<rr-vcs-git-commit>` بالتغييرات إلى **Github/GitLab/BitBucket** لتشغيل اختبارات ما قبل النشر.
 
-## crwdns805850:0crwdne805850:0
+## مزيد من القراءة
 
-- [crwdns805854:0crwdne805854:0](crwdns805852:0crwdne805852:0)
-- [crwdns805858:0crwdne805858:0](crwdns805856:0crwdne805856:0)
-- [crwdns805862:0crwdne805862:0](crwdns805860:0crwdne805860:0)
-- [crwdns805866:0crwdne805866:0](crwdns805864:0crwdne805864:0)
-- [crwdns805870:0crwdne805870:0](crwdns805868:0crwdne805868:0)
+- [مقالة من جامعة فرايبورغ](https://swt.informatik.uni-freiburg.de/service/coding-conventions)
+- [اتفاقيات الترميز - ويكيبيديا](https://en.wikipedia.org/wiki/Coding_conventions)
+- [قائمة شاملة بأدوات تحليل التعليمات البرمجية الثابتة - ويكيبيديا](https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis)
+- [تجميع ممتاز للمبادئ التوجيهية لتحليل التعليمات البرمجية - OWASP](https://owasp.org/www-community/controls/Static_Code_Analysis)
+- [دليل ECMA الدولي ES6](http://www.ecma-international.org/ecma-262/6.0/)
 
-## crwdns805872:0crwdne805872:0
+## المراجع الخاصة بهذا الفصل
 
-- [crwdns805876:0crwdne805876:0](crwdns805874:0crwdne805874:0)
-- [crwdns805880:0crwdne805880:0](crwdns805878:0crwdne805878:0)
-- [crwdns805884:0crwdne805884:0](crwdns805882:0crwdne805882:0)
-- [crwdns805888:0crwdne805888:0](crwdns805886:0crwdne805886:0)
+- [دليل تحليل الأدوات الثابتة](https://en.wikipedia.org/wiki/Static_program_analysis)
+- [روابط المفاتيح في VSCode](https://code.visualstudio.com/docs/getstarted/keybindings)
+- [Dev.لتدوين حول تخصيص محرر النص](https://dev.to/josuerodriguez98/my-vs-code-customization-i4o)
+- [دليل تكوين المحرر](https://editorconfig.org/)
