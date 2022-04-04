@@ -1,23 +1,26 @@
-crwdns843270:0crwdne843270:0
-# crwdns843272:0crwdne843272:0
+(r-binderhub)=
+# بيندرهوب
 
-## crwdns843274:0crwdne843274:0
+## الشروط الأولية/مستوى المهارة الموصى بها
 
-| crwdns843276:0crwdne843276:0      | crwdns843278:0crwdne843278:0 |
-| --------------------------------- | ---------------------------- |
-| crwdns843280:0{ref}crwdne843280:0 | crwdns843282:0crwdne843282:0 |
-| crwdns843284:0{ref}crwdne843284:0 | crwdns843286:0crwdne843286:0 |
+| الشروط المسبقة                            | الأهمية |
+| ----------------------------------------- | ------- |
+| {ref}`التحكم في الإصدار<rr-vcs>`    | مهم جدا |
+| {ref}`بيئات قابلة للتكرار<rr-renv>` | مهم جدا |
 
-crwdns843288:0crwdne843288:0 crwdns843290:0crwdne843290:0
+سيناقش هذا الفصل [BinderHub](https://binderhub.readthedocs.io/en/latest/index.html)، وهو مسحوق تكنولوجيا السحابة [Binder](https://mybinder.readthedocs.io/en/latest/). سوف نغطي التكنولوجيات والأدوات التي يستخدمها BinderHub والموارد التي ستحتاج إليها لإعداد BinderHub.
 
-crwdns843292:0crwdne843292:0 crwdns843294:0crwdne843294:0
+ويستهدف هذا الفصل في المقام الأول مهندسي البرمجيات البحثية وخدمات تكنولوجيا المعلومات الذين يرغبون في توفير BinderHub كخدمة لمجموعة من الباحثين. على الرغم من أن أي شخص يمكنه بناء BinderHub.
 
 ```{figure} ../figures/binderhub.jpg
-crwdns843296:0crwdne843296:0
-crwdns843298:0crwdne843298:0
-crwdns843300:0crwdne843300:0 crwdns843302:0crwdne843302:0 crwdns843304:0crwdne843304:0
+---
+الاسم: Binderhub
+البديل : تمثيل بنية BinderHub التي تشمل GitHub, repo2docker, docker, jupyterhub والشحن للعملاء في الشركة.
+---
+توضيح عن هندسة BinderHub المعمارية.
+_توضيح مشروع طريق التورين_ من سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DO: 10.5281/zenodo.3332807.
 ```
 
-## crwdns843306:0crwdne843306:0
+## الدافع
 
-crwdns843308:0crwdne843308:0 crwdns843310:0crwdne843310:0
+ستعطيك قراءة هذا الفصل صورة أوضح لكيفية خدمات Binder (مثل [mybinder. rg](https://mybinder.org)) تعمل التكنولوجيات التي تعمل على تشغيل BinderHub وكيف تتفاعل فيما بينها. ويغطي هذا الفصل أيضاً الأسباب التي تجعلك تبني BinderHub، بدلاً من استخدام الخدمة العامة في mybinder.org.
