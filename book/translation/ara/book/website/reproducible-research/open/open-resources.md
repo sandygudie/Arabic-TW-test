@@ -1,76 +1,76 @@
-(ص - موارد مفتوحة)=
-# الموارد
+crwdns847756:0crwdne847756:0
+# crwdns847758:0crwdne847758:0
 
-(ص-مفتوح-قائمة مرجعية بالموارد المفتوحة)=
-## Checklist
+crwdns847760:0crwdne847760:0
+## crwdns847762:0crwdne847762:0
 
-## برمجيات المصدر المفتوح
+## crwdns847764:0crwdne847764:0
 
-- ضع التعليمات البرمجية الخاصة بك في مستودع يمكن الوصول إليه بحرية.
-- قم بتضمين الترخيص الذي يمنح الآخرين الحق في استخدام العمل ونسخه وتعديله. يمكنك استخدام قسم {ref}`تراخيص البرنامج<rr-licensing-software>`لمساعدتك على اختيار الترخيص الأنسب لمشروعك.
-- قم بتضمين ملف قراءة يحتوي على معلومات مفيدة حول مشروع مثل ماهيه، وكيفية استخدامه/تثبيته وكيفية تشغيل أي اختبارات.
-- إذا كنت تريد أن يتعاون الآخرون في المشروع فيتضمن المبادئ التوجيهية للمساهمة.
+- crwdns847766:0crwdne847766:0
+- crwdns847768:0crwdne847768:0 crwdns847770:0{ref}crwdne847770:0
+- crwdns847772:0crwdne847772:0
+- crwdns847774:0crwdne847774:0
 
-## فتح الأجهزة
+## crwdns847776:0crwdne847776:0
 
-- استخدام الأجهزة المفتوحة حيثما كان ذلك عملياً.
-- اصنع وثائق وتصاميم مفصلة لأي أجهزة تقوم بتطويرها بشكل مفتوح.
-- قم بتضمين الترخيص الذي يمنح الآخرين الحق في استخدام العمل ونسخه وتعديله. يمكنك استخدام [هذا](https://choosealicense.com/) الموقع لمساعدتك في اختيار الترخيص الأنسب لمشروعك.
-- قم بإدراج ملف جديد يحتوي على معلومات مفيدة عن المشروع (على سبيل المثال، ما هو والمواد المستخدمة).
+- crwdns847778:0crwdne847778:0
+- crwdns847780:0crwdne847780:0
+- crwdns847782:0crwdne847782:0 crwdns847784:0crwdne847784:0
+- crwdns847786:0crwdne847786:0
 
-## فتح الوصول
+## crwdns847788:0crwdne847788:0
 
-- نشر بحثك في مجلة مفتوحة الوصول.
-- قم بتخزين نسخة و/أو نسخة مسبقة من عملك في مستودع عام يمكن الوصول إليه مجانا.
+- crwdns847790:0crwdne847790:0
+- crwdns847792:0crwdne847792:0
 
-## فتح الدفاتر
+## crwdns847794:0crwdne847794:0
 
-- احتفظ بملاحظات في مختبر الكتروني.
-- اجعل دفتر الملاحظات الخاص بك متاحة للجمهور عبر الإنترنت.
+- crwdns847796:0crwdne847796:0
+- crwdns847798:0crwdne847798:0
 
-(r-open-resources-learn)=
-## ماذا نتعلم التالي
+crwdns847800:0crwdne847800:0
+## crwdns847802:0crwdne847802:0
 
-إذا لم يكن لديك فرصة مسبقاً، ألقي نظرة على الفصل على {ref}`rr-vcs`، ولا سيما الفروع المتعلقة بـ GitHub في النصف الأخير.
+crwdns847804:0{ref}crwdne847804:0
 
-[هذا الكتاب](http://book.openingscience.org.s3-website-eu-west-1.amazonaws.com/) عن العلوم المفتوحة يحتوي على قدر كبير من المعلومات المثيرة للاهتمام. للحصول على معلومات محددة لبرمجيات المصدر المفتوح، [هذا](https://opensource.guide/) هو مكان جيد للنظر إليه. للحصول على مزيد من المعلومات عن DOIs و الاستشهاد بالموارد انظر [هنا](http://www.doi.org/index.html).
+crwdns847806:0crwdne847806:0 crwdns847808:0crwdne847808:0 crwdns847810:0crwdne847810:0
 
-إذا كنت ترغب في إلقاء نظرة على مشروع نشط مفتوح المصدر، هذا الكتاب المدرسي *هو* واحد. يمكن العثور على المصدر على GitHub [هنا](https://github.com/alan-turing-institute/the-turing-way)، ولمزيد من التفاصيل ذات الصلة بهذا المشروع، يمكنك إلقاء نظرة على المشروع [موقع الويب](https://www.turing.ac.uk/research/research-projects/turing-way-handbook-reproducible-data-science).
+crwdns847812:0crwdne847812:0 crwdns847814:0crwdne847814:0
 
-(r-open-resources-المرجعيات)=
-## المراجع
+crwdns847816:0crwdne847816:0
+## crwdns847818:0crwdne847818:0
 
-- [1.](https://www.fosteropenscience.eu/node/1420) **CC-BY 4.0**
-- [2.](https://open-science-training-handbook.gitbook.io/book/introduction) **CC 1.0**
-- [3.](https://www.fosteropenscience.eu/content/introduction-open-science-funders-introductory) **الإسناد + غير تجاري - CC-BY-NC**
-- [4.](https://link.springer.com/chapter/10.1007/978-3-319-00026-8_2) **رخصة المشاع الإبداعي غير التجارية غير مرخصة**
-- [5.](https://elifesciences.org/articles/16800) **إسناد 4.0 دولي (CC BY 4.0)**
-- [6.](https://www.fosteropenscience.eu/content/introduction-open-science-funders-introductory) **الإسناد + غير تجاري - CC-BY-NC**
-- [7.](http://book.openingscience.org.s3-website-eu-west-1.amazonaws.com/vision/open_research_data.html) **المشاع الإبداعي إسناد - غير تجاري**
-- [8.](http://opendatahandbook.org/guide/en/what-is-open-data/) **ترخيص CC Attribution 4.0 الدولي**
-- [9.](https://opendatacharter.net/) **رخصة المشاع الإبداعي نسبة 4.0 الدولية**
-- [10.](http://book.openingscience.org.s3-website-eu-west-1.amazonaws.com/cases_recipes_howtos/making_data_citeable.html) **المشاع الإبداعي-غير تجاري**
-- [11.](http://book.openingscience.org.s3-website-eu-west-1.amazonaws.com/cases_recipes_howtos/challenges_of_open_data_in_medical_research.html) **المشاع الإبداعي إسناد - غير تجاري**
-- [12.](http://www.dcc.ac.uk/resources/how-guides/cite-datasets) **المشاع الإبداعي**
-- [13.](https://www.open-contracting.org/2016/09/19/diving-deeper-commercial-confidentiality/) **رخصة المشاع الإبداعي نسبة 4.0 الدولية**
-- [14.](https://ben.balter.com/2015/11/23/why-open-source/) **CC BY 3.0**
-- [15.](https://opensource.guide/starting-a-project/) **(CC BY 4.0)**
-- [16.](https://opensource.guide/) **(CC BY 4.0)**
-- [17.](https://opensource.com/resources/what-open-access) **إسناد الأسهم 4.0 دولية**
-- [18](http://www.righttoresearch.org/learn/whyOA/index.shtml) **رخصة المشاع الإبداعي 3.0**
-- [19.](https://open-science-training-handbook.gitbook.io/book/open-science-basics/open-access-to-published-research-results) **CC0 1.0 Universal**
-- [20.](https://www.oercommons.org/about) **رخصة المشاع الإبداعي-غير تجاري-المساهمة مثل 3.0**
-- [21.](https://libguides.ioe.ac.uk/oer)  **المشاع الإبداعي-NonCommercial-ShareAlike 2.0 UK: England & Wales (CC BY-NC-SA 2.0 UK)**
-- [22.](https://opencontent.org/blog/archives/3221) **ترخيص المشاع الإبداعي للإسناد الإصدار 4.0**
-- [23.](https://opensource.com/resources/what-open-hardware) **CC BY-SA 4.0**
-- [24.](https://opensource.com/article/17/8/enterprise-open-source-advantages) **CC BY-SA 4.0**
-- [25.](https://www.oshwa.org/sharing-best-practices/) **الترخيص الدولي للمشاع الإبداعي - المساهمة مثل 4.0**
-- [26.](https://openlabnotebooks.org/open-science-at-sgc/) **CC BY 4.0**
-- [27.](http://onsnetwork.org/) **الإسناد 3.0 لم يتم ترحيله (CC BY 3.0)**
-- [28.](https://libraries.mit.edu/data-management/store/electronic-lab-notebooks/) **CC BY-NC 2.0**
-- [29.](https://www.citizenscience.org/) **(CC BY 4.0)**
+- crwdns847820:0crwdne847820:0
+- crwdns847822:0crwdne847822:0
+- crwdns847824:0crwdne847824:0
+- crwdns847826:0crwdne847826:0
+- crwdns847828:0crwdne847828:0
+- crwdns847830:0crwdne847830:0
+- crwdns847832:0crwdne847832:0
+- crwdns847834:0crwdne847834:0
+- crwdns847836:0crwdne847836:0
+- crwdns847838:0crwdne847838:0
+- crwdns847840:0crwdne847840:0
+- crwdns847842:0crwdne847842:0
+- crwdns847844:0crwdne847844:0
+- crwdns847846:0crwdne847846:0
+- crwdns847848:0crwdne847848:0
+- crwdns847850:0crwdne847850:0
+- crwdns847852:0crwdne847852:0
+- crwdns847854:0crwdne847854:0
+- crwdns847856:0crwdne847856:0
+- crwdns847858:0crwdne847858:0
+- crwdns847860:0crwdne847860:0
+- crwdns847862:0crwdne847862:0
+- crwdns847864:0crwdne847864:0
+- crwdns847866:0crwdne847866:0
+- crwdns847868:0crwdne847868:0
+- crwdns847870:0crwdne847870:0
+- crwdns847872:0crwdne847872:0
+- crwdns847874:0crwdne847874:0
+- crwdns847876:0crwdne847876:0
 
-(r-open-resources-حواشي) =
-## الحواشي
+crwdns847878:0crwdne847878:0
+## crwdns847880:0crwdne847880:0
 
-1. المراجع حسب التخصص: دراسات زراعية (كوشا وعبدلي، 2010)؛ الفيزياء/علم الفلك (Gentil-Beccot et al. 2010؛ هارند وبرودي، 2004؛ ميتكالفي، 2006)؛ الطب (شاو وآخرون، 2005؛ شو وآخرون. 2011)؛ علوم الحاسوب (Lawrence، 2001)؛ علم الاجتماع/العلوم الاجتماعية (Hajjem et al. 2006؛ ونوريس وآخرون، 2008؛ وشو وآخرون، 2011)؛ وعلم النفس (حاجيم وآخرون، 2006)؛ والعلوم السياسية (حاجيم وآخرون، 2006). 2006؛ أنتلمان، 2004؛ أتشسون وبول، 2015)؛ الإدارة (حاجيم وآخرون. 2006)؛ القانون (Donovan et al., 2015; Hajem et al., 2006); Economics (Hajem et al. 2006؛ وماكابي وسنايدر، 2015؛ ونوريس وآخرون، 2008؛ ووهلرابي، 2014)؛ والرياضيات (أنتلمان، 2004؛ ودافيس وفرورث، 2007؛ ونوريس وآخرون. 2008)؛ الصحة (حاجيم وآخرون، 2006)؛ الهندسة (أنتلمان، 2004؛ كولر - بوفه وآخرون، 2014)؛ الفلسفة (أنتلمان، 2004)؛ التعليم (حاجيم وآخرون). 2006؛ زاواكي - ريتشتر وآخرون، 2010)؛ الأعمال التجارية (حاجيم وآخرون. 2006؛ ماكابي وسنايدر، 2015)؛ دراسات في مجال الاتصالات (زانغ، 2006)؛ الإيكولوجيا (McCabe and Snyder, 2014؛ Norris et al. 2008)؛ بيولوجيا (فرانسن، 2009ب؛ حاجيم وآخرون، 2006؛ ماكابي وسنايدر، 2014).
+1. crwdns847882:0crwdne847882:0
