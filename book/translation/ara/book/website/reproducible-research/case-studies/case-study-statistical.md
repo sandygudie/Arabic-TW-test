@@ -1,110 +1,98 @@
-(rr-cs-statistical-methods-manuscript)=
-# مخطوطة الأساليب الإحصائية
+crwdns805022:0crwdne805022:0
+# crwdns805024:0crwdne805024:0
 
-## حول هذه الدراسة الإفرادية
+## crwdns805026:0crwdne805026:0
 
-الغرض من دراسة الحالة هذه هو مناقشة المكونات المختلفة لـ إمكانية الاستنساخ البحثي المنفذة في تصميم وإجراء دراسة إحصائية. بالاستعانة بمخططهم، يقدم المؤلفون كتالوج من الأساليب المستخدمة في بحوثهم وإرسالها إلى الأقسام التي نوقشت في هذا {ref}`rr`.
+crwdns805028:0crwdne805028:0 crwdns805030:0{ref}crwdne805030:0
 
-## حول المخطوطة
+## crwdns805032:0crwdne805032:0
 
-- **العنوان:** استعراض المنظورات البيزية بشأن اشتقاق حجم العينة لمحاكمات مؤكدة{cite:ps}`Kunzmann20CS`.
-- **المؤلفون:** كيفن كونزمان، مايكل ج. غرالنغ، كيم ماي لي، دافيد س. روبرتسون، كاسبار روفيباخ، جيمس م. س. وسبون وسبون
-- **شهر النشر & سنة**: يونيو 2020
+- crwdns805034:0{cite:ps}crwdne805034:0
+- crwdns805036:0crwdne805036:0 crwdns805038:0crwdne805038:0
+- crwdns805040:0crwdne805040:0
 
-### نظرة عامة
+### crwdns805042:0crwdne805042:0
 
-إن المخطوطة {cite:ps}`Kunzmann20CS` نفسها مهتمة بمشكلة استنباط حجم عينة مناسب للتجربة السريرية. هذه مشكلة كلاسيكية في الإحصاءات، وهي مهمة بشكل خاص في الإحصاءات الطبية حيث أن جمع بيانات التجربة مكلف للغاية و يجب معالجة الاعتبارات الأخلاقية. يستعرض المخطوطة ويوسع الطرق لدمج عدم التيقن من التخطيط بشكل منهجي في اشتقاق حجم العينة.
+crwdns805044:0{cite:ps}crwdne805044:0 crwdns805046:0crwdne805046:0 crwdns805048:0crwdne805048:0
 
-### ملخص الاقتباس
+### crwdns805050:0crwdne805050:0
 
-ويمكن الاستشهاد بالمخطوطات في شكل نص بسيط:
+crwdns805052:0crwdne805052:0
 
-> () Kunzmann, K., Grayling, M. J., Lee, K. M., Robertson, D. S., Rufibach, K., & Wason, J. (2020). استعراض المنظورات البيزية بشأن اشتقاق حجم العينات من أجل التجارب المؤكدة. arXiv preprint arXiv:2006.15715.
+> crwdns805054:0crwdne805054:0 crwdns805056:0crwdne805056:0 crwdns805058:0crwdne805058:0
 
-تنسيق BibTeX:
+crwdns805060:0crwdne805060:0
 
 ```
-@article{
-    kunzmann2020,
-      العنوان = {A review of Bayesian perspectives on sample size derivation for confirmatory trials},
-     المؤلف = {كونزمان، وكيفن وغرالنغ، ومايكل ياء، ولي، كيم ماي وروبرتسون، ديفيد س وروفيباخ، كاسبار وواسون، جيمس]،
-    مجلة = {arXiv preprint arXiv:2006.15715}،
-       سنة = {2020}
-}
+crwdns805062:0{A review of Bayesian perspectives on sample size derivation for confirmatory trials}crwdnd805062:0{arXiv preprint arXiv:2006.15715}crwdnd805062:0{2020}crwdne805062:0
 ```
 
-## كتالوج من طرق مختلفة للبحث القابل للاستنساخ
+## crwdns805064:0crwdne805064:0
 
-### التحكم في الإصدار
+### crwdns805066:0crwdne805066:0
 
-يحتوي مستودع git [https://github.com/kkmann/sample-size-calculation-undercertain](https://github.com/kkmann/sample-size-calculation-under-uncertainty) على جميع التعليمات البرمجية المطلوبة لإنتاج المخطوطة [arXiv:2006.15715](https://arxiv.org/abs/2006.15715) من الصفر. للحصول على تفسير متعمق لأهمية التحكم في الإصدار من أجل البحث القابل للتكرار، انظر {ref}`أنظمة تحكم الإصدار<rr-vcs>`.
-
-
-### إدارة بيانات البحوث
-
-وفي هذه الحالة بالذات،
-{ref}`إدارة البيانات <rr-rdm>` الجوانب ليست مشكلة لأن المخطوطة تعتمد حصرا على أمثلة افتراضية و لا خارجية، البيانات المحمية مطلوبة.
+crwdns805068:0crwdne805068:0 crwdns805070:0{ref}crwdne805070:0
 
 
-#### برمجة محو الأمية
+### crwdns805072:0crwdne805072:0
 
-المخطوطة {cite:ps}`Kunzmann20CS` نفسها مكتوبة ومبنية مع [LaTeX](https://www.latex-project.org/). الملفات المصدر موجودة في المجلد الفرعي `latex/`. تم تفضيل ملفات Plain TeX على حلول البرمجة المألوفة مثل [knitr](https://github.com/rstudio/rmarkdown) لـ [R](https://www.r-project.org/) لتسهيل استخدام محرري LaTeX المخصصين مثل [Overleaf](https://www.overleaf.com/project). غير أن هذا يعني أن جميع الأرقام المستخدمة في المخطوطة تحتاج إلى أن يتم إنشاؤها بشكل منفصل. تم توفير [مذكرة المشتري المخصصة](https://jupyter.org/) `ملاحظات / أرقام - مقابل مانسسكريب.ipynb` التي تجمع بين الكود و أوصاف بدائية .
-
-
-### بيئة البرامجيات القابلة للاستنساخ
-
-على الرغم من أن هذا يعني أن جميع التعليمات البرمجية المطلوبة لتجميع المخطوطة من الصفر متوفرة في بيئة قائمة بذاتها. وهو ليس كافياً بعد لضمان إمكانية التكرار. تثبيت LaTeX, Jbuyter, و R بنفس المواصفات المطلوبة لتشغيل جميع التعليمات البرمجية يمكن أن يكون تحديا للمستخدمين الأقل خبرة. لتجنب هذا من إبقاء القراء المهتمين من تجربة البرمجة، مجموعة من حزمة بايثون [repo2docker](https://github.com/jupyter/repo2docker) و [BinderHub](https://mybinder.org/) خدمة استضافة مجانية. للحصول على تفاصيل عن هذه التقنيات، انظر فصلي {ref}`Binder<binder>` و {ref}`BinderHub<rr-binderhub>`. هذا يسمح للأفراد المهتمين ببدء إصدار تفاعلي من مستودع مع جميع البرامج المطلوبة مثبتة مسبقاً - في الإصدارات الصحيحة تمامًا تمامًا! لاحظ أنه من الممكن توفير *نسخة مستقرة* روابط ثنائية
-
-[![شارة](https://img.shields.io/badge/Jupyter%20lab-0.2.1-579ACA.svg?logo=data:image/png;base64,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)](https://mybinder.org/v2/gh/kkmann/sample-size-calculation-under-uncertainty/0.2.1?urlpath=lab/tree/notebooks/figures-for-manuscript.ipynb) [![شارة](https://img.shields.io/badge/Shiny-0.2.1-579ACA.svg?logo=data:image/png;base64,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)](https://mybinder.org/v2/gh/kkmann/sample-size-calculation-under-uncertainty/0.2.1?urlpath=shiny/apps/sample-size-calculation-under-uncertainty/)
-
-تشير هذه الشارة إلى حالة المستودع في وقت معين (من خلال ميزة وسم git ). هذا يعني أن الروابط ستظل صالحة ولم تتغير حتى لو كان هناك تصويبات لاحقة لمحتوى المستودع! Binder يدعم واجهات مستخدم متعددة. يتم استخدام هذا لتزويد مختبر المشتري و عرض بيئة التنمية المتكاملة على المستودع لاستكشاف الملف، دفتر ملاحظات المشتري، أو لفتح قذيفة لـ أوامر أخرى. الشارة الثانية تفتح بشكل مباشر تطبيق شيني تفاعلي يوضح بعض النقاط التي نوقشت في المخطوطة ولا تتطلب أي معرفة بالبرمجة على الإطلاق. جميع الإعدادات ذات الصلة لـ Binder موجودة في المجلد الفرعي `.binder`.
+crwdns805074:0{ref}crwdne805074:0
 
 
-### إدارة سير العمل باستخدام Snakemake
+#### crwdns805076:0crwdne805076:0
 
-بما أن JupyterLab يسمح أيضا بفتح قذيفة في مثيل المستودع المفتوح باستخدام وصلة بيندر، يمكن استخدام ميزة أخرى للمستودع لاستنساخ *المخطوطة بأكملها من الصفر*. تم استخدام مدير سير العمل في بايثون [Snakemake](https://snakemake.readthedocs.io/en/stable/) لتحديد جميع الخطوات المطلوبة في `Snakefile`. لتنفيذ سير العمل هذا، يمكنك فتح قذيفة في الإصدار [عبر الإنترنت من JupyterHub](https://mybinder.org/v2/gh/kkmann/sample-size-calculation-under-uncertainty/0.2.1?urlpath=shiny/apps/sample-size-calculation-under-uncertainty/). بمجرد الانتهاء من تحميل واجهة المستخدم، افتح محطة طرفية جديدة ونوع جديد
+crwdns805078:0{cite:ps}crwdne805078:0 crwdns805080:0crwdne805080:0 crwdns805082:0crwdne805082:0 crwdns805084:0crwdne805084:0 crwdns805086:0crwdne805086:0
+
+
+### crwdns805088:0crwdne805088:0
+
+crwdns805090:0crwdne805090:0 crwdns805092:0crwdne805092:0 crwdns805094:0crwdne805094:0 crwdns805096:0{ref}crwdnd805096:0{ref}crwdne805096:0 crwdns805098:0crwdne805098:0 crwdns805100:0crwdne805100:0
+
+[![crwdns805106:0crwdne805106:0](crwdns805104:0%20lacrwdne805104:0)](crwdns805102:0crwdne805102:0) [![crwdns805112:0crwdne805112:0](crwdns805110:0crwdne805110:0)](crwdns805108:0crwdne805108:0)
+
+crwdns805114:0crwdne805114:0 crwdns805116:0crwdne805116:0 crwdns805118:0crwdne805118:0 crwdns805120:0crwdne805120:0 crwdns805122:0crwdne805122:0 crwdns805124:0crwdne805124:0
+
+
+### crwdns805126:0crwdne805126:0
+
+crwdns805128:0crwdne805128:0 crwdns805130:0crwdne805130:0 crwdns805132:0crwdne805132:0 crwdns805134:0crwdne805134:0
 ```
-Snakemake -F --النواة 1 مخطوطة
+crwdns805136:0crwdne805136:0
 ```
-وهذا سينفذ جميع الخطوات المطلوبة تباعا:
+crwdns805138:0crwdne805138:0
 
-1. إنشاء جميع قطع الأرض عن طريق تنفيذ ملف دفتر ملاحظات المشتري
-2. compiling the actual `latex/main.pdf` file from the LaTeX sources
+1. crwdns805140:0crwdne805140:0
+2. crwdns805142:0crwdne805142:0
 
-يجب أن تشاهد بعد ذلك ملف `main.pdf` في `latex` مجلد فرعي.
+crwdns805144:0crwdne805144:0
 
 
-### دعم المكانة المحلية لبيئة البرمجيات
+### crwdns805146:0crwdne805146:0
 
-يمكن أيضا استخدام حزمة Python repo2docker محليا لإعادة إنتاج نفس بيئة الحوسبة. لهذا الغرض، ستحتاج إلى تثبيت Python و Docker. للحصول على تفاصيل عن تقنيات Docker والحاويات بشكل عام، يرجى الاطلاع على الفصل الخاص بـ {ref}`البيئات والأوعية القابلة للاستنساخ<rr-renv-containers>`. ثم ببساطة استنساخ المستودع على جهازك المحلي باستخدام الأوامر
+crwdns805148:0crwdne805148:0 crwdns805150:0crwdne805150:0 crwdns805152:0{ref}crwdne805152:0 crwdns805154:0crwdne805154:0
 ```
-git نسخة git@github.com:kkmann/sample-size-calculation-underuncertainty.git
-cd sample-size-calculation-underuncertainty
+crwdns805156:0crwdne805156:0
 ```
-بعد استنساخ المستودع، يمكنك بناء وتشغيل حاوية Docker محليا باستخدام ملفات التكوين المقدمة في `. مجلد iner/` باستخدام الأمر التالي
+crwdns805158:0crwdne805158:0
 ```
-jupyter-repo2docker -E .
+crwdns805160:0crwdne805160:0
 ```
-تبدأ الحاوية تلقائياً بعد اكتمال البناء ويمكنك استخدام واجهة المشتري المعتادة في متصفحك باتباع الرابط المطبوع بواسطة repo2docker لاستكشاف المستودع محلياً.
+crwdns805162:0crwdne805162:0
 
 
-### استخدام التكامل المستمر
+### crwdns805164:0crwdne805164:0
 
-على الرغم من أنه ليس ضروريا لقابلية هذا المخطوط، المستودع يستخدم أيضا التكامل المستمر ({ref}`CI <rr-ci>`) باستخدام [إجراءات GitHub](https://github.com/features/actions). يتم توفير عمليات GitHub مباشرة من GitHub (أنظر `rr-ci-github-actions`).
+crwdns805166:0{ref}crwdne805166:0 crwdns805168:0crwdne805168:0
 
-يحدد المستودع سير العمل في دليل `.github/workflow`. الأول ، [`.github/workflows/build_and_run.
-هذا يبني الحاوية، يدفعها إلى مستودع حاويات عمومية <a href="https://hub.docker.com/repository/docker/kkmann/sample-size-calculation-under-uncertainty">مركز دوكر</a>، ثم تتحقق من أن سير عمل Snakemake يمر دون مشاكل.
-The second one, <a href="https://github.com/kkmann/sample-size-calculation-under-uncertainty/blob/master/.github/workflows/run.yml"><code>.github/workflows/run.yml`](https://github.com/kkmann/sample-size-calculation-under-uncertainty/blob/master/.github/workflows/build_and_run.yml), runs when the folder `.binder` was not changed and uses the pre-built Docker container to run the Snakemake workflow. يحفظ الأخير الكثير من وقت الحوسبة لأن بيئة الحوسبة سوف تتغير بشكل أقل بكثير من محتويات المستودع. وبالتالي فإن استخدام CI ييسر التحقق من المساهمات عن طريق طلبات السحب للحصول على السلامة التقنية ويتيح أحدث نسخة من الحاوية المطلوبة للتحميل المباشر. هذا يعني أنه بدلاً من بناء الحاوية محلياً باستخدام repo2docker يمكنك فقط تنزيلها مباشرة وتنفيذ سير العمل باستخدام الأوامر التالية
+crwdns805170:0crwdne805170:0 crwdns805172:0crwdne805172:0 crwdns805174:0crwdne805174:0 crwdns805176:0crwdne805176:0 crwdns805178:0crwdne805178:0 crwdns805180:0crwdne805180:0 crwdns805182:0crwdne805182:0
 ```
-docker run-d --name mycontainer kmann/sample-size الحساب-ناقص عدم اليقين
-docker exec --name mycontainer /
-    snakemake -F --الأساسية1 مخطوطة
+crwdns805184:0crwdne805184:0
 ```
 
-### الأرشيف على المدى الطويل والقابلية للتناسب
+### crwdns805186:0crwdne805186:0
 
-مستودع GitHub مرتبط أيضًا بـ [zenodo.org](https://zenodo.org/) لضمان الأرشيف طويل الأجل، انظر {ref}`cm-citable-cite-softw`
+crwdns805188:0{ref}crwdne805188:0
 
-[![ديوي](https://zenodo.org/badge/DOI/10.5281/zenodo.3899943.svg)](https://doi.org/10.5281/zenodo.3899943)
+[![crwdns805194:0crwdne805194:0](crwdns805192:0crwdne805192:0)](crwdns805190:0crwdne805190:0)
 
-لاحظ أنه يمكن أيضًا استخدام DOI المقدم من Zenodo مع BinderHub لتشغيل نسخة احتياطية من مستودع لقطة على Zenodo في بيئة تفاعلية ([انظر مشاركة المدونة](https://blog.jupyter.org/binder-with-zenodo-af68ed6648a6)).
+crwdns805196:0crwdne805196:0
