@@ -1,0 +1,88 @@
+crwdns847096:0crwdne847096:0
+# crwdns847098:0crwdne847098:0
+
+crwdns847100:0crwdne847100:0
+## crwdns847102:0crwdne847102:0
+
+crwdns847104:0crwdne847104:0 crwdns847106:0crwdne847106:0 crwdns847108:0crwdne847108:0
+
+crwdns847110:0crwdne847110:0 crwdns847112:0{term}crwdne847112:0 crwdns847114:0crwdne847114:0
+> crwdns847116:0crwdne847116:0
+
+crwdns847118:0{cite}crwdnd847118:0{cite}crwdne847118:0
+
+crwdns847120:0crwdne847120:0
+## crwdns847122:0crwdne847122:0
+
+crwdns847124:0crwdne847124:0
+
+crwdns847126:0crwdne847126:0 crwdns847128:0crwdne847128:0
+
+crwdns847130:0crwdne847130:0
+### crwdns847132:0crwdne847132:0
+
+crwdns847134:0{term}crwdne847134:0 crwdns847136:0crwdne847136:0 crwdns847138:0crwdne847138:0 crwdns847140:0crwdne847140:0 crwdns847142:0{cite}crwdne847142:0 crwdns847144:0crwdne847144:0
+
+crwdns847146:0crwdne847146:0
+### crwdns847148:0crwdne847148:0
+
+crwdns847150:0crwdne847150:0 crwdns847152:0crwdne847152:0
+
+crwdns847154:0crwdne847154:0 crwdns847156:0crwdne847156:0
+
+crwdns847158:0crwdne847158:0
+#### crwdns847160:0crwdne847160:0
+
+crwdns847162:0crwdne847162:0 crwdns847164:0crwdne847164:0 crwdns847166:0crwdne847166:0
+
+crwdns847168:0crwdne847168:0 crwdns847170:0crwdne847170:0 crwdns847172:0crwdne847172:0
+
+crwdns847174:0crwdne847174:0 crwdns847176:0crwdne847176:0 crwdns847178:0crwdne847178:0
+
+crwdns847180:0crwdne847180:0 crwdns847182:0crwdne847182:0 crwdns847184:0crwdne847184:0
+
+crwdns847186:0crwdne847186:0
+### crwdns847188:0crwdne847188:0
+
+crwdns847190:0crwdne847190:0 crwdns847192:0{term}crwdne847192:0 crwdns847194:0crwdne847194:0
+
+crwdns847196:0crwdne847196:0 crwdns847198:0crwdne847198:0
+
+crwdns847200:0crwdne847200:0 crwdns847202:0crwdne847202:0 crwdns847204:0crwdne847204:0
+
+crwdns847206:0crwdne847206:0 crwdns847208:0crwdne847208:0 crwdns847210:0crwdne847210:0 crwdns847212:0crwdne847212:0 crwdns847214:0crwdne847214:0
+
+crwdns847216:0crwdne847216:0 crwdns847218:0crwdne847218:0
+
+crwdns847220:0crwdne847220:0 crwdns847222:0crwdne847222:0 crwdns847224:0crwdne847224:0 crwdns847226:0crwdne847226:0 crwdns847228:0crwdne847228:0
+
+crwdns847230:0crwdne847230:0 crwdns847232:0crwdne847232:0 crwdns847234:0crwdne847234:0 crwdns847236:0crwdne847236:0
+
+```{figure} ../../figures/routes-to-OA.jpg
+crwdns847238:0crwdne847238:0 crwdns847240:0crwdne847240:0 crwdns847242:0crwdne847242:0
+crwdns847244:0crwdne847244:0
+crwdns847246:0crwdne847246:0 crwdns847248:0crwdne847248:0 crwdns847250:0crwdne847250:0 crwdns847252:0crwdne847252:0
+```
+
+crwdns847254:0crwdne847254:0
+## crwdns847256:0crwdne847256:0
+
+crwdns847258:0crwdne847258:0 crwdns847260:0crwdne847260:0 crwdns847262:0crwdne847262:0 crwdns847264:0crwdne847264:0
+
+crwdns847266:0crwdne847266:0 crwdns847268:0crwdne847268:0 crwdns847270:0{cite}crwdne847270:0
+
+```{figure} ../../figures/share-work-openly.jpg
+crwdns847272:0crwdne847272:0
+crwdns847274:0crwdne847274:0 crwdns847276:0crwdne847276:0 crwdns847278:0crwdne847278:0 crwdns847280:0crwdne847280:0
+```
+
+crwdns847282:0crwdne847282:0
+## crwdns847284:0crwdne847284:0
+
+crwdns847286:0crwdne847286:0 crwdns847288:0crwdne847288:0 crwdns847290:0crwdne847290:0
+
+crwdns847292:0crwdne847292:0 crwdns847294:0{cite}crwdne847294:0
+
+crwdns847296:0crwdne847296:0
+
+crwdns847298:0crwdne847298:0 crwdns847300:0crwdne847300:0 crwdns847302:0crwdne847302:0 crwdns847304:0crwdne847304:0 crwdns847306:0crwdne847306:0
