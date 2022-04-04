@@ -1,37 +1,37 @@
-﻿(بآلاف دولارات الولايات المتحدة)
-# الموارد
-للحصول على موارد إضافية مثل مقاطع فيديو و أوراق مرجعية حول قابلية الاستنساخ، اطلع على {ref}` نظرة عامة-لمصادر-مقروءة ` و {ref}` نظرة عامة على اقسام-اضافة مادة `.
+﻿crwdns848924:0crwdne848924:0
+# crwdns848926:0crwdne848926:0
+crwdns848928:0{ref}crwdnd848928:0{ref}crwdne848928:0
 
-(r-Overview-resources-learn)=
-## ماذا نتعلم التالي؟
-{ref}`فتح` سيكون فصل جيد للقراءة التالية. إذا كنت ترغب في بدء تعلم ممارسات عملية، نوصي بقراءة {ref}`rr-vcs` الفصل التالي.
+crwdns848930:0crwdne848930:0
+## crwdns848932:0crwdne848932:0
+crwdns848934:0{ref}crwdne848934:0 crwdns848936:0{ref}crwdne848936:0
 
-(ص - نظرة عامة-موارد-قراءة)=
-## المزيد من القراءة
+crwdns848938:0crwdne848938:0
+## crwdns848940:0crwdne848940:0
 
-* Baker, M. (2016). 1500 عالم يرفعون الكذبة على قابلية الاستنساخ. الطبيعة، 533(7604)، 452–454. https://doi.org/10.1038/533452a
+* crwdns848942:0crwdne848942:0 crwdns848944:0crwdne848944:0 crwdns848946:0crwdne848946:0 crwdns848948:0crwdne848948:0
 
-* باربا، ل. (2017): المنهج الدراسي للتناثر، جماعة باربا. مشاركة الرسم. ورقة. https://doi.org/10.6084/m9.figshare.4879928.v1
+* crwdns848950:0crwdne848950:0 crwdns848952:0crwdne848952:0 crwdns848954:0crwdne848954:0 crwdns848956:0crwdne848956:0
 
-* Piwowar, H. A., & Vision, T. J. (2013). إعادة استخدام البيانات وميزة الاستشهاد بالبيانات المفتوحة. PeerJ, 1, e175. https://doi.org/10.7717/peerj.175
+* crwdns848958:0crwdne848958:0 crwdns848960:0crwdne848960:0 crwdns848962:0crwdne848962:0 crwdns848964:0crwdne848964:0 crwdns848966:0crwdne848966:0
 
-* وايتاكر، كيرستي (2018): الحواجز أمام إجراء البحوث القابلة للتكرير (وكيفية التغلب عليها). مشاركة الرسم. ورقة. https://doi.org/10.6084/m9.figshare.7140050.v2
+* crwdns848968:0crwdne848968:0 crwdns848970:0crwdne848970:0 crwdns848972:0crwdne848972:0 crwdns848974:0crwdne848974:0
 
-(ص - نظرة عامة-موارد-إضافية)=
-## مواد إضافية
+crwdns848976:0crwdne848976:0
+## crwdns848978:0crwdne848978:0
 
-### روابط مفيدة
+### crwdns848980:0crwdne848980:0
 
-#### **Reproducibility**
+#### **crwdns848982:0crwdne848982:0**
 
-* Markowetz, F. (2018). 5 أسباب أنانية للعمل بشكل متكرر. الشرائح المتاحة على https://osf.io/a8wq4/. التسجيل من حديث على TU TU في 2019. [https://youtu.be/yVT07Sukv9Q](https://youtu.be/yVT07Sukv9Q).
+* crwdns848984:0crwdne848984:0 crwdns848986:0crwdne848986:0 crwdns848988:0crwdne848988:0 crwdns848990:0crwdne848990:0 crwdns848992:0crwdne848992:0
 
-* Leipzig, J (2020). بحث رائع Aesome Reproducible Research: قائمة منقوصة من دراسات الحالات الإفرادية القابلة للاسترجاع، والمشاريع، والدورات التعليمية، ووسائط الإعلام. Github repo. البحث https://github.com/leipzig/awesome-reproducible-Research
+* crwdns848994:0crwdne848994:0 crwdns848996:0crwdne848996:0 crwdns848998:0crwdne848998:0 crwdns849000:0crwdne849000:0
 
-#### **علم البيانات**
+#### **crwdns849002:0crwdne849002:0**
 
-* _علم البيانات: دليل للمجتمع_. طلب أدلة. (2019). تم استرجاعه في 26 تشرين الأول/أكتوبر 2021 من https://askforevidence.org/articles/data-science-a-guide-for-Society
+* crwdns849004:0crwdne849004:0 crwdns849006:0crwdne849006:0 crwdns849008:0crwdne849008:0 crwdns849010:0crwdne849010:0
 
-* رايلي، إ. (2019). دليل علوم البيانات للمجتمع. لندن؛ senseaboutscience.org.
+* crwdns849012:0crwdne849012:0 crwdns849014:0crwdne849014:0 crwdns849016:0crwdne849016:0
 
-* معهد البيانات المفتوحة. (2019). _معرفة & رأي_. 1 - ديو. تم استرجاعه في 26 أكتوبر 2021 من https://theodi.org/article/data-ethics-canvas.
+* crwdns849018:0crwdne849018:0 crwdns849020:0crwdne849020:0 crwdns849022:0crwdne849022:0 crwdns849024:0crwdne849024:0 crwdns849026:0crwdne849026:0
