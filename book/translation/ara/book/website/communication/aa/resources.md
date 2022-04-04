@@ -1,16 +1,16 @@
-(الاتصالات-آنا - الموارد)=
-# الموارد:
-* مجلة الخبراء الأمريكية [أخلاقيات مؤلف المخطوط](https://www.aje.com/en/arc/ethics-manuscript-authorship/e) بما في ذلك رابط للورقة البيضاء - الائتمان الذي يستحق الائتمان.
+crwdns791498:0crwdne791498:0
+# crwdns791500:0crwdne791500:0
+* crwdns791502:0crwdne791502:0
 
-* [المبادئ التوجيهية للمؤلفين في الرابطة الاجتماعية البريطانية](https://www.britsoc.co.uk/publications/guidelines-reports/authorship-guidelines.aspx)
+* [crwdns791506:0crwdne791506:0](crwdns791504:0crwdne791504:0)
 
-* [موقع لجنة أخلاقيات النشر على شبكة الإنترنت](https://publicationethics.org/).
+* crwdns791508:0crwdne791508:0
 
-* [كيفية التعامل مع منازعات المؤلف: دليل للباحثين الجدد](https://publicationethics.org/files/2003pdf12_0.pdf).
+* crwdns791510:0crwdne791510:0
 
-* [تصنيف CRediT](https://casrai.org/credit/)
+* [crwdns791514:0crwdne791514:0](crwdns791512:0crwdne791512:0)
 
-* [كلية لندن للاقتصاد تأثير مدونة العلوم الاجتماعية على تصنيف CRediT](https://blogs.lse.ac.uk/impactofsocialsciences/2020/01/20/credit-check-should-we-welcome-tools-to-differentiate-the-contributions-made-to-academic-papers/)
+* [crwdns791518:0crwdne791518:0](crwdns791516:0crwdne791516:0)
 
 
 
