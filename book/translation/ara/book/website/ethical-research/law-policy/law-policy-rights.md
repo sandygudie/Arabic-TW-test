@@ -26,7 +26,7 @@ There are also regional human rights instruments:
 - [African Charter on Human and People's Rights](https://au.int/en/treaties/african-charter-human-and-peoples-rights), which covers 54 of the 55 members of the [African Union](https://au.int/en/member_states/countryprofiles2).
 - [American Convention on Human Rights](http://cidh.oas.org/Basicos/English/Basic3.American%20Convention.htm), which covers 23 of the 35 members of the [Organization of American States](http://www.oas.org/en/about/member_states.asp).
 - [European Convention on Human Rights](https://www.coe.int/en/web/conventions/full-list/-/conventions/treaty/005), which covers the 47 members of the [Council of Europe](https://www.coe.int/en/web/about-us/our-member-states).
-- [ميثاق الحقوق الأساسية للاتحاد الأوروبي](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:12012P/TXT)، الذي يشمل الأعضاء الـ 27 في الاتحاد الأوروبي
+- [Charter of Fundamental Rights of the European Union](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:12012P/TXT), which covers the 27 members of the [European Union](https://europa.eu/european-union/about-eu/countries_en)
 
 Some countries have ratified some of the treaties that apply to them: this means that they have incorporated the content of the the treaties into their national law. Many countries also have a national human rights institution, which independently monitors and investigates human rights violations in that country, and advises the government on implementing their obligations.
 
@@ -34,7 +34,7 @@ Countries that have signed treaties have committed to implementing them. However
 
 ## How do human rights apply to data science and research ethics?
 
-Human rights are defined in law. This means in many ways they are less malleable than ethics. إن رسالة حقوق الإنسان وطرق تنفيذها متفق عليها دولياً، انتهاك حقوق الإنسان هو انتهاك أينما حدث. This is not necessarily true of codes of ethics. An action that one group of people sees as ethical, may be seen as unethical by others. There is a wider shared understanding of what human rights means across different countries, cultures and groups of people. There are accountability and enforcement mechanisms. But because they are a legal framework, they are not as easily accessible, and hard to apply to the daily work of data science and research.
+Human rights are defined in law. This means in many ways they are less malleable than ethics. The letter of human rights, and the ways that they are implemented, are agreed internationally, A violation of human rights is a violation wherever it happens. This is not necessarily true of codes of ethics. An action that one group of people sees as ethical, may be seen as unethical by others. There is a wider shared understanding of what human rights means across different countries, cultures and groups of people. There are accountability and enforcement mechanisms. But because they are a legal framework, they are not as easily accessible, and hard to apply to the daily work of data science and research.
 
 Human rights treaties are signed by countries: that means that ultimately, it is countries that are held responsible for violations of human rights. However, that does not mean that researchers and data scientists are exempt from thinking about the human rights impact of their work!
 
