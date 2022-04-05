@@ -17,7 +17,7 @@ En otras palabras, la academia premia en gran medida la creación del conocimien
 name: research-application-managers
 alt: Una ilustración que representa a los animales como los administradores de aplicaciones de investigación que se conectan con los usuarios, la aplicación de la investigación en el mundo real y la facilitación de procesos innovadores en la infraestructura de investigación.
 ---
-Los Administradores de Aplicaciones de Investigación trabajan con el equipo de investigación para incrustar las salidas en las organizaciones de usuarios. _La Comunidad Camino Turbo_ & Scriberia. (2020, noviembre). Illustrations from the Turing Way book dashes. Zenodo. http://doi.org/10.5281/zenodo.4323154
+Los Administradores de Aplicaciones de Investigación trabajan con el equipo de investigación para incrustar las salidas en las organizaciones de usuarios. _La Comunidad Camino Turbo_ & Scriberia. (2020, November). Illustrations from the Turing Way book dashes. Zenodo. http://doi.org/10.5281/zenodo.4323154
 ```
 
 
