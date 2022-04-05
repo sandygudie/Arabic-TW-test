@@ -1,7 +1,7 @@
 (rr-rdm-spreadsheets)=
 # Data Organisation in Spreadsheets
 
-Spreadsheets, such as Microsoft Excel files, google sheets, and their Open Source alternative [(for instance) LibreOffice](https://www.libreoffice.org), are commonly used to collect, store, manipulate, analyse, and share research data. Spreadsheets are convenient and easy-to-use tools for organising information into an easy to write and easy to read forms for humans. However, one should use them with caution, as the use of an inappropriate spreadsheet is a major cause of mistakes in the data analysis workflow. 有一个 [恐怖故事](http://www.eusprig.org/horror-stories.htm) 集，它说明由于电子表格的意外行为或错误的 编辑过程，使用电子表格如何能够破坏基于分析的研究。 Some of these mishaps are not unique to spreadsheets, but many, such as [this](https://doi.org/10.1186/s13059-016-1044-7) and [this](https://doi.org/10.1186/1471-2105-5-80), are.
+Spreadsheets, such as Microsoft Excel files, google sheets, and their Open Source alternative [(for instance) LibreOffice](https://www.libreoffice.org), are commonly used to collect, store, manipulate, analyse, and share research data. Spreadsheets are convenient and easy-to-use tools for organising information into an easy to write and easy to read forms for humans. However, one should use them with caution, as the use of an inappropriate spreadsheet is a major cause of mistakes in the data analysis workflow. There is a collection of [horror-stories](http://www.eusprig.org/horror-stories.htm) that tells how the use of spreadsheets can ruin analysis-based studies due to unexpected behaviour of the spreadsheet or error-prone editing processes. Some of these mishaps are not unique to spreadsheets, but many, such as [this](https://doi.org/10.1186/s13059-016-1044-7) and [this](https://doi.org/10.1186/1471-2105-5-80), are.
 
 Fortunately, most problems can be avoided with the following recommendations:
 - Use spreadsheet in a text-only format (.csv or .tsv),
@@ -12,7 +12,7 @@ Fortunately, most problems can be avoided with the following recommendations:
 Spreadsheets are a powerful tool only if the dataset is collected and organised in specific formats that are usable for both the computers and researchers.
 
 (rr-rdm-spreadsheets-nondata)=
-## 1. 1. 避免非数据内容
+## 1. Avoid Non-Data Content
 
 Spreadsheets are used for organising data in a tabular form. The subject, the object and the relationship between them are transformed into rows, cells and columns, respectively. For example, the subject: `experiment`, relationship: `was performed on the date`, and the object: `2020-06-06` gives one row for each experiment, one column for `date of experiment`, and the value `2020-06-06` in the cell. Unfortunately, spreadsheet programs allow you to add other kinds of contents to this, like color to specific cells. While it may help the researchers at some point, one needs to remember that this kind of **cell modification should not be considered as data**, primarily because they cannot be exported to other software.
 
@@ -30,13 +30,13 @@ In addition to the visual feedback, you can now also use this information to fil
 
 ```
 (rr-rdm-spreadsheets-format)=
-## 2. 2. Streadsheets Tidy 格式
+## 2. Tidy Format For Spreadsheets
 
 If the spreadsheet is poorly organised, then it may be [difficult for collaborators](https://luisdva.github.io/pls-don't-do-this/) to easily {ref}`read-in and re-use <rr-rdm-fair>` your data for further analysis.
 
-Indeed, a large part of the work of data scientists is to transform the data into a form that the computer can read. 当信息分成几个电子表格和在获得数据之前没有具体的数据转换计划时，这种情况耗费了大量时间。
+Indeed, a large part of the work of data scientists is to transform the data into a form that the computer can read. However, this is incredibly time-consuming when the information is split between several spreadsheets and when there are no concrete data transformation plans before the data is acquired.
 
-简化数据使用的规则非常简单，这些规则涉及 [**tidy data**](https://en.wikipedia.org/w/index.php?title=Tidy_data&oldid=962241815) tidy数据格式允许在电子表格软件中易于过滤和排序数据。 The tidy data format allows for filtering and sorting data easily in spreadsheet software.
+There are very simple rules to facilitate data use, which go into the concept of [**tidy data**](https://en.wikipedia.org/w/index.php?title=Tidy_data&oldid=962241815). The tidy data format allows for filtering and sorting data easily in spreadsheet software.
 
 In short:
 
@@ -62,10 +62,10 @@ Three rules make a dataset tidy:
 There are data validation tools available, like https://goodtables.io, that allow you to automatically check whether your spreadsheets are tidy.
 
 (rr-rdm-spreadsheets-consistent)=
-## 3. 3. 一致值
+## 3. Consistent Values
 
 When you work with several spreadsheets or with a team during data collection, it is crucial to make sure the same information will be entered with the same term, and that the same term always conveys the same information. In the example of iris data, if some people use different terms to record information for a specific column - such as naming the column `species` instead of `Species` or using `iris setosa`, `set.` or `i.setosa` instead of `setosa` - the creation of a reproducible workflow will be more difficult, and errors may even be overlooked.  
-Discrepancies often lead to errors, especially when the same terms could mean different things depending on who is entering the data. For example, indicating date as `02-03` will mean February the 3<sup>rd</sup> in the USA, but March the 2<sup>nd</sup> in Europe. For example, indicating date as `02-03` will mean February the 3<sup>rd</sup> in the USA, but March the 2<sup>nd</sup> in Europe.
+Discrepancies often lead to errors, especially when the same terms could mean different things depending on who is entering the data. For example, indicating date as `02-03` will mean February the 3<sup>rd</sup> in the USA, but March the 2<sup>nd</sup> in Europe.
 
 It is good practice to implement a `data dictionary` or a `taxonomy` of accepted terms and document the convention used in a README file. Depending on the software you use, you may be able to restrict the accepted values in specific columns. If such a taxonomy or ontology is available, using it may allow you (and others) to use the data in conjunction with other datasets. For example, you may use the generic `male` and `female` term for the sex of an animal (without capitals, and without using abbreviation), as many ontologies use these terms. Besides, you may want to use some extra tools to validate the spreadsheets before its integration in the analysis.
 
@@ -76,7 +76,7 @@ If `NA` is reported, one may interpret this value as a non-existing data point (
 Finally, you should also be aware of the default behaviour of your spreadsheet program, as it may be different for different programs, and different versions of the same program. For instance, the decimal is usually indicated with a comma in the French or German versions of Excel. In the English versions, a dot is used since the comma has no meaning (`9,000` will be translated into `9000` or `9` depending on the version you are using).
 
 (rr-rdm-spreadsheets-manipulation)=
-## 4. 4. 数据操纵和分析
+## 4. Data Manipulation and Analysis
 
 ***Do not manipulate or analyse data in a spreadsheet program.***
 
@@ -93,8 +93,8 @@ While dates should be written as `yyyy-mm-dd`, Excel and other software tend to 
 (rr-rdm-spreadsheets-tips-several)=
 ### Working With Several Sheets
 
-We often use several sheets for different but related data. 它确实是一种方便的工具，特别是当人们想要与同事们分享完整的数据集时。   
-另一方面，CSV 文件一次只保存一个工作表。 Though most data analysis software have several ways to import `xlsx` files, the practical solution is to work with the `xlsx` format while making sure that the information is available in CSV format for each sheet. A better solution, especially for long term storage, is to save all sheets separately in a CSV file and zip them together. 这个解决方案还允许包含可能采用不同格式的额外文档(例如)。
+We often use several sheets for different but related data. It is a handy tool indeed, especially when one wants to share the complete dataset with colleagues.  
+On the other hand, CSV files only save one sheet at a time. Though most data analysis software have several ways to import `xlsx` files, the practical solution is to work with the `xlsx` format while making sure that the information is available in CSV format for each sheet. A better solution, especially for long term storage, is to save all sheets separately in a CSV file and zip them together. This solution also allows including extra documentation that could be in a different format (for example, a text file explaining the meaning of the headers and the chosen unit).
 
 (rr-rdm-spreadsheets-tips-design)=
 ### Spreadsheet Design
