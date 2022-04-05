@@ -25,7 +25,7 @@ Test your codes and encourage your community to review and test each other's cod
 
 You can also set up a {ref}`Continuous Integration<rr-ci>` environment to help automate testing in your workflow.
 
-راجع قسم اختبار {ref}`<rr-testing>` في دليل البحث التجريبي لمزيد من المعلومات.
+See the {ref}`testing <rr-testing>` section in the Guide for Reproducible Research for more information.
 
 ## Reproducibility is even more important
 
