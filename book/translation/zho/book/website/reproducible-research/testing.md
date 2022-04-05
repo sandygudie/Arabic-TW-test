@@ -44,7 +44,7 @@ As researchers write code they generally do some tests as they go along, often b
 Testing also affords researchers much more peace of mind when working on/improving a project. After changing their code a researcher will want to check that their changes or fixes have not broken anything. Providing researchers with a fail-fast environment allows the rapid identification of failures introduced by changes to the code. The alternative, of the researcher writing and running whatever small tests they have time for is far inferior to a good testing suite which can thoroughly check the code.
 
 Another benefit of writing tests is that it typically forces a researcher to write cleaner, more modular code as such code is far easier to write tests for, leading to an improvement in code quality.
-{ref}`优质代码<rr-code-quality>` 比轻松的代码套更容易(和完全更愉快) 工作。 我肯定我们都已经遇到了 (和 让我们诚实地、写好）。 This point is expanded upon in the section {ref}`rr-testing-unittest`.
+{ref}`Good quality code<rr-code-quality>` is far easier (and altogether more pleasant) to work with than tangled rat's nests of code I'm sure we've all come across (and, let's be honest, written). This point is expanded upon in the section {ref}`rr-testing-unittest`.
 
 ## The advantages of testing for research
 
@@ -52,4 +52,4 @@ As well as advantaging individual researchers testing also benefits research as 
 
 Testing also helps prevent valuable grant money being spent on projects that may be partly or wholly flawed due to mistakes in the code. Worse, if mistakes are not at found and the work is published, any subsequent work that builds upon the project will be similarly flawed.
 
-也许测试对整个研究很重要的最干净的表达方式可以在 [软件可持续性研究所](https://www.software.ac.uk/) 口号中找到：更好的软件。
+Perhaps the cleanest expression of why testing is important for research as a whole can be found in the [Software Sustainability Institute](https://www.software.ac.uk/) slogan: better software, better research.
