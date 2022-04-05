@@ -1,152 +1,152 @@
-(r-code-reuse)=
-# رمز قابل لإعادة الاستخدام
-يمكن لمشروع البرنامج الخاص بك أن يتراوح بين برنامج نصي صغير تستخدمه في معالجة البيانات ودفتر ملاحظات يستخدم لتحليل البيانات، أو مكتبة برمجيات تنفذ الخوارزميات الخاصة بك. بغض النظر عن حجم أو صغر مشروع البرنامج الخاص بك، من المهم جعل التعليمات البرمجية الخاصة بك قابلة لإعادة الاستخدام.
+(rr-code-reuse)=
+# Reusable code
+Your software project could range from a small script you use for data processing to a notebook used for data analysis, or a software library implementing your algorithms. Regardless of how big or small your software project is, it is important to make your code reusable.
 
-ولأنواع مختلفة من البرمجيات متطلبات مختلفة لكي تكون قابلة لإعادة الاستخدام: لنص نصي صغير، وقد يكون الحصول على الوثائق الكافية كافيا، في حين قد يكون من الضروري إجراء اختبار شامل بالنسبة لمكتبة البرمجيات الحيوية للبعثة. في المستوى الأساسي جدا، كل ما عليك فعله هو وضع التعليمات البرمجية الخاصة بك على الإنترنت في مكان ما من المحتمل أن يستمر لفترة طويلة. نهج أكثر تفصيلاً لجعل برمجيات بحثك أكثر قابلية لإعادة الاستخدام هو باتباع مبادئ برامج البحث (FAIR Principles for Research Software (FAIR4RS) {cite:ps}`ChueHong2021FAIR4RS`.
+Different types of software have different requirements for being reusable: for a small script, having sufficient documentation might be enough, while for a mission critical software library, thorough testing might be necessary. At the most basic level, all you need to do is put your code online somewhere that is likely to last a long time. A more elaborate approach to making your research software more reusable is by following the FAIR Principles for Research Software (FAIR4RS Principles) {cite:ps}`ChueHong2021FAIR4RS`.
 
-عندما نتحدث عن جعل التعليمات البرمجية قابلة لإعادة الاستخدام، من المفيد توضيح ما نعنيه. في جدول تعاريف {ref}`للقابلية للتكاثر<rr-overview-definitions-reproducibility>` قمنا بتعريف البحث القابل للتكاثر على أنه استخدام نفس البيانات والشفرة نفسها. ومع ذلك، عندما نتحدث عن إعادة استخدام التعليمات البرمجية يمكن أن يأخذ هذا عدة أشكال: قد نريد تشغيل نفس التعليمات البرمجية بالضبط (بلغات البرمجة المجمعة). وهذا قد يعني حتى نفس الملف الثنائي) بالضبط، أو قد نرغب في تعديل شفرة المصدر وتوسيع نطاقها بطريقة معينة لتتناسب مع احتياجاتنا. Freire and Chirigati {cite:ps}`Freire2018Reduciity` يوفر إطاراً لمستويات مختلفة من القابلية للتكرار، اعتماداً على ما يمكن تعديله. وهي تحدد المستويات التالية من القابلية للتكرار: قابلة للتكرار، ويمكن إعادة تشغيلها، ويمكن تحويلها، ويمكن تمديدها، ويمكن تعديلها.
+When we talk about making code reusable, it is useful to clarify what is we mean. In the {ref}`Table of Definitions for Reproducibility<rr-overview-definitions-reproducibility>` we defined reproducible research as using the same data and the same code. However, when we talk about code re-use this can take many forms: we may want to run the exact same code (for compiled programming languages, this could even mean the exact same binary file), or we may want to modify the source code and extend it in some particular way to fit our needs. Freire and Chirigati {cite:ps}`Freire2018Reproducibility` provide a framework of different levels of reproducibility, depending on what can be modified. They define the following levels of reproducibility: repeatable, re-runnable, portable, extendable and modifiable.
 
-وبوسعنا أن نضع تعريفات لإطار فريري على النحو التالي:
+We can map the definitions of reproducibly on the Freire framework as follows:
 
-| Freire framework | تعاريف التكرارية                                                          |
-| ---------------- | ------------------------------------------------------------------------- |
-| التكرار          | قابل للنسخ (نفس البيانات، نفس التحليل)                                    |
-| إعادة التشغيل    | قوي & قابل للتكرار (نفس التعليمة البرمجية، بيانات مختلفة/تحليل/بارامترات) |
-| محمول            | *لم يتم النظر في* (نفس الكود/البيانات، بيئة مختلفة)                       |
-| قابل للتوسع      | (جزئيا) عامّ                                                              |
-| قابل للتعديل     | (جزئيا) عامّ                                                              |
+| Freire framework | Definitions of reproducibly                                         |
+| ---------------- | ------------------------------------------------------------------- |
+| Repeatable       | Reproducible (same data, same analysis)                             |
+| Re-runnable      | Robust & Replicable (same code, different data/analysis/parameters) |
+| Portable         | *Not considered* (Same code/data, different environment)            |
+| Extendable       | (partly) Generalisable                                              |
+| Modifiable       | (partly) Generalisable                                              |
 
-ولم يسبق النظر في إمكانية النقل بل في بيئة مختلفة للبرمجيات (مثل مختلف المعدات). وقد يؤثر نظام التشغيل أو حتى تركيب جديد على معدات مماثلة) على قدرة البرنامج على العمل (على سبيل المثال، قد يؤثر على التبعيات).
+Portability was not previously considered, but for software a different environment (such as different hardware, operating system or even a fresh install on comparable hardware) may affect the ability for the software to work (for example it may affect dependencies).
 
 كما أن إمكانية التعميم تلخص مفهومين: القدرة الموسعة (القدرة على الاندماج مع برمجيات أخرى) والقدرة على التعديل (القدرة على تغيير جزء من التنفيذ لتوسيع نطاق وظيفتها).
 
-في بقية هذا الفصل نقدم قائمة بالتوصيات التي يمكنك اتباعها للتأكد من أن الكود الخاص بك قابل لإعادة الاستخدام.
+In the rest of this chapter we provide list of recommendations you can follow to make sure your code is reusable.
 
-(r-code-reuse-recommendation-checklist)=
-## كيفية جعل التعليمات البرمجية الخاصة بك أكثر قابلية لإعادة الاستخدام
-يحتوي هذا القسم على قائمة مرجعية بالتوصيات لجعل برنامجك أكثر قابلية لإعادة الاستخدام. يحتوي القسم الخاص بـ {ref}`rr-code-reuse-recommendation-detail` على شرح أكثر تعمقا لكل توصية من هذه التوصيات. يمكنك اتباع التوصيات الأكثر ملاءمة لنوع البرمجيات الخاص بك وتخطي تلك التي ليست ذات صلة في حالتك.
+(rr-code-reuse-recommendation-checklist)=
+## How to make your code more reusable
+This section contains a checklist of recommendations for making your software more reusable. The {ref}`rr-code-reuse-recommendation-details` section contains a more in-depth explanation of each of these recommendations. You can follow the recommendations that are more suitable for your type of software and skip the ones which are not relevant in your case.
 
-### التوصيات المتكررة
-1. تأكد من أنك تستطيع العثور عليه (في الفضاء)
-1. تأكد من أنك تستطيع العثور عليها (في الوقت)
-1. تأكد من أنك تستطيع تنفيذ نفس سلسلة العمليات
-1. تأكد من أن بيئتكم وتسلسل عملياتكم قويين ولا حاجة إلى أي إنسان لتكرار ما تم إنجازه
-1. رخصة الرمز الخاص بك
-    - مع ترخيص يسمح بإعادة الاستخدام؛
-    - مع رخصة متوافقة مع رخص التبعيات
-1. تأكد من أنه قابل للكابل
-1. تضمين البيانات الضرورية
-1. كتابة وثائق مفيدة*
+### Repeatable recommendations
+1. Make sure you can find it (in space)
+1. Make sure you can find it (in time)
+1. Make sure you can execute the same sequence of operations
+1. Make sure your environment and sequence of operations is robust and no human is needed to replicate what was done
+1. License your code
+    - with a license that allows for reuse;
+    - with a license compatible with the dependencies’ licenses
+1. Make sure it is citable
+1. Include necessary data
+1. Write useful documentation*
 
-### توصيات قابلة لإعادة التشغيل
-1. إزالة البتات المشفرة وجعل الوحدة النمطية مرنة
-1. اختبر أن الوحدات التي قمت بإنشائها يمكن أن تأخذ أنواعا مختلفة من بيانات الإدخال أو المعلمات
-1. تحويل الوحدات إلى حزمة/صندوق أدوات
-1. كتابة وثائق مفيدة*
+### Re-runnable recommendations
+1. Remove hardcoded bits and make the code modular
+1. Test that the modules you made can take different types of input data or parameters
+1. Turn the modules into a package/toolbox
+1. Write useful documentation*
 
-### التوصيات المحمولة
-1. تأكد من أنه يمكنك إعادة إنشاء البيئة حيث كانت تعيش
-1. كتابة وثائق مفيدة*
+### Portable recommendations
+1. Make sure you can recreate the environment where it lived
+1. Write useful documentation*
 
-### التوصيات الموسعة
-1. كتابة وثائق مفيدة*
+### Extendable recommendations
+1. Write useful documentation*
 
-### التوصيات القابلة للتعديل
-1. تأكد من أن الكود الخاص بك مقروء من قبل البشر
-1. تأكد من وجود التعليقات
-1. كتابة وثائق مفيدة*
+### Modifiable recommendations
+1. Make sure your code is readable by humans
+1. Make sure comments are present
+1. Write useful documentation*
 
-قد يلاحظ القارئ المراقب أن `كتابة وثائق مفيدة` مذكورة لكل مستوى من إعادة الاستخدام. ويرجع ذلك إلى الحاجة إلى مستويات مختلفة من الوثائق لمختلف مستويات إعادة الاستخدام.
+The observant reader might will notice that `Write useful documentation` is mentioned for every level of reuse. This is because different levels of documentation are required for different levels of reuse.
 
-### الاحتياجات المختلفة من الوثائق لمختلف مستويات إعادة الاستخدام
-وكتابة الوثائق المفيدة شرط هام بالنسبة لجميع مستويات إعادة الاستخدام. غير أنه بالنسبة لمختلف مستويات إعادة الاستخدام، هناك احتياجات مختلفة من الوثائق:
+### Different documentation requirements for different levels of reuse
+Writing useful documentation is an important requirement for all levels of reuse. However, for the different levels of reuse, there are different documentation requirements:
 
-الوثائق
-- يشرح الاستخدام، محدداً:
-  - ما الذي تفعله البرامج؛ (مطلوب للتكرار)
-  - كيف يمكن استخدامها؛ (مطلوب للتكرار)
-  - ما هي الخيارات/المعلمات المتاحة. (مطلوب للتكرار )
-- يحتوي على أمثلة لكيفية تشغيله. (مطلوب للتكرار )
-- لديه تعليمات التثبيت، بما في ذلك الأوصاف الجيدة لما يلي:
-  - المعدات التي تعتمد عليها (على سبيل المثال GPUs)؛ (مطلوبة للأجهزة المحمولة)
-  - • نظام التشغيل الذي تم اختبار البرمجيات عليه؛ (مطلوب للأجهزة المحمولة)
-  - الاحتياجات من البرمجيات (مثل المكتبات والضوابط). (مطلوب للهاتف المحمول)
+The documentation:
+- explains usage, specifying:
+  - what the software does; (required for repeatable)
+  - how it can be used; (required for repeatable)
+  - what options/parameters are available. (required for repeatable)
+- contains examples of how to run it. (required for repeatable)
+- has installation instructions, including good descriptions of:
+  - the hardware it depends on (for example GPUs); (required for portable)
+  - the operating system the software has been tested on; (required for portable)
+  - software requirements (such as libraries and shell settings). (required for portable)
 
-(r-code-reuse-recommendation-detail)=
-## توصيات رمز قابل لإعادة الاستخدام
-تأكد من أنك (أو شخص آخر) تستطيع إعادة استخدام التعليمات البرمجية الخاصة بك للقيام بنفس الشيء الذي فعلته بالضبط. يحتوي قسم {ref}`rr-code-reuse-recommendation-checklist` على قائمة مرجعية بالتوصيات لجعل برنامجك أكثر قابلية لإعادة الاستخدام. ويتضمن هذا الفرع شرحا أكثر تعمقا لكل توصية من هذه التوصيات، مع مؤشرات للأجزاء الأخرى ذات الصلة من هذا الدليل.
+(rr-code-reuse-recommendation-details)=
+## Recommendations for reusable code
+Make sure you (or somebody else) can re-use your code to do the same exact thing you did. The {ref}`rr-code-reuse-recommendation-checklist` section contains a checklist of recommendations for making your software more reusable. In this section contains a more in-depth explanation of each of these recommendations, with pointers to other relevant parts of this guide.
 
-### التوصيات المتكررة
-في هذه المرحلة، قد لا تحتاج حتى إلى أن تكون قادراً على فتح التعليمات البرمجية وقراءتها، أنت فقط تريد التأكد من أنك تستطيع إعادة تشغيل جميع الخطوات المطلوبة والحصول على نفس النتائج التي لديك.
+### Repeatable recommendations
+At this stage, you might not even need to be able to open the code and read it, you just want to make sure you can re-run all the needed steps and obtain the same results you had.
 
-#### 1. تأكد من أنك تستطيع العثور عليه (في الفضاء)
-يجب تخزين التعليمات البرمجية الخاصة بك علنا ومشاركتها مع المتعاونين. ولديها معرف ثابت فريد حتى يتمكن الجميع من العثور عليه والوصول إليه.
+#### 1. Make sure you can find it (in space)
+Your code must be stored publicly and shared with collaborators. It has an unique persistent identifier, so that everyone can find it and access it.
 
-**انظر أيضًا**: {ref}`rr-vcs`
+**See also**: {ref}`rr-vcs`
 
-#### 2. تأكد من أنك تستطيع العثور عليها (في الوقت)
-من الناحية المثالية يتم توثيق التطور الزمني للشفرة مع التحكم في الإصدار. هذا يسمح لك باسترداد نسخة محددة من الماضي.
+#### 2. Make sure you can find it (in time)
+Ideally the temporal evolution of the code is documented with version control. This allows you to retrieve a specific version from the past.
 
-**انظر أيضًا**: {ref}`rr-vcs`
+**See also**: {ref}`rr-vcs`
 
-#### 3. تأكد من أنك تستطيع تنفيذ نفس سلسلة العمليات
-وغالبا ما يكون الإنسان الذي أنشأ البيئة هو أيضا الشخص الذي كتب الكود والشخص الذي يعرف بالضبط الترتيب اللازم للخطوات اللازمة للتمكن من إعادة تشغيل الكود واستنساخ النتائج. ومن المؤكد أن هذا يمكن توثيقه بعناية لكي يقوم به إنسان آخر مرة أخرى.
+#### 3. Make sure you can execute the same sequence of operations
+Often the human who set up the environment is also the one who wrote the code and the one who knows the exact order of steps needed to be able to re-run the code and reproduce the results. This could surely be carefully documented for another human to re-do it.
 
-**انظر أيضًا**: [درس CodeRefinery في البحث القابل للتكرار](https://coderefinery.github.io/reproducible-research/)
+**See also**: [CodeRefinery lesson on Reproducible Research](https://coderefinery.github.io/reproducible-research/)
 
-#### 4. تأكد من أن بيئتكم وتسلسل عملياتكم قويين ولا حاجة إلى أي إنسان لتكرار ما تم إنجازه
-لا تريد أن تعتمد على البشر. إنهم يميلون إلى ارتكاب أخطاء حتى وإن لم تكن لديهم نوايا سيئة. لذلك تريد أن تكون بيئتك سكريبت وأن يعاد إنشاؤها عند الحاجة، وتريد أن يتم تشغيل تسلسل العمليات الخاص بك بواسطة برنامج نصي لخط الأنابيب الذي يلغي معا كل تسلسل الخطوات.
+#### 4. Make sure your environment and sequence of operations is robust and no human is needed to replicate what was done
+You do not want to depend on humans. They tend to make errors even if they do not have bad intentions. So you want your environment to be scripted and be re-created when needed and you want your sequence of operations to be run by a pipeline script that glues together all the sequence of steps.
 
-**انظر أيضًا**: {ref}`rr-renv-options`
+**See also**: {ref}`rr-renv-options`
 
-#### 5. رخصة الرمز الخاص بك
-تأكد من إرفاق ترخيص بالكود الخاص بك وتحديد كيف تريد الاستشهاد به عندما يقوم الناس بإعادة استخدامه. فكر في استخدام رخصة مسموح بها تسمح بإعادة الاستخدام. كما يجب عليك اختيار ترخيص متوافق مع تراخيص المكتبات أو الحزم التي يعتمد عليها برنامجك.
+#### 5. License your code
+Make sure you attach a license to your code and specify how you want to be cited when people re-use it. Consider using a permissive license that allows for reuse. Also, you should choose a license which is compatible with the licenses of libraries or packages your software depends on.
 
-**انظر أيضًا**: {ref}`rr-licensing-software`، {ref}`rr-licensing-software-permissive`، {ref}`rr-licensing-compatibility`
+**See also**: {ref}`rr-licensing-software`, {ref}`rr-licensing-software-permissive`, {ref}`rr-licensing-compatibility`
 
-#### 6. تأكد من أنه قابل للكابل
-تأكد من تحديد كيف تريد الاستشهاد بها عندما يقوم الناس بإعادة استخدامها.
+#### 6. Make sure it is citable
+Make sure to specify how you want to be cited when people re-use it.
 
-**انظر أيضا**: {ref}`cm-citable-cite-software`
+**See also**: {ref}`cm-citable-cite-software`
 
-#### 7. تضمين البيانات الضرورية
-إذا كان البرنامج يعتمد على أي نوع من البيانات، يجب أن تكون البيانات متاحة
+#### 7. Include necessary data
+If the software depends on any sort of data, the data should be available
 
-**انظر أيضًا**: {ref}`rr-rdm-data`
+**See also**: {ref}`rr-rdm-data`
 
-### توصيات قابلة لإعادة التشغيل
-تأكد من أنك (أو غيرها) تستطيع إعادة استخدامه للقيام بالشيء الذي فعلته، ولكن مع بيانات مختلفة/معلمات مختلفة
+### Re-runnable recommendations
+Make sure you (or others) can re-use it to do the thing you did, but with different data/different parameters
 
-#### 1. إزالة البتات المشفرة وجعل الوحدة النمطية مرنة
-لا تريد الحصول على تفاصيل محددة لبيانات أو معلمات التحليل الخاصة بك مشفرة في الكود. إذا كان شيء ما يمكن أن يصبح دالة قابلة لإعادة الاستخدام، فاصله عن المعلمات المشفرة وتحويله إلى شيء (إعادة استخدامه) بمفرده. اجعل الوحدات النقية: مع إعطاء نفس المدخلات، دالة نقية دائما ترجع نفس القيمة.
+#### 1. Remove hardcoded bits and make the code modular
+You do not want to have details specific of your data or analysis parameters hardcoded into the code. If something can become a reusable function, separate it from the hardcoded parameters and turn it into something (re)usable on its own. Make the modules pure: given the same input, a pure function always returns the same value.
 
-**راجع أيضًا**: [درس تطوير كود مصنع الكود الموحد](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md/#1)
+**See also**: [CodeRefinery Modular Code Development lesson](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md/#1)
 
-#### 2. اختبر أن الوحدات التي قمت بإنشائها يمكن أن تأخذ أنواعا مختلفة من بيانات الإدخال أو المعلمات
-قد لا تعرف بعد كيف سيتم إعادة استخدام التعليمات البرمجية الخاصة بك في المستقبل، ولكن يمكنك منع كيفية عدم استخدامه إذا كنت تستطيع اختبار أي المعلمات مسموح بها.
+#### 2. Test that the modules you made can take different types of input data or parameters
+You might not know yet how your code will be re-used in the future, but you can prevent how it should not be used if you can test which parameters are allowed.
 
-**انظر أيضًا**: [درس مصفاة CodeRefinery في الاختبار الآلي](https://coderefinery.github.io/testing/motivation/)
+**See also**: [CodeRefinery lesson on Automated testing](https://coderefinery.github.io/testing/motivation/)
 
-#### 3. تحويل الوحدات إلى حزمة/صندوق أدوات
-فصل المزيد من التفاصيل الخاصة بمشروعك مع الأجزاء التي يمكن إعادة استخدامها في مشاريعك الأخرى أو من قبل أشخاص آخرين.
+#### 3. Turn the modules into a package/toolbox
+Separate even more the specifics of your project with the bits that can be reused in other of your projects or by other people.
 
-**انظر أيضًا**: {ref}`rr-renv-pack`، [برنامج التغليف](https://scicomp.aalto.fi/scicomp/packaging-software/)، [تغليف البرمجيات في بايثون](https://aaltoscicomp.github.io/python-for-scicomp/packaging/)
+**See also**: {ref}`rr-renv-package`, [Packaging software](https://scicomp.aalto.fi/scicomp/packaging-software/), [Software packaging in Python](https://aaltoscicomp.github.io/python-for-scicomp/packaging/)
 
-### التوصيات المحمولة
-وتشير إمكانية النقل إلى القدرة على نقل البرمجيات إلى بيئة جديدة. ويمكن أن يشير ذلك إلى آلة مطابقة (ولكن ليس ذاتها)، ولكن يمكن أن يشير أيضا إلى هندسة جديدة للمعدات، ونظام تشغيلي وما إلى ذلك. وكلاهما مهم لإعادة استخدام البرمجيات.
+### Portable recommendations
+Portability refers to the ability to transfer software to a new environment. This could refer to an identical (but not the same) machine, but it can also refer to a new hardware architecture, operating system and such. Both of these are important for software reuse.
 
-#### 1. تأكد من أنه يمكنك إعادة إنشاء البيئة حيث كانت تعيش
-فالبيئة هي لقطة هشة في الوقت المناسب تصاحب المدونة بصمت. ويمكن أن يشمل الإنسان الذي قام بتشغيل البرمجيات، والخطوات التي قام بها الإنسان لإعداد البيانات، الأجهزة وأجهزة التشغيل والمكتبات والحزم الخارجية/صناديق الأدوات/التبعيات. وكل ذلك يمكن توثيقه بعناية لكي يعيد إنسان آخر القيام بنفس الخطوات بالضبط.
+#### 1. Make sure you can recreate the environment where it lived
+The environment is a fragile snapshot in time which silently accompanies the code. It can include the human who operated the software, the steps the human did to prepare the data, the hardware, the OS, the libraries, external packages/toolboxes/dependencies. All this can be carefully documented for another human to re-do all the same exact steps.
 
-**انظر أيضًا**: {ref}`rr-renv`
+**See also**: {ref}`rr-renv`
 
-### التوصيات الموسعة والقابلة للتعديل
-تأكد من أن الآخرين يمكنهم البناء على التعليمات البرمجية الخاصة بك لتوسيع نطاقها وتحسينها.
+### Extendable and Modifiable recommendations
+Make sure others can build on your code to extend it and improve it.
 
-#### 1. تأكد من أن الكود الخاص بك مقروء من قبل البشر
-غالباً ما يدفع المزيد لكتابة التعليمات البرمجية للبشر الآخرين حتى يتمكنوا من قراءتها (بما في ذلك نفسك المستقبلي). لا يكون النيل المشفر الذي يحتوي على أسماء متغيرة غامضة أسرع أو أكثر كفاءة من تقسيم الخطوط الملاحية الواحدة إلى خطوات متعددة مع أسماء متغيرات مقروءة تكون منطقية. وعلاوة على ذلك، فإن استخدام اتفاقيات الترميز سيساعد القراء الآخرين.
+#### 1. Make sure your code is readable by humans
+It often pays more to write code for other humans so they can read it (including your future self). A cryptic oneliner with obscure variable names is not any faster or more efficient than splitting the one liner into multiple steps with readable variable names that make sense. Furthermore, using coding conventions will help other readers.
 
-**راجع أيضًا**: {ref}`rr-code-style-and-formatting`، {ref}`rrr-code-quality-advantage`
+**See also**: {ref}`rr-code-style-and-formatting`, {ref}`rr-code-quality-advantages`
 
-#### 1. تأكد من وجود التعليقات
-كتابة التعليقات قبل كتابة الرمز الفعلي. تخيل أنه يمكن لشخص ما قراءة التعليقات وتخطي جميع أجزاء التعليمات البرمجية بين التعليقات والحصول على صورة كاملة لما يحدث كما لو أنهم قرأوا الكود بأكمله.
+#### 1. Make sure comments are present
+Write comments before writing the actual code. Imagine that somebody could just read the comments and skip all the code bits between comments and get a full picture of what is going on as if they read the whole code.
