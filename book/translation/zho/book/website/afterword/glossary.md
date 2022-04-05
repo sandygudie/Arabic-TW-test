@@ -11,8 +11,8 @@ Acceptance Testing
 Acknowledgements
  Where contributions to a project that don't qualify as authorship are written. It records the contributors name and the contribution that they made is described.
 
-添加
- 个命令用于将文件添加到暂存区域。 Allows the user to specify which files or directories to include in the next commit.
+Add
+  Command used to add files to the staging area. Allows the user to specify which files or directories to include in the next commit.
 
 Authors
   Authors in this context are the contributors to _The Turing Way_ project who have made a substantial contribution to the project such as writing a subchapter, facilitating community interactions, maintaining project’s infrastructure and supporting the participation of others through mentored-contributions. All authors are named co-authors on the book as a whole.
@@ -226,14 +226,14 @@ Image
 Integration Testing
   A level of software testing where individual units are combined and tested as a group. The purpose of this level of testing is to expose faults in the interaction between integrated units.
 
-交叉性
-  一个人身份的方式(性别、种族、阶级、性取向) 在社会地位、歧视或压迫方面形成独特的经历，也可以相互重叠和交织。 这个词是由金伯利进程克伦肖教授所写的。
+Intersectionality
+  The way in which a person's identities (gender, race, class, sexual orientation, physical ability and others) can overlap and intersect to form a unique experience of social status, discrimination or oppression. This term was coined by Professor Kimberlé Crenshaw.
 
-问题
-  GitHub 的 Bug 跟踪系统。 协作者可以使用问题报告错误、请求功能或为项目设定里程碑。 合作者在开发过程中跟踪、报告和结案。 他们是与你的团队沟通和报告进度的好办法。
+Issues
+  Bug tracking system for GitHub. Collaborators can use issues to report bugs, request features, or set milestones for projects. Issues are tracked, reported, and closed by collaborators during the development process. They’re a great way of communicating with your team and reporting progress.
 
-问题跟踪
-  跟踪项目当前问题的过程，例如修复错误、推出新功能或社区参与计划。
+Issue Tracking
+  The process of tracking current issues on the project, such as bug fixing, rolling out new features or community engagement plans.
 ```
 ---
 ## J
@@ -308,13 +308,11 @@ Mock Test
 Open Access
   Making all published outputs freely accessible for maximum use and impact.
 
-Open Access Publishing (gratis)
-  The practice of more research publications to only ready to use.
+Open Access publishing (gratis)
+  The practice of making research publications available to anyone to read without charge.
 
 Open Access Publishing (libre)
-  Libre open access，意思是研究是免费的。
-
-但更进一步的是，它赋予用户复制、再使用和重新混合出版物的权利。
+  Libre open access is gratis, meaning the research is available free of charge, but it goes further by granting users the right to copy, reuse, and remix the publication.
 
 Open data
   Documenting and sharing research data openly for re-use.
@@ -364,7 +362,7 @@ Persona
   A persona is the detail of an imaginary user or member, based on real-world observations and understandings of existing members or potential future members.
 
 Persona Canvas
-  人画布可以用来集合您在一个地方的所有响应 与您的同事分享您的智力模型的这种具体信息(我们的思想抽象概念)，并创建一个通用语言来交流您的社区成员。
+  The persona canvas can be used to assemble all your responses in one place, share this tangible information of your mental model (abstract concepts from our thoughts) with your colleagues and create a common language to communicate about your community members, users, and contributors.
 
 Phony Target
   A phony target is one that doesn’t correspond to a file on the filesystem. A target is marked as phony by making it a prerequisite of the .PHONY target.
@@ -432,8 +430,7 @@ Research Compendia
   This is a collection of all digital parts of a research project including data, code, texts (protocols, reports, questionnaires, metadata). The collection is created in such a way that reproducing all results is straight forward.
 
 Research Data Management
-  *Acronym: RDM*. 研究数据管理
-  *Acrony: RDM* 系指组织、储存和保存在研究项目期间产生的数据。 It covers initial planning, day-to-day processes and long-term archiving and sharing. Shortened to RDM.
+  *Acronym: RDM*. Refers to the organisation, storage and preservation of data created during a research project. It covers initial planning, day-to-day processes and long-term archiving and sharing. Shortened to RDM.
 
 Research Ethics
   Research ethics are the moral principles that govern how researchers should carry out their work. These principles are used to shape research regulations agreed by groups such as university governing bodies, communities or governments. All researchers should follow any regulations that apply to their work.
@@ -482,10 +479,7 @@ Smoke Testing
   Very brief initial checks that ensure the basic requirements required to run the project hold. If these fail there is no point proceeding to additional levels of testing until they are fixed.
 
 Staged
-  Staging the changes will be included in the next commit.
-
-存档代码
-  正确，但并不总是输出相同的结果。
+  Staging the changes that will be included in the next git commit.
 
 Stochastic Code
   Code which, while correct, does not always output the same result. For example a program that outputs ten random numbers will generate a different result each time, despite being correct.
