@@ -1,12 +1,12 @@
-(rr-code-reuse-recomendaciones)=
-# Resumen de reutilización de código
+(rr-code-reuse-recommendations)=
+# Overview of Code Reuse
 
-This section contains a checklist of recommendations for making your software more reusable. La sección {ref}`rr-code-reuse-details` contiene una explicación más detallada de cada una de estas recomendaciones. You can follow the recommendations that are more suitable for your type of software and skip the ones which are not relevant in your case.
+This section contains a checklist of recommendations for making your software more reusable. The {ref}`rr-code-reuse-details` section contains a more in-depth explanation of each of these recommendations. You can follow the recommendations that are more suitable for your type of software and skip the ones which are not relevant in your case.
 
-## Recomendaciones repetibles
+## Repeatable Recommendations
 
-1. Asegúrese de encontrarlo (en el espacio; significando: ser capaz de localizar el repositorio/proyecto)
-1. Asegúrese de encontrarlo (en el tiempo; significando: ser capaz de localizar una versión en particular)
+1. Make sure you can find it (in space; meaning: being able locate the repository/project)
+1. Make sure you can find it (in time; meaning: being able to locate a particular version)
 1. Make sure you can execute the same sequence of operations
 1. Make sure your environment and sequence of operations is robust and no human is needed to replicate what was done
 1. License your code
@@ -16,21 +16,21 @@ This section contains a checklist of recommendations for making your software mo
 1. Include necessary data
 1. Write useful documentation*
 
-## Recomendaciones reejecutables
+## Re-runnable Recommendations
 
-1. Remueve bits codificados (tales como rutas que sólo existían en el disco duro donde se ejecutaba el pipeline) y crea el código modular
+1. Remove hardcoded bits (such as paths that only existed on the hard drive where the pipeline was run) and make the code modular
 1. Test that the modules you made can take different types of input data or parameters
 1. Turn the modules into a package/toolbox
 1. Write useful documentation*
 
-## Recomendaciones portátiles
+## Portable Recommendations
 1. Make sure you can recreate the environment where it lived
 1. Write useful documentation*
 
-## Recomendaciones extendidas
+## Extendable Recommendations
 1. Write useful documentation*
 
-## Recomendaciones modificables
+## Modifiable Recommendations
 1. Make sure your code is readable by humans
 1. Make sure comments are present
 1. Write useful documentation*
