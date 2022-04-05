@@ -1,11 +1,11 @@
 (ch-style-figures)=
 # Using figures in _The Turing Way_
 
-我们鼓励您将图像添加到 _书写章节中。 _ 。 样式指南的这一部分将解释如何使用 [标记结构化文本](https://myst-parser.readthedocs.io/en/latest/) (MyST) 格式将其添加到书中，并附有适当的 {ref}`备选文本<ch-style-figures-alttext>` 和 {ref}`标题<ch-style-figures-caption>`
+We encourage you to add images to _The Turing Way_ book chapters. This section of the style guide will explain how to use [Markedly Structured Text](https://myst-parser.readthedocs.io/en/latest/) (MyST) format to add them to the book with appropriate {ref}`alt text<ch-style-figures-alttext>` and {ref}`captions<ch-style-figures-caption>`.
 
-我们非常热衷于确保原始图像文件(包括你！ )的创建者已被适当地承认了 {ref}`<ch-style-figures-licence>`。 Please do not use images that are not licenced for reuse.
+We are very passionate about ensuring that the creators of the original image files (including you!) are {ref}`acknowledged appropriately<ch-style-figures-licence>`. Please do not use images that are not licenced for reuse.
 
-In this sub-chapter we have used the term **figure** to refer to an illustration that conveys information in the context of _The Turing Way_ chapters. The term **image** is used to refer to the file object itself. The term **image** is used to refer to the file object itself.
+In this sub-chapter we have used the term **figure** to refer to an illustration that conveys information in the context of _The Turing Way_ chapters. The term **image** is used to refer to the file object itself.
 
 (ch-style-figures-licence)=
 ## Open licence
@@ -25,8 +25,7 @@ In general, make sure to always cite the image properly as directed by the image
 
 Please upload `.jpg` or `.png` files that are under 1MB to allow them to load faster in the online book. If your file is larger than 1MB, please use a local image editing tools, or online tool like [IMG2GO](https://www.img2go.com/compress-image) to compress your file.
 
-To name your image file, please use all-lowercase and separate words with hyphens. Every image file used in this book should be located in the file `_figure-list.md` in the directory `book/website/figures` of our [GitHub Repository](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/website/figures). 如果您使用了一个新的图像文件，请在 `数字` 目录中添加该文件， 并在 `_figure-list中添加详细信息。
-d`.
+To name your image file, please use all-lowercase and separate words with hyphens. Every image file used in this book should be located in the file `_figure-list.md` in the directory `book/website/figures` of our [GitHub Repository](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/website/figures). If you use a new image file, please add the file in the `figures` directory, and add details in the `_figure-list.md`.
 
 (ch-style-figures-syntax)=
 ## MyST syntax to add a figure to a _Turing Way_ chapter
@@ -54,20 +53,19 @@ This figure can be referred in other files using the {ref} role like:
 ```
 {ref}`file-collection`
 ```
-Please note that a height of 500px works very well with _The Turing Way_ book, but this is only a suggestion. (ch样式-位数)=
+Please note that a height of 500px works very well with _The Turing Way_ book, but this is only a suggestion.
 (ch-style-figures-alttext)=
 ## Alternative text
-Alternative text or alt text are used for describing the appearance and function of an image on an HTML page. 我们的示例数字可以用这句话来解释： *两个人很高兴地浏览文档抽屉里的文件* 增加备选案文数字是网页无障碍性的首要原则之一。
+Alternative text or alt text are used for describing the appearance and function of an image on an HTML page. Our example figure can be explained with this sentence: *Two people happily browsing files in a drawer of documents.*
 Adding alternative text to figure is one of the first principles of web accessibility. Screen reader software can read an alt text to better explain the content of the figure to its users.
-(ch-样式图案)=
+All the components of your figure (image file location, size, name, alt text and title) can be encapsulated in section within a markdown file using the following directive:
 
 ````
-``{figure} ../../figures/file-collection.jpg
-
-- 
-head: 500px
+```{figure} ../../figures/file-collection.jpg
+---
+height: 500px
 name: file-collection
-alt: 2个人高兴地浏览文档抽屉里的文件。
+alt: Two people happily browsing files in a drawer of documents.
 ---
 _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
@@ -82,7 +80,7 @@ alt: Two people happily browsing files in a drawer of documents.
 _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-例如，标题可以说：
+When all these components are used correctly, a figure included in a file will be rendered in the online book like in this page:
 
 ```{figure} ../../figures/file-collection.jpg
 ---
@@ -98,26 +96,31 @@ _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licen
 
 Captions appear below the figure. They should be short and concise and include a reference to the source where they are taken from. In particular it is important to describe the licence under which the image is re-used.
 
-(ch样式-高级数字) =
+For example, a caption might say:
 
 > Making your first pull request on GitHub. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 
 The syntax for this image is as follows, and the way it appears in the book is below the code snippet.
 
 ````
-``{figure} ../../figures/first-pull-request。
+```{figure} ../../figures/first-pull-request.png
+---
+height: 400px
+name: first-pull-request
+alt: A person helping out another person making their first pull request on GitHub
+---
+Making your first pull request on GitHub.
 _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 ````
 
 ```{figure} ../../figures/first-pull-request.png
 ---
-高度：400px
-名称：第一个拉取请求
-Alt：帮助他人在 GitHub
-上提出第一个拉取请求 -
-在 GitHub 上提出你的第一个拉取请求
-Stereteria的绘画线路项目示例。
+height: 400px
+name: first-pull-request
+alt: A person helping out another person making their first pull request on GitHub
+---
+Making your first pull request on GitHub.
 _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
