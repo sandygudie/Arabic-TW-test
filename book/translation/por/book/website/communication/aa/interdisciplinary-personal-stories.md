@@ -1,90 +1,90 @@
-(comunicação-aa-intps)=
-# Histórias pessoais - Autoria de projetos interdisciplinares
+(communication-aa-intps)=
+# Personal stories - Authorship on Interdisciplinary projects
 
-## Federico Nanni e Mariona Coll Ardanuy - Vivendo com Máquinas
+## Federico Nanni and Mariona Coll Ardanuy - Living with Machines
 
-[Viver com Máquinas](https://livingwithmachines.ac.uk/) é um projeto de pesquisa que repensa o impacto da tecnologia na vida do cidadão comum durante a Revolução Industrial.
+[Living with Machines](https://livingwithmachines.ac.uk/) is a research project that rethinks the impact of technology on the lives of ordinary people during the Industrial Revolution.
 
-Junta um grupo interdisciplinar de investigadores de uma série de disciplinas para criar métodos, ferramentas e dados de investigação. Estão a trabalhar para mudar as percepções sobre a forma como podem ser realizadas as colaborações e, ao fazê-lo, estão a descobrir e a trabalhar em alguns desafios interessantes. incluindo a questão da autoria académica.
+It brings together an interdisciplinary group of researchers from a range of disciplines to create research methods, tools and data. They are working to change perceptions of how collaborations can be done and in doing this are discovering and working through some interesting challenges, including the issue of academic authorship.
 
-#### Saiba mais sobre o trabalho deles abaixo:
+#### Find out more about their work below:
 
 **Federico Nanni:**
 * [ORCID](https://orcid.org/0000-0003-2484-4331)
 * [Twitter](https://twitter.com/f_nanni)
-* [site](https://github.com/fedenanni)
+* [Website](https://github.com/fedenanni)
 
 **Mariona Coll Ardanuy**
 * [ORCID](http://orcid.org/0000-0001-8455-7196)
-* [site](https://github.com/mcollardanuy)
+* [Website](https://github.com/mcollardanuy)
 
-**1. Qual é a *prática normal* de autoria de documentos acadêmicos em sua disciplina? ou era a prática normal?**
+**1. What is the *normal* practice of authorship for academic papers in your discipline? or used to be the normal practice?**
 
-Somos um projecto interdisciplinar e, por conseguinte, trazemos connosco as práticas habituais de autoria de duas disciplinas distintas: a linguística computacional e as Humanidades (História). Isto torna mais complicado ao tentar decidir como lidar com a autoria nas nossas publicações.
+We are an interdisciplinary project and therefore bring with us the usual practices of authorship from two distinct disciplines: Computational linguistics and the Humanities (History). This makes it trickier when trying to decide how to tackle authorship on our publications.
 
-Alguns de nossa equipe são linguistas computacionais, que é um campo científico preocupado com a modelagem de linguagem computacional. No projeto, usamos o processamento de linguagem natural que é o lado de engenharia da linguística computacional. Estamos habituados a trabalhar em documentos que têm uma equipa de autores e documentos que são produzidos e publicados a ritmo.
+Some of our team are Computational linguists, which is a scientific field concerned with modelling language computationally. In the project, we use natural language processing that is the engineering side of Computational linguistics. We are used to working on papers that have a team of authors and papers are produced and published at pace.
 
-Outros membros da equipa são das disciplinas da Humanidade, onde os únicos autores são comuns e até mesmo necessários para a progressão na carreira. O ritmo da publicação das humanidades é muito mais lento.
+Other team members are from Humanities disciplines where sole author papers are common and are even required for career progression. The pace of publication in humanities is much slower.
 
-Estas duas diferentes abordagens de autoria tornam muito difícil determinar quem deve ser autor ou quem deve ser simplesmente reconhecido. É também difícil descobrir quem mais contribuiu, estabelecendo assim uma ordem de classificação dos autores para os papéis. dado que todos temos diferentes papéis no projecto que são igualmente importantes para os objectivos globais.
+These two different approaches to authorship make it very hard to establish who should be an author or who should just be acknowledged. It is also difficult to work out who contributed the most, therefore establishing a ranking order of authors for papers, as we all have different roles in the project that are equally important to the overall goals.
 
-As publicações que publicamos até agora estão mais focadas no lado da linguística computacional do projeto e, portanto, temos sido generosos com a autoria de toda a equipe. Isso deve-se à aceitação da linguística computacional de que uma equipe teria trabalhado em conjunto para conseguir este trabalho.
+The publications we have published so far are more focused on the computational linguistics side of the project and therefore we have been generous with authorship for the whole team. This is due to the acceptance in computational linguistics that a team would have worked together to achieve this work.
 
-No entanto quando escrevemos documentos mais históricos, talvez tenhamos de considerar que alguns dos nossos membros da nossa equipa precisam de publicações exclusivas dos autores e que adicionar autores a esses documentos desvaloriza o prestígio percebido do papel para eles. Neste caso, teremos o cuidado de citar completamente os nossos documentos técnicos anteriores e reconhecer toda a equipe em uma seção de reconhecimento.
+However, when writing more historically based papers we may need to consider that some of our team members need sole author publications and that adding authors onto these papers devalues the perceived prestige of the paper for them. In this case, we will be careful to fully cite our previous technical papers and acknowledge all of the team in an acknowledgement section.
 
 
-**2. Quando você discutiu a autoria em seu projeto?**
+**2. When did you discuss authorship in your project?**
 
-Iniciámos este processo cedo mas não fizemos grandes progressos até que o primeiro grande documento do projecto estivesse prestes a ser apresentado. Nessa altura, tivemos de decidir como reconhecer devidamente o mérito de todos os membros da nossa equipa e foi impulsionado pela necessidade de o fazer.
+We started this process early but did not make much progress really until the first major paper of the project was about to be submitted. We then had to decide how to properly credit everyone in our team and it was driven by the need to get it done.
 
-**3. Quem discutiu a autoria do seu projeto?**
+**3. Who had the discussion of authorship in your project?**
 
-Todos estiveram envolvidos nas discussões sobre a autoria em reuniões conduzidas pelo principal Investigador - Professor Ruth Ahnert. Todas as nossas vozes foram ouvidas nestes debates e a abordagem da autoria no projecto tinha boas intenções desde o início.
+Everyone was involved in the discussions about authorship in meetings led by the Principal Investigator - Professor Ruth Ahnert. All our voices were listened to in these discussions and the approach to authorship in the project had good intentions from the start.
 
-As discussões foram muito interdisciplinares, uma vez que o projecto tem muitos investigadores pós-doutorados que trazem consigo conhecimentos especializados.
+The discussions were very interdisciplinary as the project has a lot of postdoctoral researchers that all bring with them expert knowledge.
 
-**4. Que abordagem decidiu adoptar no seu projeto?**
+**4. What approach have you decided to take in your project?**
 
-adotamos a [taxonomia CRediT](https://casrai.org/credit/) para melhor apresentar as contribuições de cada autor para o trabalho. No entanto, sentimos que não cobre todos os papéis do nosso projecto, pelo que o adaptámos. Sentimos que algumas das categorias eram um pouco vagas e queríamos ser específicos sobre os papéis desempenhados pelos membros da nossa equipe.
+We adopted the [CRediT taxonomy](https://casrai.org/credit/) to better present each author's contributions to the work. However, we felt it does not cover all the roles in our project so we adapted it. We felt that some of the categories were a bit vague and we wanted to be specific about the roles played by our team members.
 
-As categorias que acrescentámos eram a implementação, a reprodução, a interpretação, a análise histórica e a anotação.
+The categories that we added were implementation, reproducibility, interpretation, historical analysis and annotation.
 
-Encontramos um problema com os papéis que não estavam sendo percebidos da mesma forma, por escrito. - Considera-se que a concepção e a supervisão têm mais prestígio do que outras funções. Portanto, mesmo quando se tenta reconhecer que os membros da equipe contribuem mais inclusivamente, ainda há problemas que surgem.
+We encountered an issue with the roles that were not being perceived equally, such as conceptualisation and supervision being seen as having more prestige than other roles. Therefore, even when trying to acknowledge team members contributions more inclusively there are still problems that arise.
 
-Decidimos criar uma página de capa para a pré-impressão do nosso documento sobre os primeiros métodos. Queríamos reflectir a nossa ideia de nos afastarmos de uma lista de autores e elevarmos a cortina sobre papéis que muitas vezes estão escondidos em projectos de investigação.
+We decided to produce a cover page for the pre-print of our first methods paper. We wanted to reflect our thinking about moving away from an author list and raise the curtain on roles that are often hidden in research projects.
 
-A página de capa torna os trabalhos do projeto mais explícitos, Por conseguinte, não presumem o que os autores fazem como fariam com uma lista.
+The cover page makes the jobs on the project more explicit, you therefore do not presume what the authors do as you would with a list.
 
-Você pode saber mais sobre isso em nosso blog - [Destacando contribuições dos autores e colaborações interdisciplinares na vida com Máquinas](https://livingwithmachines.ac.uk/highlighting-authors-contributions-and-interdisciplinary-collaborations-in-living-with-machines/).
+You can find out more about this in our blog - [Highlighting authors' contributions and interdisciplinary collaborations in Living with Machines](https://livingwithmachines.ac.uk/highlighting-authors-contributions-and-interdisciplinary-collaborations-in-living-with-machines/).
 
-Uma vez que estamos a tentar contestar a forma como as coisas são habitualmente, esperávamos que esta abordagem trouxesse conflitos e discussões difíceis. Todos vieram a este projecto com uma mentalidade semelhante, o que nos ajudou a resolver quaisquer problemas.
+As we are trying to challenge how things are usually done, we were expecting this approach to bring conflicts and difficult discussions. Everyone came to this project with a similar mindset and this helped us to resolve any issues.
 
-**5. Como é que se tratou desta questão na prática?**
+**5. How have you gone about this practically?**
 
-Usamos um documento do Google para enviar através da taxonomia do CRediT e todos podem preencher seu próprio nome sob as diferentes categorias.
+We used a Google doc to send around the CRediT taxonomy and everyone could fill in their own name under the different categories.
 
-Verificámos que todos tinham opiniões diferentes - algumas pessoas colocaram-se a si próprias em muitas categorias e outras apenas colocariam o seu nome numa só altura em que deviam ter tido crédito para mais.
+We did find that everyone had different opinions - some people did put themselves in many categories and others would only put their name in one when they should have got credit for more.
 
-Isto significava que tinha de haver uma certa moderação ao finalizar a lista de contribuições.
+This meant that there had to be a degree of moderation when finalising the list of contributions.
 
-**6. Quais têm sido os problemas de fazer isso?**
+**6. What have been the problems with doing this?**
 
-A página de capa era uma declaração que foi colocada em nossa pré-impressão para tentar resolver a questão da atribuição justa de contribuições e a necessidade de uma lista de autores, mas foi uma nota de rodapé no artigo publicado final. Por conseguinte, ainda tinha de haver uma lista de autores e um primeiro autor para a publicação.
+The cover page was a statement that was put in our pre-print to try to solve the issue of assigning contributions fairly and the need for a list of authors but it was a footnote in the final published article. Therefore, there still had to be a list of authors, and a first author for publication.
 
-O autor principal, Mariona, era fácil de decidir, pois ela tinha sido o principal escritor e liderava tudo o que tinha a ver com esse papel, mas depois disso a ordem dos autores era difícil.
+The main author, Mariona, was easy to decide as she had been the main writer and lead in everything to do with that paper but after that the order of authors was difficult.
 
-Alguns membros da equipe não têm a mesma necessidade de publicações que os pesquisadores do pós-doutoramento porque detêm posições permanentes ou trabalham em áreas onde outros tipos de saída, como o código, são mais importantes. Isto acrescenta outra camada de consideração que tem de ser abordada quando se discute a lista do autor.
+Some team members don't have the same need for publications as postdoctoral researchers because they hold permanent positions or work in areas where other types of outputs, such as code, are more important. This adds another layer of consideration that needs to be addressed when discussing the author list.
 
-Há também problemas com a atribuição de autores correspondentes, uma vez que, em alguns domínios, isto acarreta uma percepção de supervisão ou antiguidade na equipe. No nosso caso, foi só quem melhor contactou para saber mais sobre o projeto.
+There are also issues with assigning corresponding authors as in some fields this carries a perception of supervision or seniority in the team. In our case, it was just who was best to contact to find out more about the project.
 
-**7. Como se aproxima da escrita dos jornais?**
+**7. How are you approaching the writing of the papers?**
 
-Tivemos uma pessoa a liderar uma publicação. Definiram a estrutura, tinham um entendimento do que era esperado pelo diário em termos de estrutura e formatação, eles dividem o papel em seções para que pessoas diferentes escrevam e então todos poderiam escrever suas partes. Então uma pessoa editou este trabalho. É necessário que uma pessoa edite todo o papel, para que possa ter uma ideia do fluxo e estrutura globais.
+We had one person leading on a publication. They defined the structure, had an understanding of what was expected by the journal in terms of structure and formatting, they split up the paper into sections for different people to write and then everyone could write their parts. Then one person edited this work. It does need one person to edit the whole paper so they can have an idea of the overall flow and structure.
 
-Esta abordagem funcionou bem para os documentos técnicos que elaborámos.
+This approach worked well for the technical papers we have written.
 
-**8. Que ferramentas colaborativas estão a utilizar para escrever e projetos?**
+**8. What collaborative tools are you using for the writing and projects?**
 
-Estamos usando a Overleaf, que é um software de escrita baseado em LaTex, mas acho que algumas pessoas estão usando a documentação do Google para escrita colaborativa.
+We are using Overleaf, which is a LaTex based writing software, but I think some people are using Google docs for collaborative writing.
 
-*Esta entrevista foi conduzida por Emma Karoune. Gostaríamos de agradecer a Federico e a Mariona pelos debates úteis sobre a autoria académica, e por comentar esta história pessoal e o capítulo mais alargado da autoria académica.*
+*This interview was conducted by Emma Karoune. We would like to thank Federico and Mariona for the useful discussions about academic authorship, and for commenting on this personal story and the wider academic authorship chapter.*
