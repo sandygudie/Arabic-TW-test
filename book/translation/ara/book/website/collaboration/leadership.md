@@ -1,8 +1,8 @@
-(قيادة)=
-# القيادة في علوم البيانات
+(cl-leadership)=
+# Leadership in Data Science
 
 TBA
 
-## نظرة عامة
+## Overview
 
 TBA
