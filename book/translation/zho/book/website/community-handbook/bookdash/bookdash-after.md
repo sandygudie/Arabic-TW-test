@@ -26,10 +26,7 @@ If our attendees would like to represent our community, they can connect with _T
 
 Everyone is welcome to join our Gitter channel for informal discussions. They can also sign up to receive our monthly newsletter: [https://tinyletter.com/TuringWay/](https://tinyletter.com/TuringWay/). We are on Twitter as [@turingway](https://twitter.com/turingway), where we send regular updates.
 
-如果您有更多关于该项目的想法或疑问，那么Book Dash事件或与我们社区相关的其他东西， 请随时联系团队成员
-theturingway@gmail。</p> 
-
-
+If you have more ideas or questions about the project, the Book Dash event or something else related to our community, please feel free to reach out to the team members [theturingway@gmail.com](mailto:theturingway@gmail.com).
 
 ## Reports and additional materials
 
