@@ -22,7 +22,7 @@ In order for research to be reproducible, the computational environment that it 
 
 In broad terms, a computational environment is the system where a program is run. This includes features of hardware (such as the numbers of cores in any CPUs) and features of software (such as the operating system, programming languages, supporting packages, other pieces of installed software, along with their versions and configurations).
 
-Software versions are often defined via [semantic versioning](https://semver.org). In this system, three numbers - for example, 2.12.4 - are used to define each version of a piece of software. When a change is made to the software, its version is incremented. Estos tres números siguen el patrón _MAJOR.MINOR.PATCH_y se incrementan de la siguiente manera:
+Software versions are often defined via [semantic versioning](https://semver.org). In this system, three numbers - for example, 2.12.4 - are used to define each version of a piece of software. When a change is made to the software, its version is incremented. These three numbers follow the pattern _MAJOR.MINOR.PATCH_, and are incremented as follows:
 
 - *MAJOR*: significant changes
 - *MINOR*: to add functionality
@@ -39,9 +39,9 @@ b = 5
 print(a/b)
 ```
 
-One divided by five is `0.2`, and this is what is printed if the script is run using Python 3. However, if a slightly older version of Python, such as Python 2, is used, the result printed is `0`. Esto se debe a que la división de enteros se aplica a enteros en Python 2, pero la división (normal) se aplica a todos los tipos, incluyendo enteros, en Python 3.
+One divided by five is `0.2`, and this is what is printed if the script is run using Python 3. However, if a slightly older version of Python, such as Python 2, is used, the result printed is `0`. This is because integer division is applied to integers in Python 2, but (normal) division is applied to all types, including integers, in Python 3.
 
-Therefore this simple script returns _different_ answers depending on the computational environment in which it is run. Usar la versión incorrecta de Python es fácil de hacer, y demuestra cómo una pieza de código perfectamente válida puede dar diferentes resultados dependiendo de su entorno. If such issues can impact a simple script like this, imagine how many could appear in a complex analysis procedure which may involve thousands of lines of code and dozens of dependent packages.
+Therefore this simple script returns _different_ answers depending on the computational environment in which it is run. Using the wrong version of Python is easy to do, and demonstrates how a perfectly valid piece of code can give different results depending on its environment. If such issues can impact a simple script like this, imagine how many could appear in a complex analysis procedure which may involve thousands of lines of code and dozens of dependent packages.
 
 Researchers need to understand and capture the computational environments in which they are conducting their work, as it has the potential to impact three parties:
 
