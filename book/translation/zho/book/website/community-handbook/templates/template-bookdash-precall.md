@@ -31,10 +31,10 @@ Please see more details on [the project](https://github.com/alan-turing-institut
 
 ### Agenda
 
-- Introductions (互相了解): 10 minutes
-- About Book Dash([logistics, accessible support, socials](https://hackmd. o/@turingway/bookdash-may2021-index): 10 分钟
-- [SMART objective setting](https://www.atlassian.com/blog/productivity/how to written smart-goals) (or quit writing): 15 minutes
-- A Strieria artists will be there !! - 你想要得到一些说明吗？ - would you like to get some illustration? (you should [check this out(https://zenodo.org/record/3332808))
+- Introductions (get to know each other): 10 minutes
+- About the Book Dash ([logistics, accessibility support, socials](https://hackmd.io/@turingway/bookdash-may2021-index)): 10 minutes
+- [SMART goal setting exercise](https://www.atlassian.com/blog/productivity/how-to-write-smart-goals) in breakout (or quiet writing): 15 minutes
+- A Scriberia artist will be there!! - would you like to get some illustration? (you should [check this out(https://zenodo.org/record/3332808))
 - Report out and general discussion: 30 minutes
 - Wrap up and final words: 5 minutes
 
@@ -63,8 +63,6 @@ Please see more details on [the project](https://github.com/alan-turing-institut
 ---
 <!-- Other important details discussed during the meeting can be entered here. -->
 
-* 详细 [Presentation](https://zenodo.org/record/3615259) 项目([video](https://www.youtube)。 -->
-
 * Detailed [Presentation](https://zenodo.org/record/3615259) about the project ([video](https://www.youtube.com/watch?v=dlycvMU45ek)) <--- update this
 * See the index HackMd: https://hackmd.io/@turingway/bookdash-may2021-index <--- update this
 * GitHub: https://github.com/alan-turing-institute/the-turing-way
@@ -82,17 +80,20 @@ We would like to help create some plans and topics they you would like to explor
 
 
 Setting our personal goals will help us prepare better for your participation:
-- **S**pecific: They precisely spell out what you want to accomplish and usually answer the 5 Ws (Who? What? 什么? 在哪里？ When? 为什么？
-)
-**M**easula：它们提供了一个具体的成功指标。
+- **S**pecific: They precisely spell out what you want to accomplish and usually answer the 5 Ws (Who? What? Where? When? Why?)
+- **M**easurable: They provide a specific indicator of success.
 - **A**ttainable: They are realistic.
 - **R**elevant: They are important and practical.
 - **T**ime-bound: They specify a deadline for when the goal will be met.
 
-*我们正在使用Danielle R. Schultz（2015年）的[本模板](https://freespiritpublishingblog.com/wp-content/uploads/2015/08/setting-smart-goals.pdf)。 <-复制IT BELOW-->
+*We are using [this template](https://freespiritpublishingblog.com/wp-content/uploads/2015/08/setting-smart-goals.pdf) by Danielle R. Schultz (2015).*
 
-> [name=name]
-> **S**设置：我想完成什么？ What steps will I take?
+<!--COPY IT BELOW-->
+
+> [name=Name]
+> **S**pecific: What do I want to accomplish?:
+> **M**easurable: How will I measure my success?:
+> **A**ttainable: Can I realistically achieve this goal? What steps will I take?
     > step 1:
     > step 2:
     > step 3:
@@ -123,10 +124,9 @@ Setting our personal goals will help us prepare better for your participation:
 
 ### Wondering where to start?
 
-以下是一些关于好的第一个贡献的建议：
+Here are a few suggestions for a good first contributions:
 
-- 通过在[书](https://the-turing-way)中提出一些修改来审查现有的一章。 etlify.com)和/或 [repository](https://github.com/alan-turing-institute/the-turing-way).
-- 在书中标注不明确或重复的信息，方法是在GitHub上创建一个[期](https://github.com/alan-turing-institute/the-turing-way/issues)。
+- Review an existing chapter by suggesting a few changes in [the book](https://the-turing-way.netlify.com) and/or [repository](https://github.com/alan-turing-institute/the-turing-way).
 - Flag the unclear or duplicated information in the book by opening an [issue on the GitHub](https://github.com/alan-turing-institute/the-turing-way/issues).
 - Fix an [old issue](https://github.com/alan-turing-institute/the-turing-way/issues) or comment on the the [pull requests](https://github.com/alan-turing-institute/the-turing-way/pulls).
 - Write your personal experience of reproducible research in this [google form](https://goo.gl/forms/akFqZEIy2kxAjfZW2).
