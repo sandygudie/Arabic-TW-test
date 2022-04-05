@@ -1,5 +1,5 @@
 (cm-aa-stories-interdisciplinary)=
-# 个人故事——多学科项目作者
+# Personal stories - Authorship on Interdisciplinary Projects
 
 ## Federico Nanni and Mariona Coll Ardanuy - Living with Machines
 
@@ -18,7 +18,7 @@ It brings together an interdisciplinary group of researchers from a range of dis
 * [ORCID](http://orcid.org/0000-0001-8455-7196)
 * [Website](https://github.com/mcollardanuy)
 
-**1. 1. 您学科的 *是正常的* 学术论文作者实践？ or used to be the normal practice?**
+**1. What is the *normal* practice of authorship for academic papers in your discipline? or used to be the normal practice?**
 
 We are an interdisciplinary project and therefore bring with us the usual practices of authorship from two distinct disciplines: Computational linguistics and the Humanities (History). This makes it trickier when trying to decide how to tackle authorship on our publications.
 
@@ -30,20 +30,20 @@ These two different approaches to authorship make it very hard to establish who 
 
 The publications we have published so far are more focused on the computational linguistics side of the project and therefore we have been generous with authorship for the whole team. This is due to the acceptance in computational linguistics that a team would have worked together to achieve this work.
 
-在撰写更具历史基础的文件时，我们可能需要考虑到我们的团队中的一些成员需要唯一的作者出版物，而在这些文件上增加作者会贬低他们所认为的文件威望。 In this case, we will be careful to fully cite our previous technical papers and acknowledge all of the team in an acknowledgement section.
+However, when writing more historically based papers we may need to consider that some of our team members need sole author publications and that adding authors onto these papers devalues the perceived prestige of the paper for them. In this case, we will be careful to fully cite our previous technical papers and acknowledge all of the team in an acknowledgement section.
 
 
-**2. 2. 在你的项目中讨论作者的时候？**
+**2. When did you discuss authorship in your project?**
 
 We started this process early but did not make much progress really until the first major paper of the project was about to be submitted. We then had to decide how to properly credit everyone in our team and it was driven by the need to get it done.
 
-**3. 3. 在你的项目中谁讨论过作者？**
+**3. Who had the discussion of authorship in your project?**
 
 Everyone was involved in the discussions about authorship in meetings led by the Principal Investigator - Professor Ruth Ahnert. All our voices were listened to in these discussions and the approach to authorship in the project had good intentions from the start.
 
 The discussions were very interdisciplinary as the project has a lot of postdoctoral researchers that all bring with them expert knowledge.
 
-**4. 4. 你决定在你的项目中采取什么办法？**
+**4. What approach have you decided to take in your project?**
 
 We adopted the [CRediT taxonomy](https://casrai.org/credit/) to better present each author's contributions to the work. However, we felt it does not cover all the roles in our project so we adapted it. We felt that some of the categories were a bit vague and we wanted to be specific about the roles played by our team members.
 
@@ -67,7 +67,7 @@ We did find that everyone had different opinions - some people did put themselve
 
 This meant that there had to be a degree of moderation when finalising the list of contributions.
 
-**6. 6. 这样做有什么问题？**
+**6. What have been the problems with doing this?**
 
 The cover page was a statement that was put in our pre-print to try to solve the issue of assigning contributions fairly and the need for a list of authors but it was a footnote in the final published article. Therefore, there still had to be a list of authors, and a first author for publication.
 
@@ -83,7 +83,7 @@ We had one person leading on a publication. They defined the structure, had an u
 
 This approach worked well for the technical papers we have written.
 
-**8. 8. 您在写作和项目中使用了哪些协作工具？**
+**8. What collaborative tools are you using for the writing and projects?**
 
 We are using Overleaf, which is a LaTex based writing software, but I think some people are using Google docs for collaborative writing.
 
