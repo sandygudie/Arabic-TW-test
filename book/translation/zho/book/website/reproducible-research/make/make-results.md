@@ -1,9 +1,9 @@
-(rr-make-result)=
-# 包括数字结果和表
+(rr-make-results)=
+# Including numerical results and tables
 
-此时你可能会想到“太酷了，我现在可以将数字 添加到我的手稿中！ 但这对数字结果究竟有什么作用？”
+此时你可能会想到“太酷了，我现在可以将数字 添加到我的手稿中！ But how exactly does this work for numerical results?"
 
-上面链接的可重现纸显示了这样做的一种方法： 在计算结果后， 它们是以 LaTeX 表格的形式写出来的。 下面是这些表格中的一个表在计算后看起来很正确：
+上面链接的可重现纸显示了这样做的一种方法： 在计算结果后， 它们是以 LaTeX 表格的形式写出来的。 Here is how one of these tables looks like right after it was computed:
 
 ```latex
 \start{tabular}{lrrr|rrrr}
@@ -17,17 +17,17 @@ Escapechar & 87. 6 & 94.37 & 74.85 & 97.95 & 96.26 & 95。
 要将此表包含在您的手稿中，您可以使用 LaTeX 的 `\input{}` 函数。 如果表格的文件名为 `mytable.tex`, 此命令 可以插入到您的手稿中:
 
 ```latex
-\step{table}
+\begin{table}
 \input{mytable}
 \end{table}
 ```
 
-另一种办法是利用变量。 不要在单独的文件中创建一个表，而是可以写一个表骨架 并使用变量。 您计算的结果与变量相关，一旦您的 手稿被编译，变量将被交换为实际数字结果。 下面是这个表在你的手稿中的样式：
+An alternative is to make use of variables. 不要在单独的文件中创建一个表，而是可以写一个表骨架 并使用变量。 您计算的结果与变量相关，一旦您的 手稿被编译，变量将被交换为实际数字结果。 Here is how such a table looks like in your manuscript:
 
 ```latex
-\step{table}
+\begin{table}
     \begin{tabular*}{ccc}
-        \textbf{Variable} & \textbf{Mean}   & \textbf{std \step{table}
+        \textbf{Variable} & \textbf{Mean}   & \textbf{Std. \step{table}
     \begin{tabular*}{ccc}
         \textbf{Variable} & \textbf{Mean}   & \textbf{std 绕道} \
         \hline
@@ -37,7 +37,7 @@ Escapechar & 87. 6 & 94.37 & 74.85 & 97.95 & 96.26 & 95。
 \end{table}
 ```
 
-你可以注意到 `\var1means` 不是标准的 LaTeX 命令：这是一个变量 你可以自己定义！ 这是如何做的？ 让脚本在 `\newcommand{}{}` 定义中的结果打印到一个文件， 例如这样(简化的 Python 示例)：
+你可以注意到 `\var1means` 不是标准的 LaTeX 命令：这是一个变量 你可以自己定义！ How is this done? 让脚本在 `\newcommand{}{}` 定义中的结果打印到一个文件， 例如这样(简化的 Python 示例)：
 
 ```python
 # this loops to data vectors of two variables (data1, data2), compute the
@@ -50,10 +50,10 @@ for name, data in (['var1', data1], ['var2', data2]):
     print('\\newcommand{\\%s }{ %f }' % (name + 'std', std))
 ```
 
-让我们说第一个数据集的平均值为9.2, 定义看起来就像 这样: `\newcommand{\var1me}{9.2}`。 请注意这个示例使用 Python ，但您可以使用您 熟悉的任何语言或方法来打印类似的定义。 使用此定义，LaTeX将表格单元格与 `\var1means` 和计算结果 数字结果交换。 您可以使用 `>` 抓取定义并将其写入一个文件。 在此示例中，我们将其写入一个名为 `result_def.tex` 的文件。
+让我们说第一个数据集的平均值为9.2, 定义看起来就像 这样: `\newcommand{\var1me}{9.2}`。 请注意这个示例使用 Python ，但您可以使用您 熟悉的任何语言或方法来打印类似的定义。 使用此定义，LaTeX将表格单元格与 `\var1means` 和计算结果 数字结果交换。 您可以使用 `>` 抓取定义并将其写入一个文件。 In this example, we write it to a file called `results_def.tex`
 
 ```makefile
-结果_def.tex: code/make_summary_stats.py
+results_def.tex: code/make_summary_stats.py
     python code/make_summary_stats.py > results_def.tex
 ```
 
@@ -62,7 +62,7 @@ for name, data in (['var1', data1], ['var2', data2]):
 最后，使用 `input{}` 命令将新的变量包括在您的 手稿和表中的变量：
 
 ```latex
-\step{document}
+\begin{document}
 \input{results_def.tex}
 ```
 
