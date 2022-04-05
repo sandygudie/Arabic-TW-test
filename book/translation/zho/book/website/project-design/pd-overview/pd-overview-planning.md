@@ -39,8 +39,8 @@ The {ref}`Research Ethics Committees Processes<er-committees>` chapter have more
 ```{note}
 **Top three 'selfish' reasons to use project design practices**
 1. **Saves time**: once the project is designed and all the connections between different parts of research can be organized with little effort.
-2. 2. **公开提供你的研究**：从一开始就开放你的研究可以帮助他人从事类似的学科或开始研究。
-3. 3. **让人们感兴趣**：你可以从一开始就得到一些人的帮助，因为你的项目已经被记录下来，很容易分享。
+2. **Makes your research openly available**: having your research open from the start can help others working in similar subjects or starting research.
+3. **Get people interested**: you can get people to help you from the start since your project is documented and is easy to share.
 ```
 
 Create a shared repository to allow easy access to information and different documents related to your project. A project repository can be openly available if you are developing an open source project, or can be shared only with your collaborators. In the chapter {ref}`pd-project-repo`, you can learn about how to set up a repository with key documents like a landing page, contribution guidelines and communication pathways.
