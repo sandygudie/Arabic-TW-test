@@ -17,7 +17,7 @@ Though scheduled for 1 hour, you are welcome to join for shorter period as your 
 
 The resource requirement for these calls is also very similar to the Collaboration Cafe.
 
-1. 由 [HackMD](https://hackmd.io/)分享的备注: [https://hackmd.io/@turingway/coworking-calling](https://hackmd.io/@turingway/coworking-call)
+1. Shared notes by [HackMD](https://hackmd.io/): [https://hackmd.io/@turingway/coworking-call](https://hackmd.io/@turingway/coworking-call)
 2. Online call by [Zoom](https://www.zoom.us/): The Zoom link is provided in the HackMD.
 3. An online Pomodoro clock: [https://cuckoo.team/TW-coworking](https://cuckoo.team/TW-coworking)
 
@@ -40,34 +40,34 @@ We'll run the following schedule during each call:
 
 In contrast to the Collaboration Cafes, the schedule for these calls seems more intense with less chance for discussion. However, since these calls are attended by fewer participants, it provides more opportunities for informal interactions.
 
-### Chairing Coworking calling
+### Chairing Coworking Calls
 
-请使用以下步骤每月更新文档：
+Please update the document each month using the following steps:
 
-- [每月更新HackMD](https://hackmd.io/@turingway/coworking-call) ，增加每周通话的日期
-- 将笔记从前调用到模板区域下方(将会定期存档于本节点页面)
-- 在Slack和Twitter上分享笔记，宣布日期
-- 通话期间使用便笺，在您主持通话时分享信息
-- 请确保您共享行为守则链接并使用共享的 Cuckoo (或其他网络时钟)
-- 在开始番茄钟会话之前为人们创建分区房间——需要时
-- 随着第一个番茄钟结束, 关闭任何分房间, 要求反馈, 然后重启第二个番茄会议
-- 通话排定时间为60分钟，因此最多可以容纳2个番茄会议
-- 关闭通话，感谢所有人，并为下一次通话腾出笔记
+- [Update the HackMD](https://hackmd.io/@turingway/coworking-call) each month by adding dates for the weekly calls
+- Move the notes from the previous call below the template area (that will be archived in this Notion page periodically)
+- Share the notes on Slack and Twitter announcing the dates
+- Use the notes during the call to share information as you chair the call
+- Make sure that you share the Code of Conduct link and use the shared Cuckoo (or other web-based clocks)
+- Create breakout rooms for people before starting the Pomodoro sessions - when needed
+- As the first Pomodoro session ends, close any breakout rooms, ask for feedback, and then restart the second Pomodoro session
+- The call is scheduled for 60 minutes, and hence can accommodate up to 2 Pomodoro sessions
+- Close the call thanking everyone, and arhieve the notes for the next call
 
 #### Beginning
 
-这次呼吁首先是小组成员欢迎与会者，分享《行为守则》，提醒他们如何参与呼吁， 并为每个人分享他们正在做的事情和他们将要做的事情奠定基础。
+The call begins with the team members welcoming the participants, sharing the Code of Conduct, reminding how to participate in the call, and setting the stage for everyone to share how they are doing and what they will be working on.
 
 #### Pomodoros
 
-会话主席将启动 [计时器](https://cuckoo.team/TW-coworking) 来跟踪番茄钟的会话。 如果每个人都计划就独立的任务开展工作，我们就会留在主会议室，静悄悄地工作。 对于呼叫中的两个人正在进行的任何讨论或协作任务，我们将为他们创建 [个断开房间](#breakout-rooms)。
+The session chair will start the [timer](https://cuckoo.team/TW-coworking) to keep track of the Pomodoro sessions. If everyone plans to work on independent tasks, we will remain in the main room and work silently. For any discussion or collaborative task that two people of the call are working on, we will create [breakout rooms](#breakout-rooms) for them.
 
-如果有新成员在通话中， 其中一名成员(通常是电话主页)将把新成员带到一个分区房间，在项目仓库周围展示并分享一些开始的小贴士。
+If there are new members on the call, one of the members (usually host of the call) will take the new member to a breakout room to show around the project repository and share some tips for getting started.
 
 #### Breaks
 
-我们将在每个番茄钟后短暂休息，思考我们可以做些什么。 任何参与者可能会遇到的错误，我们都会对我们的进展表示欢迎，并庆祝小的成功。
+We will take short breaks after each Pomodoro to reflect on what we could get done, troubleshoot any error that any attendee might have come across, verbalise our progress and celebrate small successes.
 
 #### If joining this call later
 
-如果你稍后加入，你可能会看到一些人静悄悄地从事他们的任务。 您可以在您的浏览器中打开 [共享时钟](https://cuckoo.team/TW-coworking) 来跟踪下次休息之前的时间。 如果你事先知道你以后加入， 您可以通过在通话前联系他们或在共享文档中留下笔记来让主机知晓。
+If you join later, you might see people quietly working on their tasks. You can track the time left before the next break by opening the [shared clock](https://cuckoo.team/TW-coworking) in your browser. If you know in advance that you'd join later, you can let the host of the call know by either contacting them before the call or leaving a note in the shared document.
