@@ -21,7 +21,7 @@ Regression testing approaches differ in their focus.
 
 Common examples include:
 - Bug regression: We retest a specific bug that has been allegedly fixed.
-- Old fix regression testing: We retest several old bugs that were fixed, to see if they are back. (这是经典的回归概念：程序已经倒退到坏状态。
+- Old fix regression testing: We retest several old bugs that were fixed, to see if they are back. (This is the classical notion of regression: the program has regressed to a bad state.)
 - General functional regression: We retest the project broadly, including areas that worked before, to see whether more recent changes have destabilized working code.
 - Conversion or port testing: The program is ported to a new platform and a regression test suite is run to determine whether the port was successful.
 - Configuration testing: The program is run with a new device or on a new version of the operating system or in conjunction with a new application. This is like port testing except that the underlying code hasn't been changed--only the external components that the software under test must interact with.
