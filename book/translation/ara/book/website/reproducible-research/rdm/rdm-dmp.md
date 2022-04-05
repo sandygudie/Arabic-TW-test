@@ -31,7 +31,7 @@ A Data Management Plan is a roadmap for you to manage your data efficiently and 
 * Determine who has access to the data and who grants access. At least one other person should have access to your data, such as your supervisor/PI/head of the department. If you're managing personal/commercially sensitive data, access should only be given to individuals that have to work with the data.
 
 ### 4. Preservation of the research outputs after the project
-* Consider whether your research outputs can be made publicly available. ولا يمكن تقاسم البيانات الشخصية أو نواتج البحوث اللازمة لتقديم طلبات للحصول على براءات الاختراع علناً، راجع {ref}`فتح قسم البيانات<rr-open-data>` إذا لم يكن من الممكن جعل البيانات متاحة للجمهور، فسيبقى عليك الحفاظ عليها لعدة سنوات. اعتماداً على سياسات بلدكم والمؤسسة والممولة.
+* Consider whether your research outputs can be made publicly available. Personal data or research outputs needed to apply for patents cannot be publicly shared, see the {ref}`Open data section<rr-open-data>` If data cannot be made publicly available you will still have to preserve it for several years, depending on the policies of your country, institute and funder.
 * You can outsource long term preservation of your data to a data repository. You can find more information on how to select an appropriate repository in {ref}`sharing and archiving data<rr-rdm-sharing>` section
     * Select repositories using, for example, [FAIRsharing](https://fairsharing.org/) or [Nature's recommended repository list](https://www.springernature.com/gp/authors/research-data-policy/repositories/12327124), that provide a persistent identifier such as a DOI for your research output. A repository should have a preservation policy that specifies how long your outputs will be curated. When in doubt, contact your library Research Data Support Team for more information about data repositories.
 
@@ -48,6 +48,6 @@ You can use this [checklist](https://ukdataservice.ac.uk/learning-hub/research-d
 - [UK Data Services data management information](https://ukdataservice.ac.uk/learning-hub/research-data-management/)
 - [TU Delft Research Data Management portal](https://www.tudelft.nl/en/library/research-data-management)
 - [Videos (3-7 min) on data management by Kristin Briney](https://www.youtube.com/watch?v=K5_ocBG5xek&list=PLEor4jq8YPgK_sgEiAcpHZLw-62mufXus)
-- Briney, Kristin. إدارة البيانات للباحثين: تنظيم وصيانة ومشاركة بياناتك لنجاح البحوث، Pelagic النشر، 2015.
-- () Briney, K. A., Coates, H. and Goben, A., 2020 Foundational Practices of Research Data Management. Research Ideas and Outcomes 6: e56508. [https://doi.org/10.3897/rio.6.e56508](https://doi.org/10.3897/rio.6.e56508)
+- Briney, Kristin. Data Management for Researchers : Organize, maintain and share your data for research success, Pelagic Publishing, 2015.
+- Briney, K.A., Coates, H. and Goben, A., 2020 Foundational Practices of Research Data Management. Research Ideas and Outcomes 6: e56508. [https://doi.org/10.3897/rio.6.e56508](https://doi.org/10.3897/rio.6.e56508)
 - Hart EM, Barmby P, LeBauer D, Michonneau F, Mount S, Mulrooney P, et al. (2016) Ten Simple Rules for Digital Data Storage. PLoS Comput Biol 12(10): e1005097. [https://doi.org/10.1371/journal.pcbi.1005097](https://doi.org/10.1371/journal.pcbi.1005097)
