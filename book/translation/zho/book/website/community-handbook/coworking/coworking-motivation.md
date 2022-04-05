@@ -31,18 +31,17 @@ These calls use a combination of two techniques:
 
 ### Shut up & Write
 
-[关闭 & 写入！ ](https://shutupwrite.com/) 是 *本地写入会话，您可以在会话中完成撰写* 他们的 [方法](https://shutupwrite.com/method) 将写作过程分为八个步骤：理想化、结构、起草、编辑、结构调整和修订、打磨、出版和宣传。 They encourage their participants to identify what they want to write and where they are in this eight-step process. Once they identify their starting point and commit to getting through the next steps by practicing consistency *steadily to “The End”*.
+The [Shut up & Write!](https://shutupwrite.com/) are *local writing meetups where you get your writing done*. Their [method](https://shutupwrite.com/method) divides the writing process into eight steps: ideation, structuring, drafting, editing, restructuring and revising, polishing, publishing, and promoting. They encourage their participants to identify what they want to write and where they are in this eight-step process. Once they identify their starting point and commit to getting through the next steps by practicing consistency *steadily to “The End”*.
 
 They explain that the Shut up & Write! events provide two things:
 
-**1. 1. 问责制 & 习惯形成：**
+**1. Accountability & Habit Formation:**
 
 A new habit becomes a part of our routine when we commit to doing them consistently on a specific day, time, and location. Based on this principle, Shut up & Write events allow participants to yield successful outcomes for their writing assignments by making the commitment to attend the writing event each week at the same time for 1 hour.
 
-**2. 2. 社交动机 & 支持：**
+**2. Social Motivation & Support:**
 
-The *sense of belonging* can increase performance and engagement in tasks. 在对来自不同部门的2000年参与者进行的一次调查中， 高归属率与工作表现增长56%相关联。
-{cite:ps}`HBR2019归属` 沿着同一线， 关闭 & 写入事件提供了一种社区感情，在这种感情中，参与者感觉到所有其他人都在他们周围写信。
+The *sense of belonging* can increase performance and engagement in tasks. In a survey conducted on 2000 participants from different sectors, high belonging was linked to a whopping 56% increase in job performance {cite:ps}`HBR2019Belonging`. Along the same line, Shut Up & Write events provide a sense of community where attendees feel supported and motivated by everyone else writing around them.
 
 They create a cycle of 3 experiences: "habit building and progress", "social support and accountability" and "great writing experience", which keep people engaged, feel committed and accomplish what they set out to do.
 
