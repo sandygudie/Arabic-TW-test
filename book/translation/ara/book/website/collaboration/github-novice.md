@@ -1,21 +1,21 @@
 (cl-github-novice)=
-# البدء مع GitHub
+# Getting Started With GitHub
 
-## الشروط المسبقة
+## Prerequisites
 
-| الشروط المسبقة           | الأهمية | الحواشي                              |
-| ------------------------ | ------- | ------------------------------------ |
-| {ref}`rr-open`           | مساعدة  | المكونات هي جزء من سير العمل المفتوح |
-| مستوى المهارة الموصى بها | مبتدئ   | لمساعدة المبتدئ الكامل               |
+| Prerequisite            | Importance | Notes                                    |
+| ----------------------- | ---------- | ---------------------------------------- |
+| {ref}`rr-open`          | Helpful    | Components are part of the open workflow |
+| Recommended skill level | Beginner   | To help a complete beginner              |
 
 ## Summary
 
-يقدم هذا الفصل دليل خطوة بخطوة لاستخدام واجهة ويب على الإنترنت تسمى GitHub. هذا المنصة مشهورة بين الباحثين لتخزين ومشاركة تعليماتهم البرمجية والبيانات الصغيرة والمعلومات ذات الصلة. غير أنها تطورت إلى منبر تعاوني لوضع الوثائق وإبلاغها بصراحة وشفافية.
+This chapter introduces a step-by-step guide for using an online web interface called GitHub. This platform is popular among researchers to store and share their code, small data and related information. However, it has evolved into a collaborative platform for developing documents and communicating them openly and transparently.
 
-ويمكن أن يبدو العديد من الأدوات الجديدة التي تم تطويرها للبحوث القابلة للاستنساخ مثيرا للاهتمام بالنسبة للباحثين الذين لا يملكون سوى القليل من الخبرة في الأدوات الحسابية أو لا يملكون أي خبرة على الإطلاق. ومع ذلك، إذا كان الباحثون قد استخدموا أدوات على الإنترنت مثل غوغل ساحة العمل و مايكروسوفت، مكتب مايكروسوفت، مع كمية صغيرة من التعليمات يجب أن يكونوا قادرين على تعلم استخدام منصة GitHub عبر الإنترنت بسهولة كبيرة.
+Many of the new tools developed for reproducible research can seem daunting to researchers who have little or no experience with computational tools. However, if researchers have used online tools such as Google workspace and Microsoft Office, with a small amount of instruction they should be able to learn to use GitHub online platform fairly easily.
 
-في هذا الفصل، نصف الدافع {ref}`لاستخدام GitHub<cl-github-novice-motivation>`، شرح {ref}`الخطوات الأولى الهامة<cl-github-novice-firststeps>`، مناقشة بعض {ref}`الميزات المفيدة<cl-github-novice-features>` وقائمة الموارد لتعلم {ref}`ميزات GitHub المتقدمة<cl-github-novice-advanced>`.
+In this chapter, we describe the {ref}`motivation of using GitHub<cl-github-novice-motivation>`, explain the {ref}`important first steps<cl-github-novice-firststeps>`, discuss some {ref}`useful features<cl-github-novice-features>` and list resources to learn {ref}`advanced GitHub features<cl-github-novice-advanced>`.
 
-وستمكن الدروس المستفادة في هذا الفصل الباحثين من العمل على نحو مفتوح وتعاوني مع مراقبة الإصدار.
+Lessons learned in this chapter will enable researchers to work openly, collaboratively and with version control.
 
-***الفصل**: يتم معالجة هذا الفصل لـ `مجموعة دراسة البيانات تورين` (`turing-dsg`).*
+***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*
