@@ -1,56 +1,57 @@
 (rr-overview-definitions)=
-# Definições
+# Definitions
 
-A definição mais comum de reprodutibilidade (e replicação) foi realçada pela primeira vez por Claerbout e Karrenbach em 1992 {cite:ps}`ClaerboutKarrenbach1992Reproducibilidade` e foi usada em literatura de ciência computacional desde então. Outra definição popular foi introduzida em 2013 pela Associação para Máquinas de Computação (ACM) {cite:ps}`Ivie2018SciComp`, que trocou o significado dos termos "reproduzível" e "replicável" em comparação com Claerbout e Karrenbach.
+The most common definition of reproducibility (and replication) was first noted by Claerbout and Karrenbach in 1992 {cite:ps}`ClaerboutKarrenbach1992Reproducibility` and has been used in computational science literature since then. Another popular definition has been introduced in 2013 by the Association for Computing Machinery (ACM) {cite:ps}`Ivie2018SciComp`, which swapped the meaning of the terms 'reproducible' and 'replicable' compared to Claerbout and Karrenbach.
 
-A tabela a seguir contrasta ambas as definições {cite:ps}`Heroux2018Reproducibility`.
+The following table contrasts both definitions {cite:ps}`Heroux2018Reproducibility`.
 
-| Período:     | Claerbout & Karrenbach                                                                                                                                             | MPC                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Reprodutível | Os autores fornecem todos os dados necessários e os códigos do computador para executar a análise novamente, recriando os resultados.                              | (Equipe diferente, configuração experimental diferente.) (Equipe diferente, configuração experimental diferente.) A medida pode ser obtida com precisão declarada por uma equipa diferente, um sistema de medição diferente, em um local diferente em vários testes. Para experiências computacionais, isso significa que um grupo independente pode obter o mesmo resultado usando artefatos que eles se desenvolvem completamente independentemente.                                    |
-| Replicável   | Um estudo que chega às mesmas descobertas científicas que outro estudo, recolhendo novos dados (possivelmente com métodos diferentes) e concluindo novas análises. | (Equipe diferente, mesma configuração experimental.) (Equipe diferente, mesma configuração experimental.) A medida pode ser obtida com precisão declarada por uma equipe diferente usando o mesmo procedimento de medição, o mesmo sistema de medição, sob as mesmas condições de operação, na mesma ou em um local diferente em múltiplos ensaios. Para experiências computacionais, isso significa que um grupo independente pode obter o mesmo resultado usando os artefatos do autor. |
+| Term         | Claerbout & Karrenbach                                                                                                                                    | ACM                                                                                                                                                                                                                                                                                                                                                                                                             |
+| ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Reproducible | Authors provide all the necessary data and the computer codes to run the analysis again, re-creating the results.                                         | (Different team, different experimental setup.) The measurement can be obtained with stated precision by a different team, a different measuring system, in a different location on multiple trials. For computational experiments, this means that an independent group can obtain the same result using artifacts which they develop completely independently.                                                |
+| Replicable   | A study that arrives at the same scientific findings as another study, collecting new data (possibly with different methods) and completing new analyses. | (Different team, same experimental setup.) The measurement can be obtained with stated precision by a different team using the same measurement procedure, the same measuring system, under the same operating conditions, in the same or a different location on multiple trials. For computational experiments, this means that an independent group can obtain the same result using the author's artifacts. |
 
-Barba (2018) {cite:ps}`Barba2018Reproducibilidade` realizou uma revisão detalhada da literatura sobre o uso de substâncias reprodutíveis / replicáveis cobrindo várias disciplinas. A maioria dos papéis e disciplinas usa a terminologia conforme definida por Claerbout e Karrenbach, enquanto a microbiologia, a imunologia e a ciência da computação tendem a acompanhar o uso de reprodutibilidade e replicação no ACM. Na literatura política científica e económica, ambos os termos são intermutavelmente utilizados.
+Barba (2018) {cite:ps}`Barba2018Reproducibility` conducted a detailed literature review on the usage of reproducible/replicable covering several disciplines. Most papers and disciplines use the terminology as defined by Claerbout and Karrenbach, whereas microbiology, immunology and computer science tend to follow the ACM use of reproducibility and replication. In political science and economics literature, both terms are used interchangeably.
 
-Para além destas definições de alto nível de reprodução, alguns autores fornecem distinções mais detalhadas. Victoria Stodden {cite:ps}`Victoria2014Reproducibility`, um estudioso proeminente sobre este tópico, por exemplo, identificou as seguintes distinções:
+In addition to these high level definitions of reproducibility, some authors provide more detailed distinctions. Victoria Stodden {cite:ps}`Victoria2014Reproducibility`, a prominent scholar on this topic, has for example identified the following further distinctions:
 
-- _Reprodução computacional_: Quando informações detalhadas são fornecidas sobre código, software, hardware e detalhes de implementação.
+- _Computational reproducibility_: When detailed information is provided about code, software, hardware and implementation details.
 
-- _Reprodução empírica_: Quando informações detalhadas são fornecidas sobre experimentos e observações científicos não computacionais do império. Na prática, isso é possível através da disponibilização de dados e de pormenores sobre a forma como foram recolhidos livremente.
+- _Empirical reproducibility_: When detailed information is provided about non-computational empirical scientific experiments and observations. In practice, this is enabled by making the data and details of how it was collected freely available.
 
-- _Reprodução estatística_: Quando informações detalhadas são fornecidas, por exemplo, sobre a escolha de testes estatísticos, parâmetros de modelo e valores limite. Trata-se sobretudo de um pré-registo de concepção dos estudos, a fim de evitar hack de valor e outras manipulações.
+- _Statistical reproducibility_: When detailed information is provided, for example, about the choice of statistical tests, model parameters, and threshold values. This mostly relates to pre-registration of study design to prevent p-value hacking and other manipulations.
 
-(rr-overview-definitions-reproducibilidade)=
-## Tabela de Definições de Reprodução
+(rr-overview-definitions-reproducibility)=
+## Table of Definitions for Reproducibility
 
-No _The Turing Way_, </em>, nós definimos **pesquisa reprodutível** como trabalho que pode ser independente de um mesmo dado e o mesmo código que a equipe original usou. O reprodutor é diferente de replicável, robusto e generalista conforme descrito na figura abaixo.
+At _The Turing Way_, we define **reproducible research** as work that can be independently recreated from the same data and the same code that the original team used. Reproducible is distinct from replicable, robust and generalisable as described in the figure below.
 
 
 ```{figure} ../../figures/reproducible-matrix.jpg
 ---
-nome: reprodutível-matrix
-alt: definição de Kirstie para pesquisa reprodutível.
---- Como a Via Turing define a pesquisa reprodutível
+name: reproducible-matrix
+alt: Kirstie's definition of reproducible research.
+---
+How the Turing Way defines reproducible research
 ```
 
-As diferentes dimensões de pesquisa reprodutível descritas na matriz acima têm as seguintes definições:
+The different dimensions of reproducible research described in the matrix above have the following definitions:
 
 - **Reproducible:** A result is reproducible when the _same_ analysis steps performed on the _same_ dataset consistently produces the _same_ answer.
-- **Replicável:** Um resultado é replicável quando a _mesma_ análise realizada em _diferentes_ conjuntos de dados produzem respostas qualitativamente semelhantes.
-- **Robust:** Um resultado é robusto quando o _mesmo conjunto de dados_ está sujeito a _diferentes_ fluxos de trabalho de análise para responder à mesma pergunta de pesquisa (por exemplo, um pipeline escrito em R e outro escrito em Python) e é produzida uma resposta qualitativamente similar ou idêntica. Resultados sólidos mostram que o trabalho não depende das especificidades da linguagem de programação escolhida para realizar a análise.
-- **Generalizável:** Combinar descobertas replicáveis e robustas nos permitem formar resultados generalizados. Observe que executar uma análise em uma implementação de software diferente e com um conjunto de dados diferente não fornece resultados _generalizados_. Haverá muito mais passos para saber se o trabalho se aplica a todos os diferentes aspectos da questão da investigação. A generalização é um passo importante para compreender que o resultado não depende de um determinado conjunto de dados nem de uma determinada versão do gasoduto de análise.
+- **Replicable:** A result is replicable when the _same_ analysis performed on _different_ datasets produces qualitatively similar answers.
+- **Robust:** A result is robust when the _same_ dataset is subjected to _different_ analysis workflows to answer the same research question (for example one pipeline written in R and another written in Python) and a qualitatively similar or identical answer is produced. Robust results show that the work is not dependent on the specificities of the programming language chosen to perform the analysis.
+- **Generalisable:** Combining replicable and robust findings allow us to form generalisable results. Note that running an analysis on a different software implementation and with a different dataset does not provide _generalised_ results. There will be many more steps to know how well the work applies to all the different aspects of the research question. Generalisation is an important step towards understanding that the result is not dependent on a particular dataset nor a particular version of the analysis pipeline.
 
-Mais informações sobre essas definições podem ser encontradas em "Reprodutibilidade vs. Replicabilidade: Um breve histórico de uma Terminologia Confundida" por Hans E. Plesser {cite:ps}`Plesser2018Reprodutibilidade`.
+More information on these definitions can be found in "Reproducibility vs. Replicability: A Brief History of a Confused Terminology" by Hans E. Plesser {cite:ps}`Plesser2018Reproducibility`.
 
 ```{figure} ../../figures/reproducible-definition-grid.jpg
 ---
-nome: tabela reprodutível-definição. pg
-alt: Grade de com as características de pesquisa reprodutível, replicável, robusta e generalizável
+name: reproducible-definition-grid.jpg
+alt: Grid with the characteristics of reproducible, replicable, robust and generalisable research
 ---
-_A ilustração de projeto The Turing Way_ por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
 (rr-overview-reproducible)=
-## Reproduível, mas não aberto
+## Reproducible But Not Open
 
-_A Via Turing_ reconhece que algumas pesquisas usarão dados sensíveis que não podem ser compartilhados e este manual fornecerá guias sobre como sua pesquisa pode ser reprodutível sem que todas as peças estejam necessariamente abertas.
+_The Turing Way_ recognises that some research will use sensitive data that cannot be shared and this handbook will provide guides on how your research can be reproducible without all parts necessarily being open.
