@@ -1,7 +1,7 @@
 (rr-rdm-metadata)=
 # Documentation and Metadata
 
-Having data available is of no use if it cannot be understood. 如果没有元数据来提供来源和上下文，数据就无法有效使用。 例如，如果没有标题说明栏目/行的内容，数字表就毫无用处。 因此，你应该确保开放的数据集包括前后一致的元数据，即有关数据的信息，以便充分描述数据。 这就要求在文件和元数据中记录数据所附的信息。
+Having data available is of no use if it cannot be understood. Without metadata to provide provenance and context, the data can't be used effectively. For example, a table of numbers is useless if no headings describe what the columns/rows contain. Therefore you should ensure that open datasets include consistent metadata, that is information about the data so that the data is fully described. This requires that information accompanying data is captured in documentation and metadata.
 
 ## Documentation
 
@@ -15,14 +15,14 @@ Metadata is information about the data, descriptors that facilitate cataloguing 
 - The level of documentation and metadata [{term}`def<Metadata>`] will vary according to the project, and the range of people the data needs to be understood by.
 - Examples of documentation may include items like [data dictionaries](https://help.osf.io/hc/en-us/articles/360019739054-How-to-Make-a-Data-Dictionary) or codebooks, protocols, logbooks or lab journals, README files, research logs, analysis syntax, algorithms and code comments.
 - Variables should be defined and explained using data dictionaries or codebooks.
-- Data should be stored in logical and hierarchical folder structures, with a README file used to describe the structure. The README file is helpful for others and will also help you find your data in the future {cite:ps}`Fuchs2018documentation`. 例如，请参阅Cornell</a> 的
+- Data should be stored in logical and hierarchical folder structures, with a README file used to describe the structure. The README file is helpful for others and will also help you find your data in the future {cite:ps}`Fuchs2018documentation`. See the [README template from Cornell](https://cornell.app.box.com/v/ReadmeTemplate) for an example.
 - It is best practice to use recognised community metadata standards to make it easier for datasets to be combined.
 
 (rr-rdm-metadata-standards)=
 ### Community Standards - Metadata
 
-(rr-rdm-metatic data standards)=
+The use of community-defined standards for metadata is vital for reproducible research and allows for the comparison of heterogeneous data from multiple sources, domains and disciplines.
 
-元数据标准包括内容和结构标准。 内容标准解释在描述某一特定类型的资源时应记录哪些信息，以及应如何记录这些信息。 结构性标准界定了哪些领域以及哪些类型的信息应记录在这些领域。
+Metadata standards include content and structural standards. The content standards explain what information should be recorded when describing a particular type of resource and how that information should be recorded. While the structural standards define what the fields are and what types of information should be recorded in them.
 
-元数据标准也是针对学科的。 例如，对于脑数据来说， [大脑成像数据结构](https://doi.org/10.25504/FAIRsharing.rd1j6t) 是要使用的标准。 然而，并非所有学科都可以使用元数据标准。 您可以通过 [FAIRsharing](https://fairsharing.org/)来看到您的学科是否使用元数据标准， 一个用于识别和引述您的数据和学科存在的元数据或标识图案、数据库或存储库的资源。 还有研究人员利用更一般的元数据标准的情况。 例如，当他们使用一个通用档案来储存数据时，他们必须遵守档案的元数据标准。 在这种情况下，可以增加一个具有学科特定元数据的文本文件，作为文件的一部分。
+Metadata standards are also discipline-specific. For example, for brain data, the [Brain Imaging Data Structure](https://doi.org/10.25504/FAIRsharing.rd1j6t) is the standard to use. Not every discipline may use metadata standards, however. You can see if your discipline uses metadata standards through [FAIRsharing](https://fairsharing.org/), a resource to identify and cite the metadata or identifier schemas, databases or repositories that exist for your data and discipline. There are also situations when researchers make use of more general metadata standards, for example when they use a generic archive to store their data they have to adhere to the metadata standards of the archive. In this case, a text file with discipline-specific metadata can be added as part of the documentation.
