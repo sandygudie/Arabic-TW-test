@@ -1,28 +1,30 @@
-(ch-template-bookdash-notas)=
-# Modelo HackMD para notas compartilhadas
+(ch-template-bookdash-notes)=
+# HackMD Template for Shared Notes
 
-*Este modelo pode ser usado para compartilhar anotações e troca de informações em HackMD durante os eventos de traço de livros. A permissão de acesso pode ser configurada para que as notas possam ser lidas por todos e editadas por quaisquer usuários que tenham acesso.*
+*This template can be used for shared note-taking and information exchange in HackMD during the book dash events. The access permission can be set so that the notes can be read by everyone and edited by any signed-in users.*
 
 ```
-# Despejo de Livro, DD Mês AAAA - Dia 1 <-- crie um para cada dia
+# Book Dash, DD Month YYYY - Day 1 <-- create one for each day
 
-###### tags: `bookdash YYYY` `mês` `event`
+###### tags: `bookdash YYYY` `month` `event`
 
-==Se você é novo no HackMD, veja este guia curto: [https://hackmd. o/@turingway/hackmd-guide](https://hackmd. o/@turingway/hackmd-guide)==
+==If you are new to HackMD, please see this short guide: [https://hackmd.io/@turingway/hackmd-guide](https://hackmd.io/@turingway/hackmd-guide)==
 
 :::info
-- **Localização:** Online/in-person
-- **Data:** Mês do DD YYYY
-- **Documento com todos os links:** (fornecer link para a página do índice) <--- update este
+- **Location:** Online/in-person
+- **Date:** DD Month YYYY
+- **Document with all links:** (provide link to the index page) <--- update this
 :::
 
-**sessões de desenvolvimento**
+**Development sessions**
 
-relógio de Cuckoo: https://cuckoo. eam/tw-bookdash
+Cuckoo clock: https://cuckoo.team/tw-bookdash
 
-a cada dia realizaremos 3 sessões de desenvolvimento e uma sessão temática de discussão/rede onde você pode interagir com os outros. continue sua sessão de desenvolvimento fora do sistema ou faça uma pausa, pois é mais sustentável e útil para sua participação.
+Each day we will hold 3 development sessions and an one themed discussion/networking session where you can interact with others, continue your disucssion outside development session or take a break as it's most sustainable and helpful for your participation.
 
-Cada sessão de desenvolvimento seguirá a técnica Pomodoro que também utilizamos para as nossas chamadas de trabalho. Usaremos o [relógio de compartilhamento (cuckoo) compartilhado pelo navegador](https://cuckoo.team/tw-bookdash) para gerir o nosso tempo ([Capítulo de cooperação em The Turing Way](https://the-turing-way.netlify.app/community-handbook/coworking/coworking-motivation.html) Todo o tempo fornecido em London Time (UTC+1). Please use this link to convert in your time zone: convert time: https://arewemeetingyet.com/london/YYYY-MM-DD/hh:mm (update DD: date, hh:mm: hours:minutes)
+Each development session will follow the Pomodoro technique that we also use for our coworking calls. We will use [browser-based shared (cuckoo) clock](https://cuckoo.team/tw-bookdash) to manage our time ([Coworking chapter in The Turing Way](https://the-turing-way.netlify.app/community-handbook/coworking/coworking-motivation.html))
+
+All time provided in London Time (UTC+1). Please use this link to convert in your time zone: convert time: https://arewemeetingyet.com/london/YYYY-MM-DD/hh:mm (update DD: date, hh:mm: hours:minutes)
 
 **Use the Pomodoro sessions for comfort breaks as needed**
 
@@ -40,38 +42,44 @@ Cada sessão de desenvolvimento seguirá a técnica Pomodoro que também utiliza
 
 > Feel free to move between the breakout rooms! 
 
-**Sala 1 (Reprodutividade):** (adicionar nome)
-**Sala 2 (Etal):** (adicionar nome)
-**Sala 3 (Comunicação):** (adicionar nome)
-**Sala 4 (Projeto de projeto):** (adicionar nome)
-**Sala 5 (Infraestrutura):** (adicionar nome)
-**Sala 6 (Sala Individual )**
+**Room 1 (Reproducibility):** (add name)
+**Room 2 (Ethics):** (add name)
+**Room 3 (Communication):** (add name)
+**Room 4 (Project Design):** (add name)
+**Room 5 (Infrastructure):** (add name)
+**Room 6 (Individual Room)**
 
-:one: Dia 1: DD Mês YYYY
+:one: Day 1: DD Month YYYY
 ---
 
-### :wave: Cadastre-se
+### :wave: Sign up
 
-*Por favor, adicione seu nome a esta lista, mas lembre-se de que este é um documento público, então use um pseudônimo se preferir, ou apenas sinta-se livre para deixar seu nome. *Nome (pronomes - opcional) / Instituto / Twitter, GitHub / icebreaker: Que música/música/artista/álbum te deixa de bom humor! :musical_score: 
+*Please add your name to this list, but remember that this is a public document, so use a pseudonym if you'd prefer, or just feel free to leave your name off.*
+
+*Name (pronouns - optional) / Institute / Twitter, GitHub / icebreaker: What song/music/artist/album puts you in a good mood!* :musical_score: 
 
 * 
 * 
 * 
 * 
 
-### :books: Dash de Via e Livro
+### :books: Turing Way and Book Dash
 
-* Introdução à Via de Livros & Dívida de Livro: (Link para slides de introdução) <---
-* Chamadas de antecipação: (Link para as notas compartilhadas) <---
-* Repositório de Projeto no GitHub: https://github. om/alan-turing-institute/the-turing-way
-* Book é hospedado online em: https://the-turing-way.netlify. om
-* Entrar no canal do Slack: Um e-mail será enviado para você
-* Entre na [lista de distribuição para receber a newsletter](https://tinyletter. om/TuringWay)
-* Siga no Twitter: [@turingway](https://twitter. m/turingway)
+* Intro to The Turing Way & the Book Dash: (Link to intro slides) <---
+* Predash drop-in calls: (Link to the shared notes) <---
+* Project repository on GitHub: https://github.com/alan-turing-institute/the-turing-way
+* Book is hosted online at: https://the-turing-way.netlify.com
+* Join Slack channel: An email will be sent to you
+* Join the [mailing list to receive newsletter](https://tinyletter.com/TuringWay)
+* Follow on Twitter: [@turingway](https://twitter.com/turingway)
 
-### :busts_in_silhouette::speech_balloon: Planejando suas contribuições: rompa (10 minutos)
+### :busts_in_silhouette::speech_balloon: Planning your contributions: breakout (10 minutes)
 
-*Em grupos de 3 explore e discuta sobre o que você gostaria de ver neste livro, ou como você pode contribuir. :sparkles: :space_invader: :rocket: :star2: Include your GitHub username, one sentence description and links to relevant issues and pull requests.*
+*In groups of 3 explore and discuss about what you'd like to see in this book, or how you can contribute.* :sparkles: :space_invader: :rocket: :star2:
+
+You can use your SMART goals to guide your discussions <-- provide link to the onboarding call's notes
+
+*List what you are working on below! Include your GitHub username, one sentence description and links to relevant issues and pull requests.*
 
 ### :dart: Your goals for the book dash <--- used for only day-1
 
