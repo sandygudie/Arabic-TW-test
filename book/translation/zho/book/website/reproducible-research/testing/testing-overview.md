@@ -12,7 +12,7 @@ In addition to these two kinds of tests, there are also different levels of test
 
 [Smoke testing](#Smoke_testing): Very brief initial checks that ensures the basic requirements required to run the project hold. If these fail there is no point proceeding to additional levels of testing until they are fixed.
 
-[单元测试](#Unit_tests): 在软件测试过程中测试软件的单个单元. 其目的是验证软件的每个单位是否按设计行事。 The purpose is to validate that each unit of the software performs as designed.
+[Unit testing](#Unit_tests):    A level of the software testing process where individual units of a software are tested. The purpose is to validate that each unit of the software performs as designed.
 
 [Integration testing](#Integration_testing): A level of software testing where individual units are combined and tested as a group. The purpose of this level of testing is to expose faults in the interaction between integrated units.
 
