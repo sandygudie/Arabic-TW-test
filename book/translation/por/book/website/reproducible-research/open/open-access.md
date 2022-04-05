@@ -60,9 +60,9 @@ Concerning the moment to make the paper publicly available, many journals establ
 
 ```{figure} ../../figures/routes-to-OA.jpg
 ---
-altura: 500px
-nome: rotas-para-OA
-alt: Uma imagem de um trem mostrando as rotas para abrir a publicação do acesso. A rota verde é sinalizada como gratuita e mostra um servidor de pré-impressão no início da jornada e arquivo próprio no final. As rotas do ouro e dos diamantes são sinalizadas como o autor paga e o financiador ou a instituição paga e mostram a publicação em uma parte do diário de acesso aberto da jornada.
+height: 500px
+name: routes-to-OA
+alt: An image of a train showing the routes to open access publishing. The green route is signalled as free and shows a preprint server at the start of the journey and self archive at the end. The gold and diamond routes are signalled as author pay and funder or institution pay and show the publish in an open access journal part of the journey.
 --- Rotas para publicação aberta.
 _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. Versão original do Zenodo. [http://doi.org/10.5281/zenodo.5706310](http://doi.org/10.5281/zenodo.5706310)
 ```
@@ -78,7 +78,7 @@ Publishing openly also has benefits for you as an author. Your work is likely to
 ---
 height: 500px
 name: share-work-openly
-alt: Uma imagem de cartaz de uma jornada de trem e ao longo do caminho cinco razões pelas quais você deve compartilhar sua pesquisa abertamente é anotada.
+alt: An poster image of a train journey and along the way five reasons why you should share your research openly are annotated.
 --- Vantagens de compartilhar sua pesquisa abertamente
 _A Turing Way_ projeto ilustrado por Scriberia. Usado sob uma licença CC-BY 4.0. Versão original do Zenodo. [http://doi.org/10.5281/zenodo.5706310](http://doi.org/10.5281/zenodo.5706310)
 ```
