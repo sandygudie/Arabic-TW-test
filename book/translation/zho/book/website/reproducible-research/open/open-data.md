@@ -12,7 +12,7 @@ Accordingly, there is an ongoing global data revolution that seeks to advance co
 
 This represents a real shift in how research works. Funders are starting to require researchers to make their data available and submit data management plans {ref}`Data Management Plans<rr-rdm-dmp>` as part of project proposals. At the moment, anyone who wishes to use data from a researcher often has to contact that researcher and make a request. "Open by default" remedies this with a presumption of publication for all. If access to data is restricted, for instance, due to security reasons, the justification for this should be made clear. Free access to and subsequent use of data is of significant value to society and the economy. That data should, therefore, be open by default and only as closed as necessary.
 
-您可以在描述 {ref}的章节中找到更多关于您数据的实际步骤。 `分享您数据的步骤 <rr-rdm-sharing-steps>` 在子章节中： {ref}`分享和归档数据<rr-rdm-sharing>`
+You can find more about the practical steps to make your data available in the section describing {ref}`Steps to Share your Data <rr-rdm-sharing-steps>` in the subchapter: {ref}`Sharing and Archiving Data<rr-rdm-sharing>`.
 
 (rr-open-data-barriers)=
 ## Barriers to Data Sharing
@@ -38,7 +38,7 @@ _The Turing Way_ project illustration by Scriberia. Original version on Zenodo. 
 
 Many fields of research involve working with sensitive personal data, with medical research being the most obvious example. Individuals must be protected from (re)identification via their data used for research. Anonymisation of the data may be sufficient in some cases, but ensuring that (re)identification is not possible is becoming increasingly difficult due to technical progress, growing computational power, and – ironically – more open data. For example, (re)identification may be possible via data-mining of accessible data and so-called quasi-identifiers, a set of (common) properties that are – in their combination – so specific that they can be used to identify individuals.
 
-如果提供了部分或普遍化的数据集，则仍有可能保持隐私。 例如年龄组而不是出生日期，或者只有头两位邮政编码。 还可以用研究人员在关闭数据本身的同时能够查询的格式提供数据。 For example, a user may be able to send a query to retrieve the mean of a dataset, but not be able to access any of the individual data points.
+Preserving privacy may still be possible if partial or generalised datasets are provided. For example, you may provide age bands instead of birth date or only the first two digits of postal codes. It may also be possible to provide the data in such a format that researchers can query it whilst keeping the data itself closed. For example, a user may be able to send a query to retrieve the mean of a dataset, but not be able to access any of the individual data points.
 
 Many fields of scientific disciplines involve working with sensitive personal data. Their management is well regulated in data protection legislation (in Europe through national implementations of the General Data Protection Regulation) and ethics procedures as they are established in most research institutions {cite:ps}`EU2016protection`.
 
@@ -50,9 +50,9 @@ For anonymised research data to be made available for future reuse, consent form
 (rr-open-data-barriers-anonymisation)=
 ### Anonymisation
 
-必须通过其数据保护个人不被（重新）识别。 在某些情况下，数据的匿名化可能就足够了。 但确保不可能重新查验身份正变得越来越困难。 It might even be impossible due to technical progress, growing computational power and – ironically – more open data.
+Individuals must be protected from (re)identification through their data Anonymisation of the data may be sufficient in some cases, but ensuring that re-identification is not possible is becoming increasingly difficult. It might even be impossible due to technical progress, growing computational power and – ironically – more open data.
 
-如果提供部分或普遍化的数据集，则仍有可能保持隐私。 例如，您可以提供年龄段而不是出生日期，或者只提供头两位邮政编码。 还可以以研究人员在关闭数据本身的同时能够查询的格式提供数据。 For example, a user may be able to send a query to retrieve the mean of a dataset, but not be able to access any of the individual data points. 但不能访问任何单独的数据点。
+For example, re-identification may be possible via data-mining of accessible data and so-called quasi-identifiers, a set of (common) properties that are – in their combination – so specific that they can be used to identify an individual. Preserving privacy may still be possible if partial or generalised datasets are provided, like age groups instead of birth date, or only the first two digits of postal codes. It may also be possible to provide the data in such a format that researchers can query whilst keeping the data itself closed. For example, a user may be able to send a query to retrieve the mean of a dataset, but not be able to access any of the individual data points. Another way to provide anonymised data is to provide [synthetic data](https://en.wikipedia.org/wiki/Synthetic_data), data generated to reflect the conditions and properties of the raw data, without including any personal information.
 
 (rr-open-data-barriers-national)=
 ### National and Commercially Sensitive Data
