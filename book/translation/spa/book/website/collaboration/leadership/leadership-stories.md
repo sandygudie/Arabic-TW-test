@@ -8,15 +8,15 @@ Hackathons can be quite intimidating scenarios to put yourself into. You're prob
 
 Now imagine if you were to lead and coordinate a group of people to work on your project idea?
 
-Yeah! ¡Sí! ¡Esto es un reto para muchos! I've been there, and I was intimidated too! So let me share some of the things I learned the first time I led a hackathon project at the [first Microsoft Research Software Reactor sprint](https://research-software-reactor.github.io/blog/sprint0).
+Yeah! That is challenging for many! I've been there, and I was intimidated too! So let me share some of the things I learned the first time I led a hackathon project at the [first Microsoft Research Software Reactor sprint](https://research-software-reactor.github.io/blog/sprint0).
 
 ## Don't just focus on the code
 
-There are lots of different things that go into making a project, beyond the code itself. De la misma manera, hay muchas personas con diferentes habilidades que pueden unirse a su proyecto hackathon - no sólo programadores! Los buenos líderes pueden identificar las fortalezas de su equipo, específicamente donde se pueden aprovechar mejor las diferentes habilidades en un proyecto. Good leaders can identify the strengths of their team, specifically where different skills can be put to best use on a project.
+There are lots of different things that go into making a project, beyond the code itself. Similarly, there are lots of different people with different skills who may join your hackathon project - not just programmers! Good leaders can identify the strengths of their team, specifically where different skills can be put to best use on a project.
 
-Cosas como la documentación suelen dejarse hasta los últimos momentos de un proyecto, aunque es igual de importante. si no más, que el propio código! Si tienes a alguien en tu equipo que le guste escribir, la documentación puede mantenerse actualizada a medida que tu código base cambie a través del hackathon.
+Things like documentation are often left until the last moments of a project even though it's just as important, if not more so, than the code itself! If you have someone on your team who likes to write, documentation can be kept up-to-date as your codebase changes through the hackathon.
 
-The largest benefit of having a well-documented piece of software at the end of the hackathon is that it will be much easier for your team to continue to contribute to the project after the event is over. La última fase de poner un proyecto en un estado de producción listo toma más tiempo y esfuerzo, ¡pero afortunadamente ya has documentado tu proceso de alcance y el camino para llegar allí! 😉 😉
+The largest benefit of having a well-documented piece of software at the end of the hackathon is that it will be much easier for your team to continue to contribute to the project after the event is over. The last phase of getting a project into a production ready state takes the most time and effort, but luckily you've already documented your scoping process and pathway to getting there! 😉
 
 ## Find your style of leadership
 
