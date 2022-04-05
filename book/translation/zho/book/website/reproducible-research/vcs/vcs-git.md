@@ -30,10 +30,8 @@ This command puts your newly added files or any other changes into what is calle
 
 ```{figure} ../../figures/change-stage-repo.png
 ---
-名称：更改stage-repo
-alt：`git add` 和 git 提交命令的图示.
----
-`git add` 和 `git commit` 如何工作
+name: change-stage-repo
+alt: An illustration of the `git add` and git commit Commands.
 ---
 How `git add` and `git commit` works
 ```
