@@ -1,92 +1,92 @@
-(cl-remote-collab-ferramentas)=
-# Ferramentas para colaboração remota
+(cl-remote-collab-tools)=
+# Tools for Remote Collaboration
 
-Existem muitas ferramentas gratuitas e comerciais para melhorar a experiência de planejamento, organização e hospedagem de eventos on-line e híbridos. Para executar efetivamente um evento, é importante escolher ferramentas que possam maximizar o sucesso global e reduzir o risco de as coisas correrem mal durante o evento. Devemos também considerar como são fáceis de utilizar e como impõem o envolvimento de diferentes partes interessadas, tais como organizadores, auxiliares e participantes.
+Many free and commercial tools exist to improve people's experience of planning, organising, and hosting online and hybrid events. To effectively run an event, it is important to choose tools that can maximise the overall success and reduce the risk of things going wrong during the event. We should also consider how user-friendly they are and how they impact the engagement of different stakeholders such as organisers, helpers and attendees.
 
-Aqui está uma lista de alguns instrumentos populares para facilitar diferentes aspectos da colaboração remota, discutidos no subcapítulo anterior. Observe que não somos uma conferência de listagem ou ferramentas relacionadas ao webino, mas apenas fornecendo aquelas ferramentas que permitem um formato interativo (logo, colaborativo) para eventos on-line.
+Here is a list of some popular tools for facilitating different aspects of remote collaboration discussed in the earlier subchapter. Please note that we are not a listing conference or webinar-related tools, but only providing those tools that allow an interactive (hence, collaborative) format for online events.
 
-## Gerenciamento de tarefas
+## Task management tools
 
-Todos os eventos têm várias fases de planeamento e organização que envolvem numerosas tarefas, discutidas em subcapítulos anteriores. Portanto, é importante acompanhar essas tarefas em uma ferramenta de gerenciamento de eventos online, onde os indivíduos responsáveis podem ver seus prazos e espera, e colaborar com os outros.
+Every event has several stages of planning and organising that involve numerous tasks as discussed in earlier subchapters. Therefore, it is important to track those tasks in an online event management tool, where the responsible individuals can see their to-dos and deadlines, and collaborate with others.
 
-- [Trello](https://trello.com/): kanban online, como ferramentas para atribuir tarefas e listas de verificação a usuários individuais e monitorar seu progresso.
-- [Asana](https://asana.com/): ferramenta de kanban online que pode ser usada para criar diferentes equipes para criar tarefas, definir prazos e enviar lembretes.
-- [Jira](https://www.atlassian.com/software/jira): útil para grandes equipes de eventos para ajudá-los a acompanhar tarefas antes, durante e após o evento.
-- [Quadro de projeto GitHub](https://github.com/features/project-management/): todos os repositórios no GitHub podem ter um quadro de projetos onde as tarefas podem ser issues e Pull Requests podem ser coordenados, rastreado e actualizado de forma transparente por todos os contribuintes.
-- [notion.so](https://www.notion.so/): Esta é uma ferramenta de gerenciamento de projetos de alto nível que permite armazenar relatórios, criar documentos e integrar diferentes ferramentas.
+- [Trello](https://trello.com/): online kanban like tools to assign tasks and checklists to individual users and monitor their progress.
+- [Asana](https://asana.com/): online kanban tool that can be used for creating different teams create tasks, set deadlines and send reminders.
+- [Jira](https://www.atlassian.com/software/jira): useful for large event teams to help them track tasks before, during, and after the event.
+- [GitHub project board](https://github.com/features/project-management/): every repository on GitHub can have a project board where tasks can be issues and Pull Requests that can be coordinated, tracked, and updated transparently by all contributors.
+- [notion.so](https://www.notion.so/): This is a high-level project management tool that allows storing reports, creating documents and integrate different tools.
 
-## Encontrar disponibilidade comum
+## Finding a common availability
 
-As plataformas de agendamento de reuniões ajudam a encontrar uma disponibilidade comum, sem precisar verificar várias vezes com os participantes desejados.
+Meeting scheduling platforms help find a common availability without having to check multiple times with all the intended participant's.
 
-Algumas opções comumente usadas são [Doodle](https://doodle.com/poll/) e [when2meet.com](https://www.when2meet.com/). Veja mais opções [aqui](https://zapier.com/blog/best-meeting-scheduler-apps/).
+Some commonly used options are [Doodle](https://doodle.com/poll/) and [when2meet.com](https://www.when2meet.com/). See more options [here](https://zapier.com/blog/best-meeting-scheduler-apps/).
 
-É particularmente crucial usar links de reuniões como [arewemeetingyet](https://arewemeetingyet.com/#form) ou [criar/enviar convites de calendário](https://www.calendar.com/blog/how-to-send-a-google-calendar-invite/) para comunicar esses agendamentos aos convidados de diferentes países e fusos horários.
+It is particularly crucial to use meeting links like [arewemeetingyet](https://arewemeetingyet.com/#form) or [create/send calendar invitations](https://www.calendar.com/blog/how-to-send-a-google-calendar-invite/) to communicate these schedules to invitees from different countries and time zones.
 
-## Criando notas compartilhadas
+## Creating shared notes
 
-Um documento que pode ser editado de forma colaborativa em tempo real permite que todos os participantes participem equitativamente durante a chamada on-line. Isto é especialmente importante para criar uma oportunidade para quem não pode (ou não se sente à vontade para falar activamente nas reuniões de grupo.
+A document that can be edited collaboratively in real-time allows all attendees to participate equitably during the online call. This is especially important for creating an opportunity for those who can not (or do not feel comfortable to) actively speak up in group meetings.
 
-- [Google Documento](https://en.wikipedia.org/wiki/Google_Docs): Google Docs é um processador de texto incluído como parte de um gratuito suite do Google Docs baseado na web oferecido pelo Google dentro de seu serviço Google Workspace.
-- [Etherpad](https://etherpad.org/): Etherpad é um editor online personalizável de código aberto.
-- [HackMD](https://hackmd.io/): HackMD é um documento de colaboração online que pode ser escrito no formato [Markdown](https://www.markdownguide.org/).
-- [HedgeDoc (anteriormente CodiMD)](https://demo.hedgedoc.org/): HedgeDoc é o fork de CodiMD, baseado na comunidade, que é a versão de código aberto do HackMD.
+- [Google doc](https://en.wikipedia.org/wiki/Google_Docs): Google Docs is a word processor included as part of a free, web-based Google Docs suite offered by Google within its Google Workspace service.
+- [Etherpad](https://etherpad.org/): Etherpad is an Open Source customisable online editor.
+- [HackMD](https://hackmd.io/): HackMD is an online collaborative document that can be written in [Markdown](https://www.markdownguide.org/) format.
+- [HedgeDoc (previously CodiMD)](https://demo.hedgedoc.org/): HedgeDoc is the community-driven fork of CodiMD, which is the open source version of HackMD.
 
-## Mantendo notas compartilhadas
+## Maintaining shared notes
 
-É importante criar notas compartilhadas, mas também para os salvar para compartilhar com outras pessoas e para os disponibilizar para voltar a referir posteriormente.
+It is important to create shared notes, but also to save them to share with others and to make them available to refer back to later.
 
-- [Google Drive](https://en.wikipedia.org/wiki/Google_Drive): Google Drive é um serviço de armazenamento de arquivos e sincronização desenvolvido pelo Google.
-- [DropBox](https://www.dropbox.com/): Dropbox é um serviço de hospedagem de arquivos operado pela empresa americana Dropbox.
-- [owncloud](https://owncloud.com/): ownCloud é uma suíte de software cliente-servidor para criar e usar serviços de hospedagem de arquivos. O ownCloud funcionalmente tem semelhanças com o Dropbox amplamente utilizado.
-- [GitHub](https://github.com/), [GitLab](https://about.gitlab.com/free-trial/) e [BitBucket](https://bitbucket.org/product): Plataformas para hospedagem, compartilhar e colaborar em documentos e software com um sistema de controle de versão (consulte [este post para detalhes/diferença](https://stackshare.io/stackups/bitbucket-vs-github-vs-gitlab)).
+- [Google Drive](https://en.wikipedia.org/wiki/Google_Drive): Google Drive is a file storage and synchronization service developed by Google.
+- [DropBox](https://www.dropbox.com/): Dropbox is a file hosting service operated by the American company Dropbox.
+- [owncloud](https://owncloud.com/): ownCloud is a suite of client-server software for creating and using file hosting services. ownCloud functionally has similarities to the widely used Dropbox.
+- [GitHub](https://github.com/), [GitLab](https://about.gitlab.com/free-trial/) and [BitBucket](https://bitbucket.org/product): Platforms for hosting, sharing and collaborating on documents and software with a version control system (see [this post for detail/difference](https://stackshare.io/stackups/bitbucket-vs-github-vs-gitlab)).
 
-## Gerenciando registro de eventos
+## Managing event registration
 
-O registro de eventos eficazes é o primeiro lugar para saber quem vai participar do seu evento. É especialmente importante quando os eventos são destinados a um grande grupo de pessoas.
+Effective event registration is the first place to get to know who will attend your event. It's especially important when the events are intended for a large group of people.
 
-- [Zoom](https://support.zoom.us/hc/en-us/articles/204619915-Scheduling-a-Webinar-with-Registration): agendar uma reunião online e um webinar com o registro no Zoom fornece um formulário breve automaticamente antes de receber o link para ingressar no webinar.
-- [Eventbrite](https://www.eventbrite.com/): Um gerenciamento de eventos e site de ticketing [Eventbrite](https://www.eventbrite.com/): Um gerenciamento de eventos e site de ticketing O serviço permite aos usuários navegarem, criarem e promoverem eventos locais. O serviço cobra uma taxa para os organizadores do evento em troca dos serviços de ingresso on-line, a menos que o evento seja gratuito.
-- [Formulário Google](https://en.wikipedia.org/wiki/Google_Forms): Google Forms é um software de administração de pesquisa que permite a coleta de registros/dados que podem ser inseridos automaticamente em uma planilha.
+- [Zoom](https://support.zoom.us/hc/en-us/articles/204619915-Scheduling-a-Webinar-with-Registration): Scheduling an online meeting and webinar with registration on Zoom provides an automatic brief form before receiving the link to join your webinar.
+- [Eventbrite](https://www.eventbrite.com/): An event management and ticketing website. The service allows users to browse, create, and promote local events. The service charges a fee to event organizers in exchange for the online ticketing services, unless the event is free.
+- [Google Form](https://en.wikipedia.org/wiki/Google_Forms): Google Forms is a survey administration software that allows registration/data collection that can be automatically entered into a spreadsheet.
 
-## Hospedando chamadas on-line
+## Hosting online calls
 
-A videoconferência é provavelmente o aspecto mais importante da organização e hospedagem de um evento on-line. Um software eficaz permite a criação de um link de reunião ou número de discagem que pode ser compartilhado com outras pessoas que possam participar de chamadas agendadas ou em andamento.
+Video conferencing is probably the most important aspect of organising and hosting an online event. An effective software allows the creation of a meeting link or dial-in number that can be shared with others who can join scheduled or in-progress calls.
 
-- [Zoom](https://zoom.us): Zoom é um serviço de videoconferência baseado na nuvem que pode ser assistido tanto por vídeo quanto por áudio ou ambos, com bate-papos ao vivo que podem ser gravados para ver/compartilhar.
-- [Google Meet](https://en.wikipedia.org/wiki/Google_Meet): Google Meet é uma plataforma de comunicação que facilita mensagens e chat em vídeo.
-- [Skype](https://www.skype.com/en/): Skype é um aplicativo de telecomunicações especializado em fornecer chat de vídeo e chamadas de voz.
-- [Jisti](https://meet.jit.si/): Jitsi é uma coleção gratuita e de código aberto de voz, videoconferência e aplicativos de mensagens instantâneas para a plataforma web.
-- [Webex](https://www.webex.com/): Cisco Webex desenvolve e vende aplicativos de videoconferência e videoconferência.
+- [Zoom](https://zoom.us): Zoom is a cloud-based video conferencing service that can be attended either by video or audio-only or both, with live chats that can be recorded to view/share.
+- [Google Meet](https://en.wikipedia.org/wiki/Google_Meet): Google Meet is a communications platform that facilitates messaging and video chatting.
+- [Skype](https://www.skype.com/en/): Skype is a telecommunications application that specializes in providing video chat and voice calls.
+- [Jisti](https://meet.jit.si/): Jitsi is a collection of free and open-source multiplatform voice, videoconferencing and instant messaging applications for the web platform.
+- [Webex](https://www.webex.com/): Cisco Webex develops and sells web conferencing and videoconferencing applications.
 
-## Facilitar interações informais
+## Facilitating informal interactions
 
-Uma plataforma de comunicação e um sistema de bate-papo é uma boa maneira de conectar todos os participantes antes, durante e após o evento.
-- [Slack](https://slack.com/): Slack oferece recursos de bate-papo em tempo real, incluindo salas de bate-papo persistentes, organizadas por tópicos, grupos privados, e mensagens diretas.
-- [Gitter](https://gitter.im/): Gitter é uma plataforma de bate-papo e redes para mensagens para comunidades.
-- Aplicativos baseados na web ou em telefone, como WhatsApp e telegram ([veja mais](https://www.makeuseof.com/tag/messaging-apps-phone-computer/)).
+A communication platform and chat system is a good way to connect all the attendees before, during and after the event.
+- [Slack](https://slack.com/): Slack offers real-time chat features, including persistent chat rooms organized by topic, private groups, and direct messaging.
+- [Gitter](https://gitter.im/): Gitter is a chat and networking platform for messaging for communities.
+- Web-based or phone applications like WhatsApp and telegram ([see more](https://www.makeuseof.com/tag/messaging-apps-phone-computer/)).
 
-## Temporizadores baseados na web
+## Web-based timers
 
-Um temporizador online que pode ser criado em um navegador da web e compartilhado com uma equipe distribuída para ter formatos de reunião mais produtivos.
-- [time](https://cuckoo.team/)
-- [catalogo](https://vclock.com/timer/)
+An online timer that can be created on a web-browser and shared with a distributed team to have more productive meeting formats.
+- [cuckoo.team](https://cuckoo.team/)
+- [vclock](https://vclock.com/timer/)
 
-## Votação online
+## Online polling
 
-As ferramentas de votação de evento podem ser usadas para fazer perguntas e receber comentários de participantes em tempo real. Eles criam uma experiência interativa para os participantes por meio de sessões de perguntas e respostas (Q&A) durante o evento. Um link dedicado pode ser criado para cada evento compartilhar com os participantes que podem publicar suas perguntas para serem discutidas na reunião ou responder a pesquisas definidas pelos palestrantes ou organizadores antes do evento. Essas ferramentas não só coletam respostas, mas também analisem, resume e visualize elas como nuvens de palavra e diagrama em tempo real que podem ser compartilhadas com todos. Duas ferramentas comumente usadas são:
+Event Polling tools can be used for asking questions and receiving feedback from attendees in real-time. They create an interactive experience for the participants through question and answer (Q&A) sessions during the event. A dedicated link can be created for each event to share with the participants who can post their questions to be discussed in the meeting or respond to polls set by the speakers or organisers before the event. Such tools not only collect answers but also analyse, summarise and visualise them as word clouds and plots in real-time that can be shared with everyone. Two commonly used tools are:
 
-- [deslizar.do](https://www.sli.do/)
-- [menstruador](https://www.mentimeter.com/)
+- [sli.do](https://www.sli.do/)
+- [mentimeter](https://www.mentimeter.com/)
 
-Leia mais sobre a sondagem de eventos em [esta postagem](https://www.encore-anzpac.com/event-services/live-polling-for-events) e encontre mais aplicativos com análise de recursos em [esta postagem](https://www.worksup.com/event-interaction-app-feature-comparison/).
+Read more about event polling in [this post](https://www.encore-anzpac.com/event-services/live-polling-for-events) and find more apps with feature analysis in [this post](https://www.worksup.com/event-interaction-app-feature-comparison/).
 
-## Pesquisas pré-e pós-evento
+## Pre- and post-event surveys
 
-Pesquisas de pré-evento podem ser usadas para gerenciar o trabalho diário com os organizadores, convidar ideias e sugestões de diferentes partes interessadas do evento e definir expectativas, comunicando previamente sobre seu evento com todos. Pesquisas pós-evento são usadas para recolher feedback de todos sobre sua experiência com eventos passados e sugestões para melhorar eventos futuros.
+Pre-event surveys can be used for managing day-to-day work with the organisers, inviting ideas and suggestions from different stakeholders of the event and setting expectations by communicating about your event beforehand with everyone. Post-event surveys are used for gathering feedback from everyone regarding their experience from past events and suggestions to improve future events.
 
-- [Formulário Google](https://en.wikipedia.org/wiki/Google_Forms): Google Forms é um software de administração de pesquisa que permite a coleta de dados que pode ser automaticamente inserida em uma planilha.
-- [Survey Monkey](https://www.surveymonkey.com/): Esta é uma das ferramentas mais populares, disponível com recursos limitados (10 perguntas e 100 respostas gratuitas) e oferece muitos recursos, incluindo templates para a versão paga.
-- [Typeform](https://www.typeform.com/surveys/): Permite desenvolver pesquisas de uma forma mais criativa. A versão gratuita só pode ser utilizada em um pequeno grupo.
+- [Google Form](https://en.wikipedia.org/wiki/Google_Forms): Google Forms is a survey administration software that allows data collection that can be automatically entered into a spreadsheet.
+- [Survey Monkey](https://www.surveymonkey.com/): This is one of the most popular tool, available with limited features (10 questions and 100 respondents for free) and provides many features including templates for the paid version.
+- [Typeform](https://www.typeform.com/surveys/): Allows developing surveys in a more creative manner. The free version can be used only for a small group.
 
-***Tags de Capítulo**: Este capítulo é curado pelo `Grupo de Estudo de Dados de Turing` (`turing-dsg`).*
+***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*
