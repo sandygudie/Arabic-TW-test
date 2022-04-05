@@ -1,15 +1,15 @@
 (ch-bookdash-application)=
-# عملية التطبيق والاستعراض
+# Application and Review Process
 
-ألف - الطلب والاستعراض وقد تم تطوير عملية الاختيار لإتاحة فرصة عادلة لجميع الأعضاء المهتمين لإظهار اهتمامهم بحضور الأحداث التي نجريها في الكتاب.
+The application, review, and selection process have been developed to provide a fair opportunity for all the interested members to show their interest in attending our book dash events.
 
-وفي هذا الفصل الفرعي، قدمنا تفاصيل عن تطبيق لوحة الكتاب وعملية استعراضها.
+In this subchapter, we have provided details on the book dash's application and reviewing process.
 
-## مكالمة للحصول على التطبيقات
+## Call for applications
 
 وينظم الحدث الخاص بتوصيل الكتاب لعدد يصل إلى 15 مشاركا. The event is divided into multiple sessions with small groups of participants attending in their time zone. والسبب في الإبقاء عليها صغيرا هو السماح لأعضاء الفريق الأساسيين بتقديم إرشادات محددة للمشاركين المدعوين وجعلها تفاعلية، حدث حميم وممتع ومنتج.
 
-ولإجراء هذا الاختيار بإنصاف، تُفتح الدعوة إلى تقديم الطلبات قبل 3 أشهر على الأقل حتى يتمكن الأعضاء المهتمون من تقاسم مهاراتهم. الاهتمام والنتائج المتوقعة من خلال تطبيق قصير. وتبقى الطلبات مفتوحة لمدة 4 أسابيع على الأقل، ويتم تبليغ الجدول الزمني بوضوح من خلال نشراتنا الإخبارية، وتغذية تويتر واستمارة التطبيق.
+ولإجراء هذا الاختيار بإنصاف، تُفتح الدعوة إلى تقديم الطلبات قبل 3 أشهر على الأقل حتى يتمكن الأعضاء المهتمون من تقاسم مهاراتهم. الاهتمام والنتائج المتوقعة من خلال تطبيق قصير. The applications are kept open for a minimum of 4 weeks and the timeline is communicated clearly through our newsletters, Twitter feed, and application form.
 
 This application can take 30-45 minutes to complete. We have created this template document with all the questions to prepare a draft before submission: https://tinyurl.com/tw-bookdash-template.
 
@@ -34,14 +34,14 @@ We ask an optional question for returning members to express their interest to t
 
 Finally, we provide details regarding the event schedule and ask our applicants to indicate which time slots for collaborative co-working and social sessions would work for their time zones.
 
-## عملية الاستعراض
+## Reviewing process
 
 طلبات _الطريق الوشيك_ يتم مراجعتها من قبل عضوين على الأقل من _فريق الطريق الوشيك_ الأساسي. نموذج استجابة أنشأه الأعضاء المنظمون باستخدام العناوين الموصوفة أدناه، ويتقاسم الرد جميع خبراء الاستعراض خلال اجتماع معين بين أعضاء الفريق. ويتم تسجيل درجات لكل معيار بين 1 و 3، حيث تستوفي 3 = المعايير بالكامل، و 2 = المعايير المستوفاة جزئيا، و 1 = المعايير. ولتفادي التحيز الشخصي، تحدد كل درجة من هذه الدرجات بوضوح لكل سؤال في استمارة الرد على الاستعراض التي يرد شرحها أدناه. ويهدف هذا العنوان إلى تقييم التطبيق في جوانب متعددة وتجنب أي تحيز شخصي قد يكون لدى أعضاء الفريق.
 
 *تم تكييف هذا العنوان من [موزيلا القيادة المفتوحة](https://foundation.mozilla.org/en/initiatives/mozilla-open-leaders/) و [علوم الحياة المفتوحة](https://openlifesci.org/)*
 
 (ch-bookdash-application-rubrics)=
-### مواد التشحيم لتطبيقات تسجيل العلامات
+### Rubrics for scoring applications
 
 واستنادا إلى تقييمها للتطبيقات، ستوفر نتائج لمختلف المعايير التي سيجري تقييمها على النحو التالي:
 
@@ -53,34 +53,34 @@ Finally, we provide details regarding the event schedule and ask our applicants 
 
 
 (يستند هذا التصنيف إلى معايير اختيار القادة المفتوحين في موزيلا وعلوم الحياة المفتوحة)
-1. لا يملك المتقدمون الذين يحققون **في الغالب 1 ثانية** فكرة واضحة/موضوع جاهز للإسهام أو ليس لديهم فهم واضح للأهداف العامة لـ _طريق التوريق_ ووصلة الكتب عموما.
-2. المتقدمون الذين حصلوا على **في الغالب 2s** متحمسون إن لم يكن مناسباً بالكامل للمشروع/الحدث، فعلى سبيل المثال، قد تأتي هذه الأفكار مع بعض الأفكار من أجل مساهمة لا تدخل حاليا في نطاق المشروع/الحدث.
-3. المتقدمون الذين حصلوا على **في الغالب 3 ثانية** جاهزون بوضوح، وموجهون نحو الأهداف، مهتم بالمساهمة في المشروع، و متحمس للتعلم من الآخرين في الحدث.
+1. Applicants who score **mostly 1s** do not have a clear idea/topic ready for contribution or do not have a clear understanding of the overall goals of _The Turing Way_ and book dash in general.
+2. Applicants who score **mostly 2s** are enthusiastic if not wholly suitable for the project/event, for example, they may come with some ideas for a contribution that is currently not in the scope of the project/event.
+3. Applicants who score **mostly 3s** are clearly ready, goal-oriented, interested in contributing to the project, and excited to learn from others at the event.
 
 **الجدول الذي يلخص علامات ومعايير كل درجة:**
 
 *This scoring rubric is based on the Mozilla Open Leaders and Open Life Science (OLS) selection criteria as described in the 'Review Rubrics' on [this GitHub repository](https://github.com/open-life-science/application-forms).*
 
-| الأقسام                                                | النتيجة 1                                                                                                                                                  | النتيجة 2                                                                                                                                                                  |                                                                                                                                                                                                         النتيجة 3 |
-| ------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| **الاستعداد لحدث دشة الكتاب**                          | (غير جاهز) لا يوفر معلومات كافية أو يبدو أنه يسيء فهم طبيعة مشروع _طريق اللحم_ وهذا الحدث بشكل عام                                                         | (متحمس) يبدو أن لديه فهما واضحا لمشروع _طريق التوفيق_ وهذا الحدث ويحضر محتوى محدد للمساهمات                                                                                |                                                                                    (واضح) يبدو أن لديها فهماً واضحاً لمشروع طريق تورينغ وهذا الحدث وفهماً واضحاً لكيفية المساهمة والتعاون فيما بينها في هذا الحدث |
-| **أهداف مساهمات المشاريع:**                            | (لست جاهزة) المشاركات الغامضة أو الأفكار العامة التي لا صلة لها بمشروع _طريق اللحم_ وهذا الحدث، أو لا أهداف على الإطلاق                                    | الأسهم (المتحمسة) واضحة، أفكار مفرطة الطموح لمشروع _طريق اللارجح_ وهذا الحدث الذي من المرجح أن يتم تنقيحه في مقهى تعاوني، أو في اليوم السابق للحدث أثناء جلسة العصف الذهني |                                                          (خلافة) الأسهم واضحة، أفكار المساهمة/التطوير التي يمكن تحقيقها لهذا الحدث والتي تناسب _مشروع طريق التنقيح_ ومن المرجح أن تتحقق من خلال مشاركة مقدم الطلب |
-| **الغرض من المشاركة وما سيحصلون عليه من دفتر الكتاب:** | (غير جاهزة) يبدو أن الغرض من المشاركة في شركة الكتاب يتمحور بالكامل تقريباً حول مركز مقدم الطلب. بدلاً من المشاركة في مجتمع _الطريق الوشيك_ لتطوير المشروع | المقاصد (المتحمسة) للمشاركة في حدث طباعة الكتاب ليست واضحة تماما من التطبيق أو محدودة (وإن كانت مفيدة)، مثل الطباعة أو إصلاح الأخطاء                                       | (واضح) أغراض المشاركة في حدث "دش الكتاب" هي أهداف قيّمة من نواح عديدة ومن المرجح أن تساعد مقدم الطلب على أن يصبح مساهما نشطا وأن يأخذ بزمام أموره في مشروع _طريق اللحم_ وفي النظام الإيكولوجي الأوسع من حيث حقوقه |
-| **الرغبة في التعاون والإسهام بعد لوحة الكتاب:**        | (غير جاهزة) يبدو أنها مغلقة أمام سبل العمل التعاونية أو أكثر اهتماما بجانب واحد فقط من جوانب علم البيانات أو البحوث أو المواضيع ذات الصلة                  | (متحمسة) تبدو متحمسة للتعلم من الآخرين و _مشروع طريق اللحم_ ، ولكن بطريقة عامة دون فهم كبير لما تعنيه تلك الأشياء بعد                                                      |                                                                                                                                  (واضح) يبدو متحمس للتعاون مع الآخرين ويحفز على المساهمة في مجتمع _الطريق اللطيف_ |
+| Sections                                                                  | Score 1                                                                                                                                                                                                           | Score 2                                                                                                                                                                                                       |                                                                                                                                                                                                                                                                Score 3 |
+| ------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| **Readiness for the book dash event**                                     | (not ready) Does not provide enough information or seems to misunderstand the nature of _The Turing Way_ project and this event in general                                                                        | (enthusiastic) Seems to have a clear understanding of _The Turing Way_ project and this event and brings along a specific content for contributions                                                           |                                                                                (clear) Seems to have a clear understanding of the Turing Way project and this event and a clear understanding of how they can contribute and collaborate with each other at this event |
+| **Goals for the project contributions:**                                  | (not ready) Shares vague or general ideas that are unrelated to _The Turing Way_ project and this event, or no goals at all                                                                                       | (enthusiastic) Shares clear, overly ambitious ideas for _The Turing Way_ project and this event that can likely be refined in a collaboration cafe, or the day before the event during the brainstorm session |                                                                                  (clear) Shares clear, achievable contribution/development ideas for this event that fits _The Turing Way_ project and are likely to be achieved through the applicant’s participation |
+| **Purpose of participation and what they will get out of the book dash:** | (not ready) Purposes for participation at the book dash seem almost entirely self-centered and about the applicant’s status, rather than about participating in _The Turing Way_ community to develop the project | (enthusiastic) Purposes for the participation at the book dash event are not completely clear from the application or are limited (even though useful), such as typo or bug fixing                            | (clear) Purposes for participation at the book dash event are valuable in many ways and are likely to help the applicant to become an active contributor and take ownership of their work in _The Turing Way_ project and in the broader ecosystem in their own rights |
+| **Willingness to collaborate and contribute after the book dash:**        | (not ready) Seems closed to collaborative ways of working or more interested in only one aspect of data science, research or related topic                                                                        | (enthusiastic) Seems excited to learn from others and _The Turing Way_ project, but in a general way without much understanding of what those things mean yet                                                 |                                                                                                                                                          (clear) Seems excited to collaborate with others and is motivated to contribute to _The Turing Way_ community |
 
 ويُطلب إلى المستعرضين أيضا الكشف عما إذا كان أي تضارب في المصالح قد يؤثر على استعراضهم مما يؤدي إلى أي تحيز في قرارهم.
 
 ونطلب إلى جميع خبراء الاستعراض أن ينهوا الاستعراض بوصف الطلب، وتمثيل جوانب مقدم الطلب ودوافع درجاته لتيسير التحاور أثناء مناقشة فريق الاختيار في إطار هذه الأسئلة.
 
 ```
-- يرجى إبراز أي مجموعة تنوع/أقلية ينتمي إليها مقدم الطلب؛ التي يجب أن تكون ممثلة في هذا الحدث
-- الرجاء تقديم 1-2 جمل موجزة حول هذا التطبيق لتسهيل المناقشة أثناء لوحة الاختيار
+- Please highlight any diversity/minority groups this applicant belong to, that should be represented at this event
+- Please provide 1-2 summary sentences about this application to facilitate discussion during the selection panel
 ```
 
 Reviewers are also asked to disclose if any conflict of interest may have influenced their review leading to any bias in their decision.
 
 ```
-- يرجى بيان ما إذا كان لديكم أي تضارب في المصالح مع الاقتراح الوارد وصفه في هذا الطلب، أو ما إذا كنتم تعرفون شخصيا أن هذا الطلب قد يؤدي إلى اتخاذ قرار متحيز.
+- Please state if you have any conflict of interest with the proposal described in this application or do you know this applicant personally that may lead to a biased decision
 ```
 
 وأخيراً، يُسأل المستعرضون عما إذا كانوا سيوصون بتقديم طلب. والإجابات المتاحة هي "لا" أو "نعم" أو "غير مؤكدة" أو "طلب مناقشة مفتوحة في الفريق". المرشحون الذين لديهم تصنيفات "لا" أو "غير مؤكد" في جميع المستعرضين سيتم رفضهم. وستجري مناقشة جميع المرشحين الآخرين في اختيار الفريق.
