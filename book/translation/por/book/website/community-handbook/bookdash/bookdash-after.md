@@ -1,42 +1,39 @@
-# Após o Dash do Livro
+# After the Book Dash
 
-Nossos participantes do Livro Dash começam a apresentar suas perspectivas e habilidades no projeto no Dash. Esses participantes participam da nossa comunidade global de contribuintes.
+Our Book Dash attendees begin to introduce their perspectives and skills into the project at the Book Dash. These participants go on to join our global community of contributors.
 
-Convidamos os nossos participantes a contribuírem em todas as capacidades que melhor se adaptem aos seus interesses e disponibilidade. Além disso, compartilhamos com eles algumas maneiras que eles podem permanecer conectados e continuar contribuindo com o projeto.
+We invite our attendees to contribute in any capacity that is most suitable for their interests and availability. Also, we share with them some ways they can stay connected and keep contributing to the project.
 
-## Participando dos esforços em andamento
+## Joining the ongoing efforts
 
-A cada novo esforço iniciado pelos nossos membros, adquirimos novas ideias para melhorar a nossa proximidade global. Esses esforços geralmente começam em nossa seção [GitHub issue](https://github.com/alan-turing-institute/the-turing-way/issues). Estes são bons locais para iniciar novas discussões, criando uma nova questão ou participando no debate em curso, comentando a questão. Se os nossos colaboradores quiserem começar a conhecer o projeto ou quiserem retornar após uma longa pausa, Eles podem começar pelas nossas primeiras questões. Se eles tiverem uma nova ideia de que gostariam de adicionar ao projeto como uma nova seção em um capítulo existente, ou como um novo capítulo, eles podem começar criando um novo problema.
+With every new effort initiated by our members, we gain new insights to improve our global outreach. These efforts often start in our [GitHub issue](https://github.com/alan-turing-institute/the-turing-way/issues) section. These are good places to begin new discussions by creating a new issue or join the ongoing discussion by commenting on the issue. If our contributors want to start to get to know the project or want to return after a long break, they can begin with our good first issues. If they have a new idea that they would like to add to the project as a new section in an existing chapter, or as a whole new chapter, they can start by creating a new issue.
 
-## Participe das nossas chamadas e colaborações de colaboração online
+## Attend our online Collaboration Cafe and coworking calls
 
-Nossas Colaborações On-line ocorrem a cada 1 quarta-feira e 3 quartas-feiras a cada mês. Estas chamadas têm espaços de cooperação de 2 horas para a _comunidade The Turing Way_. Todas as pessoas interessadas em aprender ou desenvolver este projecto podem juntar-se a nós por qualquer duração possível para eles. Nessas chamadas, você pode trabalhar em ideias para uma nova contribuição ou melhoria de conteúdo existente no projeto.
+Our online Collaboration Cafes take place every 1st Wednesdays and 3rd Wednesdays on each month. These calls are 2 hour long co-working spaces for the _The Turing Way_ community. Everyone interested in learning from or developing this project can join us for any duration possible for them. At these calls, you can work on ideas for a new contribution or enhancement of existing content in the project.
 
-Os participantes podem se inscrever neste HackMD para participar das próximas chamadas: https://hackmd.io/@KirstieJane/CollabCafe. Qualquer pessoa que queira hospedar essas chamadas em outras ocasiões, entre em contato com os membros da equipe. Veja mais detalhes no capítulo {ref}`Contato<ch-coworking-weekly>`
+Participants can sign up on this HackMD to attend the upcoming calls: https://hackmd.io/@KirstieJane/CollabCafe. Anyone who would like to host these calls at other times, please get in touch with the team members. See more details in the chapter {ref}`Coworking Call<ch-coworking-weekly>`
 
-## Revisando solicitações de pull abertas
+## Reviewing open pull requests
 
-Nossos colaboradores podem nos ajudar, revisando um dos vários pull requests abertos baseados em seus interesses. Podem participar em discussões sobre estes pull requests ou ajudar a explorar recursos que existem actualmente no livro.
+Our contributors can help us by reviewing one of the several open pull requests based on their interests. They can join discussions on these pull requests or help in exploring resources that currently exist in the book.
 
-## Representando _The Turing Way_ na sua comunidade/conferência
+## Representing _The Turing Way_ in your community/conference
 
-Se nossos participantes gostariam de representar nossa comunidade, eles podem se conectar com a equipe _The Turing Way_ para apoio e assistência na elaboração de uma abstrata e ajudá-los a se preparar para entregar uma breve oficina ou apresentação. Este é outro contributo que pode ser discutido e preparado de forma colaborativa durante as nossas chamadas de colaboração.
+If our attendees would like to represent our community, they can connect with _The Turing Way_ team for support and assistance in drafting an abstract and help them prepare to deliver a short workshop or presentation. This is another contribution that can be discussed and prepared collaboratively during our Collaboration cafe or coworking calls.
 
-## Conectando através de redes sociais
+## Connecting through social media
 
-Todos podem entrar no nosso canal do Gitter para discussões informais. Eles também podem se inscrever para receber a nossa newsletter mensal: [https://tinyletter.com/TuringWay/](https://tinyletter.com/TuringWay/). Estamos no Twitter como [@turingway](https://twitter.com/turingway), onde enviamos atualizações regulares.
+Everyone is welcome to join our Gitter channel for informal discussions. They can also sign up to receive our monthly newsletter: [https://tinyletter.com/TuringWay/](https://tinyletter.com/TuringWay/). We are on Twitter as [@turingway](https://twitter.com/turingway), where we send regular updates.
 
-Se você tiver mais idéias ou dúvidas sobre o projeto, o evento "Book Dash" ou algo mais relacionado à nossa comunidade, por favor, não hesite em contactar os membros da equipe
-theturingway@gmail.</p> 
+If you have more ideas or questions about the project, the Book Dash event or something else related to our community, please feel free to reach out to the team members [theturingway@gmail.com](mailto:theturingway@gmail.com).
 
+## Reports and additional materials
 
-
-## Relatórios e materiais adicionais
-
-- Todos os modelos relacionados ao Book Dash são fornecidos na {ref}`coleção de templates da comunidade<ch-templates>`
-- [_The Turing Way_ Reportar por Malvika Sharan com membros da equipe a partir de novembro de 2020](https://github.com/alan-turing-institute/the-turing-way/blob/book-dash-chapter/workshops/book-dash/book-dash-nov20-report.md)
-- Post do blog CSCCE do Arielle Bennett, Julho de 2020: [Agendas: Eventos colaborativos da comunidade](https://www.cscce.org/2020/07/09/book-dashes-collaborative-community-events/)
-- Um post do blog aberto do Esther Plomp, fevereiro 2020: [The Turing Way Bookdash](https://openworking.wordpress.com/2020/02/27/the-turing-way-bookdash/)
-- [_A Caminho de Turing_ Reportar por Malvika Sharan com membros de equipe a partir de fevereiro de 2020](https://github.com/alan-turing-institute/the-turing-way/blob/book-dash-chapter/workshops/book-dash/book-dash-feb20-report.md)
-- [_Relatório The Turing Way_ Por Rachael Ainsworth com membros da equipe de Londres de 2019](https://github.com/alan-turing-institute/the-turing-way/blob/main/workshops/book-dash/book-dash-ldn-report.md)
-- [_Relatório da Caminho de Turing_ Por Rachael Ainsworth com membros da equipe do Manchester 2019](https://github.com/alan-turing-institute/the-turing-way/blob/main/workshops/book-dash/book-dash-mcr-report.md)
+- All the templates related to Book Dash is provided in the {ref}`community template collection<ch-templates>`
+- [_The Turing Way_ Report By Malvika Sharan with team members from November 2020](https://github.com/alan-turing-institute/the-turing-way/blob/book-dash-chapter/workshops/book-dash/book-dash-nov20-report.md)
+- CSCCE blog post by Arielle Bennett, July 2020: [Book Dashes: Collaborative Community Events](https://www.cscce.org/2020/07/09/book-dashes-collaborative-community-events/)
+- Open Working blog post by Esther Plomp, February 2020: [The Turing Way Bookdash](https://openworking.wordpress.com/2020/02/27/the-turing-way-bookdash/)
+- [_The Turing Way_ Report By Malvika Sharan with team members from February 2020](https://github.com/alan-turing-institute/the-turing-way/blob/book-dash-chapter/workshops/book-dash/book-dash-feb20-report.md)
+- [_The Turing Way_ Report By Rachael Ainsworth with team members from London 2019](https://github.com/alan-turing-institute/the-turing-way/blob/main/workshops/book-dash/book-dash-ldn-report.md)
+- [_The Turing Way_ Report By Rachael Ainsworth with team members from Manchester 2019](https://github.com/alan-turing-institute/the-turing-way/blob/main/workshops/book-dash/book-dash-mcr-report.md)
