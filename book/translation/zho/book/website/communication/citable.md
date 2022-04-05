@@ -10,7 +10,7 @@
 
 ## Summary
 
-许多研究人员认为，花在可再生产的研究实践上的时间减少了他们从事传统上与学术信贷有关的活动的时间。
+Many researchers argue that time spent on reproducible research practices reduces the time they have available for activities that are traditionally linked to academic credit, such as writing papers.
 
 What if you could get credit for your reproducibility efforts as well? In this chapter, we will describe how working reproducibly will allow you to get most of your research outputs published in a way that can be cited by others (not just your paper)!
 
