@@ -6,7 +6,7 @@ In the `book` [directory](https://github.com/alan-turing-institute/the-turing-wa
 (ch-contributing-templates-chapters)=
 ## Chapters
 
-الفصول هي __ لبنات البناء _كتاب "طريق الشحن"_ وكل دليل في _طريق الشحن_ يشمل عدة فصول تستكشف جميع المواضيع تحت الموضوع العام للدليل.
+Chapters are _the_ building blocks of _The Turing Way_ book and each Guide in _The Turing Way_ spans several chapters that all explore topics under the Guide's overall theme.
 
 Chapters, themselves, contain _sub-chapters_ that delve deeper into the chapter's topic, a _Checklist_ section that itemises action points for readers to take based on the key concepts from the chapter, and a _Resources_ section that points readers to other resources where they can investigate the chapter's topic further. In addition, a chapter may contain a _Personal Stories_ sub-chapter that studies how an individual practices the chapter's topic in their work.
 
