@@ -7,7 +7,7 @@ Here are a few aspects to consider when making your code easy to read by others.
 
 ## Line Length
 
-There is some agreement on the length of the coding lines. ويقترح PEP8 حرف كحد أقصى 79 حرف في السطر الواحد و80 حرف في دليل أسلوب R. وهذا يعني أن الخطوط يمكن أن تتواءم بسهولة مع الشاشة، ويمكن فتح نوافذ برمجة متعددة. This means that the lines can easily fit on a screen, and multiple coding windows can be opened. It is argued that if your line is any longer than this then your function is too complex and should be separated! This is the crux of the Tidy method of R programming, which even has a special operator `%>%` which passes the previous object to the next function, so fewer characters are required:
+There is some agreement on the length of the coding lines. PEP8 suggests a maximum of 79 characters per line and 80 by the R style guide. This means that the lines can easily fit on a screen, and multiple coding windows can be opened. It is argued that if your line is any longer than this then your function is too complex and should be separated! This is the crux of the Tidy method of R programming, which even has a special operator `%>%` which passes the previous object to the next function, so fewer characters are required:
 
 ```r
 recoded_melt_dat <- read_csv('~/files/2019-05-17_dat.csv') %>%
@@ -18,11 +18,7 @@ melt() #We now have a recoded, melted dataframe called recoded_melt_dat
 ## Commenting
 
 Comments have been described as "Love letters to your future self" by Jon Peirce, creator of PsychoPy. Comments can be blocked or inline.  
-The PEP8 guidelines have firm suggestions that block comments should be full sentences, have two spaces following a period, and follow a dated style guide (Strunk and White). لحسن الحظ، لم تعد عناصر النمط 'تتطلب`تركيزا غير منصف على الضمائر الذكرية.
-Whereas inline comments should be used sparingly.
-Keeping clear and concise comments not only allows you to keep track of the decisions you have made, what particular functions do, and what variables are used, it also allows other people to see your thought processes.
-The syntax for comments varies with programming languages.
-في R و Python، يتم استخدام هاشتاج، في حين يتم استخدام الأقواس`/* * /*`في C و Java، وفي C+++/C# هناك خط مزدوج`//` يبدي أسطر واحدة.
+The PEP8 guidelines have firm suggestions that block comments should be full sentences, have two spaces following a period, and follow a dated style guide (Strunk and White). Fortunately the Elements of Style no longer 'requires' an unfair emphasis on masculine pronouns. Whereas inline comments should be used sparingly. Keeping clear and concise comments not only allows you to keep track of the decisions you have made, what particular functions do, and what variables are used, it also allows other people to see your thought processes. The syntax for comments varies with programming languages. In R and Python, a hashtag is used, whereas in C and Java the brackets `/* /*` are used, and in C++/C# a double slash `//` comments single lines.
 
 In Python:
 ```python
@@ -51,14 +47,14 @@ def myfunc(numb): #python function
       return((numb*5)-2)
 print(myfunc(8))
 ```
-الكتل الأطول من التعليقات غير متوفرة في R. هناك طرق حول هذا، مثل إعداد سلسلة أو بيان إذا(مزيف):
+Longer blocks of comments are not available in R. There are ways around this, such as setting up a string, or an if(false) statement:
 
 ```r
-"1 - This is a string. "1- هذه سلسلة لن يتم تقييمه بواسطة R ولن تثير
-والاستثناء"
+"1 - This is a string. It will not be evaluated by R, and will not raise
+and exception"
 
 if(false){
-2 - كل تعليقك يمكن أن يذهب إلى هنا ولن يتم تقييمه أبدا.
+2 - All of your comment can go here and will never be evaluated.
 It also means you keep to the 80 character line length suggestion.
 Also, in RStudio you can fold away the comment using the arrow next to the
 line number of the if statement.
