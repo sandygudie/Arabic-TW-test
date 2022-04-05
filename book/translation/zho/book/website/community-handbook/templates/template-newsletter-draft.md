@@ -1,18 +1,18 @@
 (ch-template-newsletter-draft)=
-# 草拟 _的模版_ 简易通讯的模版
+# Template for drafting _The Turing Way_ Newsletters
 
 ```
-日期：YYYY
+Date: DD Month YYYY
 
-# 标题
+# title
 
-你好路朋友！
+Hello Turing Way friends!
 
-本月...
+This month ...
 
-冲出...
+Shout out ...
 
-事件...
+Events ...
 
 本月...
 
