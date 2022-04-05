@@ -1,43 +1,43 @@
 (ch-template-bookdash-github)=
-# Reserva Dash GitHub Session
+# Book Dash GitHub Session
 
-*Esta plantilla se puede compartir a través de una página de HackMD para facilitar una sesión de GitHub pre-evento para los participantes de Book Dash. El permiso de acceso se puede establecer para que las notas puedan ser leídas por todos y editadas por los usuarios conectados.*
+*This template can be shared via a HackMD page to facilitate a pre-event GitHub session for the Book Dash participants. The access permission can be set so that the notes can be read by everyone and edited by signed-in users.*
 
 ```
-# Libro Dash, DD Mes AAAA - Sesión de GitHub
+# Book Dash, DD Month YYYY - GitHub Session
 
-###### etiquetas: `bookdash AAYY` `month` `event`
+###### tags: `bookdash YYYY` `month` `event`
 
-==Si eres nuevo en HackMD, por favor vea esta breve guía: [https://hackmd. o/@turingway/hackmd-guide](https://hackmd. o/@turingway/hackmd-guide)==
+==If you are new to HackMD, please see this short guide: [https://hackmd.io/@turingway/hackmd-guide](https://hackmd.io/@turingway/hackmd-guide)==
 
 :::info
-- **Fecha:** Mes DD <--- Actualiza este
-- **Hora:** 16:00 - 17:00 hora de Londres ([en tu zona horaria](https://arewemeetingyet. om/London/YYY-MM-DD/16:00)) <--- Actualizar esto
-- **Hosts:** (Agregar nombre) <--- Actualizar esto
-- Únete a la reunión de Zoin: (Añadir enlace) <--- Actualizar esto
+- **Date:** DD Month <--- Update this
+- **Time:** 16:00 - 17:00 London time ([in your time zone](https://arewemeetingyet.com/London/YYYY-MM-DD/16:00)) <--- Update this
+- **Hosts:** (Add name) <--- Update this
+- Join Zoom Meeting: (Add link) <--- Update this
 :::
 
-**Antes de esta reunión:**
+**Before this meeting:**
 
-- Consulta la [Introducción de GitHub amigable](https://kirstiejane. ithub. o/friendly-github-intro/)
+- Check the [Friendly GitHub Intro](https://kirstiejane.github.io/friendly-github-intro/)
 
-**En esta llamada**
-te daremos un tutorial opcional de GitHub de 1 hora:
+**At this call**
+we will give you an optional 1 hour GitHub tutorial:
 
-- Creando un nuevo repositorio
-- Creando un archivo README
-- Escribiendo en Markdown
-- Enviar cambios (a _The Turing Way_) vía Pull Request (PR)
-- demo: Revisar PR, Crear problema
+- Creating a new repository
+- Creating a README file
+- Writing in Markdown
+- Submit changes (to _The Turing Way_) via Pull Request (PR)
+- demo: Review PR, Create issue
 
-## Regístrate añadiendo tu nombre
+## Sign up below by adding your name
 
-Nombre / Instituto o afiliación / ¿Qué aspecto específico de GitHub encuentras desafiante?
+Name / Institute or affiliation / What specific aspect of GitHub do you find challenging?
 * 
 * 
 * 
 
-🗣️ ¡Bienvenido!
+🗣️ Welcome!
 
 [Código de conducta & directrices de participación comunitaria](https://the-turing-way.netlify.app/community-handbook/coc. tml)
 - Si experimentas o eres testigo de un comportamiento inaceptable, o tienes otras preocupaciones, por favor informarlo contactando con los organizadores - Malvika y Kirstie. ([theturingway@gmail.com](mailto:theturingway@gmail.com)).
@@ -80,7 +80,7 @@ Nombre / Instituto o afiliación / ¿Qué aspecto específico de GitHub encuentr
 
 **Comentarios**
 
-¿Qué funcionó? ¿Qué no funcionó? ¿Qué soporte adicional necesitaría antes o durante el Cuadro de Control de Libro?
+¿Qué funcionó? What did not work? ¿Qué soporte adicional necesitaría antes o durante el Cuadro de Control de Libro?
 
 -
 -
