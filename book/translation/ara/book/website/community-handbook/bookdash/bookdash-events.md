@@ -1,7 +1,7 @@
 (ch-bookdash-events)=
 # Book Dash Event Plans
 
-This subchapter provides information on the events that are organised for the book dash attendees. وتشمل هذه الأحداث شبكة ويب سابقة للحدث للحصول على المعلومات، والمكالمات على أونبوارديند، مقدمة GitHub ، • جلسات تطوير (العمل المشترك) خلال كتاب Dash والاشتراك المجتمعي، التي يرد شرحها أدناه.
+This subchapter provides information on the events that are organised for the book dash attendees. These events include a pre-event webinar for information, onboarding calls, GitHub introduction, contribution sessions during the Book Dash and Community Share-Outs, which are explained below.
 
 _The Turing Way_ participation guidelines, [Code of Conduct](https://the-turing-way.netlify.app/community-handbook/coc.html) and [Contribution guideline](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) apply to all these events:
 
@@ -36,19 +36,19 @@ This session will help participants identify resources that they can use for sel
 
 ## During the Book Dash
 
-### جلسات التطوير
+### Contribution Sessions
 
-وفي كل يوم من أيام زحف الكتاب سنعقد ثلاث دورات إنمائية مدتها 2.5 ساعة، عندما نستضيف كل دورة تقريبا تليها استراحة أو مناسبة اجتماعية. ستتبع كل جلسة تطوير تقنية بومودورو التي نستخدمها أيضًا في {ref}`المكالمات الجماعية<ch-coworking-motivation>` باستخدام [ساعة مشتركة قائمة على المتصفح (كوكو)](https://cuckoo.team/tw-bookdash) لتنسيق الوقت.
+On each day of Book Dash, we will hold three 2.5 hour-long contribution sessions when hosting virtually each followed by a break or social event. Each contribution session will follow the Pomodoro technique for coworking that we also use for the {ref}`coworking calls<ch-coworking-motivation>` using the [browser-based shared (cuckoo) clock](https://cuckoo.team/tw-bookdash) to coordinate the time.
 
 In the opening session of the first day, one of the planning committee members will provide an overview of _The Turing way_ project and the resources that are available for the participants for their book dash contributions. Attendees will be then allocated in small groups with their collaborators based on their SMART goals. The collaborating groups will work together to build a roadmap and plans for their contributions as chapters, subchapters or other types of content. Participants are also encouraged to come up with the main sections of their contributions and collect their thoughts in bullet points on a GitHub issue.
 
-أما بقية جلسات التطوير في جميع أنحاء كتاب داش فستيسر في حالات انفراج تتيح للأعضاء الذين لديهم أفكار مماثلة أن يتعاونوا. Participants can also work in self-organised groups or individually on their contribution ideas with the support of mentors. This is also a chance for everyone to meet the participants and helpers informally, learn about each other and connect with specific members who plan to work on the related topic during the book dash. Participants will be supported to collaborate in small groups, organising their thoughts and ideas for contributions during or after the Book Dash. وستنتهي كل جلسة إنمائية بتقاسم المشاركين أعمالهم مع الآخرين وتحديد متعاونين جدد على أساس تشابه مصالحهم.
+The rest of the contribution sessions throughout the Book Dash will be facilitated in breakouts allowing members with similar ideas to collaborate. Participants can also work in self-organised groups or individually on their contribution ideas with the support of mentors. This is also a chance for everyone to meet the participants and helpers informally, learn about each other and connect with specific members who plan to work on the related topic during the book dash. Participants will be supported to collaborate in small groups, organising their thoughts and ideas for contributions during or after the Book Dash. Each contribution session will end with participants sharing their work with others and identifying new collaborators based on the similarity of their interests.
 
 For participants who are unfamiliar with GitHub or would like a refresher (and did not manage to attend the GitHub introduction session), the planning committee members will guide them through the process of making their first pull request.
 
 ### Social Sessions
 
-وستعقد أيضا مناقشة اجتماعية مواضيعية أو جلسة للتواصل الشبكي حيث يمكن للمشاركين أن يتفاعلوا مع الآخرين، مواصلة مناقشاتهم خارج الدورة الإنمائية أو أخذ استراحة لأنها أكثر استدامة وفائدة لمشاركتهم. For a virtual Book Dash, a support fund will be provided to cover the subsistence cost including paying for meals for the social sessions. If hosting an in-person event, the core team members will plan a dinner or social event to allow participants to relax after an intense discussion session and enjoy meals together in an informal setting.
+There will also be themed social discussion or networking session where participants can interact with others, continue their discussions outside the contribution session or take a break as it's most sustainable and helpful for their participation. For a virtual Book Dash, a support fund will be provided to cover the subsistence cost including paying for meals for the social sessions. If hosting an in-person event, the core team members will plan a dinner or social event to allow participants to relax after an intense discussion session and enjoy meals together in an informal setting.
 
 ### Reporting and Documentation
 
