@@ -52,7 +52,7 @@ Based on the resources available to you, you might have to fine-tune other aspec
 
 Like any event, coworking calls requires planning, organising, hosting and making sure that they happen. As the organisers of the event, you will be required to:
 
-**1. 1. 选择工具**
+**1. Choose the tools**
 
 The following aspects will require you to make choices in regards of what tools you will use.
 
@@ -63,9 +63,9 @@ The following aspects will require you to make choices in regards of what tools 
 - sharing timers: few options are [cuckoo.team](https://cuckoo.team/), [vclock](https://vclock.com/timer/) or other web-based timers
 - finding a common availability: few options are [Doodle](https://doodle.com/poll/), [when2meet.com](https://www.when2meet.com/), or other [meeting schedule apps](https://zapier.com/blog/best-meeting-scheduler-apps/)
 
-**2. 2. 计划和托管来电**
+**2. Plan and host the calls**
 
-As discussed earlier, you will need to agree upon dates and time with people who would like to participate in coworking calls. 您的呼叫可以每周或每月组织一次，并且一直定期在某一天和某个时间进行。
+As discussed earlier, you will need to agree upon dates and time with people who would like to participate in coworking calls. Your calls could be organised on a weekly or monthly basis that consistently take place on a certain day and time periodically, or it could be organised once in a while by finding a common availability.
 
 Once you have found a schedule (date, time and frequency), the following tasks will go into planning them:
 - update the schedule, agenda and calendar to share them with the attendees (or potential target audience). It is also quite effective when they receive a calendar invite.
@@ -75,7 +75,7 @@ For hosting these calls, you can reuse and adapt the agenda, techniques and temp
 - provide adequate support to the participants so that they can make the best of their time. In _The Turing Way_ coworking calls, we find it useful to use breakout rooms when there are many people working in small groups or if some people need more discussions, while others want to quietly work on their tasks.
 - facilitate shared notes with participants before, during and after the call, so that they can keep track of useful resources or ideas they discuss during the coworking call.
 
-**3. 3. 创建一个安全和负责的空间**
+**3. Create a safe and accountable space**
 
 Though discussed last, this should be your highest priority.
 
