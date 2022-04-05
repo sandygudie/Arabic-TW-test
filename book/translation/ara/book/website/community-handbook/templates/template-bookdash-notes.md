@@ -1,30 +1,30 @@
 (الفصل-قالب-اندفاعة الكتاب-ملاحظات)=
 # قالب (HackMD) هاك-مد للملاحظات المشتركة
 
-*يمكن استخدام هذا القالب لأخذ الملاحظات المشتركة وتبادل المعلومات في (HackMD) هاك-مد أثناء أحداث دش الكتاب. يمكن تعيين إذن الوصول بحيث يمكن قراءة الملاحظات من قبل الجميع وتحريرها من قبل أي مستخدم مسجل الدخول.*
+*يمكن استخدام هذا القالب لأخذ الملاحظات المشتركة وتبادل المعلومات في (HackMD) هاك-مد أثناء أحداث دش الكتاب. The access permission can be set so that the notes can be read by everyone and edited by any signed-in users.*
 
 ```
-# زحف الكتاب، DD الشهر YYYYY - اليوم 1 <-- قم بإنشاء واحد لكل يوم
+# Book Dash, DD Month YYYY - Day 1 <-- create one for each day
 
-###### # علامات: `bookdash YYYY` `شهر` `event`
+###### tags: `bookdash YYYY` `month` `event`
 
-==إذا كنت جديداً على HackMD، يرجى الاطلاع على هذا الدليل القصير: [https://hackmd. o/@turingway/hackmd-guide](https://hackmd. o/@turingway/hackmd-guide)==
+==If you are new to HackMD, please see this short guide: [https://hackmd.io/@turingway/hackmd-guide](https://hackmd.io/@turingway/hackmd-guide)==
 
-::info
-- **الموقع:** على الإنترنت/الشخص
-- **التاريخ:** DD شهرياً YYYY
-- **وثيقة مع جميع الروابط:** (تقديم رابط إلى صفحة الفهرس) <--- قم بتحديث هذا
-::
+:::info
+- **Location:** Online/in-person
+- **Date:** DD Month YYYY
+- **Document with all links:** (provide link to the index page) <--- update this
+:::
 
-**دورات التطوير**
+**Development sessions**
 
-Cuckoo clock: https://cuckoo. أكل/مكتب-كتابة
+Cuckoo clock: https://cuckoo.team/tw-bookdash
 
-كل يوم سنعقد 3 جلسات تطوير ونقاش موضوعي/جلسة تواصل واحدة حيث يمكنك التفاعل مع الآخرين، تابع ديك خارج جلسة التطوير أو أخذ استراحة لأنها أكثر استدامة وفائدة لمشاركتك.
+Each day we will hold 3 development sessions and an one themed discussion/networking session where you can interact with others, continue your disucssion outside development session or take a break as it's most sustainable and helpful for your participation.
 
-وستتبع كل دورة إنمائية تقنية بومودورو التي نستخدمها أيضا في مكالمتنا المشتركة. سوف نستخدم [قائمة على المتصفح المشترك (uckoo) clock](https://cucko.team/tw-bookdash) لإدارة وقتنا ([تعاون الفصل في The Turing Way](https://the-turing-way.netlify.app/Community handbook/coworking/coworking-motivation.html))
+Each development session will follow the Pomodoro technique that we also use for our coworking calls. We will use [browser-based shared (cuckoo) clock](https://cuckoo.team/tw-bookdash) to manage our time ([Coworking chapter in The Turing Way](https://the-turing-way.netlify.app/community-handbook/coworking/coworking-motivation.html))
 
-كل الوقت المتاح في لندن (UTC+1). الرجاء استخدام هذا الرابط للتحويل في المنطقة الزمنية الخاصة بك: وقت التحويل: https://arewemetingyet. om/london/YYY-MM-DD/hh:mm (حدّث DD: التاريخ) hh:mm: hours:minutes)
+All time provided in London Time (UTC+1). الرجاء استخدام هذا الرابط للتحويل في المنطقة الزمنية الخاصة بك: وقت التحويل: https://arewemetingyet. om/london/YYY-MM-DD/hh:mm (حدّث DD: التاريخ) hh:mm: hours:minutes)
 
 **استخدم جلسات بومودورو لاستراحة الراحة حسب الحاجة**
 
