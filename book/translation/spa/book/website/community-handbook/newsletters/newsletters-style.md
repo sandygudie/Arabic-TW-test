@@ -14,28 +14,26 @@ In this document, we have listed some guidelines to maintain consistency across 
     - use it consistently in the entire document
     - To reflect a range, use "from DD to DD Month YYYY" format.
     - Even if the sentences have reference to a day in "yesterday", "today" or "tomorrow", provide the exact date inside parenthesis so that it still makes sense if someone reads a newsletter in the future.
-- **Tiempo**: Usa el tiempo en [Tiempo de Greenwich](https://greenwichmeantime.com/what-is-gmt/) (GMT) o [Tiempo de verano británico](https://greenwichmeantime.com/uk/time/british-summer-time/) (BST), seguido de un enlace de
-arewemeetingyet.</li> 
-  
-  - **Links**: Use the Markdown formatting for link like this, `[text that needs to be linked](full HTTP link)` 
-      - Provide links wherever useful, for example, [HackMD for Collaboration Café](https://hackmd.io/@KirstieJane/CollabCafe), [GitHub issue](https://github.com/alan-turing-institute/the-turing-way/issues), [registration pages](https://www.eventbrite.co.uk/) and [see details](https://github.com/alan-turing-institute/the-turing-way).
+- **Time**: Use time in [Greenwich Mean Time](https://greenwichmeantime.com/what-is-gmt/) (GMT) or [British Summer Time](https://greenwichmeantime.com/uk/time/british-summer-time/) (BST), followed by a link from [arewemeetingyet.com](https://arewemeetingyet.com/#form) to check the time in relative time zones
+- **Links**: Use the Markdown formatting for link like this, `[text that needs to be linked](full HTTP link)`
+    - Provide links wherever useful, for example, [HackMD for Collaboration Café](https://hackmd.io/@KirstieJane/CollabCafe), [GitHub issue](https://github.com/alan-turing-institute/the-turing-way/issues), [registration pages](https://www.eventbrite.co.uk/) and [see details](https://github.com/alan-turing-institute/the-turing-way).
     - Create link for email ids using this Markdown syntax - `[real-email-id](mailto:real-email-id)`
-- **Quoting others**: Use smaller than (>) symbol followed by a space before the quoted sentence. Por ejemplo: `> Esta es mi cita legendaria.` aparecerá como: > Esta es mi cita legendaria.
-- **Header and styling**: The newsletter title is the top header. 
-      - Different sections as suggested in the newsletters are second-level headers and the sub-sections are third-level headers.
+- **Quoting others**: Use smaller than (>) symbol followed by a space before the quoted sentence. For example: `> This is my legendary quote.` will appear as: > This is my legendary quote.
+- **Header and styling**: The newsletter title is the top header.
+    - Different sections as suggested in the newsletters are second-level headers and the sub-sections are third-level headers.
     - Use bold letters, italics, hyperlinked texts and quotations wherever applicable
     - The project name, _The Turing Way_, should be italicised.
     - Use line breaks for each line consistent with _The Turing Way_ writing format.
     - Leave at least one line space after each section and subsection.
-- **Language and tone**: Keep the overall language simple and jargon-free, see [_The Turing Way_ style guide](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md#style-guide) for reference. 
-      - The tone should be welcoming, friendly and preferably informal. This can be personal to the author's writing style.
+- **Language and tone**: Keep the overall language simple and jargon-free, see [_The Turing Way_ style guide](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md#style-guide) for reference.
+    - The tone should be welcoming, friendly and preferably informal. This can be personal to the author's writing style.
     - Ask more than one person to review your draft to make sure that its content is easy to understand and written clearly.
     - If using content from a language or culture different from your own, ask people with that language or culture to review your draft to make sure that contents are not misrepresented.
-- **Use of emojis**: It is encouraged to use emoji (*show your personality*) 😇, but keep it simple, neutral and positive. 
-      - Be aware that that ambiguous emojis can be misinterpreted by different readers.
+- **Use of emojis**: It is encouraged to use emoji (*show your personality*) 😇, but keep it simple, neutral and positive.
+    - Be aware that that ambiguous emojis can be misinterpreted by different readers.
     - When in doubt, ask someone to review your draft.
-- **Use of images**: Only use relevant images linked to the news item in the newsletter. 
-      - Make sure that the images are available under CC-BY license or approved to be reused by the owners.
+- **Use of images**: Only use relevant images linked to the news item in the newsletter.
+    - Make sure that the images are available under CC-BY license or approved to be reused by the owners.
     - Avoid using memes, images with political or sexual innuendo, or anything that is not directly related to the community.
     - When drafting the newsletter in a HackMD, drag-n-drop an image into the editor or copy-paste an image to automatically upload the image to [Imgur](https://en.wikipedia.org/wiki/Imgur).
     - When drafting the newsletter on the GitHub, upload the images in the folder "the-turing-way/communications/newsletters/".
@@ -44,4 +42,4 @@ arewemeetingyet.</li>
     - Use Markdown syntax to link the images in the newsletter: `![](image/path)`.
     - As suggested in [_The Turing Way_ style guide](https://the-turing-way.netlify.app/community-handbook/style/style-figures.html), create an alt text for the image: `![Alt: Description of the image - this is not the title but actual explanation of the image](image/path)`
     - Below the image, write a short descriptive title for the image followed by an empty line. Link title to the source such as a tweet or related event.
-    - When using multiple images as panels in one collective image, number each image clearly (this can be done in any photo or text editor) and provide a numbered title for each image. See an example [here](https://github.com/alan-turing-institute/the-turing-way/blob/main/communications/newsletters/newsletter_14_May2020.md#tweets-from-the-community).</ul>
+    - When using multiple images as panels in one collective image, number each image clearly (this can be done in any photo or text editor) and provide a numbered title for each image. See an example [here](https://github.com/alan-turing-institute/the-turing-way/blob/main/communications/newsletters/newsletter_14_May2020.md#tweets-from-the-community).
