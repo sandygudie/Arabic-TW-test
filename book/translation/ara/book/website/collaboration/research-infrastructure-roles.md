@@ -26,4 +26,4 @@ We invite anyone who works in a research infrastructure role to share their expe
 
 Without research infrastructure roles, a lot of projects would never succeed! But this work is often hidden and not visible in academia, where papers and citations are the primary "reputation currency" and the system is very focused on promoting those in "traditional" academic careers. The motivation for writing this chapter and providing examples of the type of work that goes into research infrastructure is to make this hidden labour visible to a wider audience and highlight just how critical these aspects of research are for any community or project.
 
-مبادرات أخرى مثل [ معهد استدامة البرامج ](https://www.software.ac.uk/) و  مركز التعاون العلمي &amp؛ المشاركة المجتمعية</ 1> و  المرجع المخفي </ 2> في الإدراك المتزايد لأهمية هذه الأدوار للبحث. </p> 
+Other initiatives such as the [Software Sustainability Institute](https://www.software.ac.uk/), the [Center for Scientific Collaboration & Community Engagement](https://www.cscce.org/), and the [Hidden REF](https://hidden-ref.org/), are all contributing to the growing recognition of the importance of these roles for research. 
