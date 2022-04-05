@@ -1,29 +1,29 @@
 (legal-disclaimer)=
-# Explicação jurídica: The Turing Way não é aconselhamento jurídico!
+# Legal disclaimer: The Turing Way is not legal advice!
 
-_A Turing Way_ é um guia levemente visualizado para reproduzir a pesquisa. Ele é *não* uma fonte de aconselhamento legal e nunca deve ser tratado como tal.
+_The Turing Way_ is a lightly opinionated guide to reproducible research. It is *not* a source of legal advice and should never be treated as such.
 
-## Um bom aconselhamento jurídico é oportuno, específico e fornecido por um especialista em direito
+## Good legal advice is timely, specific, and given by a legal expert
 
-_A Caminho de Turing_ não é uma dessas coisas.
+_The Turing Way_ is not these things.
 
-_O Caminho de Turing_ não é escrito como uma fonte de conhecimento jurídico. Quando se faz referência a leis e regulamentos, a informação fornecida é muito simplificada. A intenção é dar-vos uma visão geral dos aspectos básicos para que saibam quando é que vamos verificar se algo que queremos fazer tem potenciais ramificações jurídicas. Não tome decisões importantes baseadas apenas em informações sobre leis e regulamentações deste livro.
+_The Turing Way_ is not written to be a source of legal expertise. When laws and regulations are referenced, the information provided is heavily simplified. The intent is to give you an overview of the basics so that you will know when to check whether something you want to do has potential legal ramifications. Don’t make any important decisions based solely on information about laws and regulations in this book.
 
-### Procurando perícia jurídica
+### Finding legal expertise
 
-Se você faz parte de uma organização como uma universidade, uma organização sem fins lucrativos ou uma empresa, É provável que seja possível aceder a aconselhamento jurídico, quer internamente quer por parte de uma empresa especializada que já trabalha com a sua instituição ou organização. Você deve primeiro verificar com eles se tiver alguma preocupação.
+If you are part of an organisation such as a university, a non-profit or a company, you can likely access legal advice either in-house or from a specialist firm that already works with your institution or organisation. You should check with them first if you have any concerns.
 
-Se não faz parte de uma instituição ou organização:
-- Há firmas de advogados que se especializam em dados e tecnologias que podem fornecer aconselhamento em muitas jurisdições (veja abaixo).
-- Muitos governos disponibilizam as suas leis e regulamentos em linha: estejam conscientes, porém, de que estes podem muitas vezes ser difíceis de entender sem formação especializada.
-- Em algumas jurisdições, algumas instituições de caridade e sem fins lucrativos produzem orientações para o cumprimento das leis. Devem ser claros quanto aos limites dos conselhos que podem dar.
+If you are not part of an institution or organisation:
+- There are law firms that specialise in data and technology that can provide advice in many jurisdictions (see below).
+- Many governments make their laws and regulations available online: be aware, however, that these can often be difficult to understand without specialist training.
+- In some jurisdictions, some charities and non-profits produce guidance for complying with laws. They should be clear about the limits of the advice they can provide.
 
-### Jurisdições
+### Jurisdictions
 
-Leis são diferentes em lugares diferentes. Você deve certificar-se de que está ciente das jurisdições em que está a operar e de que está a cumprir todas as leis que cobrem todas as jurisdições relevantes. Se não tiver certeza, comece por entrar em contato com um consultor jurídico no lugar em que está actualmente a trabalhar: eles também poderão aconselhar sobre as outras jurisdições em que você deveria pensar.
+Laws are different in different places. You should make sure that you are aware of which jurisdictions you are operating in and that you are complying with all the laws that cover all the relevant jurisdictions. If you are not sure, start by contacting a legal advisor in the place that you are currently working: they will also be able to advise on what other jurisdictions you should be thinking about.
 
-## E agora?
+## What's next?
 
-- Identifique a quem você deve entrar em contato caso você precise de aconselhamento jurídico ou especialização
-- Saiba mais sobre seus direitos, limitações e que aconselhamento jurídico você deve procurar
-- Saiba mais sobre isso no {ref}`Guia para Pesquisa Ética<er>`
+- Identify who you should reach out to should you need legal advice or expertise
+- Learn about your rights, limitations and what legal advice you should seek
+- Learn more about it in the {ref}`Guide for Ethical Research<er>`
