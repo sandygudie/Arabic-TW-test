@@ -38,26 +38,26 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Achintya Rao
 
-* 角色：
+* Role:
   * 项目成员(2021年至今)
   * Dash Participant 2021
 * GitHub id: [RaoOfPhysics](http://github.com/RaoOfPhysics)
 * ORCID: [0000-0002-1628-2618](https://orcid.org/0000-0002-1628-2618)
 * Short bio:
-> Achintya is the Community Manager for the _AI for Science and Government_ research programme at The Alan Turing Institute. 他拥有物理学学士学位和科学期刊硕士学位。 他拥有物理学学士学位和科学期刊硕士学位。 在加入都灵之前，他曾在日内瓦的欧洲核研究组织CERN担任过十多年的科学通讯员。 他还正在整理西方大学Bristol的科学通讯博士学位。
+> Achintya is the Community Manager for the _AI for Science and Government_ research programme at The Alan Turing Institute. 他拥有物理学学士学位和科学期刊硕士学位。 He has a BSc in physics and an MA in science journalism. Prior to joining The Turing, he spent over a decade as a science communicator at CERN, the European Organization for Nuclear Research, in Geneva. He is also wrapping up a PhD in science communication from UWE Bristol.
 
 * Personal highlights:
-> 这是一种喜悦，帮助那些从未使用过GitHub 的人先提交他们的第一个问题，然后提出他们的第一个拉取请求。 我还熟悉了这本书的结构，希望能够帮助社区其他成员今后为其做出贡献！ 在一个共同的虚拟空间中，它非常有趣地与这么多杰出的人合作。
+> It was a joy helping people who had never used GitHub before file their first issues and make their first pull requests. I also familiarised myself with the structure of the book and can hopefully help other members of the community make contributions to it in the future! It was a lot of fun co-working with so many wonderful people in a shared virtual space.
 
 * More information:
-> 我喜欢TWrepo不仅是一个贡献的场所，也是一个学习场所， 所以我不怕在提交和拉取请求中犯错误。 这么多知识丰富的社区成员来帮助是很有帮助的！
+> I love that the TTW repo is a place not just to contribute but also to learn, so I wasn't afraid of making mistakes in commits and pull requests. It’s helpful that so many knowledgeable members of the community are there to help!
 
-* 个人报价：
-> _诱惑方式_ 是从数据科学和公开研究的不同经验中收集集体知识的理想场所。 和边做边学。
+* Personal Quote:
+> _The Turing Way_ is an ideal place to gather collective knowledge from diverse experiences in data science and open research, and to learn by doing.
 
 ### Alejandro Coca
 
-* 角色：
+* Role:
     * 核心贡献者 - 翻译贡献者 (2021-现)
     * Dash Participant 2021
 * GitHub id: [acocac](https://github.com/acocac)
@@ -76,7 +76,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Alexander Morley
 
-* 角色：
+* Role:
   * Core Contributor - Infrastructure 维护者 (2018 - 2019)
   * 上一个项目成员
 * GitHub id: [alexmorley](http://github.com/alexmorley)
@@ -133,7 +133,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Anna Krystalli
 
-* 角色：
+* Role:
   * [行为守则委员会](https://the-turing-way.netlify.app/community-handbook/coc/coc-enforcement.html) 成员 (2018年至今)
   * 曾任项目成员(2018-2019年)
 * GitHub id: [annakrystalli](http://github.com/annakrystalli)
@@ -146,7 +146,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Arielle Bennett
 
-* 角色：
+* Role:
   * 项目成员(2021年至今)
   * 书籍破折号规划委员会 2021
   * Dash参与者2020年
@@ -162,7 +162,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 * More information:
 > 研究基础结构角色一章尚未完成！ 我们希望人们能够对这一领域中更多的作用做出概述。 或分享他们的职业发展轨迹和背景，作为今后的个案研究。
 
-* 个人报价：
+* Personal Quote:
 > 与有经验和新经验的书籍参与者合作，创造一些令人惊喜的东西，总是一件愉快的事。 书籍破折号对新的社区成员和老社区成员来说都是令人难以置信的经历。 把时间集中用于制定“美丽之路”的内容和支持全球人民作出贡献，这是令人愉快的工作。 我感到幸运的是，能够作为组织委员会的一部分参加会议并发挥更突出的作用。
 
 
@@ -172,7 +172,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Batool Almarzouq
 
-* 角色：
+* Role:
     * Core Contributor, Infrastructure 维护者 (2021-Present)
     * 书籍破折号规划委员会 2021
     * Dash Participant 2021
@@ -229,7 +229,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Camila Rangel Smith
 
-* 角色：
+* Role:
   * 核心贡献者-项目翻译牵头者(西班牙文)(2020年至今)
   * 2019年5月Dash 参与者
 * GitHub id: [crangelsmith](https://github.com/crangelsmith)
@@ -252,7 +252,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Emma Karoune
 
-* 角色：
+* Role:
     * 项目成员(2020年出场)
     * Dash参与者 202020-2021
     * 书籍破折号规划委员会 2021
@@ -309,7 +309,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Heidi Seibold
 
-* 角色：
+* Role:
   * 核心贡献者(2020年展示)
   * Dash参与者2020年
 * GitHub id: [HeidiSeibold](https://github.com/HeidiSeibold)
@@ -341,7 +341,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Ismael Kherroubi Garcia
 
-* 角色：
+* Role:
   * 核心贡献者——伦理研究指南(2020-2021年)
   * [OLS-2 关于Ting project leaders](https://github.com/alan-turing-institute/the-turing-way/tree/main/open-life-science-mentoring)
   * Dash参与者2020年
@@ -361,7 +361,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Jessica Scheick
 
-* 角色：
+* Role:
   * 核心贡献者(2021年至今)
   * Dash Participant 2021
 * GitHub id: @JessicaS11
@@ -406,7 +406,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Laura Acion
 
-* 角色：
+* Role:
   * 核心贡献者(2020年)
   * Dash参与者2020年
 * GitHub id: [lauracion](http://github.com/lauracion)
@@ -419,7 +419,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Laura Carter
 
-* 角色：
+* Role:
   * 核心贡献者-伦理研究指南(2020-2021年)
   * 书籍破折号规划委员会 2021
   * [OLS-2 关于Ting project leaders](https://github.com/alan-turing-institute/the-turing-way/tree/main/open-life-science-mentoring)
@@ -435,7 +435,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 * More information:
 > 我对女权主义者和女权主义者的研究方法以及对权力结构和分类制度的审问感兴趣。 在我整个职业生涯中，我的大部分工作都是为了了解这些制度。 他们如何工作以及他们如何伤害：从而能够拆除他们！ 关于我的 [网站](https://lauracarter.github.io/) 的更多信息。
 
-* 个人报价：
+* Personal Quote:
 > “我不是一个科技领域，但我已经学到了很多关于github的知识，以此作为协作的工具：感谢2020年11月书破折号的每一个人，感谢你所有有用的咨询意见！”
 
 ### Lena Karvovskaya
@@ -460,7 +460,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Louise Bowler
 
-* 角色：
+* Role:
   * 曾任项目成员（2019年）
   * Dash参与者/助手2020年预订
 * GitHub id: [LouiseABowler](http://github.com/LouiseABowler)
@@ -479,7 +479,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Malvika Sharan
 
-* 角色：
+* Role:
   * 项目成员——共同牵头调查员（2021年至今）
   * 前任社区管理员 (2019 - 2021)
   * Dash参与者 2019
@@ -540,7 +540,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Marta Mangiarulo
 
-* 角色：
+* Role:
   * Dash参与者/助手(2020-2021)
 * GitHub id: [Marta-MM](http://github.com/Marta-MM)
 * ORCID: [0000-0001-7995-3717](https://orcid.org/0000-0001-7995-3717)
@@ -572,7 +572,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Martina G. Vilas
 
-* 角色：
+* Role:
   * 核心贡献者(2020年至今)
   * JupyterBook Infrastructure 维护者 (2020)
   * 学习导师的 OLS-2
@@ -611,7 +611,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Patricia Herterich
 
-* 角色：
+* Role:
   * 曾任项目成员 (2019-2020年)
 * GitHub id: [pherterich](http://github.com/pherterich)
 * ORCID: [0000-0002-4542-9906](https://orcid.org/0000-0002-4542-9906)
@@ -626,7 +626,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Paul Owoicho
 
-* 角色：
+* Role:
   * 曾任项目成员(2020年)
   * Google Season of Doc: Technical Writer (2020)
   * [OLS-2 用于导星项目引导](https://github.com/alan-turing-institute/the-turing-way/tree/main/open-life-science-mentoring)(2020)
@@ -639,7 +639,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 * Personal highlights:
 > 美味的道路是我第一次进入开放源码，是一种奇妙的学习体验。 我不仅对GitHub 的工作方式有了更深的理解和赞赏。 但我也在学习在我所做的工作中优先考虑可持续性和赋予权力。 虽然我的第一个开放源码项目是“美味之路”，但我在这个过程中充分享受了经验和学到了很多东西。 在GSOD程序之前，我只用Github来“存储”我的项目。 现在，我更加熟练地使用Github来进行协作努力，我更加敏捷地使用Markdown等工具。 此外，我还熟悉网站分析软件的建立和工作。 You can see the full report from GSoD participation [here](https://github.com/alan-turing-institute/the-turing-way/blob/main/communications/GSOD-applications/GSoD-2020-Project-Report.md). 2020年11月的书写破折号很棒！ 2020年11月的书写破折号很棒！ 与来自世界各地的人会面、合作和交流想法是很棒的。 除了书馆外，我一直在进行的第一个开放源码项目。 经验很出色，我打算在GoogleSeason 文档程序结束后继续充当贡献者。 我还看到自己参与了其他开放源码项目。
 
-* 个人报价：
+* Personal Quote:
 > 我深切赞赏公开源项目所需的技能。 我的导师帮助我认识到，我从全球可持续发展方案留下的价值不在我所做的工作的数量上， 但我如何使其他贡献者也能够完成我正在做的工作。 因此，我学会作为技术作者，以可复制、可持续、易于利用和包容的方式作出贡献。
 
 <!---Q
@@ -652,7 +652,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Rosie Higman
 
-* 角色：
+* Role:
   * 项目成员（2019年）
   * Dash参与者/帮助者 2019
 * GitHub id: [rosiehigman](http://github.com/rosiehigman)
@@ -667,7 +667,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### 拉查埃尔·安斯沃斯
 
-* 角色：
+* Role:
   * 前任项目成员-社区经理(2019年)
   * Dash Organiser 2019
 * GitHub id: [rainsworth](http://github.com/rainsworth)
@@ -699,7 +699,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Samuel Guay
 
-* 角色：
+* Role:
   * 学习导师的 OLS-2
   * Dash参与者2020年
 * GitHub id: [SamGuay](https://github.com/SamGuay)
@@ -714,7 +714,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Sarah Gibson
 
-* 角色：
+* Role:
   * 项目成员（2018年至今）
   * Infrastructure 维护者 (2019 - present)
   * 教导员生命线行动中心
@@ -732,7 +732,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### 索菲亚巴切尔
 
-* 角色：
+* Role:
   * 核心贡献者(2020年) - HacktoberFest 贡献促进者
   * [OLS 工程领导](https://github.com/alan-turing-institute/the-turing-way/tree/main/open-life-science-mentoring) (2020)
   * Dash参与者2020年
@@ -769,7 +769,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### 维基希腊语
 
-* 角色：
+* Role:
   * 项目成员 *Dash参与者 2021
 * GitHub id: vhellon
 * Twitter: @ vickyhellon
@@ -1220,7 +1220,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 此项目遵循 [全部贡献者](https://github.com/all-contributors/all-contributors) 的规格。 欢迎您的贡献！ (贡献者-记录合作者) =
-# 协作组织和项目
+# Collaborating Organisations and Projects
 
 *“美味之路”社群得到了其雇主、项目或组织支持的成员的实物捐助，供其参与。 当一个项目或组织的一名或多名成员合作为Ting Way建造和维持资源时，这种贡献是适用的。 这些贡献还包括一些项目，这些项目建立在诱惑方式资源的基础上，或与以各种身份参与“诱惑方式”小组成员合作。 我们分别确认这些贡献成员中的每一个，并在“协作组织和项目”下列出他们的概况。*
 
@@ -1260,7 +1260,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Carlos Martinez Oritz
 
-* 角色：
+* Role:
   * 项目 Memebr (2020-展示)
   * Dash参与者2020年
   * 书籍破折号规划委员会 2021
@@ -1278,7 +1278,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Mateusz Kuzak
 
-* 角色：
+* Role:
   * 项目 Memebr (2020-展示)
   * Dash参与者/助手2020年预订
 * GitHub id: [mkuzak](http://github.com/mkuzak)
@@ -1297,7 +1297,7 @@ _The Turing Way_ team members and [project's editorial board members](https://fa
 
 ### Susanna-Assunta Sansone
 
-* 角色：
+* Role:
   * Dash参与者 2019
 * GitHub id: [susannasansone](http://github.com/susannasansone)
 * ORCID: [0000-0001-5306-5690](https://orcid.org/0000-0001-5306-5690)
@@ -1312,7 +1312,7 @@ _The Turing Way_ team members and [project's editorial board members](https://fa
 
 ### Philippe Rocca-Serra
 
-* 角色：
+* Role:
   * Dash参与者2020年
 * GitHub id: [proccaserra](http://github.com/proccaserra)
 * ORCID: [0000-0001-9853-5668](https://orcid.org/0000-0001-9853-5668)
