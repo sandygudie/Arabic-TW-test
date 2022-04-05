@@ -47,7 +47,7 @@ def myfunc(numb): #python function
       return((numb*5)-2)
 print(myfunc(8))
 ```
-Los bloques más largos de comentarios no están disponibles en R. Hay maneras de evitar esto, como configurar una cadena, o una declaración if(false):
+Longer blocks of comments are not available in R. There are ways around this, such as setting up a string, or an if(false) statement:
 
 ```r
 "1 - This is a string. It will not be evaluated by R, and will not raise
