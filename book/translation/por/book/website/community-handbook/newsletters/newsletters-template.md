@@ -1,18 +1,20 @@
 (ch-newsltters-template)
-# Modelo para Rascunho de Newsletters
+# Template for Drafting Newsletters
 
-O modelo delineado abaixo é o que temos usado como guia para coletar itens de notícias para o _The Turing Way_ newsletters desde setembro de 2019. Este template evoluiu durante vários meses e não se afirma de modo algum como o formato "perfeito". Ao reutilizar este modelo, você deve experimentar o que funciona para sua comunidade. As vossas sugestões nos subcapítulos anteriores são muito bem-vindas.
+The template outlined below is what we have been using as a guide for collecting news items for the _The Turing Way_ newsletters since September 2019. This template has evolved over several months and in no way claims to be the 'perfect' format. When reusing this template, you should experiment with what works for your community. Your suggestions in the earlier subchapters are very welcome.
 
 ```
-Data: Mês DD YYYY
+Date: DD Month YYYY
 
-# título Olá Turing Way amigos!
+# title
 
-Este mês...
+Hello Turing Way friends!
 
-Gritar ...
+This month ...
 
-Eventos ...
+Shout out ...
+
+Events ...
 
 Find more details on these topics below 👇
 
@@ -49,9 +51,11 @@ Find more details on these topics below 👇
 - [Slack channel](https://join.slack.com/t/theturingway/shared_invite/zt-fn608gvb-h_ZSpoA29cCdUwR~TIqpBw)
 - [Public Gitter channel](https://gitter.im/alan-turing-institute/the-turing-way)
 - [YouTube Videos](https://www.youtube.com/channel/UCPDxZv5BMzAw0mPobCbMNuA)
-- [Twitter Channel](https://twitter.com/turingway) You are welcome to contribute content for the next newsletter by
+- [Twitter Channel](https://twitter.com/turingway)
+
+You are welcome to contribute content for the next newsletter by
 emailing [Malvika Sharan](mailto:msharan@turing.ac.uk).
 
-*Perdeu as últimas newsletters?*
-*Confira os textos [here](https://tinyletter.com/TuringWay/archive).*
+*Did you miss the last newsletters?*
+*Check them out [here](https://tinyletter.com/TuringWay/archive).*
 ```
