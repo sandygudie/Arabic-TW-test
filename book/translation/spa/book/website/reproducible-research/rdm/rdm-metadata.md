@@ -1,9 +1,9 @@
-(rr-rdm-metadatos)=
-# Documentación y metadatos
+(rr-rdm-metadata)=
+# Documentation and Metadata
 
-Tener datos disponibles no sirve de nada si no se puede entender. Sin metadatos que proporcionen procedencia y contexto, los datos no se pueden utilizar eficazmente. Por ejemplo, una tabla de números es inútil si ningún encabezado describe lo que contienen las columnas/filas. Por lo tanto, debe asegurarse de que los conjuntos de datos abiertos incluyan metadatos consistentes, es decir, información acerca de los datos para que los datos estén completamente descritos. Esto requiere que la información que acompaña a los datos sea capturada en documentación y metadatas.
+Having data available is of no use if it cannot be understood. Sin metadatos que proporcionen procedencia y contexto, los datos no se pueden utilizar eficazmente. Por ejemplo, una tabla de números es inútil si ningún encabezado describe lo que contienen las columnas/filas. Por lo tanto, debe asegurarse de que los conjuntos de datos abiertos incluyan metadatos consistentes, es decir, información acerca de los datos para que los datos estén completamente descritos. Esto requiere que la información que acompaña a los datos sea capturada en documentación y metadatas.
 
-## Documentación
+## Documentation
 
 La documentación proporciona un contexto para su trabajo. Permite a sus colaboradores, colegas y futuros comprender lo que se ha hecho y por qué. La documentación de datos se puede hacer a diferentes niveles. Toda la documentación que acompañe los datos debe estar escrita en un lenguaje claro y sencillo. La documentación permite a los usuarios de datos tener suficiente información para entender la fuente, fortalezas, debilidades, y limitaciones analíticas de los datos para que puedan tomar decisiones informadas al usarlo.
 
