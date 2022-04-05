@@ -1,96 +1,96 @@
 (rr-open-hardware)=
 # Open Hardware
 
-يشير مصطلح "الأجهزة المفتوحة" أو "الأجهزة مفتوحة المصدر" [{term}`def<Open Source Hardware>`] إلى مواصفات تصميم شيء مادي مرخص بطريقة يمكن من خلالها دراسة الأشياء وتعديلها وإنشاءها وتوزيعها بواسطة أي شخص، مثل برمجيات المصدر المفتوح، "شفرة المصدر" للأجهزة المفتوحة ، المخططات، التصميمات المنطقية، الرسومات أو ملفات التصميم الخاصة بالحاسوب، وما شابه ذلك، متاحة للتعديل أو التحسين من قبل أي شخص، يمكن للمستخدمين الذين لديهم إمكانية الوصول إلى الأدوات التي يمكنها قراءة و التحكم بهذه الملفات المصدرية, من تحديث وتحسين الجهاز المادي و الشفرة التي يقوم عليها، والقيام إذا رغبوا في ذلك، بالمضي قدما في تقاسم هذه التعديلات،
+"Open hardware", or "open source hardware" [{term}`def<Open Source Hardware>`], refers to the design specifications of a physical object that are licenced in such a way that said object can be studied, modified, created, and distributed by anyone. Like open-source software, the "source code" for open hardware - schematics, blueprints, logic designs, Computer Aided Design (CAD) drawings or files, and the like, is available for modification or enhancement by anyone. Users with access to the tools that can read and manipulate these source files can update and improve the physical device and the code that underlies it, and, if they wish, proceed to share such modifications.
 
-وينبغي أن يكون من السهل الوصول إلى شفرة مصدر الأجهزة المفتوحة، ويفضل أن يكون الحصول على مكوناتها سهلا بالنسبة لأي شخص، وتزيل الأجهزة المفتوحة الحواجز الشائعة أمام تصميم وتصنيع السلع المادية؛ فهي توفر لأكبر عدد ممكن من الناس, القدرة على بناء وإعادة تشكيل وتبادل معرفتهم بتصميم المعدات ووظائفها،
+Open hardware's source code should be readily accessible, and its components are preferably easy for anyone to obtain. Essentially, open hardware eliminates common roadblocks to the design and manufacture of physical goods; it provides as many people as possible the ability to construct, remix, and share their knowledge of hardware design and function.
 
-وتجدر الإشارة إلى أن الأجهزة المفتوحة لا تعني بالضرورة مجاناً، لا يزال من الممكن بيع الوحدات (من قبل المصمم الأصلي أو من قبل الآخرين)، ولكن *يمكن* للمستخدمين بناؤها من البداية، سواء اختاروا شراء الوحدة أم لا، يمكن للمستخدمين الحصول على فهم كامل لكيفية عمل الأجهزة من الوثائق والتصاميم المتاحة وما شابه ذلك،
+It is worth noting that open hardware does not necessarily mean free. Units may still be sold (by the original designer or by others), but users *could* build them from scratch. Whether or not they choose to buy the unit, users can still get a full understanding of how the hardware works from available documentation, designs, and similar.
 
-(r-open-ardware-why)=
-## لماذا (Open Hardware) الأجهزة المفتوحة؟
+(rr-open-hardware-why)=
+## Why Open Hardware?
 
-الأجهزة المفتوحة تسمح للباحثين بفهم ما تفعله معداتهم، وكيف تقوم بذلك، والتحقق من أنها تفعل ذلك بشكل صحيح، بدلاً من أن تضطر إلى تمديد درجة من الثقة، وإدراكا للكيفية التي تعمل بها الأجهزة التي تولد نتيجة تشتغل، تضع الباحثين على أساس أقوى في تقييم تلك النتائج، الأجهزة المفتوحة أيضا تجعل البحث أكثر قابلية للتكرار لأن الباحثين الذين يتطلعون إلى التحقق من النتائج يمكنهم القيام بنفس الشيء،
+Open hardware allows researchers to understand what their equipment is doing, how it is doing it, and to verify that it is doing it correctly, rather than having to extend a degree of trust. Being aware of how the equipment that generates a result works puts researchers on a firmer footing in assessing those results. Open hardware also makes research more reproducible as researchers looking to verify results can do the same thing.
 
-وتشمل الفوائد الأخرى للأجهزة المفتوحة الحماية من الإنغلاق أي أن تكون تحت تصرف شخص واحد، تزيد ملكية البرمجيات لبنية النواة من خطر إحتكارها للبائع أو التكنولوجيا، إذا حدث ذلك، يمكن للباحثين أن يكونوا تحت رحمة زيادة أسعار البائعين و بسبب إفتقارهم للمرونة لا يستطيعون الإفلات بسهولة، وعلاوة على ذلك، إذا كان الباحثون يرغبون في تعديل أجهزتهم لتلائم احتياجاتهم على نحو أفضل، من الأسهل بكثير القيام بذلك (وقد لا يكون ذلك إلا قانونيا) في حالة الأجهزة مفتوحة المصدر،
+Other benefits of open hardware include protection against lock-in. Proprietary software for core infrastructure increases the risk of becoming locked in by the vendor or technology. If this happens, researchers can be at the mercy of vendors' price increases and experience a lack of flexibility they can not easily and readily escape. Further, if researchers want to modify their equipment to suit their needs better, it is much easier to do so (and may only be legal) in the case of open-source hardware.
 
-(r-open-hardware-element)=
+(rr-open-hardware-elements)=
 ## Elements of an Open Source Hardware Project
 
-فيما يلي بعض الملفات التي يجب أن تفكر في مشاركتها عند نشر مشروعك مفتوح المصدر، ليس مطلوبا منك أن تنشرها كلها، ولكن كلما شاركت أكثر، كلما زادت فوائد المجموعة، هناك الكثير من الملفات هنا لتضمينها في مشاريع برامج مفتوحة المصدر،
+Here are some files that you should consider sharing when publishing your open-source hardware project. You are not required to post them all, but the more you share, the more the community benefits. There is much crossover here with files to include in open source software projects.
 
 (rr-open-hardware-elements-overview)=
-### لمحة عامة ومقدمة
-يجب أن يتضمن مشروعك ذو الجهاز مفتوح المصدر وصفاً عاماً لهوية الجهاز والغرض منه، مكتوبة قدر الإمكان لمجموعة عامة، إذا اشرح المشروع و الغرض منه قبل أن تدخل في التفاصيل التقنية،
+### Overview and Introduction
+Your open-source hardware project should include a general description of the hardware's identity and purpose, written as much as possible for a general audience. That is, explain what the project is and what it is for before you get into the technical details.
 
-(r-open-hardware-elements-licenence)=
-### (Licence) ترخيص
-الترخيص المناسب للأجهزة المفتوحة و محتوياتها يمنح الإذن القانوني لأي شخص بإعادة الاستخدام، تعديل وتوزيع مختلف مكونات المشروع وفقاً للشروط المذكورة (على سبيل المثال يجب أن تعترف بمساهمتك)،
+(rr-open-hardware-elements-licence)=
+### A Licence
+An appropriate license on the open hardware project and its content grants legal permission to anyone to re-use, modify and distribute the different components of a project according to the terms stated (for example, they must acknowledge your contribution).
 
-(r-open-equipware-elements-design)=
-### ملفات التصميم الأصلية
+(rr-open-hardware-elements-design)=
+### Original Design Files
 
-هذه هي ملفات المصدر التي ستستخدمها لإجراء تعديلات على تصميم الأجهزة، إن مشاركة هذه الملفات هو الهدف الأساسي للأجهزة مفتوح المصدرة،
-- من الناحية المثالية، سيتم تصميم مشروعك ذو الجهاز مفتوح المصدر باستخدام تطبيق برمجيات مجانية و مفتوح المصدر لتحقيق أقصى قدر للآخرين من مشاهدته و تعديله،
+These are the source files that you would use to make modifications to the hardware's design. The act of sharing these files is the core practice of open-source hardware.
+- Ideally, your open-source hardware project would be designed using a free and open-source software application to maximize the ability of others to view and edit it.
 
-ومن أجل الأفضل أو الأسوأ، كثيرا ما يتم إنشاء ملفات تصميم الأجهزة في برامج مسجلة الملكية وتخزينها في أشكال مسجلة الملكية، لا يزال من الضروري مشاركة ملفات التصميم الأصلية هذه؛ وهي تشكل "رمز المصدر" الأصلي للأجهزة، إنها نفس الملفات التي سيحتاجها شخص ما للمساهمة بتغييرات في تصميم معين،
-- حاول جعل ملفات التصميم الخاصة بك سهلة لشخص آخر ليفهمها، وعلى وجه الخصوص،يجب عليك تنظيمها بطريقة منطقية، والتعليق على الجوانب المعقدة، والإشارة إلى أي إجراءات صناعية غير عادية،
-- أمثلة من ملفات التصميم الأصلي تحتوي على رسومات ثنائية الأبعاد وملفات التصميم بمساعدة الكمبيوتر (CAD)،
+For better or worse, hardware design files are often created in proprietary programs and stored in proprietary formats. It is still essential to share these original design files; they constitute the original "source code" for the hardware. They are the same files that someone will need in order to contribute changes to a given design.
+- Try to make your design files easy for someone else to understand. In particular, organize them in a logical way, comment complex aspects, and note any unusual manufacturing procedures.
+- Examples of Original Design Files include 2D drawings and computer-aided design (CAD) files.
 
-(r-open-devic-elements auxiliary)=
-### ملفات التصميم المساعدة
+(rr-open-hardware-elements-auxiliary)=
+### Auxiliary Design Files
 
-بالإضافة إلى ملفات التصميم الأصلية ، من المفيد غالبًا مشاركة تصميمك بتنسيقات إضافية يسهل الوصول إليها، For example, best practice open-sourcing a CAD design is to share the design not just in its native file format, but also in a range of interchangeable and exportable formats that can be opened or imported by other CAD programs.
-- It is also helpful to provide ready-to-view outputs that can easily be viewed by end-users who wish to understand (but not necessarily modify) the design. ويمكن أن يكون هذا الناتج عبارة عن جهاز (PDF) بي دي أف لتخطيط لوحة دائرية. هذه ملفات التصميم المساعدة تسمح للناس بدراسة تصميم الأجهزة، بل أحيانا صناعتها، حتى بدون الوصول إلى مجموعة برمجيات معينة مسجلة الملكية. ومع ذلك نلاحظ أن ملفات التصميم المساعدة لا يوصى بها أبدا كبدائل لملفات التصميم الأصلية.
+Beyond the original design files, it is often helpful to share your design in additional, more accessible formats. For example, best practice open-sourcing a CAD design is to share the design not just in its native file format, but also in a range of interchangeable and exportable formats that can be opened or imported by other CAD programs.
+- It is also helpful to provide ready-to-view outputs that can easily be viewed by end-users who wish to understand (but not necessarily modify) the design. Such output could be a PDF of a circuit board schematic. These auxiliary design files allow people to study the design of the hardware, and sometimes even fabricate it, even without access to particular proprietary software packages. However, note that auxiliary design files are never recommended as substitutes for original design files.
 
-(r-open-equipware-elements-design)=
-### رسومات فنية إضافية
-It is useful to provide any additional technical drawings in their original formats if they are required for fabrication of the device. ويمكن تقديم هذه الخدمات في شكل يمكن قراءته بصورة شائعة مثل (PDF) بي دي أف.
+(rr-open-hardware-elements-drawings)=
+### Additional Technical Drawings
+It is useful to provide any additional technical drawings in their original formats if they are required for fabrication of the device. These can be supplied in a commonly-readable format such as PDF.
 
 (rr-open-hardware-elements-materials)=
 ### Bill of Materials
 
-و في حين أنه قد يكون من الممكن الاستنتاج من ملفات التصميم أى جزء يشكل قطعة من الجهاز ، ومن الضروري تقديم فاتورة مواد منفصلة. يمكن أن تكون فاتورة الأجهزة جدول ممتد (على سبيل المثال، سي في (CVS)، (Google Doc) جوجل دوك, XLS) أو مجرد ملف نصي مع جزء واحد لكل سطر. والأشياء المفيدة التي تدرج في فاتورة الأجهزة هي الجزئيات و الموردين و التكاليف و وصف موجز لكل جزء منها. اجعل من السهل معرفة أي عنصر في فاتورة المواد يقابل أي مكون في ملفات التصميم الخاصة بك: استخدم مطابقة مرجع المصممين في كلا المكانين، وفر رسم بياني يبين الجزء الذي يذهب إليه, و غير ذلك إشرح المراسلات بطريقة أخرى.
+While it might be possible to infer from the design files which parts make up a piece of hardware, it is essential to provide a separate bill of materials. A bill of materials can be a spreadsheet (for example, CSV, XLS, Google Doc) or simply a text file with one part per line. Useful things to include in the bill of materials are part numbers, suppliers, costs, and a short description of each part. Make it easy to tell which item in the bill of materials corresponds to which component in your design files: use matching reference designators in both places, provide a diagram indicating which part goes where, or otherwise explain the correspondence.
 
-(r-open-equip-elements-software)=
-### البرمجيات والبرامج الثابتة
+(rr-open-hardware-elements-software)=
+### Software and Firmware
 
-يجب عليك مشاركة أي شفرة أو برنامج مطلوب لتشغيل جهازك. هذا سيسمح للآخرين باستخدامه لجهازهم أو تعديله جنبا إلى جنب مع تعديلاتهم على جهازك. Document the process required to build your software, including links to any dependencies (for example, third-party libraries or tools). ومن المفيد أيضاً تقديم لمحة عامة عن حالة البرنامج (مثلاً، "مستقر" أو "شبه مستقر" أو "بالكاد تعمل بسبب الإختراق").
+You should share any code or firmware required to operate your hardware. This will allow others to use it with their hardware or modify it along with their modifications to your hardware. Document the process required to build your software, including links to any dependencies (for example, third-party libraries or tools). It is also helpful to provide an overview of the state of the software (for example, "stable" or "beta" or "barely-working hack").
 
 (rr-open-hardware-elements-photos)=
 ### Photos
-الصور تساعد الناس على فهم مشروعك وكيفية تجميعه. It is good to publish photographs from multiple viewpoints and at various stages of assembly. If you do not have photos, posting 3D renderings of your design is a good alternative. وفي كلتا الحالتين، من المفيد تقديم عبارات أو نصوص تشرح ما يظهر في كل صورة ولماذا هي مفيدة.
+Photos help people understand what your project is and how to put it together. It is good to publish photographs from multiple viewpoints and at various stages of assembly. If you do not have photos, posting 3D renderings of your design is a good alternative. Either way, it is good to provide captions or text that explain what is shown in each image and why it is useful.
 
-(r-open-hardware-elements-Overview)=
+(rr-open-hardware-elements-instructions)=
 ### Instructions and Other Explanations
 
 In addition to the design files themselves, there are a variety of explanations that are invaluable in helping others to make or modify your hardware:
-- صنع الأجهزة: لمساعدة الآخرين في صنع وتعديل تصميم الأجهزة الخاصة بك، يجب عليك تقديم إرشادات للانتقال من ملفات التصميم الخاصة بك إلى الأجهزة المادية العاملة. وكجزء من التعليمات، من المفيد الربط إلى جداول البيانات لمكونات/أجزاء من جهازك و قائمة الأدوات المطلوبة لتجميعها. If the design requires specialized tools, tell people where to get them.
-- استخدام الأجهزة: بمجرد قيام شخص ما بصنع الجهاز، يجب عليهم معرفة كيفية استخدامه. Provide instructions that explain what it does, how to set it up, and how to interact with it.
-- التصميم المنطقي: إذا كان شخص ما يريد تعديل تصميمك، فسيرغبون أن يعرفوا لماذا هي الطريقة التي يعمل بها. اشرح الخطة العامة لتصميم الجهاز و لماذا قمت باختيارات هذه الاختيارات.
-- حد المصطلحات: أظهر لنا أن هذه التعليمات يمكن أن يقرأها أي شخص قد تختلف خبرته أو تدريبه. حاول بقدر الإمكان الكتابة إلى جمهور عام، تحقق من تعليماتك الخاصة للمصطلحات الصناعية، وكن واضح حول ما يفترض أن يعرف المستخدم.
-- الشكل: يمكن أن تكون التعليمات في أشكال متنوعة، مثل (wiki) وي كي أو (text file) ملف نصي أو (Google Doc) جوجل دوك، أو (PDF) بي دي إف. تذكر، على الرغم من أن الآخرين قد يرغبون في تعديل تعليماتك أثناء تعديل تصميم الأجهزة الخاصة بك، لذا من الجيد توفير الملفات الأصلية القابلة للتحرير لتوثيقاتك، وليس فقط صيغ الإخراج مثل PDF.
+- Making the hardware: To help others make and modify your hardware design, you should provide instructions for going from your design files to the working physical hardware. As part of the instructions, it is helpful to link to datasheets for the components/parts of your hardware and to list the tools required to assemble it. If the design requires specialized tools, tell people where to get them.
+- Using the hardware: Once someone has made the hardware, they need to know how to use it. Provide instructions that explain what it does, how to set it up, and how to interact with it.
+- Design rationale: If someone wants to modify your design, they will want to know why it is the way it is. Explain the overall plan of the hardware's design and why you made the specific choices you did.
+- Limit jargon: Keep in mind that these instructions may be read by someone whose expertise or training is different from yours. As much as possible, try to write to a general audience, check your instructions for industry jargon, and be explicit about what you assume the user knows.
+- Format: The instructions could be in a variety of formats, such as a wiki, text file, Google Doc, or PDF. Remember, though, that others might want to modify your instructions as they modify your hardware design, so it is good to provide the original editable files for your documentation, not just output formats like PDF.
 
-(r-open-hardware-element)=
+(rr-open-hardware-processes)=
 ## Open-Source Hardware Processes and Practices
 
-(r-open-equipware-elements-design)=
+(rr-open-hardware-processes-designing)=
 ### Designing Your Hardware
 
-إذا كنت تخطط القيام بمشروع مفتوح المصدر لقطعة معينة من جهاز، إتباع بعض أفضل الممارسات في تصميمه سيسهل على الآخرين صنع و تعديل الجهاز:
+If you are planning to open source a particular piece of hardware, following certain best practices in its design will make it easier for others to make and modify the hardware:
 
 - Use free and open source software design (CAD) tools where possible: If that is not feasible, try to use low-cost and/or widely-used software packages.
-- استخدام المكونات المتاحة على نطاق واسع و المواد القياسية و عمليات الإنتاج: حاول تجنب الأجزاء غير المتاحة للعملاء أو العمليات التي تتطلب تكاليف إعداد باهظة.
+- Use standard and widely-available components, materials, and production processes: Try to avoid parts that are not available to individual customers or processes that require expensive setup costs.
 
-(r-open-equipware-elements-design)=
+(rr-open-hardware-processes-hosting)=
 ### Hosting Your Design Files
 
-إحدى الطرق الرئيسية لمشاركة ملفاتك هي باستخدام ملف مضغوط على موقعك. While this is a great start, it makes it difficult for others to follow your progress or to contribute improvements. قد يكون استخدام منصة شفرتها على الإنترنت (مثل (GitHub) جيت هاب، (GitLab) جيت لاب، (NotaBug) نوتا باڨ) مكانا أفضل لتخزين مشاريع الأجهزة المفتوحة المصدر.
+A primary way of sharing your files is with a zip file on your website. While this is a great start, it makes it difficult for others to follow your progress or to contribute improvements. Using an online source-code repository (like GitHub, GitLab, or NotaBug) may be a better place to store your open-source hardware projects.
 
-(r-open-equipware-elements-design)=
+(rr-open-hardware-processes-distributing)=
 ### Distributing Open-Source Hardware
 
-- قم بتوفير روابط للمصدر (ملفات التصميم الأصلية) لأجهزتك على المنتج نفسه،وحدة نمطية أو وثائقه.
+- Provide links to the source (original design files) for your hardware on the product itself, its packaging, or its documentation.
 - Make it easy to find the source (original design files) from the website for a product.
-- قم بتسمية الجهاز برقم الإصدار أو تاريخ الإصدار حتى يتمكن الناس من مطابقة الشيء المادي مع النسخة المقابلة من ملفات التصميم.
-- وعلى العموم، أشر بوضوح إلى أجزاء المنتج التي تكون مفتوحة المصدر (والأجزاء التي لا تكون مفتوحة المصدر).
+- Label the hardware with a version number or release date so that people can match the physical object with the corresponding version of its design files.
+- In general, clearly indicate which parts of a product are open source (and which are not).
