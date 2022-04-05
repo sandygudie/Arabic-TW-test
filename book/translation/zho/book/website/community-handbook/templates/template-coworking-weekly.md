@@ -5,16 +5,16 @@
 
 ## _The Turing Way_ online coworking hours
 
-**什么？ ** _美味的方法_ 是一个 **轻松的可复制数据科学和研究指南**。 _The Turing Way_ team hosts 1-hr long coworking calls each week for the community members to work together in real time.
+**What?** _The Turing Way_ is a **lightly opinionated guide to reproducible data science and research**. _The Turing Way_ team hosts 1-hr long coworking calls each week for the community members to work together in real time.
 
 *Read more about it here: https://the-turing-way.netlify.app/community-handbook/coworking.html*
 
-**谁？ ** **所有有兴趣复制、道德规范的人** 欢迎和包容性强的数据科学和研究加入Ting Way 项目的全部或任何部分，社区和/或本次呼叫。
+**Who?** **Everyone** interested in reproducible, ethical, and inclusive data science and research are welcome to join the full or any part of The Turing Way project, community, and/or this call.*
 * If you are working from home and want to connect for _The Turing Way_ co-working hour - sign up for a slot provided below for this week between 11:00 - 12:00 BST.
 * Join us with a task that you are already working on in _The Turing Way_, an idea that you want to discuss, a pull request that you want to review, or something you started in the past and struggling to finish.
 * If you want to get an orientation to the project as a new member or connect with the team members - this would be a good place too!
 
-如果您想要加入 _。 共同工作时间_ -共同工作时间 - 注册本周在 11:00 至 12:00 BST之间提供的一个槽位。
+If you would like to join _The Turing Way_ co-working hour - sign up for a slot provided for this week between 11:00 - 12:00 BST.
 
 **Host:** Malvika Sharan (msharan@turing.ac.uk)
 
