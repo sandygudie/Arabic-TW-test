@@ -1,56 +1,56 @@
-(cm-blogs-pessoal-histórias)=
-# Histórias pessoais - Blogs
+(cm-blogs-personal-stories)=
+# Personal Stories - Blogs
 
-## Veronika Cheplygina: Escrever uma série bem sucedida de blog
+## Veronika Cheplygina: Writing a Successful Blog Series
 
-**Dr. Veronika Cheplygina** é um professor de associados na Universidade de TI de Copenhaga. Veronika esforça-se por tornar a ciência mais aberta e inclusiva.
+**Dr Veronika Cheplygina** is an Associate Professor at the IT University Copenhagen. Veronika strives to make science more open and inclusive.
 
-Você pode saber mais sobre o trabalho dela através dos links abaixo:
-* Site pessoal: [veronikach.com](https://veronikach.com/)
+You can find out more about her work from the links below:
+* Personal website: [veronikach.com](https://veronikach.com/)
 * Twitter: [@DrVeronikaCH](https://twitter.com/DrVeronikaCH)
 * ORCID: [0000-0003-0176-9324](https://orcid.org/0000-0003-0176-9324)
 
-Gostaríamos de agradecer à **Dr Veronika Cheplygina** por responder a nossas perguntas de entrevistas sobre sua série no blog muito bem sucedida chamada ['Como eu falhe'](https://veronikach.com/failure/).
+We would like to thank **Dr Veronika Cheplygina** for answering our interview questions about her very successful blog series called ['How I fail'](https://veronikach.com/failure/).
 
-## 1. Por que você criou o seu blog?
+## 1. Why did you start your blog?
 
-Muito originalmente (durante a universidade) eu queria ter um blog porque estava interessado em configurá-lo, e na verdade não estava escrevendo nada. Eu tentei escrever alguns posts estranhos, mas me senti quase envergonhado com eles e acabou excluindo-os. Só durante o meu PhD/postdoc, penso, comecei a escrever com mais frequência, na maioria das vezes atualizações sobre o meu trabalho, explorando ferramentas de produtividade e falhas.
+Very originally (during university) I wanted to have a blog because I was interested in setting it up, and not actually in writing anything. I did try to write some awkward posts, but felt mostly embarrassed about them and ended up deleting them. Only during my PhD/postdoc, I think, I started writing more frequently, mostly updates about my work, exploring productivity tools, and failures.
 
-## 2. Como você se começou?
+## 2. How did you get started?
 
-Conforme descrito acima era bastante gradual, o primeiro blog que eu criei, eu próprio programei o PHP (e ele tinha muitos bugs). Então eu mudei para um blog gratuito do WordPress e então instalei o WordPress no meu site. Quanto a escrever no blog, quando eu tinha começado a escrever mais, Fiz dele um hábito escrever uma vez por semana, por exemplo, e ficou mais natural depois de um tempo. Além disso, ficou mais claro sobre quais são realmente os "meus" tópicos para escrever ou não. O CV de Falhou que eu compartilhei durante o meu pós-doc ressoou, e que mais tarde se transformou em como eu falhei em série.
+As described above it was quite gradual, the first blog I set up, I programmed in PHP myself (and it had lots of bugs). Then I switched to a free WordPress blog and then installed WordPress on my website. As for writing on the blog, when I did start to write more, I made it a habit to write (for example) once a week, and it became more natural after a while. Also, it became more clear what is really "my" topics to write about, or not. The CV of Failures I shared during my postdoc resonated, and that later turned into the How I Fail series.
 
-## 3. Qual impacto você acha que o seu blog está causando em sua pesquisa/projeto/comunidade?
+## 3. What impact do you think your blog is making on your research/project/community?
 
-Ajuda as pessoas a verem histórias de outras pessoas reais e que se relacionam com as questões que são discutidas.
+It helps people to see stories by other real people, and relate to the issues that are discussed.
 
-## Posso apenas levá-lo a desenvolver a questão do impacto? Seu blog gerou mais impacto em um projeto, ou talvez você levou você mais percebido para proteger um trabalho ou ajudar a construir uma comunidade?
+## Can I just get you to expand on the impact question? Did your blog lead to more impact in a project, or perhaps got you more noticed to secure a job, or help build a community?
 
-Sim, eu me dou conta porque as pessoas me conhecem do meu Twitter e blog, geralmente isso se traduz em convites de conversa. No ano passado, quando anunciei que ia deixar o meu mandato, também tinha algumas sugestões de emprego. que no final acabou traduzido para minha posição atual (efetiva).
+Yes, I get noticed because people know me from my Twitter and blog, usually this translates into talk invitations. Last year when I announced I was leaving my tenure track, I also had a few suggestions for jobs, which in the end translated into my current (tenured) position.
 
-Não tenho certeza se há uma comunidade explícita, mas sinto que tenho uma comunidade de apoio no Twitter. Também resultou em alguns grandes projectos, como o Avengers para o workshop de Ciência Melhor, que foi financiada pela Mozilla Foundation, ou o documento Dez Regras Simples sobre o Twitter.
+I am not sure there is an explicit community, but I do feel like I have a supportive community on Twitter. It has also resulted in some great projects, like the Avengers for Better Science workshop, which was funded by the Mozilla Foundation, or the Ten Simple Rules paper about Twitter.
 
-Para o blog, eu tenho uma noção de que tipo de pessoa lê o meu blog, mesmo que nunca os tenha encontrado. É ótimo ver as estatísticas dos posts anteriores do blog, e receber um email de agradecimento ou mensagem de vez em quando.
+For the blog, I have a sense of what kind of person reads my blog, even if I have never met them. It's great to see the statistics for previous blog posts, and receive a thank you email or message once in a while.
 
 
-## 4. Quais ferramentas/software você usa mais para produzir o seu blog?
+## 4. What tools/software do you use most to produce your blog?
 
-Principalmente WordPress. Eu uso Mailchimp para enviar uma newsletter (somente se houver novas postagens) e Canva se eu fizer gráficos (mas geralmente eu sou muito lazedo). WordPress compartilha minhas novas postagens no Twitter e LinkedIn.
+Primarily WordPress. I use Mailchimp to send out a newsletter (only if there are any new posts) and Canva if I make graphics (but usually I'm too lazy). WordPress shares my new posts to Twitter and LinkedIn.
 
-## 5. Você tem algumas melhores dicas para outras pessoas que podem estar interessadas em iniciar um blog?
+## 5. Do you have any top tips for other people that might be interested in starting a blog?
 
-Faça com que seja um hábito postar algo. Revise suas publicações daqui a algum tempo para ver qual tipo de tags/categorias você parece usar com mais frequência, e qual tipo receber mais respostas.
+Make it a habit to post something. Review your posts after a while to see what kind of tags/categories you seem to use more often, and which kind get more responses.
 
-## 6. Você tem dicas para evitar?
+## 6. Do you have any tips on things to avoid?
 
-Não caia na "fórmula simples do passo X para bloggers" que é otimizada para criar conteúdo curto com muitos cliques. Há muitos tipos de blogs "reais" que não fazem isso e que têm leitores dedicados.
+Don't fall into the "X step simple formula for bloggers" which is optimized to create short content with lots of clicks. There are lots of types of "real" blogs that do not do this, and which have dedicated readers.
 
-## 7. Onde você vê o seu blog indo no futuro?
+## 7. Where do you see your blog going in the future?
 
-Já esteve no cano das costas um pouco no ano passado, então primeiro gostaria de voltar a escrever regularmente. Eu também estou pensando em comprimir algumas informações em um livro, por exemplo, mas eu ainda não decidi muito sobre o formato.
+It's been on the back burner a bit last year, so first of all I would like to get back to writing regularly. I'm also thinking about compressing some of the information into a book, for example, but I haven't quite decided on the format yet.
 
-## 8. Há mais alguma coisa que você queira compartilhar?
+## 8. Is there anything else that you want to share?
 
-É como correr, é melhor simplesmente começar e ir regularmente ao invés de esperar até você ter sapatos profissionais.
+It's like running, it's better to just start and go regularly, instead of waiting until you have professional shoes.
 
-*Esta entrevista foi conduzida por Emma Karoune*
+*This interview was conducted by Emma Karoune*
