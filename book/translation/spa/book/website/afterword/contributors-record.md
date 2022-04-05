@@ -1,37 +1,37 @@
-(colaboradores-registro-resaltados)=
-# Registro de contribuciones
+(contributors-record-highlights)=
+# Record of Contributions
 
 *d</code> archivo y la tabla de colaboradores en el `archivo README` juntos forman el registro de contribuciones en _The Turing Way_.*
 
-Las contribuciones a _La Vía Turística_ pueden incluir, pero no están limitadas a, la corrección de errores, planificación de capítulos, escritura, edición, revisión, generación de ideas, presentación, gestión de proyectos y mantenimiento. Reconocemos todas estas contribuciones y reconocemos equitativamente a nuestros miembros de la comunidad. Por ejemplo, usando [todos los colaboradores](https://allcontributors.org) actualizamos la tabla de colaboradores con el nombre de cada persona donde las teclas emoji indican las diferentes tareas que han realizado (ver el archivo [README](https://github.com/alan-turing-institute/the-turing-way/blob/main/README.md#contributors)). Entendemos que diferentes contribuciones significan cosas diferentes para la gente y pueden traducirse de manera diferente a su interés personal. desarrollo de habilidades, intercambio de valor y avance de sus cuidadores. Por lo tanto, también ofrecemos el archivo [contributors.md](https://github.com/alan-turing-institute/the-turing-way/contributors.md) como un lugar dedicado para capturar destacados personales de _The Turing Way_ miembros de la comunidad.
+Contributions to _The Turing Way_ may include but are not limited to, bug fixing, chapter planning, writing, editing, reviewing, idea generation, presentation, project management, and maintenance. We recognise all these contributions and acknowledge our community members fairly. For example, using [all contributors bot](https://allcontributors.org) we update the contributors table with each person's name, where the emoji keys indicate the different tasks they have done (see the [README file](https://github.com/alan-turing-institute/the-turing-way/blob/main/README.md#contributors)). We understand that different contributions mean different things to people and may translate differently towards their personal interest, skill development, value exchange and advancement of their careers. Therefore, we also offer the [contributors.md](https://github.com/alan-turing-institute/the-turing-way/contributors.md) file as a dedicated location to capture personal highlights from _The Turing Way_ community members.
 
-Los colaboradores individuales son bienvenidos a proporcionar sus detalles en la sección "Resaltados personales de _La Vía Turística_ Contributores". El apoyo organizacional y las colaboraciones se enumeran en la sección "Organizaciones colaboradoras". El nombre y los detalles de cada organización se mostrarán por separado seguidos de los detalles de la contribución de cada colaborador individual de dicha organización.
+Individual contributors are welcome to provide their details under the section "Personal Highlights from _The Turing Way_ Contributors". Organisational support and collaborations are listed in the section, "Collaborating Organisations". Each organisation name and details will be listed separately followed by contribution details of each individual contributor from that organisation.
 
-Por favor, consulte el [manual de la comunidad](https://the-turing-way.netlify.app/community-handbook/acknowledgement) para más detalles sobre cómo puede ser reconocido por su trabajo.
+Please see the [community handbook](https://the-turing-way.netlify.app/community-handbook/acknowledgement) for details on how you can be fairly acknowledged for your work.
 
-## Resaltado personal de _La Vía Turística_ Colaboradores
+## Personal Highlights from _The Turing Way_ Contributors
 
-Utiliza esta sección para destacar tus experiencias personales en el proyecto y la comunidad _The Turing Way_. También puedes describir el impacto que puede tener _The Turing Way_ en ti o en los miembros de tu equipo, como en la promoción reproducible, prácticas de investigación éticas, colaborativas e inclusivas.
+Please use this section to highlight your personal experiences in _The Turing Way_ project and community. You can also describe the impact _The Turing Way_ may have on you or your team members such as in promoting reproducible, ethical, collaborative and inclusive research practices.
 
-Este registro se puede utilizar en su portafolio personal o profesional (perfil, CV, resume) describiendo las características que has mejorado, las metas que has alcanzado y las habilidades que ganas, oportunidades que recibes, conexiones personales que haces, individuos que apoyan y valores que creas a través de tu participación en _The Turing Way_.
+This record can be used in your personal or professional portfolio (profile, CV, resume) by describing features you have enhanced, goals you have accomplished, skills you gain, opportunities you receive, personal connections you make, individuals you support and values you create through your involvement in _The Turing Way_.
 
-Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
+See this entry as an example by Kirstie Whitaker, the project lead:
 
-### Whitaker de Kirstie
+### Kirstie Whitaker
 
 * Rol: Miembro del proyecto - Investigador jefe
 * GitHub id: [kirstiejane](http://github.com/kirstiejane)
 * ORCID: [0000-0001-8498-4059](https://orcid.org/0000-0001-8498-4059)
-* Breve biografía:
-> Soy el líder del Programa de Investigación de Herramientas, Prácticas y Sistemas en el Instituto Alan Turing. Tengo un doctorado en Neurociencia por la Universidad de California en Berkeley y realizé mi investigación postdoctoral en la Universidad de Cambridge en la Unidad de Mapeo Cerebro. Soy becaria de Mozilla (2016) y beca Fulbright (2007).
+* Short bio:
+> I'm the lead of Tools, Practices and Systems research Programme at the Alan Turing Institute. I have a PhD in Neuroscience from the University of California at Berkeley and conducted my postdoctoral research at the University of Cambridge in the Brain Mapping Unit. I am a Mozilla fellowship (2016) and Fulbright scholarship (2007) alumna.
 
-* Resaltados personales:
-> Soy el líder de _The Turing Way_. He hecho mucha defensa por cambiar la cultura de la investigación para hacer nuestro trabajo más eficiente y efectivo. y me he dado cuenta de que necesitamos abordar las estructuras de poder en el mundo académico si realmente queremos hacer que la investigación sea reproducible por defecto. Estoy emocionado de construir la Vía Turing para inspirar a las personas que investigan para hacer que todas sus salidas sean lo más accesibles posible. y desnudar a todos los demás en el ecosistema para preocuparse por el trabajo necesario para hacerlo.
+* Personal highlights:
+> I am the lead of _The Turing Way_. I've done a lot of advocacy for changing research culture to make our work more efficient and effective, and I've noticed that we need to address the power structures in academia if we are to truly make research reproducible by default. I'm excited to build the Turing Way to both inspire the people who DO the research to make all their outputs as accessible as possible, and to nudge everyone else in the ecosystem to care about the work required to do so.
 
-* Más información:
-> Estoy realmente apasionado por el concepto de hacer la ciencia "abierta para todos". Entiendo que eso significa que deberíamos compartir todos nuestros resultados: los datos, código y protocolos que desarrollamos - sean "significativos" o no. Pero también incluye hacer que esas salidas FAIR - findable, accesible, interoperable y reutilizable. Soy partidario de una mayor diversidad en el STEM y en las ciencias de la información, y particularmente apasionado por la mejora de las maneras en que recompensamos el trabajo colaborativo y solidario. Por último, Me gustaría que el proyecto de ciencias de la información se desarrollara desde el principio y con un proceso de toma de decisiones que sea inclusivo y liderado por la comunidad.
+* More information:
+> I'm really passionate about the concept of making science "open for all". I take that to mean we should share all of our outputs - the data, code and protocols that we develop - whether they're "significant" or not. But it also includes making those outputs FAIR - findable, accessible, interoperable and reusable. I am an advocate for greater diversity in STEM and in data science and particularly passionate about improving the ways we reward collaborative and supportive working. Finally, I'd like to pivot to having data science project be developed in the open from the beginning and with a decision making governance process that is inclusive and community-lead.
 
-**Los nombres de los colaboradores se añaden alfabéticamente**
+**Contributors names are added alphabetically**
 
 <!---A--->
 ## A
@@ -43,13 +43,13 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
   * Libro de Participante Dash 2021
 * GitHub id: [RaoOfPhysics](http://github.com/RaoOfPhysics)
 * ORCID: [0000-0002-1628-2618](https://orcid.org/0000-0002-1628-2618)
-* Breve biografía:
+* Short bio:
 > Achintya es el administrador de la comunidad del programa de investigación de _IA para la ciencia y el gobierno_ en el Instituto Alan Turing. Tiene un BSc en física y una EM en periodismo científico. Antes de unirse a The Turing, pasó más de una década como comunicador científico en el CERN, la Organización Europea para la Investigación Nuclear, en Ginebra. También está realizando un doctorado en comunicación científica de UWE Bristol.
 
-* Resaltados personales:
+* Personal highlights:
 > Fue un placer ayudar a la gente que nunca había usado GitHub antes de presentar sus primeros problemas y hacer sus primeras solicitudes de extracción. También me familiarizé con la estructura del libro y espero poder ayudar a otros miembros de la comunidad a hacer contribuciones en el futuro! Fue un montón de divertido co-trabajar con tantas personas maravillosas en un espacio virtual compartido.
 
-* Más información:
+* More information:
 > Me encanta que el TTW repo es un lugar no sólo para contribuir sino también para aprender, así que no tenía miedo de cometer errores en commits y solicitudes de extracción. ¡Es útil que tantos miembros conocedores de la comunidad estén ahí para ayudar!
 
 * Cotización personal:
@@ -62,13 +62,13 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
     * Libro de Participante Dash 2021
 * GitHub id: [acocac](https://github.com/acocac)
 * ORCID: [0000-0002-9264-1539](https://orcid.org/0000-0002-9264-1539)
-* Breve biografía:
+* Short bio:
 > Alejandro terminó su doctorado en Geografía Física en King's College London en septiembre de 2020. Actualmente está afiliado como Postdoctoral Research Associate en el Instituto Alan Turing trabajando en un proyecto destinado a construir y desplegar conjuntos de herramientas y demostradores de código abierto para la Ciencia de Datos Ambientales. También está contribuyendo a la `ciencia`, un marco genérico para el análisis escalable de imágenes dirigido por el Turing en colaboración con la comunidad de código abierto.
 
-* Resaltados personales:
+* Personal highlights:
 > Estoy muy contento de unirme a _la comunidad de Turing Way_. He conocido a una comunidad grande y muy activa contribuyendo a una meta común, Abierta, Inclusiva y Colaborativa. Mi participación en el Book Dash 2021 fue una experiencia fantástica para aprender, discutir, colaborar y conectar con una amplia variedad de colaboradores de TTW. Mi contribución particular durante el guión del libro de 2021 fue mejorar la documentación de traducción dentro del manual comunitario. La documentación resume los conocimientos y las experiencias del equipo de traducción de español pertinente para futuras traducciones.
 
-* Más información:
+* More information:
 > Gracias al TTW y al programa de formación Open Life Science Estoy mejorando considerablemente un prototipo de libro electrónico en línea y basado en la comunidad sobre Ciencias de Datos Ambientales, llamado el libro de AI Ambiental.
 
 * Cotizaciones:
@@ -81,13 +81,13 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
   * Anterior miembro del proyecto
 * GitHub id: [alexmorley](http://github.com/alexmorley)
 
-* Breve biografía:
+* Short bio:
 > Soy una Beca de Mozilla (2018-) y un doctorado en la Unidad de Dinámica de Red de Cerebro MRC en la Universidad de Oxford (2015-). También recibo apoyo del programa de Becas del Instituto de Sostenibilidad de Software (2018) y del programa Microsoft/Research Software England Cloud Computer Fellowship (2018). Mi título universitario fue en Medicina en la Universidad de Oxford (2012-2015).
 
 * Resaltado personal:
 > Como contribución fundamental quiero compartir "¿Por qué me preocupa la Vía Turing? Cuando la gente no utiliza buenas prácticas en la ciencia de datos es casi siempre porque no las conocen, o sienten que no tienen tiempo. Los partidarios le dirán a la gente que el tiempo se ahorra a largo plazo, pero es una venta difícil. Al proporcionar una orientación concreta, incremental, pero autorizada, creo que la Vía Turing podría proporcionar el desnudo que permite a las personas darse cuenta de los beneficios para sí mismas. y reduce la barrera para que más investigadores adquieran estas habilidades de gran valor.
 
-* Más información:
+* More information:
 > Realmente quiero que la investigación sea accesible, pero en un sentido mucho más amplio que el que se utiliza a menudo la palabra. Me encantaría ver un mundo en el que remezclar la investigación es algo común, si se trata de volver a mezclar cifras para hacerlas más fáciles de entender. reutilizar datos para generar nuevos descubrimientos, o probar nuevos métodos para ver cómo nuestras teorías pueden necesitar cambiar. Poco menos sobre temas de actualidad, pero igual de importante, también me siento apasionado por el desarrollo y la adopción de las mejores prácticas en materia de gobernanza. Espacios seguros e inclusivos son demasiado raros en el mundo académico, y creo que parte de esto puede resolverse eliminando nuestra actitud de laissez-faire hacia la gobernanza y la gestión.
 
 ### Andrea Sanchez Tapia
@@ -104,10 +104,10 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
 * GitHub id: [andreea-avramescu](https://github.com/andreea-avramescu)
 * ORCID: [0000-0001-6837-6272](https://orcid.org/0000-0001-6837-6272)
 
-* Breve biografía:
+* Short bio:
 > Soy estudiante de doctorado en la Escuela de Negocios de la Alianza Manchester, la Universidad de Manchester (supervisada por Dr. Richard Allmendinger y el Dr. Manuel López-Ibánňez) y un Engage@Turing/Enrichment Student en The Alan Turing Institute. Mis intereses de investigación se centran en los ámbitos de la medicina personalizada, la optimización y la ciencia de los datos, y cómo todos estos pueden ser utilizados conjuntamente para mejorar la disponibilidad y accesibilidad de tratamientos específicos en todo el mundo. Tengo un MSc en Ciencias de la Información y he trabajado anteriormente en varios problemas de investigación dentro de los campos de las ciencias sociales, la ley, las ciencias de la computación y la investigación de operaciones.
 
-* Resaltados personales:
+* Personal highlights:
 > A lo largo de la semana tuve la oportunidad de mejorar un capítulo sobre el diseño del proyecto y revisar los PRs existentes. También he participado en discusiones con el equipo en torno a los retos generales encontrados en la investigación reproducible y el diseño del proyecto.
 
 * Cotizaciones:
@@ -119,10 +119,10 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
 - GitHub id: @leoank
 - ORCID: [0000-0002-7686-7335](https://orcid.org/0000-0002-7686-7335)
 
-- Breve biografía:
+- Short bio:
 > Ankur es un investigador asociado en el departamento de cosmética, Universidad de Cambridge. Está intentando crear una infraestructura de software compartible y reproducible para construir la próxima generación de plataformas de investigación de ciencias de la vida aprovechando los avances de la moderna tecnología en la nube. Siempre está encantado de hablar de los retos y oportunidades que presentan estos sistemas distribuidos. Aparte de las computadoras, también está interesado en la biología sintética. A menudo se lo puede encontrar en eventos y seminarios relacionados alrededor de Cambridge.
 
-- Resaltados personales:
+- Personal highlights:
 > Quiero dar las gracias a los organizadores por permitirme unirme al dash del libro. También quiero felicitarles por la creación de una comunidad tan amistosa alrededor del proyecto Turing Way. Trabajé en un capítulo con el título de trabajo de "Tuberías de análisis reproducibles". Tuve maravillosas conversaciones sobre el tema con otros participantes y @KirstieJane . También me he puesto en contacto con algunos de los líderes sobre el terreno. Pronto los entrevistaré para añadir sus experiencias como estudios de caso. Todas mis interacciones con la comunidad Turing Way me ayudaron a lograr una mejor comprensión del tema. También me siento más confiado en la escritura y ahora estoy pensando en comenzar mi blog!
 
 - Más información
@@ -138,10 +138,10 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
   * Miembro del Proyecto Anterior (2018 - 2019)
 * GitHub id: [annakrystalli](http://github.com/annakrystalli)
 * ORCID: [0000-0002-2378-4915](https://orcid.org/0000-0002-2378-4915)
-* Breve biografía:
+* Short bio:
 > Soy Ingeniero de Software de Investigación de la Universidad de Sheffield ayudando a los investigadores a hacer más con su código y datos. También soy un editor para rOpenSci, una comunidad de usuarios y desarrolladores, Creación de infraestructura técnica de herramientas de software de R revisadas por pares para trabajar con fuentes de datos científicos en la web.
 
-* Más información:
+* More information:
 > ¡Me importa la investigación reproducible en R! Aprendí a programar durante mi doctorado en Macroecología Marina y me enganché instantáneamente. Basándose en experiencias pasadas como auditor de garantía de calidad, mis experiencias me hicieron interesarme en cómo practicamos la ciencia y específicamente en cómo podemos hacer más con los caballos de trabajo reales de la investigación moderna. nuestro código y datos. Trabajar en _The Turing Way_ es una oportunidad fantástica para hacer balance del gran trabajo que ya se ha realizado en este espacio. agregarlo y destilarlo a plantillas, listas de verificación y directrices de buenas prácticas que son inmediatamente útiles para los investigadores. Es una oportunidad para establecer normas y aprovechar el poder de la convención, ¡especialmente con los ECRs que tienen la oportunidad de establecer buenas prácticas desde el principio! De hecho, espero que el Camino Turing también se convierta en el “Camino de Sheffiel”. De hecho, espero que el Camino Turing también se convierta en el “Camino de Sheffiel”.
 
 ### Arielle Bennett
@@ -153,13 +153,13 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
 * GitHub id: [Arielle-Bennett](http://github.com/Arielle-Bennett)
 * ORCID: [0000-0002-0154-2982](https://orcid.org/0000-0002-0154-2982)
 
-* Breve biografía:
+* Short bio:
 > Arielle es el Director del Proyecto de Investigación para el programa Herramientas, Prácticas & Sistemas del Instituto Alan Turing. Antes de esto, ha trabajado en una variedad de funciones de investigación adyacentes a través de la tecnología, los inicios y la publicación de ciencias. También es mentora con el programa Open Life Sciences y un Compromiso Comunitario de 2019 con el Center for Scientific Collaboration and Community Engagement.
 
-* Resaltados personales:
+* Personal highlights:
 > Antes de participar en el Turing Way, no sabía lo que era un pull request ¡sin importar cómo hacer uno! Ahora he contribuido a varias partes diferentes de las cinco guías, incluyendo co-escritura de los capítulos iniciales sobre [activismo para los investigadores](https://the-turing-way.netlify.app/ethical-research/activism.html) y presentaciones dadas sobre el tema en conferencias. También ahora mentor otros colaboradores de la comunidad sobre cómo crear solicitudes de extracción, contribuir a los capítulos existentes, revisar el trabajo de otros y redactar nuevas ideas. El **Dash del Libro de mayo de 2021** fue una oportunidad increíble para comprometerse con la comunidad y sentirse entusiasmado por el proyecto de nuevo. Me alejé de ella sintiendo entusiasmo y orgullo de las contribuciones realizadas por la gente con mi apoyo: será genial ver cómo evolucionan estos acontecimientos en los próximos meses en contenido y capítulos. En la semana **de noviembre de 2021** hemos fusionado un nuevo capítulo sobre las funciones de infraestructura de investigación - las personas que realizan tareas críticas para seguir investigando, ¡abierto, reproducible, colaborativo y reutilizable! Es genial ser capaz de promover la visibilidad de roles como el mío a la comunidad en general. También estoy muy orgulloso de todos nuestros primeros asistentes que han hecho un trabajo brillante esta semana revisando viejos capítulos y escribiendo otros nuevos.
 
-* Más información:
+* More information:
 > ¡El capítulo de roles de infraestructura de investigación no está terminado! Esperamos que la gente contribuya a la visión general de más papeles en este espacio. o compartir su trayectoria profesional y experiencia como estudios de caso en el futuro.
 
 * Cotización personal:
@@ -179,10 +179,10 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
 * ORCID: [0000-0002-3905-2751](https://orcid.org/my-orcid)
 * Twitter: @batool664
 
-* Breve biografía:
+* Short bio:
 > Batool es un biólogo computacional afiliado a KAIMRC en Arabia Saudita y un profesor honorario de investigación en la Universidad de Liverpool. También soy miembro de RWeekly y parte del Comité Global de R-Damas. Como defensor de la ciencia abierta y su papel en la mejora de los resultados científicos y económicos en Oriente Medio, Hace poco fundé una Comunidad de Ciencia Abierta en Arabia Saudita (OSCSA). OSCSA busca crear un valor significativo hacia la Visión 2030 de Arabia Saudita, que se centra en mejorar el conocimiento y mejorar la igualdad de acceso a la educación en el reino.
 
-* Resaltados personales:
+* Personal highlights:
 > En mayo de 2021 Libro Dash, desarrollé un capítulo sobre "Servicios IC". En el anterior Dash de Libros, he ayudado a mejorar la infraestructura de libros de Jupyter y he añadido [hipotas. s](https://web.hypothes.is/) para habilitar la anotación colaborativa de los capítulos _The Turing Way_. También he traducido el capítulo README.me en árabe. Aunque la semana del libro Dash de noviembre de 2021 fue agitada (dos veces sin hogar mientras buscaba un hotel en un país extranjero) pero mirando hacia atrás fue una semana fascinante. Siempre estoy agradecido de ser parte de una comunidad de este tipo - en la semana pasada, Me he inspirado en el trabajo de todos y estoy muy agradecido por el Comité de Planificación del Libro que siempre son pacientes conmigo. También tuve la suerte de trabajar con el maravilloso Andrea Sanchez Tapia y Alejandro Coca en un nuevo flujo de trabajo para la traducción.
 
 * Cotización:
@@ -193,10 +193,10 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
 * Github id: beckigreen
 * ORCID: [0000-0002-0513-5188](https://orcid.org/0000-0002-0513-5188)
 
-* Breve biografía:
+* Short bio:
 > Soy estudiante de doctorado en King’s College London (supervisado por el Dr. Petroula Proitsi & Profesor Marcus Richards) y estudiante de Engage en The Alan Turing Institute. Mi proyecto de doctorado pretende identificar mecanismos tempranos y marcadores biológicos de demencia, y actualmente estoy trabajando en el proyecto DECOVID en el Instituto.
 
-* Resaltados personales:
+* Personal highlights:
 > ¡Trabajando junto a gente tan maravillosa y aprendiendo tanto! Una experiencia realmente enriquecedora y gratificante - Espero poder contribuir en eventos futuros. Otro punto destacado fue ganar experiencia trabajando colaborativamente en un gran proyecto, ¡incluyendo revisar mi primera solicitud de extraño!
 
 * Cotizaciones:
@@ -208,19 +208,19 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
 * Rol: Miembro del Proyecto Anterior (2018 - 2019)
 * GitHub id: [r-j-arnold](http://github.com/r-j-arnold)
 * ORCID: [0000-0003-0355-0617](https://orcid.org/0000-0003-0355-0617)
-* Breve biografía:
+* Short bio:
 > Soy un estudiante de doctorado en astrofísica en la Universidad de Sheffield y hago simulaciones informáticas de regiones formadoras de estrellas. Soy un colega del Instituto de Sostenibilidad de Software 2018 que utiliza los fondos para organizar charlas y talleres sobre varios temas relacionados con una buena práctica de programación.
 
-* Más información:
+* More information:
 > Soy apasionado por la ciencia. En todo el mundo los humanos se reúnen para intentar averiguar cómo funciona el universo y eso es *asombroso*, tan sorprendente como las propias respuestas. También soy apasionado por cómo realmente hacemos esa ciencia, asegurándonos de que es precisa y reproducible. Si no son ambas cosas que no hemos avanzado mucho, o peor aún acaban en círculos. Me preocupa profundamente el cambio de la cultura de la academia, en la que el abuso de poder (tanto menor como mayoría) es demasiado común. He conocido a tantas personas que quieren programar bien y seguir las mejores prácticas, que beneficiarán enormemente a la ciencia, pero luchan por saber cómo hacerlo. Aunque hay muchos recursos fantásticos ahí fuera, a menudo están esparcidos y _La Vía Turística_ puede mejorarlo. También espero que pueda convencer a la gente que no se considera capaz de ser buenos programadores de que hay pasos que pueden tomar para mejorar drásticamente su codificación.
 
 ### Benjamin Mummery
 
 * Twitter: [@BenjaminMummery](https://twitter.com/@BenjaminMummery)
-* Breve biografía:
+* Short bio:
 > Mientras estudiaba Astrofics, Benjamin fue el primer orador en Liverpool PubHD ([Facebook](https://www.facebook.com/pubhdliverpool/), y posteriormente organizador [Twitter](https://twitter.com/pubhd_liverpool?lang=en-gb)) - un evento multidisciplinar mensual que desafió a los estudiantes de doctorado a "explicar su investigación en 10 minutos, mientras disfrutan de una pinta". Durante este tiempo también desarrolló y entregó múltiples eventos de alcance más oficiales, incluyendo la presentación tanto al público como a los comandantes de la fuerza aérea en [RAF Cosford Airshow](https://www.youtube.com/watch?v=KImlYiCO7Vs), y actividades frecuentes para las escuelas. Ahora es un Ingeniero de Software de Investigación en el Centro de Hartrees, que ha continuado su compromiso con el alcance, más recientemente en colaboración con Tim Powell diseñando una versión LEGO de la icónica supercomputadora del Centro [Scafell Pike](https://twitter.com/HartreeCentre/status/1189145621564968963). A menudo se lo puede encontrar haciendo alrededor de [viaje ficcional](https://www.youtube.com/watch?v=zrqfT4aotfE) [tiempo](https://inews.co.uk/culture/film/donnie-darko-reviewed-astrophysicist-531742).
 
-* Resaltados personales:
+* Personal highlights:
 > Colaboré con un grupo de investigadores del Instituto Alan Turing para redactar un capítulo de divulgación científica.
 
 
@@ -234,10 +234,10 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
   * Libro Guía Mayo 2019 Asistente
 * GitHub id: [crangelsmith](https://github.com/crangelsmith)
 * Id ORCIDO: [0000-0002-0227-836X](https://orcid.org/0000-0002-0227-836X)
-* Breve biografía:
+* Short bio:
 > Soy científico de investigación en el Instituto Alan Turing. Tengo un doctorado en física de partículas de la Universidad de Paris Diderot donde trabajé en el experimento ATLAS en el Gran Colisionador de Hadron en el CERN. Durante mi doctorado participé en el descubrimiento de la partícula Higgs Boson anunciada por el CERN en 2012. Continué trabajando en ATLAS como postdoc con la Universidad de Uppsala, donde me centré en las búsquedas de física más allá del Modelo Estándar de Física de Partículas. Justo antes de incorporarme a Turing, trabajé como científico de datos en el sector EdTech desarrollando productos innovadores centrados en el proceso de evaluación en la educación. Actualmente estoy trabajando en colaboración con investigadores del Global Systems Institute de la Universidad de Exeter llamado Data science for Sustainable Development. En este proyecto estamos utilizando la teledetección para monitorear la resistencia de la vegetación pateada de los ecosistemas semiáridos de tierras secas en el Sahel.
 
-* Destacados personales
+* Personal highlights
 > Creo que The Turing Way es un recurso excelente que puede cambiar la forma en que la ciencia se hace (¡Ojalá lo tuviera cuando empecé mi doctorado!). Aunque el idioma internacional de la ciencia es el inglés, Sé por un hecho que no todos en lugares como Latinoamérica tienen tiempo y recursos para aprenderlo, por lo que creo que debemos hacer todo lo posible por romper esas barreras y mejorar la accesibilidad del conocimiento para todos. Esta es mi motivación para traducir el libro al español, y espero que la versión española se utilice como un recurso importante en el curso de maestría que estamos desarrollando en el proyecto de física LA-CoNGA.
 
 * Más información
@@ -259,13 +259,13 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
 * GitHub id: [EKaroune](https://github.com/EKaroune)
 * ORCID: [0000-0002-6576-6053](https://orcid.org/0000-0002-6576-6053)
 
-* Breve biografía:
+* Short bio:
 > Soy Asociado de Investigación y Gerente Comunitario de DECOVID en el Instituto Alan Turing. También soy un investigador postdoctoral que trabaja en el campo de la Arqueología Ambiental y Palaeoecología. Tengo un doctorado en Palaeoecología del Instituto de Arqueología de la Universidad de Londres. Estoy liderando un proyecto para mejorar la FAIRness de los datos del hablante. También estoy trabajando en un proyecto con Historic England en relación con el desarrollo de nuevas metodologías en la investigación teológica para la aplicación a restos arqueológicos británicos.
 
-* Resaltados personales:
+* Personal highlights:
 > He disfrutado mucho trabajando de una manera tan colaborativa durante el Dash del Libro. He mantenido interesantes discusiones sobre la accesibilidad de The Turing way, la colaboración, la comunicación y la investigación en general con otros colaboradores. He desarrollado aún más mis habilidades de Github trabajando en colaboración con @paulowoicho, @malvikasharan y @KirstieJane para desarrollar un capítulo sobre 'Getting started on Github'. Esta mejora de mis habilidades realmente beneficiará a mi propia investigación personal para desarrollar mis propios grupos de trabajo colaborativos y enseñar a otros cómo utilizar estas herramientas de investigación. En el Dash del Libro de mayo de 2021, disfruté tutorizando contribuciones de nuevos colaboradores, revisando solicitudes de extracción y ayudando a organizar sesiones durante el Dash del Libro. Fue estupendo trabajar en colaboración para mejorar y publicar un nuevo capítulo sobre "Comunicar con un público más amplio" en la Guía para la Comunicación. He sido el autor y organizador principal del capítulo de autores académicos. En la Daza del Libro de Noviembre de 2021, he estado organizando sesiones y ayudando a revisar solicitudes de extracción #2160, #1919 y #2167. También he trabajado con @MariaEriksson para planificar y comenzar a escribir un resumen sobre datos confidenciales.
 
-* Más información:
+* More information:
 > Intento trabajar lo más abiertamente posible y una gran parte de mi investigación actual está desarrollando formas fáciles y accesibles para todas las formas de trabajo colaborativas y abiertas. También estoy trabajando duro para reunir a especialistas de mi campo en un grupo de trabajo para la ciencia abierta para que podamos trabajar en colaboración con las directrices de FAIR específicas para los datos del folleto.
 
 * Cotizaciones:
@@ -274,10 +274,10 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
 ### Eric Daub
 
 * GitHub id: [edaub](https://github.com/edaub)
-* Breve biografía:
+* Short bio:
 > Eric es un investigador geofísico y científico de datos, ha aparecido en varios programas de televisión y podcasts para discutir su investigación sobre la ocurrencia de terremotos en los Estados Unidos Centrales. Un desafío para presentar investigaciones sobre terremotos es la tendencia a exagerar los resultados en el tema de la predicción de terremotos. Eric utilizó estas apariciones de medios para destacar las dificultades inherentes a la predicción de terremotos, y explicar por qué no existe un método fiable para predecir los terremotos con la suficiente precisión como para que se lleven a cabo acciones sociales. De esa discusión sobre los resultados superpuestos, transicionó para explicar cómo su investigación demostró que las posibilidades de un terremoto no habían cambiado debido a cambios recientes en la actividad. ya que las fluctuaciones eran *exactamente* en línea con lo que se esperaría para un simple nivel de riesgo de línea base. Esta actividad de difusión ayudó a mejorar la comprensión del público objetivo en un complejo, y desestimar algunos de los supuestos comúnmente aceptados sobre predicción de terremotos y gestión de riesgos.
 
-* Resaltados personales:
+* Personal highlights:
 > Colaboré con un grupo de investigadores del Instituto Alan Turing para redactar un capítulo de divulgación científica.
 
 <!---F
@@ -289,7 +289,7 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
 
 
 <!---H--->
-## D
+## H
 
 ### Hannah Nicholls
 
@@ -297,10 +297,10 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
 * GitHub id: hlnicholls
 * ORCID: [0000-0002-3480-7852](https://orcid.org/0000-0002-3480-7852)
 
-* Breve biografía:
+* Short bio:
 > Soy estudiante de doctorado que contribuye a The Turing Way para desarrollar la escritura sobre prácticas de investigación reproducibles. Tengo un BSc en ciencias biomédicas y un antecedente en investigación cardiovascular de los laboratorios húmedos. Mi doctorado está en la aplicación del aprendizaje automático para dar prioridad a los genes de enfermedades causales más probables de los estudios de asociación genoma.
 
-* Resaltados personales:
+* Personal highlights:
 > Colaborar con otros para construir algo nuevo como contribución a The Turing Way, y colaborar con otros para revisar y apoyar su trabajo. Entendiendo el funcionamiento interno de The Turing Way a través de la navegación dentro de su GitHub. También para ayudar y ver una ilustración realmente fresca que se está haciendo!
 
 * Cotizaciones:
@@ -314,13 +314,13 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
   * Reservar Dash Participant 2020
 * GitHub id: [HeidiSeibold](https://github.com/HeidiSeibold)
 * ORCID id: [0000-0002-8960-9642](https://orcid.org/0000-0002-8960-9642)
-* Breve biografía:
+* Short bio:
 > Yo dirijo un grupo de Open AI in Health en el Helmholtz Zentrum Munich. Desarrollo métodos de aprendizaje automático para averiguar qué pacientes reaccionan bien a ciertos tratamientos e implemento estos métodos en R. Mi pasión por la investigación abierta y reproducible me ha llevado a unirme a la comunidad de Turing Way. Estoy involucrado en proyectos de meta-investigación (investigación sobre investigación), apoyo, enseño y contribuyo a proyectos abiertos como The Turing Way. Mi trabajo para el *Diario de Software Estatistico* incluye comprobaciones de reproducibilidad. Sólo publicamos artículos que son totalmente reproducibles por computación. También trabajo en hacer que nuestro software de aprendizaje de maquinaria sea más fácil de usar, reutilizable y extenso. Junto con un estudiante de doctorado, estoy pensando en cómo usar los datos de los hospitales para ayudar a médicos y pacientes a encontrar el tratamiento adecuado para cada paciente individual.
 
-* Resaltados personales:
+* Personal highlights:
 > Trabajo en ciencias de datos y la investigación abierta y reproducible son las cosas que pienso y me preocupa más. Así que para mí sólo tenía sentido implicarse. Además, la comunidad parecía increíble! Para mí The Turing Way es un modelo de rol cuando se trata de un trabajo colaborativo, distribuido. Aprendí tanto solo participando en el sprint del libro y viendo cómo Malvika, Kirstie y todos los demás han contribuido a proporcionar un espacio extremadamente acogedor y al mismo tiempo productivo. Me tomé lo que aprendí e intenté aplicarlo en otros contextos, como la enseñanza. Yo seguiré haciéndolo. La Vía Turing también me inspiró a pensar en nuevas maneras en las que podríamos enseñar a la gente sobre ciencia abierta y reproducible (datos). Actualmente estoy pensando mucho sobre cómo podríamos usar el contenido de The Turing Way y convertirlo en un curso. Esta idea también formaba parte de una aplicación, donde propuse iniciar un nuevo grupo en *Abrir IA*. Específicamente, he coautorizado estos capítulos: [Compendia de Investigación](https://the-turing-way.netlify.app/reproducible-research/compendia.html), [Convención de nombres de archivo](https://the-turing-way.netlify.app/project-design/filenaming.html)y he revisado muchas contribuciones. Recomiendo regularmente The Turing Way como recurso. Tanto para aprender más sobre ciencias de datos reproducibles como cuando se discuten temas específicos. Creo que la gente la está tomando y leyendo :)
 
-* Más información:
+* More information:
 > Primero, me gustaría seguir ayudando a crear contenido, revisar el contenido de otros y ser útil de cualquier forma que pueda. A veces me gusta ver problemas realmente antiguos y pull requests por ejemplo. Recuperar tan viejo, a menudo casi acabado, es muy gratificante. Aparte de eso, también tengo una idea más grande y a largo plazo para The Turing Way. Personalmente, no soy un gran partidario de la lectura. Así que los libros no son mi forma favorita de aprender.  En los últimos años he aprendido mucho escuchando a otros en charlas, podcasts de , vídeos y por supuesto conversaciones.  Así que para mí es solo un paso natural para que The Turing Way se convierta en algo más que un libro. Podría ser un ecosistema , con el libro en su base. Y -- si decidimos seguir esa ruta -- me gustaría ser parte de ella.
 
 <!---I--->
@@ -330,13 +330,13 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
 
 * Rol: Libro Dash Participant 2020
 * GitHub id: [irenekp](http://github.com/irenekp)
-* Breve biografía:
+* Short bio:
 > Soy estudiante de postgrado en Ciencias de la Información e Ingeniería. Mientras corto, Mi viaje con la Ciencia de Datos y Gestión de Datos ha sido variado y me ha encantado ver cómo un solo concepto puede moldearse en tantas disciplinas diferentes! He sido capaz de trabajar con las ciencias de la información como RA para un par de proyectos que se centraron en diferentes aspectos del análisis de la red social. También he podido seguir la gestión de datos y prácticas relacionadas durante mis prácticas en una fintech y una empresa de telecomunicaciones.
 
-* Resaltados personales:
+* Personal highlights:
 > Turing Way fue mi primera incursión en Open Source, y me ha resultado extremadamente útil para aprender tanto sobre las prácticas generales de github y de código abierto como para formar parte de una comunidad conmovedora y colaborativa. Me encantó especialmente formar parte de un grupo de personas extremadamente multidisciplinar, realmente me muestra el verdadero ramo de las Ciencias de la Información. El libro de ética ha sido una gran fuente de interés para mí, ya que abarca muchas de las cuestiones que ambos abordé. debatido y deliberado ampliamente durante mis propios proyectos de ciencias de la información. Durante mi tiempo trabajando en el Capítulo de Anonimización de Datos (Problema: #1578 , Pull Request: #1579 ) Me las arreglé para leer más ampliamente acerca del anonimato y encontré respuestas a muchas de las preguntas que me habían molestado anteriormente. Espero realmente que el trabajo que hemos hecho aquí para consolidar todas estas directrices éticas ayude a que la práctica de la ciencia de datos con una sólida base ética y una conciencia moral clara sean más fáciles y accesibles.
 
-* Más información:
+* More information:
 > En línea con mis aportaciones hasta ahora, me siento muy apasionado por trabajar en un marco ético para las Ciencias de la Información, ver como una gran parte se centra en exponer patrones que podrían ser fácilmente invasivos, Realmente creo que un enfoque ético para ello es la única forma de seguir practicándolo de forma sostenible a largo plazo. La comunicación científica es una de mis áreas de interés clave. Lo he estado combinando con mi amor por las prácticas sostenibles (ya sea la informática o la gestión de los recursos hídricos) hasta ahora para investigar y escribir artículos que espero que informen y educen a más personas! Espero añadir Visualización de Datos a esta combinación pronto! ¡Tengo la intención de seguir trabajando en la cruz de las Ciencias de la Información y de la Ciencia de la Ciencia de la Ciencia de la Ciencia de la Información para el futuro predecible! Espero añadir Visualización de Datos a esta combinación pronto! ¡Tengo la intención de seguir trabajando en la cruz de las Ciencias de la Información y de la Ciencia de la Ciencia de la Ciencia de la Ciencia de la Información para el futuro predecible!
 
 ### Ismael Kherroubi Garcia
@@ -347,13 +347,13 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
   * Reservar Dash Participant 2020
 * GitHub id: [Ismael-KG](https://github.com/Ismael-KG)
 * ORCID: [0000-0002-6850-8375](https:///orcid.org/0000-0002-6850-8375)
-* Breve biografía:
+* Short bio:
 > Antiguo Asistente de Investigación Ética en el Instituto Alan Turing. Tengo una BSc en Administración y Gestión de Negocios y he estudiado filosofía de las ciencias sociales en la Escuela de Economía & Ciencias Políticas de Lonson. También soy miembro asociado del Instituto Chartered de Personal y Desarrollo (CIPD).
 
-* Resaltados personales:
+* Personal highlights:
 > Desde mi licenciatura, he trabajado en ventas en fintech, HR en organizaciones benéficas artísticas y en investigación. Creo que mi destaque es que tengo un gran fondo como general muy adaptable! Me ha gustado mucho trabajar junto a [Laura Carter](https://github.com/LauraCarter) y [Sophia Batchelor](https://github.com/BrainonSilicon) para construir una comunidad alrededor de la Guía de Investigación Ética. Cita personal: "La ética de la investigación es compleja, y dos conceptos relacionados son la investigación responsable y la innovación (RRI) y la integración de la investigación. Dependiendo de si llevamos un sombrero RRI o gafas de integridad de investigación, encontraremos diferentes cuestiones éticas de investigación. Pero es importante llevar las dos en todo momento. Llamo a esto Etica de Investigación de Steampunk".
 
-* Más información:
+* More information:
 > Estoy realmente fascinado por los debates sobre las ciencias sociales, Así que me encanta la idea de cuestionar cómo es una cultura científica abierta y cómo llegar allí! Puede que me encuentre poniendo algunas de mis aprendizaje para trabajar en un [libro en línea sobre la historia de la ética de la investigación](https://github.com/Ismael-KG/A-History-of-Research-Ethics).
 
 <!---J--->
@@ -367,10 +367,10 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
 * GitHub id: @JessicaS11
 * ORCID: [0000-0002-3421-4459](https://www.orcid.org/0000-0002-3421-4459)
 
-* Breve biografía:
+* Short bio:
 > Jessica es un glaciólogo, abierto*(ciencia, software, fuente) entusiasmo, sensor remoto y amante de la nieve, el invierno y el exterior. Actualmente es Profesora Asistente de Investigación en la Universidad de New Hampshire (EE.UU.), donde trabaja en investigación glaciológica, proyectos de software de código abierto que permitan la investigación, y iniciativas de justicia climática y diversidad, equidad e inclusión. Ella es la desarrolladora principal y mantenedora de la biblioteca icepyx y ayuda regularmente a ejecutar Hackweeks con el Instituto eScience de la Universidad de Washington.
 
-* Resaltados personales:
+* Personal highlights:
 > Me sentí encantado cuando descubrí The Turing Way por primera vez y me encantó tener la oportunidad de contribuir durante el Nov 2021 Book Dash después de asistir a Collaboration Cafes por aproximadamente un año. Terminé trabajando en algunos proyectos diferentes con varios colaboradores, pero creo que el punto culminante de toda la experiencia fue brainstorming una visualización y luego ver al artista de Scriberia traer nuestra idea a la vida!
 
 ### José María Fernández
@@ -379,14 +379,14 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
 * GitHub id: @jmfernandez
 * ORCID: [0000-0002-4806-5140](https://orcid.org/0000-0002-4806-5140).
 
-* Breve biografía:
+* Short bio:
 > Soy un ingeniero de investigación senior de [INB](https://inb-elixir.es) unidad de coordinación, [BSC](https://bsc.es), ELIXIR España. Con un MSc en Informática, he estado trabajando en bioinformática desde 1999, involucrado en proyectos muy diseminados a lo largo de estos años. Actualmente, estoy muy involucrado en pruebas de rendimiento técnicas y científicas, reproducibilidad y abstracciones de ejecución de flujo de trabajo, entre otros temas.
 
-* Resaltados personales:
+* Personal highlights:
 > Me ha gustado mucho conocer tan caliente y la comunidad dinámica alrededor de The Turing Way! He contribuido en gran medida a revisar las solicitudes abiertas de Pull y trabajar en red con los miembros de la comunidad.
 
 <!---K--->
-## M
+## K
 
 ### Kim De Ruyck
 
@@ -394,10 +394,10 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
 * GitHub id: [kderuyck](https://github.com/kderuyck)
 * ORCID: [0000-0001-9921-644X](https://orcid.org/0000-0001-9921-644X)
 
-* Breve biografía:
+* Short bio:
 > Desde 2016, estoy dirigiendo el nodo belga ELIXIR (buscamos FAIRification de datos de investigación y facilitamos análisis reproducibles, a través de actividades de gestión y análisis de datos, así como de formación; también nos centramos en los servicios específicos de dominio en las ciencias de las plantas, la salud humana y la proteína). Yo fui entrenado como ingeniero de biosciencia, tengo un doctorado en Ciencias Médicas y realizé investigaciones médicas de ciencia médica durante muchos años.
 
-* Resaltados personales:
+* Personal highlights:
 > Empecé a familiarizarme con el entorno de GitHub y aprendí a colaborar a través de él. ¡Fue especialmente agradable conocer a la vibrante comunidad trabajando juntos en el Camino Turing! Específicamente, he creado un subcapítulo en [Research Management Toolkit](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-toolkits.html).
 
 
@@ -411,10 +411,10 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
   * Reservar Dash Participant 2020
 * GitHub id: [lauracion](http://github.com/lauracion)
 * ORCID: [0000-0001-5213-6012](https://orcid.org/0000-0001-5213-6012)
-* Breve biografía:
+* Short bio:
 > Soy biostatisticista que pasó a Ciencias de la Información. Trabajo en la Universidad de Buenos Aires (Argentina). Me especializo en varias áreas de Ciencias de la Salud. Soy apasionado por cambiar la forma en que las estadísticas aplicadas se enseñan y practican. Tengo tanto que aprender y hacer; parece que necesitaré vidas adicionales para completar todo. Más sobre mí [aquí](https://lacion.rbind.io).
 
-* Resaltados personales:
+* Personal highlights:
 > Actualmente estoy codesarrollando un capítulo sobre "Leadership in Data Science" y apoyando a la comunidad española en la traducción e implicación del proyecto. Espero que este sea mi primero de varios Dases de Libro! Fue una experiencia extraordinaria. Muchas gracias, Malvika y Kirstie, por haber organizado y coordinado brillantemente este evento! ✨ 💖 ✨ 💖
 
 ### Carter de Laura
@@ -426,13 +426,13 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
   * Reservar Dash Participant 2020
 * GitHub id: [Laura Carter](https://github.com/LauraCarter)
 * ORCID: [0000-0002-4285-1140](https://orcid.org/0000-0002-4285-1140)
-* Breve biografía:
+* Short bio:
 > Soy candidato a doctorado en el Centro de Derechos Humanos de la Universidad de Essex, Reino Unido, investigando las implicaciones para los derechos humanos del uso de tecnologías basadas en datos en el sector público del Reino Unido, centrándose en la estereotipación de género y la discriminación de género. Antes de mi doctorado, trabajé como investigadora de derechos humanos durante casi una década, especializándome principalmente en derechos humanos, orientación sexual e identidad de género. He llevado a cabo investigaciones sobre el terreno en Europa y el África subsahariana que cubren temas como los crímenes de odio homofóbicos y transfóbicos, criminalización de la exualidad y del trabajo sexual, reconocimiento legal de género para trans, y derechos de salud para las personas intersexuales.
 
-* Resaltados personales:
+* Personal highlights:
 > ¡Realmente estoy disfrutando aprendiendo más sobre las prácticas de Open Science y las comunidades! Estoy entusiasmado de formar parte de un [OLS-2](https://openlifesci.org/) mentee cohorte junto a [Ismael Kherroubi García](https://github.com/Ismael-KG) y [Sophia Batchelor](https://github.com/BrainonSilicon), trabajando en la _Guía de Investigación Ética_: si estás interesado en construir una comunidad de pensamiento, reflexiones y científicos de datos éticos, ¡venga a unirse!
 
-* Más información:
+* More information:
 > Estoy interesado en las metodologías feministas y de investigación y en las estructuras interrogantes de poder y sistemas de categorización. A lo largo de mi cuidador, la mayor parte de mi trabajo ha sido la comprensión de estos sistemas, cómo trabajan, cómo dañan, para que puedan ser desmanchadas! Más información sobre mí en mi [sitio web](https://lauracarter.github.io/).
 
 * Cotización personal:
@@ -445,13 +445,13 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
 * Twitter: @ LangData
 * ORCID: [0000-0001-7777-5603](https://orcid.org/0000-0001-7777-5603)
 
-* Breve biografía:
+* Short bio:
 > Lena Karvovskaya es la Gerente Comunitaria de Gestión de Datos de Investigación y Ciencia Abierta en la Universidad Vrije de Ámsterdam (VU). Trabaja con el personal de apoyo y los investigadores para facilitar el cambio organizativo hacia una cultura de investigación reproducible y transparente.
 
-* Resaltados personales:
+* Personal highlights:
 > He estado emocionado por la Vía Turing durante mucho tiempo. Estoy tan contento y agradecido que podría tomar parte en el bastión del libro. El maravilloso equipo me hizo sentir que cada segundo de mi tiempo había muy bien gastado. ¡Con algo de ayuda, me las arreglé para hacer mi primera solicitud de extracción apropiada! ¡Yay! ¡Yay! Me encantaron nuestras interacciones, nuestros sonidos de pomodoro, el intercambio de cosas personales. Un aspecto especial fue la oportunidad de trabajar con un artista para visualizar mis ideas. Me siento orgulloso de haber contribuido a este increíble proyecto.
 
-* Más información:
+* More information:
 > Seguiré trabajando en el capítulo de Revisión por Pares y espero colaborar con @vhellon @EstherPlomp y otros participantes
 
 * Cotizaciones:
@@ -465,13 +465,13 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
   * Libro Dash Participant/Helper 2020
 * GitHub id: [LouiseABowler](http://github.com/LouiseABowler)
 * ORCID: [0000-0002-4910-9205](https://orcid.org/0000-0002-4910-9205)
-* Breve biografía:
+* Short bio:
 > Soy investigadora del Grupo de Ingeniería de Investigación del Instituto Alan Turing. Tengo un título en Física por Imperial College London, después de lo cual me incorporé al Centro de Formación en Ciencias de la Vida en la Universidad de Oxford. Trabajé en un proyecto de doctorado interdisciplinario que combinaba modelación matemática, electrofisiología cardíaca y farmacología de seguridad, y se trasladó a Turing después. Desde entonces, he trabajado en una serie de proyectos que abarcan datos sintéticos, visualización de datos y, por supuesto, el Turing Way!
 
-* Resaltados personales:
+* Personal highlights:
 > Me involucré con _The Turing Way_ a través de estudios de caso de reproducibilidad en proyectos académicos, esencialmente, Fui un detector de reproducibilidad durante la fase inicial del proyecto! :female_detective: The Turing Way fue mi primera experiencia de trabajar con colaboradores de tantas instituciones diferentes. y la comunidad alrededor de este proyecto ha sido un verdadero punto destacado para mí. Mi tiempo oficial en el Camino Turístico ha llegado a su fin pero todavía me gusta mantenerse en contacto a través de los Guiones de Libros y otros eventos.
 
-* Más información:
+* More information:
 > Como científicos, compartimos nuestro trabajo a través de documentos y conversaciones, pero las complejidades de precisamente *cómo* implementamos un pipeline de análisis o un nuevo algoritmo puede ser muy difícil de transmitir en esos formatos. Actualmente estamos viendo cambios en la forma predeterminada que queremos publicar nuestros documentos a través del movimiento de acceso abierto, y me encantaría ver un cambio de mentalidad similar que ocurre sobre los datos que recopilamos y el código que desarrollamos para que otros puedan reproducirse, aprenda de y construya a partir de nuestro trabajo. Quiero garantizar que el camino para compartir estos tipos de resultados de investigación esté abierto a todos, independientemente de su nivel de experiencia en programación - la ruta puede no ser siempre sencilla, pero es una gran oportunidad para compartir y aprender de nuestras experiencias! Muchos proyectos de investigación ahora contienen elementos computacionales, Sin embargo, es fácil olvidar que no todo el mundo tiene acceso a la formación en ingeniería de software, o tiene un grupo de colegas con tales intereses. Si decimos que queremos que la gente haga que su investigación sea abierta y reproducible, tenemos que darles las herramientas que necesitan para confiar en ello. Veo la Vía Turing como el medio de poner freno a esa brecha, proporcionando un amistoso Guía práctica y útil para los investigadores en todas las etapas de sus cuidadores.
 
 <!---M--->
@@ -485,10 +485,10 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
   * Libro de Participante Dash 2019
 * GitHub id: [malvikasharan](http://github.com/malvikasharan)
 * ORCID: [0000-0001-6619-7369](https://orcid.org/0000-0001-6619-7369)
-* Breve biografía:
+* Short bio:
 > Soy el administrador comunitario de _The Turing Way_ en el Alan Turing Institute. Trabajo con la comunidad de diversos miembros para desarrollar recursos y maneras que puedan hacer que la ciencia de datos sea accesible para un público más amplio. Después de recibir mi doctorado. en Bioinformática y yo trabajamos en European Molecular Biology Laboratory, Alemania, que me ayudó a solidificar mis valores como investigador abierto y constructor de comunidad. En 2019 cofundé el programa de mentoría Open Life Science para ayudar a mejorar el acceso a las herramientas de Open Leadership para personas interesadas en construir comunidades en torno a su trabajo. También soy miembro del Instituto de Sostenibilidad de Software y miembro de la junta directiva de la Open Bioinformatics Foundation.
 
-* Resaltados personales:
+* Personal highlights:
 > Como administrador de la comunidad, Aprecio las oportunidades para facilitar el trabajo que nuestros colaboradores realizan en este espacio comunitario mientras aprenden nuevas habilidades e ideas de ellos. A través de mis conversaciones, sesiones de panel y talleres, me gusta interactuar con miembros de diferentes dominios de investigación, que yo de otra manera nunca tendrá la oportunidad de encontrar. Además de conectarse con miembros desde diversas perspectivas, mis puntos destacados en _The Turing Way_ son gobernanza comunitaria co-desarrollada, vías de reconocimiento y recursos de la comunidad en el [Manual de la comunidad](https://the-turing-way.netlify.app/community-handbook) para nuestros miembros. Me gusta diseñar recursos de capacitación alrededor del liderazgo en investigación en colaboración con [Open Life Science](https://openlifesci.org/).
 
 ### Margaret Wanjiku
@@ -497,13 +497,13 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
 * GitHub id: [Megmugure](https://github.com/Megmugure)
 * ORCID: [0000-0003-2275-2134](https://orcid.org/0000-0003-2275-2134)
 
-* Breve biografía:
+* Short bio:
 > Margaret se graduó con un MSc en bioinformática en julio de 2021. Es líder de proyectos en la Bioinformática Hub de la Iniciativa Kenya (BHKi), una plataforma de capacitación y trabajo en red para aspirar y establecer bioinformáticos. Su objetivo es empoderar a los investigadores con habilidades y herramientas en ciencias abiertas y bioinformática. Además del desarrollo de capacidad, ella también está interesada en la genómica y en el análisis de grandes datos. ¡Margaret también escribe historias!
 
-* Resaltados personales:
+* Personal highlights:
 > ¡Esta fue mi primera contribución a TTW! Me gustó escuchar y leer lo que otros participantes estaban trabajando mientras hice mi contribución. Aprendí más sobre GitHub y la gestión de datos de investigación mientras llevaba a cabo mi investigación.
 
-* Más información:
+* More information:
 > Espero hacer más contribuciones al TTW pronto, incluyendo pero no limitado a actualizar la documentación y subsección de metadatas.
 * Cotizaciones:
 > ¡La creatividad es inteligencia divirtiéndose!
@@ -514,10 +514,10 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
 * GitHub id: [mcnanton](http://github.com/mcnanton)
 * ORCID: [0000-0003-0426-2879](https://orcid.org/0000-0003-0426-2879)
 
-* Breve biografía:
+* Short bio:
 > Soy analista de datos con experiencia en comunicaciones sociales en análisis de datos, reportaje y dashboarding en datos de mercado, sociales y de salud. Actualmente soy analista de datos en la Oficina de Estadísticas e Información de Salud, que forma parte del Ministerio de Salud del Gobierno de la Ciudad de Buenos Aires. También soy un TA en la Universidad de Buenos Aires, un organizador de RLadies Buenos Aires, y un instructor de análisis de datos sociales y visualización de datos en EANT.
 
-* Resaltados personales:
+* Personal highlights:
 > Fue estupendo trabajar en el capítulo 3 de la Guía de las Comunicaciones y también logró resolver algunos problemas y revisar las PRs simples relacionadas con otros capítulos a lo largo del camino.
 
 * Cotizaciones:
@@ -528,10 +528,10 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
 * Rol: Libro de Participante Dash 2021
 * GitHub id: [marianaiv](http://github.com/marianaiv)
 
-* Breve biografía:
+* Short bio:
 > Soy estudiante de física en la Universidad Central de Venezuela. Trabajando en mi tesis y tratando de hacerlo reproducible.
 
-* Resaltados personales:
+* Personal highlights:
 > Trabajar en el capítulo introductorio de la Guía de Diseño de Proyectos fue increíble. Me gustó mucho colaborar con Malvika escribiéndola.  También estoy muy contento de tener una ilustración hecha específicamente para el capítulo.
 
 * Cotizaciones:
@@ -545,13 +545,13 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
 * GitHub id: [Marta-MM](http://github.com/Marta-MM)
 * ORCID: [0000-0001-7995-3717](https://orcid.org/0000-0001-7995-3717)
 
-* Breve biografía:
+* Short bio:
 > Soy becaria docente en la Facultad de Psicología de la Universidad de Leicester. Antes de mudarme al Reino Unido, obtuve un MSc en Psicología Social y un Doctorado en Ciencias Científicas y Cerebrosas. Estoy interesado en el razonamiento, el juicio y la toma de decisiones de temas y pasionarme por la comunicación científica y el alcance.
 
-* Resaltados personales:
+* Personal highlights:
 > En el guión del libro **Noviembre 2020**, ¡utilicé GitHub por primera vez! Ayudé a corregir algunos pequeños errores (gramática y sintaxis, tipos, formato) y, propuse dos capítulos sobre visualización de datos y pre-registro de estudio. Empecé a familiarizarme con el entorno de GitHub y aprendí a colaborar a través de él para proporcionar valiosas contribuciones al proyecto. Mi trabajo durante estos 5 días ha sido principalmente individual, pero me encantaría colaborar con otros para trabajar en los dos capítulos que he sugerido! En el guión del libro **de mayo de 2021**, estaba muy contento de empezar donde lo dejé en el libro anterior. Creo que he hecho pequeñas aportaciones pero pertinentes y tengo una idea clara de a dónde me gustaría ir a continuación, que es mucho más de lo que esperaba. En la sección **de Noviembre de 2021** (¡mi tercero! , Fui invitado a dirigir una discusión sobre la visualización de datos, que despertó una conversación muy interesante. También empecé una sección dedicada en el libro y estoy deseando desarrollarla! El 25 de noviembre hablaré de mi experiencia con The Turing way durante una de las reuniones del Leicester [ReproducibiliTEA](https://reproducibilitea.org/)!
 
-* Más información:
+* More information:
 > Soy apasionado por la comunicación científica y la diseminación de la investigación y estoy interesado en la replicabilidad, las cuestiones científicas abiertas, y la interfaz entre aspectos cognitivos y sociales en temas de psicología social como las relaciones entre intergrupos y la formación de impresión. En este momento estoy particularmente fascinado por la visualización de datos y la infografía.
 
 * Cotización:
@@ -563,10 +563,10 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
 * Rol: Contribuidor del Núcleo (2019)
 * GitHub id: [martintoreilly](http://github.com/martintoreilly)
 
-* Breve biografía:
+* Short bio:
 > Soy Ingeniero de Software de Investigación Principal y Director Adjunto del Grupo de Ingeniería de Investigación del Instituto Alan Turing. Me centro en el uso de buenas prácticas de ingeniería de software para aumentar el impacto del software de investigación haciéndolo reutilizable confiable y robusto También tengo un gran interés en la investigación reproducible, y estoy trabajando para mejorar las herramientas y prácticas de trabajo en el Turing para facilitar que nuestros investigadores trabajen de forma reproducible He avanzado y atrás entre la industria y la academia a lo largo de los años, obtener un MSc en Inteligencia Artificial y un Doctorado en Neurociencia Computacional a lo largo del camino.
 
-* Más información:
+* More information:
 > Creo firmemente que los investigadores tienen la responsabilidad de garantizar que los resultados de su investigación se pongan a disposición de todos -investigadores, practicantes y el público. Estos resultados deberían estar disponibles de una manera que permita a otros no sólo reproducirlos, sino también reutilizarlos y construirlos. Se pasa un montón de tiempo investigador y practicante llegando al punto en que pueden evaluar de forma útil si algunas investigaciones son útiles para ellos, o en la recuperación de resultados negativos no publicados. Esto parece muy derrochador y estoy convencido de que podemos y debemos hacerlo mejor. En particular, creo que se puede hacer mucho para mejorar la reutilización efectiva de los datos producidos por proyectos de investigación. Aunque en los últimos años se han producido avances significativos en la cantidad de datos publicados junto con artículos de investigación, todavía hay un amplio abismo entre los datos abiertos y los datos reutilizables. En términos de áreas de investigación, estoy fascinado por el cerebro y especialmente por el enfoque de entender el cerebro mediante la "falsificación" (es decir, modelado y simulación). Estoy particularmente interesado en los robots como una manera de encarnar estos modelos en el mundo real. Creo que la Vía Turing puede tener un impacto positivo en ambos ámbitos. Al proporcionar prácticas de trabajo recomendadas y orientación sobre herramientas asociadas, podemos hacer que sea fácil para los investigadores hacer lo correcto. Publicando esto con el peso de la marca Turing, podemos aplicar presión social para la adopción de estas prácticas como nuevas normas en las comunidades de investigación en las que operamos.
 
 
@@ -579,13 +579,13 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
   * Libro Dash Participant/Mentor 2020
 * GitHub id: [martinagvilas](http://github.com//martinagvilas)
 * ORCID: [0000-0002-1097-8534](https://orcid.org/0000-0002-1097-8534)
-* Breve biografía:
+* Short bio:
 > Actualmente estoy terminando mi doctorado en Neuroscience en el Max-Planck-Institute AE en la Universidad de Alemania, Alemania. Estudio cómo el cerebro procesa el conocimiento conceptual analizando las grabaciones neuronales con técnicas de modelado computacional. Como defensora de la investigación abierta, también trabajo en la mejora de la reproducibilidad de los análisis neurocientíficos y en la contribución a proyectos de software de código abierto.
 
-* Resaltados personales:
+* Personal highlights:
 > Desde la carrera del libro en febrero de 2020, apoyo el mantenimiento de la infraestructura de The Turing Way y su confianza en Jupyter Bookk. La Vía Turing no es sólo una buena guía para llevar a cabo investigaciones reproducibles pero también proporciona un punto de entrada maravilloso en la contribución de código abierto en general y lo conecta con una variedad de comunidades de ciencia de datos abiertas. También soy un mentor en el programa [OLS-2](https://openlifesci.org/ols-2) y también he trabajado con los colaboradores centrales [de pandas](https://pandas.pydata.org/) para proporcionar orientación a personas de grupos poco representados en tecnología para hacer su primera contribución de código abierto. He codirigido y desarrollado el tutorial sobre [Create a Jupyter Book with The Turing Way](https://cfp.jupytercon.com/2020/schedule/presentation/225/creating-a-jupyter-book-with-the-turing-way/) ([Github repo](https://github.com/martinagvilas/tutorial-jupyterbook-with-turing-way)). Durante el Cuadro de Libros (Noviembre 2020), trabajé con @BatoolMM en la actualización del Libro de Jupyter que permite anotar (PR #1516). Facilité contribuciones mentalizadas _(en español también 🇦🇷 🇧🇴 )_ También hice una charla sobre The Turing Way y reproducibilidad computacional en la [Donostia Brainhack 2020](https://brainhack-donostia.github.io/) (diapositivas [aquí](https://zenodo.org/record/4269795#.X7glTlNKitg))
 
-* Más información:
+* More information:
 > Puede leer más información sobre mí en mi [sitio web](https://martinagvilas.github.io/).
 
 <!-- N -->
@@ -597,10 +597,10 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
 * GitHub id: ninadicara
 * ORCID: [0000-0002-6179-1067](https://orcid.org/0000-0002-6179-1067)
 
-* Breve biografía:
+* Short bio:
 > Soy estudiante de doctorado en la Universidad de Bristol, trabajando en ciencias de la información para la salud mental usando datos de las redes sociales. También tengo una maestría en trabajo social familiar, y fue entrenado como trabajador social antes de comenzar mi doctorado. Organizo el [Club de Ética de Datos](https://github.com/very-good-science/data-ethics-club/), y estoy realmente interesado en cómo podemos entender la forma en que enfocamos el análisis de datos como una función de nuestras experiencias vividas y posicionalidad.
 
-* Resaltados personales:
+* Personal highlights:
 > Empecé a diseñar y redactar un nuevo capítulo sobre la autoreflexión para los científicos de datos, y estaba muy emocionado de conocer a muchas personas fascinantes y amables que también están trabajando en la Guía para la Investigación Ética!
 
 * Cotizaciones:
@@ -615,13 +615,13 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
   * Miembro del Proyecto Anterior (2019 - 2020)
 * GitHub id: [pherterich](http://github.com/pherterich)
 * ORCID: [0000-0002-4542-9906](https://orcid.org/0000-0002-4542-9906)
-* Breve biografía:
+* Short bio:
 > Soy especialista en datos de investigación en el Centro de Curación Digital de la Universidad de Edinburgh, Reino Unido. Soy socio del Instituto de Sostenibilidad de Software 2019 y miembro del comité HiddenREF. De 2016 a 2019, trabajé como Asesor de Repositorios de Investigación en la Universidad de Birmingham. De 2012 a 2016, He trabajado en el CERN como estudiante doctoral apoyando las cosas de Open Research y luego abandoné el doctorado y empecé un trabajo real usando todas las habilidades que he adquirido.
 
-* Resaltados personales:
+* Personal highlights:
 > Trabajar en la Vía Turing me recordó lo que valoro en mi trabajo y que tengo más destreza técnica de la que creo. Basado en el trabajo de Turing Way He comenzado el rol de gestión de productos para DMPonline y estoy tratando de tomar la inspiración del proyecto en mi trabajo diario siempre que pueda.
 
-* Más información:
+* More information:
 > Como bibliotecario, parece que nuestra influencia es a menudo limitada, pero trato de establecer talleres/eventos para al menos comenzar la discusión y dar a los estudiantes de doctorado la sensación de que pueden desafiar el status quo y habrá gente en la institución que los apoyará que tal vez no sea su supervisor. Me encanta cómo la Vía Turing pretende crear buenos ejemplos y espero que podamos desarrollar algunas ideas y recursos que puedan tener un impacto positivo en el cambio del sistema actual. Me preocupa colaborar y me entusiasma mucho probar nuevas herramientas si mis limitadas habilidades tecnológicas lo permiten.
 
 ### Paul Owoicho
@@ -633,10 +633,10 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
   * Reservar Dash Participant 2020
 * GitHub id: [paulowoicho](http://github.com/paulowoicho)
 
-* Breve biografía:
+* Short bio:
 > Soy un Escritor Técnico / Google Season of Docs (GSoD) Participante trabajando para hacer The Turing Way consistente, sostenible y accesible. Tengo un BSc en Ingeniería de Software de la Universidad Americana de Nigeria. Por lo tanto, trabajé como Analista de Investigación en la División de Innovación de Fintech & de Garantía Trust Bank, Nigeria y ayudó a impulsar el impulso del Banco para convertirse en una plataforma mediante la creación de productos digitales innovadores. Completé una Maestría en Ciencias de la Información por la Universidad de Glasgow e inicié mi doctorado en enero de 2021 estudiando sistemas de búsqueda de información conversacional. Pasé dos años como analista de investigación en el banco fiduciario de garantía en Lagos, Nigeria ayudando a construir productos digitales innovadores para cumplir con los objetivos de clientes del Banco.
 
-* Resaltados personales:
+* Personal highlights:
 > The Turing Way es mi primera incursión en código abierto y ha sido una experiencia de aprendizaje fantástica. No sólo he adquirido una comprensión más profunda y aprecio por cómo funciona GitHub. pero también estoy aprendiendo a priorizar la sostenibilidad y el empoderamiento en el trabajo que hago. Aunque The Turing Way es mi primer proyecto de código abierto, disfruté profundamente de la experiencia y aprendí mucho a lo largo del camino. Antes del programa GSoD, sólo usé Github para 'almacenar' mis proyectos. Ahora, soy mucho más competente en el uso de Github para los esfuerzos de colaboración y soy más experto en trabajar con herramientas como Markdown, Libros de Jupyter y Esfinge. Además, me familiarizé con la configuración y el trabajo con software de análisis web. Puedes ver el informe completo de la participación de GSoD [aquí](https://github.com/alan-turing-institute/the-turing-way/blob/main/communications/GSOD-applications/GSoD-2020-Project-Report.md). El BookDash Noviembre 2020 fue genial! Fue increíble conocer, colaborar y compartir ideas con gente de todo el mundo. Más allá del libro Dash, The Turing Way es el primer proyecto de código abierto en el que he trabajado. La experiencia ha sido fantástica, y tengo la intención de permanecer como colaborador después de que finalice la temporada de Google de documentos. También me veo involucrado en otros proyectos de código abierto.
 
 * Cotización personal:
@@ -658,10 +658,10 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
 * GitHub id: [rosiehigman](http://github.com/rosiehigman)
 * ORCID: [0000-0001-5329-7168](https://orcid.org/0000-0001-5329-7168)
 
-* Breve biografía:
+* Short bio:
 > Soy un Bibliotecario de Investigaciones de la Universidad de Manchester, codirigiendo el servicio de apoyo a la gestión de datos de investigación. Me centro en el intercambio de datos, la capacitación y el estímulo a los investigadores para que participen en la investigación abierta. Mis antecedentes se encuentran en las ciencias sociales y recientemente he comenzado un doctorado con la Biblioteca Británica y la Universidad de Sheffield sobre el acceso abierto y el papel de la Biblioteca Nacional.
 
-* Más información:
+* More information:
 > ¡Soy apasionado por apoyar a los investigadores! Facilitar al máximo que los investigadores hagan que su investigación sea reproducible y abierta, y para que esto sea más fácil que llevar a cabo investigaciones de forma cerrada. Intento ayudar a los investigadores a realizar pequeñas mejoras en la realización de su investigación abierta, sobre la base de que algunos avances son mejores que ninguno. Trabajando en la gestión de datos de investigación estoy naturalmente preocupado por que los datos no se toman en serio como un producto de investigación independiente y el sistema de recompensas en el mundo académico está tan orientado hacia artículos de revista de "alto impacto". Como alguien de un entorno no STEM también estoy interesado en cómo podemos hacer la investigación reproducible tan accesible como sea posible. Este será el primer proyecto en el que he trabajado directamente en GitHub y estoy emocionado de tener más confianza en el uso! Dedico gran parte de mi tiempo hablando con los investigadores sobre los principios generales de *por qué* la investigación reproducible y abierta es una buena idea y estoy entusiasmada por la idea de dar a la gente orientación práctica sobre *cómo* hacer esto. El código de Messy se cita frecuentemente en estos debates como una razón para no compartir código, así que si pudiéramos producir algo que ayude a la gente a superar esta barrera sería grande. Espero que el Camino Turing sea algo que también podamos utilizar en la Universidad de Manchester y en otras universidades Turing de todo el país.
 
 
@@ -672,13 +672,13 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
   * Reserva Dash Organiser 2019
 * GitHub id: [rainsworth](http://github.com/rainsworth)
 * ORCID: [0000-0003-2591-9462](https://orcid.org/0000-0003-2591-9462)
-* Breve biografía:
+* Short bio:
 > Soy el Administrador de Comunidad de Investigación de Software en el Instituto de Sostenibilidad de Software. Anteriormente, trabajé como Asociado de Investigación y Campeón de Ciencias Abiertas en el Centro Banco Jodrell para la Astrofísica de la Universidad de Manchester. Mi investigación consistió en observar chorros de estrellas jóvenes con radiotelescopios de próxima generación para investigar los procesos físicos que ensamblan estrellas como nuestro Sol, y actualmente estoy trabajando para hacer que los datos de las instalaciones de radio telescopio en Jodrell Bank sean más accesibles para todos. También soy un entrenador certificado de Open Science Trainer, Mozilla Open Leader, y organizador para las mujeres en el grupo de reuniones de datos HER+Data MCR.
 
-* Resaltados personales:
+* Personal highlights:
 > He promovido *The Turing Way* a través de muchas presentaciones, notablemente en la Feria de Ciencias Abiertas 2019 donde presenté un póster y entregé 3 demostraciones del proyecto a los asistentes, una de las cuales fue registrada como parte del [Podcast de Ciencia Abierta de ORION](https://orionopenscience.podbean.com/e/the-fair-is-in-town-figshare-the-turing-way-and-open-science-quest-at-the-osfair2019/). A través del proyecto *The Turing Way* he ganado valiosas habilidades en la gestión abierta del proyecto y he conocido a individuos realmente inspiradores trabajando duro para promover la apertura y la reproducibilidad en la investigación.
 
-* Más información:
+* More information:
 > Soy apasionado por la promoción de la apertura, la transparencia, la reproducibilidad, bienestar e inclusión en el STEM y facilitando conversaciones entre las partes interesadas con el fin de cambiar la cultura de la investigación para mejor. También me encanta la exploración del espacio. *La Vía Turística* tiene como objetivo garantizar que la ciencia de datos reproducible sea "demasiado fácil de no hacer" realmente resuena conmigo. Creo que puede ser difícil conseguir que los investigadores se comprometan con la reproducibilidad y compartan sus resultados de investigación porque creen que llevará demasiado tiempo y esfuerzo con muy poca recompensa, ¡cuando lo contrario es verdad! Garantizar resultados son reproducibles no solo beneficia a la investigación en su conjunto e incrementa la eficiencia. pero trabajar de esta manera también ofrece a los investigadores más oportunidades de impacto y colaboración.
 
 
@@ -688,10 +688,10 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
 * GitHub id: [reshamas](http://github.com/reshamas)
 * ORCID: [0000-0003-4162-4453](https://orcid.org/0000-0003-4162-4453)
 
-* Breve biografía:
+* Short bio:
 > Reshama Shaikh es el Director Ejecutivo de [Data Umbrella](https://www.dataumbrella.org). También está en el Triage Team para [scikit-learn](https://github.com/scikit-learn/scikit-learn) y organizadora de [NYC PyLadies](https://www.meetup.com/NYC-PyLadies/). Reshama es un estadístico/científico de datos con habilidades en Python, R y SAS. Ella ganó su M.S. S. en estadísticas de la Universidad de Rutgers.  Ella ganó su M.B.A. B.A. de NYU Stern School of Business donde estudió estrategia, análisis de negocios y gestión de tecnología.
 
-* Resaltados personales:
+* Personal highlights:
 > Reshama participó en The Turing Way Book Dash y colaboró para discutir los planes y el borrador de un capítulo sobre el impacto de la investigación en las ciencias de datos, con un estudio de caso de eventos de formación que organiza a través de Data Umbrella.
 
 <!---S--->
@@ -705,7 +705,7 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
 * GitHub id: [SamGuay](https://github.com/SamGuay)
 * ORCID: [0000-0001-6990-839X](https://orcid.org/0000-0001-6990-839X)
 
-* Breve biografía:
+* Short bio:
 > Soy estudiante de doctorado en Neurociencia Cognitiva en la Universidad de Montreal, Canadá, investigando los efectos de la cabeza repetitiva impactos inactivos y retirados con una perspectiva de neuroimagen. En paralelo, He iniciado la iniciativa [Open Science UMontreal](https://umontreal.openscience.ca) para equipar a científicos de carrera temprana con mejores conocimientos y herramientas para implementar más ciencia abierta en su flujo de trabajo. Los miembros de la comunidad OSUM son realmente increíbles :rocket:. Específicamente, he estado trabajando para establecer un proceso para traducir _The Turing Way_ en francés. He contribuido a añadir [hipotes.is](https://web.hypothes.is/) a _The Turing Way_.
 
 * Resaltado personal:
@@ -721,13 +721,13 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
   * Libro Dash Participant/Mentor 2020
 * GitHub id: [sgibson91](http://github.com/sgibson91)
 * ORCID: [0000-0003-0356-2765](https://orcid.org/0000-0003-0356-2765)
-* Breve biografía:
+* Short bio:
 > Sarah Gibson es Ingeniero de Infraestructura de Código Abierto en 2i2c, colaborador y defensor de código abierto. Tiene más de dos años de experiencia como ingeniera de investigación en un instituto nacional de ciencias de datos e inteligencia artificial, además de tener un papel fundamental de colaborador en los proyectos de código abierto Binder, JupyterHub, y Turing Way. Ella es miembro del equipo operativo mybinder.org y mantiene la infraestructura de apoyo a una comunidad global en el intercambio de ambientes computacionales reproducibles.
 
-* Resaltados personales:
+* Personal highlights:
 > Ser invitado a unirse al mybinder. rg operando equipo después de trabajar con ellos a través de _The Turing Way_ y ayudando a la gente a ponerse en marcha en mybinder. rg a través de _Talleres de Cero a Binder_.
 
-* Más información:
+* More information:
 > Sarah está apasionada por trabajar con expertos de dominio para aprovechar la computación en la nube con el fin de acelerar el corte, investigación intensiva en datos y difusión de los resultados de una manera abierta, reproducible y reutilizable. También tiene una beca con el Instituto de Sostenibilidad de Software y aboga por las mejores prácticas de investigación de software.
 
 ### Batchelor de Sofía
@@ -738,13 +738,13 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
   * Reservar Dash Participant 2020
 * GitHub id: [BrainonSilicon](https://github.com/BrainonSilicon)
 * ORCID: [0000-0002-8572-2058](https://orcid.org/0000-0002-8572-2058)
-* Breve biografía:
+* Short bio:
 > Soy estudiante de doctorado en la Universidad de Leeds estudiando el aprendizaje del sensorimotor con el Center for Immersive Technologies. Mi investigación se centra en entender cómo interpretan nuestros cerebros, y responde tanto a nuestra realidad física como a una realidad construida (AR/VR). Lo hago a través de un profundo amor por el cerebro y las tecnologías emergentes. Pronto estaremos presentes en el futuro que estamos creando ahora; así que cuando construimos con una "gente primero" (o un cerebro primero), terminamos construyendo un espacio que permite a la gente florecer.
 
-* Resaltados personales:
+* Personal highlights:
 > ¡MI PRIMERA CONTRIBUCIÓN A LA PRECIO! Es un honor absoluto unirnos a la comunidad de The Turing Way mientras miramos hacia un futuro abierto, ético y accesible. Después de tener un fondo STEM mixto y no STEM, Estoy encantado de haberme unido a esta comunidad a medida que crece y guía mi pensamiento sobre cómo y qué significa hacer investigación.
 
-* Más información:
+* More information:
 > Soy un feroz defensor de la investigación ética y abierta, y esas creencias tienden a llevar a todo lo que hago. Antes trabajé en Interfaces Informáticas Cerebrales después de terminar mi subgrado en UC Berkeley donde vi el increíble trabajo que se puede hacer a través de la colaboración, ciencia cruzada. Ahora soy parte de Open Life Science's second cohort learning how to implement the teachings of The Turing Way because when good science and good practice meets, grandes cosas pueden suceder.
 
 
@@ -754,10 +754,10 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
 ### Tim
 
 * Twitter: [@mrtimpowell](https://twitter.com/mrtimpowell)
-* Breve biografía:
+* Short bio:
 > Tim es un Ingeniero de Software de Investigación Astrosicista, que siempre ha tenido una pasión por compartir la ciencia. Desde asistir a conferencias públicas y participar como asistente en eventos de divulgación basados en Cambridge como adolescente para construir una supercomputadora en miniatura, Tim tiene una larga historia de actividades de divulgación. Mientras estaba en la universidad Tim se convirtió en Embajador de STEM ante la Sociedad de Física, donde utilizó las herramientas proporcionadas para introducir grupos de niños a conceptos científicos. Tim también participó en 4 [semanas de ciencias británicas](https://www.britishscienceweek.org/) mostrando muchos aspectos diferentes de la física y la percepción remota. Cuando Tim se unió al Hartree Centre de STFC, construyó una supercomputadora en miniatura, llamada [HPiC](https://blog.hartree.ac.uk/wordpress/?p=361). HPiC es el Raspberry Pi Cluster de Hartree Cento. Fue creada para demostrar técnicas de supercomputación y mostrar parte de la experiencia del Centro Hartre. HPiC ha sido exhibido en numerosas [conferencias técnicas](https://twitter.com/MrTimPowell/status/1062098668403245058) y [eventos de alcance público](https://twitter.com/HartreeCentre/status/1055029464592273408) no solo en todo el Reino Unido, sino también internacionalmente. Además de presentar carteles técnicos y charlas en varias conferencias Tim también disfruta tomando su experiencia de divulgación y presentando lo que ha aprendido y cómo esto es aplicable a la enseñanza. Tim presentó en el taller ISC 2019 de Educación y Capacitación de HPC para Tecnología Emergente y estuvo en [SIGHPC](https://sighpceducation.acm.org/) Mejores prácticas para el Panel de Entrenamiento y Educación de HPC en Supercomputing 2019. Uno de los proyectos más orgullosos de Tim, colaboró con Benjamin Mummery en una versión LEGO de la supercomputadora icónica de Hartree Centre [Scafell Pike](https://twitter.com/HartreeCentre/status/1189145621564968963)!
 
-* Resaltados personales:
+* Personal highlights:
 > Colaboré con un grupo de investigadores del Instituto Alan Turing para redactar un capítulo de divulgación científica.
 
 
@@ -774,13 +774,13 @@ Ver esta entrada como un ejemplo de Kirstie Whitaker, el líder del proyecto:
 * GitHub id: vhellon
 * Twitter: @ vickyhellon
 
-* Breve biografía:
+* Short bio:
 > Vicky Hellon es el Director de la Comunidad del Instituto Alan Turing para la Asociación Turing-Roche. Trabajará estrechamente con ambas organizaciones para construir una comunidad comprometida y sostenible alrededor de la asociación, con el objetivo de apoyar a los investigadores para incorporar e integrar prácticas de Open Science. Tiene una BSc en Ciencias Biomédicas de la Universidad de Sheffield y anteriormente desempeñó funciones en la publicación de Acceso Abierto. Es apasionada por apoyar cambios progresivos en el sistema de publicación académica y comprometerse con investigadores de diversos orígenes.
 
-* Resaltados personales:
+* Personal highlights:
 > Fue una gran introducción a la Vía Turing y a la comunidad. Me encantó ver lo colaborativo que fue todo el mundo y también la escala de lo que todos lograron producir durante el guión. Me siento orgulloso de que logré hacer mi primer pull request adecuado para hacer una contribución tangible y me navegó alrededor de Github para revisar otros trabajar también.
 
-* Más información:
+* More information:
 > Seguiré trabajando en el capítulo de Acceso Abierto y espero colaborar con otros como @EKaroune @Karvovskaya para expandir potencialmente un capítulo o sección "publicando"
 
 * Cotizaciones:
@@ -1238,13 +1238,13 @@ La Facultad de Ciencias Aplicadas es la mayor de la Universidad Tecnológica de 
 * GitHub id: [EstherPlomp](https://github.com/estherplomp)
 * ORCID: [0000-0003-3625-1357](https://orcid.org/0000-0003-3625-1357)
 * Twitter: [@PhDToothFAIRy](https://twitter.com/PhDToothFAIRy/)
-* Breve biografía:
+* Short bio:
 > Soy un Data Steward en la Universidad de Tecnología de Delft, Faculty of Applied Sciences, en los Países Bajos, donde apoyo a los investigadores con su gestión de datos y prácticas científicas abiertas. Para mi investigación doctoral, analicé los dientes humanos para su composición isotópica/química con el fin de decir algo sobre los patrones de movilidad humana (campos forenses, arqueología, osteología). Junto al Camino Turístico también estoy involucrado con otros equipos, como el [Open Research Calendar](https://openresearchcalendar.org/) ([sigue el calendario en Twitter!](https://twitter.com/OpenResearchCal)), [IsoArcH](https://isoarch.eu/) y yo era un mentor [OLS3](https://openlifesci.org/ols-3/). También estoy interesado en cualquier cosa relacionada con muestras físicas en la investigación, y soy copresidente del [Grupo de Interés de Muestras Físicas de la Alianza de Datos](https://www.rd-alliance.org/groups/physical-samples-and-collections-research-data-ecosystem-ig).
 
-* Resaltados personales:
+* Personal highlights:
 > Gracias a Turing Way aprendí realmente a trabajar colaborativamente usando GitHub. El guión del libro en febrero de 2020 fue un gran comienzo para practicar realmente y aplicar directamente estas habilidades, que ahora me permite contribuir con más confianza a otros proyectos también! Contribuí principalmente al Capítulo de Investigación Reproducible, a la sección Gestión de Datos de Investigación y a los Roles de Infraestructura de Investigación. He revisado el contenido existente y estoy trabajando en añadir una sección sobre los planes de gestión de datos y cómo manejar los datos personales. También hice un cartel de [The Turing Way](https://doi.org/10.5281/zenodo.4263403) que presenté durante una conferencia. Espero pagarlo adelante y facilitar a otros en el aprendizaje de cómo trabajar con GitHub a través de los talleres The Turing Way o The Carpentries . Estoy muy agradecido de ser parte de esta gran comunidad inclusiva!
 
-* Más información:
+* More information:
 > Creo que la investigación científica debe ser accesible a cualquier persona que quiera aprender y contribuir. Espero reunir a especialistas de mi campo de investigación para establecer pautas para los datos isotópicos de los restos humanos y directrices sobre cómo manejar y documentar muestras físicas. Soy copresidente del grupo Research Data Alliance (Alianza de Datos de Investigación) [Muestras y Colecciones físicas en el IG del Ecosistema de Datos de Investigación](https://www.rd-alliance.org/groups/physical-samples-and-collections-research-data-ecosystem-ig). Por favor, ponte en contacto con nosotros si trabajas con muestras físicas y te gustaría quedarte satisfecho! Soy parte del equipo Open Research Calendar. Este es un calendario que puedes usar para estar al día con eventos de investigación abiertos o agrega tus propios eventos para aumentar la visibilidad. ¡Visítenos en el sitio web [Open Research Calendar](https://openresearchcalendar.github.io/) o siga el calendario en [Twitter](https://twitter.com/OpenResearchCal)!
 
 * Cotización:
@@ -1267,13 +1267,13 @@ Los detalles de cada miembro con sus contribuciones han sido listados alfabétic
   * Gestor de comunidad para eScience Center
 * GitHub id: [c-martinez](http://github.com/c-martinez)
 * ORCID: [0000-0001-5565-7577](https://orcid.org/0000-0001-5565-7577)
-* Breve biografía:
+* Short bio:
 > Carlos obtuvo su doctorado en Informática en la Universidad de Exeter. Posteriormente trabajó en varios proyectos de investigación de la Universidad de Exeter y la Universidad de Plymouth. En el Centro eScience, ha trabajado como ingeniero en diversos proyectos de humanidades digitales y ciencias de la vida, desarrollar experiencia en el procesamiento del lenguaje natural, datos abiertos vinculados y la sostenibilidad del software. También es instructor certificado de Carpintería de Software y frecuentemente participa en la organización de entrenamientos.
 
-* Resaltados personales:
+* Personal highlights:
 > Siempre abogamos por la reutilización de software y el desarrollo colaborativo del software. Me encanta que podamos hacer lo mismo con las pautas de desarrollo de software: reutilizar el contenido de la guía eScience y desarrollar colaborativamente con la comunidad _The Turing Way_!
 
-* Más información:
+* More information:
 > Soy un gran defensor de la mejora de la calidad del software. Estoy muy contento de que el centro de eScience esté colaborando con _The Turing Way_ en proporcionar directrices y ayudar a construir mejor software de investigación.
 
 ### Mateusz Kuzak
@@ -1283,10 +1283,10 @@ Los detalles de cada miembro con sus contribuciones han sido listados alfabétic
   * Libro Dash Participant/Helper 2020
 * GitHub id: [mkuzak](http://github.com/mkuzak)
 * ORCID: [0000-0003-0087-6021](https://orcid.org/0000-0003-0087-6021)
-* Breve biografía:
+* Short bio:
 > Mateusz obtuvo su maestría en Biotecnología con especialización Biofísica, en la Universidad Jagelónica, Krakow, Polonia. En septiembre de 2019 Mateusz se unió al Centro Holandés de Ciencia Electrónica en el rol de Oficial Comunitario con el foco en las comunidades y la capacitación en torno a la Ingeniería de Software de Investigación, las mejores prácticas de software y la sostenibilidad, y el papel del software en la ciencia abierta y la investigación reproducible. Desde 2015, Mateusz ha estado involucrado en la comunidad de Carpentrales, primero como instructor, colaborador, mentor, miembro del Consejo Ejecutivo y entrenador de instructores. También está liderando el capítulo holandés de los Carpentries y está en el equipo central de la comunidad nl-RSE.
 
-* Resaltados personales:
+* Personal highlights:
 > He contribuido personalmente a _The Turing Way_ borrando capítulos en la guía de Investigación Reproducible, revisó las Pull Requests de otros colaboradores y las contribuciones tutoras del Centro Holandés de Ciencia Electrónica.
 
 ## [FALLO libro de cocina](https://fairplus.github.io/the-fair-cookbook/content/home.html)
@@ -1301,13 +1301,13 @@ _Los miembros del equipo de Turing Way_ y [miembros del consejo editorial del pr
   * Libro de Participante Dash 2019
 * GitHub id: [susannasansone](http://github.com/susannasansone)
 * ORCID: [0000-0001-5306-5690](https://orcid.org/0000-0001-5306-5690)
-* Breve biografía:
+* Short bio:
 > Susanna-Assunta Sansone es Director Asociado e Investigador Principal del Centro e-Investigación de Oxford, y profesor asociado en el Departamento de Ciencia de Ingeniería de la Universidad de Oxford. También es Consultante de Springer Nature y Editora Honoraria del Diario de Datos Científicos.
 
-* Resaltados personales:
+* Personal highlights:
 > TBA
 
-* Más información:
+* More information:
 > La moto de Susanna-Assunta Sansone es "Mejores datos para una mejor ciencia". Con su grupo de brillantes ingenieros de investigación & de conocimiento, investiga y desarrolla métodos y herramientas para mejorar la reutilización de datos; trabajan para la transparencia de los datos, la integridad de la investigación y la evolución de la publicación científica. También lleva a cabo investigaciones sobre investigación, para mejorar la forma en que se practica y comparte la investigación. Específicamente, se esfuerza por hacer objetos de investigación digital, incluyendo datos, Findable, Accesible, Interoperable y Reutilizable, FAIR, para humanos y para máquinas.
 
 ### Philippe Rocca-Serra
@@ -1316,10 +1316,10 @@ _Los miembros del equipo de Turing Way_ y [miembros del consejo editorial del pr
   * Reservar Dash Participant 2020
 * GitHub id: [proccaserra](http://github.com/proccaserra)
 * ORCID: [0000-0001-9853-5668](https://orcid.org/0000-0001-9853-5668)
-* Breve biografía:
+* Short bio:
 > Philippe Rocca-Serra recibió un doctorado en Biología Molecular por la Universidad de Burdeos, mudarse al campo de la bioinformática al unirse al Equipo de Informática de Microarray en el EMBL-EBI, Cambridge. Así, trabajando en el establecimiento de ArrayExpress, se convirtió en un miembro activo de varios esfuerzos de estandarización destinados a promover la visión de los datos abiertos y la ciencia abierta. Como parte de varios proyectos de la UE en toxicogenómica y nutrigenomics, coordinó el desarrollo del proyecto ISA [1], que ahora continúa en la Universidad de Oxford e-Research Centre.
 
-* Resaltados personales:
+* Personal highlights:
 > TBA
 
 ## [Abrir Ciencia de Vida](https://openlifesci.org/)
@@ -1336,9 +1336,9 @@ Este recurso fue iniciado por Isabel Birds durante el pandémico COVID-19 para a
 
 * GitHub id: [IsabelBirds](http://github.com/IsabelBirds)
 * ORCID: [0000-0001-8173-3879](https://orcid.org/0000-0001-8173-3879)
-* Breve biografía:
+* Short bio:
 > Isabel es un candidato a doctorado en la Universidad de Leeds trabajando en diseccionar la función y evolución molecular de las largas RNAs no codificadoras Supervisadas por el Dr. Julie Aspden, El Dr. Mary J O’Connell y el Dr. David Westhead. Ha estado interesada en la evolución molecular y las aplicaciones de las técnicas bioinformáticas a lo largo de su grado, y desarrolló estos intereses mientras realiza proyectos de investigación en los laboratorios Aspden y O’Connell.  
 > También tiene experiencia en investigación científica desde la perspectiva de los financistas, ganada durante su año en la industria y numerosas prácticas estivales con la Investigación de Cánceres del Caribe.
 
-* Resaltados personales:
+* Personal highlights:
 > Después de aprender sobre la Vía Turing, me inspiró crear un sitio dirigido a una audiencia más amplia. Los tutoriales Turing Way me ayudaron a crear mi primer Jupyter Bookk, me ayudó a crear el sitio de una manera que está abierto a las contribuciones, y hizo compartir mi trabajo abiertamente menos aterrador! La Vía Turing también aparece varias veces en los recursos listados. El objetivo del recurso es hacer que el inicio de un proyecto computacional sea menos abrumador mediante la selección de enlaces a tutoriales y libros de texto en línea. También se destacan habilidades como la gestión de archivos o pedir ayuda de forma efectiva, junto con cosas entretenidas como podcasts como un recordatorio de que la investigación puede ser divertida!
