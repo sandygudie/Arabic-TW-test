@@ -16,7 +16,7 @@ alt: A screenshot of a Virtual Machine.
 
 ```
 
-Users can download, install, backup and destroy VMs at will, which is why they are an attractive tool for sharing reproducible research. Research often requires specific pieces of software or system settings. If a researcher wishes to reproduce another's work on their computer, making the necessary changes to their environment to run the project may impact their work. For example, in the {ref}`rr-renv-useful` section of this chapter, we described how using a different version of Python can lead to unexpected changes in the results of an analysis. 说一个研究人员安装更新版本的 Python 以复制分析，因为分析只需要更新版本中的功能。 Say a researcher installs an updated version of Python to replicate an analysis because the analysis requires features only present in the updated version. By doing so, they put their own work at risk. VMs remove that risk; any tools downloaded or settings changed will only impact the VM, keeping the reproducer's research safe. If they do inadvertently break something in the VM, they can delete it and make another one. VMs are effectively a quarantined area.
+Users can download, install, backup and destroy VMs at will, which is why they are an attractive tool for sharing reproducible research. Research often requires specific pieces of software or system settings. If a researcher wishes to reproduce another's work on their computer, making the necessary changes to their environment to run the project may impact their work. For example, in the {ref}`rr-renv-useful` section of this chapter, we described how using a different version of Python can lead to unexpected changes in the results of an analysis. Say a researcher installs an updated version of Python to replicate an analysis because the analysis requires features only present in the updated version. By doing so, they put their own work at risk. VMs remove that risk; any tools downloaded or settings changed will only impact the VM, keeping the reproducer's research safe. If they do inadvertently break something in the VM, they can delete it and make another one. VMs are effectively a quarantined area.
 
 (rr-renv-vm-research)=
 ## Using Virtual Machines for Reproducible Research
@@ -26,7 +26,7 @@ Virtual machines can be shared by exporting them as single files. Another resear
 (rr-renv-vm-research-settingup)=
 ### Setting up a Virtual Machine
 
-First, choose a tool for generating VMs. 首先，选择生成VM的工具 这里选择了广泛使用的 [虚拟框](https://www.virtualbox.org/)。 Download and install it on your system. To create a new machine, click "New" in the top left. A window will pop up where you can enter a name for the machine and select what operating system (and version) to use. In the figure below, a machine called `demo_VM` running Ubuntu is being created:
+First, choose a tool for generating VMs. Here the widely-used [VirtualBox](https://www.virtualbox.org/) is chosen. Download and install it on your system. To create a new machine, click "New" in the top left. A window will pop up where you can enter a name for the machine and select what operating system (and version) to use. In the figure below, a machine called `demo_VM` running Ubuntu is being created:
 
 ```{figure} ../../figures/vm-create-machine.png
 ---
@@ -54,7 +54,7 @@ alt: A screenshot showing how to start a Virtual Machine.
 (rr-renv-vm-research-sharing)=
 ### Sharing Virtual Machines
 
-A researcher can do work on their VM, and then export it. To export a VM, click `File` in the top left and then `Export`. To export a VM, click `File` in the top left and then `Export`. 这将导出虚拟机作为可以共享的单个文件。
+A researcher can do work on their VM, and then export it. To export a VM, click `File` in the top left and then `Export`. This will export the VM as a single file which can be shared.
 
 ```{figure} ../../figures/vm-export-machine.png
 ---
