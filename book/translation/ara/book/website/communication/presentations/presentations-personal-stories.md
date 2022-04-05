@@ -17,7 +17,7 @@ I work at [INTA](https://www.argentina.gob.ar/inta) (National Institute of Agric
 
 I think the main thing is to know your audience beforehand. You can ask the organizers of the event to whom you are going to speak, what is their background, what is the reason they come to the event, and so on. In that way, you can foresee some of the expectations they are going to have and try to fulfill some of them in your talk.
 
-وأيضا، أبدأ الحديث بموقف مريح حتى يشعر الجمهور بما يلي: على الرغم من أنني هناك بصفتي خبيرا، أنا متقارب عندما يتعلق الأمر بالتعليقات والأسئلة. After all, these kinds of meetings and sessions are meant for people to take something away, to learn something.
+Also, I start the talk with a relaxed attitude so that the audience feels that, even though I am there as an expert, I am approachable when it comes to comments and questions. After all, these kinds of meetings and sessions are meant for people to take something away, to learn something.
 
 Knowing your audience and at least one or two of the things they expect from the talk is important. By fulfilling these expectations the audience leaves with a sense that it was worth being there.
 
@@ -49,7 +49,7 @@ Finally, you learn a lot, about other fields, about other professions, about oth
 
 ## 4. Do you have any advice on things to avoid or, perhaps, to handle with care?
 
-Creo que con el humor hay que ser muy cuidadosa. Pienso que ese aspecto funciona únicamente sobre uno mismo, si me río de mi, entonces hay menos riesgos de ofender o lastimar.
+I think you have to be very careful with humour. I think that this aspect works only on oneself, if I laugh at myself, then there is less risk of offending or hurting someone.
 
 On the other hand, you have to avoid being impolite regarding schedules. For example, if a talk lasts an hour, it would be convenient to finish it within 50 minutes and leave the participant ten minutes to stretch, get up, hydrate themselves or go to the bathroom and then continue with their routine, especially in this virtual setting where we live from one Zoom to another.
 
@@ -89,7 +89,7 @@ Regarding the tools to give courses and talks, I apply a lot of what we teach in
 ---
 
 
-# قصص شخصية - عرض خارج تخصصك (Espan
+# Personal stories - Presenting outside of your discipline (Español)
 
 Queremos agradecer a **[Yanina Bellini Saibene](https://yabellini.netlify.app/es/)** por responder nuestras preguntas.
 
@@ -101,7 +101,7 @@ Podés interiorizarte en su trabajo en los siguientes links:
 
 ## 1. ¿Cuándo comenzaste a dar charlas sobre tu trabajo como investigadora en eventos no académicos?
 
-fica. Nuestras actividades están organizadas en investigación y desarrollo y transferencia y extensión, ambas con el mismo peso e importancia. Todo lo que tiene que ver con hacer enseñar, difundir, comunicar, transferir conocimiento de nuestros desarrollos a actores del sector agropecuario y al público en general, es parte de nuestro trabajo. Dentro del INTA, las actividades de formación y comunicación, ya sea por medio de un curso, taller, de una nota o entrevista en un diario, radio, televisión, son importantes y necesarias. Solo tenemos sentido si la gente utiliza lo que hacemos.
+Yo trabajo en el [INTA](https://www.argentina.gob.ar/inta) (Instituto Nacional de Tecnología Agropecuaria), que es una institución científica. Nuestras actividades están organizadas en investigación y desarrollo y transferencia y extensión, ambas con el mismo peso e importancia. Todo lo que tiene que ver con hacer enseñar, difundir, comunicar, transferir conocimiento de nuestros desarrollos a actores del sector agropecuario y al público en general, es parte de nuestro trabajo. Dentro del INTA, las actividades de formación y comunicación, ya sea por medio de un curso, taller, de una nota o entrevista en un diario, radio, televisión, son importantes y necesarias. Solo tenemos sentido si la gente utiliza lo que hacemos.
 
  ## 2. ¿Qué aspectos tenés que atender a la hora de pensar un evento con charlas muy interdisciplinarias?
 
@@ -139,7 +139,7 @@ Por último, se aprende muchísimo, sobre otros temas, sobre otras profesiones, 
 
  ## 4. ¿Tenés consejos sobre cosas que hay que evitar o, quizás, manejar con cuidado?
 
-أعتقد أنه يجب عليك أن تكون حذرا جدا مع الفكاهة. وأعتقد أن هذا الجانب لا يعمل إلا على نفسه، إذا ضحكت على نفسي، سيكون هناك خطر أقل في الإساءة إلى شخص ما أو إيذائه.
+Creo que con el humor hay que ser muy cuidadosa. Pienso que ese aspecto funciona únicamente sobre uno mismo, si me río de mi, entonces hay menos riesgos de ofender o lastimar.
 
 Por otro lado, hay que evitar la descortesía de los tiempos. Por ejemplo, si una charla dura una hora, sería conveniente terminarla en 50 minutos y dejarle al participante diez minutos para que se estire, levante, hidrate o vaya al baño y, luego, que continúe con su rutina, especialmente en este ámbito virtual donde vivimos de un zoom a otro.
 
