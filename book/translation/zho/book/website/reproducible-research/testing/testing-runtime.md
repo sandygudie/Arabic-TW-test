@@ -16,15 +16,12 @@ function add_arrays( array1, array2 ):
 
 // test that the arrays have the same size
 if (array1.size() != array2.size()):
-  error( 'The arrays have different sizes!' ize() != 数组2.size())：
-  错误 ('数组有不同的大小!' )
+  error( 'The arrays have different sizes!' )
 
-输出 = 数组1 + 数组2
+output = array1 + array2
 
-if (output.size() != 数组1.size()):
-  错误( '输出数组大小错误!' )
-
-返回输出 )
+if (output.size() != array1.size()):
+  error( 'The output array has the wrong size!'' )
 
 return output
 ```
