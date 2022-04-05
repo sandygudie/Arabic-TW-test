@@ -56,9 +56,9 @@ This figure can be referred in other files using the {ref} role like:
 Please note that a height of 500px works very well with _The Turing Way_ book, but this is only a suggestion.
 (ch-style-figures-alttext)=
 ## Alternative text
-Alternative text or alt text are used for describing the appearance and function of an image on an HTML page. Nuestra figura de ejemplo puede explicarse con esta frase: *Dos personas navegando felizmente archivos en un cajón de documentos.* Añadir texto alternativo a figura es uno de los primeros principios de accesibilidad web.
+Alternative text or alt text are used for describing the appearance and function of an image on an HTML page. Our example figure can be explained with this sentence: *Two people happily browsing files in a drawer of documents.*
 Adding alternative text to figure is one of the first principles of web accessibility. Screen reader software can read an alt text to better explain the content of the figure to its users.
-(ch-style-figuras-subtítulo)=
+All the components of your figure (image file location, size, name, alt text and title) can be encapsulated in section within a markdown file using the following directive:
 
 ````
 ```{figure} ../../figures/file-collection.jpg
@@ -73,12 +73,14 @@ _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licen
 Another advantage of using alt text is when an image cannot be loaded in a browser, or the link to the image breaks, it is displayed in place of an figure like shown below:
 
 ```{figure} ../../figures/alt-text-demo.png
-Haciendo tu primer pull request en GitHub.
+---
+name: alt-text-demo
+alt: Two people happily browsing files in a drawer of documents.
 ---
 _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-Por ejemplo, un título podría decir:
+When all these components are used correctly, a figure included in a file will be rendered in the online book like in this page:
 
 ```{figure} ../../figures/file-collection.jpg
 ---
@@ -94,9 +96,9 @@ _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licen
 
 Captions appear below the figure. They should be short and concise and include a reference to the source where they are taken from. In particular it is important to describe the licence under which the image is re-used.
 
-(ch-style-figuras-avanzadas)=
+For example, a caption might say:
 
-> Making your first pull request on GitHub. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: \[10.5281/zenodo.3332807\](https://doi.org/10.5281/zenodo.3332807).
+> Making your first pull request on GitHub. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 
 The syntax for this image is as follows, and the way it appears in the book is below the code snippet.
 
