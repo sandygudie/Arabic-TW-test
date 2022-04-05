@@ -121,9 +121,9 @@ This section will reflect on fears and personal issues that your persona may fac
 
 ## Putting this together in a persona canvas
 
-人画布可以用来将您的所有响应集中在一个地方， 与您的同事分享您的智力模型的这种具体信息(我们的思想抽象概念)，并创建一个通用语言来交流您的社区成员。
+The persona canvas can be used to assemble all your responses in one place, share this tangible information of your mental model (abstract concepts from our thoughts) with your colleagues and create a common language to communicate about your community members, users, and contributors.
 
-[https://www.designabetterbusiness。 ools](https://www.designabetterbusiness.tools) 创建了多个个人画布(其中一个显示在上面的图中)，这些画布可在 CC-BY ShareAlim 4 下重新使用。 许可证，可以在这里下载
+The [https://www.designabetterbusiness.tools](https://www.designabetterbusiness.tools) have created multiple persona canvases (one is shown in the figure above) which are available for reuse under CC-BY ShareAlike 4.0 License, which can be downloaded [here](https://www.designabetterbusiness.tools/tools/persona-canvas).
 
 ## Examples of personas in _The Turing Way_ community
 
