@@ -42,20 +42,20 @@ You can have more than one branch off of your main copy. If one of your branches
 
 ```{figure} ../../figures/two-branches.png
 ---
-名称：子分支1
-备选案文：git中开发分支的图示.
+name: two-branches
+alt: An illustration of two development branches and one main branch in git
 ---
-git中的开发分支。
+Two development branches and one main branch in git.
 ```
 
 If you want, you can create branches from branches (and branches off of those branches and so on).
 
 ```{figure} ../../figures/sub-branch.png
 ---
-名称：两个分支
-备选案文：两个开发分支和一个主分支在 git
-中的示例。
-两个开发分支和一个主分支在 git 中。
+name: sub-branch1
+alt: An illustration of a development branch in git.
+---
+A development branch in git.
 ```
 
 No matter how many branches you have, you can access the past versions you made on any of them. If you are curious to know how to use this feature in practice, you will find more details a few sections ahead.
