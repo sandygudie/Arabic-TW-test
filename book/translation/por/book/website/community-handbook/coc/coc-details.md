@@ -1,46 +1,46 @@
-(ch-coc-detalhe)=
-# 2 Código de Conduta: Detalhes
+(ch-coc-details)=
+# 2 Code of Conduct: Details
 
-A equipe Turing Way é dedicada a proporcionar um ambiente acolhedor e de apoio a todas as pessoas, independentemente da sua origem ou identidade. Como tal, não toleramos comportamentos que sejam desrespeitosos para com os membros da nossa comunidade ou que excluam, intimidem ou causam desconforto a outros. Nós não toleramos discriminação ou assédio com base em características que incluam, mas não se limitam a: identidade e expressão de gênero, orientação sexual, deficiência, aparência física, dimensão corporal, cidadania, nacionalidade origem étnica ou social, gravidez, estatuto familiar, estatuto veterano, informação genética, religião ou crença (ou falta dela), pertencer a uma minoria nacional, propriedade, idade, educação, estatuto socioeconómico, opções técnicas e nível de experiência.
+The Turing Way team are dedicated to providing a welcoming and supportive environment for all people, regardless of background or identity. As such, we do not tolerate behaviour that is disrespectful to our community members or that excludes, intimidates, or causes discomfort to others. We do not tolerate discrimination or harassment based on characteristics that include, but are not limited to: gender identity and expression, sexual orientation, disability, physical appearance, body size, citizenship, nationality, ethnic or social origin, pregnancy, familial status, veteran status, genetic information, religion or belief (or lack thereof), membership of a national minority, property, age, education, socio-economic status, technical choices, and experience level.
 
-Todos os que participam das atividades do projeto Turing Way devem estar de acordo com este Código de Conduta. Este código de conduta aplica-se a todos os espaços gerenciados pelo projeto Caminho de Turing, incluindo, mas não se limitado a, em pessoa grupos e workshops, e comunicações on-line via GitHub. Ao participar, os colaboradores indicam a sua aceitação dos procedimentos pelos quais a equipe central do projeto Turing Way resolve qualquer incidente de Código de Conduta, que pode incluir armazenamento e processamento de suas informações pessoais.
+Everyone who participates in the Turing Way project activities is required to conform to this Code of Conduct. This Code of Conduct applies to all spaces managed by the Turing Way project including, but not limited to, in person focus groups and workshops, and communications online via GitHub. By participating, contributors indicate their acceptance of the procedures by which the Turing Way project core development team resolves any Code of Conduct incidents, which may include storage and processing of their personal information.
 
-## 2.1 Comportamento Esperado
+## 2.1 Expected Behaviour
 
-Estamos confiantes de que os membros da nossa comunidade construirão em conjunto uma atmosfera de apoio e colaboração em nossos eventos e durante comunicações on-line. Os seguintes pontos de marcadores especificam explicitamente o que esperamos que você considere ser diretrizes apropriadas pela comunidade:
+We are confident that our community members will together build a supportive and collaborative atmosphere at our events and during online communications. The following bullet points set out explicitly what we hope you will consider to be appropriate community guidelines:
 
-* **Respeite os diferentes pontos de vista e experiências**. Não se envolvam em comportamentos homófobos, racistas, transfóbicos de idade, simpáticos, sexistas ou de exclusão.
-* **Usar linguagem inclusiva e bem-vinda**. Comentários exclusivos ou piadas, ameaças ou linguagem violenta não são aceitáveis. Não abordem os outros de uma forma indigna, intimidatória ou humilhante. Cuidado com as formas que as palavras escolhidas podem afetar outras pessoas. Seja paciente e respeite o fato de que o inglês é um segundo (ou terceiro ou quarto!) idioma para alguns participantes.
-* **Não asseie as pessoas**. O assédio inclui contacto físico, atenção sexual ou repetidos contactos sociais. Saiba que o consentimento é explícito, consciente e contínuo—não implícito. Se você não tem certeza se seu comportamento para com outra pessoa é bem-vindo, pergunte-lhe. Se alguém te disser para parar, faça.
-* **Respeite a privacidade e a segurança dos outros**. Não tirem fotografias de outras pessoas sem a sua permissão. Não compartilhe experiências pessoais de outros participantes sem a permissão expressa. Note que postar (ou ameaçar publicar) informações pessoais identificando informações de terceiros sem seu consentimento ("doxing") é uma forma de assédio.
-* **Cuidado com a participação dos outros**. Todos deveriam ter a oportunidade de ser ouvidos. Nas sessões atualizadas, por favor mantenha os comentários sucintos para permitir o máximo de envolvimento de todos os participantes. Não interrompam outros com base em desacordo; façam comentários deste tipo até terminarem de falar.
-* **Não seja um espectador**. Se vires algo inapropriado, fale com franqueza. Se você não se sente confortável a intervir, mas sente alguém aqui, por favor, não hesite em pedir apoio a um membro da equipe de resposta do Código de Conduta.
-* Como uma regra geral, por favor **seja intencional em suas ações e humilde em seus erros**.
+* **Be respectful of different viewpoints and experiences**. Do not engage in homophobic, racist, transphobic, ageist, ableist, sexist, or otherwise exclusionary behaviour.
+* **Use welcoming and inclusive language**. Exclusionary comments or jokes, threats or violent language are not acceptable. Do not address others in an angry, intimidating, or demeaning manner. Be considerate of the ways the words you choose may impact others. Be patient and respectful of the fact that English is a second (or third or fourth!) language for some participants.
+* **Do not harass people**. Harassment includes unwanted physical contact, sexual attention, or repeated social contact. Know that consent is explicit, conscious and continuous—not implied. If you are unsure whether your behaviour towards another person is welcome, ask them. If someone tells you to stop, do so.
+* **Respect the privacy and safety of others**. Do not take photographs of others without their permission. Do not share other participant’s personal experiences without their express permission. Note that posting (or threatening to post) personally identifying information of others without their consent ("doxing") is a form of harassment.
+* **Be considerate of others’ participation**. Everyone should have an opportunity to be heard. In update sessions, please keep comments succinct so as to allow maximum engagement by all participants. Do not interrupt others on the basis of disagreement; hold such comments until they have finished speaking.
+* **Don’t be a bystander**. If you see something inappropriate happening, speak up. If you don't feel comfortable intervening but feel someone should, please feel free to ask a member of the Code of Conduct response team for support.
+* As an overriding general rule, please **be intentional in your actions and humble in your mistakes**.
 
-Todas as interações devem ser profissionais independentemente da plataforma: online ou presencial. Veja [esta explicação das quatro regras sociais](https://www.recurse.com/manual#sub-sec-social-rules) - sem surpresas falsas, sem boas na verdade, sem andar na retaguarda, sem sutil -ismos - para mais recomendações sobre comportamentos inclusivos.
+All interactions should be professional regardless of platform: either online or in-person. See [this explanation of the four social rules](https://www.recurse.com/manual#sub-sec-social-rules) - no feigning surprise, no well-actually's, no back-seat driving, no subtle -isms - for further recommendations for inclusive behaviours.
 
-## 2.2 Comportamento Inaceitável
+## 2.2 Unacceptable Behaviour
 
-Exemplos de comportamentos inaceitáveis por Turing Way Community members em qualquer evento ou plataforma incluem:
+Examples of unacceptable behaviour by Turing Way community members at any project event or platform include:
 
-* comentários escritos ou verbais que têm o efeito de excluir pessoas com base na filiação de qualquer grupo específico
-* fazendo com que alguém tenha medo da sua segurança, como perseguição, acompanhamento ou intimidação
-* ameaças violentas ou linguagem direcionada contra outra pessoa
-* a exibição de imagens sexuais ou violentas
-* atenção sexual indesejada
-* contato físico não consensual ou indesejado
-* disrupção prolongada de palestras, eventos ou comunicações
-* insultos ou largadas
-* sexista, racista, homofóbica, transfóbica, capaz ou piadas exclusionárias
-* swearing excessivo
-* incitamento à violência, suicídio ou auto-mutilante
-* continuar iniciando interação (incluindo fotografia ou gravação) com alguém depois de ser solicitado a parar
-* publicação de comunicação privada sem consentimento
+* written or verbal comments which have the effect of excluding people on the basis of membership of any specific group
+* causing someone to fear for their safety, such as through stalking, following, or intimidation
+* violent threats or language directed against another person
+* the display of sexual or violent images
+* unwelcome sexual attention
+* nonconsensual or unwelcome physical contact
+* sustained disruption of talks, events or communications
+* insults or put downs
+* sexist, racist, homophobic, transphobic, ableist, or exclusionary jokes
+* excessive swearing
+* incitement to violence, suicide, or self-harm
+* continuing to initiate interaction (including photography or recording) with someone after being asked to stop
+* publication of private communication without consent
 
-## 2.3 Consequências de Comportamento Inaceitável
+## 2.3 Consequences of Unacceptable Behaviour
 
-Espera-se que os participantes a quem é solicitado que impeçam qualquer comportamento inapropriado cumpram imediatamente. Isto se aplica a todos os eventos e plataformas da comunidade Turing Way, online ou pessoalmente. Se um participante se envolver em comportamento que viole este Código de Conduta, qualquer membro da equipe central de desenvolvimento pode avisar o delinquente, peça a eles que saiam do evento ou plataforma (sem reembolso), ou imponha quaisquer outras sanções apropriadas (consulte o [manual de aplicação](#4-enforcement-manual) para obter detalhes).
+Participants who are asked to stop any inappropriate behaviour are expected to comply immediately. This applies to all Turing Way community events and platforms, either online or in-person. If a participant engages in behaviour that violates this Code of Conduct, any member of the core development team may warn the offender, ask them to leave the event or platform (without refund), or impose any other appropriate sanctions (see the [enforcement manual](#4-enforcement-manual) for details).
 
-## Feedback da versão 2.4
+## 2.4 Feedback
 
-Este Código de Conduta não pretende ser um conjunto estático de regras pelo qual todos devem respeitar. Em vez disso, você é convidado a fazer sugestões para atualizações ou esclarecimentos entrando em contato com o Dr. Kirstie Whitaker no [kwhitaker@turing. c.uk](mailto:kwhitaker@turing.ac.uk) ou fazendo um pull request neste documento no GitHub.
+This Code of Conduct is not intended as a static set of rules by which everyone must abide. Rather, you are invited to make suggestions for updates or clarifications by contacting Dr Kirstie Whitaker at [kwhitaker@turing.ac.uk](mailto:kwhitaker@turing.ac.uk) or by making a pull request to this document on GitHub.
