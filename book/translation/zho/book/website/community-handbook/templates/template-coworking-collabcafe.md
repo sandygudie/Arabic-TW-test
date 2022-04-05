@@ -7,17 +7,17 @@
 
 Thank you for joining the _Turing Way_'s online Collaboration Cafe! We're delighted to have you here :coffee: :sparkles: :cake:
 
-*广告和促销您的活动，或任何激动您工作的东西。 * :sparkl：
+(*We do recommend bringing your actual tea, coffee, water or your favorite beverage to this cafe! :smile:*)
 
-**什么？ ** *美味的方法是一个 **轻微的可复制数据科学和研究指南**。 This collaboration cafe aims to engage with researchers interested in learning and sharing more about this topic in an **online book**: https://the-turing-way.netlify.com*
+**What?** *The Turing Way is a **lightly opinionated guide to reproducible data science and research**. This collaboration cafe aims to engage with researchers interested in learning and sharing more about this topic in an **online book**: https://the-turing-way.netlify.com*
 
 *Read more about it here: https://the-turing-way.netlify.app/community-handbook/coworking.html*
 
-**谁？ ** ***每个人** 有意复制、道德规范， 欢迎和包容性强的数据科学和研究加入Ting Way 项目的全部或任何部分，社区和/或这一呼叫。</p>
+**Who?** ***Everyone** interested in reproducible, ethical, and inclusive data science and research are welcome to join the full or any part of The Turing Way project, community, and/or this call.*
 
-**什么时候？ ** DD 月YYYYYYY, HH:MM BST (本地时间链接从 https://arewemeetingyet.com)
+**When?** DD Month YYYY, HH:MM BST (link for local time from https://arewemeetingyet.com)
 
-**如何？ ** *缩放链接将在通话开始10分钟前提供*
+**How?** *Zoom link will be provided 10 minutes before the call*
 
 ***All questions, comments and recommendations are welcome!***
 
@@ -42,7 +42,7 @@ https://cuckoo.team/collabcafe
 ### Sign up below
 *Name + <A fun Icebreaker> + an emoji to represent it ([emoji cheatsheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md))*
 
-*(请记住，这是一个公开文档。 ) 如果你喜欢的话，你可以使用一个假名。 )*
+*(Remember that this is a public document. You can use a pseudonym if you'd prefer.)*
 
 ### Conversation Starters
 
@@ -97,7 +97,7 @@ Topic for breakout / Names
 Here are a few suggestions for a good first contributions:
 
 - Fix a typo in [the book](https://the-turing-way.netlify.com) and/or [repository](https://github.com/alan-turing-institute/the-turing-way).
-- 在 GitHub</a> 上打开一个
+- Flag the unclear or duplicated information in the book by opening an [issue on the GitHub](https://github.com/alan-turing-institute/the-turing-way/issues).
 - Fix an [old issue](https://github.com/alan-turing-institute/the-turing-way/issues) or comment on the the [pull requests](https://github.com/alan-turing-institute/the-turing-way/pulls).
 - Write your personal experience of reproducible research in this [google form](https://goo.gl/forms/akFqZEIy2kxAjfZW2).
 - See more info on the GitHub: https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md
