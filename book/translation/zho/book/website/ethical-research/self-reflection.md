@@ -1,35 +1,35 @@
-(e-自我反省)=
-# 自我反省：
+(er-self-reflection)=
+# Self Reflection
 
-(e-自我反思的前提条件)=
-## 必备条件
+(er-self-reflection-prerequisites)=
+## Prerequisites
 
-本章没有先决条件。 然而，仍然存在着这种情况。 它建议您应该首先了解 {ref}`法律和人权<er-law-policy>` 上下文，如果您正在考虑一个道德的拨号模式。
+There are no prerequisites for this chapter. However, it's advised that you should be aware of the {ref}`legal and human rights<er-law-policy>` context first if you are considering an ethical dialemma.
 
 
-(e-自我反思摘要)=
+(er-self-reflection-summary)=
 ## Summary
 
-我们曾经有过的经历和特征使我们有一个特别的眼光看待世界，而这个眼光可以根据我们生活的地点来塑造。 我们的工作场所、我们所接受的教育或我们所形成的主导文化。 然而，这也会使我们以某种特定方式看到一种情况或问题。 或采取将某些人或群体排除在外的做法。 至于道德难题，我们的生活经历也塑造了我们 *个人道德*， 什么是我们对什么是正确或错误作出决定的方式。
+Our lived experiences and identities give us a particular lens to view the world through, which can be shaped by where we live, the places we work, the education we receive, or the dominant culture we were brought up in. However, this can also lead us to see a situation or problem in one particular way, or to take approaches that exclude certain people or groups. When it comes to ethical dilemmas, our lived experiences also shape our *personal ethics*, which are the way we make decisions about what is right or wrong.
 
-**自我反思** 是一种我们可以用来检查我们的个人假设、模式和行动的方法。 当我们更好地理解我们自己时， 我们可以问为什么我们以某种方式行事，并要求我们考虑新的观点或采取不同的行动。 这将有助于确保我们正在进行的研究是负责任的、包容性的、公平的和最终符合道德的！
+**Self-reflection** is a method we can use to examine our personal assumptions, patterns and actions. When we understand ourselves better, we can ask questions about why we do things in a certain way and challenge ourselves to consider new perspectives or to act differently. This can help to make sure the research we are conducting is responsible, inclusive, fair and ultimately ethical!
 
 ```{figure} ../figures/ethics-self-reflection.jpg
 ---
-名称：自我反射
-备选案文：一个妇女站在商店助理旁边的玻璃店里，她们正在拿着各种玻璃，试着试用。 她正在试图读一个标志来测试她的视野，上面有'性别'、'种族'、'年龄'、'阶级'、'教育'和'性'等字眼。 商店门口上的标志是“自我反思——进去看你自己”。 
+name: self reflection
+alt: A woman stands in a glasses shop next to the shop assistant who is holding a range of glasses for her to try. She is trying to read a sign to test her sight that has the words 'Gender', 'Race', 'Age', 'Class', 'Education' and 'Sexuality' on it. The sign on the door of the shop says 'Self Reflection - come in and see for yourself'. 
 ---
-自我反思。 Stereteria的绘画线路项目示例。 在 CC-BY 4.0 许可下使用。 DOI：[10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)。
+Self Reflection. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-(er-自我反思动机)=
-## 动机和背景
+(er-self-reflection-motivation)=
+## Motivation and Background
 
-作为数据科学家，我们可能并不总是把自己看作是拥有很多实力的人。 然而，我们正在不断创造改变许多人生活过程的工具和技术。 从这个意义上讲，我们有着 **大量的权力** 。 随之而来的是，我们有责任在我们的数据科学工作中努力实现公正和平等。
+As data scientists, we may not always see ourselves as people with much power. However, we are constantly creating tools and technologies that alter the course of many people's lives. In that sense, we have a **lot** of power, and with it comes responsibility for working towards justice and equality in our data science work.
 
-我们知道，我们必须意识到数据科学和大赦方面的公正性和偏向。 但我们所做的工具并不被动地继承这些特征――它们是通过我们作出的决定而纳入系统的。 意识到我们持有的那种偏见， 我们可以做更多的工作来挑战他们，创造能够帮助人们而不是伤害他们的数据科学技术。
+We know we must be aware of fairness and bias in data science and AI, but the tools we make do not passively inherit these features - they are built into systems by decisions we make. By being aware of the kinds of biases we hold, we can do more to challenge them and create data science technologies that help people rather than harming them.
 
-(er-自我反思影响)=
-## 影响
+(er-self-reflection-influences)=
+## Influences
 
-关于研究和数据科学自我思考的重要性的这一章借鉴了从理论和女权主义（纯黑女权主义）理论出发的著作。 最值得注意的是Patricia Hill Collins' 矩阵统治 {cite:ps}`collins1990黑色`, 金伯利利耶斯·克伦沙乌的交叉理论 {cite:ps}`crenshaw1989年去边缘化`除了其他外，Donna Haraway在那里的知识库 {cite:ps}`haraway1988年的位置`等等。 最近，Catherine D'Ignazio和Lauren Klein的书《数据女权主义》 {cite:ps}`dataFeminism202020`将这些想法带到数据科学中。 和研究人员如Abea Birhane {cite:ps}`birhane2021算法`和 Timnit Gebrun {cite:ps}`gebru2018数据表` 资源科提供了进一步资源的完整清单。 资源科提供了进一步资源的完整清单。 
+This chapter on the importance of self-reflection in research and data science draws on work from standpoint theory and feminist (particuarly Black feminist) theory, most notably Patricia Hill Collins' matrix of domination {cite:ps}`collins1990black`, Kimberlié Crenshaw's theory of intersectionality {cite:ps}`crenshaw1989demarginalizing`, and Donna Haraway's situated knowledges {cite:ps}`haraway1988situated`, amongst others. 最近，Catherine D'Ignazio和Lauren Klein的书《数据女权主义》 {cite:ps}`dataFeminism202020`将这些想法带到数据科学中。 和研究人员如Abea Birhane {cite:ps}`birhane2021算法`和 Timnit Gebrun {cite:ps}`gebru2018数据表` 资源科提供了进一步资源的完整清单。 A full list of further resources is provided in the Resources section. 
