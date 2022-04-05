@@ -77,7 +77,7 @@ Project Folder/
 ├── results                  <- analysis output     
 │   └── figures
 ├── .gitignore               <- files excluded from git version control 
-├── install. R                <- environment setup
+├── install.R                <- environment setup
 ├── CODE_OF_CONDUCT          <- Code of Conduct for community projects
 ├── CONTRIBUTING             <- Contribution guideline for collaborators
 ├── LICENSE                  <- software license
@@ -90,40 +90,41 @@ Project Folder/
 This example shows different files and directory a project can contain when building a software application or research engineering tools.
 
 ```
-Carpeta de Proyecto/                        
-Ningun análisis                 <- secuencias de comandos
-mañana: my_script. ► Compilación                    <- archivos construidos, Makefile
-| mañanotidiano debug
-| mañana: lanzamiento
-mañanos-datos
-mañana/raw/
-mañana-mi_data. sv
-→ Limpieza/
-tópica_limpia de datos. sv
-→ Documentos                     <- documentación
-✓ Codelist. xt 
-→ Gestión de proyectos       <- Documentos relacionados con la gestión de proyectos
-- Comunicación. d
-ochté.md
-oz. project-report.md
-ooz. tools. d
-✫ :/=$ res                      <- recursos estáticos (imágenes y archivos de audio)
-mañanas: figuras
-ful. itignore               <- archivos excluidos del control de la versión de git 
-✓ CODE_OF_CONDUCT          <- Código de Conducta para los proyectos de la comunidad
-aficiones             <CONTRIBUTING < - Guía de colaboración para los colaboradores
-lib de facto                      <- dependencias (componentes compartidos que pueden ser utilizados a través de una aplicación o a través de proyectos, código que soporta la aplicación básica)
-registros. xt                 <- historial de todas las actualizaciones importantes como versión de características, corrección de errores, Actualizaciones
-✓ ejemplo                  <- aplicación de código de ejemplo
-→ LICENSE                  <- licencia de software
-✓ ambiente. ml          <- configuración de entorno anaconda   
-☆ install. <- Configuración de entorno R
-Requisitos de 2020. xt         <- configuración de entorno de python
-(tiempo de ejecución). xt              <- R en la configuración de binder
-report. d                <- informe de análisis
-☆ README. d                <- información sobre el repo
-☆ src                      <- archivos fuente
-→ Prueba                     <- pruebas unitarias  
+Project Folder/                        
+├── analysis                 <- scripts
+│   └── my_script.R
+├── build                    <- built files, Makefile
+|   ├── debug
+|   └── release
+├── data
+│   └── raw/
+│       └── my_data.csv
+│   └── clean/
+│       └── data_clean.csv
+├── docs                     <- documentation
+│   └── codelist.txt 
+├── project-management       <- project management related documents
+│   └── communication.md
+│   └── people.md
+│   └── project-report.md
+│   └── tools.md
+├── res                      <- static resources (images and audio files)
+│   └── figures
+├── .gitignore               <- files excluded from git version control 
+├── CODE_OF_CONDUCT          <- Code of Conduct for community projects
+├── CONTRIBUTING             <- Contribution guideline for collaborators
+├── lib                      <- dependencies (shared components that can be used across an application or across projects, code that supports the core application)
+├── logs.txt                 <- history of all major updates like feature release, bug fix, updates
+├── example                  <- example code application
+├── LICENSE                  <- software license
+├── environment.yml          <- anaconda environment setup   
+├── install.R                <- R environment setup
+├── requirements.txt         <- python environment setup
+├── runtime.txt              <- R in binder setup
+├── report.md                <- report of analysis
+├── README.md                <- information about the repo
+├── src                      <- source files
+└── test                     <- unit tests  
 ```
 
 ## Resources
