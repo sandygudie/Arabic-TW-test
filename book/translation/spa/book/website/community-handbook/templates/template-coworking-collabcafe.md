@@ -5,17 +5,17 @@
 
 ## _The Turing Way_ online Collaboration Cafe | DATE MONTH YEAR
 
-¡Gracias por unirte a _Turing Way_en el Café de Colaboración en línea! We're delighted to have you here :coffee: :sparkles: :cake:
+Thank you for joining the _Turing Way_'s online Collaboration Cafe! We're delighted to have you here :coffee: :sparkles: :cake:
 
-(*¡Recomendamos traer tu té real, café, agua o tu bebida favorita a este café! :smile:*) :smile:</em>)
+(*We do recommend bringing your actual tea, coffee, water or your favorite beverage to this cafe! :smile:*)
 
-**What?** *The Turing Way is a **lightly opinionated guide to reproducible data science and research**. Este café de colaboración apunta a comprometerse con investigadores interesados en aprender y compartir más sobre este tema en un **libro en línea**: https://the-turing-way.</p>
+**What?** *The Turing Way is a **lightly opinionated guide to reproducible data science and research**. This collaboration cafe aims to engage with researchers interested in learning and sharing more about this topic in an **online book**: https://the-turing-way.netlify.com*
 
 *Read more about it here: https://the-turing-way.netlify.app/community-handbook/coworking.html*
 
 **Who?** ***Everyone** interested in reproducible, ethical, and inclusive data science and research are welcome to join the full or any part of The Turing Way project, community, and/or this call.*
 
-**¿Cuándo?** DD Mes AAAA, HH: MM BST (enlace para hora local desde https://arewemeetingyet.com)
+**When?** DD Month YYYY, HH:MM BST (link for local time from https://arewemeetingyet.com)
 
 **How?** *Zoom link will be provided 10 minutes before the call*
 
@@ -30,7 +30,7 @@
 * Contribution guidelines: https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md
 * Chat on Gitter: https://gitter.im/alan-turing-institute/the-turing-way
 * Join the mailing list: https://tinyletter.com/TuringWay
-* Can't join the collaboration cafe but want to work with us? ¿No puedes unirte al café de colaboración pero quieres trabajar con nosotros? Échale un vistazo a las llamadas de cooperación durante la semana: https://hackmd.io/@malvikasharan/TW-coworking
+* Can't join the collaboration cafe but want to work with us? Check out the co-working calls during the week: https://hackmd.io/@malvikasharan/TW-coworking
 
 ### Code of conduct
 
@@ -44,7 +44,7 @@ https://cuckoo.team/collabcafe
 
 *(Remember that this is a public document. You can use a pseudonym if you'd prefer.)*
 
-### Conversación de pieza"
+### Conversation Starters
 
 *Advertise and promote your event, or anything exciting you're working on.* ✨
 
