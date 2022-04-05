@@ -18,7 +18,7 @@ _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licen
 
 (communication-aa-summary)=
 ## Summary
-ويعرض هذا الفصل معلومات عن من يعتبر مؤلفاً وتقاليد المؤلفين الأكاديميين في تخصصات مختلفة. كيف تتغير الممارسات المتعلقة بالمؤلِّفين وكيف يمكن أن تمضي في محاولة تحقيق نموذج المؤلِّف الذي تريد استخدامه.
+This chapter sets out information about academic authorship traditions in different disciplines, which people are traditionally considered to be "authors", how practices concerning authorship are changing, and how you might go about trying to achieve the authorship model you want to use.
 
 (communication-aa-motivation)=
 ## Motivation and Background
