@@ -1,55 +1,55 @@
-(بآلاف دولارات الولايات المتحدة)
-# الموارد وقائمة المراجعة
+(rr-renv-resources)=
+# Resources and Checklist
 
 (rr-renv-resources-checklist)=
 ## Checklist
 
-- اختر الطريقة الأنسب لمشروعك لالتقاط البيئة الحسابية الخاصة بك
-- التقط بيئتك الحاسوبية
-- شارك بيئتك الحسابية المقبورة جنبا إلى جنب مع نتائج/تحليلك
+- Choose the most appropriate method for your project for capturing your computational environment
+- Capture your computational environment
+- Share your captured computational environment along with your results/analysis
 
 (rr-renv-resources-learn)=
-## ماذا نتعلم التالي
+## What to Learn Next
 
-نوصي بقراءة الفصل على {ref}`اختبار rr-test`، ثم الفصل على {ref}`rr-ci`. لاحظ أن الفصل الخاص بـ {ref}`rr-vcs` شرط أساسي للفصل الخاص بالتكامل المستمر. يحتوي الفصل {ref}`المفتوح` أيضًا على مزيد من المعلومات عن مشاركة البحث بشكل تجريبي.
+We recommend reading the chapter on {ref}`rr-testing`, and then the chapter on {ref}`rr-ci`. Note that the chapter on {ref}`rr-vcs` is a prerequisite for the chapter on continuous integration. The {ref}`rr-open` chapter also contains further information on sharing research reproducibly.
 
 (rr-renv-resources-reading)=
-## المزيد من القراءة
+## Further Reading
 
-تحتوي وثائق [Docker](https://docs.docker.com/get-started/) على الكثير من المعلومات عن الحاويات بشكل عام.
+The [Docker documentation](https://docs.docker.com/get-started/) contains a lot of information about containers in general.
 
 
-(rr-renv-resources-bliography)=
-## الببليوغرافيا
+(rr-renv-resources-bibliography)=
+## Bibliography
 
-- [الإصدار الدلالي](https://semver.org) **المشاع الإبداعي - CC BY 3.0**
+- [semantic versioning](https://semver.org) **Creative Commons - CC BY 3.0**
 
-- [أ. () Brinckman, et al., Computing Environments for reproducibility: Capturing the "Wull Tale", Future Generation Computer Systems (2018), https://doi. rg/10.1016/j.future.2017.12.029](https://www.sciencedirect.com/science/article/pii/S0167739X17310695) **إسناد 4.0 دولي (CC BY 4.0)**
+- [A. Brinckman, et al., Computing environments for reproducibility: Capturing the "Whole Tale", Future Generation Computer Systems (2018), https://doi.org/10.1016/j.future.2017.12.029](https://www.sciencedirect.com/science/article/pii/S0167739X17310695) **Attribution 4.0 International (CC BY 4.0)**
 
-- [ورقة تعرض التفرد](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0177459) **CC0 1.0 عام (CC0 1.0)**
+- [Paper presenting singularity](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0177459) **CC0 1.0 Universal (CC0 1.0)**
 
-- [ورقة تعرض التفرد](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0177459) **CC0 1.0 عام (CC0 1.0)**
+- [Paper presenting singularity](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0177459) **CC0 1.0 Universal (CC0 1.0)**
 
-- [مدراء الحزمة](https://opensource.com/article/18/7/evolution-package-managers) **Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**
+- [Package Managers](https://opensource.com/article/18/7/evolution-package-managers) **Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**
 
-- [تحدث من قبل واي فرنس على كوندا](https://github.com/willfurnass/conda-rses-pres/blob/master/content.md) **التناسب - غير تجاري-المساهمة مثل 4.0 دولية**
+- [Talk by Will Furnass on Conda](https://github.com/willfurnass/conda-rses-pres/blob/master/content.md) **Attribution-NonCommercial-ShareAlike 4.0 International**
 
-- [دروس YAML](https://gettaurus.org/docs/YAMLTutorial/) **[Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0)**
+- [YAML tutorial](https://gettaurus.org/docs/YAMLTutorial/) **[Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0)**
 
-- [التوضيح Binder](https://opendreamkit.org/2017/11/02/use-case-publishing-reproducible-notebooks/) **الإذن للاستخدام الممنوح من جولييت تاكا ولوغلاب ومشروع OpenDreamKit**
+- [Binder illustration](https://opendreamkit.org/2017/11/02/use-case-publishing-reproducible-notebooks/) **Permission to use granted by Juliette Taka, Logilab and the OpenDreamKit project.**
 
-- [mybinder docs fo](https://github.com/jupyterhub/binder/blob/master/doc/introduction.rst) **[BSD 3-Clause](https://github.com/binder-examples/requirements/blob/master/LICENSE)**
+- [mybinder docs intro](https://github.com/jupyterhub/binder/blob/master/doc/introduction.rst) **[BSD 3-Clause](https://github.com/binder-examples/requirements/blob/master/LICENSE)**
 
-- [صفر إلى Binder - البرنامج التعليمي الرسمي](https://github.com/Build-a-binder/build-a-binder.github.io/blob/master/workshop/10-zero-to-binder.md) **[BSD 3-Clause](https://github.com/binder-examples/requirements/blob/master/LICENSE)**
+- [Zero to Binder - official tutorial](https://github.com/Build-a-binder/build-a-binder.github.io/blob/master/workshop/10-zero-to-binder.md) **[BSD 3-Clause](https://github.com/binder-examples/requirements/blob/master/LICENSE)**
 
-- [صفر إلى بايندر - النسخة المعدلة](https://github.com/alan-turing-institute/the-turing-way/blob/main/workshops/boost-research-reproducibility-binder/workshop-presentations/zero-to-binder.md) **MIT**
+- [Zero to Binder - adapted version](https://github.com/alan-turing-institute/the-turing-way/blob/main/workshops/boost-research-reproducibility-binder/workshop-presentations/zero-to-binder.md) **MIT**
 
-- [صفر إلى Binder](https://github.com/Build-a-binder/build-a-binder.github.io/blob/master/workshop/10-zero-to-binder.md) **[BSD 3-Clause](https://github.com/binder-examples/requirements/blob/master/LICENSE)**
+- [Zero to Binder](https://github.com/Build-a-binder/build-a-binder.github.io/blob/master/workshop/10-zero-to-binder.md) **[BSD 3-Clause](https://github.com/binder-examples/requirements/blob/master/LICENSE)**
 
-- [مدونة براين براون ليتا](https://litablog.org/2014/12/virtual-machines-in-a-nutshell/) **[حقوق الطبع والنشر الممنوحة للاستخدام التعليمي](http://www.ala.org/copyright)**
-- [ما هو المرفأ؟](https://opensource.com/resources/what-docker) **CC BY-SA 4.0**
+- [Bryan Brown LITA blog](https://litablog.org/2014/12/virtual-machines-in-a-nutshell/) **[Copyright granted for educational use](http://www.ala.org/copyright)**
+- [What is docker?](https://opensource.com/resources/what-docker) **CC BY-SA 4.0**
 
-- [ما هي الحاويات؟](https://opensource.com/resources/what-are-linux-containers?intcmp=7016000000127cYAAQ) **CC BY-SA 4.0**
-- [نجار دوبر](http://www.manicstreetpreacher.co.uk/docker-carpentry/aio/) **إسناد المشاع الإبداعي 4.0**
-- [درس Geohackweek](https://geohackweek.github.io/Introductory/docker-tutorial_temp/) **إسناد المشاع الإبداعي 3.0 لم يتم ترحيله**
-- [Nu<unk> st, D., Sochat, V., Marwick, B., Eglen, S., Head, T., Hirst, T., & Evans, B. (2020, November 10). 10 قواعد بسيطة لكتابة ملفات Dockerfiles لـ reducible data Science, https://doi.org/10.1371/journal.pcbi.1008316 ](https://github.com/nuest/ten-simple-rules-dockerfiles) **Creative Commons Attribution 4.0 International**
+- [What are containers?](https://opensource.com/resources/what-are-linux-containers?intcmp=7016000000127cYAAQ) **CC BY-SA 4.0**
+- [Docker carpentry](http://www.manicstreetpreacher.co.uk/docker-carpentry/aio/) **Creative Commons Attribution 4.0**
+- [Geohackweek tutorial](https://geohackweek.github.io/Introductory/docker-tutorial_temp/) **Creative Commons Attribution 3.0 Unported**
+- [Nüst, D., Sochat, V., Marwick, B., Eglen, S., Head, T., Hirst, T., & Evans, B. (2020, November 10). 10 قواعد بسيطة لكتابة ملفات Dockerfiles لـ reducible data Science, https://doi.org/10.1371/journal.pcbi.1008316 ](https://github.com/nuest/ten-simple-rules-dockerfiles) **Creative Commons Attribution 4.0 International**
