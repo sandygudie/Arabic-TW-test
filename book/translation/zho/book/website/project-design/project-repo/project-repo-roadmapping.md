@@ -18,7 +18,7 @@ A roadmap can be described in the landing page or README file to describe the fo
 
 1. Project summary to provide an overview and the current status of your project.
 2. Onboarding information describing how others can get involved and what immediate tasks they can do.
-3. 包含您项目的短期和长期目标的时间线描述需要完成的任务。 For example, if a new release of the project will be made or an event will be hosted.
+3. Timeline with both short-term and long-term goals for your project describing tasks that need to be done, what contributors are working on and where it is going to happen next. For example, if a new release of the project will be made or an event will be hosted.
 
 For details, please see [this presentation](https://docs.google.com/presentation/d/e/2PACX-1vSMCLWnN1_lO4ofD9cCjN9TJxyHYIvBFfgarOlwi95G4JJ5m672v-sYFbvfRyHPag83XviEJBrIecga/pub?start=false&loop=false&delayms=3000) by the [Open Life Science](https://openlifesci.org/) training and mentoring program.
 
