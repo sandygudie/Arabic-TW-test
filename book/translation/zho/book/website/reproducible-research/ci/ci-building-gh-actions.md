@@ -28,7 +28,7 @@ name:
 
 **2. on**
 
-字段上的 `告诉GHA 何时运行。 例如，我们可以随时在 <code>推送` 或 `拉` 在 `主` 分支上运行工作流。
+The `on` field tells GHA when to run. For example, we can run the workflow anytime there's a `push` or a `pull` on the `main` branch.
 ```
 on:
   push:
@@ -38,7 +38,7 @@ on:
 ```
 There are many events which can be used to trigger a workflow. You can explore them [here](https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-syntax-for-github-actions).
 
-**3. 3. 任务和步骤**
+**3. jobs and steps**
 
 This block defines the core component of an Action workflow. Workflows are made of `jobs`. Every job also needs a specific host machine on which to run, the `runs-on:` field is how we specify it. The template workflow is running the `build` job in the latest version of Ubuntu, a Linux-based operating system.
 
@@ -71,4 +71,4 @@ jobs:
 
 The most basic action is `actions/checkout@v2`. This uses a GitHub provided action called [`checkout`](https://github.com/actions/checkout) to allow the workflow to access the contents of the repository. All the steps of a job run sequentially on the runner associated with the job. By default, if a step fails, the subsequent steps of the job are skipped. Each run keyword represents a new process and shell in the runner environment. When you provide multi-line commands, each line runs in the same shell.
 
-我们促请您在上一节中研究 [官方参考文档](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions) 和/或CI 配置开源项目引用。
+Providing a comprehensive guide of all the available options is beyond the scope of this overview, and instead, we would urge you to study [official reference documentation](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions) and/or the CI configuration open-source projects references in the previous section.
