@@ -1,5 +1,5 @@
 (binder)=
-# Binda
+# Binder
 
 En este capítulo, discutiremos Project Binder y mybinder.org como un medio para compartir la investigación de manera transparente e interactiva.
 
@@ -58,14 +58,14 @@ Crédito de la Figura: [Juliette Taka, Logilab y el proyecto OpenDreamKit](https
 Puede obtener más información sobre Project Binder y mybinder.org en su página [Acerca de mybinder.org](https://mybinder.readthedocs.io/en/latest/about/about.html).
 
 (binder-disam)=
-### Disambiguación
+### Disambiguation
 
-En esta sección hay algunos términos relacionados, que se esbozarán aquí para mayor claridad:
+In this section, there are some related terms, which will be outlined here for clarity:
 
 - **Project Binder**: Una comunidad abierta que permite crear entornos compartibles, interactivos y reproducibles. La salida tecnológica de este proyecto es un {ref}`rr-binderhub`.
-- **BinderHub**: Una infraestructura basada en la nube para generar Binders. El más utilizado es [mybinder.org](https://mybinder.org), que es mantenido por el equipo de Project Binder. Está construido sobre un rango de herramientas de código abierto, incluyendo [JupyterHub](https://z2jh.jupyter.org), para proporcionar recursos de computación en la nube a los usuarios a través de un navegador; y [`repo2docker`](https://repo2docker.readthedocs.io/), para construir imágenes docker a partir de proyectos. Dado que es un proyecto abierto, es posible crear otros BinderHubs que puedan soportar configuraciones más especializadas. Una de esas configuraciones podría incluir autenticación para permitir que los repositorios privados sean compartidos entre colaboradores cercanos.
+- **BinderHub**: Una infraestructura basada en la nube para generar Binders. El más utilizado es [mybinder.org](https://mybinder.org), que es mantenido por el equipo de Project Binder. Está construido sobre un rango de herramientas de código abierto, incluyendo [JupyterHub](https://z2jh.jupyter.org), para proporcionar recursos de computación en la nube a los usuarios a través de un navegador; y [`repo2docker`](https://repo2docker.readthedocs.io/), para construir imágenes docker a partir de proyectos. Dado que es un proyecto abierto, es posible crear otros BinderHubs que puedan soportar configuraciones más especializadas. One such configuration could include authentication to enable private repositories to be shared amongst close collaborators.
 - **A Binder**: Una versión compartible de un proyecto que puede ser visto e interactuado dentro de un entorno computacional reproducible corriendo en la nube a través de un navegador web. Al automatizar la instalación del entorno de computación (como se explica en el capítulo {ref}`rr-renv` ), Project Binder transforma la sobrecarga de compartir dicho entorno en el acto de compartir una URL.
-- **[mybinder.org](https://mybinder.org)**: Un BinderHub público y gratuito. Debido a que es público, no debes usarlo si tu proyecto requiere información personal o confidencial (como contraseñas).
+- **[mybinder.org](https://mybinder.org)**: A public and free BinderHub. Because it is public, you should not use it if your project requires any personal or sensitive information (such as passwords).
 - **Binderize**: El proceso de hacer un Binder a partir de un proyecto.
 
 (binder-apropiado)=
