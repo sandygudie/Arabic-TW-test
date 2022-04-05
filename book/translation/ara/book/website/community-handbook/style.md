@@ -1,95 +1,95 @@
-(النمط الجامع)=
+(ch-style)=
 # Style Guide
 
-للتأكد من أنه يمكن للجميع قراءة الكتاب بسهولة، بما في ذلك قراء الشاشة وغير الناطقين بالإنكليزية من غير الناطقين بالإنكليزية، وقد جمعنا مجموعة من المبادئ التوجيهية للحفاظ على أسلوب متسق في جميع فصول الكتاب.
+To ensure that the book can be read easily by everyone, including screen readers and non-native English speakers, we have compiled a set of guidelines to keep a consistent style across all chapters of the book.
 
-نحن نتبع إرشادات [GOV.UK](https://www.gov.uk/guidance/content-design/writing-for-gov-uk) لتحسين إمكانية الوصول إلى الموارد في _طريق التوريد_.
+We follow the [GOV.UK guidance](https://www.gov.uk/guidance/content-design/writing-for-gov-uk) to improve accessibility of the resources in _The Turing Way_.
 
-## كتابة كل جملة في سطر جديد (استراحة سطر)
+## Write each sentence in a new line (line breaks)
 
-الرجاء كتابة جميع الجمل في ملف markdown على خطوط منفصلة. ووجود كل جملة على سطر جديد لن يحدث أي فرق في كيفية عرض النص، وهناك فقرات ستظل موجودة، ولكن ذلك يعني أنه سيكون من الأسهل التحقق من أي طلبات للسحب؛ وستكون التغييرات على خط واحد بدلا من أن تكون في مكان ما في فقرة. ضع في الاعتبار المثال أدناه.
+Please write all sentences in the markdown file on separate lines. Having each sentence on a new line will make no difference to how the text is displayed, there will still be paragraphs, but it will mean that any pull requests will be easier to check; the changes will be on a single line instead of somewhere in a paragraph. Consider the example below.
 
  ```markdown
-واليوم أنتم أنتم، هذا أكثر صحة من الحقيقة. لا يوجد أحد أحياء أصغر منك. - Dr Seuss
+Today you are you, that is truer than true. There is no one alive who is youer than you. - Dr Seuss
 ```
 
-طلب سحب على هذا التصحيح للحصول على '.' بعد دكتور سيظهر كتغيير على الفقرة بأكملها. قارن هذا مع المثال التالي الذي سيتم عرضه عبر الإنترنت بنفس الطريقة، ولكن سيرى تغييرا إلى سطر واحد.
+A pull request on this correcting it to have a ‘.’ after Dr would show as a change to the whole paragraph. Contrast this with the next example which will be displayed online in the exact same way, but would see a change to a single line.
 
  ```markdown
-واليوم أنتم أنتم، هذا أكثر صحة من الحقيقة.
-لا يوجد أحد أحياء أصغر منك.
+Today you are you, that is truer than true.
+There is no one alive who is youer than you.
 - Dr Seuss
 ```
 
-## الآراء موضع ترحيب، لكن...
+## Opinions are welcome, but ...
 
-_كتاب طريق الترينج_ يقصد به أن يكون *فقط رأيا خفيفا* فقط. وفي حين يسمح بمزيد من الآراء بشأن المحتوى، فإنه ينبغي وضع علامات واضحة على هذا المحتوى. أفضل طريقة للقيام بذلك هي عن طريق عرضها في صندوق اقتباس. يمكن القيام بذلك عن طريق تثبيت بادئة كل سطر برمز أكبر `>`. لاحظ أنه سيتم الإبقاء على التنسيق، حتى نتمكن من تقسيم كل جملة إلى سطر جديد على النحو الموصى به من قبل.
+_The Turing Way_ book is intended to be only *lightly* opinionated. Whilst more opinionated content is allowed, such content should be clearly marked. The best way to do this is by displaying it in a quote box. This can be done by either prefixing every line with the greater than symbol `>`. Note, that the formatting will be retained, so we can split each sentence to a new line as recommended before.
 
 ```markdown
-> أنا لن أأكلهم في منزل،
-> i لن أأكلهم بالماوس،
-> i لن يأكلها في مربع i لن يأكلها بثعب،
-> i لن يأكلهم هنا من هناك لن أكلهم في أي مكان،
-> أنا لا أحب البيض الأخضر ولا أحب لحم أنا
+> I will not eat them in a house,
+> i will not eat them with a mouse,
+> i will not eat them in a box i will not eat them with a fox,
+> i will not eat them here of there i will not eat them anywhere,
+> I do not like green eggs and ham i do not like them sam i am
 ```
 
-## تجنب الاختصار اللاتيني
+## Avoid Latin Abbreviation
 
-يرجى عدم استخدام المختصرات اللاتينية. راجع [توصيات Gov.uk](https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style) للحصول على التفاصيل.
+Please do not use Latin abbreviations. See the [Gov.uk recommendations](https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style) for details.
 
-وفيما يلي بعض هذه المختصرات:
+Some of these abbreviations are:
 
 ```{figure} ../figures/latin-abbreviation.png
 ---
-الطول: 400px
-الاسم: الاختصار اللاتيني
-البديل : صورة مع قائمة من 3 اختصارات لاتينية
+height: 400px
+name: latin-abbreviation
+alt: an image with a list of 3 latin abbreviations
 ---
-قائمة باختصارات لاتينية لـ *إكثوبلي* (على سبيل المثال)، * et-cetera* (هكذا) و *id est* (هكذا).
-لقطة لجزء من [قائمة الاختصارات اللاتينية المشتركة لنمط APA](https://blog.apastyle.org/files/apa-latin-abbreations-table-2.pdf).
+A list of latin abbreviations for *exempli gratia* (for example), *et-cetera* (so on), and *id est* (that is).
+Screenshot of part of the [list of Common Latin Abbreviations for APA Style](https://blog.apastyle.org/files/apa-latin-abbreviations-table-2.pdf).
 ```
 
-بدلاً من أول اختصار في الطاولة ل *إكسبلي هبة*، الذي يمكن أن يقرأ بصوت عال كـ "البيض" من خلال برنامج قراءة الشاشة، من فضلك استخدم "على سبيل المثال" أو "كذلك" أو "شبه" أو "بما في ذلك" - أيهما يعمل بشكل أفضل في السياق المحدد.
+Instead of the first abbreviation in the table for *exempli gratia*, which can sometimes read aloud as ‘egg’ by screen reading software, please use ‘for example’ or ‘such as’ or ‘like’ or ‘including’ - whichever works best in the specific context.
 
-بدلاً من الاختصار الثاني في الجدول ل *et-cetera* للإشارة إلى القائمة المفتوحة النهائية، الرجاء بدء القائمة بكلمات مثل "على سبيل المثال" أو "شبيه" أو "بما في ذلك".
+Instead of the second abbreviation in the table for *et-cetera* to indicate open ended list, please start the list with words like ‘for example’ or ‘such as’ or ‘like’ or ‘including’.
 
-بدلا من الاختصار الثالث في الجدول لـ *id est* الذي غالبا ما يستخدم لتوضيح الجملة، حاول (إعادة كتابة) الجمل لتجنب الحاجة إلى استخدامها. إذا لم يكن ذلك ممكناً، استخدم بديلاً مثل "المعنى" أو "هذا".
+Instead of third abbreviation in the table for *id est* that is often used to clarify a sentence, try (re)writing sentences to avoid the need to use it. If that is not possible, use an alternative such as ‘meaning’ or ‘that is’.
 
-أي فصل يحتوي على اختصار لاتيني سوف يفشل الدمج المستمر (CI) لتدفق العمل في _طريق التدوين_ مستودع GitHub من المرور بنجاح، والذي تم اختباره بواسطة [نص بايثون](https://github.com/alan-turing-institute/the-turing-way/blob/main/tests/no-bad-latin.py).
+Any chapter containing a Latin abbreviation will fail the continuous integration (CI) workflow of the _The Turing Way_ GitHub repository from passing successfully, which is tested by this [Python script](https://github.com/alan-turing-institute/the-turing-way/blob/main/tests/no-bad-latin.py).
 
-*لتجنب فشل CI، وحتى في هذا الفصل، تجنبنا كتابة تلك المختصرات واستخدمنا بدلا من ذلك صورة لتوضيح الأمثلة المذكورة أعلاه.*
+*To avoid CI from failing, even in this chapter we have avoided to write those abbreviations and instead used an image to illustrate the above examples.*
 
-## نصائح
+## Tips
 
-### النزول
+### Indentation
 
-استنباط المحتوى بعد كل عنصر من عناصر قائمة مرقمة. إذا كان المحتوى غير محدد، سيتم إعادة تعيين ترقيم القائمة.
+Indent the content following each item of a numbered list. If the content is unindented, the list numbering will be reset.
 
-وعلى سبيل المثال، يرجى تجنب ما يلي:
-1. عنصر القائمة الأولى
+For instance, please avoid:
+1. First list item
 ```markdown
-هذا المحتوى ينتمي إلى عنصر القائمة الأول.
+This content belongs to the first list item.
 ```
-2. عنصر القائمة الثانية
+2. Second list item
 
-وبدلا من ذلك، يوصى بما يلي:
-1. عنصر القائمة الأولى
+Instead, the following is recommended:
+1. First list item
    ```markdown
-   هذا المحتوى ينتمي إلى عنصر القائمة الأول.
+   This content belongs to the first list item.
    ```
 
-2. عنصر القائمة الثانية
+2. Second list item
 
 
-### الروابط الخارجية
+### External links
 
-كتابة روابط خارجية باستخدام "http://" بدلاً من "www". وهذا يكفل الاعتراف بها على الوجه الصحيح كوصلات مباشرة.
+Write external links using "http://" instead of "www". This ensures they are correctly recognised as hyperlinks.
 
-### القطع مع كود أو نص خاص
+### Chunks with code or special text
 
-يمكنك التأكد من أن أي قطعة من التعليمات البرمجية (أو Markdown) لديك في الدليل يتم تسليط الضوء على بناء الجملة البرمجية من خلال ذكر اللغة المعنية. على سبيل المثال، إذا كنت ترغب في الحصول على رمز R، عند فتح القطعة مع ثلاث خلفيات يمكنك إضافة اسم اللغة مباشرة بعد ذلك (<code>\`\`\`</code> تصبح <code>\`\`\`</code>).
+You can ensure that any code (or Markdown) chunks you have in the guide have the code syntax highlighted by mentioning the language in question. As an example, if you want to have some R code, when you open the chunk with three backticks you can add the language name immediately after it (<code>\`\`\`</code> becomes <code>\`\`\`R</code>).
 
-مصدر Markdown:
+Markdown source:
 
 ```
     ```R
@@ -97,7 +97,7 @@ _كتاب طريق الترينج_ يقصد به أن يكون *فقط رأيا 
     ```
 ```
 
-إخراج HTML:
+HTML output:
 
 ```R
 x <- c(1:21)
