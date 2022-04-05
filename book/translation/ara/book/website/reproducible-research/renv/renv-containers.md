@@ -4,14 +4,14 @@
 (rr-renv-containers-why)=
 ## Why Containers?
 
-Even for moderately complex projects, the size of the software dependency stack can be huge. Take a simple pipeline to build a pdf report for an analysis scripted in R using `Rmarkdown`, for example. لجعل هذا قابل للتأثر، لا يقتصر الأمر على ما يلي: `1` ضرورة تركيب حزم إعادة التدوير ذات الصلة، و`2` ضرورة أن تكون صيغة إعادة التدوير هي نفسها، ولكن أيضا '3`إصدارات`Pandoc`و`LaTeX` يجب أن تكون نفس الإصدارات أثناء التشغيل.
+Even for moderately complex projects, the size of the software dependency stack can be huge. Take a simple pipeline to build a pdf report for an analysis scripted in R using `Rmarkdown`, for example. To make this reproducible, not only do (i) the respective R packages need to be installed and (ii) the R version needs to be the same, but also (iii) the versions of `pandoc` and `LaTeX` need to be the same as during runtime.
 
 Instead of trying to resolve these dependencies via a package manager (such as conda) -  which also depends on all required software being available in a single package manager - it might be easier to create a snapshot of the entire computing environment including all dependencies. These computing environments are then self-contained, hence the name 'containers'.
 
 (rr-renv-containers-what)=
 ## What are Containers?
 
-Containers allow a researcher to package up a project with all of the parts it needs - such as libraries, dependencies, and system settings - and ship it all out as one package. Anyone can then open up a container and work within it, viewing and interacting with the project as if the machine they are accessing it from is identical to the machine specified in the container - regardless of what their computational environment _actually_ is. تم تصميمها لجعلها أسهل نقل المشاريع بين بيئات مختلفة جدا.
+Containers allow a researcher to package up a project with all of the parts it needs - such as libraries, dependencies, and system settings - and ship it all out as one package. Anyone can then open up a container and work within it, viewing and interacting with the project as if the machine they are accessing it from is identical to the machine specified in the container - regardless of what their computational environment _actually_ is. They are designed to make it easier to transfer projects between very different environments.
 
 In a way, containers behave like a virtual machine. To the outside world, they look like their own complete system. However, unlike a virtual machine, rather than creating a whole virtual operating system plus all the software and tools typically packaged with one, containers only contain the individual components they need in order to operate the project they contain. This gives a significant performance boost and reduces the size of the application.
 
@@ -35,11 +35,11 @@ So if a researcher wants to allow others to reproduce their work, they would nee
 (rr-renv-containers-docker)=
 ## What is Docker?
 
-There are many tools available for creating and working with containers. We will focus on Docker, which is widely used, but be aware that others such as Singularity also exist. يفضل التفرد في بعض الأحيان لاستخدامه في نظم الحوسبة عالية الأداء لأنه لا يحتاج إلى أذونات `sudo` ليتم تشغيلها، في حين يفعل Docker.
+There are many tools available for creating and working with containers. We will focus on Docker, which is widely used, but be aware that others such as Singularity also exist. Singularity is sometimes preferred for use on high-performance computing systems as it does not need `sudo` permissions to be run, while up until April 2020 Docker did (please see the {ref}`rr-renv-containers-rootless` section).
 
 In Docker, the recipe files used to generate images are known as Dockerfiles, and should be named `Dockerfile`.
 
-[Docker Hub](https://hub.docker.com/) يستضيف العديد من الصور المصنوعة مسبقاً، مثل [صور](https://hub.docker.com/_/ubuntu) لماكينات أوبونتو، التي يمكن تنزيلها والبناء عليها. This makes the process of writing Dockerfiles relatively easy since users very rarely need to start from scratch, they can just customise existing images. However, this leaves a user vulnerable to similar security issues as described in the {ref}`rr-renv-yaml-security` of the {ref}`rr-renv-yaml` sub-chapter:
+[Docker Hub](https://hub.docker.com/) hosts a great many pre-made images, such as [images](https://hub.docker.com/_/ubuntu) of Ubuntu machines, which can be downloaded and build upon. This makes the process of writing Dockerfiles relatively easy since users very rarely need to start from scratch, they can just customise existing images. However, this leaves a user vulnerable to similar security issues as described in the {ref}`rr-renv-yaml-security` of the {ref}`rr-renv-yaml` sub-chapter:
 
 - It is possible to include malicious code in Docker images
 - It is possible for people producing images to unknowingly include software in them with security vulnerabilities
@@ -138,7 +138,7 @@ This looks complicated, but most of the lines in this example are comments (whic
 
 It is worth spending time to choose an appropriate base image, as doing so can reduce the amount of work involved in writing a Dockerfile dramatically. For example, a collection of images with the R programming language included in them can be found [here](https://github.com/rocker-org/rocker-versioned). If a project makes use of R, it is convenient to use one of these as a base image rather than spend time writing commands in your Dockerfile to install R.
 
-The biggest block of lines comes next. It's a series of `RUN` statements, which run shell commands when building the image. In this block, they are used to install the software necessary to run the project. كتلة `RUN` الأولى هي سلسلة أوامر من هذا النموذج:
+The biggest block of lines comes next. It's a series of `RUN` statements, which run shell commands when building the image. In this block, they are used to install the software necessary to run the project. The first `RUN` block is a chain of commands of this form:
 
 ```
 RUN command_to_do_thing_1 \
@@ -147,11 +147,11 @@ RUN command_to_do_thing_1 \
    && command_to_do_thing_4
 ```
 
-من الممارسات الجيدة تجميع الأوامر ذات الصلة في كتلة واحدة `RUN` لتقليل الحجم النهائي لصورك ب [لتجنب إنشاء طبقات غير ضرورية](https://docs.docker.com/develop/develop-images/#minimize-the-number-of-layers). نحن أيضا نتابع أفضل الممارسات باستخدام `--no-install-recommend` إلى [لتجنب تثبيت حزم غير ضرورية](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#dont-install-unnecessary-packages) و [لتنظيف ذاكرة التخزين المؤقت ``](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#run)، وكلاهما يقلل من حجم صور ديبا أو أوبونتو.
+It is good practice to group related commands into a single `RUN` block to reduce the final size of your image by [avoiding the creation of unnecessary layers](https://docs.docker.com/develop/develop-images/#minimize-the-number-of-layers). We also follow best-practice by using `--no-install-recommends` to [avoid installing unnecessary packages](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#dont-install-unnecessary-packages) and [cleaning up the `apt-cache`](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#run), both of which further reduce the size of Debian or Ubuntu images.
 
 After we have installed Python, we use another RUN statement to install a library required by our code.
 
-Finally the `COPY` command is used to copy the project files from the machine building the image into the image itself. The syntax of this command is `COPY file_to_copy location_in_container_to_copy_to`. في هذا المثال ، يتم تضمين جميع الملفات في دليل `project_files` في ملف المشروع `` في الحاوية. لاحظ أنه يمكنك فقط نسخ الملفات من الدليل حيث يوجد ملف Docker، أو الدلائل الفرعية داخلها (في المثال ، هذا هو `project_files` subdirectory).
+Finally the `COPY` command is used to copy the project files from the machine building the image into the image itself. The syntax of this command is `COPY file_to_copy location_in_container_to_copy_to`. In this example, all the files in the `project_files` directory are included in the `project` file in the container. Note that you can only copy files from the directory where the Dockerfile is located, or subdirectories within it (in the example, that is the `project_files` subdirectory).
 
 The `ADD` command has the same capabilities as `COPY`, but it can also be used to add files not on the machine building the image. For example it can be used to include files hosted online by following `ADD` with a URL to the file. It is good practice to use `COPY`, except where `ADD` is specifically required, as the term `COPY` is more explicit about what is being done.
 
@@ -196,7 +196,7 @@ alt: Screenshot of container generated using WORKDIR command
 
 Directories `B_1` and `B_2` have been created within directory `A`.
 
-`WORKDIR` should be used when changing directories is necessary while building an image. قد يكون من المغري استخدام `RUN cd directory_name` بدلاً من ذلك، لأن هذه الجملة ستكون أكثر إلماماً بتلك التي تعمل عادة عبر سطر الأوامر، ولكن هذا يمكن أن يؤدي إلى أخطاء. After each `RUN` statement in a Dockerfile, the image is saved, and any following commands are applied to the image anew. على سبيل المثال، هنا ما يحدث في المثال أعلاه إذا تم تبديل سطر `WORKDIR A` مقابل `RUN cd A`.
+`WORKDIR` should be used when changing directories is necessary while building an image. It may be tempting to use `RUN cd directory_name` instead, as this syntax will be more familiar to those that commonly work via the command line, but this can lead to errors. After each `RUN` statement in a Dockerfile, the image is saved, and any following commands are applied to the image anew. As an example, here is what happens in the above example if the `WORKDIR A` line is swapped for `RUN cd A`.
 
 ```{figure} ../../figures/cd-example.png
 ---
@@ -205,7 +205,7 @@ alt: A screenshot of what happens when the WORKDIR command is swapped with RUN c
 ---
 ```
 
-All the directories have are in the top level in this case, rather than `B_1` and `B_2` being inside `A`. هذا لأن الصورة تمت إعادة تشغيلها بعد أمر `RUN cd A` وفتحها في أعلى مستوى (الجذر) بشكل افتراضي، بحيث يكون هذا هو المكان الذي بدأ فيه نفاذ الأوامر `mkdir B_1` و `mkdir B_2`.
+All the directories have are in the top level in this case, rather than `B_1` and `B_2` being inside `A`. This is because the image was restarted after the `RUN cd A` command and opened at the top (root) level by default, so that is where the `mkdir B_1` and `mkdir B_2` commands took effect.
 
 (rr-renv-containers-dockerfiles-commands)=
 ### Other Commands
@@ -216,7 +216,7 @@ Other commands that are sometimes used in Dockerfiles include:
   ```
   CMD ["echo","Welcome! You just opened this container!"]
   ```
-  من الممارسات الجيدة استخدام CMD لأي أوامر تحتاج إلى تشغيلها قبل أن يبدأ شخص العمل في الحاوية بدلا من إجبار المستخدمين على تشغيلها بأنفسهم (والثقة بأنهم سيعلمون حتى أنهم بحاجة إليهم).
+  It is good practice to use CMD for any commands that need to be run before someone starts working in the container instead of forcing users to run them themselves (and trusting that they will even know that they need to).
 - `VOLUMES`: These will be discussed {ref}`later <rr-renv-containers-volumes>`.
 - `MAINTAINER`: This contains information regarding the person that wrote the Dockerfile. It is typically included at the top of a Dockerfile.
 - `EXPOSE`: This includes ports that should be exposed. It is more relevant to people using Docker to share web apps.
@@ -225,7 +225,7 @@ Other commands that are sometimes used in Dockerfiles include:
 (rr-renv-containers-dockerignore)=
 ## Building Images and `.dockerignore` Files
 
-كما ذكر في {ref}`أوامر المفاتيح <rr-renv-containers-commands>` القسم ، لبناء صورة فتح محطة طرفية في نفس الدليل كـ ملف Dockerfile الذي سيتم استخدامه وتشغيله:
+As mentioned in the {ref}`key commands <rr-renv-containers-commands>` section, to build an image open a terminal in the same directory as the Dockerfile to be used and run:
 
 ```
 sudo docker build --tag name_to_give_image .
@@ -325,76 +325,77 @@ Below is a list of volume related commands:
 
 If, when deleting a container, a `-v` is included after `rm` in `sudo docker rm container_ID`, any volumes associated with the container will also be deleted.
 
-(rr-renv-containers-singarity)=
-## التفرد
+(rr-renv-containers-rootless)=
+## Docker without root access
 
 Up until April 2020, the only way to run Docker was with root access. "Rootless" mode was made available as part of the [v20.10](https://docs.docker.com/engine/security/rootless/) release. Rootless mode is currently only avaliable on Linux and requires an initial install of Docker >= v20.10.
 
 The underyling difference between Docker without and with rootless mode is that perviously any system running Docker had a daemon running as `uid0` that creates and owns all images, but with rootless mode the user creates and owns any images that they initialize. To install and run the rootless version of Docker as a non-root user, use the following commands (where `20.10` refers to the installed version of Docker):
 
 ```
-قذيفة مفردة docker://ubuntu
+dockerd-rootless-setuptool.sh install
+docker run -d --name dind-rootless --privileged docker:20.10-dind-rootless
 ```
 
 The following prequisites, which are part of the [`shadow-utils`](https://github.com/shadow-maint/shadow) package are required to run Docker rootless: `newuidmap` and `newgidmap`.
 
-(rr-renv-buers-warning)=
-## كلمات التحذير
+(rr-renv-containers-singularity)=
+## Singularity
 
 
 > **Prerequisites**: At present, Singularity only runs on Linux systems (for example Ubuntu). If you use macOS, [Singularity Desktop for macOS](https://www.sylabs.io/singularity-desktop-macos/) is in "Beta" release stage.
 
-ومن العيوب الهامة لاستخدام Docker في البحوث القابلة للتكرار، أنه لا يقصد به أن يكون تطبيقا للفضاء بين المستخدمين، بل أن يكون أداة لمديري الخوادم. ومن هذا المنطلق، يتطلب الوصول الجذري إلى العمل. غير أنه لا يوجد سبب يدعو إلى أن يتطلب إجراء تحليل إمكانية وصول المستعملين إلى جذورها. وهذا مهم بشكل خاص عندما تجري الحسابات على مورد مشترك مثل نظم HPC حيث لن يكون للمستخدمين أي إمكانية للوصول إلى الجذر.
+Historically, a significant drawback of using Docker for reproducible research is that it was not intended as a user-space application but as a tool for server administrators. As such, it required root access to operate. There is, however, no reason why the execution of an analysis should require root access for the user. This is especially important when computations are conducted on a shared resource like HPC systems where users will never have root access.
 
-تم تقديم برنامج حاوية [وحدة](https://www.sylabs.io/) لمعالجة هذه المشكلة. تم إنشاء وحدة مع أنظمة HPC والبحوث القابلة لإعادة التدوين في الاعتبار (انظر \[this\](https://www.youtube.com/watch?v=DA87Ba2dpNM فيديو). لا يتطلب الوصول إلى الجذر لتشغيله (فقط لبناء حاوية _صور_! ومن ثم يمكن مستخدمي الحواسيب HPC من بناء صور للحاويات محليا قبل إجراء تحليلات لمجموعة عالية الأداء، على سبيل المثال. وكمنفعة إضافية، وهذا يجعل من الممكن استخدام أي برنامج حاسوبي تقريبا على نظام HPC دون الحاجة إلى إثراء الموظفين الإداريين بتثبيته.
+The [singularity](https://www.sylabs.io/) container software was introduced to address this issue. Singularity was created with HPC systems and reproducible research in mind (see \[this\](https://www.youtube.com/watch?v=DA87Ba2dpNM video). It does not require root access to run (only to build container _images_!), and thus enables HPC users to locally build container images before running analyses on a high-performance cluster, for example. As an added benefit, this makes it possible to use almost any software on an HPC system without having to bother admin staff with installing it.
 
-علاوة على ذلك، بما أن Docker هو __ نهج النقل بالحاويات الأكثر شهرة، فإن التفرد يهدف إلى الحفاظ على التوافق مع حاويات الرصيف. هذا يعني أنه يمكن استخدام الوحدة لتشغيل حاويات الأرصفة العادية (دون الحاجة إلى الوصول إلى الجذر!).
+Furthermore, since Docker is _the_ most well-known containerization approach, singularity aims at maintaining compatibility with docker containers. This means that singularity can be used to run normal docker containers (without requiring root access!).
 
-يمكن استخدام التفرد لتشغيل صور Docker أو توسيعها عن طريق بناء صور جديدة مبنية على حاويات الأرصفة كطبقة قاعدة. على سبيل المثال، يمكننا استخدام التفرد لإنشاء حاوية فانيليا أوبونتو مع قذيفة باستخدام صورة رصيف أوبونتو:
+Singularity can be used to run Docker images or extend them by building new images based on docker containers as a base layer. For instance, we could use singularity to create a vanilla ubuntu container with a shell using the ubuntu docker image:
 
 ```
-Bootstrap: docker
-من: ubuntu
-
-%post
-    apt-get -y تحديث
-    apt-get - y install ثروة البقر
-
-%en<unk> ment
-    تصدير LC_ALL=C
-    تصدير PATH=/usr/games:$PATH
-
-%runscript
-    fortune <unk> cowsay <unk> lolcat
+singularity shell docker://ubuntu
 ```
 
 > (type `exit` to leave the interactive shell again).
 
-تماما كما يتم بناء صور المرفأ باستخدام ملفات `Dockerfile` ، يتم بناء حاويات التفرد من ملفات تعريف الوحدة. العملية و الجملة مشابهة لملف المرفأ، ولكن هناك اختلافات دقيقة. كحد أدنى من الأمثلة على العمل، يمكننا بناء حاوية `Lolcow` استنادًا إلى صورة حاوية حاوية أوبونتو الرسمية. ضع ما يلي في ملف `lolcow.def` (استناداً إلى [مستندات التفرد](https://www.sylabs.io/guides/3.2/user-guide/build_a_container.html):
+Just as docker images are built using `Dockerfile` files, singularity containers are built from singularity definition files. The process and syntax are similar to docker files, but there are subtle differences. As a minimal working example, we can build a `lolcow` container based on the official ubuntu docker container image. Put the following in a `lolcow.def` file (based on the [Singularity documentation](https://www.sylabs.io/guides/3.2/user-guide/build_a_container.html)):
 ```
-قم ببناء الوحدة lolcow.simg lolcow.def
+Bootstrap: docker
+From: ubuntu
+
+%post
+    apt-get -y update
+    apt-get -y install fortune cowsay lolcat
+
+%environment
+    export LC_ALL=C
+    export PATH=/usr/games:$PATH
+
+%runscript
+    fortune | cowsay | lolcat
 ```
 
-هذه 'الوصفة' تستخدم صورة دفتر كأساس (`ubuntu`)، تثبيت بعض `حزم apt` ، وتعديل بعض متغيرات البيئة ، ويحدد البرنامج النصي `` (الذي يتم تنفيذه باستخدام `تشغيل الوحدة` الأمر). يمكن العثور على تفاصيل تنسيق ملف تعريف التفرد في [الوثائق الرسمية](https://www.sylabs.io/docs/).
+This 'recipe' uses a docker image as a basis (`ubuntu`), installs a few `apt` packages, modifies a few environment variables, and specifies the `runscript` (which is executed using the `singularity run` command). Details on the singularity definition file format can be found in the official [documentation](https://www.sylabs.io/docs/).
 
-(rr-renv-containers-singarity-storage)=
+A container image can then be built (requiring root!) via:
 
 ```
-وحدة تشغيل lolcow.simg
+sudo singularity build lolcow.simg lolcow.def
 ```
 
-سيؤدي هذا إلى سحب صورة أوبونتو من دوكيرهوب، قم بتشغيل خطوات الوصفة في ملف التعريف وانتاج ملف صورة مخرج واحد (`Lolcow. img`). أخيرا تم تنفيذ `runscript` كـ
+This will pull the ubuntu image from DockerHub, run the steps of the recipe in the definition file and produce a single output image file (`lolcow.simg`). Finally the `runscript` is executed as
 
 ```
 singularity run lolcow.simg
 ```
 
-من الناحية المثالية، يجب أن ترى بقرة لطيفة من طراز ASCII وبعض كلمات الحكمة:
+Ideally, you should see a nice ASCII cow and a few words of wisdom:
 
 ```
 ___________________________________
-/ سيتم دعوتك لمساعدة \
-\ صديق في مشكلة.                /
+/ You will be called upon to help a \
+\ friend in trouble.                /
 -----------------------------------
        \   ^__^
         \  (oo)\_______
@@ -403,19 +404,19 @@ ___________________________________
                ||     ||
 ```
 
-وبما أن الحاويات تتمشى مع HPC، فإن الحاويات الفريدة مدعومة أيضا بطائفة واسعة من أدوات إدارة سير العمل. على سبيل المثال، يدعم كل من [snakemake](https://snakemake.readthedocs.io/en/stable/) و [nextflow](https://www.nextflow.io/docs/latest/singularity.html) حاويات أحادية لوظيفة محددة. وهذا يجعل الحاويات الفريدة مناسبة بشكل فريد لتوازي تدفق العمل في نظم HPC باستخدام مدير عبء العمل في [الفقير](https://slurm.schedmd.com/documentation.html) المستخدم على نطاق واسع. فاستخدام التفرد والحاويات والتدفق اللاحق هو طريقة لتوسيع نطاق إمكانية التكرار إلى نطاق هائل. وعلاوة على ذلك، وكفائدة إضافية، لم يعد جلب تدفقات العمل من آلة حاسوبية مكتبية إلى نظام HPC يتطلب كتابة نصوص مخصصة لتقديم الوظائف.
+Being HPC compatible, singularity containers are also supported by a wide range of workflow management tools. For example, both [snakemake](https://snakemake.readthedocs.io/en/stable/) and [nextflow](https://www.nextflow.io/docs/latest/singularity.html) support job-specific singularity containers. This makes singularity containers uniquely suited for parallelizing workflows on HPC systems using the widely used [slurm](https://slurm.schedmd.com/documentation.html) workload manager. Using singularity, containers and snakemake/nextflow is a way of scaling reproducibility to a massive scale. Furthermore, as an added benefit, bringing workflows from a desktop machine to an HPC system no longer requires writing custom job submission scripts.
 
 (rr-renv-containers-singularity-storage)=
 ### Long-term Storage of Container Images
 
-ومن المهم الإشارة إلى أن مجرد ملف وصفة الحاويات لا يمكن تكراره في حد ذاته لأن عملية البناء تعتمد على مصادر مختلفة (متاحة على الإنترنت). ومن ثم فإن نفس ملف الوصفة قد يؤدي إلى صور مختلفة إذا تم تحديث المصادر الأساسية.
+It is important to note that a mere container recipe file is not reproducible in itself since the build process depends on various (online) sources. Thus, the same recipe file might lead to different images if the underlying sources were updated.
 
-لتحقيق إمكانية التكرار الحقيقية، من المهم تخزين الحاوية الفعلية _صور_. بالنسبة لصور التفرد، هذا أمر سهل بشكل خاص لأن الصورة هي ببساطة ملف كبير. ويمكن أن تختلف هذه الأشكال من حيث الحجم، من بضع عشرات من الحاويات الدقيقة إلى عدة غيغابايت، وبالتالي فهي غير مناسبة لتخزينها في مستودع git نفسه مجاناً، والحل الطويل الأجل لتخزين صور الحاويات هو [زينودو. rg](https://zenodo.org/) الذي يسمح بما يصل إلى 50 جيغابايت لكل مستودع. بما أن تعدين zenodo DOIs لجميع المحتويات التي تم تحميلها، فإن الصور يمكن الاستشهاد بها على الفور. Since zenodo mints DOIs for all content uploaded, the images are immediately citable. In contrast to [Docker Hub](https://hub.docker.com/) (which also only accepts docker images), zenodo is also clearly geared towards long-term storage and discoverability via a sophisticated metadata system. ومن ثم فهو مناسب بشكل مثالي لتخزين الحاويات العلمية المرتبطة بتحليلات معينة لأن هذه الحاويات لا تتغير بمرور الوقت.
+To achieve true reproducibility, it isimportant to store the actual container _images_. For singularity images, this is particularly easy since an image is simply a large file. These can vary in size, from a few tens of megabytes (micro-containers) to several gigabytes, and are therefore not suited for being stored in a git repository themselves A free, citable, and long-term solution to storing container images is [zenodo.org](https://zenodo.org/) which allows up to 50 Gb per repository. Since zenodo mints DOIs for all content uploaded, the images are immediately citable. In contrast to [Docker Hub](https://hub.docker.com/) (which also only accepts docker images), zenodo is also clearly geared towards long-term storage and discoverability via a sophisticated metadata system. Thus, it is ideally suited for storing scientific containers associated with particular analyses since these tend to not change over time.
 
 (rr-renv-containers-warning)=
 ## Words of Warning
 
-وعلى الرغم من أن التفرد والمركبة قد تبدو متماثلة، فإنهما مختلفان جدا من الناحية المفاهيمية. وإلى جانب الحقيقة الواضحة المتمثلة في أن التفرد لا يتطلب الوصول الجذري إلى الحاويات المشغّلة، كما أنه يعالج التمييز بين نظام ملفات الحاويات والمضيف بطريقة مختلفة. على سبيل المثال، بشكل افتراضي، تتضمن الوحدة بضع نقاط ربط في الحاوية، وهي:
+Even though singularity and docker might look similar, they are conceptually very different. Singularity handles the distinction between the host and container file system differently. For instance, by default, singularity includes a few bind points in the container, namely:
 
 - `$HOME`
 - `/sys:/sys`
@@ -426,4 +427,4 @@ ___________________________________
 - `/etc/passwd:/etc/passwd`
 - `$PWD`
 
-ملاحظة: `$PWD` يأتي في متناول اليد، لأنه يعني أن جميع الملفات في دليل العمل مرئية داخل الحاوية. غير أن ربط `$HOME` بشكل افتراضي يعني أيضا أن البرنامج باستخدام ملفات التكوين من `$HOME` قد يتصرف بشكل غير متوقع لأن ملفات التكوين الخاصة بالصورة قد تم الكتابة فوقها مع إعدادات المستخدمين الحاليين في `$HOME`. وفي حين أن هذا السلوك مفيد في سيناريوهات مركبات الكربون الهيدروكلورية فلورية، فإنه يحتمل أن يكون خطراً على البحوث القابلة للتكرار. وتفاديا للمشاكل المحتملة، ينبغي الإشارة إلى أي برنامج حاسوبي مركب في حاوية مفردة إلى ملف تشكيل عالمي مستقل للمستعملين.
+Note, `$PWD` comes in handy since it implies that all files in the working directory are visible within the container. Binding `$HOME` by default, however, also implies that software using configuration files from `$HOME` might behave unexpectedly since the image specific configuration files are overwritten with the current users settings in `$HOME`. While this behaviour is handy in HPC scenarios, it is potentially dangerous for reproducible research. To avoid potential issues, any software installed in a singularity container should be pointed to a global, user-independent configuration file.
