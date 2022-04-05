@@ -7,11 +7,11 @@ Since _The Turing Way_ is written asynchronously by multiple authors around the 
 
 ```{figure} ../figures/that-could-be-a-chapter.jpg
 ---
-高度： 400px
-name: thate-could-be-chapter
-alt： Kirstie 的草图说：“那可以是一章”
+height: 400px
+name: that-could-be-a-chapter
+alt: A sketch of Kirstie saying “That could be a chapter”
 ---
-"那可以是诱惑路中的一章！" - 基尔斯蒂·惠塔克尔。 - Kirstie Whitaker. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+"That could be a chapter in The Turing Way!" - Kirstie Whitaker. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
 This chapter provides a brief overview of the workflow for writing chapters and case studies for _The Turing Way_. We encourage you to read through and follow the recommendations if you wish to make a contribution. Also, ensure that you read our [Contributor Guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) in addition to our [style](https://the-turing-way.netlify.app/community-handbook/style.html) and [consistency](https://the-turing-way.netlify.app/community-handbook/consistency.html) recommendations as you prepare your contributions.
