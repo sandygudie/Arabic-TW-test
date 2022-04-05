@@ -20,8 +20,8 @@ For more details, please visit the [GitHub repository](https://github.com/jimhes
 
 ## Autopep8
 
-[Autopep8](https://pypi.org/project/autopep8/) 是一个 Python 模块，可以从终端运行，并自动格式化一个文件到 [pycodestyle](https://github.com/PyCQA/pycodestyle) (先前称为pep8) 指南。   
-它在 [pypy](https://pypi.org) 上可用，可以使用管道安装。
+[Autopep8](https://pypi.org/project/autopep8/) is a Python module that can be run from the terminal and automatically formats a file to [pycodestyle](https://github.com/PyCQA/pycodestyle) (formerly called pep8) guidelines.  
+It is available on [pypy](https://pypi.org) and can be installed using pip.
 
 ```
 # Install autopep8
