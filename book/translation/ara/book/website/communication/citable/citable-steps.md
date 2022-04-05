@@ -1,7 +1,7 @@
 (cm-citable-steps)=
 # Steps for Making Research Objects Citable
 
-هناك العديد من الأسباب التي تجعل المؤلفين لا يستشهدون بالبيانات والبرمجيات التي يستخدمونها، ولكن واحدة من اكبر الامور هي انه ليس من الواضح كيف يمكن يمكنك أن تقطع شوطا طويلا لتقليل هذا الحاجز باتباع خطوات قليلة لجعله أيسر ما يمكن. You can go a long way to reducing this barrier by following a few steps to make it as easy as possible.
+There are many reasons why authors don't cite the data and software that they use, but one of the biggest ones is that it's not clear how. You can go a long way to reducing this barrier by following a few steps to make it as easy as possible.
 
 (cm-citable-steps-object)=
 ## 1. Identify Your Research Objects
