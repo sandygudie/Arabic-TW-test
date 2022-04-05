@@ -1,34 +1,34 @@
 (cl-shared-ownership-projects)=
-# Propriedade do projeto
+# Project Ownership
 
-Antes de descompactarmos como a propriedade compartilhada de um projeto afeta a sustentabilidade do software de pesquisa, vamos definir o que entendemos por propriedade.
+Before we unpack how a project's shared ownership affects research software’s sustainability, let’s define what we mean by ownership.
 
-Se um projeto é compartilhado sem qualquer licença, ele é considerado direitos autorais por padrão, significado, apenas o autor pode decidir quem pode usar os diferentes componentes de seu projeto. Portanto, a melhor prática é adicionar licenças abertas a um projeto que defina a forma do código existente, software ou documentação podem ser usados e compartilhados.
+If a project is shared without any license, it is considered copyright by default, meaning, only the author can decide who can use the different components of their project. Therefore, the best practice is to add open licenses to a project that define the way the existing codebase, software or documentation can be used and shared.
 
-Um projeto de código aberto é mais do que apenas o código e os documentos associados ao software. Uma grande parte de um projeto é sobre as pessoas envolvidas -- as funções que elas desempenham, a forma como interagem umas com as outras, partilha responsabilidades, dá contributos e é reconhecido. Nenhuma dessas regras é regulamentada pela licença, mas é inegavelmente mais importante para o sucesso do projeto.
+An open source project is more than just the code and documents associated with the software. A major part of a project is about the people involved -- the roles they play, the way they interact with each other, share responsibilities, make contributions and receive recognition. None of those is regulated by the license but is undeniably more important for the project's success.
 
-A propriedade do projeto é definida por responsabilidades que são importantes para o sucesso de um projeto. Estes incluem definir objetivos, identificar recursos, trabalhar para encontrar soluções, abordar desafios e se beneficiar do resultado geral {cite:ps}`Goff-Dupont2020ownership`. Definindo a propriedade do projeto, podemos construir uma compreensão clara de como as responsabilidades de implementação do projeto, a manutenção e a sustentabilidade são compartilhadas entre as diferentes partes interessadas, incluindo os contribuintes voluntários. Tais processos operacionais em projetos podem tornar o código aberto mais significativo, indo além da própria licença de software.
+Project ownership is defined by responsibilities that are important for the success of a project. These include defining goals, identifying resources, working towards finding solutions, addressing challenges as well as benefitting from the overall outcome {cite:ps}`Goff-Dupont2020ownership`. By defining project ownership, we can build a clear understanding of how the responsibilities of project implementation, maintenance and sustainability are shared among different stakeholders, including the volunteer contributors. Such operational processes in projects can make open source more meaningful, going beyond the software license itself.
 
-Semelhante ao padrão de direitos autorais do software, se a propriedade de um projeto não é definida, não é a propriedade compartilhada. A propriedade compartilhada de um projeto de código aberto deve incluir os seguintes aspectos:
+Similar to the copyright default of software, if ownership in a project is not defined, it is not shared ownership. Shared ownership for an Open source project should include the following aspects:
 
-## *Quem* são os colaboradores do projeto?
+## *Who* are the project contributors?
 
-Contribuidores podem ser indivíduos, equipes de desenvolvedor/pesquisa ou uma organização. Por exemplo, investigadores, financiam organizações e institutos de acolhimento. Estes contribuidores podem ser pagos membros do projeto, como o líder do projeto e coordenador do projeto, ou voluntários do mais amplo ecossistema científico aberto que contribuem em seu próprio tempo. Estes contribuidores se envolvem no projeto, seja porque foram recrutados no projeto ou encontraram com sucesso o projeto devido ao seu interesse pessoal. Para garantir que o projeto envolve uma comunidade diversificada de contribuidores, é também importante tornar o projeto fácil de encontrar e acessar. Além disso, os colaboradores podem ser ativamente trazidos por outros colaboradores de sua rede.
+Contributors can be individuals, developer/research teams or an organisation. For example, researchers, funding organisations, and host institutes. These contributors can be paid members of the project such as the project lead and project coordinator, or volunteers from the wider open science ecosystem contributing in their own time. These contributors engage in the project either because they are recruited in the project or have successfully found the project due to their personal interest. To ensure that the project involves a diverse community of contributors, it is also important to make the project easy to find and access. Furthermore, contributors can be actively brought in by other contributors from their network.
 
-## *O que* os leva ao projeto?
+## *What* brings them to the project?
 
-Os colaboradores geralmente têm algum interesse pessoal no projeto ou querem abordar uma questão específica por meio do seu envolvimento. Pode estar usando um produto gerado pelo projeto, recebendo algum apoio técnico, ajudando outros colaboradores, adquirir habilidades pessoais ou ser exposto a novas práticas que podem trazer de volta em outros projetos.
+Contributors generally have some personal interest in the project or want to address a particular issue through their involvement. It could be either using a product generated by the project, receiving some technical support, helping other contributors, gaining personal skills or getting exposed to new practices that they can bring back in other projects.
 
-Ao identificar estas motivações pessoais de diferentes contribuintes, o projeto e assegurar que a visão global esteja activamente alinhada com as necessidades dos seus contribuintes.
+By identifying these personal motivations of different contributors, the project and ensure that the overall vision is actively aligned with the needs of their contributors.
 
-## *Por que* eles assumirão a responsabilidade e a responsabilidade como contribuidor do projeto?
+## *Why* will they take responsibility and accountability as a contributor to the project?
 
-Para um projeto ser conduzido por uma comunidade, é crucial definir porque os contribuidores estarão animados para fazer parte do projeto. Com base na motivação das pessoas para colaborar e contribuir, podemos ajudá-los a identificar os papéis que podem desempenhar e os tipos de contributos que podem dar. Funções e oportunidades bem definidas ajudam todos a fazer contribuições significativas para o projeto.
+For a project to be driven by a community, it is crucial to define why contributors will be excited to be a part of the project. Based on the motivation of people to collaborate and contribute, we can help them identify the roles they can take and the kinds of contributions they can make. Well-defined roles and opportunities help everyone make meaningful contributions to the project.
 
-## *Como* eles são reconhecidos por suas contribuições?
+## *How* are they are recognised for their contributions?
 
-Os colaboradores trabalham para fazer avançar o projeto para o qual contribuem. Em projetos de código aberto, poderia significar contribuir para o código, documentação, comunidade construída em torno destes ou de sua liderança pessoal. Estes objectivos podem ser alcançados reconhecendo abertamente as contribuições dos indivíduos de uma forma informal, como é o caso da comunicação interna e social. Isso pode ser feito mais efetivamente de uma forma mais formal, como por exemplo, compartilhando autoria com contribuidores em publicação, repositório do projeto ou versões mais recentes, criar percursos que permitam aos indivíduos passar pelo processo de tomada de decisão ou criar planos de incentivo para dar visibilidade e impulso de carreira fora do projeto.
+Contributors work towards advancing the project they contribute to. In open source projects, it could mean contributing to the codebase, documentation, community built around these or their personal leadership. These can be achieved by openly acknowledging contributions made by individuals in an informal way, such as by internal and social communication. This can be more effectively done in a more formal manner, such as by sharing authorships with contributors in publication, project repository or latest releases, creating pathways allowing individuals to move through the decision-making process, or creating incentivisation plans to give visibility and career boost outside the project.
 
-## *Onde* eles podem aprender em detalhes sobre a propriedade do projeto?
+## *Where* can they learn about the project ownership in detail?
 
-Isso deve ser abertamente compartilhado num documento (ou conjunto de documentos) que são fáceis de encontrar e podem ser facilmente compreendidos pelos leitores. Detalhes dependerão da escala do projeto, mas o modelo de propriedade compartilhada com caminhos para o papel e recompensas dos colaboradores deve ser claramente definido.
+This should be openly shared in a document (or set of documents) that are easy to find and can be easily understood by its readers. Details will depend on the scale of the project, but the model of shared ownership with pathways for contributors roles and rewards should be clearly defined.
