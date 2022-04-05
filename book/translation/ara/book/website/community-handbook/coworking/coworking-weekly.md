@@ -17,7 +17,7 @@ Though scheduled for 1 hour, you are welcome to join for shorter period as your 
 
 The resource requirement for these calls is also very similar to the Collaboration Cafe.
 
-1. ملاحظات مشتركة بواسطة [HackMD](https://hackmd.io/): [https://hackmd.io/@turingway/coworking-call](https://hackmd.io/@turingway/coworking-call)
+1. Shared notes by [HackMD](https://hackmd.io/): [https://hackmd.io/@turingway/coworking-call](https://hackmd.io/@turingway/coworking-call)
 2. Online call by [Zoom](https://www.zoom.us/): The Zoom link is provided in the HackMD.
 3. An online Pomodoro clock: [https://cuckoo.team/TW-coworking](https://cuckoo.team/TW-coworking)
 
@@ -40,34 +40,34 @@ We'll run the following schedule during each call:
 
 In contrast to the Collaboration Cafes, the schedule for these calls seems more intense with less chance for discussion. However, since these calls are attended by fewer participants, it provides more opportunities for informal interactions.
 
-### رئيس نداءات العمل التعاوني
+### Chairing Coworking Calls
 
-يرجى تحديث المستند كل شهر باستخدام الخطوات التالية:
+Please update the document each month using the following steps:
 
-- [تحديث HackMD](https://hackmd.io/@turingway/coworking-call) كل شهر بإضافة تواريخ للمكالمات الأسبوعية
-- نقل الملاحظات من المكالمة السابقة أسفل منطقة القالب (والتي سيتم أرشفتها في هذه الصفحة بشكل دوري)
-- شارك الملاحظات على Slack و Twitter التي تعلن التواريخ
-- استخدم الملاحظات أثناء المكالمة لمشاركة المعلومات أثناء رئاسة المكالمة
-- تأكد من مشاركة رابط مدونة قواعد السلوك واستخدام Cuckoo المشترك (أو غيرها من الساعات المستندة إلى الإنترنت)
-- إنشاء غرف انفصال للناس قبل بدء جلسات بومودورو - عند الحاجة
-- مع انتهاء جلسة بومودورو الأولى، أغلق أي غرف انفصالية، اطلب الحصول على ملاحظات، ثم أعد تشغيل جلسة بومودورو الثانية
-- ومن المقرر إجراء المكالمة لمدة 60 دقيقة، ومن ثم يمكن استيعاب ما يصل إلى جلستين من جلسات بومودورو
-- أغلق المكالمة شكر الجميع، وقم برفع الملاحظات للمكالمة التالية
+- [Update the HackMD](https://hackmd.io/@turingway/coworking-call) each month by adding dates for the weekly calls
+- Move the notes from the previous call below the template area (that will be archived in this Notion page periodically)
+- Share the notes on Slack and Twitter announcing the dates
+- Use the notes during the call to share information as you chair the call
+- Make sure that you share the Code of Conduct link and use the shared Cuckoo (or other web-based clocks)
+- Create breakout rooms for people before starting the Pomodoro sessions - when needed
+- As the first Pomodoro session ends, close any breakout rooms, ask for feedback, and then restart the second Pomodoro session
+- The call is scheduled for 60 minutes, and hence can accommodate up to 2 Pomodoro sessions
+- Close the call thanking everyone, and arhieve the notes for the next call
 
 #### Beginning
 
-يبدأ النداء مع أعضاء الفريق الذين يرحبون بالمشاركين، ويشاركون مدونة قواعد السلوك، ويذكرون كيفية المشاركة في المكالمة، وتمهيد الطريق أمام الجميع لكي يتقاسموا كيف يفعلون وما سيعملون عليه.
+The call begins with the team members welcoming the participants, sharing the Code of Conduct, reminding how to participate in the call, and setting the stage for everyone to share how they are doing and what they will be working on.
 
 #### Pomodoros
 
-سيبدأ رئيس الجلسة [المؤقت](https://cuckoo.team/TW-coworking) لتتبع جلسات بومودورو. وإذا كان الجميع يخططون للعمل في مهام مستقلة، فسوف نبقى في القاعة الرئيسية ونعمل بصمت. في أي مناقشة أو مهمة تعاونية يعمل عليها شخصان من المكالمة، سنقوم بإنشاء [غرف تفريغ](#breakout-rooms) لهم.
+The session chair will start the [timer](https://cuckoo.team/TW-coworking) to keep track of the Pomodoro sessions. If everyone plans to work on independent tasks, we will remain in the main room and work silently. For any discussion or collaborative task that two people of the call are working on, we will create [breakout rooms](#breakout-rooms) for them.
 
-إذا كان هناك أعضاء جدد في المكالمة، أحد الأعضاء (عادة ما يستضيف المكالمة) سيأخذ العضو الجديد إلى غرفة فرعية ليظهر حول مستودع المشروع ويشارك بعض النصائح للبدء.
+If there are new members on the call, one of the members (usually host of the call) will take the new member to a breakout room to show around the project repository and share some tips for getting started.
 
 #### Breaks
 
-وسنأخذ فترات استراحة قصيرة بعد كل بومودورو للتفكير في ما يمكن أن نفعله، استكشاف الأخطاء التي قد يكون أي من الحاضرين قد عبرها ، وإظهار التقدم الذي أحرزناه ، والاحتفال بنجاحات صغيرة.
+We will take short breaks after each Pomodoro to reflect on what we could get done, troubleshoot any error that any attendee might have come across, verbalise our progress and celebrate small successes.
 
 #### If joining this call later
 
-إذا انضممت لاحقاً، قد ترى الناس يعملون بهدوء في مهامهم. يمكنك تتبع الوقت المتبقي قبل الاستراحة التالية عن طريق فتح [الساعة المشتركة](https://cuckoo.team/TW-coworking) في المتصفح الخاص بك. إذا كنت تعرف مسبقاً أنك ستنضم لاحقاً، بإمكانك إبلاغ مضيف المكالمة إما عن طريق الاتصال به قبل المكالمة أو عن طريق ترك مذكرة في المستند المشترك.
+If you join later, you might see people quietly working on their tasks. You can track the time left before the next break by opening the [shared clock](https://cuckoo.team/TW-coworking) in your browser. If you know in advance that you'd join later, you can let the host of the call know by either contacting them before the call or leaving a note in the shared document.
