@@ -1,73 +1,73 @@
-(ميزات الطراز - المكان) =
-# المسرد، الكتل الخاصة والمزيد من التصميم
+(ch-style-more-features)=
+# Glossary, Special Blocks and More Styling
 
-كتاب المشتري يقدم المزيد من الخيارات لتصميم فصوله وإنشاء كتاب أكثر شمولا. في هذا الفصل الفرعي، نناقش بعض الميزات الأخرى التي نوصي باستخدامها في _طريق التوريد_.
+Jupyter Book offers more options for styling its chapters and creating a more comprehensive book. In this subchapter, we discuss a few more features that we recommend using in _The Turing Way_.
 
-(بالطراز - المميزات - المسرد)=
+(ch-style-more-features-glossary)=
 ## crwdns4381:0crwdne4381:0
 
-_طريق الترقيق_ لديه مسرد {ref}`` ملف موجود في ما بعد كلمة الكتاب، وتشمل تعاريف مصطلحات مختلفة مرتبة أبجديا. يمكن تحديث هذا الملف بتعاريف المصطلحات الجديدة، الذي يمكن ربطه بعد ذلك بأي فصل في الكتاب يحدث فيه هذا المصطلح.
+_طريق الترقيق_ لديه مسرد {ref}`` ملف موجود في ما بعد كلمة الكتاب، وتشمل تعاريف مصطلحات مختلفة مرتبة أبجديا. This file can be updated with the definitions of new terms, which can then be linked to any chapter in the book where this term occurs.
 
 1 - إضافة بند لفترة جديدة، يرجى الانتقال إلى القسم الأبجدي الأيمن من ملف المسرد {ref}`` واستخدام الجملة التالية:
 
 ```
-فترة جديدة - 1
-  جملة قصيرة تحدد المصطلح. وترد هذه الجملة تحت هذا المدة.
+New Term-1
+  A short sentence defining the term. This sentence is indented below the term.
 ```
 
-على سبيل المثال، [المصطلحات التي تبدأ بـ 'A'](https://the-turing-way.netlify.app/afterword/afterword.html#a) مكتوبة في نفس كتلة النص كما هو موضح أدناه:
+For example, [terms starting with 'A'](https://the-turing-way.netlify.app/afterword/afterword.html#a) are written in the same text-block as shown below:
 ```
 
 ## A
 
 ```{glossary}
 
-اختبار القبول
- مستوى من عملية اختبار البرنامج حيث يتم اختبار النظام لمعرفة مدى مقبوليته. والغرض من هذا الاختبار هو تقييم مدى امتثال النظام لمتطلبات المشروع وتقدير ما إذا كان مقبولا لهذا الغرض.
+Acceptance Testing
+ A level of the software testing process where a system is tested for acceptability. The purpose of this test is to evaluate the system's compliance with the project requirements and assess whether it is acceptable for the purpose.
 
-إضافة أمر
- مستخدم لإضافة ملفات إلى منطقة التجهيز. يسمح للمستخدم بتحديد أي الملفات أو الدلائل لتضمينها في الالتزام التالي.
+Add
+ Command used to add files to the staging area. Allows the user to specify which files or directories to include in the next commit.
 
-المؤلفون
-  المؤلفون في هذا السياق هم المساهمون في مشروع -The Turing Way_ الذين قدموا مساهمة كبيرة في المشروع مثل كتابة فصل فرعي، تيسير التفاعلات المجتمعية، وصيانة البنية الأساسية للمشروع ودعم مشاركة الآخرين من خلال المساهمات الإرشادية. ويشارك جميع المؤلفين في تأليف الكتاب ككل.
+Authors
+  Authors in this context are the contributors to _The Turing Way_ project who have made a substantial contribution to the project such as writing a subchapter, facilitating community interactions, maintaining project’s infrastructure and supporting the participation of others through mentored-contributions. All authors are named co-authors on the book as a whole.
 
 ```
 
-للإشارة إلى المصطلحات في المسرد الخاص بك، استخدم بناء الجملة ``[{term}`def<Term>`]``.
+To reference terms in your glossary, use the syntax ``[{term}`def<Term>`]``.
 
 على سبيل المثال، لربط مصطلح 'المؤلف`بالتعريف الوارد في ملف المسرد، الرجاء استخدام بناء الجملة ``[{term}`def
 
-(بالطراز - المميزات - الكتل)=
-## كتل المحتوى الخاصة
+(ch-style-more-features-blocks)=
+## Special Content Blocks
 
-عند كتابة فصل جديد أو تنقيح فصل قائم، وقد ترغب في إضافة ملاحظات لا تتناسب مع بقية سرد الفصل، ولكنها قد تكون مفيدة للقراء وتساعدهم على فهم الفصل على نحو أفضل.
+When writing a new chapter or revising an existing one, you may wish to add notes that do not fit in with the rest of the chapter's narrative but may be useful to the readers and help them understand the chapter better.
 
-يسمح كتاب المشتري باستخدام كتل المحتوى الخاص لتسليط الضوء على جزء من النص الذي يجب أن يظهر من بقية المحتوى على الصفحة. هذا يفصل بصرياً كتلة النص عن بقية الصفحة، ويضمن أنها تلتقط انتباه القارئ.
+Jupyter Book allows the use of special content blocks to highlight a piece of text that needs to stand out from the rest the content on a page. This visually separates the block of text from the rest of the page, and ensures that it easily captures the reader's attention.
 
-لإضافة كتلة محتوى خاصة (ملاحظة أو تحذير أو تحذير) إلى صفحتك، استخدم التوجيه التالي:
+To add a special content block (note, warning or admonition) to your page, use the following directive:
 
 ````
 ```{note}
-هذه ملاحظة نموذجية!
+This is a sample note!
 ```
 ````
-وينص على ما يلي:
+which renders as follows:
 
 ```{note}
-هذه ملاحظة نموذجية!
+This is a sample note!
 ```
 
-يمكنك إعطاء عناوين مخصصة لكتل المحتوى ونمط لتعزيز رسالتك المقصودة. على سبيل المثال، إذا كنت ترغب في تحذير القارئ عن شيء ما، فيمكنك إنشاء كتلة تحذيرية باستخدام التوجيه التالي:
+You can give content blocks custom titles and styling to reinforce your intended message. For example, if you wanted to warn the reader about something, you may make a warning block using the following directive:
 
 ````
 ```{warning}
-هذا تحذير صارم!
+This is a stern warning!
 ```
 ````
-لاحظ العنوان الجديد و الأيقونة و مخطط الألوان.
+Note the new title, icon, and colour scheme.
 
 ```{warning}
-هذا تحذير صارم!
+This is a stern warning!
 ```
 
-هناك العديد من الطرق لتخصيص كتل المحتوى بما يناسب احتياجات الكتابة الخاصة بك. راجع [وثائق كتاب المشتري](https://jupyterbook.org/content/content-blocks.html#notes-warnings-and-other-admonitions) و [صفحة التنبيه التجريبي](https://sphinx-book-theme.readthedocs.io/en/latest/reference/demo.html#admonitions) لمزيد من التوصيات.
+There are many more ways to customise content blocks to suit your writing needs. Refer to the [Jupyter Book documentation](https://jupyterbook.org/content/content-blocks.html#notes-warnings-and-other-admonitions) and the [Admonition Demo page](https://sphinx-book-theme.readthedocs.io/en/latest/reference/demo.html#admonitions) for more recommendations.
