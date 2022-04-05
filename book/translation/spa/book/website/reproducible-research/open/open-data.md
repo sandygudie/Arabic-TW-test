@@ -45,12 +45,12 @@ Many fields of scientific disciplines involve working with sensitive personal da
 (rr-open-data-barriers-consent)=
 ### Consent
 
-For anonymised research data to be made available for future reuse, consent forms must cover sharing this data with other researchers. Las hojas de información del participante y los formularios de consentimiento deben incluir cómo se almacenarán los datos de investigación, preservado y utilizado a largo plazo, y cómo se protegerá la confidencialidad cuando sea necesario. La investigación hasta ahora sugiere que los participantes del estudio normalmente están menos preocupados por los datos que se archivan y comparten de lo que los investigadores piensan {cite:ps}`archivar Kuula2010`.
+For anonymised research data to be made available for future reuse, consent forms must cover sharing this data with other researchers. Research so far suggests that study participants are usually less concerned about the data being archived and shared than researchers think {cite:ps}`Kuula2010archiving`. Participant information sheets and consent forms should include how research data will be stored, preserved and used in the long term, and how confidentiality will be protected when needed.
 
 (rr-open-data-barriers-anonymisation)=
 ### Anonymisation
 
-Los individuos deben estar protegidos de (re)identificación a través de sus datos La anonimización de los datos puede ser suficiente en algunos casos, pero asegurarse de que no sea posible la reidentificación es cada vez más difícil. It might even be impossible due to technical progress, growing computational power and – ironically – more open data.
+Individuals must be protected from (re)identification through their data Anonymisation of the data may be sufficient in some cases, but ensuring that re-identification is not possible is becoming increasingly difficult. It might even be impossible due to technical progress, growing computational power and – ironically – more open data.
 
 For example, re-identification may be possible via data-mining of accessible data and so-called quasi-identifiers, a set of (common) properties that are – in their combination – so specific that they can be used to identify an individual. Preserving privacy may still be possible if partial or generalised datasets are provided, like age groups instead of birth date, or only the first two digits of postal codes. It may also be possible to provide the data in such a format that researchers can query whilst keeping the data itself closed. For example, a user may be able to send a query to retrieve the mean of a dataset, but not be able to access any of the individual data points. Another way to provide anonymised data is to provide [synthetic data](https://en.wikipedia.org/wiki/Synthetic_data), data generated to reflect the conditions and properties of the raw data, without including any personal information.
 
