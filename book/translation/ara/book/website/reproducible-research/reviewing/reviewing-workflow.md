@@ -28,7 +28,7 @@ A reviewer should check these things (see {ref}`checklist for the coder<rr-check
 
 In the GitHub system, the review is begun directly from and often accessed through the [pull request page](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request). The review step occurs between the points where the coder believes their contribution is complete and where that contribution is merged into the trunk code for the project, and so it is intimately associated with a single pull request.
 
-في بيئة Github ، يمكن تكوين المشاريع لتتطلب ** مراجعة قبل أن يتم دمج طلب سحب معين. Even if this option hasn't been selected, it's still possible (and indeed best practice) to manually request a review on a pending pull request.
+Within the Github environment, projects can be configured to *require* a review before a given pull request can be merged. Even if this option hasn't been selected, it's still possible (and indeed best practice) to manually request a review on a pending pull request.
 
 ## Create and Discuss The Review
 
