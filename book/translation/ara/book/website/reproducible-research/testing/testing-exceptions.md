@@ -1,12 +1,12 @@
-(اختبار - تحديات)=
-# التحديات والحالات الاستثنائية في الاختبار
+(rr-testing-challenges)=
+# Challenges and exceptional cases in testing
 
-(r-testting-challenges es-stochastic-code)=
-## اختبار الرمز البلاستيكي
+(rr-testing-challenges-stochastic-code)=
+## Testing stochastic code
 
-في بعض الأحيان تحتوي التعليمات البرمجية على عنصر عشوائي، مثال شائع على التعليمات البرمجية التي تستخدم [طرق مونت كارلو](https://en.wikipedia.org/wiki/Monte_Carlo_method). اختبار هذا النوع من التعليمات البرمجية قد يكون صعباً جداً لأنه إذا تم تشغيله عدة مرات فإنه سيولد إجابات مختلفة، كل ما قد يكون "صحيحاً"، حتى أنه لا يحتوي على أي أخطاء. وهناك طريقتان رئيسيتان لمعالجة اختبار شفرة البلاستيك:
+Sometimes code contains an element of randomness, a common example being code that makes use of [Monte Carlo methods](https://en.wikipedia.org/wiki/Monte_Carlo_method). Testing this kind of code can be very difficult because if it is run multiple times it will generate different answers, all of which may be "right", even is it contains no bugs. There are two main ways to tackle testing stochastic code:
 
-### استخدام بذور أرقام عشوائية
+### Use random number seeds
 
 أعداد عشوائية من البذور يصعب تفسيرها قليلاً لذلك هنا مثال. إليك نص بايثون صغير يطبع ثلاثة أرقام عشوائية.
 
@@ -48,7 +48,7 @@ print(random.random())
 0.947827487059
 0.0565513677268
 ```
-ولكن مرة أخرى ستحصل على نفس الأرقام في كل مرة يتم تشغيل البرنامج النصي في المستقبل.
+but again you will get those same numbers every time the script is run in the future.
 
 البذور العشوائية هي طريقة لجعل الأشياء عشوائية بشكل موثوق. غير أن خطر الاختبارات التي تعتمد على أعداد عشوائية هو أنها يمكن أن تكون حبيسة. قل أن لديك دالة منظمة مثل هذا:
 
@@ -59,20 +59,20 @@ def my_function():
   c = a + b
 ```
 
-إذا قمت بتعيين رقم عشوائي للبذور سوف تحصل دائما على نفس القيمة من `c`، بحيث يمكن اختبارها. لكن، قل أن النموذج قد تغير والدالة التي تحسب `A` تستخدم عددا مختلفا من الأرقام العشوائية التي قامت بها من قبل. الآن لن يكون `` مختلفا فقط ولكن `ب` سيكون أيضا لأنه كما هو موضح أعلاه الأعداد العشوائية التي يتم إخراجها بسبب رقم عشوائي هي بترتيب ثابت. ونتيجة لذلك، فإن الأرقام العشوائية المنتجة لحساب `b` ستكون قد تغيرت. وهذا يمكن أن يؤدي إلى فشل الاختبارات عندما لا يكون هناك في الواقع أي خطأ.
+If you set the random number seed you will always get the same value of `c`, so it can be tested. But, say the model is changed and the function that calculates `a` uses a different number of random numbers that it did previously. الآن لن يكون `` مختلفا فقط ولكن `ب` سيكون أيضا لأنه كما هو موضح أعلاه الأعداد العشوائية التي يتم إخراجها بسبب رقم عشوائي هي بترتيب ثابت. As a result the random numbers produced to calculate `b` will have changed. This can lead to tests failing when there is in fact no bug.
 
-#### قياس توزيع النتائج
+#### Measure the distribution of results
 
-طريقة أخرى لاختبار التعليمات البرمجية مع مخرجات عشوائية هي تشغيلها مرات عديدة واختبار توزيع النتائج. ولعل النتيجة قد تتقلب قليلا، ولكن من المتوقع دائما أن تكون حوالي 10 في إطار قدر من التسامح. ويمكن اختبار ذلك. كلما زاد عدد المرات التي يتم فيها تشغيل التعليمات البرمجية كلما كان المتوسط أكثر موثوقية، وبالتالي كانت النتيجة. لكن، كلما قمت بتشغيل قطعة من التعليمات البرمجية كلما استغرق الأمر اختبارك فترة أطول، وهو ما قد يجعل إجراء الاختبارات يستغرق وقتاً طويلاً بدرجة تحول دون الحصول على نتيجة موثوقة. وعلاوة على ذلك، سيكون هناك دائما عنصر عدم يقين وإذا سقطت الأعداد العشوائية بطريقة معينة قد تحصل على نتيجة خارج نطاق التسامح المتوقع حتى لو كانت التعليمات البرمجية صحيحة.
+Another way to test code with a random output is to run it many times and test the distribution of the results. Perhaps the result may fluctuate a little, but is always expected around 10 within some tolerance. That can be tested. The more times the code is run the more reliable the average and so the result. However the more times you run a piece of code the longer it will take your tests to run, which may make tests prohibitively time-consuming to conduct if a reliable result is to be obtained. Furthermore, there will always be an element of uncertainty and if the random numbers happen to fall in a certain way you may get result outside of the expected tolerance even if the code is correct.
 
-وكلا هذين النهجين في اختبار الشفرة البلاستيكية يمكن أن يكونا مفيدين جدا، ولكن من المهم أيضا أن نكون على وعي بمخاطبهما المحتملة.
+Both of these approaches to testing stochastic code can still be very useful, but it is important to also be aware of their potential pitfalls.
 
-(r-test-challenges -difficult-quatify)=
-## الاختبارات التي يصعب قياسها كمياً
+(rr-testing-challenges-difficult-quatify)=
+## Tests that are difficult to quantify
 
-في بعض الأحيان (ولا سيما في مجال البحث) يتم اختبار نواتج التعليمات البرمجية وفقاً لما إذا كانت "تنظر" صحيحة. على سبيل المثال ، لدينا رمز نمذجة لمستويات المياه في خزان مع مرور الوقت.
+Sometimes (particularly in research) the outputs of code are tested according to whether they "look" right. For example say we have a code modelling the water levels in a reservoir over time.
 
-قد تبدو النتيجة هكذا:
+The result may look like this:
 
 ```{figure} ../../figures/eyeball-test1.jpg
 ---
@@ -81,7 +81,7 @@ alt:
 ---
 ```
 
-في يوم واحد مع المطر قد يبدو هكذا:
+On a day with rain it might look like this:
 
 ```{figure} ../../figures/eyeball-test2.jpg
 ---
@@ -90,7 +90,7 @@ alt:
 ---
 ```
 
-وفي يوم جاف قد تبدو هكذا:
+and on a dry day it might look like this:
 
 ```{figure} ../../figures/eyeball-test3.jpg
 ---
@@ -99,7 +99,7 @@ alt:
 ---
 ```
 
-وتبدو جميع هذه النواتج مختلفة جدا ولكنها صالحة. غير أنه إذا رأى أحد الباحثين نتيجة كهذه:
+All of these outputs look very different but are valid. However, if a researcher sees a result like this:
 
 ```{figure} ../../figures/eyeball-test-error.jpg
 ---
@@ -108,14 +108,14 @@ alt:
 ---
 ```
 
-ويمكنها بسهولة أن تخلص إلى وجود خلل لأن من غير المرجح أن تزيد البحيرة حجمها ثلاث مرات ثم تفقدها مرة أخرى في غضون ساعات قليلة. اختبارات "العين" مثل هذه تستغرق وقتاً طويلاً كما يجب أن يقوم بها الإنسان. غير أن هذه العملية يمكن أن تكون آلية جزئيا أو كليا عن طريق إنشاء "فحوص عافية" أساسية. فعلى سبيل المثال، ينبغي أن يكون مستوى المياه في وقت ما في حدود 10 في المائة من مستوى المياه في الخطوة السابقة على سبيل المثال. ويمكن أن يكون التحقق الآخر أنه لا توجد قيم سلبية، حيث لا يمكن للبحيرة أن تكون ممتلئة بنسبة 30٪. هذا النوع من الاختبارات لا يمكن أن يغطي كل طريقة يمكن أن يكون فيها شيء خاطئا ظاهرا، ولكنها أسهل بكثير في التشغيل الآلي وستكفي في معظم الحالات.
+they could easily conclude there is a bug as a lake is unlikely to triple its volume and then lose it again in the space of a few hours. اختبارات "العين" مثل هذه تستغرق وقتاً طويلاً كما يجب أن يقوم بها الإنسان. غير أن هذه العملية يمكن أن تكون آلية جزئيا أو كليا عن طريق إنشاء "فحوص عافية" أساسية. فعلى سبيل المثال، ينبغي أن يكون مستوى المياه في وقت ما في حدود 10 في المائة من مستوى المياه في الخطوة السابقة على سبيل المثال. Another check could be that there are no negative values, as a lake can't be -30% full. These sort of tests can't cover every way something can be visibly wrong, but they are much easier to automate and will suffice for most cases.
 
-(r-testting-challenges es-non-integer)=
-## اختبار إذا كانت الأرقام غير الصحيحة متساوية
+(rr-testing-challenges-non-integer)=
+## Testing if non-integer numbers are equal
 
-### عندما لا يساوي 0.1 + 0.2 0.3
+### When 0.1 + 0.2 does not equal 0.3
 
-هناك تعقيدات مع الاختبار إذا كانت الإجابة على جزء من مخرجات التعليمات البرمجية مساوية للإجابة المتوقعة عندما تكون الأرقام غير صحيحة. دعونا ننظر إلى مثال بايثون هذا، لكن نلاحظ أن هذه المشكلة لا تنفرد بها بايتون.
+There is a complication with testing if the answer a piece of code outputs is equal to the expected answer when the numbers are not integers. Let's look at this Python example, but note that this problem is not unique to Python.
 
 إذا قمنا بتعيين 0.1 إلى `A` و 0.2 إلى `b` وطباعة المبلغ الخاص بهم، نحصل على 0.3، كما هو متوقع.
 
@@ -142,7 +142,7 @@ False
 
 ويرجع ذلك إلى أن أرقام النقاط العائمة هي أرقام تقريبية للأرقام الحقيقية. ويمكن أن تعتمد نتيجة الحسابات بالنقاط العائمة على المترجم أو المترجم الشفوي أو المعالج أو بنية النظام وعدد وحدات المعالجة المركزية أو العمليات المستخدمة. ويمكن أن يشكل ذلك عقبة رئيسية أمام اختبارات الكتابة.
 
-### المساواة في عالم ذي نقطة عائمة
+### Equality in a floating point world
 
 وعند مقارنة أرقام النقاط العائمة للمساواة، علينا أن نقارنها في إطار تسامح معين، ويطلق عليها بدلا من ذلك عتبة أو دلتا وعند مقارنة أرقام النقاط العائمة للمساواة، علينا أن نقارنها في إطار تسامح معين، ويطلق عليها بدلا من ذلك عتبة أو دلتا على سبيل المثال وقد نعتبر أن القيم المحسوبة والمتوقعة لبعض الأعداد متساوية إذا كانت القيمة المطلقة لاختلافها في حدود القيمة المطلقة لتسامحنا.
 
@@ -157,17 +157,17 @@ False
 تأكيد c == pytest.approx (0.3)
 ```
 
-هذا المرور ، ولكن إذا تم تغيير 0.3 إلى 0.4 ، فإن ذلك سيفشل.
+this passes, but if the 0.3 was changed to 0.4 it would fail.
 
-وكثيرا ما توفر أطر اختبار الوحدات للغات الأخرى أيضا وظائف مماثلة:
+Unit test frameworks for other languages also often provide similar functions:
 
-- وحدة C: CU_ASSERT_DOUBLE_EQUAL(فعلي، متوقع، حبيبي)
-- CPPUnit لـ C+++: CPPUNIT_ASSERT_DOUBLES_EQUAL(متوقع، فعلي، دلتا)
-- اختبار جوجل لـ C++: ASSERT_NEAR(val1, val2, abs_error)
-- FRUIT لـ Fortran: zt_eq_double_in_range_(var1, var2, delta, message)
+- Cunit for C: CU_ASSERT_DOUBLE_EQUAL(actual, expected, granularity)
+- CPPUnit for C++: CPPUNIT_ASSERT_DOUBLES_EQUAL(expected, actual, delta)
+- googletest for C++: ASSERT_NEAR(val1, val2, abs_error)
+- FRUIT for Fortran: subroutine assert_eq_double_in_range_(var1, var2, delta, message)
 - الوحدة المشتركة من أجل جافا: org.junit. Assert.assertEquals(كان متوقعا، فعلي مزدوج، دلتا مزدوجة)
-- اختبار ل R:
-  - expect_equal(فعلي, متوقع, التسامح =DELTA) - خطأ مطلق داخل DELTA
+- testthat for R:
+  - expect_equal(actual, expected, tolerance=DELTA) - absolute error within DELTA
   - expect_equal(فعلي, متوقع, scale=المتوقع, tolerance=DELTA) - خطأ نسبي داخل DELTA
 - جوليا:
   - `val1 ≈ val2`
