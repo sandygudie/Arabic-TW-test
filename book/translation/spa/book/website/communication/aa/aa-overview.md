@@ -14,14 +14,14 @@ The decision may essentially be out of your hands as journals and publishers hav
 
 A general definition of an author is seen as the person that is the creator of the written work (creator of the ideas and the actual physical writing) and there is an ownership for the author regarding the content of what is written.
 
-However, most research involves a team of people to make it happen. Entonces, ¿quién decide si estas contribuciones son dignas de autoría o simplemente deben ser reconocidas?
+However, most research involves a team of people to make it happen. So who decides whether these contributions are worthy of authorship or just an acknowledgement?
 
-Por lo tanto, sigue siendo común dar la autoría sólo a aquellos que realmente han participado en la redacción o edición del artículo, así como otros aspectos sustanciales de la investigación. This often excludes large contributions to the project from technicians, undergraduate and postgraduate students, and people involved in the infrastructure of the project such as research software engineers. It also raises ethical issues concerning who takes credit for the work on a project.
+It is still common to give authorship to only those that have actually taken part in the writing or editing of the article as well as other substantial aspects of the research. This often excludes large contributions to the project from technicians, undergraduate and postgraduate students, and people involved in the infrastructure of the project such as research software engineers. It also raises ethical issues concerning who takes credit for the work on a project.
 
-(cm-aa-primero)=
+(cm-aa-overview-first)=
 ## First author dominance
 
-Ser el primer autor impacta la reputación y visibilidad de esa persona debido a una visión percibida de que esta persona hace la mayor contribución, índices de citación que en el pasado sólo contaron citas para el primer autor nombrado, y citas dentro de artículos académicos que se acortan al nombre del primer autor con *et al* (Ref: Frandsen & Nicolaisen 2010). (latín para "y otros") {cite:ps}`Frandsen2010name,VanPraag2008benefits`. The number of citations that papers have and what journals they are published in are often important criteria for obtaining new jobs, getting promoted and winning funding applications.
+Being the first author impacts that person's reputation and visibility due to: a perceived view that this person makes the greatest contribution, citation indices that in the past only counted citations for the first-named author, and citations within academic articles being shortened to the first author's surname followed by "et al." (latin for "and others") {cite:ps}`Frandsen2010name,VanPraag2008benefits`. The number of citations that papers have and what journals they are published in are often important criteria for obtaining new jobs, getting promoted and winning funding applications.
 
 The practice of the first author taking prominence over others also has social implications. For example, it might be a difficult decision for a researcher to change their name, due to marriage or divorce, as this action could have a negative impact on their research career.
 
@@ -36,7 +36,7 @@ Here are two good articles on how we need to move away from the culture of first
 * [No more first author, no more last author by Gretchen Kisher](https://www.nature.com/articles/d41586-018-06779-2)
 * [Challenges in assessing contributions to reproducible research and open science by Malvika Sharan](https://malvikasharan.github.io/blogs/dora-panel-open-science/).
 
-However, decisions concerning authorship are still central in the minds of most academics and also used as a marker of a projects impact. Por lo tanto, hay que tomar decisiones sobre la autoría y las dos decisiones principales que hay que tomar son: ¿quién debería obtener la autoría en el papel? y qué orden deben tomar los nombres? and what order the names should take?
+However, decisions concerning authorship are still central in the minds of most academics and also used as a marker of a projects impact. Therefore, decisions about authorship need to be taken and the two main decisions to make are: who should get authorship on the paper? and what order the names should take?
 
 Contributions to research projects and how these translate into the authorship of a journal article are tackled in many different ways dependent on what discipline the study is based in, the location of the publication (which journal or publisher is used), the motivation of the project contributors and the number of people involved in the project. The name order is heavily based in a discipline specific tradition of what is understood by that order and this can create tension when new research collaborations are set up.
 
