@@ -1,7 +1,7 @@
 (ch-style-citing)=
 # Citing and Referencing
 
-We maintain a centralised [BibTeX](http://www.bibtex.org/) file containing all references. الملف موجود داخل هذا المستودع في الملف [`./book/website/_bibliography/references.bib`][turingbib].
+We maintain a centralised [BibTeX](http://www.bibtex.org/) file containing all references. The file is located within this repository in the file [`./book/website/_bibliography/references.bib`][turingbib].
 
 ## BibTeX file basics
 
