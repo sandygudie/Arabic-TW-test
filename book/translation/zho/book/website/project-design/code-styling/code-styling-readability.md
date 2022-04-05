@@ -17,8 +17,8 @@ melt() #We now have a recoded, melted dataframe called recoded_melt_dat
 
 ## Commenting
 
-Comments have been described as "Love letters to your future self" by Jon Peirce, creator of PsychoPy. 评论可以被屏蔽或内联。   
-PEP8准则有明确的建议，阻止评论应该是完整的句子， 一段时间后有两个空格，遵循一个过时的风格指南(Strunk 和 White)。 Fortunately the Elements of Style no longer 'requires' an unfair emphasis on masculine pronouns. Whereas inline comments should be used sparingly. Keeping clear and concise comments not only allows you to keep track of the decisions you have made, what particular functions do, and what variables are used, it also allows other people to see your thought processes. The syntax for comments varies with programming languages. In R and Python, a hashtag is used, whereas in C and Java the brackets `/* /*` are used, and in C++/C# a double slash `//` comments single lines.
+Comments have been described as "Love letters to your future self" by Jon Peirce, creator of PsychoPy. Comments can be blocked or inline.  
+The PEP8 guidelines have firm suggestions that block comments should be full sentences, have two spaces following a period, and follow a dated style guide (Strunk and White). Fortunately the Elements of Style no longer 'requires' an unfair emphasis on masculine pronouns. Whereas inline comments should be used sparingly. Keeping clear and concise comments not only allows you to keep track of the decisions you have made, what particular functions do, and what variables are used, it also allows other people to see your thought processes. The syntax for comments varies with programming languages. In R and Python, a hashtag is used, whereas in C and Java the brackets `/* /*` are used, and in C++/C# a double slash `//` comments single lines.
 
 In Python:
 ```python
@@ -40,15 +40,14 @@ For longer comments, information can be included above the code block. In Python
 
 ```python
 """
-以下函数需要一个数字, 乘以5, 并减去2.
-这可能看起来毫无意义，但对示威很简单。
+The following function takes a number, multiplies it by 5, and subtracts 2.
 This may seem pointless but is simple for demonstration.
 """
 def myfunc(numb): #python function
       return((numb*5)-2)
 print(myfunc(8))
 ```
-在 R 中无法提供较长的评论方块。 围绕这个问题有一些方法，例如设置一个字符串或一个 if(false) 语句：
+Longer blocks of comments are not available in R. There are ways around this, such as setting up a string, or an if(false) statement:
 
 ```r
 "1 - This is a string. It will not be evaluated by R, and will not raise
@@ -95,7 +94,7 @@ my_variable <- a_really_long_function(data = "2019-05-17_Long_File_Name_2",
 
 These are of course just guidelines, and you should choose elements that suit your coding style. However, and again, it is important to ensure that you are consistent when collaborating, and can agree on a common style. It could be useful to create a readme file describing your coding style so collaborators or contributors can follow your lead.
 
-### ...end. ...end.  ...结束 ...结束  ...或者结束.\\n
+### ...end. ...end.  ...or end.\\n
 
 If you are sharing text files or working collaboratively on manuals or documents, then there is a lot of controversy surrounding whether to use one or two spaces after a period. When using Markdown, it can be clearer to include a new line after every sentence. This chapter (and most, if not all, of this book) has a new line after every sentence that makes the raw text easier to read, review and solve the spacing issue.
 
