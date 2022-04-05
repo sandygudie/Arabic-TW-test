@@ -19,22 +19,22 @@ The five headline questions relate with the following topics:
 ## Project Description
 > Please describe your project's goal and purpose.
 
-**理由。 ** REC需要知道你的项目是什么，它正在寻求实现什么以及它为什么重要。 RECs need to understand what a project entails to consider its ethical implications.
+**Justification.** RECs will need to know what your project is about, what it is looking to achieve and why it matters. RECs need to understand what a project entails to consider its ethical implications.
 
 **Responding to this question** is an opportunity to share the benefits that your work strives for. This question can generally be responded to with what was written about the project in its successful grant proposal. It is just worth making sure that past descriptions of the project are updated with new information, as projects can change quickly.
 
 A more robust response to this question will also explain how the project fits within the wider goals, challenges, and objectives of your institution. In the case of charities, reference to your institution's "charitable objects" will be important. See [GOV.UK](https://www.gov.uk/government/publications/example-charitable-objects) for example charitable objects.
 
-因此，对这一问题的答复需要提供：
-1. 为答复本问题，提供：
-2. 您的项目的详细目标；
-3. 清楚地描述正在回答的科学问题；
-4. 回答你的项目问题的明确动机；
+To respond to this question, provide:
+1. Detailed objectives of your project;
+2. A clear description of the scientific question being responded to;
+3. A clear motivation for answering your project's question;
+4. An explanation as to how your project aligns with your institution's strategic values and aims.
 
 ## Data and Methodology
 > Please explain what data you will use and why. Please explain how you will use these data.
 
-</strong> 整个项目中出现的一些伦理问题将与所使用的数据和研究方法有关。 For example, the data employed may be filled with ["missing data sets"](https://github.com/MimiOnuoha/missing-datasets), and the methodology can be problematic if built on unchecked assumptions.
+**Justification.** Some ethical questions that arise throughout a project will relate with the data and the research methods used. For example, the data employed may be filled with ["missing data sets"](https://github.com/MimiOnuoha/missing-datasets), and the methodology can be problematic if built on unchecked assumptions.
 
 **Responding to this question** requires describing the project's data and methodology in a detailed manner. Justification must also be provided as to *why* the outlined data are necessary and the described methodology is the best for the job.
 
@@ -50,7 +50,7 @@ Therefore, responding to this question requires providing:
 ## Consent
 > How will you ensure any personal data collected for your research is done so with freely-given informed consent?
 
-**说明理由。 ** 确保征得各方同意的目的， 个人资料的使用或再利用是为了尊重个人的自主权，并根据相关立法行事。 It is also an important concept enshrined in law. In the General Data Protection Regulation (GDPR), for example, *consent* is defined as:
+**Justification.** The purpose of ensuring consent for the collection, use or reuse of personal data is to respect the autonomy of individuals and operate in line with pertinent legislation. It is also an important concept enshrined in law. In the General Data Protection Regulation (GDPR), for example, *consent* is defined as:
 > “any freely given, specific, informed and unambiguous indication of the data subject’s wishes by which he or she, by a statement or by a clear affirmative action, signifies agreement to the processing of personal data relating to him or her" ([ICO](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/consent/what-is-valid-consent/))
 
 **Responding to this question** entails reflection on how data are sourced -- where they come from and who they pertain to. Setting the legal discussions aside, this question requires following one of two approaches:
@@ -60,7 +60,7 @@ Therefore, responding to this question requires providing:
 ## Privacy and Security
 > How will you ensure that any sensitive information your project uses is kept secure and made accessible only to pertinent members of the research team?
 
-**说明理由。 ** 隐私权是一项基本人权(见 [本章草案](https://github.com/alan-turing-institute/the-turing-way/pull/1394/files?short_path=b95854e#diff-b95854e17574ab3b68f2f89991e4dddf199e01901dc8e235d87e2b0c8980a4d9) *关于更多关于人权的诱惑方式* 关于人权)。 Therefore, it is critical that projects be conducted in a way that respects privacy.
+**Justification.** Privacy is a fundamental human right (see this [draft chapte](https://github.com/alan-turing-institute/the-turing-way/pull/1394/files?short_path=b95854e#diff-b95854e17574ab3b68f2f89991e4dddf199e01901dc8e235d87e2b0c8980a4d9) for *The Turing Way* for more on human rights). Therefore, it is critical that projects be conducted in a way that respects privacy.
 
 **Responding to this question** might require a review of your institution's internal policies. When handling personal data in particular, your institution might already have a data policy in place, as well as a process to conduct a data protection impact assessment (see [the ICO](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/accountability-and-governance/data-protection-impact-assessments/) for more details). Some funders also have policies for handling data collected or used in the course of research that they fund. Your institution may also have a secure IT infrastructure for the storage of data, as well as to ensure correct levels of access. It is worth asking if there are such policies and processes in your institution.
 
@@ -82,7 +82,7 @@ In either case, data security doesn't apply only to personal data. Consider, for
 1. The (societal, environmental and personal) risks involved in the project, and
 2. The measures put in place to mitigate these risks.
 
-The second point relates with the actions taken to *mitigate* identified risks. 换言之，仅仅描述可能出现的错误是不够的——必须解释如何合理地避免风险。
+The first point requires further reflection on the myriad of topics already outlined in the previous four questions (recall how methodology and data collection practices might raise ethical questions), as well as careful consideration about the potential risks of your project's output.
 
 The second point relates with the actions taken to *mitigate* identified risks. It is not sufficient, in other words, to describe what might go wrong -- it is necessary to explain how risks will be reasonably avoided.
 
@@ -94,6 +94,6 @@ On the other hand, it is worth recapitulating the points made in section one. In
 Focusing on how to respond to each broad question, we can summarise the advice provided as follows:
 1. Be detailed in your responses -- the more the REC knows, the easier it is for them to consider a project's ethical implications.
 2. Use other documents about your project to provide information to RECs. Although documentation may need updating, using other relevant documents can make this process more straightforward. Such documents might be grant proposals, data management plans, data protection impact assessments...
-3. Find ethical resources that are relevant to your project. Scientific projects can be diverse in object of study. Numerous ethics frameworks have been made available over the years. A well-established framework in data science is that of the [five safes](https://www.ukdataservice.ac.uk/manage-data/legal-ethical/access-control/five-safes), for example. 管理艺术家情报的一个全面资源是 [*了解人造情报道德和安全*](https://www.turing.ac.uk/sites/default/files/2019-08/understanding_artificial_intelligence_ethics_and_safety.pdf) 为暴露在滥用网上内容的研究人员的福祉制定了一个更加具体的框架： [*研究滥用内容的研究人员指南*](https://github.com/bvidgen/Challenges-and-frontiers-in-abusive-content-detection/blob/master/Challenges%20and%20frontiers%20in%20abusive%20content%20detection%20Appendix%20-%20researcher%20guidelines.pdf) A much more specific framework has been developed for the wellbeing of researchers exposed to abusive online content: [*Guidelines for researchers working with abusive content*](https://github.com/bvidgen/Challenges-and-frontiers-in-abusive-content-detection/blob/master/Challenges%20and%20frontiers%20in%20abusive%20content%20detection%20Appendix%20-%20researcher%20guidelines.pdf)
+3. Find ethical resources that are relevant to your project. Scientific projects can be diverse in object of study. Numerous ethics frameworks have been made available over the years. A well-established framework in data science is that of the [five safes](https://www.ukdataservice.ac.uk/manage-data/legal-ethical/access-control/five-safes), for example. A comprehensive resource for the governance of articifial intelligence is [*Understanding artificial intelligence ethics and safety*](https://www.turing.ac.uk/sites/default/files/2019-08/understanding_artificial_intelligence_ethics_and_safety.pdf). A much more specific framework has been developed for the wellbeing of researchers exposed to abusive online content: [*Guidelines for researchers working with abusive content*](https://github.com/bvidgen/Challenges-and-frontiers-in-abusive-content-detection/blob/master/Challenges%20and%20frontiers%20in%20abusive%20content%20detection%20Appendix%20-%20researcher%20guidelines.pdf)
 
 ***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*
