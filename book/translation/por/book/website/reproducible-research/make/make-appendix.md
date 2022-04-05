@@ -1,38 +1,38 @@
 (rr-make-appendix)=
-# Apêndice
+# Appendix
 
 (rr-make-appendix-dag)=
-## Gráfico Acíclico Direcionado
+## Directed Acyclic Graph
 
-Um Gráfico Acíclico Direcionado (DAG) é um gráfico de ** de nós e arestas que é:
+A Directed Acyclic Graph (DAG) is a *graph* of nodes and edges that is:
 
-1. *direcionado*: as bordas têm uma direção e você só pode andar o gráfico na direção
-2. *acyclic*: não contém ciclos: A não pode depender de B quando B depende de A.
+1. *directed*: edges have a direction and you can only walk the graph in that direction
+2. *acyclic*: does not contain cycles: A can't depend on B when B depends on A.
 
-Esta última propriedade é, evidentemente, bastante útil para um sistema de construção. Mais informações sobre DAGs podem ser encontradas na [Wikipedia](https://en.wikipedia.org/wiki/Directed_acyclic_graph).
+The latter property is of course quite handy for a build system. More information on DAGs can be found on [Wikipedia](https://en.wikipedia.org/wiki/Directed_acyclic_graph).
 
 (rr-make-appendix-installing)=
-## Instalando Make
+## Installing Make
 
-Primeiro, verifique se você já tem o GNU Make instalado. Em um tipo terminal:
-
-```bash
-$ faz
-```
-
-Se você receber `make: comando não encontrado` (ou similar), você não tem Make. Se você receber `feito: *** Nenhum alvo especificado e nenhum makefile foi encontrado.  Pare.` você realmente faz isso.
-
-Nós estaremos usando o **GNU Make** neste tutorial. Verifique se é isso que você tem digitando:
+First, check if you have GNU Make installed already. In a terminal type:
 
 ```bash
-$ fazer --version
+$ make
 ```
 
-Se você não tem o GNU Make mas tem a versão BSD, algumas coisas podem não funcionar como esperado e recomendamos instalar o GNU Make.
+If you get `make: command not found` (or similar), you don't have Make. If you get `make: *** No targets specified and no makefile found.  Stop.` you do have Make.
 
-Para instalar o GNU Make, siga estas instruções:
+We'll be using **GNU Make** in this tutorial. Verify that this is what you have by typing:
 
-- **Linux**: Use seu gerenciador de pacotes para instalar o Make. Por exemplo, no Arch Linux:
+```bash
+$ make --version
+```
+
+If you don't have GNU Make but have the BSD version, some things might not work as expected and we recommend installing GNU Make.
+
+To install GNU Make, please follow these instructions:
+
+- **Linux**: Use your package manager to install Make. For instance on Arch Linux:
 
   ```bash
   $ sudo pacman -S make
@@ -40,39 +40,41 @@ Para instalar o GNU Make, siga estas instruções:
 
   Ubuntu:
   ```bash
-  $ sudo apt-get install build-essencial
+  $ sudo apt-get install build-essential
   ```
 
-- **MacOS**: se você tem o [Homebrew](https://brew.sh/) instalado, é simples:
+- **MacOS**: If you have [Homebrew](https://brew.sh/) installed, it's simply:
 
   ```bash
-  $ Instalações de brew fazem
+  $ brew install make
   ```
 
-  Se você tem uma implementação builtin Make , verifique se é GNU Make , verificando `fazer --version`.
+  If you have a builtin Make implementation, please ensure that it's GNU Make by checking `make --version`.
 
-(rr-make-appendix-advedgr)=
-## Avançado: Gerar Regras usando a Chamada
+(rr-make-appendix-advancedgr)=
+## Advanced: Generating Rules using Call
 
-*Esta seção continua o tutorial acima e demonstra uma característica de fazer para a geração automática de regras.*
+*This section continues the tutorial above and demonstrates a feature of Make for automatic generation of rules.*
 
-Em um pipeline de ciência de dados, pode ser bastante comum aplicar vários scripts para os mesmos dados (por exemplo, quando você está comparando métodos ou testando parâmetros diferentes). Nesse caso, pode ficar tedioso escrever uma regra separada para cada script quando apenas o nome do script muda. Para simplificar esse processo, podemos deixar expandir a chamada [*latiu* receita](https://www.gnu.org/software/make/manual/make.html#Canned-Recipes).
+In a data science pipeline, it may be quite common to apply multiple scripts to the same data (for instance when you're comparing methods or testing different parameters). In that case, it can become tedious to write a separate rule for each script when only the script name changes. To simplify this process, we can let Make expand a so-called [*canned* recipe](https://www.gnu.org/software/make/manual/make.html#Canned-Recipes).
 
-Para seguir adiante, alterne para o `ramo enlatado`:
+To follow along, switch to the `canned` branch:
 
 ```bash
-$ torna a limpeza
-$ git stash --all # note a bandeira '--all' para que também escondamos o Makefile
-$ bits que podem ser finalizados no checkout
+$ make clean
+$ git stash --all        # note the '--all' flag so we also stash the Makefile
+$ git checkout canned
 ```
 
-Neste branch você vai notar que há um novo script no diretório **scripts** chamado `generate_qplot.py`. Este script funciona de forma semelhante ao `generate_histogram. y` script (ele tem a mesma sintaxe de linha de comando), mas ele gera um [QQ-plot](https://en.wikipedia.org/wiki/Q%E2%80%93Q_plot). O arquivo **report.tex** também foi atualizado para incorporar estes pontos.
+On this branch you'll notice that there is a new script in the **scripts** directory called `generate_qqplot.py`. This script works similarly to the `generate_histogram.py` script (it has the same command line syntax), but it generates a [QQ-plot](https://en.wikipedia.org/wiki/Q%E2%80%93Q_plot). The **report.tex** file has also been updated to incorporate these plots.
 
-Após mudar para o branch `em latas` , haverá um repositório que contém uma regra separada para gerar os PQ-Q. Este Makefile se parece com isto: Este Makefile se parece com isto:
+After switching to the `canned` branch there will be a Makefile in the repository that contains a separate rule for generating the QQ-plots. This Makefile looks like this:
 
 ```makefile
 # Makefile for analysis report
-# ALL_CSV = $(wildcard data/*.csv)
+#
+
+ALL_CSV = $(wildcard data/*.csv)
 DATA = $(filter-out $(wildcard data/input_file_*.csv),$(ALL_CSV))
 HISTOGRAMS = $(patsubst data/%.csv,output/figure_%.png,$(DATA))
 QQPLOTS = $(patsubst data/%.csv,output/qqplot_%.png,$(DATA))
@@ -95,65 +97,70 @@ clean:
     rm -f $(HISTOGRAMS) $(QQPLOTS)
 ```
 
-Você notará que as regras para os histogramas e QQ são muito parecidas.
+You'll notice that the rules for histograms and QQ-plots are very similar.
 
-À medida que o número de scripts que você deseja rodar em seus dados cresce, isso pode levar a um grande número de regras no Makefile que são quase exatamente iguais. Nós podemos simplificar isso criando uma [*receita pronta*](https://www.gnu.org/software/make/manual/html_node/Canned-Recipes.html) que recebe o nome do script e o nome do gênero como entrada:
+As the number of scripts that you want to run on your data grows, this may lead to a large number of rules in the Makefile that are almost exactly the same. We can simplify this by creating a [*canned recipe*](https://www.gnu.org/software/make/manual/html_node/Canned-Recipes.html) that takes both the name of the script and the name of the genre as input:
 
 ```makefile
 define run-script-on-data
-saída/$(1)_$(2).png: data/$(2).csv scripts/generate_$(1). y
-    scripts/generate_$(1).py -i $$< -o $$$@
+output/$(1)_$(2).png: data/$(2).csv scripts/generate_$(1).py
+    python scripts/generate_$(1).py -i $$< -o $$@
 endef
 ```
 
-Observe que nesta receita usamos `$(1)` para qualquer `histograma` ou `qqplot` e `$(2)` para o gênero. Isso corresponde a argumentos de função esperados de para a receita em modo `run-script-on-data` pronta. Além disso, observe que usamos `$$<` e `$$@` na receita atual, com dois símbolos `` por escapar Para realmente criar todos os alvos, precisamos de uma linha que chame essa receita em lata. Para realmente criar todos os alvos, precisamos de uma linha que chame essa receita em lata.  Em nosso caso, usamos um laço duplo para sobre os gêneros e os scripts:
+Note that in this recipe we use `$(1)` for either `histogram` or `qqplot` and `$(2)` for the genre. These correspond to the expected function arguments to the `run-script-on-data` canned recipe. Also, notice that we use `$$<` and `$$@` in the actual recipe, with two `$` symbols for escaping. To actually create all the targets, we need a line that calls this canned recipe.  In our case, we use a double for loop over the genres and the scripts:
 
 ```makefile
 $(foreach genre,$(GENRES),\
     $(foreach script,$(SCRIPTS),\
-        $(call run-script-on-data,$(script),$(genre))) \
+        $(eval $(call run-script-on-data,$(script),$(genre))) \
     ) \
+)
 ```
 
-Nessas linhas, o caractere `` é usado para manter linhas longas.
+In these lines the `\` character is used for continuing long lines.
 
-O Makefile completo então se torna:
+The full Makefile then becomes:
 
 ```makefile
-# Makefile para o relatório de análise
-# ALL_CSV = $(wildcard data/*.csv)
-DATA = $(filter-out $(wildcard data/input_file_*. sv),$(ALL_CSV))
+# Makefile for analysis report
+#
+
+ALL_CSV = $(wildcard data/*.csv)
+DATA = $(filter-out $(wildcard data/input_file_*.csv),$(ALL_CSV))
 HISTOGRAMS = $(patsubst %,output/histogram_%.png,$(GENRES))
-QPLOTS = $(patsubst %,output/qqplot_%. ng,$(GENRES)) GENRAS = $(patsubst data/%.csv,%,$(DATA))
-SCRIPTS = histograma qplot
+QQPLOTS = $(patsubst %,output/qqplot_%.png,$(GENRES))
 
-.PHONY: tudo limpo
+GENRES = $(patsubst data/%.csv,%,$(DATA))
+SCRIPTS = histogram qqplot
 
-vezes: output/report. df
+.PHONY: all clean
+
+all: output/report.pdf
 
 define run-script-on-data
-output/$(1)_$(2).png: data/$(2).csv scripts/generate_$(1). y
-    scripts python gerts/generate_$(1). y -i $$< -o $@
+output/$(1)_$(2).png: data/$(2).csv scripts/generate_$(1).py
+    python scripts/generate_$(1).py -i $$< -o $$@
 endef
 
 $(foreach genre,$(GENRES),\
-    $(foreach script,$(SCRIPTS),
-        $(call run-script-on-data,$(script), ,$(genre)))\
+    $(foreach script,$(SCRIPTS),\
+        $(eval $(call run-script-on-data,$(script),$(genre)))\
     )\
 )
 
-saída/relatório. df: relatório/report.tex $(HISTOGRAMS) $(QQPLOTS)
-    cd relatórios/ && pdflatex relatório. ex && relatório mv. df ../$@
+output/report.pdf: report/report.tex $(HISTOGRAMS) $(QQPLOTS)
+    cd report/ && pdflatex report.tex && mv report.pdf ../$@
 
 clean:
     rm -f output/report.pdf
     rm -f $(HISTOGRAMS) $(QQPLOTS)
 ```
 
-Observe que adicionamos uma variável `SCRIPTS` com os nomes de `histograma` e `qplot`. Se fôssemos adicionar outro script que seguisse o mesmo padrão que esses dois, só precisamos adicioná-lo à variável `SCRIPTS` .
+Note that we've added a `SCRIPTS` variable with the `histogram` and `qqplot` names. If we were to add another script that follows the same pattern as these two, we would only need to add it to the `SCRIPTS` variable.
 
-Para construir tudo isso, execute
+To build all of this, run
 
 ```bash
-$ faça -j 4
+$ make -j 4
 ```
