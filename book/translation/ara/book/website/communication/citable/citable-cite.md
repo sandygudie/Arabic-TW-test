@@ -10,8 +10,8 @@ You should cite research objects directly in the paper in places where it is rel
 - Access information (a URL or DOI)
 
 A citation style is a specific arrangement, order and formatting of information necessary for a citation. For instance, the MLA style was developed by Modern Language Association (originally used in the humanities) and the APA style was developed by American Psychological Association (originally used in psychology and the social sciences).
-- نمط الاستشهاد بنظام MLA يستخدم التنسيق التالي: `المؤلف. "Title of the Source." Title of the Container, Other contributors, Version, Number, Publisher, Publication date, Location.`
-- نمط الاستشهاد APA يستخدم التنسيق التالي: `المؤلف. (Year). (سنة) عنوان مجموعة البيانات (رقم الإصدار). [Retrieved from] ***OR*** [DOI]`
+- MLA citation style uses the following format: `Author. "Title of the Source." Title of the Container, Other contributors, Version, Number, Publisher, Publication date, Location.`
+- APA citation style uses the following format: `Author. (Year). Title of data set (Version number). [Retrieved from] ***OR*** [DOI]`
 
 See [Scribbr Citation Styles Guide](https://www.scribbr.com/citing-sources/citation-styles/). See also [FORCE11 resource](https://www.force11.org/node/4771).
 
@@ -24,10 +24,10 @@ You can find examples of these statements in the publishers' (research data) aut
 
 ### Data availability statement examples:
 
-**باستخدام معرف الكائن الرقمي (DOI):** "البيانات التي تدعم نتائج هذه الدراسة متاحة علنا في [اسم المستودع] على http://doi.
+**Using the Digital Object Identifier (DOI):** “The data that support the findings of this study are openly available in [repository name] at http://doi.org/[doi].”
 
 **If no DOI is issued:**
-- "البيانات التي تدعم نتائج هذه الدراسة متاحة بشكل مفتوح في [اسم المستودع] على [URL] ، الرقم المرجعي [الرقم المرجعي]."
+- “The data that support the findings of this study are openly available in [repository name] at [URL], reference number [reference number].”
 
 **When there is an embargo period you can reserve your DOI and still include a reference to the dataset in your paper:**
 - “The data that support the findings will be available in [repository name] at [URL / DOI] following a [6 month] embargo from the date of publication to allow for the commercialisation of research findings.”
