@@ -2,7 +2,7 @@
 # Self Reflection
 
 (er-self-reflection-prerequisites)=
-## Pré-requisitos
+## Prerequisites
 
 There are no prerequisites for this chapter. However, it's advised that you should be aware of the {ref}`legal and human rights<er-law-policy>` context first if you are considering an ethical dialemma.
 
@@ -18,11 +18,12 @@ Our lived experiences and identities give us a particular lens to view the world
 ---
 name: self reflection
 alt: A woman stands in a glasses shop next to the shop assistant who is holding a range of glasses for her to try. She is trying to read a sign to test her sight that has the words 'Gender', 'Race', 'Age', 'Class', 'Education' and 'Sexuality' on it. The sign on the door of the shop says 'Self Reflection - come in and see for yourself'. 
---- Reflexão própria. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+---
+Self Reflection. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
 (er-self-reflection-motivation)=
-## Motivação e fundo
+## Motivation and Background
 
 As data scientists, we may not always see ourselves as people with much power. However, we are constantly creating tools and technologies that alter the course of many people's lives. In that sense, we have a **lot** of power, and with it comes responsibility for working towards justice and equality in our data science work.
 
