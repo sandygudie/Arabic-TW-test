@@ -1,64 +1,64 @@
-# الهيكل المتقدم لتحليل البيانات
+# Advanced Structure for Data Analysis
 
-## الشروط/مستوى المهارة الموصى بها
+## Prerequisites/Recommended Skill Level
 
-| الشروط المسبقة                            | الأهمية | الحواشي                                            |
-| ----------------------------------------- | ------- | -------------------------------------------------- |
-| {ref}`التحكم في الإصدار<rr-vcs>`    | مساعدة  | معرفة استخدام git للتحكم في الإصدار                |
-| {ref}`بحث مفتوح<rr-open>`           | مساعدة  | المكونات جزء من الخلاصة الوافية                    |
-| {ref}`بيئات قابلة للتكرار<rr-renv>` | مساعدة  | يمكن استخدامه لجعل الخلاصة الوافية قابلة للاستنساخ |
+| Prerequisite                                    | Importance | Notes                                           |
+| ----------------------------------------------- | ---------- | ----------------------------------------------- |
+| {ref}`Version Control<rr-vcs>`            | Helpful    | Knowledge of using git for version control      |
+| {ref}`Open Research<rr-open>`             | Helpful    | Components are part of the compendium           |
+| {ref}`Reproducible Environments<rr-renv>` | Helpful    | Can be used to make the compendium reproducible |
 
 ## Summary
 
-وعند التخطيط لدراسة بحثية، يتمثل أحد المكونات الحاسمة التي كثيرا ما تكون منسية في إنشاء مستودع. وفي هذا الفرع، ستعرض الفوائد والاعتبارات المتعلقة بتصميم المستودع، جنبا إلى جنب مع نموذج هيكلي وموارد إضافية لتوجيه سير العمل الخاص بك.
+When planning out a research study, one crucial and often forgotten component is setting up a repository. In this section, the benefits and considerations of designing a repository will be outlined, along with an example structure and further resources to guide your workflow.
 
-ويمكن أن تختلف الشروط المسبقة لهذا الفصل تبعاً للاحتياجات التنظيمية للمشروع. ويمكن أن يتطلب إنشاء مستودع ذي تصميم مشروع بحثي بسيط أدنى قدر من المعرفة التقنية (مثل إدارة بيانات المدخلات فقط ونتائج النواتج). وفي غضون ذلك، يمكن أن تكون هناك حاجة إلى مخططات مستودعات متقدمة لمشاريع أكثر تعقيدا (مثل المشاريع التي تعتمد على مشاريع أخرى).
+The prerequisites for this chapter can vary depending on the organisational needs of a project. Creating a repository with a simple research project layout can require minimal technical knowledge (such as managing only input data and output results). Meanwhile, advanced repository layouts can be required for more complicated projects (such as projects with dependencies on other projects).
 
-## الخلفية
+## Background
 
-المستودع (أو "repo") هو موقع تخزين لمشروع بحثك. يمكن للمستودع أن يحتوي على مجموعة من الكائنات الرقمية ويمكن استخدامه لتخزين مشروعك باستخدام المنصات عبر الإنترنت مثل GitHub. الهدف من المستودع هو تنظيم مشروعك بطريقة يمكن للآخرين الوصول إليها وكفؤة لاستخدامها.
+A repository (or a "repo") is a storage location for your research project. A repository can contain a range of digital objects and can be used to store your project by using online platforms such as GitHub. The aim of a repository is to organise your project in such a way this is both accessible to others and efficient to use.
 
-وحتى الآن، رأينا الوثائق الرئيسية التي ينبغي للمرء إضافتها عند بدء أو إنشاء مستودع للمشروع. إذا كنت تتابع، فيجب أن يحتوي مشروعك على الملفات التالية:
+So far, we saw the key documents that one should add when starting or setting up a project repository. If you are following along, your project should contain the following files:
 
 ```
-مجلد المشروع/
-<unk> <unk> <unk> <unk> ', CODE_OF_CONDUCT          <- مدونة قواعد السلوك لمشاريع المجتمع
-<unk> <unk> ', CONTRIBUTING             <- مبدأ توجيهي للمساهمات للمتعاونين
-<unk> <unk> <unk> <unk> <unk> <unk> ', LICENSE                  <- رخصة البرمجيات
-<unk> <unk> A/C. .                      <- أي ملفات أخرى قد تكون قمت بإضافتها لمشروعك
-<unk> <unk> <unk> <unk> -- README. (د)                <- معلومات عن المستودع
+Project Folder/
+├── CODE_OF_CONDUCT          <- Code of Conduct for community projects
+├── CONTRIBUTING             <- Contribution guideline for collaborators
+├── LICENSE                  <- software license
+├── ...                      <- any other files that you may have added for your project
+└── README.md                <- information about the repo
 ```
 
-وفي هذا الفصل الفرعي، نوجز الفوائد والاعتبارات المتعلقة بتصميم المستودع، إلى جانب هيكل نموذجي وموارد إضافية لتوجيه سير العمل لديك.
+In this subchapter, we outline the benefits and considerations of designing a repository, along with an example structure and further resources to guide your workflow.
 
 ```{note}
-الميزة الرئيسية لتصميم مستودعك عن طريق إضافة الوثائق عمدا، وتسمح الموارد والمعلومات ذات الصلة بإنشاء بنية تحتية للبحوث الأخلاقية والمفتوحة وذات الجودة العالية انطلاقا من مبادرة الوصول إلى الأسواق.
+The main benefit of designing your repository by intentionally adding documentation, resources and relevant information allows creating an infrastructure for ethical, open and high-quality research from the get-go.
 ```
 
-## الاعتبارات الرئيسية
+## Main Considerations
 
-عند مشاركة مواردك عبر المستودع الخاص بك، ضع في اعتبارك الجوانب التالية من قابلية التكرار في بحثك:
+When sharing your resources via your repository, consider the following aspects of reproducibility in your research:
 
-- الشفافية والانفتاح
+- Transparency and openness
 - نظام التحكم في الإصدار (لا مزيد من الملفات مثل final_v1_FINAL. R, final_v2_FINAL. R, ...)
-- اجعل من السهل التنقل بحيث توفر الوقت لكل المعنيين
-- النظر في {ref}`pd-Overview-repro` الجوانب
-- تأكد من أنك تقدم تفاصيل كافية حتى يتمكن الآخرون من البناء على عملك
+- Make it easy to navigate so that you save time for everyone involved
+- Consider {ref}`pd-overview-repro` aspects
+- Make sure that you provide sufficient details so that others can build on your work
 
-## التوصيات الرئيسية
+## Main Recommendations
 
-التفكير دائماً في تصميم مشروعك للتعاون بإضافة وثائق رئيسية تصف أهداف المشروع ورؤيته وخريطة الطريق ومساهمته وعملية الاتصال (على النحو المبين في الفصول الفرعية السابقة).
-- قم بتضمين التفاصيل في {ref}`ملف README<pd-project-repo-readme>`وصف _ما هو_ المستودع له و _كيف_ للتنقل
-- توفير الرؤية، الأهداف وخريطة الطريق كلما كان ذلك ممكنا (انظر [خريطة طريق مطور كامران أحمد](https://github.com/kamranahmedse/developer-roadmap) على سبيل المثال)
-- وينبغي أن يكون الهيكل العام منفصلا بين المدخلات (البيانات) والأساليب (البرامج النصية) والناتج (النتائج والأرقام والمخطوط)
-- حدد ما لا ينبغي تعقبه في ملف `.gitignore` مثل الملفات الحساسة/الخاصة أو مجموعة البيانات الكبيرة أو الملاحظات الشخصية
-- قم بتضمين معلومات عن البيئة الحسابية الخاصة بك {ref}`البيئات القابلة للتكرار<rr-renv>` لضمان قابلية التكرار (يمكن تحديد هذا أيضا في README)
+Always consider designing your project for collaboration by adding key documents describing project goals, vision, roadmap, contribution and communication process (as described in earlier subchapters).
+- Include details in {ref}`README file<pd-project-repo-readme>`describing _what_ the repository is for and _how_ to navigate it
+- Provide vision, goals and roadmap wherever possible (see [Kamran Ahmed's developer roadmap](https://github.com/kamranahmedse/developer-roadmap) for example)
+- General structure should separate input (data), methods (scripts) and output (results, figures, manuscript)
+- Specify what shouldn't be tracked in the `.gitignore` file, such as sensitive/private files, large dataset or personal notes
+- Include information on your computational environment {ref}`Reproducible Environments<rr-renv>` to ensure reproducibility (this can also be specified in the README)
 
-## مثال على هيكل المستودع
+## Example Repository Structure
 
-### مثال لمشروع بحثي
+### Example for a Research Project
 
-فيما يلي اقتراح بملفات ومجلدات يجب أن يكون لمشروع بحث.
+Here are suggestion of files and folders a research project must have.
 
 ```
 مجلد المشروع/
@@ -85,9 +85,9 @@
 └── report.md                <- report of project
 ```
 
-### مثال مع كل مجلد ممكن
+### Example with Every Possible Folder
 
-هذا المثال يظهر ملفات ودليل مختلف يمكن أن يحتوي عليه المشروع عند إنشاء تطبيق برمجي أو أدوات هندسية بحثية.
+This example shows different files and directory a project can contain when building a software application or research engineering tools.
 
 ```
 Project Folder/                        
@@ -127,22 +127,22 @@ Project Folder/
 └── test                     <- unit tests  
 ```
 
-## الموارد
+## Resources
 
-### حزم R و بايثون
+### R and Python Packages
 
 | crwdns4735:0crwdne4735:0                                          | Python                                                       |
 | ----------------------------------------------------------------- | ------------------------------------------------------------ |
 | [rrtools](https://annakrystalli.me/rrresearch/10_compendium.html) | [compendium-dodo](https://pypi.org/project/compendium-dodo/) |
-| [قالب](https://github.com/Pakillo/template)                       | [css-compendium](https://pypi.org/project/ccs-compendium/)   |
-| [خلاصة](https://github.com/FRBCesab/rcompendium)                  |                                                              |
-| [إعادة](https://github.com/richfitz/remake)                       |                                                              |
+| [template](https://github.com/Pakillo/template)                   | [css-compendium](https://pypi.org/project/ccs-compendium/)   |
+| [rcompendia](https://github.com/FRBCesab/rcompendium)             |                                                              |
+| [remake](https://github.com/richfitz/remake)                      |                                                              |
 
-### أمثلة محصورة لمستودعات GitHub
+### Curated Examples of GitHub Repositories
 
-- [_طريق التورنج_ رد المشروع](https://github.com/alan-turing-institute/the-turing-way)
-- [مستودع مشروع كتاب المشتري](https://github.com/executablebooks/jupyter-book)
-- [حزمة بانداس](https://github.com/pandas-dev/pandas)
-- [تعديل محرر النص](https://github.com/atom/atom)
+- [_The Turing Way_ project repo](https://github.com/alan-turing-institute/the-turing-way)
+- [Jupyter Book project repo](https://github.com/executablebooks/jupyter-book)
+- [Pandas Package repo](https://github.com/pandas-dev/pandas)
+- [Atom Text Editor repo](https://github.com/atom/atom)
 
-للمزيد من التفاصيل، يرجى اتباع {ref}`المشروع -repo-recommendations-المتقدمة`.
+For more details, please follow {ref}`project-repo-recommendations-advanced`.
