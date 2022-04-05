@@ -9,7 +9,7 @@
 宽度：500px
 Alt：研究软件开发者通过使软件易于辨认而获得承认。
 ---
-研究软件开发者通过使软件易用而获得承认。 Stereteria的绘画线路项目示例。 Zenodo. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
+研究软件开发者通过使软件易用而获得承认。 _The Turing Way_ project illustration by Scriberia. Zenodo. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
 ```
 
 若要提供此元数据，请先编写一个 `CITATION.cff` 文件，并将其包含在您的软件或数据集中。 ff</code> 文件将信息汇总到一个关键值格式中，它可以被人类轻松地解释和更新。 并使用现有工具轻松解析和转换。
@@ -27,7 +27,7 @@ Alt：研究软件开发者通过使软件易于辨认而获得承认。
 宽度：500px
 Alt：为软件创建者提供更多积分。
 ---
-为软件创建者提供更多积分。 Stereteria的绘画线路项目示例。 Zenodo. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
+为软件创建者提供更多积分。 _The Turing Way_ project illustration by Scriberia. Zenodo. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
 ```
 
 它对您的软件用户来说更容易：
