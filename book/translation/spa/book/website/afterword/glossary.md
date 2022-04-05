@@ -11,8 +11,8 @@ Acceptance Testing
 Acknowledgements
  Where contributions to a project that don't qualify as authorship are written. It records the contributors name and the contribution that they made is described.
 
-Añadir
- Comando usado para agregar archivos al área de escenaje. Allows the user to specify which files or directories to include in the next commit.
+Add
+  Command used to add files to the staging area. Allows the user to specify which files or directories to include in the next commit.
 
 Authors
   Authors in this context are the contributors to _The Turing Way_ project who have made a substantial contribution to the project such as writing a subchapter, facilitating community interactions, maintaining project’s infrastructure and supporting the participation of others through mentored-contributions. All authors are named co-authors on the book as a whole.
@@ -36,8 +36,8 @@ Binderize
 Branch
   A parallel version of a repository. Although it is contained within the same repository it allows you to develop it separately and then merge changes back into the ‘live’ repository or with other branches when appropriate.
 
-Error
-  Esto es un error, falla o falla en un programa de ordenador o sistema que provoca que produzca un resultado incorrecto o inesperado.
+Bug
+  This is an error, flaw or fault in a computer program or system that causes it to produce an incorrect or unexpected result, or to behave in unintended ways.
 
 Build
   A group of jobs. For example, a build might have two jobs, each of which tests a project with a different version of a programming language. A build finishes when all of its jobs are finished.
@@ -185,8 +185,10 @@ Github
   An online code hosting and version control service. It has a great many features to aid collaboration between users, and hosts a large number of open source projects.
 
 GitLab
-  GitLab es una herramienta de ciclo de vida de DevOps basada en web que proporciona un administrador de repositorio Git que proporciona wiki, seguimiento de incidencias e integración continua y funciones de despliegue de pipeline, utilizando una licencia de código abierto, desarrollada por GitLab Inc. Autor fantasma
- Es una persona que escribe un artículo académico sin haber llevado a cabo la investigación. It could be a professional writer. They would often not qualify as an author under the ICMJE criteria for authorship.
+  GitLab is a web-based DevOps lifecycle tool that provides a Git-repository manager providing wiki, issue-tracking and continuous integration and deployment pipeline features, using an open-source license, developed by GitLab Inc.
+
+Ghost author
+ It is a person who writes an academic article without having carried out the research. It could be a professional writer. They would often not qualify as an author under the ICMJE criteria for authorship.
 
 Gift author
  People who are listed as authors but who did not make significant contributions to the research. This is also known as a guest author.
@@ -224,14 +226,14 @@ Image
 Integration Testing
   A level of software testing where individual units are combined and tested as a group. The purpose of this level of testing is to expose faults in the interaction between integrated units.
 
-Interseccionalidad
-  La forma en que las identidades de una persona (género, raza, clase, orientación sexual, la capacidad física y otros) puede solaparse e interconectarse para formar una experiencia única de condición social, discriminación u opresión. Este término fue acuñado por el profesor Kimberle Crenshaw.
+Intersectionality
+  The way in which a person's identities (gender, race, class, sexual orientation, physical ability and others) can overlap and intersect to form a unique experience of social status, discrimination or oppression. This term was coined by Professor Kimberlé Crenshaw.
 
-Problemas
-  Sistema de seguimiento de errores para GitHub. Los colaboradores pueden usar problemas para reportar errores, solicitar características o establecer hitos para proyectos. Los problemas son seguidos, reportados y cerrados por los colaboradores durante el proceso de desarrollo. Son una excelente forma de comunicarse con su equipo y de informar de su progreso.
+Issues
+  Bug tracking system for GitHub. Collaborators can use issues to report bugs, request features, or set milestones for projects. Issues are tracked, reported, and closed by collaborators during the development process. They’re a great way of communicating with your team and reporting progress.
 
-Seguimiento de problemas
-  El proceso de seguimiento de los problemas actuales del proyecto, como la corrección de errores, el despliegue de nuevas características o planes de compromiso con la comunidad.
+Issue Tracking
+  The process of tracking current issues on the project, such as bug fixing, rolling out new features or community engagement plans.
 ```
 ---
 ## J
