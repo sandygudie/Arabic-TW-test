@@ -21,7 +21,7 @@ The permission level provided by a Creative Commons data license can be understo
 | **Permission Mark** | **What can I do with the data?** |
 | ------------------- | -------------------------------- |
 |                     |                                  |
- BY | El creador debe ser acreditado SA | Los derivados o redistribuciones deben tener una licencia idéntica NC | Sólo los usos no comerciales están permitidos ND | No se permiten derivados
+ BY | Creator must be credited SA | Derivatives or redistributions must have identical license NC | Only non-commerical uses are allowed ND | No derivatives are allowed
 
 
 For example, the CC BY-ND license specifies that users must credit the creator of the data and cannot create any derivatives.
