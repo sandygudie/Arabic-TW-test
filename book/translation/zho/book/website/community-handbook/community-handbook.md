@@ -32,7 +32,7 @@ Visit the Turing Way GitHub repository at [https://github.com/alan-turing-instit
 
 If you are new and would like to connect with us, join our [Gitter channel](https://gitter.im/alan-turing-institute/the-turing-way). We also host bimonthly [online Collaboration Cafés](https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md) to cowork online with our community members online. This would be the right place to get opinions from other community members and request their feedback and review on your work.
 
-对于具体的问题或问题，您可以通过电子邮件联系我们的社区管理员 **Malvika Sharan** [msharan@turing.ac.uk](mailto:msharan@turing.ac.uk) 或者，您可以通过电子邮件联系主要调查员 **Kirstie Whitaker** [kwhitaker@turing.ac.uk](mailto:kwhitaker@turing.ac.uk) Alternatively, you can contact the lead investigator **Kirstie Whitaker** by email at [kwhitaker@turing.ac.uk](mailto:kwhitaker@turing.ac.uk).
+For specific questions or concerns, you can contact our community manager **Malvika Sharan** by email at [msharan@turing.ac.uk](mailto:msharan@turing.ac.uk). Alternatively, you can contact the lead investigator **Kirstie Whitaker** by email at [kwhitaker@turing.ac.uk](mailto:kwhitaker@turing.ac.uk).
 
 To stay updated with our community events, subscribe to [_The Turing Way_ calendar](https://calendar.google.com/calendar?cid=dGhldHVyaW5nd2F5QGdtYWlsLmNvbQ). To receive monthly newsletters, [join our mailing list](https://tinyletter.com/TuringWay)
 
@@ -43,7 +43,7 @@ We are also on [Twitter](https://twitter.com/turingway), follow us for daily upd
 Here are a few suggestions for a good first contributions:
 
 - Fix a typo in [the book](https://the-turing-way.netlify.com) and/or [repository](https://github.com/alan-turing-institute/the-turing-way).
-- 在 GitHub</a> 上打开一个
+- Flag the unclear or duplicated information in the book by opening an [issue on the GitHub](https://github.com/alan-turing-institute/the-turing-way/issues).
 - Fix an [old issue](https://github.com/alan-turing-institute/the-turing-way/issues) or comment on the the [pull requests](https://github.com/alan-turing-institute/the-turing-way/pulls).
 - Write your personal experience of reproducible research in this [google form](https://goo.gl/forms/akFqZEIy2kxAjfZW2).
 - See more info on the GitHub: https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md
