@@ -1,39 +1,39 @@
 (ch-templates)=
-# مجموعة النماذج
+# Template Collection
 
-***هذه الصفحة تعمل كفهرس لجميع موارد القالب المقدمة في دليل مجتمع طريق تورينج***
+***This page serves as an index for all the template resources provided within The Turing Way Community Handbook***
 
 ```{figure} ../figures/templates.png
 ---
-الطول: 200px
-الاسم: قوالب
-بديلة: مثال توضيحي لشخص, ربما مهندس معماري يصنع رسمة
+height: 200px
+name: templates
+alt: An illustration of a persona, probably an architect making a sketch
 ---
-مثال توضيحي لعملية رسمة. [صورة خالية من الملكية من العديد من البكسل](https://www.manypixels.co/gallery/)
+Illustration of a process of sketching. [Royalty free image from Many Pixels](https://www.manypixels.co/gallery/)
 ```
 
-(chtemplate-bookdash)=
-## أحداث دش الكتاب
+(ch-template-bookdash)=
+## Book Dash Events
 
-هناك أربعة قوالب ماركداون للملاحظات المشتركة (HackMD)، ردود الفعل و مشكلة GitHub لتنظيم وتشغيل _طريق التورين_ أحداث تجزئة الكتاب. يمكن إعادة استخدام هذه القوالب وتكييفها لأحداث مختلفة داخل وخارج مجتمع _الطريق إلى اللعبة_.
+There are four MarkDown templates for the shared notes (HackMD), feedback and GitHub issue for organising and running _The Turing Way_ book dash events. These templates can be reused and adapted for different events within and outside _The Turing Way_ community.
 
-- {ref}`قالب HackMD لصفحة الفهرس<ch-template-bookdash-index>`
-- {ref}`قالب HackMD للمكالمات السابقة للحدث<ch-template-bookdash-precall>`
-- {ref}`قالب مشكلة للتخطيط لشرطات الكتاب<ch-template-bookdash-github>`
-- {ref}`قالب HackMD للملاحظات المشتركة<ch-template-bookdash-notes>`
-- {ref}`قالب HackMD لتعليقات الحدث اللاحق<ch-template-bookdash-feedback>`
+- {ref}`HackMD Template for the Index Page<ch-template-bookdash-index>`
+- {ref}`HackMD Template for Pre-Event Calls<ch-template-bookdash-precall>`
+- {ref}`Issue Template for Planning Book Dashes<ch-template-bookdash-github>`
+- {ref}`HackMD Template for Shared Notes<ch-template-bookdash-notes>`
+- {ref}`HackMD Template for Post-Event Feedback<ch-template-bookdash-feedback>`
 
-(chtemplate-cowork)=
-## المكالمات التعاونية
+(ch-template-coworking)=
+## Coworking calls
 
-هناك قوالب ماركداون للملاحظات المشتركة (HackMD) أثناء المكالمات المشتركة التي تم استضافتها من أجل مجتمع _الطريق الوشيك_:
+There are two MarkDown templates for the shared notes (HackMD) during the coworking calls hosted for _The Turing Way_ community:
 
-- {ref}`قالب للمقاهي التعاونية<ch-template-coworking-collabcafe>`
-- {ref}`قالب لمكالمات العمل اليومية<ch-template-coworking-weekly>`
+- {ref}`Template for the Collaboration Cafes<ch-template-coworking-collabcafe>`
+- {ref}`Template for the Daily Coworking Calls<ch-template-coworking-weekly>`
 
 (ch-template-newsletter)=
-## مسودة النشرة البريدية
+## Newsletter Draft
 
-كما نوقش في {ref}`النشرة الإخبارية<ch-newsletters>` فصل، نحن نستخدم قالب مجمل كدليل لجمع مواد إخبارية للنشرات الإخبارية _The Turing Way_ ويتغير باستمرار حسب الأنشطة في المجتمع.
+As discussed in the {ref}`Newsletter<ch-newsletters>` chapter, we use a template outlined as a guide for collecting news items for the _The Turing Way_ newsletters and it constantly changes as per the activities in the community.
 
-- {ref}`قالب لصياغة النشرات الإخبارية<ch-template-newsletter-draft>`
+- {ref}`Template for Drafting Newsletters<ch-template-newsletter-draft>`
