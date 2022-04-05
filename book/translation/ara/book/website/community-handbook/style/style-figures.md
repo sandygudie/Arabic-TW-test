@@ -1,7 +1,7 @@
 (ch-style-figures)=
 # Using figures in _The Turing Way_
 
-We encourage you to add images to _The Turing Way_ book chapters. نحن نشجعك على إضافة صور إلى الفصول المكتوبة _الطريق الوشيك_ هذا القسم من دليل النمط سيشرح كيفية استخدام تنسيق [النص المميز بنية](https://myst-parser.readthedocs.io/en/latest/) (MyST) لإضافته إلى الكتاب مع النص البديل المناسب {ref}`<ch-style-figures-alttext>` و {ref}`التسميات التوضيحية<ch-style-figures-caption>`.
+We encourage you to add images to _The Turing Way_ book chapters. This section of the style guide will explain how to use [Markedly Structured Text](https://myst-parser.readthedocs.io/en/latest/) (MyST) format to add them to the book with appropriate {ref}`alt text<ch-style-figures-alttext>` and {ref}`captions<ch-style-figures-caption>`.
 
 We are very passionate about ensuring that the creators of the original image files (including you!) are {ref}`acknowledged appropriately<ch-style-figures-licence>`. Please do not use images that are not licenced for reuse.
 
@@ -56,9 +56,9 @@ This figure can be referred in other files using the {ref} role like:
 Please note that a height of 500px works very well with _The Turing Way_ book, but this is only a suggestion.
 (ch-style-figures-alttext)=
 ## Alternative text
-Alternative text or alt text are used for describing the appearance and function of an image on an HTML page. يمكن تفسير رقم مثالنا بهذه الجملة: *شخصين يتصفحون الملفات بسعادة في درج المستندات* وإضافة نص بديل إلى الشكل هو أحد المبادئ الأولى لتيسير الوصول إلى الشبكة.
+Alternative text or alt text are used for describing the appearance and function of an image on an HTML page. Our example figure can be explained with this sentence: *Two people happily browsing files in a drawer of documents.*
 Adding alternative text to figure is one of the first principles of web accessibility. Screen reader software can read an alt text to better explain the content of the figure to its users.
-(chstyle-figures-caption)=
+All the components of your figure (image file location, size, name, alt text and title) can be encapsulated in section within a markdown file using the following directive:
 
 ````
 ```{figure} ../../figures/file-collection.jpg
@@ -80,7 +80,7 @@ alt: Two people happily browsing files in a drawer of documents.
 _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-فعلى سبيل المثال، يمكن أن يقول أحد العبارات ما يلي:
+When all these components are used correctly, a figure included in a file will be rendered in the online book like in this page:
 
 ```{figure} ../../figures/file-collection.jpg
 ---
@@ -96,7 +96,7 @@ _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licen
 
 Captions appear below the figure. They should be short and concise and include a reference to the source where they are taken from. In particular it is important to describe the licence under which the image is re-used.
 
-(متقدمة-على الطراز)=
+For example, a caption might say:
 
 > Making your first pull request on GitHub. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 
