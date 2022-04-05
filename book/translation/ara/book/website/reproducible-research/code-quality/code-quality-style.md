@@ -1,4 +1,4 @@
-(نمط r-code) =
+(rr-code-style)=
 # Code Style and Formatting
 
 A coding style is a set of conventions on how to format code. For instance, what do you call your variables? Do you use spaces or tabs for indentation? Where do you put comments? Consistently using the same style throughout your code makes it easier to read. Code that is easy to read is easier to understand by you as well as by potential collaborators. Therefore, adhering to a coding style reduces the risk of mistakes and makes it easier to work together on software. [Why Coding Style Matters](http://coding.smashingmagazine.com/2012/10/25/why-coding-style-matters/) is a nice article on why coding styles matter and how they increase software quality.
@@ -7,14 +7,14 @@ For example, [PEP8](https://www.python.org/dev/peps/pep-0008/) is the most widel
 
 For commonly used style guides for various programming languages see the [Language Guides](https://guide.esciencecenter.nl/best_practices/language_guides/languages_overview.html). Google also has a [style guide](https://code.google.com/p/google-styleguide/) for many languages that are used in open source projects originating out of Google.
 
-(r-code-style-and format-formatting)=
+(rr-code-style-and-formatting)=
 ## Automatic formatting
 
-يوجد العديد من الأدوات لتنسيق التعليمات البرمجية تلقائياً بحيث تتبع أسلوباً معيناً. يتيح التنسيق التلقائي جودة أكبر، خاصة عندما تتعاون مع فريق والناس الآخرين بحاجة إلى النظر إلى التعليمات البرمجية التي كتبتها. العديد من المطورين والمنظمات يحافظون على معايير تنسيق التعليمات البرمجية مثل **2 مسافة** أو **4 مسافة داخلية**. استخدام هذه يوصى به بشدة لأن احتمال العثور على الأخطاء (إن وجدت) يزيد عدة أضعاف.
+Numerous tools exists to automatically format code such that it follows a certain style. Automatic formatting enables higher code quality, especially when you are collaborating in a team and other people need to look at the code you've written. Many developers and organisations maintain standards of code formatting like **2-space** or **4-space indentation**. Using these is highly recommended since the probability of finding bugs (if any) increases multifold.
 
-[EditorConfig](https://editorconfig.org) هي أداة مستقلة لغة تساعد على الحفاظ على أنماط المساحة البيضاء المتسقة لأشخاص متعددين يعملون على نفس المشروع عبر محررين مختلفين. يدعم معظم المحررين تحرير الإعدادات إما محلياً أو من خلال إضافة. تقريبا جميع محرري الـ IDEs والنصوص المستخدمين على نطاق واسع يدعم التنسيق التلقائي عند الكتابة. على سبيل المثال: [مجموعة JetBrains IDE](https://www.jetbrains.com/products.html#)، [VSCode](https://code.visualstudio.com/) و [Atom](https://atom.io/).
+[EditorConfig](https://editorconfig.org) is a language independent tool that helps maintain consistent whitespace styles for multiple people working on the same project across various editors. Most editors support EditorConfig either natively or through a plugin. Almost all widely used IDEs and text-editors support automatic code formatting upon typing. For example: [JetBrains IDE Suite](https://www.jetbrains.com/products.html#), [VSCode](https://code.visualstudio.com/) and [Atom](https://atom.io/).
 
-بالإضافة إلى ذلك، هناك العديد من الأدوات الخاصة بلغة معينة لتنسيق التعليمات البرمجية تلقائياً وفقاً لنمط معين. لاحظ أن المحررين كثيرا ما يؤيدون استخدام هذه الأدوات مباشرة من بيئة التحرير.
+In addition to that, there are many language specific tools for automatically formatting code according to a particular style. Note that editors often support using these tools directly from the editing environment.
 
 | Language   | Formatter Tool                                                                                              |
 | ---------- | ----------------------------------------------------------------------------------------------------------- |
@@ -28,18 +28,18 @@ For commonly used style guides for various programming languages see the [Langua
 | CSS        | [CSSTidy](http://csstidy.sourceforge.net/)                                                                  |
 | HTML       | [Tidy](http://tidy.sourceforge.net/)                                                                        |
 
-**نصيحة سريعة**: إذا كنت تستخدم رمز VS كمحرر نصي رئيسي ، يمكنك تمكين تنسيق التعليمات البرمجية التلقائية إلى المتصفح الخاص بك. فتح صفحة التفضيلات الخاصة بك في وضع JSON وإضافة السطر التالي:
+**Quick Tip**: If you use VS Code as your primary text editor, you can enable automatic code formatting right into your browser. Open your preferences page in JSON mode and add the following line:
 
 ```
 "editor.formatOnSave": true,
 ```
 
-(r-code-style-service)=
+(rr-code-style-service)=
 ## Online services providing software quality checks
 
-هناك العديد من خدمات الويب التي تقوم بتحليل التعليمات البرمجية وجعل جودة التعليمات البرمجية مرئية. عادة ما تقوم هذه الخدمات بتشغيل أداة أو أكثر من أدوات تحليل التعليمات البرمجية الثابتة التي يمكن استخدامها أيضًا من سطر الأوامر أو مدمجة في محررك على جهاز الكمبيوتر الخاص بك. يوصى بشدة باستخدام خدمة جودة التعليمات البرمجية التي تتكامل مع مستودع GitHub/GitLab ، حيث يمكنها الكشف عن مشاكل الجودة في طلبات السحب والإبلاغ عنها.
+There are several web services that analyse code and make the quality of the code visible. Usually these services run one or more static code analysis tools that can also be used from the command line or integrated into your editor on your own computer. Using a code quality service that integrates with a GitHub/GitLab repository is highly recommended, as it can detect and communicate quality issues in pull requests.
 
-خدمات تحليل جودة البرمجة هي مواقع الويب التي غالباً ما توفر الميزات التالية:
+Code quality analysis services are websites that often offer the following features:
 
 - Automatically analyse your code after pushing it to GitHub/GitLab
 - Usually free for open source projects
@@ -55,4 +55,4 @@ For commonly used style guides for various programming languages see the [Langua
 - Optionally reports on code coverage generated by a CI build
 - Automatically deploy the repository and generates a preview build for review before final release.
 
-للحصول على قائمة من الخيارات أنظر [Shields.io](https://shields.io/category/analysis) أو [قائمة الخدمات المجانية للمشاريع مفتوحة المصدر](https://github.com/ripienaar/free-for-dev#code-quality).
+For a list of choices see [shields.io](https://shields.io/category/analysis) or [this list of services that are free for open source projects](https://github.com/ripienaar/free-for-dev#code-quality).
