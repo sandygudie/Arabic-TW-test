@@ -33,4 +33,4 @@ There are many chapters that we don't link here to avoid overwhelming readers wh
 We invite you to contribute to this chapter by adding important tools or practices that have not been mentioned here.
 ```
 
-في الفصول الفرعية المختلفة نناقش كيف يمكنك {ref}`بدء التخطيط<pd-overview-planning>` لتصميم المشروع. {ref}`الاتصال والتعاون<pd-overview-repro>` جانب لضمان التكرار، {ref}`أدوات وطرق<pd-overview-methods>` للتأكيد، {ref}`التحكم في الإصدار والوثائق<pd-overview-version>` الجوانب و {ref}`مشاركة بحثك<pd-overview-sharing>`
+In the different subchapters we discuss how you can {ref}`start planning<pd-overview-planning>` for project design, the {ref}`communication and collaboration<pd-overview-repro>` aspect for ensuring reproducibility, {ref}`tools and methods<pd-overview-methods>` for reproducibility, {ref}`version control and documentation<pd-overview-version>` aspects and {ref}`sharing your research<pd-overview-sharing>`.
