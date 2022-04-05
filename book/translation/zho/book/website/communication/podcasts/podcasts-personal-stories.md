@@ -11,7 +11,7 @@ If you want to find out more information about the podcast then look at their [w
 
 We would like to thank **Zoe Ingram** and **Emma Harris** for answering our interview questions about their very successful and enjoyable blog series.
 
-## 1. 1. 您为什么要开始播客？
+## 1. Why did you start your podcast?
 
 **Emma** - While there are a good number of podcasts on Open Science now (which is great), back in 2018 there was only Open Science Radio, which was excellent but often only in German.
 
@@ -19,7 +19,7 @@ We would like to thank **Zoe Ingram** and **Emma Harris** for answering our inte
 
 **Emma** - We felt that a podcast, with the format of interviews with experts on different topics, would be an easy and entertaining way of communicating open science concepts to researchers and others. Even with the rise of e-learning and online workshops, there is an upper limit on how many people you can reach with traditional training. The podcast allows everyone to have access, and for different aspects of open science to be explored in-depth.
 
-## 2. 2. 您是如何开始的？
+## 2. How did you get started?
 
 **Zoe** - It was something that none of us had done before. We had a colleague whose wife had skills in this area so she taught us how to get started. She gave Emma and Luiza feedback about speaking and how to adjust their voices for speaking on the podcast.
 
@@ -29,7 +29,7 @@ We would like to thank **Zoe Ingram** and **Emma Harris** for answering our inte
 
 We made a jingle and there is a new jingle for the new season.
 
-## 3. 3. 你认为你的播客对你的研究/项目/社区有什么影响？
+## 3. What impact do you think your podcast is making on your research/project/community?
 
 **Zoe** - It is hard to know who is listening as you are sending things out to a black box. We do get mail and feedback about the podcast from people that want to suggest themes and volunteer take part.
 
@@ -43,13 +43,13 @@ I think the podcast is a format that is flexible and it is easier to follow a co
 
 Luiza pointed out what a benefit it is for us to be able to learn so much from the guests. It is hard to stay on top of so many fast-paced developments. So, we are in that sense lucky to be able to get to the level of depth of information through the conversations and ask the questions that we want to be answered. I also think it connects people as they hear about other researchers work.
 
-## 4. 4. 您在播客中使用最多的工具/软件？
+## 4. What tools/software do you use most in your podcast?
 
 **Emma** - The mic we used pre-pandemic was an H6 Zoom. For online interviews: Zencastr and a decent headset with a built-in mic. Editing was done on Adobe Premiere Pro.
 
 **Zoe** - The podcast is hosted on PodBean. We are thinking of going over to Audacity for editing as it is free, open source software.
 
-## 5. 5. 您对其他可能有兴趣开始播客的人有什么顶尖提示吗？
+## 5. Do you have any top tips for other people that might be interested in starting a podcast?
 
 **Emma** - Decide on your audience and cater to them, what are their concerns and interests? Create material that reflects those things.
 
@@ -63,13 +63,13 @@ Take some brief notes as they speak so you can come back to earlier points or as
 
 Aim for quality, not quantity, better to have one great episode a month than four okay ones. However, if you are looking to have a large audience it is probably best to be weekly or biweekly.
 
-**Zoe** - Do it as a conversation and have an idea of the audience in mind. 请确保您提出问题以获取信息给听众以便将想法付诸实践。
+**Zoe** - Do it as a conversation and have an idea of the audience in mind. Make sure that you ask questions to get the information for listeners to put ideas into practice - empower people to take action.
 
 If you are trying to start a listener base, then try to interview people that have a lot of followers on Twitter so they can retweet.
 
 Also, make sure you block the whole day for the interview as it is time-consuming and takes up a lot of energy.
 
-## 6. 6. 您在事情上有什么要避免的提示吗？
+## 6. Do you have any tips on things to avoid?
 
 **Emma** - See other podcasts as opportunities for collaboration and cross-promotion, not competition.
 
@@ -79,7 +79,7 @@ Don’t be afraid to ask ‘stupid questions’: if you don’t understand somet
 
 **Zoe** - Nobody likes bad sound so don’t record in noisy environments - particularly outside in windy conditions.
 
-## 7. 7. 你将来在哪里看到你的播客？
+## 7. Where do you see your podcast going in the future?
 
 **Zoe** - We presented a poster at the [Open Science Conference 2021](https://www.open-science-conference.eu/). It looked at the talks that had been covered and mapped these on to the [FOSTER taxonomy of Open Science](https://www.fosteropenscience.eu/resources). This has highlighted what topics we have covered most and what topics we still need to do.
 
