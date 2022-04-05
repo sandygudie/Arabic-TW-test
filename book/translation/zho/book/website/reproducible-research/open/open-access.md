@@ -1,62 +1,62 @@
 (rr-open-access)=
-# 打开访问
+# Open Access
 
 (rr-open-access-whatis)=
-## 什么是开放访问？
+## What Is Open Access?
 
-科学成果的传播和分享自成立以来一直是研究工作的一部分。 第一份科学杂志《哲学交易》是在1665年创立的，并发表了关于科学观测和实验的信件。 科学出版的“商业化”始于1940年代，多年以来都有出版物，例如通过期刊出版， 如通过订阅费或单独购买会议记录或书籍，公众可查阅。
+Disseminating and sharing scientific results has been part of research since it was established. The first scientific journal, Philosophical Transactions, was established in 1665 and published letters about scientific observations and experimentations. The 'commercialisation' of scientific publishing began in the 1940s and for many years publications, such as through a journal, conference proceedings or book, were available to the public if purchased through a subscription fee or individually.
 
-然而，通过综合现有的奖学金并在此基础上积累了新的知识。 在二十一世纪之交，开放访问 [{term}`def<Open Access>`] 运动已建立。 主要通过 [布达佩斯开放准入意向性](https://www.budapestopenaccessinitiative.org/) 和《开放准入柏林宣言》。 《布达佩斯开放准入倡议》引述了以下目标：
-> “我们指的是在公共互联网上免费提供它，允许任何用户阅读， 下载、复制、分发、打印、搜索或链接到这些文章的全文... 他只是限制复制和发行，也是这个领域版权的唯一作用， 应使作者能够控制作品的完整性和得到适当承认和引证的权利。”
+However, new knowledge is built by synthesizing current scholarship and then building upon it. At the turn of the 21st century, the Open Access [{term}`def<Open Access>`] movement was established, principally through the [Budapest Open Access Initative](https://www.budapestopenaccessinitiative.org/) and the Berlin Declaration on Open Access. A quote from the Budapest Open Access Initiative sums up the objective:
+> "We mean its free availability on the public internet, permitting any users to read, download, copy, distribute, print, search, or link to the full texts of these articles...the only constraint on reproduction and distribution, and the only role for copyright in this domain, should be to give authors control over the integrity of their work and the right to be properly acknowledged and cited"
 
-据估计，大约28%的学术文献是 Open Access {cite}`Piwowar2018stateOA`202020年通过开放Access 频道发布的产出比全球传统的订阅频道更多 {cite}`Dimensions2021openaccesssuperps`
+It has been estimated around 28% of the scholarly literature is Open Access {cite}`Piwowar2018stateofOA`and in 2020 more outputs were published through Open Access channels than traditional subscription channels globally {cite}`Dimensions2021openaccesssurpasses`.
 
 (rr-open-access-routes)=
-## 打开访问路径
+## Routes for Open Access
 
-这些视频从 [Welch Medical Library](https://www.youtube.com/watch?v=CFa2QeMgk9k) and [Unpaywall 团队](http://go.sirsidynix.com/2020-04-29-Episode-1-Introduction-to-Open-Access.html) 包含开放访问和下面提到的所有路径的概述。
+An overview of Open Access and all the routes mentioned below are covered in these videos from [Welch Medical Library](https://www.youtube.com/watch?v=CFa2QeMgk9k) and the [Unpaywall team](http://go.sirsidynix.com/2020-04-29-Episode-1-Introduction-to-Open-Access.html).
 
-没有“正确的”方式来进行开放访问，公开分享你的研究——我们在下面分享了三个可以帮助你的方法。 然而，决定是否公开分享您的研究可能取决于您的研究领域的知名度。 你需要多少资源来做到这一点，以及你的资金或机构是否有限制或授权。
+There is no 'correct' way to do Open Access and there are many different routes to sharing your research openly- we have shared 3 below that may help you. However, deciding on whether to share your research openly may depend on how prominent Open Access is in your field of research, how many resources you have to do this and whether there are restrictions or mandates from your funder or institution.
 
 (rr-open-access-preprints)=
-### 预印数
+### Preprints
 
-预印[{term}`def<Preprint>`] 是作者在同行审核之前上传到公共服务器的科学手稿。 第一个名为 [arXiv](https://arxiv.org/) 的预印服务器于1991年建立，用于物理科学。 由于传统刊物效率低下，其他学科的预印服务器在过去5年中大受欢迎。 出现了 [bioRxiv](https://www.biorxiv.org/), [medRxiv](https://www.medrxiv.org/), [ChemRxiv](https://chemrxiv.org/engage/chemrxiv/public-dashboard), [SocArXiv](https://osf.io/preprints/socarxiv) 和更多。 预印使研究人员能够很快获得他们的成果，并在将稿提交给杂志之前提供机会获得对稿件的反馈。 某些期刊如果已经在预印服务器上张贴，认为它是“以前的出版物”，则不允许提交该出版物。 不过， 目前流行的预印品迫使许多出版商拥抱预印品， 或者在像eLife这样的日记中，积极鼓励他们 {cite}`elfe2020预印`。 您可以在 [AAPbio](https://asapbio.org/preprint-info) 找到更多关于预印的信息。
+A preprint [{term}`def<Preprint>`] is a scientific manuscript that is uploaded by the authors to a public server before peer review. The first preprint server called [arXiv](https://arxiv.org/) was established in 1991 for physical sciences. Likely due to the inefficiency of traditional journals, preprint servers for other disciplines have grown hugely in popularity over the last 5 years, with the emergence of [bioRxiv](https://www.biorxiv.org/), [medRxiv](https://www.medrxiv.org/), [ChemRxiv](https://chemrxiv.org/engage/chemrxiv/public-dashboard), [SocArXiv](https://osf.io/preprints/socarxiv) and many more. Preprints allow researchers to get their results out quickly and give the opportunity to get feedback on a manuscript before submitting it to a journal. Some journals will not allow a paper to be submitted if it has already been posted on a preprint server as they consider it 'prior publication', however, the ongoing popularity of preprints has forced many publishers to embrace preprints, or in the case of journals like eLife, actively encourage them {cite}`elife2020preprints`. You can find out more about preprints at [ASAPbio](https://asapbio.org/preprint-info).
 
 (rr-open-access-journal-publishing)=
-### 打开访问记录发布
+### Open Access Journal publishing
 
-传统上，许多期刊是订阅期刊，意味着其内容是在付费墙后面的。 大学可以订阅该期刊。 允许您访问其内容，如果您以订阅机构为基础，或者您可以支付一次性费用访问单个文章。
+Traditionally many journals are subscription journals, meaning their content is behind a paywall. Universities may have subscriptions to that journal, allowing you to access its content if you are based at a subscribing institution or you may be able to pay a one-off fee to access an individual article.
 
-如果内容对每个人开放，无需支付或是订阅机构的成员。 这些杂志的数量仍在迅速增加，有17篇。 00 列于Open Access Journals [DOAJ](http://www.doaj.org) (数据获取2021年11月)。
+如果内容对每个人开放，无需支付或是订阅机构的成员。 The number of these journals is still increasing rapidly, with 17,000 listed in the Directory of Open Access Journals [DOAJ](http://www.doaj.org) (data fetched November 2021).
 
 (rr-open-access-gold-publishing)=
-#### Gold 开放访问发布
+#### Gold Open Access publishing
 
-Gold Open Access Publishing(或有时称为libre)可以定义为向日记支付文章处理费(APC)，因此他们可以在开放访问许可下发布您文章的最后版本， 然后可以为任何人在线永久和免费获取。 作者将保留其文章的版权。 作者将保留其文章的版权。 通常通过他们所选择的 [创作共用许可证](https://creativecommons.org/) 来决定他人可以对文章做些什么。 您可以在此 [视频](https://www.youtube.com/watch?v=QAeTKUpZq_Y) 中找到更多关于 APC的信息。
+Gold Open Access Publishing(或有时称为libre)可以定义为向日记支付文章处理费(APC)，因此他们可以在开放访问许可下发布您文章的最后版本， 然后可以为任何人在线永久和免费获取。 作者将保留其文章的版权。 The author will retain the copyright of their article, usually via a [Creative Commons licence](https://creativecommons.org/) of their choice, which dictates what others can do with the article. You can find out more about APCs in this [video](https://www.youtube.com/watch?v=QAeTKUpZq_Y).
 
-人们往往会对公开访问新闻界发表错误的看法——因为它们对系统较新，往往被错误地认为比“传统”新闻界“不够严格”或“质量较低”。 有些研究人员也被困在所谓的“掠夺性出版”中，他们被骗向欺诈性的期刊支付文章处理费，而不提供能够检查文章质量和合法性的编辑程序。 按照 [Think.Check.check.提交 Guidelines](https://thinkchecksubmit.org/) 可以帮助研究人员避免掠夺性期刊。
+There can often be misconceptions around publishing in Open Access journals- as they are newer to the system they are often wrongly thought of as 'less rigorous' or 'lower quality' than the 'traditional' journals. Some researchers have also been caught up in what is referred to as 'predatory publishing'- where they are tricked into paying an article processing charge to journals that are fraudulent and do not provide editorial processes that check articles for quality and legitimacy. Following the [Think.Check.Submit guidelines](https://thinkchecksubmit.org/) can help researchers to avoid predatory journals.
 
-对黄金开放访问发布的批评也是费用。 装甲运兵车一般大约2000美元，或在某些情况下更多，因此对全球的作者来说可能是令人望而却步。 一些出版商向被世界银行列为低收入经济体的国家的作者提供折扣或豁免，作为您赠款的一部分，可将您的筹款承保。
+A criticism around gold Open Access publishing is also the cost. APCs can generally be around 2000 USD or in some cases more, which can therefore be prohibitive for authors across the globe. Some publishers offer discounts or waivers to authors from countries classified by the World Bank as low-income economies or APCs may be covered by your funder as part of your grant.
 
-虽然有些杂志完全开放访问，但是它们所发表的所有文章都是开放和自由阅读的，有些杂志是混合的。 这些是订阅日记，作者可以选择向APC付款以使其内容开放Access—— 某些期刊的内容将落后于付费墙，有些则可以自由阅读。 虽然出版商争辩说，混合期刊允许作者在传统期刊上公开出版，但许多(特别是资助者)却批评这种模式，因为这种模式“双推法”， 由于出版商被作者付钱，让其内容公开，同时向各大学出售期刊订阅。
+Whilst some journals are fully Open Access, meaning all the articles they publish are open and free to read, some journals are hybrid. These are subscription journals that have an option for authors to pay an APC to make their content Open Access- some of the content of the journal will be behind a paywall and some will be free to read. Whilst publishers argue hybrid journals allow authors to publish openly in traditional journals, many (particularly funders) are critical of this model as 'double dipping', as publishers are being paid by authors to make their content open while simultaneously selling the journal subscription to universities.
 
-(rr-open-access-self-arching)=
-### 自存档
+(rr-open-access-self-archiving)=
+### Self-Archiving
 
-您还可以通过自存档打开您的研究，这种存档经常被称为绿色开放访问或客服(连同前印)。 自我存档 [{term}`def<Self Archiving>`] 运动的目的是为学者提供工具和帮助，以便在开放的机构或基于主题的仓库中存放和传播他们的受访日记文章。 您可以选择自行存档您的作品，使其更容易发现，并且/或者在您在订阅日记刊物上发布后，确保您的作品有一个开放版本。
+You can also make your research open via self-archiving which is often referred to (along with preprints) as Green Open Access or gratis. The self-archiving [{term}`def<Self Archiving>`] movement aims to provide tools and assistance to scholars to deposit and disseminate their refereed journal articles in open institutional or subject-based repositories. You may choose to self-archive your work to make it more discoverable and/or after you've published it in a subscription journal to ensure there is an open version of your paper.
 
-2019年初， 根据 [公开访问存储库的注册表](http://roar.eprints.org/) ，超过4000个存储库可供研究人员自行存档他们的出版物。 这个列表包括机构储存库、基于主题或主题的储存库和收割者。
+At the beginning of 2019, more than 4000 repositories were available for researchers to self-archive their publications according to the [Registry of Open Access Repositories](http://roar.eprints.org/). This list features institutional repositories, subject-based or thematic repositories, and harvesters.
 
-机构存放处一般由从事研究的机构管理，为其社区提供一个公开归档和分享论文和其他研究成果的场所。 研究界通常管理基于主题的存放库，大多数内容与某一具体学科有关。 最后，收割者从不同的仓库汇集成内容，成为进行一般搜索和建立其他增值服务的网站。
+Institutional repositories are generally managed by research performing institutions to provide to their community a place to archive and share papers and other research outputs openly. Research communities usually manage subject-based repositories, and most of the contents are related to a specific discipline. Finally, harvesters aggregate content from different repositories, becoming sites to perform general searches and build other value-added services.
 
-当您决定自己存档您的作品时，您需要检查您已经发布过的日记版权政策(也请考虑在您看哪个日记也要提交您的手稿时这样做)。 许多期刊仍然要求作者将全部版权转让供出版。 这种权利转让意味着提交人必须要求允许在适用法律允许的范围之外再使用他们的作品，除非已经有某些用途。 这种获准的用途可包括教学、与同事分享以及存放处内的自我存档文件。 有时，同一出版商维持的所有期刊都有标准政策。
+When deciding to self-archive your work you will need to check the copyright policy of the journal you've published with (also consider doing this when you are looking at which journal to submit your manuscript too). Many journals still require that authors transfer full copyright for publication. This transfer of rights implies that authors must ask for permission to reuse their work beyond what is allowed by the applicable law unless there are some uses already granted. Such granted uses may include teaching, sharing with colleagues, and self-archiving papers in repositories. Sometimes, there are standard policies across all journals maintained by the same publishers.
 
-然而，一般而言，杂志有自己的政策，特别是代表科学界出版的杂志。 当检查自我归档的条件时， 我们必须确定两个关键问题：可以交存的文件版本，以及何时可以公开提供。
+However, in general, journals have their own policies, especially when they are published on behalf of a scientific society. When looking at the conditions for self-archiving, we must identify two key issues: the version of the paper that can be deposited, and when it can be made publicly available.
 
-关于该版本，有些期刊允许散发所提交的版本，也称作预印本。 它们还允许在公布后用经同行审查的版本取而代之。 由于要求获得研究成果的政策增加， 大多数杂志都允许将公认的文稿，即作者手稿或明信自动归档。 此版本是跟随同行审查进程的最后文本，但尚未应用发布格式或布局。 最后，有些期刊确实允许研究人员交存最后出版的版本，也称作记录版本。
+Regarding the version, some journals allow the dissemination of the submitted versions, also known as a preprint. They also allow its replacement with the peer-reviewed version once it has been published. Due to the increase of policies requiring access to research results, most of the journals allow self-archiving of the accepted version of the paper, also known as the author manuscript or postprint. This version is the final text following the peer review process but does not yet have publication formatting or layout applied. Finally, some journals do allow researchers to deposit the final published version, also known as the version of record.
 
-关于公布该文件的时间，许多期刊规定了从其最初出版起的时期――禁运期。 这可能从零到60个月不等――不允许公开该文件。 有些报刊包括或排除了视版本而定的禁运。 例如，公认的版本可在公布后公布，但公布的版本必须等待12个月。 您可以使用 [SHERPA/ROMEO](http://www.sherpa.ac.uk/romeo/index.php) 检查日志自存档政策。
+Concerning the moment to make the paper publicly available, many journals establish a period from its original publication - the embargo period, which can range from zero to 60 months - were making the paper publicly available is not permitted. Some journals include or exclude embargoes depending on the versions. For instance, the accepted version could be made publicly available after publication, but the published version must wait 12 months. You can check journal policies on self-archiving using [SHERPA/RoMEO](http://www.sherpa.ac.uk/romeo/index.php).
 
 ```{figure} ../../figures/routes-to-OA.jpg
 ---
@@ -65,15 +65,15 @@ Gold Open Access Publishing(或有时称为libre)可以定义为向日记支付�
 Alt：显示打开访问发布路径的列车图像。 绿色航线是免费的，并在行程开始时显示一个预印服务器，并在行程结束时显示自己的存档。 黄金和钻石路线是以作者付费和保险费或机构付款的方式标示的，并在开放式的访问杂志上展示这份出版物。
 ---
 公开发布路由。
-Stereteria的绘画线路项目示例。 在 CC-BY 4.0 许可下使用。 Zenodo的原始版本。 [http://doi.org/10.5281/zenodo.5706310]（http://doi.org/10.5281/zenodo.5706310）
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. Original version on Zenodo. [http://doi.org/10.5281/zenodo.5706310]（http://doi.org/10.5281/zenodo.5706310）
 ```
 
 (rr-open-access-why)=
-## 为什么你应该公开分享你的研究？
+## Why Should You Share Your Research Openly?
 
-如果不分享研究，就毫无用处；如果其他人无法阅读和发扬，最好的研究也是无效的。 公开分享你的研究结果并让其他人在你的领域内外了解你的结果(通过预印) 黄金开放访问发布、自存档或组合3！ 研究人员能够帮助研究人员更有效地开展工作，更好地了解文献，并有助于避免工作重复——如果研究人员知道在其他地方试图进行研究，他们就不想浪费时间和资金。 研究公开进行，让尽可能多的读者参加，也意味着更可能进行检查和复制。 此外， 可以说，支付刊物上刊登的大部分研究费用的纳税人有权免费查阅这项投资所产生的信息。
+Research is useless if it is not shared; even the best research is ineffectual if others are not able to read and build on it. Sharing your research openly and making your results known to others in your field and beyond (via pre-printing, gold open access publishing, self-archiving or a combination of the 3!) can help researchers work more effectively with a better understanding of the literature and helps to avoid duplication of effort- no researcher (or funder) wants to waste time and money conducting a study if they know it has been attempted elsewhere. Research being open and available to the broadest possible pool of readers also means it is more likely to be checked and reproduced. Furthermore, it can be argued that taxpayers who pay for much of the research published in journals have a right to access the information resulting from that investment without charge.
 
-公开发表文章对你作为作者也有好处。 你们的工作很可能接触到更多的受众，这意味着它可能会产生更广泛的社会影响。 公开发表的文章也更有可能具有引文优势 {cite}`Tennant2016openaccess`
+Publishing openly also has benefits for you as an author. Your work is likely to reach a larger audience meaning it may have a broader societal impact. Papers published openly are also more likely to have a citation advantage {cite}`Tennant2016openaccess`.
 
 ```{figure} ../../figures/share-work-openly.jpg
 ---
@@ -82,16 +82,16 @@ name: 共享-工作公开
 Alt: 一张列车行程的海报，沿着五个理由说明你应该公开分享你的研究。
 ---
 公开分享你的研究结果的优点
-_Ting Way_project 展示由 Stereria 编写。 在 CC-BY 4.0 许可下使用。 Zenodo的原始版本。 [http://doi.org/10.5281/zenodo.5706310]（http://doi.org/10.5281/zenodo.5706310）
+_Ting Way_project 展示由 Stereria 编写。 Used under a CC-BY 4.0 licence. Original version on Zenodo. [http://doi.org/10.5281/zenodo.5706310]（http://doi.org/10.5281/zenodo.5706310）
 ```
 
 (rr-open-access-future)=
-## 开放准入的未来
+## The Future of Open Access
 
-开放准入运动推动出版商和许多非营利和营利机构进行改革。 自愿在出版时或在6至12个月内公开刊登他们的文章。 他们还将其许多日报从一个非公开的日报转开。 开放式的订阅模型，作为增加其期刊接触面和影响的一项战略性商业决定。 然而，在费用增加的发行商在公开访问时收取的费用中， [很多是关键的](https://www.the-scientist.com/news-opinion/for-a-hefty-fee-nature-journals-offer-open-access-publishing-68181)。
+The Open Access movement has pushed for change amongst publishers and many, both non-profit and for-profit, voluntarily make their articles openly available at the time of publication or within 6-12 months. They have also switched many of their journals from a closed, subscription model to an open one as a strategic business decision to increase their journal's exposure and impact. However, [many are critical](https://www.the-scientist.com/news-opinion/for-a-hefty-fee-nature-journals-offer-open-access-publishing-68181) of the increasing cost publishers are charging to publish in Open Access.
 
-进一步推动开展更多的研究，并提倡对变化缓慢的出版商进行变革，这是由供资者和利益攸关者联盟支持的 [Plan S](https://www.coalition-s.org/why-plan-s/) 等倡议所产生的。 UKRI 最近还宣布了一项新的开放访问政策 {cite}`ukri2021openaccess`用于他们资助的工作。 要求从2022年4月1日起立即对提交供出版的经同行审查的研究文章开放查阅。
+Further pushes to make more research open and advocate for change in slow-changing publishers has come from initiatives such as [Plan S](https://www.coalition-s.org/why-plan-s/) which is backed by a coalition of funders and stakeholders. UKRI has also recently announced a new Open Access policy {cite}`ukri2021openaccess`for work they fund, requiring immediate open access for peer-reviewed research articles submitted for publication from 1st April 2022.
 
-推动开放也在全球各地盛行，如 [SciELO](https://en.wikipedia.org/wiki/SciELO) 等倡议，这些倡议是为了满足发展中国家的科学通信需要，并为提高人们的能见度和获取科学文献提供了一种有效的途径。
+The push for open is also prevalent across the globe- initiatives such as [SciELO](https://en.wikipedia.org/wiki/SciELO) which was created to meet the scientific communication needs of developing countries and provides an efficient way to increase visibility and access to scientific literature.
 
-筹资者还采取行动，自己成为发行人（称为钻石公开准入）。 [开放Research Europe](https://open-research-europe.ec.europa.eu/) and [Wellcome Open Research](https://wellcomeopenresearch.org/) 等平台是由该特定供资者资助的研究人员开放访问发布平台。 资助者将此视为其受赠者的一项服务——使他们能够在一个地点迅速和公开地出版(由资助者支付基础设施费用和文章处理费)，并且比在一份刊物上发表更加灵活。 这些平台使研究人员能够发表“传统研究文章”以外的一系列文章类型， 例如数据说明、软件工具文章、方法、研究说明等等。 这些受资助的平台也有助于改变针头，并为研究人员评估的新政策提供信息，例如摆脱影响因素。
+Funders have also taken action by becoming publishers themselves (referred to as Diamond Open Access). Platforms such as [Open Research Europe](https://open-research-europe.ec.europa.eu/) and [Wellcome Open Research](https://wellcomeopenresearch.org/) are Open Access publishing platforms for researchers funded by that specific funder. Funders see this as a service for their grantees- allowing them a venue to publish rapidly and openly for free (funders cover the cost of the infrastructure and the article processing charges) and to have more flexibility than publishing in a journal. These platforms allow researchers to publish a range of article types beyond the 'traditional research article', such as data notes, software tool articles, methods, research notes and more. These funder supported platforms also help shift the needle and inform new policies on researcher assessment, such as moving away from impact factors.
