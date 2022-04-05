@@ -7,8 +7,8 @@ This chapter assumes familiarity with several topics covered in this {ref}`rr`. 
 
 ## Summary
 
-在本章中， 介绍了一些可以用于 的案例研究，看看如何在实践中使用可复制的研究方法以及如何应用于各个领域。 If you think that you might have an example to contribute yourself, feel free to open an issue at [here](https://github.com/alan-turing-institute/the-turing-way/issues).
+In this chapter, a selection of case studies is presented that can be used to see how reproducible research methods are used in practice and applied across fields. If you think that you might have an example to contribute yourself, feel free to open an issue at [here](https://github.com/alan-turing-institute/the-turing-way/issues).
 
 ## How this will help you/ why this is useful
 
-Learning by example can be an effective way to learn new concepts. 也许你可以通过调整一个示例 以满足你的需要来开始你的个人项目？
+Learning by example can be an effective way to learn new concepts. Maybe you can start your personal project by adapting one of the examples to your needs?
