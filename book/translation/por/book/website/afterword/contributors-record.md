@@ -38,26 +38,26 @@ Veja esta entrada como um exemplo de Kirstie Whitaker, a líder do projeto:
 
 ### Achintya Rao
 
-* Função:
+* Role:
   * Membro do projeto (2021-Presente)
   * Livro de Participante do Dash 2021
 * GitHub id: [RaoOfPhysics](http://github.com/RaoOfPhysics)
 * ORCID: [0000-0002-1628-2618](https://orcid.org/0000-0002-1628-2618)
 * Biografia curta:
-> Achintya é o Gerente da Comunidade para o _AI for Science and government_ Programation Programation em The Alan Turing Institute. Possui um BSc em física e um mestrado em jornalismo científico. Antes de aderir à The Turing, passou mais de uma década como comunicador científico do CERN, Organização Europeia de Investigação Nuclear, em Genebra. Também está a embrulhar um doutoramento em comunicação científica da UWE Bristol.
+> Achintya is the Community Manager for the _AI for Science and Government_ research programme at The Alan Turing Institute. He has a BSc in physics and an MA in science journalism. Prior to joining The Turing, he spent over a decade as a science communicator at CERN, the European Organization for Nuclear Research, in Geneva. He is also wrapping up a PhD in science communication from UWE Bristol.
 
 * Destaques pessoais:
-> Foi uma alegria ajudar pessoas que nunca tinham usado o GitHub antes de arquivar seus primeiros problemas e fazer seus primeiros pull requests. Eu também me familiarizei com a estrutura do livro e espero poder ajudar outros membros da comunidade a contribuírem para ele no futuro! Foi muito divertido trabalhar com tantas pessoas maravilhosas em um espaço virtual compartilhado.
+> It was a joy helping people who had never used GitHub before file their first issues and make their first pull requests. I also familiarised myself with the structure of the book and can hopefully help other members of the community make contributions to it in the future! It was a lot of fun co-working with so many wonderful people in a shared virtual space.
 
 * Mais informações:
-> Eu adoro que o repo TTW é um lugar não só para contribuir, mas também para aprender, então eu não tinha medo de cometer erros em commits e pull requests. É útil que tantos membros experientes da comunidade estejam lá para ajudar!
+> I love that the TTW repo is a place not just to contribute but also to learn, so I wasn't afraid of making mistakes in commits and pull requests. It’s helpful that so many knowledgeable members of the community are there to help!
 
-* Orçamento Pessoal:
-> _A Forma de Turing_ é um lugar ideal para coletar conhecimento coletivo de diversas experiências em ciência de dados e pesquisa aberta e aprender fazendo.
+* Personal Quote:
+> _The Turing Way_ is an ideal place to gather collective knowledge from diverse experiences in data science and open research, and to learn by doing.
 
 ### Alejandro Coca
 
-* Função:
+* Role:
     * Colaborador Core - Contribuidor de Tradução (2021-Apresentador)
     * Livro de Participante do Dash 2021
 * GitHub id: [acocac](https://github.com/acocac)
@@ -76,7 +76,7 @@ Veja esta entrada como um exemplo de Kirstie Whitaker, a líder do projeto:
 
 ### Alexandre Morley
 
-* Função:
+* Role:
   * Colaborador principal - Mantenedor de Infraestrutura (2018 - 2019)
   * Membro anterior do projeto
 * GitHub id: [alexmorley](http://github.com/alexmorley)
@@ -133,7 +133,7 @@ Veja esta entrada como um exemplo de Kirstie Whitaker, a líder do projeto:
 
 ### Anna Krystalli
 
-* Função:
+* Role:
   * [Membro do](https://the-turing-way.netlify.app/community-handbook/coc/coc-enforcement.html) Comité de Código de Conduta (2018 - presente)
   * Membro anterior do projeto (2018 - 2019)
 * GitHub id: [annakrystalli](http://github.com/annakrystalli)
@@ -146,7 +146,7 @@ Veja esta entrada como um exemplo de Kirstie Whitaker, a líder do projeto:
 
 ### Arielle Bennett
 
-* Função:
+* Role:
   * Membro do projeto (2021-Presente)
   * Comitê de Planejamento do Livro Dash 2021
   * Livro de Participante do Dash 2020
@@ -162,7 +162,7 @@ Veja esta entrada como um exemplo de Kirstie Whitaker, a líder do projeto:
 * Mais informações:
 > O capítulo de papéis da infraestrutura da pesquisa não está terminado! Esperamos que as pessoas contribuam com a visão geral de mais papéis neste espaço. ou compartilhe sua trajetória de carreira e seu plano de fundo como estudos de caso no futuro.
 
-* Orçamento Pessoal:
+* Personal Quote:
 > É sempre um prazer trabalhar com participantes do Book Dash, experientes e novos, para criar algo incrível. O Book Dash é uma experiência incrível tanto para os membros mais recentes como para os estabelecidos da comunidade. É um trabalho alegre gastar tempo concentrado em desenvolver conteúdo para a Caminho de Turing e apoiar pessoas de todo o mundo para contribuir. Sinto-me feliz por ter podido participar e assumir um papel mais proeminente como parte do comité organizador.
 
 
@@ -172,7 +172,7 @@ Veja esta entrada como um exemplo de Kirstie Whitaker, a líder do projeto:
 
 ### Batool Almarzouq
 
-* Função:
+* Role:
     * Colaborador Principal, Mantenedor de Infraestrutura (2021-Present)
     * Comitê de Planejamento do Livro Dash 2021
     * Livro de Participante do Dash 2021
@@ -229,7 +229,7 @@ Veja esta entrada como um exemplo de Kirstie Whitaker, a líder do projeto:
 
 ### Ferreiro Camila Rangel
 
-* Função:
+* Role:
   * Colaborador Principal - Lead de Tradução do Projeto (Espanhol) (2020 - Apresentador)
   * Livro Dash maio de 2019 participante
 * GitHub id: [crangelsmith](https://github.com/crangelsmith)
@@ -252,7 +252,7 @@ Veja esta entrada como um exemplo de Kirstie Whitaker, a líder do projeto:
 
 ### Emma Karoune
 
-* Função:
+* Role:
     * Membro do projeto (2020-Presente)
     * Livro de Participante do Dash 2020-2021
     * Comitê de Planejamento do Livro Dash 2021
@@ -309,7 +309,7 @@ Veja esta entrada como um exemplo de Kirstie Whitaker, a líder do projeto:
 
 ### Heidi Seibold
 
-* Função:
+* Role:
   * Contribuidor principal (2020-Presente)
   * Livro de Participante do Dash 2020
 * GitHub id: [HeidiSeibold](https://github.com/HeidiSeibold)
@@ -341,7 +341,7 @@ Veja esta entrada como um exemplo de Kirstie Whitaker, a líder do projeto:
 
 ### Ismael Kherroubi Garcia
 
-* Função:
+* Role:
   * Colaborador principal - Guia para Pesquisa Ética (2020-2021)
   * [OLS-2 para líder de projeto Turing](https://github.com/alan-turing-institute/the-turing-way/tree/main/open-life-science-mentoring)
   * Livro de Participante do Dash 2020
@@ -361,7 +361,7 @@ Veja esta entrada como um exemplo de Kirstie Whitaker, a líder do projeto:
 
 ### Jessica Scheick
 
-* Função:
+* Role:
   * Colaborador principal (2021-Presente)
   * Livro de Participante do Dash 2021
 * GitHub id: @JessicaS11
@@ -406,7 +406,7 @@ Veja esta entrada como um exemplo de Kirstie Whitaker, a líder do projeto:
 
 ### Laura Acion
 
-* Função:
+* Role:
   * Colaborador principal (2020)
   * Livro de Participante do Dash 2020
 * GitHub id: [lauracion](http://github.com/lauracion)
@@ -419,7 +419,7 @@ Veja esta entrada como um exemplo de Kirstie Whitaker, a líder do projeto:
 
 ### Carregador de Laura
 
-* Função:
+* Role:
   * Colaborador principal - Guia para Pesquisa Ética (2020-2021)
   * Comitê de Planejamento do Livro Dash 2021
   * [OLS-2 para líder de projeto Turing](https://github.com/alan-turing-institute/the-turing-way/tree/main/open-life-science-mentoring)
@@ -435,7 +435,7 @@ Veja esta entrada como um exemplo de Kirstie Whitaker, a líder do projeto:
 * Mais informações:
 > Estou interessado em metodologias de pesquisa feministas e cercadoras e em estruturas de poder e sistemas de categoria. Ao longo da minha carreira, a maior parte do meu trabalho tem sido na compreensão desses sistemas. Como funcionam e como prejudicam: para que possam ser desmantelados! Mais informações sobre mim no meu [site](https://lauracarter.github.io/).
 
-* Orçamento Pessoal:
+* Personal Quote:
 > "Eu não sou de um campo de tecnologia, mas aprendi muito sobre o github como uma ferramenta para trabalhar colaborativamente: obrigado tanto por todos os que fizeram parte do livro de novembro de 2020 por todos os seus conselhos úteis!"
 
 ### Lena Karvovskaya
@@ -460,7 +460,7 @@ Veja esta entrada como um exemplo de Kirstie Whitaker, a líder do projeto:
 
 ### Bowler Louise
 
-* Função:
+* Role:
   * Membro anterior do projeto (2019)
   * Livro Participante/Auxiliar 2020
 * GitHub id: [LouiseABowler](http://github.com/LouiseABowler)
@@ -479,7 +479,7 @@ Veja esta entrada como um exemplo de Kirstie Whitaker, a líder do projeto:
 
 ### Sharan Malvika
 
-* Função:
+* Role:
   * Membro do projeto - Co-lead Investigator (2021-Present)
   * Gerente de Comunidade Anterior (2019 - 2021)
   * Livros Participantes do Dash 2019
@@ -540,7 +540,7 @@ Veja esta entrada como um exemplo de Kirstie Whitaker, a líder do projeto:
 
 ### Marta Mangiarulo
 
-* Função:
+* Role:
   * Livro Participante/Auxiliar (2020-2021)
 * GitHub id: [Marta-MM](http://github.com/Marta-MM)
 * ORCID: [0000-0001-7995-3717](https://orcid.org/0000-0001-7995-3717)
@@ -572,7 +572,7 @@ Veja esta entrada como um exemplo de Kirstie Whitaker, a líder do projeto:
 
 ### Martina G. Vilas
 
-* Função:
+* Role:
   * Colaborador principal (2020 - Presente)
   * Mantenedor de Infraestrutura JupyterBook (2020)
   * OLS-2 para mentor de Turing
@@ -611,7 +611,7 @@ Veja esta entrada como um exemplo de Kirstie Whitaker, a líder do projeto:
 
 ### Patricia Herterich
 
-* Função:
+* Role:
   * Membro anterior do projeto (2019 - 2020)
 * GitHub id: [pherterich](http://github.com/pherterich)
 * ORCID: [0000-0002-4542-9906](https://orcid.org/0000-0002-4542-9906)
@@ -626,7 +626,7 @@ Veja esta entrada como um exemplo de Kirstie Whitaker, a líder do projeto:
 
 ### Paulo Owoicho
 
-* Função:
+* Role:
   * Membro anterior do projeto (2020)
   * Google Season of Doc: Escritor Técnico (2020)
   * [Lead do projeto OLS-2 para Turing](https://github.com/alan-turing-institute/the-turing-way/tree/main/open-life-science-mentoring)(2020)
@@ -639,7 +639,7 @@ Veja esta entrada como um exemplo de Kirstie Whitaker, a líder do projeto:
 * Destaques pessoais:
 > A Caminho de Transformação é a minha primeira investida em código aberto e tem sido uma fantástica experiência de aprendizagem. Não só consegui uma compreensão e apreciação mais profunda pelo modo como o GitHub funciona, mas estou também a aprender a dar prioridade à sustentabilidade e a capacitar o trabalho que desenvolvo. Embora a Modo Turing seja o meu primeiro projeto de código aberto, eu apreciei completamente a experiência e aprendi muito ao longo do caminho. Antes do programa GSoD, eu usei apenas o Github para 'armazenar' meus projetos. Agora, sou muito mais competente em usar Github para esforços de colaboração e sou mais adepto em trabalhar com ferramentas como a Markdown, Livro de Júpiter e Esfinge. Além disso, aprendi a familiaridade com a criação e trabalho com software de análise na web. Você pode ver o relatório completo da participação de GSoD [aqui](https://github.com/alan-turing-institute/the-turing-way/blob/main/communications/GSOD-applications/GSoD-2020-Project-Report.md). A BookDash novembro de 2020 foi ótima! Foi incrível conhecer, colaborar e compartilhar ideias com pessoas de todo o mundo. Além do Book Dash, The Turing Way é o primeiro projeto de código aberto no qual eu já trabalhei. A experiência tem sido fantástica, e tenciono ficar aqui como contribuinte após o fim do programa Google Season of Docs. Também me vejo a me envolver em outros projetos de código aberto.
 
-* Orçamento Pessoal:
+* Personal Quote:
 > Ásia das habilidades técnicas, eu desenvolvi uma profunda apreciação pelo que o trabalho em um projeto de código aberto implica. Meus mentores me ajudaram a perceber que o valor que eu deixei do programa GSoD não estava na quantidade de trabalho que eu fiz, mas como eu permiti que outros contribuidores também fizessem o trabalho que estava fazendo. Como resultado, aprendi a contribuir como escritor técnico de uma forma reprodutível, sustentável, acessível e inclusiva.
 
 <!---Q
@@ -652,7 +652,7 @@ Veja esta entrada como um exemplo de Kirstie Whitaker, a líder do projeto:
 
 ### Rosie Higman
 
-* Função:
+* Role:
   * Membro do Projeto (2019)
   * Livro Participante/Auxiliar 2019
 * GitHub id: [rosiehigman](http://github.com/rosiehigman)
@@ -667,7 +667,7 @@ Veja esta entrada como um exemplo de Kirstie Whitaker, a líder do projeto:
 
 ### Honra de Rachael
 
-* Função:
+* Role:
   * Membro anterior do projeto - Gerenciador de comunidade (2019)
   * Livro Organizador de Dash 2019
 * GitHub id: [rainsworth](http://github.com/rainsworth)
@@ -699,7 +699,7 @@ Veja esta entrada como um exemplo de Kirstie Whitaker, a líder do projeto:
 
 ### Atirador Samuel
 
-* Função:
+* Role:
   * OLS-2 para mentor de Turing
   * Livro de Participante do Dash 2020
 * GitHub id: [SamGuay](https://github.com/SamGuay)
@@ -714,7 +714,7 @@ Veja esta entrada como um exemplo de Kirstie Whitaker, a líder do projeto:
 
 ### Sarah Gibson
 
-* Função:
+* Role:
   * Membro do Projeto (2018-Apresentador)
   * Mantenedor de Infraestrutura (2019 - presente)
   * OLS para mentor de Turing
@@ -732,7 +732,7 @@ Veja esta entrada como um exemplo de Kirstie Whitaker, a líder do projeto:
 
 ### Sophia Batchelor
 
-* Função:
+* Role:
   * Colaborador principal (2020) - HacktoberFest contribuidor
   * [Lead do projeto OLS](https://github.com/alan-turing-institute/the-turing-way/tree/main/open-life-science-mentoring) (2020)
   * Livro de Participante do Dash 2020
@@ -769,7 +769,7 @@ Veja esta entrada como um exemplo de Kirstie Whitaker, a líder do projeto:
 
 ### Inferno Vicky
 
-* Função:
+* Role:
   * Membro do projeto *Participante do Dash Livro 2021
 * GitHub id: vhellon
 * Twitter: @ vickyhellon
@@ -1220,7 +1220,7 @@ Obrigado vai para essas pessoas maravilhosas ([emoji key](https://allcontributor
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 Este projeto segue a especificação [todos-contribuidores](https://github.com/all-contributors/all-contributors). Contribuições de qualquer tipo! (contribuidores-registro-colaboradores)=
-# Colaborando organizações e projetos
+# Collaborating Organisations and Projects
 
 *A comunidade Turing Way recebe contribuições em espécie de membros apoiados pelos empregadores, projetos ou organizações para sua participação. Tais contribuições são aplicáveis quando um ou vários membros de um projeto ou organização colaboram para criar e manter recursos na Modo de Turing. Estas contribuições também incluem projetos que desenvolvem sobre os recursos da The Turing Way ou colaboram com os membros da equipe The Turing Way a várias capacidades. Reconhecemos o reconhecimento individual de cada um desses membros contribuintes e listamos seus perfis em "Organizações e projetos colaborativos".*
 
@@ -1260,7 +1260,7 @@ Detalhes de cada membro com suas contribuições foram listados em ordem alfabé
 
 ### Carlos Martinez Oritz
 
-* Função:
+* Role:
   * Memebr do Projeto (2020-Presente)
   * Livro de Participante do Dash 2020
   * Comitê de Planejamento do Livro Dash 2021
@@ -1278,7 +1278,7 @@ Detalhes de cada membro com suas contribuições foram listados em ordem alfabé
 
 ### Mateusz Kuzak
 
-* Função:
+* Role:
   * Memebr do Projeto (2020-Presente)
   * Livro Participante/Auxiliar 2020
 * GitHub id: [mkuzak](http://github.com/mkuzak)
@@ -1297,7 +1297,7 @@ _Os membros da equipe_ Turing Way e [membros da diretoria editorial do projeto](
 
 ### Sansone Susanna-Assunta
 
-* Função:
+* Role:
   * Livros Participantes do Dash 2019
 * GitHub id: [susannasansone](http://github.com/susannasansone)
 * ORCID: [0000-0001-5306-5690](https://orcid.org/0000-0001-5306-5690)
@@ -1312,7 +1312,7 @@ _Os membros da equipe_ Turing Way e [membros da diretoria editorial do projeto](
 
 ### Philippe Rocca-Serra
 
-* Função:
+* Role:
   * Livro de Participante do Dash 2020
 * GitHub id: [proccaserra](http://github.com/proccaserra)
 * ORCID: [0000-0001-9853-5668](https://orcid.org/0000-0001-9853-5668)
