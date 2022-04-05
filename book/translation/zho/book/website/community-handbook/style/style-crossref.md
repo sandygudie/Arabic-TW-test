@@ -78,7 +78,7 @@ We will use examples for the chapters in "Reproducible Research" guide located i
 
 **_Case 1_**: When you cross-reference a section of the chapter within the same file _before_ a label has been created.
 
-以上一个 `rrr-overview-resource-addmaterials`为例， 我们可以在同一文件中的一个较早的章节中使用此标签进行交叉引用 ：
+Taking the previous example of `rr-overview-resources-addmaterial`, we can use this label to cross-reference it in an earlier section within the same file using the following:
 
 ```
 {ref}`rr-overview-resources-addmaterial`
@@ -98,7 +98,7 @@ It will appear in your chapter like this: {ref}`rr-overview-resources-reading`.
 
 **_Case 3_**: When you cross-reference a section of a chapter in a different file (chapter) before or after a label has been created.
 
-在“概述”章节的小章“定义”中，我们为“重现”部分创建了标签 `rrr-overview.`
+In the subchapter "Definitions" of the "Overview" chapter, we have created a label `rr-overview-definitions` for the section "Table of definitions for reproducibility".
 
 We can cross-reference it in a different subchapter or chapter. In this case, let's cross-reference it in the landing (main) page of the "Overview" chapter by using the following:
 
