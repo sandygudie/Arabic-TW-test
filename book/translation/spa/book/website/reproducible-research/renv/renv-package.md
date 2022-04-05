@@ -1,7 +1,7 @@
 (rr-renv-package)=
 # Package Management Systems
 
-Package managers install and keep track of the different software packages (and their versions) that you use within an environment. Hay bastantes para elegir, por ejemplo, Yum, Zypper, dpkg, y Nix (que será mencionado en la sección {ref}`rr-renv-binder`). We are going to focus on [Conda](https://conda.io/en/latest/), which has several useful functionalities.
+Package managers install and keep track of the different software packages (and their versions) that you use within an environment. There are quite a few to choose from, for example, Yum, Zypper, dpkg, and Nix (which will be mentioned in the {ref}`rr-binderhub` section). We are going to focus on [Conda](https://conda.io/en/latest/), which has several useful functionalities.
 
 (rr-renv-package-conda)=
 ## What Does Conda Do?
