@@ -7,7 +7,7 @@ El estándar generalizado en el mundo académico ha sido, y sigue siendo, trabaj
 name: new-community
 alt: Una ilustración de 2 personas que están trabajando juntas y discutiendo un gráfico de datos.
 ---
-Hacer que el trabajo en equipo sea efectivo. [Imagen libre de muchos Pixels](https://www.manypixels.co/gallery/)
+Hacer que el trabajo en equipo sea efectivo. [Royalty free image from Many Pixels](https://www.manypixels.co/gallery/)
 ```
 
 ## Marco de equipo
@@ -20,7 +20,7 @@ Hay muchos marcos populares que proporcionan una guía útil sobre cómo trabaja
 
 Desarrollado por los investigadores en Holanda eScience Center, este tutorial se dirige principalmente a las personas que crean software de investigación en un entorno académico. Sin embargo, las prácticas de trabajo en equipo que se tratan aquí son generalmente útiles para cualquier persona que intente trabajar en un equipo en proyectos científicos.
 
-## Otras recomendaciones
+## Further Recommendations
 
 La guía *La Vía Turística* para la Colaboración, también hemos proporcionado recursos útiles para {ref}`facilitando la colaboración remota<remote-collab>`. Especialmente, revisa las recomendaciones para {ref}`organizar<remote-collab-meetings>`, {ref}`lista de herramientas<remote-collab-tools>` y {ref}`gestionando equipos remotos<remote-collab-management>`.
 
