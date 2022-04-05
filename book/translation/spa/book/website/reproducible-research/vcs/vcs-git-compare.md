@@ -30,11 +30,10 @@ It is good practice to **specify the files to be committed**, that is, adding fi
 
 ```{figure} ../../figures/flipped-taj-mahal.png
 ---
-nombre: volteado-taj-mahal
-alt:
-Una foto volteada del Taj Mahal para atraer la atención del lector
+name: flipped-taj-mahal
+alt: A flipped photograph of the Taj Mahal to grab the reader's attention.
 ---
-Volteado Taj Mahal
+Flipped Taj Mahal
 ```
 
 two files are changed:
