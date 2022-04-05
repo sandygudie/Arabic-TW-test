@@ -16,7 +16,7 @@ alt:
 Página de tierra de cffinit. [^cffinitversion]
 ```
 
-## Comenzar
+## Start
 
 En la primera página de la aplicación, introduzca el título de su obra, escriba un mensaje para indicar cómo desea que se mencione su software y seleccione si está creando una CITACIÓN `.` archivo para software o un conjunto de datos.
 
