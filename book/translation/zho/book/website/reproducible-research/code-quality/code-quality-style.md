@@ -1,11 +1,11 @@
 (rr-code-style)=
 # Code Style and Formatting
 
-编码风格是关于如何格式化代码的一组约定。 例如，你叫什么变量？ 您是否使用空格或标签缩进？ 您在哪里发表评论？ 始终如一地在你的代码中使用相同的样式，便于阅读。 易读的代码更容易被您和潜在的合作者理解。 因此，坚持编码风格可以减少错误的风险，并且更容易在软件上合作。 [为什么编码样式事项](http://coding.smashingmagazine.com/2012/10/25/why-coding-style-matters/) 是一个很好的文章，说明为什么编码样式很重要，以及它们如何提高软件质量。
+A coding style is a set of conventions on how to format code. For instance, what do you call your variables? Do you use spaces or tabs for indentation? Where do you put comments? Consistently using the same style throughout your code makes it easier to read. Code that is easy to read is easier to understand by you as well as by potential collaborators. Therefore, adhering to a coding style reduces the risk of mistakes and makes it easier to work together on software. [Why Coding Style Matters](http://coding.smashingmagazine.com/2012/10/25/why-coding-style-matters/) is a nice article on why coding styles matter and how they increase software quality.
 
-例如， [PEP8](https://www.python.org/dev/peps/pep-0008/) 是最常用的 Python 编码风格。 [ECMAScript 6](http://es6-features.org/) aka [ES6](http://es6-features.org/) 是ECMA International 用于Javascript 编程的脚本语言规格。
+For example, [PEP8](https://www.python.org/dev/peps/pep-0008/) is the most widely used Python coding style and [ECMAScript 6](http://es6-features.org/) aka [ES6](http://es6-features.org/) is the scripting-language specification standardized by ECMA International for programming in Javascript.
 
-用于各种编程语言的常用风格指南见 [语言指南](https://guide.esciencecenter.nl/best_practices/language_guides/languages_overview.html)。 谷歌也有一个 [风格指南](https://code.google.com/p/google-styleguide/) 用于源于谷歌的开源项目。
+For commonly used style guides for various programming languages see the [Language Guides](https://guide.esciencecenter.nl/best_practices/language_guides/languages_overview.html). Google also has a [style guide](https://code.google.com/p/google-styleguide/) for many languages that are used in open source projects originating out of Google.
 
 (rr-code-style-and-formation)=
 ## Automatic formatting
