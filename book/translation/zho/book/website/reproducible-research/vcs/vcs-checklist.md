@@ -5,8 +5,8 @@
 ## Make Use of Git
 
 - Make your project version controlled by initialising a Git repository in its directory using `git init`.
-- 使用 `git 添加，将您所有的文件添加到资源库。</li>
-<li>Continue to add and commit changes as your project progresses. Stage the changes in specific files to be committed with <code>git add filename`, and add messages to your commits.
+- Add and commit all your files to the repository using `git add .` then `git commit`.
+- Continue to add and commit changes as your project progresses. Stage the changes in specific files to be committed with `git add filename`, and add messages to your commits.
   - Each commit should make one simple change.
   - No generated files committed.
   - Commit messages are meaningful, with a ~50 character summary at the top.
