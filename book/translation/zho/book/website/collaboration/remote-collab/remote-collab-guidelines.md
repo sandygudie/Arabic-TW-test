@@ -49,7 +49,7 @@ Establish key tasks and milestones at the beginning of the project to determine 
 <!---Add details and more points point to other chapters for details--->
 Your participants must know how they are expected to participate in a meeting. This includes details on how they can contribute to an ongoing discussion (raise hand physically, or use a feature in your call hosting software), how they can share thoughts if they don't feel comfortable talking or how they can help create an overall welcoming environment.
 - Establish a format of communication within the whole group and subgroups.
-  - 例如，缩放用于通话，谷歌文档用于文档，Trello 用于行动点。
+  - Communicate clearly which tool will be used, for example, Zoom for the call, Google Docs for documentation, Trello for action points.
 - Create a pre-defined agenda with an allocated chair and note-taker to prevent informality and loss of focus.
 - Pre-communicate guidelines for creating a safe space for inclusive interactions online, including:
   - Muting microphone when not talking.
