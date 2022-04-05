@@ -76,7 +76,7 @@ The AScW communicated with members via branch bulletins as well as a national pa
 
 Start by finding out if there is a union already in your workplace. If so, there will be a person you can talk to about joining: they might be known as the union rep or steward. Joining the union that already represents people in your workplace increases its ability to bargain on behalf of everyone and organise the workplace. Some workplaces may have several different unions that represent different types of staff. In these cases, you should join the one you feel best matches the type of work you do.
 
-If there is not a union in your workplace, look into the unions that already exist in your area or country. [رابط القسم الخاص بأمثلة النقابات](er-activism-unionisation-unionexamples) قد تكون قادراً على الانضمام إلى واحدة ذات صلة بصناعتك أو بواجباتك: أو قد تكون قادراً على الانضمام إلى نقابة عامة تمثل الكثير من العمال المختلفين.
+If there is not a union in your workplace, look into the unions that already exist in your area or country. [link to section on examples of unions](er-activism-unionisation-unionexamples) You might be able to join one that is relevant to your industry or duties: or you might be able to join a general union that represents lots of different workers.
 
 To join a union, you might have to pay union fees or dues. These are almost always sliding scale, based on how much you earn: some unions also have free membership for people in certain positions or roles.
 
