@@ -1,7 +1,7 @@
 (rr-rdm-metadata)=
 # Documentation and Metadata
 
-Having data available is of no use if it cannot be understood. وبدون بيانات فوقية لتوفير المصدر والسياق، لا يمكن استخدام البيانات بفعالية. فعلى سبيل المثال، يكون جدول الأرقام عديم الفائدة إذا لم تصف العناوين ما تحتويه الأعمدة/الصفوف. ولذلك ينبغي أن تتأكد من أن مجموعات البيانات المفتوحة تتضمن بيانات فوقية متسقة، أي معلومات عن البيانات حتى يتم وصف البيانات وصفا كاملا. ويقتضي ذلك إدراج المعلومات المصاحبة للبيانات في الوثائق والبيانات الفوقية.
+Having data available is of no use if it cannot be understood. Without metadata to provide provenance and context, the data can't be used effectively. For example, a table of numbers is useless if no headings describe what the columns/rows contain. Therefore you should ensure that open datasets include consistent metadata, that is information about the data so that the data is fully described. This requires that information accompanying data is captured in documentation and metadata.
 
 ## Documentation
 
@@ -21,8 +21,8 @@ Metadata is information about the data, descriptors that facilitate cataloguing 
 (rr-rdm-metadata-standards)=
 ### Community Standards - Metadata
 
-فاستخدام معايير تحددها المجتمعات المحلية للبيانات الفوقية أمر حيوي لإجراء بحوث قابلة للاستنساخ ويتيح مقارنة بيانات غير متجانسة مستمدة من مصادر متعددة، المجالات والتخصصات.
+The use of community-defined standards for metadata is vital for reproducible research and allows for the comparison of heterogeneous data from multiple sources, domains and disciplines.
 
-وتشمل معايير البيانات الفوقية المحتوى والمعايير الهيكلية. وتوضح معايير المحتوى المعلومات التي ينبغي تسجيلها عند وصف نوع معين من الموارد وكيفية تسجيل تلك المعلومات. وفي حين أن المعايير الهيكلية تحدد ماهية المجالات وأنواع المعلومات التي ينبغي تسجيلها فيها.
+Metadata standards include content and structural standards. The content standards explain what information should be recorded when describing a particular type of resource and how that information should be recorded. While the structural standards define what the fields are and what types of information should be recorded in them.
 
-كما أن معايير البيانات الفوقية هي أيضا معايير محددة التخصصات. على سبيل المثال، بالنسبة لبيانات الدماغ، [هيكل بيانات تصوير الدماغ](https://doi.org/10.25504/FAIRsharing.rd1j6t) هو المعيار للاستخدام. بيد أنه لا يجوز لكل تخصص أن يستخدم معايير البيانات الفوقية. يمكنك أن ترى ما إذا كان تخصصك يستخدم معايير البيانات الوصفية من خلال [FAIRShar](https://fairsharing.org/)، مورد لتحديد واستشهاد مخططات البيانات الفوقية أو المعرفة، وقواعد البيانات أو المستودعات الموجودة لبياناتك وانضباطك. وهناك أيضا حالات يستخدم فيها الباحثون معايير البيانات الفوقية الأكثر عمومية، فعلى سبيل المثال، عندما يستخدمون محفوظات عامة لتخزين بياناتهم، يتعين عليهم الالتزام بمعايير البيانات الفوقية في المحفوظات. وفي هذه الحالة، يمكن إضافة ملف نصي يتضمن بيانات فوقية تخصصية كجزء من الوثائق.
+Metadata standards are also discipline-specific. For example, for brain data, the [Brain Imaging Data Structure](https://doi.org/10.25504/FAIRsharing.rd1j6t) is the standard to use. Not every discipline may use metadata standards, however. You can see if your discipline uses metadata standards through [FAIRsharing](https://fairsharing.org/), a resource to identify and cite the metadata or identifier schemas, databases or repositories that exist for your data and discipline. There are also situations when researchers make use of more general metadata standards, for example when they use a generic archive to store their data they have to adhere to the metadata standards of the archive. In this case, a text file with discipline-specific metadata can be added as part of the documentation.
