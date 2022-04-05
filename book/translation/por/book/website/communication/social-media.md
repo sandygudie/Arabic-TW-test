@@ -1,73 +1,73 @@
 (cm-social-media)=
-# Redes Sociais para Comunicações de Pesquisas
+# Social Media for Research Communications
 
-Há bilhões de usuários de redes sociais ao redor do mundo. Agora é prática comum o pesquisador anunciar o seu trabalho em redes sociais ou outras plataformas de comunicação baseadas na Internet. Você pode usar as mídias sociais para se comunicar com muitos grupos, tanto acadêmicos quanto públicos laicos.
+There are billions of users of social media around the world. It is now common practice for the researcher to advertise their work on social media or other internet-based communication platforms. You can use social media to communicate with many different groups both academic or lay audiences.
 
-(cm-social-média-benefícios)=
-## Benefícios do uso das redes sociais
+(cm-social-media-benefits)=
+## Benefits of Using Social Media
 
-* Mostra rápida e facilmente o que você, seu time ou sua instituição faz.
-* Proteção das compilações de um tópico ou projeto em que você está trabalhando.
-* Não custa nada já que a maioria das contas pode ser criada e rodada gratuitamente. Embora, manter uma conta de mídia social com sucesso possa ser demorada.
-* Fornece uma visão do impacto que você está tendo em termos de seguidores, visitas e downloads.
-* Aumenta as visitas ao seu site e afeta o ranking de pesquisa.
-* Pode-se saber o que os outros estão a fazer em projectos conexos, disciplinas ou organizações.
-* Você pode construir relacionamentos e, esperamos, colaborações, através dessas redes.
+* Quickly and easily showcases what you, your team or your institution do.
+* Builds awareness of a topic or project that you are working on.
+* Doesn’t cost anything as most accounts can be set up and run for free. Although, maintaining a social media account successfully can be time-consuming.
+* Provides an insight into the impact that you are having in terms of followers, visits and downloads.
+* Increases visits to your website and affects search rankings.
+* You can find out about what others are doing in related projects, disciplines or organisations.
+* You can build relationships, and hopefully collaborations, through these networks.
 
-(cm--plataformas-sociais)=
-## Plataformas de mídia social
+(cm-social-media-platforms)=
+## Social Media Platforms
 
-Você pode usar sites de mídia social acadêmica como ResearchGate ou Academia.edu ou mais gerais como o Twitter, Facebook, Instagram, Youtube e Linkedin.
+You could use academic-based social media sites such as ResearchGate or Academia.edu or more general ones such as Twitter, Facebook, Instagram, Youtube and Linkedin.
 
-Mais de 20 milhões de investigadores (número desde a primavera de 2021) inscreveram-se no ResearchGate e, portanto, isso pode oferecer uma ótima oportunidade para partilhar papéis, conectar-se com colegas através do recurso de mensagens e pode ser usado para anunciar projetos. A utilização da Academia.edu ou do Mendeley traz benefícios semelhantes, embora não sejam tão utilizados como a Investigação.
+More than 20 million researchers (figure from spring 2021) have signed up to ResearchGate and it can therefore offer a great opportunity for sharing papers, connecting with colleagues through the messaging feature and can be used to advertise projects. There are similar benefits to using Academia.edu or Mendeley, although they are not used as much as Researchgate.
 
-Uma crítica regular a estes sites é o spamming do seu e-mail com atualizações constantes que são difíceis de desativar.
+A regular criticism of these sites is the spamming of your email with constant updates that are hard to turn off.
 
-Os sites de mídia social mais gerais são muito populares com públicos acadêmicos e uma pesquisa recente na natureza {cite:ps}`Noorden2014social` destacou que os pesquisadores usam principalmente Twitter e Linkedin para uso profissional, em vez do Facebook.
+More general social media sites are very popular with academic audiences and a recent Nature survey {cite:ps}`Noorden2014social` highlighted that researchers mostly use Twitter and Linkedin for professional use rather than Facebook.
 
-Esta pesquisa também mostrou que o Twitter tinha uma gama mais ampla de utilizações em comparação com outras plataformas de mídia social, como as seguintes discussões, conteúdo do posting de trabalho, descobrindo pares, descobrindo documentos recomendados e comentando sobre outras pesquisas. Tornou-se o canal de escolha de comunicação para muitos investigadores e está a abrir as discussões de investigação numa fase muito mais precoce do que a que se viu anteriormente.
+This survey also showed that Twitter had a wider range of uses compared to the other social media platforms, such as following discussions, posting work content, discovering peers, discovering recommended papers and commenting on others research. It has become the communication channel of choice for many researchers and is opening up research discussions at a much earlier stage than previously seen.
 
-O Twitter pode ser usado para criar um perfil acadêmico pessoal, para utilização ao longo de um projecto de investigação e também pode ser utilizada por organizações para promover o seu trabalho e a sua mensagem. Ele pode tornar a pesquisa mais visível e compreensível para comunidades mais amplas, permitindo que não-cientistas encontrem novas pesquisas instantaneamente. Cientistas também podem ser contatados diretamente pelo público, o que permite um nível de comunicação mais acessível {cite:ps}`Kelesidou2021scicomm`.
+Twitter can be used to build up a personal academic profile, for use throughout a research project and can also be used by organisations to promote their work and message. It can make research more visible and understandable to wider communities by allowing non-scientists to find new research instantaneously. Scientists can also be contacted directly by the public, which enables a more approachable level of communication {cite:ps}`Kelesidou2021scicomm`.
 
-Devido à sua popularidade e a uma ampla gama de usos para fins acadêmicos, os próximos dois sub-capítulos concentram-se em usar o Twitter. No entanto, abaixo está uma visão geral das mídias sociais mais populares usadas por pesquisadores - Twitter, Linkedin, Facebook e Instagram.
+Due to its popularity and wide range of uses for academic purposes, the next two sub-chapters focus on using Twitter. However, below is an overview of the most popular general social media sites used by researchers - Twitter, Linkedin, Facebook and Instagram.
 
 ### Twitter
 
-* Eles têm 353 milhões de usuários ativos mensais.
-* É menos formal do que outras plataformas e muito popular nas audiências académicas.
-* O limite de caracteres é pequeno, apenas 280. Mas pode juntar-se aos tweets em threads.
-* Você pode marcar outros em seus tweets ou fotos.
-* Você pode adicionar links, fotos (tamanho de 1200 x 628 pixels) e vídeos (máximo de 2 minutos 20 segundos) em tweets. Você também pode adicionar links aos vídeos.
-* Se você não tiver uma imagem, adicionar um link irá gerar uma imagem de pré-visualização.
-* É uma plataforma conversacional e de conversas. Então, converse em tweets e use imagens e presentes para fazer seus tweets mais divertidos.
+* They have 353 million monthly active users.
+* It is less formal than other platforms and very popular with academic audiences.
+* Character limit is small, only 280. But you can join tweets in threads.
+* You can tag others in your tweets or photos.
+* You can add links, photos (size 1200 x 628 pixels) and videos (max 2 minutes 20 seconds) in tweets. You can also add links to videos.
+* If you don't have an image, adding a link will generate a preview image.
+* It is a conversational and chatty platform. So be chatty in tweets and use images and gifs to make your tweets more fun.
 
 ### Linkedin
 
-* Eles têm 250 milhões de usuários ativos mensais.
-* É um canal de comunicação mais formal e profissional do que o Twitter e o Facebook.
-* O limite de caracteres é maior que o Twitter em 63.206.
-* Você pode marcar outros em suas publicações.
-* Você pode adicionar links, fotos (tamanho de 1.200 x 628 pixels) e vídeos (máximo de 10 minutos) em postagens.
-* É utilizado como um CV interativo, como recrutamento e rede profissional.
-* Manter as mensagens breves é uma boa ideia.
-* É possível visar um sector ou uma indústria em particular.
-* Se você não tem uma imagem para seu post mas tem um link, irá fazer uma pré-visualização do link, assim verifique se a página que você está vinculando está atualizada e tem uma imagem relevante.
+* They have 250 million monthly active users.
+* It is a more formal and professional communication channel than Twitter and Facebook.
+* Character limit is larger than Twitter at 63,206.
+* You can tag others in your posts.
+* You can add links, photos (size 1200 x 628 pixels) and videos (max 10 minutes) in posts.
+* It is used as an interactive CV, for recruitment and professional networking.
+* Keeping posts brief is a good idea.
+* You can target a particular sector or industry.
+* If you have no image for your post but do have a link, it will make a preview of the link so make sure the page you are linking to is up to date and has a relevant image.
 
-### Siga-nos
+### Facebook
 
-* Eles têm 2,8 bilhões de usuários ativos mensais.
-* Limite de caracteres igual ao Linkedin em 63.206.
-* Você pode adicionar tags a outros usuários.
-* Você pode adicionar links, fotos (tamanho de 1.200 x 628 pixels) e vídeos (até 240 minutos e até tamanho máximo de 4GB de arquivo) a suas publicações.
-* É uma plataforma baseada em comunidade, então você tem que criar essa comunidade e ser relevante para ela.
-* Empresas precisam pagar para que suas publicações sejam vistas como Facebook privilegiam amigos e familiares no algoritmo do feed de notícias. Então, não é a melhor plataforma para organizações profissionais.
+* They have 2.8 billion monthly active users.
+* Character limit the same as Linkedin at 63,206.
+* You can add tags to other users.
+* You can add links, photos (size 1200 x 628 pixels) and videos (up to 240 minutes and max 4GB size file) to your posts.
+* It is a community-based platform so you have to create that community and be relevant to it.
+* Businesses have to pay for their posts to be seen as Facebook prioritises friends and family in the news feed algorithm. So it's not the best platform for professional organisations.
 
 ### Instagram
 
-* Eles têm 1,2 bilhões de usuários ativos mensais.
-* Limite de caracteres é de 2,200. Tão maior que o Twitter, mas menor que o Facebook e o Linkedin.
-* Você pode adicionar tags a outros usuários.
-* Você só pode adicionar links em sua biografia e não em postagens. Mas você pode destacar links usando o Linktree.
-* As fotos são quadradas (1080 x 1080 pixels).
-* Duração do vídeo entre 3 e 60 segundos, tamanho máximo do arquivo é de 4GB. As histórias têm 15 segundos de comprimento.
-* É uma plataforma de mídia visual, por isso você precisa de um banco de vídeos para usá-lo efetivamente para uso profissional.
+* They have 1.2 billion monthly active users.
+* Character limit is 2,200. So larger than Twitter but less than Facebook and Linkedin.
+* You can add tags to other users.
+* You can only add links in your bio so not in posts. But you can feature links using Linktree.
+* Photos are square (1080 x 1080 pixels).
+* Video length between 3 and 60 seconds, max file size is 4GB. Stories are 15 seconds long.
+* It is a visual media platform so you need a bank of videos to use it effectively for professional use.
