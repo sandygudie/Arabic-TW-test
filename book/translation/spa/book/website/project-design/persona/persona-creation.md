@@ -14,9 +14,9 @@ Start by giving your persona a real name and real role with the help of some ass
 ```{figure} ../../figures/persona-creation.png
 ---
 name: persona-creation
-alt: Persona Canvas by DESIGNBETTERBUSINESS. COM
+alt: Persona Canvas by DESIGNBETTERBUSINESS.COM
 ---
-Persona Canvas by [DESIGNBETTERBUSINESS.COM](https://www.designabetterbusiness.tools/tools/persons/canvas) disponible bajo la licencia CC-BY-SA 4.0
+Persona Canvas by [DESIGNBETTERBUSINESS.COM](https://www.designabetterbusiness.tools/tools/persona-canvas) available under the CC-BY-SA 4.0 license
 ```
 
 ### Section 2: Background and demography
