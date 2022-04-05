@@ -1,7 +1,7 @@
 (ch-style-custom-styling)=
 # Custom Styling
 
-Although content contributed to _The Turing Way_ should be written in {ref}`Markdown <ch-consistency-formatting-hr-markdown>` where possible, sometimes, `HTML` syntax may be necessary to format your contribution the way you desire. بالفعل ، كتاب المشتري يحول بناء جمل Markdown إلى `HTML`، جعل من الممكن الحصول على نسخة على الويب من _كتاب طريق الترينغ_ ونتيجة لذلك، الكتابة الخاصة بك `HTML` قد تقدم بعض التغييرات في الطريقة التي يظهر بها المحتوى الجديد على الإنترنت مقارنة ببقية الكتاب. As a result, writing your own custom `HTML` may introduce some variation in the way your new content appears online compared to the rest of the book.
+Although content contributed to _The Turing Way_ should be written in {ref}`Markdown <ch-consistency-formatting-hr-markdown>` where possible, sometimes, `HTML` syntax may be necessary to format your contribution the way you desire. Already, Jupyter Book converts Markdown syntax to `HTML`, making it possible to have a web version of _The Turing Way_ book. As a result, writing your own custom `HTML` may introduce some variation in the way your new content appears online compared to the rest of the book.
 
 To minimise this disparity, _The Turing Way_ maintains book-wide [stylesheets](https://github.com/alan-turing-institute/the-turing-way/blob/main/book/website/_static/book-stylesheet.css) that control the look and feel of the book's content. When including `HTML` in your contributions, please refer to these stylesheets and add the relevant classes and IDs defined there to your `HTML` elements. This ensures that your new content fits the overall style of _The Turing Way_ book.
 
@@ -15,7 +15,7 @@ In this subchapter, we provide an explanation of how to leverage the book's styl
 
 While it is possible to embed images and GIFs in your content using Markdown syntax, it is currently only possible to embed videos with `HTML`. More so, we do not recommend adding videos directly to _The Turing Way's_ Github repository as video files are usually large and will make the book load much slower, especially for readers with slow internet connections.
 
-لإضافة فيديو إلى مساهمتك ، قم بتحميله أولا إلى _طريق اللارجح_ قناة يوتيوب، ثم نسخ/لصق رمز HTML `` الذي يتم إنشاؤه عندما تقوم بما يلي:
+To add a video to your contribution, first upload it to _The Turing Way's_ Youtube channel, then copy/paste the `HTML` code that is generated when you:
 1. Click on the `Share` option underneath the video,
 1. And then click on the `Embed` option from the range of options that appear.
 
@@ -51,7 +51,7 @@ Before writing any CSS, inspect the book's HTML source code first. This gives yo
 
 All web browsers allow you to view the source code of websites easily. On computers running the Windows OS, this is done using `CTRL + U`. For computers running Mac OS, this is done using `Option + Command + U`.
 
-Once you have determined the element(s) you want to modify, write your CSS in _The Turing Way's_ [stylesheet file](https://github.com/alan-turing-institute/the-turing-way/blob/main/book/website/_static/book-stylesheet.css). إذا كان على سبيل المثال لقد أردت تغيير `خط العائلة` من نص الفقرة عبر _كتاب الطريق_ بأكمله، ثم يمكنك إضافة قاعدة CSS التالية إلى أوراق النماذج التي تستهدف جميع العناصر التي تحتوي على `<p>` علامة:
+Once you have determined the element(s) you want to modify, write your CSS in _The Turing Way's_ [stylesheet file](https://github.com/alan-turing-institute/the-turing-way/blob/main/book/website/_static/book-stylesheet.css). If, for example, you wanted to change the `font-family` of the paragraph text across the entire _The Turing Way_ book, then you could add the following CSS rule to the stylesheets which target all elements with a `<p>` tag:
 
 ```
 p {
