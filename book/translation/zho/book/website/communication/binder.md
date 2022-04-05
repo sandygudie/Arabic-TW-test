@@ -1,5 +1,5 @@
 (binder)=
-# 宾代尔
+# Binder
 
 在本章中，我们将讨论Binder和mybinder.org项目，以此作为透明和互动分享研究成果的手段。
 
@@ -58,14 +58,14 @@ How much easier would it be if we could **run code in the browser**, similar to 
 您可以在他们的 [关于 mybinder.org 页面上找到更多关于 Project Binder 和 mybinder.org 的信息](https://mybinder.readthedocs.io/en/latest/about/about.html)。
 
 (binder-disam)=
-### 模糊化
+### Disambiguation
 
-在本节中，有一些相关的术语，为了明确起见，将在此概述：
+In this section, there are some related terms, which will be outlined here for clarity:
 
 - **Project Binder**: 一个开放的社区，能够创建清晰的、交互式的、可反应的环境。 此项目的技术输出是 {ref}`rr-binder枢纽`
-- **BinderHub**: 一个基于云的基础结构，用于生成绑定。 最广泛使用的是 [mybinder.org](https://mybinder.org), 它是由 Project Binder 团队维护的。 它基于一系列开源工具，包括 [JupyterHub](https://z2jh.jupyter.org)， 通过浏览器向用户提供云计算资源； and [`repo2docker`](https://repo2docker.readthedocs.io/), for building docker images from projects. 由于这是一个开放的项目，可以创建其他BinderHubs来支持更专业化的配置。 由于这是一个开放的项目，可以创建其他BinderHubs来支持更专业化的配置。 其中一个配置可以包括身份验证，以使私人仓库能够在密切的合作者之间分享。
+- **BinderHub**: 一个基于云的基础结构，用于生成绑定。 最广泛使用的是 [mybinder.org](https://mybinder.org), 它是由 Project Binder 团队维护的。 它基于一系列开源工具，包括 [JupyterHub](https://z2jh.jupyter.org)， 通过浏览器向用户提供云计算资源； and [`repo2docker`](https://repo2docker.readthedocs.io/), for building docker images from projects. 由于这是一个开放的项目，可以创建其他BinderHubs来支持更专业化的配置。 由于这是一个开放的项目，可以创建其他BinderHubs来支持更专业化的配置。 One such configuration could include authentication to enable private repositories to be shared amongst close collaborators.
 - **一个 Binder**: 一个可以透过浏览器在云端运行的可复现的计算环境中查看和交互的项目的可分享版本。 By automating the installation of the computing environment (as discussed in the {ref}`rr-renv` chapter), Project Binder transforms the overhead of sharing such an environment into the act of sharing a URL.
-- **[mybinder.org](https://mybinder.org)**: 一个公开和免费的 BinderHub 因为它是公开的，如果您的项目需要任何个人或敏感信息(例如密码)，您不应该使用它。
+- **[mybinder.org](https://mybinder.org)**: A public and free BinderHub. Because it is public, you should not use it if your project requires any personal or sensitive information (such as passwords).
 - **绑定**: 从一个项目创建一个绑定器的过程。
 
 (binder-appropriate)=
