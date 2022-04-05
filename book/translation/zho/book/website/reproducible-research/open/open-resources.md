@@ -42,10 +42,10 @@ If you want to take a look at an active open source project, this textbook *is* 
 
 - [1.](https://www.fosteropenscience.eu/node/1420) **CC-BY 4.0**
 - [2.](https://open-science-training-handbook.gitbook.io/book/introduction) **CC 1.0**
-- [3。 ](https://www.fosteropenscience.eu/content/introduction-open-science-funders-introductory) **归属+ 非商业性的 - CC-BY-NC**
+- [3.](https://www.fosteropenscience.eu/content/introduction-open-science-funders-introductory) **Attribution + Noncommercial - CC-BY-NC**
 - [4.](https://link.springer.com/chapter/10.1007/978-3-319-00026-8_2) **Creative Commons Attribution Noncommercial Licence**
-- [5。 ](https://elifesciences.org/articles/16800) **属性 4.0 International (CC BY 4.0)**
-- [6。 ](https://www.fosteropenscience.eu/content/introduction-open-science-funders-introductory) **归属+ 非商业性的 - CC-BY-NC**
+- [5.](https://elifesciences.org/articles/16800) **Attribution 4.0 International (CC BY 4.0)**
+- [6.](https://www.fosteropenscience.eu/content/introduction-open-science-funders-introductory) **Attribution + Noncommercial - CC-BY-NC**
 - [7.](http://book.openingscience.org.s3-website-eu-west-1.amazonaws.com/vision/open_research_data.html) **Creative Commons Attribution-NonCommercical**
 - [8.](http://opendatahandbook.org/guide/en/what-is-open-data/) **CC Attribution 4.0 International Licence**
 - [9.](https://opendatacharter.net/) **Creative Commons Attribution 4.0 International Licence**
@@ -53,9 +53,9 @@ If you want to take a look at an active open source project, this textbook *is* 
 - [11.](http://book.openingscience.org.s3-website-eu-west-1.amazonaws.com/cases_recipes_howtos/challenges_of_open_data_in_medical_research.html) **Creative Commons Attribution-NonCommercical**
 - [12.](http://www.dcc.ac.uk/resources/how-guides/cite-datasets) **Creative Commons**
 - [13.](https://www.open-contracting.org/2016/09/19/diving-deeper-commercial-confidentiality/) **Creative Commons Attribution 4.0 International Licence**
-- [14。 ](https://ben.balter.com/2015/11/23/why-open-source/) **CC BY 3.0**
-- [15。 ](https://opensource.guide/starting-a-project/) **(CC BY 4.0)**
-- [16。 ](https://opensource.guide/) **(CC BY 4.0)**
+- [14.](https://ben.balter.com/2015/11/23/why-open-source/) **CC BY 3.0**
+- [15.](https://opensource.guide/starting-a-project/) **(CC BY 4.0)**
+- [16.](https://opensource.guide/) **(CC BY 4.0)**
 - [17.](https://opensource.com/resources/what-open-access) **Attribution-ShareAlike 4.0 International**
 - [18.](http://www.righttoresearch.org/learn/whyOA/index.shtml) **Creative Commons Attribution 3.0 Licence**
 - [19.](https://open-science-training-handbook.gitbook.io/book/open-science-basics/open-access-to-published-research-results) **CC0 1.0 Universal**
@@ -68,7 +68,7 @@ If you want to take a look at an active open source project, this textbook *is* 
 - [26.](https://openlabnotebooks.org/open-science-at-sgc/) **CC BY 4.0**
 - [27.](http://onsnetwork.org/) **Attribution 3.0 Unported (CC BY 3.0)**
 - [28.](https://libraries.mit.edu/data-management/store/electronic-lab-notebooks/) **CC BY-NC 2.0**
-- [29。 ](https://www.citizenscience.org/) **(CC BY 4.0)**
+- [29.](https://www.citizenscience.org/) **(CC BY 4.0)**
 
 (rr-open-resources-footnotes)=
 ## Footnotes
