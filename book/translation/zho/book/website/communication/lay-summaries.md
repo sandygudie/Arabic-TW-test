@@ -8,7 +8,7 @@ More recently, lay summaries are becoming a requirement from academic journals a
 (cm-lay-summaries-what)=
 ## What is a Lay Summary?
 
-非专业摘要是通常为公众撰写的研究项目或研究提案的摘要。 避免使用术语并解释必须包含的任何技术条款 {cite:ps}`Duke2012summary`
+A lay summary is a summary of a research project or a research proposal that is usually written for members of the public, rather than researchers or professionals. It should be written in plain English, avoid the use of jargon and explain any technical terms that have to be included {cite:ps}`Duke2012summary`.
 
 (cm-lay-summaries-why)=
 ## Why Write Lay Summaries?
@@ -42,7 +42,7 @@ Therefore, the key to making your writing more accessible is changing this langu
 * Know your audience - Most lay summaries are written for a high school-age child’s level of understanding. That's about 14 years old!
 * Minimise jargon - Cut out all scientific words or, if you can’t cut them out completely, add a definition or weblink to explain the word.
 * Logical structure - Introduction sentence, aims and objectives, results and conclusions.
-* 大多数人对长度不能超过两三句的段落给予关注。
+* Shorten sentences and paragraphs - Lengthy paragraphs just put people off, most people cannot pay attention to paragraphs longer than two or three sentences in length.
 * Use active verbs and active voice - Make it personal, use 'I' and 'we'.
 * Content - The text should provide answers to the essential questions: Who, What, Where, When, Why, How.
 * Relevance and benefits - Aims and objectives clearly written, impact clearly stated.
