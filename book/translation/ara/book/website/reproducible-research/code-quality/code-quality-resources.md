@@ -6,7 +6,7 @@
 
 - [ ] Write your development code in your favourite IDE/text-editor.
 - [ ] Enable auto formatting in your editor by tweaking the preferences/settings.
-- [ ] اكتب `Ctrl + s` (windows, linux) أو `<unk> + s` (mac) لحفظ العمل لتنسيق التعليمة البرمجية.
+- [ ] Type `Ctrl + s` (windows, linux) or `⌘ + s` (mac) to save the work to format the code.
 
 ### For static code analysis
 
