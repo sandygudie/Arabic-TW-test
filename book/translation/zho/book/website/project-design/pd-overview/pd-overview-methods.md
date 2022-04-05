@@ -50,4 +50,4 @@ If you don't know where to start, a good place would be the {ref}`Guide for Comm
 
 ## Reference
 
-Turkyilmaz-van der Velden, Y., Dintzner, N., Teperek, M., "Reproduciability Starts from You Today." Patterns, vol. 同上，第1号，第6号，2020年9月11日，第100099页，doi:10.1016/j.patter.2020.100099页。 Patterns, vol. 1, no. 6, 11 Sept. 2020, p. 100099, doi:10.1016/j.patter.2020.100099. [Read Online on Science Direct](https://www.sciencedirect.com/science/article/pii/S2666389920301331)
+Turkyilmaz-van der Velden, Y., Dintzner, N., Teperek, M., "Reproducibility Starts from You Today." Patterns, vol. 1, no. 6, 11 Sept. 2020, p. 100099, doi:10.1016/j.patter.2020.100099. [Read Online on Science Direct](https://www.sciencedirect.com/science/article/pii/S2666389920301331)
