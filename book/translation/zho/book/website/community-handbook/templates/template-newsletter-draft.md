@@ -14,40 +14,34 @@ Shout out ...
 
 Events ...
 
-本月...
-
-冲出...
-
-事件...
-
-在:backhand_index_pointing_down下面找到这些主题的更多细节：
+Find more details on these topics below 👇
 
 
-## 社区会议
+## Community meetings
 
     <About events like Collaboration Café, book dash, other meetings>
 
-## 来自社区的新闻
+## News from the community
 
     <Any news from the team, community members, and new chapters>
 
-## 相关资源
+## Relevant resources
 
     <Any useful resources like relevant publication, training items, and materials from collaborators>
 
-##提示 & 推荐给新贡献者
+## Tips & Tricks for new contributors
 
     <Any material that helps the new contributor to relate to the project like impact statement, story, and contributor in focus>
 
-#纪念和庆祝
+## Acknowledgments and celebrations
 
     <Shout out and wishes to celebratory news from members, recent meetings where someone talked about Turing Way, Tweets and other online mentions from people other than the team members>
 
-## 特别提及
+## Special mentions
 
     <Shout out to the reviewers for this newsletter other than the team members>
 
-## 与我们联系！
+## Connect with us!
 
 - [About the project](https://www.turing.ac.uk/research/research-projects/turing-way-handbook-reproducible-data-science)
 - [_The Turing Way_ book](https://the-turing-way.netlify.com)
@@ -60,8 +54,6 @@ Events ...
 You are welcome to contribute content for the next newsletter by
 emailing [Malvika Sharan](mailto:msharan@turing.ac.uk).
 
-*您错过了上次的通讯吗？
-
-*
-*查看他们 [here](https://tinyletter.com/TuringWay/archive).*
+*Did you miss the last newsletters?*
+*Check them out [here](https://tinyletter.com/TuringWay/archive).*
 ```
