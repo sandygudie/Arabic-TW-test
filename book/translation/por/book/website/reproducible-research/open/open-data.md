@@ -16,7 +16,7 @@ Você pode encontrar mais sobre os passos práticos para tornar seus dados dispo
 
 (barreiras-abertas)=
 ## Barreiras para compartilhamento de dados
-Muitos académicos acham difícil compartilhar dados. Inquéritos recentes {cite:ps}`Stuart2018compartilhamento realizado entre pesquisadores` nos seguintes motivos:
+Muitos académicos acham difícil compartilhar dados. Recent surveys {cite:ps}`Stuart2018sharing` conducted amongst researchers list the following reasons:
 
 - Organizar os dados de forma apresentável e útil é desafiador (mencionado por 46%)
 - Pesquisadores têm dúvidas sobre direitos autorais e licenciamento (mencionado por 37%)
@@ -40,7 +40,7 @@ Muitos domínios de investigação envolvem o trabalho com dados pessoais sensí
 
 Ainda é possível manter a privacidade se forem fornecidos datasets parciais ou generalizados. Por exemplo, você pode fornecer faixas de idade em vez de data de nascimento ou apenas os dois primeiros dígitos de código postal. Pode também ser possível fornecer os dados em um formato que os investigadores possam consultar enquanto mantêm os dados fechados. Por exemplo, um usuário pode ser capaz de enviar uma consulta para recuperar a média de um conjunto de dados, mas não pode acessar qualquer um dos pontos de dados individuais.
 
-Muitas áreas de disciplinas científicas envolvem o trabalho com dados pessoais sensíveis. O seu gerente é bem regulado na legislação relativa à protecção de dados (na Europa, através de implementações nacionais do Regulamento Geral de Proteção de Dados) e procedimentos de ética, tal como são estabelecidos na maioria das instituições de pesquisa {cite:ps}`UE 2016`.
+Muitas áreas de disciplinas científicas envolvem o trabalho com dados pessoais sensíveis. Their management is well regulated in data protection legislation (in Europe through national implementations of the General Data Protection Regulation) and ethics procedures as they are established in most research institutions {cite:ps}`EU2016protection`.
 
 (rr-dados-barreiras-consentimentos)=
 ### Consentimento
