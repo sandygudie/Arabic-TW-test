@@ -8,42 +8,40 @@ Sometimes code contains an element of randomness, a common example being code th
 
 ### Use random number seeds
 
-随机数种子有点难以解释，这就是一个例子。 这里有一个能打印三个随机数字的 Python 脚本。
+Random number seeds are a little difficult to explain so here's an example. Here's a little Python script that prints three random numbers.
 
 ```python
-导入随机
+import random
 
-# 打印三个随机数字
-打印(random.random())
-打印(random.random())
-打印(random.random.random())
+# Print three random numbers
+print(random.random())
+print(random.random())
+print(random.random())
 ```
 
-这个脚本没有漏洞，但如果你一再运行它，你每次都会得到不同的答案。 现在让我们随机设置一个随机的种子。
+This script has no bugs but if you run it repeatedly you will get different answers each time. Now let's set a random number seed.
 
 ```python
-导入随机
+import random
 
-# 设置随机的种子
-随机种子
- 随机种子
+# Set a random number seed
+random.seed(1)
 
-# 打印三个随机数
-打印机(随机随机数)
-打印机(随机数.随机数)
-打印机(随机数.随机数) 
- 打印(随机数)
+# Print three random numbers
+print(random.random())
+print(random.random())
+print(random.random())
 ```
 
-现在，如果您运行此脚本，它将输出
+Now if you run this script it outputs
 
 ```python
 0.134364244112
-0.8474333736937
+0.847433736937
 0.763774618977
 ```
 
-每次运行此脚本时，您都会得到 *相同的* 输出。 它将打印相同的 ** 三个随机数。 如果随机数种子被更改，你将会获得不同的三个随机数字：
+每次运行此脚本时，您都会得到 *相同的* 输出。 它将打印相同的 ** 三个随机数。 If the random number seed is changed you will get a different three random numbers:
 
 ```python
 0.956034271889
@@ -52,12 +50,12 @@ Sometimes code contains an element of randomness, a common example being code th
 ```
 but again you will get those same numbers every time the script is run in the future.
 
-随机数种子是使事情变得可靠随机的一种方式。 然而，依靠随机数种子进行测试的风险是很小的。 说你有一个像这样的函数：
+Random number seeds are a way of making things reliably random. However a risk with tests that depend on random number seeds is they can be brittle. Say you have a function structured something like this:
 
 ```python
 def my_function():
   a = calculation_that_uses_two_random_numbers()
-  b = calculation_that_uses_fiv_random_numbers()
+  b = calculation_that_uses_five_random_numbers()
   c = a + b
 ```
 
@@ -78,9 +76,9 @@ The result may look like this:
 
 ```{figure} ../../figures/eyeball-test1.jpg
 ---
-名称：eyeball测试1
-备选案文：
--
+name: eyeball-test1
+alt:
+---
 ```
 
 On a day with rain it might look like this:
@@ -96,21 +94,21 @@ and on a dry day it might look like this:
 
 ```{figure} ../../figures/eyeball-test3.jpg
 ---
-名称：eyeball测试3
-备选案文：
+name: eyeball-test3
+alt:
 ---
 ```
 
 All of these outputs look very different but are valid. However, if a researcher sees a result like this:
 
 ```{figure} ../../figures/eyeball-test-error.jpg
-----
-名称: eyeball-test-errer
+---
+name: eyeball-test-error
 alt:
 ---
 ```
 
-they could easily conclude there is a bug as a lake is unlikely to triple its volume and then lose it again in the space of a few hours. 像这样的“Eyeballing”测试是耗费时间的，因为它们必须由人来完成。 然而，通过创建基本的“健康检查”，这一过程可以部分或完全自动化。 例如，一次性水位应该是在水位范围内，例如，在前一阶段应该是10%的水量。 Another check could be that there are no negative values, as a lake can't be -30% full. These sort of tests can't cover every way something can be visibly wrong, but they are much easier to automate and will suffice for most cases.
+they could easily conclude there is a bug as a lake is unlikely to triple its volume and then lose it again in the space of a few hours. "Eyeballing" tests like these are time-consuming as they must be done by a human. However, the process can be partially or fully automated by creating basic "sanity checks". For example, the water level at one time should be within, say, 10% of the water level at the previous time step. Another check could be that there are no negative values, as a lake can't be -30% full. These sort of tests can't cover every way something can be visibly wrong, but they are much easier to automate and will suffice for most cases.
 
 (rr-testing-challenges-non-integer)=
 ## Testing if non-integer numbers are equal
@@ -119,44 +117,44 @@ they could easily conclude there is a bug as a lake is unlikely to triple its vo
 
 There is a complication with testing if the answer a piece of code outputs is equal to the expected answer when the numbers are not integers. Let's look at this Python example, but note that this problem is not unique to Python.
 
-如果我们将0.1分配给 `a` a 和 0.2分配给 `b` 并打印它们的金额，我们将按预期得到0.3。
+If we assign 0.1 to `a` and 0.2 to `b` and print their sum, we get 0.3, as expected.
 
 ```python
 >>> a = 0.1
 >>> b = 0.2
->>> print(a+b)
+>>> print(a + b)
 0.3
 ```
 
-但是，如果我们比较 `a` plus `b` 到 0.3 的结果，我们就会得到False。
+If, however, we compare the result of `a` plus `b` to 0.3 we get False.
 
 ```python
->>> 打印(a+b == 0.3)
-错误
+>>> print(a + b == 0.3)
+False
 ```
 
-如果我们直接显示 `a` plus `b` 的值, 我们可以看到一个微小的差错。
+If we show the value of `a` plus `b` directly, we can see there is a subtle margin of error.
 
 ```python
 >>> a + b
-0.3000000000004
+0.30000000000000004
 ```
 
-这是因为浮点数是实际数字的近似值。 浮点数计算的结果可能取决于编译器或解释器、处理器或系统结构以及正在使用的 CPU 或进程的数量。 这可能是写入测试的主要障碍。
+This is because floating-point numbers are approximations of real numbers. The result of floating-point calculations can depend upon the compiler or interpreter, processor or system architecture and number of CPUs or processes being used. This can present a major obstacle for writing tests.
 
 ### Equality in a floating point world
 
-在比较浮点数的均等性时，我们必须在给定的宽度内进行比较，也可以称之为阈值或三角洲。 For example, we might consider the calculated and expected values of some number to be equal if the absolute value of their difference is within the absolute value of our tolerance.
+When comparing floating-point numbers for equality, we have to compare to within a given tolerance, alternatively termed a threshold or delta. For example, we might consider the calculated and expected values of some number to be equal if the absolute value of their difference is within the absolute value of our tolerance.
 
-许多测试框架提供了将浮点数与特定容忍度范围内的均等值进行比较的功能。 例如，对于框架pest：
+Many testing frameworks provide functions for comparing equality of floating-point numbers to within a given tolerance. For example for the framework pytest:
 
 ```python
-导入pytest
+import pytest
 
 a = 0.1
 b = 0.2
 c = a + b
-sectc == pytest.approx(0.3)
+assert c == pytest.approx(0.3)
 ```
 
 this passes, but if the 0.3 was changed to 0.4 it would fail.
