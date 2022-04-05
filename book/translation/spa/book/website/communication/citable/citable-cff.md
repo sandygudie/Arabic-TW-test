@@ -9,7 +9,7 @@ name: reconocimiento
 ancho: 500px
 alt: Los desarrolladores de software de investigación obtienen reconocimiento al hacer citable de software.
 ---
-Los desarrolladores de software de investigación obtienen reconocimiento al hacer citable de software. _The Turing Way_ proyecto de ilustración por Scriberia. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
+Los desarrolladores de software de investigación obtienen reconocimiento al hacer citable de software. _The Turing Way_ project illustration by Scriberia. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
 ```
 
 Para proporcionar estos metadatos, comience escribiendo un archivo `CITATION.cff` e introdúzcalo con su software o conjunto de datos. El archivo</code> agrega la información en un formato clave-valor que puede ser fácilmente interpretado y actualizado por humanos, y fácilmente analizada y convertida con herramientas existentes.
@@ -27,7 +27,7 @@ name: software-credit
 width: 500px
 alt: Más créditos para los creadores de software.
 ---
-Más créditos para los creadores de software. _The Turing Way_ proyecto de ilustración por Scriberia. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
+Más créditos para los creadores de software. _The Turing Way_ project illustration by Scriberia. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
 ```
 
 Es más fácil para los usuarios de su software:
