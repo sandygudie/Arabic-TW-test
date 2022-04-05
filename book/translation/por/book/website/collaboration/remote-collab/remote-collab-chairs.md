@@ -1,107 +1,107 @@
-(cl-remote-collab-cadeiras)=
-# Direção de Eventos Remotos
+(cl-remote-collab-chairs)=
+# Chairing Remote Events
 
-Para executar um evento suave, parte da planificação e preparação consiste em delegar tarefas de chefia e presidência de diferentes sessões de um evento a diferentes indivíduos. Os principais deveres de uma presidência consistem em moderar a sua sessão, introduzindo os oradores e mantendo as suas sessões tal como planeado - dentro do prazo fixado para manter a sessão sobre o tema. evite distratores e ajude a enfrentar quaisquer desafios que possam aparecer. No entanto, seus papéis podem incluir outras tarefas dependendo do propósito do evento, participantes, formato e assim por diante.
+To run an event smoothly, part of planning and preparation is to delegate tasks of leading and chairing different sessions of an event to different individuals. The main duties of a chair are to moderate their session by introducing speakers and keep their sessions as planned - within the time limit by keeping their session on the topic, avoid distractors and help address any challenges that may appear. However, their roles may include other tasks depending on the purpose of the event, attendees, format and so on.
 
-Neste subcapítulo, fornecemos orientações para os presidentes de diferentes tipos de sessões, que pode ser adaptado e desenvolvido pelos organizadores e cadeiras de eventos para se prepararem antecipadamente.
+In this subchapter, we provide guidelines for the chairs of different types of sessions, which can be adapted and built upon by the event organisers and chairs to prepare ahead of time.
 
-## Conversas e apresentações
-*Checklist para a cadeira da palestra designada*
+## Talks and presentations
+*Checklist for the chair of the designated talk*
 
-- Coordene com os organizadores sobre o horário, responsabilidades exatas e outras pessoas envolvidas no evento que vão presidir.
-- Coordene com uma nota designada, ou esteja pronto para atribuir uma no início do evento.
-- Compartilhe o link com todos os participantes.
-- Lembrar a todos o Código da Pessoa de Contacto de Conduta, caso seja necessário relatar algo.
-- Apresente o pregador e o tomador de notas (e o intérprete de linguagem gestual se disponível).
-- Lembre a todos se o vídeo for gravado.
-- Peça que todos fiquem com a câmera acesa sempre que possível.
-- Indique se os oradores devem acelerar ou abrandar, ou se há um problema técnico que o orador deve verificar.
-- Ajude a responder a perguntas processuais como “onde é que este botão deveria clicar”.
-- Direcione perguntas técnicas ao organizador quando necessário.
-- Os tomadores de notas tomam notas para capturar pontos principais da conversa.
-- Com aqueles que tomam notas, reúnem dúvidas, opiniões e respostas sobre o documento compartilhado para a discussão aberta.
-  - Isso pode ser feito em um documento ou usando ferramentas interativas como o [sli.do](https://www.sli.do/).
-- Peça às pessoas para adicionar '+1' ao lado dos pontos com os quais elas gostam ou concordamos.
-- Verbala algumas das visões, opiniões e pensamentos populares.
-- Fechar a sessão a tempo agradecendo aos oradores e aos participantes.
-- Dedique um momento para agradecer aos oradores as suas conversações.
+- Coordinate with the organisers regarding the schedule, exact responsibilities and other people involved in the event they'll chair.
+- Coordinate with a designated note-taker, or be ready to assign one at the beginning of the event.
+- Share the link to the notes or shared document with all the attendees.
+- Remind everyone of the Code of the Conduct contact person in case something needs to be reported.
+- Introduce the speaker and note-takers (and sign language interpreter if available).
+- Remind everyone if the video will be recorded.
+- Request everyone to keep their camera on whenever possible.
+- Indicate if the speakers should speed up or slow down, or if there is a technical issue that the speaker should check.
+- Help answer procedural questions like “where is this button that I should click”.
+- Direct technical questions to the organiser when needed.
+- Note-takers take notes to capture main points from the talk.
+- With note-takers, gather questions, opinion and response, on the shared document for the open discussion.
+  - This can be done on a document or by using interactive tools like [sli.do](https://www.sli.do/).
+- Ask people to add '+1' next to the points that they like or agree with.
+- Verbalise some of the popular insights, opinion and thoughts.
+- Close session in time by thanking the speakers and note-takers.
+- Take a moment to thank the speakers for their talks.
 
-## Oficinas, sobrenome ou sessões de discussão
+## Short workshops, up-skilling or discussion sessions
 
-*Lista de verificação para o líder da sessão, ajudantes e seguidores das sessões designadas*
-- Compartilhe o link com o documento compartilhado.
-- Lembrar o Código de Conduta da Pessoa de Conduta para o caso de alguma coisa precisar de ser comunicada.
-- Introduza os auxiliares e seguidores (e o intérprete de linguagem gestual se disponível).
-- Se estiver gravando uma chamada, certifique-se de informar os participantes antes de clicar no botão de registro.
-- Permite que eles desliguem seus vídeos ao gravar.
-- Para permitir a participação com o vídeo ativado, não grave discussões gerais.
-- Ajude os notetakers em documentar resultados importantes de cada discussão.
-- Incentive todos a ajudar o notetaker a documentar a informação correta.
-- Com ajudantes e seguidores, reúna perguntas, opiniões e respostas sobre o documento compartilhado para a discussão aberta.
-- Peça às pessoas para adicionar '+1' ao lado dos pontos com os quais elas gostam ou concordamos.
-- Verbala algumas das visões, opiniões e pensamentos populares.
-- Tome nota de qualquer questão técnica que o orador ou outros enfrentem e ajude a resolver problemas.
-- Ajude a responder a perguntas processuais como “onde é que este botão deveria clicar”.
-- Direcione perguntas técnicas ao organizador quando necessário.
-  - Isso pode ser feito em um documento ou usando ferramentas interativas como sli.do.
-- Crie salas de interrupção sempre que possível para garantir que as pessoas possam se conectar enquanto discutem questões ou questões mutuamente úteis.
-- Facilitar uma discussão justa, não corrigir em um argumento.
-- Na última parte da sessão, reserve algum tempo para coletar o feedback dos participantes.
-- Peça às pessoas que sejam voluntários para escrever blogs curtos sobre sua experiência.
-- Feche as sessões em tempo útil agradecendo aos oradores e aos participantes.
-- Dedique um momento para celebrar a sessão e todos os que estão envolvidos na execução.
+*Checklist for the session lead, helpers and note-takers of the designated session*
+- Share the link to the shared document.
+- Remind of the Code of the Conduct contact person in case something needs to be reported.
+- Introduce the helpers and note-takers (and sign language interpreter if available).
+- If recording the call, make sure to tell the participants before you hit the record button.
+- Allow them to turn off their video when recording.
+- To allow participation with the video on, don't record general discussions.
+- Help notetakers in documenting important outcomes from every discussion.
+- Encourage everyone to help the notetaker in documenting correct information.
+- With helpers and note-takers, gather questions, opinion and response, on the shared document for the open discussion.
+- Ask people to add '+1' next to the points that they like or agree with.
+- Verbalise some of the popular insights, opinion and thoughts.
+- Take note of any technical issue that the speaker or others come across and help troubleshoot them.
+- Help answer procedural questions like “where is this button that I should click”.
+- Direct technical questions to the organiser when needed.
+  - This can be done on a document or by using interactive tools like sli.do.
+- Create breakout rooms  whenever possible to ensure that people can connect while discussing mutually useful question or issues.
+- Facilitate fair discussion, don’t fixate on one argument.
+- In the last part of the session, take some time to collect feedback from the participants.
+- Ask people to volunteer to write short blogs about their experience.
+- Close their sessions in time by thanking the speakers and note-takers.
+- Take a moment to celebrate the session and everyone involved in running it.
 
-## Conversas relâmpago
+## Lightning talks
 
-*Lista de verificação para a cadeira designada dessas sessões*
+*Checklist for the designated chair of these sessions*
 
-- Compartilhe o link das notas compartilhadas para a sessão, juntamente com o link para as palestras de relâmpago pré-gravadas (veja detalhes no subcapítulo {ref}`organizando conferência<cl-remote-collab-conferences>`).
-- Peça aos apresentadores que estão presentes na sessão que escrevam seus nomes para que outros participantes possam fazer perguntas específicas sobre suas conversas.
-- Permita tempo suficiente para todos verificarem múltiplas conversas de relâmpago.
-- Execute um período aberto de perguntas e respostas em que qualquer um possa fazer perguntas a qualquer apresentador; lembre a cada um que tenha suas perguntas e respostas curtas.
-  - Use um documento compartilhado ou um Slido para fazer perguntas.
-- Mantenha o formato informal e permita flexibilidade para a participação.
-- Termine a sessão agradecendo a todos os participantes e peça a todos que deixem palavras, presentes ou emojis encorajadores para comemorar a sessão e o trabalho dos presentes.
-- Se o feedback da sessão estiver disponível, use os últimos minutos para reunir os participantes
+- Share the link of the shared notes for the session along with the link to the pre-recorded lightning talks (see details in the subchapter on {ref}`organising conference<cl-remote-collab-conferences>`).
+- Ask presenters who are attending the session to write down their names so that other attendees can ask questions specific to their talks.
+- Allow enough time for everyone to check out multiple Lightning Talks.
+- Run an open question and answer period where anyone can ask questions to any presenters; remind everyone to keep their questions and responses short.
+  - Use a shared document or Slido for taking questions.
+- Keep the format informal and allow flexibility for participation.
+- Finish the session by thanking all the participants, and ask everyone to leave encouraging words, gifs or emojis to celebrate the session and presenters' work.
+- If the feedback for the session is available, use the last few minutes to gather those from the participants.
 
-## Sessões de poster
+## Poster sessions
 
-*Lista de verificação para a cadeira designada dessas sessões*
+*Checklist for the designated chair of these sessions*
 
-- Compartilhe o link das notas compartilhadas para a sessão junto com o link para a galeria onde os cartazes podem ser visitados (veja detalhes em {ref}`organizar conferência<cl-remote-collab-conferences>`).
-  - Se as pequenas palestras de relâmpagos pré-gravados estiverem disponíveis, dê tempo para assistir a alguns vídeos.
-- Peça aos apresentadores que estão presentes na sessão que escrevam seus nomes para que outros participantes possam fazer perguntas específicas sobre suas conversas.
-- Permita tempo suficiente para que todos façam perguntas no documento compartilhado, canal dedicado (Slack ou sli.)) para discussões de pôsteres.
-- Fique de olho no documento para ver se tudo está indo bem.
-- Lembre a todos o horário a intervalos regulares.
-- No final, realize uma sessão de perguntas e respostas abertas, em que qualquer um possa fazer uma pergunta a qualquer apresentador nessa sessão. Lembre a cada um que tenha suas perguntas e respostas curtas.
-  - Use documentos compartilhados ou [Slido](https://www.sli.do/) para fazer perguntas.
-- Mantenha o formato informal e permita flexibilidade para a participação.
-- Termine a sessão agradecendo a todos os participantes e peça a todos que deixem palavras legais, gif ou emoji para celebrar a sessão e o trabalho dos apresentadores.
-- Se o feedback da sessão estiver disponível, use os últimos minutos para reunir os participantes.
+- Share the link of the shared notes for the session along with the link to the gallery where the posters can be browsed (see details in {ref}`organising conference<cl-remote-collab-conferences>`).
+  - If short pre-recorded lightning talks on the posters are available, allow time to watch a few videos.
+- Ask presenters who are attending the session to write down their names so that other attendees can ask questions specific to their talks.
+- Allow enough time for everyone to ask questions on the shared document, dedicated channel (Slack or sli.do) for poster discussions.
+- Keep an eye on the document to see if everything is going well.
+- Remind everyone of the time at regular intervals.
+- At the end, run an open question and answer session where anyone can ask a question to any presenters in that session. Remind everyone to keep their questions and responses short.
+  - Use shared documents or [Slido](https://www.sli.do/) for taking questions.
+- Keep the format informal and allow flexibility for participation.
+- Finish the session by thanking all the participants, and ask everyone to leave nice words, gif or emoji to celebrate the session and presenters' work.
+- If the feedback for the session is available, use the last few minutes to gather that from the participants.
 
-## Eventos sociais
+## Social events
 
-*Lista de verificação para o líder da sessão, ajudantes e seguidores das sessões designadas*
-- Hospedeira eventos sociais pouco temáticos para que os participantes saibam o que esperar, o mais importante mantém o tema e o formato informais.
-- Mantenha essas sessões mais longas do que seriam num evento presencial, por exemplo, um almoço de 2 horas em vez de 1 hora.
-- Não mantenha essas sessões muito tarde do dia. Lembre-se de que seus participantes podem não querer passar horas extras na chamada on-line por várias razões.
-- Iniciar a chamada online pelo menos 15 minutos antes do início real do evento, e mantenha a chamada em execução durante 5-15 minutos após o término do evento principal.
-- Compartilhe as notas colaborativas com uma agenda ou um plano links para participar da chamada a partir da sessão ou de um sistema de chat de eventos sociais (por exemplo, Slack) - uma agenda ajudará os participantes a estarem preparados para o que esperar no evento.
-- Comece com um disjuntor de gelo informal - permita que todos se apresentem para todos ligados.
-- Siga o formato "show, não digl", como artefatos visuais no formato de sessão tanto quanto possível.
-- Hospede jogos online que não são muito difíceis de explicar e podem ser jogados por várias pessoas.
-- Outras atividades paralelas como a caça ao tesouro online, museu virtual ou visualização de filmes podem ser organizadas.
-- Jornais de conferência podem ser hospedados em paralelo em vários locais. Talvez seja possível enviar um pacote de cuidados com ingredientes antes da conferência ou fornecer um orçamento para que os participantes possam encomendar a sua refeição favorita.
-  - Outras opções podem ser para sediar uma sessão de cozinha e jantar (veja o [tópico do tuíte](https://twitter.com/kevin_kunzmann/status/1240921979462520834), adicionar suas ideias também!).
+*Checklist for the session lead, helpers and note-takers of the designated session*
+- Host loosely themed social events so that the participants know what to expect, most importantly keep the theme and format informal.
+- Keep these sessions longer than what they would be in an in-person event, for example, 2 hours lunch instead of 1 hour.
+- Don't keep these sessions too late in the day, remember that your attendees may not want to spend extra hours on the online call for a variety of reasons.
+- Start the online call at least 15 minutes before the actual event starts, and keep the call running for 5-15 minutes after the main event is over.
+- Share the collaborative notes with an agenda or a plan, links to join the call from the session or a social event chat system (for example, Slack) - an agenda will help attendees to be prepared of what to expect at the event.
+- Start with an informal ice breaker - allow everyone to introduce themselves to everyone on the call.
+- Follow the "show, don't tell" format, such as visual artefacts in the session format as much as possible.
+- Host online games that are not too hard to explain and can be played by multiple people.
+- Other parallel activities such as online treasure hunt, virtual museum or movie viewing can be organised.
+- Conference dinners can be hosted in parallel in multiple locations. Perhaps a care package with ingredients can be sent out before the conference, or provide a budget so participants can order their favourite meal.
+  - Other options could be to host a cooking and dining session (see the [Tweet thread](https://twitter.com/kevin_kunzmann/status/1240921979462520834), add your ideas too!).
 
-## Manipulação de quartos
+## Handling breakout rooms
 
-*Se estiver usando salas de interrupção no Zoom (ou ferramenta similar), certifique-se de que o organizador o ajude a criar grupos*
+*If using breakout rooms in Zoom (or similar tool), make sure that the organiser helps you create Groups*
 
-- Crie grupos mais diversos (eles terão uma discussão melhor).
-- Lembre a todos para dar aos outros uma chance justa de falar.
-- Peça a eles que escrevam notas da sua discussão no documento compartilhado.
-- Enviar mensagens periodicamente lembrando a todos de quanto tempo sobrou para a discussão.
-  - Lembre-o de passar para a próxima pessoa se apenas uma pessoa tiver falado até agora em seus grupos.
-- Quando as pessoas regressarem das suas salas de emergência, peça-lhes que partilhem pontos principais da sua discussão.
+- Create groups that are more diverse (they will have a better discussion).
+- Remind everyone to give others a fair chance to speak.
+- Ask them to write notes from their discussion in the shared document.
+- Send messages periodically reminding everyone of how much time for discussion is left.
+  - Remind them to move on to the next person if only one person has spoken so far in their Groups.
+- When people come back from their breakout rooms, ask them to share main points from their discussion.
