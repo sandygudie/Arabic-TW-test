@@ -1,152 +1,152 @@
 (rr-code-reuse)=
-# 可重用代码
-您的软件项目可以从您用于数据处理的小脚本到用于数据分析的笔记本不等。 或者一个实现你的算法的软件库。 无论您的软件项目大小多大，都必须使您的代码可以重新使用。
+# Reusable code
+Your software project could range from a small script you use for data processing to a notebook used for data analysis, or a software library implementing your algorithms. Regardless of how big or small your software project is, it is important to make your code reusable.
 
-不同类型的软件对于可重复使用有不同的要求：对于小脚本， 有足够的文件可能就足够了，而对于一个关键的特派团软件库来说，可能需要进行彻底的测试。 在最基本的层面，您需要做的只是将您的代码放在网上的某个地方，这可能会持续很长时间。 使您的研究软件更加可复用的一个更详细的方法是遵循FAIR Software (FAIR4RS Principles) {cite:ps}`ChueHong2021FAIR4RS`
+Different types of software have different requirements for being reusable: for a small script, having sufficient documentation might be enough, while for a mission critical software library, thorough testing might be necessary. At the most basic level, all you need to do is put your code online somewhere that is likely to last a long time. A more elaborate approach to making your research software more reusable is by following the FAIR Principles for Research Software (FAIR4RS Principles) {cite:ps}`ChueHong2021FAIR4RS`.
 
-当我们谈论使代码可重复使用时，澄清我们的含义是有益的。 In the {ref}`Table of Definitions for Reproducibility<rr-overview-definitions-reproducibility>` we defined reproducible research as using the same data and the same code. 然而，当我们谈到代码的重新使用时，这可能需要多种形式：我们可能想要运行完全相同的代码(对于编译的编程语言)。 这甚至可能意味着完全相同的二进制文件， 或者我们可能希望修改源代码并以某种特定方式加以扩展以满足我们的需要。 Freire 和 Chirigati {cite:ps}`Freire2018 Repreducity` 提供了一个不同级别的可再生性框架，这取决于什么可以修改。 它们界定了下列可再生产水平：可重复、可再生、可移植、可扩展和可修改。
+When we talk about making code reusable, it is useful to clarify what is we mean. In the {ref}`Table of Definitions for Reproducibility<rr-overview-definitions-reproducibility>` we defined reproducible research as using the same data and the same code. 然而，当我们谈到代码的重新使用时，这可能需要多种形式：我们可能想要运行完全相同的代码(对于编译的编程语言)。 这甚至可能意味着完全相同的二进制文件， 或者我们可能希望修改源代码并以某种特定方式加以扩展以满足我们的需要。 Freire and Chirigati {cite:ps}`Freire2018Reproducibility` provide a framework of different levels of reproducibility, depending on what can be modified. They define the following levels of reproducibility: repeatable, re-runnable, portable, extendable and modifiable.
 
-我们可以将在Freire框架中的重现定义描绘如下：
+We can map the definitions of reproducibly on the Freire framework as follows:
 
-| Freire framework | 可复制性的定义                     |
-| ---------------- | --------------------------- |
-| 可重复              | 可重复(相同的数据、相同的分析)            |
-| 可重新运行            | 强力 & 可复制(相同的代码，不同的数据/分析/参数) |
-| 便携式设备            | *未被考虑* (相同的代码/数据，不同的环境)     |
-| 可扩展              | (部分) 可普遍使用                  |
-| 可修改              | (部分) 可普遍使用                  |
+| Freire framework | Definitions of reproducibly                                         |
+| ---------------- | ------------------------------------------------------------------- |
+| Repeatable       | Reproducible (same data, same analysis)                             |
+| Re-runnable      | Robust & Replicable (same code, different data/analysis/parameters) |
+| Portable         | *Not considered* (Same code/data, different environment)            |
+| Extendable       | (partly) Generalisable                                              |
+| Modifiable       | (partly) Generalisable                                              |
 
-以前没有考虑过可携带性问题，而是对软件来说是一个不同的环境(例如不同的硬件)， 操作系统，甚至在类似的硬件上安装一个新的安装系统可能会影响软件的运行能力(例如它可能影响依赖)。
+Portability was not previously considered, but for software a different environment (such as different hardware, operating system or even a fresh install on comparable hardware) may affect the ability for the software to work (for example it may affect dependencies).
 
 此外，可普遍封装的两个概念：可扩展(与其他软件结合的能力) 和可修改(能够改变部分实现以扩大其功能)。
 
-在本章的其余部分，我们提供您可以遵循的建议列表，以确保您的代码可被重新使用。
+In the rest of this chapter we provide list of recommendations you can follow to make sure your code is reusable.
 
-(rr-code-reuse-reuse-recommendation-checklist)=
-## 如何使您的代码更加可重新使用
-本节载有使您的软件更易重新使用的建议清单。 The {ref}`rr-code-reuse-recommendation-details` section contains a more in-depth explanation of each of these recommendations. 您可以遵循更适合您的软件类型的建议，并跳过与您的情况无关的建议。 您可以遵循更适合您的软件类型的建议，并跳过与您的情况无关的建议。
+(rr-code-reuse-recommendation-checklist)=
+## How to make your code more reusable
+This section contains a checklist of recommendations for making your software more reusable. The {ref}`rr-code-reuse-recommendation-details` section contains a more in-depth explanation of each of these recommendations. 您可以遵循更适合您的软件类型的建议，并跳过与您的情况无关的建议。 You can follow the recommendations that are more suitable for your type of software and skip the ones which are not relevant in your case.
 
-### 可重复的建议
-1. 请确保您可以找到它(在空格中)
-1. 请确保您可以找到它(在时间上)
-1. 请确保您可以执行相同的操作序列
-1. 请确保您的环境和操作顺序是稳固的，不需要人来复制已经做过的工作
-1. 授权您的代码
-    - 使用允许再使用的许可证；
-    - 与依赖许可兼容的许可证
-1. 确保它是有线的
-1. 包含必要的数据
-1. 写有用的文档*
+### Repeatable recommendations
+1. Make sure you can find it (in space)
+1. Make sure you can find it (in time)
+1. Make sure you can execute the same sequence of operations
+1. Make sure your environment and sequence of operations is robust and no human is needed to replicate what was done
+1. License your code
+    - with a license that allows for reuse;
+    - with a license compatible with the dependencies’ licenses
+1. Make sure it is citable
+1. Include necessary data
+1. Write useful documentation*
 
-### 可重新运行的建议
-1. 移除硬代码位并使代码模块化
-1. 测试你制作的模块可以使用不同类型的输入数据或参数
-1. 将模块变成一个包/工具箱
-1. 写有用的文档*
+### Re-runnable recommendations
+1. Remove hardcoded bits and make the code modular
+1. Test that the modules you made can take different types of input data or parameters
+1. Turn the modules into a package/toolbox
+1. Write useful documentation*
 
-### 可移动的建议
-1. 请确保您可以重新创建它所生活的环境
-1. 写有用的文档*
+### Portable recommendations
+1. Make sure you can recreate the environment where it lived
+1. Write useful documentation*
 
-### 可扩展的建议
-1. 写有用的文档*
+### Extendable recommendations
+1. Write useful documentation*
 
-### 可修改的建议
-1. 请确保你的代码可以被人类读
-1. 请确保评论已存在
-1. 写有用的文档*
+### Modifiable recommendations
+1. Make sure your code is readable by humans
+1. Make sure comments are present
+1. Write useful documentation*
 
-观察者阅读器可能会注意到，在每个级别的重新使用中都提到了 `个有用的文档`。 这是因为不同程度的再利用需要不同程度的文件。
+The observant reader might will notice that `Write useful documentation` is mentioned for every level of reuse. This is because different levels of documentation are required for different levels of reuse.
 
-### 对不同程度再利用的不同文件要求
-编写有用的文件是各级再利用的一项重要要求。 然而，对于不同程度的再利用，文件要求不同：
+### Different documentation requirements for different levels of reuse
+Writing useful documentation is an important requirement for all levels of reuse. However, for the different levels of reuse, there are different documentation requirements:
 
-文件：
-- 解释用法，具体说明：
-  - 软件做些什么；(需要重复)
-  - 如何使用它；(需要重复)
-  - 什么选项/参数是可用的。 (需要重复)
-- 包含如何运行的示例。 (需要重复)
-- 有安装指示，包括以下内容的详细说明：
-  - 它依赖的硬件(例如，GPUs)；(便携式所需)
-  - 软件已测试的操作系统; (需要便携式)
-  - 软件要求(例如库和外壳设置)。 (便携式设备所需)
+The documentation:
+- explains usage, specifying:
+  - what the software does; (required for repeatable)
+  - how it can be used; (required for repeatable)
+  - what options/parameters are available. (required for repeatable)
+- contains examples of how to run it. (required for repeatable)
+- has installation instructions, including good descriptions of:
+  - the hardware it depends on (for example GPUs); (required for portable)
+  - the operating system the software has been tested on; (required for portable)
+  - software requirements (such as libraries and shell settings). (required for portable)
 
-(rr-code-reuse-reuse-recommendation-details)=
-## 可重复使用的代码建议
-请确保您(或其他人)可以重新使用您的代码来做同样的事情。 The {ref}`rr-code-reuse-recommendation-checklist` section contains a checklist of recommendations for making your software more reusable. 在本节中，对其中每项建议作了更深入的解释，并指明了本指南其他有关部分。 在本节中，对其中每项建议作了更深入的解释，并指明了本指南其他有关部分。
+(rr-code-reuse-recommendation-details)=
+## Recommendations for reusable code
+Make sure you (or somebody else) can re-use your code to do the same exact thing you did. The {ref}`rr-code-reuse-recommendation-checklist` section contains a checklist of recommendations for making your software more reusable. 在本节中，对其中每项建议作了更深入的解释，并指明了本指南其他有关部分。 In this section contains a more in-depth explanation of each of these recommendations, with pointers to other relevant parts of this guide.
 
-### 可重复的建议
-在这个阶段，你可能甚至不需要能够打开并读取代码。 你只是想确保你可以重新运行所有需要的步骤并获得相同的结果。
+### Repeatable recommendations
+At this stage, you might not even need to be able to open the code and read it, you just want to make sure you can re-run all the needed steps and obtain the same results you had.
 
-#### 1. 请确保您可以找到它(在空格中)
-您的代码必须公开存储并与合作者共享。 它有一个独特的持久识别码，以便每个人都能找到并获得它。
+#### 1. Make sure you can find it (in space)
+Your code must be stored publicly and shared with collaborators. It has an unique persistent identifier, so that everyone can find it and access it.
 
-**还见**: {ref}`rr-vcs`
+**See also**: {ref}`rr-vcs`
 
-#### 2. 请确保您可以找到它(在时间上)
-最理想的情况是，代码的时间演变是用版本控制记录的。 这允许您从过去获取特定版本。
+#### 2. Make sure you can find it (in time)
+Ideally the temporal evolution of the code is documented with version control. This allows you to retrieve a specific version from the past.
 
-**还见**: {ref}`rr-vcs`
+**See also**: {ref}`rr-vcs`
 
-#### 3. 请确保您可以执行相同的操作序列
-建立环境的人往往也是撰写代码的人和知道能够重新运行代码和复制结果所需步骤的确切顺序的人。 这肯定能够得到认真的记录，供另一个人再做。
+#### 3. Make sure you can execute the same sequence of operations
+Often the human who set up the environment is also the one who wrote the code and the one who knows the exact order of steps needed to be able to re-run the code and reproduce the results. This could surely be carefully documented for another human to re-do it.
 
-**还见**: [Reducible Research CodeRefinery 课程](https://coderefinery.github.io/reproducible-research/)
+**See also**: [CodeRefinery lesson on Reproducible Research](https://coderefinery.github.io/reproducible-research/)
 
-#### 4. 请确保您的环境和操作顺序是稳固的，不需要人来复制已经做过的工作
-你不想依赖人类。 他们往往犯错误，即使他们的用意不好。 所以你想要你的环境被脚本并在需要时被重新创建，你想要你的操作序列由一个管道脚本运行，这个脚本把所有的步骤序列合在一起。
+#### 4. Make sure your environment and sequence of operations is robust and no human is needed to replicate what was done
+You do not want to depend on humans. They tend to make errors even if they do not have bad intentions. So you want your environment to be scripted and be re-created when needed and you want your sequence of operations to be run by a pipeline script that glues together all the sequence of steps.
 
-**还见**: {ref}`rr-renv-options`
+**See also**: {ref}`rr-renv-options`
 
-#### 5. 授权您的代码
-请确保您的代码附加许可证，并指定当人们重新使用它时您想被引用的方式。 考虑使用允许再使用的许可协议。 此外，您应该选择一个与您的软件依赖的库或包的许可兼容的许可证。
+#### 5. License your code
+Make sure you attach a license to your code and specify how you want to be cited when people re-use it. Consider using a permissive license that allows for reuse. Also, you should choose a license which is compatible with the licenses of libraries or packages your software depends on.
 
-**还见**: {ref}`rr-licensing-software`, {ref}`rr-licensing-software permissive`, {ref}`rr-licensing-compatibility`
+**See also**: {ref}`rr-licensing-software`, {ref}`rr-licensing-software-permissive`, {ref}`rr-licensing-compatibility`
 
-#### 6. 确保它是有线的
-请确保指定当人们重新使用它时你想被引用。
+#### 6. Make sure it is citable
+Make sure to specify how you want to be cited when people re-use it.
 
-**还见**: {ref}`cm-citable-cite-software`
+**See also**: {ref}`cm-citable-cite-software`
 
-#### 7. 包含必要的数据
-如果软件依赖于任何类型的数据，数据应该可用
+#### 7. Include necessary data
+If the software depends on any sort of data, the data should be available
 
-**还见**: {ref}`rr-rdm-data`
+**See also**: {ref}`rr-rdm-data`
 
-### 可重新运行的建议
-请确保您(或其他人)可以重新使用它来做你做的事情，但有不同的数据/不同的参数
+### Re-runnable recommendations
+Make sure you (or others) can re-use it to do the thing you did, but with different data/different parameters
 
-#### 1. 移除硬代码位并使代码模块化
-您不想要有您的数据或分析参数的详细信息被编入代码。 如果某些东西可以变成可重复使用的函数，将其与硬代码参数分开，然后将其变成自己可以使用的(重新)函数。 使模块纯度：给出相同的输入，一个纯函数总是返回相同的值。
+#### 1. Remove hardcoded bits and make the code modular
+You do not want to have details specific of your data or analysis parameters hardcoded into the code. If something can become a reusable function, separate it from the hardcoded parameters and turn it into something (re)usable on its own. Make the modules pure: given the same input, a pure function always returns the same value.
 
-**还见**: [CodeRefinery模块代码开发课程](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md/#1)
+**See also**: [CodeRefinery Modular Code Development lesson](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md/#1)
 
-#### 2. 测试你制作的模块可以使用不同类型的输入数据或参数
-您可能还不知道您的代码将如何在未来被重新使用。 但如果您可以测试允许的参数，您可以防止它不被使用。
+#### 2. Test that the modules you made can take different types of input data or parameters
+You might not know yet how your code will be re-used in the future, but you can prevent how it should not be used if you can test which parameters are allowed.
 
-**还见**: [CodeRefinery 课程关于自动测试](https://coderefinery.github.io/testing/motivation/)
+**See also**: [CodeRefinery lesson on Automated testing](https://coderefinery.github.io/testing/motivation/)
 
-#### 3. 将模块变成一个包/工具箱
-更多地将你的项目的细节与可以在你的项目中被其他人或其他人重新使用的bit分开。
+#### 3. Turn the modules into a package/toolbox
+Separate even more the specifics of your project with the bits that can be reused in other of your projects or by other people.
 
-**还见**: {ref}`rr-renv-package`, [Packaging software](https://scicomp.aalto.fi/scicomp/packaging-software/), [Software python](https://aaltoscicomp.github.io/python-for-scicomp/packaging/)
+**See also**: {ref}`rr-renv-package`, [Packaging software](https://scicomp.aalto.fi/scicomp/packaging-software/), [Software packaging in Python](https://aaltoscicomp.github.io/python-for-scicomp/packaging/)
 
-### 可移动的建议
-可携带性是指向新环境传输软件的能力。 这可能是指相同（但不是相同）机器，但也可以是指新的硬件结构、操作系统等等。 这两者对于软件的再利用都很重要。
+### Portable recommendations
+Portability refers to the ability to transfer software to a new environment. This could refer to an identical (but not the same) machine, but it can also refer to a new hardware architecture, operating system and such. Both of these are important for software reuse.
 
-#### 1. 请确保您可以重新创建它所生活的环境
-环境是及时的一种脆弱的快照，它默默地伴随了该守则。 它可以包括操作软件的人员、人类准备数据的步骤。 硬件、操作系统、库、外部软件包/工具箱/依赖项。 所有这些都可以仔细地记载，让另一个人重新采取所有同样的准确步骤。
+#### 1. Make sure you can recreate the environment where it lived
+The environment is a fragile snapshot in time which silently accompanies the code. It can include the human who operated the software, the steps the human did to prepare the data, the hardware, the OS, the libraries, external packages/toolboxes/dependencies. All this can be carefully documented for another human to re-do all the same exact steps.
 
-**还见**: {ref}`rr-renv`
+**See also**: {ref}`rr-renv`
 
-### 可扩展和可修改的建议
-请确保其他人可以在你的代码基础上扩展并改进它。
+### Extendable and Modifiable recommendations
+Make sure others can build on your code to extend it and improve it.
 
-#### 1. 请确保你的代码可以被人类读
-它往往支付更多的费用给其他人写代码，以便他们能够阅读(包括你的未来)。 一个带有模糊变量名称的密码内线人比将一个班轮分成多个步骤和可读变量名具有意义更快或更有效率。 此外，使用编码约定将帮助其他读者。
+#### 1. Make sure your code is readable by humans
+It often pays more to write code for other humans so they can read it (including your future self). A cryptic oneliner with obscure variable names is not any faster or more efficient than splitting the one liner into multiple steps with readable variable names that make sense. Furthermore, using coding conventions will help other readers.
 
-**还见**: {ref}`rr-code-style-and-forming`, {ref}`rr-code-quality-advantages`
+**See also**: {ref}`rr-code-style-and-formatting`, {ref}`rr-code-quality-advantages`
 
-#### 1. 请确保评论已存在
-在写入实际代码之前写下评论。 想象一下，某人可以只读评论并跳过评论之间的所有代码位，并获得关于正在发生的事情的全景，好像他们阅读了整个代码。
+#### 1. Make sure comments are present
+Write comments before writing the actual code. Imagine that somebody could just read the comments and skip all the code bits between comments and get a full picture of what is going on as if they read the whole code.
