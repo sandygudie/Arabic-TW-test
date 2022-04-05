@@ -61,38 +61,38 @@ Try reading the chapter on reproducible computational environments and then the 
 
 ## Materials used: glossary
 
-- [المركز الهولندي للعلوم](https://guide.esciencecenter.nl/#/best_practices/testing) **التراخيص الدولية المشاع الإبداعي 4.0**
+- [Netherlands eScience centre](https://guide.esciencecenter.nl/#/best_practices/testing) **Creative Commons Attribution 4.0 International License**
 
 ### Definitions/glossary
 
-- **اختبار القبول:** اختبار أن البرنامج يستوفي المتطلبات الأساسية للمشروع.
+- **Acceptance test:** A test that the program meets the project's fundamental requirements.
 
-- **تغطية التعليمات البرمجية:** مقياس يصف كمية التعليمات البرمجية المصدرية التي تمارسها مجموعة الاختبار.
+- **Code coverage:** A measure which describes how much of the source code is exercised by the test suite.
 
-- **إنهاء الاختبار النهائي:** اختبار يعمل على تشغيل البرنامج من البداية إلى النهاية ويتحقق من أن الإخراج صحيح.
+- **End to end test:** A test that runs the program from beginning to end and verifies that the output is correct.
 
-- **اختبار التكامل:** اختبار حيث يتم الجمع بين وحدات التعليمات البرمجية وتشغيلها، ويتم التحقق من المخرجات للتحقق من أن الوحدات قد تم إدماجها بشكل صحيح.
+- **Integration test:** A test where units of code are combined and run, and the output is verified to check the units have been correctly integrated.
 
-- **مثير:** استبدل كائن حقيقي بكائن متظاهر لاستخدامه عند تشغيل الاختبارات.
+- **Mocking:** Replace a real object with a pretend one to use when running tests.
 
-- **اختبار التراجع:** مقارنة نتيجة اختبار قبل وبعد تغيير الكود البرمجي. If the output has changed a problem has been introduced somewhere in the program, and an error is thrown.
+- **Regression test:** Comparing the result of a test before and after the code has been altered. If the output has changed a problem has been introduced somewhere in the program, and an error is thrown.
 
-- **اختبار وقت التشغيل:** الاختبارات المضمنة في البرنامج الذي يتم تشغيله كجزء منه.
+- **Runtime test:** Tests embedded within the program which are run as part of it.
 
-- **اختبار الدخن:** فحوص أولية موجزة جدا تضمن المتطلبات الأساسية اللازمة لتشغيل المشروع.
+- **Smoke test:** Very brief initial checks that ensure the basic requirements needed to run the project hold.
 
-- **كود التخزين:** الكود البرمجي الذي، على الرغم من صحته، لا ينتج دائما نفس النتيجة. For example a program that outputs ten random numbers will generate a different result each time, despite being correct.
+- **Stochastic code:** Code which, while correct, does not always output the same result. For example a program that outputs ten random numbers will generate a different result each time, despite being correct.
 
-- **اختبار النظام:** شاهد "نهاية الاختبار النهائي".
+- **System test:** See "end to end test".
 
-- **اختبار التطوير الموجه** عملية تطوير التعليمات البرمجية حيث يتم كتابة اختبارات الوحدة قبل الوحدات نفسها.
+- **Test driven development:** A process of code development where unit tests are written before the units themselves.
 
-- **متجر الاختبار:** التطبيقات الوهمية لأجزاء من التعليمات البرمجية التي تستخدم في الاختبار لإزالة التبعيات.
+- **Test stub:** Fake implementations of parts of code which are used in testing to remove dependences.
 
-- **مجموعة الاختبار:** الاختبارات التي تم كتابتها للمشروع.
+- **Test suite:** The tests that have been written for a project.
 
-- **إطار الاختبار:** الأدوات التي تجعل الكتابة وإجراء الاختبارات أقل كثافة في اليد العاملة.
+- **Testing framework:** Tools that make writing and running tests less labour intensive.
 
-- **الوحدة:** قطعة صغيرة من التعليمات البرمجية تقوم بشيء واحد بسيط. It usually has one or a few inputs and usually a single output.
+- **Unit:** A small piece of code that does one simple thing. It usually has one or a few inputs and usually a single output.
 
-- **اختبار الوحدة:** اختبار للتحقق من سلوك الوحدة.
+- **Unit test:** A test that checks the behaviour of a unit.
