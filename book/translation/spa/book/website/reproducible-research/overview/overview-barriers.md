@@ -21,17 +21,17 @@ This chapter outlines some of those barriers, and a few suggestions to get aroun
 (rr-overview-barriers-incentives)=
 ## Limited incentives to give evidence against yourself
 
-The [Fifth Amendment](https://en.wikipedia.org/wiki/Fifth_Amendment_to_the_United_States_Constitution) to the United States Constitution includes a clause that no one "shall be compelled in any criminal case to be a witness against [them]sel[ves]". (Edited to gender-neutral language.) (Editado al lenguaje neutral de género.) "abogar por el quinto paso" significa que alguien opta por no dar pruebas de que podría haber habido algo mal en su comportamiento pasado. They have the right to remain silent.
+The [Fifth Amendment](https://en.wikipedia.org/wiki/Fifth_Amendment_to_the_United_States_Constitution) to the United States Constitution includes a clause that no one "shall be compelled in any criminal case to be a witness against [them]sel[ves]". (Edited to gender-neutral language.) To "plead the fifth" means that someone chooses not to give evidence that there might have been something wrong in their past behaviour. They have the right to remain silent.
 
 We know that no one wants to incriminate themselves, and also that no one is infallible. Putting your code and data online can be very revealing and intimidating, and it is part of the human condition to be nervous of being judged by others. Although there is no _law_ governing the communication of reproducible research - unless you commit explicit fraud in your work - sharing errors that you find in your work is heavily disincentivised.
 
 ```{figure} ../../figures/make-ok-to-be-human.jpg
 ---
-ancho: 500px
-nombre: help-you-future
-alt: Una caricatura de una mujer que pasa una carpeta de documentos de vuelta a sí misma. La burbuja de voz dice que en el futuro principalmente tienes registros para ti.
+height: 500px
+name: make-ok-to-be-human
+alt: A cartoon of a woman holding a folder of files and looking worried. Thought bubble says, If I share my data people might find mistakes. The caption on the images reads Need to make it ok to be human.
 ---
-Aunque dejar clara la documentación puede sentir que está tomando mucho tiempo en este momento, estás ayudando a tus colaboradores y a tus colaboradores a recordar lo que has hecho para que sea fácil reutilizar el trabajo o hacer cambios en el futuro.
+An illustration of the "plead the fifth" barrier where our current culture disincentivises acknowledging and correcting mistakes.
 Illustration by The Ludic Group LLP from Kirstie Whitaker's keynote presentation at Scientific Data in 2017.
 Used under a CC-BY 4.0 license.
 DOI: [10.6084/m9.figshare.5577340.v1](https://doi.org/10.6084/m9.figshare.5577340.v1).
@@ -44,7 +44,7 @@ Most importantly, we need to move away from a culture where publishing nothing i
 (rr-overview-barriers-publication)=
 ## Publication bias towards novel findings
 
-Novel results are not necessarily accurate or interesting but they are rewarded in the academic world! Papers that do not find statistically significant relationships are hard to publish, particularly if the results *do not* reproduce previously published findings. (That includes statistically significant findings that go in the opposite direction to already published work.) (Esto incluye hallazgos estadísticamente significativos que van en la dirección opuesta al trabajo ya publicado.) Del mismo modo, un artículo podría ser menos probable que sea aceptado en una revista o conferencia si reproduce con éxito resultados ya publicados en lugar de producir un nuevo conjunto. There's a good chance that reviewers will say "we already know this" and reject the submission.
+Novel results are not necessarily accurate or interesting but they are rewarded in the academic world! Papers that do not find statistically significant relationships are hard to publish, particularly if the results *do not* reproduce previously published findings. (That includes statistically significant findings that go in the opposite direction to already published work.) Similarly, an article might be less likely to be accepted to a journal or a conference if it successfully reproduces already-published results instead of producing a new set. There's a good chance that reviewers will say "we already know this" and reject the submission.
 
 The bias towards novelty in data science means many researchers are disincentivised from doing the work to document, test and share their code and data. John Ioannidis published an influential paper in 2005 titled "Why Most Published Research Findings Are False" {cite:ps}`Ioannidis2005False` which discusses the many factors that contribute to publication bias. Given these biases, it is very likely that there is a lot of duplicated work in data science. Too many different researchers are asking the same question, not getting the answer they expect or want, and then not telling anyone what they have found.
 
@@ -80,7 +80,7 @@ Even "standard" high performance computing, can be difficult to set up to be per
 
 By making the code and data used to produce a result openly available to others, our results may be **reproduced** but mistakes made by the initial author can be carried through. Getting the same wrong answer each time is a step in the right direction, but still very much a **wrong** answer!
 
-Esta barrera no es realmente una barrera __ a la investigación reproducible tanto como una advertencia que invertir tiempo en reproducibilidad no necesariamente significa que estás haciendo mejor la ciencia. You can consider computational reproducibility as being necessary but not sufficient for high quality research. A critical approach is needed, rather than naively using existing software or implementing statistical methods without understanding what they do. See, for example, [a discussion](https://ryxcommar.com/2019/08/30/scikit-learns-defaults-are-wrong) in August 2019 about whether the default settings for Scikit-learn's implementation of logistic regression are misleading to new users. Interpretability and interoperability are required to properly evaluate the original research and to strengthen findings.
+This barrier isn't really a _barrier_ to reproducible research as much as a caveat that investing time in reproducibility doesn't necessarily mean that you're doing better science. You can consider computational reproducibility as being necessary but not sufficient for high quality research. A critical approach is needed, rather than naively using existing software or implementing statistical methods without understanding what they do. See, for example, [a discussion](https://ryxcommar.com/2019/08/30/scikit-learns-defaults-are-wrong) in August 2019 about whether the default settings for Scikit-learn's implementation of logistic regression are misleading to new users. Interpretability and interoperability are required to properly evaluate the original research and to strengthen findings.
 
 (rr-overview-barriers-time)=
 ## Takes time
@@ -91,9 +91,9 @@ Time may also be spent communicating with collaborators to agree on which parts 
 
 ```{figure} ../../figures/help-you-of-the-future.jpg
 ---
-height: 500px
-name: make-ok-to-be-human
-alt: Una caricatura de una mujer que sostiene una carpeta de archivos y que parece preocupada. Speech bubble says You're mainly keeping records for you in the future.
+width: 500px
+name: help-you-of-the-future
+alt: A cartoon of a woman passing a folder of documents back to herself. Speech bubble says You're mainly keeping records for you in the future.
 ---
 Although making clear documentation may feel like it is taking a lot of time at the moment, you are helping your and your collaborators remember what you have done so it is easy to reuse the work or make changes in the future.
 Illustration by The Ludic Group LLP from Kirstie Whitaker's keynote presentation at Scientific Data in 2017.
@@ -115,7 +115,7 @@ In almost all cases, making code and data open source requires better documentat
 (rr-overview-barriers-skills)=
 ## Requires additional skills
 
-As you can tell from the ever-growing number of chapters in _The Turing Way_, working reproducibly requires skills that aren't always taught in training programmes. You - or someone in your team - might need to develop expertise in data engineering, research software engineering, technical writing for documentation or project management on GitHub. Esa es una barrera importante cuando las estructuras de incentivo actuales no están alineadas con el aprendizaje de estas habilidades (ver las barreras en {ref}`suplicar la quinta<rr-overview-barriers-incentives>`, {ref}`sesgo de publicación hacia nuevos hallazgos<rr-overview-barriers-publication>`, {ref}`mantenida con estándares más altos que otros<rr-overview-barriers-standards>`, y {ref}`no considerados para una promoción<rr-overview-barriers-promotion>`!) Sin embargo, esta es la barrera principal que en _The Turing Way_ estamos trabajando para desmantenderse contigo. However, this is the primary barrier that we at _The Turing Way_ are working to dismantle with you. We hope you enjoy learning these skills with us and that you'll help us to improve the book as you do.
+As you can tell from the ever-growing number of chapters in _The Turing Way_, working reproducibly requires skills that aren't always taught in training programmes. You - or someone in your team - might need to develop expertise in data engineering, research software engineering, technical writing for documentation or project management on GitHub. That is a major barrier when the current incentive structures are not aligned with learning these skills (see the barriers on {ref}`plead the fifth<rr-overview-barriers-incentives>`, {ref}`publication bias towards novel findings<rr-overview-barriers-publication>`, {ref}`held to higher standards than others<rr-overview-barriers-standards>`, and {ref}`not considered for a promotion<rr-overview-barriers-promotion>`!) However, this is the primary barrier that we at _The Turing Way_ are working to dismantle with you. We hope you enjoy learning these skills with us and that you'll help us to improve the book as you do.
 
 > "A journey of a thousand miles begins with a single step" (Chinese philosopher [Lao Tzu](https://en.wikipedia.org/wiki/A_journey_of_a_thousand_miles_begins_with_a_single_step)).
 
