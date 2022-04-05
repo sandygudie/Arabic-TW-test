@@ -8,7 +8,7 @@ While there are lots of benefits to the individual ways we all experience the wo
 
 By better understanding ourselves, we can be more proactive about spotting where we might hold biases or gaps in our knowledge. This means we can be transparent about how our unique view has influenced the way we work, which is beneficial to scientific integrity and reproducibility. It can also help us to identify and work against systemic and structural barriers that might otherwise go unchallenged, in order to make our research environments more inclusive (see {ref}`Activism<er-activism>`).
 
-2 - تحديد هويتنا، الموقع الاجتماعي الثقافي والنهج المعنوي [{term}`ديف<Epistemology>`] للمعرفة في سياق بحثنا يسمى موقفنا **. We can understand our positionality through the practice of *reflexivity*, which is the process of using *self-reflection* [{term}`def<Self Reflection>`] to better understand how our identities and experiences influence the way we behave in our work.
+The placement of our identities, socio-cultural position and epistemological approach [{term}`def<Epistemology>`] to knowledge in the context of our research is called our *positionality*. We can understand our positionality through the practice of *reflexivity*, which is the process of using *self-reflection* [{term}`def<Self Reflection>`] to better understand how our identities and experiences influence the way we behave in our work.
 
 (er-self-reflection-social-graces)=
 ## Understanding ourselves
