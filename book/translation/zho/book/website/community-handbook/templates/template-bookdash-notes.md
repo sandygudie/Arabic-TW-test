@@ -79,43 +79,6 @@ All time provided in London Time (UTC+1). Please use this link to convert in you
 
 You can use your SMART goals to guide your discussions <-- provide link to the onboarding call's notes
 
-*List what you are working on below! **Room 1 (Reproducibility):** (add name)
-**Room 2 (Ethics):** (add name)
-**Room 3 (Communication):** (add name)
-**Room 4 (Project Design):** (add name)
-**Room 5 (Infrastructure):** (add name)
-**Room 6 (Individual Room)**
-
-:one: Day 1: DD Month YYYY
----
-
-### :wave: Sign up
-
-*Please add your name to this list, but remember that this is a public document, so use a pseudonym if you'd prefer, or just feel free to leave your name off.*
-
-*Name (pronouns - optional) / Institute / Twitter, GitHub / icebreaker: What song/music/artist/album puts you in a good mood!* :musical_score: 
-
-* 
-* 
-* 
-* 
-
-### :books: Turing Way and Book Dash
-
-* Intro to The Turing Way & the Book Dash: (Link to intro slides) <---
-* Predash drop-in calls: (Link to the shared notes) <---
-* Project repository on GitHub: https://github.com/alan-turing-institute/the-turing-way
-* Book is hosted online at: https://the-turing-way.netlify.com
-* Join Slack channel: An email will be sent to you
-* Join the [mailing list to receive newsletter](https://tinyletter.com/TuringWay)
-* Follow on Twitter: [@turingway](https://twitter.com/turingway)
-
-### :busts_in_silhouette::speech_balloon: Planning your contributions: breakout (10 minutes)
-
-*In groups of 3 explore and discuss about what you'd like to see in this book, or how you can contribute.* :sparkles: :space_invader: :rocket: :star2:
-
-You can use your SMART goals to guide your discussions <-- provide link to the onboarding call's notes
-
 *List what you are working on below! Include your GitHub username, one sentence description and links to relevant issues and pull requests.*
 
 ### :dart: Your goals for the book dash <--- used for only day-1
