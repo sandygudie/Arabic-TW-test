@@ -8,7 +8,7 @@ But who should be an author on an article? And can we move away from the idea of
 (communication-aa-overview-who)=
 ## Who is an author? or are they actually contributors?
 
-Assigning names to a publication can be a tricky business. 一个需要在项目开始时作出的重要决定是，该项目制作的文章上的名字是否将是作者还是贡献者？
+Assigning names to a publication can be a tricky business. However, an important decision that needs to be made at the outset of a project is whether the names on the articles produced from the project are going to be authors or contributors, or a combination of both.
 
 The decision may essentially be out of your hands as journals and publishers have specific policies on authorship criteria. Therefore, if you want to publish in a specific journal you will have to adhere to the policy and make an agreement about this within your project.
 
@@ -27,7 +27,7 @@ The practice of the first author taking prominence over others also has social i
 
 Links to discussions about the impact of changing names in academia:
 * Article from The Conversation - [How three scientists navigated the personal and career implications of a name change with marriage](https://theconversation.com/how-three-scientists-navigated-the-personal-and-career-implications-of-a-name-change-with-marriage-114918)
-* 已婚妇女在学术界——你是否改变了名字？
+* [Married women in academia - did you change your name?](https://www.reddit.com/r/AskAcademia/comments/2dfqho/married_women_in_academia_did_you_change_your/).
 * London School of Economics Impact of Social Sciences Blog - [For academic publishing to be trans-inclusive, authors must be allowed to retrospectively change their names](https://blogs.lse.ac.uk/impactofsocialsciences/2020/09/30/for-academic-publishing-to-be-trans-inclusive-authors-must-be-allowed-to-retroactively-change-their-names/).
 
 It is not the place of this chapter to argue against this academic culture of competitive citation but it must be noted that there are now many different types of outputs that can be attributed in different ways. Therefore, we are currently seeing a slow shift in the sole importance of journal articles. Such outputs might include datasets, code or blogs that document a research project and these essentially have as much value as a journal article in terms of communication and the reproducibility of the research.
