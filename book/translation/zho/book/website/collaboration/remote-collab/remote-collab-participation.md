@@ -14,7 +14,7 @@ This checklist also aims to help participants support the event organisers by be
 - Check if there is any other information you need to supply as a participant, like adding or approving agenda items, filling a pre-event survey, signing up for different sessions of a longer event.
 - Install software required for you to join the meeting online.
 - Test your microphone, webcam, internet bandwidth and compatibility of the software used for the online meeting with your system minimum 2 days before the meeting.
-- 检查事件是否为您的参与提供了您可以使用的任何支持，并且您有资格申请。
+- Check if the event offers any support that you can use for your participation and you are eligible to apply, such as the participation support grant.
   - If the event doesn't offer any support, check if you can seek this support from other resources, for example, as offered by the [Open Bioinformatics Foundation](https://www.open-bio.org/travel-awards/) and [Software Sustainability Institute](https://software.ac.uk/programmes-and-events/fellowship-programme).
 - Reach out to the organisers if you need any help with installation, or join one of their pre-event setup calls.
 - Ask for the protocols and agenda for the meeting if not supplied already.
