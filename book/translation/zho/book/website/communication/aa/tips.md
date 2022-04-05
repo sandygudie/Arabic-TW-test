@@ -6,11 +6,11 @@
 
 It is worth considering that not everyone on the same research project or in the same community will have the same motivation when it comes to authorship. Not everyone places the same importance on academic citation rates and therefore this is an issue that needs to be considered at the start of a project.
 
-**强有力的动力** 将有团队成员关注学术生涯，认为纸张作品是职业发展的推动力。 They will put high importance on being an author and probably will also have strong opinions on how they want authorship to be attributed and what order authors names should take.
+**Strong motivation** There will be team members that are focused on an academic career path and feel paper authorship is a driving force for career progression. They will put high importance on being an author and probably will also have strong opinions on how they want authorship to be attributed and what order authors names should take.
 
-**中等动机** 其他团队成员 或许已经有大量出版物和稳定就业的较为公认的学术界人士， 也许对作者的论文顺序或如何归纳和跟踪贡献的担心较少。
+**Medium motivation** Other team members, probably more established academics who already have a substantial amount of publications and in stable employment, may be less worried about the order of authors on their papers or how contributions are attributed and tracked.
 
-**低动力** 团队成员对纯学术生涯没有兴趣，但仍然是团队的一个组成部分，并且为项目做出了大量贡献。 例如研究工程师，也许根本不关心作者资格。
+**Low motivation** Team members that are not interested in a purely academic career but still are an integral part of the team and have made substantial contributions to the project, such as research engineers, may not be interested in authorship at all.
 
 (communication-aa-tips-culture)=
 ## Encourage a culture of ethical and equitable authorship
@@ -53,7 +53,7 @@ It is likely that you will have new members join your project at different stage
 ## Revisit the authorship policy before you start to write each article
 Each article from a project may not have the same authorship due to the specialist nature of certain types of publications and different aspects of a project.
 
-* 为该项目提供更加公平的信贷， 值得考虑的是，哪些出版物可以撰写，使不同的团队成员有机会成为第一作者。   
-  您可能还想要有一些能够平等给整个团队写作的出版物。
+* To make credit for the project more equitable, it is worth considering what publications can be written to give chance for different team members to be first author.  
+  You may also want to have some publications that give authorship to the whole team equally.
     * Junior members of the team will gain more advantage from first author papers than more senior members. It will have an impact on their career status and job prospects.
     * Sharing out the first author role will also distribute the workload more fairly throughout your team as the first author is responsible for a large part of the work involved in writing and administering the paper. 
