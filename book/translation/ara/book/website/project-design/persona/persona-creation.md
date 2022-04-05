@@ -121,7 +121,7 @@ This section will reflect on fears and personal issues that your persona may fac
 
 ## Putting this together in a persona canvas
 
-يمكن استخدام لوحة الشخص لتجميع كل إجاباتك في مكان واحد، شارك هذه المعلومات الملموسة عن نموذجك الذهني (المفاهيم المجردة من أفكارنا) مع زملائك و أنشئ لغة مشتركة للتواصل حول أعضاء مجتمعك.
+The persona canvas can be used to assemble all your responses in one place, share this tangible information of your mental model (abstract concepts from our thoughts) with your colleagues and create a common language to communicate about your community members, users, and contributors.
 
 The [https://www.designabetterbusiness.tools](https://www.designabetterbusiness.tools) have created multiple persona canvases (one is shown in the figure above) which are available for reuse under CC-BY ShareAlike 4.0 License, which can be downloaded [here](https://www.designabetterbusiness.tools/tools/persona-canvas).
 
