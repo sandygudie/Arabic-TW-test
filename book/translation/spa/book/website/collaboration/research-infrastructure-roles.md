@@ -1,29 +1,29 @@
-(cl-investigación-infraestructura-roles)=
-# Rol de Infraestructura de Investigación: Introducción
+(cl-research-infrastructure-roles)=
+# Research Infrastructure Roles: Introduction
 
-Es raro que las colaboraciones exitosas ocurran sin una persona, o un grupo de personas, asumir el trabajo de estructurar las interacciones de los participantes, facilitar el trabajo y apoyar el impacto del proyecto. Estas personas pueden ser voluntarias o remuneradas, dependiendo de la financiación, el tamaño, la duración y el número de organizaciones implicadas.
+It is rare that successful collaborations occur without a person, or group of people, taking on the work of structuring participants interactions, facilitating work, and supporting the impact of the project. These people may be either volunteers or paid, depending on a project's funding, size, length, and number of organisations involved.
 
-Se les llama **roles de infraestructura de investigación** porque el trabajo que realizan es principalmente apoyar el trabajo de los investigadores, aunque la investigación también puede ser una parte importante de estos papeles también. Los detalles de estos roles variarán pero pueden incluir el manejo de trabajo administrativo, la gestión del almacenamiento de datos, participación de las partes interesadas, gestión de la comunidad, comunicaciones, ingeniería de software, coordinación de eventos y mucho más.
+They're called **research infrastructure roles** because the work they perform is primarily to support the work of researchers, although research can also be a significant proportion of these roles as well. The specifics of these roles will vary but can include handling administrative work, managing data storage, stakeholder engagement, community management, communications, software engineering, events coordination, and a lot more.
 
-Las personas que desempeñan este tipo de roles provienen de diversos orígenes, pero a menudo tendrá alguna experiencia de investigación, aunque no necesariamente en el campo en el que están trabajando. Ejemplos de títulos de rol incluyen: Administrador de comunidades, administrador de proyectos, ingeniero de software de investigación, líder de reproducibilidad, gestor de aplicaciones de investigación, administrador de programas, administrador o coordinador de red.
+People performing these types of roles come from varied backgrounds, but will often have some research experience, although not necessarily in the field they are now working in. Examples of role titles include: Community manager, project manager, research software engineer, reproducibility lead, research application manager, programme manager, administrator, or network coordinator.
 
-(cl-investigación-infraestructura-requisitos)=
-## Prerrequisitos
+(cl-research-infrastructure-roles-prerequisites)=
+## Prerequisites
 
-No existen requisitos previos para este capítulo.
+There are no prerequisites for this chapter.
 
 
-(cl-investigación-infraestructura-resumen)=
+(cl-research-infrastructure-roles-summary)=
 ## Summary
 
-Este capítulo del Camino Turístico cubre ejemplos de diferentes roles de infraestructura de investigación, su importancia para promover la colaboración, investigación ética, reproducibilidad y recursos adicionales para averiguar más sobre ellos.
+This chapter of the Turing Way covers examples of different research infrastructure roles, their importance in promoting collaboration, ethical research, and reproducibility, and additional resources to find out more about them.
 
-Invitamos a cualquiera que trabaje en un papel de infraestructura de investigación a compartir sus experiencias como estudio de caso.
+We invite anyone who works in a research infrastructure role to share their experiences as a case study.
 
 
-(cl-investigación-infraestructura-función-motivación)=
-## Motivación y fondo
+(cl-research-infrastructure-roles-motivation)=
+## Motivation and Background
 
-Sin funciones de infraestructura de investigación, muchos proyectos nunca tendrían éxito. Pero este trabajo a menudo está oculto y no es visible en el mundo académico, donde los papeles y las citas son la principal "moneda de reputación" y el sistema está muy enfocado en promover los de los cuidadores académicos "tradicionales". La motivación para escribir este capítulo y proporcionar ejemplos del tipo de trabajo que se dedica a la infraestructura de investigación es hacer que este trabajo oculto sea visible para un público más amplio y destacar lo críticos que son estos aspectos de la investigación para cualquier comunidad o proyecto.
+Without research infrastructure roles, a lot of projects would never succeed! But this work is often hidden and not visible in academia, where papers and citations are the primary "reputation currency" and the system is very focused on promoting those in "traditional" academic careers. The motivation for writing this chapter and providing examples of the type of work that goes into research infrastructure is to make this hidden labour visible to a wider audience and highlight just how critical these aspects of research are for any community or project.
 
-Otras iniciativas como el [Instituto de Sostenibilidad de Software](https://www.software.ac.uk/), el [Centro de Colaboración Científica & Participación en la Comunidad](https://www.cscce.org/), y el [REF oculto](https://hidden-ref.org/), todos están contribuyendo al creciente reconocimiento de la importancia de estos roles para la investigación. 
+Other initiatives such as the [Software Sustainability Institute](https://www.software.ac.uk/), the [Center for Scientific Collaboration & Community Engagement](https://www.cscce.org/), and the [Hidden REF](https://hidden-ref.org/), are all contributing to the growing recognition of the importance of these roles for research. 
