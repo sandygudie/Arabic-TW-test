@@ -1,15 +1,15 @@
 (rr-open-access)=
 # Open Access
 
-(r-open-access-whatis)= (Open Access) الوصول المفتوح
+(rr-open-access-whatis)=
 ## كيف يمكننا أن نعرف (Open Access) الوصول المتاح؟
 
 يعتبر نشر ومشاركة النتائج العلمية جزء من عمل البحث منذ إنشاء البحوث، ففي عام 1665 تم إنشاء أول مجلة علمية وتم تسميتها بالمعاملات الفلسفية، ومن خلالها تم نشر العديد من الرسائل العلمية التي تشتمل على الملاحظات والتجارب العلمية. كما بدأ 'commercialisation' إضفاء الطابع التجاري للنشر العلمي في بداية الأربعينيات من القرن الماضي واستمر لعدة سنوات من خلال منشورات: مثل المجلات أو إجراء المؤتمرات أو الكتب، التي كانت متاحة للجمهور والتي يتم شراؤها برسوم اشتراك أو بشكل فردي.
 
 ومع ذلك، لاحظنا ان المعرفة الجديدة تُبنى من خلال تجميع المعلومات من المنح الدراسية الحديثة ومن ثم البناء عليها. لذا تم تأسيس حركة Open Access [{term}`def<Open Access>`] الوصول المفتوح في مطلع القرن الحادي والعشرين ، من خلال (Budapest Open Access Initiative) مبادرة الوصول المفتوح في بودابست ، حيث قامت برلين بالإعلان عن الوصول المتاح. وقامت مبادرة الوصول المفتوح بطرح اقتباس لخصت فيه الهدف من الوصول المتاح بالتالي:
-> "نهدف بالتوفير المجاني القدرة على الحصول على الابحاث والتجارب العلمية من الإنترنت العام ، حيث نسمح لأي مستخدم بقراءة النصوص الكاملة لهذه المقالات أو تنزيلها أو نسخها أو توزيعها أو طباعتها أو البحث عنها أو الارتباط بها، بحيث يكون القيد الوحيد على الاستنساخ والتوزيع ، ويصبح الحق الوحيد للمؤلف في هذا المجال ، هو منح المؤلفين السيطرة على سلامة عملهم والحق في الاعتراف به والاستشهاد به بشكل صحيح "
+> "We mean its free availability on the public internet, permitting any users to read, download, copy, distribute, print, search, or link to the full texts of these articles...the only constraint on reproduction and distribution, and the only role for copyright in this domain, should be to give authors control over the integrity of their work and the right to be properly acknowledged and cited"
 
-وقد أشارت التقديرات إلى أن حوالي 28٪ من المؤلفات العلمية هي Open Access {cite}`Piwowar2018stateofOA` ففي عام 2020 تم نشر العديد من المخرجات من خلال قنوات الوصول المتاح بشكل اعلي من قنوات الاشتراك التقليدية {cite}`الأبعاد 2021openaccesssurpass`.
+It has been estimated around 28% of the scholarly literature is Open Access {cite}`Piwowar2018stateofOA`and in 2020 more outputs were published through Open Access channels than traditional subscription channels globally {cite}`Dimensions2021openaccesssurpasses`.
 
 (rr-open-access-routes)=
 ## Routes for Open Access
@@ -21,7 +21,7 @@ There is no 'correct' way to do Open Access and there are many different routes 
 (rr-open-access-preprints)=
 ### Preprints
 
-A preprint [{term}`def<Preprint>`] is a scientific manuscript that is uploaded by the authors to a public server before peer review. The first preprint server called [arXiv](https://arxiv.org/) was established in 1991 for physical sciences. Likely due to the inefficiency of traditional journals, preprint servers for other disciplines have grown hugely in popularity over the last 5 years, with the emergence of [bioRxiv](https://www.biorxiv.org/), [medRxiv](https://www.medrxiv.org/), [ChemRxiv](https://chemrxiv.org/engage/chemrxiv/public-dashboard), [SocArXiv](https://osf.io/preprints/socarxiv) and many more. Preprints allow researchers to get their results out quickly and give the opportunity to get feedback on a manuscript before submitting it to a journal. لن تسمح بعض المجلات بتقديم ورقة إذا كانت قد نشرت بالفعل على خادم مطبوع كما تعتبره 'منشور سابق`، ومع ذلك، إن شعبية الطباعة المسبقة المستمرة أجبرت العديد من الناشرين على اعتناق الطباعة المسبقة، أو في حالة المجلات مثل eLife، نشجعهم بنشاط {cite}`Efe20preprints`. You can find out more about preprints at [ASAPbio](https://asapbio.org/preprint-info).
+A preprint [{term}`def<Preprint>`] is a scientific manuscript that is uploaded by the authors to a public server before peer review. The first preprint server called [arXiv](https://arxiv.org/) was established in 1991 for physical sciences. Likely due to the inefficiency of traditional journals, preprint servers for other disciplines have grown hugely in popularity over the last 5 years, with the emergence of [bioRxiv](https://www.biorxiv.org/), [medRxiv](https://www.medrxiv.org/), [ChemRxiv](https://chemrxiv.org/engage/chemrxiv/public-dashboard), [SocArXiv](https://osf.io/preprints/socarxiv) and many more. Preprints allow researchers to get their results out quickly and give the opportunity to get feedback on a manuscript before submitting it to a journal. Some journals will not allow a paper to be submitted if it has already been posted on a preprint server as they consider it 'prior publication', however, the ongoing popularity of preprints has forced many publishers to embrace preprints, or in the case of journals like eLife, actively encourage them {cite}`elife2020preprints`. You can find out more about preprints at [ASAPbio](https://asapbio.org/preprint-info).
 
 (rr-open-access-journal-publishing)=
 ### Open Access Journal publishing
@@ -35,7 +35,7 @@ The Open Access movement led to the creation of Open Access journals, where the 
 
 Gold Open Access Publishing (or sometimes referred to as libre) can be defined as paying an Article Processing Charge (APC) to a journal so they publish the final version of your article under an open access license, which is then permanently and freely available online for anyone. The author will retain the copyright of their article, usually via a [Creative Commons licence](https://creativecommons.org/) of their choice, which dictates what others can do with the article. You can find out more about APCs in this [video](https://www.youtube.com/watch?v=QAeTKUpZq_Y).
 
-There can often be misconceptions around publishing in Open Access journals- as they are newer to the system they are often wrongly thought of as 'less rigorous' or 'lower quality' than the 'traditional' journals. Some researchers have also been caught up in what is referred to as 'predatory publishing'- where they are tricked into paying an article processing charge to journals that are fraudulent and do not provide editorial processes that check articles for quality and legitimacy. اتباع المبادئ التوجيهية [Think. Check. Submit](https://thinkchecksubmit.org/) يمكن أن يساعد الباحثين على تجنب المجلات المفترسة.
+There can often be misconceptions around publishing in Open Access journals- as they are newer to the system they are often wrongly thought of as 'less rigorous' or 'lower quality' than the 'traditional' journals. Some researchers have also been caught up in what is referred to as 'predatory publishing'- where they are tricked into paying an article processing charge to journals that are fraudulent and do not provide editorial processes that check articles for quality and legitimacy. Following the [Think.Check.Submit guidelines](https://thinkchecksubmit.org/) can help researchers to avoid predatory journals.
 
 A criticism around gold Open Access publishing is also the cost. APCs can generally be around 2000 USD or in some cases more, which can therefore be prohibitive for authors across the globe. Some publishers offer discounts or waivers to authors from countries classified by the World Bank as low-income economies or APCs may be covered by your funder as part of your grant.
 
@@ -65,7 +65,7 @@ name: routes-to-OA
 alt: An image of a train showing the routes to open access publishing. The green route is signalled as free and shows a preprint server at the start of the journey and self archive at the end. The gold and diamond routes are signalled as author pay and funder or institution pay and show the publish in an open access journal part of the journey.
 ---
 Routes to publishing openly.
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. النسخة الأصلية على Zenodo. [http://doi.org/10.5281/zenodo.5706310](http://doi.org/10.5281/zenodo.5706310)
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. Original version on Zenodo. [http://doi.org/10.5281/zenodo.5706310](http://doi.org/10.5281/zenodo.5706310)
 ```
 
 (rr-open-access-why)=
@@ -82,7 +82,7 @@ name: share-work-openly
 alt: An poster image of a train journey and along the way five reasons why you should share your research openly are annotated.
 ---
 Advantages to sharing your research openly
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. النسخة الأصلية على Zenodo. [http://doi.org/10.5281/zenodo.5706310](http://doi.org/10.5281/zenodo.5706310)
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. Original version on Zenodo. [http://doi.org/10.5281/zenodo.5706310](http://doi.org/10.5281/zenodo.5706310)
 ```
 
 (rr-open-access-future)=
