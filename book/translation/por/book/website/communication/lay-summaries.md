@@ -1,60 +1,60 @@
-(cm-lay-summarias)=
-# Resumos Fixos
+(cm-lay-summaries)=
+# Lay Summaries
 
-Os resumos de predefinição são úteis para muitos propósitos. Normalmente são usados para comunicar conclusões de uma forma simples ao público em geral, mas têm um alcance muito maior do que este. Ajudam a difundir as conclusões entre as disciplinas científicas, uma vez que os artigos de investigação académica são frequentemente difíceis de aceder a outras disciplinas. Isso pode ajudar a colaborar entre grupos de investigação que têm uma mistura de especialistas e outros intervenientes na mesma equipa.
+Lay summaries are useful for many purposes. They are usually used to communicate findings in a simple way to the wider public but they have a far greater scope than this. They help to disseminate findings between scientific disciplines as academic research articles are often hard for other disciplines to access. This can aid collaboration within research groups that have a mix of specialists and other stakeholders in the same team.
 
-Mais recentemente, as sínteses sumárias estão a tornar-se uma exigência de revistas académicas como parte da apresentação de um artigo de investigação. No entanto, escrever resumos laicos é uma forma específica de escrita e requer formação. ou, pelo menos, uma ponderação cuidadosa, para poder adaptar a sua escrita científica.
+More recently, lay summaries are becoming a requirement from academic journals as part of the submission of a research article. However, writing lay summaries is a specific form of writing and requires training, or at least careful thought, to be able to adapt your scientific writing.
 
 (cm-lay-summaries-what)=
-## O que é um Resumo de Lay?
+## What is a Lay Summary?
 
-Um resumo laico é um resumo de um projecto de investigação ou uma proposta de investigação que é geralmente escrita para os membros do público. Deve ser escrito em inglês simples, evite o uso de jargão e explique quaisquer termos técnicos que precisam ser incluídos {cite:ps}`Duke2012summary`.
+A lay summary is a summary of a research project or a research proposal that is usually written for members of the public, rather than researchers or professionals. It should be written in plain English, avoid the use of jargon and explain any technical terms that have to be included {cite:ps}`Duke2012summary`.
 
-(cm-lay-summaries-porquê)=
-## Por que escrever sumários de Lay?
+(cm-lay-summaries-why)=
+## Why Write Lay Summaries?
 
-Para além de cumprir os objectivos de transparência e colaboração de uma abordagem científica aberta, há razões específicas para que a elaboração de resumos sumários diários possam beneficiar o progresso científico.
+Apart from fulfilling the transparency and collaborative goals of an open science approach, there are specific reasons why writing lay summaries can benefit scientific progress.
 
-[INVOLVE](https://www.invo.org.uk/about-involve/), um grupo consultivo nacional financiado pelo Instituto Nacional de Investigação da Saúde do Reino Unido informou que o envolvimento de doentes e profissionais de saúde ajuda em todas as fases de um projecto de investigação. do desenvolvimento da questão da investigação até à disseminação dos resultados. Os benefícios deste envolvimento direto na pesquisa foram identificados como seguinte {cite:ps}`Duke2012summary`:
-* Aumentar a relevância da investigação.
-* Aumentar recrutamento para pesquisa clínica.
-* Melhorar o modelo da pesquisa para lidar com preocupações éticas, melhorar as ferramentas de pesquisa e facilitar a participação das pessoas.
-* Melhorar a qualidade dos dados e a sua interpretação.
-* Tornar mais provável que os resultados da investigação sejam utilizados para fazer a diferença entre os doentes e os profissionais de saúde que vivem na vida.
+[INVOLVE](https://www.invo.org.uk/about-involve/), a national advisory group funded by the UK National Institute for Health Research reported that involving patients and healthcare professionals helps at all stages of a research project, from developing the research question to disseminating the results. The benefits of this direct involvement in research have been identified as follows {cite:ps}`Duke2012summary`:
+* Increasing the relevance of the research.
+* Increasing recruitment to clinical research.
+* Improving the design of the research to address ethical concerns, improve the research tools and make it easier for the people taking part.
+* Improving the quality of the data and its interpretation.
+* Making it more likely that the findings of the research will be used to make a difference to patients and healthcare workers lives.
 
-(cm-lay-summaries-como)=
-## Escrevendo um bom resumo de atraso
+(cm-lay-summaries-how)=
+## Writing a Good Lay Summary
 
-**A diferença entre um resumo lazer e a escrita acadêmica**
+**The difference between a lay summary and academic writing**
 
-A escrita acadêmica geralmente não é acessível aos pesquisadores fora da sua disciplina, bem como aos que estão em funções não académicas. Por conseguinte, é uma boa ideia tornar toda a sua escrita académica mais legível por ser demasiado "académica" limita a probabilidade de difusão a disciplinas académicas mais amplas e ao público em geral.
+Academic writing is usually not accessible to researchers outside of your discipline as well as those in non-academic roles. It is therefore a good idea to make all your academic writing more readable as being too ‘academised’ narrows the likelihood of dissemination to wider academic disciplines and the general public.
 
-A escrita acadêmica menos acessível tem quatro características principais {cite:ps}`DunleavyTinkler2021impact`
-* Uso de vocabulários especializados.
-* Um verbo passivo usado (ou voz passiva) que supostamente tornaria a escrita mais neutro ou imparcial.
-* substantivos substituindo por verbos para fazer com que as frases pareçam mais complicadas.
-* A geração de novos substantivos ou acrónimos específicos de disciplina.
+Less accessible academic writing has four main characteristics {cite:ps}`DunleavyTinkler2021impact`
+* Use of specialised vocabularies.
+* Passive verb use (or passive voice) that is supposed to make the writing more neutral or impersonal.
+* Nouns substituting for verbs to make sentences sound more complicated.
+* The generation of new nouns or acronyms that are discipline-specific.
 
-Portanto, a chave para tornar o seu escrito mais acessível é transformar este idioma em um estilo menos formal e menos técnico.
+Therefore, the key to making your writing more accessible is changing this language into a less formal and less technical style.
 
-### Adaptando conteúdo para Lay Summarias:
+### Adapting Content for Lay Summaries:
 
-* Conheça seu público - a maioria dos resumos formados são escritos para o nível de compreensão de uma criança em idade escolar. Isso tem cerca de 14 anos!
-* Minimize jargão - Corte todas as palavras científicas ou, se você não puder cortá-las completamente, adicione uma definição ou link da web para explicar a palavra.
-* Estrutura lógica - Frase de introdução, objetivos e objetivos, resultados e conclusões.
-* Frases e parágrafos abreviados - parágrafos latentes apenas adiam as pessoas, A maioria das pessoas não pode prestar atenção a parágrafos com mais de duas ou três frases de comprimento.
-* Use verbos ativos e voz ativa - torná-lo pessoal, use 'I' e 'nós'.
-* Conteúdo - O texto deve fornecer respostas para as questões essenciais: Quem, Quem, Quem, Quem, Quem, Quando, Porque, Como.
-* Relevância e benefícios - Aims e objectivos claramente escritos, o impacto é claramente afirmado.
-* Se estão a incluir diagramas, certifiquem-se de que também são simplificados e de que incluem textos alternativos para maior acessibilidade.
+* Know your audience - Most lay summaries are written for a high school-age child’s level of understanding. That's about 14 years old!
+* Minimise jargon - Cut out all scientific words or, if you can’t cut them out completely, add a definition or weblink to explain the word.
+* Logical structure - Introduction sentence, aims and objectives, results and conclusions.
+* Shorten sentences and paragraphs - Lengthy paragraphs just put people off, most people cannot pay attention to paragraphs longer than two or three sentences in length.
+* Use active verbs and active voice - Make it personal, use 'I' and 'we'.
+* Content - The text should provide answers to the essential questions: Who, What, Where, When, Why, How.
+* Relevance and benefits - Aims and objectives clearly written, impact clearly stated.
+* If you are including diagrams, make sure that they are also simplified and include alternative text for greater accessibility.
 
 (cm-lay-summaries-test)=
-## Teste sua legibilidade
+## Test Your Readability
 
-Dê uma olhada na utilização de um dos recursos abaixo para testar a legibilidade do resumo lazer que você escreveu.
+Have a go at using one of the resources below to test the readability of the lay summary you have written.
 
-Testes de legibilidade:
+Readability tests:
 * [Hemingway app](http://www.hemingwayapp.com/)
-* [O primeiro teste de leitura](http://thefirstword.co.uk/readabilitytest/)
+* [The first word readability test](http://thefirstword.co.uk/readabilitytest/)
 
-Aqui está um bom exemplo de como abstrair pode ser alterado em um resumo de barra: [Perfeitando este resumo](https://bitesizebio.com/10871/perfecting-that-lay-summary/).
+Here is a good example of how abstract can be changed into a lay summary: [Perfecting that lay summary](https://bitesizebio.com/10871/perfecting-that-lay-summary/).
