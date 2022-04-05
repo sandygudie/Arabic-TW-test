@@ -1,47 +1,47 @@
-(مسودة الرسالة الإخبارية)=
-# قالب لصياغة _طريق الترقيق_ النشرات الإخبارية
+(ch-template-newsletter-draft)=
+# Template for drafting _The Turing Way_ Newsletters
 
 ```
-التاريخ: DD شهر السنة
+Date: DD Month YYYY
 
-# عنوان
+# title
 
-مرحبا بالأصدقاء!
+Hello Turing Way friends!
 
-هذا الشهر ...
+This month ...
 
-ارسل ...
+Shout out ...
 
-الأحداث ...
+Events ...
 
-ابحث عن المزيد من التفاصيل حول هذه المواضيع أسفل 👇
+Find more details on these topics below 👇
 
 
-## اجتماعات المجتمع
+## Community meetings
 
     <About events like Collaboration Café, book dash, other meetings>
 
-## أخبار المجتمع
+## News from the community
 
     <Any news from the team, community members, and new chapters>
 
-## # الموارد ذات الصلة
+## Relevant resources
 
     <Any useful resources like relevant publication, training items, and materials from collaborators>
 
-## # نصائح & خدمة المساهمين الجدد
+## Tips & Tricks for new contributors
 
     <Any material that helps the new contributor to relate to the project like impact statement, story, and contributor in focus>
 
-## # اعترافات واحتفالات
+## Acknowledgments and celebrations
 
     <Shout out and wishes to celebratory news from members, recent meetings where someone talked about Turing Way, Tweets and other online mentions from people other than the team members>
 
-## ذكر خاص
+## Special mentions
 
     <Shout out to the reviewers for this newsletter other than the team members>
 
-## اتصل بنا!
+## Connect with us!
 
 - [About the project](https://www.turing.ac.uk/research/research-projects/turing-way-handbook-reproducible-data-science)
 - [_The Turing Way_ book](https://the-turing-way.netlify.com)
@@ -54,6 +54,6 @@
 You are welcome to contribute content for the next newsletter by
 emailing [Malvika Sharan](mailto:msharan@turing.ac.uk).
 
-*هل فوتت آخر الرسائل الإخبارية؟*
-*تحقق منها [here](https://tinyletter.com/TuringWay/archive).*
+*Did you miss the last newsletters?*
+*Check them out [here](https://tinyletter.com/TuringWay/archive).*
 ```
