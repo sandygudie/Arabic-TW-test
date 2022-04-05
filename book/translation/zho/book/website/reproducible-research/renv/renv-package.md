@@ -1,7 +1,7 @@
 (rr-renv-package)=
 # Package Management Systems
 
-Package managers install and keep track of the different software packages (and their versions) that you use within an environment. There are quite a few to choose from, for example, Yum, Zypper, dpkg, and Nix (which will be mentioned in the {ref}`rr-renv-binder` section). 我们将侧重于 [Conda](https://conda.io/en/latest/), 它有几个有用的功能。 We are going to focus on [Conda](https://conda.io/en/latest/), which has several useful functionalities.
+Package managers install and keep track of the different software packages (and their versions) that you use within an environment. There are quite a few to choose from, for example, Yum, Zypper, dpkg, and Nix (which will be mentioned in the {ref}`rr-binderhub` section). We are going to focus on [Conda](https://conda.io/en/latest/), which has several useful functionalities.
 
 (rr-renv-package-conda)=
 ## What Does Conda Do?
@@ -177,7 +177,7 @@ conda install -c channel_name package_name
 (rr-renv-package-exporting)=
 ## Exporting and Reproducing Computational Environments
 
-Conda environments can be exported easily to human-readable files in the YAML format. YAML 文件在本章中更详细地讨论了 {ref}`<rr-renv-yaml>`。
+Conda environments can be exported easily to human-readable files in the YAML format. YAML files are discussed in more detail {ref}`later <rr-renv-yaml>` in this chapter.
 
 To export a conda environment to a file called `environment.yml`, activate the environment and then run:
 
