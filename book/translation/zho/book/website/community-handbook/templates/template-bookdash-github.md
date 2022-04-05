@@ -1,43 +1,43 @@
 (ch-template-bookdash-github)=
-# Dash GitHub 会话
+# Book Dash GitHub Session
 
-*此模板可以通过 HackMD 页面共享，以方便预事件GitHub 片段参与者的会话。 访问权限可以设置，以便每个人都能阅读笔记并由登录用户编辑。*
+*This template can be shared via a HackMD page to facilitate a pre-event GitHub session for the Book Dash participants. The access permission can be set so that the notes can be read by everyone and edited by signed-in users.*
 
 ```
-# Book Dash, DD month YYYY - GitHub Session
+# Book Dash, DD Month YYYY - GitHub Session
 
-#### 标签: `bookdash YYYYY` `mon` `event`
+###### tags: `bookdash YYYY` `month` `event`
 
-==如果你是黑体字的新手， 请参阅本简短指南：[https://hackmd. o/@turingway/hackmd-guide](https://hackmd. o/@turingway/hackmd-guide)==
+==If you are new to HackMD, please see this short guide: [https://hackmd.io/@turingway/hackmd-guide](https://hackmd.io/@turingway/hackmd-guide)==
 
 :::info
-- **日期:** DD 月 <- 更新这个
-- **时间:** 16:00 - 17:00 London time ([在你的时区](https://arewemeetingay) om/London/YYYY-MM-D/16：00)) <- 更新这个
-- **主机：** (添加名称) <- 更新这个
-- 加入缩放会议：(添加链接) <- 更新这个
-:::::
+- **Date:** DD Month <--- Update this
+- **Time:** 16:00 - 17:00 London time ([in your time zone](https://arewemeetingyet.com/London/YYYY-MM-DD/16:00)) <--- Update this
+- **Hosts:** (Add name) <--- Update this
+- Join Zoom Meeting: (Add link) <--- Update this
+:::
 
-**在这次会议之前:**
+**Before this meeting:**
 
-- 检查[Friendly GitHub Intro](https://kirstiejane. ithub。 o/friendly-github-intro/)
+- Check the [Friendly GitHub Intro](https://kirstiejane.github.io/friendly-github-intro/)
 
-**在这次通话上**
-我们将给您一个可选的 1 小时GitHub 教程：
+**At this call**
+we will give you an optional 1 hour GitHub tutorial:
 
-- 创建一个新的资源库
-- 创建一个README 文件
-- 书写Markdown
-- 通过Pull 请求提交更改(_Ting Way_)
-- demo: Review PR, 通过添加您的名字
+- Creating a new repository
+- Creating a README file
+- Writing in Markdown
+- Submit changes (to _The Turing Way_) via Pull Request (PR)
+- demo: Review PR, Create issue
 
-名称/机构或附属关系/GitHub 的哪个特定部分来创建问题
+## Sign up below by adding your name
 
-## 在下面注册？
+Name / Institute or affiliation / What specific aspect of GitHub do you find challenging?
 * 
 * 
 * 
 
-🗣️ 欢迎!
+🗣️ Welcome!
 
 * 
 * 
@@ -89,7 +89,7 @@
 
 **反馈**
 
-哪些有效？ 什么不起作用？ 您在书签前或书签期间需要什么额外支持？
+哪些有效？ What did not work? What additional support would you need before or during the Book Dash?
 
 -
 -
