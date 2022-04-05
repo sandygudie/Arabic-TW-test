@@ -1,35 +1,35 @@
-(بالإنعكاسات الذاتية)=
-# انعكاس ذاتي
+(er-self-reflection)=
+# Self Reflection
 
-(الشروط الأساسية للتفكير الذاتي)=
-## الشروط المسبقة
+(er-self-reflection-prerequisites)=
+## Prerequisites
 
-لا توجد شروط مسبقة لهذا الفصل. غير ينصح بأن تكون على علم بالسياق القانوني والإنساني {ref}`و<er-law-policy>` أولاً إذا كنت تفكر في وجود لدم أخلاقي.
+There are no prerequisites for this chapter. However, it's advised that you should be aware of the {ref}`legal and human rights<er-law-policy>` context first if you are considering an ethical dialemma.
 
 
-(موجز - انعكاس ذاتي)=
+(er-self-reflection-summary)=
 ## Summary
 
-إن تجاربنا وهوياتنا الحية تعطينا عدسة خاصة للنظر إلى العالم من خلالها، والتي يمكن أن تتشكل حسب المكان الذي نعيش فيه، الأماكن التي نعمل فيها، أو التعليم الذي نتلقاه، أو الثقافة المهيمنة التي قمنا بتربيتها. غير أن ذلك يمكن أن يقودنا أيضا إلى رؤية حالة أو مشكلة بطريقة معينة. أو اتباع نهوج تستبعد أشخاصا معينين أو مجموعات معينة. عندما يتعلق الأمر بالمعضلات الأخلاقية، فإن تجاربنا الحية تشكل أيضا أخلاقياتنا الشخصية **، والتي هي الطريقة التي نتخذ بها القرارات حول ما هو صحيح أو خاطئ.
+Our lived experiences and identities give us a particular lens to view the world through, which can be shaped by where we live, the places we work, the education we receive, or the dominant culture we were brought up in. However, this can also lead us to see a situation or problem in one particular way, or to take approaches that exclude certain people or groups. عندما يتعلق الأمر بالمعضلات الأخلاقية، فإن تجاربنا الحية تشكل أيضا أخلاقياتنا الشخصية **، والتي هي الطريقة التي نتخذ بها القرارات حول ما هو صحيح أو خاطئ.
 
-**التفكير الذاتي** هو طريقة يمكننا استخدامها لفحص افتراضاتنا وأنماطنا وإجراءاتنا الشخصية. عندما نفهم أنفسنا بشكل أفضل، ويمكننا أن نطرح أسئلة عن سبب قيامنا بالأمور بطريقة معينة وأن نتحدى أنفسنا للنظر في وجهات نظر جديدة أو أن نتصرف بطريقة مختلفة. وهذا يمكن أن يساعد على التأكد من أن البحث الذي نجريه مسؤول وشامل وعادل، وفي نهاية المطاف أخلاقياً!
+**Self-reflection** is a method we can use to examine our personal assumptions, patterns and actions. When we understand ourselves better, we can ask questions about why we do things in a certain way and challenge ourselves to consider new perspectives or to act differently. This can help to make sure the research we are conducting is responsible, inclusive, fair and ultimately ethical!
 
 ```{figure} ../figures/ethics-self-reflection.jpg
 ---
-الاسم: تأمل ذاتي
-بديل: المرأة تقف في متجر نظارات بجوار مساعد المتجر الذي يحمل مجموعة من النظارات لها لمحاولتها. وهي تحاول قراءة إشارة لاختبار بصرها الذي يحتوي على كلمات 'نوع الجنس`، 'العرق`، 'العمر`، 'الصف الدراسي'، 'التعليم' و 'الجنس '. العلامة على باب المتجر تقول "انعكاس ذاتي - تأتي لترى بنفسك". 
+name: self reflection
+alt: A woman stands in a glasses shop next to the shop assistant who is holding a range of glasses for her to try. She is trying to read a sign to test her sight that has the words 'Gender', 'Race', 'Age', 'Class', 'Education' and 'Sexuality' on it. The sign on the door of the shop says 'Self Reflection - come in and see for yourself'. 
 ---
-انعكاس ذاتي. _توضيح مشروع طريق التورين_ من سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
+Self Reflection. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-(بدوافع التأمل الذاتي)=
-## الدافع والخلفية
+(er-self-reflection-motivation)=
+## Motivation and Background
 
-كعلماء بيانات، قد لا ننظر دائما إلى أنفسنا كأناس لديهم الكثير من القوة. ومع ذلك، فإننا ننشئ باستمرار أدوات وتكنولوجيات تغير مسار حياة العديد من الناس. وبهذا المعنى، لدينا **الكثير** من القوة، وتأتي معه المسؤولية عن العمل من أجل تحقيق العدالة والمساواة في عملنا في مجال علوم البيانات.
+As data scientists, we may not always see ourselves as people with much power. However, we are constantly creating tools and technologies that alter the course of many people's lives. In that sense, we have a **lot** of power, and with it comes responsibility for working towards justice and equality in our data science work.
 
-ونحن نعلم أنه يجب علينا أن نكون مدركين للإنصاف والتحيز في علم البيانات والمعلومات، ولكن الأدوات التي نصنعها لا ترث هذه السمات بشكل سلبي - فهي مدمجة في الأنظمة من خلال القرارات التي نتخذها. بإدراكنا لأنواع التحيزات التي نتمسك بها، يمكننا القيام بالمزيد لتحديهم وخلق تكنولوجيات علم البيانات التي تساعد الناس بدلاً من إيذائهم.
+We know we must be aware of fairness and bias in data science and AI, but the tools we make do not passively inherit these features - they are built into systems by decisions we make. By being aware of the kinds of biases we hold, we can do more to challenge them and create data science technologies that help people rather than harming them.
 
-(المؤثرات - الانعكاسات الذاتية)=
-## المؤثرات
+(er-self-reflection-influences)=
+## Influences
 
-ويعتمد هذا الفصل المتعلق بأهمية التفكير الذاتي في البحوث وعلوم البيانات على العمل من الناحية النظرية والنظرية النسائية (المؤلفة من نساء سوداء منحازين)، أبرزها مصفوفة سيطرة باتريشيا هيل كولينز {cite:ps}`التواطؤ 1990black`، نظرية الكبروليو كرينشاو بشأن التقاطع {cite:ps}`الكريناشاو 1989لإزالة التهميش`، ومعرفة دونا هاراواي القائمة {cite:ps}`هاراواي 1988موضع`من بين معارف أخرى. ومؤخراً تم جلب هذه الأفكار إلى علم البيانات بواسطة كتاب كاثرين داغنازيو ولورين كلاين "بيانات الحركة النسائية" {cite:ps}`بيانات الحركة 2020`، وباحثون مثل Abea Birhane {cite:ps}`birhane2021algorithmic`و Timnit Gebru {cite:ps}`gebru2018datashetes`. وترد في باب الموارد قائمة كاملة بالموارد الأخرى. 
+This chapter on the importance of self-reflection in research and data science draws on work from standpoint theory and feminist (particuarly Black feminist) theory, most notably Patricia Hill Collins' matrix of domination {cite:ps}`collins1990black`, Kimberlié Crenshaw's theory of intersectionality {cite:ps}`crenshaw1989demarginalizing`, and Donna Haraway's situated knowledges {cite:ps}`haraway1988situated`, amongst others. More recently these ideas have been brought to data science by Catherine D'Ignazio and Lauren Klein's book 'Data Feminism' {cite:ps}`datafeminism2020`, and researchers like Abebea Birhane {cite:ps}`birhane2021algorithmic`and Timnit Gebru {cite:ps}`gebru2018datasheets`. A full list of further resources is provided in the Resources section. 
