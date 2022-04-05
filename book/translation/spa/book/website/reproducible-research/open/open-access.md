@@ -62,9 +62,9 @@ Concerning the moment to make the paper publicly available, many journals establ
 ---
 height: 500px
 name: routes-to-OA
-alt: Una imagen de un tren que muestra las rutas para abrir el acceso a la publicación. La ruta verde está señalizada como libre y muestra un servidor preimpreso al inicio del viaje y autoarchivado al final. Las rutas de oro y diamante se señalan como el autor paga y el financiador o institución y muestran la publicación en una parte de la revista de acceso abierto del viaje.
+alt: An image of a train showing the routes to open access publishing. The green route is signalled as free and shows a preprint server at the start of the journey and self archive at the end. The gold and diamond routes are signalled as author pay and funder or institution pay and show the publish in an open access journal part of the journey.
 ---
-Routes para publicar abiertamente.
+Routes to publishing openly.
 _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. Original version on Zenodo. [http://doi.org/10.5281/zenodo.5706310](http://doi.org/10.5281/zenodo.5706310)
 ```
 
@@ -78,11 +78,11 @@ Publishing openly also has benefits for you as an author. Your work is likely to
 ```{figure} ../../figures/share-work-openly.jpg
 ---
 height: 500px
-name: share-work-open
-alt: Una imagen de un cartel de un viaje en tren y a lo largo del camino cinco razones por las que debería compartir abiertamente su investigación están anotadas.
+name: share-work-openly
+alt: An poster image of a train journey and along the way five reasons why you should share your research openly are annotated.
 ---
-Ventajas para compartir tus investigaciones abiertamente
-ilustración del proyecto _The Turing Way_ por Scriberia. Used under a CC-BY 4.0 licence. Original version on Zenodo. [http://doi.org/10.5281/zenodo.5706310](http://doi.org/10.5281/zenodo.5706310)
+Advantages to sharing your research openly
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. Original version on Zenodo. [http://doi.org/10.5281/zenodo.5706310](http://doi.org/10.5281/zenodo.5706310)
 ```
 
 (rr-open-access-future)=
