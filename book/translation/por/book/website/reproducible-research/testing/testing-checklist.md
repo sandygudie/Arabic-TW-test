@@ -1,6 +1,6 @@
 # Checklist para teste de código
 
-Esta lista de verificação contém um monte de itens. Como {ref}`mencionado antes de<rr-testing-write-tests>`, é muito melhor fazer alguns dos itens do que nenhum deles. Não desanime se esta lista de tarefas parecer intransponível.
+Esta lista de verificação contém um monte de itens. As {ref}`mentioned before<rr-testing-write-tests>`, it is far better to do some of the items than none of them. Não desanime se esta lista de tarefas parecer intransponível.
 
 <a name="Writing_tests"></a>
 
@@ -18,10 +18,10 @@ Esta lista de verificação contém um monte de itens. Como {ref}`mencionado ant
 
 ## Boas verificações práticas
 
-- [ ] Documento os testes e como executá-los.
-  - [ ] Escrever scripts para configurar e configurar todos os recursos necessários para executar os testes.
-- [ ] Escolha e faça uso de um framework de teste.
-- [ ] Execute os testes regularmente.
-  - [ ] Automatize o processo de testes em execução. Considere utilizar a integração contínua (ver capítulo de integração contínua) para fazer isso.
-- [ ] Verifique a cobertura do código de seus testes e tente melhorá-lo.
-- [ ] Participe da revisão de código com um parceiro.
+- [ ] Document the tests and how to run them.
+  - [ ] Write scripts to set up and configure any resources that are needed to run the tests.
+- [ ] Pick and make use of a testing framework.
+- [ ] Run the tests regularly.
+  - [ ] Automate the process of running tests. Consider making use of continuous integration (see continuous integration chapter) to do this.
+- [ ] Check the code coverage of your tests and try to improve it.
+- [ ] Engage in code review with a partner.
