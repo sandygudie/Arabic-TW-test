@@ -1,54 +1,54 @@
-(cl-infrature-ram)=
-# 研究应用管理员：概览
+(cl-infrastructure-ram)=
+# Research Application Managers: Overview
 
-## 背景和未满足的需要
+## Context and the unmet need
 
-学术奖励措施鼓励创造新知识，如创造新的机器学习算法。 往往在开创性的著作发表在学术杂志上之后， 由于研究人员开始一个新的项目或向另一个机构移动，所以不支持该算法和为部署它而设计的软件。 学术界历来不太愿意支持和奖励以下方面的工作：
-- 改进和扩大现有研究产出/软件
-- 促进新的和现有产出/软件的互操作性
-- 对产出/软件（新软件和现有软件）的使用能力、可再使用性和方便用户性进行投资
-- 在研究输出周期的早期阶段与用户共同创建输出
-- 主动发现新的现实世界应用程序，使用原始学术领域以外的案例，并着力促进、适应和采纳这些程序
+Academic incentives encourage the creation of novel knowledge, such as creating new machine learning algorithms. Often, after ground-breaking work has been published in an academic journal, the algorithm and the software built to deploy it are not supported because the researcher begins a new project or moves to another institution. Traditionally, academia is less interested in supporting and rewarding work on:
+- Improving and extending existing research outputs/software
+- Promoting interoperability of new and existing outputs/software
+- Investing in usability, re-usability and user-friendliness of outputs/software (new and existing)
+- Co-creating outputs with users from the early stages of the research output lifecycle
+- Proactively discovering new real-world applications and use cases beyond the original academic field and investing in their promotion, adaptation and adoption
 
-换言之，学术界高度赞扬创造知识。 对传播、互联性和超越原有学术领域的可用性的投资，通常得不到最大的学术奖赏。 因此，在早期职业研究竞争激烈的世界中，这种工作往往没有被列为优先事项。
+In other words, academia highly prizes knowledge creation. Investment in dissemination, interconnectivity and usability beyond the original academic field is typically not rewarded with the greatest academic prizes. In the highly competitive world of early career research, such work is therefore often not prioritised.
 
 ```{figure} ../../figures/research-application-managers.jpg
 ---
-名称：研究-应用管理器
-备选案文：描述动物雨为与用户连接的研究应用管理器的图案 • 将研究应用于现实世界，并促进研究基础设施的创新进程。
+name: research-application-managers
+alt: An illustration depicting the animal rams as the research application managers who are connecting with users, applying research in real world and facilitating innovative process in research infrastructure.
 ---
-研究应用管理员与研究团队合作，将产出嵌入到用户组织中。 _Ting Way_Community, & Stereria。 (2020, November). Illustrations from the Turing Way book dashes. Zenodo. http://doi.org/10.5281/zenodo.4323154
+Research Application Managers work with the research team to embed outputs into user organisations. _The Turing Way_ Community, & Scriberia. (2020, November). Illustrations from the Turing Way book dashes. Zenodo. http://doi.org/10.5281/zenodo.4323154
 ```
 
 
-## 作为研究生态系统中的连接作用的 RAM
+## A RAM as a connecting role in the research ecosystem
 
-我们在艾伦·图普研究所设立了一个研究应用管理员的角色，目的是弥补这一奖励差距。 对典型的初期职业研究人员从事开放源码软件等创造产出的工作，区域信息交流机制得到了特别的激励和奖励。
+We have created the role of a Research Application Manager (RAM) at The Alan Turing Institute with the aim of addressing this incentive gap. RAMs are specifically incentivised and rewarded to conduct the work that traditionally sits on the margins for a typical early career researcher engaging in creating outputs such as open source software.
 
-区域信息交流在一定程度上受技术公司产品经理的作用的启发。 他们还与开发者倡导者的作用相似，他们的工作与社区管理者的工作重叠。 在有些情况下，内部管理工作量可能包括类似解决方案工程师或前方部署工程师的详细的、往往是技术性的投入， 谁直接与客户接口，以确保该工具满足用户的需要。
+RAMs are in part inspired by the role of a Product Manager in tech firms. They also have similarities with the role of a Developer Advocate and their work overlaps with that of the Community Manager. In some cases the RAM workload may include detailed, often technical, input, resembling a Solutions Engineer or a Forward Deployed Engineer, who interface directly with customers to ensure that the tool meets user needs.
 
-监测机制的成功度量：
-- 在该项目早期与研究小组进行接触，以了解其软件工具潜在用户的观点，并从早期阶段就主动共同创建。
-- 在整个发展过程和特色优先化过程中提倡使用者观点
-- 确定主要用户和目标听众的情况
-- 研究和了解用户社区
-- 让用户社区参与
-- 与研究小组合作确定可持续性和供资办法
-- 推广原研究小组学术领域以外的工具
-- 将产出看作是一种研究“产品”，并将适当水平的“市场情报”带给学术小组
-- “封装”或“重新包装”工具以提高不同受众的可用性/可访问性
+The measures of success for a RAM:
+- Engaging with the research team early on in the project to bring the perspective of potential users of their software tools and to proactively co-create from the early stages
+- Advocating for the user perspective throughout the development and feature prioritisation process
+- Identifying the key users and the target audience
+- Researching and understanding the user community
+- Engaging with the user community
+- Identifying sustainability and funding solutions in collaboration with the research team
+- Promoting the tools outside the academic field of the original research team
+- Approaching the output as a research "product" and bringing an appropriate level of "market intelligence" to the academic team
+- "Packaging" or "re-packaging" the tool to improve usability/accessibility to different audiences
 
-区域措施主要是解决奖励差距问题的一种办法。 他们给研究小组带来了“团队科学”的心态，推广研究最佳做法——这是他们与社区管理人共同承担的任务。
+RAMs are a solution primarily to the incentive gap problem. They bring a "Team Science" mindset to the research teams and promote research best practices - a task they share with the Community Manager role.
 
-区域行动方案和区域行动方案都在以下方面推广最佳做法：
-- 产出的互操作性
-- 研究结果和产出的可再生性
-- 团队科学/开放科学
-- 道德操守：
-- 共同创建
-- 包容性
+Both RAMs and CMs promote best practices in:
+- Interoperability of outputs
+- Reproducibility of research findings and outputs
+- Team Science / Open Science
+- Ethics
+- Co-creation
+- Inclusivity
 
-社区管理人员正在成为研究生态系统尤其是开放源码软件社区的既定角色。 我们希望，区域安排机制将有同样成功的轨道。
+Community managers are becoming an established role in the research ecosystem and in open source software communities in particular. We hope that RAMs will have a similarly successful trajectory.
 
-关键的 RAM 值： _适应性、协作和旧版_
+Key RAM values: _adaptability, collaboration and legacy_
 
