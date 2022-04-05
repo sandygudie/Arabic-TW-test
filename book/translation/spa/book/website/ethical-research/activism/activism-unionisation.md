@@ -76,7 +76,7 @@ The AScW communicated with members via branch bulletins as well as a national pa
 
 Start by finding out if there is a union already in your workplace. If so, there will be a person you can talk to about joining: they might be known as the union rep or steward. Joining the union that already represents people in your workplace increases its ability to bargain on behalf of everyone and organise the workplace. Some workplaces may have several different unions that represent different types of staff. In these cases, you should join the one you feel best matches the type of work you do.
 
-If there is not a union in your workplace, look into the unions that already exist in your area or country. [enlace a la sección sobre ejemplos de sindicatos](er-activism-unionisation-unionexamples) Puede ser capaz de unirse a uno que sea relevante para su industria o obligaciones: o puede ser capaz de unirse a una unión general que representa a muchos trabajadores diferentes.
+If there is not a union in your workplace, look into the unions that already exist in your area or country. [link to section on examples of unions](er-activism-unionisation-unionexamples) You might be able to join one that is relevant to your industry or duties: or you might be able to join a general union that represents lots of different workers.
 
 To join a union, you might have to pay union fees or dues. These are almost always sliding scale, based on how much you earn: some unions also have free membership for people in certain positions or roles.
 
@@ -138,7 +138,7 @@ We recognise that the list below is very UK-centric and would welcome additions 
 * **Unite**, United Kingdom, the largest professional services union with over 1 million members [website](https://unitetheunion.org/)
 * **University & Colleges Union (UCU)**, United Kingdom, covers researchers, academic staff and higher grades of professional services staff in Higher Education & Further Education institutions [website](https://www.ucu.org.uk/)
 * **Prospect**, United Kingdom, union covering scientists & engineers [website](https://members.prospect.org.uk/our-industries/science/index)
-* **Unión de Servicios Públicos y Comerciales (PCS)**, Reino Unido, sitio web de la unión de servicios civiles
+* **Public and Commercial Services Union (PCS)**, United Kingdom, civil service union [website](https://www.pcs.org.uk/about-pcs)
 * United Voices of the World (UVW), Charity Sector Workers Branch [website](https://www.uvwunion.org.uk/en/sectors/charity-sector/)
 * Independent Workers’ Union of Great Britain (IWGB), Charity Sector Workers Branch [website](https://iwgb.org.uk/page/iwgb-charity-workers-branch/)
     * IWGB also has a number of branches covering cleaners, receptionists and game industry workers
@@ -162,7 +162,7 @@ We recognise that the list below is very UK-centric and would welcome additions 
 #### Spain
 * **Unión General de Trabajadores (UGT)** is a major Spanish trade union, historically affiliated with the Spanish Socialist Workers' Party (PSOE) [website](https://www.ugt.es/)
 * **Confederación Sindical de Comisiones Obreras (CCOO)** is the second largest union in Spain and is the most successful one in labor elections [website](https://www.ccoo.es/)
-* **Federacion de Jovenes Investigadores (FJI-Precarios)** se centra en mejorar las condiciones laborales de los jóvenes investigadores, la defensa de la dignidad de la profesión investigadora y, en general, la mejora de la situación de la ciencia en España [página web](http://precarios.org/Qui%C3%A9nes+somos)
+* **Federacion de Jovenes Investigadores (FJI-Precarios)** is focused on improving the labour conditions of young researchers, defending the dignity of the research profession, and overall, improving the situation of science in Spain [website](http://precarios.org/Qui%C3%A9nes+somos)
 
 
 #### United States
