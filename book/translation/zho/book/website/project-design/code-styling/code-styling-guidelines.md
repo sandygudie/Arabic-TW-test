@@ -11,7 +11,7 @@ The following are links to existing style guides that may be of use when decidin
 * [Hadley Wickham's](http://adv-r.had.co.nz/Style.html) style guide for R.
 * [Google's](https://google.github.io/styleguide/Rguide.xml) style guide for R.
 * [Microsoft's](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions) style guide for C#.
-* 针对C的 PEP7
+* [PEP7](https://www.python.org/dev/peps/pep-0007/) for C.
 
 However, to get started quickly, the following sections present some advice for code style.
 
@@ -23,7 +23,7 @@ The [Centre for Open Science](http://help.osf.io/m/bestpractices/l/609932-file-n
 data <- read.csv("2019-05-17_Turing-Way_Book-Dash.csv")
 
 ```
-The R style guide suggests keeping file names basic. 这也许适合于小型紧凑型项目，但对于大型项目来说，有大量类似的文档。 或者如果您没有使用版本控制(见第/章)？ For more details please see the chapter on {ref}`File Naming<pd-filenaming>`.
+The R style guide suggests keeping file names basic. This might be appropriate for small compact projects, however over larger projects with lots of similar files, or if you are not using version control (see chapter /?) it may be more appropriate to use the COS guidelines. For more details please see the chapter on {ref}`File Naming<pd-filenaming>`.
 
 ### Versioning
 
@@ -41,7 +41,7 @@ Be creative!
 
 ### Naming conventions
 
-For clarity and readability, choosing a set of naming conventions for your variables is useful. 有一种很大的品种，一些人可以相当大地说出哪种品种是正确的(对你来说是正确的！ These include:
+For clarity and readability, choosing a set of naming conventions for your variables is useful. There is a large variety, and some people can be quite vocal about which one is 'correct' (pick one that is right for you!). These include:
 
 - CamelCase
 - lowerCamelCase
