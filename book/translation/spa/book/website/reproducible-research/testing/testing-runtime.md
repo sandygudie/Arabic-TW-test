@@ -14,16 +14,14 @@ Another example of a use of runtime tests is internal checks within functions th
 ```
 function add_arrays( array1, array2 ):
 
-// prueba que los arrays tienen el mismo tamaño
-if (array1. ize() != array2.size()):
-  error ( '¡Los arrays tienen diferentes tamaños!' )
+// test that the arrays have the same size
+if (array1.size() != array2.size()):
+  error( 'The arrays have different sizes!' )
 
-salida = array1 + array2
+output = array1 + array2
 
 if (output.size() != array1.size()):
-  error ( '¡El array de salida tiene un tamaño incorrecto!'' )
-
-devuelve salida )
+  error( 'The output array has the wrong size!'' )
 
 return output
 ```
