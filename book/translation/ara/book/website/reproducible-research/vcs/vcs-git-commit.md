@@ -15,7 +15,7 @@ You can see a log of your previous commits using
 git log
 ```
 
-In the log report on your terminal, you will see that each version is automatically tagged with a unique string of numbers and letters, called an SHA. You can identify, access and compare different versions by using their corresponding SHA. هنا مثال على ارتكاب في سجل Git: SHA في السطر الأول جداً، وبصرف النظر عن SHA هذه، يحتوي السجل أيضا على معلومات عن التاريخ والوقت ومؤلف التغيير وكذلك رسالة الالتزام ("الإصلاح الطباعي الثانوي").
+In the log report on your terminal, you will see that each version is automatically tagged with a unique string of numbers and letters, called an SHA. You can identify, access and compare different versions by using their corresponding SHA. Here is an example of a commit in the Git log: The SHA is in the very first line, and apart from this SHA, the log also contains information on the date, time, and author of the change as well as the commit message ("minor typo fix").
 
 ```
 commit 0346c937d0c451f6c622c5800a46f9e9e1c2b035
@@ -31,7 +31,7 @@ Date:   Wed May 6 18:22:40 2020 +0100
 
 As you work on your project, you will make more and more commits. Without any other information, it can be hard to remember which version of your project is in which. Storing past versions is useless if you can not understand them, and figuring out what they contain by inspecting the code is frustrating and takes valuable time.
 
-When you commit, you have the chance to write a commit message describing what the commit is and what it does, and you should always, *always,* **_always_** do so. يتم إرفاق رسالة الالتزام بالالتزام، لذا إذا نظرت إلى الوراء (على سبيل المثال، عبر `git log`)، ستظهر إن إنشاء رسائل التزام وصفية ومتبصرة هو أحد أفضل الأشياء التي يمكنك القيام بها لتحقيق أقصى استفادة من التحكم في الإصدار. Creating insightful and descriptive commit messages is one of the best things you can do to get the most out of version control. It lets people (and your future self when you have long since forgotten what you were doing and why) quickly understand what updates a commit contains without having to carefully read code and waste time figuring it out. Good commit messages improve your code quality by drastically reducing wrong assumptions by people on why certain changes were made.
+When you commit, you have the chance to write a commit message describing what the commit is and what it does, and you should always, *always,* **_always_** do so. A commit message gets attached to the commit, so if you look back at it (for example, via `git log`), it will show up. Creating insightful and descriptive commit messages is one of the best things you can do to get the most out of version control. It lets people (and your future self when you have long since forgotten what you were doing and why) quickly understand what updates a commit contains without having to carefully read code and waste time figuring it out. Good commit messages improve your code quality by drastically reducing wrong assumptions by people on why certain changes were made.
 
 When you commit via `git commit` without the `-m` or `--message` option, a field appears (either within the terminal or in a text editor) where a commit message can be written. You can write a meaningful statement and save (and close if writing the message via text editor). You can set your preferred editor as the default by running a statement like this:
 
