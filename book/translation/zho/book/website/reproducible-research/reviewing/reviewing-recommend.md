@@ -5,9 +5,9 @@
 
 在开发商通常已经相互了解的小规模项目范围内， 常见的做法是让编译者将该群组中的某人标记为审核者。 当您被标记为审核者时， 首先检查您是否对 有足够的知识。 代码中的新更改能够在合理的时间内完成一份很好的工作。
 
-与此相对照，大规模发展项目很可能有适用于 审查人员如何分配给个别吸引申请的现有具体规则。 这些规则有助于平衡小组的工作量，并最大限度地扩大这一进程对项目及其参与者的各种好处。 最大的项目甚至可能有专职工作人员――或工作人员团队――担任审评员。 通常，代码审查只能由授权的贡献者子组在较大的项目中进行。
+与此相对照，大规模发展项目很可能有适用于 审查人员如何分配给个别吸引申请的现有具体规则。 These rules serve to balance the group workload and to maximise the various benefits of the process to the project and its participants. The very largest projects may even have dedicated staff - or teams of staff - to act as reviewers. Typically, code reviews can only be performed by an authorised subset of contributors within larger projects.
 
-对于可能对类似材料进行多轮审查并预计开发周期长的项目。 一定程度的战略思维对谁完成审查是明智的。 单一审查者很可能能够在更有效率的前提下就他们已经审查过的代码提出意见。 然而，让审核者对此保持不变一般是一个坏主意， 这可能导致同类群体认为审查过程首先是为了避免。
+For projects where multiple rounds of review on similar material are likely and long development cycles are anticipated, a degree of strategic thinking on who completes reviews is sensible. A single reviewer is likely to be able to make comments on code they have reviewed before much more efficiently. However, letting reviewer-coder pairs like this persist is generally a bad idea, as it can lead to the same kinds of groupthink that the review process is designed to avoid in the first place.
 
 (rr-reviewing-recommendation-be-nice)=
 ## 太棒了！
@@ -32,9 +32,9 @@
 
 以下是关于如何将代码评论纳入我们工作进程的一些一般性建议：
 
-- 仔细阅读时间. 仔细阅读时间. 审查一切，没有任何东西太短或太简单。
-- 试着还有其他东西要做，并在你的 个工作日中散布负荷。 每次不要检查一小时以上，但成功率下降得相当快。
-- 每次不要检查超过 400行代码，少于200 行就会更好。 不要检查超过 500 个LOC /小时。
+- Take the time, read carefully. 仔细阅读时间. 审查一切，没有任何东西太短或太简单。
+- 试着还有其他东西要做，并在你的 个工作日中散布负荷。 Don't review for more than an hour at a time, after that the success rate drops quite quickly.
+- Don't review more than 400 lines of code (LOC) at a time, less than 200 LOC is better. Don't review more than 500 LOC/hour.
 
 ## 与脱机进行讨论
 
