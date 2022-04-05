@@ -52,11 +52,10 @@ If you want, you can create branches from branches (and branches off of those br
 
 ```{figure} ../../figures/sub-branch.png
 ---
-name: one-branch
-alt:
-Una ilustración de un desarrollo y rama principal en git
+name: sub-branch1
+alt: An illustration of a development branch in git.
 ---
-Una ilustración de un desarrollo y una rama principal en git.
+A development branch in git.
 ```
 
 No matter how many branches you have, you can access the past versions you made on any of them. If you are curious to know how to use this feature in practice, you will find more details a few sections ahead.
