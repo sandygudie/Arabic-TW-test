@@ -41,7 +41,7 @@ Now if you run this script it outputs
 0.763774618977
 ```
 
-每次运行此脚本时，您都会得到 *相同的* 输出。 它将打印相同的 ** 三个随机数。 If the random number seed is changed you will get a different three random numbers:
+and every time you run this script you will get the *same* output, it will print the *same* three random numbers. If the random number seed is changed you will get a different three random numbers:
 
 ```python
 0.956034271889
@@ -168,8 +168,8 @@ Unit test frameworks for other languages also often provide similar functions:
 - JUnit for Java: org.junit.Assert.assertEquals(double expected, double actual, double delta)
 - testthat for R:
   - expect_equal(actual, expected, tolerance=DELTA) - absolute error within DELTA
-  - 期望等价(实际，预期，尺寸=预期，容忍度=DELTA) - DELTA中的相对错误
-- 朱利亚：
+  - expect_equal(actual, expected, scale=expected, tolerance=DELTA) - relative error within DELTA
+- julia:
   - `val1 ≈ val2`
   - `isapprox(val1, val2, atol=abs_delta, rtol=rel_delta)`
-  - `Test.jl` with `origin.`: `@test val1 assistance val2 atol=abs_delta rtol=rel_delta`
+  - `Test.jl` with `≈`: `@test val1 ≈ val2 atol=abs_delta rtol=rel_delta`
