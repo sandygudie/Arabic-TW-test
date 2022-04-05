@@ -1,11 +1,10 @@
 ```{figure} ../figures/data-ecosystem.jpg
 ---
-高度：400px
+height: 400px
 name: data-ecosystem
 alt: image of the data ecosystem with private and public data
 ---
-Open and closed data for reducity
-Stereteria的绘画线路项目示例。
+Open and closed data for reproducibility.
 _The Turing Way_ project illustration by Scriberia. Original version on Zenodo. http://doi.org/10.5281/zenodo.3695300. 
 ```
 
