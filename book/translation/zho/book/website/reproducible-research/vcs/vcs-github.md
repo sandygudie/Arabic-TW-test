@@ -12,7 +12,7 @@ For simplicity, we will use GitHub as an example to explain commands that are us
 (rr-vcs-github-local)=
 ## Create a Local Copy of an Online Repository
 
-So far, all Git commands introduced in this chapter are concerned with local, unconnected Git repositories. In order to collaborate with others, hosting services, such as GitHub, can store a *clone* (a copy) of your local repository and expose it to others. Usually, you will have a local repository and a *remote*, web-hosted repository. Your local repository is connected to the web-based clone. In technical terms, the web-based clone is a `remote` of the local repository. Usually, this remote is called "origin". Having a web-based remote allows you to *push* changes to your project online. 它使其他人能够获取自己的存储库克隆(将您的存储库复制到本地计算机)， 做出更改，并提交一个 *拉取请求* ，允许您整合他们的更改。 It enables others to obtain their own clone of your repository (a copy of your repository to their local computer), make changes, and submit a *pull request* that allows you to integrate their changes. For example, one can create an independent local copy of a project using the following Git command:
+So far, all Git commands introduced in this chapter are concerned with local, unconnected Git repositories. In order to collaborate with others, hosting services, such as GitHub, can store a *clone* (a copy) of your local repository and expose it to others. Usually, you will have a local repository and a *remote*, web-hosted repository. Your local repository is connected to the web-based clone. In technical terms, the web-based clone is a `remote` of the local repository. Usually, this remote is called "origin". Having a web-based remote allows you to *push* changes to your project online. It enables others to obtain their own clone of your repository (a copy of your repository to their local computer), make changes, and submit a *pull request* that allows you to integrate their changes. For example, one can create an independent local copy of a project using the following Git command:
 
 ```
 git clone <insert GitHub link of the repository here>
@@ -29,13 +29,12 @@ git push
 (rr-vcs-github-online)=
 ## Link a Local Project on Your Computer to an Online Repository
 
-要将您计算机上的一个项目连接到一个新的 GitHub 仓库(最好使用相同的名称), 您需要遵循创建Git 存储库的标准工作流(在 {ref}r-vcs-workflow`rr-vcs-workflow` subchapter中描述)，在终端中发布以下一组命令。
+To link a project on your computer to a new GitHub repository (preferably with the same name), you need to follow the standard workflow for creating a Git repository (described in the {ref}`rr-vcs-workflow` subchapter) by issuing the following set of commands in the terminal, one by one:
 
 ```
 cd <your project folder>
 git init
-git 添加 .
-git 提交
+git add .
 git commit
 ```
 Assuming that you have a GitHub repository that you want to connect with this project, run the following command:
@@ -174,7 +173,7 @@ Now you can make a pull request!
 Before you create a branch, make sure you have all the upstream changes from the origin/main branch.
 
 
-** `rebase` 命令**告诫：当试图保持分支同步时， 你可能会碰到 `rebase` 命令。 It tends to rewrite history and could be troublesome if not communicated with others working on the same branch. Try to avoid using the `rebase` command, and instead use `pull` or `fetch`+`merge`, as discussed in this section. You can find more details about [Merging vs Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing).
+**A word of caution on the `rebase` command**: While trying to keep your branches in sync, you may come across the `rebase` command. It tends to rewrite history and could be troublesome if not communicated with others working on the same branch. Try to avoid using the `rebase` command, and instead use `pull` or `fetch`+`merge`, as discussed in this section. You can find more details about [Merging vs Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing).
 
 
 ## Further reading
