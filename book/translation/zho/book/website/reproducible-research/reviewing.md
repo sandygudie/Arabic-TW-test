@@ -22,7 +22,7 @@ Catching bugs. _The Turing Way_ project illustration by Scriberia. Used under a 
 
 Code review provides an additional way of testing code quality. Instead of relying simply on {ref}`tests<rr-testing>` which the original author puts together themselves, code review gets another programmer to look over the new code and assess it. The goal is to point out strengths and also potential areas of improvement.
 
-Code review is often done in pairs, with each reviewer also having some of their code reviewed by their partner. Doing this can help programmers to see and discuss issues and alternative approaches to tasks, and to learn new tips and tricks. 这也意味着代码审查做法特别适合于一个以上贡献者进行改变的项目。 Nonetheless, even the smallest scale projects can harness these approaches with some creative project management.
+Code review is often done in pairs, with each reviewer also having some of their code reviewed by their partner. Doing this can help programmers to see and discuss issues and alternative approaches to tasks, and to learn new tips and tricks. This also means code review practices are particularly well-suited to projects with more than one contributor making changes, where each is working on different parts of the code. Nonetheless, even the smallest scale projects can harness these approaches with some creative project management.
 
 Because of their nature, code reviews act as qualitative - rather than quantitative - tests but are no less valuable for that.
 
