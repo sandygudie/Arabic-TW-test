@@ -51,7 +51,7 @@ Before writing any CSS, inspect the book's HTML source code first. This gives yo
 
 All web browsers allow you to view the source code of websites easily. On computers running the Windows OS, this is done using `CTRL + U`. For computers running Mac OS, this is done using `Option + Command + U`.
 
-Once you have determined the element(s) you want to modify, write your CSS in _The Turing Way's_ [stylesheet file](https://github.com/alan-turing-institute/the-turing-way/blob/main/book/website/_static/book-stylesheet.css). Si, por ejemplo, quieras cambiar la `familia de fuentes` del texto del párrafo en todo el libro _The Turing Way_ , entonces podría añadir la siguiente regla CSS a las hojas de estilo que apuntan todos los elementos con una etiqueta `<p>`:
+Once you have determined the element(s) you want to modify, write your CSS in _The Turing Way's_ [stylesheet file](https://github.com/alan-turing-institute/the-turing-way/blob/main/book/website/_static/book-stylesheet.css). If, for example, you wanted to change the `font-family` of the paragraph text across the entire _The Turing Way_ book, then you could add the following CSS rule to the stylesheets which target all elements with a `<p>` tag:
 
 ```
 p {
@@ -59,4 +59,4 @@ p {
 }
 ```
 
-Si crees que el estilo introducido en _The Turing way_ puede ser útil para otros usuarios de Jupyter Book por favor considere hacer una contribución al proyecto creando un nuevo problema de GitHub e iniciando una discusión con sus mantenedores: https://github.</p>
+If you think that the styling introduced in _The Turing way_ can be useful for other Jupyter Book users, please consider making an upstream contribution to the project by creating a new GitHub issue and starting a discussion with their maintainers: [https://github.com/executablebooks/jupyter-book/issues](https://github.com/executablebooks/jupyter-book/issues).
