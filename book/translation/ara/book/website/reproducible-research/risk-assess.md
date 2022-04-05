@@ -1,26 +1,26 @@
-(r-risk-assess)=
-# تقييم المخاطر - البت في كيفية إدارة برنامجك
+(rr-risk-assess)=
+# Risk Assessment - deciding how to manage your software
 
 ## TL;DR
-استخدم تقييم المخاطر للمساعدة في اختيار مفاهيم البرمجيات المستدامة المناسبة لمشروعك. القليل جداً والبرمجيات الخاصة بك غير مستدامة؛ الكثير جداً ولن تتمكن من التفعيل معه. يمكن أن يستغرق الأمر بضع ثوانٍ، ولكن يأخذك على الأقدام الصحيحة.
+Use a risk assessment to help choose the appropriate sustainable software concepts for your project. Too little and your software is unsustainable; too much and you won’t be able to Get On With It. It can take just a few seconds, but gets you off on the right foot.
 
-## قراءة أطول…
-ونحن جميعا نستخدم تقييمات المخاطر طوال الوقت. في بعض الأحيان هي إجراءات رسمية لضمان أن يكون النشاط آمناً، لكن في معظم الأحيان كانوا يفكرون في لحظة: "هل هذه القهوة شديدة الحرارة؟ , "هل هناك حافلة قادمة؟". البرمجيات ليست مختلفة، واستخدام نهج تقييم المخاطر مثل النهج الوارد وصفه أدناه يمكن أن يساعد حقاً على جعل عملك ناجحاً ومستداماً.
+## Longer read…
+We all use risk assessments all the time. Sometimes they’re formal procedures to ensure an activity is safe, but most of the time they’re the thought of a moment: "Is this coffee too hot?", "Is there a bus coming?". Software is no different, and using a risk assessment approach like the one described below can really help make your work successful and sustainable.
 
-### مصفوفة المخاطر
-مصفوفة المخاطر هي طريقة شائعة جدا لتحديد ما يجري مع ما تهتم به. ويقيس أحد المحاورين التعرض بطريقة أو بأخرى، ويقيس الآخر تأثير سوء التصرف. وكلما ازدادت الحاجة إلى مزيد من الضمانات من أجل جعل الخطر مقبولا.
+### The risk matrix
+A risk matrix is a very popular way of quantifying what’s going on with the thing you’re interested in. One axis measures exposure in some way, and the other the impact of a mishap. The further from the origin, the more safeguards are needed to make the risk acceptable.
 
-في حالتنا سوف نستخدم "التعقيد" و "الارتطام" كمحورين. بعض دراسات الحالة توضح كيف يعمل…
+In our case, we will use ‘complexity’ and ‘impact’ as the two axes. Some case studies illustrate how it works…
 
-القضية 1
+Case 1
 
-> ويحتاج ريتشارد إلى تقديم 100 وظيفة صغيرة إلى مجموعة المقاطعات، مع اختلاف أسماء الوظائف وفقا لنمط بسيط. هذا ممل وهو يريد الذهاب إلى الخارج واللعب. ولذلك، فإن ريتشارد يقرر كتابة نص قصير لتقديم جميع الوظائف. هو يوقف لبضع ثوان ويسأل: "ما مدى تعقيد هذا؟ سيكون فقط حوالي 1 شاشة من النص." ماذا لو حدث خطأ؟ لن تقدم الوظائف أو تعمل وسوف أحصل على بعض رسائل البريد الإلكتروني الفاشلة."
+> Richard needs to submit 100 small jobs to the department cluster, with the names of the jobs varying according to a simple pattern. This is tedious and he wants to go outside and play. Therefore, Richard decides to write a short shell script to submit all the jobs. هو يوقف لبضع ثوان ويسأل: "ما مدى تعقيد هذا؟ It’ll only be about 1 screen of text." "What if it goes wrong? The jobs won’t submit or run and I’ll get some failure emails."
 
-## الشروط الأولية/مستوى المهارة الموصى بها
-> يحتاج هذا إلى الكتابة
+## Prerequisites/recommended skill level
+> This needs writing
 
 ## Summary
-استخدم تقييم المخاطر للمساعدة في اختيار مفاهيم البرمجيات المستدامة المناسبة لمشروعك. القليل جداً والبرمجيات الخاصة بك غير مستدامة؛ الكثير جداً ولن تتمكن من التفعيل معه. يمكن أن يستغرق الأمر بضع ثوانٍ، ولكن يأخذك على الأقدام الصحيحة.
+Use a risk assessment to help choose the appropriate sustainable software concepts for your project. Too little and your software is unsustainable; too much and you won’t be able to Get On With It. It can take just a few seconds, but gets you off on the right foot.
 
-## كيف سيساعدك/لماذا هذا مفيد
-> يحتاج هذا إلى الكتابة
+## How this will help you/why this is useful
+> This needs writing
