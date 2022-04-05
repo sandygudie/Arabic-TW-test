@@ -61,38 +61,38 @@ Try reading the chapter on reproducible computational environments and then the 
 
 ## Materials used: glossary
 
-- [Centro Holandés de eScience](https://guide.esciencecenter.nl/#/best_practices/testing) **Licencia Creative Commons Attribution 4.0 International**
+- [Netherlands eScience centre](https://guide.esciencecenter.nl/#/best_practices/testing) **Creative Commons Attribution 4.0 International License**
 
 ### Definitions/glossary
 
-- **Prueba de aceptancia:** Una prueba que el programa cumple con los requisitos fundamentales del proyecto.
+- **Acceptance test:** A test that the program meets the project's fundamental requirements.
 
-- **Cobertura del código:** Una medida que describe la cantidad del código fuente que ejerce la suite de pruebas.
+- **Code coverage:** A measure which describes how much of the source code is exercised by the test suite.
 
-- **Prueba de fin a fin:** Una prueba que ejecuta el programa de principio a fin y verifica que la salida es correcta.
+- **End to end test:** A test that runs the program from beginning to end and verifies that the output is correct.
 
-- **Prueba de integración:** Una prueba donde las unidades de código se combinan y ejecutan, y la salida se verifica para comprobar que las unidades han sido correctamente integradas.
+- **Integration test:** A test where units of code are combined and run, and the output is verified to check the units have been correctly integrated.
 
-- **Mocking:** Reemplaza un objeto real con uno fingido para usar al ejecutar pruebas.
+- **Mocking:** Replace a real object with a pretend one to use when running tests.
 
-- **Prueba de regresión:** Comparando el resultado de una prueba antes y después de que el código ha sido alterado. If the output has changed a problem has been introduced somewhere in the program, and an error is thrown.
+- **Regression test:** Comparing the result of a test before and after the code has been altered. If the output has changed a problem has been introduced somewhere in the program, and an error is thrown.
 
-- **Prueba de ejecución:** Pruebas incrustadas en el programa que se ejecutan como parte de él.
+- **Runtime test:** Tests embedded within the program which are run as part of it.
 
-- **Prueba de humo:** Comprobaciones iniciales muy breves que aseguran los requisitos básicos necesarios para ejecutar el proyecto.
+- **Smoke test:** Very brief initial checks that ensure the basic requirements needed to run the project hold.
 
-- **Código estocástico:** Código que, si es correcto, no siempre produce el mismo resultado. For example a program that outputs ten random numbers will generate a different result each time, despite being correct.
+- **Stochastic code:** Code which, while correct, does not always output the same result. For example a program that outputs ten random numbers will generate a different result each time, despite being correct.
 
-- **Prueba del sistema:** Vea "end to end test".
+- **System test:** See "end to end test".
 
-- **Desarrollo impulsado por pruebas:** Un proceso de desarrollo de código donde las pruebas unitarias se escriben antes que las unidades mismas.
+- **Test driven development:** A process of code development where unit tests are written before the units themselves.
 
-- **Base de pruebas:** Implementaciones falsas de partes de código que se utilizan en pruebas para eliminar dependencias.
+- **Test stub:** Fake implementations of parts of code which are used in testing to remove dependences.
 
-- **Test suite:** Las pruebas que se han escrito para un proyecto.
+- **Test suite:** The tests that have been written for a project.
 
-- **Marco de prueba:** Herramientas que hacen que la escritura y ejecución de pruebas sean menos intensivas.
+- **Testing framework:** Tools that make writing and running tests less labour intensive.
 
-- **Unidad:** Un pequeño fragmento de código que hace una cosa simple. It usually has one or a few inputs and usually a single output.
+- **Unit:** A small piece of code that does one simple thing. It usually has one or a few inputs and usually a single output.
 
-- **Prueba unitaria:** Una prueba que comprueba el comportamiento de una unidad.
+- **Unit test:** A test that checks the behaviour of a unit.
