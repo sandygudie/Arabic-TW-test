@@ -24,7 +24,7 @@ The table below compares features of mailing lists, forums and chats. Here are s
 
 - **Media sharing:** Can media, such as screenshots, be easily shared on this platform?
 - **Archivable:** Is the history of the conversations easily accessible?
-- **Fácilmente exportable:** ¿Las conversaciones se almacenan en un formato consistente? ¿Están disponibles las herramientas para exportar las conversaciones (a un archivo, por ejemplo)? If not "forever", for how long? If not all conversations, what proportion?
+- **Persistent:** Do the conversations remain available and accessible on the platform? If not "forever", for how long? If not all conversations, what proportion?
 - **Noisy:** How many notifications will people receive, and can the number of notifications be managed by users/administrators?
 - **Open:** Can anyone join the platform or is there an invitation/approval process?
 - **Consistent user experience (UX):** Does the platform appear consistent regardless of the user's browser or email client?
@@ -33,7 +33,7 @@ The table below compares features of mailing lists, forums and chats. Here are s
 - **User profiles:** Is it easy to tell who is participating in the conversation and what their roles are on the project?
 - **"Following"/"blocking" capabilities:** Can users choose whose messages they are alerted to?
 - **Searchable by topic:** Can the conversations by categorised and searched by category?
-- **Persistente:** ¿Las conversaciones permanecen disponibles y accesibles en la plataforma? Si no es "para siempre", por cuánto tiempo? Si no todas las conversaciones, ¿qué proporción?
+- **Easily exportable:** Are the conversations stored in a consistent format? Are tools available to export the conversations (to an archive, for example)?
 
 | Feature                              | Mailing Lists | Forums |      Chat      |
 |:------------------------------------ |:-------------:|:------:|:--------------:|
