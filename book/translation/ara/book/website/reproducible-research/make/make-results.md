@@ -1,18 +1,18 @@
-(r-make-results)=
-# بما في ذلك النتائج الرقمية والجداول
+(rr-make-results)=
+# Including numerical results and tables
 
-في هذه المرحلة ربما تفكرون "هذا رائع جداً لدرجة أنني أستطيع الآن إدراج الأرقام في مخطوطاتي! ولكن كيف يمكن لهذا أن ينجح في تحقيق نتائج رقمية؟ "
+في هذه المرحلة ربما تفكرون "هذا رائع جداً لدرجة أنني أستطيع الآن إدراج الأرقام في مخطوطاتي! But how exactly does this work for numerical results?"
 
-الورق القابل للتكاثر المرتبط أعلاه يظهر طريقة واحدة للقيام بذلك: بعد حساب النتائج، يتم كتابتها في شكل جدول لاتيكس . إليك كيف تبدو إحدى هذه الجداول كما لو أنها حسبت مباشرة:
+الورق القابل للتكاثر المرتبط أعلاه يظهر طريقة واحدة للقيام بذلك: بعد حساب النتائج، يتم كتابتها في شكل جدول لاتيكس . Here is how one of these tables looks like right after it was computed:
 
 ```latex
-\star{tabular}{lrrr|rrrr}
-خاصية & HypoParsr & Sniffer & مناسبة & نمط & نوع & لا يوجد & Full\\
+\begin{tabular}{lrrr|rrrr}
+Property & HypoParsr & Sniffer & Suitability & Pattern & Type & No Tie & Full\\
 \hline
-Delimiter & 87. 8 & 86.82 & 65.41 & 92.61 & 88.33 & 91. 8 & \tكابد{94.92}\\
-كوتيكهار & 82. 0 & 92.36 & 44.60 & 95. 3 & 90.10 & 93.80 & \textbf{97.36}\\
-Escapechar & 87. 6 & 94.37 & 74.85 & 97.95 & 96.26 & 95. 4 & \tXbf{99.25}\\
-إجمالي & 80. 0 & 85.45 & 38.19 & 90. 9 & 83.61 & 90.61 & \textbf{93.75}\\
+Delimiter & 87.48 & 86.82 & 65.41 & 92.61 & 88.33 & 91.38 & \textbf{94.92}\\
+Quotechar & 82.90 & 92.36 & 44.60 & 95.23 & 90.10 & 93.80 & \textbf{97.36}\\
+Escapechar & 87.96 & 94.37 & 74.85 & 97.95 & 96.26 & 95.44 & \textbf{99.25}\\
+Overall & 80.60 & 85.45 & 38.19 & 90.99 & 83.61 & 90.61 & \textbf{93.75}\\
 \hline
 \end{tabular}
 ```
@@ -20,41 +20,41 @@ Escapechar & 87. 6 & 94.37 & 74.85 & 97.95 & 96.26 & 95. 4 & \tXbf{99.25}\\
 لتضمين هذا الجدول في مخطوطك، يمكنك استخدام دالة LaTeX's `\input{}` . إذا كان الملف مع الجدول يسمى `mytable.tex`، يمكن لهذا الأمر إدراجه في المخطوطة الخاصة بك:
 
 ```latex
-\start{table}
+\begin{table}
 \input{mytable}
 \end{table}
 ```
 
-ويتمثل أحد البدائل في استخدام المتغيرات. بدلاً من إنشاء جدول في ملف منفصل، يمكنك كتابة هيكل جدول الهيكل الأساسي وتمكينه من خلال المتغيرات. وترتبط النتائج التي تحسبها مع المتغيرات، وبمجرد تجميع المخطوطة الخاصة بك، يتم تبادل المتغيرات للحصول على نتائج رقمية حقيقية. إليك كيف يبدو مثل هذا الجدول في المخطوطة الخاصة بك:
+An alternative is to make use of variables. بدلاً من إنشاء جدول في ملف منفصل، يمكنك كتابة هيكل جدول الهيكل الأساسي وتمكينه من خلال المتغيرات. وترتبط النتائج التي تحسبها مع المتغيرات، وبمجرد تجميع المخطوطة الخاصة بك، يتم تبادل المتغيرات للحصول على نتائج رقمية حقيقية. Here is how such a table looks like in your manuscript:
 
 ```latex
-\start{table}
+\begin{table}
     \begin{tabular*}{ccc}
-        \textbf{Variable} & \textbf{Mean}   & \textbf{Std. الانحراف} \
+        \textbf{Variable} & \textbf{Mean}   & \textbf{Std. deviation} \
         \hline
-        المتغير 1        & \var1عنى       & \var1std \
-        المتغير 2        & \var2وسطي       & \var2std \
+        Variable 1        & \var1mean       & \var1std                \
+        Variable 2        & \var2mean       & \var2std                \
     \end{tabular*}
 \end{table}
 ```
 
-ou أن `\var1medi` ليس الأمر القياسي لاتيكس: إنه متغير يمكنك تعريف نفسك! كيف يتم ذلك؟ ضع نصك البرمجي طباعة النتائج التي قمت بحسابها ضمن تعريف `\newcommand{}}` في ملف، على سبيل المثال مثل هذا (مثال بايثون المبسط):
+ou أن `\var1medi` ليس الأمر القياسي لاتيكس: إنه متغير يمكنك تعريف نفسك! How is this done? ضع نصك البرمجي طباعة النتائج التي قمت بحسابها ضمن تعريف `\newcommand{}}` في ملف، على سبيل المثال مثل هذا (مثال بايثون المبسط):
 
 ```python
-# هذه الحلقات لناقلات البيانات من متغيرين (البيانات(1)، البيانات2)، قم بحساب
-# المتوسط والانحراف القياسي، وطبع النتائج مع
-# اسم المتغير ('var1', 'var2')
-للاسم، البيانات في (['var1', data1]، ['var2', data2]):
-    تعني = np. ean(data)
-    std = np. ean(data)
-    print('\\newcommand{\\%s }{ %f }' ٪ (الاسم + 'وسط'، الوسيطة))
-    print('\\newcommand{\\%s }{ %f }' % (الاسم + 'std', std))
+# this loops to data vectors of two variables (data1, data2), compute the
+# mean and standard deviation, and print the results together with the
+# variable name ('var1', 'var2')
+for name, data in (['var1', data1], ['var2', data2]):
+    mean = np.mean(data)
+    std = np.mean(data)
+    print('\\newcommand{\\%s }{ %f }' % (name + 'mean', mean))
+    print('\\newcommand{\\%s }{ %f }' % (name + 'std', std))
 ```
 
-دعونا نقول أن متوسط مجموعة البيانات الأولى هو 9.2، سيبدو التعريف مثل هذا: `\newcommand{\var1mean}{9.2}`. لاحظ أن هذا المثال يستخدم Python، ولكن يمكنك استخدام أي لغة أو طريقة تتعرف عليها لطباعة تعاريف مثل هذه. مع هذا التعريف، تبادل LaTeX خلية الجدول مع `\var1وسط` مع النتيجة الرقمية من الحساب. يمكنك التقاط التعاريف وكتابتها إلى ملف باستخدام إعادة التوجيه مع `>`. في هذا المثال ، نقوم بكتابته على ملف يسمى `results_def.tex`
+دعونا نقول أن متوسط مجموعة البيانات الأولى هو 9.2، سيبدو التعريف مثل هذا: `\newcommand{\var1mean}{9.2}`. لاحظ أن هذا المثال يستخدم Python، ولكن يمكنك استخدام أي لغة أو طريقة تتعرف عليها لطباعة تعاريف مثل هذه. مع هذا التعريف، تبادل LaTeX خلية الجدول مع `\var1وسط` مع النتيجة الرقمية من الحساب. يمكنك التقاط التعاريف وكتابتها إلى ملف باستخدام إعادة التوجيه مع `>`. In this example, we write it to a file called `results_def.tex`
 
 ```makefile
-النتائج_def.tex: code/make_summary_stats.py
+results_def.tex: code/make_summary_stats.py
     python code/make_summary_stats.py > results_def.tex
 ```
 
@@ -63,7 +63,7 @@ ou أن `\var1medi` ليس الأمر القياسي لاتيكس: إنه متغ
 أخيرا، استخدم الأمر `input{}` لتضمين المتغيرات الجديدة في مخطوطك والمتغيرات في الجداول:
 
 ```latex
-\star{document}
+\begin{document}
 \input{results_def.tex}
 ```
 
