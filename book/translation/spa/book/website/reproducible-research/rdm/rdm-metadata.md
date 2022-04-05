@@ -1,7 +1,7 @@
 (rr-rdm-metadata)=
 # Documentation and Metadata
 
-Having data available is of no use if it cannot be understood. Sin metadatos que proporcionen procedencia y contexto, los datos no se pueden utilizar eficazmente. Por ejemplo, una tabla de números es inútil si ningún encabezado describe lo que contienen las columnas/filas. Por lo tanto, debe asegurarse de que los conjuntos de datos abiertos incluyan metadatos consistentes, es decir, información acerca de los datos para que los datos estén completamente descritos. Esto requiere que la información que acompaña a los datos sea capturada en documentación y metadatas.
+Having data available is of no use if it cannot be understood. Without metadata to provide provenance and context, the data can't be used effectively. For example, a table of numbers is useless if no headings describe what the columns/rows contain. Therefore you should ensure that open datasets include consistent metadata, that is information about the data so that the data is fully described. This requires that information accompanying data is captured in documentation and metadata.
 
 ## Documentation
 
@@ -21,8 +21,8 @@ Metadata is information about the data, descriptors that facilitate cataloguing 
 (rr-rdm-metadata-standards)=
 ### Community Standards - Metadata
 
-El uso de estándares definidos por la comunidad para los metadatos es vital para la investigación reproducible y permite la comparación de datos heterogéneos de múltiples fuentes, dominios y disciplinas.
+The use of community-defined standards for metadata is vital for reproducible research and allows for the comparison of heterogeneous data from multiple sources, domains and disciplines.
 
-Los estándares de metadatos incluyen el contenido y los estándares estructurales. Los estándares de contenido explican qué información debe registrarse cuando se describe un tipo particular de recurso y cómo debe registrarse dicha información. Mientras que las normas estructurales definen cuáles son los campos y qué tipos de información deben registrarse en ellos.
+Metadata standards include content and structural standards. The content standards explain what information should be recorded when describing a particular type of resource and how that information should be recorded. While the structural standards define what the fields are and what types of information should be recorded in them.
 
-Los estándares de metadatos también son específicos de la disciplina. Por ejemplo, para los datos cerebros, la estructura de datos de imagen cerebral [](https://doi.org/10.25504/FAIRsharing.rd1j6t) es el estándar a utilizar. Sin embargo, no todas las disciplinas pueden usar estándares de metadatas. Puedes ver si tu disciplina utiliza estándares de metadatos a través de [FAIRsharing](https://fairsharing.org/), un recurso para identificar y citar los metadatos o esquemas de identificación, bases de datos o depósitos que existen para sus datos y disciplina. También hay situaciones en las que los investigadores utilizan estándares de metadatos más generales, por ejemplo, cuando utilizan un archivo genérico para almacenar sus datos, tienen que adherirse a los estándares de metadatos del archivo. En este caso, un archivo de texto con metadatos específicos de disciplina puede ser añadido como parte de la documentación.
+Metadata standards are also discipline-specific. For example, for brain data, the [Brain Imaging Data Structure](https://doi.org/10.25504/FAIRsharing.rd1j6t) is the standard to use. Not every discipline may use metadata standards, however. You can see if your discipline uses metadata standards through [FAIRsharing](https://fairsharing.org/), a resource to identify and cite the metadata or identifier schemas, databases or repositories that exist for your data and discipline. There are also situations when researchers make use of more general metadata standards, for example when they use a generic archive to store their data they have to adhere to the metadata standards of the archive. In this case, a text file with discipline-specific metadata can be added as part of the documentation.
