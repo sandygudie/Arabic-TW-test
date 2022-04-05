@@ -60,12 +60,12 @@ Concerning the moment to make the paper publicly available, many journals establ
 
 ```{figure} ../../figures/routes-to-OA.jpg
 ---
-高度：500px
-名称：路径到OA
-Alt：显示打开访问发布路径的列车图像。 绿色航线是免费的，并在行程开始时显示一个预印服务器，并在行程结束时显示自己的存档。 黄金和钻石路线是以作者付费和保险费或机构付款的方式标示的，并在开放式的访问杂志上展示这份出版物。
+height: 500px
+name: routes-to-OA
+alt: An image of a train showing the routes to open access publishing. The green route is signalled as free and shows a preprint server at the start of the journey and self archive at the end. The gold and diamond routes are signalled as author pay and funder or institution pay and show the publish in an open access journal part of the journey.
 ---
-公开发布路由。
-_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. Original version on Zenodo. [http://doi.org/10.5281/zenodo.5706310]（http://doi.org/10.5281/zenodo.5706310）
+Routes to publishing openly.
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. Original version on Zenodo. [http://doi.org/10.5281/zenodo.5706310](http://doi.org/10.5281/zenodo.5706310)
 ```
 
 (rr-open-access-why)=
@@ -77,12 +77,12 @@ Publishing openly also has benefits for you as an author. Your work is likely to
 
 ```{figure} ../../figures/share-work-openly.jpg
 ---
-高: 500px
-name: 共享-工作公开
-Alt: 一张列车行程的海报，沿着五个理由说明你应该公开分享你的研究。
+height: 500px
+name: share-work-openly
+alt: An poster image of a train journey and along the way five reasons why you should share your research openly are annotated.
 ---
-公开分享你的研究结果的优点
-_Ting Way_project 展示由 Stereria 编写。 Used under a CC-BY 4.0 licence. Original version on Zenodo. [http://doi.org/10.5281/zenodo.5706310]（http://doi.org/10.5281/zenodo.5706310）
+Advantages to sharing your research openly
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. Original version on Zenodo. [http://doi.org/10.5281/zenodo.5706310](http://doi.org/10.5281/zenodo.5706310)
 ```
 
 (rr-open-access-future)=
