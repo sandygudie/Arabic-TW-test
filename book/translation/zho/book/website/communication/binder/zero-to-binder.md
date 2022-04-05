@@ -19,7 +19,7 @@ Binder可能需要很长时间才能加载，但这并不一定意味着您的�
 ```
 
 (z2b-reqs)=
-## B. 所需经费
+## Requirements
 
 您将需要：
 
@@ -252,7 +252,7 @@ Binder 全都是关于轻松分享您的工作，有两种方法可以做：
 (z2b-小文件)=
 
 - 分享 **https://mybinder.org/v2/gh/YOUR-USERNAME/my-first binder/HEAD** URL
-- 访问 **[https://mybinder。 rg](https://mybinder.org)**, 输入你的仓库的 URL 并复制Markdown 或 Restructured 文本片段到你的 `README d` 文件。 这个代码片段将会呈现一个人们可以点击的徽章，看起来像这样： ![宾代尔](https://mybinder.org/badge_logo.svg)
+- 访问 **[https://mybinder。 rg](https://mybinder.org)**, 输入你的仓库的 URL 并复制Markdown 或 Restructured 文本片段到你的 `README d` 文件。 这个代码片段将会呈现一个人们可以点击的徽章，看起来像这样： ![Binder](https://mybinder.org/badge_logo.svg)
 
 🚦🚦🚦
 
