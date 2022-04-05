@@ -1,42 +1,42 @@
 (rr-rdm-sharing)=
-# Compartilhando e Arquivando Dados
+# Sharing and Archiving Data
 
-(motivações rr-rdm-compartilhamentos)=
-## Motivações para compartilhamento de dados
-Há muitas razões para compartilhar seus dados de pesquisa publicamente.
+(rr-rdm-sharing-motivations)=
+## Motivations For Sharing Data
+There are many reasons to share your research data publicly.
 
-1. Para permitir a possibilidade de reproduzir plenamente um estudo científico.
-2. Para evitar a duplicação de esforços e acelerar o progresso científico. Grandes quantidades de fundos para a investigação e carreiras de investigadores podem ser desperdiçadas se apenas partilharem uma pequena parte da investigação sob a forma de publicações.
-3. Facilitar a colaboração e aumentar o impacto e a qualidade da investigação científica.
-4. Tornar os resultados da investigação abertamente acessíveis como bem público, uma vez que a investigação é frequentemente financiada com dinheiros públicos.
+1. To allow the possibility to fully reproduce a scientific study.
+2. To prevent duplicate efforts and speed up scientific progress. Large amounts of research funds and careers of researchers can be wasted by only sharing a small part of research in the form of publications.
+3. To facilitate collaboration and increase the impact and quality of scientific research.
+4. To make results of research openly available as a public good, since research is often publicly funded.
 
-Você pode ler mais sobre porque os dados devem estar disponíveis e por que alguns dados devem permanecer fechados, na {ref}`Seção de Dados Abertos <rr-open-data>`
+You can read more about why data should be available, and why some data should remain closed, in the {ref}`Open Data section <rr-open-data>`
 
 (rr-rdm-sharing-steps)=
-## Passos para compartilhar seus dados
+## Steps To Share Your Data
 
-### Passo 1: Selecione quais dados você deseja compartilhar
+### Step 1: Select what data you want to share
 
-Nem todos os dados podem ser disponibilizados abertamente, devido a questões éticas e comerciais (veja a {ref}`Open Data section <rr-open-data>) e você pode decidir que alguns de seus dados intermediários são grandes demais para compartilhar. Como tal, primeiro você precisa decidir quais dados você precisa compartilhar para que outros possam reproduzir a sua pesquisa.
+Not all data can be made openly available, due to ethical and commercial concerns (see the {ref}`Open Data section <rr-open-data>), and you may decide that some of your intermediate data is too large to share. As such, you first need to decide which data you need to share for others to be able to reproduce your research.
 
-### Passo 2: Escolha um repositório de dados ou outra plataforma de compartilhamento
+### Step 2: Choose a data repository or other sharing platform
 
-Os dados devem ser compartilhados formalmente, abertos, e o repositório de dados indexado [{term}`def<Repository>`] quando possível, para que ele fique acessível no longo prazo. Repositórios de dados adequados por assunto, tipo de conteúdo ou local podem ser encontrados no [Re3data. rg](https://www.re3data.org/), e no [FAIRsharing](https://fairsharing.org/databases) onde você também pode ver quais padrões (metadados e identificador) os repositórios implementam e qual jornal/editor os recomenda. Se possível usar um repositório que atribui um DOI, um identificador de objeto digital, para facilitar a citação de seus dados. Dê uma olhada no {ref}`cm-citable` para ver como compartilhar e citar seus dados e outros objetos de pesquisa. A seção de {ref}`cm-citable-linking` explica várias opções para vincular seus dados e outros objetos de pesquisa.
+Data should be shared in a formal, open, and indexed data repository [{term}`def<Repository>`] where possible so that it will be accessible in the long run. Suitable data repositories by subject, content type or location can be found at [Re3data.org](https://www.re3data.org/), and in [FAIRsharing](https://fairsharing.org/databases) where you can also see which standards (metadata and identifier) the repositories implement and which journal/publisher recommend them. If possible use a repository that assigns a DOI, a digital object identifier, to make it easier for others to cite your data. Have a look in the {ref}`cm-citable` to see how to share and cite your data and other research objects. The {ref}`cm-citable-linking` section explains several options for linking your data and other research objects.
 
-Alguns repositórios de dados públicos são [Zenodo](https://zenodo.org/), [Figshare](https://figshare.com/), [4TU. ResearchData](https://data.4tu.nl/info/en), e [Dryad](https://datadryad.org/).
+A few public data repositories are [Zenodo](https://zenodo.org/), [Figshare](https://figshare.com/), [4TU.ResearchData](https://data.4tu.nl/info/en), and [Dryad](https://datadryad.org/).
 
-### Passo 3: Escolha uma licença e link para seu papel e código
+### Step 3: Choose a licence and link to your paper and code
 
-Para que outros saibam o que podem fazer com seus dados, você precisa aplicar uma licença [{term}`def<License>`] aos seus dados. As licenças mais usadas são [Creative Commons](https://creativecommons.org/choose/), [Abrir Licença de Governo](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/), ou uma [Open Data Commons Attribution License](https://opendatacommons.org/licenses/by/index.html). Para obter o valor máximo do compartilhamento de dados, certifique-se de que seu papel e código ambos o link para seus dados, e vice-versa, para permitir que outros entendam melhor o seu projeto.
+So that others know what they can do with your data, you need to apply a licence [{term}`def<License>`] to your data. The most commonly used licences are [Creative Commons](https://creativecommons.org/choose/), [Open Government Licence](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/), or an [Open Data Commons Attribution License](https://opendatacommons.org/licenses/by/index.html). To get maximum value from data sharing, make sure that your paper and code both link to your data, and vice versa, to allow others understand your project better.
 
-### Passo 4: Carregue seus dados e documentação
+### Step 4: Upload your data and documentation
 
-Em linha com os princípios de {ref}`FAIR <rr-rdm-FAIR>`, fazer upload dos dados em formatos abertos tanto quanto possível e incluir documentação e metadados suficientes para que outra pessoa possa entender seus dados. É também essencial pensar nos formatos de arquivo em que a informação é fornecida. Os dados devem ser apresentados em formatos estruturados e normalizados para apoiar a interoperabilidade, a rastreabilidade e uma reutilização eficaz. Em muitos casos, isso incluirá a disponibilização de dados em vários formatos normalizados, de modo a que possam ser processados por computadores e utilizados por pessoas.
+In line with the {ref}`FAIR principles <rr-rdm-FAIR>`, upload the data in open formats as much as possible and include sufficient documentation and metadata so that someone else can understand your data. It is also essential to think about the file formats in which the information is provided. Data should be presented in structured and standardised formats to support interoperability, traceability, and effective reuse. In many cases, this will include providing data in multiple, standardized formats, so that it can be processed by computers and used by people.
 
-## Recursos adicionais para compartilhamento de dados
-* '[Como você pode tornar a pesquisa de dados acessível?](https://www.software.ac.uk/how-can-you-make-research-data-accessible)': um blog que contém cinco etapas para tornar seus dados mais acessíveis
-* As [diretrizes de dados da Comissão Europeia](https://open-research-europe.ec.europa.eu/for-authors/data-guidelines)
+## Additional resources on data sharing
+* '[How can you make research data accessible?](https://www.software.ac.uk/how-can-you-make-research-data-accessible)': a blog that contains five steps to make your data more accessible
+* The European Commission's [data guidelines](https://open-research-europe.ec.europa.eu/for-authors/data-guidelines)
 
-(rr-rdm-data-disponibiliy-statement)=
-## Declaração de disponibilidade de dados
-Uma vez que tenha disponibilizado os seus dados, é importante garantir que as pessoas possam encontrá-los quando lerem o artigo associado. Você deve citar seu conjunto de dados diretamente no papel em lugares onde ele é relevante e incluir uma citação na sua lista de referências, Além de incluir uma declaração de disponibilidade de dados no final do documento (semelhante à seção de reconhecimento). Veja {ref}`cm-citable-cite-data` para alguns exemplos.
+(rr-rdm-data-availability-statement)=
+## Data Availability Statement
+Once you made your data available, it is important to ensure that people can find it when they read the associated article. You should cite your dataset directly in the paper in places where it is relevant, and include a citation in your reference list, as well as include a Data Availability Statement at the end of the paper (similar to the acknowledgement section). See {ref}`cm-citable-cite-data` for some examples.
