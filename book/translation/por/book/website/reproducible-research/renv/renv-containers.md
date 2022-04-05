@@ -1,230 +1,239 @@
 (rr-renv-containers)=
-# Recipientes
+# Containers
 
-(rr-renv-containers-porquê)=
-## Por que contêineres?
+(rr-renv-containers-why)=
+## Why Containers?
 
-Mesmo para projetos moderadamente complexos, o tamanho da pilha de dependências de software pode ser enorme. Faça um pipeline simples para criar um relatório pdf para uma análise escrita em R usando `Rmarkdown`, por exemplo. Fazer isto reprodutível, não apenas (i) os respectivos pacotes R precisam ser instalados e (ii) a versão R precisa ser a mesma, mas também (iii) as versões do `pandoc` e `LaTeX` precisam ser as mesmas que durante o tempo de execução.
+Even for moderately complex projects, the size of the software dependency stack can be huge. Take a simple pipeline to build a pdf report for an analysis scripted in R using `Rmarkdown`, for example. To make this reproducible, not only do (i) the respective R packages need to be installed and (ii) the R version needs to be the same, but also (iii) the versions of `pandoc` and `LaTeX` need to be the same as during runtime.
 
-Em vez de tentar resolver essas dependências por meio de um gerenciador de pacotes (como conda) - que também depende de todos os softwares necessários estarem disponíveis em um único gerenciador de pacotes - pode ser mais fácil criar um snapshot de todo o ambiente de computação, incluindo todas as dependências. Estes ambientes computacionais são então auto-contidos, daí a designação de 'contêineres'.
+Instead of trying to resolve these dependencies via a package manager (such as conda) -  which also depends on all required software being available in a single package manager - it might be easier to create a snapshot of the entire computing environment including all dependencies. These computing environments are then self-contained, hence the name 'containers'.
 
 (rr-renv-containers-what)=
-## O que são contêineres?
+## What are Containers?
 
-Os contêineres permitem que um pesquisador empacote um projeto com todas as partes necessárias - como bibliotecas, dependências e configurações do sistema - e enviar tudo como um pacote. Qualquer um pode então abrir um contêiner e trabalhar dentro dele, ver e interagir com o projeto como se a máquina a que eles estão acessando fosse idêntica à máquina especificada no contêiner - independentemente de qual é seu ambiente computacional _realmente_. Eles são projetados para facilitar a transferência de projetos entre ambientes muito diferentes.
+Containers allow a researcher to package up a project with all of the parts it needs - such as libraries, dependencies, and system settings - and ship it all out as one package. Anyone can then open up a container and work within it, viewing and interacting with the project as if the machine they are accessing it from is identical to the machine specified in the container - regardless of what their computational environment _actually_ is. They are designed to make it easier to transfer projects between very different environments.
 
-De certa forma, os contentores se comportam como uma máquina virtual. Para o mundo exterior, parecem ter o seu próprio sistema completo. No entanto, ao contrário de uma máquina virtual, ao invés de criar todo um sistema operacional virtual, além de todas as ferramentas e software tipicamente empacotados com um, Os recipientes só contêm os componentes individuais de que eles precisam para operar o projeto que eles contêm. Isso dá um aumento significativo de desempenho e reduz o tamanho do aplicativo.
+In a way, containers behave like a virtual machine. To the outside world, they look like their own complete system. However, unlike a virtual machine, rather than creating a whole virtual operating system plus all the software and tools typically packaged with one, containers only contain the individual components they need in order to operate the project they contain. This gives a significant performance boost and reduces the size of the application.
 
-Os contêineres são uma maneira particularmente útil de reproduzir a pesquisa que depende de software para ser configurado de certa maneira. ou que faz uso de bibliotecas que variam entre (ou não existem) diferentes sistemas. Em resumo, contêineres são uma forma mais robusta de compartilhar pesquisas reprodutíveis do que sistemas de gerenciamento de pacotes ou Binder porque eles reproduzem todo o sistema usado para a pesquisa Não apenas os pacotes usados explicitamente por ele. O seu principal reverso é o que se deve à sua maior profundidade, são conceitualmente mais difíceis de entender e produzir do que muitos outros métodos de replicação de ambientes computacionais.
+Containers are a particularly useful way for reproducing research which relies on software to be configured in a certain way, or which makes use of libraries that vary between (or do not exist on) different systems. In summary, containers are a more robust way of sharing reproducible research than package management systems or Binder because they reproduce the entire system used for the research, not just the packages explicitly used by it. Their major downside is that due to their greater depth, they are conceptually more difficult to grasp and produce than many other methods of replicating computational environments.
 
-Ben Corrie dá uma visão geral razoavelmente acessível dos conceitos principais em ['O que é um contêiner?'](https://www.youtube.com/watch?v=EnJ7qX9fkcU).
+Ben Corrie give a reasonably accessible overview of core concepts in ['What is a container?'](https://www.youtube.com/watch?v=EnJ7qX9fkcU).
 
 (rr-renv-containers-images)=
-## O que são Imagens?
+## What are Images?
 
-As imagens são os arquivos usados para gerar contêineres. Os seres humanos não fazem imagens; escrevem receitas para gerar imagens. Os contêineres são, em seguida, cópias idênticas instanciadas a partir de imagens.
+Images are the files used to generate containers. Humans do not make images; they write recipes to generate images. Containers are then identical copies instantiated from images.
 
-Pense nisso assim:
+Think of it like this:
 
-- Um arquivo de receita que uma escrita humana contém todas as etapas para gerar uma versão funcional do projeto e seu ambiente computacional. mas não há materiais reais. Pense nisso como um planeta.
-- Construir uma imagem leva essa receita e usa-a, monta todos os pacotes, bibliotecas de software e configurações necessárias para fazer o projeto e o ambiente de pleno direito e empacotá-los de forma condensada. Pense em imagens como um pedaço de mobília de pacote fixo feita usando o diagrama.
-- Os contêineres levam essa imagem e montam uma versão totalmente funcional do projeto e do ambiente necessário para executá-la. Pense nisto como a montagem dos móveis de pacote plano.
+- A recipe file a human writes contains all the steps to generate a working version of the project and its computational environment, but no actual materials. Think of this as a blueprint.
+- Building an image takes that recipe and using it, assembles all the packages, software libraries, and configurations needed to make the full-fledged project and environment, and bundles them up in a condensed lump. Think of images like a piece of flat-pack furniture made using the blueprint.
+- Containers take that image and assemble a fully working version of the project and the environment needed to run it. Think of this as assembling the flat-pack furniture.
 
-Portanto, se um pesquisador quiser permitir que outros reproduzam seus trabalhos, eles precisariam escrever um arquivo de receita e usá-lo para construir uma imagem do projeto deles. Em seguida, eles podem compartilhar este arquivo de imagem com qualquer pessoa que queira replicar seu trabalho. Essa pessoa pode então usar a imagem para gerar um contêiner contendo uma versão de funcionamento do projeto.
+So if a researcher wants to allow others to reproduce their work, they would need to write a recipe file, and use it to build an image of their project. They can then share this image file with anyone who wants to replicate their work. That person can then use the image to generate a container containing a working version of the project.
 
 (rr-renv-containers-docker)=
-## O que é Docker?
+## What is Docker?
 
-Há muitas ferramentas disponíveis para criar e trabalhar com contêineres. Centrar-nos-emos no Docker, que é amplamente utilizado, mas esteja ciente de que outros, como a Singularidade, também existem. A singularidade às vezes é preferida para uso em sistemas de computação de alto desempenho, já que não precisa de permissões de `sudo` para ser executado, enquanto o Docker executa.
+There are many tools available for creating and working with containers. We will focus on Docker, which is widely used, but be aware that others such as Singularity also exist. Singularity is sometimes preferred for use on high-performance computing systems as it does not need `sudo` permissions to be run, while up until April 2020 Docker did (please see the {ref}`rr-renv-containers-rootless` section).
 
-No Docker, os arquivos de receita usados para gerar imagens são conhecidos como arquivos Dockerfiles e devem ser nomeados como `arquivo Dockerfile`.
+In Docker, the recipe files used to generate images are known as Dockerfiles, and should be named `Dockerfile`.
 
-[Docker Hub](https://hub.docker.com/) hospeda muitas imagens pré-fabricadas, tais como [imagens](https://hub.docker.com/_/ubuntu) das máquinas Ubuntu, que podem ser baixadas e construídas. Isto torna o processo de escrita de Dockerfiles relativamente fácil, já que os usuários raramente precisam começar do zero, eles podem simplesmente personalizar as imagens existentes. No entanto, isso deixa um usuário vulnerável a problemas de segurança similares conforme descrito no sub-capítulo {ref}`rr-renv-yaml-security` do {ref}`rr-renv-yaml`:
+[Docker Hub](https://hub.docker.com/) hosts a great many pre-made images, such as [images](https://hub.docker.com/_/ubuntu) of Ubuntu machines, which can be downloaded and build upon. This makes the process of writing Dockerfiles relatively easy since users very rarely need to start from scratch, they can just customise existing images. However, this leaves a user vulnerable to similar security issues as described in the {ref}`rr-renv-yaml-security` of the {ref}`rr-renv-yaml` sub-chapter:
 
-- É possível incluir código malicioso nas imagens do Docker
-- É possível que pessoas que produzem imagens incluam software neles com vulnerabilidades de segurança
+- It is possible to include malicious code in Docker images
+- It is possible for people producing images to unknowingly include software in them with security vulnerabilities
 
-[Este](https://opensource.com/business/14/7/docker-security-selinux) artigo vai mais fundo nas possíveis vulnerabilidades de segurança dos contêineres e aqui está uma [detalhada](https://opensource.com/business/14/9/security-for-docker) dos recursos de segurança atualmente no Docker, e como funcionam. O melhor conselho para o uso de imagens construídas por outros é, como de costume, só baixe e execute algo em sua máquina se ela vier de uma fonte confiável. O Docker Hub tem emblemas de "imagem oficial" para imagens normalmente usadas, verificadas, como mostrado aqui:
+[This](https://opensource.com/business/14/7/docker-security-selinux) article goes deeper into the potential security vulnerabilities of containers and here is a [detailed breakdown](https://opensource.com/business/14/9/security-for-docker) of security features currently within Docker, and how they function. The best advice for using images built by others is, as usual, only download and run something on your machine if it comes from a trusted source. Docker Hub has "official image" badges for commonly used, verified images as shown here:
 
 ```{figure} ../../figures/docker-official-image.png
 ---
-nome: imagem oficial do docker-docker-
-alt: Uma captura de tela dos emblemas oficiais da imagem
+name: docker-official-image
+alt: A screenshot of official image badges
 ---
 ```
 
-(rr-renv-containers-installing-docker)=
-## Instalando o Docker
+(rr-renv-containers-installdocker)=
+## Installing Docker
 
-Instaladores do Docker em uma variedade de sistemas diferentes estão disponíveis [aqui](https://docs.docker.com/install/). Instruções de instalação detalhadas também estão disponíveis para uma variedade de sistemas operacionais como [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/), [Debian](https://docs.docker.com/install/linux/docker-ce/debian/), [Macs](https://docs.docker.com/docker-for-mac/install/)e [Windows](https://docs.docker.com/docker-for-windows/install/).
+Installers for Docker on a variety of different systems are available [here](https://docs.docker.com/install/). Detailed installation instructions are also available for a variety of operating systems such as [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/), [Debian](https://docs.docker.com/install/linux/docker-ce/debian/), [Macs](https://docs.docker.com/docker-for-mac/install/), and [Windows](https://docs.docker.com/docker-for-windows/install/).
 
 (rr-renv-containers-commands)=
-## Comandos da tecla
+## Key Commands
 
-Aqui estão alguns comandos chave para criar e trabalhar com contêineres:
+Here are a few key commands for creating and working with containers:
 
-- Para construir uma imagem de um arquivo Dockerfile, vá para o diretório onde o arquivo Dockerfile é e é executado:
+- To build an image from a Dockerfile, go to the directory where the Dockerfile is and run:
   ```
   sudo docker build --tag image_name .
   ```
-- Para listar as imagens em seu sistema, use:
+- To list the images on your system, use:
   ```
-  imagens docker sudo
+  sudo docker image ls
   ```
-- Para remover uma imagem, execute:
+- To remove an image, run:
   ```
   sudo docker rmi image_name
   ```
-- Para abrir um contêiner de uma imagem, execute:
+- To open a container from an image, run:
   ```
-  sudo docker executa -i -t image_name
+  sudo docker run -i -t image_name
   ```
-  O `-i -t` flags abrem automaticamente um terminal interativo dentro do contêiner para que você possa ver e interagir com os arquivos do projeto.
-- Para sair de um terminal interativo, use:
+  The `-i -t` flags automatically open up an interactive terminal within the container so you can view and interact with the project files.
+- To exit an interactive terminal, use:
   ```
-  saindo
+  exit
   ```
-- Para obter uma lista de contêineres ativos com IDs, execute:
+- To get a list of active containers with IDs, run:
   ```
-  recipientes docker sudo
+  sudo docker container ls
   ```
-- Há também três comandos principais usados para alterar o status dos contêineres:
-  - Pausing suspende o processo rodando o contêiner.
+- There are also three main commands used for changing the status of containers:
+  - Pausing suspends the process running the container.
     ```
     sudo docker pause container_ID
     ```
-    Os contêineres podem ser despausados substituindo `pause` por `cancelar`.
-  - Parar um contêiner termina o processo que o executa. Um recipiente deve ser interrompido antes que possa ser excluído.
+    Containers can be unpaused by replacing `pause` with `unpause`.
+  - Stopping a container terminates the process running it. A container must be stopped before it can be deleted.
     ```
     sudo docker stop container_ID
     ```
-    Um contêiner parado pode ser reiniciado substituindo `stop` com `restart`.
-  - Se `parar` não funcionar com contêineres pode ser morto usando
+    A stopped container can be restarted by replacing `stop` with `restart`.
+  - If `stop` does not work containers can be killed using
     ```
     sudo docker kill container_ID
     ```
-- Para remover um contêiner, execute:
+- To remove a container, run:
   ```
   sudo docker rm container_ID
   ```
 (rr-renv-containers-dockerfiles)=
-## Escrevendo arquivos Dockerfiles
+## Writing Dockerfiles
 
-Vamos ver a anatomia de um Dockerfile muito simples:
+Let us go through the anatomy of a very simple Dockerfile:
 
 ```
-# Etapa 1: Configure o ambiente computacional
+# Step 1: Set up the computational environment
 
-# Defina a imagem base FROM ubuntu:18. 4
+# Set the base image
+FROM ubuntu:18.04
 
-# Instalar pacotes necessários para executar o projeto RUN apt-get update && \
-    apt-get install -y --no-install-recommend python3. python3-pip && \
-    rm -rf /var/lib/apt/lists/* RUN python3 -m pip install numpy
+# Install packages needed to run the project
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends python3.7 python3-pip && \
+    rm -rf /var/lib/apt/lists/*
+RUN python3 -m pip install numpy
 
 #-----------------------
 
-# Etapa 2: Inclua os arquivos do projeto na imagem
+# Step 2: Include the project files in the image
 
-# Copiar arquivos do diretório `project_files` na máquina construindo a imagem
-# na pasta `project` no container. Esta pasta e quaisquer diretórios
-# que faltam no caminho são criados automaticamente.
-Projeto/ projeto/ COPY
+# Copy files from the `project_files` directory on the machine building the image
+# into the `project` folder in the container. This folder and any missing
+# directories in its path are created automatically.
+COPY project_files/ project/
 ```
 
-Isso parece complicado, mas a maioria das linhas neste exemplo são comentários (que são precedidos por `#`'s). Há apenas seis linhas de código real. O primeiro é uma instrução `DE` especificando uma imagem base. Todos os arquivos do Dockerker requerem uma FROM, mesmo que seja apenas `DE SCRATCH`. Todos os comandos a seguir em um arquivo Dockerfile são baseados na imagem base para fazer uma versão funcional do projeto do investigador. Especificar uma versão para a imagem (`18.04` neste caso) é opcional. No entanto, é a melhor prática, pois garante que nosso arquivo Dockerfile permaneça válido após novos lançamentos do Ubuntu, que não pode incluir pacotes (ou versões específicas dos mesmos) que exigimos mais tarde (por exemplo `python3.`).
+This looks complicated, but most of the lines in this example are comments (which are preceded by `#`'s). There are only six lines of actual code. The first of these is a `FROM` statement specifying a base image. All Dockerfiles require a FROM, even if it is just `FROM SCRATCH`. All the following commands in a Dockerfile build upon the base image to make a functioning version of the researcher's project. Specifying a version for the image (`18.04` in this case) is optional. However, it is best practice as it ensures that our Dockerfile remains valid after new releases of Ubuntu, which may not include packages (or specific versions thereof) that we require later (for example `python3.7`).
 
-Vale a pena gastar tempo para escolher uma imagem base apropriada, como tal, pode reduzir a quantidade de trabalho envolvida na escrita de um Dockerfile drasticamente. Por exemplo, uma coleção de imagens com a linguagem de programação R incluída nelas podem ser encontradas [aqui](https://github.com/rocker-org/rocker-versioned). Se um projeto faz uso de R, é conveniente usar uma dessas como imagem base ao invés de passar tempo escrevendo comandos no seu Dockerfile para instalar R.
+It is worth spending time to choose an appropriate base image, as doing so can reduce the amount of work involved in writing a Dockerfile dramatically. For example, a collection of images with the R programming language included in them can be found [here](https://github.com/rocker-org/rocker-versioned). If a project makes use of R, it is convenient to use one of these as a base image rather than spend time writing commands in your Dockerfile to install R.
 
-O maior bloco de retas vem em seguida. É uma série de instruções `RUN` que executam comandos shell ao construir a imagem. Neste bloco, eles são usados para instalar o software necessário para executar o projeto. O primeiro bloco de `CORRIDA` é uma cadeia de comandos deste formulário:
+The biggest block of lines comes next. It's a series of `RUN` statements, which run shell commands when building the image. In this block, they are used to install the software necessary to run the project. The first `RUN` block is a chain of commands of this form:
 
 ```
-Comando RUN d_to_do_thing_1 \
-   && comandd_to_do_thing_2 \
+RUN command_to_do_thing_1 \
+   && command_to_do_thing_2 \
    && command_to_do_thing_3 \
-   && comando_para_fazer_coisa_4
+   && command_to_do_thing_4
 ```
 
-É uma boa prática agrupar comandos relacionados em um único bloco de `RUN` para reduzir o tamanho final de sua imagem em [evitando a criação de camadas desnecessárias](https://docs.docker.com/develop/develop-images/#minimize-the-number-of-layers). Também seguimos o best-practice usando `--no-install-recommend` para [evitar instalar pacotes desnecessários](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#dont-install-unnecessary-packages) e [limpar o `apt-cache`](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#run), ambas as quais reduzem ainda mais o tamanho das imagens Debian ou Ubuntu.
+It is good practice to group related commands into a single `RUN` block to reduce the final size of your image by [avoiding the creation of unnecessary layers](https://docs.docker.com/develop/develop-images/#minimize-the-number-of-layers). We also follow best-practice by using `--no-install-recommends` to [avoid installing unnecessary packages](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#dont-install-unnecessary-packages) and [cleaning up the `apt-cache`](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#run), both of which further reduce the size of Debian or Ubuntu images.
 
-Depois de instalarmos o Python, usamos outro comando da RUN para instalar uma biblioteca exigida pelo nosso código.
+After we have installed Python, we use another RUN statement to install a library required by our code.
 
-Finalmente o comando `COPY` é usado para copiar os arquivos do projeto do computador construindo a imagem para a própria imagem. A sintaxe deste comando é `COPY file_to_copy location_in_container_to_copy_to`. Neste exemplo, todos os arquivos no diretório `project_files` estão incluídos no arquivo `projeto` no container. Note que você só pode copiar arquivos do diretório onde o arquivo Dockerfile está localizado, ou subdiretórios dentro dele (no exemplo, ou seja, o `subdiretório` projeto).
+Finally the `COPY` command is used to copy the project files from the machine building the image into the image itself. The syntax of this command is `COPY file_to_copy location_in_container_to_copy_to`. In this example, all the files in the `project_files` directory are included in the `project` file in the container. Note that you can only copy files from the directory where the Dockerfile is located, or subdirectories within it (in the example, that is the `project_files` subdirectory).
 
-O comando `ADD` tem os mesmos recursos que `COPY`, mas também pode ser usado para adicionar arquivos que não estejam na construção da máquina a imagem. Por exemplo, pode ser usado para incluir arquivos hospedados on-line seguindo `ADD` com uma URL para o arquivo. É uma boa prática usar `COPY`, exceto onde `ADD` é especificamente necessário. como o termo `COPY` é mais explícito sobre o que está a ser feito.
+The `ADD` command has the same capabilities as `COPY`, but it can also be used to add files not on the machine building the image. For example it can be used to include files hosted online by following `ADD` with a URL to the file. It is good practice to use `COPY`, except where `ADD` is specifically required, as the term `COPY` is more explicit about what is being done.
 
-Aqui está o que acontece se um contêiner for aberto a partir de uma imagem chamada `book_example`, construída a partir do exemplo acima:
+Here is what happens if a container is opened from an image called `book_example`, built from the example above:
 
 ```{figure} ../../figures/container-example.png
 ---
-nome: exemplo contêiner
-alt: Uma captura de tela do que acontece quando um contêiner é aberto de uma imagem
+name: container-example
+alt: A screenshot of what happens when a container is opened from an image
 ---
 ```
 
-Como você pode ver, o projeto `diretório` foi criado, e dentro dos arquivos do projeto, `análise. y` e `data.csv` foram copiados para ele. Como o arquivo Dockerfile já inclui o software necessário para o projeto, na imagem, o script `analyis.py` é executado sem instalar mais software.
+As you can see, the directory `project` has been created, and inside the project files, `analysis.py` and `data.csv` have been copied into it. Because the Dockerfile already includes the software required for the project, in the image, the `analysis.py` script runs without installing more software.
 
 (rr-renv-containers-dockerfiles-workdir)=
-### `MUNDO`
+### `WORKDIR`
 
-Esse comando pode ser usado no Dockerfiles para alterar o diretório de trabalho atual. Os comandos que seguem isso no arquivo Dockerfile serão aplicados dentro do novo diretório de trabalho a não ser / até que outro `WORKDIR` mude o diretório de trabalho. Quando um recipiente for aberto com um terminal interativo, o terminal será aberto no diretório de trabalho final. Aqui está um exemplo simples de um arquivo Dockerfile que usa `WORKDIR`e o contêiner que ele gera.
+This command can be used in Dockerfiles to change the current working directory. Commands that follow this in the Dockerfile will be applied within the new working directory unless/until another `WORKDIR` changes the working directory. When a container is opened with an interactive terminal, the terminal will open in the final working directory. Here is a simple example of a Dockerfile that uses `WORKDIR`, and the container it generates.
 
 ```
-FROM ubuntu Atualização do apt-get RUN
+# Basic setup
+FROM ubuntu
+RUN apt-get update
 
-# Faça um diretório chamado RUN mkdir A
+# Make a directory called A
+RUN mkdir A
 
-# Faça o diretório de trabalho A WORKDIR A
+# Make the working directory A
+WORKDIR A
 
-# Faça dois diretórios, um chamado B_1 e um chamado B_2 RUN mkdir B_1 RUN mkdir B_2
+# Make two directories, one called B_1 and one called B_2
+RUN mkdir B_1
+RUN mkdir B_2
 ```
 
 ```{figure} ../../figures/workdir-example.png
 ---
-nome: Exemplo de trabalho
-alt: Captura de tela do contêiner gerado usando o comando WORKDIR
+name: workdir-example
+alt: Screenshot of container generated using WORKDIR command
 ---
 ```
 
-Diretórios `B_1` e `B_2` foram criados dentro do diretório `A`.
+Directories `B_1` and `B_2` have been created within directory `A`.
 
-`O WORKDIR` deve ser usado quando alterar diretórios é necessário durante a construção de uma imagem. Pode ser tentador usar `o directory_name da RUN cd` em vez disso. já que esta sintaxe será mais familiar para aqueles que normalmente funcionam através da linha de comando, mas isso pode levar a erros. Após cada instrução `RUN` em um arquivo Dockerfile, a imagem é salva e todos os seguintes comandos são aplicados novamente à imagem. As an example, here is what happens in the above example if the `WORKDIR A` line is swapped for `RUN cd A`.
+`WORKDIR` should be used when changing directories is necessary while building an image. It may be tempting to use `RUN cd directory_name` instead, as this syntax will be more familiar to those that commonly work via the command line, but this can lead to errors. After each `RUN` statement in a Dockerfile, the image is saved, and any following commands are applied to the image anew. As an example, here is what happens in the above example if the `WORKDIR A` line is swapped for `RUN cd A`.
 
 ```{figure} ../../figures/cd-example.png
 ---
-nome: cd-example
-alt: Uma captura de tela do que acontece quando o comando WORKDIR é trocado com RUN cd
+name: cd-example
+alt: A screenshot of what happens when the WORKDIR command is swapped with RUN cd
 ---
 ```
 
-Todos os diretórios estão no nível superior neste caso, em vez de `B_1` e `B_2` estando dentro de `A`. Isso é porque a imagem foi reiniciada após o comando `RUN cd` e aberta no nível superior (root) por padrão, portanto, foi aí que os comandos `mkdir B_1` e `mkdir B_2` entraram em vigor.
+All the directories have are in the top level in this case, rather than `B_1` and `B_2` being inside `A`. This is because the image was restarted after the `RUN cd A` command and opened at the top (root) level by default, so that is where the `mkdir B_1` and `mkdir B_2` commands took effect.
 
 (rr-renv-containers-dockerfiles-commands)=
-### Outros comandos
+### Other Commands
 
-Outros comandos que às vezes são usados em arquivos do Dockerfiles incluem:
+Other commands that are sometimes used in Dockerfiles include:
 
-- `CMD`: Isso é usado para executar comandos assim que o contêiner é aberto. Isso é diferente de comandos RUN que são comandos executados como parte da _configuração de um contêiner_ Por exemplo, para ter uma mensagem de boas-vindas quando um contêiner é aberto na imagem `CMD` pode ser usado da seguinte forma: Por exemplo, para ter uma mensagem de boas-vindas quando um contêiner é aberto na imagem `CMD` pode ser usado da seguinte forma:
+- `CMD`: This is used to run commands as soon as the container is opened. This is different to RUN commands which are commands run as part of _setting up_ a container. For example, to have a welcome message when a container is opened from the image, `CMD` could be used as follows:
   ```
-  CMD ["echo","Bem-vindo! Você acabou de abrir este contêiner!"]
+  CMD ["echo","Welcome! You just opened this container!"]
   ```
-  É uma boa prática usar o CMD para todos os comandos que precisam ser executados antes que alguém comece a trabalhar no contêiner em vez de forçar os usuários a executá-los eles mesmos (e confiar que eles mesmo saberão que precisarão).
-- `VOLUMES`: Serão discutidos {ref}`mais tarde <rr-renv-containers-volumes>`.
-- `MANEIRO`: Isto contém informações sobre a pessoa que escreveu o Dockerfile. Normalmente está incluído no topo de um arquivo Dockerfile.
-- `EXPOSE`: Isso inclui portas que devem ser expostas. É mais relevante para as pessoas que usam o Docker para compartilhar aplicativos web.
-- `USUÁRIO`: Altere o usuário que um comando é executado como (útil para descartar privilégios).
+  It is good practice to use CMD for any commands that need to be run before someone starts working in the container instead of forcing users to run them themselves (and trusting that they will even know that they need to).
+- `VOLUMES`: These will be discussed {ref}`later <rr-renv-containers-volumes>`.
+- `MAINTAINER`: This contains information regarding the person that wrote the Dockerfile. It is typically included at the top of a Dockerfile.
+- `EXPOSE`: This includes ports that should be exposed. It is more relevant to people using Docker to share web apps.
+- `USER`: Change the user that a command is run as (useful for dropping privileges).
 
 (rr-renv-containers-dockerignore)=
-## Construindo imagens e `.dockerignore` Arquivos
+## Building Images and `.dockerignore` Files
 
-Como mencionado na seção de comandos chave de {ref}`<rr-renv-containers-commands>` , Para construir uma imagem, abra um terminal no mesmo diretório que o arquivo Dockerfile a ser usado e executado:
+As mentioned in the {ref}`key commands <rr-renv-containers-commands>` section, to build an image open a terminal in the same directory as the Dockerfile to be used and run:
 
 ```
 sudo docker build --tag name_to_give_image .
 ```
 
-Quando uma imagem é construída tudo no diretório do Dockerfile e abaixo (isso é chamado de "contexto") é enviado para o Docker daemon para construir a imagem. O daemon usa o Dockerfile e seu contexto para construir a imagem. Se o contexto contém muitos arquivos grandes, que não são necessários para a construção da imagem, (dados antigos, por exemplo), então é uma perda de tempo enviá-los para o daemon. Fazer isso pode deixar o processo de construção de uma imagem mais lento. Os arquivos podem ser excluídos do contexto listando-os em um arquivo de texto chamado `.dockerignore`. É uma boa prática fazê-lo.
+When an image is built everything in the Dockerfile's directory and below (this is called the "context") is sent to the Docker daemon to build the image. The daemon uses the Dockerfile and its context to build the image. If the context contains many large files, which are not needed for building the image, (old datafiles, for example) then it is a waste of time sending them to the daemon. Doing so can make the process of building an image slow. Files can be excluded from the context by listing them in a text file called `.dockerignore`. It is good practice to do so.
 
-Os arquivos não precisam ser listados individualmente no arquivo `.dockerignore`. Aqui está um exemplo do conteúdo de um arquivo `.dockerignore`:
+The files do not need to be listed individually in the `.dockerignore` file. Here is an example of the contents of a `.dockerignore` file:
 
 ```
 *.jpg
@@ -233,147 +242,160 @@ data_files/*
 file_to_exclude.txt
 ```
 
-Isso exclui do contexto:
+This excludes from the context:
 
-- Todos os arquivos `.jpg` no mesmo diretório que o arquivo Dockerfile
-- Todos os arquivos `.png` no mesmo diretório do arquivo Dockerfile _ou quaisquer subdiretórios dentro dele_
-- Todos os arquivos dentro do diretório `data_files`
-- O arquivo chamado `file_to_exclude.txt`
+- All `.jpg` files in the same directory as the Dockerfile file
+- All `.png` files in the same directory as the Dockerfile file _or any subdirectories within it_
+- All files within the `data_files` directory
+- The file named `file_to_exclude.txt`
 
 (rr-renv-containers-sharing)=
-## Compartilhando imagens
+## Sharing Images
 
-Imagens Docker podem ser compartilhadas mais facilmente via [Docker Hub](https://hub.docker.com/), o que requer uma conta. Diga a dois investigadores, Alice e Bob, que estão colaborando num projeto e Alice deseja compartilhar uma imagem de algum do seu trabalho com Bob.
+Docker images can be shared most easily via [Docker Hub](https://hub.docker.com/), which requires an account. Say two researchers, Alice and Bob, are collaborating on a project and Alice wishes to share an image of some of her work with Bob.
 
-Para fazer isso, Alice deve:
+To do this, Alice must:
 
-- Escreva um arquivo Dockerfile para produzir uma imagem do seu trabalho.
-- Construa a imagem. Ela (sendo inventiva) a chama de image_name
-- Vá para DockerHub e cadastre-se para uma conta. Diga Alice (novamente, estando inventivo) escolhe o nome de usuário `username_Alice`
-- Entrar no DockerHub através do terminal em sua máquina usando:
+- Write a Dockerfile to produce an image of her work.
+- Build the image. She (being inventive) calls it image_name
+- Go to DockerHub and sign up for an account. Say Alice (again, being inventive) chooses the username `username_Alice`
+- Log into DockerHub via the terminal on her machine using:
   ```
-  login do sudo docker
+  sudo docker login
   ```
-- Marque a imagem de seu projeto em sua máquina através da linha de comando fornecendo o nome da imagem e usando o padrão `username/image_name:version`. Então o Alice executa o comando:
+- Tag the image of her project on her machine via the command line by supplying the name of the image and using the pattern `username/image_name:version`. So Alice runs the command:
   ```
   sudo docker tag image_name username_Alice/image_name:version_1
   ```
-- Faça push da imagem para sua conta do Docker Hub usando:
+- Push the image to her Docker Hub account using:
   ```
   sudo docker tag push username_Alice/image_name:version_1
   ```
-- A imagem do Alice está online e pode ser baixada. Acima para o Bob...
+- Alice's image is now online and can be downloaded. Over to Bob...
 
-Bob (supondo que ele já tenha instalado o Docker) pode abrir um contêiner da imagem do Alice simplesmente executando
-
-```
-docker sudo run -i -t username_Alice/image_name:version_1
-```
-
-Inicialmente, o Docker irá procurar essa imagem na máquina do Boi. Quando ele não encontrá-lo, _automaticamente_ buscará o DockerHub, Baixe a imagem do Alice e abra o contêiner com o trabalho e o ambiente do Alice na máquina do Box.
-
-(rr-renv-containers-copiing)=
-## Copiando arquivos para e de contêineres
-
-Os contêineres agem muito como máquinas virtuais; como resultado, copiar arquivos para e fora deles não é tão trivial como copiar arquivos para diferentes locais dentro do mesmo computador.
-
-Um arquivo pode ser copiado da máquina executando um contêiner no contêiner usando:
+Bob (assuming he already has Docker installed) can open a container from Alice's image simply by running
 
 ```
-sudo docker cp file_name container_ID:path_to_where_para_o_arquivo_do_arquivo/arquivo
+sudo docker run -i -t username_Alice/image_name:version_1
 ```
 
-Lembre que os IDs de contêiner podem ser obtidos usando `sudo docker contêineres`.
+Initially, Docker will search for this image on Bob's machine. When it does not find it, it will _automatically_ search DockerHub, download Alice's image, and open the container with Alice's work and environment on Bob's machine.
 
-Um arquivo pode ser copiado de dentro de um contêiner para a máquina executando o seguinte comando na máquina que executa o contêiner:
+(rr-renv-containers-copying)=
+## Copying Files To And From Containers
+
+Containers act much like virtual machines; as a result, copying files into and out of them is not as trivial as copying files to different locations within the same computer is.
+
+A file can be copied from the machine running a container into the container using:
 
 ```
-sudo docker cp container_ID:path_to_o_caminho_de_arquivo/arquivo _para_onde_do_arquivo_para_o_arquivo_nome_de_arquivo
+sudo docker cp file_name container_ID:path_to_where_to_put_file/file_name
 ```
 
-Se a segunda parte (o `path_to_where_to_put_file/file_name`) é substituído por um `.`, em seguida, o arquivo será copiado para qualquer diretório que o terminal esteja executando o comando.
+Recall that container IDs can be obtained using `sudo docker container ls`.
+
+A file can be copied from within a container to the machine running the container by running the following command on the machine running the container:
+
+```
+sudo docker cp container_ID:path_to_file/file_name path_to_where_to_put_file/file_name
+```
+
+If the second part (the `path_to_where_to_put_file/file_name`) is substituted for a `.`, then the file will be copied to whatever directory the terminal running the command is in.
 
 (rr-renv-containers-volumes)=
-## Volume
+## Volumes
 
-Toda vez que um recipiente é aberto a partir de uma imagem, esse recipiente é completamente novo. Diga que um recipiente está aberto e que é feito trabalho dentro dele. If that container is closed, and the image it came from is again used to start another container, none of that work will be in the new one. It will simply have the starting state described in the image.
+Every time a container is opened from an image, that container is completely new. Say a container is opened, and work is done within it. If that container is closed, and the image it came from is again used to start another container, none of that work will be in the new one. It will simply have the starting state described in the image.
 
-Isso pode ser um problema se um pesquisador quiser trabalhar em um recipiente ao longo do tempo. Felizmente, há uma maneira de contornar esta situação utilizando volumes. Os volumes armazenam o trabalho feito em um recipiente mesmo depois de fechado, e podem ser usados para carregar que funcionam em futuros contêineres.
+This can be a problem if a researcher wants to work in a container over time. Fortunately, there is a way around this using volumes. Volumes store the work done within a container even after it is closed, and can be used to load that work into future containers.
 
-Para criar/usar um volume, execute:
+To create/use a volume, run:
 
 ```
 sudo docker run -i -t --mount source=volume_name,target=/target_directory image_name
 ```
 
-Você deve dar ao seu volume um nome mais descritivo que o `volume_name`. Um diretório `de destino` é necessário; só funciona dentro deste diretório será salvo no volume. Assim que o pesquisador estiver pronto, ele poderá fechar o recipiente normalmente. Quando eles voltam para o projeto e querem continuar o seu trabalho, eles só precisam usar o mesmo comando que acima, e irá carregar o trabalho contido no `volume_name` no novo contêiner. Também aí se salvará qualquer novo trabalho.
+You should give your volume a more descriptive name than `volume_name`. A `target` directory is required; only work within this directory will be saved in the volume. Once the researcher is done, they can close the container as normal. When they come back to the project and want to continue their work, they only need to use the same command as above, and it will load the work contained in `volume_name` into the new container. It will save any new work there too.
 
-Abaixo está uma lista de comandos relacionados ao volume:
+Below is a list of volume related commands:
 
-- Para listar volumes: `sudo docker volume ls`
-- Para excluir um volume: `sudo docker volume rm volume_name`
-- Para excluir todos os volumes não anexados: `sudo docker volume prune`
+- To list volumes: `sudo docker volume ls`
+- To delete a volume: `sudo docker volume rm volume_name`
+- To delete all unattached volumes: `sudo docker volume prune`
 
-Se ao excluir um contêiner, um `-v` é incluído após `rm` no `sudo docker rm container_ID`, qualquer volume associado ao contêiner também será excluído.
+If, when deleting a container, a `-v` is included after `rm` in `sudo docker rm container_ID`, any volumes associated with the container will also be deleted.
 
 (rr-renv-containers-rootless)=
-## Singularidade
+## Docker without root access
 
 Up until April 2020, the only way to run Docker was with root access. "Rootless" mode was made available as part of the [v20.10](https://docs.docker.com/engine/security/rootless/) release. Rootless mode is currently only avaliable on Linux and requires an initial install of Docker >= v20.10.
 
 The underyling difference between Docker without and with rootless mode is that perviously any system running Docker had a daemon running as `uid0` that creates and owns all images, but with rootless mode the user creates and owns any images that they initialize. To install and run the rootless version of Docker as a non-root user, use the following commands (where `20.10` refers to the installed version of Docker):
 
 ```
-shell de singularidade docker://ubuntu
+dockerd-rootless-setuptool.sh install
+docker run -d --name dind-rootless --privileged docker:20.10-dind-rootless
 ```
 
 The following prequisites, which are part of the [`shadow-utils`](https://github.com/shadow-maint/shadow) package are required to run Docker rootless: `newuidmap` and `newgidmap`.
 
 (rr-renv-containers-singularity)=
-## Palavras de Aviso
+## Singularity
 
 
-> **Pré-requisitos**: No momento, Singularity só é executado em sistemas Linux (por exemplo, Ubuntu). Se você usar o macOS, [Singularity Desktop para macOS](https://www.sylabs.io/singularity-desktop-macos/) está no estágio de lançamento "Beta".
+> **Prerequisites**: At present, Singularity only runs on Linux systems (for example Ubuntu). If you use macOS, [Singularity Desktop for macOS](https://www.sylabs.io/singularity-desktop-macos/) is in "Beta" release stage.
 
-Uma desvantagem significativa do uso do Docker para pesquisa reprodutível é que não se pretende como uma aplicação do user-space mas como uma ferramenta para administradores de servidores. Como tal, requer acesso root para operar. No entanto, não há qualquer razão para que a execução de uma análise exija o acesso de raiz do utilizador. Isto é especialmente importante quando os cálculos são conduzidos em um recurso compartilhado, como sistemas de HPC onde os usuários nunca terão acesso root.
+Historically, a significant drawback of using Docker for reproducible research is that it was not intended as a user-space application but as a tool for server administrators. As such, it required root access to operate. There is, however, no reason why the execution of an analysis should require root access for the user. This is especially important when computations are conducted on a shared resource like HPC systems where users will never have root access.
 
-O software de contêiner de [singularidade](https://www.sylabs.io/) foi introduzido para resolver este problema. Singularidade foi criada com sistemas HPC e pesquisa reprodutível em mente (consulte \[this\](https://www.youtube.com/watch?v=DA87Ba2dpNM). Isso não requer acesso root para executar (apenas para construir o contêiner _imagens_! , e assim permite que usuários de HPC criem imagens de recipientes localmente antes de executar análises em um grupo de alto desempenho, por exemplo. Como benefício adicional, Isso torna possível o uso de quase qualquer software em um sistema HPC sem ter que incomodar a equipe de administração com a instalação.
+The [singularity](https://www.sylabs.io/) container software was introduced to address this issue. Singularity was created with HPC systems and reproducible research in mind (see \[this\](https://www.youtube.com/watch?v=DA87Ba2dpNM video). It does not require root access to run (only to build container _images_!), and thus enables HPC users to locally build container images before running analyses on a high-performance cluster, for example. As an added benefit, this makes it possible to use almost any software on an HPC system without having to bother admin staff with installing it.
 
-Furthermore, since Docker is _the_ most well-known containerization approach, singularity aims at maintaining compatibility with docker containers. Isto significa que a singularidade pode ser usada para executar contêineres docker normais (sem exigir acesso root!).
+Furthermore, since Docker is _the_ most well-known containerization approach, singularity aims at maintaining compatibility with docker containers. This means that singularity can be used to run normal docker containers (without requiring root access!).
 
-Singularidade pode ser usada para executar imagens Docker ou estendê-las construindo novas imagens com base em docker containers como camada base. Por exemplo, poderíamos usar a singularidade para criar um recipiente de ubuntu vanilla com um casco usando a imagem docker de ubuntu:
+Singularity can be used to run Docker images or extend them by building new images based on docker containers as a base layer. For instance, we could use singularity to create a vanilla ubuntu container with a shell using the ubuntu docker image:
 
 ```
 singularity shell docker://ubuntu
 ```
 
-> (digite `exit` para deixar o shell interativo novamente).
+> (type `exit` to leave the interactive shell again).
 
-Assim como as imagens docker são construídas usando `o arquivo Dockerfile` arquivos, contêineres singularidade são construídos a partir de arquivos de definição de singularidade. O processo e a sintaxe são semelhantes aos arquivos docker, mas existem diferenças subtis. Como um exemplo mínimo de funcionamento, podemos construir um contêiner `lolcow` com base na imagem oficial do docker do ubuntu. Coloque o seguinte em um arquivo `lolcow.def` (com base na [Documentação do Singularity](https://www.sylabs.io/guides/3.2/user-guide/build_a_container.html)):
+Just as docker images are built using `Dockerfile` files, singularity containers are built from singularity definition files. The process and syntax are similar to docker files, but there are subtle differences. As a minimal working example, we can build a `lolcow` container based on the official ubuntu docker container image. Put the following in a `lolcow.def` file (based on the [Singularity documentation](https://www.sylabs.io/guides/3.2/user-guide/build_a_container.html)):
 ```
-sudo singularidade construir lolcow.simg lolcow.def
+Bootstrap: docker
+From: ubuntu
+
+%post
+    apt-get -y update
+    apt-get -y install fortune cowsay lolcat
+
+%environment
+    export LC_ALL=C
+    export PATH=/usr/games:$PATH
+
+%runscript
+    fortune | cowsay | lolcat
 ```
 
-Esta 'receita' usa uma imagem docker como base (`ubuntu`), instala alguns pacotes `apt` e modifica algumas variáveis de ambiente, e especifica o `runscript` (que é executado usando o comando `singularidade run`). Detalhes sobre o formato do arquivo de definição de singularidade podem ser encontrados na [documentação oficial](https://www.sylabs.io/docs/).
+This 'recipe' uses a docker image as a basis (`ubuntu`), installs a few `apt` packages, modifies a few environment variables, and specifies the `runscript` (which is executed using the `singularity run` command). Details on the singularity definition file format can be found in the official [documentation](https://www.sylabs.io/docs/).
 
-Uma imagem de contêiner pode ser construída (exigindo root!) via:
+A container image can then be built (requiring root!) via:
 
 ```
-singularidade run lolcow.simg
+sudo singularity build lolcow.simg lolcow.def
 ```
 
-Isto irá puxar a imagem ubuntu do DockerHub, executar as etapas da receita no arquivo de definição e produzir um único arquivo de imagem de saída (`lolvaca. img`). Finally the `runscript` is executed as
+This will pull the ubuntu image from DockerHub, run the steps of the recipe in the definition file and produce a single output image file (`lolcow.simg`). Finally the `runscript` is executed as
 
 ```
 singularity run lolcow.simg
 ```
 
-De preferência, você deveria ver uma bela vaca ASCII e algumas palavras de sabedoria:
+Ideally, you should see a nice ASCII cow and a few words of wisdom:
 
 ```
 ___________________________________
-/ Você será chamado para ajudar com \
-\ \ amigo em um problema.                /
+/ You will be called upon to help a \
+\ friend in trouble.                /
 -----------------------------------
        \   ^__^
         \  (oo)\_______
@@ -382,31 +404,27 @@ ___________________________________
                ||     ||
 ```
 
-Sendo compatível com HPC, contêineres de singularidade também são suportados por uma ampla gama de ferramentas de gerenciamento de fluxo de trabalho. Por exemplo, ambos [snakemake](https://snakemake.readthedocs.io/en/stable/) e [nextflow](https://www.nextflow.io/docs/latest/singularity.html) suportam contêineres de singularidade específicos de trabalho. Isto torna contêineres de singularidade única adequada para paralela de fluxos de trabalho em sistemas HPC usando o amplamente utilizado [slurm](https://slurm.schedmd.com/documentation.html) gerenciador de carga de trabalho. Usando singularidade, contêineres e snakemake/nextflow é uma forma de escalar a reprodutibilidade em uma escala maciça. Além disso, como um benefício adicional, trazendo fluxos de trabalho de uma máquina para um sistema HPC já não requer mais escrever scripts de submissão de trabalho personalizados.
+Being HPC compatible, singularity containers are also supported by a wide range of workflow management tools. For example, both [snakemake](https://snakemake.readthedocs.io/en/stable/) and [nextflow](https://www.nextflow.io/docs/latest/singularity.html) support job-specific singularity containers. This makes singularity containers uniquely suited for parallelizing workflows on HPC systems using the widely used [slurm](https://slurm.schedmd.com/documentation.html) workload manager. Using singularity, containers and snakemake/nextflow is a way of scaling reproducibility to a massive scale. Furthermore, as an added benefit, bringing workflows from a desktop machine to an HPC system no longer requires writing custom job submission scripts.
 
 (rr-renv-containers-singularity-storage)=
-### Armazenamento de longo prazo de imagens de contêiner
+### Long-term Storage of Container Images
 
-É importante notar que um simples arquivo de receitas de contêiner não é reproduzível em si, uma vez que o processo de construção depende de várias fontes (on-line). Assim, o mesmo arquivo de receita pode levar a imagens diferentes se as fontes subjacentes forem atualizadas.
+It is important to note that a mere container recipe file is not reproducible in itself since the build process depends on various (online) sources. Thus, the same recipe file might lead to different images if the underlying sources were updated.
 
-Para alcançar a reprodutibilidade verdadeira, é importante armazenar o contêiner _imagens_. Para imagens singulares, isso é particularmente fácil, já que uma imagem é simplesmente um arquivo grande. Estas podem variar em tamanho, de algumas dezenas de megabytes (microcontainers) a vários gigabytes, e, portanto, não são adequados para ser armazenado em um repositório git em si Um repositório gratuito, solução elegível e de longo prazo para armazenar imagens contêines é
-
-zenodo. Desde que zenodo mints DOIs para todo o conteúdo enviado, as imagens são imediatamente referenciáveis. Em contraste com o [Docker Hub](https://hub.docker.com/) (que também aceita apenas imagens docker), zenodo também está claramente orientado para o armazenamento a longo prazo e para a descoberta através de um sistema de metadados sofisticado. Assim, é idealmente adequado para armazenar contentores científicos associados a análises específicas, uma vez que estas tendem a não mudar com o tempo.</p> 
+To achieve true reproducibility, it isimportant to store the actual container _images_. For singularity images, this is particularly easy since an image is simply a large file. These can vary in size, from a few tens of megabytes (micro-containers) to several gigabytes, and are therefore not suited for being stored in a git repository themselves A free, citable, and long-term solution to storing container images is [zenodo.org](https://zenodo.org/) which allows up to 50 Gb per repository. Since zenodo mints DOIs for all content uploaded, the images are immediately citable. In contrast to [Docker Hub](https://hub.docker.com/) (which also only accepts docker images), zenodo is also clearly geared towards long-term storage and discoverability via a sophisticated metadata system. Thus, it is ideally suited for storing scientific containers associated with particular analyses since these tend to not change over time.
 
 (rr-renv-containers-warning)=
-
-
 ## Words of Warning
 
-Embora a singularidade e o docker possam parecer semelhantes, são conceitualmente muito diferentes. Além do fato óbvio que a singularidade não requer acesso root para contêineres executados, lida também com a distinção entre o sistema de arquivos de host e o de contêiner de forma diferente. Por exemplo, por padrão, a singularidade inclui alguns pontos de bind no container, nomeadamente:
+Even though singularity and docker might look similar, they are conceptually very different. Singularity handles the distinction between the host and container file system differently. For instance, by default, singularity includes a few bind points in the container, namely:
 
 - `$HOME`
 - `/sys:/sys`
-- `/proc:/processo`
+- `/proc:/proc`
 - `/tmp:/tmp`
 - `/var/tmp:/var/tmp`
 - `/etc/resolv.conf:/etc/resolv.conf`
 - `/etc/passwd:/etc/passwd`
 - `$PWD`
 
-Nota, `$PWD` é útil, uma vez que implica que todos os arquivos no diretório de trabalho são visíveis dentro do container. Vinculando `$HOME` por padrão, no entanto, também implica que o software que usa arquivos de configuração de `$HOME` pode se comportar inesperadamente, uma vez que os arquivos de configuração específicos da imagem são substituídos pelas configurações de usuários atuais em `$HOME`. Embora este comportamento seja útil em cenários HPC, é potencialmente perigoso para a investigação reprodutível. Para evitar problemas em potencial, qualquer software instalado em um contêiner de singularidade deve ser apontado para um arquivo de configuração global, independente do usuário.
+Note, `$PWD` comes in handy since it implies that all files in the working directory are visible within the container. Binding `$HOME` by default, however, also implies that software using configuration files from `$HOME` might behave unexpectedly since the image specific configuration files are overwritten with the current users settings in `$HOME`. While this behaviour is handy in HPC scenarios, it is potentially dangerous for reproducible research. To avoid potential issues, any software installed in a singularity container should be pointed to a global, user-independent configuration file.
