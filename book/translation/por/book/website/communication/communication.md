@@ -1,18 +1,19 @@
 (cm)=
-# Guia de comunicação
+# Guide for Communication
 
-***Este guia abrange tópicos relacionados a comunicação eficaz em pesquisas.***
+***This guide covers topics related to effective communication in research.***
 
-O processo de análise de dados, as estatísticas e o desenvolvimento do projeto podem ser esmagadores para explicar às pessoas, especialmente quando elas ainda não estão envolvidas neste processo. Portanto, os cientistas de dados não devem apenas ter um bom entendimento das técnicas de análise de dados, mas também desenvolver competências para comunicar informações sobre o seu trabalho, num formato claro e acessível que possa ajudar as principais partes interessadas a tomar decisões significativas. Há muitas maneiras de transmitirmos os nossos pontos de vista de forma responsável, que podem ressoar e ter impacto no nosso público-alvo.
+Data analysis process, statistics and project development can be overwhelming to explain to people, especially when they are not already involved in this process. Therefore, data scientists should not only have a good understanding of data analysis techniques but also develop skills to communicate insights from their work in a clear and accessible format that can help key stakeholders make meaningful decisions. There are many ways we can convey our insights responsibly that can resonate with and impact our target audience.
 
 ```{figure} ../figures/communication.jpg
 ---
-nome: largura da comunicação
-largura: 500px
-alt: Uma rede de pessoas trocando e compartilhando informações diferentes
---- Rede de comunicação para compartilhar, aprendizado e ensinando. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+name: communication
+width: 500px
+alt: A network of people exchanging and sharing different information
+---
+Communication network for sharing, learning and teaching. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-Neste guia, Saudamos as contribuições para o desenvolvimento de capítulos e orientações sobre a comunicação eficaz do resultado baseado em dados para diferentes tipos de público que podem ou não estar cientes da análise de dados científicos. Estamos animados para apoiar cientistas de dados desenvolvendo habilidades que variam de visualização interativa, como conversar, escrever o seu primeiro papel e ser entrevistado pelos meios de comunicação.
+In this guide, we welcome contributions to developing chapters and guidance on effectively communicating the data-driven outcome to different audience types who may or may not be aware of scientific data analytics. We are excited to support data scientists develop skills ranging from interactive visualisation, how to give a talk, writing your first paper, and being interviewed by the media.
 
-_A Caminho da Turing_ é um [Livro Jupyter](https://jupyterbook.org/intro.html), então por favor também considere como podemos deixar as nossas comunicações mais excitantes! Confira nossas [diretrizes de contribuição](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) para participar.
+_The Turing Way_ itself is a [Jupyter Book](https://jupyterbook.org/intro.html), so please also consider how we can make our communications more exciting! Check out our [contributing guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) to get involved.
