@@ -1,6 +1,6 @@
 # Checklist for Code Testing
 
-This checklist contains a lot of items. كما ذكر {ref}`قبل<rr-testing-write-tests>`، من الأفضل بكثير القيام ببعض العناصر من لا شيء منها. Do not be discouraged if this list of tasks seems insurmountable.
+This checklist contains a lot of items. As {ref}`mentioned before<rr-testing-write-tests>`, it is far better to do some of the items than none of them. Do not be discouraged if this list of tasks seems insurmountable.
 
 <a name="Writing_tests"></a>
 
@@ -18,10 +18,10 @@ This checklist contains a lot of items. كما ذكر {ref}`قبل<rr-testing-wr
 
 ## Good practice checks
 
-- [ ] توثيق الاختبارات وكيفية إجرائها.
-  - [ ] كتابة النصوص البرمجية لإعداد وتكوين أي موارد مطلوبة لتشغيل الاختبارات.
-- [ ] اختيار إطار الاختبار والاستفادة منه.
-- [ ] إجراء الاختبارات بانتظام.
-  - [ ] أتمتة عملية إجراء الاختبارات. النظر في الاستفادة من التكامل المستمر (انظر الفصل الخاص بالتكامل المستمر) للقيام بذلك.
-- [ ] تحقق من التغطية البرمجية للاختبارات الخاصة بك وحاول تحسينها.
-- [ ] المشاركة في استعراض الرموز مع شريك.
+- [ ] Document the tests and how to run them.
+  - [ ] Write scripts to set up and configure any resources that are needed to run the tests.
+- [ ] Pick and make use of a testing framework.
+- [ ] Run the tests regularly.
+  - [ ] Automate the process of running tests. Consider making use of continuous integration (see continuous integration chapter) to do this.
+- [ ] Check the code coverage of your tests and try to improve it.
+- [ ] Engage in code review with a partner.
