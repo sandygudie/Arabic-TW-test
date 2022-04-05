@@ -3,7 +3,7 @@
 
 Whether you are writing new content or reviewing existing ones, contributing to _The Turing Way_ generally encompasses the steps discussed in this section. You may refer to the recommendations here to ensure that you have adequately prepared your contribution for review. Please note that the order of these recommendations are not strict and we encourage you to follow the approach that suits you best.
 
-(الفصل-مساهمة-تدفق-قالب)=
+(ch-contributing-workflow-template)=
 ## Select a template
 
 Once you have decided on the type of content you want to contribute to _The Turing Way_, use the relevant [template](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/templates) to prepare your contribution.
@@ -79,18 +79,19 @@ For example, because the [Statistical Methods Manuscript](https://the-turing-way
   sections:
   ...
 
-  عنوان: دراسات الحالة
-    ملف: بحث-استنساخ/دراسات-الحالة
-    اقسام:
-    عنوان - مخطوطة طرق إحصائية
-      ملف: بحث-استنساخ/دراسات-الحالة/مخطوطة-طرق-إحصائية
+  - title: Case Studies
+    file: reproducible-research/case-studies
+    sections:
+    - title: A Statistical Methods Manuscript
+      file: reproducible-research/case-studies/statistical-methods-manuscript
+```
 
 ````
 
 (ch-contributing-workflow-referencing)=
 ## Reference external sources appropriately
 
-تأكد من أن المصادر الخارجية قد تم الرجوع إليها بشكل صحيح وإدراجها في _الطريق الوشيك_ ملف bibtex المركزي كما هو موصى به في دليل الطراز
+Ensure external sources are properly referenced and included in _The Turing Way's_ centralised bibtex file as recommended in the [style guide](https://the-turing-way.netlify.app/community-handbook/style/style-citing.html)
 
 (ch-contributing-workflow-glossary)=
 ## Update the book-wide glossary
