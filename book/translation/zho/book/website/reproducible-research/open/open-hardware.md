@@ -5,7 +5,7 @@
 
 Open hardware's source code should be readily accessible, and its components are preferably easy for anyone to obtain. Essentially, open hardware eliminates common roadblocks to the design and manufacture of physical goods; it provides as many people as possible the ability to construct, remix, and share their knowledge of hardware design and function.
 
-It is worth noting that open hardware does not necessarily mean free. Units may still be sold (by the original designer or by others), but users *could* build them from scratch. 他们是否选择购买该设备。 用户仍然能够从现有文档、设计和类似中充分了解硬件是如何运作的。
+It is worth noting that open hardware does not necessarily mean free. Units may still be sold (by the original designer or by others), but users *could* build them from scratch. Whether or not they choose to buy the unit, users can still get a full understanding of how the hardware works from available documentation, designs, and similar.
 
 (rr-open-hardware-why)=
 ## Why Open Hardware?
