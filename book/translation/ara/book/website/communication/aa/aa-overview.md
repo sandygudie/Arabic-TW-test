@@ -14,14 +14,14 @@ The decision may essentially be out of your hands as journals and publishers hav
 
 A general definition of an author is seen as the person that is the creator of the written work (creator of the ideas and the actual physical writing) and there is an ownership for the author regarding the content of what is written.
 
-However, most research involves a team of people to make it happen. ومن الذي يقرر إذن ما إذا كانت هذه المساهمات تستحق التأليف أم أنها جديرة بالاعتراف؟
+However, most research involves a team of people to make it happen. So who decides whether these contributions are worthy of authorship or just an acknowledgement?
 
-ولذلك، ولا يزال من الشائع ألا يمنح المؤلِّف إلا أولئك الذين شاركوا فعلا في كتابة أو تحرير المقال فضلا عن جوانب جوهرية أخرى من البحث. This often excludes large contributions to the project from technicians, undergraduate and postgraduate students, and people involved in the infrastructure of the project such as research software engineers. It also raises ethical issues concerning who takes credit for the work on a project.
+It is still common to give authorship to only those that have actually taken part in the writing or editing of the article as well as other substantial aspects of the research. This often excludes large contributions to the project from technicians, undergraduate and postgraduate students, and people involved in the infrastructure of the project such as research software engineers. It also raises ethical issues concerning who takes credit for the work on a project.
 
-(م ع - نظرة عامة-أولا)=
+(cm-aa-overview-first)=
 ## First author dominance
 
-وبما أن صاحب البلاغ الأول يؤثر على سمعة ذلك الشخص ومكانته بالنظر إلى الرأي المتصور بأن هذا الشخص يقدم أكبر إسهامات، ويشير الاقتباس إلى أنه في الماضي لم يحسب سوى الاقتباس من صاحب البلاغ الذي ورد اسمه في الأول؛ والاستشهاد في المقالات الأكاديمية يتم تقصيره إلى اسم الكاتب الأول مع *وآخرون* (المرجع: Frandsen & Nicolaisen 2010). (لاتيني لـ "وغيرها") {cite:ps}`Frandsen2010name,VanPraag2008benefits`. The number of citations that papers have and what journals they are published in are often important criteria for obtaining new jobs, getting promoted and winning funding applications.
+Being the first author impacts that person's reputation and visibility due to: a perceived view that this person makes the greatest contribution, citation indices that in the past only counted citations for the first-named author, and citations within academic articles being shortened to the first author's surname followed by "et al." (latin for "and others") {cite:ps}`Frandsen2010name,VanPraag2008benefits`. The number of citations that papers have and what journals they are published in are often important criteria for obtaining new jobs, getting promoted and winning funding applications.
 
 The practice of the first author taking prominence over others also has social implications. For example, it might be a difficult decision for a researcher to change their name, due to marriage or divorce, as this action could have a negative impact on their research career.
 
