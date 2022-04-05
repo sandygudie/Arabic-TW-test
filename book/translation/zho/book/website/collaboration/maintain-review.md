@@ -14,7 +14,7 @@ This subchapter sheds light on the role and tasks of such project maintainers wh
 
 ### This subchapter covers:
 
-本章将特别有助于那些想要在 _的维修和审查工作中提供支持的社区成员。 Ting Way_  仓库和类似的在线项目。
+This chapter will be particularly useful for the community members who want to provide support in maintenance and review work in _The Turing Way_  repository and or similar projects online.
 
 The Git workflow is difficult to understand, especially when collaborating with a group of contributors for a project. Hence, this chapter aims to guide the review processes so that all the contributions made on a GitHub project are regularly and properly done.
 
