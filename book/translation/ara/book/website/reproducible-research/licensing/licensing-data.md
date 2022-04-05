@@ -21,7 +21,7 @@ The permission level provided by a Creative Commons data license can be understo
 | **Permission Mark** | **What can I do with the data?** |
 | ------------------- | -------------------------------- |
 |                     |                                  |
- BY
+ BY | Creator must be credited SA | Derivatives or redistributions must have identical license NC | Only non-commerical uses are allowed ND | No derivatives are allowed
 
 
 For example, the CC BY-ND license specifies that users must credit the creator of the data and cannot create any derivatives.
@@ -29,7 +29,7 @@ For example, the CC BY-ND license specifies that users must credit the creator o
 (rr-licensing-data-cc-cc0)=
 ### Dedicating Your Work to the Public with CC0
 
-CC0 serves as a public dedication mechanism, where you relinquish all copyrights to your data. This means that anyone can modify, redistribute or build on your work. Further, by using CC0, you forfeit the right to attribution. Instead, you have to rely on norms such as good citation practices in academic communities to be recognized as the creator. Several organizations, such as museums, governmental bodies and scientific publishers, have chosen CC0 for access to at least part of their data. في العديد من الحالات، توصي مستودعات البيانات التي تحتفظ بها الجامعات CC0 كخيار افتراضي، مثل [4TU. Centre لبيانات البحث](https://researchdata.4tu.nl/en/use-4turesearchdata/archive-research-data/upload-your-data-in-our-data-archive/licencing/).
+CC0 serves as a public dedication mechanism, where you relinquish all copyrights to your data. This means that anyone can modify, redistribute or build on your work. Further, by using CC0, you forfeit the right to attribution. Instead, you have to rely on norms such as good citation practices in academic communities to be recognized as the creator. Several organizations, such as museums, governmental bodies and scientific publishers, have chosen CC0 for access to at least part of their data. In many instances, data repositories maintained by universities recommend CC0 as the default option, such as the [4TU.Centre for Research Data](https://researchdata.4tu.nl/en/use-4turesearchdata/archive-research-data/upload-your-data-in-our-data-archive/licencing/).
 
 (rr-licensing-data-odc)=
 ## Open Data Commons
