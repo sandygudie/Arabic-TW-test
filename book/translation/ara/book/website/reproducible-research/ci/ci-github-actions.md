@@ -40,7 +40,7 @@ A **job** is defined as a set of sequential steps run on the same runner. A work
 
 ### 3. Step
 
-تمثل الخطوة **** مهمة فردية واحدة. A step could be either an action or another command unit, like running a Python script or printing something to the console.
+A **step** represents one individual task. A step could be either an action or another command unit, like running a Python script or printing something to the console.
 
 ### 4. Actions
 
@@ -74,7 +74,7 @@ Github Action template is not the only starter kit available; there are librarie
 
 ### 3- Using the configuration of other projects as inspriration
 
-Many well maintained open source libraries and estableshed projects use GitHub Actions for their CI. إلقاء نظرة على قوائم التحقق من طلبات سحب هذه المشاريع للحصول على الإلهام والأفكار؛ المتابعة عن طريق التحقق من ملفات تكوين CI. In most cases their licence will allow to copy the bits that would work for your case. The advantage of this approach is to use some approaches that are already working.
+Many well maintained open source libraries and estableshed projects use GitHub Actions for their CI. Have a look at the checks lists on pull requests of these projects for inspiration and ideas; following by checking out their CI configuration files. In most cases their licence will allow to copy the bits that would work for your case. The advantage of this approach is to use some approaches that are already working.
 
 For example:
 
