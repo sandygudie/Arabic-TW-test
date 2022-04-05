@@ -5,7 +5,7 @@
 
 - Do not touch the raw data. Back it up somewhere reasonable and keep a read-only copy.
 
-- Have a plan! ¡Ten un plan! Decide dónde se almacenarán tus datos, qué se llama, cuando/si necesita ser borrado BEFORE comienza a recolectarlo y anotarlo en un plan de gestión de datos. If you collect sensitive data, plan for consent for sharing from the start!
+- Have a plan! Decide where your data is going to be stored, what it is called, when/if it needs to be deleted BEFORE you start collecting it and note it down in a data management plan. If you collect sensitive data, plan for consent for sharing from the start!
 
 - Document everything. You know who the worst person at replying to emails is about what the sampling frequency of channel X was. Nope not him, it's actually yourself from a year ago. Keep the documentation with the data!
 
