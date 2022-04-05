@@ -37,7 +37,7 @@ Sam is a PhD student in biology at University College London. They are learning 
 
 ### 2. Alia, a researcher with Git/GitHub experience and book topic expertise
 
-عليا عبارة عن دفتر بريدي في المغرب يقوم ببرامج في R. هم متحمسون بشأن البيانات المفتوحة و استخدام البيانات بشكل جيد، و لكن أيضا فهمهم يمكن أن يكون أكثر تعقيدا من ذلك. They attend data science meetups in the city but are interested in finding a community working towards improving how research is conducted. They have experience with GitHub and contributing to open projects.
+Alia is a postdoc in Morocco who programs in R. They are passionate about open data and using data for good, but also understand it can be more complex than that. They attend data science meetups in the city but are interested in finding a community working towards improving how research is conducted. They have experience with GitHub and contributing to open projects.
 
 1. **Discovery** - Alia first hears about _The Turing Way_ via Twitter ([#TuringWay](https://twitter.com/search?q=%23TuringWay&src=typed_query)).
 2. **First Contact** - They land on the project's README and look for the contributing guidelines to see where their skills can be applied.
