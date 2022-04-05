@@ -35,7 +35,7 @@ Researchers that make use of open-source software often make changes to them, su
 (rr-open-source-benefitsresearch)=
 ## How Open Source Software Benefits Research
 
-开放源码软件有几种有益于研究的方式：
+There are several ways in which open-source software benefits research:
 
 (rr-open-source-benefitsresearch-reusable)=
 ### Re-usable
@@ -44,26 +44,26 @@ Open source software projects allow researchers to take advantage of each others
 
 The {ref}`rr-code-reuse` provides a more in-depth list of different aspects to consider for making your code more reusable, whether this is a small script or a library.
 
-(rr-open-source-benefits research-check)=
+(rr-open-source-benefitsresearch-checkable)=
 ### Checkable
 
-开放源码项目使更广泛的研究界能够阅读和测试对方的代码。 这样就可以更快地找到漏洞，其他研究人员可以验证结果。
+Open-source projects allow the broader research community to read and test each others' code. This way, bugs can be found more quickly, and other researchers can validate results.
 
-(rr-open-source-benefits research-collaborative)=
+(rr-open-source-benefitsresearch-collaborative)=
 ### Collaborative
-公开工作还使任何数量的研究人员能够就单一研究人员/研究小组无法开发的项目进行合作。 示例包括 [Linux](https://www.linux.org/) 操作系统，Python 软件包，例如 [scipy](https://www.scipy.org/) 和 [numpy](http://www.numpy.org/), 和机器学习库 [TensorFlow](https://www.tensorflow.org/).
+Working openly also allows any number of researchers to collaborate on projects that could not possibly be developed by single researchers/research groups. Examples include [Linux](https://www.linux.org/) operating systems, Python packages such as [scipy](https://www.scipy.org/) and [numpy](http://www.numpy.org/), and the machine learning library [TensorFlow](https://www.tensorflow.org/).
 
 (rr-open-source-run)=
 ## How to Run Your Open Source Software Project
 
-您可以打开源代码，一个正在进行中的工作，或者多年被关闭的源代码。 在最基本的层面，您需要做的只是将您的代码放在网上的某个地方，这可能会持续很长时间。 你可以将你的代码分配为 DOI [{term}`def<Digital Object Identifier>`] (在关于 {ref}的章节中讨论过`rr-rdmsharing`). 这有助于确保如果有人使用您的工作或以您的工作为基础，您可以获得适当的积分。 这有助于确保如果有人使用您的工作或以您的工作为基础，您可以获得适当的积分。
+You can open source an idea, a work in progress, or after years of being closed source. At the most basic level, all you need to do is put your code online somewhere that is likely to last a long time. 你可以将你的代码分配为 DOI [{term}`def<Digital Object Identifier>`] (在关于 {ref}的章节中讨论过`rr-rdmsharing`). 这有助于确保如果有人使用您的工作或以您的工作为基础，您可以获得适当的积分。 This helps ensure that you get proper credit if people use or build upon your work.
 
-提供您的代码的热门地方是 GitHub [{term}`def<Github>`] (见关于 {ref}`rr-vcs` 的章节)。 您必须包含一个许可文件，说明任何人都有权限使用、复制和修改您的工作。 没有这一点，任何人都不能合法地使用你的工作，因此它不是开源的。 The {ref}`rr-licensing` chapter will help you to pick the best license for your project. 还有几个其他文件你应该包含在你的代码中，如下所述。 还有几个其他文件你应该包含在你的代码中，如下所述。
+A popular place to make your code available is GitHub [{term}`def<Github>`] (see the chapter on {ref}`rr-vcs`). You must include a license file stating that anyone has permission to use, copy, and modify your work. Without this, no one can legally use your work, and so it is not open source. The {ref}`rr-licensing` chapter will help you to pick the best license for your project. 还有几个其他文件你应该包含在你的代码中，如下所述。 There are also a few other files you should include with your code, as described below.
 
 (rr-open-source-run-readme)=
 ### Welcome Users by Adding Information to Your README
 
-您应该包含一个README [{term}`def<README>`] 文件，其中包含有关项目的有用信息。 如何使用它，以及如何为它作出贡献。 以下是README应该包含的主要内容列表：
+You should include a README [{term}`def<README>`] file where you include useful information about what the project is, how to use it, and how to contribute to it. Here is a list of the main things a README should include:
 
 - _The project name and what it is_: This will significantly help someone that comes across it to get an idea of the project. Include a few key points that describe the main features of the project and what features you are implementing. This helps to quickly compare other projects with yours and gives an idea of why the project exists in the first place.
 - _Instructions on how to install the project_: The installer might be a collaborator, someone that comes across and is interested in the project, or even you - if you get a new machine and need to re-install your project. Nevertheless, it is a total waste of your resources to figure out how to get started with the project from scratch. The instructions should also include any prerequisites that will be needed to run the project. The best thing you can do is to write up the installation instructions when you first do them yourself, and you will quickly save hours of work in the future.
@@ -72,30 +72,30 @@ The {ref}`rr-code-reuse` provides a more in-depth list of different aspects to c
 - _List of authors/contributors to the project, possibly with contact information_
 - _Acknowledgements_
 
-假定您打算让其他人在您的项目上进行合作(而不是仅仅提供您的代码并考虑完成)。 在这种情况下，你应该包括促成准则和最有可能的行为守则。
+Suppose you intend for other people to collaborate on your project (as opposed to just making your code available and considering it complete). In that case, you should include Contributing Guidelines and most likely, a Code of Conduct.
 
 (rr-open-source-run-guidelines)=
 ### Contributing Guidelines
 
-贡献准则 [{term}`def<Contributing Guidelines>`] 告诉您的听众如何参与您的项目。 例如，您可以提供以下信息：
+Contributing Guidelines [{term}`def<Contributing Guidelines>`] tell your audience how to participate in your project. For example, you might include information on:
 
 - How to file a bug report
 - How to suggest a new feature
 - Your roadmap or vision for the project
 - How contributors should (or should not) get in touch with you
 
-使用一种温暖、友好的语气，并就捐款提出具体建议(例如撰写文件)； 或建立一个网站可以大大有助于让新来者感到欢迎和兴奋地参与。 例如， [Active Admin](https://activeadmin.info/index.html) 将其 [贡献指南](https://github.com/activeadmin/activeadmin/blob/master/CONTRIBUTING.md) 开始：“先关闭，感谢您考虑为Active Admin作出贡献。 你喜欢的人会让主动管理成为一种很好的工具。”
+Using a warm, friendly tone and offering specific suggestions for contributions (such as writing documentation, or making a website) can go a long way in making newcomers feel welcomed and excited to participate. For example, [Active Admin](https://activeadmin.info/index.html) starts its [contributing guide](https://github.com/activeadmin/activeadmin/blob/master/CONTRIBUTING.md) with: "First off, thank you for considering contributing to Active Admin. It’s people like you that make Active Admin such a great tool."
 
-在您的项目的最早阶段，您的贡献准则文件可以很简单。 您应该始终解释如何报告错误或文件问题，以及任何技术要求(例如测试)来做出贡献。 随着时间的推移，您可以在这里或在您的阅读文件中添加其他常见问题。 写下这个信息意味着更少的人会反复问你相同的问题。 从您的README链接到您的贡献准则文件也是一个好主意，所以更多的人看到它。
+In the earliest stages of your project, your Contributing Guidelines file can be simple. You should always explain how to report bugs or file issues, and any technical requirements (like tests) to make a contribution. Over time, you might add other frequently asked questions here or in your readme file. Writing down this information means fewer people will ask you the same questions over and over again. It is also a good idea to link to your contributing guidelines file from your README, so more people see it.
 
 (rr-open-source-run-conduct)=
 ### Code of Conduct
 
-行为代码 [{term}`def<Code of Conduct>`] 有助于为您的项目参与者设置行为基本规则。 如果你正在为社区或公司发起一个开放源码项目，这将特别有价值。 《行为守则》授权您促进健康和建设性的社区行为，这将减少您作为维护者的压力。 它传达了您期望参与者的行为方式，并描述了这些期望适用于哪些人。 如果发生违法行为，应如何处理。
+A Code of Conduct [{term}`def<Code of Conduct>`] helps set ground rules for behaviour for your project's participants. This is especially valuable if you are launching an open-source project for a community or company. A Code of Conduct empowers you to facilitate healthy, constructive community behaviour, which will reduce your stress as a maintainer. It communicates how you expect participants to behave and describes who these expectations apply to, when they apply, and what to do if a violation occurs.
 
-像开放源码许可证一样，也正在出现行为守则，所以您不必自己写字。 [贡献者盟约](https://contributor-covenant.org/) 是一个 drop-into 行为守则，由 [40 000多个开放源码项目](https://www.contributor-covenant.org/adopters) 使用。 无论你使用什么文本，你都应该准备在必要时执行你的《行为守则》。
+Much like open source licences, there are also emerging standards for codes of conduct, so you do not have to write your own. The [Contributor Covenant](https://contributor-covenant.org/) is a drop-in Code of Conduct that is used by [over 40,000 open source projects](https://www.contributor-covenant.org/adopters). No matter which text you use, you should be prepared to enforce your Code of Conduct when necessary.
 
-将文件保存在您项目的根目录中，所以它是容易查找的，并从您的README链接到它。
+Keep the file in your project's root directory, so it is easy to find, and link to it from your README.
 
 (rr-open-source-contribute)=
 ## How to Contribute to Other's Open Source Software Projects
@@ -103,9 +103,9 @@ The {ref}`rr-code-reuse` provides a more in-depth list of different aspects to c
 (rr-open-source-contribute-anatomy)=
 ### Anatomy of an Open Source Software Project
 
-每个开源社区都是不同的。 尽管如此，许多开放源码软件项目遵循类似的组织结构。 了解不同的社区角色和整个过程将有助于您迅速面向任何新项目。
+Every open source community is different. That said, many open source software projects follow a similar organizational structure. Understanding the different community roles and the overall process will help you get quickly oriented to any new project.
 
-一个典型的开放源码软件项目有以下类型的人员：
+A typical open source software project has the following types of people:
 
 - _Author_: The person/s or organization that created the project.
 - _Owner_: The person/s who has administrative ownership over the organization or repository (not always the same as the original author).
@@ -113,9 +113,9 @@ The {ref}`rr-code-reuse` provides a more in-depth list of different aspects to c
 - _Contributors_: Everyone who has contributed something back to the project.
 - _Community Members_: People who use the project. They might be active in conversations or express their opinion on the project's direction.
 
-大型项目还可设立小组委员会或工作组，重点处理不同的任务，例如工具的使用、试用、社区节制和活动的组织。 查看一个项目的“团队”网页或治理文件库中的网站来查找这种信息。
+Bigger projects may also have subcommittees or working groups focused on different tasks, such as tooling, triage, community moderation, and event organizing. Look on a project’s website for a “team” page, or in the repository for governance documentation, to find this information.
 
-在GitHub 上托管了许多开放源码项目(详情见关于版本控制的一章)，其设施包括：
+A great many open source projects are hosted on GitHub (see the chapter on version control for more detail), which has facilities such as:
 
 - _Issue tracker_: Where people discuss issues related to the project.
 - _Pull requests_: Where people discuss and review changes that are in progress.
@@ -125,7 +125,7 @@ The {ref}`rr-code-reuse` provides a more in-depth list of different aspects to c
 (rr-open-source-contribute-changes)=
 ### Contribute Your Changes
 
-说你已经添加了一个功能或修复了一个错误，想要将此工作贡献给主项目。
+Say you have added a feature or fixed a bug and want to contribute this work to the main project.
 
 1. _Read the documentation_: The main project may have contributing guidelines or information in a README instructing prospective contributors on how to supply their changes.
 2. _Make sure your conventions match the style and structure of the main project_: For example, if all the variables in a project are named in some particular way yours should be too. Consistent conventions make it much easier for someone who has not seen your piece of the project before to understand it rather than having to figure out your particular set of conventions *and* what the code is doing. The project's conventions may be outlined in its documentation, or may just be evident from inspection of the code itself.
@@ -138,17 +138,17 @@ The {ref}`rr-code-reuse` provides a more in-depth list of different aspects to c
 (rr-open-source-contribute-looking)=
 ### Looking for Projects to Contribute to and How to Contribute to Them
 
-你不需要忽略你的第一个贡献将是什么，或者它将是如何看待的。 相反，首先考虑你已经使用或想要使用的项目。 你将积极贡献的项目是你发现自己回来的项目。 在这些项目中，每当你发现某种东西可能更好或不同时，你都会根据自己的本能行事。 您可以扫描一个README 并找到一个断开的链接或轮胎。 或者，您可能是一个新的用户，注意到某些东西已经损坏，或者找到一个你认为应该在文档中的问题。 不要忽略它，不要继续动动动，也不要让别人修理它，看看你是否可以通过跳进来帮忙。 这就是开放源码。
+You do not need to overthink what exactly your first contribution will be, or how it will look. Instead, start by thinking about the projects you already use or want to use. The projects you will actively contribute to are the ones you find yourself coming back to. Within those projects, whenever you catch yourself thinking that something could be better or different, act on your instinct. You might scan a README and find a broken link or a typo. Alternatively, you could be a new user and notice something is broken, or find an issue that you think should be in the documentation. Instead of ignoring it and moving on, or asking someone else to fix it, see whether you can help out by pitching in. That is what open source is all about.
 
-您也可以使用下列资源之一来帮助您发现和贡献新项目：
+You can also use one of the following resources to help you discover and contribute to new projects:
 
 - [Open Source Friday](https://opensourcefriday.com/)
 - [First Timers Only](https://www.firsttimersonly.com/)
 - [CodeTriage](https://www.codetriage.com/)
 
-如果你不知道如何开始，有几种其他方法可以处理它。 例如找到一个开放的问题来处理或询问您是否可以帮助撰写一个新的功能。
+If you are not sure how to start, there are a few other ways you can go about it, such as finding an open issue to tackle or asking if you can help write a new feature.
 
-对开放源码贡献的一个常见误解是你需要贡献代码。 事实上，最受忽视或忽视的往往是项目的其他部分。 您将通过主动提供这些类型的贡献来完成这个项目。 您可以：
+A common misconception about contributing to open source is that you need to contribute code. In fact, it is often the other parts of a project that are most neglected or overlooked. You will do the project a huge favour by offering to pitch in with these types of contributions. You could:
 
 - Review code on other people's submissions.
 - Write and improve the project's documentation.
@@ -163,8 +163,8 @@ The {ref}`rr-code-reuse` provides a more in-depth list of different aspects to c
 (rr-open-source-closed)=
 ## Closed Software
 
-如果您正在与那些不使用开放源码模型软件的人合作怎么办？ 这种做法最初似乎是对迄今所讨论的所有原则的冒犯。 然而，通常有很好的理由说明为什么情况是如此（例如法律、商业或安全原因）。 常常仍有可能使用和作出贡献，但如何不同的细节。 “封闭式”软件中使用的做法通常是相同的。 和你可以在诱导方式中了解的概念和工具仍然适用。
+What if you are working with people that do not use the open source model for their software? This may initially seem an affront to all the principles discussed so far. However, there are usually very good reasons for why things are the way they are (for example legal, commercial, or security reasons). Often, it will still be possible to use and contribute, but the details of how might be different. The kinds of practices used in 'closed' software are generally the same, and the concepts and tools you can learn about in the Turing Way still apply.
 
-然而，有时可能没有很好的理由采取封闭源码办法。 不同的研究领域有不同的文化，这些文化与开放原则的谷物格格不入，并感到非常沮丧。 克服这一障碍可能是非常棘手的，因为文化可能需要数年或数十年才能改变。
+Sometimes, however, there might not be good reasons for the closed source approach. Different areas of research have different cultures which run against the grain of open principles and feel very frustrating. Tackling this barrier can be very tricky as cultures can take years or decades to change.
 
-使用封闭软件可以为您的研究提供机会和威胁。 在所有情况下，理解和尊重他人的观点提供了最大的成功机会。
+Working with closed software can offer both opportunities and threats to your research. In all cases, understanding and respecting other's perspectives offers the greatest chances of success.
