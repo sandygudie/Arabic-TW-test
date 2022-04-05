@@ -1,104 +1,104 @@
 (rr-vcs-git-merge)=
-# دمج الفروع في Git
+# Merging Branches in Git
 
 (rr-vcs-merge-command)=
-## `git دمج` الأمر
+## The `git merge` Command
 
-بمجرد الانتهاء من بعض الأعمال في الفرع وتكون على استعداد لدمجها في مشروعك الرئيسي (أو في أي فرع آخر)، يمكنك دمج الفرع الذي عملت عليه في الفرع الرئيسي أو أي فرع مستهدف آخر من اهتمامك. بإمكانك أيضاً أن تستخدم الدمج للجمع بين العمل الذي قام به أشخاص آخرون معك والعكس بالعكس.
+Once you have finished up some work on a branch and you are ready to integrate it to your main project (or any other branch), you can merge the branch that you worked on into the main branch or any other target branch of your interest. You can also use merging to combine work that other people have done with your own and vice versa.
 
-لدمج الفرع، الفرع ألف، في فرع آخر، الفرع باء، قم بالتبديل إلى الفرع ألف بواسطة:
+To merge a branch, branch_A, into another branch, branch_B, switch to branch_A via:
 ```
-فرع الدفع Git
+git checkout branch_A
 ```
-دمجها في الفرع باء بواسطة:
-
-```
-Git دمج فرع_B
-```
-
-الدمج لن يكون ممكنا إذا كانت هناك تغييرات في دليل العمل الخاص بك أو منطقة التجهيز التي يمكن كتابتها بواسطة الملفات التي تدمجها. إذا حدث ذلك، لا يوجد تضارب للدمج في الملفات الفردية. تحتاج إلى الالتزام أو حفظ الملفات التي تضعها ثم حاول مرة أخرى. رسائل الخطأ هي كما يلي:
+Merge it into branch_B by:
 
 ```
-خطأ: لم يتم تحديث الإدخال 'your_file_name'. لا يمكن الدمج. (تغييرات في دليل العمل)
+git merge branch_B
 ```
 
-أو
+Merging will not be possible if there are changes in either your working directory or staging area that could be written over by the files that you are merging in. If this happens, there are no merge conflicts in individual files. You need to commit or stash the files it lists and then try again. The error messages are as follows:
 
 ```
-خطأ: سيتم استبدال الإدخال 'your_file_name' عن طريق الدمج. لا يمكن الدمج. (التغييرات في منطقة التجهيز)
+error: Entry 'your_file_name' not update. Cannot merge. (Changes in working directory)
+```
+
+or
+
+```
+error: Entry 'your_file_name' would be overwritten by merge. Cannot merge. (Changes in staging area)
 ```
 
 (rr-vcs-merge-command-practice)=
-### الممارسات الجيدة
+### Good practice
 
-أولاً وقبل كل شيء، يجب أن يكون الفرع الرئيسي الخاص بك **ثابتاً دائمًا**. فقط دمج العمل الذي يتم الانتهاء منه واختباره (على سبيل المثال في فرع مختلف). إذا كان مشروعك تعاونياً، ثم من الجيد دمج التغييرات التي يجريها الآخرون في عملك الخاص بشكل متكرر أو مشاركة التغييرات الخاصة بك مع المتعاونين معك. وإذا لم تقم بذلك في كثير من الأحيان، فمن السهل جدا دمج التنازعات التي تنشأ (القسم التالي).
+First and foremost, your **main branch should always be stable**. Only merge work that is finished and tested (for example, on a different branch). If your project is collaborative, then it is a good idea to merge changes that others make into your own work frequently or share your changes with your collaborators. If you do not do it often, it is very easy to merge conflicts that arise (next section).
 
 (rr-vcs-merge-conflicts)=
-## دمج التناقضات
+## Merge Conflicts
 
-عندما يتم إدخال تغييرات على نفس الملف في فروع مختلفة، قد تكون تلك التغييرات غير متوافقة أحيانا. ويحدث هذا في الغالب الأعم في المشاريع التعاونية، ولكنه يحدث أيضا في المشاريع المنفردة. قل أن هناك مشروع يحتوي على ملف بهذا السطر من الكود:
-
-```
-print('مرحبا بالعالم')
-```
-
-لنفترض أن شخصا واحدا، في فرعه، يقرر أن "يربط" قليلا، ويغير السطر إلى:
+When changes are made to the same file on different branches, sometimes those changes may be incompatible. This most commonly occurs in collaborative projects, but it happens in solo projects too. Say there is a project that contains a file with this line of code:
 
 ```
-print('مرحبا بالعالم!!')
+print('hello world')
 ```
 
-بينما يقرر شخص آخر، في فرع آخر، تغييره إلى:
+Suppose one person, on their branch, decides to "pep it up" a bit and changes the line to:
 
 ```
-print('مرحبا بالعالم'
+print('hello world!!!')
 ```
 
-وهم يواصلون العمل في فروع كل منهم ويقررون الاندماج في نهاية المطاف. ثم تمر برامجيات مراقبة النسخ الخاصة بها وتجمع التغييرات في نسخة واحدة من الملف؛ *ولكن*، عندما يصل إلى بيان `مرحبا بالعالم` ، فإنه لا يعرف أي الإصدار لاستخدامه. وهذا تنازع في الدمج: فقد أجريت تغييرات غير متوافقة على نفس الملف.
+while someone else, on another branch, decides to change it to:
 
-وعندما ينشأ نزاع في عملية الدمج، سيتم التبليغ به أثناء عملية الدمج. داخل الملفات التي بها تضاربات، سيتم وضع علامة على التغييرات غير المتوافقة حتى تتمكن من إصلاحها:
+```
+print('Hello World')
+```
+
+They continue doing work on their respective branches and eventually decide to merge. Their version control software then goes through and combines their changes into a single version of the file; *but*, when it gets to the `hello world` statement, it does not know which version to use. This is a merge conflict: incompatible changes have been made to the same file.
+
+When a merge conflict arises, it will be flagged during the merge process. Within the files with conflicts, the incompatible changes will be marked so you can fix them:
 
 ```
 <<<<<<< HEAD
 print('hello world!!!')
 =======
 print('Hello World')
->>>>>>> الرئيسية
+>>>>>>> main
 ```
-`<<<<<<<`: يشير إلى بداية الخطوط التي كان لها تعارض في الدمج. المجموعة الأولى من الأسطر هي الأسطر من الملف الذي كنت تحاول دمج التغييرات فيه.
+`<<<<<<<`: Indicates the start of the lines that had a merge conflict. The first set of lines are the lines from the file that you were trying to merge the changes into.
 
-`=======`▪ يشير إلى نقطة التوقف المستخدمة للمقارنة. وهو يفصل التغييرات التي التزم بها المستخدم (أعلاه) عن التغييرات الناشئة عن الدمج (أدناه) للمقارنة البصرية.
+`=======`: Indicates the breakpoint used for comparison. It separates the changes the user has committed (above), from the changes coming from the merge (below), for visual comparison.
 
-`>>>>>>>`: يشير إلى نهاية الخطوط التي كان لها تعارض في الدمج.
+`>>>>>>>`: Indicates the end of the lines that had a merge conflict.
 
-تقوم بحل تعارض عن طريق تحرير الملف لدمج أجزاء الملف التي واجهت Git مشكلة في الدمج. وهذا قد يعني التخلي عن التغييرات الخاصة بك أو شخص آخر أو القيام بمزيج من الاثنين. سوف تحتاج أيضًا إلى حذف `<<<<<<<`، `======`، و `>>>>>>>` في الملف. في هذا المشروع، يمكن للمستخدمين أن يقرروا لصالح `مرحبا واحدا في العالم` على غيره. أو يجوز لهم أن يقرروا الاستعاضة عن النزاع بما يلي:
+You resolve a conflict by editing the file to manually merge the parts of the file that Git had trouble merging. This may mean discarding either your changes or someone else's or doing a mix of the two. You will also need to delete the `<<<<<<<`, `=======`, and `>>>>>>>` in the file. In this project, the users may decide in favour of one `hello world` over another, or they may decide to replace the conflict with:
 
 ```
-print('مرحبا بالعالم!!')
+print('Hello World!!!')
 ```
 
-بمجرد أن تقوم بإصلاح الصراعات، ارسل النسخة الجديدة. لقد حللتم الصراع الآن. إذا كنت أثناء العملية، تحتاج إلى تذكير بماهية الملفات المتضاربة، يمكنك استخدام `git status` للتعرف.
+Once you have fixed the conflicts, commit the new version. You have now resolved the conflict. If during the process, you need a reminder of which files the conflicts are in, you can use `git status` to find out.
 
-إذا وجدت أن هناك تضاربات سيئة بشكل خاص، وترغب في إجهاض الدمج الذي يمكنك استخدامه:
+If you find there are particularly nasty conflicts, and you want to abort the merge you can use:
 ```
-دمج git --إجهاض
+git merge --abort
 ```
 
 (rr-vcs-merge-conflicts-practice)=
-### الممارسات الجيدة
+### Good practice
 
-قبل أن تبدأ بمحاولة حل المنازعات، تأكد من فهمك الكامل للتغييرات وكيف أنها غير متوافقة لتجنب خطر جعل الأشياء أكثر تشابكا. يمكن أن يكون الدمج بين الصراعات تخويفا لحلها، خاصة إذا كنت تتكامل مع الفروع التي اختلفت العديد من الالتزامات قبل ولديك الآن العديد من التناقضات. ومع ذلك، تجدر الإشارة إلى أن إصداراتك السابقة آمنة وأنه يمكنك إصلاح هذه المشكلة دون التأثير على الإصدارات السابقة. هذا هو السبب في أنه من الممارسات الجيدة **دمج تغييرات الآخرين في عملك بشكل متكرر**.
+Before you start trying to resolve conflicts, make sure you fully understand the changes and how they are incompatible to avoid the risk of making things more tangled. Merge conflicts can be intimidating to resolve, especially if you are merging branches that diverged many commits ago and now have numerous incompatibilities. However, it is worth remembering that your previous versions are safe and that you can go about fixing this issue without affecting the past versions. This is why it is good practice to **merge other's changes into your work frequently**.
 
-وهناك أدوات متاحة للمساعدة في حل الصراعات المدمجة، بعضها مجاني؛ وبعضها غير مجاني؛ وبعضها غير مجاني. ابحث عن شخص يعمل من أجلك واطلع عليه. أدوات الدمج الشائعة الاستخدام تشمل [KDiff3](http://kdiff3.sourceforge.net/)، [ما بعد المقارنة](https://www.scootersoftware.com/)، [Meld](http://meldmerge.org/)، و [P4دمج](https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge). لتعيين أداة كما تفعل افتراضيًا:
-
-```
-git config --الدمج العالمي.tool name_of_the_tool
-```
-
-واطلقه مع:
+There are tools available to assist in resolving merge conflicts, some are free; some are not. Find and familiarise yourself with one that works for you. Commonly used merge tools include [KDiff3](http://kdiff3.sourceforge.net/), [Beyond Compare](https://www.scootersoftware.com/), [Meld](http://meldmerge.org/), and [P4Merge](https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge). To set a tool as your default do:
 
 ```
-دمج git
+git config --global merge.tool name_of_the_tool
 ```
 
-ومن الناحية الأساسية، فإن أفضل طريقة للتعامل مع الصراعات المدمجة هي، قدر الإمكان، محاولة تجنبها في المقام الأول. يمكنك تحسين احتمالاتك على هذا من خلال الحفاظ على نظافة الفروع والتركيز على مشكلة واحدة و تضمين أكبر عدد ممكن من الملفات. قبل الدمج، تأكد من معرفة ما هو في كلا الفرعين. إذا لم تكن الشخص الوحيد الذي عمل في الفروع، ومن ثم ابقى خطوط الاتصال مفتوحة، لذا فأنت جميعا على دراية بما يفعله الآخرون.
+and launch it with:
+
+```
+git mergetool
+```
+
+Fundamentally, the best way to deal with merge conflicts is, as far as it is possible, to try to avoid them in the first place. You can improve your odds on this by keeping branches clean and focused on a single issue and involving as few files as possible. Before merging, make sure you know what is in both branches. If you are not the only one that has worked on the branches, then keep the lines of communication open, so you are all aware of what the others are doing.
