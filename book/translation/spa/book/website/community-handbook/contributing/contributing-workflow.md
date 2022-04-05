@@ -17,7 +17,7 @@ If you want to contribute content for which there is no corresponding template, 
 (ch-contributing-workflow-location)=
 ## Place new files and folders in appropriate locations
 
-_El repositorio GitHub de la Vía Turística_sigue una estructura general de archivos donde las Guías son carpetas y capítulos son subcarpetas dentro de ellas. Similarly, case studies are located inside a `case-studies` sub-folder within the Guide folders. All folders are located inside the [`book/website`](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/website) directory.
+_The Turing Way_'s Github repository follows an overall file structure where Guides are folders and chapters are sub-folders within them. Similarly, case studies are located inside a `case-studies` sub-folder within the Guide folders. All folders are located inside the [`book/website`](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/website) directory.
 
 When writing new content, ensure that the new files and folders you create are placed appropriately to preserve _The Turing Way's_ file structure.
 
@@ -38,15 +38,13 @@ book\website
 |   |   |   vcs-git.md
 |   |   |   vcs-git-commit.md
 |   |   |   ...
-d
-| | | vcs-git-commit.md
-| | | ... | | | vcs-personal-stories.md
-mañana.md | mañvcs-checklist. d
-► | Cv-recursos. d
-mañana|
-| |
-| mañanotinew-chapter (nueva carpeta de capítulos)
-| | | ...
+|   |   |   vcs-personal-stories.md
+│   |   │   vcs-checklist.md
+│   |   │   vcs-resources.md
+│   |
+|   |
+|   └───new-chapter (new chapter folder)
+|   |   |   ...
 |    
 └───project-design <---- (folder for the Guide for Project Design)
     │   project-design.md
@@ -64,7 +62,7 @@ Please follow _The Turing Way's_ conventions for naming files. With proper file 
 (ch-contributing-workflow-guidelines)=
 ## Follow the style and consistency guidelines
 
-Mientras escribes tu capítulo, ten en mente _el estilo_ [del Vía Turnadora](https://the-turing-way.netlify.app/community-handbook/style.html) y [las recomendaciones](https://the-turing-way.netlify.app/community-handbook/consistency.html) de consistencia Esto asegura que su nuevo contenido sea accesible y se adapte al estilo, estructura y formato general del libro. This ensures that your new content is accessible, and fits the overall style, structure, and formatting of the book.
+As you write your chapter, keep _The Turing Way's_ [style](https://the-turing-way.netlify.app/community-handbook/style.html) and [consistency](https://the-turing-way.netlify.app/community-handbook/consistency.html) recommendations in mind. This ensures that your new content is accessible, and fits the overall style, structure, and formatting of the book.
 
 (ch-contributing-workflow-toc)=
 ## Add your new files to the book's table of contents
@@ -93,7 +91,7 @@ For example, because the [Statistical Methods Manuscript](https://the-turing-way
 (ch-contributing-workflow-referencing)=
 ## Reference external sources appropriately
 
-Asegúrate de que las fuentes externas están correctamente referenciadas e incluidas en el archivo bibtex centralizado de _The Turing Way_ según se recomienda en la guía de estilo
+Ensure external sources are properly referenced and included in _The Turing Way's_ centralised bibtex file as recommended in the [style guide](https://the-turing-way.netlify.app/community-handbook/style/style-citing.html)
 
 (ch-contributing-workflow-glossary)=
 ## Update the book-wide glossary
