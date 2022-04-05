@@ -1,21 +1,21 @@
 (ch-bookdash)=
-# _La Vía Turística_ Guiones de libros
+# _The Turing Way_ Book Dashes
 
-_The Turing Way_ [Book Dash eventos](https://the-turing-way.netlify.app/community-handbook/bookdash.html) son una versión menos intensa de [Book Sprints](https://en.wikipedia.org/wiki/Book_sprint), donde los participantes colaboran en _The Turing Way_ libro sincrónicamente para desarrollar nuevos capítulos y revisar/editar los ya existentes para hacerlos más accesibles, completa y actualizada. También contribuyen a mejorar el proyecto mejorando las formas en que trabajamos en la comunidad y liderando la realización de diferentes tareas o subproyectos.
+_The Turing Way_ [Book Dash events](https://the-turing-way.netlify.app/community-handbook/bookdash.html) are a less intense version of [Book Sprints](https://en.wikipedia.org/wiki/Book_sprint), where participants collaboratively work on _The Turing Way_ book synchronously to develop new chapters and review/edit existing ones to make them more accessible, comprehensive and up-to-date. They also contribute to enhancing the project by improving the ways we work in the community and take the lead on accomplishing different tasks or subprojects.
 
-En el pasado, hemos organizado eventos de 1-2 días de duración en persona o en formato híbrido, donde uno de los participantes coordinado con su equipo de forma remota. Sin embargo, para asegurar que los participantes internacionales tengan las mismas oportunidades de unirse y abordar los desafíos de organizar eventos en persona durante la COVID-19 pandemia, hemos comenzado a alojar Libros Dashes virtualmente. Estos guiones virtuales son de cinco días de duración, diseñados para la participación flexible de los miembros en diferentes zonas horarias. En vez de comprometer toda su jornada laboral, los participantes pueden elegir una o múltiples sesiones cortas de trabajo de 2,5 horas cada día según su disponibilidad. In the future, we will co-design hybrid events with "online-first" approach for the Book Dash attendees who will have the opportunity to organise small local meet-ups for collaboration and social events.
+In the past, we have organised 1-2 days long Book Dash events in person or in a hybrid format, where one of the participants coordinated with their team remotely. However, to ensure that international participants have an equal chance to join and address the challenges of hosting in-person events during the COVID-19 pandemic, we started hosting Book Dashes virtually. These virtual Book Dashes are five days long, designed for flexible participation by members in different time zones. En vez de comprometer toda su jornada laboral, los participantes pueden elegir una o múltiples sesiones cortas de trabajo de 2,5 horas cada día según su disponibilidad. In the future, we will co-design hybrid events with "online-first" approach for the Book Dash attendees who will have the opportunity to organise small local meet-ups for collaboration and social events.
 
 ```{figure} ../figures/first-pull-request.png
 ---
 height: 400px
 name: book-dash
-alt: Una persona ayudando a otra persona haciendo su primera pull request en GitHub
+alt: A person helping out another person making their first pull request on GitHub
 ---
-haciendo su primera pull request en GitHub.
-_The Turing Way_ proyecto de ilustración por Scriberia. Utilizado bajo una licencia CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+Making your first pull request on GitHub.
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-## Invitando a diversas contribuciones
+## Inviting Diverse Contributions
 
 Para los participantes que asisten a un libro en persona:
 - First time Book Dash attendees who have previously interacted with the project or community who send in their application describing where/how in the project and community they would like to contribute. See the {ref}`eligibility<ch-bookdash-eligibility>` section for details.
@@ -48,7 +48,7 @@ This does not mean that you must have contributed to the project before - it is 
 
 Si no has interactuado con nuestra comunidad antes, pero quieres participar en un Libro Dash, por favor únete a uno de nuestros eventos comunitarios como [sesiones de co-working](https://the-turing-way.netlify.app/community-handbook/coworking/coworking-weekly.html) o el [café de colaboración](https://the-turing-way.netlify.app/community-handbook/coworking/coworking-collabcafe.html#ch-coworking-collabcafe). De esta manera, conocerás nuestro proyecto y entenderás más sobre cómo puedes contribuir durante un Dash del Libro.
 
-## Apoyo en persona, hibrida y participación remota
+## Support In-Person, Hybrid and Remote Participation
 
 Se han organizado guiones de libros anteriores para la participación en persona en lugares ubicados en el Reino Unido (país de origen del proyecto), como eventos híbridos, o totalmente en línea.
 
@@ -61,7 +61,7 @@ Se han organizado guiones de libros anteriores para la participación en persona
 * El apoyo financiero está disponible para apoyar los requerimientos de accesibilidad remota de los participantes a través de guiones de libros híbridos y completamente remotos. Incluye (pero no limitado) acceso temporal a Internet de alta velocidad, subsidio para el cuidado de niños y transcripción en vivo durante el evento. Estos bursaries también están disponibles para alquilar o comprar pequeño hardware como auriculares o webcam para mejorar la experiencia general de los participantes.
 * También hay apoyo financiero para gastos de subsistencia como la compra de comidas o el tratamiento para los eventos sociales en línea durante el Dash del Libro.
 
-## Más recursos en el guión del libro
+## More Resources on Book Dash
 
 En este capítulo, discutimos la aplicación {ref}`<ch-bookdash-application>`, {ref}`preparación de eventos y selección de participantes<ch-bookdash-preparation>` y {ref}`preparación de eventos<ch-bookdash-events>` procesos.
 
