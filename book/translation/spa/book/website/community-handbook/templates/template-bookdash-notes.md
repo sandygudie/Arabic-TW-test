@@ -24,37 +24,23 @@ Each day we will hold 3 development sessions and an one themed discussion/networ
 
 Each development session will follow the Pomodoro technique that we also use for our coworking calls. We will use [browser-based shared (cuckoo) clock](https://cuckoo.team/tw-bookdash) to manage our time ([Coworking chapter in The Turing Way](https://the-turing-way.netlify.app/community-handbook/coworking/coworking-motivation.html))
 
-All time provided in London Time (UTC+1). Utilice este enlace para convertir en su zona horaria: tiempo de conversión: https://arewemeetingyet. om/london/AAA-MM-DD/hh:mm (actualizar DD: fecha, hh:mm: horas:minutos)
+All time provided in London Time (UTC+1). Please use this link to convert in your time zone: convert time: https://arewemeetingyet.com/london/YYYY-MM-DD/hh:mm (update DD: date, hh:mm: hours:minutes)
 
-**Usa las sesiones de Pomodoro para pausas cómodas según sea necesario**
+**Use the Pomodoro sessions for comfort breaks as needed**
 
 [TOC]
 
-## Introducción al evento
+## Introduction to the event
 
-- Introducción al día :books:del libro de Turing Way
-- Recursos de GitHub y gestión de tus contribuciones
-- Una sala de introducción para nuevos miembros y personas que necesitan refrescar en GitHub
-- Siéntete libre de proponer salas de ruptura si ya has identificado tus grupos (tópico, idioma, discussions)
-- Por favor, utilice este HackMD tan extensamente como sea necesario
+- Intro to Turing Way book dash day :books:
+- GitHub resources and managing your contributions
+- An onboarding breakout room for new members and people who need refresher in GitHub
+- Feel free to propose breakout rooms if you have already identified your groups (topic, language, discussions)
+- Please use this HackMD as extensively as needed
 
-## Grupos para salas de descanso basados en los temas de interés:
+## Groupings for breakout rooms based on the topics of interest:
 
-> ¡Siéntase libre de moverse entre las salas de salida! 
-
-**Sala 1 (Reproducibilidad):** (añadir nombre)
-**Sala 2 (Etóticos):** (añadir nombre)
-**Sala 3 (Comunicación):** (añadir nombre)
-**Sala 4 (Diseño de proyecto):** (añadir nombre)
-**Sala 5 (Infraestructura):** (añadir nombre)
-**Sala 6 (Sala Individual)**
-
-:one: Día 1: Mes DD YAA
----
-
-### :wave: Regístrate
-
-*Por favor, añade tu nombre a esta lista, pero recuerde que este es un documento público, así que use un seudónimo si lo prefiere, o simplemente siéntase libre de dejar su nombre. 
+> Feel free to move between the breakout rooms! 
 
 **Room 1 (Reproducibility):** (add name)
 **Room 2 (Ethics):** (add name)
@@ -93,11 +79,7 @@ All time provided in London Time (UTC+1). Utilice este enlace para convertir en 
 
 You can use your SMART goals to guide your discussions <-- provide link to the onboarding call's notes
 
-*List what you are working on below! :sparkles: :space_invader: :rocket: :star2:
-
-Puedes usar tus objetivos SMART para guiar tus discusiones <-- proporciona un enlace a las notas de la llamada de incorporación
-
-*¡Lista en lo que estás trabajando a continuación! Include your GitHub username, one sentence description and links to relevant issues and pull requests.*
+*List what you are working on below! Include your GitHub username, one sentence description and links to relevant issues and pull requests.*
 
 ### :dart: Your goals for the book dash <--- used for only day-1
 
