@@ -12,7 +12,7 @@
 ```{figure} ../figures/evolution-open-research.jpg
 ---
 name: evolution-open-research
-alt: This image shows a researcher evolving their research practices to move towards the era of open research. 图像始于渴望参与开放科学的人，慢慢地采取几个步骤。 对分享他们的工作感到舒服，最后开始与他人合作。
+alt: This image shows a researcher evolving their research practices to move towards the era of open research. The image starts with the person looking anxious about engaging with open science, slowly they take a few steps, feel comfortable about sharing their work, and finally start to collaborate with others.
 ---
 _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
@@ -20,7 +20,7 @@ _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licen
 (rr-open-summary)=
 ## Summary
 
-Open research aims to transform research by making it more reproducible, transparent, reusable, collaborative, accountable, and accessible to society. It pushes for change in the way that research is carried out and disseminated by digital tools. 一个开放式研究的定义， [是经济合作与发展组织(经合组织)提供的](https://www.fct.pt/dsi/docs/Making_Open_Science_a_Reality.pdf "Making Open Science a Reality, OECD Science, Technology and Industry Policy Papers No. 25")， 这是一种做法，即“由政府资助的研究成果的主要产出——出版物和研究数据——以数字格式向公众开放，无限制或限制最少。” 为了在研究中实现这种公开性，研究过程的每一个要素应： To achieve this openness in research, each element of the research process should:
+Open research aims to transform research by making it more reproducible, transparent, reusable, collaborative, accountable, and accessible to society. It pushes for change in the way that research is carried out and disseminated by digital tools. One definition of open research, [as given by the Organisation for Economic Co-operation and Development (OECD)](https://www.fct.pt/dsi/docs/Making_Open_Science_a_Reality.pdf "Making Open Science a Reality, OECD Science, Technology and Industry Policy Papers No. 25"), is the practice of making "the primary outputs of publicly funded research results – publications and the research data – publicly accessible in a digital format with no or minimal restriction." To achieve this openness in research, each element of the research process should:
 
 - _Be publicly available_: It is difficult to use and benefit from knowledge hidden behind barriers such as passwords and paywalls.
 - _Be reusable_: Research outputs need to be licensed appropriately, so that prospective users know any limitations on re-use.
