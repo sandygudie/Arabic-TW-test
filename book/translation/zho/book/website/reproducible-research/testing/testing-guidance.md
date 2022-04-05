@@ -7,7 +7,7 @@ There are several {ref}`different kinds`<rr-testing-types-of-testing> of testing
 (rr-testing-write-tests)=
 ## Write Tests - Any Tests!
 
-Starting the process of writing tests can be overwhelming, especially if you have a large code base. Further to that, as mentioned, there are many kinds of tests, and implementing all of them can seem like an impossible mountain to climb. That is why the single most important piece of guidance in this chapter is as follows: **write some tests**. Testing one tiny thing in a code that's thousands of lines long is infinitely better than testing nothing in a code that's thousands of lines long. 您可能无法做所有事情，但是做 *个很有价值。 * 是很有价值的。
+Starting the process of writing tests can be overwhelming, especially if you have a large code base. Further to that, as mentioned, there are many kinds of tests, and implementing all of them can seem like an impossible mountain to climb. That is why the single most important piece of guidance in this chapter is as follows: **write some tests**. Testing one tiny thing in a code that's thousands of lines long is infinitely better than testing nothing in a code that's thousands of lines long. You may not be able to do everything, but doing *something* is valuable.
 
 Make improvements where you can, and do your best to include tests with new code you write even if it's not feasible to write tests for all the code that's already written.
 
@@ -21,7 +21,7 @@ Consider setting up continuous integration (discussed in the continuous integrat
 
 ## Consider how long it takes your tests to run
 
-Some tests, like {ref}`rr-testing-unittest` only test a small piece of code and so typically are very fast. However other kinds of tests, such as {ref}`rr-testing-systemtest` which test the entire code from end to end, may take a long time to run depending on the code. 因此，在每次几分工作之后运行整个测试套装都可能是阻碍性的。 However other kinds of tests, such as {ref}`rr-testing-systemtest` which test the entire code from end to end, may take a long time to run depending on the code. As such it can be obstructive to run the entire test suite after each little bit of work. In that case it is better to run lighter weight tests such as unit tests frequently, and longer tests only once per day overnight. It is also good to scale the number of each kind of tests you have in relation to how long they take to run. You should have a lot of unit tests (or other types of tests that are fast) but much fewer tests which take a long time to run.
+Some tests, like {ref}`rr-testing-unittest` only test a small piece of code and so typically are very fast. However other kinds of tests, such as {ref}`rr-testing-systemtest` which test the entire code from end to end, may take a long time to run depending on the code. As such it can be obstructive to run the entire test suite after each little bit of work. In that case it is better to run lighter weight tests such as unit tests frequently, and longer tests only once per day overnight. It is also good to scale the number of each kind of tests you have in relation to how long they take to run. You should have a lot of unit tests (or other types of tests that are fast) but much fewer tests which take a long time to run.
 
 ## Document the tests and how to run them
 
@@ -65,7 +65,7 @@ While modern C++ and C are still mostly compatible, they're not completely and u
 - Fortran unit-tests:
   - funit
   - pfunit (works with MPI)
-- 朱利亚
+- julia
   - Test.jl (stdlib)
   - ReTest.jl
 
@@ -77,7 +77,7 @@ As discussed any tests are an improvement over no tests. Nevertheless it is good
 
 Most programming languages have tools either built into them, or that can be imported, or as part of testing frameworks, which automatically measure code coverage. There's a nice little [bot](https://codecov.io/) for measuring code coverage available too.
 
-**弹着：覆盖面好的幻想。 ** 在某些情况下，相同的代码可以而且可能应该以多种方式测试。 For example, coverage can quickly increase on code that applies "sanity check" tests to its output (see also {ref}<rr-testing-challenges-difficult-quatify>), but this doesn't preclude the risk that the code is producing the broadly right answer for the wrong reasons. In general, the best tests are those that isolate the smaller rather than larger chunks of coherent code, and so pick out individual steps of logic. Try to be guided by thinking about the possible things that might happen to a particular chunk of code in the execution of the whole, and test these individual cases. Often, this will result in the same code being tested multiple times - this is a good thing!
+**Pitfall: The illusion of good coverage.** In some instances, the same code can and probably should be tested in multiple ways. For example, coverage can quickly increase on code that applies "sanity check" tests to its output (see also {ref}<rr-testing-challenges-difficult-quatify>), but this doesn't preclude the risk that the code is producing the broadly right answer for the wrong reasons. In general, the best tests are those that isolate the smaller rather than larger chunks of coherent code, and so pick out individual steps of logic. Try to be guided by thinking about the possible things that might happen to a particular chunk of code in the execution of the whole, and test these individual cases. Often, this will result in the same code being tested multiple times - this is a good thing!
 
 ## Use test doubles/stubs/mocking where appropriate
 
