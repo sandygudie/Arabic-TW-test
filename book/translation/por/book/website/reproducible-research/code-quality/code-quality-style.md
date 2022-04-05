@@ -1,11 +1,11 @@
 (estilo rr-coder)=
 # Estilo e Formatação de Código
 
-Um estilo de codificação é um conjunto de convenções sobre como formatar código. Por exemplo, como se chama as suas variáveis? Você usa espaços ou guias para recuo? Onde você coloca os comentários? Usar consistentemente o mesmo estilo em todo o seu código facilita a leitura. Código que é fácil de ler é mais fácil de entender por você e por possíveis colaboradores. Por conseguinte, aderir a um estilo de codificação reduz o risco de erros e torna mais fácil trabalhar em conjunto em software. [Por que a codificação de estilos é importante](http://coding.smashingmagazine.com/2012/10/25/why-coding-style-matters/) é um artigo legal sobre por que os estilos de codificação importam e como eles aumentam a qualidade do software.
+A coding style is a set of conventions on how to format code. For instance, what do you call your variables? Do you use spaces or tabs for indentation? Where do you put comments? Consistently using the same style throughout your code makes it easier to read. Code that is easy to read is easier to understand by you as well as by potential collaborators. Therefore, adhering to a coding style reduces the risk of mistakes and makes it easier to work together on software. [Why Coding Style Matters](http://coding.smashingmagazine.com/2012/10/25/why-coding-style-matters/) is a nice article on why coding styles matter and how they increase software quality.
 
 For example, [PEP8](https://www.python.org/dev/peps/pep-0008/) is the most widely used Python coding style and [ECMAScript 6](http://es6-features.org/) aka [ES6](http://es6-features.org/) is the scripting-language specification standardized by ECMA International for programming in Javascript.
 
-Para guias de estilo comumente usados para vários idiomas de programação, consulte os [Guias de Idiomas](https://guide.esciencecenter.nl/best_practices/language_guides/languages_overview.html). O Google também tem um guia de estilo [](https://code.google.com/p/google-styleguide/) para vários idiomas que são usados em projetos de código aberto originários do Google.
+For commonly used style guides for various programming languages see the [Language Guides](https://guide.esciencecenter.nl/best_practices/language_guides/languages_overview.html). Google also has a [style guide](https://code.google.com/p/google-styleguide/) for many languages that are used in open source projects originating out of Google.
 
 (rr-code-style-and-formatting)=
 ## Formatação automática
