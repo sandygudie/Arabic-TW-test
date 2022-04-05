@@ -1,39 +1,39 @@
-(xr-checklist)=
+(rr-open-checklist)=
 # Checklist
 
-(rr-lista de verificação-dados)=
-## Dados Abertos
+(rr-open-checklist-data)=
+## Open Data
 
 
-- Certifique-se de que seus dados estejam em um formato simples, padrão ou formatos que sejam automáticos e legíveis para humanos.
-- Verifique, reforme ou crie metadados para descrever claramente o que são os dados, como foram coletados e quaisquer pontos fortes/pontos fracos associados a alguém que os encontre.
-- Identifique um repositório ou repositórios relevantes, facilmente detectáveis para hospedar seus dados e carregá-lo lá.
-- Atribuir aos seus dados um identificador persistente como um DOI.
+- Ensure your data is in a simple, standard format or formats which is machine and human-readable.
+- Check, reformat or create metadata to clearly describe what the data is, how it was collected, and any associated strengths/weaknesses to someone that finds it.
+- Identify a relevant, easily discoverable repository or repositories to host your data, and upload it there.
+- Assign your data a persistent identifier such as a DOI.
 
 (rr-open-checklist-software)=
-## Software de código aberto
+## Open Source Software
 
-- Coloque o seu código em um repositório acessível livremente.
-- Inclua uma licença que conceda a outras pessoas o direito de usar, copiar e modificar seu trabalho. Você pode usar o capítulo {ref}`rr-licensing` para ajudá-lo a escolher a licença mais apropriada para o seu projeto.
-- Inclua um arquivo README contendo informações úteis sobre um projeto, como o que é, como usar/instalar e como executar qualquer teste.
-- Se você quiser que outros colaborem no projeto inclua diretrizes de contribuição.
+- Put your code in a freely accessible repository.
+- Include a licence granting others the right to use, copy and modify your work. You can use the {ref}`rr-licensing` chapter to help you pick the most appropriate licence for your project.
+- Include a README file containing useful information about a project such as what it is, how to use/install it and how to run any tests.
+- If you want others to collaborate on the project include contribution guidelines.
 
 (rr-open-checklist-hardware)=
-## Abrir Hardware
+## Open Hardware
 
-- Use hardware aberto quando prático.
-- Faça a documentação detalhada e projetos para qualquer hardware que você desenvolva abertamente disponível.
-- Inclua uma licença que conceda a outras pessoas o direito de usar, copiar e modificar seu trabalho. Você pode usar [este](https://choosealicense.com/) site para ajudá-lo a escolher a licença mais apropriada para o seu projeto.
-- Inclua um arquivo README contendo informações úteis sobre um projeto (por exemplo, o que é e os materiais usados).
+- Use open hardware where practical.
+- Make detailed documentation and designs for any hardware you develop openly available.
+- Include a licence granting others the right to use, copy and modify your work. You can use [this](https://choosealicense.com/) website to help you pick the most appropriate licence for your project.
+- Include a README file containing useful information about a project (for example, what it is and the materials used).
 
-(checklist-open-open-access)=
-## Abrir o Acesso
+(rr-open-checklist-access)=
+## Open Access
 
-- Publique sua pesquisa em um diário de acesso aberto.
-- Armazene uma cópia ou pré-impressão do seu trabalho em um repositório público de livre acesso.
+- Publish your research in an open-access journal.
+- Store a copy or preprint of your work in a freely accessible public repository.
 
 (rr-open-checklist-notebooks)=
-## Abrir cadernos
+## Open Notebooks
 
-- Mantenha anotações em um caderno do Laboratório Eletrônico.
-- Torne seus cadernos acessíveis on-line publicamente.
+- Keep notes in an Electronic Lab Notebook.
+- Make your notebooks publicly accessible online.
