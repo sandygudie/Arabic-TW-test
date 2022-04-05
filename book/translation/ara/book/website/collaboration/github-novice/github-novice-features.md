@@ -14,7 +14,7 @@ Now that your repo is set up, you are ready to add more stuff to it and use some
 
 * Click on the "add file" button and then create a new file.
 * This will give you a blank file to edit.
-* عند تسمية الملف، اكتب أولاً باسم المجلد (موجود أو جديد) ثم خط أمامه، يليها اسم الملف: "مجلد-name/file-name.
+* When naming the file, first type in the name of the folder (existing or new) and then a forward slash, followed by the name of the file: "folder-name/file-name.ext".
 * Edit the content of the file.
 * Save your changes using the "commit" button. Remember to type a {ref}`commit message<rr-vcs-commit-messages>` to help you remember what changes you made.
 
