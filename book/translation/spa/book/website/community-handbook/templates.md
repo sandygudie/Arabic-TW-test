@@ -1,39 +1,39 @@
 (ch-templates)=
-# Colección de plantillas
+# Template Collection
 
-***Esta página sirve como un índice para todos los recursos de plantilla proporcionados dentro del Manual de la Comunidad de la Vía Turística***
+***This page serves as an index for all the template resources provided within The Turing Way Community Handbook***
 
 ```{figure} ../figures/templates.png
 ---
 height: 200px
 name: templates
-alt: Una ilustración de una persona, probablemente un arquitecto haciendo un croquis
+alt: An illustration of a persona, probably an architect making a sketch
 ---
-Illustración de un proceso de croquis. [Imagen libre de muchos Pixels](https://www.manypixels.co/gallery/)
+Illustration of a process of sketching. [Royalty free image from Many Pixels](https://www.manypixels.co/gallery/)
 ```
 
 (ch-template-bookdash)=
-## Reservar Eventos Dash
+## Book Dash Events
 
-Hay cuatro plantillas MarkDown para las notas compartidas (HackMD), feedback y GitHub issue para organizar y ejecutar _Los eventos de guión de libros de la Vía Turística_. Estas plantillas pueden ser reutilizadas y adaptadas para diferentes eventos dentro y fuera de la comunidad _The Turing Way_.
+There are four MarkDown templates for the shared notes (HackMD), feedback and GitHub issue for organising and running _The Turing Way_ book dash events. These templates can be reused and adapted for different events within and outside _The Turing Way_ community.
 
-- {ref}`Plantilla HackMD para la página del índice<ch-template-bookdash-index>`
-- {ref}`Plantilla HackMD para llamadas previas a eventos<ch-template-bookdash-precall>`
-- {ref}`Plantilla de problema para la planificación de guiones de libros<ch-template-bookdash-github>`
-- {ref}`Plantilla HackMD para notas compartidas<ch-template-bookdash-notes>`
-- {ref}`Plantilla HackMD para Comentarios post-evento<ch-template-bookdash-feedback>`
+- {ref}`HackMD Template for the Index Page<ch-template-bookdash-index>`
+- {ref}`HackMD Template for Pre-Event Calls<ch-template-bookdash-precall>`
+- {ref}`Issue Template for Planning Book Dashes<ch-template-bookdash-github>`
+- {ref}`HackMD Template for Shared Notes<ch-template-bookdash-notes>`
+- {ref}`HackMD Template for Post-Event Feedback<ch-template-bookdash-feedback>`
 
 (ch-template-coworking)=
-## Llamadas de colaboración
+## Coworking calls
 
-Hay dos plantillas MarkDown para las notas compartidas (HackMD) durante las llamadas de trabajo alojadas para la comunidad _The Turing Way_:
+There are two MarkDown templates for the shared notes (HackMD) during the coworking calls hosted for _The Turing Way_ community:
 
-- {ref}`Plantilla para los Cafés de Colaboración<ch-template-coworking-collabcafe>`
-- {ref}`Plantilla para las Llamadas de Cotrabajo Diarias<ch-template-coworking-weekly>`
+- {ref}`Template for the Collaboration Cafes<ch-template-coworking-collabcafe>`
+- {ref}`Template for the Daily Coworking Calls<ch-template-coworking-weekly>`
 
 (ch-template-newsletter)=
-## Borrador de boletín
+## Newsletter Draft
 
-Como se discutió en el capítulo {ref}`Boletín<ch-newsletters>` , usamos una plantilla descrita como una guía para recoger noticias para los boletines de _The Turing Way_ y cambia constantemente según las actividades de la comunidad.
+As discussed in the {ref}`Newsletter<ch-newsletters>` chapter, we use a template outlined as a guide for collecting news items for the _The Turing Way_ newsletters and it constantly changes as per the activities in the community.
 
-- {ref}`Plantilla para Borradores de Boletines<ch-template-newsletter-draft>`
+- {ref}`Template for Drafting Newsletters<ch-template-newsletter-draft>`
