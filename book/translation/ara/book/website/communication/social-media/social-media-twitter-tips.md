@@ -69,7 +69,7 @@ These terms are adapted from {cite:ps}`Cheplygina2020twitter`.
 * Direct message (DM) — A private message that is only visible to the sender and the specifically identified recipients. By default, regular Twitter messages are visible to the whole world, including (via search engines such as Google) people who do not have a Twitter account.
 * Hashtag (#) — Used to make it easier to find tweets with a common theme by defining keywords, for example, tweets about an event (#BookDash) or career talks (#PhDChat).
 * Hat Tip or Heard Through (HT) - Used for thanking the source of a tweet.
-* ) - يستخدم لإظهار إعجابك بالتغريدة - طريقة سريعة لتقديم ردود الفعل دون الرد.
+* Like (♡) - Used for showing you like a tweet—a fast way to give feedback without replying.
 * There is no similar function for disliking a tweet.
 * List — A list of Twitter users that can be public (followed by anyone) or private.
 * Lists can be used to follow accounts that tweet about specific topics, but which you don’t want to follow yourself.
