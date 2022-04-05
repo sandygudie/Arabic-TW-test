@@ -147,12 +147,12 @@ Identificador Digital de Objeto
 
 ```{glossary}
 
-Epistemologia
- Teoria de conhecimento e lida com como conhecimento é coletado e de quais fontes. Em termos de pesquisa, a sua visão do mundo e do conhecimento influencia fortemente a sua interpretação dos dados, pelo que a sua posição filosófica deve ser clarificada desde o início. (Fonte: [Postagem de Nicole Brown](https://www.nicole-brown.co. k/epistemology/)) Práticas Equitáveis, Diversas e Inclusivas
+Epistemology
+ Theory of knowledge and deals with how knowledge is gathered and from which sources. In research terms your view of the world and of knowledge strongly influences your interpretation of data and therefore your philosophical standpoint should be made clear from the beginning. (Fonte: [Postagem de Nicole Brown](https://www.nicole-brown.co. k/epistemology/)) Práticas Equitáveis, Diversas e Inclusivas
   A bolsa de estudos está aberta a qualquer um sem barreiras baseadas em fatores como raça, antecedentes, sexo e orientação sexual.
 
-Teste de ponta a ponta
-  Um teste que executa o programa do início ao fim e verifica se a saída está correta.
+End to End Test
+  A test that runs the program from beginning to end and verifies that the output is correct.
 
 ```
 ---
@@ -361,26 +361,26 @@ Persona tela
 Telefone do Destino
   Um alvo da telefonia é um alvo que não corresponde a um arquivo no sistema de arquivos. Um alvo é marcado como falso, tornando-o um pré-requisito para o objectivo .PHONY.
 
-Posicionalidade
- Diferenças na posição social e poder moldam identidades e acesso na sociedade. Ao reconhecer a posicionalidade, também reconhecemos localizações sociais interseccionantes e dinâmicas de poder complexas (veja também: interseccionalidade).
+Positionality
+ Differences in social position and power shape identities and access in society. In acknowledging positionality, we also acknowledge intersecting social locations and complex power dynamics (also see: Intersectionality).
 
-Usuários de alimentação
-  Estas são pessoas que já estão familiarizadas o suficiente com uma plataforma para saber as dificuldades e truques que tornam sua experiência mais eficiente.
+Power Users
+  These are people who are already familiar enough with a platform to know the gotchas and tricks that make their experience more efficient.
 
-Preimpressão
-   Uma pré-impressão é uma versão de um documento científico acadêmico ou científico que precede a revisão formal por pares e a publicação em um periódico acadêmico ou científico revisado. Geralmente é enviado pelos autores para um servidor público onde está disponível abertamente.
+Preprint
+   A preprint is a version of a scholarly or scientific paper that precedes formal peer review and publication in a peer-reviewed scholarly or scientific journal. It is usually uploaded by the authors to a public server where it is available openly.
 
-Pré-requisito
-  O(s) pré-requisito de uma regra corresponde a arquivos ou outros alvos no Makefile que devem estar atualizados antes da regra ser executada.
+Prerequisite
+  The prerequisite(s) of a rule correspond to files or other targets in the Makefile that must be up to date before the rule is run.
 
-Projeto
-  Uma fase inicial do projeto onde os principais recursos, estrutura, critérios para o sucesso e principais resultados estão planejados.
+Project Design
+  An early phase of the project where a project's key features, structure, criteria for success, and major deliverables are all planned out.
 
 Pull Request
-  Proposta alterações em um repositório remoto. Os colaboradores sem acesso de escrita podem enviar uma pull request ao administrador com as alterações que fizeram no repositório. O administrador pode então aprovar e mesclar ou rejeitar as alterações no repositório principal. Para projetos de código aberto, pull requests podem ser enviadas por qualquer pessoa que tenha bifurcado um projeto.
+  Proposed changes to a remote repository. Collaborators without write access can send a pull request to the administrator with the changes they’ve made to the repo. The administrator can then approve and merge or reject the changes to the main repository. For open source projects pull requests can be sent by anyone that has forked a project.
 
 Push
-  Enviando alterações a um repositório remoto. O repositório remoto é atualizado com as alterações feitas e agora espelha o repositório local.
+  Sending changes to a remote repo. The remote repository is updated with the changes pushed and now mirrors the local repo.
 ```
 ---
 ## PQ
@@ -458,29 +458,29 @@ Teste de Execução
 Arquivamento Próprio
   Colocando uma publicação ou outras saídas de pesquisa em um repositório adequado, institucional ou com base em assuntos, Na sequência das possíveis restrições impostas pelo editor, por exemplo, um período de embargo, ou limites à versão autorizada a ser depositada nesses arquivos.
 
-Atividade de reflexão pessoal
-  sobre nossos pensamentos, sentimentos, emoções, ação de comportamento e as razões que podem estar por trás deles. Dedicando tempo para reflexão podemos aumentar a nossa compreensão de quem somos, quais são os nossos valores e por que pensamos, sentimos e agimos da forma que fazemos. Quando refletimos e ficamos mais conscientes do que nos conduz, podemos fazer mudanças que nos ajudam a desenvolver nossa própria vida com mais facilidade, ou melhorar nossa vida, incluindo a maneira como realizamos pesquisa (fonte: [Berkeley Wellbeing](https://www. erkeleywellbeing.com/what-is-self-refletion.html)).
+Self Reflection
+  Activity of thinking about our thoughts, feelings, emotions, behaviour action, and the reasons that may lie behind them. Taking the time for reflection we can grow our understanding of who we are, what our values are, and why we think, feel, and act the way we do. When we self-reflect and become more conscious of what drives us, we can more easily make changes that help us more easily develop our self or improve our life including the way we conduct research (source: [Berkeley Wellbeing](https://www.berkeleywellbeing.com/what-is-self-reflection.html)).
 
 SHA
-  Sequência única de números de letras usadas para identificar cada commit ou nó no repositório.
+  Unique string of numbers of letters used to identify every commit or node in the repository.
 
-Autoria compartilhada
- Alguns diários permitem o uso de nomes de grupos, mas muitos exigem que os contribuidores sejam listados e/ou o grupo de escrita seja nomeado. Isto é o mesmo que a autoria de grupo.
+Shared authorship
+ Some journals permit the use of group names but many require contributors to be listed and/or the writing group to be named. This is the same as group authorship.
 
-Teste de Fumaça
-  Verificações iniciais muito rápidas que garantem os requisitos básicos necessários para executar a retenção do projeto. Se estas falhas, não vale a pena avançar para níveis adicionais de testes até que sejam fixados.
+Smoke Testing
+  Very brief initial checks that ensure the basic requirements required to run the project hold. If these fail there is no point proceeding to additional levels of testing until they are fixed.
 
-Staging
-  Staging as alterações que serão incluídas no próximo commit git.
+Staged
+  Staging the changes that will be included in the next git commit.
 
-Código Stochastic
-  que, embora correto, nem sempre produz o mesmo resultado. Por exemplo, um programa que produz dez números aleatórios irá gerar um resultado diferente a cada vez, apesar de estar correto.
+Stochastic Code
+  Code which, while correct, does not always output the same result. For example a program that outputs ten random numbers will generate a different result each time, despite being correct.
 
-Sintaxe
-  A estrutura das afirmações em uma linguagem de computador.
+Syntax
+  The structure of statements in a computer language.
 
-Sistema de Teste
-  Um nível do processo de teste de software onde um sistema integrado e completo é testado. O objectivo deste teste é avaliar se o sistema no seu conjunto dá as saídas corretas para determinadas entradas. Veja também o teste final.
+System Testing
+  A level of the software testing process where a complete, integrated system is tested. The purpose of this test is to evaluate whether the system as a whole gives the correct outputs for given inputs. Also see end to end test.
 
 ```
 ---
