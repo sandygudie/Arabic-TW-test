@@ -10,8 +10,8 @@ You should cite research objects directly in the paper in places where it is rel
 - Access information (a URL or DOI)
 
 A citation style is a specific arrangement, order and formatting of information necessary for a citation. For instance, the MLA style was developed by Modern Language Association (originally used in the humanities) and the APA style was developed by American Psychological Association (originally used in psychology and the social sciences).
-- MLA citation style uses the following format: `Author. "Title of the Source." MLA 引文风格使用以下格式： <code>作者 “源名称” 容器的标题，其他贡献者，版本，Number，出版，出版日期，位置。 `
-- APA 引文风格使用以下格式： `作者 (年份)。 (Year). Title of data set (Version number). [Retrieved from] ***OR*** [DOI]`
+- MLA citation style uses the following format: `Author. "Title of the Source." Title of the Container, Other contributors, Version, Number, Publisher, Publication date, Location.`
+- APA citation style uses the following format: `Author. (Year). Title of data set (Version number). [Retrieved from] ***OR*** [DOI]`
 
 See [Scribbr Citation Styles Guide](https://www.scribbr.com/citing-sources/citation-styles/). See also [FORCE11 resource](https://www.force11.org/node/4771).
 
@@ -24,17 +24,17 @@ You can find examples of these statements in the publishers' (research data) aut
 
 ### Data availability statement examples:
 
-**使用 Digital Object Identifier (DOI)：** “支持本研究结果的数据可公开查阅http://doi [repositorial name] 。
+**Using the Digital Object Identifier (DOI):** “The data that support the findings of this study are openly available in [repository name] at http://doi.org/[doi].”
 
 **If no DOI is issued:**
-- “支持本研究结果的数据可公开查阅 \[URL\]\[仓库名称\]，参考号[参考号]。”
+- “The data that support the findings of this study are openly available in [repository name] at [URL], reference number [reference number].”
 
 **When there is an embargo period you can reserve your DOI and still include a reference to the dataset in your paper:**
-- “支持调查结果的数据将在公布之日起\[6个月]禁运之后，以[URL/DOI\]\[存放地名\]提供，以便使研究结果商业化。”
+- “The data that support the findings will be available in [repository name] at [URL / DOI] following a [6 month] embargo from the date of publication to allow for the commercialisation of research findings.”
 
 **When data cannot be made available:**
-- “Restrictions apply to the data that support the findings of this study. ] 如果数据含有可能损害研究参与者隐私的信息，则可通过联系[姓名和联系细节]并经[第三方姓名]许可，根据合理请求提供数据。”
--  “The data that support the findings of this study are available upon request. 访问条件和程序可以在 [EASY](https://easy.dans.knaw.nl/ui/home) 等限制访问仓库的 URL。 ]”
+- “Restrictions apply to the data that support the findings of this study. [Explain nature of restrictions, for example, if the data contains information that could compromise the privacy of research participants] Data are available upon reasonable request by contacting [name and contact details] and with permission of [third party name].”
+-  “The data that support the findings of this study are available upon request. Access conditions and procedures can be found at [URL to restricted access repository such as [EASY](https://easy.dans.knaw.nl/ui/home).]”
 
 **More Data Availability Statement examples:**
 
@@ -43,13 +43,13 @@ You can find more examples on the [Manchester's Data Access Statements page](htt
 (cm-citable-cite-software)=
 ## Citing Software
 
-软件引文与上文所述的数据引文有许多相同的要素。 在 [软件引证原则](https://www.force11.org/software-citation-principles) 中详细描述. 在使用其他软件时，必须适当引述并赋予它适当的属性。
+A software citation has a lot of the same elements as a data citation, described above, and are described in more detail in the [Software Citation Principles](https://www.force11.org/software-citation-principles). When using others software, it is vital to cite and attribute it properly.
 
 To make your code citable, you can use the integration between [Zenodo](https://zenodo.org/) and GitHub.
 
 - Create a file to tell people how to cite your software. Use this [handy guide](https://citation-file-format.github.io/cff-initializer-javascript/) to format the file.
 - Link your GitHub account with a Zenodo account. This guide explains [how](https://guides.github.com/activities/citable-code/).
-- 您可以通过添加 `zenodo 来告诉Zenodo 你想要包含什么信息或元数据。 son` 文件，在这里介绍
+- You can tell Zenodo what information or metadata you want to include with your software by adding a `zenodo.json` file, described [here](https://guide.esciencecenter.nl/citable_software/making_software_citable.html).
 - On Zenodo, flip the switch to the 'on' position for the GitHub repository you want to release.
 - On GitHub, click the *Create a new release* button. Zenodo should automatically be notified and should make a snapshot copy of the current state of your repository (just one branch, without any history), and should also assign a persistent identifier (DOI) to that snapshot.
 - Use the DOI in any citations of your software and tell any collaborators and users to do the same!
