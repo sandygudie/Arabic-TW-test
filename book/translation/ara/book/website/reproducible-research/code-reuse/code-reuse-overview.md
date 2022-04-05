@@ -1,12 +1,12 @@
-(r-code-reuse-recommendations)=
-# نظرة عامة على إعادة استخدام الكود
+(rr-code-reuse-recommendations)=
+# Overview of Code Reuse
 
-This section contains a checklist of recommendations for making your software more reusable. يحتوي قسم {ref}`rr-code reuse-detail` على شرح أكثر تعمقا لكل توصية من هذه التوصيات. You can follow the recommendations that are more suitable for your type of software and skip the ones which are not relevant in your case.
+This section contains a checklist of recommendations for making your software more reusable. The {ref}`rr-code-reuse-details` section contains a more in-depth explanation of each of these recommendations. You can follow the recommendations that are more suitable for your type of software and skip the ones which are not relevant in your case.
 
-## التوصيات المتكررة
+## Repeatable Recommendations
 
-1. تأكد من أنك تستطيع العثور عليه (في الفضاء؛ معني: أن تكون قادراً على تحديد موقع المستودع/المشروع)
-1. تأكد من أنك تستطيع العثور عليها (في الوقت؛ المعنى: أن تكون قادراً على تحديد موقع إصدار معين)
+1. Make sure you can find it (in space; meaning: being able locate the repository/project)
+1. Make sure you can find it (in time; meaning: being able to locate a particular version)
 1. Make sure you can execute the same sequence of operations
 1. Make sure your environment and sequence of operations is robust and no human is needed to replicate what was done
 1. License your code
@@ -16,21 +16,21 @@ This section contains a checklist of recommendations for making your software mo
 1. Include necessary data
 1. Write useful documentation*
 
-## توصيات قابلة لإعادة التشغيل
+## Re-runnable Recommendations
 
-1. إزالة الأجزاء المقوى (مثل المسارات التي كانت موجودة فقط على القرص الصلب حيث تم تشغيل خط الأنابيب) وجعل الوحدة النمطية
+1. Remove hardcoded bits (such as paths that only existed on the hard drive where the pipeline was run) and make the code modular
 1. Test that the modules you made can take different types of input data or parameters
 1. Turn the modules into a package/toolbox
 1. Write useful documentation*
 
-## التوصيات المحمولة
+## Portable Recommendations
 1. Make sure you can recreate the environment where it lived
 1. Write useful documentation*
 
-## التوصيات الموسعة
+## Extendable Recommendations
 1. Write useful documentation*
 
-## توصيات قابلة للتعديل
+## Modifiable Recommendations
 1. Make sure your code is readable by humans
 1. Make sure comments are present
 1. Write useful documentation*
