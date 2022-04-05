@@ -7,21 +7,21 @@ Firstly there are positive tests and negative tests. Positive tests check that s
 
 In addition to these two kinds of tests, there are also different levels of tests which test different aspects of a project. These levels are outlined below and both positive and negative tests can be present at any of these levels. A thorough test suite will contain tests at all of these levels (though some levels will need very few).
 
-(rr-testing-type of testing)=
+(rr-testing-types-of-testing)=
 ## Types of Testing
 
-[烟雾测试](#Smoke_testing): 非常简短的初步检查，确保运行项目挂卡所需的基本要求。 If these fail there is no point proceeding to additional levels of testing until they are fixed.
+[Smoke testing](#Smoke_testing): Very brief initial checks that ensures the basic requirements required to run the project hold. If these fail there is no point proceeding to additional levels of testing until they are fixed.
 
 [单元测试](#Unit_tests): 在软件测试过程中测试软件的单个单元. 其目的是验证软件的每个单位是否按设计行事。 The purpose is to validate that each unit of the software performs as designed.
 
-[集成测试](#Integration_testing): 一定水平的软件测试，将单个单元合并并作为一个组进行测试。 The purpose of this level of testing is to expose faults in the interaction between integrated units.
+[Integration testing](#Integration_testing): A level of software testing where individual units are combined and tested as a group. The purpose of this level of testing is to expose faults in the interaction between integrated units.
 
-[系统测试](#System_tests): 一个完整、综合的系统测试过程中的一个等级。 The purpose of this test is to evaluate whether the system as a whole gives the correct outputs for given inputs.
+[System testing](#System_tests):    A level of the software testing process where a complete, integrated system is tested. The purpose of this test is to evaluate whether the system as a whole gives the correct outputs for given inputs.
 
-[接受测试](#Acceptance_testing): 软件测试过程的一个级别，测试一个系统是否可以接受。 The purpose of this test is to evaluate the system's compliance with the project requirements and assess whether it is acceptable for the purpose.
+[Acceptance testing](#Acceptance_testing):  A level of the software testing process where a system is tested for acceptability. The purpose of this test is to evaluate the system's compliance with the project requirements and assess whether it is acceptable for the purpose.
 
-下面是一个类比：在生产球点钢的过程中，钢帽，身体。 尾料、墨盒和球点是分开生产和单独测试的。 一旦两个或两个以上的单位准备就绪，就组装起来，并进行整合测试。 例如，用于检查物体顶部是否适合的测试。 当完整的笔集成时，将进行系统测试以检查它是否可以像任何笔一样写入。 接受测试可以是一张支票，以确保笔是客户订购的颜色。
+Here's an analogy: during the process of manufacturing a ballpoint pen, the cap, the body, the tail, the ink cartridge and the ballpoint are produced separately and unit tested separately. When two or more units are ready, they are assembled and integration testing is performed, for example a test to check the cap fits on the body. When the complete pen is integrated, system testing is performed to check it can be used to write like any pen should. Acceptance testing could be a check to ensure the pen is the colour the customer ordered.
 
-还有另一种称为回归试验的试验。 回归测试是一种可在四个主要层次中的任何一个层次进行的测试，并对修改守则之前和之后的测试结果进行比较。 如果它们不同则给出一个错误。
+There is also another kind of testing called regression testing. Regression testing is a type of testing that can be performed at any of the four main levels and compares the results of tests before and after a change is made to the code, and gives an error if these are different.
 
-下一节将更详细地讨论这些不同类型的检验。
+These different types of tests are discussed in more detail in the next subchapters.
