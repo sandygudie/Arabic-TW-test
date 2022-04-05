@@ -1,9 +1,9 @@
 (ch-bookdash)=
-# _诱惑路径_ 预定破折号
+# _The Turing Way_ Book Dashes
 
-_诱惑路径_ [图书破折号事件](https://the-turing-way.netlify.app/community-handbook/bookdash.html) 的强度较低 [图书冲刺](https://en.wikipedia.org/wiki/Book_sprint), 与会者合作编写 _Ting Way_ 同步编写新章节并审查/编辑现有章节以便更容易获取。 它们还通过改进我们在社区的工作方式和带头完成不同的任务或次级项目，为加强该项目作出贡献。
+_诱惑路径_ [图书破折号事件](https://the-turing-way.netlify.app/community-handbook/bookdash.html) 的强度较低 [图书冲刺](https://en.wikipedia.org/wiki/Book_sprint), 与会者合作编写 _Ting Way_ 同步编写新章节并审查/编辑现有章节以便更容易获取。 They also contribute to enhancing the project by improving the ways we work in the community and take the lead on accomplishing different tasks or subprojects.
 
-过去，我们亲自或以混合方式组织了1-2天长的破折号活动。 其中一名学员与他们的小组远距离协调。 然而，确保国际参与者有平等的机会参加和应对在COVID-19大流行病期间亲自主办活动的挑战； 我们开始虚拟托管书破折号。 这些虚拟书破折号是五天的，可以让不同时区的成员灵活参与。 意味着与会者不必全天工作，而是可以根据是否有机会每天选择一个或多个2.5小时的短期共同工作会议。 In the future, we will co-design hybrid events with "online-first" approach for the Book Dash attendees who will have the opportunity to organise small local meet-ups for collaboration and social events.
+In the past, we have organised 1-2 days long Book Dash events in person or in a hybrid format, where one of the participants coordinated with their team remotely. However, to ensure that international participants have an equal chance to join and address the challenges of hosting in-person events during the COVID-19 pandemic, we started hosting Book Dashes virtually. These virtual Book Dashes are five days long, designed for flexible participation by members in different time zones. 意味着与会者不必全天工作，而是可以根据是否有机会每天选择一个或多个2.5小时的短期共同工作会议。 In the future, we will co-design hybrid events with "online-first" approach for the Book Dash attendees who will have the opportunity to organise small local meet-ups for collaboration and social events.
 
 ```{figure} ../figures/first-pull-request.png
 ---
@@ -13,10 +13,10 @@ alt: 一个人帮助另一个人在 GitHub
 上提出第一个拉取请求 -
 在GitHub 上提出你的第一个拉取请求
 Stereteria的绘画线路项目示例。
-Stereteria的绘画线路项目示例。 在 CC-BY 4.0 许可下使用。 DOI：[10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)。
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-## 邀请不同的贡献
+## Inviting Diverse Contributions
 
 对于亲自参加图书破折号的与会者：
 - First time Book Dash attendees who have previously interacted with the project or community who send in their application describing where/how in the project and community they would like to contribute. See the {ref}`eligibility<ch-bookdash-eligibility>` section for details.
@@ -49,7 +49,7 @@ Stereteria的绘画线路项目示例。 在 CC-BY 4.0 许可下使用。 DOI：
 
 如果你以前没有与我们的社区进行过互动，但想参加书报， 请加入我们的社区活动，如 [合作会议](https://the-turing-way.netlify.app/community-handbook/coworking/coworking-weekly.html) 或 [合作咖啡厅](https://the-turing-way.netlify.app/community-handbook/coworking/coworking-collabcafe.html#ch-coworking-collabcafe)。 这样，您将了解我们的项目，并了解更多关于您如何在书签期间做出贡献的信息。
 
-## 支持人事、混合和远程参与
+## Support In-Person, Hybrid and Remote Participation
 
 已经为亲自参加位于联合王国（项目的母国）的地点组织了前一本书的破折号， 作为混合事件或完全在线事件。
 
@@ -62,7 +62,7 @@ Stereteria的绘画线路项目示例。 在 CC-BY 4.0 许可下使用。 DOI：
 * 提供财政支助，以满足混合和完全远程图书大厅的参与者的远程无障碍需求。 它包括(但不限于)在活动期间临时使用高速互联网、儿童保育补助金和实时记录。 这些奖金也用于租金或购买诸如耳机或摄像头等小型硬件，以提高参与者的总体体验。
 * 此外，还为生活费用提供财政支助，如在图书大厅期间购买膳食或治疗在线社交活动。
 
-## 书籍破折号上的更多资源
+## More Resources on Book Dash
 
 在本章中，我们讨论了 {ref}`应用程序<ch-bookdash-application>`, {ref}`事件准备和参与者选择<ch-bookdash-preparation>` 和 {ref}`事件准备<ch-bookdash-events>` 进程。
 
