@@ -1,59 +1,59 @@
 (cm-aa-tips)=
-# Dicas para Obter Autoria Direita
+# Tips for Getting Authorship Right
 
 (cm-aa-tips-who)=
-## Estabelecer quem quer ser um autor
+## Establish who wants to be an author
 
-Vale a pena considerar que nem todas as pessoas que trabalham no mesmo projecto de investigação ou na mesma comunidade terão a mesma motivação quando se trata de autorização. Nem todos atribuem a mesma importância às taxas de citação académica, pelo que esta é uma questão que tem de ser analisada no início de um projecto.
+It is worth considering that not everyone on the same research project or in the same community will have the same motivation when it comes to authorship. Not everyone places the same importance on academic citation rates and therefore this is an issue that needs to be considered at the start of a project.
 
-**motivação forte** Haverá membros da equipe focados em um caminho acadêmico de carreira, e a autoria do papel sinistro é uma força motriz para a progressão na carreira. Darão grande importância à qualidade de autor e, provavelmente, terão também fortes opiniões sobre o modo como pretendem que a autoria seja atribuída e sobre os nomes dos autores de ordens.
+**Strong motivation** There will be team members that are focused on an academic career path and feel paper authorship is a driving force for career progression. They will put high importance on being an author and probably will also have strong opinions on how they want authorship to be attributed and what order authors names should take.
 
-**Motivação média** Outros membros da equipe, Provavelmente mais académicos estabelecidos que já dispõem de uma quantidade considerável de publicações e de empregos estáveis. pode estar menos preocupado com a ordem dos autores em seus documentos ou com a forma como as contribuições são atribuídas e monitoradas.
+**Medium motivation** Other team members, probably more established academics who already have a substantial amount of publications and in stable employment, may be less worried about the order of authors on their papers or how contributions are attributed and tracked.
 
-**Baixa motivação** Membros da equipe que não estão interessados em uma carreira puramente acadêmica, mas ainda são parte integrante da equipe e fizeram grandes contribuições para o projeto, por escrito. - (FR) Tal como os engenheiros da investigação, pode não estar minimamente interessado em ser autora.
+**Low motivation** Team members that are not interested in a purely academic career but still are an integral part of the team and have made substantial contributions to the project, such as research engineers, may not be interested in authorship at all.
 
 (cm-aa-tips-culture)=
-## Incentive uma cultura de autoria ética e equitativa
-Pode haver práticas não éticas que existem na sua disciplina, ou mesmo na sua Instituição, mas isso não significa que tenha de as seguir. Você pode implementar uma abordagem de autoria mais ética e equitativa em sua própria pesquisa.
+## Encourage a culture of ethical and equitable authorship
+There may be unethical practices that exist in your discipline, or even in your institution, but this does not mean that you have to follow them. You can implement a more ethical and equitable authorship approach in your own research.
 
-* Descubra sobre a política de autoria da sua própria instituição ou faça uma você mesmo.
-* Se você sabe qual diário você vai direcionar para suas publicações, então saiba sobre a política de autoria deles.
-* Ler sobre autoria ética, como no [comitê de ética de publicação (site REP)](https://publicationethics.org/).
+* Find out about your own institution's authorship policy or make one yourself.
+* If you know what journal you are going to target for your publications, then find out about their authorship policy.
+* Read about ethical authorship such as on the [Committee on Publication Ethics (COPE) website](https://publicationethics.org/).
 
 (cm-aa-tips-plan)=
-## Planejar uma estratégia de autoria cedo em um projeto
-Quanto mais cedo essa autoria for discutida, mais membros do projeto de sensibilização terão. Esperamos que isso conduza a menos conflito sobre autoria quando se trata da fase de escrita no papel do projeto.
+## Plan an authorship strategy early on in a project
+The earlier that authorship is discussed, the more awareness project members will have. This will hopefully lead to less conflict about authorship when it comes to the paper writing stage of the project.
 
-Não é uma boa prática esperar que terminem de escrever um documento para realizar estas discussões, o que poderá conduzir a muitos problemas.
+It is not good practice to wait until you have finished writing a paper to have these discussions and this could lead to a lot of problems.
 
-* Discutamos a questão da autoria no início do projecto, ou mesmo na fase de planeamento. Estas discussões têm de envolver toda a equipa.
-    * Isto tem de incluir:
-        * Os periódicos que você está escolhendo - isso significa que você pode descobrir sobre suas próprias políticas de autoria.
-        * Como a ordem dos autores será decidida ou você está seguindo um tipo de modelo de autoria desde o início.
-        * Como você irá acompanhar as contribuições - isso será feito para todas as contribuições ou para uma lista selecionada? Como você vai fazer isto? um checklist/todos os contribuidores? Quem será responsável pela manutenção da lista de contribuintes?
-        * Se a Política de Conduta/Orientação da Conduta será revista, quando isso for feito e como será feito.
+* Have a discussion about authorship at the outset of the project or even in the planning stage. These discussions need to involve the whole team.
+    * This needs to include:
+        * What journals you are targeting - this means you can find out about their own authorship policies.
+        * How the order of authors will be decided or are you following one type of authorship model/definition from the beginning.
+        * How you will track contributions - will this be done for all contributions or a selected list? How will you do this? a checklist/all contributors bot? Who will be in charge of maintaining the list of contributors?
+        * Whether the authorship policy/guidelines will be reviewed, when this will be done and how this will be done.
 
-* Produza documentação sobre as decisões tomadas nestas reuniões.
-    * Se possível, envie em vídeo as reuniões onde isso é discutido, produza notas de reunião e armazene-as no repositório do seu projeto.
-    * Isto tem de incluir uma declaração formal sobre a autoria, sobre o papel dos diferentes povos, quando for revista e sobre a forma como será revista.
+* Produce documentation on the decisions that have been made in these meetings.
+    * If possible, video the meetings where this is discussed, produce meeting notes and store them on your project repository.
+    * This needs to include a formal statement about authorship, different peoples roles, when it will be reviewed and how it will be reviewed.
 
-* Certifique-se de que todos os membros do projeto assinaram um contrato de autoria no início do projeto ou este acordo/voto foram registados nas notas de reunião.
-    * Alguém deve ser incumbido de supervisionar este processo e também de obter o acordo de qualquer novo membro que aderisse ao mesmo durante o projecto.
+* Make sure that every member of the project has signed an authorship agreement at the beginning of the project or this agreement/vote has been recorded in meeting notes.
+    * Someone should be assigned to oversee this and also to get this agreement from any new member that join during the project.
 
-* Registre um tempo para que a política seja revista, quem o fará e o que acontecerá nesta revisão.
+* Record a time for the policy to be reviewed, who will do it and what will happen in this review.
 
 (cm-aa-tips-onboarding)=
-## Tornar a política de autoria e o contrato parte da integração
-É provável que você tenha novos membros a participar do seu projeto em diferentes fases e é importante que você dê a conhecer a política de autoria deles durante a integração.
+## Make the authorship policy and agreement part of onboarding
+It is likely that you will have new members join your project at different stages and it is important that you make the authorship policy known to them during onboarding.
 
-* Certifique-se de que a integração durante o projeto inclua documentação explicando sua abordagem de autoria e um acordo assinado com a política de projeto.
-    * Pode ser uma escolha entre ser um autor com esta política ou deixar de o fazer em conjunto.
+* Make sure that onboarding during the project includes documentation explaining your authorship approach and a signed agreement to the project policy.
+    * This might be a choice of whether to be an author with this policy or to opt out of it all together.
 
 (cm-aa-tips-revisit)=
-## Revisitar a política de autoria antes de começar a escrever cada artigo
-Cada artigo de um projeto pode não ter a mesma autoria devido à natureza especializada de certos tipos de publicações e diferentes aspectos de um projeto.
+## Revisit the authorship policy before you start to write each article
+Each article from a project may not have the same authorship due to the specialist nature of certain types of publications and different aspects of a project.
 
-* Para tornar o crédito do projecto mais equitativo, vale a pena considerar quais publicações podem ser escritas para dar a oportunidade de diferentes membros da equipe serem o primeiro autor.  
-  Você também pode querer ter algumas publicações que dão autoria para toda a equipe de forma igual.
-    * Membros júniores da equipe ganharão mais vantagem dos primeiros documentos de autor do que mais membros sênior. Terá impacto na sua carreira e nas suas perspectivas de emprego.
-    * Partilhar o primeiro papel de autor irá também distribuir a carga de trabalho de forma mais justa em toda a sua equipa, já que o primeiro autor é responsável por uma grande parte do trabalho envolvido na escrita e administração do documento. 
+* To make credit for the project more equitable, it is worth considering what publications can be written to give chance for different team members to be first author.  
+  You may also want to have some publications that give authorship to the whole team equally.
+    * Junior members of the team will gain more advantage from first author papers than more senior members. It will have an impact on their career status and job prospects.
+    * Sharing out the first author role will also distribute the workload more fairly throughout your team as the first author is responsible for a large part of the work involved in writing and administering the paper. 
