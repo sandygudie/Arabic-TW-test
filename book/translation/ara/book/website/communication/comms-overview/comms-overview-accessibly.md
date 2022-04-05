@@ -14,7 +14,7 @@ The cost of academic books is also exclusionary. They often cost five times more
 * Conference and workshop fees can exclude some researchers. While you may not have control over conference access, you can share your conference presentations and posters on an open repository which will widen their accessibility. You may also consider recording your presentations and making them available online.
 * If you are organising an event, you can make an effort to reduce the costs or offer grants to certain individuals to ensure that your event is accessible.
 
-يمكنك محاولة جعل المخرجات الخاصة بك متاحة مجاناً عن طريق نشرها في مستودع على الإنترنت مثل [زينودو](https://zenodo.org/)، [الرقم](https://figshare.com/) أو [إطار العلوم المفتوحة](https://osf.io/) هذا سيسمح بالوصول إلى المحتوى الخاص بك من قبل جمهور أكبر وبالتالي سيكون له تأثير أكبر. This will allow your content to be accessed by a larger audience and consequently have a greater impact.
+You can try to make your outputs freely available by publishing them in an online repository such as [Zenodo](https://zenodo.org/), [Figshare](https://figshare.com/) or [Open Science Framework](https://osf.io/). This will allow your content to be accessed by a larger audience and consequently have a greater impact.
 
 ## Consider Disabilities
 
