@@ -12,7 +12,7 @@ Try reading the chapter on reproducible computational environments and then the 
 
 ## Materials used: General guidance and good practice for testing
 
-- [SSI 测试软件博客](https://www.software.ac.uk/resources/guides/testing-your-software?_ga=2.39233514.830272891.1552653652-1336468516.1531506806) **知识共享属名协议、非商业2.5许可。 **
+- [SSI blog on testing software](https://www.software.ac.uk/resources/guides/testing-your-software?_ga=2.39233514.830272891.1552653652-1336468516.1531506806) **Creative Commons Attribution Non-Commercial 2.5 License.**
 - [Turing testing course](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch03tests/03pytest.html) **Creative Commons share and remix**
 - [Mocking](https://www.vogella.com/tutorials/Mockito/article.html) **Attribution-NonCommercial-ShareAlike 3.0 Germany (CC BY-NC-SA 3.0 DE)**
 - [Testing with floating points](https://github.com/softwaresaved/automated_testing/blob/master/README.md) **Apache License 2.0**
@@ -23,25 +23,25 @@ Try reading the chapter on reproducible computational environments and then the 
 
 ## Materials used: Smoke testing
 
-- [Digitalocean](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **知识共享 Attributtion-NonCommercial-ShareAlis 4.0 International License。 **
+- [Digitalocean](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.**
 
 ## Materials used: Unit testing
 
-- [一个连续集成的介绍](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **知识共享署名-非商业性分享-类似的 4.0 国际许可协议。 **
+- [An introduction to continuous integration](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.**
 - [Software testing fundamentals: unit tests](http://softwaretestingfundamentals.com/unit-testing/) **Copyleft - 2019 STF**
 
 ## Materials used: Integration testing
 
-- [一个连续集成的介绍](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **知识共享署名-非商业性分享-类似的 4.0 国际许可协议。 **
+- [An introduction to continuous integration](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.**
 - [Software testing fundamentals: integration testing](http://softwaretestingfundamentals.com/integration-testing/) **Copyleft - 2019 STF**
 
 ## Materials used: System testing
 
 - [Software testing fundamentals: system testing](http://softwaretestingfundamentals.com/system-testing/) **Copyleft - 2019 STF**
-- [一个连续集成的介绍](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **知识共享署名-非商业性分享-类似的 4.0 国际许可协议。 **
+- [An introduction to continuous integration](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.**
 
 ## Materials used: Acceptance testing
-- [一个连续集成的介绍](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **知识共享署名-非商业性分享-类似的 4.0 国际许可协议。 **
+- [An introduction to continuous integration](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.**
 
 ## Materials used: Regression testing
 
@@ -56,8 +56,8 @@ Try reading the chapter on reproducible computational environments and then the 
 
 ## Materials used: Test driven development
 
-- [测试您的软件](https://software.ac.uk/resources/guides/testing-your-software) **知识共享署名-非商业性3.0 许可。 **
-- [为什么bother](http://soundsoftware.ac.uk/unit-testing-why-bother/) **知识共享署名-非商业性3.0 许可。 **
+- [Testing your software](https://software.ac.uk/resources/guides/testing-your-software) **Creative Commons Attribution-NonCommercial 3.0 License.**
+- [Why bother](http://soundsoftware.ac.uk/unit-testing-why-bother/) **Creative Commons Attribution-NonCommercial 3.0 License.**
 
 ## Materials used: glossary
 
