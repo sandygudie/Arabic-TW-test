@@ -33,14 +33,14 @@ Pathway to maintaining consistency. _The Turing Way_ project illustration by Scr
 
 #### Formatting
 
-| REQUIREMENT | CHECK                                                                                                                                      |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| Hard        | Use Markdown for creating your content (see this [WordPress cheatsheet](https://wordpress.com/support/markdown-quick-reference/)).         |
-| Hard        | Use the headers in sequential order. For example, starting the top level with h1 tag `#`, second-level header with h2 tag `##` and so on.  |
-| Hard        | Add labels to chapters, subchapters and images to enable cross-referencing as described in the {ref}`style guide<ch-style-crossref>` |
-| Hard        | استخدم `MyST` لتنسيق الصورة على النحو الموصوف في دليل نمط {ref}`<ch-style-figures>`                                                  |
-| Soft        | Ensure that the names of chapters/subchapters are short and map exactly to how they are titled in the `_toc.yml`                           |
-| Soft        | رأس المال الكلمات الأولى والأخيرة و 'المهمة' من كل عنوان؛ على سبيل المثال 'الثلج الأبيض والقوارب السبعة'.                                  |
+| REQUIREMENT | CHECK                                                                                                                                                                            |
+| ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Hard        | Use Markdown for creating your content (see this [WordPress cheatsheet](https://wordpress.com/support/markdown-quick-reference/)).                                               |
+| Hard        | Use the headers in sequential order. For example, starting the top level with h1 tag `#`, second-level header with h2 tag `##` and so on.                                        |
+| Hard        | Add labels to chapters, subchapters and images to enable cross-referencing as described in the {ref}`style guide<ch-style-crossref>`                                       |
+| Hard        | Use `MyST` for image formatting as described in the {ref}`style guide<ch-style-figures>` | Use public domain images that are less than 1MB in size and cite appropriately. |
+| Soft        | Ensure that the names of chapters/subchapters are short and map exactly to how they are titled in the `_toc.yml`                                                                 |
+| Soft        | Ensure proper title-casing for headers | Capitalise the first, last and 'important' words of every title; for example, 'Snow White and the Seven Dwarves'.                       |
 
 
 #### Structure
