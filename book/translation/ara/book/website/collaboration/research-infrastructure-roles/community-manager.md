@@ -1,84 +1,84 @@
-(مديرو الهياكل الأساسية - المجتمع)=
-# مدراء المجتمع: نظرة عامة
+(cl-infrastructure-communitymanagers)=
+# Community Managers: Overview
 
-ويشكل مديرو المجتمعات المحلية دورا متناميا في الأوساط العلمية. وهي تنظم وتدعم وتعهد وتنمو وتطور وتقيّم وتتعاون مع الأشخاص المشاركين في الأوساط البحثية والعلمية.
+Community Managers are a growing role within scientific communities. They organise, support, maintain, grow, develop, evaluate and collaborate with people involved in research and scientific communities.
 
-(الهياكل الأساسية - المجتمع - مديرو المهام) =
-## ماذا يفعل مدراء المجتمع؟
+(cl-infrastructure-communitymanagers-tasks)=
+## What do Community Managers do?
 
-ويتمثل الهدف الرئيسي لمديري المجتمعات المحلية في تنظيم مجموعات من العلماء والباحثين و/أو المرضى والجمهور حول مواضيع وأهداف البحث المشتركة. وكثيراً ما توظفهم الجمعيات المهنية والجامعات ومؤسسات البحوث والبرامج الكبيرة والمنظمات التي لا تستهدف الربح.
+Community Managers main objective is to organise groups of scientists, researchers and/or patients and the public around shared research topics and objectives. They are often employed by professional societies, universities, research institutions, larger programmes, and non-profit organisations.
 
-وكل دور مختلف ولكن الأنشطة الرئيسية عادة ما تركز على التعاطف والإشراف والتعاون مع المجتمع المحلي:
-* تحفيز الصلات مع جميع أصحاب المصلحة
-* المجتمعات المحلية الراعية (دمج المجتمعات معا)
-* الربط بين الأشخاص المناسبين (على أساس الخبرة والاهتمامات)
-* عضو المجتمع النشط
-* نقل المواضيع التقنية إلى الزملاء غير الفنيين والعكس بالعكس
-* دال - تشجيع المعايير الرفيعة لعلوم البيانات المثلى والأخلاقية والشاملة والتعاونية
-* إنشاء شبكات فرعية داخل المجتمع المحلي حول الخبرات المشتركة، مثل شبكة الباحثين الجدد
+Each role is varied but the main activities are typically focused around compassion, stewardship, and collaboration with the community:
+* Catalyse connections with all stakeholders
+* Foster communities (integrating communities together)
+* Linking the right people up together (based on expertise and interests)
+* Active community member
+* Communicating technical topics to non-technical colleagues and vice versa
+* Encouraging high standards of reproducible, ethical, inclusive and collaborative data science
+* Creating sub-networks within the community around shared experiences, for example, such as an early career researcher network
 
-ويمكن أن تشمل المهام اليومية لمدير المجتمع المحلي ما يلي:
-* تنظيم واستضافة مكالمات المجتمع
-* اعضاء اونبواردج الجدد
-* حضور اجتماعات قادة المجتمعات المحلية
-* كتابة تقارير المجتمع المحلي أو الرسائل الإخبارية
-* صيانة وتحديث موقع المجتمع المحلي
-* النشر على وسائل التواصل الاجتماعي
-* التخطيط للمبادرات المجتمعية المقبلة
-* تشغيل الدورات التدريبية & ورش العمل
-* قراءة المنشورات ذات الصلة بالمجتمع
-* إدارة قوائم العضوية
-* توجيه مساهمات المجتمع
-* إنشاء مواد إعلامية لمساعدة الميدان الأوسع أو الجمهور على معرفة المجتمع المحلي ومشاريعه
-* وأكثر من ذلك بكثير!
+The day-to-day tasks of a community manager could include:
+* Organising and hosting community calls
+* Onboarding new members
+* Attending community leadership meetings
+* Writing community reports or newsletters
+* Maintaining and updating the community site
+* Posting on social media
+* Planning for upcoming community initiatives
+* Running training courses & workshops
+* Reading publications relevant to the community
+* Managing membership lists
+* Mentoring community contributions
+* Creating informational materials to help the wider field or public learn about the community and their projects
+* And a lot more!
 
-(المهارات في مجال الهياكل الأساسية - المجتمع المحلي) =
-## ما هي المؤهلات أو المهارات التي تحتاج إليها كمدير مجتمع؟
-وسيكون لدى الغالبية العظمى من مديري المجتمعات المحلية خلفية علمية يمكن أن تشمل شهادات عليا (درجة الماجستير أو درجة الدكتوراه). ويتمتع العديد من مديري المجتمعات المحلية أيضا بخلفية تتعلق بالمجال أو الانضباط المحددين الذين يديرون مجتمعا ما في المجتمع، ولكنهم ليسوا جميعهم كذلك. وإذا كان المجتمع مرتبطا بالبرمجيات أو البرمجة، فمن الشائع أيضا أن يكون لدى مديري المجتمع المحلي بعض المهارات البرمجية.
+(cl-infrastructure-communitymanagers-skills)=
+## What qualifications or skills do you need to be a Community Manager?
+The vast majority of community managers will have a scientific background that may include advanced degrees (at a masters or doctoral level). Many community managers also have a background related to the specific field or discipline they manage a community in, but not all of them do. If the community is associated with software or programming, it is common for community managers to also have some coding skills.
 
-ولا توجد مؤهلات أو دورات تدريبية معترف بها مهنيا لكي تصبح مديرة للمجتمع العلمي، ولكن المنظمات تقدم التدريب والموارد للمساعدة في دعم التطوير المهني للأشخاص الذين يضطلعون بهذه الأدوار. وغالبا ما تكون القيم والنهج التي يضفيها مديرو المجتمعات المحلية على أدوارهم هي أهم المؤهلات للنجاح كمدير مجتمعي.
+There is no professionally recognised qualification or training course to become a scientific community manager, but organisations do offer training and resources to help support the professional development of people in these roles. The values and approaches community managers bring to their roles are often the most important qualifications for success as a community manager.
 
 ```{admonition} CSCCE Skills Wheel - Five Core Competancies 
-وأصدر مركز التعاون العلمي والمشاركة المجتمعية عجلة مهارات تبين التنوع الكبير في المهارات المختلفة التي قد يحتاج إليها مدير المجتمع العلمي لأداء أدواره. 
-والمنافسات الأساسية الخمسة التي تسلط الأضواء عليها على مديري المجتمعات المحلية هي: المهارات التقنية، والاتصال، وإدارة البرامج، ووضع البرامج، والعلاقات بين الأشخاص. 
-وسيحتاج كل دور يقوم به مدير مجتمعي إلى توازن مختلف بين هذه المهارات حسب احتياجات المجتمع المحلي وأهدافه ومناهجه. 
+The Center for Scientific Collaboration and Community Engagement have released a skills wheel showing the wide variety of different skills a scientific community manager might need to perform their roles. 
+The five core competancies they highlight for community managers are: technical skills, communication, programme management, programme development and interpersonal. 
+Every community manager role will need a different balance of these skills depending on the needs, aims and platforms of the community. 
 
-يمكنك العثور على عجلة المهارات على زيندو هنا: [https://zenodo.org/record/4437294#.YYjzg07P1aQ](https://zenodo.org/record/4437294#.YYjzg07P1aQ)
+You can find the Skills Wheel on Zendo here: [https://zenodo.org/record/4437294#.YYjzg07P1aQ](https://zenodo.org/record/4437294#.YYjzg07P1aQ)
 ```
 
-(الهياكل الأساسية - مدراء المجتمع - التحديات)=
-## التحديات التي تواجه مديري المجتمعات المحلية
-* الحاجة إلى الوساطة بين أفراد المجتمع المحلي
-* وقد لا ينظر إليه على أنه جزء من المجتمع نفسه ويحتاج إلى بناء الثقة والمصداقية داخله
-* الحاجة إلى الكثير من المهارات المختلفة (تقنية، مشتركة بين الأشخاص، إدارة المشاريع)
-* دعم وتشجيع المشاركة في المجتمع المحلي
-* بناء الهياكل الأساسية من الصفر في الأدوار المنشأة حديثا
-* النظر إلى الموظفين المهنيين في حد ذاتهم وليس فقط الموظفين الإداريين
-* التواصل مع جمهور جديد لا يعرف المجتمع
-* الترجمة بين مختلف المجموعات في نفس المجال أو المؤسسة
-* إدارة المهام في الحالات التي لا توجد فيها عملية رسمية تذكر
-* إدارة الأولويات المختلفة لمختلف مجموعات أصحاب المصلحة
-* لا يظهر دائما عندما تسير الأمور بشكل جيد!
-* الافتقار إلى التقدم الوظيفي الرسمي
+(cl-infrastructure-communitymanagers-challenges)=
+## Challenges for Community Managers
+* Need to mediate between community members
+* May not be seen as a part of the community themselves and need to build trust and credibility within it
+* Need to have a lot of different skills (technical, interpersonal, project management)
+* Supporting and encouraging engagement in the community
+* Building infrastructure from scratch in newly created roles
+* Being seen as a professional in their own right and not just adminstrative staff
+* Connecting with new audiences who are not aware of the community
+* Translating between different groups in the same field or institution
+* Managing tasks where there is little formal process in place
+* Managing the different priorities of different stakeholder groups
+* Not always visible when things go well!
+* Lack of formal career progression
 
-(الهياكل الأساسية - مدراء المجتمعات) =
-## فوائد وجود مدراء مجتمعيين
-* قادر على تقديم التفكير الوصفي حول كيفية هيكلة المجتمع وتشغيله
-* تقاسم أفضل الممارسات بشأن الاتصالات والتعاون والتنوع والإنصاف والإدماج وغير ذلك من مجالات البحث
-* يدعم رفع مستوى مهارات الأعضاء عن طريق تقاسم المهارات التقنية والتدريب
-* 2 - يدعم سائر أفراد المجتمع المحلي للقيام بأدوار أكثر نشاطا وزيادة قدرة المجتمع على التكيف وتوسيع نطاقه
-* 3 - توجيه مبادرات لتطوير المجتمع المحلي مثل معايير البيانات، ومدونة قواعد السلوك، وحلقات العمل التدريبية
-* يوفر قاعدة مستقرة للمجتمع، للتأكد من أن الاجتماعات تحدث في الوقت المناسب
-* ربط المجموعات العاملة في مشاريع مماثلة معا، لدعم زيادة التعاون
-* تفكيك المخازن بين الأقسام والحقول ومجموعات البحث
-* ألف - زيادة فهم احتياجات المجتمع المحلي
+(cl-infrastructure-communitymanagers-benefits)=
+## Benefits to having Community Managers
+* Able to offer meta-thinking about how the community is structured and run
+* Shares best practices around communication, collaboration, diversity, equity and inclusion, and other areas of research
+* Supports the upskilling of members via technical skill sharing and training
+* Supports other members of the community to take on more active roles, increasing resilience and expansion of the community
+* Stewarding initiatives to develop the community such as data standards, a code of conduct, or training workshops
+* Offers a stable base for the community, to make sure meetings happen on time
+* Connecting groups working on similar projects together, to support increased collaboration
+* Breaking down siloes between departments, fields, research groups
+* Greater understanding of the needs of the community
 
 
-(الهياكل الأساسية - مدراء المجتمع - المنظمات)=
-## المنظمات التي تدعم مدراء المجتمع
+(cl-infrastructure-communitymanagers-organisations)=
+## Organisations that support Community Managers
 مركز التعاون العلمي ومشاركة المجتمع (التجاوزات[. ص إ](https://www.cscce.org/) يعمل على _"إضفاء الطابع الاحترافي على دور مدير المشاركة المجتمعية وإضفاء الطابع المؤسسي عليه داخل العلوم._ أنهم يقدمون التدريب، والموارد المشتركة الإنشاء، والبحوث، مع مجموعة نشطة من الممارسين لمديري الأوساط العلمية من أجل الربط بين بعضهم البعض ودعمه.
 
-(مديرو الهياكل الأساسية - المجتمع المحلي)
+(cl-infrastructure-communitymanagers-summary)=
 ## Summary
-ويشكل مديرو المجتمعات المحلية جزءا هاما من الأوساط العلمية، ويدعمون التعاون وأفضل الممارسات ويوجهون مجتمعاتهم المحلية أثناء تطورها. ولا يملكون مسارا أو مؤهلات وظيفية رسمية، ولكنهم يتمتعون عادة بخلفية علمية أو بحثية بأنفسهم. 
+Community Managers are an important part of scientific communities, supporting collaboration, best practices, and stewarding their communities as they develop. They do not have a formal career path or qualifications, but typically have a scientific or research background themselves. 
 
