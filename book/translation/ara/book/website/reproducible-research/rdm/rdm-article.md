@@ -1,7 +1,7 @@
-(r-rdm-article)=
+(rr-rdm-article)=
 # Sharing your data through a Data Article
 
-ومقال عن البيانات (يعرف أيضا باسم ورقة بيانات/مذكرة/إصدار، أو مقالة قاعدة البيانات) هو منشور يركز على وصف مجموعة البيانات. وهي تستخدم هيكل مقالة المجلة التقليدية. غير أنها تركز على جمع البيانات والجوانب المنهجية ولا تركز عموما على تفسير النتائج أو مناقشتها.
+A Data Article (also known as a Data Paper/Note/Release, or Database article) is a publication that is focused on the description of a dataset. It uses the traditional journal article structure, but focuses on the data-collection and methodological aspects and generally not on the interpretation or discussion of the results.
 
 (rr-rdm-article-motivations)=
 ## Motivations For Sharing Data through a Data Article
