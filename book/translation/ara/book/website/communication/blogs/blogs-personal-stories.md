@@ -26,7 +26,7 @@ It helps people to see stories by other real people, and relate to the issues th
 
 ## Can I just get you to expand on the impact question? Did your blog lead to more impact in a project, or perhaps got you more noticed to secure a job, or help build a community?
 
-Yes, I get noticed because people know me from my Twitter and blog, usually this translates into talk invitations. نعم، تلقيت ملاحظة لأن الناس يعرفون لي من تويتر ومدونتي، عادة ما يترجم هذا إلى دعوات للحديث وفي العام الماضي عندما أعلنت أنني سأترك مسار شغل المنصب، كان لدي أيضا بعض الاقتراحات بشأن الوظائف، والذي ترجم في النهاية إلى منصبي الحالي (الوظيفي).
+Yes, I get noticed because people know me from my Twitter and blog, usually this translates into talk invitations. Last year when I announced I was leaving my tenure track, I also had a few suggestions for jobs, which in the end translated into my current (tenured) position.
 
 I am not sure there is an explicit community, but I do feel like I have a supportive community on Twitter. It has also resulted in some great projects, like the Avengers for Better Science workshop, which was funded by the Mozilla Foundation, or the Ten Simple Rules paper about Twitter.
 
