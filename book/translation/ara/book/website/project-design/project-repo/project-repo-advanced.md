@@ -40,7 +40,7 @@ The main benefit of designing your repository by intentionally adding documentat
 When sharing your resources via your repository, consider the following aspects of reproducibility in your research:
 
 - Transparency and openness
-- نظام التحكم في الإصدار (لا مزيد من الملفات مثل final_v1_FINAL. R, final_v2_FINAL. R, ...)
+- Version control system (no more files like final_v1_FINAL.R, final_v2_FINAL.R, ...)
 - Make it easy to navigate so that you save time for everyone involved
 - Consider {ref}`pd-overview-repro` aspects
 - Make sure that you provide sufficient details so that others can build on your work
@@ -61,11 +61,11 @@ Always consider designing your project for collaboration by adding key documents
 Here are suggestion of files and folders a research project must have.
 
 ```
-مجلد المشروع/
-<unk> <unk> <unk> <unk> <unk> ', docs                     <- Documents
-<unk> <unk> <unk> <unk> <unk> <unk> <unk> ', codelist.txt 
-<unk> <unk> <unk> <unk> ', project_plan.txt
-<unk> <unk> <unk> <unk> <unk> ', ...
+Project Folder/
+├── docs                     <- documentation
+│   └── codelist.txt 
+│   └── project_plan.txt
+│   └── ...
 │   └── deliverables.txt
 ├── data
 │   └── raw/
@@ -73,11 +73,11 @@ Here are suggestion of files and folders a research project must have.
 │   └── clean/
 │       └── data_clean.csv
 ├── analysis                 <- scripts
-│   └── my_script. R
+│   └── my_script.R
 ├── results                  <- analysis output     
 │   └── figures
 ├── .gitignore               <- files excluded from git version control 
-├── install. R                <- environment setup
+├── install.R                <- environment setup
 ├── CODE_OF_CONDUCT          <- Code of Conduct for community projects
 ├── CONTRIBUTING             <- Contribution guideline for collaborators
 ├── LICENSE                  <- software license
@@ -92,7 +92,7 @@ This example shows different files and directory a project can contain when buil
 ```
 Project Folder/                        
 ├── analysis                 <- scripts
-│   └── my_script. R
+│   └── my_script.R
 ├── build                    <- built files, Makefile
 |   ├── debug
 |   └── release
@@ -118,7 +118,7 @@ Project Folder/
 ├── example                  <- example code application
 ├── LICENSE                  <- software license
 ├── environment.yml          <- anaconda environment setup   
-├── install. R                <- R environment setup
+├── install.R                <- R environment setup
 ├── requirements.txt         <- python environment setup
 ├── runtime.txt              <- R in binder setup
 ├── report.md                <- report of analysis
@@ -131,7 +131,7 @@ Project Folder/
 
 ### R and Python Packages
 
-| crwdns4735:0crwdne4735:0                                          | Python                                                       |
+| R                                                                 | Python                                                       |
 | ----------------------------------------------------------------- | ------------------------------------------------------------ |
 | [rrtools](https://annakrystalli.me/rrresearch/10_compendium.html) | [compendium-dodo](https://pypi.org/project/compendium-dodo/) |
 | [template](https://github.com/Pakillo/template)                   | [css-compendium](https://pypi.org/project/ccs-compendium/)   |
