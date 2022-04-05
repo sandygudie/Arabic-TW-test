@@ -168,8 +168,8 @@ Unit test frameworks for other languages also often provide similar functions:
 - JUnit for Java: org.junit.Assert.assertEquals(double expected, double actual, double delta)
 - testthat for R:
   - expect_equal(actual, expected, tolerance=DELTA) - absolute error within DELTA
-  - expect_equal(real, esperado, escala=esperado, tolerancia=DELTA) - error relativo dentro de DELTA
-- Mañana:
+  - expect_equal(actual, expected, scale=expected, tolerance=DELTA) - relative error within DELTA
+- julia:
   - `val1 ≈ val2`
-  - `isapprox(val1, val2, atol=✫ _delta, rtol=rel_delta)`
-  - `Test.jl` with `mañana`: `@test val1 ► val2 atol=is_delta rtol=rel_delta`
+  - `isapprox(val1, val2, atol=abs_delta, rtol=rel_delta)`
+  - `Test.jl` with `≈`: `@test val1 ≈ val2 atol=abs_delta rtol=rel_delta`
