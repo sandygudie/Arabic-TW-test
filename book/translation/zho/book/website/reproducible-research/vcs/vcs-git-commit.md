@@ -15,7 +15,7 @@ You can see a log of your previous commits using
 git log
 ```
 
-In the log report on your terminal, you will see that each version is automatically tagged with a unique string of numbers and letters, called an SHA. You can identify, access and compare different versions by using their corresponding SHA. 这里是在Git日志中的一个承诺示例： SHA在第一行，除了这个SHA。 日志还包含关于变更的日期、时间和作者以及提交消息的信息("小打字")。
+In the log report on your terminal, you will see that each version is automatically tagged with a unique string of numbers and letters, called an SHA. You can identify, access and compare different versions by using their corresponding SHA. Here is an example of a commit in the Git log: The SHA is in the very first line, and apart from this SHA, the log also contains information on the date, time, and author of the change as well as the commit message ("minor typo fix").
 
 ```
 commit 0346c937d0c451f6c622c5800a46f9e9e1c2b035
@@ -44,7 +44,7 @@ To avoid writing this commit message in an editor, you can use the command `git 
 (rr-vcs-commit-messages-practice)=
 ### Good practice
 
-The number one rule is: **make it meaningful**. 像“修复bug”这样的提交消息让人完全了解这意味着什么(再次)。 这个人很可能在今后几个月里成为你，因为你们忘记了你们当时的所作所为）。 这最终会浪费您或其他人的时间去找出错误的原因。 This can end up wasting your or others time figuring out what the bug was, what changes were actually made, and how a bug was fixed. As such, a good commit message should *explain what you did, why you did it, and what is impacted by the changes*. As with comments, you should describe what the code is "doing" rather than the code itself. For example, it is not obvious what "Change N_sim to 10" actually does, but "Change number of simulations run by the program to 10" is clear.
+The number one rule is: **make it meaningful**. A commit message like "Fixed a bug" leaves it entirely up to the person to understand what that means (again, this person may very well be you a few months in the future when you have forgotten what you were doing). This can end up wasting your or others time figuring out what the bug was, what changes were actually made, and how a bug was fixed. As such, a good commit message should *explain what you did, why you did it, and what is impacted by the changes*. As with comments, you should describe what the code is "doing" rather than the code itself. For example, it is not obvious what "Change N_sim to 10" actually does, but "Change number of simulations run by the program to 10" is clear.
 
 **Summarise the changes your commit contains**. This should be written in the first line (in 50 characters maximum), then leave a blank line before you continue with the description or body of the message. The first line is the shortened version that appears as a summary when you use the command:
 
@@ -52,15 +52,14 @@ The number one rule is: **make it meaningful**. 像“修复bug”这样的提�
 git log
 ```
 
-This makes it much easier to quickly search through a large number of commits. 在这些消息中使用 **也是一种很好的做法。 ** 使用当前必须的紧张状态。 For example, instead of "I added tests for" or "Adding tests for", use "Add tests for".
+This makes it much easier to quickly search through a large number of commits. It is also a good practice to **use the imperative present tense** in these messages. For example, instead of "I added tests for" or "Adding tests for", use "Add tests for".
 
 Here is a good example of a commit message structure:
 
 ```
 Short (50 chars. or less) summary of changes
 
-More detailed explanatory text, if necessary. 把它包裹到
-大约72个字符。 Wrap it to
+More detailed explanatory text, if necessary. Wrap it to
 about 72 characters or so. In some contexts, the first
 line is treated as the subject of an email and the rest of
 the text as the body. The blank line separating the
@@ -70,10 +69,11 @@ the two together.
 
 Further paragraphs come after blank lines.
 
-  - 子点可以用来制造子弹，也可以用
+  - Bullet points are okay, too
 
-  - 通常情况下，子弹是用连字符或星号。 之前有一个空格, 空白行在
-    之间, 但在此处的约定有差异
+  - Typically, a hyphen or asterisk is used for the bullet,
+    preceded by a single space, with blank lines in
+    between, but conventions vary here
 ```
 (rr-vcs-commit-summary)=
 ## Git commit: Summary
