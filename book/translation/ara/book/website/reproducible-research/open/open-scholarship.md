@@ -1,7 +1,7 @@
 (rr-open-scholarship)=
 # Open Scholarship
 
-تندرج البحوث المفتوحة ومكوناتها الفرعية تحت مظلة مفهوم أوسع - منحة مفتوحة [{term}`def<Open Scholarship>`].
+Open research and its subcomponents fit under the umbrella of a broader concept - open scholarship [{term}`def<Open Scholarship>`].
 
 ```{figure} ../../figures/open-umbrella.png
 ---
@@ -14,16 +14,16 @@ alt: A depiction of Open Scholarship as an umbrella with other elements of Open 
 (rr-open-scholarship-resources)=
 ## Open Educational Resources
 
-الموارد التعليمية المفتوحة (OERs) [{term}`def<Open Educational Resources>`] هي مواد يُمكن استخدامها للتعليم والتعلّم بحرية تامة دون الحاجة إلى طلب الإذن من أحد. من الأمثلة على تلك الموارد، المساقات الإلكترونية ومن ضمنها الدورات الدراسية الضخمة المفتوحة على الإنترنت (MOOCs)، والمحاضرات، والمواد التعليمية، والمهام وموارد أُخرى. وهي متوافرة بعدة أشكال مختلفة متوافقة مع الإنترنت، كالنصوص والصور والصوت والفيديو. ويستطيع أيّ شخص لديه إمكانية الوصول إلى الإنترنت أن يستخدم الموارد التعليمية المفتوحة (OERs)؛ حيث إنّ الوصول إليها ليس حكرًا على مكان جغرافي معين أو على مؤسسة بعينها أو حتى على عضويتها.
+Open educational resources (OERs) [{term}`def<Open Educational Resources>`] are teaching and learning materials that can be freely used and reused for learning or teaching at no cost, and without needing to ask permission. Examples are courses, including Massive Online Open Courses (MOOCs), lectures, teaching materials, assignments, and various other resources. OERs are available in many different formats compatible with online usage, most obviously text, images, audio, and video. Anyone with internet access can access and use OERs; access is not dependent on location or membership of a particular institution.
 
-وخلافاً للموارد ذات حقوق الملكية، فإن الموارد التعليمية المفتوحة سواء أُنشئت من قبل أفراد أو منظمات تختار الاحتفاظ بحقوق ملكية قليلة، إن وُجدت. يعني ذلك أنه يمكن لأي شخص في بعض الحالات تنزيل بعض المصادر وتقاسمها مع بقية الزملاء أو الطلاب. وفي بعض الأحيان، قد يذهب الأمر إلى أبعد من ذلك حيث يقوم البعض بالتعديل على هذه المصادر ومن ثمّ إعادة نشرها كعمل مُعدّل. كيف تعرف الخيارات المتاحة لك؟ غالباً ما تمتلك OERs رخصة المشاع الإبداعي أو موافقة بالسماح لك بالتعرف على كيفية استخدام المواد وإعادة استخدامها وتكييفها ومن ثمّ مشاركتها.
+Unlike copyrighted resources, OERs have been authored or created by an individual or organization that chooses to retain few, if any, ownership rights. In some cases, that means anyone can download a resource and share it with colleagues and students. In other cases, this may go further and enable people to edit resources and then re-post them as a remixed work. How do you know your options? OERs often have a Creative Commons licence or other permission to let you know how the material may be used, reused, adapted, and shared.
 
 Fully open OERs comply with the 5 Rs:
 
-- _الاحتفاظ_: وتشمل حق امتلاك نسخة من المحتوى.
-- _إعادة الاستخدام_: وتضمن الحق في استخدام المحتوى بطرق شتّى (كاستخدامه في الفصول أو المجموعات الدراسية أو على صفحات الإنترنت أو في فيديو).
-- _التنقيح_: وتعني الحق في إجراء أي تعديل أو تغيير على المحتوى نفسه (مثلًا ترجمة المحتوى إلى لغة أخرى).
-- _الدمج_: وتشمل الحق في الجمع بين المحتوى الأصلي أو المنقح مع محتوى مفتوح آخر لإنشاء عمل جديد.
+- _Retain_: the right to make, own, and control copies of the content.
+- _Reuse_: the right to use the content in a wide range of ways (for example, in a class, in a study group, on a website, in a video).
+- _Revise_: the right to adapt, adjust, modify, or alter the content itself (for example, translate the content into another language).
+- _Remix_: the right to combine the original or revised content with other open content to create something new (for example, incorporate the content into a mashup).
 - _Redistribute_: the right to share copies of the original content, your revisions, or your remixes with others (for example, give a copy of the content to a friend).
 
 Researchers generate a great deal of educational resources in the course of teaching students and each other (at workshops, for example). By making these openly available (for example, in the [open educational resource commons](https://www.oercommons.org/)), the wider community can benefit from them in three main ways:
