@@ -34,7 +34,7 @@ In case you cannot use a written consent form, try to make a recording of verbal
 
 * a consent form signed by the participant.
 
-La hoja de información del participante **** se utiliza para informar a los participantes sobre el estudio. The information should be clear and easy to understand and should cover the following:
+The **participant information sheet** is used to inform participants about the study. The information should be clear and easy to understand and should cover the following:
 * What the project is about.
 * What their participation will involve.
 * Any risks involved for participants and safeguards to minimise those risks.
