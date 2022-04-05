@@ -52,7 +52,7 @@ We have created the following checklists, which are chronologically structured t
   * Some experience with using GitHub or attend the Book Dash GitHub session
   * Familiarity with _The Turing Way_ contribution guidelines and Code of Conduct
   * Willingness to collaborate with others
-- [ ] 请他们选择至少一次发展会议(2)。 Book Dash的每一天都能确保灵活性(而不是阻止全天)
+- [ ] Ask them to choose at least one contribution session (2.5 hours) for each day of the Book Dash to ensure flexibility (rather than blocking the full day)
 - [ ] Collect address if something needs to be posted
 
 **Additional task for an in-person Event**
@@ -65,7 +65,7 @@ We have created the following checklists, which are chronologically structured t
 - [ ] Book travel for those who requested
   - [ ] Double-check with each participant if their plan as given on their registration hasn't changed
 - [ ] Book catering for lunch and coffee breaks
-- [ ] 提及该事件将提供一顿蔬菜膳食作为默认值。 如果需要另一种膳食，则请与会者进行联系
+- [ ] Mention that the event will offer a vegetarian meal as default - and ask participants to get in touch if another meal type is required
 
 ## During the Event
 
