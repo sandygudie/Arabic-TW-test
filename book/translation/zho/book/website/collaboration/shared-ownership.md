@@ -5,8 +5,10 @@ Open source or open research movement allows anybody to use, study, modify, and 
 
 ```{figure} ../figures/open-source-collaboration.jpg
 ---
-名称：开放源码协作
-备选案文：这个示例表明，封闭源项目是由机构或个人的需要驱动的，而开放源码社区则允许不同的人相互作用。 Picture credit: _The Turing Way_ Community, & Scriberia. (2020, November). Illustrations from the Turing Way book dashes. Zenodo. http://doi.org/10.5281/zenodo.4323154
+name: open-source-collaboration
+alt: This illustration shows that closed source projects are driven by the needs of the institution or the individuals whereas the open source community allows different people to interact, exchange ideas, collaborate and build resources using “by the community - for the community” principles
+---
+Open source collaborative pathway compared to closed source projects that are driven by institute's personal motivation. Picture credit: _The Turing Way_ Community, & Scriberia. (2020, November). Illustrations from the Turing Way book dashes. Zenodo. http://doi.org/10.5281/zenodo.4323154
 ```
 
 ## Motivation
