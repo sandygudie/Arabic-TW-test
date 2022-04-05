@@ -61,10 +61,11 @@ Ethical work can also include thinking critically about contracts. You should th
 
 ## How to change laws
 
-Law is not static and unchanging. The law is made by humans and it can be changed by humans. Si usted siente que la ley en su jurisdicción funciona de una manera que no ayuda o daña, considere unirse a esfuerzos para cambiarla! Cambiar las leyes es un proyecto a largo plazo y puede llevar décadas. Changing laws is a long-term project and can take decades.
+Law is not static and unchanging. The law is made by humans and it can be changed by humans. If you feel that the law in your jurisdiction works in a way that is unhelpful or damaging, consider joining efforts to change it! Changing laws is a long-term project and can take decades.
 
-Esta sección no pretende explicar cómo hacer esto: un buen punto de partida es encontrar una organización de campaña que esté trabajando en el tema, y pregunte cómo participar.<!--- edite esto para referirse al capítulo del activismo, cuando lo hayamos escrito -->Ver detalles en los capítulos de {ref}`er-activismo` para más detalles.
-<!--- edit this to refer to the activism chapter, when we have written it --> See details in the chapters on {ref}`er-activism` for more details.
+This section is not intended to explain how to do this: a good place to start is to find a campaigning organisation who is working on the issue, and ask them how to get involved.
+<!--- edit this to refer to the activism chapter, when we have written it -->
+See details in the chapters on {ref}`er-activism` for more details.
 
 ## Policy
 
