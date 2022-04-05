@@ -1,88 +1,88 @@
-(cm-coments-overview-resources)=
-# Recursos e recomendações
+(cm-comms-overview-resources)=
+# Resources and Recommendations
 
-(cm-comentários-visão de recursos-acessibilidade)=
-## Acessibilidade
+(cm-comms-overview-resources-accessibility)=
+## Accessibility
 
-Leia mais neste capítulo: {ref}`cm-comms-overview-accessibly`.
+Read more in this chapter: {ref}`cm-comms-overview-accessibly`.
 
-* [Rede de habilidades](https://abilitynet.org.uk/) para guias de tornar seus documentos mais acessíveis.
-* [A calculadora de contraste](https://contrastchecker.com/) é um bom site para verificar se você encontra as classificações Guias de Acessibilidade de Conteúdo Web (WCAG).
-* [Outlier conf](https://www.outlierconf.com/) é um bom exemplo de acessibilidade em taxas de participação e experiência de dados (vs visualização).
+* [Ability Net](https://abilitynet.org.uk/) for guides to making your documents more accessible.
+* [Contrast calculator](https://contrastchecker.com/) is a good website to freely check if you meet the Web Content Accessibility Guidelines (WCAG) ratings.
+* [Outlier conf](https://www.outlierconf.com/) is a good example of accessibility in conference participation fees and data experience (vs visualisation).
 
-(cm-coments-overview-resources-blogs)=
+(cm-comms-overview-resources-blogs)=
 ## Blogs
 
-Leia mais neste capítulo: {ref}`cm-blogs`.
+Read more in this chapter: {ref}`cm-blogs`.
 
-* [20 métricas que todo blogger precisa rastrear para medir o sucesso](https://www.dreamhost.com/blog/metrics-every-blogger-needs-to-track/).
-* [Iniciar um blog do Wordpress](https://www.podcastinsights.com/start-a-wordpress-blog/)
-* [Comparação de sites do Google e Wordpress](https://superbwebsitebuilders.com/google-sites-vs-wordpress)
+* [20 metrics every blogger needs to track to measure success](https://www.dreamhost.com/blog/metrics-every-blogger-needs-to-track/).
+* [Start a Wordpress blog](https://www.podcastinsights.com/start-a-wordpress-blog/)
+* [Comparing Google sites and Wordpress](https://superbwebsitebuilders.com/google-sites-vs-wordpress)
 
-### Alguns dos nossos blogs favoritos
-* Dr. Veronika Cheplygina [Como eu falho a série](https://veronikach.com/failure/)
-* [Blog do Instituto de Sustentabilidade de Software](https://www.software.ac.uk/blog)
-* [Aberto](https://openworking.wordpress.com/) por 4TU. ResearchData & TU Delft Library e dados avançados. Usa WordPress.
-* [Metadocencia](https://metadocencia.netlify.app/post/) - Isto é em espanhol, mas você também pode lê-lo em inglês [aqui](https://metadocencia.netlify.app/en/post/).
+### Some of our favourite blogs
+* Dr Veronika Cheplygina's [How I fail series](https://veronikach.com/failure/)
+* [Software Sustainability Institute Blog](https://www.software.ac.uk/blog)
+* [Open Working](https://openworking.wordpress.com/) by 4TU.ResearchData & TU Delft Library and Data Stewards. Uses WordPress.
+* [Metadocencia](https://metadocencia.netlify.app/post/) - This is in Spanish but you can also read it in English [here](https://metadocencia.netlify.app/en/post/).
 
-(cm-coments-overview-resources-lay)=
-## Resumos do prego
+(cm-comms-overview-resources-lay)=
+## Lay summaries
 
-Leia mais neste capítulo: {ref}`cm-lay-sumies`.
+Read more in this chapter: {ref}`cm-lay-summaries`.
 
-* Veja  [Perfecção que mostra o resumo](https://bitesizebio.com/10871/perfecting-that-lay-summary/) para um bom exemplo de como um abstrato pode ser alterado para um resumo de lay .
+* See  [Perfecting that lay summary](https://bitesizebio.com/10871/perfecting-that-lay-summary/) for a good example of how an abstract can be changed into a lay summary.
 
-**Testes de legibilidade:**
+**Readability tests:**
 * [Hemingway app](http://www.hemingwayapp.com/)
-* [O grande teste de legibilidade de palavras](http://thefirstword.co.uk/readabilitytest/)
+* [The forst word readability test](http://thefirstword.co.uk/readabilitytest/)
 
 
-(cm-comentas-overview-resources-podcasts)=
+(cm-comms-overview-resources-podcasts)=
 ## Podcasts
 
-Leia mais neste capítulo: {ref}`cm-podcasts`.
+Read more in this chapter: {ref}`cm-podcasts`.
 
-* [Como iniciar um blog do podcast](https://www.podcastinsights.com/start-a-podcast/?gclid=CjwKCAiA9vOABhBfEiwATCi7GNV7zJl0tHaVkW-7DCjVdAwGa4q0vbaXB44xsSBHp7YBO8K6pH0syBoCVtUQAvD_BwE).
+* [How to start a podcast blog](https://www.podcastinsights.com/start-a-podcast/?gclid=CjwKCAiA9vOABhBfEiwATCi7GNV7zJl0tHaVkW-7DCjVdAwGa4q0vbaXB44xsSBHp7YBO8K6pH0syBoCVtUQAvD_BwE).
 
-### Alguns dos nossos podcasts favoritos
-* [Ciência Aberta](https://www.orion-openscience.eu/publications/training-materials/201902/podcasts) Orion.
+### Some of our favourite podcasts
+* [Orion Open Science](https://www.orion-openscience.eu/publications/training-materials/201902/podcasts).
 * [Open Science talk](https://soundcloud.com/opensciencetalk).
-* [O Podcast Turing](https://www.turing.ac.uk/news/turing-podcast).
+* [The Turing Podcast](https://www.turing.ac.uk/news/turing-podcast).
 * [ReproducibiliTea Podcast](https://soundcloud.com/reproducibilitea).
-* [Histórias de ciência aberta](https://podcasts.apple.com/gb/podcast/open-science-stories/id1547403532).
+* [Open science stories](https://podcasts.apple.com/gb/podcast/open-science-stories/id1547403532).
 
-(cm-comentários-visão geral-recursos-apresentações)=
-## Apresentações
+(cm-comms-overview-resources-presentations)=
+## Presentations
 
-Leia mais neste capítulo: {ref}`apresentações de cm`.
+Read more in this chapter: {ref}`cm-presentations`.
 
-Aqui estão alguns sites que oferecem recursos gratuitos fazendo diferentes aspectos da presença:
+Here are some websites that offer free resources making different aspects of presenations:
 
-* [O Noun Project](https://thenounproject.com) para ícones e fotos.
-* [Unsplash](https://unsplash.com) para fotos.
-* [Pexels](https://www.pexels.com) para fotos.
-* [Freepik](https://www.freepik.com/free-photos-vectors/english) para ícones e ilustrações.
-* [Flaticon](https://www.flaticon.com/free-icons/english) para ícones.
-* [Cancele](https://www.canva.com) para ícones.
+* [The Noun Project](https://thenounproject.com) for icons and photographs.
+* [Unsplash](https://unsplash.com) for photographs.
+* [Pexels](https://www.pexels.com) for photographs.
+* [Freepik](https://www.freepik.com/free-photos-vectors/english) for icons and illustrations.
+* [Flaticon](https://www.flaticon.com/free-icons/english) for icons.
+* [Canva](https://www.canva.com) for icons.
 
-Para gravar palestras:
-* [OBS](https://obsproject.com). Consulte [este guia para usar o OBS](https://software.ac.uk/fellowship-programme/2019/application-video-guide) pelo Instituto de Sustentabilidade do Programa.
-* [Amara](https://amara.org) ou [Otter](https://otter.ai/) podem ser usados para gerar suas legendas. Plataformas de videoconferência, como Zoom ou Google meet também possuem legendas.
+For recording talks:
+* [OBS](https://obsproject.com). See [this guide for using OBS](https://software.ac.uk/fellowship-programme/2019/application-video-guide) by the Software Sustainability Institute.
+* [Amara](https://amara.org) or [Otter](https://otter.ai/) can be used to generate your subtitles. Video conferencing platforms such as Zoom or Google meet also have captions.
 
-* Muitos dos aspectos técnicos e ferramentas para dar palestras remotas (ou aulas) são cobertas pelo [As dicas de Carpintarias para ensinar online](https://carpentries.org/blog/2020/03/tips-for-teaching-online/) e o webinar ["Ensinando Online na Breve Aviso"](https://rstd.io/teach-online-2020) pelo RStudio, uma fonte para vários pontos desta seção.
+* Many of the technical aspects and tools for giving remote talks (or classes) are covered in [The Carpentries tips for teaching online](https://carpentries.org/blog/2020/03/tips-for-teaching-online/) and the webinar ["Teaching Online on Short Notice"](https://rstd.io/teach-online-2020) by RStudio, a source for several points of this section.
 
-* A conferência do Outlier tem algumas excelentes dicas sobre [desenvolvimento de fala](https://docs.google.com/presentation/d/1VltGZmwfFcqwJ_pMwNx-ECfhgtl0dhxYC99qM5xnV-U/), [estrutura](https://docs.google.com/presentation/d/1XyFdpqjlvXd_8kIl3dJFHhGTcywX0tayQtHXXYUi9DQ/)e [configuração técnica](https://https://docs.google.com/presentation/d/1ZLrVBs5Zt9_DDu2TYUN3CzsEr1WiMXbwj-AP5m9Rbhc/).
+* The Outlier conference has some excellent tips on [speech development](https://docs.google.com/presentation/d/1VltGZmwfFcqwJ_pMwNx-ECfhgtl0dhxYC99qM5xnV-U/), [structure](https://docs.google.com/presentation/d/1XyFdpqjlvXd_8kIl3dJFHhGTcywX0tayQtHXXYUi9DQ/), and [technical setup](https://https://docs.google.com/presentation/d/1ZLrVBs5Zt9_DDu2TYUN3CzsEr1WiMXbwj-AP5m9Rbhc/).
 
-* O autor Nancy Duarte oferece algumas informações sobre seus livros, artigos e [palestras](https://://www.ted.com/talks/nancy_duarte_the_secret_structure_of_great_talks?) sobre como estruturar apresentações que envolvem chamadas à ação.
+* Author Nancy Duarte offers some insights in her books, articles and [talks](https://://www.ted.com/talks/nancy_duarte_the_secret_structure_of_great_talks?) on how to structure presentations that involve a call to action.
 
-(cm-coments-overview-resources-social)=
-## Mídias Sociais
+(cm-comms-overview-resources-social)=
+## Social Media
 
-Leia mais neste capítulo: {ref}`cm-social-media`.
+Read more in this chapter: {ref}`cm-social-media`.
 
-* [Baralho](https://tweetdeck.twitter.com/)
-* [Abastecimento](https://buffer.com/)
-* Este é um bom guia [para se preparar no Twitter](https://www.wired.com/story/how-to-setup-twitter-search-hashtag-and-login-help/).
-* [Dez regras simples para começar a usar o Twitter como cientista](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007513)
-* [Dez regras simples de live-tweeting em conferências científicas](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003789)
-* [Como usar o Twitter para continuar sua carreira de pesquisa](https://www.nature.com/articles/d41586-019-00535-w)
+* [Tweetdeck](https://tweetdeck.twitter.com/)
+* [Buffer](https://buffer.com/)
+* This is a good [guide to getting set up on Twitter](https://www.wired.com/story/how-to-setup-twitter-search-hashtag-and-login-help/).
+* [Ten simple rules to getting started on Twitter as a scientist](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007513)
+* [Ten simple rules of live-tweeting at scientific conferences](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003789)
+* [How to use Twitter to further your research career](https://www.nature.com/articles/d41586-019-00535-w)
