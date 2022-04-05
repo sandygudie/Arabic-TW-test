@@ -1,44 +1,44 @@
-(cm-nova-comunidade-tecnologia)=
-# Endereçamento de problemas técnicos
+(cm-new-community-techissue)=
+# Addressing Technical Issues
 
-Certifique-se de que você também tem planos para pessoas que queiram contribuir para o seu projeto, mas que possam se desviar muito rapidamente de seus objetivos originais, sem supervisão nem orientação. Se é necessário ter habilidades ou práticas específicas para alguém contribuir com seu projeto, você deve ser capaz de apontar as pessoas para os recursos relevantes para que elas possam interagir com o seu projeto de forma eficaz.
+Make sure that you also have plans in place for people who want to contribute to your project but might deviate from your original goals very fast without supervision or guidance. If specific skills or practices are required for someone to contribute to your project, you should be able to point people to relevant resources so that they can engage with your project effectively.
 
-Aqui estão algumas recomendações para preparar o seu projeto para abordar questões técnicas que a sua equipe ou membros da comunidade podem muito provavelmente enfrentar.
+Here are some recommendations to prepare your project for addressing technical issues that your team or community members can most likely face.
 
-## Configurar ferramentas para ativar a colaboração
+## Setup tools to enable collaboration
 
-Ao escrever pesquisas do relatório final ou para compartilhar conclusões preliminares, deve haver uma decisão consciente sobre o software que você está usando para escrever seu resultado. Essa decisão afeta como será a colaboração no seu projeto. Para evitar possíveis barreiras à colaboração, tenha em consideração os seguintes aspectos:
-* **Disponibilidade de software**: Certifique-se de que todos os colaboradores tenham acesso ao software e plataforma que você usa, por exemplo, assinatura ou licença paga para utilizar software proprietário.
-* **Habilidades técnicas**: Certifique-se de que todos os colaboradores estejam confortáveis usando o software, por exemplo, eles estão confiantes para editar um arquivo escrito em uma linguagem de programação ou de mark-up .
+When writing up research either of the final report or for sharing preliminary findings, there should be a conscious decision about what software you are using to write out your result. This decision affects how collaboration will look like in your project. To avoid any potential barriers to collaboration, take the following aspects into considerations:
+* **Availability of software**: Ensure that all of the collaborators have access to the software and platform you are using, for example, paid subscription or licence to use proprietary software.
+* **Technical skills**: Ensure that all of the collaborators are comfortable using the software, for example, they are confident to edit a file written in a programming or mark-up language.
 
-Problemas específicos de contexto podem aparecer dependendo das funções e responsabilidades compartilhadas dentro de uma equipe. Portanto, possíveis soluções podem ser planejadas para resolver esses problemas, inclusive fornecendo tutoriais curtos (veja o próximo ponto). Estar ciente das barreiras potenciais que o software que usamos pode criar pode levar à escolha de ferramentas e soluções que funcionem para todos os nossos colaboradores.
+Context-specific issues may appear depending on the roles and responsibilities shared within a team. Therefore, potential solutions can be planned to address these issues including providing short tutorials (see the next point). Being aware of the potential barriers that the software we use may create can lead to choosing tools and solution that works for all our collaborators.
 
-## Forneça tutoriais curtos e concisos
+## Provide short and concise tutorials
 
-Na maioria dos projectos de investigação, trabalhamos naquilo que é urgente neste momento. o que pode significar que podemos ignorar o que é importante a longo prazo. Por exemplo, poderíamos querer testar vários algoritmos em nossos dados, mas não prestar atenção na gravação sistemática do resultado em uma plataforma central que os outros acessam. Oferecer treinamento ou vídeos curtos pré-gravados sobre práticas recomendadas pode permitir que os membros da comunidade trabalhem usando um fluxo de trabalho padrão ou assumam algumas tarefas de outras pessoas.
+In most of the research projects, we work on what is urgent right now, which might mean that we may overlook what is important in the long term. For example, we might want to test several algorithms on our data but don’t pay attention to recording the outcome systematically in a central platform that others access. Offering training or short pre-recorded videos on recommended practices can enable your community members to work using a standard workflow or take over some tasks from others.
 
-## O teste é importante
+## Testing is important
 
-Errar é humano! E quando trabalham sob pressão, elas poderão ser mais frequentes.
+To err is human! And when working under pressure, they might be more frequent.
 
-Teste seus códigos e incentive sua comunidade a revisar e testar o código de cada um. Além de escrever o código que resolve problemas, você deve ensinar e promover a prática de [teste unitário](http://softwaretestingfundamentals.com/unit-testing/) para testar se as unidades/componentes individuais do software funcionam conforme o esperado.
+Test your codes and encourage your community to review and test each other's code. In addition to writing code that solves problems, you should teach and promote the practice of [unit testing](http://softwaretestingfundamentals.com/unit-testing/) to test if the individual units/components of software work as expected.
 
-Você também pode configurar um ambiente {ref}`de integração contínua<rr-ci>` para ajudar a automatizar os testes no seu fluxo de trabalho.
+You can also set up a {ref}`Continuous Integration<rr-ci>` environment to help automate testing in your workflow.
 
-Consulte a seção de {ref}`teste <rr-testing>` no Guia para Pesquisa Reprodutiva para obter mais informações.
+See the {ref}`testing <rr-testing>` section in the Guide for Reproducible Research for more information.
 
-## A reprodução é ainda mais importante
+## Reproducibility is even more important
 
-Uma ótima coisa para os membros da equipe menos envolvidos fazer é testar constantemente a reprodutibilidade de qualquer código/ambiente. Faça isso desde o início e não será uma surpresa mais tarde quando não funcionar no computador de outra pessoa.
+A great thing for less involved team members to do is constantly test the reproducibility of any code/environment. Do this from the start and it won’t be a surprise later when it doesn’t work on somebody else’s computer.
 
-Entre em contato com os especialistas, especialmente ao lidar com códigos legados. Entre em contato com outras comunidades com conhecimento específico para poupar esforço e tempo que possam ser investidos em outras tarefas. Por exemplo, grande parte do conhecimento científico é construído sobre resultados da FORTRAN, C, e código Java que não é mantido mais e, provavelmente, não está documentado. Encontrar alguém com o conhecimento e experiência do código legado para responder a perguntas que outros desenvolvedores têm será uma enorme economia de tempo.
+Reach out to the experts, especially when dealing with legacy code. Reach out to other communities with specific expertise to save effort and time that can be invested in other tasks. For example, a lot of the scientific knowledge is built on top of results from FORTRAN, C, and Java code that isn't maintained any longer and, probably, isn't documented. Finding someone with the knowledge and experience of the legacy code to answer questions that other developers have will be a huge time saver.
 
-Consulte o {ref}`Guia de Pesquisa Reprodutiva <rr>` para obter mais informações.
+See the {ref}`Guide for Reproducible Research <rr>` chapter for more information.
 
-## Compartilhar código (e dados) cedo
+## Share code (and data) early on
 
-Os desenvolvedores devem compartilhar seu código em um repositório público controlado por versão (como o GitHub e o GitLab) e coordenar quem está trabalhando em qual recurso ou correção. Especialmente, ao executar projetos urgentes contra o relógio, é crucial não perder tempo no final do seu projeto compilando os diferentes componentes da sua pesquisa quando você pode praticar fazer isso desde o início.
+Developers must share their code in a public version-controlled repository (like GitHub and GitLab) and coordinate who is working on what feature or fix. Especially, when running on urgent projects against the clock, it is crucial not to waste time at the end of your project in compiling the different components of your research when you can practice doing it from the beginning.
 
-## Tomar nota dos problemas de privacidade
+## Take note of the privacy issues
 
-Pergunte-se, como podem as pessoas que precisam de acessar esses dados chegar. Como podem reutilizar e compartilhar os dados adequadamente. Escolha uma licença de código aberto apropriada para seus dados, scripts e software. Escolha uma licença relevante que garanta a proteção de informações sensíveis como dados de movimento e localização, problemas de saúde pessoais, informações de contato, nomes, data de nascimento e endereços pessoais. Evite a coleta de informações pessoais que não sejam necessárias ou viola a confidencialidade.
+Ask yourself, how can people who need to access this data get to it. How they can re-use and share the data appropriately. Choose an appropriate open source license for your data, scripts, and software. Choose a relevant license ensuring the protection of information that is sensitive such as movement and location data, personal health issues, contact information, names, date of birth, and personal addresses. Avoid gathering personal information that is not necessary or breaches confidentiality.
