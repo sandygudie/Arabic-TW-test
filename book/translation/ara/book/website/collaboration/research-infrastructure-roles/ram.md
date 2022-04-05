@@ -1,54 +1,54 @@
-(البنية التحتية) =
-# مدراء تطبيقات البحث: نظرة عامة
+(cl-infrastructure-ram)=
+# Research Application Managers: Overview
 
-## السياق والاحتياجات غير الملباة
+## Context and the unmet need
 
-وتشجع الحوافز الأكاديمية على خلق معارف جديدة، مثل إنشاء خوارزميات جديدة لتعلم الآلات. وفي كثير من الأحيان، بعد نشر أعمال رائدة في مجلة أكاديمية، الخوارزمية والبرمجيات التي بنيت لنشرها غير مدعومة لأن الباحث يبدأ مشروعاً جديداً أو ينتقل إلى مؤسسة أخرى. وعادة ما تكون الأوساط الأكاديمية أقل اهتماما بدعم ومكافأة العمل في المجالات التالية:
-- تحسين وتوسيع نطاق نواتج/البرامجيات البحثية القائمة
-- تعزيز قابلية التشغيل التبادلي للنواتج/البرامجيات الجديدة والقائمة
-- الاستثمار في إمكانية استخدام المخرجات/البرامج الحاسوبية (الجديدة منها والقائمة) وإعادة استخدامها وسهولة استخدامها
-- الاشتراك مع المستعملين في وضع النواتج ابتداء من المراحل الأولى من دورة حياة نواتج البحث
-- الاكتشاف الاستباقي لتطبيقات جديدة في العالم الحقيقي واستخدام حالات تتجاوز المجال الأكاديمي الأصلي والاستثمار في تعزيزها وتكييفها واعتمادها
+Academic incentives encourage the creation of novel knowledge, such as creating new machine learning algorithms. Often, after ground-breaking work has been published in an academic journal, the algorithm and the software built to deploy it are not supported because the researcher begins a new project or moves to another institution. Traditionally, academia is less interested in supporting and rewarding work on:
+- Improving and extending existing research outputs/software
+- Promoting interoperability of new and existing outputs/software
+- Investing in usability, re-usability and user-friendliness of outputs/software (new and existing)
+- Co-creating outputs with users from the early stages of the research output lifecycle
+- Proactively discovering new real-world applications and use cases beyond the original academic field and investing in their promotion, adaptation and adoption
 
-وبعبارة أخرى، فإن الأوساط الأكاديمية تمنح جوائز عالية لخلق المعارف. وعادة ما لا يكافأ الاستثمار في النشر والترابط وقابلية الاستخدام خارج المجال الأكاديمي الأصلي بأكبر الجوائز الأكاديمية. وفي عالم البحث المهني المبكر الذي يتسم بدرجة عالية من التنافس، غالبا ما لا يحظى هذا العمل بالأولوية.
+In other words, academia highly prizes knowledge creation. Investment in dissemination, interconnectivity and usability beyond the original academic field is typically not rewarded with the greatest academic prizes. In the highly competitive world of early career research, such work is therefore often not prioritised.
 
 ```{figure} ../../figures/research-application-managers.jpg
 ---
-name: research-application-Manager
-البديل : مثال توضيحي يصور الحيوان على أنه مديري تطبيقات البحث الذين يتصلون بالمستخدمين، تطبيق البحوث في العالم الحقيقي وتيسير العملية الابتكارية في البنية التحتية للبحوث.
+name: research-application-managers
+alt: An illustration depicting the animal rams as the research application managers who are connecting with users, applying research in real world and facilitating innovative process in research infrastructure.
 ---
-مدراء تطبيقات البحث يعملون مع فريق البحث لتضمين المخرجات في مؤسسات المستخدم. _مجتمع طرق الشحن_ & سكريبيريا. (2020, November). Illustrations from the Turing Way book dashes. Zenodo. http://doi.org/10.5281/zenodo.4323154
+Research Application Managers work with the research team to embed outputs into user organisations. _The Turing Way_ Community, & Scriberia. (2020, November). Illustrations from the Turing Way book dashes. Zenodo. http://doi.org/10.5281/zenodo.4323154
 ```
 
 
-## استخدام ذاكرة الوصول العشوائي كدور وصل في النظام الإيكولوجي للبحوث
+## A RAM as a connecting role in the research ecosystem
 
-وقد أنشأنا دور مدير تطبيقات البحوث في معهد آلان تورينغ بهدف سد هذه الفجوة الحافزة. وتحفز برامج العمل الإقليمية تحديداً وتكافأ على القيام بالعمل الذي يجلس تقليدياً على الهامش من أجل باحث وظيفي مبكر نموذجي يعمل على إيجاد نواتج مثل برمجيات المصدر المفتوح.
+We have created the role of a Research Application Manager (RAM) at The Alan Turing Institute with the aim of addressing this incentive gap. RAMs are specifically incentivised and rewarded to conduct the work that traditionally sits on the margins for a typical early career researcher engaging in creating outputs such as open source software.
 
-وتستلهم ذاكرة الوصول العشوائي للمنتجات جزئيا من دور مدير المنتجات في شركات التكنولوجيا. كما أن لها أوجه تشابه مع دور محامي المطورين وأن عملها يتداخل مع عمل مدير المجتمع المحلي. وفي بعض الحالات، قد يشمل عبء العمل في إطار آلية الوصول إلى الأسواق مدخلات مفصلة، كثيرا ما تكون تقنية، تشبه مهندس الحلول أو مهندسا منشورا في مرحلة متقدمة، يتفاعل مباشرة مع العملاء للتأكد من أن الأداة تلبي احتياجات المستخدم.
+RAMs are in part inspired by the role of a Product Manager in tech firms. They also have similarities with the role of a Developer Advocate and their work overlaps with that of the Community Manager. In some cases the RAM workload may include detailed, often technical, input, resembling a Solutions Engineer or a Forward Deployed Engineer, who interface directly with customers to ensure that the tool meets user needs.
 
-مقاييس النجاح من أجل الوصول إلى منطقة خالية من الأسلحة النووية
-- المشاركة مع فريق البحوث في وقت مبكر في المشروع من أجل استخلاص منظور المستخدمين المحتملين لأدواتهم البرامجية والمشاركة في الإنشاء بشكل استباقي منذ المراحل الأولى
-- الدعوة إلى الأخذ بمنظور المستعملين في جميع مراحل عملية التطوير وتحديد الأولويات
-- تحديد المستخدمين الرئيسيين والجمهور المستهدف
-- باء - البحث وفهم مجتمع المستخدمين
-- المشاركة مع مجتمع المستخدمين
-- تحديد حلول الاستدامة والتمويل بالتعاون مع فريق البحث
-- تعزيز الأدوات خارج المجال الأكاديمي لفريق البحث الأصلي
-- التعامل مع المخرجات بوصفها "منتج" بحثي وتقديم مستوى مناسب من "المعلومات الاستخبارية عن السوق" إلى الفريق الأكاديمي
-- "التعبئة" أو "إعادة التعبئة" الأداة لتحسين قابلية الاستخدام/إمكانية الوصول لمختلف الجماهير
+The measures of success for a RAM:
+- Engaging with the research team early on in the project to bring the perspective of potential users of their software tools and to proactively co-create from the early stages
+- Advocating for the user perspective throughout the development and feature prioritisation process
+- Identifying the key users and the target audience
+- Researching and understanding the user community
+- Engaging with the user community
+- Identifying sustainability and funding solutions in collaboration with the research team
+- Promoting the tools outside the academic field of the original research team
+- Approaching the output as a research "product" and bringing an appropriate level of "market intelligence" to the academic team
+- "Packaging" or "re-packaging" the tool to improve usability/accessibility to different audiences
 
-وتمثل هذه الترتيبات حلاً أساسياً لمشكلة الفجوة الحافزة. وهي تجلب عقلية "فريق العلوم" إلى أفرقة البحوث وتعزز أفضل الممارسات البحثية - وهي مهمة تتقاسمها مع دور مدير المجتمع المحلي.
+RAMs are a solution primarily to the incentive gap problem. They bring a "Team Science" mindset to the research teams and promote research best practices - a task they share with the Community Manager role.
 
-وتعزز كل من آليات العمل الإقليمية والمراكز الرئيسية أفضل الممارسات في المجالات التالية:
-- إمكانية التشغيل المتبادل للنواتج
-- باء - قابلية نتائج البحوث ونواتجها
-- علم الفريق / العلوم المفتوحة
-- الأخلاقيات
-- الإنشاء المشترك
-- الشمولية
+Both RAMs and CMs promote best practices in:
+- Interoperability of outputs
+- Reproducibility of research findings and outputs
+- Team Science / Open Science
+- Ethics
+- Co-creation
+- Inclusivity
 
-وأصبح مديرو المجتمعات المحلية دورا راسخا في النظام الإيكولوجي للبحوث وفي أوساط برمجيات المصدر المفتوح على وجه الخصوص. ويحدونا الأمل في أن يكون لهذه الآليات مسار ناجح مماثل.
+Community managers are becoming an established role in the research ecosystem and in open source software communities in particular. We hope that RAMs will have a similarly successful trajectory.
 
-قيم ذاكرة الوصول العشوائي الرئيسية: _قابلية التكيف، التعاون والتراث_
+Key RAM values: _adaptability, collaboration and legacy_
 
