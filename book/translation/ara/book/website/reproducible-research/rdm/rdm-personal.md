@@ -34,7 +34,7 @@ In case you cannot use a written consent form, try to make a recording of verbal
 
 * a consent form signed by the participant.
 
-تستخدم ورقة معلومات المشاركين **** لإبلاغ المشاركين عن الدراسة. The information should be clear and easy to understand and should cover the following:
+The **participant information sheet** is used to inform participants about the study. The information should be clear and easy to understand and should cover the following:
 * What the project is about.
 * What their participation will involve.
 * Any risks involved for participants and safeguards to minimise those risks.
@@ -99,7 +99,7 @@ There are a number of strategies that you can adopt to **safeguard the privacy**
 * Password protection.
 
 
-**6. (Anonymisation) إخفاء الهُوِيَّة**
+**6. Anonymisation**
 
 Anonymisation is a process by which identifying information in a dataset is removed. It is used primarily to allow data to be shared or published without revealing the confidential information it contains, while limiting the loss of information.
 * Where possible, direct identifiers (such as names, addresses, telephone numbers and account numbers) should be removed as soon as the identifying information is no longer needed. You can delete the data or replace it with pseudonyms. For qualitative data you should replace or generalise identifying characteristics when transcribing interviews.
