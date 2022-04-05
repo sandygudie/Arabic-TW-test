@@ -22,7 +22,7 @@ For more details, see [this presentation](https://docs.google.com/presentation/d
 - Get users doing powerful things quickly
 - Watch out for jargon!
 
-Source: Hao Ye. (2021, March). 协作车间2021年小型车间：README 提示使您的项目更容易访问 (版本 v1.0.0). Zenodo. http://doi.org/10.5281/zenodo.4647391 Zenodo. http://doi.org/10.5281/zenodo.4647391
+Source: Hao Ye. (2021, March). Collaborations Workshop 2021 Mini-Workshop: README tips to make your project more approachable (Version v1.0.0). Zenodo. http://doi.org/10.5281/zenodo.4647391
 ```
 
 ## Case Study: _The Turing Way_
