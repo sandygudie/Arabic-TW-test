@@ -90,7 +90,7 @@ However, if you can not directly edit the repository (when you are not an owner 
 (rr-vcs-github-contributing)=
 ## Contributing to Other Projects
 
-When you create a local copy of a repository, you only keep the versions of the files that are in the repository at the time of creating that copy. Por lo tanto, al trabajar en diferentes ramas o bifurcaciones de un repositorio, es una buena práctica para mantenerlos actualizados con el repositorio principal y en sincronización con el repositorio original. Si se hacen cambios en el repositorio original posteriormente, su copia se dessincronizará. Esto puede provocar problemas como conflictos en el contenido del archivo al hacer una pull request o fusionar cambios de su rama al repositorio principal.
+When you create a local copy of a repository, you only keep the versions of the files that are in the repository at the time of creating that copy. If any changes are made in the original repository afterwards, your copy will get out of sync. This can lead to problems like conflicting file contents when making a pull request or merging changes from your branch to the main repository. Therefore, when working on different branches or forks of a repository, it is a good practice to keep them updated with the main repository and in sync with the original repository.
 
 (rr-vcs-github-contributing-workflow)=
 ### A Workflow to Contribute to Others Github Projects via `git`:
