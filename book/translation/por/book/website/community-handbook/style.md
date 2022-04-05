@@ -84,11 +84,11 @@ Em vez disso, recomenda-se o seguinte:
 
 Escreva links externos usando "http://" em vez de "www". Isto garante que elas sejam correctamente reconhecidas como hiperligações.
 
-### Chunks com código ou texto especial
+### Chunks with code or special text
 
-Você pode garantir que qualquer código (ou Markdown) que você tenha no guia tenha a sintaxe do código destacada mencionando o idioma em questão. Como exemplo, se você quiser ter algum código R, quando você abrir o chunk com três backticks você pode adicionar o nome do idioma imediatamente após ele (<code>\`\`\`</code> se torna <code>\`\`\`\`\`R</code>).
+You can ensure that any code (or Markdown) chunks you have in the guide have the code syntax highlighted by mentioning the language in question. As an example, if you want to have some R code, when you open the chunk with three backticks you can add the language name immediately after it (<code>\`\`\`</code> becomes <code>\`\`\`R</code>).
 
-Fonte de Markdown:
+Markdown source:
 
 ```
     ```R
@@ -96,7 +96,7 @@ Fonte de Markdown:
     ```
 ```
 
-Saída HTML:
+HTML output:
 
 ```R
 x <- c(1:21)
