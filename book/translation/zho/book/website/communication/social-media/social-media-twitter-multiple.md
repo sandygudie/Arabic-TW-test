@@ -8,12 +8,12 @@ Many projects and organisations have their own Twitter account that is used for 
 (cm-social-media-twitter-organisation)=
 ## Managing an Organisational Twitter Account
 
-**1. 1. 请确保您清楚该帐户的目的是什么以及该组织想要什么样的提示类型。**
+**1. Be sure that you are clear about what the purpose of the account is and the type of tweets that the organisation wants.**
 
 * Is it going to be a professional tone or more relaxed and fun.
 * Are there certain restrictions about what content you can tweet about such as not sharing data or results?
 
-**2. 2. 使用时间安排来延长您的推文**
+**2. Use scheduling to time your tweets**
 
 * This can be done through the Twitter web browser or by using a Twitter app such as Tweetdeck.
 * Tweetdeck is the only app owned by Twitter and it is free to use. But there are [other apps for all different platforms](https://www.reviewgeek.com/52119/the-best-twitter-apps-for-every-platform/), although you often have to pay for their services.
@@ -25,7 +25,7 @@ Many projects and organisations have their own Twitter account that is used for 
 * When you are responsible for multiple tweeter accounts, there is the possibility of miss tweeting. This is when you tweet out, for example, a personal tweet using an organisational account.
 * Tweetdeck has a feature that allows you to add a confirmation step to perform an extra check before tweeting. This helps to prevent this issue.
 
-**4. 4. 启用同一个帐户的多个用户**
+**4. Enabling multiple users of the same account**
 
 * Also on Tweetdeck, you can [set up an account as a team to allow multiple users to have different access](https://help.twitter.com/en/using-twitter/tweetdeck-teams).
 * There will be one person that is the admin for the account and then the other users are contributors.
