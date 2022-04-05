@@ -1,5 +1,5 @@
 (rr-make-debugging)=
-# Depuración de Makefiles
+# Debugging Makefiles
 
 Al escribir un Makefile, a veces puede ser útil para poder ver los valores de variables para capturar errores o errores en el Makefile. Para facilitar esto, Make contiene dos comandos: `info` y `error`, y hay un modo depuración para Make.
 
@@ -9,7 +9,7 @@ Con el comando `info` puedes imprimir el valor actual de una variable a stdout, 
 $(info $$DATA = $(DATA))
 ```
 
-Esto imprimirá `DATA = data/action.csv ... data/western.csv`.
+This will print `DATA = data/action.csv ... data/western.csv`.
 
 Con el comando `error` puedes detener la ejecución de Make en cierto punto en el Makefile. Esto es útil cuando desea imprimir el valor de una variable y no ejecutar Hacer más:
 
