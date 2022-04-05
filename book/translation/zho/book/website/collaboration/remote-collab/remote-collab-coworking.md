@@ -62,11 +62,11 @@ Like any event, coworking calls require planning, organising, hosting and making
 
 As the organiser/s of the event, you will be required to:
 
-**1. 1. 选择工具**
+**1. Choose the tools**
 
 The choice in regards to which tools you will use will depend on the purpose and scope of your calls. Please see the subchapter {ref}`Tools for Remote Collaboration<cl-remote-collab-tools>` to identify which tools will be most appropriate for communication, chats, shared documentation and scheduling.
 
-**2. 2. 计划和托管来电**
+**2. Plan and host the calls**
 
 As discussed earlier, you will need to agree upon dates and times with people who would like to participate in coworking calls. Your calls could be organised on a weekly or monthly basis that consistently takes place on a certain day and time, or it could be organised once in a while by finding a common availability.
 
@@ -78,7 +78,7 @@ Your main tasks as a host will be to:
 - Provide adequate support to the participants so they can make the best of their time. In _The Turing Way_ coworking calls, we find it useful to use breakout rooms when many people are working in small groups or if some people need more discussions, while others want to quietly work on their tasks.
 - Facilitate shared notes with participants before, during and after the call, so that they can keep track of useful resources or ideas they discuss during the coworking call.
 
-**3. 3. 创建一个安全和负责的空间**
+**3. Create a safe and accountable space**
 
 Though discussed last, this should be your highest priority.
 
