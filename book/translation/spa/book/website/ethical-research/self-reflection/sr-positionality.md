@@ -29,5 +29,5 @@ The Social Graces are a mnemonic to help cover aspects of identity that affect o
 The Graces are a helpful place to start thinking about your intersecting identities.
 
 It can also be helpful to ask:
-- ¿Con cuál de las Gracia Social me identifico particularmente? ¿Hay algunos que me destacaron enseguida? Are there some that stood out to me right away?
+- Which of the Social Graces do I particularly identify with? Are there some that stood out to me right away?
 - Which Social Graces did not stand out to me, and why might that be? 
