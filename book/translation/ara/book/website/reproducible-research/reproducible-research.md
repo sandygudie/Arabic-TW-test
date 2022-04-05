@@ -1,5 +1,5 @@
 (rr)=
-# دليل البحوث القابلة للتكرار
+# Guide for Reproducible Research
 
 ***This guide covers topics related to skills, tools and best practices for research reproducibility.***
 
