@@ -30,7 +30,7 @@ Looking at different aspects of research ethics. _The Turing Way_ project illust
 
  With no intention of doing justice to the vast literature that there is on the topic, we can take *Ethics* to be the subject of study of moral philosophy, which seeks --amongst other things -- to distinguish right from wrong. Nowadays, philosophers speak of three levels of discussion in ethics (Fieser, IEP): metaethics, normative ethics and applied ethics. Roughly, metaethics questions the nature of good and evil, as well as the underlying assumptions held by different ethical frameworks. Normative ethics, then, provides the tools for us to create such ethical frameworks and think within them. Applied ethics, finally, is what is most pertinent to this guide, as we will be discussing the ins and outs of ethical and responsible research and innovation.
 
- نبدأ هذا الفصل الاستهلالي بتوضيح لماذا *يهم أخلاقيات البحث* ثم نناقش مفهومين حاسمين يتعلقان بأخلاقيات البحث: *البحث المسؤول والابتكار* و *سلامة البحث*. Then we discuss two critical concepts relating with research ethics: *responsible research and innovation* and *research integrity*. We then unpick the ethical questions different questions each concept raises.
+ We begin this introductory chapter with clarifying why *research ethics* matters. Then we discuss two critical concepts relating with research ethics: *responsible research and innovation* and *research integrity*. We then unpick the ethical questions different questions each concept raises.
 
  ### Motivating Research Ethics
 
