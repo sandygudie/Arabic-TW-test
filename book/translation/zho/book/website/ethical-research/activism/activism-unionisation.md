@@ -4,7 +4,7 @@
 (er-activism-unionisation-what)=
 ## What is a union?
 
-A trade union is a formalised way for workers to organise and bargain collectively at an institutional, sectoral or national level. 工会分为分布在地理上（例如北伦敦）或在机构一级（例如）的分支机构。 Members of unions typically pay a monthly fee, although this is sometimes waived for certain categories of members, for example, the UK union UCU allows graduate students to join for free.
+A trade union is a formalised way for workers to organise and bargain collectively at an institutional, sectoral or national level. A union is organised into branches which are spread geographically (for example, North London) or at an institutional level (for example, labs or departments), depending on the distribution of members and how the union works. Members of unions typically pay a monthly fee, although this is sometimes waived for certain categories of members, for example, the UK union UCU allows graduate students to join for free.
 
 Some members take up additional responsibilities as "reps" or "shop stewards", helping to organise the running of branches, supporting members with workplace issues, and sometimes representing the branch at a national level. Larger unions often have full-time employees to support reps and workers, who are also responsible for areas such as developing union policy, press relations, and organising any large meetings for example, annual conferences.
 
@@ -67,7 +67,7 @@ alt: A blue enamel badge with AScW, that stands for Association of Scientific Wo
 AScW (stands for
 Association of Scientific Workers) badge. Image from the Instagram account [@BadgesofStruggle](https://www.instagram.com/badgesofstruggle/) *(text and image reproduced under CC-BY with permission from the account)*
 ```
-> The union began its history as the National Union of Scientific Workers in 1918, as a result of the rapid and increased class and professional consciousness, as well as politicisation of scientists in the wake of the First World War. In 1927 the name was changed to the AScW, and it continued as such until 1968 when it merged with the Association of Supervisory Staff, Executives and Technicians (ASSET) to form the Association of Scientific, Technical and Managerial Staffs (ASTMS) a precursor of MSF and ultimately Unite. 委员会及其几位主要人物都是受尊敬的科学家和活跃的社会主义者和共产党成员，如Hyman Levy和John Desmond Bernal。 Several Nobel Prize winners were members. The union organised scientists and technicians in government and private sector research, and became a prominent propagandist for the expansion of publicly funded R&D as well as taking political positions regarding the ethical use of science, against the global threat of fascism, and of guiding scientific research towards peaceful ends. The AScW went on to found the World Federation of Scientific Workers in 1946, an organisation which during the Cold War was accused of toeing the Soviet line, and being a communist front.
+> The union began its history as the National Union of Scientific Workers in 1918, as a result of the rapid and increased class and professional consciousness, as well as politicisation of scientists in the wake of the First World War. In 1927 the name was changed to the AScW, and it continued as such until 1968 when it merged with the Association of Supervisory Staff, Executives and Technicians (ASSET) to form the Association of Scientific, Technical and Managerial Staffs (ASTMS) a precursor of MSF and ultimately Unite. The union was established “with an explicitly socialist platform”, and several of its leading figures were both respected scientists and active socialists and Communist Party members, such as Hyman Levy and John Desmond Bernal. Several Nobel Prize winners were members. The union organised scientists and technicians in government and private sector research, and became a prominent propagandist for the expansion of publicly funded R&D as well as taking political positions regarding the ethical use of science, against the global threat of fascism, and of guiding scientific research towards peaceful ends. The AScW went on to found the World Federation of Scientific Workers in 1946, an organisation which during the Cold War was accused of toeing the Soviet line, and being a communist front.
 
 The AScW communicated with members via branch bulletins as well as a national paper: The Scientific Worker [Click here to read a copy on the Wellcome Archive](https://wellcomelibrary.org/item/b19915299#?c=0&m=0&s=0&cv=0&z=-0.8157%2C-0.0826%2C2.6314%2C1.6529)
 
@@ -76,7 +76,7 @@ The AScW communicated with members via branch bulletins as well as a national pa
 
 Start by finding out if there is a union already in your workplace. If so, there will be a person you can talk to about joining: they might be known as the union rep or steward. Joining the union that already represents people in your workplace increases its ability to bargain on behalf of everyone and organise the workplace. Some workplaces may have several different unions that represent different types of staff. In these cases, you should join the one you feel best matches the type of work you do.
 
-If there is not a union in your workplace, look into the unions that already exist in your area or country. [链接到工会示例](er-activism-unionisation-unionexamples) 您可能能够加入一个与您的行业或职责相关的部分：或者您可能能够加入一个代表许多不同工人的普通工会。
+If there is not a union in your workplace, look into the unions that already exist in your area or country. [link to section on examples of unions](er-activism-unionisation-unionexamples) You might be able to join one that is relevant to your industry or duties: or you might be able to join a general union that represents lots of different workers.
 
 To join a union, you might have to pay union fees or dues. These are almost always sliding scale, based on how much you earn: some unions also have free membership for people in certain positions or roles.
 
@@ -91,7 +91,7 @@ Once you are a member, you can attend meetings. Attending union meetings in your
 
 Like any organisations, unions have their own systems of governance and decision-making processes. These are ways for you to have a say in what your union is doing. You can get involved by voting for people to take on particular roles at workplace or industry level, proposing topics for debate in meetings, or contributing to ongoing debates. You might also be asked to vote on specific actions that your workplace union will take, including accepting or rejecting a policy proposal made by management.
 
-Your union may ask you for input about issues: these can range from things that are specific to your job or workplace, to issues that affect your whole industry. This input is valuable to help unions raise concerns and make changes. 您可以通过保密方式分享您的经验和意见 (如果您不确定您的工会正在使用的沟通渠道， 与要求输入的特定用户谈这个问题：您可以在需要时请求使用其他渠道。
+Your union may ask you for input about issues: these can range from things that are specific to your job or workplace, to issues that affect your whole industry. This input is valuable to help unions raise concerns and make changes. Your union should have a safe, confidential way for you to share your experiences and opinions (if you're not sure about the channels of communication your union is using, talk about this to the specific people who are asking for input: you can ask to use alternative channels if need be.)
 
 Your union may ask you to take specific actions: for example, to sign a petition, write to an elected official, or take part in a social media campaign. In some cases, your union may decide to consider or take strike action. The process for going on strike differs in different unions, and in some countries there are legal restrictions that cover what kinds of actions are protected.
 
@@ -148,7 +148,7 @@ We recognise that the list below is very UK-centric and would welcome additions 
 
 #### France
 * **Confédération Française Démocratique du Travail (CFDT)** is the largest French trade union confederation by number of members. It originated as a secular branch of the Christian trade union Confédération Française des Travailleurs Chrétiens (CFTC) [website](https://cfdt.fr/)
-* **Confédération Générale du Travail (CGT)** is the second largest French trade union by number of members. CGT 将其注意力集中在私营部门 [网站](https://www.cgt.fr/) 的工会活动。 The CGT is concentrating its attention to trade-unionism in the private sector [website](https://www.cgt.fr/)
+* **Confédération Générale du Travail (CGT)** is the second largest French trade union by number of members. The CGT is concentrating its attention to trade-unionism in the private sector [website](https://www.cgt.fr/)
 * **Confédération Générale du Travail-Force Ouvrière (CGT-FO)** was founded by former members of the General Confederation of Labor (CGT) who accused that federation to be influenced by the French Communist Party [website](https://www.force-ouvriere.fr/?lang=fr)
 * **Confédération Française de l’Encadrement-Confédération Générale des Cadres (CFE-CGC)** is solely focused on organising unions for professional employees having higher education or in management or executive positions [website](https://cfecgc.org/)
 
@@ -162,7 +162,7 @@ We recognise that the list below is very UK-centric and would welcome additions 
 #### Spain
 * **Unión General de Trabajadores (UGT)** is a major Spanish trade union, historically affiliated with the Spanish Socialist Workers' Party (PSOE) [website](https://www.ugt.es/)
 * **Confederación Sindical de Comisiones Obreras (CCOO)** is the second largest union in Spain and is the most successful one in labor elections [website](https://www.ccoo.es/)
-* **Federacion de Jovenes Investigadores (FJI-Precarios)** 侧重于改善年轻研究人员的劳动条件。 维护研究专业的尊严，全面改善西班牙的科学状况 [网站](http://precarios.org/Qui%C3%A9nes+somos)
+* **Federacion de Jovenes Investigadores (FJI-Precarios)** is focused on improving the labour conditions of young researchers, defending the dignity of the research profession, and overall, improving the situation of science in Spain [website](http://precarios.org/Qui%C3%A9nes+somos)
 
 
 #### United States
