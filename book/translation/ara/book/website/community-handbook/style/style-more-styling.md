@@ -4,11 +4,11 @@
 Jupyter Book offers more options for styling its chapters and creating a more comprehensive book. In this subchapter, we discuss a few more features that we recommend using in _The Turing Way_.
 
 (ch-style-more-features-glossary)=
-## crwdns4381:0crwdne4381:0
+## Glossary
 
-_طريق الترقيق_ لديه مسرد {ref}`` ملف موجود في ما بعد كلمة الكتاب، وتشمل تعاريف مصطلحات مختلفة مرتبة أبجديا. This file can be updated with the definitions of new terms, which can then be linked to any chapter in the book where this term occurs.
+_The Turing Way_ has a {ref}`glossary` file located in the Afterword of the book, which comprises of definitions of different terms in alphabetical order. This file can be updated with the definitions of new terms, which can then be linked to any chapter in the book where this term occurs.
 
-1 - إضافة بند لفترة جديدة، يرجى الانتقال إلى القسم الأبجدي الأيمن من ملف المسرد {ref}`` واستخدام الجملة التالية:
+To add an entry for a new term, please jump to the right alphabetical section of the {ref}`glossary` file and use the following syntax:
 
 ```
 New Term-1
@@ -35,7 +35,7 @@ Authors
 
 To reference terms in your glossary, use the syntax ``[{term}`def<Term>`]``.
 
-على سبيل المثال، لربط مصطلح 'المؤلف`بالتعريف الوارد في ملف المسرد، الرجاء استخدام بناء الجملة ``[{term}`def
+For example, to link the term 'Authors' to its definition in the glossary file, please use the syntax ``[{term}`def<Authors>`]`` next to where this term appears, which should render online like this: "*Authors [{term}`def<Authors>`] has been referenced here.*"
 
 (ch-style-more-features-blocks)=
 ## Special Content Blocks
