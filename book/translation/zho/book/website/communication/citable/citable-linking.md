@@ -9,12 +9,12 @@ Linking your data, code and article will ensure that you receive **credit** for 
 2) Keep the Research Object closed until the article is published.
 
 (cm-citable-linking-open)=
-## 1. 1. 打开研究对象
+## 1. Open the Research Objects
 
-The easiest way to connect your dataset to your publication is to publish the dataset first (for example, at the same time as the **preprint**). This will provide you with the correct information for your **Data Availability Statement** and your references (see {ref}`Citing Data<cm-citable-cite-data>`), and will allow reviewers to include the dataset in their review. 如果需要根据审核过程进行任何调整，您常常可以上传一个新版本的数据集(见 [Zenodo](https://zenodo.org/), [数字共享](https://figshare.com/), [4TU。 esearchData](https://data.4tu.nl/info//en/) 这将为您提供最新版本的 DOI 和一些仓库(例如Zenodo) 允许您拥有一个规范的 DOI ，从而总是指向最新版本的数据集)。 See {ref}`cm-citable-steps-doi` for more information about DOIs. Remember that the contributors and date of deposition are publicly available, making it unlikely that others will 'scoop' you. But if you are hesitant about opening up your dataset before the article is published, you can either publish the dataset under restricted access, under embargo, or reserve a DOI in advance and publish the Research Object later.
+The easiest way to connect your dataset to your publication is to publish the dataset first (for example, at the same time as the **preprint**). This will provide you with the correct information for your **Data Availability Statement** and your references (see {ref}`Citing Data<cm-citable-cite-data>`), and will allow reviewers to include the dataset in their review. If any adjustments are needed based on the review process you can often upload a new version of the dataset (see for example [Zenodo](https://zenodo.org/), [Figshare](https://figshare.com/), [4TU.ResearchData](https://data.4tu.nl/info//en/)). This will provide you with a new DOI for the latest version, and some repositories (such as Zenodo) allow you to have a canonical DOI that will always point to the latest version of the dataset). See {ref}`cm-citable-steps-doi` for more information about DOIs. Remember that the contributors and date of deposition are publicly available, making it unlikely that others will 'scoop' you. But if you are hesitant about opening up your dataset before the article is published, you can either publish the dataset under restricted access, under embargo, or reserve a DOI in advance and publish the Research Object later.
 
 (cm-citable-linking-closed)=
-## 2. 2. 关闭研究对象
+## 2. Keep the Research Objects closed
 
 ### Publish the Research Objects under restricted access
 
