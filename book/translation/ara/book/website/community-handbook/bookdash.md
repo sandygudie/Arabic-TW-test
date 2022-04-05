@@ -3,7 +3,7 @@
 
 _The Turing Way_ [Book Dash events](https://the-turing-way.netlify.app/community-handbook/bookdash.html) are a less intense version of [Book Sprints](https://en.wikipedia.org/wiki/Book_sprint), where participants collaboratively work on _The Turing Way_ book synchronously to develop new chapters and review/edit existing ones to make them more accessible, comprehensive and up-to-date. They also contribute to enhancing the project by improving the ways we work in the community and take the lead on accomplishing different tasks or subprojects.
 
-In the past, we have organised 1-2 days long Book Dash events in person or in a hybrid format, where one of the participants coordinated with their team remotely. However, to ensure that international participants have an equal chance to join and address the challenges of hosting in-person events during the COVID-19 pandemic, we started hosting Book Dashes virtually. These virtual Book Dashes are five days long, designed for flexible participation by members in different time zones. ويمكن للمشاركين أن يختاروا كل يوم دورة عمل مشتركة قصيرة مدتها 2.5 ساعة أو أكثر بناء على توافرها، بدلا من أن يلتزموا طوال يوم عملهم. In the future, we will co-design hybrid events with "online-first" approach for the Book Dash attendees who will have the opportunity to organise small local meet-ups for collaboration and social events.
+In the past, we have organised 1-2 days long Book Dash events in person or in a hybrid format, where one of the participants coordinated with their team remotely. However, to ensure that international participants have an equal chance to join and address the challenges of hosting in-person events during the COVID-19 pandemic, we started hosting Book Dashes virtually. These virtual Book Dashes are five days long, designed for flexible participation by members in different time zones. Meaning, rather than committing their entire working day, participants can choose one or multiple 2.5 hours short collaborative co-working calls, called "contribution sessions" each day based on their availability. In the future, we will co-design hybrid events with "online-first" approach for the Book Dash attendees who will have the opportunity to organise small local meet-ups for collaboration and social events.
 
 ```{figure} ../figures/first-pull-request.png
 ---
@@ -17,52 +17,52 @@ _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licen
 
 ## Inviting Diverse Contributions
 
-للمشاركين الذين يحضرون لوحة الكتب عن بعد:
+Our Book Dash attendees are:
 - First time Book Dash attendees who have previously interacted with the project or community who send in their application describing where/how in the project and community they would like to contribute. See the {ref}`eligibility<ch-bookdash-eligibility>` section for details.
 - Previous Book Dash attendees to express their interest to participate again as a contributors, members of planning committee and/or mentors. Book Dash mentors facilitating other attendees' contributions in one or multiple of the contribution sessions based on their interest and availability.
 
-كدليل موجه للمجتمع المحلي، _طريق الترقيق_ يهدف إلى الاشتراك في إنشاء محتويات تكون مفهومة ومفيدة لمجتمع أوسع من علماء البيانات والباحثين. ومن ثم، _طريق التوريق_ يرحب على وجه التحديد بالمساهمين من مختلف المجالات، الهويات، وخلفيات يمكن أن تقترح أفكاراً وتعمل على جوانب جديدة من فصل قائم أو أن تنشئ فصولاً جديدة في دليله.
+As a community-driven guidebook, _The Turing Way_ aims to co-create contents that are comprehensible and beneficial for the wider community of researchers, data scientists and individuals working in research infrastructure roles. Hence, _The Turing Way_ specifically welcomes contributors from diverse fields, identities, and backgrounds who can propose ideas and work on new aspects of an existing chapter or create new chapters in its guides.
 
-وتدار جميع المساهمات من خلال GitHub. بما أن العديد من المشاركين في كتاب داش الكتاب هم أعضاء جدد في المجتمع، وكثيراً ما يكونون مستخدمين جدد لشركة GitHub، أعضاء الفريق يتأكدون من أنهم يستغرقون وقتاً لتقديم المشروع ويدرسون التعاون من خلال GitHub قبل كتاب Dash.
+All the contributions are managed through GitHub. Since many participants of the Book Dash are relatively new community members, and often new users of GitHub, the team members make sure that they take time to introduce the project and teach collaboration through GitHub before the Book Dash.
 
-وتشمل المهارات والمساهمات التي ندعوها في كتاب Dash، على سبيل المثال لا الحصر، ما يلي:
+The skills and contributions that we invite at the Book Dash include, but are not limited to:
 
-- ويقدم الدعم المالي لجميع المشاركين الذين يحتاجون إلى السفر إلى مكان الحدث لتغطية تكاليف سفرهم، • بناء القدرات في مجال رعاية الأطفال والمصروفات ذات الصلة مثل رعاية الأطفال أو المتطلبات الخاصة المتعلقة بإمكانية الوصول.
-- في الماضي، بسبب نموذج التمويل لـ _طريق التوريق_، كان علينا أن نقصر اختيارنا على المساهمين داخل البلدان الأوروبية.
-- تحرير المحتوى الحالي ومراجعته.
-- • الأدوات والأساليب التقنية في مجال علوم البيانات.
-- الاهتمام بإنشاء محتوى بشأن بناء المجتمع المحلي والتعاون.
-- • تطوير موارد التعلم والمحتوى القابل لإعادة الاستخدام بشأن الأخلاقيات والمعلومات.
-- المهارات الفنية للرسوم التوضيحية، ورسائل الرسم، والرسوم البيانية.
-- تعزيز جوانب الكتاب على الإنترنت (على سبيل المثال، CSS والتخطيط، والتفاعل، والتكامل المستمر).
-- • تحسين إمكانية الوصول إلى المحتوى وتقاسم مبادئ تيسير الوصول في مجال علم البيانات.
-- مهارات تصوير البيانات وأفضل الممارسات.
-- مهارات سرد القصص التي يمكن أن تساعد على جعل محتوانا أكثر انخراطا.
+- Science communication and technical writing skills.
+- Examples and case studies of reproducible research.
+- Editing and reviewing of existing content.
+- Technical tools and methods in data science.
+- Interest in creating content on community building and collaboration.
+- Developing learning resources and reusable content on ethics and AI.
+- Artistic skills for illustrations, sketch notes, and infographics.
+- Enhancing online aspects of the book (for example, CSS, layout, interactivity, continuous integration).
+- Improving accessibility of the content and sharing accessibility principles in data science.
+- Data visualisation skills and best practices.
+- Storytelling skills that can help make our content more engaging.
 
 (ch-bookdash-eligibility)=
-## من يجب أن يتقدم بالطلب للانضمام إلى دفتر الكتاب
+## Eligibility: Who Should Apply to Join the Book Dash
 
-نريد أن ندعم المشاركين في الاستفادة إلى أقصى حد من أحداث داش الكتاب هذه. ولذلك، نشجع الطلبات المقدمة من أعضاء مجتمعنا، بما في ذلك المساهمون الجدد والقائمون على حد سواء. نريد أن يعرف مقدمو الطلبات عن _طريق التوريق_، كيف نعمل بشكل تعاوني ولدينا فكرة جيدة عن كيفية إسهامهم في مواردنا.
+We want to support participants in getting the most out of these Book Dash events. Therefore, we encourage applications from members of our community, including both new and existing contributors. More specifically, we want applicants to know about _The Turing Way_, how we work collaboratively and have a good idea of how they can contribute to our resources.
 
-This does not mean that you must have contributed to the project before - it is more about having used the project and/or interacted with our community in some way, such as during a community event or via our GitHub repository. Some familiarity with the project and how we work in the community will help our participants collaborate during the Book Dash more easily, even if this is with the support of more experienced community members. وإذا كنت قد سبق أن ساهمت في مشروع تعاوني أو كان لديكم اقتراح محدد للمساهمة فيهم، فإنك مشجَّع بشدة على تقديم الطلب. يمكنك الاتصال بأحد المساهمين الأساسيين الذين يمكنهم مساعدتك في تشكيل فكرتك عن طريق تحديد أين وكيف يتناسبون مع الرؤية الأكبر للمشروع.
+This does not mean that you must have contributed to the project before - it is more about having used the project and/or interacted with our community in some way, such as during a community event or via our GitHub repository. Some familiarity with the project and how we work in the community will help our participants collaborate during the Book Dash more easily, even if this is with the support of more experienced community members. If you have previously contributed to a collaborative project or have a specific proposal for contribution in mind, you are highly encouraged to apply. Do get in touch with one of the core contributors who can help you shape your idea by identifying where and how they fit in the bigger vision of the project.
 
-إذا لم تكن قد تفاعلت مع مجتمعنا من قبل، ولكن تريد المشاركة في داش الكتاب، يرجى الانضمام إلى أحد أحداث مجتمعنا مثل [جلسات العمل المشتركة](https://the-turing-way.netlify.app/community-handbook/coworking/coworking-weekly.html) أو [مقهى التعاون](https://the-turing-way.netlify.app/community-handbook/coworking/coworking-collabcafe.html#ch-coworking-collabcafe). بهذه الطريقة، ستحصل على معرفة عن مشروعنا وتفهم المزيد عن كيفية المساهمة خلال لوحة كتاب.
+If you have not interacted with our community before, but want to take part in a Book Dash, please join one of our community events such as {ref}`Co-working calls<ch-coworking-weekly>` call or {ref}`Collaboration Cafés<ch-coworking-collabcafe>`,. This way, you will get to know about our project and understand more about how you could contribute during a Book Dash.
 
 ## Support In-Person, Hybrid and Remote Participation
 
-وقد تم تنظيم نشرات كتابية سابقة للمشاركة الشخصية في أماكن تقع في المملكة المتحدة (البلد الأصلي للمشروع)، كأحداث هجينة، أو على الإنترنت كلياً.
+Previous Book Dashes have been organised for in-person participation in venues located in the UK (home country of the project), as hybrid events, or entirely online.
 
-**بالنسبة للمشاركين الذين يحضرون نشرة الكتاب شخصياً:**
+**For participants attending a Book Dash in person:**
 * All the participants who need to travel to the event's venue are offered financial support to cover their travel, accommodation, and related expense such as childcare or special accessibility requirements.
 * In the past, due to the funding model of _The Turing Way_, we had to limit our selection to the contributors within European countries.
 
 **For participants attending a Book Dash remotely:**
-* وقد قمنا بتجربة المشاركة الهجينة (البعيدة الجزئية) حيث قام أحد المشاركين بالتنسيق مع فريقهم عن بعد. واستناداً إلى نجاح هذا الشكل المختلط والطلب الإضافي على المزيد من المشاركة عن بُعد، لقد شهدنا حدثين افتراضيين لم يشتركا في السفر. وفي المستقبل، ونهدف إلى تجريب شكل محاور متعددة تسمح لمجموعات صغيرة متعددة في جميع أنحاء العالم بأن تجتمع شخصيا بينما تعمل بالتزامن مع مساهمين دوليين آخرين عن بعد.
-* ويتاح الدعم المالي لدعم احتياجات المشاركين من إمكانية الوصول عن بعد في نشرات الكتاب الهجينة والنائية تماما. وهي تشمل (دون أن تقتصر على) الوصول المؤقت إلى شبكة الإنترنت العالية السرعة، ومنحة رعاية الطفل، والنشر الحي أثناء الحدث. وهذه المنح متاحة أيضا لاستئجار أو شراء معدات صغيرة مثل سماعات الرأس أو كاميرا الويب لتعزيز الخبرة العامة للمشاركين.
-* كما أن هناك دعماً مالياً لتكاليف المعيشة مثل شراء الوجبات الغذائية أو العلاج للمناسبات الاجتماعية على شبكة الإنترنت خلال كتاب Dash.
+* We have experimented with hybrid (partial remote) participation where one of the participants coordinated with their team remotely. Based on the success of this hybrid format and further demand for more remote participation, we have had two virtual events that did not involve travel. In the future, we aim to experiment with a multi-hub format allowing multiple small groups across the globe to meet in person as they work synchronously with other international contributors remotely.
+* Financial support is made available to support the remote accessibility requirements of the participants at hybrid and fully remote Book Dashes. It includes (but not be limited to) temporary access to high-speed internet, childcare grant and live transcription during the event. These bursaries are also available for rent or purchasing small hardware such as headphones or webcam to enhance participants overall experience.
+* There is also financial support for subsistence costs such as buying meals or treat for the online social events during the Book Dash.
 
 ## More Resources on Book Dash
 
-في هذا الفصل، نناقش تطبيق {ref}`<ch-bookdash-application>`، {ref}`التحضير للحدث واختيار المشاركين<ch-bookdash-preparation>` و {ref}`التحضير للحدث<ch-bookdash-events>` عمليات.
+In this chapter, we discuss the {ref}`application<ch-bookdash-application>`, {ref}`event preparation and participant selection<ch-bookdash-preparation>` and {ref}`event preparation<ch-bookdash-events>` processes.
 
-يتم توفير جميع القوالب المرتبطة بتجزئة الكتب في {ref}`مجموعة قالب المجتمع<ch-templates>`.
+All the templates related to book dash is provided in the {ref}`community template collection<ch-templates>`.
