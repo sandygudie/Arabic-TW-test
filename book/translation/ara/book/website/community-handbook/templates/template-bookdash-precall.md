@@ -79,18 +79,21 @@ We would like to help create some plans and topics they you would like to explor
 - We also recognise - and celebrate the fact - that plans may change once you meet the other participants!
 
 
-إعداد أهدافنا الشخصية سيساعدنا على الإعداد بشكل أفضل لمشاركتك:
-- **S**<unk> fic: إنهم يحددون بدقة ما تريد إنجازه وعادة ما يجيبون على 5 WW (من الذي هو؟ What? Where? When? Why?)
+Setting our personal goals will help us prepare better for your participation:
+- **S**pecific: They precisely spell out what you want to accomplish and usually answer the 5 Ws (Who? What? Where? When? Why?)
 - **M**easurable: They provide a specific indicator of success.
 - **A**ttainable: They are realistic.
 - **R**elevant: They are important and practical.
 - **T**ime-bound: They specify a deadline for when the goal will be met.
 
-*نحن نستخدم [هذا القالب](https://freespiritpublishingblog.com/wp-content/uploads/2015/08/setting-smart-goals.pdf) من قبل Danielle R. Schultz (2015). <! -COPY IT BELOW-->
+*We are using [this template](https://freespiritpublishingblog.com/wp-content/uploads/2015/08/setting-smart-goals.pdf) by Danielle R. Schultz (2015).*
+
+<!--COPY IT BELOW-->
 
 > [name=Name]
-> **S**<unk> fic: ماذا أريد أن أنجز؟ > **M**easuraable: كيف يمكنني قياس نجاحي؟:
-> **A**table: هل يمكنني تحقيق هذا الهدف بشكل واقعي؟ What steps will I take?
+> **S**pecific: What do I want to accomplish?:
+> **M**easurable: How will I measure my success?:
+> **A**ttainable: Can I realistically achieve this goal? What steps will I take?
     > step 1:
     > step 2:
     > step 3:
