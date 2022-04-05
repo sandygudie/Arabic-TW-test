@@ -1,50 +1,51 @@
 (ch-template-bookdash-github)=
-# Reservar sessão no GitHub
+# Book Dash GitHub Session
 
-*Este modelo pode ser compartilhado através de uma página HackMD para facilitar uma sessão pré-evento do GitHub para os participantes do Book Dash. A permissão de acesso pode ser configurada para que as notas possam ser lidas por todos e editadas pelos usuários que estão acessando.*
+*This template can be shared via a HackMD page to facilitate a pre-event GitHub session for the Book Dash participants. The access permission can be set so that the notes can be read by everyone and edited by signed-in users.*
 
 ```
-# Painel de Livros, Mês DD YYYY - Sessão GitHub
+# Book Dash, DD Month YYYY - GitHub Session
 
-###### tags: `bookdash YYYY` `mês` `evento`
+###### tags: `bookdash YYYY` `month` `event`
 
-==Se você é novo no HackMD, veja este guia curto: [https://hackmd. o/@turingway/hackmd-guide](https://hackmd. o/@turingway/hackmd-guide)==
+==If you are new to HackMD, please see this short guide: [https://hackmd.io/@turingway/hackmd-guide](https://hackmd.io/@turingway/hackmd-guide)==
 
-::info
-- **Data:** Mês DD <--- Atualizar isto
-- **Horário:** 16:00 - 17:00 London time ([no seu fuso horário](https://arewemeetingyet. om/Londres/YYYY-MM-DD/16:00)) <--- Atualizar isso
-- **Hosts:** (Adicionar nome) <--- Atualizar este
-- Junte-se à reunião do Zoom: (Adicionar link) <--- Atualizar este
+:::info
+- **Date:** DD Month <--- Update this
+- **Time:** 16:00 - 17:00 London time ([in your time zone](https://arewemeetingyet.com/London/YYYY-MM-DD/16:00)) <--- Update this
+- **Hosts:** (Add name) <--- Update this
+- Join Zoom Meeting: (Add link) <--- Update this
 :::
 
-**Antes desta reunião:**
+**Before this meeting:**
 
-- Confira o [Friendly GitHub Intro](https://kirstiejane. ithub. o/friendly-github-intro/)
+- Check the [Friendly GitHub Intro](https://kirstiejane.github.io/friendly-github-intro/)
 
-**Nesta chamada**
-, vamos te dar uma alternativa de 1 hora no GitHub tutorial:
+**At this call**
+we will give you an optional 1 hour GitHub tutorial:
 
-- Criar um novo repositório
-- Criar um arquivo LEIAME
-- Escrevendo em Markdown
-- Enviar alterações (para _The Turing Way_) via Pull Request (PR)
-- demonstração: Review PR, Review PR, Crie a issue
+- Creating a new repository
+- Creating a README file
+- Writing in Markdown
+- Submit changes (to _The Turing Way_) via Pull Request (PR)
+- demo: Review PR, Create issue
 
-## Cadastre-se abaixo adicionando o seu nome
+## Sign up below by adding your name
 
-Nome / Instituto ou afiliação / Que aspecto específico do GitHub você acha desafiador?
+Name / Institute or affiliation / What specific aspect of GitHub do you find challenging?
 * 
 * 
+* 
 
+🗣️ Welcome!
 
-🗣️ Bem-vindo!
-
-- Lembrete: [Diretrizes de conduta & participação da comunidade](https://the-turing-way.netlify.app/community-handbook/coc. tml)
-- Se você experimentar ou testemunhar comportamentos inaceitáveis, ou tem outras preocupações, por favor, comunique-o entrando em contacto com os organizadores - Malvika e Kirstie. ([theturingway@gmail.com](mailto:theturingway@gmail.com)).
+- Reminder: [Code of conduct & community participation guidelines](https://the-turing-way.netlify.app/community-handbook/coc.html)
+- If you experience or witness unacceptable behaviour, or have any other concerns, please report it by contacting the organisers - Malvika and Kirstie. ([theturingway@gmail.com](mailto:theturingway@gmail.com)).
 
 ### Roll call
 
-- Name / Icebreaker question: Share something from nature that has awed you or brought you peace recently - perhaps a flower, a view, a photo, a scent, a potted plant, a bird that flew past... * 
+- Name / Icebreaker question: Share something from nature that has awed you or brought you peace recently - perhaps a flower, a view, a photo, a scent, a potted plant, a bird that flew past... 
+* 
 * 
 *  
 
@@ -78,7 +79,9 @@ Nome / Instituto ou afiliação / Que aspecto específico do GitHub você acha d
   - 
   -
 
-**Feedback** What worked? O que não funcionou? Que apoio adicional você precisaria antes ou durante o Dash?
+**Feedback**
+
+What worked? What did not work? What additional support would you need before or during the Book Dash?
 
 -
 -
