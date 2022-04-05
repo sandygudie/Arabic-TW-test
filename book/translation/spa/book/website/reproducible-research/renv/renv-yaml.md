@@ -9,19 +9,20 @@ YAML is an indentation-based markup language which aims to be both easy to read 
 A YAML file defining a computational environment might look something like this:
 
 ```
-# Define el sistema operativo como Linux
+# Define the operating system as Linux
 os: linux
 
-# Utilice la distribución xenial de Linux
+# Use the xenial distribution of Linux
 dist: xenial
 
-# Utilice el lenguaje de programación Python
+# Use the programming language Python
 language: python
 
-# Utilice la versión de Python 3. python: 3.2
+# Use version of Python 3.2
+python: 3.2
 
-# Usa el paquete Python numpy y usa la versión 1. 6.1
-paquetes:
+# Use the Python package numpy and use version 1.16.1
+packages:
   numpy:
     version: 1.16.1
 ```
