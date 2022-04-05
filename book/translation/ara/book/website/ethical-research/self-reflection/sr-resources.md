@@ -15,7 +15,7 @@ Some of these resources refer to qualitative research but are widely applicable 
 
 * Jacobson, D. and Mustafa, N. (2019) [Social identity map: A reflexivity tool for practicing explicit positionality in critical qualitative research](https://journals.sagepub.com/doi/full/10.1177/1609406919870075) {cite:ps}`jacobson2019social`
 
-* Holmes, A.G.D. هولمز، أ. (2020) [موقف الباحث - الاعتبار لتأثيره ومكانه في البحث النوعي - دليل الباحث الجديد.](https://files.eric.ed.gov/fulltext/EJ1268044.pdf) {cite:ps}`Holmes2020باحث`
+* Holmes, A.G.D. (2020) [Researcher Positionality - A consideration of its influence and place in qualitative research - a new researcher guide.](https://files.eric.ed.gov/fulltext/EJ1268044.pdf) {cite:ps}`holmes2020researcher`
 
 ## Further reading on positionality and reflexivity in science
 
@@ -23,7 +23,7 @@ Some of these resources refer to qualitative research but are widely applicable 
 
 * Ricker, B. (2017) [Reflexivity, Positionality and Rigor in the Context of Big Data Research](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2911652) {cite:ps}`ricker2017reflexivity`
 
-* Gebru, T. et al. (2018) [صحائف بيانات لمجموعات البيانات](https://www.microsoft.com/en-us/research/uploads/prod/2019/01/1803.09010.pdf) {cite:ps}`gebru2018datashets`
+* Jafar, A.N.J. (2018) [What is positionality and should it be expressed in quantitative studies?](https://emj.bmj.com/content/35/5/323) {cite:ps}`jafar2018positionality`
 
 * Costanza-Chock, S., (2020) [Design Justice: Community-Led Practices to Build the World We Need](https://design-justice.pubpub.org/) {cite:ps}`costanza2020design`
 
