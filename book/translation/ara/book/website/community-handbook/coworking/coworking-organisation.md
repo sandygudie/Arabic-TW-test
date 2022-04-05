@@ -11,7 +11,7 @@ To identify what could be the best format for your coworking calls, you need to 
 
 **Purpose of your coworking calls**
 
-في _طريق الترقيق_، كما هو مبين في فصل الدوافع {ref}`<ch-coworking-motivation>` فرعي، نحن نستضيف هذه الدعوات لبناء الاتصالات، ودعم المساهمين فينا، ونبدأ بالصعود إلى أعضاء جدد ونحتفل بعملهم.
+In _The Turing Way_, as described in the {ref}`motivation <ch-coworking-motivation>` subchapter, we host these calls for building connections, supporting our contributors, onboarding new members and celebrating their work.
 
 Your purpose for hosting coworking calls could be completely different and identifying that is important for you to plan the remaining logistics. A few other scenarios could be:
   - If you work from home, you would like to see your colleagues and stay connected with them through designated coworking schedules.
