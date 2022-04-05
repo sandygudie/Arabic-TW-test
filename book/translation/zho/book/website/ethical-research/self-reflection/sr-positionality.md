@@ -3,8 +3,8 @@
 
 Traditional science training may lead us to believe that it is possible to analyse and interpret data objectively. This tends to be because most sciences, and data, are often seen as being inherently neutral. However, we know now that the way data is collected, recorded and used can create significant problems for fairness, accountability and bias in data science systems. For example, we might choose training data for a model without thinking to consider whether it is representative in a particular way, or we might not consider whether a data visualisation is accessible to people with color blindness.
 
-Some schools of thought say that true objectivity is impossible because every person comes with their own lived experiences. This provides the lenses through which we see the world and influences the way we behave, including how we do research. 这些因素可能是像我们解决某个特定问题的动机那样的“宏观”影响，或是像我们在数字上代表社会概念的方式那样的“微观”影响。   
-虽然对我们所有人体验世界的个别方式有许多好处， 每个人所采取的单一观点也可能使我们的想法和工作方式中含有未见到的偏见。
+Some schools of thought say that true objectivity is impossible because every person comes with their own lived experiences. This provides the lenses through which we see the world and influences the way we behave, including how we do research. These could be 'macro' influences like our motivations to address a particular problem, or 'micro' like the way we numerically represent a social concept.  
+While there are lots of benefits to the individual ways we all experience the world, the single view each person takes can also embed unseen biases into how we think and work.
 
 By better understanding ourselves, we can be more proactive about spotting where we might hold biases or gaps in our knowledge. This means we can be transparent about how our unique view has influenced the way we work, which is beneficial to scientific integrity and reproducibility. It can also help us to identify and work against systemic and structural barriers that might otherwise go unchallenged, in order to make our research environments more inclusive (see {ref}`Activism<er-activism>`).
 
