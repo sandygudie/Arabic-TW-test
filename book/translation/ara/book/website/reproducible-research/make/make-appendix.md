@@ -1,38 +1,38 @@
-(ص-ماكي-تذييل)=
-# تذييل
+(rr-make-appendix)=
+# Appendix
 
-(r-make-pendix-dag)=
-## الرسم البياني المعجّل الموجه
+(rr-make-appendix-dag)=
+## Directed Acyclic Graph
 
-الرسم البياني للموسيقى (DAG) هو *رسم بياني* من العقد والحواف التي هي:
+A Directed Acyclic Graph (DAG) is a *graph* of nodes and edges that is:
 
 1. *الموجه*: الحواف لها اتجاه ويمكنك فقط المشي على الرسم البياني في ذلك الاتجاه
-2. *المعقل*: لا يحتوي على دورات: A لا يمكن أن يعتمد على B عندما يعتمد B على A.
+2. *acyclic*: does not contain cycles: A can't depend on B when B depends on A.
 
-وبالطبع فإن هذه الممتلكات الأخيرة مفيدة جدا لنظام البناء. يمكن العثور على المزيد من المعلومات حول DAGs على [ويكيبيديا](https://en.wikipedia.org/wiki/Directed_acyclic_graph).
+The latter property is of course quite handy for a build system. يمكن العثور على المزيد من المعلومات حول DAGs على [ويكيبيديا](https://en.wikipedia.org/wiki/Directed_acyclic_graph).
 
-(r-make-appendix-installing)=
-## تثبيت الصنع
+(rr-make-appendix-installing)=
+## Installing Make
 
-أولا، تحقق مما إذا كان لديك غنو اصنع مثبت بالفعل. في النوع النهائي:
+First, check if you have GNU Make installed already. In a terminal type:
 
 ```bash
-صنع $
+$ make
 ```
 
-إذا حصلت على `صنع: الأمر غير موجود` (أو مماثل)، ليس لديك أي صنع. إذا حصلت على `صنع: *** لا توجد أهداف محددة ولم يتم العثور على مكان مؤقت.  توقف.` أنت لديها صنع.
+If you get `make: command not found` (or similar), you don't have Make. إذا حصلت على `صنع: *** لا توجد أهداف محددة ولم يتم العثور على مكان مؤقت.  توقف.` أنت لديها صنع.
 
-سنستخدم **غنو اصنع** في هذا البرنامج التعليمي. تحقق من أن هذا ما لديك عن طريق الكتابة:
+We'll be using **GNU Make** in this tutorial. تحقق من أن هذا ما لديك عن طريق الكتابة:
 
 ```bash
-إصدار $ --الإصدار
+$ make --version
 ```
 
 إذا لم يكن لديك غنو صنع ولكن لديك إصدار BSD ، قد لا تعمل بعض الأشياء كما هو متوقع ونوصي بتثبيت GNU Make.
 
-لتثبيت GU Mak، يرجى اتباع هذه التعليمات:
+To install GNU Make, please follow these instructions:
 
-- **Linux**: استخدم مدير الحزمة لتثبيت Make. على سبيل المثال على Arch Linux:
+- **Linux**: Use your package manager to install Make. على سبيل المثال على Arch Linux:
 
   ```bash
   $ sudo pacman -S make
@@ -40,30 +40,30 @@
 
   Ubuntu:
   ```bash
-  $ تثبيت sudo apt-get الضروري للبناء
+  $ sudo apt-get install build-essential
   ```
 
-- **MacOS**: إذا كان لديك [Homebrew](https://brew.sh/) مثبت، فهي بسيطة:
+- **MacOS**: If you have [Homebrew](https://brew.sh/) installed, it's simply:
 
   ```bash
-  التثبيت $ لتثبيت البقر
+  $ brew install make
   ```
 
   إذا كان لديك تنفيذ مدمج، فيرجى التأكد من أنها تصنع جنو عن طريق التحقق من `اجعل --الإصدار`.
 
-(r-make-appendix-Advcedgr)=
-## المتقدم: توليد القواعد باستخدام المكالمة
+(rr-make-appendix-advancedgr)=
+## Advanced: Generating Rules using Call
 
 *يواصل هذا القسم البرنامج التعليمي أعلاه ويعرض ميزة صنع للإنشاء التلقائي للقواعد.*
 
 في خط أنابيب علوم البيانات، قد يكون من الشائع تطبيق برامج نصية متعددة على نفس البيانات (على سبيل المثال عندما تقارن الأساليب أو تختبر معلمات مختلفة). في هذه الحالة، قد يصبح من الممل كتابة قاعدة منفصلة لكل نص نصي عندما يتغير اسم البرنامج النصي فقط. لتبسيط هذه العملية ، يمكننا أن نجعل توسيع ما يسمى [*المعلبة* وصفة](https://www.gnu.org/software/make/manual/make.html#Canned-Recipes).
 
-للمتابعة، قم بالتبديل إلى فرع `المعلب`:
+To follow along, switch to the `canned` branch:
 
 ```bash
-$ جعل
-$ git Stsh --كل # لاحظ العلم '--all' لذلك نحن أيضًا نضع Makefile
-$ git معلّقة
+$ make clean
+$ git stash --all        # note the '--all' flag so we also stash the Makefile
+$ git checkout canned
 ```
 
 على هذا الفرع ستلاحظ أن هناك برنامج نصي جديد في **البرامج النصية** الدليل المسمى `generate_qplot.py`. يعمل هذا البرنامج النصي بشكل مماثل لـ `Generate_histogram. y` سكريبت (يحتوي على نفس بناء سطر الأوامر)، ولكن يولد [Q-plot](https://en.wikipedia.org/wiki/Q%E2%80%93Q_plot). ملف **report.tex** تم تحديثه أيضا لدمج هذه المخططات.
@@ -71,96 +71,96 @@ $ git معلّقة
 بعد التبديل إلى فرع `المعلب` سيكون هناك Makefile في مستودع الذي يحتوي على قاعدة منفصلة لإنشاء قطع QQ. هذا Makefile يبدو هكذا:
 
 ```makefile
-# Makefile للحصول على تقرير تحليلي
+# Makefile for analysis report
 #
 
 ALL_CSV = $(wildcard data/*.csv)
 DATA = $(filter-out $(wildcard data/input_file_*.csv),$(ALL_CSV))
-HISTOGRAMS = $(patst data/%.csv,output/figure_%. ng,$(DATA))
-QQPLOTS = $(patsubst data/%.csv,output/qplot_%.png,$(DATA))
+HISTOGRAMS = $(patsubst data/%.csv,output/figure_%.png,$(DATA))
+QQPLOTS = $(patsubst data/%.csv,output/qqplot_%.png,$(DATA))
 
-.PHONY: جميع
+.PHONY: all clean
 
-كل: خرج/report.pdf
+all: output/report.pdf
 
-$(HISTOGRAMS): output/histogram_%.png: data/%.csv scripts/generate_histogram. y
-    نصوص python scripts/generate_histogram.py -i $< -o $@
+$(HISTOGRAMS): output/histogram_%.png: data/%.csv scripts/generate_histogram.py
+    python scripts/generate_histogram.py -i $< -o $@
 
-$(QQPLOTS): خرج/qplot_%.png: البيانات/%. sv scripts/generate_qplot.py
-    python scripts/generate_qplot.py -i $< -o $@
+$(QQPLOTS): output/qqplot_%.png: data/%.csv scripts/generate_qqplot.py
+    python scripts/generate_qqplot.py -i $< -o $@
 
-خرج/تقرير. df: report/report.tex $(FIGURES)
-    cd report && pdflatex report &تقرير& ملف. df ../$@
+output/report.pdf: report/report.tex $(FIGURES)
+    cd report/ && pdflatex report.tex && mv report.pdf ../$@
 
-نظيف:
-    rm -f خرج/report.pdf
+clean:
+    rm -f output/report.pdf
     rm -f $(HISTOGRAMS) $(QQPLOTS)
 ```
 
-ستلاحظون أن القواعد الخاصة بالرسوم البيانية وقطع Q-قطع الأرض متشابهة جداً.
+You'll notice that the rules for histograms and QQ-plots are very similar.
 
 مع تزايد عدد البرامج النصية التي تريد تشغيلها على بياناتك، قد يؤدي هذا إلى عدد كبير من القواعد في ماكيفيلي التي تكاد تكون واحدة بالضبط. يمكننا تبسيط هذا عن طريق إنشاء [*وصفة معلبة *](https://www.gnu.org/software/make/manual/html_node/Canned-Recipes.html) تأخذ كلا من اسم البرنامج النصي واسم النوع كمدخلات:
 
 ```makefile
-تعريف run-script-on-البيانات
-الإخراج /$(1)_$(2).png: البيانات/$(2).csv scripts/generate_$(1). y
-    سكريبتات بايثون / إنشاء_$(1).py - i $< -o $@
-إنتهاء
+define run-script-on-data
+output/$(1)_$(2).png: data/$(2).csv scripts/generate_$(1).py
+    python scripts/generate_$(1).py -i $$< -o $$@
+endef
 ```
 
 لاحظ أننا في هذه الوصفة نستخدم `$(1)` لأي من `الرسم البياني` أو `القطع` و `$(2)` للنوع الصحيح. تتطابق هذه مع حجج الدالة المتوقعة مع `وصفة البرنامج النصي على البيانات` المعلّبة. لاحظ أيضا أننا نستخدم $ `$<` و `$@` في الوصفة الفعلية، مع اثنين `$` رموز للهروب. لإنشاء جميع الأهداف، نحن بحاجة إلى سطر يستدعي هذه الوصفة المعلبة.  في حالتنا، نحن نستخدم حلقة التكرار المزدوجة حول الأنواع و البرامج النصية:
 
 ```makefile
-$(نوع الترجيح،$(GENRES),\
-    $(النص البرمجي،$(SCRIPTS),\
-        $(نص الكلام على البيانات,$(script),$(genre)) \
-    \
+$(foreach genre,$(GENRES),\
+    $(foreach script,$(SCRIPTS),\
+        $(eval $(call run-script-on-data,$(script),$(genre))) \
+    ) \
 )
 ```
 
-في هذه الأسطر يستخدم حرف `\` للاستمرار في الخطوط الطويلة.
+In these lines the `\` character is used for continuing long lines.
 
-ثم يصبح الميكفيلي الكامل:
+The full Makefile then becomes:
 
 ```makefile
-# Makefile لتقرير التحليل
+# Makefile for analysis report
 #
 
-ALL_CSV = $(بيانات البطاقة البرية/*.csv)
-DATA = $(تصفية بيانات البطاقة البرية / input_file_*. sv),$(ALL_CSV))
-HISTOGRAMS = $(براءة الاختراع %,output/histogram_%.png,$(GENRES))
-QQPLOTS = $(براءة الاختراع %,output/qplot_%. ng,$(GENRES))
+ALL_CSV = $(wildcard data/*.csv)
+DATA = $(filter-out $(wildcard data/input_file_*.csv),$(ALL_CSV))
+HISTOGRAMS = $(patsubst %,output/histogram_%.png,$(GENRES))
+QQPLOTS = $(patsubst %,output/qqplot_%.png,$(GENRES))
 
-GENRES = $(بيانات براءة الاختراع/%.csv,%,$(DATA))
+GENRES = $(patsubst data/%.csv,%,$(DATA))
 SCRIPTS = histogram qqplot
 
-.PHONY: كلها نظيفة
+.PHONY: all clean
 
-كل: الناتج/التقرير. df
+all: output/report.pdf
 
-تعريف run-script-on-data
-خرج/$(1)_$(2).png: البيانات/$(2).csv scripts/generate_$(1). y
-    سكريبت بايثون / إنشاء_$(1). y -i $$< -o $$@
-enf
+define run-script-on-data
+output/$(1)_$(2).png: data/$(2).csv scripts/generate_$(1).py
+    python scripts/generate_$(1).py -i $$< -o $$@
+endef
 
-$(نوع الأخر،$(GENRES),\
-    $(سكريبتة،$(SCRIPTS),
-        $(فاتورة $(كل نسخة تجريبية على البيانات)،$(script)،$(genre))\
+$(foreach genre,$(GENRES),\
+    $(foreach script,$(SCRIPTS),\
+        $(eval $(call run-script-on-data,$(script),$(genre)))\
     )\
 )
 
-المخرجات/التقرير. df: report/report.tex $(HISTOGRAMS) $(QQPLOTS)
-    cd report/ && pdflatex report تقرير && ملف. df ../$@
+output/report.pdf: report/report.tex $(HISTOGRAMS) $(QQPLOTS)
+    cd report/ && pdflatex report.tex && mv report.pdf ../$@
 
-نظيف:
-    rm -f خرج/report.pdf
+clean:
+    rm -f output/report.pdf
     rm -f $(HISTOGRAMS) $(QQPLOTS)
 ```
 
 لاحظ أننا أضيفنا متغير `SCRIPTS` مع `هستوغرام` و `Qqplot` الأسماء. إذا كان علينا إضافة برنامج نصي آخر يتبع نفس النمط كهذين الأمرين، سوف نحتاج فقط إلى إضافته إلى متغير `SRIPTS` .
 
-لبناء كل هذا، قم بتشغيل
+To build all of this, run
 
 ```bash
-$ اصنع -ي-ي4
+$ make -j 4
 ```
