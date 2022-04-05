@@ -140,7 +140,7 @@ Several files in _The Turing Way_ book do not follow this convention. A list of 
 
 Often, a chapter might refer to content from another chapter to explain concepts or expand on points. Cross-referencing facilitates this by ensuring that the referred content is easy to find with a simple click. This helps make _The Turing Way_ more navigable and accessible.
 
-{ref}`تبادل المراجع <ch-style-crossref>` نوقش بالتفصيل على نمط {ref}``. The subchapter explains what labels are, provides a naming convention for labels in _The Turing Way_, and gives several useful examples for how cross-referencing should be done.
+{ref}`Cross-referencing <ch-style-crossref>` is discussed in detail in the {ref}`ch-style`. The subchapter explains what labels are, provides a naming convention for labels in _The Turing Way_, and gives several useful examples for how cross-referencing should be done.
 
 #### Demo
 
@@ -163,7 +163,7 @@ When writing ALT text, remember to:
 
 Please note that images included in _The Turing Way_ book should be less than 1MB. This allows the book load faster, especially for readers who may have slow internet connections.
 
-الرجاء الرجوع إلى دليل الطراز {ref}`<ch-style-figures>` للحصول على أمثلة على تنسيق الصور باستخدام `MyST` وإضافة نص LT لهم. When including images in your contributions, it may be better to avoid the height parameter as the wrong value could make your image appear distorted on mobile devices. You should always check how your image looks in the Netlify preview of the book when you make a PR.
+Please refer to the {ref}`style guide <ch-style-figures>` for examples on formatting images using `MyST` and adding ALT text to them. When including images in your contributions, it may be better to avoid the height parameter as the wrong value could make your image appear distorted on mobile devices. You should always check how your image looks in the Netlify preview of the book when you make a PR.
 
 #### Demo
 
