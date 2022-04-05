@@ -21,7 +21,7 @@ The permission level provided by a Creative Commons data license can be understo
 | **Permission Mark** | **What can I do with the data?** |
 | ------------------- | -------------------------------- |
 |                     |                                  |
- BY | 创建者必须贷记 SA | 衍生工具或再分配必须具有相同的许可证 NCC | 只允许非商业用途 ND | 不允许派生工具
+ BY | Creator must be credited SA | Derivatives or redistributions must have identical license NC | Only non-commerical uses are allowed ND | No derivatives are allowed
 
 
 For example, the CC BY-ND license specifies that users must credit the creator of the data and cannot create any derivatives.
@@ -63,7 +63,7 @@ Another difference is the availability of a standardised Community Norms documen
 (rr-licensing-data-options)=
 ## Other Licensing Options
 
-It is also possible to choose other data licenses that may have been developed with a specific use case or community in mind or that are not in widespread global use. 这些包括由国家政府开发的许可证，例如 [挪威开放政府数据许可证](https://data.norge.no/nlod/en/) {cite:ps}`nlod2020政府数据` 这种许可证往往是相应国家建议的数据许可证办法，特别是公共机构制作或拥有的数据。 Often, such licenses are the recommended data licensing option within the corresponding country, especially for data created or owned by their public bodies. Another example is the [Open Government Licence](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/) or OGL, which was developed by The National Archives, UK.
+It is also possible to choose other data licenses that may have been developed with a specific use case or community in mind or that are not in widespread global use. These include licenses that were developed by national governments, such as the [Norwegian License for Open Government Data](https://data.norge.no/nlod/en/) {cite:ps}`nlod2020governmentdata`. Often, such licenses are the recommended data licensing option within the corresponding country, especially for data created or owned by their public bodies. Another example is the [Open Government Licence](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/) or OGL, which was developed by The National Archives, UK.
 
 The [Data Curation Center (DCC) guide](https://www.dcc.ac.uk/guidance/how-guides/license-research-data) {cite:ps}`ball2011license` on how to license research data expatiates on the licenses discussed in this chapter, and gives more information about [Prepared Licenses](https://www.dcc.ac.uk/guidance/how-guides/license-research-data#x1-6000), [Bespoke Licenses](https://www.dcc.ac.uk/guidance/how-guides/license-research-data#x1-7000), [Multiple Licensing](https://www.dcc.ac.uk/guidance/how-guides/license-research-data#x1-13000) and [Mechanisms for Licensing Data](https://www.dcc.ac.uk/guidance/how-guides/license-research-data#x1-14000).
 
