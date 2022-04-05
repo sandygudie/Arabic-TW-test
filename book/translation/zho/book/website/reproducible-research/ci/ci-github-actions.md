@@ -22,7 +22,7 @@ _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licen
 ```
 ## GitHub-related Vocabulary
 
-### 1. 1. 工作流
+### 1. WorkFlow
 
 **The workflow** is a unit of automation from start to finish. It consists of all the aspects which should be taken into account during the automation including what event can trigger the automation. The workflow can be used to build, test, package, release, or deploy a project on GitHub. It is made of multiple jobs which is formed from steps as shown in the overview diagram below.
 
@@ -38,11 +38,11 @@ On the left: _The Turing Way_ project illustration by Scriberia. Used under a CC
 
 A **job** is defined as a set of sequential steps run on the same runner. A workflow can build up of one or several jobs, and can be run either parallel (default) or sequentially.
 
-### 3. 3. 步骤
+### 3. Step
 
 A **step** represents one individual task. A step could be either an action or another command unit, like running a Python script or printing something to the console.
 
-### 4. 4. 行动
+### 4. Actions
 
 A GitHub **Action** is a piece of automation written in a way that is compatible with workflows. Actions can be written by [GitHub](https://github.com/actions), by the open source [community](https://github.com/sdras/awesome-actions), or you can write them yourself!
 
@@ -69,12 +69,12 @@ You can choose any of these starter workflows and customise them further.  An ex
 ### 2- Using libraries-specific templates.
 
 
-Github 动作模板不是唯一可用的启动包。 有用于感兴趣的语言的库特定模板。 For example, you can  use  {usethis} package in R to create a template for R packages by running `usethis::use_github_action_check_standard()`. This will generate GitHub Actions to run CRAN checks after every commit or pull request. That’s all you have to do!
+Github Action template is not the only starter kit available; there are libraries-specific templates for the language of interest. For example, you can  use  {usethis} package in R to create a template for R packages by running `usethis::use_github_action_check_standard()`. This will generate GitHub Actions to run CRAN checks after every commit or pull request. That’s all you have to do!
 
 
 ### 3- Using the configuration of other projects as inspriration
 
-Many well maintained open source libraries and estableshed projects use GitHub Actions for their CI. 查看这些项目的拉取请求的检查清单以获得启发和想法； 随后检查他们的 CI 配置文件。 In most cases their licence will allow to copy the bits that would work for your case. The advantage of this approach is to use some approaches that are already working.
+Many well maintained open source libraries and estableshed projects use GitHub Actions for their CI. Have a look at the checks lists on pull requests of these projects for inspiration and ideas; following by checking out their CI configuration files. In most cases their licence will allow to copy the bits that would work for your case. The advantage of this approach is to use some approaches that are already working.
 
 For example:
 
