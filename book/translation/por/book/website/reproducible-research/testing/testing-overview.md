@@ -10,13 +10,13 @@ Para além destes dois tipos de testes, existem também diferentes níveis de te
 (rr-testing-types-of-testing)=
 ## Tipos de Teste
 
-[Teste de fumaça](#Smoke_testing): Verificações iniciais muito breves que garantem os requisitos básicos necessários para executar a retenção do projeto. Se estas falhas, não vale a pena avançar para níveis adicionais de testes até que sejam fixados.
+[Teste de fumaça](#Smoke_testing): Verificações iniciais muito breves que garantem os requisitos básicos necessários para executar a retenção do projeto. If these fail there is no point proceeding to additional levels of testing until they are fixed.
 
 [Teste unitário](#Unit_tests): Um nível do processo de teste de software onde unidades individuais de um software são testadas. O objetivo é validar que cada unidade do software funciona conforme projetado.
 
 [Teste de integração](#Integration_testing): um nível de teste de software onde unidades individuais são combinadas e testadas como um grupo. O objectivo deste nível de testes é expor as falhas na interacção entre unidades integradas.
 
-[Teste de sistema](#System_tests): Um nível do processo de teste de software onde um sistema completo e integrado é testado. O objectivo deste teste é avaliar se o sistema no seu conjunto dá as saídas corretas para determinadas entradas.
+[Teste de sistema](#System_tests): Um nível do processo de teste de software onde um sistema completo e integrado é testado. The purpose of this test is to evaluate whether the system as a whole gives the correct outputs for given inputs.
 
 [Teste de aceitação](#Acceptance_testing): Um nível do processo de teste de software onde um sistema é testado para aceitabilidade. O objectivo deste teste é avaliar a conformidade do sistema com os requisitos do projecto e avaliar se é aceitável para o fim.
 
