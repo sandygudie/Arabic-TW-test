@@ -8,7 +8,7 @@ They're called **research infrastructure roles** because the work they perform i
 People performing these types of roles come from varied backgrounds, but will often have some research experience, although not necessarily in the field they are now working in. Examples of role titles include: Community manager, project manager, research software engineer, reproducibility lead, research application manager, programme manager, administrator, or network coordinator.
 
 (cl-research-infrastructure-roles-prerequisites)=
-## Pré-requisitos
+## Prerequisites
 
 There are no prerequisites for this chapter.
 
@@ -22,7 +22,7 @@ We invite anyone who works in a research infrastructure role to share their expe
 
 
 (cl-research-infrastructure-roles-motivation)=
-## Motivação e fundo
+## Motivation and Background
 
 Without research infrastructure roles, a lot of projects would never succeed! But this work is often hidden and not visible in academia, where papers and citations are the primary "reputation currency" and the system is very focused on promoting those in "traditional" academic careers. The motivation for writing this chapter and providing examples of the type of work that goes into research infrastructure is to make this hidden labour visible to a wider audience and highlight just how critical these aspects of research are for any community or project.
 
