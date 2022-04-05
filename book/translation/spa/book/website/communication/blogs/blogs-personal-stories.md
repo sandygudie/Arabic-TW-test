@@ -10,7 +10,7 @@ You can find out more about her work from the links below:
 * Twitter: [@DrVeronikaCH](https://twitter.com/DrVeronikaCH)
 * ORCID: [0000-0003-0176-9324](https://orcid.org/0000-0003-0176-9324)
 
-Nos gustaría agradecer **a la Dra. Veronika Cheplygina** por responder a nuestras preguntas de entrevista sobre su exitosa serie de blogs llamada ['Cómo fallo'](https://veronikach.com/failure/).
+We would like to thank **Dr Veronika Cheplygina** for answering our interview questions about her very successful blog series called ['How I fail'](https://veronikach.com/failure/).
 
 ## 1. Why did you start your blog?
 
@@ -35,7 +35,7 @@ For the blog, I have a sense of what kind of person reads my blog, even if I hav
 
 ## 4. What tools/software do you use most to produce your blog?
 
-Primarily WordPress. Yo uso Mail. Up para enviar un boletín de noticias (sólo si hay nuevos mensajes) y Canva si hago gráficos (pero generalmente soy demasiado perezoso). WordPress shares my new posts to Twitter and LinkedIn.
+Primarily WordPress. I use Mailchimp to send out a newsletter (only if there are any new posts) and Canva if I make graphics (but usually I'm too lazy). WordPress shares my new posts to Twitter and LinkedIn.
 
 ## 5. Do you have any top tips for other people that might be interested in starting a blog?
 
