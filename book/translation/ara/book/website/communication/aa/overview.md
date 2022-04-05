@@ -1,43 +1,43 @@
-(الاتصالات-aa-Overview)=
-# لمحة عامة عن السلطة الأكاديمية
+(communication-aa-overview)=
+# Overview of Academic Authorship
 
-ويُعطى قدر كبير من القيمة للمؤلفين الأكاديميين لأن المقال الذي تستعرضه المجلات النظيرة لا يزال يعتبر أهم ناتج من أي مشروع بحثي. عدد المقالات التي سميت باحثا أكاديميا في: وعلى وجه الخصوص ما إذا كان الشخص قد سُمي كأول مؤلف، له تأثير كبير على حياته الوظيفية.
+A great deal of value is placed on academic authorship because a peer-reviewed journal article is still seen as the most valued output from a research project. The number of articles an academic researcher is named on, and particularly whether the person is named as the first author, has a significant impact on their career.
 
-ولكن من ينبغي أن يكون مؤلفا في مقالة؟ هل يمكننا الابتعاد عن فكرة اول مؤلف يأخذ اكثر الامكانيات ؟
+But who should be an author on an article? And can we move away from the idea of first author taking the most credit?
 
-(الاتصال-aa-Overview-who)=
-## من هو مؤلف؟ أم أنهم بالفعل مساهمون؟
+(communication-aa-overview-who)=
+## Who is an author? or are they actually contributors?
 
-يمكن أن يكون إسناد الأسماء إلى المطبوعات شركة عسيرة. غير ومن القرارات الهامة التي يتعين اتخاذها في بداية المشروع ما إذا كانت الأسماء الواردة في المواد المنتجة من المشروع ستصبح مؤلفا أو مساهما، أو مزيج من كليهما.
+Assigning names to a publication can be a tricky business. However, an important decision that needs to be made at the outset of a project is whether the names on the articles produced from the project are going to be authors or contributors, or a combination of both.
 
-قد يكون القرار خارج أيديكم أساساً لأن المجلات والناشرين لديهم سياسات محددة بشأن معايير المؤلف. ولذلك، إذا كنت ترغب في النشر في مجلة محددة فسيتعين عليك التقيد بالسياسة وإبرام اتفاق حول ذلك في إطار مشروعك.
+The decision may essentially be out of your hands as journals and publishers have specific policies on authorship criteria. Therefore, if you want to publish in a specific journal you will have to adhere to the policy and make an agreement about this within your project.
 
-وينظر إلى التعريف العام للمؤلف على أنه الشخص الذي يقوم بالأعمال المكتوبة (منشئ الأفكار والكتابة الجسدية الفعلية) كما أن للمؤلف ملكية فيما يتعلق بمضمون ما هو مكتوب.
+A general definition of an author is seen as the person that is the creator of the written work (creator of the ideas and the actual physical writing) and there is an ownership for the author regarding the content of what is written.
 
-ومع ذلك، فإن معظم البحوث تنطوي على فريق من الناس لتحقيق ذلك. ومن الذي يقرر إذن ما إذا كانت هذه المساهمات تستحق التأليف أم أنها جديرة بالاعتراف؟
+However, most research involves a team of people to make it happen. So who decides whether these contributions are worthy of authorship or are they just to be acknowledged?
 
-ولذلك، ولا يزال من الشائع ألا يمنح المؤلِّف إلا أولئك الذين شاركوا فعلا في كتابة أو تحرير المقال فضلا عن جوانب جوهرية أخرى من البحث. ويستثنى هذا في كثير من الأحيان المساهمات الكبيرة المقدمة إلى المشروع من التقنيين وطلاب الدراسات الجامعية وما بعدها، والأشخاص المشاركون في البنية التحتية للمشروع مثل مهندسي البرامجيات البحثية. كما أنه يثير مسائل أخلاقية تتعلق بمن يستحق الفضل في العمل المتعلق بمشروع ما.
+Therefore, it is still common to give authorship to only those that have actually taken part in the writing or editing of the article as well as other substantial aspects of the research. This often excludes large contributions to the project from technicians, undergraduate and postgraduate students, and people involved in the infrastructure of the project such as research software engineers. It also raises ethical issues concerning who takes credit for the work on a project.
 
-(الاتصالات-aa-Overview-first)=
-## هيمنة المؤلف الأول
+(communication-aa-overview-first)=
+## First author dominance
 
-وبما أن صاحب البلاغ الأول يؤثر على سمعة ذلك الشخص ومكانته بالنظر إلى الرأي المتصور بأن هذا الشخص يقدم أكبر إسهامات، ويشير الاقتباس إلى أنه في الماضي لم يحسب سوى الاقتباس من صاحب البلاغ الذي ورد اسمه في الأول؛ والاستشهاد في المقالات الأكاديمية يتم تقصيره إلى اسم الكاتب الأول مع *وآخرون* (المرجع: Frandsen & Nicolaisen 2010). وكثيراً ما يكون عدد الاستشهادات الواردة في الورقات والمجلات التي تنشر فيها معايير هامة للحصول على وظائف جديدة، الحصول على الترويج والفوز في تطبيقات التمويل.
+Being the first author impacts that person's reputation and visibility due to a perceived view that this person makes the greatest contribution, citation indices that in the past only counted citations for the first-named author, and citations within academic articles being shortened to the first author's name with *et al* (Ref: Frandsen & Nicolaisen 2010). The number of citations that papers have and what journals they are published in are often important criteria for obtaining new jobs, getting promoted and winning funding applications.
 
-كما أن ممارسة صاحب البلاغ الأول الذي يحتل مكانة بارزة على الآخرين لها أيضاً آثار اجتماعية. فعلى سبيل المثال، قد يكون من الصعب على الباحث أن يغير اسمه، وبسبب الزواج أو الطلاق، فإن هذا الإجراء يمكن أن يكون له أثر سلبي على مهنتهم البحثية.
+The practice of the first author taking prominence over others also has social implications. For example, it might be a difficult decision for a researcher to change their name, due to marriage or divorce, as this action could have a negative impact on their research career.
 
-الصلات بالمناقشات المتعلقة بأثر تغيير الأسماء في الأوساط الأكاديمية:
-* مقالة من المحادثة - [كيف قام ثلاثة علماء بإبحار الآثار الشخصية والمهنية لتغيير الاسم بالزواج](https://theconversation.com/how-three-scientists-navigated-the-personal-and-career-implications-of-a-name-change-with-marriage-114918)
-* [نساء متزوجات في الأوساط الأكاديمية - هل غيرت اسمك؟](https://www.reddit.com/r/AskAcademia/comments/2dfqho/married_women_in_academia_did_you_change_your/).
-* كلية لندن للاقتصاد تأثير مدونة العلوم الاجتماعية - [للنشر الأكاديمي أن يكون شاملا، يجب السماح للمؤلفين بتغيير أسمائهم بأثر رجعي](https://blogs.lse.ac.uk/impactofsocialsciences/2020/09/30/for-academic-publishing-to-be-trans-inclusive-authors-must-be-allowed-to-retroactively-change-their-names/).
+Links to discussions about the impact of changing names in academia:
+* Article from The Conversation - [How three scientists navigated the personal and career implications of a name change with marriage](https://theconversation.com/how-three-scientists-navigated-the-personal-and-career-implications-of-a-name-change-with-marriage-114918)
+* [Married women in academia - did you change your name?](https://www.reddit.com/r/AskAcademia/comments/2dfqho/married_women_in_academia_did_you_change_your/).
+* London School of Economics Impact of Social Sciences Blog - [For academic publishing to be trans-inclusive, authors must be allowed to retrospectively change their names](https://blogs.lse.ac.uk/impactofsocialsciences/2020/09/30/for-academic-publishing-to-be-trans-inclusive-authors-must-be-allowed-to-retroactively-change-their-names/).
 
-وليس هذا الفصل هو مكان الاحتجاج ضد هذه الثقافة الأكاديمية القائمة على الاقتباس التنافسي، ولكن لا بد من الإشارة إلى أن هناك الآن أنواعا عديدة مختلفة من النواتج يمكن عزوها بطرق مختلفة. ولذلك، نشهد حاليا تحولا بطيئا في الأهمية الوحيدة للمقالات الصحفية. ويمكن أن تشمل هذه النواتج مجموعات بيانات، البرمجة أو المدونات التي توثق مشروعا بحثيا وهذه في الأساس لها قيمة مماثلة لمقالة مجلة من حيث الاتصال وإمكانية الاستشهاد بالبحوث.
+It is not the place of this chapter to argue against this academic culture of competitive citation but it must be noted that there are now many different types of outputs that can be attributed in different ways. Therefore, we are currently seeing a slow shift in the sole importance of journal articles. Such outputs might include datasets, code or blogs that document a research project and these essentially have as much value as a journal article in terms of communication and the reproducibility of the research.
 
-وفيما يلي مقالان جيدان عن الكيفية التي نحتاج بها إلى الابتعاد عن ثقافة المؤلفين الأوائل والأخير، والتعبير عن المزيد من النواتج المتنوعة:
-* [لم يعد صاحب البلاغ الأول، ولم يعد صاحب البلاغ الأخير لغريتشن كيشر](https://www.nature.com/articles/d41586-018-06779-2)
-* [التحديات في تقييم المساهمات في البحوث القابلة للاستنساخ والعلوم المفتوحة من قبل مالفيكا شارن](https://malvikasharan.github.io/blogs/dora-panel-open-science/).
+Here are two good articles on how we need to move away from the culture of first and last authors and reflect more diverse outputs:
+* [No more first author, no more last author by Gretchen Kisher](https://www.nature.com/articles/d41586-018-06779-2)
+* [Challenges in assessing contributions to reproducible research and open science by Malvika Sharan](https://malvikasharan.github.io/blogs/dora-panel-open-science/).
 
-غير أن القرارات المتعلقة بالمؤلفين لا تزال محورية في أذهان معظم الأكاديميين، كما أنها تستخدم كمؤشر على أثر المشاريع. ولذلك، ينبغي اتخاذ القرارات المتعلقة بالمؤلِّف واتخاذ القرارين الرئيسيين اللذين ينبغي اتخاذهما وهما: من ينبغي أن يكون مؤلفاً على الورقة؟ وما هو الطلب الذي ينبغي أن تأخذه الأسماء؟
+However, decisions concerning authorship are still central in the minds of most academics and also used as a marker of a projects impact. Therefore, decisions about authorship need to be taken and the two main decisions to make are: who should get authorship on the paper? and what order the names should take?
 
-ويتم تناول المساهمات في مشاريع البحوث وكيفية ترجمتها إلى مؤلف مقالة في المجلة بعدة طرق مختلفة تتوقف على التخصصات التي تستند إليها الدراسة، • موقع المنشور (الذي يستخدم المجلة أو الناشر)، • حافز المساهمين في المشروع وعدد الأشخاص المشاركين في المشروع. ويستند الأمر بالاسم إلى حد كبير إلى تقليد تخصصي محدد لما يفهمه ذلك النظام، وهذا يمكن أن يخلق توترا عند إقامة تعاون جديد في مجال البحوث.
+Contributions to research projects and how these translate into the authorship of a journal article are tackled in many different ways dependent on what discipline the study is based in, the location of the publication (which journal or publisher is used), the motivation of the project contributors and the number of people involved in the project. The name order is heavily based in a discipline specific tradition of what is understood by that order and this can create tension when new research collaborations are set up.
 
-وهناك اتجاه متزايد يدفع إلى مكافحة الأفكار التقليدية بدرجة أكبر للتأليف؛ في عدد المؤلفين وترتيبهم، وينبغي أن يعكس ذلك المؤلف مساهمات فريق أو مجتمع البحوث بأكمله. ومن الصعب تحقيق مثل هذا النموذج الشامل للمؤلفات ويجب تخطيطه في بداية أي مشروع حتى يتم تسجيل جميع المساهمات.
+There is a growing trend pushing against more traditional ideas of authorship; in the number of authors and their order, and that authorship should reflect the contributions of the whole research team or community. Such an inclusive authorship model is hard to achieve and must be planned at the beginning of any project so that all contributions are recorded.
