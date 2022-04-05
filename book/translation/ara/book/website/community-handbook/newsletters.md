@@ -1,25 +1,25 @@
-الرسائل الإخبارية =
-# _طريق التورين_ النشرات الإخبارية الشهرية
+(ch-newsletters)=
+# _The Turing Way_ Monthly Newsletters
 
-_الطريق الوشيك_ الفريق ينشر النشرات الإخبارية كل شهر لمشاركة أحدث التحديثات مع المجتمع وما بعده. وتشمل هذه النشرات الإخبارية إعلانات عن الأحداث، واستكمالات من المشروع، ونقاط بارزة من المجتمع، وموارد مفيدة للمساهمين الجدد والقائمين، • تشجيع أي جهود مستمرة، وقصص أثر الأعضاء القدامى، وصرخ الأنشطة ذات الصلة على الإنترنت.
+_The Turing Way_ team releases newsletters every month to share the latest updates with the community and beyond. These newsletters include event announcements, updates from the project, highlights from the community, useful resources for new and existing contributors, promotion of any ongoing efforts, impact stories of long-standing members and shout outs to relevant online activities.
 
-بينما نرسل نشراتنا الإخبارية عبر البريد الإلكتروني إلى الأعضاء المشتركين فينا، نقوم في نفس الوقت بنشر وأرشيفهم [على الإنترنت على TinyLetter](https://tinyletter.com/TuringWay/archive) حتى يتمكن أي شخص خارج المجتمع من معرفة المشروع أيضًا.
+While we send our newsletters by email to our subscribed members, we simultaneously publish and archive them [online on TinyLetter](https://tinyletter.com/TuringWay/archive) so that anyone outside the community can also learn about the project.
 
 ```{figure} ../figures/scriberia-newsletter.png
 ---
-الطول: 400px
-الاسم: scriberia-newsletter
-alt: شخصين يجمعان المعلومات ويدفعانها من خلال جهاز ينتج نشرة إخبارية
+height: 400px
+name: scriberia-newsletter
+alt: two people collecting information and pushing it through a device that produces a newsletter
 ---
-توضيح النشرة الإخبارية. تم تعديلها من _طريق الشحن_ التوضيحي لمشروع سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
+A newsletter illustration. Adapted from _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-وفيما يلي الدوافع الرئيسية لصياغة هذه الرسائل الإخبارية:
-1. بيان أهداف مشروع الفريق والمجتمع المحلي وأي معالم هامة تحققت في الشهر الماضي
-2. إبراز الأعمال الجارية والجهود البارزة التي يبذلها أفراد المجتمع المحلي والاحتفال بها وتوثيقها
-3. شارك المعلومات حول أي أحداث وفرص قادمة لأعضائنا
-4. الحفاظ على الاتصالات المستمرة مع الأعضاء المشتركين
+The main motivations to draft these newsletters are the following:
+1. Reflect on the team's and community's project goals and any important milestones achieved in the last month
+2. Highlight and celebrate ongoing work and notable efforts of the community members and document them
+3. Share information about any upcoming events and opportunities for our members
+4. Maintain ongoing connections with the subscribed members
 
-وفي الوقت الراهن، يقوم مالفيكا شاران، مدير شؤون المجتمع المحلي، بصياغة هذه الرسائل الإخبارية التي يجري تدقيقها ونشرها بالاشتراك مع كريستي ويتكر، قائد المشروع. وقد كتبت الرسائل الإخبارية التي نشرت قبل أيلول/سبتمبر 2020 باتريشيا هيرتيش وكيرستي ويتاكر.
+Currently, Malvika Sharan, community manager, drafts these newsletters that are proofread and co-published with Kirstie Whitaker, the project lead. Newsletters published before September 2020 have been written by Patricia Herterich and Kirstie Whitaker.
 
-في هذا الفصل، نشارك العملية التي أنشأناها في _طريق التوفير_ لجمع الأخبار ، صياغة الرسالة الإخبارية وتوثيق أي تحديثات إضافية يتقاسمها أفراد المجتمع المحلي ونشرها عن طريق TinyLetter.
+In this chapter, we share the process we have established in _The Turing Way_ for collecting news items, drafting the newsletter, documenting any additional updates shared by community members and publishing them through TinyLetter.
