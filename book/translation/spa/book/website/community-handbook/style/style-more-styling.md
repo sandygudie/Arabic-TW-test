@@ -48,8 +48,7 @@ To add a special content block (note, warning or admonition) to your page, use t
 
 ````
 ```{note}
-¡Esta es una nota de ejemplo!
-```
+This is a sample note!
 ```
 ````
 which renders as follows:
@@ -62,8 +61,7 @@ You can give content blocks custom titles and styling to reinforce your intended
 
 ````
 ```{warning}
-¡Esta es una advertencia severa!
-```
+This is a stern warning!
 ```
 ````
 Note the new title, icon, and colour scheme.
