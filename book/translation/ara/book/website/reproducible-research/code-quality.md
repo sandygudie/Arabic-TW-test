@@ -24,12 +24,12 @@ Static code analysis is a method that examines code and detects software vulnera
 
 Some of the most widely used `linters` are mentioned in the below table:
 
-| Language                 | Static code analysis tool                                                                                                    |
-| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
-| C/C++                    | [Cppcheck](http://cppcheck.sourceforge.net/), [cpplint](https://github.com/cpplintcpplint)                                   |
-| Python                   | [Pylint](https://pypi.org/project/pylint/), [prospector](https://prospector.readthedocs.io)                                  |
-| Javascript               | [ESLint](https://eslint.org/), [JSlint](https://jslint.com/), [JSHint](https://jshint.com/)                                  |
-| Java                     | [Checkstyle](https://checkstyle.sourceforge.io/), [FindBugs](http://findbugs.sourceforge.net), [PMD](https://pmd.github.io/) |
-| Perl                     | [PerlTidy](https://metacpan.org/pod/perltidy)                                                                                |
-| crwdns4735:0crwdne4735:0 | [lintr](https://github.com/jimhester/lintr)                                                                                  |
-| Shell/Bash               | [shellcheck](https://www.shellcheck.net)                                                                                     |
+| Language   | Static code analysis tool                                                                                                    |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| C/C++      | [Cppcheck](http://cppcheck.sourceforge.net/), [cpplint](https://github.com/cpplintcpplint)                                   |
+| Python     | [Pylint](https://pypi.org/project/pylint/), [prospector](https://prospector.readthedocs.io)                                  |
+| Javascript | [ESLint](https://eslint.org/), [JSlint](https://jslint.com/), [JSHint](https://jshint.com/)                                  |
+| Java       | [Checkstyle](https://checkstyle.sourceforge.io/), [FindBugs](http://findbugs.sourceforge.net), [PMD](https://pmd.github.io/) |
+| Perl       | [PerlTidy](https://metacpan.org/pod/perltidy)                                                                                |
+| R          | [lintr](https://github.com/jimhester/lintr)                                                                                  |
+| Shell/Bash | [shellcheck](https://www.shellcheck.net)                                                                                     |
