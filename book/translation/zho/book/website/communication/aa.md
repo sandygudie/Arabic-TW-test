@@ -18,7 +18,7 @@ _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licen
 
 (communication-aa-summary)=
 ## Summary
-本章介绍了哪些人被视为作者、不同学科的学术作者传统。 有关作者的做法正在改变，以及您如何尝试实现您想要使用的作者模型。
+This chapter sets out information about academic authorship traditions in different disciplines, which people are traditionally considered to be "authors", how practices concerning authorship are changing, and how you might go about trying to achieve the authorship model you want to use.
 
 (communication-aa-motivation)=
 ## Motivation and Background
