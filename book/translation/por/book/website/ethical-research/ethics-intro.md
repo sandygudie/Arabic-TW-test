@@ -1,99 +1,100 @@
 (er-intro)=
-# Introdução à ética de pesquisa
+# Introduction to Research Ethics
 
 ## Summary
 
-Esta seção introduz brevemente os principais conceitos de *Pesquisa Responsável e Inovação* (RRI) e *Integridade da Pesquisa*. Ambas se referem a diferentes questões no domínio da ética de investigação. Abaixo está uma tabela que resume estas questões.
+This section briefly introduces the key concepts of *Responsible Research and Innovation* (RRI) and *Research Integrity*. Both refer to different questions within the field of research ethics. Below is a table summarising these questions.
 
-| Fator                            | RR                                                                                     | Integridade da Pesquisa                                                                                |
-| -------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| **Percepção de questões éticas** | Para fora (por exemplo: como o público percebe a produção científica?)                 | Dentro (por exemplo: como os investigadores se comportam?)                                             |
-| **Quem pesquisa interagir com**  | Com assuntos de investigação (por exemplo: tratamo-los com respeito?)                  | Com os outros investigadores (por exemplo: aderimos a um código de conduta?)                           |
-| **Que forma é pesquisa**         | Moldado pela sociedade (por exemplo: como é compreendida a IA como uma solução comum?) | Em forma de normas institucionais (por exemplo: que questões de investigação estão a ser financiadas?) |
+| Factor                              | RRI                                                                            | Research Integrity                                                                     |
+| ----------------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
+| **Perception of ethical questions** | Outward (for example: how does the public perceive scientific output?)         | Inward (for example: how do researchers conduct themselves?)                           |
+| **Who researchers interact with**   | With research subjects (for example: do we treat them with respect?)           | With fellow researchers (for example: do we adhere to a code of conduct?)              |
+| **What shapes research**            | Shaped by society (for example: how is AI as a solution generally understood?) | Shaped by institutional norms (for example: what research questions are being funded?) |
 
 ```{figure} ../figures/ethical-research.jpg
 ---
-nome: pesquisa ética
-alt: Uma pessoa procura a integridade da pesquisa e outra pessoa segura um mapa e procura as consequências da pesquisa.
---- Olhando para diferentes aspectos da ética da pesquisa. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+name: ethical-research
+alt: One person looks for research integrity and another person holds up a map and looks for the research consequences.
+---
+Looking at different aspects of research ethics. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-## Motivação
-> por que achamos que você deveria ler tudo isso
+## Motivation
+> why we think you should read the whole thing
 
- Na condução da investigação nas instituições académicas, é comum ser confrontado com questões éticas colocadas pelos "Comités de Ética". As decisões tomadas ao longo de todo o ciclo de vida de um projecto também suscitarão preocupações éticas. Este capítulo introduz algumas destas questões no vasto domínio da ética de investigação.
+ In conducting research within academic institutions, it is common to be faced with ethical questions posed by "Ethics Committees". Decisions made throughout the lifecycle of a project will also raise ethical concerns. This chapter introduces some of these questions within the broad field of research ethics.
 
-## Conteúdo do capítulo
+## Chapter content
 
-### Introdução à Ética
+### Introducing Ethics
 
- Sem qualquer intenção de fazer justiça à vasta literatura que existe sobre o assunto. podemos fazer *Ética* para ser o assunto do estudo de filosofia moral, que procura - entre outras coisas - distinguir o certo do errado. Hoje em dia, os filósofos falam de três níveis de discussão em ética (Fieser, IEP): metaética, ética normativa e ética aplicada. Basicamente, a metaética questiona a natureza do bem e do mal, bem como as suposições subjacentes detidas por diferentes quadros éticos. Portanto, a ética normativa proporciona-nos os instrumentos necessários para criar esses quadros éticos e pensar no seu seio. Finalmente, a ética aplicada é o que é mais relevante para este guia, assim como iremos discutir as questões relacionadas com a investigação e a inovação éticas e responsáveis.
+ With no intention of doing justice to the vast literature that there is on the topic, we can take *Ethics* to be the subject of study of moral philosophy, which seeks --amongst other things -- to distinguish right from wrong. Nowadays, philosophers speak of three levels of discussion in ethics (Fieser, IEP): metaethics, normative ethics and applied ethics. Roughly, metaethics questions the nature of good and evil, as well as the underlying assumptions held by different ethical frameworks. Normative ethics, then, provides the tools for us to create such ethical frameworks and think within them. Applied ethics, finally, is what is most pertinent to this guide, as we will be discussing the ins and outs of ethical and responsible research and innovation.
 
- We begin this introductory chapter with clarifying why *research ethics* matters. Então discutimos dois conceitos críticos relacionados com a ética de pesquisa: *pesquisa responsável e inovação* e *a integridade da pesquisa*. Desescolhemos depois as questões éticas e as diferentes questões que cada conceito coloca.
+ We begin this introductory chapter with clarifying why *research ethics* matters. Then we discuss two critical concepts relating with research ethics: *responsible research and innovation* and *research integrity*. We then unpick the ethical questions different questions each concept raises.
 
- ### Estética de pesquisa motivada
+ ### Motivating Research Ethics
 
- Tomando *ética* como o estudo de quais comportamentos estão corretos e quais comportamentos são os destaques errados que se referem a *ação*. Considerando isso, a ética é relevante para a pesquisa, até que os pesquisadores estão *agindo* e *se comportando* de certas maneiras ao realizar seu trabalho. Levar a sério esta definição significa também aceitar a filosofia moral como um princípio primordial na nossa vida quotidiana: a ética diz respeito a todos nós. Além disso, os potenciais efeitos de ondulação de qualquer projecto de investigação podem ser muito maiores do que as acções individuais em circunstâncias normais.
+ Taking *ethics* as the study of what behaviours are right and what behaviours are wrong highlights that it refers to *action*. Considering this, ethics is relevant to research insofar that researchers are *acting* and *behaving* in certain ways when conducting their work. Taking this definition seriously also means accepting moral philosophy as paramount in our everyday lives: ethics pertains to us all. Furthermore, the potential ripple effects of any research project may be far greater than an individual's actions under normal circumstances.
 
- Para esse efeito, a importância de actuar eticamente na esfera académica é acentuada. Os cientistas devem reflectir sobre as questões éticas que seus projetos de pesquisa suscitam.
+ To this effect, the importance of acting ethically within the academic sphere is heightened. Scientists must reflect on the ethical questions their research projects raise.
 
- ## Definindo Ética de Pesquisa
+ ## Defining Research Ethics
 
- Na prática o desenvolvimento histórico da ética de investigação tem sido impulsionado devido a preocupações éticas sobre a forma como a investigação tem sido tradicionalmente conduzida e a casos claros de controvérsia (Comissão Europeia) 2010). Infelizmente, esta natureza reactiva da ética científica levou à existência de muitos códigos éticos para a investigação, cada um em relação a campos distintos de inquérito, concebido por e para diferentes instituições e, por vezes, afectando o trabalho científico realizado em regiões específicas. Por conseguinte, os investigadores têm razão em sentir-se esmagados pela diversidade de regras e orientações que enfrentam ao longo das suas carreiras.
+ In practice, the historical development of research ethics has been driven due to ethical concerns around how research has traditionally been conducted and cases of clear controversy (European Commission, 2010). Unfortunately, this reactive nature of research ethics has led to there being many ethical codes for research, each regarding distinct fields of inquiry, designed by and for different institutions, and sometimes affecting scientific work conducted within specific regions. Therefore, researchers are right to feel overwhelmed by the diversity of rules and guidelines they face throughout their careers.
 
- Uma fonte de diversidade de quadros éticos está relacionada com a forma como as instituições de investigação geralmente têm os "Comités de Ética" que avaliam a ética da investigação conduzida no seio das suas instituições. Tradicionalmente, isto é feito para as instituições se protegerem contra responsabilidades jurídicas. No entanto, uma reflexão adicional - além das questões de proteção de dados - pode ser exigida por esses processos. A questão é que o processo de avaliação ética de uma universidade diverge, na maioria das vezes, do outro.
+ One source of diversity of ethical frameworks relates with how research institutions generally have "Ethics Committees" that appraise the ethics of research conducted within their institutions. This is traditionally done for institutions to protect themselves from legal liabilities. However, further reflection -- beyond questions of data protection -- can be required by these processes. The point is that one university's process for ethical appraisal will, more often than not, differ from another's.
 
-  A seção abaixo simplesmente descreve dois conceitos críticos no domínio da ética de pesquisa: *pesquisa responsável e inovação* (RRI) e *integridade da pesquisa*.
+  The below section simply outlines two critical concepts in the realm of research ethics: *responsible research and innovation* (RRI) and *research integrity*.
 
-### Pesquisa e Inovação Responsáveis
+### Responsible Research and Innovation
 
-  *RRI* é um termo que já existe por várias décadas, mas que ganhou tração em 2011, quando se torna um termo importante no contexto da política europeia (Owen et al. 2012). Passando agora ao programa de investigação “Horizonte 2020” da União Europeia, podemos encontrar uma definição de RRI:
-> “[RRI é] uma abordagem que antecipa e avalia potenciais implicações e expectativas sociais em relação à investigação e à inovação, com o objectivo de promover a concepção da investigação e da inovação inclusivas e sustentáveis" (Comissão Europeia, n. .).
+  *RRI* is a term which has been around for several decades but which gained traction in 2011, when becoming an important term in the context of European policy (Owen et al., 2012). Turning to the European Union’s “Horizon 2020” research programme, we can find one definition of RRI:
+> “[RRI is] an approach that anticipates and assesses potential implications and societal expectations with regard to research and innovation, with the aim to foster the design of inclusive and sustainable research and innovation” (European Commission, n.d.).
 
- Há dois aspectos desta definição que merecem ser focados para efeitos desta secção introdutória. Em primeiro lugar, o RR refere-se a “potenciais implicações e expectativas sociais”. Em segundo lugar, trata-se da “concepção da investigação inclusiva e sustentável”. Estes são dois aspectos tradicionalmente importantes da ética da ciência: como é que a investigação é criada ou concebida, e quais as consequências sociais que esta configuração tem. O que é importante aqui é que consideremos estes aspectos da investigação quando falamos em torná-la ética.
+ There are two aspects of this definition worth focusing on for the purpose of this introductory section. Firstly, RRI refers to “potential implications and societal expectations.” Secondly, it is about “the design of inclusive and sustainable research”. These are two traditionally important aspects of the ethics of science: how research is set up or designed, and what societal consequences this setup has. What is important here is that we consider these aspects of research when speaking of making it ethical.
 
-### Integridade da Pesquisa
+### Research Integrity
 
- Definido pelo Escritório de Integridade de Pesquisa:
-> "[Pesquisa integridade refere-se a] adesão activa aos princípios éticos e às normas profissionais essenciais para a prática responsável da pesquisa" (Korenman, n.).
+ Defined by the Office for Research Integrity:
+> "[Research integrity refers to] active adherence to the ethical principles and professional standards essential for the responsible practice of research” (Korenman, n.d.).
 
- O que este termo traz para a discussão sobre a ética da investigação são "normas profissionais" e "práticas responsáveis". Ao contrário do RI, a questão já não se prende com a ética da produção científica e com as suas consequências, mas na ética de como os cientistas se comportam na prática. A integridade da pesquisa, em certo sentido, capta a ética do trabalho feito "nos bastido", fora da visão do público em geral.
+ What this term brings into the discussion about research ethics are “professional standards” and “responsible practice”. Unlike in RRI, the question is no longer on the ethics of scientific output and its consequences, but on the ethics of how scientists conduct themselves in practice. Research integrity, in a sense, captures the ethics of the work done “behind the scenes”, outside the view of the general public.
 
-#### Comparação de RRI com a Integridade de Pesquisa
+#### Comparing RRI to Research Integrity
 
- Os dois conceitos de IREI e de integridade da investigação não são, de forma alguma, totalmente distintos, uma vez que podem sobrepor-se de formas importantes. No entanto, três diferenças entre ambos os conceitos são descritas abaixo com o objectivo de se tirarem questões mais diversas relacionadas com a ética da investigação em geral. Uma tabela com a lista de perguntas específicas de conceitos é compartilhada no final desta subseção.
+ The two concepts of RRI and research integrity are by no means entirely distinct, as they can overlap in important ways. However, three differences between both concepts are outlined below for the purpose of drawing out more diverse questions pertaining to research ethics at large. A table with the list of concept spefici questions is shared at the end of this subsection.
 
- Primeiramente, podemos ver que quem *percebe* as questões éticas diferem em qualquer caso. Para começar, a RR pode ser entendida como algo virado para o exterior, ou visível ao público. Por exemplo, as pessoas podem perguntar o que significa quando os cientistas mantêm os cérebros dos animais vivos horas após sua decapitação (Reardon, 2019). Enquanto isso, a integridade da pesquisa se refere a como as descobertas da pesquisa são produzidas — é voltada para dentro. Um termo comum para descrever uma *falta* de integridade da pesquisa é "erros de pesquisa", para o qual existem muitos exemplos. Um desses exemplos é o do trabalho de Brian Wansink na ciência da alimentação, que endossaram o p-hacking e tiveram vários documentos retractados (veja Oransky, 2018).
+ Firstly, we can see that who *perceives* the ethical questions differs in either case. To start with, RRI can be understood as outward-looking, or visible to the public. For example, people might ask for what it means when scientists keep animals’ brains alive hours after their decapitation (Reardon, 2019). In the meantime, research integrity refers to how research findings are produced — it is inward-looking. A common term to describe a *lack* of research integrity is “research misconduct”, for which there are many examples. One such example is that of Brian Wansink's work in food science, who endorsed p-hacking and has had a number of papers retracted (see Oransky, 2018).
 
- Em segundo lugar, cada termo refere-se à interacção de diferentes cientistas durante a investigação. Por um lado, o RI questiona a forma como os cientistas se relacionam com temas de investigação. Veja-se, por exemplo, como os voluntários são tratados durante os ensaios clínicos. O que está aqui em causa é trabalhar com titulares de dados de uma forma respeitosa e inclusiva. Um (in)famoso caso em que não havia respeito pelos titulares de dados foi os experimentos de Tuskagee, Em que homens afro-americanos eram recrutados para estudar o desenvolvimento de sífilis não tratados, mas os voluntários foram injustamente informados de que estavam a receber tratamento gratuito — o acompanhamento e as mentiras persistem durante quarenta anos (CDC, 2020). Por outro lado, podemos questionar a forma como os cientistas se relacionam com os seus investigadores. Podemos discutir aqui a importância dos códigos de conduta nas colaborações de código aberto, por exemplo, [*The Turing Way*(em](https://the-turing-way.netlify.app/community-handbook/coc.html?highlight=code%20conduct)); ou — voltando a “má condução da pesquisa” — como se pode envolver em fraudes na autarquia. Mais uma vez, há muitos exemplos deste tipo de práticas. De ser insinuado sobre quem contribuiu para um documento porque o sistema de incentivos acadêmicos quase encoraja isso (ver Harvey, 2018) para inventar autores inteiramente fictícios (veja esta peça por Marcus & Oransky, 2016), estas são questões que não são comuns aos cidadãos.
+ Secondly, each term refers to different people scientists interact with during research. On the one hand, RRI questions how scientists engage with research subjects. Consider, for example, how volunteers are treated during clinical trials. The point here is to work with data subjects in a respectful and inclusive way. One (in)famous case in which there was no respect for data subjects was the Tuskagee experiments, wherein African-American men were recruited to study the development of untreated syphilis, but the volunteers were falsely told they were receiving free treatment — the monitoring and lies persisted for forty years (CDC, 2020). On the other hand, we can question how scientists engage with fellow researchers. We can here discuss the importance of codes of conduct in open source collaborations, for example, [*The Turing Way*'s](https://the-turing-way.netlify.app/community-handbook/coc.html?highlight=code%20conduct); or — returning to “research misconduct” — how one might engage in authorship fraud. Once again, there are many examples of this sort of practice. From being insincere about who contributed to a paper because the academic incentives system almost encourages this (see Harvey, 2018) to inventing entirely fictional authors (see this piece by Marcus & Oransky, 2016), these are questions that are not commonly within the public’s purview.
 
- Em terceiro lugar, RRI e integridade da pesquisa questionam a ética de como as soluções científicas são enquadradas e moldadas pela sociedade em grande escala (RII) ou por práticas institucionais em particular (integridade da pesquisa). Com o nosso chapéu RRI, podemos perguntar como comunicamos a validade dos resultados científicos. Embora o modo como os resultados científicos são comunicados não seja uma questão nova, vale a pena salientar que a inteligência artificial e o aprendizado de máquina podem ser enquadrados como proporcionar muito mais para investigação e inovação do que o que realmente podem. Nessa linha, podemos perguntar sobre o papel de "AI" como uma ferramenta de marketing, como forma de conceder credibilidade injustificada às conclusões de investigação (Lanier e Weyl, 2020). Está disponível um exemplo mais específico em Nagendran et al.'' (2020) preocupações sobre alegações exageradas de médicos com desempenho superior à IA. Mudando para a nossa integridade da investigação, podemos nos questionar sobre como as infra-estruturas académicas moldam o trabalho científico.
+ Thirdly, RRI and research integrity question the ethics of how scientific solutions are framed and shaped either by society at large (RRI) or by institutional practices in particular (research integrity). With our RRI hat on, we can ask how we communicate the validity of scientific outputs. Whilst how scientific findings are communicated is not a new question, it is worth highlighting that artificial intelligence (AI) and machine learning might be framed as delivering much more for research and innovation than what they actually can. Along these lines, we can ask about the role of “AI” as a marketing tool, as a way to grant research findings undeserved credibility (Lanier and Weyl, 2020). A more specific example is available in Nagendran et al.'s' (2020) concerns over exaggerated claims of AI outperforming doctors. Switching to our research integrity goggles, we can question how academic infrastructures shape scientific work.
 
- Considere por exemplo como pesquisadores devem ponderar a nobre busca da *verdade*, com a necessidade de ganhar *crédito* (com esta ponderação de opções, veja, por exemplo, Zollman, 2018). Podemos também reflectir sobre o impacto do financiamento nos esforços científicos. Perguntas podem ser levantadas sobre o tamanho dos bolsos de pesquisa (Bloch & Sorensen, 2014) e mesmo os valores que motivam o financiamento de alguns projectos de investigação e não outros. Normas institucionais podem até mesmo incentivar um “viés de publicação”, pelo que conclusões positivamente enquadradas serão mais fáceis de ser publicadas (ver Kaiser et al. s, (2009) conclusão de estudos mostrando diferenças em sexo/gênero são mais fáceis de publicar do que estudos *não* suportando tais diferenças).
+ Consider, for example, how researchers must weigh the noble pursuit of *truth*, with the need to earn *credit* (on this weighing of options, see, for example, Zollman, 2018). We can also reflect on the impact of funding on scientific endeavours. Questions can be raised regarding the size of research grants (Bloch & Sorensen, 2014) and even the values that motivate the funding of some research projects and not others. Institutional norms might even encourage a “publication bias” whereby positively framed findings will be easier to get published (see Kaiser et al.’s, (2009) finding that studies showing differences in sex/gender are easier to publish than studies *not* supporting such differences).
 
- Abaixo está um quadro que ilustra as três diferenças acima descritas. O que está aqui em causa não é defender esta distinção conceptual, mas introduzir dois conceitos importantes na ética da investigação e, Ao fazê-lo, temos de estar preparados para reflectir sobre diferentes questões quando pensamos em investigação ética.
+ Below is a table illustrating the three differences outlined above. The point here is not to argue for this conceptual distinction but to introduce two important concepts in research ethics and, in doing so, present different questions we must be ready to reflect on when thinking about ethical research.
 
-| Fator                            | RR                                                                                     | Integridade da Pesquisa                                                                                |
-| -------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| **Percepção de questões éticas** | Para fora (por exemplo: como o público percebe a produção científica?)                 | Dentro (por exemplo: como os investigadores se comportam?)                                             |
-| **Quem pesquisa interagir com**  | Com assuntos de investigação (por exemplo: tratamo-los com respeito?)                  | Com os outros investigadores (por exemplo: aderimos a um código de conduta?)                           |
-| **Que forma é pesquisa**         | Moldado pela sociedade (por exemplo: como é compreendida a IA como uma solução comum?) | Em forma de normas institucionais (por exemplo: que questões de investigação estão a ser financiadas?) |
+| Factor                              | RRI                                                                            | Research Integrity                                                                     |
+| ----------------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
+| **Perception of ethical questions** | Outward (for example: how does the public perceive scientific output?)         | Inward (for example: how do researchers conduct themselves?)                           |
+| **Who researchers interact with**   | With research subjects (for example: do we treat them with respect?)           | With fellow researchers (for example: do we adhere to a code of conduct?)              |
+| **What shapes research**            | Shaped by society (for example: how is AI as a solution generally understood?) | Shaped by institutional norms (for example: what research questions are being funded?) |
 
 
-## O que aprender a seguir
+## What to learn next
 
-Existem muitas maneiras de navegar no reino da Ética em grande e em particular da Ética de Pesquisa. E existem muitas razões pelas quais a ética de pesquisa é importante para a ciência. Convidamos você a continuar aprendendo sobre RRI e integridade da pesquisa, mas também para entrar em contato e apoiar a construção deste livro!
+There are plenty of ways to navigate the realm of Ethics at large and Research Ethics in particular. And there are many reasons why Research Ethics is important to science. We invite you to keep learning about RRI and research integrity, but also to reach out and support the building of this book!
 
-## Definições/glossário
+## Definitions/glossary
 
-* Ética aplicada: o subcampo da ética que examina questões morais específicas
-* Ética: princípios morais que governam o comportamento de uma pessoa ou a condução de uma atividade
-* Comitê de Ética: um organismo no seio de uma instituição de investigação mais vasta que seja responsável por assegurar que a investigação seja levada a cabo de forma ética, de acordo com a lei e alguns princípios éticos ou enquadramentos
-* Metaética: o subcampo da ética que investiga de onde vêm nossos princípios éticos e o que significam
-* filosofia moral: o ramo da filosofia preocupada com a ética
-* Ética normativa: o subcampo da ética que procura chegar a padrões morais que regulam a conduta certa e errada
-* P-hacking: o erro de tamanhos de efeito verdadeiro em estudos publicados
-* Integridade de pesquisa: adesão activa aos princípios éticos e às normas profissionais essenciais para a prática responsável da pesquisa
-* Investigação e inovação responsáveis (RRI): uma abordagem que antecipa e avalia potenciais implicações e expectativas sociais em matéria de investigação e inovação, com o objetivo de promover o desenho da investigação e inovação inclusiva e sustentável
+* Applied ethics: the subfield of ethics that examines specific moral questions
+* Ethics: moral principles that govern a person's behaviour or the conducting of an activity
+* Ethics Committee: a body within a wider research institution that is responsible for ensuring that research is carried out in an ethical manner in accordance with the law and some ethical principles or framwork
+* Metaethics: the subfield of ethics that investigates where our ethical principles come from, and what they mean
+* Moral philosophy: the branch of philosophy concerned with ethics
+* Normative ethics: the subfield of ethics that seeks to arrive at moral standards that regulate right and wrong conduct
+* P-hacking: the misreporting of true effect sizes in published studies
+* Research integrity: active adherence to the ethical principles and professional standards essential for the responsible practice of research
+* Responsible research and innovation (RRI): an approach that anticipates and assesses potential implications and societal expectations with regard to research and innovation, with the aim to foster the design of inclusive and sustainable research and innovation
 
-***Tags de Capítulo**: Este capítulo é curado pelo `Grupo de Estudo de Dados de Turing` (`turing-dsg`).*
+***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*
