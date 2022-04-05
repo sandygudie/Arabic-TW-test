@@ -7,7 +7,7 @@ If two licenses specify incompatible constraints on the license of the combined 
 
 The GNU GPL, for instance, is incompatible with proprietary licenses, because it requires the combined work to be licensed under the GPL, with no additional restrictions allowed. Having a part of the work under a proprietary license is such an additional restriction, so you cannot distribute such a combination (unless the copyright owner of the GPL code gives special permission).
 
-当你使用不同的软件一起解决一个问题时， 并想要分发结果。 这里是您必须回答的问题：
+When you use different pieces of software together to solve a problem, and want to distribute the result, here are the questions you have to answer:
 
 - Which separate works are there, and what is derived from what?
 - Can the derivative works be distributed? Do the licenses allow this, and are they compatible?
@@ -30,7 +30,7 @@ A graphical overview of xtas.
 
 xtas itself is written in Python, and it uses a number of Python libraries that are licensed under common free licenses. These include the simple permissive BSD and MIT licenses, the permissive Apache License version 2.0 (ALv2), the GNU Lesser General Public License version 2.1 (LGPLv2.1), and the GNU General Public License version 2 or later (GPLv2+).
 
-(请注意，对 GPLv2+ Python 库的依赖已经废弃， 但为了这些例子，我们将假定仍然存在。 )
+(Note that the dependency on the GPLv2+ Python library is deprecated, but for the sake of these examples, we will assume it to still be there.)
 
 xtas' Python code is distributed under the Apache License version 2.0. Since the xtas authors own the copyright, they can license it any way they like (although there is a gray area concerning GPL dependencies, see below). The xtas authors do not distribute any combined works or binaries, but in the examples below, we will assume that there is a combined work, so that we can consider how it should be licensed.
 
@@ -41,8 +41,8 @@ In the following examples, we will simplify most of this away and look at one or
 
 ```{figure} ../../figures/xtas-snowball96.png
 ---
-名称：xtas-snowball96
-alt: xtas vs. Snowball的示例.  一个大的矩形代表合并工作的 xta。  A large rectangle represents the combined work xtas. Within this rectangle, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Below that is a square containing the words "Snowball Stemmer" and "Python lib BSD".
+name: xtas-snowball96
+alt: An illustration of the xtas vs. Snowball example.  A large rectangle represents the combined work xtas. Within this rectangle, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Below that is a square containing the words "Snowball Stemmer" and "Python lib BSD".
 ---
 An illustration of the xtas vs. Snowball example.
 ```
@@ -65,15 +65,15 @@ Snowball is licensed under a permissive license. It can be redistributed under t
 
 The xtas Python code, and the xtas combined work, are licensed under the Apache License v2.0.
 
-If xtas authors redistribute Snowball, they must do so under the BSD license granted by Snowball authors. (他们不能授予Snowball更多的权限，因为他们并不拥有版权，出于同样的原因，其他限制将无法执行。
+If xtas authors redistribute Snowball, they must do so under the BSD license granted by Snowball authors. (They cannot give additional permissions for Snowball, since they do not own the copyright, and additional restrictions would be unenforceable for the same reason.)
 
 (rr-licensing-compatibility-examples-apachevslgpl)=
 ### Apache vs. LGPL
 
 ```{figure} ../../figures/xtas-chardet96.png
 ---
-名称：xtas-chardet96
-alt: xtas vs. chardet 示例. 一个大的矩形代表合并工作的 xta。 A large rectangle represents the combined work xtas. Within this rectangle, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Below that is a square containing the words "chardet" and "Python lib LGPLv2.1".
+name: xtas-chardet96
+alt: An illustration of the xtas vs. chardet example. A large rectangle represents the combined work xtas. Within this rectangle, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Below that is a square containing the words "chardet" and "Python lib LGPLv2.1".
 ---
 An illustration of the xtas vs. chardet example.
 ```
@@ -97,8 +97,8 @@ xtas as a whole, and the xtas Python code, can be licensed in any way the author
 
 ```{figure} ../../figures/xtas-unidecode96.png
 ---
-名称：xtas-unidecode96
-alt: xtas vs. unidecode 示例. 大长方形代表合并工作 xtas。 The large rectangle represents the combined work xtas. Within this rectangle, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Below that is a square containing the words "unidecode" and "Python lib GPLv2+".
+name: xtas-unidecode96
+alt: An illustration of the xtas vs. unidecode example. The large rectangle represents the combined work xtas. Within this rectangle, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Below that is a square containing the words "unidecode" and "Python lib GPLv2+".
 ---
 An illustration of the xtas vs. unidecode example.
 ```
@@ -109,7 +109,7 @@ xtas previously used [unidecode](https://pypi.org/project/Unidecode/), a Python 
 
 There are three works: unidecode, the xtas Python code, and the combined work. The combined work derives from unidecode and the xtas Python code.
 
-xtas Python代码是否是Unidecode的衍生作品，法律没有明确界定。 The Apache license and the LGPL explicitly state that it is not for the purpose of those licenses, but the GPL does not contain such a clause.
+Whether the xtas Python code is a derivative work of unidecode is not clearly defined by the law, and there is no case law on this. The Apache license and the LGPL explicitly state that it is not for the purpose of those licenses, but the GPL does not contain such a clause.
 
 As they are developed separately, and there is no code from unidecode in the xtas code, we assume here that it is not a derivative work.
 
@@ -156,7 +156,7 @@ The four non-xtas components are under free software licenses, and the xtas auth
 
 #### How should the work(s) be licensed?
 
-The xtas Python code should be licensed under the Apache License v2 and the combined work under the GPL version 3 or higher. (备选案文请参阅上面的 {ref}`Unicode 示例 <rr-licensing-compatibility-examples-apachevsgplv2>`。 )
+The xtas Python code should be licensed under the Apache License v2 and the combined work under the GPL version 3 or higher. (See the {ref}`unicode example <rr-licensing-compatibility-examples-apachevsgplv2>` above for alternatives.)
 
 
 ### Call External Program
@@ -165,8 +165,8 @@ xtas can run the [Stanford CoreNLP program](https://stanfordnlp.github.io/CoreNL
 
 ```{figure} ../../figures/xtas-corenlp1-96.png
 ---
-名称：xtas-corenlp1-96
-alt: xtas 与 CoreNLP 示例的图示. 方形代表合并工作xta。 The square represents the combined work xtas. Within this square, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Below that is a square containing the words "Stanford CoreNLP" and "Java program GPLv3+".
+name: xtas-corenlp1-96
+alt: An illustration of the xtas vs. CoreNLP example. The square represents the combined work xtas. Within this square, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Below that is a square containing the words "Stanford CoreNLP" and "Java program GPLv3+".
 ---
 An illustration of the xtas vs. CoreNLP example.
 ```
@@ -183,18 +183,18 @@ Another illustration of the xtas vs. CoreNLP example.
 
 Another interpretation is that xtas and CoreNLP are separate works and that xtas merely communicates with CoreNLP over its standard user interface.
 
-在这个解释中，xtas是一个帮助用户使用Python语言的 CoreNLP 程序的单独程序。 One can consider xtas analogous to a package installer and a command shell here, which are clearly not derivative works of the packages they install or the programs they start.
+In this interpretation xtas is a separate program that helps a user use the CoreNLP program from the Python language, and not a derivative work of CoreNLP. One can consider xtas analogous to a package installer and a command shell here, which are clearly not derivative works of the packages they install or the programs they start.
 
 Under this interpretation, xtas as a whole (not including CoreNLP) can be distributed under any given license (subject to restrictions imposed by its other dependencies of course).
 
-整个xtas 和 xtas Python 代码可以被作者以任何方式授权，因此他们使用Apache License v2.0 如果他们发行钱，他们必须按照其版权所有人颁发的LGPL v2.1许可证这样做。
+In practice, the xtas authors do not distribute CoreNLP at all; they only distribute the xtas Python code, under the Apache License version 2.
 
 
 ### GPLv3 vs Proprietary License
 
 In this example project we want to combine the [OpenIFS global circulation model](https://confluence.ecmwf.int/display/OIFS) with the [DALES large-eddy simulation model](https://github.com/dalesteam/dales). Both these models are available as libraries, so the project entails combining the OpenIFS and Dales libraries into a single program.
 
-（这是一个简化的例子，这个项目的现实是一个或两个更复杂的节点。） 下面不是我们所做的。 )
+(This is a simplified example, the reality of this project is a notch or two more complicated, and the below is not exactly what we do.)
 
 The OpenIFS library (part of the ECMWF weather model code) is available under a proprietary license that allows running the program and making private modifications, but does not allow distributing the program or any derivatives. DALES is published under the GPL version 3.
 
