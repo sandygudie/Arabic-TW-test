@@ -21,28 +21,12 @@ A repository (or a "repo") is a storage location for your research project. A re
 So far, we saw the key documents that one should add when starting or setting up a project repository. If you are following along, your project should contain the following files:
 
 ```
-项目文件夹/
-/ *--docs                     <- 文档
-codex. --codelist.txt 
-cernet---project_plan.txt
-codes--- ...
-│   └── deliverables.txt
-├── data
-│   └── raw/
-│       └── my_data.csv
-│   └── clean/
-│       └── data_clean.csv
-├── analysis                 <- scripts
-│   └── my_script.R
-├── results                  <- analysis output     
-│   └── figures
-├── .gitignore               <- files excluded from git version control 
-├── install.R                <- environment setup
+Project Folder/
 ├── CODE_OF_CONDUCT          <- Code of Conduct for community projects
 ├── CONTRIBUTING             <- Contribution guideline for collaborators
 ├── LICENSE                  <- software license
-├── README.md                <- information about the repo
-└── report.md                <- report of project
+├── ...                      <- any other files that you may have added for your project
+└── README.md                <- information about the repo
 ```
 
 In this subchapter, we outline the benefits and considerations of designing a repository, along with an example structure and further resources to guide your workflow.
