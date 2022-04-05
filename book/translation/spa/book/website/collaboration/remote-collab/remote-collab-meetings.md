@@ -15,7 +15,7 @@ This subchapter provides a structured list of tasks that go into organising remo
   - Is keeping the webcam and microphone on recommended? Can they be turned off during the call?
   - Is there a password needed to join the call? Can attendees join before the host?
   - How can attendees ensure the privacy of their family member? Provide instructions for blurring their background, or using a virtual background?
-  - How will attendees be able to participate in an ongoing discussion? ¿Cómo podrán participar los asistentes en un debate en curso? ¿Cómo pueden levantarse las manos para pedir personalmente a la silla?
+  - How will attendees be able to participate in an ongoing discussion? How can they raise their hands to ask the chair personally?
   - What kind of challenges may attendees face while joining the call/meeting and how can they troubleshoot them?
 - Identify a chair and note-taker for the meeting.
   - Share guidelines and protocols for chairing and note-taking.
