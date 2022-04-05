@@ -26,7 +26,11 @@ There is no one alive who is youer than you.
 _The Turing Way_ book is intended to be only *lightly* opinionated. Whilst more opinionated content is allowed, such content should be clearly marked. The best way to do this is by displaying it in a quote box. This can be done by either prefixing every line with the greater than symbol `>`. Note, that the formatting will be retained, so we can split each sentence to a new line as recommended before.
 
 ```markdown
-> 我不会在家里吃他们。 > i 不会用鼠标吃他们。 > i 不会在一个盒子里吃他们，一个盒子里不会吃他们。 > i 不会在这里吃他们。 i 不会在任何地方吃他们。 > 我不喜欢绿色鸡蛋，ham i 不喜欢这些蛋。
+> I will not eat them in a house,
+> i will not eat them with a mouse,
+> i will not eat them in a box i will not eat them with a fox,
+> i will not eat them here of there i will not eat them anywhere,
+> I do not like green eggs and ham i do not like them sam i am
 ```
 
 ## Avoid Latin Abbreviation
