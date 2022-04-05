@@ -1,8 +1,8 @@
 (rr-reviewing-resources)=
-# Recursos
+# Resources
 
-## Leitura adicional
+## Further reading
 
-- Atwood, Jeff (2006) [Avaliações de código: Apenas Faça isso](http://blog.codinghorror.com/code-reviews-just-do-it/)
-- Burke, Kevin (2011) [Por que revisão de código vence o teste: evidências de décadas de pesquisa de programação.](https://kev.inburke.com/kevin/the-best-ways-to-find-bugs-in-your-code/)
-- Código McConnell, Steve (2004) Completo: Um manual prático de construção de software, segunda edição. Pressionamento da Microsoft. ISBN-13: 978-0735619678
+- Atwood, Jeff (2006) [Code Reviews: Just Do It](http://blog.codinghorror.com/code-reviews-just-do-it/)
+- Burke, Kevin (2011) [Why code review beats testing: evidence from decades of programming research.](https://kev.inburke.com/kevin/the-best-ways-to-find-bugs-in-your-code/)
+- McConnell, Steve (2004) Code Complete: A Practical Handbook of Software Construction, Second Edition. Microsoft Press. ISBN-13: 978-0735619678
