@@ -19,7 +19,7 @@ All stakeholders, including researchers, software engineers, project leaders and
 name: welcome-image
 alt: The Turing Way project is illustrated as a road or path with shops for different data science skills. People can go in and out with their shopping cart and pick and choose what they need.
 ---
-_The Turing Way_ project illustration by Scriberia. Zenodo. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
+_The Turing Way_ project illustration by Scriberia. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
 ```
 
 (welcome-community)=
@@ -47,25 +47,25 @@ _The Turing Way_ project illustration by Scriberia. Original version on Zenodo. 
 
 Although _The Turing Way_ receives support and funding from [The Alan Turing Institute](https://www.turing.ac.uk/), the project is designed to be a global collaboration. We have contributions from across the UK, and from India, Mexico, Australia, USA, and many European countries. Chapters have been written, reviewed and curated by members of research institutes and universities, government departments, and industry. We are committed to creating a space where people with diverse expertise and lived experiences can share their knowledge with others to allow us all to use data science to improve the world.
 
-We value the participation of every member of our community and want to ensure that every contributor has an enjoyable and fulfilling experience. Accordingly, everyone who participates in _The Turing Way_ project is expected to show respect and courtesy to other community members at all times. 所有贡献必须遵守我们的 [行为准则](https://github.com/alan-turing-institute/the-turing-way/blob/main/CODE_OF_CONDUCT.md)。 All contributions must abide by our [code of conduct](https://github.com/alan-turing-institute/the-turing-way/blob/main/CODE_OF_CONDUCT.md).
+We value the participation of every member of our community and want to ensure that every contributor has an enjoyable and fulfilling experience. Accordingly, everyone who participates in _The Turing Way_ project is expected to show respect and courtesy to other community members at all times. All contributions must abide by our [code of conduct](https://github.com/alan-turing-institute/the-turing-way/blob/main/CODE_OF_CONDUCT.md).
 
 ![Gif showing screen capture of contributors table, smiling faces and emojis representing the types of contributions in a table](https://media.giphy.com/media/gKIUisnjpj2PS75nOJ/giphy.gif)
 
 (welcome-history)=
 ## History
 
-The book started in January 2019 as a guide for reproducibility, covering {ref}`rr-vcs`, {ref}`rr-testing`, and {ref}`rr-ci`. 然而，技术技能只是使数据科学研究“对所有人开放”的一个方面，2020年2月。 _诱惑路径_ 扩展为一系列指南： {ref}`rr` {ref}`pd`, {ref}`cm`, {ref}`cl`, and {ref}`er`.
+The book started in January 2019 as a guide for reproducibility, covering {ref}`rr-vcs`, {ref}`rr-testing`, and {ref}`rr-ci`. However, technical skills are just one aspect of making data science research "open for all" and so in February 2020, _The Turing Way_ expanded into a series of guides: {ref}`rr`, {ref}`pd`, {ref}`cm`, {ref}`cl`, and {ref}`er`.
 
 (welcome-citing)=
 ## Citing _The Turing Way_
 
-_的所有材料。 宝藏路径_ 都是在 [CC-BY 4.0 许可证](https://github.com/alan-turing-institute/the-turing-way/blob/main/LICENSE.md) 下提供的。
+All material in _The Turing Way_ is available under a [CC-BY 4.0 licence](https://github.com/alan-turing-institute/the-turing-way/blob/main/LICENSE.md).
 
 You can cite _The Turing Way_ through the project's Zenodo archive using DOI: [10.5281/zenodo.3233853](https://doi.org/10.5281/zenodo.3233853).
 
 The citation will look something like:
 
-> Ting Way Community, Becky Arnold, Louise Bowler, Sarah Gibson, Patricia Herterich, Rosie Higman, … Kirstie Whitaker。 Kirstie Whitaker. (2019, March 25). Ting Way: A Handbook for Repuciable Data Science (Version v0.0.4). Zenodo. http://doi.org/10.5281/zenodo.3233986 Zenodo. http://doi.org/10.5281/zenodo.3233986
+> The Turing Way Community, Becky Arnold, Louise Bowler, Sarah Gibson, Patricia Herterich, Rosie Higman, … Kirstie Whitaker. (2019, March 25). The Turing Way: A Handbook for Reproducible Data Science (Version v0.0.4). Zenodo. http://doi.org/10.5281/zenodo.3233986
 
 Please visit the [DOI link](https://doi.org/10.5281/zenodo.3233853) though to get the most recent version - the one above is not automatically generated and may be out of date. DOIs allow us to archive the repository and are useful for tracking the work in academic publications.
 
