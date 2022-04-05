@@ -1,20 +1,25 @@
-crwdns837226:0crwdne837226:0
-# crwdns837228:0crwdne837228:0
+(ch-newsletters)=
+# _The Turing Way_ Monthly Newsletters
 
-crwdns837230:0crwdne837230:0 crwdns837232:0crwdne837232:0
+_The Turing Way_ team releases newsletters every month to share the latest updates with the community and beyond. These newsletters include event announcements, updates from the project, highlights from the community, useful resources for new and existing contributors, promotion of any ongoing efforts, impact stories of long-standing members and shout outs to relevant online activities.
 
-crwdns837234:0crwdne837234:0
+While we send our newsletters by email to our subscribed members, we simultaneously publish and archive them [online on TinyLetter](https://tinyletter.com/TuringWay/archive) so that anyone outside the community can also learn about the project.
 
 ```{figure} ../figures/scriberia-newsletter.png
-crwdns837236:0crwdne837236:0 crwdns837238:0crwdne837238:0 crwdns837240:0crwdne837240:0 crwdns837242:0crwdne837242:0
+---
+height: 400px
+name: scriberia-newsletter
+alt: two people collecting information and pushing it through a device that produces a newsletter
+---
+A newsletter illustration. Adapted from _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-crwdns837244:0crwdne837244:0
-1. crwdns837246:0crwdne837246:0
-2. crwdns837248:0crwdne837248:0
-3. crwdns837250:0crwdne837250:0
-4. crwdns837252:0crwdne837252:0
+The main motivations to draft these newsletters are the following:
+1. Reflect on the team's and community's project goals and any important milestones achieved in the last month
+2. Highlight and celebrate ongoing work and notable efforts of the community members and document them
+3. Share information about any upcoming events and opportunities for our members
+4. Maintain ongoing connections with the subscribed members
 
-crwdns837254:0crwdne837254:0 crwdns837256:0crwdne837256:0
+Currently, Malvika Sharan, community manager, drafts these newsletters that are proofread and co-published with Kirstie Whitaker, the project lead. Newsletters published before September 2020 have been written by Patricia Herterich and Kirstie Whitaker.
 
-crwdns837258:0crwdne837258:0
+In this chapter, we share the process we have established in _The Turing Way_ for collecting news items, drafting the newsletter, documenting any additional updates shared by community members and publishing them through TinyLetter.

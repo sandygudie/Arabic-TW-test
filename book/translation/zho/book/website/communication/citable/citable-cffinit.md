@@ -1,135 +1,135 @@
 (cm-citable-cffinit)=
-# 使用 `cffinit` 创建一个 `CITATION.cff`
+# Create a `CITATION.cff` using `cffinit`
 
-`cffinit` 是一个帮助用户创建 `CITATION.cff` 文件的网络应用程序。 应用程序为 [CFF schema](https://github.com/citation-file-format/citation-file-format/blob/main/schema-guide.md) 的每个字段提供指导，并自动进行验证。 当出现问题时， `cffinit` 将提供相关领域的视觉反馈。
+`cffinit` is a web application which helps users create a `CITATION.cff` file. The application provides guidance for each field of the [CFF schema](https://github.com/citation-file-format/citation-file-format/blob/main/schema-guide.md) and does the validation automatically. When there are issues, `cffinit` will provide a visual feedback on relevant fields.
 
-在以下章节中，您可以找到该进程每一步的详细信息。
+In the following sections you can find details about each step of the process.
 
-若要开始，请访问 [`cffinit`](https://citation-file-format.github.io/cff-initializer-javascript/) 并点击"创建"按钮继续到 **开始** 屏幕。
+To get started, visit [`cffinit`](https://citation-file-format.github.io/cff-initializer-javascript/) and click on the "Create" button to continue to the **Start** screen.
 
 ```{figure} ../../figures/gifs/cffinit-0.gif
 ---
-名称：cffinit-final
-宽度：80%
-高度：完整表单的最后一页。
+name: cffinit-0
+width: 80%
+alt: Landing page of cffinit.
 ---
-完整表单的最后一页。 [^ cffinitversion]
+Landing page of cffinit. [^cffinitversion]
 ```
 
-## 开始
+## Start
 
-在应用程序的第一页输入您的作品的标题。 写一条消息，说明您希望如何提及您的软件，并选择您是否正在创建一个 `CITATION。 ff 用于软件或数据集的` 文件。
+On the first page of the application, enter the title of your work, write a message to indicate how you want your software to be mentioned, and select whether you are creating a `CITATION.cff` file for software or a dataset.
 
 ```{figure} ../../figures/gifs/cffinit-1.gif
 ---
-名称：cffinit-1
-宽度：80%
-高度：应用程序的第一页，标题、信息和类型。 字段为空。
+name: cffinit-1
+width: 80%
+alt: First page of the application, for Title, Message and Type. Fields are empty.
 ---
-应用程序的第一页，标题、消息和类型。 [^ cffinitversion]
+First page of the application, for Title, Message and Type. [^cffinitversion]
 ```
 
-您可以看到右边生成的 `CITATION.cff` 文件的预览。
+You can see the preview of the generated `CITATION.cff` file on the right.
 
-如果在任何字段中都有问题，它们将被高亮显示并且错误消息将被显示在红色中。 当生成的 `CITATION.cff` 文件无效时，预览小部件将有红色边框。
+If there are issues in any of the fields, they will be highlighted and error messages will be shown in red. When the generated `CITATION.cff` file is not valid, the preview widget will have a red border.
 
 ```{note}
-作为方案要求的标题、消息和作者字段，这些字段将被高亮显示，直到您提供它们。
+As title, message and author are required fields by the schema, these fields will be highlighted until you provide them.
 ```
 
-点击旁边继续到 **作者** 屏幕。
+Click next to continue to the **Authors** screen.
 
 ```{figure} ../../figures/gifs/cffinit-1-filled.gif
 ---
-名称：cffinit-1填充的
-宽度：80%
-高度：表单的第一页，标题、信息和类型。 字段已填充。
+name: cffinit-1-filled
+width: 80%
+alt: First page of the form, for Title, Message and Type. Fields are filled.
 ---
-表单的第一页，标题、消息和类型. 字段已填充。 字段已填充。 [^ cffinitversion]
+First page of the form, for Title, Message and Type. Fields are filled. [^cffinitversion]
 ```
 
-## 作者
+## Authors
 
-CFF schema需要 `CITATION.cff` 文件中至少一个作者。 点击“添加作者”按钮来打开一个表单。 填写作者的相关字段。 强烈建议为作者添加ORCID。 查看 {ref}`cm-citable-orcid` 了解更多关于ORCID的信息。
+The CFF schema requires at least one author in the `CITATION.cff` file. Click the "Add author" button to open a form to do so. Fill the relevant fields for authors. Adding ORCID for authors is highly recommended. See {ref}`cm-citable-orcid` to learn more about ORCID.
 
 ```{figure} ../../figures/gifs/cffinit-2.gif
 ---
-名称：cffinit-2
-宽度：80%
-高度：为作者设置的表格第二页。
+name: cffinit-2
+width: 80%
+alt: Second page of the form, for Authors.
 ---
-表单第二页，供作者使用。 [^ cffinitversion]
+Second page of the form, for Authors. [^cffinitversion]
 ```
 
 ```{figure} ../../figures/gifs/cffinit-2-add-author.gif
 ---
-名称：cffinit-2附加作者
-宽度：80%
-每位作者的表格第二页。 正在添加作者。
+name: cffinit-2-add-author
+width: 80%
+alt: Second page of the form, for Authors. Author addition in progress.
 ---
-表单第二页，供作者使用。 正在添加作者。 [^ cffinitversion]
+Second page of the form, for Authors. Author addition in progress. [^cffinitversion]
 ```
 
-添加作者后，您拥有有效的 `CITATION.cff` 文件所需的最低信息。 根据需要添加更多作者。 随后单击下一步继续。
+After adding one author, you have the minimum required information for a valid `CITATION.cff` file. Add more authors as needed. Click next afterwards to continue.
 
 ```{figure} ../../figures/gifs/cffinit-2-filled.gif
 ---
-名称：cffinit-2填充的
-宽度：80%
-高度：对作者而言，表格的第二页。 一名作者填写完毕。
+name: cffinit-2-filled
+width: 80%
+alt: Second page of the form, for Authors. One author filled.
 ---
-表单第二页，供作者使用。 一名作者填写完毕。 [^ cffinitversion]
+Second page of the form, for Authors. One author filled. [^cffinitversion]
 ```
 
-## 最小 `CITATION.cff` 文件
+## Minimal `CITATION.cff` file
 
-干得好！ 现在您的 `CITATION.cff` 文件符合最低要求。 在这个屏幕中，您可以下载生成的文件或从预览小部件复制它。 我们强烈建议您添加更多信息。 单击“添加更多”按钮以添加更多字段到您的引文文件以使其变得更好。
+Well done! Now your `CITATION.cff` file meets the minimum requirements. In this screen you can download the generated file or copy it from the preview widget. We highly recommend that you add more information. Click the "Add more" button to add more fields to your citation file to make it even better.
 
 ```{figure} ../../figures/gifs/cffinit-3.gif
 ---
-名称：cffinit-3
-宽度：80%
-高度：最小表单的最后一页。
+name: cffinit-3
+width: 80%
+alt: Last page of the minimal form.
 ---
-最小表单的最后一页。 [^ cffinitversion]
+Last page of the minimal form. [^cffinitversion]
 ```
 
-## 附加字段
+## Additional fields
 
-所有附加字段都是可选的，但建议您填写与您工作最相关的字段。
+All additional fields are optional, but it is recommended that you fill the most relevant for your work.
 
 ```{note}
-如果您决定不再继续，您可以按“完成”按钮跳过所有剩余步骤并转到最后屏幕。
+If you decide not to continue further, you can press the "Finish" button to skip all remaining steps and go to the final screen.
 ```
 
-在这个屏幕上，你将看到步骤中的新步骤。 以下是附加屏幕的简要描述：
-- 标识符：添加DOI、URL和软件遗产标识符；
-- 相关资源：与工作及其网站相关的仓库链接；
-- 摘要：工作摘要简短摘要；
-- 关键词：描述工作的关键词；
-- 许可证：提供工作的许可证；
-- 版本规格：关于特定发布或提交的信息，包括发布日期。
+On this screen, you will see new steps in the stepper. Here is a brief description of the additional screens:
+- Identifiers: Add DOIs, URLs, and Software Heritage identifiers;
+- Related resources: URLs of repositories related to the work and its website;
+- Abstract: A short summary of the work;
+- Keywords: Keywords describing the work;
+- License: The license under which the work is available;
+- Version specific: Information about a specific release or commit, including the date of the release.
 
 ```{figure} ../../figures/gifs/cffinit-3-advanced.gif
 ---
-名称：cffinit-3-advanced
-宽度：80
-Alt：表格第三页。 左侧显示更多选项。
+name: cffinit-3-advanced
+width: 80%
+alt: Third page of the form. More options appear on the left.
 ---
-表格第三页。 左侧显示更多选项。 [^ cffinitversion]
+Third page of the form. More options appear on the left. [^cffinitversion]
 ```
 
-点击下一个开始添加附加字段。
+Click next to start adding additional fields.
 
-## 最终屏幕
+## Final screen
 
-很好你把它变成了最后屏幕！ 添加所有相关信息后，您将有一个验证的 `CITATION.cff` 文件。 下载或复制它并添加到您的公共仓库以获得您应得的信用！
+Great that you made it to the final screen! After adding all the relevant information, you will have a validated `CITATION.cff` file. Download or copy it and add it to your public repository to get the credit you deserve!
 
 ```{figure} ../../figures/gifs/cffinit-final.gif
 ---
-名称：cffinit-final
-宽度：80%
-高度：完整表单的最后一页。
+name: cffinit-final
+width: 80%
+alt: Last page of the complete form.
 ---
-完整表单的最后一页。 [^ cffinitversion]
+Last page of the complete form. [^cffinitversion]
 ```

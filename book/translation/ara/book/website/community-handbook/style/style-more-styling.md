@@ -1,63 +1,73 @@
-crwdns838126:0crwdne838126:0
-# crwdns838128:0crwdne838128:0
+(ch-style-more-features)=
+# Glossary, Special Blocks and More Styling
 
-crwdns838130:0crwdne838130:0 crwdns838132:0crwdne838132:0
+Jupyter Book offers more options for styling its chapters and creating a more comprehensive book. In this subchapter, we discuss a few more features that we recommend using in _The Turing Way_.
 
-crwdns838134:0crwdne838134:0
-## crwdns838136:0crwdne838136:0
+(ch-style-more-features-glossary)=
+## Glossary
 
-crwdns838138:0{ref}crwdne838138:0 crwdns838140:0crwdne838140:0
+_The Turing Way_ has a {ref}`glossary` file located in the Afterword of the book, which comprises of definitions of different terms in alphabetical order. This file can be updated with the definitions of new terms, which can then be linked to any chapter in the book where this term occurs.
 
-crwdns838142:0{ref}crwdne838142:0
-
-```
-crwdns838144:0crwdne838144:0 crwdns838146:0crwdne838146:0
-```
-
-crwdns838148:0crwdne838148:0
-```
-
-crwdns838150:0{glossary}crwdne838150:0 crwdns838152:0crwdne838152:0
-
-crwdns838154:0crwdne838154:0 crwdns838156:0crwdne838156:0
-
-crwdns838158:0crwdne838158:0 crwdns838160:0crwdne838160:0
+To add an entry for a new term, please jump to the right alphabetical section of the {ref}`glossary` file and use the following syntax:
 
 ```
+New Term-1
+  A short sentence defining the term. This sentence is indented below the term.
+```
 
-crwdns838162:0{term}crwdne838162:0
+For example, [terms starting with 'A'](https://the-turing-way.netlify.app/afterword/afterword.html#a) are written in the same text-block as shown below:
+```
 
-crwdns838164:0{term}crwdnd838164:0{term}crwdne838164:0
+## A
 
-crwdns838166:0crwdne838166:0
-## crwdns838168:0crwdne838168:0
+```{glossary}
 
-crwdns838170:0crwdne838170:0
+Acceptance Testing
+ A level of the software testing process where a system is tested for acceptability. The purpose of this test is to evaluate the system's compliance with the project requirements and assess whether it is acceptable for the purpose.
 
-crwdns838172:0crwdne838172:0 crwdns838174:0crwdne838174:0
+Add
+ Command used to add files to the staging area. Allows the user to specify which files or directories to include in the next commit.
 
-crwdns838176:0crwdne838176:0
+Authors
+  Authors in this context are the contributors to _The Turing Way_ project who have made a substantial contribution to the project such as writing a subchapter, facilitating community interactions, maintaining project’s infrastructure and supporting the participation of others through mentored-contributions. All authors are named co-authors on the book as a whole.
+
+```
+
+To reference terms in your glossary, use the syntax ``[{term}`def<Term>`]``.
+
+For example, to link the term 'Authors' to its definition in the glossary file, please use the syntax ``[{term}`def<Authors>`]`` next to where this term appears, which should render online like this: "*Authors [{term}`def<Authors>`] has been referenced here.*"
+
+(ch-style-more-features-blocks)=
+## Special Content Blocks
+
+When writing a new chapter or revising an existing one, you may wish to add notes that do not fit in with the rest of the chapter's narrative but may be useful to the readers and help them understand the chapter better.
+
+Jupyter Book allows the use of special content blocks to highlight a piece of text that needs to stand out from the rest the content on a page. This visually separates the block of text from the rest of the page, and ensures that it easily captures the reader's attention.
+
+To add a special content block (note, warning or admonition) to your page, use the following directive:
 
 ````
-crwdns838178:0{note}crwdne838178:0
-crwdns838180:0crwdne838180:0
+```{note}
+This is a sample note!
+```
 ````
-crwdns838182:0crwdne838182:0
+which renders as follows:
 
 ```{note}
-crwdns838184:0crwdne838184:0
+This is a sample note!
 ```
 
-crwdns838186:0crwdne838186:0 crwdns838188:0crwdne838188:0
+You can give content blocks custom titles and styling to reinforce your intended message. For example, if you wanted to warn the reader about something, you may make a warning block using the following directive:
 
 ````
-crwdns838190:0{warning}crwdne838190:0
-crwdns838192:0crwdne838192:0
+```{warning}
+This is a stern warning!
+```
 ````
-crwdns838194:0crwdne838194:0
+Note the new title, icon, and colour scheme.
 
 ```{warning}
-crwdns838196:0crwdne838196:0
+This is a stern warning!
 ```
 
-crwdns838198:0crwdne838198:0 crwdns838200:0crwdne838200:0
+There are many more ways to customise content blocks to suit your writing needs. Refer to the [Jupyter Book documentation](https://jupyterbook.org/content/content-blocks.html#notes-warnings-and-other-admonitions) and the [Admonition Demo page](https://sphinx-book-theme.readthedocs.io/en/latest/reference/demo.html#admonitions) for more recommendations.

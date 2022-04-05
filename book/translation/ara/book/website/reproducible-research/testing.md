@@ -1,45 +1,55 @@
-crwdns853234:0crwdne853234:0
-# crwdns853236:0crwdne853236:0
+(rr-testing)=
+# Code Testing
 
-| crwdns853238:0crwdne853238:0                                 | crwdns853240:0crwdne853240:0 |
-| ------------------------------------------------------------ | ---------------------------- |
-| [crwdns853244:0crwdne853244:0](crwdns853242:0crwdne853242:0) | crwdns853246:0crwdne853246:0 |
+| Prerequisite                                                                                  | Importance |
+| --------------------------------------------------------------------------------------------- | ---------- |
+| [Experience with the command line](https://programminghistorian.org/en/lessons/intro-to-bash) | Necessary  |
 
-## crwdns853248:0crwdne853248:0
+## Summary
 
-crwdns853250:0crwdne853250:0 crwdns853252:0crwdne853252:0 crwdns853254:0crwdne853254:0
+Researcher-written code now forms a part of a huge portion of research, and if there are mistakes in the code the results may be partly or entirely unreliable. Testing code thoroughly and frequently is vital to ensure reliable, reproducible research. This chapter will provide general guidance for writing tests and describe a number of different kinds of testing, their uses and how to go about implementing them.
 
 ```{figure}  ../figures/error-management.jpg
-crwdns853256:0crwdne853256:0 crwdns853258:0crwdne853258:0
-crwdns853260:0crwdne853260:0 crwdns853262:0crwdne853262:0 crwdns853264:0crwdne853264:0
+---
+name: error-management
+alt: A person is happily coding, then a error throws and the coder gets confused. Then the coder can find the error and fix it.
+---
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-## crwdns853266:0crwdne853266:0
+## Motivation
 
-crwdns853268:0crwdne853268:0 crwdns853270:0crwdne853270:0 crwdns853272:0crwdne853272:0 crwdns853274:0crwdne853274:0 crwdns853276:0crwdne853276:0 crwdns853278:0crwdne853278:0 crwdns853280:0crwdne853280:0
+It is very, very easy to make mistakes when coding. A single misplaced character can cause a program's output to be entirely wrong. One of the examples above was caused by a plus sign which should have been a minus. Another was caused by one piece of code working in meters while a piece of code written by another researcher worked in feet. *Everyone* makes mistakes, and in research the results can be catastrophic. Careers can be damaged/ended, vast sums of research funds can be wasted, and valuable time may be lost to exploring incorrect avenues. This is why tests are vital.
 
-crwdns853282:0crwdne853282:0
+Here's a couple of illustrations exemplifying of why should write tests:
 
 ```{figure}  ../figures/testing-motivation1.png
-crwdns853284:0crwdne853284:0
+---
+name: testing-motivation1
+alt:
+---
 ```
 
 ```{figure}  ../figures/testing-motivation2.png
-crwdns853286:0crwdne853286:0
+---
+name: testing-motivation2
+alt:
+---
 ```
 
-crwdns853288:0crwdne853288:0 crwdns853290:0crwdne853290:0 crwdns853292:0crwdne853292:0 crwdns853294:0crwdne853294:0 crwdns853296:0crwdne853296:0 crwdns853298:0crwdne853298:0
+Even if problems in a program are caught before research is published it can be difficult to figure out what results are contaminated and must be re-done. This represents a huge loss of time and effort. Catching these problems as early as possible minimises the amount of work it takes to fix them, and for most researchers time is by far their most scarce resource. You should not skip writing tests because you are short on time, you should write tests *because* you are short on time. Researchers cannot afford to have months or years of work go down the drain, and they can't afford to repeatedly manually check every little detail of a program that might be hundreds or hundreds of thousands of lines long. Writing tests to do it for you is the time-saving option, and it's the safe option.
 
-crwdns853300:0crwdne853300:0 crwdns853302:0crwdne853302:0 crwdns853304:0crwdne853304:0 crwdns853306:0crwdne853306:0 crwdns853308:0crwdne853308:0
+As researchers write code they generally do some tests as they go along, often by adding in print statements and checking the output. However, these tests are often thrown away as soon as they pass and are no longer present to check what they were intended to check. It is comparatively very little work to place these tests in functions and keep them so they can be run at any time in the future. The additional labour is minimal, the time saved and safeguards provided are invaluable. Further, by formalising the testing process into a suite of tests that can be run independently and automatically, you provide a much greater degree of confidence that the software behaves correctly and increase the likelihood that defects will be found.
 
-crwdns853310:0crwdne853310:0 crwdns853312:0crwdne853312:0 crwdns853314:0crwdne853314:0 crwdns853316:0crwdne853316:0
+Testing also affords researchers much more peace of mind when working on/improving a project. After changing their code a researcher will want to check that their changes or fixes have not broken anything. Providing researchers with a fail-fast environment allows the rapid identification of failures introduced by changes to the code. The alternative, of the researcher writing and running whatever small tests they have time for is far inferior to a good testing suite which can thoroughly check the code.
 
-crwdns853318:0crwdne853318:0 crwdns853320:0{ref}crwdne853320:0 crwdns853322:0{ref}crwdne853322:0
+Another benefit of writing tests is that it typically forces a researcher to write cleaner, more modular code as such code is far easier to write tests for, leading to an improvement in code quality.
+{ref}`Good quality code<rr-code-quality>` is far easier (and altogether more pleasant) to work with than tangled rat's nests of code I'm sure we've all come across (and, let's be honest, written). This point is expanded upon in the section {ref}`rr-testing-unittest`.
 
-## crwdns853324:0crwdne853324:0
+## The advantages of testing for research
 
-crwdns853326:0crwdne853326:0 crwdns853328:0crwdne853328:0 crwdns853330:0crwdne853330:0
+As well as advantaging individual researchers testing also benefits research as a whole. It makes research more reproducible by answering the question "how do we even know this code works". If tests are never saved, just done and deleted the proof cannot be reproduced easily.
 
-crwdns853332:0crwdne853332:0 crwdns853334:0crwdne853334:0
+Testing also helps prevent valuable grant money being spent on projects that may be partly or wholly flawed due to mistakes in the code. Worse, if mistakes are not at found and the work is published, any subsequent work that builds upon the project will be similarly flawed.
 
-crwdns853336:0crwdne853336:0
+Perhaps the cleanest expression of why testing is important for research as a whole can be found in the [Software Sustainability Institute](https://www.software.ac.uk/) slogan: better software, better research.

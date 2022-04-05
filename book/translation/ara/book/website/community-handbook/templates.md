@@ -1,34 +1,39 @@
-crwdns838202:0crwdne838202:0
-# crwdns838204:0crwdne838204:0
+(ch-templates)=
+# Template Collection
 
-***crwdns838206:0crwdne838206:0***
+***This page serves as an index for all the template resources provided within The Turing Way Community Handbook***
 
 ```{figure} ../figures/templates.png
-crwdns838208:0crwdne838208:0 crwdns838210:0crwdne838210:0
+---
+height: 200px
+name: templates
+alt: An illustration of a persona, probably an architect making a sketch
+---
+Illustration of a process of sketching. [Royalty free image from Many Pixels](https://www.manypixels.co/gallery/)
 ```
 
-crwdns838212:0crwdne838212:0
-## crwdns838214:0crwdne838214:0
+(ch-template-bookdash)=
+## Book Dash Events
 
-crwdns838216:0crwdne838216:0 crwdns838218:0crwdne838218:0
+There are four MarkDown templates for the shared notes (HackMD), feedback and GitHub issue for organising and running _The Turing Way_ book dash events. These templates can be reused and adapted for different events within and outside _The Turing Way_ community.
 
-- crwdns838220:0{ref}crwdne838220:0
-- crwdns838222:0{ref}crwdne838222:0
-- crwdns838224:0{ref}crwdne838224:0
-- crwdns838226:0{ref}crwdne838226:0
-- crwdns838228:0{ref}crwdne838228:0
+- {ref}`HackMD Template for the Index Page<ch-template-bookdash-index>`
+- {ref}`HackMD Template for Pre-Event Calls<ch-template-bookdash-precall>`
+- {ref}`Issue Template for Planning Book Dashes<ch-template-bookdash-github>`
+- {ref}`HackMD Template for Shared Notes<ch-template-bookdash-notes>`
+- {ref}`HackMD Template for Post-Event Feedback<ch-template-bookdash-feedback>`
 
-crwdns838230:0crwdne838230:0
-## crwdns838232:0crwdne838232:0
+(ch-template-coworking)=
+## Coworking calls
 
-crwdns838234:0crwdne838234:0
+There are two MarkDown templates for the shared notes (HackMD) during the coworking calls hosted for _The Turing Way_ community:
 
-- crwdns838236:0{ref}crwdne838236:0
-- crwdns838238:0{ref}crwdne838238:0
+- {ref}`Template for the Collaboration Cafes<ch-template-coworking-collabcafe>`
+- {ref}`Template for the Daily Coworking Calls<ch-template-coworking-weekly>`
 
-crwdns838240:0crwdne838240:0
-## crwdns838242:0crwdne838242:0
+(ch-template-newsletter)=
+## Newsletter Draft
 
-crwdns838244:0{ref}crwdne838244:0
+As discussed in the {ref}`Newsletter<ch-newsletters>` chapter, we use a template outlined as a guide for collecting news items for the _The Turing Way_ newsletters and it constantly changes as per the activities in the community.
 
-- crwdns838246:0{ref}crwdne838246:0
+- {ref}`Template for Drafting Newsletters<ch-template-newsletter-draft>`

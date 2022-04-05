@@ -1,36 +1,36 @@
-crwdns829828:0crwdne829828:0
-# crwdns829830:0crwdne829830:0
+(communication-aa-misconduct)=
+# Types of authorship misconduct
 
-crwdns829832:0crwdne829832:0 crwdns829834:0crwdne829834:0 crwdns829836:0crwdne829836:0
+There are various forms of authorship misconduct. These reflect unequal power structures in academia. Authorship misconduct results in a lack of transparency and accountability in research.
 
-crwdns829838:0crwdne829838:0 crwdns829840:0{cite}crwdne829840:0
+A study of inappropriate authorship in biomedical journals found 21.0% of the article included honorary authorship, ghost authorship or both in 2008. This is a reduction from a study in 1996 (29.2%) but shows that these practices are still prevalent {cite}`wislar2011honorary`.
 
-crwdns829842:0crwdne829842:0
-## crwdns829844:0crwdne829844:0
-crwdns829846:0crwdne829846:0
+(communication-aa-misconduct-honorary)=
+## Honorary authorship
+Honorary authorship is when an individual becomes a named author even though they have not made a substantial contribution and/or met authorship criteria.
 
-crwdns829848:0{cite}crwdne829848:0 crwdns829850:0crwdne829850:0
+A recent study of academic misconduct found 35.5% of survey respondents across all disciplines had added authors to their own manuscripts even though those authors made minimal contributions to the project {cite}`fong2017manipulation`. The study also found that being an Assistant or Associate Professors significantly increases your likelihood of being an honorary author.
 
-crwdns829852:0crwdne829852:0
-* crwdns829854:0crwdne829854:0
-* crwdns829856:0crwdne829856:0
+This can also be called:
+* Gift or guest authorship - naming an individual author out of respect or gratitude.
+* Coercive authorship - a senior researcher forcing a junior researcher to include a gift or guest author.
 
-crwdns829858:0crwdne829858:0
-* crwdns829860:0crwdne829860:0
-* crwdns829862:0crwdne829862:0
-* crwdns829864:0crwdne829864:0
+This practice happens for a number of reasons:
+* Junior researchers may feel pressured into accepting honorary authorship for more senior researchers in their research group in an attempt not to offend or due to these researchers having power over their career progression.
+* In some disciplines, department head or senior researchers may be added regardless of their contribution.
+* It could also be seen as a good move to include more experienced colleagues to raise the apparent quality of the paper and therefore give more chance for publication.
 
-crwdns829866:0crwdne829866:0
-## crwdns829868:0crwdne829868:0
-crwdns829870:0crwdne829870:0
+(communication-aa-misconduct-ghost)=
+## Ghost authorship
+Ghost authorship is an author that makes a significant contribution to the writing of the article without getting acknowledged.
 
-crwdns829872:0crwdne829872:0
-* crwdns829874:0crwdne829874:0
-* crwdns829876:0crwdne829876:0
+This could be due to:
+* a professional writer employed to draft an article on behalf of a company.
+* a scientist could employ a professional writer to overcome a lack of writing skills, limited time or lack of knowledge of journal requirements.
 
-crwdns829878:0crwdne829878:0 crwdns829880:0crwdne829880:0
+There are also ghost contributors that are contributors to a project but are not usually involved in the writing process. Therefore, these contributors are unlikely to be named on academic papers such as those that collected the data, performed data analysis, make software and contribute in other many ways to a research project.
 
-crwdns829882:0crwdne829882:0 crwdns829884:0crwdne829884:0
+It is common that those on temporary or short-term contracts, such as postdoctoral researchers, may have moved on to another project before publications are finalised. This can also include voluntary work such as University students working on a project during their studies.
 
-crwdns829886:0crwdne829886:0 crwdns829888:0crwdne829888:0 
+These contributions may therefore be missed off the authorship of any publications even though they have contributed to the research in some way. Therefore, without significant effort on the part of the article writers or whoever is in overall charge of the article, and also without a more inclusive authorship policy, these researchers will not get a chance for their contributions to be recognised. 
 

@@ -1,76 +1,76 @@
-crwdns834916:0crwdne834916:0
-# crwdns834918:0crwdne834918:0
+(ch-bookdash-events)=
+# Book Dash Event Plans
 
-crwdns834920:0crwdne834920:0 crwdns834922:0crwdne834922:0
+This subchapter provides information on the events that are organised for the book dash attendees. These events include a pre-event webinar for information, onboarding calls, GitHub introduction, contribution sessions during the Book Dash and Community Share-Outs, which are explained below.
 
-crwdns834924:0crwdne834924:0
+_The Turing Way_ participation guidelines, [Code of Conduct](https://the-turing-way.netlify.app/community-handbook/coc.html) and [Contribution guideline](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) apply to all these events:
 
-## crwdns834926:0crwdne834926:0
+## Pre-Event Calls
 
-### crwdns834928:0crwdne834928:0
+### Webinar for Information
 
-crwdns834930:0crwdne834930:0 crwdns834932:0crwdne834932:0 crwdns834934:0crwdne834934:0
+The planning committee members will host one webinar to share information about the Book Dash that can help interested members to plan their proposals for the event. These webinars will include a 10-15 minutes introduction talk followed by a session to address any questions participants may have. Recording and notes from this session will be published on the YouTube channel of _The Turing Way_.
 
-### crwdns834936:0crwdne834936:0
+### Pre-event Onboarding Calls
 
-crwdns834938:0crwdne834938:0 crwdns834940:0crwdne834940:0
+The planning committee will host two onboarding calls, minimum of one week before the main event to ensure that all the participants are made familiar with the project, the format of the book dash, and how they can be contributing through their involvement at the book dash. It is an opportunity for the organising team and the selected attendees to get to know each other and discuss any concerns that they may have before the book dash.
 
-crwdns834942:0crwdne834942:0 crwdns834944:0crwdne834944:0 crwdns834946:0crwdne834946:0 crwdns834948:0crwdne834948:0 crwdns834950:0crwdne834950:0
+Several participants often come to these calls with some plans and topics they would like to explore for their contributions in _The Turing Way_. Therefore, the host of this call facilitates a breakout session to allow attendees to draft their [SMART goals](https://www.atlassian.com/blog/productivity/how-to-write-smart-goals) for the Book Dash. These topics can be something that is either missing in the existing chapters or need to be updated in the project. We also discuss _The Turing Way_ as a project in general and what the core team is working on to support the development of its guide on reproducibility, ethics, project design, collaboration, communication and a meta-book on the project itself. Most importantly, the core team goes through the contribution guideline and explain how attendees can effectively use their time at the book dash.
 
-crwdns834952:0{ref}crwdne834952:0 crwdns834954:0crwdne834954:0
+The template for shared notes can be accessed in the community handbook {ref}`here<ch-template-bookdash-precall>`. You can read notes from the calls from the most recent book dash [here](https://hackmd.io/@turingway).
 
-### crwdns834956:0crwdne834956:0
+### GitHub Introduction Session
 
-crwdns834958:0crwdne834958:0
+One week before the Book Dash, 2-3 members from the planning committee will host a skill-up session for members who don't have any prior experience with GitHub.
 
-crwdns834960:0crwdne834960:0
-- crwdns834962:0crwdne834962:0
-- crwdns834964:0crwdne834964:0
-- crwdns834966:0crwdne834966:0
-- crwdns834968:0crwdne834968:0
+At this call, participants will learn how to:
+- create a new repository
+- create a (README) file: introduction to Markdown
+- submit changes (to The Turing Way) via Pull Request (PR)
+- see how to review PR or create issues
 
-crwdns834970:0crwdne834970:0 crwdns834972:0crwdne834972:0
-- [crwdns834976:0crwdne834976:0](crwdns834974:0crwdne834974:0)
-- [crwdns834980:0crwdne834980:0](crwdns834978:0crwdne834978:0)
-- [crwdns834984:0crwdne834984:0](crwdns834982:0crwdne834982:0)
+This session will help participants identify resources that they can use for self-paced learning. In the previous events, we have used the following materials:
+- [Training materials](https://malvikasharan.github.io/developing_collaborative_document)
+- [Friendly GitHub Introduction](https://docs.google.com/presentation/d/e/2PACX-1vR-Qu4kYulSMGnnAHH9-OonNiLkaJrsolEecEkt0VD5_3PmKWePmiSQwxK3QHoq5gNsL-MJKowmgsAx/pub?start=false&loop=false&delayms=3000)
+- [Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
-## crwdns834986:0crwdne834986:0
+## During the Book Dash
 
-### crwdns834988:0crwdne834988:0
+### Contribution Sessions
 
-crwdns834990:0crwdne834990:0 crwdns834992:0{ref}crwdne834992:0
+On each day of Book Dash, we will hold three 2.5 hour-long contribution sessions when hosting virtually each followed by a break or social event. Each contribution session will follow the Pomodoro technique for coworking that we also use for the {ref}`coworking calls<ch-coworking-motivation>` using the [browser-based shared (cuckoo) clock](https://cuckoo.team/tw-bookdash) to coordinate the time.
 
-crwdns834994:0crwdne834994:0 crwdns834996:0crwdne834996:0 crwdns834998:0crwdne834998:0 crwdns835000:0crwdne835000:0
+In the opening session of the first day, one of the planning committee members will provide an overview of _The Turing way_ project and the resources that are available for the participants for their book dash contributions. Attendees will be then allocated in small groups with their collaborators based on their SMART goals. The collaborating groups will work together to build a roadmap and plans for their contributions as chapters, subchapters or other types of content. Participants are also encouraged to come up with the main sections of their contributions and collect their thoughts in bullet points on a GitHub issue.
 
-crwdns835002:0crwdne835002:0 crwdns835004:0crwdne835004:0 crwdns835006:0crwdne835006:0 crwdns835008:0crwdne835008:0 crwdns835010:0crwdne835010:0
+The rest of the contribution sessions throughout the Book Dash will be facilitated in breakouts allowing members with similar ideas to collaborate. Participants can also work in self-organised groups or individually on their contribution ideas with the support of mentors. This is also a chance for everyone to meet the participants and helpers informally, learn about each other and connect with specific members who plan to work on the related topic during the book dash. Participants will be supported to collaborate in small groups, organising their thoughts and ideas for contributions during or after the Book Dash. Each contribution session will end with participants sharing their work with others and identifying new collaborators based on the similarity of their interests.
 
-crwdns835012:0crwdne835012:0
+For participants who are unfamiliar with GitHub or would like a refresher (and did not manage to attend the GitHub introduction session), the planning committee members will guide them through the process of making their first pull request.
 
-### crwdns835014:0crwdne835014:0
+### Social Sessions
 
-crwdns835016:0crwdne835016:0 crwdns835018:0crwdne835018:0 crwdns835020:0crwdne835020:0
+There will also be themed social discussion or networking session where participants can interact with others, continue their discussions outside the contribution session or take a break as it's most sustainable and helpful for their participation. For a virtual Book Dash, a support fund will be provided to cover the subsistence cost including paying for meals for the social sessions. If hosting an in-person event, the core team members will plan a dinner or social event to allow participants to relax after an intense discussion session and enjoy meals together in an informal setting.
 
-### crwdns835022:0crwdne835022:0
+### Reporting and Documentation
 
-crwdns835024:0crwdne835024:0 crwdns835026:0{ref}crwdne835026:0 crwdns835028:0crwdne835028:0
+At the end of each day, participants can gather all their contributions on _The Turing Way_ GitHub repository (issues, pull requests and notes) and add that in the shared notes. Specifically, during the last contribution session, they will be asked to add their details to the [contributors](https://github.com/alan-turing-institute/the-turing-way/tree/book-dash-chapter/contributors.md) file and provide anonymous feedback on a {ref}`Pluses and Delta<ch-template-bookdash-feedback>` notes. This will help the planning committee to collect notes for their final report and improve future events.
 
-### crwdns835030:0crwdne835030:0
+### Community Share-Outs & Contributor Celebration
 
-crwdns835032:0crwdne835032:0 crwdns835034:0crwdne835034:0
+On the last day of the Book Dash, _The Turing Way_ team along with the planning committee members host Community Share-out and Contributor Celebration sessions that are open to the public. The Community Share-out events provide a public platform to openly recognise the work of our attendees and community contributors.
 
-crwdns835036:0crwdne835036:0 crwdns835038:0crwdne835038:0
+In this session, all the interested contributors including the Book Dash attendees will have a chance to share their work with everyone through a short demo/presentation. All Book Dash attendees are encouraged to invite their colleagues and friends who would like to learn about and celebrate their work and connect with The Turing Way community.
 
-crwdns835040:0crwdne835040:0
+These sessions are generally recorded to share via the project's YouTube channel.
 
-## crwdns835042:0crwdne835042:0
+## Creating an environment for self-paced contributions
 
-crwdns835044:0crwdne835044:0 crwdns835046:0crwdne835046:0
+We acknowledge that everyone prefers different settings to work effectively and attentively. Therefore we create an environment for self-paced contributions to _The Turing Way_ project.
 
-crwdns835048:0crwdne835048:0
-- crwdns835050:0{ref}crwdne835050:0
-- crwdns835052:0crwdne835052:0
-- crwdns835054:0crwdne835054:0
+Some recommendations to achieve this by managing the space at the book dash by:
+- set up shared notes for everyone to take notes together and draw inspiration from each other's work (see {ref}`template for notes<ch-template-bookdash-notes>`).
+- offering a separate space (physical space or online breakout room) for open discussion for people who work better by discussing their ideas out loud.
+- when meeting in person, providing semi-quiet spaces or headphones for noise cancellation for people who don't need active discussions.
 
-crwdns835056:0crwdne835056:0 crwdns835058:0crwdne835058:0
+Throughout the day, everyone is encouraged to ask for help, move around or change their position or group as needed. Participants are invited to offer feedback on other people's work during the report out session.
 
-crwdns835060:0crwdne835060:0 crwdns835062:0crwdne835062:0
+Though there are designated breaks, participants are encouraged to take breaks whenever they need to decompress. A quiet room is arranged so that people can step back from the crowd as per their need for quiet time.

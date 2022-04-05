@@ -1,17 +1,17 @@
 (rr-licensing-checklist)=
 # Checklist
 
-Esta é uma lista de verificação para adicionar uma licença ao repositório do seu projeto.
+This is a checklist for adding a license to your project repository.
 
-- Vá para a sua pasta de repositório (computador local ou repositório online no GitHub/GitLab/BitBucket)
-- Crie um novo arquivo e nome é `Licença..txt` ou `License.md` com base na sua preferência do formato de arquivo
-- Escolha um tipo de licença (ou múltiplas licenças para conteúdo misto) que seja adequado para o seu projeto (visite [choosealicense.com](https://choosealicense.com/))
-- Copie o conteúdo da licença para o arquivo recém-criado, por exemplo, você pode usar uma licença Open Source [CC-BY 4.](https://choosealicense.com/licenses/cc-by-4.0/) para conteúdo de texto e [Licença MIT](https://choosealicense.com/licenses/mit/) para software
-- Salve seu arquivo e adicione detalhes no arquivo LEIAME.md
+- Go to your repository folder (local computer or online repository on GitHub/GitLab/BitBucket)
+- Create a new file and name is `License.txt` or `License.md` based on your  preference of the file format
+- Choose a type of license (or multiple license for mixed content) that is suitable for your project (visit [choosealicense.com](https://choosealicense.com/))
+- Copy the license content to the newly created file, for example, you can use an Open Source license [CC-BY 4.0](https://choosealicense.com/licenses/cc-by-4.0/) for text content and [MIT License](https://choosealicense.com/licenses/mit/) for software
+- Save your file and add details in your README.md file
 
-(leitura-rr-licensing)=
-## Leitura mais recente
+(rr-licensing-reading)=
+## Further Reading
 
-Recursos adicionais que você pode ler para aprender mais sobre licenças de software.
+Additional resources you can read to learn more about software licenses.
 
- - [Licenças de código aberto: o quê, e por quê](https://arstechnica.com/gadgets/2020/02/how-to-choose-an-open-source-license/)
+ - [Open source licenses: What, which, and why](https://arstechnica.com/gadgets/2020/02/how-to-choose-an-open-source-license/)

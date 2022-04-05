@@ -1,89 +1,148 @@
-# crwdns842670:0crwdne842670:0
+# Advanced Structure for Data Analysis
 
-## crwdns842672:0crwdne842672:0
+## Prerequisites/Recommended Skill Level
 
-| crwdns842674:0crwdne842674:0      | crwdns842676:0crwdne842676:0 | crwdns842678:0crwdne842678:0 |
-| --------------------------------- | ---------------------------- | ---------------------------- |
-| crwdns842680:0{ref}crwdne842680:0 | crwdns842682:0crwdne842682:0 | crwdns842684:0crwdne842684:0 |
-| crwdns842686:0{ref}crwdne842686:0 | crwdns842688:0crwdne842688:0 | crwdns842690:0crwdne842690:0 |
-| crwdns842692:0{ref}crwdne842692:0 | crwdns842694:0crwdne842694:0 | crwdns842696:0crwdne842696:0 |
+| Prerequisite                                    | Importance | Notes                                           |
+| ----------------------------------------------- | ---------- | ----------------------------------------------- |
+| {ref}`Version Control<rr-vcs>`            | Helpful    | Knowledge of using git for version control      |
+| {ref}`Open Research<rr-open>`             | Helpful    | Components are part of the compendium           |
+| {ref}`Reproducible Environments<rr-renv>` | Helpful    | Can be used to make the compendium reproducible |
 
-## crwdns842698:0crwdne842698:0
+## Summary
 
-crwdns842700:0crwdne842700:0 crwdns842702:0crwdne842702:0
+When planning out a research study, one crucial and often forgotten component is setting up a repository. In this section, the benefits and considerations of designing a repository will be outlined, along with an example structure and further resources to guide your workflow.
 
-crwdns842704:0crwdne842704:0 crwdns842706:0crwdne842706:0 crwdns842708:0crwdne842708:0
+The prerequisites for this chapter can vary depending on the organisational needs of a project. Creating a repository with a simple research project layout can require minimal technical knowledge (such as managing only input data and output results). Meanwhile, advanced repository layouts can be required for more complicated projects (such as projects with dependencies on other projects).
 
-## crwdns842710:0crwdne842710:0
+## Background
 
-crwdns842712:0crwdne842712:0 crwdns842714:0crwdne842714:0 crwdns842716:0crwdne842716:0
+A repository (or a "repo") is a storage location for your research project. A repository can contain a range of digital objects and can be used to store your project by using online platforms such as GitHub. The aim of a repository is to organise your project in such a way this is both accessible to others and efficient to use.
 
-crwdns842718:0crwdne842718:0 crwdns842720:0crwdne842720:0
+So far, we saw the key documents that one should add when starting or setting up a project repository. If you are following along, your project should contain the following files:
 
 ```
-crwdns842722:0crwdne842722:0
+Project Folder/
+├── CODE_OF_CONDUCT          <- Code of Conduct for community projects
+├── CONTRIBUTING             <- Contribution guideline for collaborators
+├── LICENSE                  <- software license
+├── ...                      <- any other files that you may have added for your project
+└── README.md                <- information about the repo
 ```
 
-crwdns842724:0crwdne842724:0
+In this subchapter, we outline the benefits and considerations of designing a repository, along with an example structure and further resources to guide your workflow.
 
 ```{note}
-crwdns842726:0crwdne842726:0
+The main benefit of designing your repository by intentionally adding documentation, resources and relevant information allows creating an infrastructure for ethical, open and high-quality research from the get-go.
 ```
 
-## crwdns842728:0crwdne842728:0
+## Main Considerations
 
-crwdns842730:0crwdne842730:0
+When sharing your resources via your repository, consider the following aspects of reproducibility in your research:
 
-- crwdns842732:0crwdne842732:0
-- crwdns842734:0crwdne842734:0
-- crwdns842736:0crwdne842736:0
-- crwdns842738:0{ref}crwdne842738:0
-- crwdns842740:0crwdne842740:0
+- Transparency and openness
+- Version control system (no more files like final_v1_FINAL.R, final_v2_FINAL.R, ...)
+- Make it easy to navigate so that you save time for everyone involved
+- Consider {ref}`pd-overview-repro` aspects
+- Make sure that you provide sufficient details so that others can build on your work
 
-## crwdns842742:0crwdne842742:0
+## Main Recommendations
 
-crwdns842744:0crwdne842744:0
-- crwdns842746:0{ref}crwdne842746:0
-- crwdns842748:0crwdne842748:0
-- crwdns842750:0crwdne842750:0
-- crwdns842752:0crwdne842752:0
-- crwdns842754:0{ref}crwdne842754:0
+Always consider designing your project for collaboration by adding key documents describing project goals, vision, roadmap, contribution and communication process (as described in earlier subchapters).
+- Include details in {ref}`README file<pd-project-repo-readme>`describing _what_ the repository is for and _how_ to navigate it
+- Provide vision, goals and roadmap wherever possible (see [Kamran Ahmed's developer roadmap](https://github.com/kamranahmedse/developer-roadmap) for example)
+- General structure should separate input (data), methods (scripts) and output (results, figures, manuscript)
+- Specify what shouldn't be tracked in the `.gitignore` file, such as sensitive/private files, large dataset or personal notes
+- Include information on your computational environment {ref}`Reproducible Environments<rr-renv>` to ensure reproducibility (this can also be specified in the README)
 
-## crwdns842756:0crwdne842756:0
+## Example Repository Structure
 
-### crwdns842758:0crwdne842758:0
+### Example for a Research Project
 
-crwdns842760:0crwdne842760:0
-
-```
-crwdns842762:0crwdne842762:0
-crwdns842764:0crwdne842764:0
-```
-
-### crwdns842766:0crwdne842766:0
-
-crwdns842768:0crwdne842768:0
+Here are suggestion of files and folders a research project must have.
 
 ```
-crwdns842770:0crwdne842770:0  
+Project Folder/
+├── docs                     <- documentation
+│   └── codelist.txt 
+│   └── project_plan.txt
+│   └── ...
+│   └── deliverables.txt
+├── data
+│   └── raw/
+│       └── my_data.csv
+│   └── clean/
+│       └── data_clean.csv
+├── analysis                 <- scripts
+│   └── my_script.R
+├── results                  <- analysis output     
+│   └── figures
+├── .gitignore               <- files excluded from git version control 
+├── install.R                <- environment setup
+├── CODE_OF_CONDUCT          <- Code of Conduct for community projects
+├── CONTRIBUTING             <- Contribution guideline for collaborators
+├── LICENSE                  <- software license
+├── README.md                <- information about the repo
+└── report.md                <- report of project
 ```
 
-## crwdns842772:0crwdne842772:0
+### Example with Every Possible Folder
 
-### crwdns842774:0crwdne842774:0
+This example shows different files and directory a project can contain when building a software application or research engineering tools.
 
-| crwdns842776:0crwdne842776:0                                 | crwdns842778:0crwdne842778:0                                 |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [crwdns842782:0crwdne842782:0](crwdns842780:0crwdne842780:0) | [crwdns842786:0crwdne842786:0](crwdns842784:0crwdne842784:0) |
-| [crwdns842790:0crwdne842790:0](crwdns842788:0crwdne842788:0) | [crwdns842794:0crwdne842794:0](crwdns842792:0crwdne842792:0) |
-| [crwdns842798:0crwdne842798:0](crwdns842796:0crwdne842796:0) |                                                              |
-| [crwdns842802:0crwdne842802:0](crwdns842800:0crwdne842800:0) |                                                              |
+```
+Project Folder/                        
+├── analysis                 <- scripts
+│   └── my_script.R
+├── build                    <- built files, Makefile
+|   ├── debug
+|   └── release
+├── data
+│   └── raw/
+│       └── my_data.csv
+│   └── clean/
+│       └── data_clean.csv
+├── docs                     <- documentation
+│   └── codelist.txt 
+├── project-management       <- project management related documents
+│   └── communication.md
+│   └── people.md
+│   └── project-report.md
+│   └── tools.md
+├── res                      <- static resources (images and audio files)
+│   └── figures
+├── .gitignore               <- files excluded from git version control 
+├── CODE_OF_CONDUCT          <- Code of Conduct for community projects
+├── CONTRIBUTING             <- Contribution guideline for collaborators
+├── lib                      <- dependencies (shared components that can be used across an application or across projects, code that supports the core application)
+├── logs.txt                 <- history of all major updates like feature release, bug fix, updates
+├── example                  <- example code application
+├── LICENSE                  <- software license
+├── environment.yml          <- anaconda environment setup   
+├── install.R                <- R environment setup
+├── requirements.txt         <- python environment setup
+├── runtime.txt              <- R in binder setup
+├── report.md                <- report of analysis
+├── README.md                <- information about the repo
+├── src                      <- source files
+└── test                     <- unit tests  
+```
 
-### crwdns842804:0crwdne842804:0
+## Resources
 
-- [crwdns842808:0crwdne842808:0](crwdns842806:0crwdne842806:0)
-- [crwdns842812:0crwdne842812:0](crwdns842810:0crwdne842810:0)
-- [crwdns842816:0crwdne842816:0](crwdns842814:0crwdne842814:0)
-- [crwdns842820:0crwdne842820:0](crwdns842818:0crwdne842818:0)
+### R and Python Packages
 
-crwdns842822:0{ref}crwdne842822:0
+| R                                                                 | Python                                                       |
+| ----------------------------------------------------------------- | ------------------------------------------------------------ |
+| [rrtools](https://annakrystalli.me/rrresearch/10_compendium.html) | [compendium-dodo](https://pypi.org/project/compendium-dodo/) |
+| [template](https://github.com/Pakillo/template)                   | [css-compendium](https://pypi.org/project/ccs-compendium/)   |
+| [rcompendia](https://github.com/FRBCesab/rcompendium)             |                                                              |
+| [remake](https://github.com/richfitz/remake)                      |                                                              |
+
+### Curated Examples of GitHub Repositories
+
+- [_The Turing Way_ project repo](https://github.com/alan-turing-institute/the-turing-way)
+- [Jupyter Book project repo](https://github.com/executablebooks/jupyter-book)
+- [Pandas Package repo](https://github.com/pandas-dev/pandas)
+- [Atom Text Editor repo](https://github.com/atom/atom)
+
+For more details, please follow {ref}`project-repo-recommendations-advanced`.

@@ -1,78 +1,78 @@
-crwdns827690:0crwdne827690:0
-# crwdns827692:0crwdne827692:0
+(cl-infrastructure-datastewards)=
+# Data Stewards: Overview
 
-crwdns827694:0crwdne827694:0 crwdns827696:0{ref}crwdne827696:0
+Data Stewards are a growing role within scientific communities. 'Data Steward' is an umbrella term for numerous support roles that involve the creation, management and usage of research data (see also the {ref}`rr-rdm` chapter).
 
-crwdns827698:0crwdne827698:0
-## crwdns827700:0crwdne827700:0
-crwdns827702:0crwdne827702:0 crwdns827704:0crwdne827704:0 crwdns827706:0{cite:ps}crwdne827706:0
+(cl-infrastructure-datastewards-tasks)=
+## What do Data Stewards do?
+The core responsibilities of a Data Steward can vary, ranging from policy advisor/consultant, to hands-on operational tasks, to technical or ICT-related tasks. A Data Steward facilitates the quality, integrity and access to (meta)data in a manner that is consistent with the appropriate laws and institutional policies, ensuring professional treatment of data throughout all stages of the research project. See also: {cite:ps}`Verheul2019DataStewardship`
 
-crwdns827708:0crwdne827708:0
-* crwdns827710:0crwdne827710:0
-* crwdns827712:0crwdne827712:0
-* crwdns827714:0crwdne827714:0
-* crwdns827716:0crwdne827716:0
-* crwdns827718:0crwdne827718:0
+Each role is varied but the main activities are typically focused around data, stewardship, and advising researchers:
+* Leading policy development and implementation on research data management
+* Act as a spokesperson, create awareness for the added value of good data management
+* Assist in planning the collection, management and publication of data in research projects
+* Explore, analyse and assess trends in research data management at your institute/research group
+* Develop and run training events on research data management
 
-crwdns827720:0crwdne827720:0
-* crwdns827722:0{ref}crwdne827722:0
-* crwdns827724:0crwdne827724:0
-* crwdns827726:0crwdne827726:0
-* crwdns827728:0crwdne827728:0
-* crwdns827730:0crwdne827730:0
-* crwdns827732:0crwdne827732:0
-* crwdns827734:0crwdne827734:0
-* crwdns827736:0crwdne827736:0
-* crwdns827738:0crwdne827738:0
-* crwdns827740:0crwdne827740:0
-
-
-crwdns827742:0crwdne827742:0
-## crwdns827744:0crwdne827744:0
-crwdns827746:0crwdne827746:0 crwdns827748:0crwdne827748:0 crwdns827750:0crwdne827750:0 crwdns827752:0crwdne827752:0 crwdns827754:0crwdne827754:0
-
-crwdns827756:0{cite:ps}crwdne827756:0
-1. crwdns827758:0crwdne827758:0
-2. crwdns827760:0crwdne827760:0
-3. crwdns827762:0crwdne827762:0
-4. crwdns827764:0crwdne827764:0
-5. crwdns827766:0crwdne827766:0
-6. crwdns827768:0crwdne827768:0
-7. crwdns827770:0crwdne827770:0
-8. crwdns827772:0crwdne827772:0
-
-crwdns827774:0crwdne827774:0 crwdns827776:0{cite:ps}crwdne827776:0
-
-crwdns827778:0{ref}crwdne827778:0 crwdns827780:0crwdne827780:0 crwdns827782:0{cite:ps}crwdne827782:0 crwdns827784:0crwdne827784:0 crwdns827786:0crwdne827786:0
+The day-to-day tasks of a Data Steward could include:
+* Checking and advising on a Data Management Plan (see {ref}`rr-rdm-dmp` for more information)
+* Providing support for grant proposals
+* Providing data management training
+* Guiding a researcher through the data sharing process
+* Leading discussions on what type of data to preserve for the long time and what data to share publicly
+* Planning for upcoming community information sessions, trainings, events
+* Providing information (through emails or on a website)
+* Writing a blog on a topic related to research data management
+* Being involved in international communities and working groups to improve the recommended practises or advocate for the importance of research data
+* And a lot more!
 
 
-crwdns827788:0crwdne827788:0
-## crwdns827790:0crwdne827790:0
-* crwdns827792:0crwdne827792:0
-* crwdns827794:0crwdne827794:0
-* crwdns827796:0crwdne827796:0
-* crwdns827798:0crwdne827798:0
-* crwdns827800:0crwdne827800:0 crwdns827802:0crwdne827802:0
-* crwdns827804:0crwdne827804:0
+(cl-infrastructure-datastewards-skills)=
+## What qualifications or skills do you need to be a Data Steward?
+There is currently no formal track to take to become a Data Steward. Most Data Stewards have a masters or doctoral education, or a background in research and education. This background is needed to speak the same language as scientific staff, so that it becomes easier to understand their requirements and concerns. Depending on the particular focus of the position, you would need a more technical/ICT background, knowledge of discipline specific matters or experience with advising and policy construction. Soft skills are important in the advisory/policy roles, as you need to..
 
-crwdns827806:0crwdne827806:0
-## crwdns827808:0crwdne827808:0
-* crwdns827810:0crwdne827810:0
-* crwdns827812:0crwdne827812:0
-* crwdns827814:0crwdne827814:0
-* crwdns827816:0crwdne827816:0
-* crwdns827818:0crwdne827818:0
+The “Towards FAIR data stewardship as profession” report ({cite:ps}`Scholtens2019FAIRSteward`) concluded that there are eight competency areas that of importance to Data Stewards:
+1. Policy/strategy: designing or raising awareness of research data management policies and regulations
+2. Compliance: advise on how to confer to research data management policies and regulations
+3. Facilitating FAIR/recommended research data management practices
+4. Services: propose, implement and monitor data management services and improve work processes
+5. Data infrastructure: identify requirements for infrastructure and tools
+6. Knowledge management: identify the level of research data management knowledge and skills
+7. Network and communication: set up networks to increase awareness and participate in (inter)national research data management networks
+8. Data sharing: archiving and publishing
 
-crwdns827820:0crwdne827820:0
-## crwdns827822:0crwdne827822:0
-* [crwdns827826:0crwdne827826:0](crwdns827824:0crwdne827824:0)
-* [crwdns827830:0crwdne827830:0](crwdns827828:0crwdne827828:0)
-* [crwdns827834:0crwdne827834:0](crwdns827832:0crwdne827832:0)
+Next to these specific areas coordination of work and development of soft skills may be important. See also: {cite:ps}`Jetten2021DataStewardship`
+
+Generally, Data Stewards acquire these skills through learning-on-the-job, which is facilitated by existing networks (see {ref}`cl-infrastructure-datastewards-support` below). Through these networks experiences can be exchanged with peers, which is beneficial for personal and professional development. An examples of these collaborative efforts is the '23 Things: Support for Research Data'({cite:ps}`Jetten201923ThingsData`) that provides a good overview of helpful resources for Data Stewards. Depending on the role of the Data Steward, learning discipline specific skills may be important through contributing to specific projects or attending conferences and meetings on relevant topics. As the research culture adapts to (inter)national changes, so too do the skills of the Data Steward that have to be continuously updated.
 
 
-crwdns827836:0crwdne827836:0
-## crwdns827838:0crwdne827838:0
-crwdns827840:0crwdne827840:0 crwdns827842:0crwdne827842:0
+(cl-infrastructure-datastewards-challenges)=
+## Challenges for Data Stewards
+* As Data Steward is a relatively new profession (~2017), their job profile is not always formally defined and their career-track may be unclear.
+* It is difficult to increase the awareness of the presence of the data steward and/or existing data policies, especially when resources are limited.
+* It takes time to know the researchers and earn their trust, which is important to be able to adequately advise them and work together to improve data management practises.
+* Not everyone sees the move towards a more transparent research culture as beneficial, and you can be met with resistance from researchers that do not want to change their existing workflows.
+* There might be limited resources and time to cover all the support requests from researchers. Often there's only a small central team of Data Stewards available to the entire instutite.
+* It is not always clear when you're providing high quality support and where you could improve, as there is no formal education and there is not always a strong feedback culture at your institute.
+
+(cl-infrastructure-datastewards-benefits)=
+## Benefits of having Data Stewards
+* Sharing  information or provide training for data management so that researchers don't have to reinvent the wheel themselves and can easily learn about recommended practises, which will ultimately improve the quality of research.
+* Data Stewards can provide reassurance to researchers, by providing feedback on their Data Management Plans, practises and providing advise on alternative solutions.
+* Support for larger, collaborative grants where data management and open science are an integral part of the proposal ([Horizon Europe](https://ec.europa.eu/info/research-and-innovation/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en)).
+* Data Stewards can play a leading role in developing policies regarding data and software management.
+* Data Stewards can provide answers to questions from researchers, or direct them to other relevant staff that will be able to answer the question.
+
+(cl-infrastructure-datastewards-support)=
+## Organisations that support Data Stewards
+* [Research Data Alliance](https://www.rd-alliance.org/)
+* [DTL-Data Stewards Interest Group](https://www.dtls.nl/about/community/interest-groups/data-stewards-interest-group/)
+* [Research Data Access & Preservation](https://rdapassociation.org/)
+
+
+(cl-infrastructure-datastewards-summary)=
+## Summary
+Data Stewards are an important part of scientific communities, supporting recommended data management practices and saving researchers time by supporting them in these efforts. They do not have a formal career path or qualifications, but typically have a scientific or research background themselves.
 
 
 <!-- 

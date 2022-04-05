@@ -1,35 +1,41 @@
-crwdns841424:0crwdne841424:0
-# crwdns841426:0crwdne841426:0
+(pd-code-styling-tools)=
+# Code Styling Tools
 
-crwdns841428:0crwdne841428:0 crwdns841430:0crwdne841430:0
+As mentioned earlier, there are some automatic tools that you can use to lint your code to existing guidelines. These range from plugins for IDEs packages that 'spell-check' your style, and scripts that automatically lint for you.
 
-## crwdns841432:0crwdne841432:0
+## lintr
 
-crwdns841434:0crwdne841434:0  crwdns841436:0crwdne841436:0 crwdns841438:0crwdne841438:0 crwdns841440:0crwdne841440:0 crwdns841442:0crwdne841442:0
+[lintr](https://cran.r-project.org/web/packages/lintr/lintr.pdf) is an R package that spell-checks your code using a variety of style guidelines.  It can be installed from CRAN. The function `lint` takes a filename as an argument and a list of 'linters' that it should check your code against. These range from whitespace conventions to checking that curly brackets do not have their lines. The output provides a list of markers with recommendations for changing the formatting of your code line-by-line, meaning it is best used early and often in your project.
 
 ```{figure} ../../figures/lintr-output.png
-crwdns841444:0crwdne841444:0
-crwdns841446:0crwdne841446:0
+---
+height: 500px
+name: lintr_output
+alt: lintr output showing recommendations to add space, remove commented code, remove training whitespace, have character size per line less than 80 where needed in the input code.
+---
+An example of how the lintr output may look like for an input file with R code.
 ```
 
-crwdns841448:0crwdne841448:0
+For more details, please visit the [GitHub repository](https://github.com/jimhester/lintr).
 
-## crwdns841450:0crwdne841450:0
+## Autopep8
 
-crwdns841452:0crwdne841452:0
-
-```
-crwdns841454:0crwdne841454:0
-```
-
-crwdns841456:0crwdne841456:0
+[Autopep8](https://pypi.org/project/autopep8/) is a Python module that can be run from the terminal and automatically formats a file to [pycodestyle](https://github.com/PyCQA/pycodestyle) (formerly called pep8) guidelines.  
+It is available on [pypy](https://pypi.org) and can be installed using pip.
 
 ```
-crwdns841458:0crwdne841458:0
+# Install autopep8
+$ pip install --upgrade autopep8
 ```
 
-crwdns841460:0crwdne841460:0
+You can modify a file in place by running the following command:
 
-## crwdns841462:0crwdne841462:0
+```
+$ autopep8 --in-place --aggressive --aggressive <filename>
+```
 
-crwdns841464:0crwdne841464:0 crwdns841466:0crwdne841466:0 crwdns841468:0crwdne841468:0 crwdns841470:0crwdne841470:0 crwdns841472:0crwdne841472:0
+To some extent, the module can also be used on R scripts!
+
+## Auto formating by Black
+
+[Black](https://black.readthedocs.io/en/stable/) is an auto-formating package for Python. This means that it will automatically change your code to adhere to certain guidelines, like spaces around operators and removing unnecessary whitespace. It is also consistent, so that the code that you and your collaborators work on, will look the same once black formats it. It does not change what the code does. This can reduce the time spent making the above changes to the code.

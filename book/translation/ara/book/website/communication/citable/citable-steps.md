@@ -1,55 +1,58 @@
-crwdns831814:0crwdne831814:0
-# crwdns831816:0crwdne831816:0
+(cm-citable-steps)=
+# Steps for Making Research Objects Citable
 
-crwdns831818:0crwdne831818:0 crwdns831820:0crwdne831820:0
+There are many reasons why authors don't cite the data and software that they use, but one of the biggest ones is that it's not clear how. You can go a long way to reducing this barrier by following a few steps to make it as easy as possible.
 
-crwdns831822:0crwdne831822:0
-## crwdns831824:0crwdne831824:0 crwdns831826:0crwdne831826:0
+(cm-citable-steps-object)=
+## 1. Identify Your Research Objects
 
-crwdns831828:0crwdne831828:0 crwdns831830:0crwdne831830:0 crwdns831832:0crwdne831832:0 crwdns831834:0crwdne831834:0
+We want to emphasise that most of our research objects should be shared so that other researchers can reproduce and reuse them. Therefore, the first step is to identify all the research components that you would share online. Practising open research isn't essential to get credit for your data or software, but it makes it much easier for others to build on your work in a way that acknowledges your contribution. There is a growing body of evidence that shows open research tends to be cited more than non-open research of equivalent quality and significance.
 
-crwdns831836:0crwdne831836:0
+As part of the citation for your research objects, it is important to publish research objects beyond papers, such as images, data, software, protocols, methods ang workflow associated with your research.
 
-crwdns831838:0crwdne831838:0 crwdns831840:0crwdne831840:0
-1. crwdns831842:0crwdne831842:0
-2. crwdns831844:0crwdne831844:0
+The best way to get started with this will be to look up some examples of what kind of research objects are or should be cited. Finding commonly referenced research objects in your discipline serves two purposes:
+1. It demonstrates that software & data are things that can be cited;
+2. It gives authors a reference and format that they can copy and paste directly into their document.
 <!-- TODO: Cite relevant paper for this (Piwowar et al 2013?) -->
 
 ```{note}
-crwdns831846:0{ref}crwdnd831846:0{ref}crwdne831846:0
+You can learn more about the different types of research objects in the chapters {ref}`making your research open<rr-open>` and {ref}`making your research FAIR<rr-rdm>`.
 ```
 
-crwdns831848:0crwdne831848:0
-## crwdns831850:0crwdne831850:0 crwdns831852:0crwdne831852:0
+(cm-citable-steps-publish)=
+## 2. Publish your work online
 
-crwdns831854:0crwdne831854:0 crwdns831856:0crwdne831856:0
+Online publications are attached to persistent identifiers that are used for citing them. It's important to note that not everything published online gets a unique identifier but it is important that research objects are published online with DOIs as described below.
 
-crwdns831858:0crwdne831858:0
-### crwdns831860:0crwdne831860:0
+(cm-citable-steps-doi)=
+### DOIs
 
 ```{figure} ../../figures/DOI.jpg
-crwdns831862:0crwdne831862:0 crwdns831864:0crwdne831864:0 crwdns831866:0crwdne831866:0 crwdns831868:0crwdne831868:0 crwdns831870:0crwdne831870:0
-crwdns831872:0crwdne831872:0 crwdns831874:0crwdne831874:0 crwdns831876:0crwdne831876:0 crwdns831878:0crwdne831878:0
+---
+name: doi
+alt: This image shows three boxes with materials on top. The main box in the middle has 'identifiers' written on it with three discs on top of it that are labelled 'data sets'. Both boxes by their side have journal articles on top of them. An arrow on the top of the image points to these images as being 'Digital Object Identifiers'. There is text at the bottom of the image which says 'Persistent', 'Unique', 'Trusted'.
+---
+Digital Object Identifiers or DOIs are persistent, unique and trusted. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-crwdns831880:0crwdne831880:0 crwdns831882:0crwdne831882:0
+Unique identifiers or persistent links for digital objects are more formally called [Digital Object Identifiers or DOIs](https://en.wikipedia.org/wiki/Digital_object_identifier). Using DOIs makes it much easier for others to cite your data, reduces the risk of link rot and means you can track how your research is being used and cited.
 
-### crwdns831884:0crwdne831884:0
+### Servers that provide DOIs
 
-crwdns831886:0crwdne831886:0 crwdns831888:0crwdne831888:0
+Independent of the paper, different research objects can be published online on servers that offer DOIs. Some of these servers are [Zenodo](https://zenodo.org/) and [FigShare](https://figshare.com/) (for different objects such as figures, presentations and reports), [Data Dryad](https://datadryad.org/stash) (for data), [Open Grants](https://www.ogrants.org/) (for grant proposals) and [Open Science Framework (OSF)](https://osf.io/) (for different components of an open research project).
 
-crwdns831890:0crwdne831890:0 crwdns831892:0crwdne831892:0 crwdns831894:0crwdne831894:0 crwdns831896:0crwdne831896:0
-- [crwdns831900:0crwdne831900:0](crwdns831898:0crwdne831898:0)
-- [crwdns831904:0crwdne831904:0](crwdns831902:0crwdne831902:0)
+It's perfectly possible to cite a dataset or software package directly, and most major publishers now permit this in their style guides. However, it can sometimes help to have a more conventional paper to cite, and this is where software and data journals come in. These journals are similar to methods journals, in that they tend not to include significant results but instead focus on describing data and software in sufficient detail to allow reuse. Some examples include:
+- [Journal of Open Research Software](https://openresearchsoftware.metajnl.com/)
+- [Journal of Open Source Software](https://joss.theoj.org/)
 
-crwdns831906:0crwdne831906:0
-## crwdns831908:0crwdne831908:0 crwdns831910:0crwdne831910:0
+(cm-citable-steps-referencing)=
+## 3. Add Machine-Readable Referencing Information
 
-crwdns831912:0crwdne831912:0 crwdns831914:0crwdne831914:0 crwdns831916:0crwdne831916:0 crwdns831918:0crwdne831918:0
+You can go a step further by allowing people to import information about your research objects into their preferred referencing database. If [BibTeX](https://en.wikipedia.org/wiki/BibTeX) is popular in your field for managing references, post a `.bib` file of *all* your outputs (not just your papers). If [Endnote](https://endnote.com/) is more popular, make an Endnote export available. If you use GitHub, GitLab or similar, consider creating a `CITATION` file in each repository containing guidance for how someone can refer to different research outputs from your project.
 
-crwdns831920:0crwdne831920:0
+If possible, provide several formats: you won't need to update these very often and it will pay off.
 
 ```{note}
-crwdns831922:0crwdne831922:0
-crwdns831924:0crwdne831924:0
+Many online tools allow exporting citation of research objects in different formats.
+For example, see [https://www.citethisforme.com/](https://www.citethisforme.com/).
 ```

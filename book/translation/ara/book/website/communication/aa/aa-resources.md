@@ -1,16 +1,16 @@
-crwdns828654:0crwdne828654:0
-# crwdns828656:0crwdne828656:0
-* crwdns828658:0crwdne828658:0
+(cm-aa-resources)=
+# Resources:
+* American Journal of Experts [The ethics of manuscript authorship](https://www.aje.com/en/arc/ethics-manuscript-authorship/e) including a link to the white paper - credit where credits due.
 
-* [crwdns828662:0crwdne828662:0](crwdns828660:0crwdne828660:0)
+* [British sociological association authorship guidelines](https://www.britsoc.co.uk/publications/guidelines-reports/authorship-guidelines.aspx)
 
-* crwdns828664:0crwdne828664:0
+* [Committe of Publication Ethics (COPE) website](https://publicationethics.org/).
 
-* crwdns828666:0crwdne828666:0
+* [How to handle authorship disputes: a guide for new researchers](https://publicationethics.org/files/2003pdf12_0.pdf).
 
-* [crwdns828670:0crwdne828670:0](crwdns828668:0crwdne828668:0)
+* [CRediT Taxonomy](https://casrai.org/credit/)
 
-* [crwdns828674:0crwdne828674:0](crwdns828672:0crwdne828672:0)
+* [London School of Economics Impacts of Social Sciences blog on CRediT Taxonomy](https://blogs.lse.ac.uk/impactofsocialsciences/2020/01/20/credit-check-should-we-welcome-tools-to-differentiate-the-contributions-made-to-academic-papers/)
 
 
 

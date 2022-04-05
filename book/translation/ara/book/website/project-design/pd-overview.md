@@ -1,32 +1,36 @@
-crwdns841604:0crwdne841604:0
-# crwdns841606:0crwdne841606:0
+(pd-overview)=
+# Overview of Project Design
 
-## crwdns841608:0crwdne841608:0
+## Summary
 
-crwdns841610:0crwdne841610:0 crwdns841612:0crwdne841612:0 crwdns841614:0crwdne841614:0
+Project design techniques can help researchers clearly identify and communicate their project goals, skill requirements and resource available to them. It ensures that all stakeholders can work together efficiently, apply reproducibility methods and communicate their work effectively with their target audience. A project design requires project leads, managers and organisers to be deliberate and clear about their expectations from the beginning of their projects to ensure successful implementation of their plans at all stages of research.
 
 ```{figure} ../figures/project-design-overview.jpg
-crwdns841616:0crwdne841616:0 crwdns841618:0crwdne841618:0 crwdns841620:0crwdne841620:0
-crwdns841622:0crwdne841622:0 crwdns841624:0crwdne841624:0
-crwdns841626:0crwdne841626:0
-crwdns841628:0crwdne841628:0
+---
+height: 500px
+name: project-design-overview
+alt: This illustration shows a stage with a trophy labeled as 'reproducible research trophy'. A diverse team of four people are helping each other take staircase towards the trophy. The staircase has three sets of labels indicating research stages as (1) before, that includes 'team, funding, question, methodology, approval, license', (2) during that includes version control and documentation, and (3) after that includes archiving and publishing steps.
+---
+Illustration of project design overview. _The Turing Way_ project illustration by Scriberia.
+Used under a CC-BY 4.0 licence.
+DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
 ```
 
-crwdns841630:0crwdne841630:0
+In this chapter, we have curated good practices to ensure that we maintain good communication (and avoid miscommunication), create opportunities for collaboration and ultimately ensure reproducibility at different stages of the project.
 
-## crwdns841632:0crwdne841632:0
+## Background & Motivation
 
-crwdns841634:0crwdne841634:0 crwdns841636:0crwdne841636:0
+Everyone applies various design concepts to their project formally or informally. However, often we think about these concepts retrospectively, when the project is over and we gain a better understanding of design mistakes that could have been avoided with better planning and organisation.
 
-crwdns841638:0crwdne841638:0
+This lack of planning contributes to the fact that most research work can not be directly and independently reproduced, and that communication and collaboration style across different groups differ and hence are challenging.
 
-crwdns841640:0{ref}crwdnd841640:0{ref}crwdnd841640:0{ref}crwdne841640:0 crwdns841642:0{cite:ps}crwdne841642:0
+To help learn good practices, *The Turing Way* provides various chapters for {ref}`reproducibility<rr>`, {ref}`communication<cm>` and {ref}`collaboration<cl>` that we consider essential for research reproducibility. Although publications{cite:ps}`Turkyilmaz-vanderVelden2020projectdesign` and _The Turing Way_ chapters on specific methods, tools and practices exist it can be overwhelming to know which chapters to read if you don't already know about the concepts.
 
-crwdns841644:0crwdne841644:0
+In this chapter, we have curated essential practices and recommendations and linked them to individual chapters across different guides.
 
 ```{note}
-crwdns841646:0crwdne841646:0
-crwdns841648:0crwdne841648:0
+There are many chapters that we don't link here to avoid overwhelming readers who are new to reproducible project design.
+We invite you to contribute to this chapter by adding important tools or practices that have not been mentioned here.
 ```
 
-crwdns841650:0{ref}crwdnd841650:0{ref}crwdnd841650:0{ref}crwdnd841650:0{ref}crwdnd841650:0{ref}crwdne841650:0
+In the different subchapters we discuss how you can {ref}`start planning<pd-overview-planning>` for project design, the {ref}`communication and collaboration<pd-overview-repro>` aspect for ensuring reproducibility, {ref}`tools and methods<pd-overview-methods>` for reproducibility, {ref}`version control and documentation<pd-overview-version>` aspects and {ref}`sharing your research<pd-overview-sharing>`.

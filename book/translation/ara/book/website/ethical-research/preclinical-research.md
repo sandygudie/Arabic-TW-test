@@ -1,24 +1,24 @@
-crwdns840750:0crwdne840750:0
-# crwdns840752:0crwdne840752:0
+(er-activism-preclinical-research)=
+# Ethical Decisions in Preclinical Research
 
-## crwdns840754:0crwdne840754:0
-crwdns840756:0crwdne840756:0
+## Prerequisites / recommended skill level
+For preclinical scientists – no previous knowledge needed
 
-## crwdns840758:0crwdne840758:0
-crwdns840760:0crwdne840760:0 crwdns840762:0crwdne840762:0 crwdns840764:0crwdne840764:0 crwdns840766:0crwdne840766:0 crwdns840768:0{cite:ps}crwdne840768:0 crwdns840770:0crwdne840770:0 crwdns840772:0{cite:ps}crwdne840772:0
+## Summary
+Society continually debate the use of animals in scientific research. The fundamental questions are whether experiments using animals are morally justifiable and whether the potential benefits outweigh the suffering of those animals? These questions have been coupled with increasing concern about the poor reproducibility of findings from animal research, due to the impact this has on translation, scientific progress and the use of resources. A question that is not often addressed is how those justified experiments are designed, conducted and analysed. Flawed experimental design, inappropriate statistical analysis and inadequate reporting have been flagged as areas for major concern {cite:ps}`Kilkenny2009AnimalExperiments,Begley2015Reproducibility`. It is morally incumbent upon us to ensure that animal experiments are appropriately designed, conducted and analysed otherwise the results are at risk of being unreliable. If the results are unreliable then the animals used have in effect have been wasted {cite:ps}`Ioannidis2014IncreasingValue,deVries2014ReviewAnimalExp`.
 
-## crwdns840774:0crwdne840774:0
-crwdns840776:0crwdne840776:0 crwdns840778:0crwdne840778:0 crwdns840780:0crwdne840780:0
-> crwdns840782:0crwdne840782:0
+## How this will help you/ why this is useful
+Many preclinical researchers do not think of themselves as data scientists. This may be primarily because they work with small datasets. However, there are many common open research themes and this chapter aims to assist preclinical scientists in understanding the why, where, when, and how they can employ open research initiatives, some designed specifically for the use by preclinical scientists.
+> The above sentence may not fit with the structure of the book or flow within these chapters - Nadia
 
-## crwdns840784:0crwdne840784:0
-crwdns840786:0crwdne840786:0 crwdns840788:0crwdne840788:0 crwdns840790:0crwdne840790:0
+## The Experimental Design Assistant
+The National Centre for the Replacement, Refinement and Reduction of Animals in Research (NC3Rs) have a freely accessible web-based tool – The Experimental Design Assistant (EDA; https://eda.nc3rs.org.uk) which aims to help researchers improve the design, conduct, analysis and reporting of animal experiments. Designing experiments with the EDA encourages researchers to consider the sources of bias at the design stages of the experiment before the data are collected, ensuring a rigorous design that is more likely to yield robust findings that can be reproduced. The tool ensures that you have a transparent, clear protocol and plan for statistical analysis which can be scrutinised before collecting data.
 
-**crwdns840792:0crwdne840792:0**
-* crwdns840794:0crwdne840794:0
-* crwdns840796:0crwdne840796:0
-* crwdns840798:0crwdne840798:0
-* crwdns840800:0crwdne840800:0
-* crwdns840802:0crwdne840802:0
-* crwdns840804:0crwdne840804:0
-* crwdns840806:0crwdne840806:0
+**Features of the EDA:**
+* A computer-aided design tool to develop a diagram representing the experimental plan
+* feedback from an expert system on the experimental plan
+* analysis suggestion
+* sample size calculation (power analysis)
+* randomisation sequence generation
+* support for allocation concealment and blinding
+* web-based resources to improve knowledge of experimental design and analysis

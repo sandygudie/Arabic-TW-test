@@ -1,64 +1,64 @@
-crwdns830804:0crwdne830804:0
-# crwdns830806:0crwdne830806:0
+(cm-blogs)=
+# Blogs for Research Communication
 
-crwdns830808:0crwdne830808:0 crwdns830810:0crwdne830810:0 crwdns830812:0crwdne830812:0
+A blog is a website that contains informal articles, usually with a central theme. This could be an academic topic such as open science or be used to report the progress of a research project. Blog posts are the articles on the website and they are typically displayed in reverse chronological order so that the most recent post appears first at the top of the web page.
 
-crwdns830814:0crwdne830814:0 crwdns830816:0crwdne830816:0 crwdns830818:0crwdne830818:0
+Blog posts are short, informal pieces of writing. They are meant to be written regularly and can be used to build momentum on a particular issue, event or project. In this way, blog posts suit research projects, particularly open projects and communities, because there can be frequent updates of activities and findings to bring greater attention and therefore transparency to your work.
 
-crwdns830820:0crwdne830820:0 crwdns830822:0crwdne830822:0
+Starting a blog does take some investment as a web platform needs to be built and the blog needs to be frequently updated with new posts. It is therefore best to share the load of this work with your team in some way or plan to get people from outside of your immediate team to write guest posts.
 
-crwdns830824:0crwdne830824:0
-## crwdns830826:0crwdne830826:0
+(cm-wa-comms-blogs-start)=
+## How to Start a Blog
 
-### crwdns830828:0crwdne830828:0
+### Themes and Audience
 
-crwdns830830:0crwdne830830:0 crwdns830832:0crwdne830832:0
+The first decision to make is to choose the theme and the audience that you want to target. This will determine the readability level and overall style of your blog.
 
-* crwdns830834:0crwdne830834:0
-* crwdns830836:0crwdne830836:0
+* Examples of themes include interesting research topics, a personal diary blog of your research career, a project blog to keep track of all the different aspects of the project or a community blog to help with building and maintaining the community.
+* Most importantly the theme needs to have plenty of content for you to write about, be interesting to you and also engaging for others.
 
-## crwdns830838:0crwdne830838:0
+## Planning for Maintenance
 
-crwdns830840:0crwdne830840:0
+It's always good to make a plan and try to stick to it.
 
-* crwdns830842:0crwdne830842:0
-* crwdns830844:0crwdne830844:0
-* crwdns830846:0crwdne830846:0
+* You need to plan what posts you could write for your theme for the next six months or a year.
+* This will tell you if your theme is substantial enough for a prolonged period.
+* One post a month is a good starting point as this gives you a manageable amount of time to get material together, progress projects or attend events to write about.
 
-## crwdns830848:0crwdne830848:0
+## Building a Website
 
-crwdns830850:0crwdne830850:0
+Next, you need to consider where your blog is going to be.
 
-* crwdns830852:0crwdne830852:0
-* crwdns830854:0crwdne830854:0
-* crwdns830856:0crwdne830856:0
+* If you have never made a website before, it is not as hard as it sounds.
+* There are lots of free and easy options for this but it does depend on your computer skills.
+* You could practice writing blog posts and put them on existing blogging sites (your institution may already have one) before building your own.
 
-crwdns830858:0{ref}crwdne830858:0
+We discuss this in detail in the subchapter {ref}`cm-blogs-webpage`.
 
-## crwdns830860:0crwdne830860:0
+## Writing Your First Post
 
-crwdns830862:0crwdne830862:0 crwdns830864:0crwdne830864:0
+Often starting a piece of writing is the hardest part, and writing your first blog may seem even harder. Just try to start writing in any way as a messy first draft can always be edited later.
 
-* crwdns830866:0crwdne830866:0
-* crwdns830868:0crwdne830868:0
+* The first post could be an introduction to yourself, those involved in the blog or a statement of your intentions for the blog.
+* It might also be good to prepare a few posts for the first release to have a greater impact.
 
-## crwdns830870:0crwdne830870:0
+## Advertising Your Blog
 
-crwdns830872:0crwdne830872:0
+Get your blog noticed.
 
-* crwdns830874:0crwdne830874:0
-* crwdns830876:0crwdne830876:0
-* crwdns830878:0crwdne830878:0
-* crwdns830880:0crwdne830880:0
+* It's a good idea to tell your target audience about your blog and again each time you release a post.
+* Use mailing lists from key associations linked to your research.
+* Use social media such as Twitter or Facebook.
+* Ask colleagues to retweet or send out emails to advertise your blog.
 
-## crwdns830882:0crwdne830882:0
+## Analysing the Impact
 
-crwdns830884:0crwdne830884:0
+Success is very much in the eye of the beholder but there are many methods or metrics that you can use to track the success of your blog.
 
-* crwdns830886:0crwdne830886:0 crwdns830888:0crwdne830888:0
-* crwdns830890:0crwdne830890:0 crwdns830892:0crwdne830892:0
+* Google analytics can be used with Google sites or put into Github pages. This gives you information about how many people are accessing your blog and where they are based.
+* There are lots of different metrics that can be tracked. Here is a good post that explains [20 metrics every blogger needs to track to measure success](https://www.dreamhost.com/blog/metrics-every-blogger-needs-to-track/).
 
-## crwdns830894:0crwdne830894:0
+## Keep Writing and Planning
 
-* crwdns830896:0crwdne830896:0
-* crwdns830898:0crwdne830898:0
+* Stick to your plan, although be responsive to new opportunities such as guest bloggers.
+* Plan time in your schedule for writing the blog and maintaining the website (see the top tips from our case study).

@@ -1,33 +1,38 @@
 ```{figure} ../figures/data-ecosystem.jpg
-crwdns849028:0crwdne849028:0
-crwdns849030:0crwdne849030:0 crwdns849032:0crwdne849032:0 crwdns849034:0crwdne849034:0 
+---
+height: 400px
+name: data-ecosystem
+alt: image of the data ecosystem with private and public data
+---
+Open and closed data for reproducibility.
+_The Turing Way_ project illustration by Scriberia. Original version on Zenodo. http://doi.org/10.5281/zenodo.3695300. 
 ```
 
-crwdns849036:0crwdne849036:0
-# crwdns849038:0crwdne849038:0
+(rr-rdm)=
+# Research Data Management
 
-crwdns849040:0crwdne849040:0
-## crwdns849042:0crwdne849042:0
+(rr-rdm-prerequisites)=
+## Prerequisites
 
-crwdns849044:0crwdne849044:0
+The following sections in this handbook provide useful context and complementary information to this chapter:
 
-| crwdns849046:0crwdne849046:0      | crwdns849048:0crwdne849048:0 |
-| --------------------------------- | ---------------------------- |
-| crwdns849050:0{ref}crwdne849050:0 | crwdns849052:0crwdne849052:0 |
-| crwdns849054:0{ref}crwdne849054:0 | crwdns849056:0crwdne849056:0 |
+| Prerequisite   | Importance |
+| -------------- | ---------- |
+| {ref}`rr-vcs`  | Helpful    |
+| {ref}`rr-open` | Helpful    |
 
-crwdns849058:0crwdne849058:0
-## crwdns849060:0crwdne849060:0
+(rr-rdm-summary)=
+## Summary
 
-crwdns849062:0{term}crwdne849062:0 crwdns849064:0crwdne849064:0 crwdns849066:0crwdne849066:0 crwdns849068:0crwdne849068:0 crwdns849070:0crwdne849070:0 crwdns849072:0crwdne849072:0
+Research Data Management (RDM) [{term}`def<Research Data Management>`] covers how research data can be stored, described and reused. Data here is used as a generic term to encompass all digital objects. RDM is a vital part of enabling reproducible research. RDM ensures efficiency in research workflows, and also greater reach and impact, as data become FAIR (Findable, Accessible, Interoperable and Reusable). Data should be stored in multiple locations and backed-up regularly to prevent loss or data corruption. Clearly describing data using documentation and metadata ensures that others know how to access, use and reuse your data, and also enable conditions for sharing and publishing data to be outlined.
 
 
 
-crwdns849074:0crwdne849074:0
-## crwdns849076:0crwdne849076:0
+(rr-rdm-useful)=
+## Why This is Useful
 
-- crwdns849078:0crwdne849078:0
-- crwdns849080:0crwdne849080:0
-- crwdns849082:0{ref}crwdne849082:0
-- crwdns849084:0crwdne849084:0
-- crwdns849086:0crwdne849086:0
+- Managing your data allows you to always find your data and ensure the quality of scientific practice.
+- Storing your data properly and and backing-up regularly prevents data loss.
+- It can help with {ref}`recognition <cm-citable-orcid>` for all research outputs.
+- It stimulates **collaboration** with others, who will find it easier to understand and reuse your data.
+- RDM is cost/time efficient, as you will always be able to find and use your data.

@@ -1,21 +1,21 @@
-crwdns824544:0crwdne824544:0
-# crwdns824546:0crwdne824546:0
+(cl-github-novice)=
+# Getting Started With GitHub
 
-## crwdns824548:0crwdne824548:0
+## Prerequisites
 
-| crwdns824550:0crwdne824550:0      | crwdns824552:0crwdne824552:0 | crwdns824554:0crwdne824554:0 |
-| --------------------------------- | ---------------------------- | ---------------------------- |
-| crwdns824556:0{ref}crwdne824556:0 | crwdns824558:0crwdne824558:0 | crwdns824560:0crwdne824560:0 |
-| crwdns824562:0crwdne824562:0      | crwdns824564:0crwdne824564:0 | crwdns824566:0crwdne824566:0 |
+| Prerequisite            | Importance | Notes                                    |
+| ----------------------- | ---------- | ---------------------------------------- |
+| {ref}`rr-open`          | Helpful    | Components are part of the open workflow |
+| Recommended skill level | Beginner   | To help a complete beginner              |
 
-## crwdns824568:0crwdne824568:0
+## Summary
 
-crwdns824570:0crwdne824570:0 crwdns824572:0crwdne824572:0 crwdns824574:0crwdne824574:0
+This chapter introduces a step-by-step guide for using an online web interface called GitHub. This platform is popular among researchers to store and share their code, small data and related information. However, it has evolved into a collaborative platform for developing documents and communicating them openly and transparently.
 
-crwdns824576:0crwdne824576:0 crwdns824578:0crwdne824578:0
+Many of the new tools developed for reproducible research can seem daunting to researchers who have little or no experience with computational tools. However, if researchers have used online tools such as Google workspace and Microsoft Office, with a small amount of instruction they should be able to learn to use GitHub online platform fairly easily.
 
-crwdns824580:0{ref}crwdnd824580:0{ref}crwdnd824580:0{ref}crwdnd824580:0{ref}crwdne824580:0
+In this chapter, we describe the {ref}`motivation of using GitHub<cl-github-novice-motivation>`, explain the {ref}`important first steps<cl-github-novice-firststeps>`, discuss some {ref}`useful features<cl-github-novice-features>` and list resources to learn {ref}`advanced GitHub features<cl-github-novice-advanced>`.
 
-crwdns824582:0crwdne824582:0
+Lessons learned in this chapter will enable researchers to work openly, collaboratively and with version control.
 
-*crwdns824584:0crwdne824584:0*
+***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*

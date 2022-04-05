@@ -1,177 +1,181 @@
-crwdns855348:0crwdne855348:0
-# crwdns855350:0crwdne855350:0
+(rr-vcs-github)=
+# Git Commands to Work on GitHub
 
-crwdns855352:0crwdne855352:0 crwdns855354:0crwdne855354:0 crwdns855356:0crwdne855356:0 crwdns855358:0crwdne855358:0
+As research becomes increasingly collaborative and multiple people work on the same project, it becomes difficult to keep track of changes made by others if not done systematically. Moreover, it is time-consuming to manually incorporate the work of different participants in a project, even when all of their changes are compatible. Hosting the project on an online repository hosting service like GitHub is beneficial to make collaborations open and effective. If you are new to collaboration through [GitHub](https://github.com), please follow the comprehensive guide in the previous sections.
 
-crwdns855360:0crwdne855360:0
+In this section, we will discuss how to use Git commands to work with an online Git repository.
 
-crwdns855362:0crwdne855362:0 crwdns855364:0crwdne855364:0
+Please note that the commands listed in this chapter (both in this and previous subchapters) are NOT specific to GitHub. They are used for collaborative work on any Git repositories and to interact with any repository hosting site/servers, which can be [GitHub](https://github.com/), but also [GitLab](https://about.gitlab.com/), [Bitbucket](https://bitbucket.org/) or a [self-set-up bare Git repository on a web server](https://opensource.com/life/16/8/how-construct-your-own-git-server-part-6).
 
-crwdns855366:0crwdne855366:0
+For simplicity, we will use GitHub as an example to explain commands that are used for interacting with Git repositories.
 
-crwdns855368:0crwdne855368:0
-## crwdns855370:0crwdne855370:0
+(rr-vcs-github-local)=
+## Create a Local Copy of an Online Repository
 
-crwdns855372:0crwdne855372:0 crwdns855374:0crwdne855374:0 crwdns855376:0crwdne855376:0 crwdns855378:0crwdne855378:0 crwdns855380:0crwdne855380:0 crwdns855382:0crwdne855382:0 crwdns855384:0crwdne855384:0 crwdns855386:0crwdne855386:0 crwdns855388:0crwdne855388:0
-
-```
-crwdns855390:0crwdne855390:0
-```
-
-crwdns855392:0crwdne855392:0
-```
-crwdns855394:0crwdne855394:0
-```
-crwdns855396:0crwdne855396:0
-```
-crwdns855398:0crwdne855398:0
-```
-crwdns855400:0crwdne855400:0
-## crwdns855402:0crwdne855402:0
-
-crwdns855404:0{ref}crwdne855404:0
+So far, all Git commands introduced in this chapter are concerned with local, unconnected Git repositories. In order to collaborate with others, hosting services, such as GitHub, can store a *clone* (a copy) of your local repository and expose it to others. Usually, you will have a local repository and a *remote*, web-hosted repository. Your local repository is connected to the web-based clone. In technical terms, the web-based clone is a `remote` of the local repository. Usually, this remote is called "origin". Having a web-based remote allows you to *push* changes to your project online. It enables others to obtain their own clone of your repository (a copy of your repository to their local computer), make changes, and submit a *pull request* that allows you to integrate their changes. For example, one can create an independent local copy of a project using the following Git command:
 
 ```
-crwdns855406:0crwdne855406:0
-crwdns855408:0crwdne855408:0
-```
-crwdns855410:0crwdne855410:0
-
-```
-crwdns855412:0crwdne855412:0
+git clone <insert GitHub link of the repository here>
 ```
 
-crwdns855414:0crwdne855414:0
+Collaborators can update their local version of an online repository or *pull* other's work into their copy using the command:
+```
+git pull
+```
+Similarly, they can edit files locally and stage their updates (`git add .`), commit changes to a new version (`git commit`) and *push* changes to the remote online repository using the Git command:
+```
+git push
+```
+(rr-vcs-github-online)=
+## Link a Local Project on Your Computer to an Online Repository
+
+To link a project on your computer to a new GitHub repository (preferably with the same name), you need to follow the standard workflow for creating a Git repository (described in the {ref}`rr-vcs-workflow` subchapter) by issuing the following set of commands in the terminal, one by one:
 
 ```
-crwdns855416:0crwdne855416:0
+cd <your project folder>
+git init
+git add .
+git commit
 ```
-
-crwdns855418:0crwdne855418:0 crwdns855420:0crwdne855420:0
-
-```
-crwdns855422:0crwdne855422:0
-```
-
-crwdns855424:0crwdne855424:0
-
-crwdns855426:0crwdne855426:0
+Assuming that you have a GitHub repository that you want to connect with this project, run the following command:
 
 ```
-crwdns855428:0crwdne855428:0
+git remote add origin <GitHub repository link for your project>
 ```
 
-crwdns855430:0crwdne855430:0
+Then, *push* all the files on your computer to the online version so they match:
 
 ```
-crwdns855432:0crwdne855432:0
+git push -u origin main
 ```
 
-crwdns855434:0crwdne855434:0
-
-crwdns855436:0crwdne855436:0
-### crwdns855438:0crwdne855438:0
-
-crwdns855440:0crwdne855440:0
-```
-crwdns855442:0crwdne855442:0
-```
-
-crwdns855444:0crwdne855444:0
+You can then go on and make more commits on your computer. When you want to push them to your online version, similarly you do:
 
 ```
-crwdns855446:0crwdne855446:0
+git push origin branch_you_want_to_push_to
 ```
 
-crwdns855448:0crwdne855448:0 crwdns855450:0crwdne855450:0 crwdns855452:0crwdne855452:0
+You can also make changes directly on GitHub by editing the online repository, and *pull* those changes locally by using the `git pull` command.
 
-crwdns855454:0crwdne855454:0
-## crwdns855456:0crwdne855456:0
+Others can also clone the repository to their computer by using:
 
-crwdns855458:0crwdne855458:0 crwdns855460:0crwdne855460:0 crwdns855462:0crwdne855462:0 crwdns855464:0crwdne855464:0
+```
+git clone git@github.com:your-github-username/repository_name
+```
 
-crwdns855466:0crwdne855466:0
-### crwdns855468:0crwdne855468:0
+They can make and commit changes to the code without impacting the original, and push their changes to *their* online GitHub account using:
 
-crwdns855470:0crwdne855470:0 crwdns855472:0crwdne855472:0
+```
+git push -u origin main
+```
 
-crwdns855474:0crwdne855474:0
+The same procedure applies to you if you want to clone someone else's repository.
 
-1. crwdns855476:0crwdne855476:0
+(rr-vcs-github-online-pull)=
+### Pull Requests
+
+If you are working on a personal branch and some other changes were made in the main branch, you can *pull* those changes down to your branch using the Git command:
+```
+git pull origin main
+```
+
+When everyone has a copy of the project on their own branch (checkout your branch with `git checkout branch-name`), they can *push* their changes to their branch using the following command:
+
+```
+git push origin branch-name
+```
+
+However, if you can not directly edit the repository (when you are not an owner or admin of the project), you will be able to share your work with the help of *pull requests*. A pull request allows a contributor to get the proposed changes from their branch or repository integrated into the main branch of the project. It is also possible to make pull requests via the command line (see the GitLab documentation [here](https://git-scm.com/docs/git-request-pull)).
+
+(rr-vcs-github-contributing)=
+## Contributing to Other Projects
+
+When you create a local copy of a repository, you only keep the versions of the files that are in the repository at the time of creating that copy. If any changes are made in the original repository afterwards, your copy will get out of sync. This can lead to problems like conflicting file contents when making a pull request or merging changes from your branch to the main repository. Therefore, when working on different branches or forks of a repository, it is a good practice to keep them updated with the main repository and in sync with the original repository.
+
+(rr-vcs-github-contributing-workflow)=
+### A Workflow to Contribute to Others Github Projects via `git`:
+
+Using the fork button on the GitHub repository you wish to contribute to, create a copy of the repository in your account. The main repository that you forked will be referred to as the "upstream" repository.
+
+You can now work on your copy using the command line, via the following steps (make sure you replace the placeholder user and repository names):
+
+1. Clone it to your local machine:
 
     ```
-    crwdns855478:0crwdne855478:0
+    git clone git@github.com:your-github-username/repository_name
     ```
 
-2. crwdns855480:0crwdne855480:0
+2. Add the 'upstream' repository to the list of remote repositories using the `git remote` command:
 
     ```
-    crwdns855482:0crwdne855482:0
+    git remote add upstream git@github.com:upstream-github-username/repository_name
     ```
 
-3. crwdns855484:0crwdne855484:0
+3. Verify the new remote 'upstream' repository:
 
     ```
-    crwdns855486:0crwdne855486:0
+    git remote -v
     ```
 
-4. crwdns855488:0crwdne855488:0
+4. Update your fork with the latest upstream changes, by first fetching the upstream repository's branches and latest commits to bring them into your repository:
 
     ```
-    crwdns855490:0crwdne855490:0
+    git fetch upstream
     ```
 
-5. crwdns855492:0crwdne855492:0
+5. View all branches, including those from upstream:
 
     ```
-    crwdns855494:0crwdne855494:0
+    git branch -va
     ```
 
-crwdns855496:0crwdne855496:0
+Make sure that you are on your main branch locally, if not, then checkout your main branch using the command `git checkout main`
 
-6. crwdns855498:0crwdne855498:0
+6. Keep your fork updated by merging those commits (fetched from the upstream) to your own local main branch.
 
     ```
-    crwdns855500:0crwdne855500:0
+    git merge upstream/main
     ```
 
-crwdns855502:0crwdne855502:0 crwdns855504:0crwdne855504:0
+Now, your local main branch is up-to-date with everything modified upstream. If there are no unique commits on the local main branch, git will simply perform a fast-forward.
 
-*crwdns855506:0crwdne855506:0*
+*Note: The upstream/main is the original repository's main which you wish to contribute to, whereas origin/main refers to the repository you cloned in your local machine after it was forked on GitHub.*
 
-crwdns855508:0crwdne855508:0
+Once your fork is in sync with the upstream main repository, you can always keep your local cloned repository in sync with origin (fork in this case) by using:
 
 ```
-crwdns855510:0crwdne855510:0
+git checkout main
+git pull
 ```
 
-crwdns855512:0crwdne855512:0 crwdns855514:0crwdne855514:0
+The `git pull` command combines two other commands, `git fetch` and `git merge`. When using `git fetch`, the resulting commits are stored as the remote branch allows you to review the changes before merging.
 
-crwdns855516:0crwdne855516:0
-
-```
-crwdns855518:0crwdne855518:0
-```
-
-crwdns855520:0crwdne855520:0
-
-crwdns855522:0crwdne855522:0
+Similarly, if you have created more branches other than main, you can also keep them in sync with your main, once it is in sync with the upstream repository.
 
 ```
-crwdns855524:0crwdne855524:0
+git checkout my-other-branch
+git pull origin main
 ```
 
-crwdns855526:0crwdne855526:0
+When everything is up-to-date, you can work on your branch and commit changes.
 
-crwdns855528:0crwdne855528:0
-### crwdns855530:0crwdne855530:0
+When you are ready to push your local commits to your forked repository (origin), use the following command.
 
-crwdns855532:0crwdne855532:0
+```
+git push origin forked_repository
+```
+
+Now you can make a pull request!
+
+(rr-vcs-github-contributing-practice)=
+### Good Practice
+
+Before you create a branch, make sure you have all the upstream changes from the origin/main branch.
 
 
-crwdns855534:0crwdne855534:0 crwdns855536:0crwdne855536:0 crwdns855538:0crwdne855538:0 crwdns855540:0crwdne855540:0
+**A word of caution on the `rebase` command**: While trying to keep your branches in sync, you may come across the `rebase` command. It tends to rewrite history and could be troublesome if not communicated with others working on the same branch. Try to avoid using the `rebase` command, and instead use `pull` or `fetch`+`merge`, as discussed in this section. You can find more details about [Merging vs Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing).
 
 
-## crwdns855542:0crwdne855542:0
-- crwdns855544:0crwdne855544:0
-- crwdns855546:0crwdne855546:0
+## Further reading
+- An [article on syncing a fork of a repository](https://help.github.com/en/articles/syncing-a-fork) to keep it up-to-date with the upstream repository.
+- Instructions if you wish to do it all [in the browser itself](https://github.com/KirstieJane/STEMMRoleModels/wiki/Syncing-your-fork-to-the-original-repository-via-the-browser).

@@ -1,131 +1,135 @@
-crwdns837722:0crwdne837722:0
+(ch-style-crossref)=
 
-# crwdns837724:0crwdne837724:0
+# Cross-Referencing Sections and Chapters
 
-crwdns837726:0crwdne837726:0
+We recommend using the cross-referencing style as described in the [Jupyter Book](https://jupyterbook.org/content/citations.html) for chapters or files, and different contents of chapters such as sections and figures.
 
-crwdns837728:0crwdne837728:0 crwdns837730:0crwdne837730:0
+In Jupyter Book, labels are a way to add tags to parts of your content or a file that you can reference later on. This is very helpful because you can insert labels to other parts of your book without worrying about the relative or absolute paths of the file.
 
-crwdns837732:0crwdne837732:0 crwdns837734:0crwdne837734:0
+In this document, we have provided examples to describe how you can use labels for different chapters or part of chapters within the book. We have also defined a naming convention for labels for _The Turing Way_ to ensure that the locations of these labels in the book are identifiable by their name.
 
-## crwdns837736:0crwdne837736:0
+## Labels in Jupyter Book
 
-crwdns837738:0crwdne837738:0
-
-```
-crwdns837740:0crwdne837740:0
-```
-
-crwdns837742:0crwdne837742:0
+To add a label for a section or a chapter/subchapter, use a syntax of the following pattern before the element you wish to label:
 
 ```
-crwdns837744:0{ref}crwdne837744:0
+(my-label-name)=
+# The thing that I want to label
+```
+
+You can insert cross-references to the labels of sections in your file with the following syntax:
+
+```
+{ref}`my-label-name`
 
 ```
 
-crwdns837746:0crwdne837746:0
+Similarly, you can use labels for cross referencing chapters or subchapters.
 
-crwdns837748:0crwdne837748:0
+Please see details in the examples given below.
 
-### crwdns837750:0crwdne837750:0
+### _The Turing Way_ naming convention for the labels
 
-crwdns837752:0crwdne837752:0
+We recommend using the following naming standard for labels, which will allow different authors and contributors of _The Turing Way_ to intuitively identify the locations of the files where these labels have been created.
 
-crwdns837754:0crwdne837754:0
-
-```
-crwdns837756:0crwdne837756:0
-```
-
-crwdns837758:0crwdne837758:0
-
-crwdns837760:0crwdne837760:0
-
-- crwdns837762:0crwdne837762:0
-- crwdns837764:0crwdne837764:0
-- crwdns837766:0crwdne837766:0
-- crwdns837768:0crwdne837768:0
-- crwdns837770:0crwdne837770:0
-- crwdns837772:0crwdne837772:0
-
-crwdns837774:0crwdne837774:0 crwdns837776:0crwdne837776:0
+The following naming convention for the labels for different chapters:
 
 ```
-crwdns837778:0crwdne837778:0
+(sectioninitials-filename)=
 ```
 
-crwdns837780:0crwdne837780:0 crwdns837782:0crwdne837782:0 crwdns837784:0crwdne837784:0
+Here, the first placeholder `sectioninitials` should be replaced by the initials for different sections in the book and the second placeholder `filename` should be replaced by the name of file where the label is being created.
+
+For the different Guides of the book, we will use the following `sectioninitials`:
+
+- Reproducible Research: `rr`
+- Project Design: `pd`
+- Collaboration: `cl`
+- Communication: `cm`
+- Ethical Research: `er`
+- Community Handbook: `ch`
+
+For example, in the guide `Reproducible Research`, we have a chapter called `Overview`. We have created a label for that chapter called `rr-overview` by adding the label on the top of the header by using the following directive
 
 ```
-crwdns837786:0crwdne837786:0
+(rr-overview)=
+# Overview
 ```
 
-crwdns837788:0crwdne837788:0 crwdns837790:0crwdne837790:0 crwdns837792:0crwdne837792:0 crwdns837794:0crwdne837794:0
+Similarly, for different subchapters we recommend extending the label name with another placeholder for subchapter's name. For example, `rr-overview-resources` is a label in the guide "Reproducible Research" (rr) for the subchapter "Resources" for the "Overview" chapter (overview-resources). This label can be created by using the following directive in the corresponding file:
 
 ```
-crwdns837796:0crwdne837796:0
+(sectioninitials-filename)=
+# Resources
 ```
 
-### crwdns837798:0crwdne837798:0
-
-**crwdns837800:0crwdne837800:0**
-
-crwdns837802:0crwdne837802:0
-
-crwdns837804:0crwdne837804:0
-
-crwdns837806:0crwdne837806:0
+In the same manner, for different sections in a subchapters we recommend extending the label name with another placeholder. This can be chosen by the authors, which should be a short yet sensible name for the section where the label is being created. For example, `rr-overview-resources-addmaterial` is a label in the guide "Reproducible Research" (rr) for the subchapter "Resources" for the "Overview" chapter (overview-resources) for the section for "Additional Materials" (addmaterails). This label can be created in the corresponding file for the suggested section name using the following directive:
 
 ```
-crwdns837808:0{ref}crwdne837808:0
+(sectioninitials-filename-section)=
+## Additional Material
 ```
 
-crwdns837810:0{ref}crwdne837810:0
+### Examples of cross-referencing
 
-crwdns837812:0crwdne837812:0
+**Examples for cross-referencing sections of chapters and subchapters**
 
-crwdns837814:0crwdne837814:0 crwdns837816:0crwdne837816:0
+We will use examples for the chapters in "Reproducible Research" guide located in the `book/website` directory.
 
-```
-crwdns837818:0{ref}crwdne837818:0
-```
+**_Case 1_**: When you cross-reference a section of the chapter within the same file _before_ a label has been created.
 
-crwdns837820:0{ref}crwdne837820:0
-
-crwdns837822:0crwdne837822:0
-
-crwdns837824:0crwdne837824:0
-
-crwdns837826:0crwdne837826:0 crwdns837828:0crwdne837828:0
+Taking the previous example of `rr-overview-resources-addmaterial`, we can use this label to cross-reference it in an earlier section within the same file using the following:
 
 ```
-crwdns837830:0{ref}crwdne837830:0
+{ref}`rr-overview-resources-addmaterial`
 ```
 
-crwdns837832:0{ref}crwdne837832:0
+This will appear in the online book like so: {ref}`rr-overview-resources-addmaterial`.
 
-crwdns837834:0crwdne837834:0
+**_Case 2_**: When you cross-reference a section of the chapter within the same file _after_ a label has been created.
 
-**crwdns837836:0crwdne837836:0**
-
-crwdns837838:0crwdne837838:0
-
-crwdns837840:0crwdne837840:0 crwdns837842:0crwdne837842:0
+In the same subchapter "Resources", we have created a label `rr-overview-resources-reading` for the section "Further Reading". We can cross-reference it in a later section within the same file using the following:
 
 ```
-crwdns837844:0{ref}crwdne837844:0
+{ref}`rr-overview-resources-reading`
 ```
 
-crwdns837846:0{ref}crwdne837846:0
+It will appear in your chapter like this: {ref}`rr-overview-resources-reading`.
 
-crwdns837848:0crwdne837848:0
+**_Case 3_**: When you cross-reference a section of a chapter in a different file (chapter) before or after a label has been created.
 
-### crwdns837850:0crwdne837850:0
+In the subchapter "Definitions" of the "Overview" chapter, we have created a label `rr-overview-definitions` for the section "Table of definitions for reproducibility".
 
-crwdns837852:0crwdne837852:0
+We can cross-reference it in a different subchapter or chapter. In this case, let's cross-reference it in the landing (main) page of the "Overview" chapter by using the following:
 
 ```
-crwdns837854:0{ref}crwdne837854:0
+{ref}`rr-overview-definitions`
 ```
 
-crwdns837856:0{ref}crwdne837856:0
+It will appear in your chapter like this: {ref}`rr-overview-definitions`.
+
+Though we are demonstrating this example for subchapters within the same chapter ("Overview"), the similar syntaxes can be used for cross-referencing in other chapters within the book.
+
+**Examples for Cross referencing chapters and subchapters**
+
+**_Case 4_**: Cross-referencing a chapter or subchapter in a different file (chapter/subchapter) before or after a label has been created.
+
+For example, in the landing page of the chapter "Open Research", we have created a label `rr-open`. We can cross-reference it in the section "What to learn next?" in a different subchapter "Resources" of the "Overview" chapter by using the following:
+
+```
+{ref}`rr-open`
+```
+
+It will appear in your chapter like this: {ref}`rr-open`.
+
+Though we are demonstrating this example for cross-referencing chapters and subchapters across the book, the same syntax can be used for cross-referencing subchapters within the same chapter.
+
+### Providing an alternative title for the references
+
+For any of the above mentioned references, you can provide an alternative title while cross referencing by adding the title before the label as shown in this example:
+
+```
+{ref}`Chapter on Open Research<rr-open>`
+```
+
+here we are giving an alternative title to the 'Open Research chapter', which will appear in your file like this: {ref}`Chapter on Open Research <rr-open>`

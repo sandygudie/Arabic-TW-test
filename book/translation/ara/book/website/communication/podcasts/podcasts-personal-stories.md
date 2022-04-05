@@ -1,92 +1,92 @@
-crwdns832856:0crwdne832856:0
-# crwdns832858:0crwdne832858:0
+(cm-podcasts-personal-stories)=
+# Personal stories - Podcasts
 
-## crwdns832860:0crwdne832860:0
+## Zoe Ingram and Emma Harris: Orion Open Science Podcast
 
-crwdns832862:0crwdne832862:0
+The ORION Open Science podcast is structured around a series of interviews with interesting guests about a variety of topics related to Open Science.
 
-crwdns832864:0crwdne832864:0
+It is also co-hosted and co-produced by **Dr. Luiza Bengtsson**.
 
-crwdns832866:0crwdne832866:0
+If you want to find out more information about the podcast then look at their [website](https://www.orion-openscience.eu/publications/training-materials/201902/podcasts) and the [podcast on PodBean](https://orionopenscience.podbean.com/).
 
-crwdns832868:0crwdne832868:0
+We would like to thank **Zoe Ingram** and **Emma Harris** for answering our interview questions about their very successful and enjoyable blog series.
 
-## crwdns832870:0crwdne832870:0 crwdns832872:0crwdne832872:0
+## 1. Why did you start your podcast?
 
-crwdns832874:0crwdne832874:0
+**Emma** - While there are a good number of podcasts on Open Science now (which is great), back in 2018 there was only Open Science Radio, which was excellent but often only in German.
 
-crwdns832876:0crwdne832876:0
+**Zoe** - We are part of the Orion Open Science Project and our task is doing training so Luiza decided that doing the podcast as part of the training material would be a good idea.
 
-crwdns832878:0crwdne832878:0 crwdns832880:0crwdne832880:0 crwdns832882:0crwdne832882:0
+**Emma** - We felt that a podcast, with the format of interviews with experts on different topics, would be an easy and entertaining way of communicating open science concepts to researchers and others. Even with the rise of e-learning and online workshops, there is an upper limit on how many people you can reach with traditional training. The podcast allows everyone to have access, and for different aspects of open science to be explored in-depth.
 
-## crwdns832884:0crwdne832884:0 crwdns832886:0crwdne832886:0
+## 2. How did you get started?
 
-crwdns832888:0crwdne832888:0 crwdns832890:0crwdne832890:0 crwdns832892:0crwdne832892:0
+**Zoe** - It was something that none of us had done before. We had a colleague whose wife had skills in this area so she taught us how to get started. She gave Emma and Luiza feedback about speaking and how to adjust their voices for speaking on the podcast.
 
-crwdns832894:0crwdne832894:0 crwdns832896:0crwdne832896:0
+**Emma** - We just started interviewing people and learned by doing, so the early podcasts are lower in quality and we are pretty awkward! But slowly we learned to be more relaxed and how to handle the technical side of things more competently.
 
-crwdns832898:0crwdne832898:0 crwdns832900:0crwdne832900:0
+**Zoe** - We did get a sound editor to help with it. This was for the technical and time constraint in doing this.
 
-crwdns832902:0crwdne832902:0
+We made a jingle and there is a new jingle for the new season.
 
-## crwdns832904:0crwdne832904:0 crwdns832906:0crwdne832906:0
+## 3. What impact do you think your podcast is making on your research/project/community?
 
-crwdns832908:0crwdne832908:0 crwdns832910:0crwdne832910:0
+**Zoe** - It is hard to know who is listening as you are sending things out to a black box. We do get mail and feedback about the podcast from people that want to suggest themes and volunteer take part.
 
-crwdns832912:0crwdne832912:0 crwdns832914:0crwdne832914:0
+**Emma** - The global impact always makes me happy - we have people from all over the world on the show and have heard from listeners from even more countries. I think the podcast does not have a huge audience in numbers but it is very geographically diverse.
 
-crwdns832916:0crwdne832916:0 crwdns832918:0crwdne832918:0 crwdns832920:0crwdne832920:0
+The episodes are very useful and engaging on particular topics. For example, I recently gave a talk on Creative Commons Licenses and someone wrote to me who had missed it and wanted some information, so I referred them to the podcast episode we did with Cable Green, the CEO of Creative Commons. So they are an excellent open educational resource, as well as being generally interesting.
 
-crwdns832922:0crwdne832922:0 crwdns832924:0crwdne832924:0
+**Zoe** - I like talking to people and have missed our Institute's Beer Hour in which I got to meet and speak to scientists about their work. I enjoy having these types of conversations about open science.
 
-crwdns832926:0crwdne832926:0 crwdns832928:0crwdne832928:0
+I think the podcast is a format that is flexible and it is easier to follow a conversation than say listening to someone give a talk. This means that someone can listen to the podcast while they are doing another activity as it is a different way to take in information.
 
-crwdns832930:0crwdne832930:0 crwdns832932:0crwdne832932:0 crwdns832934:0crwdne832934:0 crwdns832936:0crwdne832936:0
+Luiza pointed out what a benefit it is for us to be able to learn so much from the guests. It is hard to stay on top of so many fast-paced developments. So, we are in that sense lucky to be able to get to the level of depth of information through the conversations and ask the questions that we want to be answered. I also think it connects people as they hear about other researchers work.
 
-## crwdns832938:0crwdne832938:0 crwdns832940:0crwdne832940:0
+## 4. What tools/software do you use most in your podcast?
 
-crwdns832942:0crwdne832942:0 crwdns832944:0crwdne832944:0 crwdns832946:0crwdne832946:0
+**Emma** - The mic we used pre-pandemic was an H6 Zoom. For online interviews: Zencastr and a decent headset with a built-in mic. Editing was done on Adobe Premiere Pro.
 
-crwdns832948:0crwdne832948:0 crwdns832950:0crwdne832950:0
+**Zoe** - The podcast is hosted on PodBean. We are thinking of going over to Audacity for editing as it is free, open source software.
 
-## crwdns832952:0crwdne832952:0 crwdns832954:0crwdne832954:0
+## 5. Do you have any top tips for other people that might be interested in starting a podcast?
 
-crwdns832956:0crwdne832956:0 crwdns832958:0crwdne832958:0
+**Emma** - Decide on your audience and cater to them, what are their concerns and interests? Create material that reflects those things.
 
-crwdns832960:0crwdne832960:0 crwdns832962:0crwdne832962:0 crwdns832964:0crwdne832964:0
+It is incredibly hard to relax ‘on tape’, even if you are a good public speaker. It is normal to feel anxious so don’t be surprised if you get very tense. The best thing to do to overcome this is to press record and then just chat with people, even do some warm-up/ice breaker type exercises to get everyone comfortable.
 
-crwdns832966:0crwdne832966:0 crwdns832968:0crwdne832968:0 crwdns832970:0crwdne832970:0
+You will hate your voice, everybody does, but you will learn to accept it in time. Aim to speak normally, as you would to someone sitting next to you. Smile when you speak, it makes a difference.
 
-crwdns832972:0crwdne832972:0
+Always ensure you get people to say their name at least once on the recording so you have the correct pronunciation (and check people’s preferred pronouns too).
 
-crwdns832974:0crwdne832974:0
+Take some brief notes as they speak so you can come back to earlier points or ask follow-up questions.
 
-crwdns832976:0crwdne832976:0 crwdns832978:0crwdne832978:0
+Aim for quality, not quantity, better to have one great episode a month than four okay ones. However, if you are looking to have a large audience it is probably best to be weekly or biweekly.
 
-crwdns832980:0crwdne832980:0 crwdns832982:0crwdne832982:0
+**Zoe** - Do it as a conversation and have an idea of the audience in mind. Make sure that you ask questions to get the information for listeners to put ideas into practice - empower people to take action.
 
-crwdns832984:0crwdne832984:0
+If you are trying to start a listener base, then try to interview people that have a lot of followers on Twitter so they can retweet.
 
-crwdns832986:0crwdne832986:0
+Also, make sure you block the whole day for the interview as it is time-consuming and takes up a lot of energy.
 
-## crwdns832988:0crwdne832988:0 crwdns832990:0crwdne832990:0
+## 6. Do you have any tips on things to avoid?
 
-crwdns832992:0crwdne832992:0
+**Emma** - See other podcasts as opportunities for collaboration and cross-promotion, not competition.
 
-crwdns832994:0crwdne832994:0
+Don’t be vain: if you are interviewing you should try and ensure your guests sound good and edit your content down unless you are making a truly important point.
 
-crwdns832996:0crwdne832996:0
+Don’t be afraid to ask ‘stupid questions’: if you don’t understand something your listeners might not either.
 
-crwdns832998:0crwdne832998:0
+**Zoe** - Nobody likes bad sound so don’t record in noisy environments - particularly outside in windy conditions.
 
-## crwdns833000:0crwdne833000:0 crwdns833002:0crwdne833002:0
+## 7. Where do you see your podcast going in the future?
 
-crwdns833004:0crwdne833004:0 crwdns833006:0crwdne833006:0 crwdns833008:0crwdne833008:0
+**Zoe** - We presented a poster at the [Open Science Conference 2021](https://www.open-science-conference.eu/). It looked at the talks that had been covered and mapped these on to the [FOSTER taxonomy of Open Science](https://www.fosteropenscience.eu/resources). This has highlighted what topics we have covered most and what topics we still need to do.
 
-crwdns833010:0crwdne833010:0 crwdns833012:0crwdne833012:0
+The podcast is part of the Orion open science project and this will end in September. So we are not happy that it might end and we are looking into how we can fund the podcast going forward.
 
-## crwdns833014:0crwdne833014:0 crwdns833016:0crwdne833016:0
+## 8. Is there anything else that you want to add to the interview that has not been covered in the questions above?
 
-crwdns833018:0crwdne833018:0 crwdns833020:0crwdne833020:0
+**Emma** - I guess to try and innovate, the podcast format can be quite similar to look at how radio programming has presented the material in different ways for inspiration. Find a unique content or format!
 
-*crwdns833022:0crwdne833022:0*
+*This interview was conducted by Emma Karoune.*

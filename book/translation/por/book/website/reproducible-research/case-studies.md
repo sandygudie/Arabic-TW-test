@@ -1,14 +1,14 @@
-(rr-estudos-de-caso)=
-# Estudos de Instância: Pesquisa Reprodutiva
+(rr-case-studies)=
+# Case Studies: Reproducible Research
 
-## Pré-requisitos / nível de habilidade recomendado
+## Prerequisites / recommended skill level
 
-Esse capítulo assume a familiaridade com vários tópicos abordados neste {ref}`rr`. Como nem todos os exemplos demonstrarão o uso das mesmas combinações de métodos abrangidas neste guia, o nível de pré-requisito e competência variará entre os estudos de casos. Portanto, recomendamos que os autores indiquem essas competências para cada estudo de caso separadamente.
+This chapter assumes familiarity with several topics covered in this {ref}`rr`. Since not all examples will demonstrate the use of the same combinations of methods covered in this guide, the prerequisite and skill level will vary across the case studies. Therefore, we recommend the authors to indicate those skills for each case study separately.
 
 ## Summary
 
-Neste capítulo, uma seleção de estudos de caso é apresentada que pode ser usada para ver como os métodos de pesquisa reprodutíveis são usados na prática e aplicados em todos os campos. Se você acha que pode ter um exemplo para contribuir, sinta-se livre para abrir uma issue no [aqui](https://github.com/alan-turing-institute/the-turing-way/issues).
+In this chapter, a selection of case studies is presented that can be used to see how reproducible research methods are used in practice and applied across fields. If you think that you might have an example to contribute yourself, feel free to open an issue at [here](https://github.com/alan-turing-institute/the-turing-way/issues).
 
-## Como isso irá ajudá-lo/por que isso é útil
+## How this will help you/ why this is useful
 
-Aprender por exemplo pode ser uma forma eficaz de aprender novos conceitos. Talvez você possa iniciar seu projeto pessoal adaptando um dos exemplos às suas necessidades?
+Learning by example can be an effective way to learn new concepts. Maybe you can start your personal project by adapting one of the examples to your needs?

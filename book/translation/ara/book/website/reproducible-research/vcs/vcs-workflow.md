@@ -1,46 +1,61 @@
-crwdns855716:0crwdne855716:0
-# crwdns855718:0crwdne855718:0
+(rr-vcs-workflow)=
+# General Workflow
 
-crwdns855720:0crwdne855720:0 crwdns855722:0crwdne855722:0 crwdns855724:0crwdne855724:0
+Version control is a systematic approach to record changes made in a file, or set of files, over time. This allows you and your collaborators to track the history, see what changed, and recall specific versions later when needed. A typical procedure for using version control is as follows:
 
-1. crwdns855726:0crwdne855726:0
-2. crwdns855728:0crwdne855728:0
-3. crwdns855730:0crwdne855730:0
+1. Create files - these may contain text, code or both.
+2. Work on these files, by changing, deleting or adding new content.
+3. Create a snapshot of the file status (also known as version) at this time.
 
-crwdns855732:0crwdne855732:0 crwdns855734:0crwdne855734:0 crwdns855736:0crwdne855736:0
+This process of creating a snapshot is described differently in different version control software. For example, Git describes it as "a commit". Some systems call it "a time-point" or "a checkpoint"; and this is referred to as "saving your work" in other cases such as in [Google docs](https://docs.google.com/) or [HackMD](http://hackmd.io/).
 
-crwdns855738:0crwdne855738:0 crwdns855740:0crwdne855740:0 crwdns855742:0crwdne855742:0
+As you keep saving your work by adding changes, you make more and more snapshots. You can think of these as saving versions of these files while documenting their history. If you need to go back to a previous version of a file because of a mistake, or if you changed your mind about a previous update, you can access the file in your preferred version, or return your entire project to a past state.
 
-crwdns855744:0crwdne855744:0
+An illustration of this is shown below.
 
 ```{figure} ../../figures/main-branch.png
-crwdns855746:0crwdne855746:0
+---
+name: main-branch
+alt: An illustration of a main branch
+---
+An illustration of a main branch
 ```
 
-crwdns855748:0crwdne855748:0 crwdns855750:0crwdne855750:0 crwdns855752:0crwdne855752:0 crwdns855754:0crwdne855754:0
+In many version control systems, you will be able to add a comment every time you save a new version. These comments should be clear and concise to make it easy to understand what changes were proposed and what updates were made in a version. This ensures that it is easy to find what you are looking for when you need to go back to a past version. Your collaborators will thank you, but so will future versions of yourself.
 
-crwdns855756:0crwdne855756:0
-## crwdns855758:0crwdne855758:0
+(rr-vcs-workflow-branches)=
+## Non-Linear Development of Your Project with "Branches"
 
-crwdns855760:0crwdne855760:0 crwdns855762:0crwdne855762:0 crwdns855764:0crwdne855764:0 crwdns855766:0crwdne855766:0 crwdns855768:0crwdne855768:0 crwdns855770:0crwdne855770:0 crwdns855772:0crwdne855772:0
+So you have your project and you want to add something new or try something out before reflecting the changes in the main project folder. To add something new, you can continue editing your files and save them with the proposed changes. Suppose you want to try something without reflecting the changes in the central repository. In that case, you can use the "branching" feature of more advanced version control systems such as Git. A branch creates a local copy of the main repository where you can work and try new changes. Any work you do on your branch will not be reflected on your main project (referred to as your main branch) so it remains secure and error-free. At the same time, you can test your ideas and troubleshoot in a local branch.
 
-crwdns855774:0crwdne855774:0 crwdns855776:0crwdne855776:0
+When you are happy with the new changes, you can introduce them to the main project. The merge feature in Git allows the independent lines of development in a local branch to get integrated into the main branch.
 
 ```{figure} ../../figures/one-branch.png
-crwdns855778:0crwdne855778:0
+---
+name: one-branch
+alt: An illustration of a development and main branch in git
+---
+An illustration of a development and main branch in git.
 ```
 
-crwdns855780:0crwdne855780:0 crwdns855782:0crwdne855782:0
+You can have more than one branch off of your main copy. If one of your branches ends up not working, you can either abandon it or delete it without impacting the main branch of your project.
 
 ```{figure} ../../figures/two-branches.png
-crwdns855784:0crwdne855784:0
+---
+name: two-branches
+alt: An illustration of two development branches and one main branch in git
+---
+Two development branches and one main branch in git.
 ```
 
-crwdns855786:0crwdne855786:0
+If you want, you can create branches from branches (and branches off of those branches and so on).
 
 ```{figure} ../../figures/sub-branch.png
-crwdns855788:0crwdne855788:0
-crwdns855790:0crwdne855790:0
+---
+name: sub-branch1
+alt: An illustration of a development branch in git.
+---
+A development branch in git.
 ```
 
-crwdns855792:0crwdne855792:0 crwdns855794:0crwdne855794:0
+No matter how many branches you have, you can access the past versions you made on any of them. If you are curious to know how to use this feature in practice, you will find more details a few sections ahead.

@@ -1,55 +1,55 @@
-crwdns844736:0crwdne844736:0
-# crwdns844738:0crwdne844738:0
+(rr-code-reuse-recommendations)=
+# Overview of Code Reuse
 
-crwdns844740:0crwdne844740:0 crwdns844742:0{ref}crwdne844742:0 crwdns844744:0crwdne844744:0
+This section contains a checklist of recommendations for making your software more reusable. The {ref}`rr-code-reuse-details` section contains a more in-depth explanation of each of these recommendations. You can follow the recommendations that are more suitable for your type of software and skip the ones which are not relevant in your case.
 
-## crwdns844746:0crwdne844746:0
+## Repeatable Recommendations
 
-1. crwdns844748:0crwdne844748:0
-1. crwdns844750:0crwdne844750:0
-1. crwdns844752:0crwdne844752:0
-1. crwdns844754:0crwdne844754:0
-1. crwdns844756:0crwdne844756:0
-    - crwdns844758:0crwdne844758:0
-    - crwdns844760:0crwdne844760:0
-1. crwdns844762:0crwdne844762:0
-1. crwdns844764:0crwdne844764:0
-1. crwdns844766:0crwdne844766:0
+1. Make sure you can find it (in space; meaning: being able locate the repository/project)
+1. Make sure you can find it (in time; meaning: being able to locate a particular version)
+1. Make sure you can execute the same sequence of operations
+1. Make sure your environment and sequence of operations is robust and no human is needed to replicate what was done
+1. License your code
+    - with a license that allows for reuse;
+    - with a license compatible with the dependencies’ licenses
+1. Make sure it is citable
+1. Include necessary data
+1. Write useful documentation*
 
-## crwdns844768:0crwdne844768:0
+## Re-runnable Recommendations
 
-1. crwdns844770:0crwdne844770:0
-1. crwdns844772:0crwdne844772:0
-1. crwdns844774:0crwdne844774:0
-1. crwdns844776:0crwdne844776:0
+1. Remove hardcoded bits (such as paths that only existed on the hard drive where the pipeline was run) and make the code modular
+1. Test that the modules you made can take different types of input data or parameters
+1. Turn the modules into a package/toolbox
+1. Write useful documentation*
 
-## crwdns844778:0crwdne844778:0
-1. crwdns844780:0crwdne844780:0
-1. crwdns844782:0crwdne844782:0
+## Portable Recommendations
+1. Make sure you can recreate the environment where it lived
+1. Write useful documentation*
 
-## crwdns844784:0crwdne844784:0
-1. crwdns844786:0crwdne844786:0
+## Extendable Recommendations
+1. Write useful documentation*
 
-## crwdns844788:0crwdne844788:0
-1. crwdns844790:0crwdne844790:0
-1. crwdns844792:0crwdne844792:0
-1. crwdns844794:0crwdne844794:0
+## Modifiable Recommendations
+1. Make sure your code is readable by humans
+1. Make sure comments are present
+1. Write useful documentation*
 
-crwdns844796:0crwdne844796:0 crwdns844798:0crwdne844798:0
+The observant reader might will notice that `Write useful documentation` is mentioned for every level of reuse. This is because different levels of documentation are required for different levels of reuse.
 
-## crwdns844800:0crwdne844800:0
+## Documentation
 
-*crwdns844802:0crwdne844802:0*
+*Different documentation requirements for different levels of reuse*
 
-crwdns844804:0crwdne844804:0 crwdns844806:0crwdne844806:0
+Writing useful documentation is an important requirement for all levels of reuse. However, for the different levels of reuse, there are different documentation requirements:
 
-crwdns844808:0crwdne844808:0
-- crwdns844810:0crwdne844810:0
-  - crwdns844812:0crwdne844812:0
-  - crwdns844814:0crwdne844814:0
-  - crwdns844816:0crwdne844816:0 crwdns844818:0crwdne844818:0
-- crwdns844820:0crwdne844820:0 crwdns844822:0crwdne844822:0
-- crwdns844824:0crwdne844824:0
-  - crwdns844826:0crwdne844826:0
-  - crwdns844828:0crwdne844828:0
-  - crwdns844830:0crwdne844830:0 crwdns844832:0crwdne844832:0
+The documentation:
+- explains usage, specifying:
+  - what the software does; (required for repeatable)
+  - how it can be used; (required for repeatable)
+  - what options/parameters are available. (required for repeatable)
+- contains examples of how to run it. (required for repeatable)
+- has installation instructions, including good descriptions of:
+  - the hardware it depends on (for example GPUs); (required for portable)
+  - the operating system the software has been tested on; (required for portable)
+  - software requirements (such as libraries and shell settings). (required for portable)

@@ -1,14 +1,14 @@
-crwdns849436:0crwdne849436:0
-# crwdns849438:0crwdne849438:0
+(rr-rdm-checklist)=
+# Checklist
 
 <!-- This is a different style than the other chapters, but I really love what Alex provided so I just kept it. -->
 
-- crwdns849440:0crwdne849440:0 crwdns849442:0crwdne849442:0
+- Do not touch the raw data. Back it up somewhere reasonable and keep a read-only copy.
 
-- crwdns849444:0crwdne849444:0 crwdns849446:0crwdne849446:0 crwdns849448:0crwdne849448:0
+- Have a plan! Decide where your data is going to be stored, what it is called, when/if it needs to be deleted BEFORE you start collecting it and note it down in a data management plan. If you collect sensitive data, plan for consent for sharing from the start!
 
-- crwdns849450:0crwdne849450:0 crwdns849452:0crwdne849452:0 crwdns849454:0crwdne849454:0 crwdns849456:0crwdne849456:0
+- Document everything. You know who the worst person at replying to emails is about what the sampling frequency of channel X was. Nope not him, it's actually yourself from a year ago. Keep the documentation with the data!
 
-- crwdns849458:0crwdne849458:0 crwdns849460:0crwdne849460:0 crwdns849462:0crwdne849462:0 crwdns849464:0crwdne849464:0
+- Create the data you want to see in the word. Imagine someone was about to give you a dataset that you needed to analyse well in order to get that job you have been dreaming about. What would you want it to look like? That is how yours should look.
 
-- crwdns849466:0crwdne849466:0 crwdns849468:0crwdne849468:0 crwdns849470:0crwdne849470:0
+- Try not to re-invent the wheel. Before you start creating some crazy new schema, storage format or naming protocol, have a quick google or ask your colleagues. Something that is already being used is likely to be better in the long run, even if you think there is a better solution.

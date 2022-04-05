@@ -1,152 +1,152 @@
-crwdns844834:0crwdne844834:0
-# crwdns844836:0crwdne844836:0
-crwdns844838:0crwdne844838:0 crwdns844840:0crwdne844840:0
+(rr-code-reuse)=
+# Reusable code
+Your software project could range from a small script you use for data processing to a notebook used for data analysis, or a software library implementing your algorithms. Regardless of how big or small your software project is, it is important to make your code reusable.
 
-crwdns844842:0crwdne844842:0 crwdns844844:0crwdne844844:0 crwdns844846:0{cite:ps}crwdne844846:0
+Different types of software have different requirements for being reusable: for a small script, having sufficient documentation might be enough, while for a mission critical software library, thorough testing might be necessary. At the most basic level, all you need to do is put your code online somewhere that is likely to last a long time. A more elaborate approach to making your research software more reusable is by following the FAIR Principles for Research Software (FAIR4RS Principles) {cite:ps}`ChueHong2021FAIR4RS`.
 
-crwdns844848:0crwdne844848:0 crwdns844850:0{ref}crwdne844850:0 crwdns844852:0crwdne844852:0 crwdns844854:0{cite:ps}crwdne844854:0 crwdns844856:0crwdne844856:0
+When we talk about making code reusable, it is useful to clarify what is we mean. In the {ref}`Table of Definitions for Reproducibility<rr-overview-definitions-reproducibility>` we defined reproducible research as using the same data and the same code. However, when we talk about code re-use this can take many forms: we may want to run the exact same code (for compiled programming languages, this could even mean the exact same binary file), or we may want to modify the source code and extend it in some particular way to fit our needs. Freire and Chirigati {cite:ps}`Freire2018Reproducibility` provide a framework of different levels of reproducibility, depending on what can be modified. They define the following levels of reproducibility: repeatable, re-runnable, portable, extendable and modifiable.
 
-crwdns844858:0crwdne844858:0
+We can map the definitions of reproducibly on the Freire framework as follows:
 
-| crwdns844860:0crwdne844860:0 | crwdns844862:0crwdne844862:0 |
-| ---------------------------- | ---------------------------- |
-| crwdns844864:0crwdne844864:0 | crwdns844866:0crwdne844866:0 |
-| crwdns844868:0crwdne844868:0 | crwdns844870:0crwdne844870:0 |
-| crwdns844872:0crwdne844872:0 | crwdns844874:0crwdne844874:0 |
-| crwdns844876:0crwdne844876:0 | crwdns844878:0crwdne844878:0 |
-| crwdns844880:0crwdne844880:0 | crwdns844882:0crwdne844882:0 |
+| Freire framework | Definitions of reproducibly                                         |
+| ---------------- | ------------------------------------------------------------------- |
+| Repeatable       | Reproducible (same data, same analysis)                             |
+| Re-runnable      | Robust & Replicable (same code, different data/analysis/parameters) |
+| Portable         | *Not considered* (Same code/data, different environment)            |
+| Extendable       | (partly) Generalisable                                              |
+| Modifiable       | (partly) Generalisable                                              |
 
-crwdns844884:0crwdne844884:0
+Portability was not previously considered, but for software a different environment (such as different hardware, operating system or even a fresh install on comparable hardware) may affect the ability for the software to work (for example it may affect dependencies).
 
-crwdns844886:0crwdne844886:0
+Also, Generalisable encapsulates two concepts: Extendable (the ability to integrate with other software) and Modifiable (the ability to change part of the implementation to extend its functionality).
 
-crwdns844888:0crwdne844888:0
+In the rest of this chapter we provide list of recommendations you can follow to make sure your code is reusable.
 
-crwdns844890:0crwdne844890:0
-## crwdns844892:0crwdne844892:0
-crwdns844894:0crwdne844894:0 crwdns844896:0{ref}crwdne844896:0 crwdns844898:0crwdne844898:0
+(rr-code-reuse-recommendation-checklist)=
+## How to make your code more reusable
+This section contains a checklist of recommendations for making your software more reusable. The {ref}`rr-code-reuse-recommendation-details` section contains a more in-depth explanation of each of these recommendations. You can follow the recommendations that are more suitable for your type of software and skip the ones which are not relevant in your case.
 
-### crwdns844900:0crwdne844900:0
-1. crwdns844902:0crwdne844902:0
-1. crwdns844904:0crwdne844904:0
-1. crwdns844906:0crwdne844906:0
-1. crwdns844908:0crwdne844908:0
-1. crwdns844910:0crwdne844910:0
-    - crwdns844912:0crwdne844912:0
-    - crwdns844914:0crwdne844914:0
-1. crwdns844916:0crwdne844916:0
-1. crwdns844918:0crwdne844918:0
-1. crwdns844920:0crwdne844920:0
+### Repeatable recommendations
+1. Make sure you can find it (in space)
+1. Make sure you can find it (in time)
+1. Make sure you can execute the same sequence of operations
+1. Make sure your environment and sequence of operations is robust and no human is needed to replicate what was done
+1. License your code
+    - with a license that allows for reuse;
+    - with a license compatible with the dependencies’ licenses
+1. Make sure it is citable
+1. Include necessary data
+1. Write useful documentation*
 
-### crwdns844922:0crwdne844922:0
-1. crwdns844924:0crwdne844924:0
-1. crwdns844926:0crwdne844926:0
-1. crwdns844928:0crwdne844928:0
-1. crwdns844930:0crwdne844930:0
+### Re-runnable recommendations
+1. Remove hardcoded bits and make the code modular
+1. Test that the modules you made can take different types of input data or parameters
+1. Turn the modules into a package/toolbox
+1. Write useful documentation*
 
-### crwdns844932:0crwdne844932:0
-1. crwdns844934:0crwdne844934:0
-1. crwdns844936:0crwdne844936:0
+### Portable recommendations
+1. Make sure you can recreate the environment where it lived
+1. Write useful documentation*
 
-### crwdns844938:0crwdne844938:0
-1. crwdns844940:0crwdne844940:0
+### Extendable recommendations
+1. Write useful documentation*
 
-### crwdns844942:0crwdne844942:0
-1. crwdns844944:0crwdne844944:0
-1. crwdns844946:0crwdne844946:0
-1. crwdns844948:0crwdne844948:0
+### Modifiable recommendations
+1. Make sure your code is readable by humans
+1. Make sure comments are present
+1. Write useful documentation*
 
-crwdns844950:0crwdne844950:0 crwdns844952:0crwdne844952:0
+The observant reader might will notice that `Write useful documentation` is mentioned for every level of reuse. This is because different levels of documentation are required for different levels of reuse.
 
-### crwdns844954:0crwdne844954:0
-crwdns844956:0crwdne844956:0 crwdns844958:0crwdne844958:0
+### Different documentation requirements for different levels of reuse
+Writing useful documentation is an important requirement for all levels of reuse. However, for the different levels of reuse, there are different documentation requirements:
 
-crwdns844960:0crwdne844960:0
-- crwdns844962:0crwdne844962:0
-  - crwdns844964:0crwdne844964:0
-  - crwdns844966:0crwdne844966:0
-  - crwdns844968:0crwdne844968:0 crwdns844970:0crwdne844970:0
-- crwdns844972:0crwdne844972:0 crwdns844974:0crwdne844974:0
-- crwdns844976:0crwdne844976:0
-  - crwdns844978:0crwdne844978:0
-  - crwdns844980:0crwdne844980:0
-  - crwdns844982:0crwdne844982:0 crwdns844984:0crwdne844984:0
+The documentation:
+- explains usage, specifying:
+  - what the software does; (required for repeatable)
+  - how it can be used; (required for repeatable)
+  - what options/parameters are available. (required for repeatable)
+- contains examples of how to run it. (required for repeatable)
+- has installation instructions, including good descriptions of:
+  - the hardware it depends on (for example GPUs); (required for portable)
+  - the operating system the software has been tested on; (required for portable)
+  - software requirements (such as libraries and shell settings). (required for portable)
 
-crwdns844986:0crwdne844986:0
-## crwdns844988:0crwdne844988:0
-crwdns844990:0crwdne844990:0 crwdns844992:0{ref}crwdne844992:0 crwdns844994:0crwdne844994:0
+(rr-code-reuse-recommendation-details)=
+## Recommendations for reusable code
+Make sure you (or somebody else) can re-use your code to do the same exact thing you did. The {ref}`rr-code-reuse-recommendation-checklist` section contains a checklist of recommendations for making your software more reusable. In this section contains a more in-depth explanation of each of these recommendations, with pointers to other relevant parts of this guide.
 
-### crwdns844996:0crwdne844996:0
-crwdns844998:0crwdne844998:0
+### Repeatable recommendations
+At this stage, you might not even need to be able to open the code and read it, you just want to make sure you can re-run all the needed steps and obtain the same results you had.
 
-#### crwdns845000:0crwdne845000:0 crwdns845002:0crwdne845002:0
-crwdns845004:0crwdne845004:0 crwdns845006:0crwdne845006:0
+#### 1. Make sure you can find it (in space)
+Your code must be stored publicly and shared with collaborators. It has an unique persistent identifier, so that everyone can find it and access it.
 
-crwdns845008:0{ref}crwdne845008:0
+**See also**: {ref}`rr-vcs`
 
-#### crwdns845010:0crwdne845010:0 crwdns845012:0crwdne845012:0
-crwdns845014:0crwdne845014:0 crwdns845016:0crwdne845016:0
+#### 2. Make sure you can find it (in time)
+Ideally the temporal evolution of the code is documented with version control. This allows you to retrieve a specific version from the past.
 
-crwdns845018:0{ref}crwdne845018:0
+**See also**: {ref}`rr-vcs`
 
-#### crwdns845020:0crwdne845020:0 crwdns845022:0crwdne845022:0
-crwdns845024:0crwdne845024:0 crwdns845026:0crwdne845026:0
+#### 3. Make sure you can execute the same sequence of operations
+Often the human who set up the environment is also the one who wrote the code and the one who knows the exact order of steps needed to be able to re-run the code and reproduce the results. This could surely be carefully documented for another human to re-do it.
 
-crwdns845028:0crwdne845028:0
+**See also**: [CodeRefinery lesson on Reproducible Research](https://coderefinery.github.io/reproducible-research/)
 
-#### crwdns845030:0crwdne845030:0 crwdns845032:0crwdne845032:0
-crwdns845034:0crwdne845034:0 crwdns845036:0crwdne845036:0 crwdns845038:0crwdne845038:0
+#### 4. Make sure your environment and sequence of operations is robust and no human is needed to replicate what was done
+You do not want to depend on humans. They tend to make errors even if they do not have bad intentions. So you want your environment to be scripted and be re-created when needed and you want your sequence of operations to be run by a pipeline script that glues together all the sequence of steps.
 
-crwdns845040:0{ref}crwdne845040:0
+**See also**: {ref}`rr-renv-options`
 
-#### crwdns845042:0crwdne845042:0 crwdns845044:0crwdne845044:0
-crwdns845046:0crwdne845046:0 crwdns845048:0crwdne845048:0 crwdns845050:0crwdne845050:0
+#### 5. License your code
+Make sure you attach a license to your code and specify how you want to be cited when people re-use it. Consider using a permissive license that allows for reuse. Also, you should choose a license which is compatible with the licenses of libraries or packages your software depends on.
 
-crwdns845052:0{ref}crwdnd845052:0{ref}crwdnd845052:0{ref}crwdne845052:0
+**See also**: {ref}`rr-licensing-software`, {ref}`rr-licensing-software-permissive`, {ref}`rr-licensing-compatibility`
 
-#### crwdns845054:0crwdne845054:0 crwdns845056:0crwdne845056:0
-crwdns845058:0crwdne845058:0
+#### 6. Make sure it is citable
+Make sure to specify how you want to be cited when people re-use it.
 
-crwdns845060:0{ref}crwdne845060:0
+**See also**: {ref}`cm-citable-cite-software`
 
-#### crwdns845062:0crwdne845062:0 crwdns845064:0crwdne845064:0
-crwdns845066:0crwdne845066:0
+#### 7. Include necessary data
+If the software depends on any sort of data, the data should be available
 
-crwdns845068:0{ref}crwdne845068:0
+**See also**: {ref}`rr-rdm-data`
 
-### crwdns845070:0crwdne845070:0
-crwdns845072:0crwdne845072:0
+### Re-runnable recommendations
+Make sure you (or others) can re-use it to do the thing you did, but with different data/different parameters
 
-#### crwdns845074:0crwdne845074:0 crwdns845076:0crwdne845076:0
-crwdns845078:0crwdne845078:0 crwdns845080:0crwdne845080:0 crwdns845082:0crwdne845082:0
+#### 1. Remove hardcoded bits and make the code modular
+You do not want to have details specific of your data or analysis parameters hardcoded into the code. If something can become a reusable function, separate it from the hardcoded parameters and turn it into something (re)usable on its own. Make the modules pure: given the same input, a pure function always returns the same value.
 
-crwdns845084:0crwdne845084:0
+**See also**: [CodeRefinery Modular Code Development lesson](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md/#1)
 
-#### crwdns845086:0crwdne845086:0 crwdns845088:0crwdne845088:0
-crwdns845090:0crwdne845090:0
+#### 2. Test that the modules you made can take different types of input data or parameters
+You might not know yet how your code will be re-used in the future, but you can prevent how it should not be used if you can test which parameters are allowed.
 
-crwdns845092:0crwdne845092:0
+**See also**: [CodeRefinery lesson on Automated testing](https://coderefinery.github.io/testing/motivation/)
 
-#### crwdns845094:0crwdne845094:0 crwdns845096:0crwdne845096:0
-crwdns845098:0crwdne845098:0
+#### 3. Turn the modules into a package/toolbox
+Separate even more the specifics of your project with the bits that can be reused in other of your projects or by other people.
 
-crwdns845100:0{ref}crwdne845100:0
+**See also**: {ref}`rr-renv-package`, [Packaging software](https://scicomp.aalto.fi/scicomp/packaging-software/), [Software packaging in Python](https://aaltoscicomp.github.io/python-for-scicomp/packaging/)
 
-### crwdns845102:0crwdne845102:0
-crwdns845104:0crwdne845104:0 crwdns845106:0crwdne845106:0 crwdns845108:0crwdne845108:0
+### Portable recommendations
+Portability refers to the ability to transfer software to a new environment. This could refer to an identical (but not the same) machine, but it can also refer to a new hardware architecture, operating system and such. Both of these are important for software reuse.
 
-#### crwdns845110:0crwdne845110:0 crwdns845112:0crwdne845112:0
-crwdns845114:0crwdne845114:0 crwdns845116:0crwdne845116:0 crwdns845118:0crwdne845118:0
+#### 1. Make sure you can recreate the environment where it lived
+The environment is a fragile snapshot in time which silently accompanies the code. It can include the human who operated the software, the steps the human did to prepare the data, the hardware, the OS, the libraries, external packages/toolboxes/dependencies. All this can be carefully documented for another human to re-do all the same exact steps.
 
-crwdns845120:0{ref}crwdne845120:0
+**See also**: {ref}`rr-renv`
 
-### crwdns845122:0crwdne845122:0
-crwdns845124:0crwdne845124:0
+### Extendable and Modifiable recommendations
+Make sure others can build on your code to extend it and improve it.
 
-#### crwdns845126:0crwdne845126:0 crwdns845128:0crwdne845128:0
-crwdns845130:0crwdne845130:0 crwdns845132:0crwdne845132:0 crwdns845134:0crwdne845134:0
+#### 1. Make sure your code is readable by humans
+It often pays more to write code for other humans so they can read it (including your future self). A cryptic oneliner with obscure variable names is not any faster or more efficient than splitting the one liner into multiple steps with readable variable names that make sense. Furthermore, using coding conventions will help other readers.
 
-crwdns845136:0{ref}crwdnd845136:0{ref}crwdne845136:0
+**See also**: {ref}`rr-code-style-and-formatting`, {ref}`rr-code-quality-advantages`
 
-#### crwdns845138:0crwdne845138:0 crwdns845140:0crwdne845140:0
-crwdns845142:0crwdne845142:0 crwdns845144:0crwdne845144:0
+#### 1. Make sure comments are present
+Write comments before writing the actual code. Imagine that somebody could just read the comments and skip all the code bits between comments and get a full picture of what is going on as if they read the whole code.

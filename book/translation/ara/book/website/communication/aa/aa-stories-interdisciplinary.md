@@ -1,90 +1,90 @@
-crwdns828962:0crwdne828962:0
-# crwdns828964:0crwdne828964:0
+(cm-aa-stories-interdisciplinary)=
+# Personal stories - Authorship on Interdisciplinary Projects
 
-## crwdns828966:0crwdne828966:0
+## Federico Nanni and Mariona Coll Ardanuy - Living with Machines
 
-crwdns828968:0crwdne828968:0
+[Living with Machines](https://livingwithmachines.ac.uk/) is a research project that rethinks the impact of technology on the lives of ordinary people during the Industrial Revolution.
 
-crwdns828970:0crwdne828970:0 crwdns828972:0crwdne828972:0
+It brings together an interdisciplinary group of researchers from a range of disciplines to create research methods, tools and data. They are working to change perceptions of how collaborations can be done and in doing this are discovering and working through some interesting challenges, including the issue of academic authorship.
 
-### crwdns828974:0crwdne828974:0
+### Find out more about their work below:
 
-**crwdns828976:0crwdne828976:0**
-* [crwdns828980:0crwdne828980:0](crwdns828978:0crwdne828978:0)
-* [crwdns828984:0crwdne828984:0](crwdns828982:0crwdne828982:0)
-* [crwdns828988:0crwdne828988:0](crwdns828986:0crwdne828986:0)
+**Federico Nanni:**
+* [ORCID](https://orcid.org/0000-0003-2484-4331)
+* [Twitter](https://twitter.com/f_nanni)
+* [Website](https://github.com/fedenanni)
 
-**crwdns828990:0crwdne828990:0**
-* [crwdns828994:0crwdne828994:0](crwdns828992:0crwdne828992:0)
-* [crwdns828998:0crwdne828998:0](crwdns828996:0crwdne828996:0)
+**Mariona Coll Ardanuy**
+* [ORCID](http://orcid.org/0000-0001-8455-7196)
+* [Website](https://github.com/mcollardanuy)
 
-**crwdns829000:0crwdne829000:0 crwdns829002:0crwdne829002:0 crwdns829004:0crwdne829004:0**
+**1. What is the *normal* practice of authorship for academic papers in your discipline? or used to be the normal practice?**
 
-crwdns829006:0crwdne829006:0 crwdns829008:0crwdne829008:0
+We are an interdisciplinary project and therefore bring with us the usual practices of authorship from two distinct disciplines: Computational linguistics and the Humanities (History). This makes it trickier when trying to decide how to tackle authorship on our publications.
 
-crwdns829010:0crwdne829010:0 crwdns829012:0crwdne829012:0 crwdns829014:0crwdne829014:0
+Some of our team are Computational linguists, which is a scientific field concerned with modelling language computationally. In the project, we use natural language processing that is the engineering side of Computational linguistics. We are used to working on papers that have a team of authors and papers are produced and published at pace.
 
-crwdns829016:0crwdne829016:0 crwdns829018:0crwdne829018:0
+Other team members are from Humanities disciplines where sole author papers are common and are even required for career progression. The pace of publication in humanities is much slower.
 
-crwdns829020:0crwdne829020:0 crwdns829022:0crwdne829022:0
+These two different approaches to authorship make it very hard to establish who should be an author or who should just be acknowledged. It is also difficult to work out who contributed the most, therefore establishing a ranking order of authors for papers, as we all have different roles in the project that are equally important to the overall goals.
 
-crwdns829024:0crwdne829024:0 crwdns829026:0crwdne829026:0
+The publications we have published so far are more focused on the computational linguistics side of the project and therefore we have been generous with authorship for the whole team. This is due to the acceptance in computational linguistics that a team would have worked together to achieve this work.
 
-crwdns829028:0crwdne829028:0 crwdns829030:0crwdne829030:0
+However, when writing more historically based papers we may need to consider that some of our team members need sole author publications and that adding authors onto these papers devalues the perceived prestige of the paper for them. In this case, we will be careful to fully cite our previous technical papers and acknowledge all of the team in an acknowledgement section.
 
 
-**crwdns829032:0crwdne829032:0 crwdns829034:0crwdne829034:0**
+**2. When did you discuss authorship in your project?**
 
-crwdns829036:0crwdne829036:0 crwdns829038:0crwdne829038:0
+We started this process early but did not make much progress really until the first major paper of the project was about to be submitted. We then had to decide how to properly credit everyone in our team and it was driven by the need to get it done.
 
-**crwdns829040:0crwdne829040:0 crwdns829042:0crwdne829042:0**
+**3. Who had the discussion of authorship in your project?**
 
-crwdns829044:0crwdne829044:0 crwdns829046:0crwdne829046:0
+Everyone was involved in the discussions about authorship in meetings led by the Principal Investigator - Professor Ruth Ahnert. All our voices were listened to in these discussions and the approach to authorship in the project had good intentions from the start.
 
-crwdns829048:0crwdne829048:0
+The discussions were very interdisciplinary as the project has a lot of postdoctoral researchers that all bring with them expert knowledge.
 
-**crwdns829050:0crwdne829050:0 crwdns829052:0crwdne829052:0**
+**4. What approach have you decided to take in your project?**
 
-crwdns829054:0crwdne829054:0 crwdns829056:0crwdne829056:0 crwdns829058:0crwdne829058:0
+We adopted the [CRediT taxonomy](https://casrai.org/credit/) to better present each author's contributions to the work. However, we felt it does not cover all the roles in our project so we adapted it. We felt that some of the categories were a bit vague and we wanted to be specific about the roles played by our team members.
 
-crwdns829060:0crwdne829060:0
+The categories that we added were implementation, reproducibility, interpretation, historical analysis and annotation.
 
-crwdns829062:0crwdne829062:0 crwdns829064:0crwdne829064:0
+We encountered an issue with the roles that were not being perceived equally, such as conceptualisation and supervision being seen as having more prestige than other roles. Therefore, even when trying to acknowledge team members contributions more inclusively there are still problems that arise.
 
-crwdns829066:0crwdne829066:0 crwdns829068:0crwdne829068:0
+We decided to produce a cover page for the pre-print of our first methods paper. We wanted to reflect our thinking about moving away from an author list and raise the curtain on roles that are often hidden in research projects.
 
-crwdns829070:0crwdne829070:0
+The cover page makes the jobs on the project more explicit, you therefore do not presume what the authors do as you would with a list.
 
-crwdns829072:0crwdne829072:0
+You can find out more about this in our blog - [Highlighting authors' contributions and interdisciplinary collaborations in Living with Machines](https://livingwithmachines.ac.uk/highlighting-authors-contributions-and-interdisciplinary-collaborations-in-living-with-machines/).
 
-crwdns829074:0crwdne829074:0 crwdns829076:0crwdne829076:0
+As we are trying to challenge how things are usually done, we were expecting this approach to bring conflicts and difficult discussions. Everyone came to this project with a similar mindset and this helped us to resolve any issues.
 
-**crwdns829078:0crwdne829078:0 crwdns829080:0crwdne829080:0**
+**5. How have you gone about this practically?**
 
-crwdns829082:0crwdne829082:0
+We used a Google doc to send around the CRediT taxonomy and everyone could fill in their own name under the different categories.
 
-crwdns829084:0crwdne829084:0
+We did find that everyone had different opinions - some people did put themselves in many categories and others would only put their name in one when they should have got credit for more.
 
-crwdns829086:0crwdne829086:0
+This meant that there had to be a degree of moderation when finalising the list of contributions.
 
-**crwdns829088:0crwdne829088:0 crwdns829090:0crwdne829090:0**
+**6. What have been the problems with doing this?**
 
-crwdns829092:0crwdne829092:0 crwdns829094:0crwdne829094:0
+The cover page was a statement that was put in our pre-print to try to solve the issue of assigning contributions fairly and the need for a list of authors but it was a footnote in the final published article. Therefore, there still had to be a list of authors, and a first author for publication.
 
-crwdns829096:0crwdne829096:0
+The main author, Mariona, was easy to decide as she had been the main writer and lead in everything to do with that paper but after that the order of authors was difficult.
 
-crwdns829098:0crwdne829098:0 crwdns829100:0crwdne829100:0
+Some team members don't have the same need for publications as postdoctoral researchers because they hold permanent positions or work in areas where other types of outputs, such as code, are more important. This adds another layer of consideration that needs to be addressed when discussing the author list.
 
-crwdns829102:0crwdne829102:0 crwdns829104:0crwdne829104:0
+There are also issues with assigning corresponding authors as in some fields this carries a perception of supervision or seniority in the team. In our case, it was just who was best to contact to find out more about the project.
 
-**crwdns829106:0crwdne829106:0 crwdns829108:0crwdne829108:0**
+**7. How are you approaching the writing of the papers?**
 
-crwdns829110:0crwdne829110:0 crwdns829112:0crwdne829112:0 crwdns829114:0crwdne829114:0 crwdns829116:0crwdne829116:0
+We had one person leading on a publication. They defined the structure, had an understanding of what was expected by the journal in terms of structure and formatting, they split up the paper into sections for different people to write and then everyone could write their parts. Then one person edited this work. It does need one person to edit the whole paper so they can have an idea of the overall flow and structure.
 
-crwdns829118:0crwdne829118:0
+This approach worked well for the technical papers we have written.
 
-**crwdns829120:0crwdne829120:0 crwdns829122:0crwdne829122:0**
+**8. What collaborative tools are you using for the writing and projects?**
 
-crwdns829124:0crwdne829124:0
+We are using Overleaf, which is a LaTex based writing software, but I think some people are using Google docs for collaborative writing.
 
-*crwdns829126:0crwdne829126:0 crwdns829128:0crwdne829128:0*
+*This interview was conducted by Emma Karoune. We would like to thank Federico and Mariona for the useful discussions about academic authorship, and for commenting on this personal story and the wider academic authorship chapter.*

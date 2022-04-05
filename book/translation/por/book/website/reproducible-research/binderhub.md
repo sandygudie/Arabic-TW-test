@@ -1,25 +1,26 @@
 (rr-binderhub)=
 # BinderHub
 
-## Nível de habilidade prévio/recomendado
+## Prerequisites/recommended skill level
 
-| Pré-requisito                                | Importância      |
-| -------------------------------------------- | ---------------- |
-| {ref}`Controle de Versão<rr-vcs>`      | Muito importante |
-| {ref}`Ambientes Reproduíveis<rr-renv>` | Muito importante |
+| Prerequisite                                    | Importance     |
+| ----------------------------------------------- | -------------- |
+| {ref}`Version Control<rr-vcs>`            | Very Important |
+| {ref}`Reproducible Environments<rr-renv>` | Very Important |
 
-Este capítulo vai discutir o [BinderHub](https://binderhub.readthedocs.io/en/latest/index.html), que é a tecnologia da nuvem que alimenta [Binder](https://mybinder.readthedocs.io/en/latest/). Abrangeremos as tecnologias e ferramentas que o BinderHub utiliza e os recursos necessários para configurar seu próprio BinderHub.
+This chapter will discuss [BinderHub](https://binderhub.readthedocs.io/en/latest/index.html), which is the cloud technology powering [Binder](https://mybinder.readthedocs.io/en/latest/). We will cover the technologies and tools that BinderHub utilises and the resources you will need to setup your own BinderHub.
 
-Este capítulo destina-se principalmente aos Engenheiros de Software de Pesquisa e Serviços de TI que desejam fornecer um serviço à BinderHub como um grupo de pesquisadores. Embora qualquer um possa construir um BinderHub.
+This chapter is primarily aimed at Research Software Engineers and IT Services who wish to provide a BinderHub as a service to a group of researchers. Though anyone can build a BinderHub.
 
 ```{figure} ../figures/binderhub.jpg
 ---
-nome: binderhub
-alt: Uma representação da arquitetura do BinderHub que envolve GitHub, repo2docker, docker, jupyterhub e envio para clientes na empresa.
---- Ilustração sobre a arquitetura de BinderHub.
-_O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: 10.5281/zenodo.3332807.
+name: binderhub
+alt: A representation of the BinderHub architecture that involves GitHub, repo2docker, docker, jupyterhub and shipping to clients in company.
+---
+Illustration about BinderHub architecture.
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.
 ```
 
-## Motivação
+## Motivation
 
-Ao ler este capítulo, você terá uma imagem mais clara de como os serviços de Binder (tais como [mybinder. rg](https://mybinder.org)) operam, as tecnologias que ligam BinderHub e como eles interagem entre si. Este capítulo também cobre razões pelas quais você pode construir seu próprio BinderHub, ao invés de usar o serviço público em mybinder.org.
+Reading this chapter will give you a clearer picture of how Binder services (such as [mybinder.org](https://mybinder.org)) operate, the technologies powering BinderHub and how they interact with one another. This chapter also covers reasons why you might build your own BinderHub, rather than using the public service at mybinder.org.

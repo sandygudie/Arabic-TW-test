@@ -1,304 +1,304 @@
-crwdns826040:0crwdne826040:0
-# crwdns826042:0crwdne826042:0
+(cl-remote-collab-conferences)=
+# Organising a Conference
 
-*crwdns826044:0crwdne826044:0*
+*Recommendations listed in this subchapter also apply to longer collaborative events like sprints and hackathons.*
 
-crwdns826046:0crwdne826046:0
-
-crwdns826048:0crwdne826048:0 crwdns826050:0crwdne826050:0 crwdns826052:0crwdne826052:0
-
-crwdns826054:0crwdne826054:0
-## crwdns826056:0crwdne826056:0
-
-crwdns826058:0crwdne826058:0 crwdns826060:0crwdne826060:0
-
-### crwdns826062:0crwdne826062:0
+Event planning and organisation involves many roles, tasks and responsibilities, which can be challenging, especially for online conferences or other collaborative events that have a large target audience.
+
+This document lists the various tasks for organising such events, which will be useful for people who do not have any former experience or professional support available to them. In this subchapter, we discuss different aspects of conference organisation, which are listed in chronological order and divided into sets of tasks and responsibilities "before", "during" and "after" the meeting. Though created for longer events, these detailed task lists can be used for planning smaller events that have fewer logistical requirements.
+
+(cl-remote-collab-conferences-before)=
+## Before the event
+
+The different subsections are marked as "Earlier-phase", "Mid-phase", and "Later-phase", based on their importance at the different phases of organisation. A few subsections are marked as "Relevant for all phases", as those aspects should be taken care of in all stages of event organisation.
+
+### The organising committee for the event
 
-***crwdns826064:0crwdne826064:0***
-- crwdns826066:0crwdne826066:0
-- crwdns826068:0crwdne826068:0
-- crwdns826070:0crwdne826070:0
-- crwdns826072:0crwdne826072:0
-- crwdns826074:0crwdne826074:0
-- crwdns826076:0crwdne826076:0
+***Earlier-phase***
+- To make organising truly inclusive, include different stakeholders from the community, organisation, and members from diverse backgrounds in the committee.
+- If the organising committee has members across different time zones, the event can be held in a distributed manner.
+- Have 1-2 committee chairs who can capture the overview of the entire team's work.
+- Divide the full committee into smaller subcommittees by different tasks and responsibilities.
+- Identify chairs for the subcommittees and allow members to join more than one subcommittee.
+- Have a common place for documentation and interaction channels to keep communication transparent.
 
-### crwdns826078:0crwdne826078:0
+### Website for the event (preplanning)
 
-***crwdns826080:0crwdne826080:0***
+***Earlier-phase***
 
-*crwdns826082:0crwdne826082:0*
-
-- crwdns826084:0crwdne826084:0
-- crwdns826086:0crwdne826086:0
-- crwdns826088:0crwdne826088:0
-- crwdns826090:0crwdne826090:0
-- crwdns826092:0crwdne826092:0
-  - crwdns826094:0crwdne826094:0
-  - crwdns826096:0crwdne826096:0
-  - crwdns826098:0crwdne826098:0
-  - crwdns826100:0crwdne826100:0
-  - crwdns826102:0crwdne826102:0
-  - crwdns826104:0crwdne826104:0
-  - crwdns826106:0crwdne826106:0
-
-### crwdns826108:0crwdne826108:0
-
-***crwdns826110:0crwdne826110:0***
-
-- crwdns826112:0crwdne826112:0
-- crwdns826114:0crwdne826114:0
-- crwdns826116:0crwdne826116:0
-- crwdns826118:0crwdne826118:0
-- crwdns826120:0crwdne826120:0
-- crwdns826122:0crwdne826122:0
-- crwdns826124:0crwdne826124:0
-- crwdns826126:0crwdne826126:0
-- crwdns826128:0crwdne826128:0
-  - crwdns826130:0crwdne826130:0
-
-### crwdns826132:0crwdne826132:0
-
-***crwdns826134:0crwdne826134:0***
-
-- crwdns826136:0crwdne826136:0
-- crwdns826138:0crwdne826138:0
-- crwdns826140:0crwdne826140:0
-- crwdns826142:0crwdne826142:0
-- crwdns826144:0crwdne826144:0
-- crwdns826146:0crwdne826146:0
-- crwdns826148:0crwdne826148:0
-- crwdns826150:0crwdne826150:0
-  - crwdns826152:0crwdne826152:0
-
-### crwdns826154:0crwdne826154:0
-
-***crwdns826156:0crwdne826156:0***
-
-- crwdns826158:0crwdne826158:0
-- crwdns826160:0crwdne826160:0
-- crwdns826162:0crwdne826162:0
-- crwdns826164:0crwdne826164:0
-- crwdns826166:0crwdne826166:0
-- crwdns826168:0crwdne826168:0
-
-### crwdns826170:0crwdne826170:0
-
-***crwdns826172:0crwdne826172:0***
-
-- crwdns826174:0crwdne826174:0
-- crwdns826176:0crwdne826176:0
-- crwdns826178:0crwdne826178:0
-  - crwdns826180:0crwdne826180:0
-- crwdns826182:0crwdne826182:0
-- crwdns826184:0crwdne826184:0
-
-### crwdns826186:0crwdne826186:0
-
-***crwdns826188:0crwdne826188:0***
-
-- crwdns826190:0crwdne826190:0
-  - crwdns826192:0crwdne826192:0
-  - crwdns826194:0crwdne826194:0
-  - crwdns826196:0crwdne826196:0
-  - crwdns826198:0crwdne826198:0
-  - crwdns826200:0crwdne826200:0
-- crwdns826202:0crwdne826202:0
-- crwdns826204:0crwdne826204:0
-- crwdns826206:0crwdne826206:0
-- crwdns826208:0crwdne826208:0
-- crwdns826210:0crwdne826210:0
-
-### crwdns826212:0crwdne826212:0
-
-***crwdns826214:0crwdne826214:0***
-
-- crwdns826216:0crwdne826216:0
-- crwdns826218:0crwdne826218:0
-- crwdns826220:0crwdne826220:0
-- crwdns826222:0crwdne826222:0
-- crwdns826224:0crwdne826224:0
-
-### crwdns826226:0crwdne826226:0
-
-***crwdns826228:0crwdne826228:0***
-
-*crwdns826230:0crwdne826230:0*
-- crwdns826232:0crwdne826232:0
-- crwdns826234:0crwdne826234:0
-- crwdns826236:0crwdne826236:0
-  - crwdns826238:0crwdne826238:0
-- crwdns826240:0crwdne826240:0
-- crwdns826242:0crwdne826242:0
-- crwdns826244:0crwdne826244:0
-- crwdns826246:0crwdne826246:0
-- crwdns826248:0crwdne826248:0
-
-### crwdns826250:0crwdne826250:0
-
-***crwdns826252:0crwdne826252:0***
-
-- crwdns826254:0crwdne826254:0
-- crwdns826256:0crwdne826256:0
-- crwdns826258:0crwdne826258:0
-- crwdns826260:0crwdne826260:0
-- crwdns826262:0crwdne826262:0
-- crwdns826264:0crwdne826264:0
-- crwdns826266:0crwdne826266:0
-- crwdns826268:0crwdne826268:0
-- crwdns826270:0crwdne826270:0
-- crwdns826272:0crwdne826272:0
-
-### crwdns826274:0crwdne826274:0
-
-***crwdns826276:0crwdne826276:0***
-
-crwdns826278:0crwdne826278:0
-
-- crwdns826280:0crwdne826280:0
-- crwdns826282:0crwdne826282:0
-- crwdns826284:0crwdne826284:0
-- crwdns826286:0crwdne826286:0
-- crwdns826288:0crwdne826288:0
-- crwdns826290:0crwdne826290:0
-- crwdns826292:0crwdne826292:0
-- crwdns826294:0crwdne826294:0
-- crwdns826296:0crwdne826296:0
-- crwdns826298:0crwdne826298:0
-
-### crwdns826300:0crwdne826300:0
-
-***crwdns826302:0crwdne826302:0***
-
-*crwdns826304:0crwdne826304:0 crwdns826306:0crwdne826306:0 crwdns826308:0crwdne826308:0 crwdns826310:0crwdne826310:0 crwdns826312:0crwdne826312:0*
-
-- crwdns826314:0crwdne826314:0
-- crwdns826316:0crwdne826316:0
-- crwdns826318:0crwdne826318:0
-- crwdns826320:0crwdne826320:0
-- crwdns826322:0crwdne826322:0
-- crwdns826324:0crwdne826324:0
-  - crwdns826326:0crwdne826326:0
-    * crwdns826328:0crwdne826328:0 crwdns826330:0crwdne826330:0
-    * crwdns826332:0crwdne826332:0
-  - crwdns826334:0crwdne826334:0
-  - crwdns826336:0crwdne826336:0
-- crwdns826338:0crwdne826338:0
-- crwdns826340:0crwdne826340:0
-- crwdns826342:0crwdne826342:0
-- crwdns826344:0crwdne826344:0
-- crwdns826346:0crwdne826346:0
-- crwdns826348:0crwdne826348:0
-  - crwdns826350:0crwdne826350:0
-- crwdns826352:0crwdne826352:0
-  - crwdns826354:0crwdne826354:0
-
-### crwdns826356:0crwdne826356:0
-
-***crwdns826358:0crwdne826358:0***
-
-- crwdns826360:0crwdne826360:0
-  - crwdns826362:0crwdne826362:0
-- crwdns826364:0crwdne826364:0
-- crwdns826366:0crwdne826366:0
-- crwdns826368:0crwdne826368:0
-- crwdns826370:0crwdne826370:0
-  - crwdns826372:0crwdne826372:0
-- crwdns826374:0crwdne826374:0
-- crwdns826376:0crwdne826376:0
-- crwdns826378:0crwdne826378:0
-
-### crwdns826380:0crwdne826380:0
-*crwdns826382:0crwdne826382:0*
-
-***crwdns826384:0crwdne826384:0***
-
-- crwdns826386:0crwdne826386:0
-- crwdns826388:0crwdne826388:0
-- crwdns826390:0crwdne826390:0
-- crwdns826392:0crwdne826392:0
-- crwdns826394:0crwdne826394:0
-- crwdns826396:0crwdne826396:0
-- crwdns826398:0crwdne826398:0
-
-### crwdns826400:0crwdne826400:0
-
-***crwdns826402:0crwdne826402:0***
-
-- crwdns826404:0crwdne826404:0
-- crwdns826406:0crwdne826406:0
-- crwdns826408:0crwdne826408:0
-- crwdns826410:0crwdne826410:0
-  - crwdns826412:0crwdne826412:0
-- crwdns826414:0crwdne826414:0
-
-### crwdns826416:0crwdne826416:0
-
-***crwdns826418:0crwdne826418:0***
-
-- crwdns826420:0crwdne826420:0
-- crwdns826422:0crwdne826422:0
-  - crwdns826424:0crwdne826424:0
-- crwdns826426:0crwdne826426:0
-  - crwdns826428:0crwdne826428:0
-  - crwdns826430:0crwdne826430:0
-- crwdns826432:0crwdne826432:0
-
-### crwdns826434:0crwdne826434:0
-
-*crwdns826436:0crwdne826436:0*
-
-- crwdns826438:0crwdne826438:0
-- crwdns826440:0crwdne826440:0
-- crwdns826442:0crwdne826442:0
-- crwdns826444:0crwdne826444:0
-- crwdns826446:0crwdne826446:0
-- crwdns826448:0crwdne826448:0
-- crwdns826450:0crwdne826450:0
-- crwdns826452:0crwdne826452:0
-- crwdns826454:0crwdne826454:0
-- crwdns826456:0crwdne826456:0
-  - crwdns826458:0crwdne826458:0
-
-## crwdns826460:0crwdne826460:0
-
-### crwdns826462:0crwdne826462:0
-
-*crwdns826464:0crwdne826464:0*
-
-- crwdns826466:0crwdne826466:0
-- crwdns826468:0crwdne826468:0
-- crwdns826470:0crwdne826470:0
-- crwdns826472:0crwdne826472:0
-- crwdns826474:0crwdne826474:0
-- crwdns826476:0crwdne826476:0
-  - crwdns826478:0crwdne826478:0
-  - crwdns826480:0crwdne826480:0
-- crwdns826482:0crwdne826482:0
-  - crwdns826484:0crwdne826484:0
-  - crwdns826486:0crwdne826486:0
-- crwdns826488:0crwdne826488:0
-  - crwdns826490:0crwdne826490:0
-- crwdns826492:0crwdne826492:0
-  - crwdns826494:0crwdne826494:0
-- crwdns826496:0crwdne826496:0
-- crwdns826498:0crwdne826498:0
-- crwdns826500:0crwdne826500:0
-- crwdns826502:0crwdne826502:0
-- crwdns826504:0crwdne826504:0
-- crwdns826506:0crwdne826506:0
-
-## crwdns826508:0crwdne826508:0
-
-- crwdns826510:0crwdne826510:0
-- crwdns826512:0crwdne826512:0
-- crwdns826514:0crwdne826514:0
-- crwdns826516:0crwdne826516:0
-- crwdns826518:0crwdne826518:0
-- crwdns826520:0crwdne826520:0
-- crwdns826522:0crwdne826522:0
-- crwdns826524:0crwdne826524:0
-
-## crwdns826526:0crwdne826526:0
-
-- crwdns826528:0crwdne826528:0
-- crwdns826530:0crwdne826530:0
+*If possible, create a subcommittee dedicated for designing the website and maintaining online communication*
+
+- Take accessibility aspects into account (font size, colour, background).
+- State everything clearly and in simple words.
+- Provide contact details of people with clearly stated roles and responsibilities.
+- Grant edit rights to more than one member in the committee (or subcommittee) across different time zones.
+- Have clearly defined sections for different information, such as:
+  - General information and format of the event.
+  - Draft schedule.
+  - Theme and target audience.
+  - Details about the tools that will be used for connecting.
+  - Sponsors (if any).
+  - Registration details and deadline (if already available).
+  - Call for proposals and guidelines for submitting content.
+
+### Community participation and accessibility
+
+***Relevant for all phases***
+
+- Choose a Code of Conduct that captures your organisation and community values.
+- Describe your community participation guidelines.
+- Create possibilities for people to ask for support to attend your event.
+- Create a reporting guideline for any questions, concerns or breaches of the Code of Conduct.
+- Describe how you intend to create an inclusive event, for example, will there be a sign language interpreter or live transcription.
+- Create one single location for all the information (like an A-to-Z) regarding the events.
+- Host a few community calls in different stages of planning to involve the audience in the process.
+- Invite volunteers who can help you troubleshoot some specific issues.
+- Allow flexibility for the participants to join the call from anywhere (including from home).
+  - Clearly state what are the size limits for the groups that join remotely (or if individual participation is preferred even when joining from the same location).
+
+### Communication channel
+
+***Relevant for all phases***
+
+- A dedicated Slack or Gitter channel within the organisation account for the event.
+- Have a private channel for the organisers.
+- If working in subcommittees, create channels for the subcommittees to post relevant progress.
+- Create a channel for the community where they can receive updates and engage with each other regarding the event.
+- Create appropriate channels for the registered participants (general, introduction, social, program).
+- Have an announcement channel that can be used for announcing important information by the committee members.
+- If the organisation account is not open for others to join, then create an open channel for participants.
+- Create a social media account on Twitter for announcements, branding, improving visibility and wider outreach.
+  - Assign 1-2 volunteers or committee members who can handle social media in collaboration with the committee.
+
+### Storing and sharing information within the organising committee
+
+***Relevant for all phases***
+
+- Use a common, and if possible, single resource management system (like GitHub, Google drive, website) that is easily searchable for storing **organisation related documents**.
+- Establish a common location for storing and sharing documentation.
+- All organisers should have access to all documentation used for planning and organisation.
+- Create a single page summary for the organisers listing the available resources with their links.
+- Have meetings periodically to list and create an overview of the immediate task(s), check with people who these tasks are delegated to and plan the next steps to take before the next meeting.
+- Maintain notes from each call and share with all the members in the organising committee.
+
+### Budget
+
+***Mid-phase***
+
+- Allocate sufficient budget for organising this event (for example for the tools, equipment and childcare).
+- First place to confirm your budget and support for handling it is your organisation.
+- Looking for sponsorship early on is always a good idea.
+  - In the early phase, even though not all the information is sorted, use the website to attract sponsors.
+- Decide how big your event should be based on the available resource (such as online communication tools, assigned budget of the event, size of your community).
+- Calculate how much to make the registration fee if no sponsorship is gained.
+
+### Participation support grants
+
+***Mid-phase***
+
+- Allocate part of your budget for the participation support grant that can be requested by the applicants for the following support:
+  - Free or subsidized childcare during the event so that the participant can attend the event without worrying about taking care of their children.
+  - Software cost or subscription fee if the one being used by the event is not freely available.
+  - Hardware or equipment for facilitating participation, such as headsets, microphone, webcam (create a list of hardware that can be funded by the support grant).
+  - High-speed internet for the duration of the event.
+  - Other aspects that may improve the quality of participation of the applicants.
+- Consider the possibility of waiving the registration fee for people from low-income organisation/country.
+- Create a rubric for selection.
+- Share the application form before the registration deadline.
+- Communicate clearly how many participation support grants are available and what they include.
+- Send decision for participation support grant applicants as soon as possible so that they can decide if they can register to attend the event.
+
+### Event theme and duration
+
+***Mid-phase***
+
+- Identify your target audience within your community and organisation.
+- Invite community members to suggest ideas and collectively choose the most relevant theme.
+- Identify the most suitable time zone and the duration of the event.
+- Use a standard time with a link to different time zones (like [arewemeetingyet](https://arewemeetingyet.com)) when communicating about the event.
+- Add the exact date, time, location (if any!) and choice of tool that will be used for communication.
+
+### Define timeline and invite applications
+
+***Mid-phase***
+
+*Establish a timeline for organising and planning the conference and share on the website*
+- Deadline for abstract submission.
+- Deadline for abstract selection notification and program announcement.
+- Deadline for application for participation support grant (equipment and internet cost).
+  - Include application for participation support grant in the registration (such as equipment for remote joining, internet cost, childcare).
+- Deadline for registration.
+- Deadline for announcing the selected participation support grant awardees.
+- Deadline for registration cancellation.
+- Establish a rubric for selection of the talks and sessions.
+- Invite abstracts for talks and sessions and share rubrics for selection.
+
+### Create a registration form
+
+***Mid-phase***
+
+- If possible use a registration platform such as [Eventbrite](https://www.eventbrite.com/) that stores data centrally, works on most browsers, and enables secure credit card payment.
+- Collect participant details like their name, email, affiliation, accessibility requirements, motivation for participating, and agreement to the privacy statement.
+- Clearly explain why you’re asking for sensitive information and how will you handle those data.
+- If you ask an optional question, make it clear that it’s optional.
+- Do not rely on colour to communicate your questions.
+- Provide clear explanations for complicated questions to guide people towards choosing the correct answer/option.
+- Sequence your questions logically after each other.
+- Provide contact information of the committee member who can be contacted regarding any errors or questions related to registration.
+- Clearly state the next steps upon clicking the submit button.
+- Link the registration form clearly on the webpage and advertise across different community platforms.
+
+### Community suggestion and feedback forms
+
+***Mid-phase***
+
+*Choose a standard platform to manage all your forms, for example, [Surveymonkey](https://www.surveymonkey.com/) or [Google forms](https://www.google.com/forms/about/), with a statement on how you ensure the security of the data collected*.
+
+- Theme suggestion form.
+- Speakers suggestion form.
+- Participation support application form.
+- Sponsorship interest form for those who need grants to facilitate their participation.
+- Abstract submission form for talks (options for the keynote, long, short, lightning talks).
+- Abstract submission form for workshop, up-skilling or breakout session (options for the different lengths of the session).
+- Ideas and leaders for social events.
+- Form to collect community vote on the submitted sessions and social activities.
+- Final feedback form for participants (can be created in the later stage before the event).
+- Feedback form for the chairs, helpers, speakers and notetakers (can be created shortly before the event).
+
+### Program
+
+***Later-phase***
+
+*Agree as a committee and what the rough agenda for the event's program will be. Create slots for keynotes, breakout discussions, workshops, poster and lightning talk session. Provide designated time slots for social events in the main program. Make sure that after each talk/session there is 5 minutes break to allow people to log in to the right online call link, switch rooms, ask a logistics-related question. Provide plenty of breaks, and treat those breaks as virtual coffee sessions.*
+
+- Identify speakers and sessions for the event from the selected abstracts for the talks and community voted sessions.
+- Create a well-balanced agenda that covers the intended theme of the event.
+- If the sessions are supposed to run in parallel, create an agenda based on the session topic/theme.
+- In addition to the talks, have plenty of slots for breakout discussions, short workshops and other opportunities to exchange skills.
+- Provide new and interesting topics that are not selected for long talks as an opportunity to present their idea in short or lightning talks.
+- Instead of having a live lightning talk and poster presentation, invite submission of pre-recorded lightning talks and talks on posters that can be assembled in a gallery (for example, a YouTube playlist) that can be accessed by everyone.
+  - For poster sessions, create a gallery of posters online that can be browsed easily.
+    * Use [F1000 Research](https://f1000research.com/posters/8-400), [Zenodo](https://zenodo.org/), [Figshare](https://figshare.com/) or [Open Science Framework (OSF)](https://osf.io/meetings) to ensure that a DOI is assigned to each submission and allows browsable collections. Other options are Flicker, Unsplash and Google photos.
+    * Share link of each poster with their online video in the shared document.
+  - Decide the length of these talks (recommended length is 1.5-2 minutes),
+  - Create a designated slot in the program to ensure that people take time to check out these talks and posters.
+- Share program and agenda with everyone (via the website) on time.
+- Make sure that your online program is kept up to date.
+- Invite volunteers from the community to chair sessions.
+- Share speaker's and session guidelines with the selected participants.
+- Share the chair's guidelines and protocols with the selected participants.
+- Treat social events in your program as seriously as any other session; discuss this with the organising committee and agree on social events that are good fits for your community.
+  - Confirm leaders for these social activities.
+- Create shared documents for all the selected talks, sessions and social events to be shared with the participants.
+  - Save all the shared documents in one location (or create a common location with their link) so all the participants can browse them during and after the event.
+
+### Documents and tools for participants
+
+***Relevant for all phases***
+
+- Establish a dedicated location for all the shared documents for different sessions with participants so that they can access and edit online during the event.
+  - Use a standard template that can be similar for all the sessions with minor adaption.
+- If using a tool that is available only upon subscription, make sure that all the participants have access.
+- Share a how-to guide to ensure that everyone knows how to use the tool.
+- If possible, offer help with installation and testing of the tool.
+- Remind everyone to arrange a microphone or headsets.
+  - If possible, provide a grant to buy necessary equipment such as headphones, webcams, and/or high-speed internet.
+- Share the participation guidelines, code of conduct and contact information of people who can help with any issues regarding the meeting.
+- Send a reminder with the links to the document(s) and other important resources to all the participants a week and a day in advance.
+- Create slides or presentations that might be needed from the organisers side (welcome, wrap up).
+
+### Organise a pre-event community call
+*Often referred to by different names such as installation party, coffee-hours or set-up test fest*
+
+***Later-phase***
+
+- Organise a pre-event call for the organising committee to cross-check if all the materials for the event are sorted and have been made available to everyone.
+- Arrange a conference call(s) with volunteers, speakers, session leads and chairs to communicate the guidelines and discuss their responsibilities during the event.
+- Create a collaborative document to collect questions from participants, document answers and share it with those who can't attend the call.
+- Arrange a separate conference call(s) with the participants to answer their questions related to the event and also use collaborative notes to share the main discussion points.
+- Test the technical infrastructure with everyone and help set up any software that is needed during the event.
+- Share important contact details (committee chairs, code of conduct contact person) with everyone.
+- Keep this meeting informal and have as many helpers as possible who can help individuals in breakout rooms.
+
+### Storing and sharing information with the participants
+
+***Later-phase***
+
+- Use a common, and if possible, single resource management system (like GitHub, Google Drive, or a website) that is easily searchable for sharing **information with the participants**.
+- Create a single page summary for the participants of the available resources with their links.
+- Clearly communicate where and how participants can access information and documents.
+- If not using a free platform, provide access to the participants.
+  - This can be communicated in the registration confirmation email and the pre-event community call.
+- Send out short emails with updates and reminders that point the participants to these resources (as people tend to look for all the information right before the event).
+
+### Branding and promotional materials
+
+***Relevant for all phases***
+
+- Use the organisation logo for promoting this event only if agreed by the organisation leadership, otherwise invite logo designs from the community.
+- Use social media to engage with the community.
+  - Reach out to them as frequently as possible during the decision making.
+- Use online store to sell swag to allow people to buy them before or during the event.
+  - If the overall budget is low, this can be used for inviting small donations from the community.
+  - If you have sufficient budget, send these to your organising committees before the event, and to the speakers and volunteers after the event as a *thank you* gift.
+- Design online posters and flyers to share with your community members who can help you promote the event in their networks.
+
+### Designated venues for participation
+
+*If there are physical office locations, or co-working spaces accessible for most members*
+
+- Reserve conference room(s) (or similar venues) with high-speed internet.
+- Share details on how members can access this venue.
+- When possible, use individual cameras to simulate remote participation so that others joining remotely don't feel left out.
+- If the reserved location has a webcam and microphone, check that they work properly.
+- Plan the seating arrangement so that people are facing to the main screen/camera.
+- Test the screen with different light intensity.
+- Arrange all the required materials and equipment, like extension cords or power strips.
+- Create a form to collect dietary requirements, interest in participating in a social event, mobility-related requirement and other location-specific requests.
+- Arrange for beverages/snacks for the breaks, and ensure that the catering service will label the food for contents/allergens.
+- If organising any location-specific social event, run that in parallel to the remote social event.
+  - Book social event venue, transfer, and catering and communicate them clearly.
+
+## During the event
+
+### Kicking off the event
+
+*Checklist for the designated chair of the opening session*
+
+- Start the video call, or any communication channel 30 minutes before the event to check that everything works.
+- Share links to the documents and other resources for the event on the chat system like Slack.
+- Remind attendees of the community participation guideline and the Code of Conduct.
+- Introduce the organising committees and the Code of Conduct contact person for the event.
+- Introduce the format of the meeting and when the breaks are scheduled.
+- Explain the basic protocols for participation.
+  - Muting microphone when not speaking.
+  - Using a chat system during the meeting - if there is one.
+- Remind the guidelines for participating in discussions.
+  - Raise hand - on chat, or virtually (like in [Zoom](https://zoom.us/)) or physically.
+  - Other ways to involve others in the discussion equitably.
+- Ask everyone to write down their name, contact (Twitter, email) and other relevant information.
+  - Provide a place to write down pronouns, but keep that optional.
+- Start the meeting with an icebreaker question.
+  - Create opportunities for everyone to share something personal (about their hobby, or experiences) on the document or verbally.
+- Communicate the ways to have inclusive discussions.
+- Remind everyone if the video will be recorded.
+- Provide an agenda with the names and contact information of the session chairs.
+- Remind session chairs of their guidelines in private and make sure that they have all the information and support they need.
+- Provide everyone with a way to keep track of sessions and time, for example, a shared link to [cuckoo.team](https://cuckoo.team) clock.
+- Share how participants can ask for help with troubleshooting, event information or feedback about the event.
+
+## After the event
+
+- Create a debrief document to capture what went well and what could be improved in future events.
+- Create a small overview blog post to share the main highlights from the event with community/participants immediately.
+- Collect any additional documents or information mentioned by others/speakers during the events.
+- If the event sessions and talks were recorded, process and publish the recorded videos within a defined time frame.
+- Send thank you emails to everyone with the link of the complete notes and all the relevant information.
+- Send a feedback form to all the participants with the thank you email.
+- Settle all the invoices from the event.
+- Host a post-event community call to thank people and share the lessons learned.
+
+## Bibliography
+
+- The *Checklist for running a meeting* is a summarised version of the [Gallantries (Galaxy+The Carpentries handbook)](https://galaxy-carpentries.github.io/gallantries/handbook) which is an expanded version of [The Carpentries workshop checklist](https://docs.carpentries.org/topic_folders/hosts_instructors/hosts_instructors_checklist.html).
+- The *Checklist for running a longer event such as a conference or sprint* is a summarised version of the debrief document written by the [chairs of the 1st CarpentryCon conference](https://2018.carpentrycon.org/) organisation committee.

@@ -1,70 +1,73 @@
-(modelo-recursos-de_muro)=
-# Glossário, Blocos Especiais e mais estilização
+(ch-style-more-features)=
+# Glossary, Special Blocks and More Styling
 
-Jupyter Book oferece mais opções para estilizar seus capítulos e criar um livro mais abrangente. Neste subcapítulo, discutimos mais alguns recursos que recomendamos usar no _The Turing Way_.
+Jupyter Book offers more options for styling its chapters and creating a more comprehensive book. In this subchapter, we discuss a few more features that we recommend using in _The Turing Way_.
 
-(modelo-recursos-de_estilo-glossário)=
+(ch-style-more-features-glossary)=
 ## Glossary
 
-_A Turing Way_ tem um arquivo de {ref}`glossário` localizado na palavra após o livro, que compreende definições de termos diferentes por ordem alfabética. Este arquivo pode ser atualizado com as definições de novos termos, que poderá então ser vinculado a qualquer capítulo do livro onde este termo ocorra.
+_The Turing Way_ has a {ref}`glossary` file located in the Afterword of the book, which comprises of definitions of different terms in alphabetical order. This file can be updated with the definitions of new terms, which can then be linked to any chapter in the book where this term occurs.
 
-Para adicionar uma entrada para um novo termo, por favor, pule para a seção alfabética correta do arquivo {ref}`glossário` e use a seguinte sintaxe:
-
-```
-Novo Termo-1
-  Uma frase curta que define o termo. Esta frase está endentada abaixo do termo.
-```
-
-Por exemplo, [termos que começam com 'A'](https://the-turing-way.netlify.app/afterword/afterword.html#a) são escritos no mesmo bloco de texto que é mostrado abaixo:
-```
-
-## Um
-
-```{glossary} Teste de Aceitação
- Um nível do processo de teste do software onde um sistema é testado para aceitabilidade. O objectivo deste teste é avaliar a conformidade do sistema com os requisitos do projecto e avaliar se é aceitável para o fim.
-
-Adiciona
- o Comando usado para adicionar arquivos à área de preparo. Adiciona
- o Comando usado para adicionar arquivos à área de preparo.
-
-Permite ao usuário especificar quais arquivos ou diretórios devem incluir no próximo commit. Autores
-  neste contexto são os contribuidores do projeto The Turing Way_ que deram uma contribuição substancial para o projeto, como escrever um subcapítulo, facilitando interações comunitárias, mantendo a infraestrutura do projeto e apoiando a participação de outros através de contribuições mentais.
+To add an entry for a new term, please jump to the right alphabetical section of the {ref}`glossary` file and use the following syntax:
 
 ```
+New Term-1
+  A short sentence defining the term. This sentence is indented below the term.
+```
 
-Para fazer referência a termos no seu glossário, use a sintaxe ``[{term}`def<Term>`]``.
+For example, [terms starting with 'A'](https://the-turing-way.netlify.app/afterword/afterword.html#a) are written in the same text-block as shown below:
+```
 
-Por exemplo, vincular o termo 'Autores' a sua definição no arquivo de glossário. por favor use a sintaxe ``[{term}`def<Authors>`]`` ao lado de onde esses termos aparecem, que deve renderizar on-line como este: "*Autores [{term}`def<Authors>`] foram referenciados aqui.*"
+## A
 
-(modelo-recursos-de_muro-blocos)=
-## Blocos de Conteúdo Especial
+```{glossary}
 
-Ao escrever um novo capítulo ou revisar um já existente, você pode querer adicionar notas que não se encaixam com o resto da narrativa do capítulo, mas podem ser úteis para os leitores e ajudá-los a entender melhor o capítulo.
+Acceptance Testing
+ A level of the software testing process where a system is tested for acceptability. The purpose of this test is to evaluate the system's compliance with the project requirements and assess whether it is acceptable for the purpose.
 
-O Livro de Júpiter permite o uso de blocos de conteúdo especial para destacar um texto que precisa se destacar do resto do conteúdo de uma página. Isto visualmente separa o bloco de texto do resto da página, e garante que ele facilmente capta a atenção do leitor.
+Add
+ Command used to add files to the staging area. Allows the user to specify which files or directories to include in the next commit.
 
-Para adicionar um bloco de conteúdo especial (nota, aviso ou admonial) à sua página, use a seguinte directiva:
+Authors
+  Authors in this context are the contributors to _The Turing Way_ project who have made a substantial contribution to the project such as writing a subchapter, facilitating community interactions, maintaining project’s infrastructure and supporting the participation of others through mentored-contributions. All authors are named co-authors on the book as a whole.
+
+```
+
+To reference terms in your glossary, use the syntax ``[{term}`def<Term>`]``.
+
+For example, to link the term 'Authors' to its definition in the glossary file, please use the syntax ``[{term}`def<Authors>`]`` next to where this term appears, which should render online like this: "*Authors [{term}`def<Authors>`] has been referenced here.*"
+
+(ch-style-more-features-blocks)=
+## Special Content Blocks
+
+When writing a new chapter or revising an existing one, you may wish to add notes that do not fit in with the rest of the chapter's narrative but may be useful to the readers and help them understand the chapter better.
+
+Jupyter Book allows the use of special content blocks to highlight a piece of text that needs to stand out from the rest the content on a page. This visually separates the block of text from the rest of the page, and ensures that it easily captures the reader's attention.
+
+To add a special content block (note, warning or admonition) to your page, use the following directive:
 
 ````
-```{note} Esta é uma nota de exemplo!
+```{note}
+This is a sample note!
 ```
 ````
-que renderiza da seguinte forma:
+which renders as follows:
 
 ```{note}
-Esta é uma nota de exemplo!
+This is a sample note!
 ```
 
-Você pode dar títulos e estilos personalizados de blocos de conteúdo para reforçar sua mensagem pretendida. Por exemplo, se você quiser avisar o leitor sobre algo, poderá fazer um bloco de aviso usando a seguinte directiva:
+You can give content blocks custom titles and styling to reinforce your intended message. For example, if you wanted to warn the reader about something, you may make a warning block using the following directive:
 
 ````
-```{warning} Este é um aviso severo!
+```{warning}
+This is a stern warning!
 ```
 ````
-Note o novo título, ícone e esquema de cores.
+Note the new title, icon, and colour scheme.
 
 ```{warning}
-Este é um aviso importuno!
+This is a stern warning!
 ```
 
-Há muitas outras maneiras de personalizar os blocos de conteúdo para atender às suas necessidades de escrita. Consulte a [documentação do Livro do Jupyter](https://jupyterbook.org/content/content-blocks.html#notes-warnings-and-other-admonitions) e a [página de Demonstração de Admonition](https://sphinx-book-theme.readthedocs.io/en/latest/reference/demo.html#admonitions) para mais recomendações.
+There are many more ways to customise content blocks to suit your writing needs. Refer to the [Jupyter Book documentation](https://jupyterbook.org/content/content-blocks.html#notes-warnings-and-other-admonitions) and the [Admonition Demo page](https://sphinx-book-theme.readthedocs.io/en/latest/reference/demo.html#admonitions) for more recommendations.

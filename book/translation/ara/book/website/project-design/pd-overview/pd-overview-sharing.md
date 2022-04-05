@@ -1,55 +1,55 @@
-crwdns841992:0crwdne841992:0
-# crwdns841994:0crwdne841994:0
-crwdns841996:0crwdne841996:0 crwdns841998:0crwdne841998:0 crwdns842000:0crwdne842000:0
+(pd-overview-sharing)=
+# Sharing Your Research Work
+Now that you are in the last phase of your project, you want to make sure that your outputs are available to anyone interested in analysing or reusing them. Science can only progress from building on top of each other's results. The first step is sharing your work.
 
-crwdns842002:0crwdne842002:0 crwdns842004:0crwdne842004:0 crwdns842006:0{ref}crwdne842006:0
+But only sharing is not enough. You need to make sure that your research objects are **F**indable, **A**ccesible, **I**noperable and **R**eusable. This is referred to as {ref}`FAIR Principles<rr-rdm-fair>` that provides guidelines to improve the Findability, Accessibility, Interoperability and Reusability of digital assets; all of which support research reproducibility.
 
-crwdns842008:0{ref}crwdnd842008:0{ref}crwdne842008:0 crwdns842010:0crwdne842010:0 crwdns842012:0{ref}crwdne842012:0
+This aspect is already considered when developing your {ref}`Data Management Plan (DMP)<rr-rdm-dmp>` (see {ref}`pd-overview-planning-dmp`). Therefore, it is important to revisit your DMP to make sure that the guidelines are also applied when making your results available. You can learn more about this in a chapter on {ref}`making data FAIR<rr-rdm-fair>`).
 
-crwdns842014:0crwdne842014:0
-## crwdns842016:0crwdne842016:0
+(pd-overview-sharing-archive)=
+## Archive your Outputs
 
-crwdns842018:0crwdne842018:0 crwdns842020:0crwdne842020:0
+Like your data, your outputs should be archived in an open place, where people can access them. A repository is a good place to store your results.
 
-crwdns842022:0crwdne842022:0
+An overview of some repositories available for archiving your data can be found in [re3data.org](https://www.re3data.org/).
 
-crwdns842024:0{ref}crwdne842024:0
+Another good resource where you can read more about this topic is the chapter on {ref}`Sharing and Archiving Data<rr-rdm-sharing>`.
 
-crwdns842026:0crwdne842026:0
-## crwdns842028:0crwdne842028:0
+(pd-overview-sharing-protocols)=
+## Share your Protocols
 
-crwdns842030:0crwdne842030:0 crwdns842032:0crwdne842032:0
+One of the reasons to do reproducible research is to provide others with the tools to build on top of it. If the details of the protocols are not shared, researchers can spend months optimizing them before being able to start with their projects.
 
-crwdns842034:0crwdne842034:0 crwdns842036:0crwdne842036:0 crwdns842038:0crwdne842038:0
+A tool that can be used to avoid this is [protocols.io](https://www.protocols.io/). It provides a way to ensure that your protocols are openly available, allowing you to update them while keeping track of the changes. Furthermore, having your protocols online makes them easier to share, creating opportunity for contributing.
 
-## crwdns842040:0crwdne842040:0
+## Share Analysis Scripts and Research Software
 
-crwdns842042:0crwdne842042:0
+If you have been using a version control system you will have this covered.
 
-crwdns842044:0crwdne842044:0 crwdns842046:0{ref}crwdne842046:0
+If developing analysis scripts and research software is part of your research, you need to use a version control system. If you are new to version control you can read more about it in the {ref}`Version Control<rr-vcs>` chapter.
 
-crwdns842048:0crwdne842048:0 crwdns842050:0crwdne842050:0 crwdns842052:0crwdne842052:0 crwdns842054:0{ref}crwdne842054:0
+You can integrate your version control system with a general-purpose repository. For example, when integrating GitHub with Zenodo you can get Digital Object Identifiers or DOIs for your software. This automatically makes it easier to share and makes it citable. You can read about DOIs in the chapter on {ref}`Making Research Components Citable<cm-citable>`.
 
-## crwdns842056:0crwdne842056:0
+## Collecting your Research
 
-crwdns842058:0crwdne842058:0 crwdns842060:0crwdne842060:0 crwdns842062:0crwdne842062:0
+Once you are done with your research you may want to collect all the digital parts of your project in one place. This is called a research compendium. Publishing your paper along with a research compendium allows the full extent of your research: from the design of the project, through the data recollection and analysis and the resulting outputs.
 
-crwdns842064:0crwdne842064:0 crwdns842066:0crwdne842066:0
+This has endless advantages. It makes your work shareable and reproducible, others can build upon it and gives you more visibility.
 
-crwdns842068:0{ref}crwdne842068:0
+You can read how to set up your research compendia, {ref}`this chapter<rr-compendia>`.
 
-crwdns842070:0crwdne842070:0
-## crwdns842072:0crwdne842072:0
+(pd-overview-sharing-License)=
+## Add License to Research Outputs
 
-crwdns842074:0crwdne842074:0
+Even if you got a license at the beginning of the project you need to think about it again when sharing your outputs and final results - this allows people to have the information about how your research should be reused and shared.
 
-crwdns842076:0{ref}crwdne842076:0
+If you want more information about how to choose and add a license to your project you can check the {ref}`Licensing Chapter<rr-licensing>`.
 
-crwdns842078:0crwdne842078:0
-## crwdns842080:0crwdne842080:0
+(pd-overview-citation)=
+## Receive Citations
 
-crwdns842082:0crwdne842082:0 crwdns842084:0crwdne842084:0
+All this hard work will have its reward. Having published all your research from the design to the results adds visibility to your work and more opportunity to get credit.
 
-crwdns842086:0crwdne842086:0
+Not only can your results can be cited, but your methods and protocols can be reused and your design can be shared.
 
-crwdns842088:0{ref}crwdne842088:0
+Read {ref}`this chapter on ORCID<cm-citable-orcid>` for more information about how you can collect different research outputs in one place using ORCID and highlight them to get fair credit for your work.

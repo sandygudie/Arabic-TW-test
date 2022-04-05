@@ -1,13 +1,13 @@
-crwdns850084:0crwdne850084:0
-# crwdns850086:0crwdne850086:0
+(rr-rdm-resources)=
+# Resources
 
-crwdns850088:0crwdne850088:0
-## crwdns850090:0crwdne850090:0
+(rr-rdm-resources-learn)=
+## What to Learn Next
 
-crwdns850092:0{ref}crwdnd850092:0{ref}crwdne850092:0
+If you have not read the chapters on {ref}`rr-open` and {ref}`cm-citable` yet, you might want to read it now for more context on how Research Data Management supports Open Research and how these practises can result in getting attribution for your work.
 
-crwdns850094:0crwdne850094:0
-## crwdns850096:0crwdne850096:0
+(rr-rdm-resources-reading)=
+## Further Reading
 
-- [crwdns850100:0crwdne850100:0](crwdns850098:0crwdne850098:0)
-- [crwdns850104:0crwdne850104:0](crwdns850102:0crwdne850102:0)
+- [Detailed guidance on sharing personal or sensitive data from the UK Data Service](https://www.ukdataservice.ac.uk/manage-data/legal-ethical/consent-data-sharing.aspx)
+- [An overview of storage solutions and their advantages and disadvantages](https://datasupport.researchdata.nl/en/start-the-course/iii-the-research-phase/storing-data)

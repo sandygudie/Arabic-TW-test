@@ -1,32 +1,32 @@
-crwdns844046:0crwdne844046:0
-# crwdns844048:0crwdne844048:0
+(rr-ci-practices)=
+# Best Practices and Recommendations
 
-## crwdns844050:0crwdne844050:0
+## Small, iterative changes
 
-crwdns844052:0crwdne844052:0 crwdns844054:0crwdne844054:0
+One of the most important practices when adopting continuous integration is to encourage project members to make and commit small changes. Small changes minimise the possibility and impact of problems cropping up when they're integrated, which minimises the time and effort cost of integration.
 
-## crwdns844056:0crwdne844056:0
+## Trunk-based development
 
-crwdns844058:0crwdne844058:0 crwdns844060:0crwdne844060:0
+With trunk-based development, work is done in the main branch of the repository or merged back into the shared repository at frequent intervals. Short-lived feature branches are permissible as long as they represent small changes and are merged back as soon as possible.
 
-crwdns844062:0crwdne844062:0 crwdns844064:0crwdne844064:0
+The idea behind trunk-based development is to avoid large commits that violate of concept of small, iterative changes discussed above. Code is available to peers early so that conflicts can be resolved when their scope is small.
 
-## crwdns844066:0crwdne844066:0
+## Keep the building and testing phases fast
 
-crwdns844068:0crwdne844068:0 crwdns844070:0crwdne844070:0
+Because the build and test steps must be performed frequently, it is essential that these processes be streamlined to minimise the time spent on them. Increases in build time should be treated as a major problem because the impact is compounded by the fact that each commit kicks off a build.
 
-crwdns844072:0crwdne844072:0 crwdns844074:0crwdne844074:0 crwdns844076:0crwdne844076:0 crwdns844078:0crwdne844078:0 crwdns844080:0crwdne844080:0
+When possible, running different sections of the test suite in parallel can help move the build through the pipeline faster. Care should also be taken to make sure the proportion of each type of test makes sense. Unit tests are typically very fast and have minimal maintenance overhead. In contrast, automated system or acceptance testing is often complex and prone to breakage. To account for this, it is often a good idea to rely heavily on unit tests, conduct a fair number of integration tests, and then back off on the number of later, more complex testing.
 
-## crwdns844082:0crwdne844082:0
+## Computational expense
 
-crwdns844084:0crwdne844084:0 crwdns844086:0crwdne844086:0 crwdns844088:0crwdne844088:0 crwdns844090:0crwdne844090:0
+Some software will require significant compute resource to build and/or run. Examples include weather and climate models. This can make the use of continuous integration impractical as the tests either take too long or use too much resource. Therefore, a compromise needs to be found to balance the risk of incomplete testing against a usable development process.
 
-crwdns844092:0crwdne844092:0 crwdns844094:0crwdne844094:0 crwdns844096:0crwdne844096:0
+One approach is to use different levels of testing, with different subgroups being required depending on what is being changed. A common broad subgroup can be used in every case, with additional ones being invoked to test certain areas in more detail. This introduces an element of judgement to the testing process, but can be applied successfully.
 
-## crwdns844098:0crwdne844098:0
+## Dependencies tracking
 
-crwdns844100:0crwdne844100:0 crwdns844102:0crwdne844102:0 crwdns844104:0crwdne844104:0
+Checking for dependency updates should be done regularly. It can save a lot of time, avoiding bugs due to code dependent on deprecated functionality. Services such as [David](https://david-dm.org/) are available for dependency management.
 
-## crwdns844106:0crwdne844106:0
+## Consistency throughout the pipeline
 
-crwdns844108:0crwdne844108:0 crwdns844110:0crwdne844110:0
+A project should be built once at the beginning of the pipeline, the resulting software should be stored and accessible to later processes without rebuilding. By using the exact same artefact in each phase, you can be certain that you are not introducing inconsistencies as a result of different build tools.

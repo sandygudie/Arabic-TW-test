@@ -1,29 +1,32 @@
-crwdns848434:0crwdne848434:0
-# crwdns848436:0crwdne848436:0
+(rr-overview)=
+# Overview of Reproducible Research
 
-crwdns848438:0crwdne848438:0
-## crwdns848440:0crwdne848440:0
+(rr-overview-prerequisites)=
+## Prerequisites
 
-crwdns848442:0crwdne848442:0
+No previous knowledge needed.
 
 ```{figure} ../figures/research-cycle.jpg
-crwdns848444:0crwdne848444:0 
-crwdns848446:0crwdne848446:0 crwdns848448:0crwdne848448:0 crwdns848450:0crwdne848450:0
+---
+name: research-cycle
+alt: The research process is represented as a perpetual cycle of generating research ideas, performing data planning and design, data collection, and data processing and analysis, publishing, preserving and hence, allowing re-use of data. 
+---
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-crwdns848452:0crwdne848452:0
-## crwdns848454:0crwdne848454:0
+(rr-overview-summary)=
+## Summary
 
-crwdns848456:0{ref}crwdne848456:0
+Scientific results and evidence are strengthened if those results can be replicated and confirmed by several independent researchers (see {ref}`definitions <rr-overview-definitions>`).
 
-crwdns848458:0crwdne848458:0 crwdns848460:0crwdne848460:0
+When researchers employ transparency in their research - in other words, when they properly document and share the data and processes associated with their analyses - the broader research community is able to save valuable time when reproducing or building upon published results. Often, data or code from prior projects will be re-used by new researchers to verify old findings or develop new analyses.
 
-crwdns848462:0{ref}crwdne848462:0
+Learn about some of the other benefits of reproducible research in the {ref}`Added Advantages <rr-overview-benefits>` subchapter.
 
-crwdns848464:0crwdne848464:0 crwdns848466:0{cite:ps}crwdne848466:0
+Major media outlets have [reported on](https://www.theguardian.com/science/2018/aug/27/attempt-to-replicate-major-social-scientific-findings-of-past-decade-fails) investigations showing that a significant percentage of scientific studies cannot be reproduced. This leads to other academics and society losing trust in scientific results {cite:ps}`baker2016reproducibility`.
 
-crwdns848468:0{cite:ps}crwdne848468:0
+In addition, "negative results" can be published easily, helping avoid other researchers wasting time repeating analyses that will not return the expected results {cite:ps}`Dirnagl2010bias`.
 
-crwdns848470:0{ref}crwdne848470:0
+For further reading resources on reproducibility, please check out the {ref}`Resources <rr-overview-resources>` subchapter.
 
-*crwdns848472:0crwdne848472:0*
+***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*

@@ -1,41 +1,41 @@
-crwdns836104:0crwdne836104:0
-# crwdns836106:0crwdne836106:0
+(ch-consistency-language)=
+# Language
 
-crwdns836108:0crwdne836108:0 crwdns836110:0crwdne836110:0
+Language is concerned with the way concepts and ideas in _The Turing Way_ are expressed. A consistent language ensures that _The Turing Way_ is clear and understandable.
 
-crwdns836112:0crwdne836112:0
-## crwdns836114:0crwdne836114:0
+(ch-consistency-language-hr)=
+## Hard Requirements
 
-crwdns836116:0crwdne836116:0
+The hard checks that deal with _The Turing Way's_ language include:
 
-crwdns836118:0crwdne836118:0
-### crwdns836120:0crwdne836120:0
+(ch-consistency-language-hr-grammar)=
+### Check 1: Ensure correct grammar and a consistent tone across the book
 
-crwdns836122:0crwdne836122:0
+Correct grammar and consistent tone would help readers of all backgrounds, knowledge, and skill levels to better understand _The Turing Way_'s content.
 
-crwdns836124:0crwdne836124:0
+Aside from being distracting, incorrect grammar might take away what a piece of text is trying to communicate.
 
-crwdns836126:0crwdne836126:0 crwdns836128:0crwdne836128:0 crwdns836130:0crwdne836130:0 crwdns836132:0crwdne836132:0
+Tools such as [Grammarly](https://grammarly.com), [Ginger Grammar](https://gingersoftware.com/grammarcheck), and [Reverso Speller](https://reverso.net/spell-checker/english-spelling-grammar/) can help catch grammatical errors present in a piece of text. These tools can be used to assess grammar in new contributions and existing content of _The Turing Way_. Furthermore, when raising PRs for new content, invite reviewers to check for grammar as well. This could help minimize the number of grammatical errors that make it to the final version of _The Turing Way_.
 
-crwdns836134:0crwdne836134:0 crwdns836136:0crwdne836136:0
+With respect to tone, ensure that chapters adhere to a formal style of writing and that sentences are easy to digest. One rule of thumb to consider is that if a sentence needs to be read more than once to be understood, then it likely needs to be rephrased.
 
-#### crwdns836138:0crwdne836138:0
+#### Demo
 
 <div class="video-container">
-    <iframe width="560" height="315" src="crwdns836140:0crwdne836140:0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Prv23kGekVY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-crwdns836142:0crwdne836142:0
-### crwdns836144:0crwdne836144:0
-`crwdns836146:0{note}crwdne836146:0`
+(ch-consistency-language-hr-language)=
+### Check 2: Ensure chapters use a consistent language
+`{note} Language, in this context, refers to the American and British variants of the English language.`
 
-crwdns836148:0crwdne836148:0 crwdns836150:0crwdne836150:0 crwdns836152:0crwdne836152:0 crwdns836154:0crwdne836154:0
+With contributors from around the world, _The Turing Way_ does not restrict the language used to write chapters. This makes it easier for contributors to bring in their perspectives as they write content for _The Turing Way_. Rather, the recommendation is that if a chapter is written in one style (for example, British English), then it should remain consistent throughout. This makes _The Turing Way_ less distracting and easier to read.
 
-crwdns836156:0crwdne836156:0
-### crwdns836158:0crwdne836158:0
+(ch-consistency-language-hr-abbreviations)=
+### Check 3: Ensure Latin abbreviations are not used in writing chapters
 
-crwdns836160:0crwdne836160:0 crwdns836162:0crwdne836162:0
+When writing content for _The Turing Way_, the use of Latin abbreviations is discouraged. This is because screen readers may read them aloud in a manner that is confusing to those who rely on such devices.
 
-crwdns836164:0{ref}crwdne836164:0
+Furthermore, as described in the {ref}`style guide<ch-style>`, contributions that contain Latin abbreviations will fail the _The Turing Way_ repository's continuous integration workflow.
 
-crwdns836166:0{ref}crwdne836166:0
+Please refer to the {ref}`style guide<ch-style>` for recommendations on how to avoid common Latin abbreviations in your writing.

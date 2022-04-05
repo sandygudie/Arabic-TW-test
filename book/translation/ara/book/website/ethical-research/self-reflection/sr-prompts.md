@@ -1,49 +1,49 @@
-crwdns840990:0crwdne840990:0
-# crwdns840992:0crwdne840992:0
+(er-self-reflection-promts)=
+# Self Reflection Prompts
 
-crwdns840994:0crwdne840994:0 crwdns840996:0crwdne840996:0
+Reflexivity is the process of using self-reflection to understand ourselves and our beliefs, and how these influence how we create knowledge through our work in data science. There are lots of different aspects you could consider, and the questions below are some prompts to help get you started.
 
-## crwdns840998:0crwdne840998:0
+## Questions about my own identity
 
-- crwdns841000:0crwdne841000:0
-- crwdns841002:0{ref}crwdne841002:0
-- crwdns841004:0crwdne841004:0
-- crwdns841006:0crwdne841006:0
-- crwdns841008:0crwdne841008:0
-  - crwdns841010:0crwdne841010:0
+- What is considered ethical in my culture that other cultures may see differently?
+- What are my own {ref}`Social Graces<er-self-reflection-social-graces>`?
+- How have my Social Graces shaped my experiences of life?
+- How have my Social Graces shaped the decisions that have led me to do what I do now?
+- What are the Social Graces of my family and friends?
+  - Are there Social Graces where we vary a lot/little?
 
-## crwdns841012:0crwdne841012:0
+## Questions about my research environment
 
-- crwdns841014:0crwdne841014:0 crwdns841016:0crwdne841016:0 crwdns841018:0crwdne841018:0
-- crwdns841020:0crwdne841020:0 crwdns841022:0crwdne841022:0
-    - crwdns841024:0crwdne841024:0
-- crwdns841026:0crwdne841026:0
-- crwdns841028:0crwdne841028:0
-  - crwdns841030:0crwdne841030:0
+- What are the shared values of my lab? My department? My university?
+- Who is visibly present in my department? Who isn't?
+    - What understanding do I have of why that is, and how have I formed this understanding?
+- What do I know about the visible and invisible Social Graces of people in my department or field?
+- How do the people who work in my field represent the people our work serves?
+  - How do I relate to the people I am trying to serve with my work?
 
-## crwdns841032:0crwdne841032:0
+## Questions about my relationship to knowledge
 
-- crwdns841034:0crwdne841034:0
-- crwdns841036:0crwdne841036:0
-- crwdns841038:0crwdne841038:0
-- crwdns841040:0crwdne841040:0
-- crwdns841042:0crwdne841042:0
-- crwdns841044:0crwdne841044:0
-- crwdns841046:0crwdne841046:0
+- What types of knowledge do I value?
+- Am I more convinced by a certain type of data over another - why is that?
+- Are there certain people I am more likely to believe, or find convincing?
+- What type of data presentation do I find convincing?
+- What type of statistics do I view as more robust (and why)?
+- What checks do I think data and analysis need to go through to be considered robust?
+- What are my views on qualitative data vs. quantitative data?
 
-## crwdns841048:0crwdne841048:0
+## Questions about my relationship to my research topic
 
-- crwdns841050:0crwdne841050:0
-    - crwdns841052:0crwdne841052:0 crwdns841054:0crwdne841054:0
-- crwdns841056:0crwdne841056:0
--  crwdns841058:0crwdne841058:0
-- crwdns841060:0crwdne841060:0
+- What do I believe are 'truths' about the concept I study?
+    - What evidence do I base those truths on? Who developed this evidence?
+- Who do I most commonly cite in my research area, and how are their perspectives similar or different to mine?
+-  Whose perspectives are important in answering this research topic?
+- Am I the best person to answer this question - what might I be missing?
 
-## crwdns841062:0crwdne841062:0
+## Questions about my data
 
-- crwdns841064:0crwdne841064:0
-- crwdns841066:0crwdne841066:0
-- crwdns841068:0crwdne841068:0
-- crwdns841070:0crwdne841070:0
+- Who isn't included in the data I have collected or reusing an existing dataset?
+- When and where was this data created?
+- What were the dominant beliefs at the time?
+- What do you know about the people who created this data?
 
-crwdns841072:0{cite:ps}crwdne841072:0 
+Note, if you are creating a dataset and would like to record this information about your data for future users, consider using 'Datasheets for Datasets' {cite:ps}`gebru2018datasheets` as a guide. 

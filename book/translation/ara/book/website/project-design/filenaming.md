@@ -1,73 +1,73 @@
-crwdns841474:0crwdne841474:0
-# crwdns841476:0crwdne841476:0
+(pd-filenaming)=
+# Naming files, folders and other things
 
-## crwdns841478:0crwdne841478:0
+## Prerequisites / recommended skill level
 
-crwdns841480:0crwdne841480:0
+None.
 
-## crwdns841482:0crwdne841482:0
+## Summary
 
-crwdns841484:0crwdne841484:0 crwdns841486:0crwdne841486:0 crwdns841488:0crwdne841488:0
+By naming your files, folders, and other research components consistently and descriptively, you can make your work findable, understandable and reusable by yourself, your collaborators, and other people interested in your research. It allows others to understand what the digital object is about: What the files contain and where to find them. Moreover, by following simple tips for file naming, you can make your files easy for computers to identify and process.
 
-## crwdns841490:0crwdne841490:0
+## How this will help you/why this is useful
 
-crwdns841492:0crwdne841492:0
+Using good names is probably the easiest way to improve reproducibility and reusability of your research project.
 
-## crwdns841494:0crwdne841494:0
+## Chapter content
 
-crwdns841496:0{cite:ps}crwdne841496:0
+There are three principles to naming things; the first two apply to all kinds of things and the third is optional but valuable for keeping track of your files {cite:ps}`Bryan2015Filenaming`.
 
-crwdns841498:0crwdne841498:0
-1. crwdns841500:0crwdne841500:0
-2. crwdns841502:0crwdne841502:0
-3. crwdns841504:0crwdne841504:0
-
-
-crwdns841506:0crwdne841506:0
-
-| crwdns841508:0crwdne841508:0   | crwdns841510:0crwdne841510:0   |
-| ------------------------------ | ------------------------------ |
-| `crwdns841512:0crwdne841512:0` | `crwdns841514:0crwdne841514:0` |
-| `crwdns841516:0crwdne841516:0` | `crwdns841518:0crwdne841518:0` |
-| `crwdns841520:0crwdne841520:0` | `crwdns841522:0crwdne841522:0` |
-| `crwdns841524:0crwdne841524:0` | `crwdns841526:0crwdne841526:0` |
-| `crwdns841528:0crwdne841528:0` | `crwdns841530:0crwdne841530:0` |
+File names should be:
+1. Machine readable
+2. Human readable
+3. Optional: Play well with default ordering
 
 
-### crwdns841532:0crwdne841532:0
+Before we dive into the details of what they mean, let's look at some examples of bad and good file names.
 
-crwdns841534:0crwdne841534:0 crwdns841536:0crwdne841536:0 crwdns841538:0crwdne841538:0
-
-crwdns841540:0crwdne841540:0
-
-crwdns841542:0crwdne841542:0
-
-### crwdns841544:0crwdne841544:0
-
-crwdns841546:0crwdne841546:0 crwdns841548:0crwdne841548:0 crwdns841550:0crwdne841550:0
-
-crwdns841552:0crwdne841552:0
-
-### crwdns841554:0crwdne841554:0
-
-crwdns841556:0crwdne841556:0 crwdns841558:0crwdne841558:0 crwdns841560:0crwdne841560:0 crwdns841562:0crwdne841562:0 crwdns841564:0crwdne841564:0 crwdns841566:0crwdne841566:0
-
-crwdns841568:0crwdne841568:0 crwdns841570:0crwdne841570:0 crwdns841572:0crwdne841572:0 crwdns841574:0crwdne841574:0 crwdns841576:0crwdne841576:0
-
-## crwdns841578:0crwdne841578:0
-
-crwdns841580:0{cite:ps}crwdne841580:0
-
-- crwdns841582:0crwdne841582:0
-- crwdns841584:0crwdne841584:0
-- crwdns841586:0crwdne841586:0
-- crwdns841588:0crwdne841588:0
-- crwdns841590:0crwdne841590:0
-- crwdns841592:0crwdne841592:0
-- crwdns841594:0crwdne841594:0
-- crwdns841596:0crwdne841596:0
+| ❌ Bad                                             | ✔️ Good                                           |
+| ------------------------------------------------- | ------------------------------------------------- |
+| `Myabstract.docx`                                 | `2020-06-08_abstract-for-sla.docx`                |
+| `Joe’s Filenames Use Spaces and Punctuation.xlsx` | `Joes-filenames-are-getting-better.xlsx`          |
+| `figure 1.png`                                    | `Fig01_scatterplot-talk-length-vs-interest.png`   |
+| `fig 2.png`                                       | `Fig02_histogram-talk-attendance.png`             |
+| `JW7d^(2sl@deletethisandyourcareerisoverWx2*.txt` | `1986-01-28_raw-data-from-challenger-o-rings.txt` |
 
 
-## crwdns841598:0crwdne841598:0
+### Machine readable
 
-crwdns841600:0crwdne841600:0 crwdns841602:0{ref}crwdne841602:0
+Names of digital components should be easy to understand for computers. Computers like names to have no spaces, deliberate use of delimiters, and no special or accented characters. Also computers are case sensitive, so for them `cat.txt` and `Cat.txt` are different files.
+
+The file names `Joe´s Filenames Use Spaces and Punctuation.xlsx` and `JW7d^(2sl@deletethisandyourcareerisoverWx2*.txt` shown above use empty spaces and special characters (`´`, `^`, `(`, `@`,`*`), which can lead to difficulties, for example when you want to send it someone else's computer.
+
+Good file/folder names are easy to search for (also using regular expressions) and easy to compute on (for example by splitting on `_` or `-` characters).
+
+### Human readable
+
+To achieve human readability, it is helpful to have short (< 25 characters) but descriptive names that contain information on the content of the file/folder. Word boundaries in the file name can be indicated by using medial capitalization called camel case, for example "FileName", or underscore, for example "file_name". File names should not have any spaces or other special characters.
+
+For web links or Uniform Resource Locator (URL), this concept is called [clean URL](https://en.wikipedia.org/wiki/Clean_URL).
+
+### Play well with default ordering
+
+To create a good default ordering adding a number or date at the beginning of the name is often a good idea. This keeps our files sorted in ascending order based on file versions or in chronological order. For instance, we often organize all our slide decks created on different dates in the same folder. To sort them by their date of creation, we can start the file names with `year-month-day` (for example `2020-02-21`). We recommend using something like the [ISO 8601 standard: YYYY-MM-DD](https://en.wikipedia.org/wiki/ISO_8601) for dates. If you use other numbers, we recommend left padding them with zeros, because your computer will order `003 < 004 < 020 < 100` as opposed to `100 < 20 < 3 < 4`.
+
+Naming folders according to a logical number can lead to a mess if the ordering changes in the future. For example, there is a folder with the book chapters `01_introduction`, `02_naming_files`, and `03_naming_folders`. The author writes a preface of the book and decides to squeeze it before the introduction chapter. This would mean that they will have to rename all the files to maintain the intended order. This happens a lot and clearly, this has more downsides than upsides.
+
+## Checklist
+
+Here are some tips for naming files within a research project, which are both human- and machine-readable {cite:ps}`Cowles2019Filenaming,Hodge2015Filenaming`:
+
+- Name your files consistently
+- Keep it short but descriptive
+- Avoid special characters or spaces to keep it machine-compatible
+- Use capitals or underscores to keep it human-readable
+- Use consistent date formatting, for example ISO 8601: `YYYY-MM-DD` to maintain default order
+- Include a version number when applicable
+- Share/establish a naming convention when working with collaborators
+- Record a naming convention in your data management plan
+
+
+## What to learn next
+
+Want to build a folder with all the files from your research project? Check out our chapter on {ref}`research compendia<rr-compendia>`.

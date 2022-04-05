@@ -1,25 +1,29 @@
-crwdns842158:0crwdne842158:0
-# crwdns842160:0crwdne842160:0
+(pd-persona)=
+# Personas and Pathways
 
-crwdns842162:0crwdne842162:0
-## crwdns842164:0crwdne842164:0
-crwdns842166:0crwdne842166:0
+(pd-persona-prerequisites)=
+## Prerequisites
+None.
 
-crwdns842168:0crwdne842168:0
-## crwdns842170:0crwdne842170:0
-crwdns842172:0crwdne842172:0 crwdns842174:0crwdne842174:0
+(pd-persona-summary)=
+## Summary
+A persona is a detail of an imaginary user or member, based on real-world observations and understandings of existing members or potential future members. It is meaningful when paired with pathways through which these personas engage with a project.
 
 ```{figure} ../figures/personas.png
-crwdns842176:0crwdne842176:0
-crwdns842178:0crwdne842178:0 crwdns842180:0crwdne842180:0 crwdns842182:0crwdne842182:0 crwdns842184:0crwdne842184:0
+---
+height: 400px
+name: personas
+alt: 4 people with diverse appearances are talking to each other, sharing ideas directly with each other and also sharing on social media.
+---
+People sharing their ideas through direct conversations and on social media. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
 
-crwdns842186:0crwdne842186:0 crwdns842188:0crwdne842188:0
+(pd-persona-motivation)= In a community-oriented and open source project, participants come with different levels of technical skills, as well as from different backgrounds, identities, demographic distribution and lived experiences. The personas and pathways development tool allows us to take experiences and expectations of individuals into account when planning the community aspects of our projects.
 
-crwdns842190:0crwdne842190:0
+This chapter aims to capture different 'personas' of members or users and understand the 'pathways' they take to come in contact or staying involved with the project.
 
-crwdns842192:0{ref}crwdne842192:0 crwdns842194:0{ref}crwdne842194:0
+In the first subchapter, we provide a {ref}`persona creation tool<pd-persona-creation>`. In the second subchapter, {ref}`Contributors Personas and Pathways <pd-persona-contributors>`, we discuss how one can identify pathways using examples from _The Turing Way_ community.
 
-*crwdns842196:0crwdne842196:0*
+*We welcome you to add your personas and pathways in this chapter to provide more examples from different projects.*
 

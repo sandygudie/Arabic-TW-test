@@ -1,54 +1,54 @@
-(cl-infraestructura-ram)=
-# Administradores de Aplicaciones de Investigación: Resumen
+(cl-infrastructure-ram)=
+# Research Application Managers: Overview
 
-## Contexto y la necesidad no satisfecha
+## Context and the unmet need
 
-Los incentivos académicos fomentan la creación de nuevos conocimientos, como la creación de nuevos algoritmos de aprendizaje de máquinas. A menudo, después de un trabajo innovador ha sido publicado en una revista académica, el algoritmo y el software construido para desplegarlo no son soportados porque el investigador inicia un nuevo proyecto o se traslada a otra institución. Tradicionalmente, la academia está menos interesada en apoyar y recompensar el trabajo en:
-- Mejorar y ampliar los resultados de investigación/software existentes
-- Promover la interoperabilidad de las salidas/software nuevas y existentes
-- Invertir en usabilidad, reusabilidad y facilidad de uso de salidas/software (nuevo y existente)
-- Co-creación de salidas con usuarios de las primeras etapas del ciclo de vida de la investigación
-- Descubrir activamente nuevas aplicaciones en el mundo real y utilizar casos más allá del campo académico original e invertir en su promoción, adaptación y adopción
+Academic incentives encourage the creation of novel knowledge, such as creating new machine learning algorithms. Often, after ground-breaking work has been published in an academic journal, the algorithm and the software built to deploy it are not supported because the researcher begins a new project or moves to another institution. Traditionally, academia is less interested in supporting and rewarding work on:
+- Improving and extending existing research outputs/software
+- Promoting interoperability of new and existing outputs/software
+- Investing in usability, re-usability and user-friendliness of outputs/software (new and existing)
+- Co-creating outputs with users from the early stages of the research output lifecycle
+- Proactively discovering new real-world applications and use cases beyond the original academic field and investing in their promotion, adaptation and adoption
 
-En otras palabras, la academia premia en gran medida la creación del conocimiento. La inversión en diseminación, interconectividad y usabilidad más allá del campo académico original no suele ser recompensada con los mayores premios académicos. Por lo tanto, en el mundo altamente competitivo de la investigación precoz no se da prioridad a este tipo de trabajo.
+In other words, academia highly prizes knowledge creation. Investment in dissemination, interconnectivity and usability beyond the original academic field is typically not rewarded with the greatest academic prizes. In the highly competitive world of early career research, such work is therefore often not prioritised.
 
 ```{figure} ../../figures/research-application-managers.jpg
 ---
 name: research-application-managers
-alt: Una ilustración que representa a los animales como los administradores de aplicaciones de investigación que se conectan con los usuarios, la aplicación de la investigación en el mundo real y la facilitación de procesos innovadores en la infraestructura de investigación.
+alt: An illustration depicting the animal rams as the research application managers who are connecting with users, applying research in real world and facilitating innovative process in research infrastructure.
 ---
-Los Administradores de Aplicaciones de Investigación trabajan con el equipo de investigación para incrustar las salidas en las organizaciones de usuarios. _La Comunidad Camino Turbo_ & Scriberia. (2020, noviembre). Illustrations from the Turing Way book dashes. Zenodo. http://doi.org/10.5281/zenodo.4323154
+Research Application Managers work with the research team to embed outputs into user organisations. _The Turing Way_ Community, & Scriberia. (2020, November). Illustrations from the Turing Way book dashes. Zenodo. http://doi.org/10.5281/zenodo.4323154
 ```
 
 
-## Una RAM como un rol de conexión en el ecosistema de investigación
+## A RAM as a connecting role in the research ecosystem
 
-Hemos creado el papel de un Administrador de Aplicaciones de Investigación (RAM) en el Instituto Alan Turing con el objetivo de abordar esta brecha de incentivos. Los RAM están específicamente incentivados y recompensados para llevar a cabo el trabajo que tradicionalmente se sienta al margen de un investigador típico de una carrera temprana que se dedica a crear productos como el software de código abierto.
+We have created the role of a Research Application Manager (RAM) at The Alan Turing Institute with the aim of addressing this incentive gap. RAMs are specifically incentivised and rewarded to conduct the work that traditionally sits on the margins for a typical early career researcher engaging in creating outputs such as open source software.
 
-Las RAM se inspiran en parte en el papel de Gerente de Productos en las empresas de tecnología. También tienen similitudes con el papel de un Abogado de Desarrolladores y su trabajo se solapan con el del Gerente de la Comunidad. En algunos casos la carga de trabajo de la RAM puede incluir detalles, a menudo técnicos, entradas, volver a empatar a un Ingeniero de Soluciones o a un Ingeniero de Adelante, quien interactúa directamente con los clientes para asegurar que la herramienta satisface las necesidades del usuario.
+RAMs are in part inspired by the role of a Product Manager in tech firms. They also have similarities with the role of a Developer Advocate and their work overlaps with that of the Community Manager. In some cases the RAM workload may include detailed, often technical, input, resembling a Solutions Engineer or a Forward Deployed Engineer, who interface directly with customers to ensure that the tool meets user needs.
 
-Las medidas de éxito para una RAM:
-- Participar con el equipo de investigación desde el principio en el proyecto para traer la perspectiva de los usuarios potenciales de sus herramientas de software y para co-crear de forma proactiva desde las primeras etapas
-- Abogando por la perspectiva del usuario a lo largo del proceso de desarrollo y priorización de características
-- Identificando a los usuarios clave y al público objetivo
-- Investigando y entendiendo la comunidad de usuarios
-- Participando con la comunidad de usuarios
-- Identificar soluciones de sostenibilidad y financiación en colaboración con el equipo de investigación
-- Promover las herramientas fuera del campo académico del equipo de investigación original
-- Acercar el producto como un "producto" de investigación y llevar un nivel apropiado de "inteligencia de mercado" al equipo académico
-- "Empaquetar" o "volver a empaquetar" la herramienta para mejorar la usabilidad/accesibilidad a diferentes públicos
+The measures of success for a RAM:
+- Engaging with the research team early on in the project to bring the perspective of potential users of their software tools and to proactively co-create from the early stages
+- Advocating for the user perspective throughout the development and feature prioritisation process
+- Identifying the key users and the target audience
+- Researching and understanding the user community
+- Engaging with the user community
+- Identifying sustainability and funding solutions in collaboration with the research team
+- Promoting the tools outside the academic field of the original research team
+- Approaching the output as a research "product" and bringing an appropriate level of "market intelligence" to the academic team
+- "Packaging" or "re-packaging" the tool to improve usability/accessibility to different audiences
 
-Las RAM son una solución principalmente al problema de la brecha de incentivos. Traen una mentalidad de "Team Science" a los equipos de investigación y promueven las mejores prácticas de investigación, una tarea que comparten con el rol de Community Manager.
+RAMs are a solution primarily to the incentive gap problem. They bring a "Team Science" mindset to the research teams and promote research best practices - a task they share with the Community Manager role.
 
-Tanto las RAM como los CMs promueven las mejores prácticas en:
-- Interoperabilidad de las salidas
-- Reproducibilidad de los resultados y resultados de la investigación
-- Equipo de Ciencia / Open Science
-- Ética
-- Co-creación
-- Inclusividad
+Both RAMs and CMs promote best practices in:
+- Interoperability of outputs
+- Reproducibility of research findings and outputs
+- Team Science / Open Science
+- Ethics
+- Co-creation
+- Inclusivity
 
-Los gestores comunitarios se están convirtiendo en un papel establecido en el ecosistema de investigación y en las comunidades de software de código abierto en particular. Esperamos que las RAM tengan una trayectoria igualmente exitosa.
+Community managers are becoming an established role in the research ecosystem and in open source software communities in particular. We hope that RAMs will have a similarly successful trajectory.
 
-Valores clave de RAM: _adaptabilidad, colaboración y legado_
+Key RAM values: _adaptability, collaboration and legacy_
 

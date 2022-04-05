@@ -1,276 +1,276 @@
-crwdns838294:0crwdne838294:0
-# crwdns838296:0crwdne838296:0
+(ch-template-bookdash-index)=
+# Book Dash Main Shared Document
 
-*crwdns838298:0crwdne838298:0 crwdns838300:0crwdne838300:0*
+*This template can be shared via a HackMD page to provide all information centrally for the Book Dash participants. The access permission can be set so that the notes can be read by everyone and edited by signed-in users.*
 
-crwdns838302:0crwdne838302:0
-# crwdns838304:0crwdne838304:0
+```
+# Book Dash, DD - DD Month YYYY - Index
 
-###### crwdns838306:0crwdne838306:0
+###### tags: `bookdash 2021` `may` `event`
 
-crwdns838308:0crwdne838308:0
+==If you are new to HackMD, please see this short guide: https://hackmd.io/@turingway/hackmd-guide==
 
-crwdns838310:0[TOC]crwdne838310:0
+[TOC]
 
-crwdns838312:0:information_source:crwdne838312:0
+:information_source: Pre-event drop-in call, DD Month YYYY
 ---
 
-* crwdns838314:0crwdne838314:0
-* crwdns838316:0crwdne838316:0
-    * crwdns838318:0crwdne838318:0
-    * crwdns838320:0crwdne838320:0
-- **crwdns838322:0crwdne838322:0**
+* Session notes: https://hackmd.io/@turingway/bookdash-may2021-drop-in <--- update this
+* Sessions:
+    * Session 1: 09:00 - 10:00 London time - [see in your time zone](https://arewemeetingyet.com/London/YYYY-MM-DD/HH:MM)
+    * Session 2: 17:00 - 18:00 London time - [see in your time zone](https://arewemeetingyet.com/London/YYYY-MM-DD/HH:MM)
+- **This call has concluded**
 
-crwdns838324:0:hammer_and_wrench:crwdne838324:0
+:hammer_and_wrench: GitHub Introduction Session, DD Month YYYY
 ---
 
-### crwdns838326:0crwdne838326:0
+### For contributors who are new to GitHub - *Open to Public*
 
-crwdns838328:0crwdne838328:0
+On DD Month YYYY, we will host a one-hour GitHub Introduction Session, from 16:00 - 17:00 London time to walk you through the different steps to make contributions on GitHub.
 
-* crwdns838330:0crwdne838330:0
-* crwdns838332:0crwdne838332:0
-* crwdns838334:0crwdne838334:0
+* Agenda: https://hackmd.io/@turingway/bookdash-may2021-github <--- update this
+* Time: 16:00 - 17:00 London time - [see in your time zone](https://arewemeetingyet.com/London/YYYY-MM-DD/HH:MM)
+* Zoom Link: (add link) <--- update this
 
-#### crwdns838336:0crwdne838336:0
+#### Introductory Materials
 
-crwdns838338:0crwdne838338:0
+If you can't attend the GitHub Introduction Sessions, please check the following materials:
 
-- [crwdns838342:0crwdne838342:0](crwdns838340:0crwdne838340:0)
-- [crwdns838346:0crwdne838346:0](crwdns838344:0crwdne838344:0)
-- [crwdns838350:0crwdne838350:0](crwdns838348:0crwdne838348:0)
+- [GitHub for collaboration](https://malvikasharan.github.io/developing_collaborative_document/)
+- [Associated presentation](https://docs.google.com/presentation/d/e/2PACX-1vR-Qu4kYulSMGnnAHH9-OonNiLkaJrsolEecEkt0VD5_3PmKWePmiSQwxK3QHoq5gNsL-MJKowmgsAx/pub?start=false&loop=false&delayms=3000)
+- [Video with demo](https://www.youtube.com/watch?v=QRUvQgKbVZQ)
 
-crwdns838352:0:lower_left_paintbrush:crwdne838352:0
+:lower_left_paintbrush: Illustrations by Scriberia Artist
 ---
 
-- crwdns838354:0crwdne838354:0
-  - crwdns838356:0crwdne838356:0
-  - crwdns838358:0crwdne838358:0
-- crwdns838360:0crwdne838360:0
-- crwdns838362:0crwdne838362:0
+- We will have an artist - Sophie Ong - at the event who you would be able to interact with to help develop illustration relevant to your contribution to The Turing Way
+  - (add dates)  <--- update this
+  - Please use this hackmd to check to see if other projects have booked to work with the artist:
+- Info to work with the artist at this hackmd: https://hackmd.io/@turingway/bookdash-may2021-scriberia  <--- update this
+- See reusable images from previous book dash events: [Zenodo link](https://zenodo.org/record/3332807)
 
-crwdns838364:0:spiral_note_pad:crwdne838364:0
+:spiral_note_pad: Book Dash Main Events, DD Month YYYY <--- update this
 ---
 
-* crwdns838366:0crwdne838366:0
-* crwdns838368:0crwdne838368:0
-    * crwdns838370:0crwdne838370:0
-    * crwdns838372:0crwdne838372:0
-    * crwdns838374:0crwdne838374:0
-    * crwdns838376:0crwdne838376:0
-    * crwdns838378:0crwdne838378:0
-* crwdns838380:0crwdne838380:0
+* Intro to The Turing Way & the Book Dash: [Intro slides](ttps://tinyurl.com/bookdash-may21)  <--- update this
+* Shared notes and agenda (basic schedule for each day are given below):
+    * **Day 1, 17 May**: https://hackmd.io/@turingway/bookdash-may2021-day1  <--- update this
+    * **Day 2, 18 May**: https://hackmd.io/@turingway/bookdash-may2021-day2  <--- update this
+    * **Day 3, 19 May**: https://hackmd.io/@turingway/bookdash-may2021-day3  <--- update this
+    * **Day 4, 20 May**: https://hackmd.io/@turingway/bookdash-may2021-day4  <--- update this
+    * **Day 5, 21 May**: https://hackmd.io/@turingway/bookdash-may2021-day5  <--- update this
+* All notes will be linked here for reference after the event: https://hackmd.io/@turingway/bookdash-may2021  <--- update this
 
-## crwdns838382:0crwdne838382:0
+## Schedule and Instructions for Each Day
 
-**crwdns838384:0crwdne838384:0**
+**All the time slots are provided in London time.**
 
-### crwdns838386:0crwdne838386:0
+### Day 1:  DD Month YYYY <--- update this
 
-crwdns838388:0crwdne838388:0
+Notes: https://hackmd.io/@turingway/bookdash-may2021-day1 <--- update this
 
-#### crwdns838390:0crwdne838390:0
+#### Development & Networking Sessions <--- update this table
 
-| crwdns838392:0crwdne838392:0 | crwdns838394:0crwdne838394:0 | crwdns838396:0crwdne838396:0 | crwdns838398:0crwdne838398:0 |
-| ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- |
-| crwdns838400:0crwdne838400:0 | crwdns838402:0crwdne838402:0 | crwdns838404:0crwdne838404:0 | crwdns838406:0crwdne838406:0 |
-| crwdns838408:0crwdne838408:0 | crwdns838410:0crwdne838410:0 | crwdns838412:0crwdne838412:0 | crwdns838414:0crwdne838414:0 |
-| crwdns838416:0crwdne838416:0 | crwdns838418:0crwdne838418:0 | crwdns838420:0crwdne838420:0 | crwdns838422:0crwdne838422:0 |
-| crwdns838424:0crwdne838424:0 | crwdns838426:0crwdne838426:0 | crwdns838428:0crwdne838428:0 | crwdns838430:0crwdne838430:0 |
+| Time          | Agenda                                                                    | Hosts        | Attendees |
+| ------------- | ------------------------------------------------------------------------- | ------------ | --------- |
+| 08:00 - 10:30 | see notes                                                                 | Talk by name | names     |
+| 11:00 - 12:30 | ==Themed discussion & Networking: Visual Communication & Illustrations==± | name         | names     |
+| 14:00 - 16:30 | see notes                                                                 | No Talk      | names     |
+| 17:00 - 19:30 | see notes                                                                 | Talk by name | names     |
 
-crwdns838432:0crwdne838432:0
+±Theme: **TBA**
 
-### crwdns838434:0crwdne838434:0
+### Day 2: DD Month YYYY <--- update this
 
-crwdns838436:0crwdne838436:0
+Notes: https://hackmd.io/@turingway/bookdash-may2021-day2 <--- update this
 
-#### crwdns838438:0crwdne838438:0
+#### Development & Networking Sessions <--- update this table
 
-| crwdns838440:0crwdne838440:0 | crwdns838442:0crwdne838442:0 | crwdns838444:0crwdne838444:0 | crwdns838446:0crwdne838446:0 |
-| ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- |
-| crwdns838448:0crwdne838448:0 | crwdns838450:0crwdne838450:0 | crwdns838452:0crwdne838452:0 | crwdns838454:0crwdne838454:0 |
-| crwdns838456:0crwdne838456:0 | crwdns838458:0crwdne838458:0 | crwdns838460:0crwdne838460:0 | crwdns838462:0crwdne838462:0 |
-| crwdns838464:0crwdne838464:0 | crwdns838466:0crwdne838466:0 | crwdns838468:0crwdne838468:0 | crwdns838470:0crwdne838470:0 |
-| crwdns838472:0crwdne838472:0 | crwdns838474:0crwdne838474:0 | crwdns838476:0crwdne838476:0 | crwdns838478:0crwdne838478:0 |
+| Time          | Agenda                                                             | Hosts | Attendees |
+| ------------- | ------------------------------------------------------------------ | ----- | --------- |
+| 08:00 - 10:30 | see notes                                                          | name  | names     |
+| 11:00 - 13:30 | see notes                                                          | name  | names     |
+| 14:00 - 15:30 | ==Themed discussion & Networking: Accessibility & communication==± | name  | names     |
+| 17:00 - 19:30 | see notes                                                          | name  | names     |
 
-crwdns838480:0crwdne838480:0
+±Theme: **TBA**
 
-### crwdns838482:0crwdne838482:0
+### Day 3: DD Month YYYY <--- update this
 
-crwdns838484:0crwdne838484:0
+Notes: https://hackmd.io/@turingway/bookdash-may2021-day3 <--- update this
 
-#### crwdns838486:0crwdne838486:0
+#### Development & Networking Sessions <--- update this table
 
-| crwdns838488:0crwdne838488:0 | crwdns838490:0crwdne838490:0 | crwdns838492:0crwdne838492:0 | crwdns838494:0crwdne838494:0 |
-| ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- |
-| crwdns838496:0crwdne838496:0 | crwdns838498:0crwdne838498:0 | crwdns838500:0crwdne838500:0 | crwdns838502:0crwdne838502:0 |
-| crwdns838504:0crwdne838504:0 | crwdns838506:0crwdne838506:0 | crwdns838508:0crwdne838508:0 | crwdns838510:0crwdne838510:0 |
-| crwdns838512:0crwdne838512:0 | crwdns838514:0crwdne838514:0 | crwdns838516:0crwdne838516:0 | crwdns838518:0crwdne838518:0 |
-| crwdns838520:0crwdne838520:0 | crwdns838522:0crwdne838522:0 | crwdns838524:0crwdne838524:0 | crwdns838526:0crwdne838526:0 |
+| Time          | Agenda                                                | Hosts | Attendees |
+| ------------- | ----------------------------------------------------- | ----- | --------- |
+| 08:00 - 10:30 | see notes                                             | name  | names     |
+| 11:00 - 12:30 | =="Show & Tell" Social Meal: Theme==± (details below) | name  | names     |
+| 14:00 - 16:30 | see notes                                             | name  | names     |
+| 17:00 - 19:30 | see notes                                             | name  | names     |
 
-crwdns838528:0crwdne838528:0
+± **Show & Tell Social Meal: 11:00 - 13:30**
 
-crwdns838530:0crwdne838530:0
+We will use take a mid-sprint break and get to know each other through a "show and tell" hosted breakfast/lunch/dinner session (whichever meal is most appropriate for where you are).
 
-**crwdns838532:0crwdne838532:0**
+**Order yourself a drink/meal/groceries (budget £25)**
 
-- crwdns838534:0crwdne838534:0
-- crwdns838536:0crwdne838536:0
-- crwdns838538:0crwdne838538:0
-- crwdns838540:0crwdne838540:0 crwdns838542:0crwdne838542:0
+- We hope that you will enjoy a little treat on us.
+- We will reimburse up to £25 for you to have a meal to eat with us.
+- You are welcome to take this opportunity to order your favorite meal from a local takeaway, or purchase ingredients/groceries to cook at home for this social call.
+- We can reimburse only for food or drink (no hard liquor/alcohol). Please check with Malvika if you have any question.
 
-*crwdns838544:0crwdne838544:0*
+*Show and tell activity:*
 
-- crwdns838546:0crwdne838546:0
-- crwdns838548:0crwdne838548:0
-- crwdns838550:0crwdne838550:0 crwdns838552:0crwdne838552:0 crwdns838554:0crwdne838554:0
+- Bring along something that you can show and tell others about a favourite hobby, side project, or work project (other than The Turing Way).
+- We will informally go around the room and have a chance to hear from you, exchange thoughts and ideas beyond our Book Dash plans.
+- You are not required to speak. We will leave the topic entirely up to you to decide. We look forward to learning with you.
 
-### crwdns838556:0crwdne838556:0
+### Day 4: DD Month YYYY <--- update this
 
-crwdns838558:0crwdne838558:0
+Notes: https://hackmd.io/@turingway/bookdash-may2021-day4 <--- update this
 
-#### crwdns838560:0crwdne838560:0
+#### Development & Networking Sessions <--- update this table
 
-| crwdns838562:0crwdne838562:0 | crwdns838564:0crwdne838564:0 | crwdns838566:0crwdne838566:0 | crwdns838568:0crwdne838568:0 |
-| ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- |
-| crwdns838570:0crwdne838570:0 | crwdns838572:0crwdne838572:0 | crwdns838574:0crwdne838574:0 | crwdns838576:0crwdne838576:0 |
-| crwdns838578:0crwdne838578:0 | crwdns838580:0crwdne838580:0 | crwdns838582:0crwdne838582:0 | crwdns838584:0crwdne838584:0 |
-| crwdns838586:0crwdne838586:0 | crwdns838588:0crwdne838588:0 | crwdns838590:0crwdne838590:0 | crwdns838592:0crwdne838592:0 |
-| crwdns838594:0crwdne838594:0 | crwdns838596:0crwdne838596:0 | crwdns838598:0crwdne838598:0 | crwdns838600:0crwdne838600:0 |
+| Time          | Agenda                                                    | Hosts | Attendees |
+| ------------- | --------------------------------------------------------- | ----- | --------- |
+| 08:00 - 10:30 | see notes                                                 | name  | names     |
+| 11:00 - 13:30 | see notes                                                 | name  | names     |
+| 14:00 - 15:30 | ==Themed discussion & Networking: Activism in Research==± | name  | names     |
+| 17:00 - 19:30 | see notes                                                 | name  | names     |
 
-crwdns838602:0crwdne838602:0
+±Theme: **TBA**
 
-### crwdns838604:0crwdne838604:0
+### Day 5: DD Month YYYY <--- update this
 
-*crwdns838606:0crwdne838606:0 crwdns838608:0crwdne838608:0*
+*This is a community-share out day with 2 optional development sessions. Please note that the Zoom link for today is different from the rest of the days as a few sessions are open to public.*
 
-#### crwdns838610:0crwdne838610:0
-crwdns838612:0crwdne838612:0
+#### Development Sessions (optional)
+Notes: https://hackmd.io/@turingway/bookdash-may2021-day5 <--- update this
 
-| crwdns838614:0crwdne838614:0 | crwdns838616:0crwdne838616:0 | crwdns838618:0crwdne838618:0 | crwdns838620:0crwdne838620:0 |
-| ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- |
-| crwdns838622:0crwdne838622:0 | crwdns838624:0crwdne838624:0 | crwdns838626:0crwdne838626:0 | crwdns838628:0crwdne838628:0 |
-| crwdns838630:0crwdne838630:0 | crwdns838632:0crwdne838632:0 | crwdns838634:0crwdne838634:0 | crwdns838636:0crwdne838636:0 |
-| crwdns838638:0crwdne838638:0 | crwdns838640:0crwdne838640:0 | crwdns838642:0crwdne838642:0 | crwdns838644:0crwdne838644:0 |
+| Time          | Agenda              | Hosts | Attendees |
+| ------------- | ------------------- | ----- | --------- |
+| 11:00 - 13:00 | ==Open to public==± | names | names     |
+| 14:00 - 16:00 | see notes           | names | names     |
+| 17:00 - 19:00 | ==Open to public==± | names | names     |
 
-crwdns838646:0crwdne838646:0
+± ***Community Share-out & Contributor Celebration - ***Open to Public******
 
-crwdns838648:0crwdne838648:0 crwdns838650:0crwdne838650:0 crwdns838652:0crwdne838652:0
+These sessions are open to public. Feel free to invite your colleagues and friends who would like to connect with The Turing Way community. In this session, all the contributors including the Book Dash attendees will have a chance to share their work with everyone through short demo/presentation.
 
-*crwdns838654:0crwdne838654:0*
+*Please note that public calls will have different Zoom links than development sessions for the Book Dash attendees.*
 
-**crwdns838656:0crwdne838656:0**
+**Order yourself a drink/snack (budget £25)**
 
-- crwdns838658:0crwdne838658:0
-- crwdns838660:0crwdne838660:0 crwdns838662:0crwdne838662:0
-- crwdns838664:0crwdne838664:0 crwdns838666:0crwdne838666:0
+- We hope that you will enjoy a little treat on us to celebrate such a productive and exciting week.
+- We will reimburse up to £25 for you to have a drink (no hard alcohol) and/or snack of your choice to eat with us. We encourage you to purchase something that you would not usually have and that will bring you joy.
+- We can reimburse only for food or drink (no hard liquor/alcohol). Please check with Malvika if you have any question.
 
-crwdns838668:0:heavy_plus_sign:crwdnd838668:0:arrow_up_small:crwdne838668:0
+:heavy_plus_sign::arrow_up_small: Pluses and deltas - Final Feedback Document <--- update links
 ---
-crwdns838670:0crwdne838670:0
+**IMPORTANT:** Please take a few minutes to **share your highlights** as a comment under issue [#1973](https://github.com/alan-turing-institute/the-turing-way/issues/1937) and **provide feedback** (pluses and delta: https://hackmd.io/@turingway/bookdash-may2021-feedback) from the event.
 
-_crwdns838672:0crwdne838672:0_
+_These will be extremely valuable for us to explain to our funders why this event was valuable, and to learn about your experience, what you enjoyed and how we can improve future events._
 
-crwdns838674:0crwdne838674:0
+Any day-to-day feedback during the event can be directly shared in the main event document.
 
-crwdns838676:0:books:crwdne838676:0
----
-
-### crwdns838678:0crwdne838678:0
-
-- crwdns838680:0crwdne838680:0
-- crwdns838682:0crwdne838682:0
-
-### crwdns838684:0crwdne838684:0
-
-- crwdns838686:0crwdne838686:0
-    - crwdns838688:0crwdne838688:0 crwdns838690:0crwdne838690:0
-- crwdns838692:0crwdne838692:0
-- crwdns838694:0crwdne838694:0
-
-### crwdns838696:0crwdne838696:0
-
-- crwdns838698:0crwdne838698:0
-    - [crwdns838702:0crwdne838702:0](crwdns838700:0crwdne838700:0)
-
-### crwdns838704:0crwdne838704:0
-
-- crwdns838706:0crwdne838706:0
-- crwdns838708:0crwdne838708:0
-- crwdns838710:0crwdne838710:0
-    - [crwdns838714:0crwdne838714:0](crwdns838712:0%20crwdnd838712:0%20ocrwdne838712:0)
-- crwdns838716:0crwdne838716:0
-- crwdns838718:0crwdne838718:0
-- [crwdns838722:0crwdne838722:0](crwdns838720:0crwdne838720:0)
-
-## crwdns838724:0:gift:crwdne838724:0
-
-crwdns838726:0:sparkles:crwdne838726:0
-
-crwdns838728:0crwdne838728:0 crwdns838730:0crwdne838730:0
-
-### crwdns838732:0crwdne838732:0
-
-crwdns838734:0crwdne838734:0
-1. crwdns838736:0crwdne838736:0
-    * crwdns838738:0crwdne838738:0
-    * crwdns838740:0crwdne838740:0
-2. crwdns838742:0crwdne838742:0
-3. crwdns838744:0crwdne838744:0
-4. crwdns838746:0crwdne838746:0
-    * crwdns838748:0[WIP]crwdne838748:0
-    * crwdns838750:0crwdne838750:0
-    * crwdns838752:0crwdne838752:0
-    * crwdns838754:0crwdne838754:0
-    * crwdns838756:0[WIP]crwdne838756:0 crwdns838758:0:tada:crwdne838758:0
-
-**crwdns838760:0crwdne838760:0**
-
-* crwdns838762:0crwdne838762:0
-* crwdns838764:0crwdne838764:0
-* crwdns838766:0crwdne838766:0
-* crwdns838768:0crwdne838768:0
-* crwdns838770:0crwdne838770:0
-    * crwdns838772:0crwdne838772:0
-    * crwdns838774:0crwdne838774:0
-* crwdns838776:0crwdne838776:0
-* crwdns838778:0[WIP]crwdne838778:0
-* crwdns838780:0crwdne838780:0
-* crwdns838782:0crwdne838782:0
-* crwdns838784:0crwdne838784:0
-* crwdns838786:0crwdne838786:0
-* crwdns838788:0crwdne838788:0
-
-#### crwdns838790:0:bell:crwdne838790:0
-
-crwdns838792:0crwdne838792:0
-
-#### crwdns838794:0:no_bell:crwdne838794:0
-
-crwdns838796:0:scream_cat:crwdne838796:0
-
-crwdns838798:0crwdne838798:0
-
-crwdns838800:0:white_check_mark:crwdne838800:0
-
-crwdns838802:0crwdne838802:0
-
-crwdns838804:0crwdne838804:0
-
-crwdns838806:0:moneybag:crwdne838806:0
+:books: _The Turing Way_ links and resources
 ---
 
-**crwdns838808:0crwdne838808:0**
+### Participation guidelines
 
-**crwdns838810:0crwdne838810:0**
+- Code of Conduct: https://the-turing-way.netlify.app/community-handbook/coc.html
+- Contribution guideline: https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md
 
--   crwdns838812:0crwdne838812:0
--   crwdns838814:0crwdne838814:0
+### Communication channels
 
-**crwdns838816:0crwdne838816:0**
+- Slack Channel: [Invitation link](https://join.slack.com/t/theturingway/shared_invite/zt-fn608gvb-h_ZSpoA29cCdUwR~TIqpBw)
+    - New to Slack? [See this quick start guide](https://hackmd.io/@turingway/slack-guide)
+- Mailing list: https://tinyletter.com/TuringWay/
+- Twitter account: https://twitter.com/turingway
 
--   crwdns838818:0crwdne838818:0
--   crwdns838820:0crwdne838820:0
--   crwdns838822:0crwdne838822:0
--   crwdns838824:0crwdne838824:0
--   crwdns838826:0crwdne838826:0
+### Acknowledging your contributions to _The Turing Way_
+
+- Contributors Record: https://the-turing-way.netlify.app/afterword/contributors-record.html
+    - [See how we acknowledge our contributors](https://the-turing-way.netlify.app/community-handbook/acknowledgement.html)
+
+### GitHub Resources
+
+- GitHub repository: https://github.com/alan-turing-institute/the-turing-way
+- Online Book: https://the-turing-way.netlify.app/welcome
+- Impact story: https://www.turing.ac.uk/research/impact-stories/changing-culture-data-science
+    - [Short summary](https://www.turing.ac.uk/sites/default/files/inline-images/Turing%20Way%20oner_0.jpg)
+- Open issues: https://github.com/alan-turing-institute/the-turing-way/issues
+- Open Pull Requests: https://github.com/alan-turing-institute/the-turing-way/pulls
+- [Reports from the previous Book Dashes](https://github.com/alan-turing-institute/the-turing-way/tree/main/workshops/book-dash)
+
+## :gift: Your contribution to the project
+
+**Please read and follow our project [Contributing Guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md)!** :sparkles:
+
+If you find them confusing, difficult to follow or think that information needs to be added, please let us know! This will help us improve the contributing experience for everyone going forward.
+
+### Managing your contributions to the GitHub repository
+
+The tl;dr version for easy reference during dashing:
+1. Comment on an [existing issue](https://github.com/alan-turing-institute/the-turing-way/issues) or open a new issue referencing your addition.
+    * The [issue template](https://github.com/alan-turing-institute/the-turing-way/blob/main/ISSUE_TEMPLATE.md) will automatically be rendered in the comment section of the new issue page, so all you need to do is edit the placeholder sentences.
+    * Add the `book-dash-<location>` label in the column on the right.
+2. [Fork](https://help.github.com/articles/fork-a-repo) the Turing Way repository to your GitHub profile.
+3. Make your changes!
+4. Submit a [pull request](https://help.github.com/articles/creating-a-pull-request).
+    * Open a pull request as early in your contributing process as possible and add the label [WIP] to the title to designate "work in progress".
+    * The [pull request template](https://github.com/alan-turing-institute/the-turing-way/blob/main/.github/PULL_REQUEST_TEMPLATE.md) will automatically be rendered in the comment section of the new pull request page, so all you need to do is edit the placeholder sentences.
+    * Add the `book-dash-<location>` label in the column on the right.
+    * As you continue to make changes they will automatically be included in your existing pull request.
+    * Change [WIP] to [Ready for review] in the pull request title when you are happy for your contribution to be reviewed and merged. :tada:
+
+**What types of contributions can you make?**
+
+* Reviewers for your Book Dash application have suggested a few specific topics for each of you
+* You can also collaborate with others or start slowly by checking out the list of [open issues](https://github.com/alan-turing-institute/the-turing-way/issues)
+* Proofread [existing chapters](https://the-turing-way.netlify.com) (check for typos, grammar, and links)
+* Add further information to an existing chapter
+* Suggest topics for new chapters (particularly if you can write them!)
+    * A chapter can be minimum 3 paragraphs in length - what can you write 3 paragraphs on?
+    * What skills or tools do you wish you had been taught at the start of your research career?
+* Review `[Ready to review]` [pull requests](https://github.com/alan-turing-institute/the-turing-way/pulls)
+* Contribute to discussion in `[WIP]` pull requests and issues
+* Incorporate case studies into the book
+* Checklists for specific skill or recommendation
+* Restructuring the chapter sections (like the Reproducibility chapter)
+* Creative, out of the box ideas!
+* Let us know if you are struggling with contributing in any way so that we can improve our Contributing Guidelines!
+
+#### :bell: GitHub Notifications
+
+Click [here](https://github.com/alan-turing-institute/the-turing-way/invitations) to accept your invitation to have write access to *The Turing Way* - this gives you agency to merge your own pull requests (once approved!), review other pull requests, and add labels to issues and pull requests.
+
+#### :no_bell: Turn off these notifications
+
+You're going to start getting lots of notifications from The Turing Way GitHub repository :scream_cat:
+
+You can control these at the https://github.com/settings/notifications page.
+
+We recommend leaving the "Participating" options checked :white_check_mark: and un-checking the "Watching" boxes so you don't get a million different notifications.
+
+Here's a useful help page: https://help.github.com/en/articles/about-notifications
+
+Octobox is a cool tool for managing your GitHub notifications: https://octobox.io
+
+:moneybag: Support grant and subsistence cost: Reimbursement guidelines
+---
+
+**Book Dash Expenses Guidance**
+
+**What is covered?**
+
+-   Food & non-alcoholic drinks up to £50 (you can use this towards groceries to sustain your participation during the book dash)
+-   Accessibility items or costs up to £75
+
+**Requirements**
+
+-   Expenses will be reimbursed after the Book Dash
+-   Participants will need to provide receipts for all expenses when they submit for reimbursement
+-   All participants will need to sign and return the policy form and the expense claim form shared via an email
+-   Participants should complete the form in the original currency of the expenses (no need to covert to GBP)
+-   Forms and receipts **must be submitted by Friday 4 June to [tps@turing.ac.uk](mailto:tps@turing.ac.uk), copying in [msharan@turing.ac.uk](mailto:msharan@turing.ac.uk)**

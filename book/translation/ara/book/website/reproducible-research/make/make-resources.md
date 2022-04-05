@@ -1,51 +1,51 @@
-crwdns846800:0crwdne846800:0
-# crwdns846802:0crwdne846802:0
+(rr-make-resources)=
+# Resources for "Make"
 
-crwdns846804:0crwdne846804:0
-## crwdns846806:0crwdne846806:0
+(rr-make-resources-manual)=
+## Manual
 
-- crwdns846808:0crwdne846808:0
+- [The Official Make Reference manual](https://www.gnu.org/software/make/manual/make.html).
 
-crwdns846810:0crwdne846810:0
-## crwdns846812:0crwdne846812:0
+(rr-make-resources-discussions)=
+## Discussions
 
-- crwdns846814:0crwdne846814:0
+- [Discussion on Make on HackerNews](https://news.ycombinator.com/item?id=15041986).
 
-- crwdns846816:0crwdne846816:0 crwdns846818:0crwdne846818:0 crwdns846820:0crwdne846820:0
+- [Recursive Make Considered Harmful](http://aegis.sourceforge.net/auug97.pdf). This is a well-known paper on why you shouldn't use nested makefiles. To summarise: if you do this Make can't see the entire DAG and that leads to problems.
 
-- crwdns846822:0crwdne846822:0
+- [Non-Recursive Make Considered Harmful](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/03/hadrian.pdf): This is a research paper describing the failings of Make for large and complex builds.
 
-crwdns846824:0crwdne846824:0
-## crwdns846826:0crwdne846826:0
+(rr-make-resources-blogs)=
+## Blogs
 
-crwdns846828:0crwdne846828:0 crwdns846830:0crwdne846830:0
+Of course we are not the first to suggest the use of Make for reproducibility! The blog posts cited below were found after the above tutorial was written, but can add further information and examples.
 
-- crwdns846832:0crwdne846832:0 crwdns846834:0crwdne846834:0
+- [Reproducibility is hard](https://kbroman.wordpress.com/tag/reproducible-research/). Discusses making a research project reproducible using Make.
 
-- crwdns846836:0crwdne846836:0 crwdns846838:0crwdne846838:0
+- [GNU Make for Reproducible Data Analysis](http://zmjones.com/make/). Argues for using Make for reproducible analysis in a similar vein as we do above.
 
-- crwdns846840:0crwdne846840:0 crwdns846842:0crwdne846842:0
+- [Reproducible Bioinformatics Pipelines using Make](http://byronjsmith.com/make-bml/). A quite extensive tutorial on using Make for data analysis.
 
-- crwdns846844:0crwdne846844:0 crwdns846846:0crwdne846846:0
+- [Automatic Data-analysis Pipelines](http://stat545.com/automation04_make-activity.html). A similar tutorial that uses R for the analysis.
 
-- crwdns846848:0crwdne846848:0 crwdns846850:0crwdne846850:0
+- [Writing a reproducible Paper](http://handbook.datalad.org/en/latest/usecases/reproducible-paper.html#automation-with-existing-tools). A similar tutorial with Python using variables to populate tables in the manuscript.
 
-crwdns846852:0crwdne846852:0
-## crwdns846854:0crwdne846854:0
+(rr-make-resources-tools)=
+## Tools
 
-- crwdns846856:0crwdne846856:0
+- Plot the DAG of the Makefile with [makefile2graph](https://github.com/lindenb/makefile2graph).
 
-crwdns846858:0crwdne846858:0
-## crwdns846860:0crwdne846860:0
+(rr-make-resources-alternatives)=
+## Alternatives to Make
 
-crwdns846862:0crwdne846862:0 crwdns846864:0crwdne846864:0
+There are [many alternatives to Make](https://en.wikipedia.org/wiki/List_of_build_automation_software). Below are some that caught our eye and that might be worth a look.
 
-- crwdns846866:0crwdne846866:0 crwdns846868:0crwdne846868:0 crwdns846870:0crwdne846870:0
+- [SnakeMake](https://snakemake.readthedocs.io/en/stable/). A Python3-based alternative to Make. Snakemake supports multiple wildcards in filenames, supports Python code in rules, and can run workflows on workstations, clusters, the grid, and in the cloud without modification.
 
-- crwdns846872:0crwdne846872:0 crwdns846874:0crwdne846874:0 crwdns846876:0crwdne846876:0 crwdns846878:0crwdne846878:0
+- [Tup](http://gittup.org/tup/index.html). A fast build system that processes prerequisites bottom-up instead of Make's top-down. The speed looks impressive and the paper describing it is interesting, but for small projects Make's speed will not be a bottleneck. The Tupfile syntax is not compatible with that of Makefiles.
 
-- crwdns846880:0crwdne846880:0 crwdns846882:0crwdne846882:0
+- [Bazel](https://www.bazel.build). An open-source version of Google's Blaze build system.
 
-- crwdns846884:0crwdne846884:0 crwdns846886:0crwdne846886:0
+- [Buck](https://buckbuild.com/). Facebook's build system.
 
 

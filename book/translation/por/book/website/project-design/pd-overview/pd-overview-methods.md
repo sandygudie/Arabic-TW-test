@@ -1,53 +1,53 @@
 (pd-overview-methods)=
-# Métodos de Reprodução
+# Reproducibility Methods
 
-Projetar um projeto começa definindo a sua questão de pesquisa e a metodologia que será usada para responder a essa questão. Ao pensar na metodologia é necessário para pensar em como fazer a sua pesquisa {ref}`abrir<rr-open>` e {ref}`reprodutível<rr-overview>`:
-- Como você vai coletar os dados.
-- Que análise será utilizada.
-- Que instrumentos e infra-estruturas são necessários.
+Designing a project starts by defining your research question and the methodology that will be used to answer this question. When thinking about the methodology is necessary to think about how to make your research {ref}`open<rr-open>` and {ref}`reproducible<rr-overview>`:
+- How you are going to collect the data.
+- What analysis will be used.
+- Which tools and infrastructure are needed.
 
 (pd-overview-methods-license)=
-## Escolha uma licença
+## Choose a License
 
-Obter uma licença é um passo crucial para a pesquisa aberta. A investigação não tem de ser realizada para ser útil para os outros. Ter uma licença é a maneira de comunicar como você deseja que sua pesquisa seja usada e compartilhada.
+Getting a license is a crucial step in open research. Research does not have to be completed to be useful to others. Having a license is the way to communicate how do you want your research to be used and shared.
 
-Existem diferentes tipos de licenças, dependendo do tipo de projeto e das preferências para reutilização e compartilhamento. O site [escolher osealicense](https://choosealicense.com/) tem um bom mecanismo para ajudar você a escolher uma licença.
+There are different types of licenses depending on the type of project and preferences for re-use and sharing. The [choosealicense](https://choosealicense.com/) website has a good mechanism to help you pick a license.
 
-Para saber mais sobre como adicionar uma licença ao seu projeto, leia o {ref}`Licenciamento de<rr-licensing>` capítulo no Guia para Pesquisa Reprodutiva.
+To learn more about how to add a license to your project, read the {ref}`Licensing<rr-licensing>` chapter in the Guide for Reproducible Research.
 
-(pd-overview-planeting-dmp)=
-## Plano de gerenciamento de dados
+(pd-overview-planning-dmp)=
+## Data Management Plan
 
-Os dados recolhidos num projecto de investigação têm uma duração de vida superior à pesquisa que os cria. Por conseguinte, é necessário reflectir sobre a forma como os dados serão utilizados, arquivados e partilhados. Criar um Plano de Gerenciamento de Dados (DMP) é uma maneira de tomar decisões importantes sobre como gerenciar seus dados, fornecendo a outros informações sobre eles.
+The data collected in a research project have a longer lifespan than the research that creates it. Therefore, is necessary to consider how the data will be used, archived and shared. Creating a Data Management Plan (DMP) is a way to make important decisions about how to manage your data while providing others with information about it.
 
-Leia o capítulo de {ref}`DMP<rr-rdm-dmp>` Para aprender sobre o que deve ser incluído em um Plano de Gerenciamento de Dados. Informações abrangentes sobre o gerenciamento de dados está disponível no capítulo {ref}`Pesquisar Gerenciamento de Dados<rr-rdm>`.
+Read the chapter on {ref}`DMP<rr-rdm-dmp>` To learn about what should be included in a Data Management Plan. Comprehensive information on data management is available in the chapter {ref}`Research Data Management<rr-rdm>`.
 
 (pd-overview-methods-comprepro)=
-## Reprodução computacional
+## Computational Reproducibility
 
-Pensar sobre qual software, ferramentas e plataformas usar irá afetar muito a forma como você analisa e processa os dados assim como de como você compartilha seus resultados.
+Thinking about which software, tools and platforms to use will greatly affect how you analyse and process data, as well as how you share your results.
 
-A ideia é facilitar os outros, e você mesmo, recriando o processo de configuração necessário para reproduzir a sua pesquisa. Algumas ferramentas que podem ser usadas para ativar estas são as seguintes:
-- **Gerentes de dependências**: essa mantém as dependências atualizadas e certifique-se de que a mesma versão das dependências usadas no ambiente de desenvolvimento são usadas na reprodução de um resultado.
-- **Contêineres**: são uma maneira de criar ambientes que são isolados de outras aplicações.
-- **Notebooks**: um ambiente on-line útil onde você pode executar seus scripts e facilmente adicionar notas e informações adicionais. A vantagem adicionada é que você não precisará instalar nada.
+The idea is to facilitate others, and yourself, recreating the set-up process necessary to reproduce your research. Some tools that can be used to enable these are the following:
+- **Dependency managers**: these keep dependencies updated and make sure the same version of dependencies you used in the development environment are used when reproducing a result.
+- **Containers**: are a way to create environments that are isolated from other applications.
+- **Notebooks**: a useful online environment where you can execute your scripts, and easily add notes and additional information. The added advantage is that you won't need to install anything.
 
-Para aprender mais sobre como criar um ambiente reprodutível, o capítulo sobre {ref}`Ambientes Reproduíveis<rr-renv>` é um bom lugar para começar.
+To learn more about how to create a reproducible environment, the chapter on {ref}`Reproducible Environments<rr-renv>` is a good place to start.
 
 (pd-overview-methods-docs)=
-## Documentando o Design do seu Estudo
+## Documenting the Design of your Study
 
-Após você decidir como coletar seus dados, analisá-los e quais ferramentas usar, uma boa maneira de documentar estas decisões é escrevendo um relatório registado.
+After you have decided how to collect your data, analyze it and which tools to use, a good way to document these decisions is by writing a Registered Report.
 
-Um relatório registado destaca a importância da questão da investigação e dos métodos que serão utilizados. São revistas por pares antes da pesquisa, passando o foco da revisão dos resultados para a substância dos métodos de investigação.
+A Registered Report highlights the importance of the research question and the methods that will be used. They are peer-reviewed before the research, switching the focus of the review from the results to the substance of the research methods.
 
-(pd-overview-planeting-help)=
-## Colaborando e pedindo ajuda
+(pd-overview-planning-help)=
+## Collaborating and Asking for Help
 
-Você não precisa trabalhar sozinho. Ter outras pessoas colaborando com seu projeto é a melhor maneira de melhorar a reprodutibilidade e a qualidade do seu trabalho.
+You don't have to work alone. Having others collaborate with your project is the best way to improve the reproducibility and quality of your work.
 
-Se não souber por onde começar, um bom lugar seria o {ref}`Guia para Comunicação<cm>` e {ref}`Guia de Colaboração<cl>`.
+If you don't know where to start, a good place would be the {ref}`Guide for Communication<cm>` and the {ref}`Guide for Collaboration<cl>`.
 
-## Referência
+## Reference
 
-Turkyilmaz-van der Velden, Y., Dintzner, N., Teperek, M., "Reproducibilidade começa de Você Hoje." Padrões, vol. 1, no. 6, 11 de setembro de 2020, p. 100099, doi:10.1016/j.patter.2020.100099. [Leia online em Ciência Direta](https://www.sciencedirect.com/science/article/pii/S2666389920301331)
+Turkyilmaz-van der Velden, Y., Dintzner, N., Teperek, M., "Reproducibility Starts from You Today." Patterns, vol. 1, no. 6, 11 Sept. 2020, p. 100099, doi:10.1016/j.patter.2020.100099. [Read Online on Science Direct](https://www.sciencedirect.com/science/article/pii/S2666389920301331)

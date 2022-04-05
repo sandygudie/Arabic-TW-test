@@ -1,72 +1,72 @@
-(Pesquisa rr-aberta)=
-# Abrir Acadêmico
+(rr-open-scholarship)=
+# Open Scholarship
 
-Pesquisa aberta e seus subcomponentes cabem sob o guarda-chuva de um conceito mais amplo - bolsa de estudos aberta [{term}`def<Open Scholarship>`].
+Open research and its subcomponents fit under the umbrella of a broader concept - open scholarship [{term}`def<Open Scholarship>`].
 
 ```{figure} ../../figures/open-umbrella.png
 ---
-altura: 500px
-de nome: um guarda-chuva aberto
-alt: Uma descrição da Escola Aberta como um guarda-chuva com outros elementos de Pesquisa Aberta abaixo dele.
+height: 500px
+name: open-umbrella
+alt: A depiction of Open Scholarship as an umbrella with other elements of Open Research beneath it.
 ---
 ```
 
 (rr-open-scholarship-resources)=
-## Recursos educacionais Abertos
+## Open Educational Resources
 
-Recursos educacionais abertos (OERs) [{term}`def<Open Educational Resources>`] são materiais de ensino e aprendizagem que podem ser livremente utilizados e reutilizados para aprendizagem ou ensino, sem nenhum custo, e sem precisar pedir permissão. Exemplos são cursos, incluindo cursos abertos Massivos (MOOC), palestras, materiais de ensino, recomendações e vários outros recursos. REA estão disponíveis em muitos formatos diferentes compatíveis com o uso online, como é óbvio, texto, imagens, áudio e vídeo. Qualquer pessoa com acesso à Internet pode acessar e usar REA; o acesso não depende da localização ou da pertença a uma determinada instituição.
+Open educational resources (OERs) [{term}`def<Open Educational Resources>`] are teaching and learning materials that can be freely used and reused for learning or teaching at no cost, and without needing to ask permission. Examples are courses, including Massive Online Open Courses (MOOCs), lectures, teaching materials, assignments, and various other resources. OERs are available in many different formats compatible with online usage, most obviously text, images, audio, and video. Anyone with internet access can access and use OERs; access is not dependent on location or membership of a particular institution.
 
-Ao contrário dos recursos protegidos por direitos autorais, as REA foram criadas por um indivíduo ou por uma organização que opta por manter alguns, se é que houve, direitos de propriedade. Em alguns casos, isso significa que qualquer um pode baixar um recurso e compartilhá-lo com colegas e alunos. Noutros casos, isto pode ir mais longe e permitir que as pessoas editem recursos e depois repostá-los como um trabalho remisto. Como você sabe suas opções? REA geralmente possuem uma licença Creative Commons ou outra permissão para informar como o material pode ser usado, reutilizado, adaptado e compartilhado.
+Unlike copyrighted resources, OERs have been authored or created by an individual or organization that chooses to retain few, if any, ownership rights. In some cases, that means anyone can download a resource and share it with colleagues and students. In other cases, this may go further and enable people to edit resources and then re-post them as a remixed work. How do you know your options? OERs often have a Creative Commons licence or other permission to let you know how the material may be used, reused, adapted, and shared.
 
-REA totalmente aberta está em conformidade com os 5 R:
+Fully open OERs comply with the 5 Rs:
 
-- _Manter_: o direito de fazer, possuir e controlar cópias do conteúdo.
-- _Reutilizar_: o direito de usar o conteúdo em uma ampla gama de maneiras (por exemplo, em uma aula, em um grupo de estudos, em um site, em um vídeo).
-- _Revisar_: o direito de adaptar, ajustar, modificar ou alterar o conteúdo em si (por exemplo, traduzir o conteúdo para outro idioma).
-- _Remixe_: o direito de combinar o conteúdo revisado ou original com outro conteúdo aberto para criar algo novo (por exemplo, incorpore o conteúdo em um mashup).
-- _Redistriribuir_: o direito de compartilhar cópias do conteúdo original suas revisões, ou seus remixes com outras pessoas (por exemplo, dar uma cópia do conteúdo para um amigo).
+- _Retain_: the right to make, own, and control copies of the content.
+- _Reuse_: the right to use the content in a wide range of ways (for example, in a class, in a study group, on a website, in a video).
+- _Revise_: the right to adapt, adjust, modify, or alter the content itself (for example, translate the content into another language).
+- _Remix_: the right to combine the original or revised content with other open content to create something new (for example, incorporate the content into a mashup).
+- _Redistribute_: the right to share copies of the original content, your revisions, or your remixes with others (for example, give a copy of the content to a friend).
 
-Os investigadores geram uma grande quantidade de recursos educativos ao longo de ensinar estudantes e outros (em workshops, por exemplo). Ao torná-las abertas (por exemplo, no [aberto recurso comum educacional](https://www.oercommons.org/)), a comunidade em geral pode beneficiar deles de três maneiras principais:
+Researchers generate a great deal of educational resources in the course of teaching students and each other (at workshops, for example). By making these openly available (for example, in the [open educational resource commons](https://www.oercommons.org/)), the wider community can benefit from them in three main ways:
 
-1. Mais obviamente, a comunidade pode usar os materiais para aprender sobre o conteúdo que eles cobrem.
-2. Compartilhar recursos reduz a duplicação de esforços. Se um educador precisa de materiais para o ensino e esses materiais já existem abertamente, então não precisa de fazer os seus próprios materiais a partir do zero, poupando assim tempo.
-3. A disponibilização de materiais abertamente ajuda uma comunidade a construir melhores recursos melhorando os que já existem. A comunidade pode combinar várias REA para aproveitar suas diferentes forças, como um grande diagrama ou explicação.
+1. Most obviously, the community can use the materials to learn about the content they cover.
+2. Sharing resources reduces duplication of effort. If an educator needs materials for teaching and such materials already exist openly, then they need not make their own from scratch, thereby saving time.
+3. Making materials openly available helps a community build better resources by improving those that already exist. The community can combine several OERs to take advantage of their different strengths, such as a great diagram or explanation.
 
-Além dos benefícios práticos brutos, o movimento global REA está enraizado no direito humano ao acesso a uma educação de qualidade. Esta mudança na prática educativa tem a ver com a participação e a co-criação. Recursos Educacionais Abertos (REA) oferecem oportunidades de mudança sistêmica no conteúdo de ensino e aprendizagem, envolvendo educadores em novos processos participativos e aproveitando tecnologias eficazes para o envolvimento na aprendizagem.
+Beyond the raw practical benefits, the worldwide OER movement is rooted in the human right to access high-quality education. This shift in educational practice is about participation and co-creation. Open Educational Resources (OERs) offer opportunities for systemic change in teaching and learning content by involving educators in new participatory processes and leveraging effective technologies for learning engagement.
 
 (rr-open-scholarship-equity)=
-## Equidade, Diversidade, Inclusão [{term}`def<Equitable, Diverse and Inclusive Practices>`]
+## Equity, Diversity, Inclusion [{term}`def<Equitable, Diverse and Inclusive Practices>`]
 
-Estudos abertos significam abertos para *todos,* sem discriminação baseada em fatores como raça, gênero, orientação sexual ou qualquer número de outros fatores. Enquanto comunidade, devemos comprometer-nos a assegurar oportunidades equitativas para todos. Podemos fazer isso promovendo deliberadamente culturas bem-vindas e inclusivas nas nossas comunidades. Por exemplo, devem ser feitas acomodações razoáveis sempre que possível para incluir membros da comunidade com deficiência, de modo a permitir-lhes participar plenamente. e isso pode ser tão simples quanto escolher esquemas de cores inofensivos para a criação de gráficos.
+Open scholarship means open to *everyone* without discrimination based on factors such as race, gender, sexual orientation, or any number of other factors. As a community, we should undertake to ensure equitable opportunities for all. We can go about that by deliberately fostering welcoming, inclusive cultures within our communities. For example, reasonable accommodations should be made wherever possible to include community members with disabilities to enable them to participate fully, and this can be as simple as choosing colourblind-safe colour schemes when making graphs.
 
-(Pesquisa rr-abertura-cidadão)=
-## Ciência Cidadã
+(rr-open-scholarship-citizen)=
+## Citizen Science
 
-A ciência dos cidadãos [{term}`def<Citizen Science>`] é o envolvimento do público em pesquisas científicas — sejam elas baseadas na comunidade ou em pesquisas globais. O Dicionário Inglês de Oxford definiu-o recentemente como: "trabalho científico levado a cabo pelos cidadãos em geral. frequentemente em colaboração com ou sob a direcção de cientistas profissionais e instituições científicas". A ciência dos cidadãos oferece o poder da ciência a todos e o poder de todos para a ciência.
+Citizen science [{term}`def<Citizen Science>`] is the involvement of the public in scientific research – whether community-driven research or global investigations. The Oxford English Dictionary recently defined it as: "scientific work undertaken by members of the general public, often in collaboration with or under the direction of professional scientists and scientific institutions". Citizen science offers the power of science to everyone and the power of everyone to science.
 
-Ao permitir que os membros do público contribuam para a investigação científica, a ciência do cidadão ajuda a envolver-se e a investir o mundo em toda a ciência. Beneficia também os investigadores oferecendo recursos humanos que, de outro modo, não seriam acessíveis. Exemplos disso incluem [encontrar](https://citizensciencegames.com/games/eterna/) formas de dobrar moléculas e [classificar](https://www.zooniverse.org/) diferentes tipos de galáxias.
+By allowing members of the public to contribute to scientific research, citizen science helps engage and invest the broader world in science. It also benefits researchers by offering human resources that would not be accessible otherwise. Examples of this include [finding](https://citizensciencegames.com/games/eterna/) ways of folding molecules and [classifying](https://www.zooniverse.org/) different types of galaxies.
 
 (rr-open-scholarship-involvement)=
-## Paciente e envolvimento público
+## Patient and Public Involvement
 
-Enquanto a ciência cidadã engloba uma forma de contribuir para a investigação científica, Os doentes e a participação pública (PPI) são uma forma muito mais especializada de ciência cidadã que é particularmente útil na investigação de questões de saúde ou sociais.
+Whilst citizen science encompasses one way of contributing to scientific research, Patient and Public Involvement (PPI) is a far more specialized form of citizen science which is particularly useful when researching health or social issues.
 
-PPI é *não*:
-- _Participação_: Recrutamento de participantes (como para um teste clínico ou pesquisa) para contribuir com dados para um projeto.
-- _Envolvimento_: Disseminação, como apresentar em grupos de interesse do paciente ou escrever um post de blog.
+PPI is *not*:
+- _Participation_: Recruitment of participants (such as for a clinical trial or survey) to contribute data to a project.
+- _Engagement_: Dissemination, such as presenting at patient interest groups or writing a blog post.
 
-PPI *é*:
-- _Envolvimento_: pacientes e membros do público contribuem em *todos os* estágios do ciclo de pesquisa.
+PPI *is*:
+- _Involvement_: patients and members of the public contribute at *all* stages of the research cycle.
 
-Ao incorporar PPI em pesquisa, pesquisadores trabalham *com* voluntários, em vez de fazer o trabalho *sobre*. Os voluntários PPI são geralmente pacientes ou membros do público com particular interesse em alguma área de pesquisa o que significa que o tema é muitas vezes muito pessoal, e o envolvimento no ciclo de investigação pode ser uma experiência estimulante. Para o pesquisador, a PPI gera frequentemente ideias únicas e inestimáveis a partir dos conhecimentos especializados dos voluntários que o pesquisador nem sempre consegue prever.
+When incorporating PPI into research, researchers work *with* volunteers, rather than doing work *about* them. PPI volunteers are usually patients or members of the public with a particular interest in some area of research, which means that the topic is often very personal, and being involved in the research cycle can be an empowering experience. For the researcher, PPI often generates unique and invaluable insights from the volunteers' expertise which the researcher cannot always predict.
 
-É uma boa ideia considerar o PPI muito cedo num projecto. idealmente antes de quaisquer aplicativos de concessão ou submissões para aprovação ética terem sido escritas. Os voluntários PPI podem ajudar os pesquisadores de várias formas, tais como os seguintes:
-1. Gerar ou moldar questões de pesquisa.
-2. Contribua ou reveja o projeto de estudo.
-3. Ajude a conceder aplicações ou submissões para comités de ética de pesquisa (particularmente o resumo la).
-4. Coletar dados.
-5. Analisar dados.
-6. Contribua com o manuscrito e seja listado como co-autor.
-7. Divulgue descobertas em inglês.
+It is a good idea to consider PPI very early in a project, ideally before any grant applications or submissions for ethical approval have been written. PPI volunteers can help researchers in many ways, such as the following:
+1. Generate or shape research questions.
+2. Contribute to, or review, study design.
+3. Help with grant applications or submissions to research ethics committees (particularly the lay summary).
+4. Collect data.
+5. Analyse data.
+6. Contribute to the manuscript and be listed as a co-author.
+7. Disseminate findings in plain English.
 
-Uma das barreiras mais significativas ao PPI é não saber como começar. O UK National Institute for Health Research tem o seu próprio site, [INVOLVE](https://www.invo.org.uk/), para ajudar a se familiarizar com as fundações do PPI. Além disso, instituições de caridade relacionadas a seu campo de pesquisa específico podem ser capazes de facilitar ou suportar PPI; por exemplo, [A Pesquisa de Câncer Reino Unido](https://www.cancerresearchuk.org/funding-for-researchers/patient-involvement-toolkit-for-researchers) e [o Reino Unido de Parkinson](https://www.parkinsons.org.uk/research/patient-and-public-involvement-ppi) têm guias formais em vigor que fornecem uma visão geral abrangente do PPI.
+One of the most significant barriers to PPI is not knowing how to get started. The UK National Institute for Health Research has its own site, [INVOLVE](https://www.invo.org.uk/), to help familiarise yourself with the foundations of PPI. Additionally, charities related to your specific research field may be able to facilitate or support PPI; for example, [Cancer Research UK](https://www.cancerresearchuk.org/funding-for-researchers/patient-involvement-toolkit-for-researchers) and [Parkinson's UK](https://www.parkinsons.org.uk/research/patient-and-public-involvement-ppi) have formal guides in place that provide a comprehensive overview of PPI.

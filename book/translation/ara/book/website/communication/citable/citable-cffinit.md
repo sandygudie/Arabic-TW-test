@@ -1,99 +1,135 @@
-crwdns831314:0crwdne831314:0
-# crwdns831316:0crwdne831316:0
+(cm-citable-cffinit)=
+# Create a `CITATION.cff` using `cffinit`
 
-crwdns831318:0crwdne831318:0 crwdns831320:0crwdne831320:0 crwdns831322:0crwdne831322:0
+`cffinit` is a web application which helps users create a `CITATION.cff` file. The application provides guidance for each field of the [CFF schema](https://github.com/citation-file-format/citation-file-format/blob/main/schema-guide.md) and does the validation automatically. When there are issues, `cffinit` will provide a visual feedback on relevant fields.
 
-crwdns831324:0crwdne831324:0
+In the following sections you can find details about each step of the process.
 
-crwdns831326:0crwdne831326:0
+To get started, visit [`cffinit`](https://citation-file-format.github.io/cff-initializer-javascript/) and click on the "Create" button to continue to the **Start** screen.
 
 ```{figure} ../../figures/gifs/cffinit-0.gif
-crwdns831328:0crwdne831328:0
-crwdns831330:0crwdne831330:0 crwdns831332:0crwdne831332:0
+---
+name: cffinit-0
+width: 80%
+alt: Landing page of cffinit.
+---
+Landing page of cffinit. [^cffinitversion]
 ```
 
-## crwdns831334:0crwdne831334:0
+## Start
 
-crwdns831336:0crwdne831336:0
+On the first page of the application, enter the title of your work, write a message to indicate how you want your software to be mentioned, and select whether you are creating a `CITATION.cff` file for software or a dataset.
 
 ```{figure} ../../figures/gifs/cffinit-1.gif
-crwdns831338:0crwdne831338:0 crwdns831340:0crwdne831340:0
-crwdns831342:0crwdne831342:0 crwdns831344:0crwdne831344:0
+---
+name: cffinit-1
+width: 80%
+alt: First page of the application, for Title, Message and Type. Fields are empty.
+---
+First page of the application, for Title, Message and Type. [^cffinitversion]
 ```
 
-crwdns831346:0crwdne831346:0
+You can see the preview of the generated `CITATION.cff` file on the right.
 
-crwdns831348:0crwdne831348:0 crwdns831350:0crwdne831350:0
+If there are issues in any of the fields, they will be highlighted and error messages will be shown in red. When the generated `CITATION.cff` file is not valid, the preview widget will have a red border.
 
 ```{note}
-crwdns831352:0crwdne831352:0
+As title, message and author are required fields by the schema, these fields will be highlighted until you provide them.
 ```
 
-crwdns831354:0crwdne831354:0
+Click next to continue to the **Authors** screen.
 
 ```{figure} ../../figures/gifs/cffinit-1-filled.gif
-crwdns831356:0crwdne831356:0 crwdns831358:0crwdne831358:0
-crwdns831360:0crwdne831360:0 crwdns831362:0crwdne831362:0 crwdns831364:0crwdne831364:0
+---
+name: cffinit-1-filled
+width: 80%
+alt: First page of the form, for Title, Message and Type. Fields are filled.
+---
+First page of the form, for Title, Message and Type. Fields are filled. [^cffinitversion]
 ```
 
-## crwdns831366:0crwdne831366:0
+## Authors
 
-crwdns831368:0crwdne831368:0 crwdns831370:0crwdne831370:0 crwdns831372:0crwdne831372:0 crwdns831374:0crwdne831374:0 crwdns831376:0{ref}crwdne831376:0
+The CFF schema requires at least one author in the `CITATION.cff` file. Click the "Add author" button to open a form to do so. Fill the relevant fields for authors. Adding ORCID for authors is highly recommended. See {ref}`cm-citable-orcid` to learn more about ORCID.
 
 ```{figure} ../../figures/gifs/cffinit-2.gif
-crwdns831378:0crwdne831378:0
-crwdns831380:0crwdne831380:0 crwdns831382:0crwdne831382:0
+---
+name: cffinit-2
+width: 80%
+alt: Second page of the form, for Authors.
+---
+Second page of the form, for Authors. [^cffinitversion]
 ```
 
 ```{figure} ../../figures/gifs/cffinit-2-add-author.gif
-crwdns831384:0crwdne831384:0 crwdns831386:0crwdne831386:0
-crwdns831388:0crwdne831388:0 crwdns831390:0crwdne831390:0 crwdns831392:0crwdne831392:0
+---
+name: cffinit-2-add-author
+width: 80%
+alt: Second page of the form, for Authors. Author addition in progress.
+---
+Second page of the form, for Authors. Author addition in progress. [^cffinitversion]
 ```
 
-crwdns831394:0crwdne831394:0 crwdns831396:0crwdne831396:0 crwdns831398:0crwdne831398:0
+After adding one author, you have the minimum required information for a valid `CITATION.cff` file. Add more authors as needed. Click next afterwards to continue.
 
 ```{figure} ../../figures/gifs/cffinit-2-filled.gif
-crwdns831400:0crwdne831400:0 crwdns831402:0crwdne831402:0
-crwdns831404:0crwdne831404:0 crwdns831406:0crwdne831406:0 crwdns831408:0crwdne831408:0
+---
+name: cffinit-2-filled
+width: 80%
+alt: Second page of the form, for Authors. One author filled.
+---
+Second page of the form, for Authors. One author filled. [^cffinitversion]
 ```
 
-## crwdns831410:0crwdne831410:0
+## Minimal `CITATION.cff` file
 
-crwdns831412:0crwdne831412:0 crwdns831414:0crwdne831414:0 crwdns831416:0crwdne831416:0 crwdns831418:0crwdne831418:0 crwdns831420:0crwdne831420:0
+Well done! Now your `CITATION.cff` file meets the minimum requirements. In this screen you can download the generated file or copy it from the preview widget. We highly recommend that you add more information. Click the "Add more" button to add more fields to your citation file to make it even better.
 
 ```{figure} ../../figures/gifs/cffinit-3.gif
-crwdns831422:0crwdne831422:0
-crwdns831424:0crwdne831424:0 crwdns831426:0crwdne831426:0
+---
+name: cffinit-3
+width: 80%
+alt: Last page of the minimal form.
+---
+Last page of the minimal form. [^cffinitversion]
 ```
 
-## crwdns831428:0crwdne831428:0
+## Additional fields
 
-crwdns831430:0crwdne831430:0
+All additional fields are optional, but it is recommended that you fill the most relevant for your work.
 
 ```{note}
-crwdns831432:0crwdne831432:0
+If you decide not to continue further, you can press the "Finish" button to skip all remaining steps and go to the final screen.
 ```
 
-crwdns831434:0crwdne831434:0 crwdns831436:0crwdne831436:0
-- crwdns831438:0crwdne831438:0
-- crwdns831440:0crwdne831440:0
-- crwdns831442:0crwdne831442:0
-- crwdns831444:0crwdne831444:0
-- crwdns831446:0crwdne831446:0
-- crwdns831448:0crwdne831448:0
+On this screen, you will see new steps in the stepper. Here is a brief description of the additional screens:
+- Identifiers: Add DOIs, URLs, and Software Heritage identifiers;
+- Related resources: URLs of repositories related to the work and its website;
+- Abstract: A short summary of the work;
+- Keywords: Keywords describing the work;
+- License: The license under which the work is available;
+- Version specific: Information about a specific release or commit, including the date of the release.
 
 ```{figure} ../../figures/gifs/cffinit-3-advanced.gif
-crwdns831450:0crwdne831450:0 crwdns831452:0crwdne831452:0
-crwdns831454:0crwdne831454:0 crwdns831456:0crwdne831456:0 crwdns831458:0crwdne831458:0
+---
+name: cffinit-3-advanced
+width: 80%
+alt: Third page of the form. More options appear on the left.
+---
+Third page of the form. More options appear on the left. [^cffinitversion]
 ```
 
-crwdns831460:0crwdne831460:0
+Click next to start adding additional fields.
 
-## crwdns831462:0crwdne831462:0
+## Final screen
 
-crwdns831464:0crwdne831464:0 crwdns831466:0crwdne831466:0 crwdns831468:0crwdne831468:0
+Great that you made it to the final screen! After adding all the relevant information, you will have a validated `CITATION.cff` file. Download or copy it and add it to your public repository to get the credit you deserve!
 
 ```{figure} ../../figures/gifs/cffinit-final.gif
-crwdns831470:0crwdne831470:0
-crwdns831472:0crwdne831472:0 crwdns831474:0crwdne831474:0
+---
+name: cffinit-final
+width: 80%
+alt: Last page of the complete form.
+---
+Last page of the complete form. [^cffinitversion]
 ```

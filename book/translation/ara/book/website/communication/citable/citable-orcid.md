@@ -1,30 +1,30 @@
-crwdns831702:0crwdne831702:0
-# crwdns831704:0crwdne831704:0
+(cm-citable-orcid)=
+# ORCID to Collect your Research Objects
 
-crwdns831706:0crwdne831706:0
+You can use ORCID to access or sign up to services that utilise ORCID, for example, publisher requirements, funding management portals ([ResearchFish](https://researchfish.com/)), the [CRIS (current research information system)](https://en.wikipedia.org/wiki/Current_research_information_system) at your institute and data repository like [Zenodo](https://zenodo.org).
 
-crwdns831708:0crwdne831708:0 crwdns831710:0crwdne831710:0
+ORCID is an acronym for ‘Open Researcher and Contributor ID'. ORCID is a long-lasting unique identifier for you as a researcher, comparable to a personal identification number that your government may issue to you.
 
-crwdns831712:0crwdne831712:0
+Watch this short video for more information:
 <div class="video-container">
-  <iframe src="crwdns831714:0crwdne831714:0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-  <p>crwdns831716:0crwdne831716:0</p>
+  <iframe src="https://player.vimeo.com/video/97150912" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+  <p><a href="https://vimeo.com/97150912">What is ORCID?</a> from <a href="https://vimeo.com/orcidvideos">ORCID</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 </div>
 
-crwdns831718:0crwdne831718:0
-## crwdns831720:0crwdne831720:0
+(cm-citable-orcid-why)=
+## Why You Should Get an ORCID
 
-crwdns831722:0crwdne831722:0 crwdns831724:0crwdne831724:0
+ORCID allows you to provide a unique identity for your body of work independent of your name. It enables you to collect and others to find all your research work and related outputs so they can use and cite them.
 
-crwdns831726:0crwdne831726:0 crwdns831728:0crwdne831728:0
+All your research objects with different DOIs will remain linked to your unique identifier even if you change your name or your institute. This way, you only have to enter the information once.
 
-crwdns831730:0crwdne831730:0
+You can use ORCID to access or sign up to services that utilise ORCID, for example, publisher requirements, funding management portals ([ResearchFish](https://researchfish.com/)), the [CRIS (current research information system)](https://en.wikipedia.org/wiki/Current_research_information_system) at your institute and data repository like [Zenodo](https://zenodo.org).
 
-crwdns831732:0crwdne831732:0 crwdns831734:0crwdne831734:0
+You can use your ORCID to your CV/resume so that anyone can have a look at all your research outputs. You can also use your ORCID profile to create a CV using \[ROpenSci package rorcid\](rorcid: https://github.com/ropensci/rorcid) as described [here](https://discuss.ropensci.org/t/using-rorcid-to-generate-a-website-cv/1806).
 
-crwdns831736:0crwdne831736:0
-## crwdns831738:0crwdne831738:0
+(cm-citable-orcid-use)=
+## Using ORCID
 
-crwdns831740:0crwdne831740:0 crwdns831742:0crwdne831742:0
+You can sign up very quickly here: [https://orcid.org/login](https://orcid.org/login). Once you have signed up and verified your email address you can start adding in your outputs by importing them through [trusted organisations](https://support.orcid.org/hc/en-us/articles/360006973893) and [search and link wizards](https://support.orcid.org/hc/en-us/articles/360006973653-Add-works-by-direct-import-from-other-systems)
 
-crwdns831744:0crwdne831744:0
+You can use your ORCID ID whenever you’re prompted to do so, give your [trusted organisations](https://support.orcid.org/hc/en-us/articles/360006973893) (funders, publishers, institutions) permission to automatically update your ORCID record.

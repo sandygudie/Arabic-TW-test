@@ -1,79 +1,108 @@
-crwdns841306:0crwdne841306:0
-# crwdns841308:0crwdne841308:0
+(pd-code-styling-readability)=
+# Writing Human Readable Code
 
-crwdns841310:0crwdne841310:0 crwdns841312:0crwdne841312:0 crwdns841314:0crwdne841314:0
+Writing clear, well commented, readable and re-usable code benefits not only you but the community (or audience) that you are developing it for. This may be your lab, external collaborators, stakeholders, or you might be writing open source software for global distribution! Whatever scale you work at, readability counts!
 
-crwdns841316:0crwdne841316:0
+Here are a few aspects to consider when making your code easy to read by others.
 
-## crwdns841318:0crwdne841318:0
+## Line Length
 
-crwdns841320:0crwdne841320:0 crwdns841322:0crwdne841322:0 crwdns841324:0crwdne841324:0 crwdns841326:0crwdne841326:0 crwdns841328:0crwdne841328:0
+There is some agreement on the length of the coding lines. PEP8 suggests a maximum of 79 characters per line and 80 by the R style guide. This means that the lines can easily fit on a screen, and multiple coding windows can be opened. It is argued that if your line is any longer than this then your function is too complex and should be separated! This is the crux of the Tidy method of R programming, which even has a special operator `%>%` which passes the previous object to the next function, so fewer characters are required:
 
 ```r
-crwdns841330:0crwdne841330:0
+recoded_melt_dat <- read_csv('~/files/2019-05-17_dat.csv') %>%
+recode() %>%
+melt() #We now have a recoded, melted dataframe called recoded_melt_dat
 ```
 
-## crwdns841332:0crwdne841332:0
+## Commenting
 
-crwdns841334:0crwdne841334:0 crwdns841336:0crwdne841336:0 crwdns841338:0crwdne841338:0 crwdns841340:0crwdne841340:0 crwdns841342:0crwdne841342:0 crwdns841344:0crwdne841344:0 crwdns841346:0crwdne841346:0
+Comments have been described as "Love letters to your future self" by Jon Peirce, creator of PsychoPy. Comments can be blocked or inline.  
+The PEP8 guidelines have firm suggestions that block comments should be full sentences, have two spaces following a period, and follow a dated style guide (Strunk and White). Fortunately the Elements of Style no longer 'requires' an unfair emphasis on masculine pronouns. Whereas inline comments should be used sparingly. Keeping clear and concise comments not only allows you to keep track of the decisions you have made, what particular functions do, and what variables are used, it also allows other people to see your thought processes. The syntax for comments varies with programming languages. In R and Python, a hashtag is used, whereas in C and Java the brackets `/* /*` are used, and in C++/C# a double slash `//` comments single lines.
 
-crwdns841348:0crwdne841348:0
+In Python:
 ```python
-crwdns841350:0%scrwdnd841350:0%ticrwdne841350:0
+times = 10 # Set integer
+my_variable = "my variable is %s times better than yours" %times #Set my_variable to a string
+print(my_variable) #print the value
 ```
 
-crwdns841352:0crwdne841352:0
+In R:
 ```r
-crwdns841354:0crwdne841354:0
+my_func = function(number){ #R function
+
+(number * 5) - 2
+}
+print(my_func(2))
 ```
 
-crwdns841356:0crwdne841356:0 crwdns841358:0crwdne841358:0 crwdns841360:0crwdne841360:0
+For longer comments, information can be included above the code block. In Python, you can use triple speech marks as a parenthesis. This will comment out anything in between.
 
 ```python
-crwdns841362:0crwdne841362:0
-crwdns841364:0crwdne841364:0
-crwdns841366:0crwdne841366:0
+"""
+The following function takes a number, multiplies it by 5, and subtracts 2.
+This may seem pointless but is simple for demonstration.
+"""
+def myfunc(numb): #python function
+      return((numb*5)-2)
+print(myfunc(8))
 ```
-crwdns841368:0crwdne841368:0
+Longer blocks of comments are not available in R. There are ways around this, such as setting up a string, or an if(false) statement:
 
 ```r
-crwdns841370:0crwdne841370:0 crwdns841372:0crwdne841372:0
-crwdns841374:0crwdne841374:0
-crwdns841376:0crwdne841376:0
-crwdns841378:0crwdne841378:0
+"1 - This is a string. It will not be evaluated by R, and will not raise
+and exception"
+
+if(false){
+2 - All of your comment can go here and will never be evaluated.
+It also means you keep to the 80 character line length suggestion.
+Also, in RStudio you can fold away the comment using the arrow next to the
+line number of the if statement.
+}
 ```
 
-crwdns841380:0crwdne841380:0
+Or commenting out individual lines:
 
 ```r
-crwdns841382:0crwdne841382:0
+#This is also a very long comment
+#covering many lines.
 ```
-crwdns841384:0crwdne841384:0
+Your IDE will probably have a keyboard shortcut for commenting out blocks.
 
-## crwdns841386:0crwdne841386:0
+## Indentation
 
-crwdns841388:0crwdne841388:0
+The R style guide suggests that lines should be separated:
 ```r
-crwdns841390:0crwdne841390:0
+by
+  two spaces
 ```
-crwdns841392:0crwdne841392:0
+And not
 ```r
- crwdns841394:0crwdne841394:0
+ a mixture
+   of
+    tabs
+      and   spaces.
 ```
 
-crwdns841396:0crwdne841396:0 crwdns841398:0crwdne841398:0
+Obviously, sometimes the arguments of a function can far expand 80 characters. In this case, it is recommended that the second line be indented to the start of the arguments:
 
 ```r
-crwdns841400:0crwdne841400:0
+my_variable <- a_really_long_function(data = "2019-05-17_Long_File_Name_2",
+                                      header = TRUE, verbose = TRUE)
 
 ```
 
-crwdns841402:0crwdne841402:0 crwdns841404:0crwdne841404:0 crwdns841406:0crwdne841406:0
+These are of course just guidelines, and you should choose elements that suit your coding style. However, and again, it is important to ensure that you are consistent when collaborating, and can agree on a common style. It could be useful to create a readme file describing your coding style so collaborators or contributors can follow your lead.
 
-### crwdns841408:0crwdne841408:0 crwdns841410:0crwdne841410:0  crwdns841412:0crwdne841412:0
+### ...end. ...end.  ...or end.\\n
 
-crwdns841414:0crwdne841414:0 crwdns841416:0crwdne841416:0 crwdns841418:0crwdne841418:0
+If you are sharing text files or working collaboratively on manuals or documents, then there is a lot of controversy surrounding whether to use one or two spaces after a period. When using Markdown, it can be clearer to include a new line after every sentence. This chapter (and most, if not all, of this book) has a new line after every sentence that makes the raw text easier to read, review and solve the spacing issue.
 
 ```{figure} ../../figures/xkcd1285.png
-crwdns841420:0crwdne841420:0 crwdns841422:0crwdne841422:0
+---
+height: 500px
+name: xkcd1285
+alt: Two groups holding different flags and fighting, one says "two spaces after a period" and other says "one space after a period". While a person stands with their flag that says "Line break after every sentence"
+---
+*Line break after each sentence makes it easy to review and comment - [XKCD Link](https://www.explainxkcd.com/wiki/index.php/1285:_Third_Way)*
 ```

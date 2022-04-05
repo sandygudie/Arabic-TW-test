@@ -1,16 +1,16 @@
-(cm-aa-recursos)=
-# Recursos:
-* Jornal Americano de Especialistas [A ética da autoria de manuscritos](https://www.aje.com/en/arc/ethics-manuscript-authorship/e) incluindo um link para o white paper - crédito onde créditos deviam.
+(cm-aa-resources)=
+# Resources:
+* American Journal of Experts [The ethics of manuscript authorship](https://www.aje.com/en/arc/ethics-manuscript-authorship/e) including a link to the white paper - credit where credits due.
 
-* [Diretrizes de autoria da associação sociológica britânica](https://www.britsoc.co.uk/publications/guidelines-reports/authorship-guidelines.aspx)
+* [British sociological association authorship guidelines](https://www.britsoc.co.uk/publications/guidelines-reports/authorship-guidelines.aspx)
 
-* [Site do Committe of Publication Ethics (COPE)](https://publicationethics.org/).
+* [Committe of Publication Ethics (COPE) website](https://publicationethics.org/).
 
-* [Como lidar com disputas de autarquia: um guia para novos pesquisadores](https://publicationethics.org/files/2003pdf12_0.pdf).
+* [How to handle authorship disputes: a guide for new researchers](https://publicationethics.org/files/2003pdf12_0.pdf).
 
-* [Taxonomia de CRediT](https://casrai.org/credit/)
+* [CRediT Taxonomy](https://casrai.org/credit/)
 
-* [London School of Economics Impact of Social Sciences blog on CRediT Taxonomy](https://blogs.lse.ac.uk/impactofsocialsciences/2020/01/20/credit-check-should-we-welcome-tools-to-differentiate-the-contributions-made-to-academic-papers/)
+* [London School of Economics Impacts of Social Sciences blog on CRediT Taxonomy](https://blogs.lse.ac.uk/impactofsocialsciences/2020/01/20/credit-check-should-we-welcome-tools-to-differentiate-the-contributions-made-to-academic-papers/)
 
 
 

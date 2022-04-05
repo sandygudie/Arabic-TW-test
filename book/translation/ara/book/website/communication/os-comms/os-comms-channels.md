@@ -1,51 +1,51 @@
-crwdns832522:0crwdne832522:0
-# crwdns832524:0crwdne832524:0
+(cm-os-comms-channels)=
+# Communication Channels
 
-crwdns832526:0crwdne832526:0
+Communication within a community impacts the contributor experience, influences an individual's sense of belonging, and provides a historical record of project decisions.
 
-crwdns832528:0crwdne832528:0
+The choice of channels will depend on the specific requirements of your project, such as keeping the community informed of any known bugs or upcoming features, assessing current needs from the community members, inviting comments on the project's management plans, facilitating the overall progress of the project, as well as having somewhere to field questions and receive/act on feedback.
 
-crwdns832530:0crwdne832530:0
+When setting up your communication channels, there are some important things to consider, such as the following:
 
-* crwdns832532:0crwdne832532:0
-* crwdns832534:0crwdne832534:0 crwdns832536:0crwdne832536:0
-* crwdns832538:0crwdne832538:0
-* crwdns832540:0crwdne832540:0
-* crwdns832542:0crwdne832542:0
+* How easy is it for the community to find these channels and subscribe/unsubscribe to them?
+* Are they moderated? Under-represented groups may not participate if a channel is a free-for-all.
+* How easy is it for members of the community to find and join specific conversations they are interested in?
+* Will it be a "noisy" channel (for example, does the channel generate lots of notifications)?
+* Can users control or filter what kind of information they receive?
 
-crwdns832544:0crwdne832544:0 crwdns832546:0crwdne832546:0
+There are three commonly used channels: mailing lists (such as [Topicbox](https://www.topicbox.com/) or [Google groups](https://support.google.com/mail/thread/14635045?hl=en)), community forums (such as [Vanilla Forum](https://vanillaforums.com/en/software/) or [Discourse](https://www.discourse.org/)) and chats (such as [Gitter](https://gitter.im/) or [Slack](https://app.slack.com/signin)). Besides these, many communities also use platforms for weekly or monthly newsletters, blogs, and social media on [Twitter](https://twitter.com/) or [Facebook](https://www.facebook.com/).
 
-crwdns832548:0crwdne832548:0
+In the table below, some properties of the first three communication platforms have been highlighted, which will allow open source project leaders to choose the most appropriate channels for their communities.
 
-crwdns832550:0crwdne832550:0
-## crwdns832552:0crwdne832552:0
+(cm-os-comms-channels-features)=
+## Features of Different Communication Channels
 
-crwdns832554:0crwdne832554:0 crwdns832556:0crwdne832556:0
+The table below compares features of mailing lists, forums and chats. Here are some of the questions one might wish to ask when thinking about each feature:
 
-- crwdns832558:0crwdne832558:0
-- crwdns832560:0crwdne832560:0
-- crwdns832562:0crwdne832562:0 crwdns832564:0crwdne832564:0 crwdns832566:0crwdne832566:0
-- crwdns832568:0crwdne832568:0
-- crwdns832570:0crwdne832570:0
-- crwdns832572:0crwdne832572:0
-- crwdns832574:0crwdne832574:0
-- crwdns832576:0crwdne832576:0
-- crwdns832578:0crwdne832578:0
-- crwdns832580:0crwdne832580:0
-- crwdns832582:0crwdne832582:0
-- crwdns832584:0crwdne832584:0 crwdns832586:0crwdne832586:0
+- **Media sharing:** Can media, such as screenshots, be easily shared on this platform?
+- **Archivable:** Is the history of the conversations easily accessible?
+- **Persistent:** Do the conversations remain available and accessible on the platform? If not "forever", for how long? If not all conversations, what proportion?
+- **Noisy:** How many notifications will people receive, and can the number of notifications be managed by users/administrators?
+- **Open:** Can anyone join the platform or is there an invitation/approval process?
+- **Consistent user experience (UX):** Does the platform appear consistent regardless of the user's browser or email client?
+- **Threading/filtering of conversations:** Is it apparent who is replying to whom and what topic each string of messages is addressing?
+- **Social sharing:** Can conversations easily be shared on social media platforms for the purposes of promotion or community engagement?
+- **User profiles:** Is it easy to tell who is participating in the conversation and what their roles are on the project?
+- **"Following"/"blocking" capabilities:** Can users choose whose messages they are alerted to?
+- **Searchable by topic:** Can the conversations by categorised and searched by category?
+- **Easily exportable:** Are the conversations stored in a consistent format? Are tools available to export the conversations (to an archive, for example)?
 
-| crwdns832588:0crwdne832588:0 | crwdns832590:0crwdne832590:0 | crwdns832592:0crwdne832592:0 | crwdns832594:0crwdne832594:0 |
-|:---------------------------- |:----------------------------:|:----------------------------:|:----------------------------:|
-| crwdns832596:0crwdne832596:0 | crwdns832598:0crwdne832598:0 | crwdns832600:0crwdne832600:0 | crwdns832602:0crwdne832602:0 |
-| crwdns832604:0crwdne832604:0 | crwdns832606:0crwdne832606:0 | crwdns832608:0crwdne832608:0 |                              |
-| crwdns832610:0crwdne832610:0 | crwdns832612:0crwdne832612:0 | crwdns832614:0crwdne832614:0 |                              |
-| crwdns832616:0crwdne832616:0 | crwdns832618:0crwdne832618:0 |                              | crwdns832620:0crwdne832620:0 |
-| crwdns832622:0crwdne832622:0 |                              | crwdns832624:0crwdne832624:0 | crwdns832626:0crwdne832626:0 |
-| crwdns832628:0crwdne832628:0 |                              | crwdns832630:0crwdne832630:0 | crwdns832632:0crwdne832632:0 |
-| crwdns832634:0crwdne832634:0 |                              | crwdns832636:0crwdne832636:0 | crwdns832638:0crwdne832638:0 |
-| crwdns832640:0crwdne832640:0 |                              | crwdns832642:0crwdne832642:0 | crwdns832644:0crwdne832644:0 |
-| crwdns832646:0crwdne832646:0 |                              | crwdns832648:0crwdne832648:0 | crwdns832650:0crwdne832650:0 |
-| crwdns832652:0crwdne832652:0 |                              | crwdns832654:0crwdne832654:0 |                              |
-| crwdns832656:0crwdne832656:0 |                              | crwdns832658:0crwdne832658:0 |                              |
-| crwdns832660:0crwdne832660:0 | crwdns832662:0crwdne832662:0 | crwdns832664:0crwdne832664:0 |                              |
+| Feature                              | Mailing Lists | Forums |      Chat      |
+|:------------------------------------ |:-------------:|:------:|:--------------:|
+| Media sharing                        |       ✅       |   ✅    | ✅ (cumbersome) |
+| Archivable                           |       ✅       |   ✅    |                |
+| Persistent                           |       ✅       |   ✅    |                |
+| Noisy                                |       ✅       |        |       ✅        |
+| Open                                 |               |   ✅    |       ✅        |
+| Consistent UX                        |               |   ✅    |       ✅        |
+| Threading/Filtering of conversations |               |   ✅    |       ✅        |
+| Social sharing                       |               |   ✅    |       ✅        |
+| User profiles                        |               |   ✅    |       ✅        |
+| "Friending"/"Ignoring" capabilities  |               |   ✅    |                |
+| Searchable by topic                  |               |   ✅    |                |
+| Easily Exportable                    |       ✅       |   ❓    |                |

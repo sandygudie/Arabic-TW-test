@@ -1,52 +1,52 @@
-(pd-projeto-repo-participação)=
-# Diretrizes de Participação
+(pd-project-repo-participation)=
+# Participation Guidelines
 
-Além de estabelecer algumas regras básicas para comunicação no seu projeto, você pode fornecer algumas diretrizes (diretrizes de contribuição) e normas sociais (Código de Conduta) que os colaboradores potenciais devem seguir para adicionar suas contribuições.
+In addition to setting out some ground rules for communication in your project, you might want to provide some guidelines (contribution guidelines) and social norms (Code of Conduct) that potential collaborators should follow to add their contributions.
 
-(pd-project-repo-participação-orientaca)=
-## Diretrizes de contribuição
+(pd-project-repo-participation-guideline)=
+## Contribution Guidelines
 
-Essas instruções são estabelecidas em um arquivo CONTRIBUTING (esta é uma ideia emprestada da engenharia de software onde nomes de arquivos capitalizados são a norma para os arquivos mais importantes de um projeto). Um arquivo CONTRIBUTING descreve como outros podem contribuir com o projeto e interagir com outros colaboradores (ou com uma comunidade).
+Those instructions are laid out in a CONTRIBUTING file (this is an idea borrowed from software engineering where capitalised filenames are the norm for the most important files of a project). A CONTRIBUTING file describes how others may contribute to the project and engage with other contributors (or a community).
 
-Seu público para as diretrizes de contribuição são os seus potenciais colaboradores que precisam entender o que se espera deles, projetos, consumidores que precisam saber como podem remixar e reutilizar o seu trabalho, e você mesmo, que cria e mantém o arquivo como parte chave para definir interações com sua comunidade.
+Your audiences for the contributing guidelines are your potential contributors who need to understand what is expected from them, project consumers who need to know how they can remix and re-use your work, and yourself who creates and maintains the file as a key part to outline interactions with your community.
 
-Aqui estão algumas sugestões sobre o que as suas orientações de contribuição poderiam abranger:
+Here are a few suggestions of what your contributing guidelines could cover:
 
-* A sua visão do projeto.
-* Um acolhimento bem-vindo a potenciais contribuintes.
-* Destaca o Código de Conduta.
-* Uma lista de outros recursos importantes, como o arquivo README ou o roadmap do seu projeto.
-* Canais de comunicação onde os colaboradores podem falar com você.
-* Como enviar alterações.
-* Bons primeiros erros ou problemas para começar a trabalhar.
-* Como denunciar um bug.
-* Seu modelo de reconhecimento e como as contribuições serão reconhecidas.
-* Onde ir para ajuda.
+* Your project vision.
+* A welcome to potential contributors.
+* Pointers to the Code of Conduct.
+* A list of other important resources such as the README file or your project's roadmap.
+* Communication channels where contributors can reach you.
+* How to submit changes.
+* Good first bugs or issues to start working on.
+* How to report a bug.
+* Your recognition model and how contributions will get acknowledged.
+* Where to go for help.
 
-Como outros documentos chave, é recomendável que você consulte exemplos de diretrizes de contribuição e reutilização de projetos de código aberto como [_The Turing Way_](https://github.com/alan-turing-institute/the-turing-way/blob/lottycoupat-roadmapping-casestudy/CONTRIBUTING.md) que descreve como você pode contribuir ou reutilizar este projeto.
+Like other key documents, it is recommended that you look at examples of and reuse contribution guidelines of open source projects like [_The Turing Way_](https://github.com/alan-turing-institute/the-turing-way/blob/lottycoupat-roadmapping-casestudy/CONTRIBUTING.md) that describes how you can contribute or re-this project.
 
-(pd-projeto-repo-participação-coc)=
-## Código de Conduta
+(pd-project-repo-participation-coc)=
+## Code of Conduct
 
-> Código de Conduta, geralmente abreviado como "CoC", é um conjunto de regras que definem as normas sociais, regras & responsabilidades de um projeto, parte ou organização individual.
+> Code of Conduct, commonly abbreviated as “CoC”, is a set of rules outlining the social norms, rules, & responsibilities of an individual project, party or organization.
 
-Se o seu projeto está aberto para indivíduos contribuírem e promoverem uma comunidade, seu projeto deve ser projetado para ser acolhedor e inclusivo para prosperar. Uma maneira de estabelecer diretrizes para participar do seu projeto é criar Diretrizes para CoC e Participantes. Esses documentos podem ser usados para interações virtuais, mas também para quaisquer eventos que você possa hospedar relacionados ao seu projeto. Os códigos de conduta servem dois objectivos principais:
-* Estabelecer o tipo de comportamento encorajado na comunidade que você gostaria de criar e delinear claramente um comportamento inaceitável.
-* A definição do processo pelo qual os problemas ou as violações das orientações serão abordados e quem será responsável pela aplicação do Código de Conduta.
+If your project is open for individuals to contribute and foster a community, your project should be designed to be welcoming and inclusive to thrive. One way to establish guidelines for participating in your project is to create a CoC and Participating Guidelines. These documents can be used for virtual interactions but also for any events you might host related to your project. Codes of Conduct serve two main purposes:
+* Establishing the kind of behaviour encouraged in the community you would like to create as well as clearly outlining unacceptable behaviour.
+* Outlining the process by which problems or violations of the guidelines will be addressed and who will be in charge of enforcing the Code of Conduct.
 
-Devemos também fornecer orientações claras sobre a forma de tratar os incidentes, desde a apresentação de relatórios até à aplicação. É muito importante fazer cumprir a CoC, a única coisa que é pior do que não ter nenhuma, é não a aplicar. Ao exibir e praticar de forma proeminente estas directrizes, pode-se assegurar que as expectativas de comportamento social sejam modeladas e encorajadas por todos os participantes, incluindo a liderança do projecto.
+We should also provide clear guidelines for how to process incidents if something happens, from reporting to enforcement. It is very important to enforce the CoC, the only thing that is worse than not having one, is not enforcing it. By prominently displaying and practising these guidelines, you can ensure that social behaviour expectations are modelled and encouraged among all participants, including the project leadership.
 
-Você pode criar seu próprio CoC usando o seguinte processo:
-* Brainstorm palavras-chave que representam os valores da comunidade
-* Considere comportamentos para encorajar/desencorajar
-* Pense no processo de aplicação, relatório de incidente & resposta
-* Compreender/aceitar sua função como líder de projeto e agir de forma colaborativa
+You can create your own CoC by using the following process:
+* Brainstorm core words that represent community values
+* Consider behaviours to encourage/discourage
+* Think through the process for enforcement, incident reporting & response
+* Understand/accept your role as project lead and act collaboratively
 
-Recomenda-se selecionar e adaptar um Código de Conduta bem estabelecido. Muitos projetos desenvolvidos abertamente têm em vigor um Código de Conduta que muitas vezes é licenciado abertamente e pode ser reutilizado e adaptado para seu próprio projeto. O [Código de Conduta para Turing Way](https://github.com/alan-turing-institute/the-turing-way/blob/main/CODE_OF_CONDUCT.md) é um exemplo de um Código de Conduta construído sobre várias já existentes e pode ser adaptado ainda mais.
+It is recommended to select and adapt a well established Code of Conduct. Many openly developed projects have a Code of Conduct in place that often is openly licensed and can be re-used and adapted for your own project. The [Turing Way Code of Conduct](https://github.com/alan-turing-institute/the-turing-way/blob/main/CODE_OF_CONDUCT.md) is one example of a Code of Conduct built on various existing ones and can be adapted further.
 
-Você também pode consultar as seguintes referências e modelos para começar um código de conduta para o seu projeto.
-- [opensource.guide para CoC](http://opensource.guide/code-of-conduct/)
-- [Exemplo de Covenant de Contribuidores do CoC](http://contributor-covenant.org/)
-- [O CoC das Carpintarias](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html)
-- [CSV,COC de conferência Conf](https://github.com/csvconf/csvconf.com/blob/gh-pages/coc.md)
+You can also consult the following references and templates to get started on a code of conduct for your project.
+- [opensource.guide for CoC](http://opensource.guide/code-of-conduct/)
+- [Contributor Covenant example of CoC](http://contributor-covenant.org/)
+- [The Carpentries CoC](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html)
+- [CSV,Conf conference CoC](https://github.com/csvconf/csvconf.com/blob/gh-pages/coc.md)
 - [PyCon CoC](https://us.pycon.org/2020/about/code-of-conduct/)

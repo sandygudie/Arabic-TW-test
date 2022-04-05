@@ -1,36 +1,39 @@
-crwdns848746:0crwdne848746:0
-# crwdns848748:0crwdne848748:0
+(rr-overview-benefits)=
+# Added Advantages
 
-crwdns848750:0{ref}crwdne848750:0 crwdns848752:0crwdne848752:0
+In the {ref}`rr-overview-definitions` section, we discussed the different aspects of reproducible research that are beneficial for the scientific community. In this chapter, we will share some less obvious aspects of working reproducibly for individual researchers and teams.
 
 
 ```{figure} ../../figures/reasons-reproducibility.png
-crwdns848754:0crwdne848754:0
-crwdns848756:0crwdne848756:0
+---
+name: reasons-reproducibility
+alt: Why we should care about working reproducibly.
+---
+An illustration of reasons why we should care about working reproducibly.
 ```
 
-**crwdns848758:0crwdne848758:0 crwdns848760:0crwdne848760:0**
+**1. Track a complete history of your research**
 
-crwdns848762:0crwdne848762:0 crwdns848764:0crwdne848764:0 crwdns848766:0crwdne848766:0
+Reproducible research must contain a complete history and narrative (also known as [Provenance](https://en.wikipedia.org/wiki/Provenance)) of the project planning and development process. This includes information on the data, tools, methods, codes, and documentation used in the research project. By storing a complete track-record of our work, we can ensure research sustainability, fair citation/acknowledgement, and usefulness of our and others' work in our research fields.
 
-**crwdns848768:0crwdne848768:0 crwdns848770:0crwdne848770:0**
+**2. Facilitate collaboration and review process**
 
-crwdns848772:0crwdne848772:0 crwdns848774:0crwdne848774:0 crwdns848776:0crwdne848776:0
+By designing reproducible workflows and sharing them with the different components of our research project, we can allow others to develop an in-depth understanding of our work. This encourages them to review our methods, test our code, propose useful changes and make thoughtful contributions to develop our project further. Reproducible workflows facilitate the peer review process tremendously by allowing reviewers access to the different parts of the projects that are necessary to validate the research outcomes.
 
-**crwdns848778:0crwdne848778:0 crwdns848780:0crwdne848780:0**
+**3. Publish validated research and avoid misinformation**
 
-crwdns848782:0crwdne848782:0 crwdns848784:0{cite:ps}crwdnd848784:0{cite:ps}crwdne848784:0 crwdns848786:0crwdne848786:0 crwdns848788:0{cite:ps}crwdne848788:0
+Lack of reproducibility is one of the major factors that lead to paper retractions (source [Retraction Watch](https://retractionwatch.com/)). The best-known analyses of scientific literature in psychology {cite:ps}`Begley2012` and cancer biology {cite:ps}`OpenScienceCollaboration2015Reproducibility` found the reproducibility rates of their research output of around 40% and 10%, respectively. By working reproducibly, we can develop validated research work, avoid misinformation that can limit replicability of our work and publish accurate research outputs. This aspect does not only support the validity of the current work, but any future studies that are based on reproducible research {cite:ps}`MozillaScienceLab`.
 
-**crwdns848790:0crwdne848790:0 crwdns848792:0crwdne848792:0**
+**4. Write your papers, thesis and reports efficiently**
 
-crwdns848794:0crwdne848794:0 crwdns848796:0crwdne848796:0 crwdns848798:0crwdne848798:0
+Well documented analyses help us maintain easy access to all the results generated within a project that can be written up efficiently. If working in a team, collaborators can easily get recognition in terms of authorship for their contributions. Furthermore, by availing the underlying dataset and methods we can easily comply with the highest-level journal guidelines.
 
-**crwdns848800:0crwdne848800:0 crwdns848802:0crwdne848802:0**
+**5. Get credits for your work fairly**
 
-crwdns848804:0crwdne848804:0 crwdns848806:0crwdne848806:0 crwdns848808:0crwdne848808:0
+Applying reproducibility practices separately on different parts of the project such as data, independently executable codes and scripts, protocols, and reports allow other researchers to test and reuse our work in their research and brings fair recognition for our work. Researchers who publish their work with the underlying information, get cited more often as their research outcome can be broadly replicated and trusted. This fair credit system encourages researchers to further maintain reproducibility practices in their work.
 
-**crwdns848810:0crwdne848810:0 crwdns848812:0crwdne848812:0**
+**6. Ensure continuity of your work**
 
-crwdns848814:0crwdne848814:0 crwdns848816:0{cite:ps}crwdne848816:0 crwdns848818:0crwdne848818:0 crwdns848820:0{cite:ps}crwdne848820:0
+By following guidelines for reproducibility, we can easily communicate our work with different stakeholders such as our supervisors, funders, reviewers, students, and potential collaborators. This aspect of reproducibility increases the usefulness of our research by enabling others to easily build on our results, and re-use our research materials {cite:ps}`MozillaScienceLab`. This ensures the continuity of a research idea and can even find fresh applications in other contexts. Progress of such projects can easily be tracked and continued - either by other researchers, or yourself if you want to build on your own work after a longer period {cite:ps}`Markowetz2015`.
 
-crwdns848822:0{ref}crwdne848822:0
+To learn about other benefits of working reproducibly on Open Research projects are covered in our {ref}`rr-open` chapter.

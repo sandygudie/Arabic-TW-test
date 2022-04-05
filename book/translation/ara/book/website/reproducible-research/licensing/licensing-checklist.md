@@ -1,17 +1,17 @@
-crwdns845384:0crwdne845384:0
-# crwdns845386:0crwdne845386:0
+(rr-licensing-checklist)=
+# Checklist
 
-crwdns845388:0crwdne845388:0
+This is a checklist for adding a license to your project repository.
 
-- crwdns845390:0crwdne845390:0
-- crwdns845392:0crwdne845392:0
-- crwdns845394:0crwdne845394:0
-- crwdns845396:0crwdne845396:0
-- crwdns845398:0crwdne845398:0
+- Go to your repository folder (local computer or online repository on GitHub/GitLab/BitBucket)
+- Create a new file and name is `License.txt` or `License.md` based on your  preference of the file format
+- Choose a type of license (or multiple license for mixed content) that is suitable for your project (visit [choosealicense.com](https://choosealicense.com/))
+- Copy the license content to the newly created file, for example, you can use an Open Source license [CC-BY 4.0](https://choosealicense.com/licenses/cc-by-4.0/) for text content and [MIT License](https://choosealicense.com/licenses/mit/) for software
+- Save your file and add details in your README.md file
 
-crwdns845400:0crwdne845400:0
-## crwdns845402:0crwdne845402:0
+(rr-licensing-reading)=
+## Further Reading
 
-crwdns845404:0crwdne845404:0
+Additional resources you can read to learn more about software licenses.
 
- - [crwdns845408:0crwdne845408:0](crwdns845406:0crwdne845406:0)
+ - [Open source licenses: What, which, and why](https://arstechnica.com/gadgets/2020/02/how-to-choose-an-open-source-license/)

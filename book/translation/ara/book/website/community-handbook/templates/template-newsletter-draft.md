@@ -1,18 +1,59 @@
-crwdns839182:0crwdne839182:0
-# crwdns839184:0crwdne839184:0
+(ch-template-newsletter-draft)=
+# Template for drafting _The Turing Way_ Newsletters
 
 ```
-crwdns839186:0crwdne839186:0
+Date: DD Month YYYY
 
-crwdns839188:0crwdne839188:0
+# title
 
-crwdns839190:0crwdne839190:0
+Hello Turing Way friends!
 
-crwdns839192:0crwdne839192:0
+This month ...
 
-crwdns839194:0crwdne839194:0
+Shout out ...
 
-crwdns839196:0crwdne839196:0
+Events ...
 
-crwdns839198:0[here]crwdne839198:0
+Find more details on these topics below 👇
+
+
+## Community meetings
+
+    <About events like Collaboration Café, book dash, other meetings>
+
+## News from the community
+
+    <Any news from the team, community members, and new chapters>
+
+## Relevant resources
+
+    <Any useful resources like relevant publication, training items, and materials from collaborators>
+
+## Tips & Tricks for new contributors
+
+    <Any material that helps the new contributor to relate to the project like impact statement, story, and contributor in focus>
+
+## Acknowledgments and celebrations
+
+    <Shout out and wishes to celebratory news from members, recent meetings where someone talked about Turing Way, Tweets and other online mentions from people other than the team members>
+
+## Special mentions
+
+    <Shout out to the reviewers for this newsletter other than the team members>
+
+## Connect with us!
+
+- [About the project](https://www.turing.ac.uk/research/research-projects/turing-way-handbook-reproducible-data-science)
+- [_The Turing Way_ book](https://the-turing-way.netlify.com)
+- [GitHub repository](https://github.com/alan-turing-institute/the-turing-way)
+- [Slack channel](https://join.slack.com/t/theturingway/shared_invite/zt-fn608gvb-h_ZSpoA29cCdUwR~TIqpBw)
+- [Public Gitter channel](https://gitter.im/alan-turing-institute/the-turing-way)
+- [YouTube Videos](https://www.youtube.com/channel/UCPDxZv5BMzAw0mPobCbMNuA)
+- [Twitter Channel](https://twitter.com/turingway)
+
+You are welcome to contribute content for the next newsletter by
+emailing [Malvika Sharan](mailto:msharan@turing.ac.uk).
+
+*Did you miss the last newsletters?*
+*Check them out [here](https://tinyletter.com/TuringWay/archive).*
 ```

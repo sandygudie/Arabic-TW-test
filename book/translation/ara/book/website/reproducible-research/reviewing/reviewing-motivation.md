@@ -1,45 +1,46 @@
-crwdns852710:0crwdne852710:0
-# crwdns852712:0crwdne852712:0
+(rr-reviewing-motivation)=
+# Importance and Personal Benefits
 
-*crwdns852714:0crwdne852714:0*
+*How this will help you/ why this is useful*
 
-crwdns852716:0{ref}crwdne852716:0 crwdns852718:0crwdne852718:0 crwdns852720:0crwdne852720:0
+As with {ref}`testing<rr-testing>`, a key objective of code review is to remove mistakes and bad practice from changes made to a software project before those changes enter the main code base. However, it also has a number of other direct and indirect benefits to projects. These are discussed below.
 
-crwdns852722:0crwdne852722:0 crwdns852724:0crwdne852724:0 crwdns852726:0crwdne852726:0
+Code reviews are an effective method for improving software quality. McConnell (2004) suggests that unit testing finds approximately 25% of defects, function testing 35%, integration testing 45%, and code review 55-60%. While that means that none of these methods are good enough on their own, and that they should be combined, clearly code review is an essential tool here.
 
-crwdns852728:0crwdne852728:0
-## crwdns852730:0crwdne852730:0
+(rr-reviewing-motivation-bugs)=
+## Catching Bugs and Elementary Errors
 
-crwdns852732:0crwdne852732:0 crwdns852734:0crwdne852734:0 crwdns852736:0crwdne852736:0 crwdns852738:0crwdne852738:0 crwdns852740:0crwdne852740:0
+A simple objective of the review process is to catch bugs and elementary errors in proposed changes before they make it into the trunk code. In this way, code review shares aspects with testing. However, a robust testing programme should reduce the importance of code review for identifying these kinds of straightforward errors, as the tests should catch them before the code makes it to review stage. So in principle, this function of code review should be restricted to trivial changes like documentation typos. In practice, however, code review does act as an important second line of defence against all kinds of bugs and errors.
 
-crwdns852742:0crwdne852742:0
-## crwdns852744:0crwdne852744:0
+(rr-reviewing-motivation-improvements)=
+## Improvements to Testing
 
-crwdns852746:0crwdne852746:0 crwdns852748:0crwdne852748:0 crwdns852750:0crwdne852750:0 crwdns852752:0crwdne852752:0
+As noted above, a review should, and often does, catch actual bugs in proposed code changes. This, of course, is a sign that the proposed changes were not well-tested enough in the first place. A major aim of code review is to highlight places in the code where existing or newly developed testing processes are inadequate. In this way, code review helps to ensure the future health of the code base by providing a second perspective on what kinds of tests are needed - not only now, but also under hypothetical scenarios that could arise in the future as the code evolves.
 
-crwdns852754:0crwdne852754:0
-## crwdns852756:0crwdne852756:0
+(rr-reviewing-motivation-documentation)=
+## Documentation
 
+<!--SiccarPoint notes a whole section on documentation is justified in the book!-->
+Thorough documentation<!--reference goes here once section exists--> is a key component of reproducibility and of sustainable software more generally. Code review provides another pair of eyes to consider whether the documentation provided along with the proposed code changes is fit-for-purpose. This is doubly valuable, as the reviewer looking in from outside the development process may have a clearer perspective than the coder on whether new documentation offers enough information for a user coming to the code for the first time.
 
-<!--SiccarPoint notes a whole section on documentation is justified in the book!--> crwdns852758:0crwdne852758:0 crwdns852760:0crwdne852760:0 crwdns852762:0crwdne852762:0
+This kind of feedback on documentation applies equally to user-facing documentation and to inline comments.
 
-crwdns852764:0crwdne852764:0
+(rr-reviewing-motivation-readability)=
+## Readability
 
-crwdns852766:0crwdne852766:0
-## crwdns852768:0crwdne852768:0
+Related to documentation, code review can also help to ensure that code is readable and easy to understand. Having a second pair of eyes can help spot areas where the code might be difficult to follow. The more readable your code is, the easier it will be for other developers to reproduce your code for their own purposes.
 
-crwdns852770:0crwdne852770:0 crwdns852772:0crwdne852772:0 crwdns852774:0crwdne852774:0
+(rr-reviewing-motivation-enforcement)=
+## Style Enforcement
 
-crwdns852776:0crwdne852776:0
-## crwdns852778:0crwdne852778:0
+Many projects enforce certain {ref}`code style guidelines<rr-code-quality>`, be they widely-adopted standards (for example, [PEP8](https://www.python.org/dev/peps/pep-0008/), the [Google C++ style guide](https://google.github.io/styleguide/cppguide.html)) or more project-specific conventions. 
+{ref}`Automated services<pd-code-styling-tools>` provide a convenient way to enforce a coding style and start the discussion about code quality.
 
-crwdns852780:0{ref}crwdne852780:0 crwdns852782:0{ref}crwdne852782:0
+Code review provides an opportunity to ensure all proposed changes meet the minimum required standards for the project.
 
-crwdns852784:0crwdne852784:0
+(rr-reviewing-motivation-knowledge)=
+## Group Knowledge and Cohesion
 
-crwdns852786:0crwdne852786:0
-## crwdns852788:0crwdne852788:0
+Code review practices provide significant advantages beyond simply defending the health of the trunk code of a project when changes are proposed. Peer-to-peer review creates two-way exchange of information across a web strung between all contributing members of a team. This provides effective, organic transfer of best practice.
 
-crwdns852790:0crwdne852790:0 crwdns852792:0crwdne852792:0 crwdns852794:0crwdne852794:0
-
-crwdns852796:0{ref}crwdne852796:0 crwdns852798:0crwdne852798:0
+Reviews conducted in the right spirit (see especially {ref}`here<rr-reviewing-recommendation-be-nice>`) also serve an important purpose in bringing team members together and creating group cohesion. In particular, good reviews by core team members of the work of newcomers to a project can help make those newcomers feel welcomed and valued, and encourage their continued participation.

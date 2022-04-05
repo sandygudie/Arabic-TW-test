@@ -1,23 +1,28 @@
-crwdns824504:0crwdne824504:0
-# crwdns824506:0crwdne824506:0
+(cl)=
+# Guide for Collaboration
 
-***crwdns824508:0crwdne824508:0***
+***This guide covers topics related to effective and inclusive collaboration.***
 
-crwdns824510:0crwdne824510:0 crwdns824512:0crwdne824512:0
+Data science is defined by its interdisciplinarity. Our work can only reach its highest potential if there are diverse teams of people involved in designing and delivering the research or product.
 
 ```{figure} ../figures/collaboration.jpg
-crwdns824514:0crwdne824514:0 crwdns824516:0crwdne824516:0 crwdns824518:0crwdne824518:0 crwdns824520:0crwdne824520:0
+---
+name: collaboration
+width: 500px
+alt: An iceberg's tip is labelled with the project related technical terms, and a few divers are exploring a huge part of iceberg underwater which are labelled with community oriented collaborative terms
+---
+There is more to collaboration than we see. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-crwdns824522:0crwdne824522:0 crwdns824524:0crwdne824524:0
+There are many different skills required to work well in groups with a wide range of expertise. In this guide, we welcome contributions in developing guidance on following (but not limited to) topics:
 
-* crwdns824526:0crwdne824526:0
-* crwdns824528:0crwdne824528:0
-* crwdns824530:0crwdne824530:0
-* crwdns824532:0crwdne824532:0
-* crwdns824534:0crwdne824534:0
-* crwdns824536:0crwdne824536:0
-* crwdns824538:0crwdne824538:0
-* crwdns824540:0crwdne824540:0
+* Designing a project that welcomes contributions
+* Distributed collaboration on GitHub
+* Reviewing team member's contributions
+* Remote working
+* Running an inclusive event
+* Chairing a meeting
+* Defining explicit expectations
+* Participatory co-creation
 
-crwdns824542:0crwdne824542:0
+Check out our [contributing guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) to get involved.

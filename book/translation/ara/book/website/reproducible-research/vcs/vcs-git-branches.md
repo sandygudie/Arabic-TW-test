@@ -1,51 +1,55 @@
-crwdns854744:0crwdne854744:0
-# crwdns854746:0crwdne854746:0
+(rr-vcs-git-branches)=
+# Git Branches
 
-crwdns854748:0crwdne854748:0
+When working on a project, individually or collaboratively, you may encounter the following scenarios:
 
-- crwdns854750:0crwdne854750:0 crwdns854752:0crwdne854752:0
-- crwdns854754:0crwdne854754:0
-- crwdns854756:0crwdne854756:0 crwdns854758:0crwdne854758:0
+- If you add a new feature to your project, you run the risk of accidentally breaking your working code as you test the feature. This would cause unexpected issues for active users of your project, even if the only active user is you.
+- When you collaborate with others, and everyone works on the main branch simultaneously, there could be a lot of confusion and conflicting changes.
+- Some code/feature might not be interesting for everyone. There may need to be a way to allow new work to be done on a project whilst protecting work that has already been done.
 
-crwdns854760:0crwdne854760:0 crwdns854762:0crwdne854762:0 crwdns854764:0crwdne854764:0 crwdns854766:0crwdne854766:0 crwdns854768:0crwdne854768:0 crwdns854770:0{ref}crwdne854770:0
+Git branches are extremely valuable when addressing any of these issues. For every Git project, by default, you have one branch called 'main' where all commits are recorded. The branching feature of Git allows us to create a copy of a project that we can work on and continue to make commits to without integrating them into the main branch right away. Meanwhile, one can continue to make commits on the main branch, which is untouched by the changes made on other branches. Once you are happy with whatever you were working on on a branch, you can merge it into your main branch (or indeed any other branch). Merging will be covered in the {ref}`rr-vcs-git-merge` subchapter.
 
-crwdns854772:0crwdne854772:0 crwdns854774:0crwdne854774:0
+If you test a feature on a branch that does not work out, you can delete or abandon it (for example, Feature B in the diagram below) rather than spending time unpicking your changes if you were doing all your work on the main branch. You can have as many branches off of branches as you desire (for example, Feature A-1).
 
-crwdns854776:0crwdne854776:0 crwdns854778:0crwdne854778:0
+Using branches keeps working code safe, particularly in collaborations. Each contributor can have their own branch or branches which are only merged into the main project when they are ready.
 
 ```{figure} ../../figures/sub-branch.png
-crwdns854780:0crwdne854780:0 crwdns854782:0crwdne854782:0 crwdns854784:0crwdne854784:0
+---
+name: sub-branch
+alt: An illustration of branching in Git. There are four branches shown named main, Feature A, Feature B, and Feature A-1. Feature A and B are branches of the main branch, while Feature A-1 is a branch made from Feature A.
+---
+An illustration of branching in Git
 ```
 
-crwdns854786:0crwdne854786:0
+You can create a branch and switch to it using:
 ```
-crwdns854788:0crwdne854788:0
-```
-
-crwdns854790:0crwdne854790:0
-```
-crwdns854792:0crwdne854792:0
+git checkout -b name_of_your_new_branch
 ```
 
-crwdns854794:0crwdne854794:0
+To change between branches, use the following command:
+```
+git checkout name_of_the_branch
+```
 
-crwdns854796:0crwdne854796:0
+You must commit any work you have in progress before you can to switch to another branch.
+
+You can see all branches of your project using:
 
 ```
-crwdns854798:0crwdne854798:0
+git branch
 ```
-crwdns854800:0crwdne854800:0 crwdns854802:0crwdne854802:0
+This gives the output as a list with an asterisk next to the branch you are on. You can also use `git status` if you have forgotten which branch you are on.
 
-crwdns854804:0crwdne854804:0
+If you decide to get rid of a branch you can delete it with:
 
 ```
-crwdns854806:0crwdne854806:0
+git branch -D name_of_the_branch
 ```
-crwdns854808:0crwdne854808:0
-## crwdns854810:0crwdne854810:0
+(rr-vcs-branches-practice)=
+## Good practice
 
-crwdns854812:0crwdne854812:0 crwdns854814:0crwdne854814:0 crwdns854816:0crwdne854816:0 crwdns854818:0crwdne854818:0 crwdns854820:0crwdne854820:0 crwdns854822:0crwdne854822:0
+Branches should be used to **keep the main branch clean**. That is, the main should only contain work which is complete, tested, and rightfully belongs in the main version of the project. Similarly, you should try to keep individual branches as clean as possible by **only adding one new feature per branch**. This is because if you are working on several features, some may be finished and ready to merge into main while others are still under development. Keeping your branches clean means only making changes related to the feature on the feature's branch. Give your branches **sensible names**, "new_feature" is all well and good until you start developing a newer feature on another branch.
 
-## crwdns854824:0crwdne854824:0
+## Interactive tutorial
 
-crwdns854826:0crwdne854826:0 crwdns854828:0crwdne854828:0
+[Learn Git Branching](https://learngitbranching.js.org/) is a project to provide an interactive way to learn Git. Going through their tutorials will provide substantial experience with the most commonly used git commands and branch manipulation techniques.

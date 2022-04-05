@@ -1,141 +1,148 @@
-crwdns850188:0crwdne850188:0
-# crwdns850190:0crwdne850190:0
+(rr-rdm-spreadsheets)=
+# Data Organisation in Spreadsheets
 
-crwdns850192:0crwdne850192:0 crwdns850194:0crwdne850194:0 crwdns850196:0crwdne850196:0 crwdns850198:0crwdne850198:0 crwdns850200:0crwdne850200:0
+Spreadsheets, such as Microsoft Excel files, google sheets, and their Open Source alternative [(for instance) LibreOffice](https://www.libreoffice.org), are commonly used to collect, store, manipulate, analyse, and share research data. Spreadsheets are convenient and easy-to-use tools for organising information into an easy to write and easy to read forms for humans. However, one should use them with caution, as the use of an inappropriate spreadsheet is a major cause of mistakes in the data analysis workflow. There is a collection of [horror-stories](http://www.eusprig.org/horror-stories.htm) that tells how the use of spreadsheets can ruin analysis-based studies due to unexpected behaviour of the spreadsheet or error-prone editing processes. Some of these mishaps are not unique to spreadsheets, but many, such as [this](https://doi.org/10.1186/s13059-016-1044-7) and [this](https://doi.org/10.1186/1471-2105-5-80), are.
 
-crwdns850202:0crwdne850202:0
-- crwdns850204:0crwdne850204:0
-- crwdns850206:0crwdne850206:0
-- crwdns850208:0crwdne850208:0
-- crwdns850210:0crwdne850210:0
+Fortunately, most problems can be avoided with the following recommendations:
+- Use spreadsheet in a text-only format (.csv or .tsv),
+- Create tidy spreadsheets,
+- Make spreadsheets consistent (with each other) and implement rules for data entries, and
+- Avoid manipulating and analysing data in spreadsheet software (this includes copy-paste).
 
-crwdns850212:0crwdne850212:0
+Spreadsheets are a powerful tool only if the dataset is collected and organised in specific formats that are usable for both the computers and researchers.
 
-crwdns850214:0crwdne850214:0
-## crwdns850216:0crwdne850216:0 crwdns850218:0crwdne850218:0
+(rr-rdm-spreadsheets-nondata)=
+## 1. Avoid Non-Data Content
 
-crwdns850220:0crwdne850220:0 crwdns850222:0crwdne850222:0 crwdns850224:0crwdne850224:0 crwdns850226:0crwdne850226:0 crwdns850228:0crwdne850228:0
+Spreadsheets are used for organising data in a tabular form. The subject, the object and the relationship between them are transformed into rows, cells and columns, respectively. For example, the subject: `experiment`, relationship: `was performed on the date`, and the object: `2020-06-06` gives one row for each experiment, one column for `date of experiment`, and the value `2020-06-06` in the cell. Unfortunately, spreadsheet programs allow you to add other kinds of contents to this, like color to specific cells. While it may help the researchers at some point, one needs to remember that this kind of **cell modification should not be considered as data**, primarily because they cannot be exported to other software.
 
-crwdns850230:0crwdne850230:0 crwdns850232:0crwdne850232:0 crwdns850234:0crwdne850234:0
-- crwdns850236:0crwdne850236:0
-- crwdns850238:0crwdne850238:0
-- crwdns850240:0crwdne850240:0
-- crwdns850242:0crwdne850242:0
+As a simple rule, what can be exported in a text-only format, comma-separated values (CSV), or tab-separated values (TSV), can be considered as the data. Other functions should be avoided when using these programs for research data. This includes:
+- changing font, color or borders,
+- using functions,
+- merging cells (this one is particularly problematic),
+- using specific cell formats (especially dates, see below).
 
-crwdns850244:0crwdne850244:0 crwdns850246:0crwdne850246:0
-
-```
-crwdns850248:0crwdne850248:0
-crwdns850250:0crwdne850250:0
+As a test for your spreadsheet compatibility with reproducible research, export your data from the spreadsheet to the CSV format and reopen it. If you can still get all the information that you stored in your sheet, then your data is fine.
 
 ```
-crwdns850252:0crwdne850252:0
-## crwdns850254:0crwdne850254:0 crwdns850256:0crwdne850256:0
+Tip: If you want to use color to help with a rapid highlight in your document, create a new column to indicate which cells are highlighted (it becomes a part of your data).
+In addition to the visual feedback, you can now also use this information to filter or sort your data and get the highlighted cells quickly.
 
-crwdns850258:0{ref}crwdne850258:0
+```
+(rr-rdm-spreadsheets-format)=
+## 2. Tidy Format For Spreadsheets
 
-crwdns850260:0crwdne850260:0 crwdns850262:0crwdne850262:0
+If the spreadsheet is poorly organised, then it may be [difficult for collaborators](https://luisdva.github.io/pls-don't-do-this/) to easily {ref}`read-in and re-use <rr-rdm-fair>` your data for further analysis.
 
-crwdns850264:0crwdne850264:0 crwdns850266:0crwdne850266:0
+Indeed, a large part of the work of data scientists is to transform the data into a form that the computer can read. However, this is incredibly time-consuming when the information is split between several spreadsheets and when there are no concrete data transformation plans before the data is acquired.
 
-crwdns850268:0crwdne850268:0
+There are very simple rules to facilitate data use, which go into the concept of [**tidy data**](https://en.wikipedia.org/w/index.php?title=Tidy_data&oldid=962241815). The tidy data format allows for filtering and sorting data easily in spreadsheet software.
 
-- crwdns850270:0crwdne850270:0
-- crwdns850272:0crwdne850272:0
-- crwdns850274:0crwdne850274:0
-- **crwdns850276:0crwdne850276:0**
-- crwdns850278:0crwdne850278:0
+In short:
+
+- One column = one variable (no more, no less, this implies that two header names can not be identical)
+- One row = one sample
+- One cell = one information
+- **The first row is the header**
+- Header names must not include a special character (including space) or start with a number
 
 ```{figure} ../../figures/tidy-1.png
-crwdns850280:0crwdne850280:0 crwdns850282:0crwdne850282:0
-crwdns850284:0crwdne850284:0
+---
+name: tidy-1
+alt: The image depicts tidy data. One column represents a variable, one row represents a sample, and one cell represents a piece of information.
+---
+An illustration of tidy data.
 ```
 
-crwdns850286:0crwdne850286:0
-1. crwdns850288:0crwdne850288:0
-2. crwdns850290:0crwdne850290:0
-3. crwdns850292:0crwdne850292:0
+Three rules make a dataset tidy:
+1. Each variable must have its own column.
+2. Each observation must have its own row.
+3. Each value must have its own cell.
 
-crwdns850294:0crwdne850294:0
+There are data validation tools available, like https://goodtables.io, that allow you to automatically check whether your spreadsheets are tidy.
 
-crwdns850296:0crwdne850296:0
-## crwdns850298:0crwdne850298:0 crwdns850300:0crwdne850300:0
+(rr-rdm-spreadsheets-consistent)=
+## 3. Consistent Values
 
-crwdns850302:0crwdne850302:0 crwdns850304:0crwdne850304:0 crwdns850306:0crwdne850306:0
+When you work with several spreadsheets or with a team during data collection, it is crucial to make sure the same information will be entered with the same term, and that the same term always conveys the same information. In the example of iris data, if some people use different terms to record information for a specific column - such as naming the column `species` instead of `Species` or using `iris setosa`, `set.` or `i.setosa` instead of `setosa` - the creation of a reproducible workflow will be more difficult, and errors may even be overlooked.  
+Discrepancies often lead to errors, especially when the same terms could mean different things depending on who is entering the data. For example, indicating date as `02-03` will mean February the 3<sup>rd</sup> in the USA, but March the 2<sup>nd</sup> in Europe.
 
-crwdns850308:0crwdne850308:0 crwdns850310:0crwdne850310:0 crwdns850312:0crwdne850312:0 crwdns850314:0crwdne850314:0 crwdns850316:0crwdne850316:0
+It is good practice to implement a `data dictionary` or a `taxonomy` of accepted terms and document the convention used in a README file. Depending on the software you use, you may be able to restrict the accepted values in specific columns. If such a taxonomy or ontology is available, using it may allow you (and others) to use the data in conjunction with other datasets. For example, you may use the generic `male` and `female` term for the sex of an animal (without capitals, and without using abbreviation), as many ontologies use these terms. Besides, you may want to use some extra tools to validate the spreadsheets before its integration in the analysis.
 
-crwdns850318:0crwdne850318:0 crwdns850320:0crwdne850320:0 crwdns850322:0crwdne850322:0 crwdns850324:0crwdne850324:0 crwdns850326:0crwdne850326:0
+You should also have clear rules about missing data points. Using `NA`, `NULL`, or empty cells is not trivial and may have different meanings (impossible data point, not recorded, or lost data point). Imagine a researcher wants to record the time spent before seeing a pollinator land on an iris flower, and no pollinator was seen during the 10-minute experiment. Suppose the researcher reports `600` (the duration of the experiment in seconds). In that case, there will be no way to distinguish a scenario where no pollinator was seen, and one when a pollinator was seen at the end of the experiment (and you may forget that rule and treat `600` as a normal value).
 
-crwdns850328:0crwdne850328:0 crwdns850330:0crwdne850330:0
+If `NA` is reported, one may interpret this value as a non-existing data point (the experiment had not been performed). An elegant solution is to have a second column stating whether a pollinator was seen during the experiment, where `TRUE`, `FALSE` and `NA` values are accepted.
 
-crwdns850332:0crwdne850332:0 crwdns850334:0crwdne850334:0 crwdns850336:0crwdne850336:0
+Finally, you should also be aware of the default behaviour of your spreadsheet program, as it may be different for different programs, and different versions of the same program. For instance, the decimal is usually indicated with a comma in the French or German versions of Excel. In the English versions, a dot is used since the comma has no meaning (`9,000` will be translated into `9000` or `9` depending on the version you are using).
 
-crwdns850338:0crwdne850338:0
-## crwdns850340:0crwdne850340:0 crwdns850342:0crwdne850342:0
+(rr-rdm-spreadsheets-manipulation)=
+## 4. Data Manipulation and Analysis
 
-***crwdns850344:0crwdne850344:0***
+***Do not manipulate or analyse data in a spreadsheet program.***
 
-crwdns850346:0crwdne850346:0 crwdns850348:0crwdne850348:0
+In particular, only copy-paste from one spreadsheet to another if the process is used very rarely. It is now effortless to read and combine different spreadsheets in the analysis software, with the additional advantage that the software will return an error message if the headers do not fit.
 
-crwdns850350:0crwdne850350:0
-## crwdns850352:0crwdne850352:0
+(rr-rdm-spreadsheets-tips)=
+## Other Tips
 
-crwdns850354:0crwdne850354:0
-### crwdns850356:0crwdne850356:0
+(rr-rdm-spreadsheets-tips-time)=
+### Dealing With Time Information
 
-crwdns850358:0crwdne850358:0 crwdns850360:0crwdne850360:0 crwdns850362:0crwdne850362:0
+While dates should be written as `yyyy-mm-dd`, Excel and other software tend to transform this data into their own date formats (even during data import from a CSV file). The only 100% secure way to deal with this is to make different columns for years, months, and days and recreate the data in the software used for analysis. Time entered with `hh:mm:ss` normally works.
 
-crwdns850364:0crwdne850364:0
-### crwdns850366:0crwdne850366:0
+(rr-rdm-spreadsheets-tips-several)=
+### Working With Several Sheets
 
-crwdns850368:0crwdne850368:0 crwdns850370:0crwdne850370:0 crwdns850372:0crwdne850372:0 crwdns850374:0crwdne850374:0 crwdns850376:0crwdne850376:0
+We often use several sheets for different but related data. It is a handy tool indeed, especially when one wants to share the complete dataset with colleagues.  
+On the other hand, CSV files only save one sheet at a time. Though most data analysis software have several ways to import `xlsx` files, the practical solution is to work with the `xlsx` format while making sure that the information is available in CSV format for each sheet. A better solution, especially for long term storage, is to save all sheets separately in a CSV file and zip them together. This solution also allows including extra documentation that could be in a different format (for example, a text file explaining the meaning of the headers and the chosen unit).
 
-crwdns850378:0crwdne850378:0
-### crwdns850380:0crwdne850380:0
+(rr-rdm-spreadsheets-tips-design)=
+### Spreadsheet Design
 
-crwdns850382:0crwdne850382:0 crwdns850384:0crwdne850384:0 crwdns850386:0crwdne850386:0 crwdns850388:0crwdne850388:0 crwdns850390:0crwdne850390:0 crwdns850392:0crwdne850392:0 crwdns850394:0crwdne850394:0
+Data is often collected manually, on paper. To be most efficient and avoid mistakes, it is best to collect the data in the same format as it will be digitalised. That is, one should design the computer-readable spreadsheet to be printed for data collection. This poses some design questions, especially for information that is unique to one experiment (one paper) but may change between experiments (for example, experimentalist or temperature of the room). You indeed want that information in one column, but you would like to enter it only once during data acquisition (especially on the paper version). One solution is to move these columns onto a second (non-printed) page on the spreadsheet and adjust the headers and footers to enter the information on the paper version. One needs to make sure the information is entered in the column during digitalisation.
 
-crwdns850396:0crwdne850396:0 crwdns850398:0crwdne850398:0
+The way you enter the information (that is, the way you design your headers and cell content) may be different depending on the analysis you want to perform. One should still always try to be as generic and objective as possible and think about any additional analyses one may want to perform.
 
 
-crwdns850400:0crwdne850400:0 crwdns850402:0crwdne850402:0 crwdns850404:0crwdne850404:0
+As an example, let us suppose you are interested in depicting if the percentage of flowers whose sepal length is longer than 6 mm is different in three iris species. You may be inclined to record a true or false column `is-sepal-longer-than-6cm`, but this will restrict the analysis you can perform. A better solution is to record the length of the sepal (in mm) and automatically create the categorization later.
 
-crwdns850406:0crwdne850406:0
+If you are using R, you would then plot what you wanted with:
 ```
-crwdns850408:0crwdne850408:0
+iris %>% ## the iris dataset is included in R base
+  dplyr::mutate ("is-sepal-longer-than-6cm" = ifelse(Sepal.Length >6, TRUE, FALSE)) %>% ## this create the new column
+  ggplot2::ggplot (aes (x=`is-sepal-longer-than-6cm` , fill= Species)) + ggplot2::geom_bar() ## this plots the data
 ```
 
-crwdns850410:0crwdne850410:0 crwdns850412:0crwdne850412:0
+Headers names should be chosen with care, and when it is not clear what is meant and what unit is used, you may want to add some explanation in an external document. You may also share a sample spreadsheet to a colleague to receive feedback on how understandable your sheet is.
 
-crwdns850414:0crwdne850414:0 crwdns850416:0crwdne850416:0 crwdns850418:0crwdne850418:0 crwdns850420:0crwdne850420:0
+Another alternative is to add some explanations on top of the sheet in the first rows before the headers. By keeping human-readable information at the top of the file, one can better understand the data that starts in the header rows. This information can also help in analysing that data, making sure that the scripts ignore the explanation lines and only consider it during analysis. However, a good file with tidy columns and rows should not need extra explanation.
 
-crwdns850422:0crwdne850422:0 crwdns850424:0crwdne850424:0
+As for header names, the size of the headers is not an issue for computers. However, for human readability, it is better to keep it short (up to 32 characters).
 
-crwdns850426:0crwdne850426:0 crwdns850428:0crwdne850428:0
+You do not have to think about the order of the columns for the analysis, as it has no importance for data analysis software. You can, therefore, completely optimise that parameter for the data collection step.
 
-crwdns850430:0crwdne850430:0
-### crwdns850432:0crwdne850432:0
+(rr-rdm-spreadsheets-tips-versioning)=
+### Standard and Versioning
 
-crwdns850434:0crwdne850434:0 crwdns850436:0crwdne850436:0 crwdns850438:0crwdne850438:0 crwdns850440:0crwdne850440:0 crwdns850442:0crwdne850442:0
+A good spreadsheet design has instructive and intuitive header names, and it facilitates both data collection and analysis. Building such a spreadsheet design is difficult as it takes time, multiple iterations, and consensus. It is therefore beneficial to look for a standard spreadsheet before designing your own and to share your design openly once it is created. One should also use a version history of the spreadsheets (as they will evolve), and the analysis script should mention the version number of the spreadsheet. Documentation of the spreadsheet, its version history, and the ontologies it is linked to, can be useful for future users.
 
-crwdns850444:0crwdne850444:0
-### crwdns850446:0crwdne850446:0
+(rr-rdm-spreadsheets-tips-team)=
+### Working In A Team: Wrap-up
 
-crwdns850448:0crwdne850448:0
-- crwdns850450:0crwdne850450:0
-- crwdns850452:0crwdne850452:0
-- crwdns850454:0crwdne850454:0
-- crwdns850456:0crwdne850456:0
-- crwdns850458:0crwdne850458:0
-- crwdns850460:0crwdne850460:0
+If you are working with a team on data collection, make sure:
+- Everyone uses the same software (and software version) to enter the data.
+- Everyone uses the same version of the spreadsheet template.
+- Everyone understands what each column represents, and the unit that should be used.
+- Every column has a defined standard on how to enter data in it or taxonomy of terms that one can use.
+- One person is responsible for answering putative questions during data collection.
+- Every spreadsheet is validated before entering the analysis workflow, and as soon as possible.
 
 
-crwdns850462:0crwdne850462:0
-## crwdns850464:0crwdne850464:0
+(rr-rdm-spreadsheets-summary)=
+## Summary
 
-crwdns850466:0crwdne850466:0 crwdns850468:0crwdne850468:0 crwdns850470:0crwdne850470:0 crwdns850472:0crwdne850472:0
+While spreadsheets can be a very user-friendly way to collect and share data, they can also be the source of mistakes if misused. When aiming at developing a reproducible workflow for analyses, one should design the spreadsheet for both computer and human readability, and, even before starting data collection, they should consider what would make their data analysis easy. Data manipulation and analysis in spreadsheets, in particular, is best avoided as it leads to non-reproducible workflows. Using version control and making the data read-only are two additional data management practices that can prevent accidents.
 
-crwdns850474:0{term}crwdne850474:0 crwdns850476:0crwdne850476:0 crwdns850478:0crwdne850478:0
+Use a README [{term}`def<README>`] file and and other structure choices to explain naming conventions. It will make it clear to others what the file and header names mean, and what criteria to consider when designing an analysis workflow. If you work in a team, you should take particular care of the conventions and make sure everyone follows them.
 
-crwdns850480:0crwdne850480:0
+To learn more about data organisation in spreadsheets, you may have a look at the Data Carpentry lessons for [Social Scientists](https://datacarpentry.org/spreadsheets-socialsci/) and [Ecologists](https://datacarpentry.org/spreadsheet-ecology-lesson/).

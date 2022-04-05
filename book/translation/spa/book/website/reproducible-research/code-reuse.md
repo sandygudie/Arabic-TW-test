@@ -1,23 +1,23 @@
-(rr-código reutilizar)=
-# Código reutilizable
-Su proyecto de software podría ir desde un pequeño script que utiliza para el procesamiento de datos hasta un cuaderno utilizado para el análisis de datos o una biblioteca de software que implementa sus algoritmos. Independientemente de lo grande o pequeño que sea su proyecto de software, es importante hacer que su código sea reutilizable.
+(rr-code-reuse)=
+# Reusable Code
+Your software project could range from a small script you use for data processing to a notebook used for data analysis, or a software library implementing your algorithms. Regardless of how big or small your software project is, it is important to make your code reusable.
 
-Diferentes tipos de software tienen diferentes requisitos para ser reutilizables: para un script pequeño, tener suficiente documentación podría ser suficiente, mientras que para una misión crítica de la biblioteca de software, podría ser necesario realizar pruebas exhaustivas. En el nivel más básico, todo lo que necesitas hacer es poner tu código en línea en algún lugar que probablemente dure mucho tiempo. Un enfoque más elaborado para hacer su software de investigación más reutilizable es siguiendo los Principios FAIR para la Investigación de Software (FAIR4RS Principios) {cite:ps}`ChueHong2021FAIR4RS`.
+Different types of software have different requirements for being reusable: for a small script, having sufficient documentation might be enough, while for a mission critical software library, thorough testing might be necessary. At the most basic level, all you need to do is put your code online somewhere that is likely to last a long time. A more elaborate approach to making your research software more reusable is by following the FAIR Principles for Research Software (FAIR4RS Principles) {cite:ps}`ChueHong2021FAIR4RS`.
 
-Cuando hablamos de hacer que el código sea reutilizable, es útil aclarar lo que queremos. En la {ref}`Tabla de Definiciones para Reproducibilidad<rr-overview-definitions-reproducibility>` definimos la investigación reproducible como usar los mismos datos y el mismo código. Sin embargo, cuando hablamos de reutilizar código esto puede tomar muchos formularios: es posible que queramos ejecutar el mismo código exactamente (para lenguajes de programación compilados, esto podría significar el mismo archivo binario), o tal vez queramos modificar el código fuente y ampliarlo de una manera particular para satisfacer nuestras necesidades. Freire y Chirigati {cite:ps}`Freire2018Reproducibility` proporcionan un marco de diferentes niveles de reproducibilidad, dependiendo de lo que se puede modificar. Definen los siguientes niveles de reproducibilidad: repetible, reejecutable, portátil, extensible y modificable.
+When we talk about making code reusable, it is useful to clarify what we mean. In the {ref}`Table of Definitions for Reproducibility<rr-overview-definitions-reproducibility>` we defined reproducible research as using the same data and the same code. However, when we talk about code re-use this can take many forms: we may want to run the exact same code (for compiled programming languages, this could even mean the exact same binary file), or we may want to modify the source code and extend it in some particular way to fit our needs. Freire and Chirigati {cite:ps}`Freire2018Reproducibility` provide a framework of different levels of reproducibility, depending on what can be modified. They define the following levels of reproducibility: repeatable, re-runnable, portable, extendable and modifiable.
 
-Podemos mapear las definiciones de forma reproducible en el marco Freire de la siguiente manera:
+We can map the definitions of reproducibly on the Freire framework as follows:
 
-| Freire framework | Definiciones de reproducibles                                             |
-| ---------------- | ------------------------------------------------------------------------- |
-| Repetible        | Reproducible (mismos datos, mismo análisis)                               |
-| Ejecutable       | Robusto & Replicable (mismo código, diferentes datos/análisis/parámetros) |
-| Portable         | *No considerado* (mismo código/datos, entorno diferente)                  |
-| Ampliable        | (parcialmente) Generalizable                                              |
-| Modificable      | (parcialmente) Generalizable                                              |
+| Freire framework | Definitions of reproducibly                                         |
+| ---------------- | ------------------------------------------------------------------- |
+| Repeatable       | Reproducible (same data, same analysis)                             |
+| Re-runnable      | Robust & Replicable (same code, different data/analysis/parameters) |
+| Portable         | *Not considered* (same code/data, different environment)            |
+| Extendable       | (partly) Generalisable                                              |
+| Modifiable       | (partly) Generalisable                                              |
 
-La portabilidad no se consideraba anteriormente, pero para el software un entorno diferente (como hardware diferente, el sistema operativo o incluso una instalación nueva en hardware comparable) puede afectar a la capacidad de funcionamiento del software (por ejemplo, puede afectar a las dependencias).
+Portability was not previously considered, but for software a different environment (such as different hardware, operating system or even a fresh install on comparable hardware) may affect the ability for the software to work (for example it may affect dependencies).
 
-Además, el generalizable encapsula dos conceptos: Extendible (la capacidad de integrarse con otro software) y Modible (la capacidad de cambiar parte de la implementación para extender su funcionalidad).
+Also, Generalisable encapsulates two concepts: Extendable (the ability to integrate with other software) and Modifiable (the ability to change part of the implementation to extend its functionality).
 
-En el resto de este capítulo le proporcionamos una lista de recomendaciones que puede seguir para asegurarse de que su código es reutilizable.
+In the rest of this chapter we provide list of recommendations you can follow to make sure your code is reusable.

@@ -1,21 +1,21 @@
 (rr-binderhub-build)=
-# Construa seu próprio BinderHub
+# Build your own BinderHub
 
-[mybinder.org](https://mybinder.org/) é o binderHub público gratuito, que hospeda quase 100k Binder lançamentos por semana. Por que você pode querer construir o seu próprio?
+[mybinder.org](https://mybinder.org/) is the free, public BinderHub that hosts almost 100k Binder launches per week. Why might you want to build your own?
 
-A Binder [{term}`def<Binder>`] é um projeto de código aberto mantido por voluntários e, como tal, pede que os usuários permaneçam dentro de certas limitações computacionais para manter os custos de execução o mais baixos possível, enquanto ainda fornecem um serviço utilizável. Ao hospedar seu próprio BinderHub, você pode oferecer seus usuários muito mais flexíveis e recursos personalizados.
+Binder [{term}`def<Binder>`] is an open source project maintained by volunteers and as such they ask that users stay within certain computational limitations in order to keep running costs as low as possible whilst still providing a usable service. By hosting your own BinderHub, you can offer your users much more flexible and tailored resources.
 
-Essas personalizações poderiam incluir:
+These customisations could include:
 
-- autenticação,
-- recursos computacionais maiores por usuário,
-- pilhas e pacotes da biblioteca sob medida,
-- permitindo acesso a repositórios privados,
-- armazenamento persistente para usuários,
-- restringir o compartilhamento em uma determinada instituição ou equipe.
+- authentication,
+- greater computational resources per user,
+- bespoke library stacks and packages,
+- allowing access to private repos,
+- persistent storage for users,
+- restrict sharing within a certain institution or team.
 
-## Problemas que você pode enfrentar ao implantar um BinderHub
+## Issues you may face when deploying a BinderHub
 
-Os BinderHubs estão ficando cada vez mais populares entre universidades e institutos de pesquisa. Isso porque eles podem facilitar vários exemplos do mesmo conjunto de cadernos para serem usados em um tutorial ou configuração da oficina.
+BinderHubs are becoming increasingly popular amongst universities and research institutes. This is because they can facilitate multiple instances of the same set of notebooks for use in a tutorial or workshop setting.
 
-Se estiver implantando um BinderHub hospedado em nuvem em nome da sua organização, pode precisar de permissões específicas na assinatura da plataforma de nuvem da sua organização. As permissões que você precisa variarão de acordo com a plataforma na nuvem que você tem acesso a e suas políticas de Serviços de TI. No mínimo você precisa ser capaz de atribuir a função [Role Based Access Control (RBAC)](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview) aos seus recursos para que eles possam agir autonomamente a fim de gerenciar o tráfego do usuário.
+If you are deploying a cloud-hosted BinderHub on behalf of your organisation, you may need specific permissions on your organisation's cloud platform subscription. Which permissions you require will vary based on the cloud platform you have access to and your IT Services policies. At minimum, you'll need to be able to assign [Role Based Access Control (RBAC)](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview) to your resources so they can act autonomously in order to manage user traffic.

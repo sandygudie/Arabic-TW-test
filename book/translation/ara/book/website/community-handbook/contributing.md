@@ -1,12 +1,17 @@
-crwdns836306:0crwdne836306:0
-# crwdns836308:0crwdne836308:0
+(ch-contributing)=
+# Contributing and Developing Chapters - Templates and Workflow
 
-crwdns836310:0crwdne836310:0 crwdns836312:0crwdne836312:0
+As _The Turing Way_ project grows and evolves, we actively welcome and encourage continuous contributions from community members in the form of new chapters and case studies. However, these new contributions need to be consistent with the overall theme, purpose, format, and style of the book's existing content.
 
-crwdns836314:0crwdne836314:0
+Since _The Turing Way_ is written asynchronously by multiple authors around the world, we created a series of templates to guide different kinds of content development while maintaining a consistent format of the book.
 
 ```{figure} ../figures/that-could-be-a-chapter.jpg
-crwdns836316:0crwdne836316:0 crwdns836318:0crwdne836318:0 crwdns836320:0crwdne836320:0 crwdns836322:0crwdne836322:0 crwdns836324:0crwdne836324:0
+---
+height: 400px
+name: that-could-be-a-chapter
+alt: A sketch of Kirstie saying “That could be a chapter”
+---
+"That could be a chapter in The Turing Way!" - Kirstie Whitaker. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-crwdns836326:0crwdne836326:0 crwdns836328:0crwdne836328:0 crwdns836330:0crwdne836330:0
+This chapter provides a brief overview of the workflow for writing chapters and case studies for _The Turing Way_. We encourage you to read through and follow the recommendations if you wish to make a contribution. Also, ensure that you read our [Contributor Guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) in addition to our [style](https://the-turing-way.netlify.app/community-handbook/style.html) and [consistency](https://the-turing-way.netlify.app/community-handbook/consistency.html) recommendations as you prepare your contributions.

@@ -1,147 +1,147 @@
-crwdns852442:0crwdne852442:0
-# crwdns852444:0crwdne852444:0
+(rr-checklist-for-code-review)=
+# Checklist for code review process
 
-crwdns852446:0crwdne852446:0 crwdns852448:0crwdne852448:0
+This section presents some checklists for both the coder and the reviewer, as part of a formal review process. The reviewer checklists are split into two categories: one for the whole program, and one for individual files or proposed changes.
 
-crwdns852450:0crwdne852450:0 crwdns852452:0crwdne852452:0 crwdns852454:0crwdne852454:0
+The lists are created with a focus on good software engineering practice and are intended to be a source of inspiration. When assessing the checklists, it is recommended to consider to what extent the item mentioned is implemented. Some items on the lists may not apply to your project or programming language, in which case they should be disregarded.
 
-crwdns852456:0crwdne852456:0
+In all cases, the goal is to use your programming experience to figure out how to make the code better.
 
-## crwdns852458:0crwdne852458:0
+## For the coder
 
-- crwdns852460:0crwdne852460:0 crwdns852462:0crwdne852462:0
-- crwdns852464:0crwdne852464:0
-- crwdns852466:0{ref}crwdne852466:0
-- crwdns852468:0crwdne852468:0
-  - crwdns852470:0crwdne852470:0
-  - crwdns852472:0crwdne852472:0
-- crwdns852474:0crwdne852474:0
-- crwdns852476:0{ref}crwdne852476:0 crwdns852478:0crwdne852478:0 crwdns852480:0crwdne852480:0
-- crwdns852482:0crwdne852482:0
+- Does the new code meets the required standards of the project? The standards are typically written under `contributing guidelines` by the project you are contributing to.
+- Is there [documentation](#documentation) that meets the required standards of the project?
+- Are you following any declared {ref}`style guide<rr-code-quality>` for the project?
+- Are there new [tests](#tests) for the new material, based on the required standards of the project?
+  - Do these tests pass locally?
+  - Are the tests in the rest of the code base still passing locally?
+- Create the pull request.
+- Many {ref}`continuous integration (CI)<rr-ci>` systems will check if the tests in the main project pass automatically once you create a pull request. If the repository is using a CI, make sure all builds and tests complete. Consult the CI reports to see if your code is causing the tests in the main project to fail.
+- If necessary, now formally request a review.
 
-## crwdns852484:0crwdne852484:0
+## For the reviewer
 
-- crwdns852486:0crwdne852486:0 crwdns852488:0crwdne852488:0
-- crwdns852490:0{ref}crwdnd852490:0{ref}crwdne852490:0
-- crwdns852492:0crwdne852492:0
-- crwdns852494:0crwdne852494:0 crwdns852496:0crwdne852496:0 crwdns852498:0crwdne852498:0
-  - crwdns852500:0crwdne852500:0
-  - crwdns852502:0crwdne852502:0
-  - crwdns852504:0crwdne852504:0
-  - crwdns852506:0crwdne852506:0
-- crwdns852508:0crwdne852508:0
-  - crwdns852510:0crwdne852510:0
-- crwdns852512:0crwdne852512:0
-  - crwdns852514:0crwdne852514:0
-- crwdns852516:0crwdne852516:0
+- Check the required standards of the project. The standards are typically written under `contributing guidelines` by the project you are contributing to.
+- Check the code meets basic project {ref}`style guide<rr-code-quality>`, if this is not automatically checked by {ref}`continuous integration (CI)<rr-ci>`.
+- Do the [tests](#tests) and [documentation](#documentation) conform to the standards?
+- Is all the code easily understood? Depending on the language, files may contain interfaces, classes or other type definitions, and functions (see [Architecture](#architecture)). The essential architectural concepts can be reviewed as follows:
+  - Check the [interfaces](#interfaces) lists.
+  - Check the [classes and types](#classes-and-types) lists.
+  - Check the [function/method declarations](#function-method-declarations) lists.
+  - Check the [function/method definitions](#function-method-definitions) lists.
+- Do the [tests](#tests) actually ensure the code is robust in its intended use?
+  - Are there any bugs or other defects?
+- Are [security](#security) issues handled correctly?
+  - Check the [security of new codes](#security-of-new-codes).
+- Does the new code meet the [legal requirements](#legal)?
 
-## crwdns852518:0crwdne852518:0
+## Program level checklist
 
-crwdns852520:0crwdne852520:0
+Here is a list of things to consider when looking at the program as a whole, rather than when looking at an individual file or change.
 
-### crwdns852522:0crwdne852522:0
+### Documentation
 
-crwdns852524:0crwdne852524:0 crwdns852526:0crwdne852526:0 crwdns852528:0crwdne852528:0
+Documentation is a prerequisite for using, developing, and reviewing the program. Someone who isn’t involved with your project should understand what your code does, and what approach you’re taking. Here are some things to check for.
 
-- crwdns852530:0crwdne852530:0
-- crwdns852532:0crwdne852532:0
-- crwdns852534:0crwdne852534:0
-- crwdns852536:0crwdne852536:0
-- crwdns852538:0crwdne852538:0 crwdns852540:0crwdne852540:0
-- crwdns852542:0crwdne852542:0
-- crwdns852544:0crwdne852544:0
-- crwdns852546:0crwdne852546:0
-  - crwdns852548:0crwdne852548:0
-  - crwdns852550:0crwdne852550:0
+- Is there a description of the purpose of the program or library?
+- Are detailed requirements listed?
+- Are requirements ranked according to [MoSCoW](https://en.wikipedia.org/wiki/MoSCoW_method)?
+- Is the use and function of third-party libraries documented?
+- Is the structure/architecture of the program documented? (see below)
+- Is there an installation manual?
+- Is there a user manual?
+- Is there documentation on how to contribute?
+  - Including how to submit changes
+  - Including how to document your changes
 
-### crwdns852552:0crwdne852552:0
+### Architecture
 
-crwdns852554:0crwdne852554:0
+These items are mainly important for larger programs, but may still be good to consider for small ones as well.
 
-- crwdns852556:0crwdne852556:0
-- crwdns852558:0crwdne852558:0
-- crwdns852560:0crwdne852560:0
-  - crwdns852562:0crwdne852562:0
-- crwdns852564:0crwdne852564:0
+- Is the program split up into clearly separated modules?
+- Are these modules as small as they can be?
+- Is there a clear, hierarchical or layered, dependency structure between these modules?
+  - If not, the functionality should be rearranged, or perhaps heavily interdependent modules should be combined.
+- Can the design be simplified?
 
-### crwdns852566:0crwdne852566:0
+### Security
 
-crwdns852568:0crwdne852568:0 crwdns852570:0crwdne852570:0 crwdns852572:0crwdne852572:0
+If you're making software that is accessible to the outside world (for example a web application), then security becomes important. Security issues are defects, but not all defects are security issues. A security-conscious design can help mitigate the security impact of defects.
 
-- crwdns852574:0crwdne852574:0
-- crwdns852576:0crwdne852576:0
-- crwdns852578:0crwdne852578:0
-  - crwdns852580:0crwdne852580:0
-- crwdns852582:0crwdne852582:0
-  - crwdns852584:0crwdne852584:0
-- crwdns852586:0crwdne852586:0
-  - crwdns852588:0crwdne852588:0
+- Which modules deal with user input?
+- Which modules generate output?
+- Are input and output compartmentalized?
+  - If not, consider making separate modules that manage all input and output, so validation can happen in one place.
+- In which modules is untrusted data present?
+  - The fewer the better.
+- Is untrusted data compartmentalized?
+  - Ideally, validate in the input module and pass only validated data to other parts.
 
-### crwdns852590:0crwdne852590:0
+### Legal
 
-crwdns852592:0crwdne852592:0 crwdns852594:0crwdne852594:0 crwdns852596:0crwdne852596:0
+As a developer, you should pay attention to the legal rights of the creators of the code you're using. Here are some things to check. When in doubt, ask someone experienced in licensing for advice.
 
-- crwdns852598:0crwdne852598:0
-- crwdns852600:0crwdne852600:0
-  - crwdns852602:0crwdne852602:0
-  - crwdns852604:0crwdne852604:0
-  - crwdns852606:0crwdne852606:0
-- crwdns852608:0crwdne852608:0
-- crwdns852610:0crwdne852610:0
+- Are the licenses of all modules/libraries that are used documented?
+- Are the requirements set by those licenses fulfilled?
+  - Are the licenses included where needed?
+  - Are copyright statements included in the code where needed?
+  - Are copyright statements included in the documentation where needed?
+- Are the licenses of all the parts compatible with each other?
+- Is the project license compatible with all libraries?
 
-## crwdns852612:0crwdne852612:0
+## File/Change level checklist
 
-crwdns852614:0crwdne852614:0 crwdns852616:0crwdne852616:0 crwdns852618:0crwdne852618:0
+When you're checking individual changes or files in a pull request, the code itself becomes the subject of scrutiny. Depending on the language, files may contain interfaces, classes or other type definitions, and functions. All these should be checked.
 
-### crwdns852620:0crwdne852620:0
+### Interfaces
 
-- crwdns852622:0crwdne852622:0
-- crwdns852624:0crwdne852624:0
-- crwdns852626:0crwdne852626:0 crwdns852628:0crwdne852628:0
+- Is the interface documented?
+- Does the concept it models make sense?
+- Can it be split up further? (Interfaces should be as small as possible)
 
-crwdns852630:0crwdne852630:0
+Note that most of the following items assume an object-oriented programming style, which may not be relevant to the code you're looking at.
 
-### crwdns852632:0crwdne852632:0
+### Classes and types
 
-- crwdns852634:0crwdne852634:0
-  - crwdns852636:0crwdne852636:0
-- crwdns852638:0crwdne852638:0 crwdns852640:0crwdne852640:0
-- crwdns852642:0crwdne852642:0
-- crwdns852644:0crwdne852644:0
-- crwdns852646:0crwdne852646:0
-- crwdns852648:0crwdne852648:0
-  - crwdns852650:0crwdne852650:0
-  - crwdns852652:0crwdne852652:0
-  - crwdns852654:0crwdne852654:0
+- Is the class documented?
+  - Are external programs needed by the class documented?
+- Does it have a single responsibility? Can it be split?
+- If it's designed to be extended, can it be?
+- If it's not designed to be extended, is it protected against that?
+- If it's derived from another class, can you substitute an object of this class for one of its parent class(es)?
+- Is the class testable?
+  - Are the dependencies clear and explicit?
+  - Does it have a small number of dependencies?
+  - Does it depend on interfaces, rather than on classes?
 
-### crwdns852656:0crwdne852656:0
+### Function/Method declarations
 
-- crwdns852658:0crwdne852658:0
-- crwdns852660:0crwdne852660:0 crwdns852662:0crwdne852662:0
-- crwdns852664:0crwdne852664:0
-- crwdns852666:0crwdne852666:0
+- Are there comments that describe the intent of the function or method?
+- Are input and output documented? Including units?
+- Are pre- and postconditions documented?
+- Are edge cases and unusual things commented?
 
-### crwdns852668:0crwdne852668:0
+### Function/Method definitions
 
-- crwdns852670:0crwdne852670:0
-- crwdns852672:0crwdne852672:0
-- crwdns852674:0crwdne852674:0
-- crwdns852676:0crwdne852676:0 crwdns852678:0crwdne852678:0
-- crwdns852680:0crwdne852680:0
-- crwdns852682:0crwdne852682:0 crwdns852684:0crwdne852684:0
-- crwdns852686:0crwdne852686:0
-- crwdns852688:0crwdne852688:0
-- crwdns852690:0crwdne852690:0
+- Are edge cases and unusual things commented?
+- Is there any incomplete code?
+- Could this function be split up (is it not too long)?
+- Does it work? Perform intended function, logic correct, ...
+- Is it easy to understand?
+- Is there redundant or duplicate code? (DRY)
+- Do loops have a set length and do they terminate correctly?
+- Can debugging or logging code be removed?
+- Can any of the code be replaced by library functions?
 
-### crwdns852692:0crwdne852692:0
+### Security of new codes
 
-- crwdns852694:0crwdne852694:0
-- crwdns852696:0crwdne852696:0
-- crwdns852698:0crwdne852698:0
-- crwdns852700:0crwdne852700:0
+- If you're using a library, do you check errors it returns?
+- Are all data inputs checked?
+- Are output values checked and encoded properly?
+- Are invalid parameters handled correctly?
 
-### crwdns852702:0crwdne852702:0
+### Tests
 
-- crwdns852704:0crwdne852704:0
-- crwdns852706:0crwdne852706:0
-- crwdns852708:0crwdne852708:0
+- Do unit tests actually test what they are supposed to?
+- Is bounds checking being done?
+- Is a test framework and/or library used?

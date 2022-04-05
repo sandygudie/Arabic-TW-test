@@ -1,103 +1,103 @@
 (ch-template-coworking-collabcafe)=
-# Modelo de chamada Cafe de Colaboração
+# Collaboration Cafe Call Template
 
-*Existe um documento permanente no HackMD: [https://hackmd.io/@KirstieJane/CollabCafe](https://hackmd.io/@KirstieJane/CollabCafe) que é regularmente atualizado com o template vazio para o próximo evento.*
+*A permanent document exists in the HackMD: [https://hackmd.io/@KirstieJane/CollabCafe](https://hackmd.io/@KirstieJane/CollabCafe) that is regularly updated with the empty template for next event.*
 
-## _A Caminho da Turing_ Cafe online de Colaboração (ITDATE MONTH YEAR
+## _The Turing Way_ online Collaboration Cafe | DATE MONTH YEAR
 
-Obrigado por se juntar à Caverna de Colaboração online da _Turing Way_! Estamos encantados por ter você aqui :coffee: :sparkles: :cake:
+Thank you for joining the _Turing Way_'s online Collaboration Cafe! We're delighted to have you here :coffee: :sparkles: :cake:
 
-(*Recomendamos levar seu chá, café ou sua bebida favorita a esta caverna! :smile:*)
+(*We do recommend bringing your actual tea, coffee, water or your favorite beverage to this cafe! :smile:*)
 
-**O que?** *A Turing Way é um **guia leve para reproduzir, ciências e pesquisas de dados**. Esta cafeteria de colaboração visa envolver os pesquisadores interessados em aprender e compartilhar mais sobre este tema em um **livro online**: https://the-turing-way.</p>
+**What?** *The Turing Way is a **lightly opinionated guide to reproducible data science and research**. This collaboration cafe aims to engage with researchers interested in learning and sharing more about this topic in an **online book**: https://the-turing-way.netlify.com*
 
-*Leia mais sobre isso aqui: https://the-turing-way.netlify.app/community-handbook/coworking.html*
+*Read more about it here: https://the-turing-way.netlify.app/community-handbook/coworking.html*
 
-**Quem?** ***Todo mundo** interessado em reprodutível, ético. e a ciência e pesquisa de dados inclusivas são bem-vindas para participar da comunidade completa ou de qualquer parte do projeto The Turing Way, e/ou desta chamada.*
+**Who?** ***Everyone** interested in reproducible, ethical, and inclusive data science and research are welcome to join the full or any part of The Turing Way project, community, and/or this call.*
 
-**Quando?** Mês DD YYYY, HH:MM BST (link de https://arewemeetingyet.com)
+**When?** DD Month YYYY, HH:MM BST (link for local time from https://arewemeetingyet.com)
 
-**Como?** *O link do Zoom será fornecido 10 minutos antes da chamada*
+**How?** *Zoom link will be provided 10 minutes before the call*
 
-***Todas as perguntas, comentários e recomendações são bem-vindas!***
+***All questions, comments and recommendations are welcome!***
 
-### Links úteis
+### Useful links
 
-* Notas compartilhadas: https://hackmd.io/@KirstieJane/CollabCafe
-* Repositório do Way GitHub: https://github.com/alan-turing-institute/the-turing-way
-* Tudo sobre [Cuidados de Colaboração online](https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md)
-* Modo de Turmentação: https://calendar.google.com/calendar?cid=dGhldHVyaW5nd2F5QGdtYWlsLmNvbQ
-* Orientações de contribuição: https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md
-* Chat no Gitter: https://gitter.im/alan-turing-institute/the-turing-way
-* Participe da lista de emails: https://tinyletter.com/TuringWay
-* Não se pode juntar ao café da colaboração, mas quer trabalhar conosco? Confira as chamadas de co-trabalho durante a semana: https://hackmd.io/@malvikasharan/TW-coworking
+* Shared notes: https://hackmd.io/@KirstieJane/CollabCafe
+* The Turing Way GitHub repository: https://github.com/alan-turing-institute/the-turing-way
+* All about [online Collaboration Cafes](https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md)
+* Turing Way calendar: https://calendar.google.com/calendar?cid=dGhldHVyaW5nd2F5QGdtYWlsLmNvbQ
+* Contribution guidelines: https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md
+* Chat on Gitter: https://gitter.im/alan-turing-institute/the-turing-way
+* Join the mailing list: https://tinyletter.com/TuringWay
+* Can't join the collaboration cafe but want to work with us? Check out the co-working calls during the week: https://hackmd.io/@malvikasharan/TW-coworking
 
-### Código de conduta
+### Code of conduct
 
-* [Reserve um momento para ler isto](https://github.com/alan-turing-institute/the-turing-way/blob/main/CODE_OF_CONDUCT.md)
+* [Take a moment to read this](https://github.com/alan-turing-institute/the-turing-way/blob/main/CODE_OF_CONDUCT.md)
 
-### Timer de Pomodoro para esta sessão
+### Pomodoro timer for this session
 https://cuckoo.team/collabcafe
 
-### Cadastre-se abaixo
-*Nome + <A fun Icebreaker> + um emoji para representá-lo ([trapaça de emojis](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md))*
+### Sign up below
+*Name + <A fun Icebreaker> + an emoji to represent it ([emoji cheatsheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md))*
 
-*(Lembre-se de que este é um documento público. Você pode usar um pseudônimo, se você preferir.)*
+*(Remember that this is a public document. You can use a pseudonym if you'd prefer.)*
 
-### Iniciadores da conversa
+### Conversation Starters
 
-*Anuncie e promova seu evento, ou qualquer coisa interessante em que você está trabalhando.*✨
+*Advertise and promote your event, or anything exciting you're working on.* ✨
 
 *
 *
 
-### Agendamento
+### Schedule
 
 https://cuckoo.team/tw-collabcafe
 
-| Duração | Atividade                                                   |
-| ------- | ----------------------------------------------------------- |
-| Iniciar | 👋 Bem-vindo, código de conduta                              |
-| 10 min  | Configuração de introduções e objetivos pessoais            |
-| 20 mins | 🍅 Primeira sessão Pomodoro                                  |
-| 5 min   | ☕ Quebra                                                    |
-| 20 mins | 🍅 Segunda sessão Pomodoro                                   |
-| 5 min   | ☕ Quebra                                                    |
-| 20 mins | 🍅 Terceira sessão Pomodoro                                  |
-| 5 min   | ☕ Quebra                                                    |
-| 30 min  | Discussão aberta: celebrações, reflexões e direções futuras |
-| 5 min   | 👋 Fechar                                                    |
+| Duration | Activity                                                         |
+| -------- | ---------------------------------------------------------------- |
+| Start    | 👋 Welcome, code of conduct review                                |
+| 10 mins  | Introductions and personal goal setting                          |
+| 20 mins  | 🍅 1st Pomodoro session                                           |
+| 5 mins   | ☕️ Break                                                         |
+| 20 mins  | 🍅 2nd Pomodoro session                                           |
+| 5 mins   | ☕️ Break                                                         |
+| 20 mins  | 🍅 3rd Pomodoro session                                           |
+| 5 mins   | ☕️ Break                                                         |
+| 30 mins  | Open discussion: celebrations, reflections and future directions |
+| 5 mins   | 👋 Close                                                          |
 
 ### Timers
 
-* Temporizador de 20 minutos (praia): http://amazingtimer.com/countdown_timer.php?h=0&m=20&s=0&b=26
-* Temporizador de 5 minutos (cat): http://amazingtimer.com/countdown_timer.php?h=0&m=5&s=0&b=30
-* Temporizador de 5 minutos (chameleon): http://amazingtimer.com/countdown_timer.php?h=0&m=5&s=0&b=40
+* 20 minute timer (beach): http://amazingtimer.com/countdown_timer.php?h=0&m=20&s=0&b=26
+* 5 minute timer (cat): http://amazingtimer.com/countdown_timer.php?h=0&m=5&s=0&b=30
+* 5 minute timer (chameleon): http://amazingtimer.com/countdown_timer.php?h=0&m=5&s=0&b=40
 
-### Salas de interrupção: Propostas para tópicos
+### Breakout rooms: Topic proposals
 
-*Se você tem uma ideia para um tópico gostaria de discutir em uma sala de emergência, por favor adicione-o abaixo e coloque o seu nome ao lado dele. Se você gosta de um dos tópicos que já foi sugerido, por favor adicione seu nome ao lado dele. O trabalho em equipe faz os sonhos. Para obter mais informações sobre salas de folha, consulte [a descrição no GitHub](https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md#breakout-rooms).*
+*If you have an idea for a topic you'd like to discuss in a breakout room, please add it below and put your name next to it. If you like one of the topics that is already suggested, please add your name next to that one. Team work makes the dream work. For more information about breakout rooms see [the description on GitHub](https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md#breakout-rooms).*
 
-Tópico para rompimento / nomes
-
-*
-
-### Notas e perguntas
+Topic for breakout / Names
 
 *
 
-### Feedback no final da chamada
+### Notes and questions
+
+*
+
+### Feedback at the end of the call
 
 *
 
 ----
 
-#### Me perguntando por onde começar?
+#### Wondering where to start?
 
-Aqui estão algumas sugestões para uma boa primeira contribuição:
+Here are a few suggestions for a good first contributions:
 
-- Corrija um erro de digitação no [o livro](https://the-turing-way.netlify.com) e/ou o repositório [](https://github.com/alan-turing-institute/the-turing-way).
-- Sinalizar as informações não claras ou duplicadas no livro abrindo uma issue de [no GitHub](https://github.com/alan-turing-institute/the-turing-way/issues).
-- Corrija um [problema antigo](https://github.com/alan-turing-institute/the-turing-way/issues) ou comente no [pull requests](https://github.com/alan-turing-institute/the-turing-way/pulls).
-- Escreva sua experiência pessoal de pesquisa reprodutível nesta [forma google](https://goo.gl/forms/akFqZEIy2kxAjfZW2).
-- Veja mais informações no GitHub: https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md
+- Fix a typo in [the book](https://the-turing-way.netlify.com) and/or [repository](https://github.com/alan-turing-institute/the-turing-way).
+- Flag the unclear or duplicated information in the book by opening an [issue on the GitHub](https://github.com/alan-turing-institute/the-turing-way/issues).
+- Fix an [old issue](https://github.com/alan-turing-institute/the-turing-way/issues) or comment on the the [pull requests](https://github.com/alan-turing-institute/the-turing-way/pulls).
+- Write your personal experience of reproducible research in this [google form](https://goo.gl/forms/akFqZEIy2kxAjfZW2).
+- See more info on the GitHub: https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md

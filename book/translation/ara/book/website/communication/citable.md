@@ -1,41 +1,44 @@
-crwdns831074:0crwdne831074:0
-# crwdns831076:0crwdne831076:0
+(cm-citable)=
+# Making Research Objects Citable
 
-## crwdns831078:0crwdne831078:0
+## Prerequisites / recommended skill level
 
-| crwdns831080:0crwdne831080:0      | crwdns831082:0crwdne831082:0 |
-| --------------------------------- | ---------------------------- |
-| crwdns831084:0{ref}crwdne831084:0 | crwdns831086:0crwdne831086:0 |
-| crwdns831088:0{ref}crwdne831088:0 | crwdns831090:0crwdne831090:0 |
+| Prerequisite                                          | Importance               |
+| ----------------------------------------------------- | ------------------------ |
+| {ref}`Overview of Reproducibility<rr-overview>` | Useful but not essential |
+| {ref}`Open research<rr-open>`                   | Useful but not essential |
 
-## crwdns831092:0crwdne831092:0
+## Summary
 
-crwdns831094:0crwdne831094:0
+Many researchers argue that time spent on reproducible research practices reduces the time they have available for activities that are traditionally linked to academic credit, such as writing papers.
 
-crwdns831096:0crwdne831096:0 crwdns831098:0crwdne831098:0
+What if you could get credit for your reproducibility efforts as well? In this chapter, we will describe how working reproducibly will allow you to get most of your research outputs published in a way that can be cited by others (not just your paper)!
 
 ```{figure} ../figures/orcid-ids.jpg
-crwdns831100:0crwdne831100:0 crwdns831102:0crwdne831102:0 crwdns831104:0crwdne831104:0
-crwdns831106:0crwdne831106:0 crwdns831108:0crwdne831108:0 crwdns831110:0crwdne831110:0 crwdns831112:0crwdne831112:0 crwdns831114:0crwdne831114:0
+---
+name: orcid-ids
+alt: This image shows a female researcher in the centre with her arms raised. She is surrounded in an orbit by different types of documents. On the top left, there is a caption stating 'ORCID IDS', while on the bottom right there is the text that says - 'One ring to rule all outputs'.
+---
+ORCID ID allows a researcher to connect their profile with all the published research objects, each of which also have their unique persistent identifiers. You will learn about these in this chapter. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-crwdns831116:0crwdne831116:0
-## crwdns831118:0crwdne831118:0
+(cm-citable-motivation)=
+## Background & Motivation
 
-crwdns831120:0crwdne831120:0 crwdns831122:0crwdne831122:0
+Academic research has traditionally maintained a 'reputation economy' where citations are the currency or considered a major metric of success. Most research institutions' promotion and hiring criteria depend to a greater or lesser extent on your publishing record: how many articles you have published, how "important" the journals were, and how many times each article has been cited using the unique identifiers.
 
-crwdns831124:0crwdne831124:0 crwdns831126:0crwdne831126:0
+This is a well-established practice, and while it has its structural (academic) problems at least all stakeholders understand what's involved. One of the consequences of this system is that labour which *doesn't* result in published articles tends to be ignored, discouraging researchers from making their data more open or specialising in software development.
 
-crwdns831128:0crwdne831128:0 crwdns831130:0crwdne831130:0
+Establishing good citation practices using persistent and citable identifiers for non-article content is a step towards recognising this valuable work and encouraging more people to take it up. If you can demonstrate the impact of your reproducible research work in addition to more traditional research outputs, you can justify spending more time on doing things right.
 
-crwdns831132:0{ref}crwdnd831132:0{ref}crwdnd831132:0{ref}crwdne831132:0
+We describe, how you can {ref}`prepare your research object to be citable<cm-citable-steps>`, {ref}`how others can cite them<cm-citable-cite>` (or you can cite others work) and how you can use them to {ref}`gain recognition and build your profile<cm-citable-orcid>`.
 
-crwdns831134:0crwdne831134:0
-## crwdns831136:0crwdne831136:0
+(cm-citable-contribute)=
+## Contribute to this Chapter
 
-crwdns831138:0crwdne831138:0
-- crwdns831140:0crwdne831140:0
-- crwdns831142:0crwdne831142:0
-- crwdns831144:0crwdne831144:0
-- crwdns831146:0crwdne831146:0
-- crwdns831148:0crwdne831148:0
+We invite you to contribute to this chapter by writing about one or multiple of the following aspects:
+- Demonstrate impact with various metrics described in this chapter
+- Add some tips for peer-reviewed publishing of research components with DOIs (like data journals, JOSS for software)
+- Add information about [citing JSON](http://citebay.com/how-to-cite/json/)
+- How to cite deprecated practices or legacy versions such as citing an early paper or a software manual
+- More thoughts on what does/doesn't need to be cited

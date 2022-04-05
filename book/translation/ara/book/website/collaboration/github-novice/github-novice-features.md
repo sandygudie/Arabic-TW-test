@@ -1,53 +1,60 @@
-crwdns824632:0crwdne824632:0
-# crwdns824634:0crwdne824634:0
+(cl-github-novice-features)=
+# Using more GitHub features
 
-crwdns824636:0crwdne824636:0
+Now that your repo is set up, you are ready to add more stuff to it and use some of its useful features.
 
-## crwdns824638:0crwdne824638:0
+## Adding more folders (directories), files and commits
 
-* crwdns824640:0crwdne824640:0
-* crwdns824642:0{ref}crwdne824642:0
-* crwdns824644:0crwdne824644:0
-
-
-**crwdns824646:0crwdne824646:0**
-
-* crwdns824648:0crwdne824648:0
-* crwdns824650:0crwdne824650:0
-* crwdns824652:0crwdne824652:0
-* crwdns824654:0crwdne824654:0
-* crwdns824656:0crwdne824656:0 crwdns824658:0{ref}crwdne824658:0
-
-crwdns824660:0crwdne824660:0 crwdns824662:0crwdne824662:0 crwdns824664:0crwdne824664:0
-
-## crwdns824666:0crwdne824666:0
-
-* crwdns824668:0crwdne824668:0
-* crwdns824670:0crwdne824670:0
-* crwdns824672:0crwdne824672:0
-  * crwdns824674:0crwdne824674:0 crwdns824676:0crwdne824676:0
-  * crwdns824678:0crwdne824678:0
-  * crwdns824680:0crwdne824680:0
-  * crwdns824682:0crwdne824682:0
-* crwdns824684:0crwdne824684:0
-
-## crwdns824686:0crwdne824686:0
-crwdns824688:0crwdne824688:0 crwdns824690:0crwdne824690:0 crwdns824692:0crwdne824692:0 crwdns824694:0crwdne824694:0
+* You can add more files to your repo by clicking the "add file" button and either uploading files or creating a new one.
+* Each time you create a new file or upload files you will need to add a {ref}`commit message<rr-vcs-commit-messages>` to help you remember what changes you made.
+* Note that git (and thus GitHub) does not track folders/directories, so you cannot create an empty folder.
 
 
-## crwdns824696:0crwdne824696:0
-crwdns824698:0crwdne824698:0
+**Create a new folder by adding a new file:**
+
+* Click on the "add file" button and then create a new file.
+* This will give you a blank file to edit.
+* When naming the file, first type in the name of the folder (existing or new) and then a forward slash, followed by the name of the file: "folder-name/file-name.ext".
+* Edit the content of the file.
+* Save your changes using the "commit" button. Remember to type a {ref}`commit message<rr-vcs-commit-messages>` to help you remember what changes you made.
+
+This file will appear in the folder that you named. You will be able to see the folder on your landing page. If you click on the blue folder symbol, it brings you to the files within that folder.
+
+## Explore the ‘Insight’ features of GitHub
+
+* On GitHub, navigate to the main landing page of the repository.
+* Under your repository name, click "Insights".
+* In the left sidebar, click “Community”.
+  * Here you will find recommended files to include in your repo. These files are especially useful when working with collaborators or members in your community.
+  * The "License" file is one of the most important, because it tells others how they can (or can't) use the materials in your repo.
+  * For collaborations, be sure to look at "Contributing" and "Description".
+  * Whenever possible, add a "Code of conduct" to make your project welcoming and inclusive for others.
+* Other interesting things to look at are “Contributors” (those who contribute to your project), “Traffic” (who visits your project page and when do they do so) and “Commits” (a timeline and number of commits made on your project).
+
+## Explore the ‘Projects’ features of GitHub
+Project boards on GitHub help you organize and prioritize your work. It is a kanban feature to track your tasks with to-do, in progress and done columns. Each item can be linked to specific issues or pull requests to help you track your progress. This feature is a great way to help others contribute to your repo or let them know what you have planned.
+
+
+## Using GitHub Features to foster collaboration
+This is what a repository looks like when it is set up to include many of these features, making it a welcoming, collaborative workspace.
 
 ```{figure} ../../figures/github-project.jpg
-crwdns824700:0crwdne824700:0 crwdns824702:0crwdne824702:0
-crwdns824704:0crwdne824704:0
-crwdns824706:0crwdne824706:0 crwdns824708:0crwdne824708:0
-  crwdns824710:0crwdne824710:0 crwdns824712:0crwdne824712:0
-  crwdns824714:0crwdne824714:0 crwdns824716:0crwdne824716:0
-  crwdns824718:0crwdne824718:0 crwdns824720:0crwdne824720:0
-crwdns824722:0crwdne824722:0 crwdns824724:0crwdne824724:0 
-  crwdns824726:0crwdne824726:0 crwdns824728:0crwdne824728:0
-  crwdns824730:0crwdne824730:0 crwdns824732:0crwdne824732:0 crwdns824734:0crwdne824734:0
-  crwdns824736:0crwdne824736:0 crwdns824738:0crwdne824738:0
-  crwdns824740:0crwdne824740:0 crwdns824742:0crwdne824742:0
+---
+name: github-project
+alt: Annotated diagram of a collaborative project repository. Explained in the caption.
+align: left
+---
+Annotated diagram of a collaborative project repository.
+- Labels on the left-hand side of the image:
+  - **1. Project:** This shows you the project boards for this repo.
+  - **2. Issues:** All the tasks that have been raised on this repo.
+  - **3. Files:** These are all the files in the repo.
+  - **4. Landing page or README.md file:** Your README.md file is automatically rendered as a landing page for your site.
+- Labels on the right-hand side of the image:
+  - **5. Insights:** This shows you all the activity that has happened on your repo. 
+  - **6. Edit repo details:** You can write a short description of your project and add labels.
+  - **7. Description of the repository.**
+  - **8. Link for GitHub pages:** Website generated by this repo.
+  - **9. Topic labels:** Topic labels related to your repo can help other people find your project.
+  - **10. License:** The license that you have put on your repo.
 ```

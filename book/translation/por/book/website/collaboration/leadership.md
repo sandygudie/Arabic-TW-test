@@ -1,8 +1,8 @@
-(cl-liderança)=
-# Liderança em Ciência de Dados
+(cl-leadership)=
+# Leadership in Data Science
 
-CNPJ
+TBA
 
-## Geral
+## Overview
 
-CNPJ
+TBA

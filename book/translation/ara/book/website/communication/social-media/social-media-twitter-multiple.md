@@ -1,32 +1,32 @@
-crwdns833720:0crwdne833720:0
-# crwdns833722:0crwdne833722:0
+(cm-social-media-twitter)=
+# Managing Multiple Twitter Accounts
 
-crwdns833724:0crwdne833724:0
+Managing multiple accounts on Twitter can be challenging and you might be following a certain social media policy or approach that is different from how you would tweet from your personal account.
 
-crwdns833726:0crwdne833726:0
+Many projects and organisations have their own Twitter account that is used for advertising their research outputs and events.
 
-crwdns833728:0crwdne833728:0
-## crwdns833730:0crwdne833730:0
+(cm-social-media-twitter-organisation)=
+## Managing an Organisational Twitter Account
 
-**crwdns833732:0crwdne833732:0 crwdns833734:0crwdne833734:0**
+**1. Be sure that you are clear about what the purpose of the account is and the type of tweets that the organisation wants.**
 
-* crwdns833736:0crwdne833736:0
-* crwdns833738:0crwdne833738:0
+* Is it going to be a professional tone or more relaxed and fun.
+* Are there certain restrictions about what content you can tweet about such as not sharing data or results?
 
-**crwdns833740:0crwdne833740:0 crwdns833742:0crwdne833742:0**
+**2. Use scheduling to time your tweets**
 
-* crwdns833744:0crwdne833744:0
-* crwdns833746:0crwdne833746:0 crwdns833748:0crwdne833748:0
-* crwdns833750:0crwdne833750:0
-* crwdns833752:0crwdne833752:0
+* This can be done through the Twitter web browser or by using a Twitter app such as Tweetdeck.
+* Tweetdeck is the only app owned by Twitter and it is free to use. But there are [other apps for all different platforms](https://www.reviewgeek.com/52119/the-best-twitter-apps-for-every-platform/), although you often have to pay for their services.
+* There are other apps, such as [Buffer](https://buffer.com/), that you can use to control multiple social media channels.
+* Scheduling tweets is particularly helpful if you are running an event as you can schedule tweets well in advance to give important information.
 
-**crwdns833754:0crwdne833754:0 crwdns833756:0crwdne833756:0**
+**3. Preventing miss tweeting**
 
-* crwdns833758:0crwdne833758:0 crwdns833760:0crwdne833760:0
-* crwdns833762:0crwdne833762:0 crwdns833764:0crwdne833764:0
+* When you are responsible for multiple tweeter accounts, there is the possibility of miss tweeting. This is when you tweet out, for example, a personal tweet using an organisational account.
+* Tweetdeck has a feature that allows you to add a confirmation step to perform an extra check before tweeting. This helps to prevent this issue.
 
-**crwdns833766:0crwdne833766:0 crwdns833768:0crwdne833768:0**
+**4. Enabling multiple users of the same account**
 
-* crwdns833770:0crwdne833770:0
-* crwdns833772:0crwdne833772:0
-* crwdns833774:0crwdne833774:0 crwdns833776:0crwdne833776:0
+* Also on Tweetdeck, you can [set up an account as a team to allow multiple users to have different access](https://help.twitter.com/en/using-twitter/tweetdeck-teams).
+* There will be one person that is the admin for the account and then the other users are contributors.
+* As a contributor you can post Tweets, Direct Message, like, and Retweet for the team account. You cannot change the password or manage account settings.

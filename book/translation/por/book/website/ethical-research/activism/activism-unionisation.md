@@ -1,176 +1,178 @@
 (er-activism-unionisation)=
 # Unionisation
 
-(er-activismo-unionisation-what)=
-## O que é uma união?
+(er-activism-unionisation-what)=
+## What is a union?
 
-Um sindicato é uma forma formalizada de os trabalhadores organizarem e negociarem colectivamente a nível institucional, sectorial ou nacional. Uma união é organizada em ramos que estão espalhados geograficamente (por exemplo, no Norte de Londres) ou a nível institucional (por exemplo, trabalhos ou departamentos), dependendo da distribuição dos membros e da forma como os sindicalistas funcionam. Os membros dos sindicatos pagam tipicamente uma taxa mensal, embora esta seja por vezes rejeitada por certas categorias de membros. Por exemplo, a organização sindical UCU do Reino Unido permite que os estudantes licenciados adiram gratuitamente.
+A trade union is a formalised way for workers to organise and bargain collectively at an institutional, sectoral or national level. A union is organised into branches which are spread geographically (for example, North London) or at an institutional level (for example, labs or departments), depending on the distribution of members and how the union works. Members of unions typically pay a monthly fee, although this is sometimes waived for certain categories of members, for example, the UK union UCU allows graduate students to join for free.
 
-Alguns membros assumem responsabilidades adicionais como "representantes" ou "administradores de loja", ajudando a organizar o funcionamento das filiais, apoiar os membros com questões relacionadas com o local de trabalho e, por vezes, representar o ramo a nível nacional. Sindicatos maiores têm frequentemente empregados a tempo inteiro para apoiar representantes e trabalhadores, que são também responsáveis por áreas como o desenvolvimento da política sindical. relações de imprensa e organização de quaisquer grandes reuniões, por exemplo, conferências anuais.
+Some members take up additional responsibilities as "reps" or "shop stewards", helping to organise the running of branches, supporting members with workplace issues, and sometimes representing the branch at a national level. Larger unions often have full-time employees to support reps and workers, who are also responsible for areas such as developing union policy, press relations, and organising any large meetings for example, annual conferences.
 
-Em alguns, mas não em todos os países, ser membro de um sindicato é uma característica protegida. Isto significa que as organizações não podem disparar pessoas por serem membros (mas nem sempre foi esse o caso). Sob o Regulamento Geral de Proteção de Dados (GDPR), A União Europeia considera que a adesão à União Europeia são dados sensíveis e na mesma categoria que os dados genéticos ou os dados sobre o género.
+In some, but not all countries, being a member of a trade union is a protected characteristic. This means organisations are not allowed to fire people for being members (but this has not always been the case). Under the General Data Protection Regulation (GDPR), the European Union considers union membership to be sensitive data and in the same category as genetic data or data on gender.
 
-(er-activismo-união-unionatividades)=
-## O que podem fazer os sindicatos?
+(er-activism-unionisation-unionactivities)=
+## What can unions do?
 
-As uniões são um veículo para os seus membros organizarem juntos e apoiarem-se mutuamente no seu local de trabalho e na sua indústria. Os sindicatos desenvolvem uma série de acções para melhorar as condições de trabalho dos seus membros.
+Unions are a vehicle for their members to orgaise together and support each other in their workplace and industry. Unions take lots of different actions to improve working conditions for their members.
 
-Estas podem ser a nível individual, local de trabalho, ou da indústria.
+These can be at individual, workplace, or industry level.
 
-A nível individual, os sindicatos podem:
-* Oferecer suporte para indivíduos que tenham problemas no trabalho: por exemplo, apoiando indivíduos que foram discriminados ou intimidados em seu local de trabalho, ou cujos deveres envolvem práticas inseguras
-* Deixe as pessoas cientes de seus direitos no trabalho, como as políticas as afetam e quais são as obrigações legais da organização
+At an individual level, unions can:
+* Offer support for individuals who have issues at work: for example, supporting individuals who have been discriminated against or bullied in their workplace, or whose duties involve unsafe practices
+* Make people aware of their rights at work, how policies affect them, and what the legal obligations of the organisation are
 
-Em um nível de local de trabalho, membros do ramo sindical podem:
-* Negociar com a gestão em nome dos seus membros: chama-se "negociação colectiva" e pode ser utilizado para melhorar as condições de trabalho, os salários, as pensões, as pensões.
-* Reveja as políticas existentes em um local de trabalho e defenda mudanças que melhorem a equidade, removam as influências patriarca/societárias e aumentem o apoio a membros marginalizados da força de trabalho.
-* Aumentar as preocupações de saúde e segurança sobre áreas de trabalho específicas ou deveres
-* Organizar os membros como "trabalham para governar", onde não há horas extras ou deveres fora dos que estão em descrições formais de funções
-* Vá em greve, onde nenhum trabalho é realizado e, em vez disso, "picareta" seus locais de trabalho, reunindo fora e incentivando outros a se juntarem a eles
-* Organizar outras ações industriais
-* Discuta políticas e posições que os membros gostariam de adoptar sobre questões específicas
+At a workplace level, union branch members can:
+* Negotiate with management on behalf of their members: this is called 'collective bargaining' and can be used to improve working conditions, salaries, pensions
+* Review existing policies in a workplace and advocate for changes that improve equity, remove patriarchal/societal influences, and increase support for marginalised members of the workforce
+* Raise health and safety concerns about particular work areas or duties
+* Organise members to "work to rule", where no overtime or duties outside those in formal job descriptions are undertaken
+* Go on strike, where no work is performed and workers instead "picket" their workplaces by meeting outside and encouraging others to join them
+* Organise other industrial action
+* Discuss policies and positions the members would like to adopt on particular issues
 
-A nível da indústria, os sindicatos podem:
-* Entre na política do governo por meio de consultas de respostas ou de pressões (por exemplo, falando com a imprensa sobre um assunto, escrever artigos ou submeter processos formais como audições)
-* Organizar greves e acções industriais em sectores inteiros
+At an industry level, unions can:
+* Input into government policy through consultation responses or lobbying (for example, speaking to the press on an issue, writing articles, or submitting to formal processes such as hearings)
+* Organise strikes and industrial action across whole industries
 
-(er-activismo-unionização-industrial)=
-### O que é acção industrial?
+(er-activism-unionisation-industrialaction)=
+### What is industrial action?
 
-As acções industriais abrangem uma série de actividades diferentes que os sindicatos unem para realçar questões no seu local de trabalho ou na sua indústria. O mais conhecido é "impressionante" ou "paradas de trabalho", onde os membros se recusam a entrar em trabalho e a formar linhas de picket fora de seus locais de trabalho. No entanto, há muitos outros tipos de actividades que são abrangidas pela acção industrial, incluindo: trabalhar para governar (ou trabalhar para contrato), denúncia em massa de violações de saúde e segurança, ocupações no local de trabalho, gotas de estandarte ou marchas.
+Industrial action covers a range of different activities that unions members take together to highlight issues in their workplace or industry. The most well-known of these is "striking" or "work stoppages", where members refuse to come into work and form picket lines outside their workplaces. However, there are a lot of other types of activities that fall under industrial action, including: working to rule (or working to contract), mass reporting of health and safety violations, work place occupations, banner drops, or marches.
 
 (er-activism-unionisation-unionhow)=
-## Como é que uma união ajuda cientistas e investigadores?
+## How does a union help scientists and researchers?
 
-Os cientistas e os investigadores desempenham uma série de papéis diferentes e há formas específicas de os sindicatos poderem ajudar com esses papéis.
+Scientists and researchers do lots of different roles, and there are specific ways that unions can help with those roles.
 
-* Defender que a pesquisa aberta deve ser activamente apoiada e encorajada pelas instituições, bem como tida em consideração na progressão da carreira
-* Exigindo apoio legal na pesquisa
-* Apoiar PhDs e pesquisadores pós-doutorados em suas relações com PIs
-* Campanhas contra a perda do trabalho, por exemplo, ensino de curta duração, pago por hora ou posições de pesquisa
-* Proporcionar uma visão alternativa da investigação académica como um esforço colaborativo, aberto, iterativo, em vez de uma busca única e competitiva
-* Proporcionar um fórum para compartilhar outras preocupações sobre como a investigação científica é feita e encontrar outros pesquisadores que queiram enfrentá-las
+* Advocating for open research to be actively supported and encouraged by institutions as well as taken into consideration in career progression
+* Demanding legal support in research
+* Supporting PhDs and post doctoral researchers in their relationships with PIs
+* Campaigning against casualisation of work, for example, short-term, hourly-paid teaching or research positions
+* Offering an alternative vision of academic research as a collaborative, open, iterative endeavour rather than a solo, competitive pursuit
+* Providing a forum for sharing other concerns around how scientific research is done and finding other researchers who want to tackle them
 
-Os cientistas e pesquisadores trabalham em universidades, instituições de pesquisa e sem lucros. Todos estes são locais de trabalho: têm políticas no local de trabalho, e os sindicatos podem ajudar a criar políticas e a controlar se estão a ser aplicados.
+Scientists and researchers work in universities, research institutions, and nonprofits. These are all workplaces: they have workplace policies, and unions can help create policies and monitor whether they are being enforced.
 
 (er-activism-unionisation-unionhistory)=
-### Um Bit of History: A Associação de Trabalhadores Científicos (Reino Unido)
+### A Bit of History: The Association of Scientific Workers (United Kingdom)
 
-Tratava-se de um sindicato para cientistas fundado no início do século XX, que desempenhou um papel de liderança na fundação de sindicatos semelhantes em todo o mundo.
+This was a trade union for scientists founded in the early 20th Century, which had a leading role in founding similar unions across the globe.
 
 ```{figure} ../../figures/scientific-union-badge.jpg
 ---
 height: 500px
-nome: cientifica-union-badge
-alt: Um emblema azul com AScW, que significa a Associação de Trabalhadores Científicos impressos num cenário de madeira.
---- AScW (significa Emblema da Associação de Trabalhadores Científicos). Imagem da conta do Instagram [@BadgesofStruggle](https://www.instagram.com/badgesofstruggle/) *(texto e imagem reproduzidos sob CC-BY com permissão da conta)*
+name: scientific-union-badge
+alt: A blue enamel badge with AScW, that stands for Association of Scientific Workers printed on it on a wooden background.
+---
+AScW (stands for
+Association of Scientific Workers) badge. Image from the Instagram account [@BadgesofStruggle](https://www.instagram.com/badgesofstruggle/) *(text and image reproduced under CC-BY with permission from the account)*
 ```
-> A união começou sua história como a União Nacional dos Trabalhadores Científicos em 1918, como resultado da rápida e crescente classe e consciência profissional, bem como a politização dos cientistas na sequência da Primeira Guerra Mundial. Em 1927 o nome foi alterado para o AScW, e continuou assim até 1968, quando se uniu com a Associação do Pessoal de Supervisão, Executivos e técnicos (ASSET) para formar a Associação dos Staffs Científicos, Técnicos e Gestores (ASTMS) um precursor do MSF e, em última análise, unificado. A união foi estabelecida “com uma plataforma explicitamente socialista”, e várias das suas principais figuras eram cientistas respeitados e socialistas activos e membros do Partido Comunista, como Hyman Levy e John Desmond Bernal. Vários vencedores do Prêmio Nobel eram membros. Os cientistas e técnicos sindicais organizados na investigação governamental e no sector privado, e se tornou um proeminente propaganda para a expansão da R&D de financiamento público, bem como tomar posições políticas sobre o uso ético da ciência, contra a ameaça global do fascismo e da orientação da investigação científica para fins pacíficos. A AScW continuou a encontrar a Federação Mundial dos Trabalhadores Científicos em 1946, uma organização que durante a Guerra Fria foi acusada de seguir a linha soviética e de ser uma frente comunista.
+> The union began its history as the National Union of Scientific Workers in 1918, as a result of the rapid and increased class and professional consciousness, as well as politicisation of scientists in the wake of the First World War. In 1927 the name was changed to the AScW, and it continued as such until 1968 when it merged with the Association of Supervisory Staff, Executives and Technicians (ASSET) to form the Association of Scientific, Technical and Managerial Staffs (ASTMS) a precursor of MSF and ultimately Unite. The union was established “with an explicitly socialist platform”, and several of its leading figures were both respected scientists and active socialists and Communist Party members, such as Hyman Levy and John Desmond Bernal. Several Nobel Prize winners were members. The union organised scientists and technicians in government and private sector research, and became a prominent propagandist for the expansion of publicly funded R&D as well as taking political positions regarding the ethical use of science, against the global threat of fascism, and of guiding scientific research towards peaceful ends. The AScW went on to found the World Federation of Scientific Workers in 1946, an organisation which during the Cold War was accused of toeing the Soviet line, and being a communist front.
 
-O AScW se comunicou com os membros através de boletins informativos, bem como um documento nacional: O Worker Científico [Clique aqui para ler uma cópia no arquivo de bem vindo](https://wellcomelibrary.org/item/b19915299#?c=0&m=0&s=0&cv=0&z=-0.8157%2C-0.0826%2C2.6314%2C1.6529)
+The AScW communicated with members via branch bulletins as well as a national paper: The Scientific Worker [Click here to read a copy on the Wellcome Archive](https://wellcomelibrary.org/item/b19915299#?c=0&m=0&s=0&cv=0&z=-0.8157%2C-0.0826%2C2.6314%2C1.6529)
 
-(-início-ativo-unionisation-start)=
-## Nunca antes fiz parte de uma união: por onde começo?
+(er-activism-unionisation-start)=
+## I have never been part of a union before: where do I start?
 
-Comece por descobrir se já existe uma união no seu local de trabalho. Se assim for, haverá uma pessoa com a qual se poderá falar em aderir: pode ser conhecida como representante ou administrador do sindicato. Juntar-se à união que já representa pessoas no seu local de trabalho aumenta a sua capacidade de negociar em nome de todos e organizar o local de trabalho. Alguns locais de trabalho podem ter vários sindicatos diferentes que representam diferentes tipos de pessoal. Nestes casos, você deve se juntar àquele que você sente melhor que corresponda ao tipo de trabalho que você faz.
+Start by finding out if there is a union already in your workplace. If so, there will be a person you can talk to about joining: they might be known as the union rep or steward. Joining the union that already represents people in your workplace increases its ability to bargain on behalf of everyone and organise the workplace. Some workplaces may have several different unions that represent different types of staff. In these cases, you should join the one you feel best matches the type of work you do.
 
-Se não existe uma união no seu local de trabalho, verifique os sindicatos que já existem na sua região ou país. [link to the section on examples of unions](er-activism-unionisation-unionexamples) You may be able to join one that is relevant to your industry or duties: or you may be able to join a general union que representa vários funcionários diferentes.
+If there is not a union in your workplace, look into the unions that already exist in your area or country. [link to section on examples of unions](er-activism-unionisation-unionexamples) You might be able to join one that is relevant to your industry or duties: or you might be able to join a general union that represents lots of different workers.
 
-Para aderir a um sindicato, talvez seja necessário pagar taxas ou direitos sindicais. Estas são quase sempre escalonantes, com base no quanto você ganha: alguns sindicatos também têm filiação livre para pessoas em certos cargos ou papéis.
+To join a union, you might have to pay union fees or dues. These are almost always sliding scale, based on how much you earn: some unions also have free membership for people in certain positions or roles.
 
 (er-activism-unionisation-unionjoin)=
-## O que você pode fazer como membro sindical
+## What you can do as a union member
 
-As uniões são projectos colectivos e são pessoas detidas!
+Unions are collective projects and they are people-powered!
 
-### Seja um membro ativo
+### Be an active member
 
-Quando você é membro, você pode assistir às reuniões. A participação em reuniões sindicais no seu local de trabalho é também uma boa maneira de saber quais são as questões que estão a afectar os seus colegas. As reuniões são um bom local para saber em que questões a União está a trabalhar e para as discutir com outros membros. Participar em reuniões e acompanhar as comunicações sindicais é uma boa maneira de descobrir como levantar questões que nos preocupam. A sua união pode também ter reuniões regionais ou nacionais: estes são bons locais para se inteirar mais do trabalho sindical em diferentes áreas.
+Once you are a member, you can attend meetings. Attending union meetings in your workplace is also a good way to find out what issues are affecting your colleagues. Meetings are a good place to find out what issues the union is working on and to discuss them with other members. Attending meetings and keeping up with union communications are good way to find out how to raise issues that you are concerned about. Your union may also have regional or national meetings: these are good places to find out more about union work in different areas.
 
-Tal como quaisquer organizações, os sindicatos têm os seus próprios sistemas de governação e de processos de decisão. É assim que o senhor deputado tem uma palavra a dizer sobre o que a sua união está a fazer. Você pode se envolver votando para que as pessoas assumam funções específicas no local de trabalho ou no nível da indústria. propor temas de debate em reuniões, ou contribuir para debates em curso. Também se poderá pedir para votar sobre as acções específicas que a união do seu local de trabalho tomará, incluindo aceitar ou rejeitar uma proposta política feita pela gestão.
+Like any organisations, unions have their own systems of governance and decision-making processes. These are ways for you to have a say in what your union is doing. You can get involved by voting for people to take on particular roles at workplace or industry level, proposing topics for debate in meetings, or contributing to ongoing debates. You might also be asked to vote on specific actions that your workplace union will take, including accepting or rejecting a policy proposal made by management.
 
-Sua união pode pedir informações sobre questões: elas podem ir desde coisas específicas ao seu trabalho ou local de trabalho. a questões que afectam toda a sua indústria. Este contributo é valioso para ajudar os sindicatos a suscitar preocupações e a fazer mudanças. A sua união deve ter uma segurança, maneira confidencial para você compartilhar suas experiências e opiniões (se você não tem certeza sobre os canais de comunicação que sua união está usando, fale sobre isso com as pessoas específicas que estão pedindo entrada: você pode pedir para usar canais alternativos, se precisar.)
+Your union may ask you for input about issues: these can range from things that are specific to your job or workplace, to issues that affect your whole industry. This input is valuable to help unions raise concerns and make changes. Your union should have a safe, confidential way for you to share your experiences and opinions (if you're not sure about the channels of communication your union is using, talk about this to the specific people who are asking for input: you can ask to use alternative channels if need be.)
 
-Seu sindicato pode pedir que você tome ações específicas: por exemplo, para assinar uma petição, escreva a um funcionário eleito, ou participe numa campanha das redes sociais. Em alguns casos, sua união pode decidir considerar ou tomar medidas de greve. O processo de tomada em greve difere em diferentes sindicatos, e em alguns países existem restrições legais que cobrem os tipos de acções que são protegidas.
+Your union may ask you to take specific actions: for example, to sign a petition, write to an elected official, or take part in a social media campaign. In some cases, your union may decide to consider or take strike action. The process for going on strike differs in different unions, and in some countries there are legal restrictions that cover what kinds of actions are protected.
 
-(er-activismo-unionisation-representative)=
-### Torne-se um representante
+(er-activism-unionisation-representative)=
+### Become a representative
 
-Como qualquer comunidade, os sindicatos precisam que as pessoas assumam funções organizacionais no seio da União. Estas funções variarão dependendo da dimensão da sua união e do seu funcionamento.
+Like any community, unions need people to take on organisational roles within the union. These roles will vary depending on how big your union is, and what it is working in.
 
-Alguns cargos podem incluir:
-* Apoiar outros sindicalistas: acompanhar, por exemplo, os seus colegas a reuniões disciplinares ou reuniões com gestão, prestar apoio e tomar notas
-* Ser um representante sindical para um determinado grupo de funcionários dentro do seu local de trabalho: pode ser uma equipe ou um departamento, ou um grupo de funcionários que desempenham funções semelhantes em todo o local de trabalho
-* Negociando uma questão específica, por exemplo, remuneração, pensões ou direitos de férias, com gestão
-* Representando seu local de trabalho em grandes reuniões sindicais, por exemplo, uma reunião nacional
+Some roles might include:
+* Supporting other union members: for example, accompanying your colleagues to disciplinary meetings or meetings with management, to provide support and take notes
+* Being a union rep for a particular group of workers within your workplace: this might be a team or a department, or a group of workers doing similar roles across the workplace
+* Negotiating a particular issue, for example pay, pensions, or holiday entitlements, with management
+* Representing your workplace at larger union gatherings, for example a national meeting
 
-O processo para se tornar um representante irá variar consoante a forma como a sua união funciona. Poderão ter de se candidatar às eleições ou ser aprovados por uma reunião de sindicalistas.
+The process for becoming a representative will vary depending on how your union operates. You might need to stand for election, or be approved by a meeting of union members.
 
 (er-activism-unionisation-campaign)=
-### Conduzir uma campanha
+### Lead a campaign
 
-Se você tem problemas no seu local de trabalho ou na indústria, então uma maneira de promover a mudança é liderando uma campanha dentro da sua união (por um sucursal ou nacional). Campanhas podem assumir quase tantas formas quantas haver issues para fazer campanha!
+If you have issues in your workplace or industry that you feel strongly about then one way to push for change is by leading a campaign within your union (at either a branch or national level). Campaigns can take almost as many forms as there are issues to campaign on!
 
-Como ponto de partida, É bom ter um problema e meta claros em mente o que você gostaria de conseguir e algumas outras pessoas que concordam com o que você deseja alterar.
+As a starting point, it's good to have a clear issue and aim(s) in mind for what you would like to achieve and a few other people who agree with what you want to change.
 
-Se pensa que é isso que quer fazer, a União terá geralmente recursos para se iniciar. Também é possível encontrar passos mais práticos no capítulo de defesa da política interna do Livro de Ética.
+If you think this is what you want to do, your union will usually have resources on how to get started. You can also find more practical steps in the Internal Policy Advocacy Chapter of the Ethics Book.
 
-(er-activismo-unionização-recursos)=
-#### Mais recursos
-A maioria dos sindicatos terá exemplos ou guias sobre como entrar ou iniciar campanhas (por exemplo, UNISON, um UK union tem uma [página da Web com detalhes](https://www.unison.org.uk/get-involved/campaign-for-change/)).
+(er-activism-unionisation-resources)=
+#### More resources
+Most unions will have examples or guides on how to join or start campaigns (for example, UNISON, a UK union has a [webpage with details](https://www.unison.org.uk/get-involved/campaign-for-change/)).
 
-Outras organizações que oferecem formação e apoio sobre como fazer campanha efetivamente incluem:
+Other organisations that offer training and support on how to campaign effectively include:
 
-* [A Escola de Baker de Ella](https://www.ellabakerorganising.org.uk/)
-* [A União dos Cientistas Inquietos](https://www.ucsusa.org/building-skills-science-network)
+* [The Ella Baker School of Organising](https://www.ellabakerorganising.org.uk/)
+* [The Union of Concerned Scientists](https://www.ucsusa.org/building-skills-science-network)
 
 (er-activism-unionisation-unionexamples)=
-### Exemplos de sindicatos relevantes
+### Examples of relevant unions
 
-Reconhecemos que a lista abaixo é muito centrada no Reino Unido e gostaríamos de receber aditamentos para outros países.
+We recognise that the list below is very UK-centric and would welcome additions for other countries.
 
 #### Global
-* Coligação de Trabalhadores Técnicos, Global (organização focada em trabalhadores de tecnologia na indústria) [site](https://techworkerscoalition.org/)
+* Tech Workers Coalition, Global (organisation focused on tech workers in industry) [website](https://techworkerscoalition.org/)
 
-#### Reino Unido
-* **Unite**, Reino Unido, a maior união de serviços profissionais com mais de 1 milhão de membros [site](https://unitetheunion.org/)
-* **University & Colleges Union (UCU)**, Reino Unido, abrange pesquisadores, pessoal académico e altos graus de pessoal de serviços profissionais no Ensino Superior & Instituições de Ensino Futuro [website](https://www.ucu.org.uk/)
-* **Prospect**, Reino Unido, union covering scientists & engineers [website](https://members.prospect.org.uk/our-industries/science/index)
-* **Sites da União de Serviços Públicos e Comerciais (PCS)**, Reino Unido, União de Serviços Públicos
-* United Voices of the World (UVW), Charity Sector Workers Branch [site](https://www.uvwunion.org.uk/en/sectors/charity-sector/)
-* Sindicato Independente de Trabalhadores da Grã-Bretanha (IWGB), Gabinete de Trabalhadores do Setor de Caridade [site](https://iwgb.org.uk/page/iwgb-charity-workers-branch/)
-    * IWGB também tem uma série de ramificações cobrindo limpezas, recepcionistas e trabalhadores da indústria de jogos
+#### United Kingdom
+* **Unite**, United Kingdom, the largest professional services union with over 1 million members [website](https://unitetheunion.org/)
+* **University & Colleges Union (UCU)**, United Kingdom, covers researchers, academic staff and higher grades of professional services staff in Higher Education & Further Education institutions [website](https://www.ucu.org.uk/)
+* **Prospect**, United Kingdom, union covering scientists & engineers [website](https://members.prospect.org.uk/our-industries/science/index)
+* **Public and Commercial Services Union (PCS)**, United Kingdom, civil service union [website](https://www.pcs.org.uk/about-pcs)
+* United Voices of the World (UVW), Charity Sector Workers Branch [website](https://www.uvwunion.org.uk/en/sectors/charity-sector/)
+* Independent Workers’ Union of Great Britain (IWGB), Charity Sector Workers Branch [website](https://iwgb.org.uk/page/iwgb-charity-workers-branch/)
+    * IWGB also has a number of branches covering cleaners, receptionists and game industry workers
 
-#### Irlanda
-* **Associação de Cientistas Laboratórios de Saúde Médicos (MLSA)**, Irlanda, é o único sindicato que representa mais de 1600 Cientistas Médicos na Irlanda [site](https://mlsa.ie/who-we-are)
+#### Ireland
+* **Medical Laboratory Scientists Association (MLSA)**, Ireland, is the sole trade union representing over 1600 Medical Scientists in Ireland [website](https://mlsa.ie/who-we-are)
 
-#### França
-* **Neutrampolim Française De├mocratique du Travail (CFDT)** é a maior confederação sindical francesa por número de membros. Ela se originou como um ramo secular do sindicato cristão Confect, de├aise des Travailleurs Chre^\\tiens (CFTC) [site](https://cfdt.fr/)
-* **Confe├de├ration Ge^\\neale du Travail (CGT)** é o segundo maior sindicato francês por um número de membros. A CGT está concentrando sua atenção no sindicalismo no site [do setor privado](https://www.cgt.fr/)
-* **A Confe├de├ration Ge├neale du Travail-Force Ouvrie├re (CGT-FO)** foi fundada por antigos membros da Confederação Geral de Trabalho (CGT) que acusou essa federação para ser influenciada pelo site [do Partido Comunista Francês](https://www.force-ouvriere.fr/?lang=fr)
-* **Confe^\\de-ration Franconëaise de l’Encadrement-Confe├de─ration Ge├neł rale des Cadres (CFE-CGC)** é exclusivamente focado na organização de sindicatos para funcionários profissionais com educação superior ou em cargos executivos ou em site de gestão
+#### France
+* **Confédération Française Démocratique du Travail (CFDT)** is the largest French trade union confederation by number of members. It originated as a secular branch of the Christian trade union Confédération Française des Travailleurs Chrétiens (CFTC) [website](https://cfdt.fr/)
+* **Confédération Générale du Travail (CGT)** is the second largest French trade union by number of members. The CGT is concentrating its attention to trade-unionism in the private sector [website](https://www.cgt.fr/)
+* **Confédération Générale du Travail-Force Ouvrière (CGT-FO)** was founded by former members of the General Confederation of Labor (CGT) who accused that federation to be influenced by the French Communist Party [website](https://www.force-ouvriere.fr/?lang=fr)
+* **Confédération Française de l’Encadrement-Confédération Générale des Cadres (CFE-CGC)** is solely focused on organising unions for professional employees having higher education or in management or executive positions [website](https://cfecgc.org/)
 
-#### Itália
-* **A Confederazione Generale Italiana Lavoratori (CGIL)** é a maior união italiana que conta mais de 5 milhões de membros [no site](http://www.cgil.it/)
-* **A Confederazione Italiana Sindacato dei Lavoratori (CISL)** é baseada em grupos de valores católicos romanos ligados ao site da Democracia Cristã
-* **Unione Italiana Lavoratori (UIL)** é o socialista, social democrático, (republican) e secular dividido do site CGIL
-* **Único Sindacale Professori e Ricercatori (USPUR)** é destinado a professores e pesquisadores [do site](https://www.uspur.it/)
-* **Úone Degli Universitari (UDU)** é focado em melhorar a experiência de estudantes universitários e a futura carreira [site](https://www.unionedegliuniversitari.it/)
+#### Italy
+* **Confederazione Generale Italiana Lavoratori (CGIL)** is the largest Italian union that counts more than 5 million members [website](http://www.cgil.it/)
+* **Confederazione Italiana Sindacato dei Lavoratori (CISL)** is based on Roman Catholic values groups linked with Christian Democracy [website](https://www.cisl.it/)
+* **Unione Italiana Lavoratori  (UIL)** is the socialist, social democratic, (republican) and secular split from the CGIL [website](https://www.uil.it/)
+* **Unione Sindacale Professori e Ricercatori (USPUR)** is aimed at university professors and researchers [website](https://www.uspur.it/)
+* **Unione Degli Universitari  (UDU)** is focused on improving the university students experience and future career [website](https://www.unionedegliuniversitari.it/)
 
-#### Espanha
-* **Unio➲ n General de Trabajadores (UGT)** é um dos principais sindicatos espanhóis, historicamente afiliado ao site do Partido dos Trabalhadores Socialistas Europeus (PSOE)
-* **Confederacio├n Sindical de Comisiones Obreras (CCOO)** é a segunda maior união da Espanha e é o site [de eleições de trabalho](https://www.ccoo.es/)
-* **** A Federacion de Jovenes Investigadores (FJI-Precarios) </strong> está focada em melhorar as condições de trabalho de jovens pesquisadores, defender a dignidade da profissão de investigador, e em geral, melhorar a situação da ciência na Espanha [website](http://precarios.org/Qui%C3%A9nes+somos)
+#### Spain
+* **Unión General de Trabajadores (UGT)** is a major Spanish trade union, historically affiliated with the Spanish Socialist Workers' Party (PSOE) [website](https://www.ugt.es/)
+* **Confederación Sindical de Comisiones Obreras (CCOO)** is the second largest union in Spain and is the most successful one in labor elections [website](https://www.ccoo.es/)
+* **Federacion de Jovenes Investigadores (FJI-Precarios)** is focused on improving the labour conditions of young researchers, defending the dignity of the research profession, and overall, improving the situation of science in Spain [website](http://precarios.org/Qui%C3%A9nes+somos)
 
 
-#### Estados Unidos
-* **Graduate Graduate Unions** em várias universidades e faculdades estão organizando a [página da Wikipedia](https://en.wikipedia.org/wiki/Graduate_student_employee_unionization)
+#### United States
+* **Graduate Student Unions** at multiple universities and colleges are organising [Wikipedia page](https://en.wikipedia.org/wiki/Graduate_student_employee_unionization)
 
-#### Austrália
-* **Cientista Profissional Australia**, Austrália (união cobrindo cientistas do setor)[site](https://scientists.professionalsaustralia.org.au/)
-* [Lista geral de Sindicatos na Austrália](https://en.wikipedia.org/wiki/List_of_trade_unions_in_Australia)
+#### Australia
+* **Professional Scientists Australia**, Australia (union covering industry scientists)[website](https://scientists.professionalsaustralia.org.au/)
+* [General list of Trade Unions in Australia](https://en.wikipedia.org/wiki/List_of_trade_unions_in_Australia)
 
-(er-activismo-unionização-resumo)=
+(er-activism-unionisation-summary)=
 ## Summary
 
-As Uniões oferecem apoio aos investigadores e cientistas através de muitas pistas diferentes e há uma variedade de formas de os envolver. A primeira coisa a fazer é ver quais sindicatos estão activos no seu instution ou campo. Se a sua instituição não reconhece uma união, você pode ler através dos capítulos Whistleblowing e Internal Advocacy para mais ideias sobre como trabalhar para a mudança.
+Unions offer support for researchers and scientists through many different avenues and there are a variety of ways to get involved in them. The first thing to do is see which unions are active in your instution or field. If your institution does not recognise a union, you can read through Whistleblowing and Internal Advocacy chapters for more ideas on how to work for change.

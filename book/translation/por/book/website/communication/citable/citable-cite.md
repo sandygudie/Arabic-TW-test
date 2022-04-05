@@ -1,55 +1,55 @@
 (cm-citable-cite)=
-# Objetos de Pesquisa
+# Citing Research Objects
 
-Deve citar objetos de pesquisa diretamente no papel em lugares onde ele é relevante. Esta é uma forma comum de citar publicações e é válida para citar outros componentes de pesquisa, como dados e software. Uma citação inclui as seguintes informações:
-- Autor
-- Título
-- Ano da publicação
-- Editor (para dados, este é frequentemente o repositório de dados onde é doméstico),
-- Versão (se indicada)
-- Acesse informações (uma URL ou DOI)
+You should cite research objects directly in the paper in places where it is relevant. This is a commonly practised way of citing publications and is valid for citing other research components like data and software. A citation includes the following information:
+- Author
+- Title
+- Year of publication
+- Publisher (for data, this is often the data repository where it is housed),
+- Version (if indicated)
+- Access information (a URL or DOI)
 
-O estilo de citação é um arranjo, ordem e formatação específicos das informações necessárias para uma citação. Por exemplo, o estilo MLA foi desenvolvido pela Associação de Linguagens Modernas (originalmente usada nas humanidades) e o estilo APA foi desenvolvido pela American Psicológica Association (usada originalmente na psicologia e nas ciências sociais).
-- Estilo de citação MLA usa o seguinte formato: `Autor. "Título da Fonte". Título do contêiner, Outros colaboradores, Versão, Número, Publicador, Data de Publicação, Localização.`
-- Estilo de citação APA usa o seguinte formato: `Autor. (Ano). Título do conjunto de dados (número da versão). [Recuperado de] ***OU*** [DOI]`
+A citation style is a specific arrangement, order and formatting of information necessary for a citation. For instance, the MLA style was developed by Modern Language Association (originally used in the humanities) and the APA style was developed by American Psychological Association (originally used in psychology and the social sciences).
+- MLA citation style uses the following format: `Author. "Title of the Source." Title of the Container, Other contributors, Version, Number, Publisher, Publication date, Location.`
+- APA citation style uses the following format: `Author. (Year). Title of data set (Version number). [Retrieved from] ***OR*** [DOI]`
 
-Veja [Guia de Estilos de Citação do Scribbr](https://www.scribbr.com/citing-sources/citation-styles/). Veja também [Recurso FORCE11](https://www.force11.org/node/4771).
+See [Scribbr Citation Styles Guide](https://www.scribbr.com/citing-sources/citation-styles/). See also [FORCE11 resource](https://www.force11.org/node/4771).
 
 (cm-citable-cite-data)=
-## Dados de Citação
+## Citing Data
 
-Ao compartilhar um conjunto de dados, use DOIs dedicados e adicione um **extrato de disponibilidade de dados** no final do papel ou nos detalhes do repositório online (semelhante à seção de confirmação).
+When sharing a dataset, use dedicated DOIs and add a **data availability statement** at the end of the paper or in online repository details (similar to the acknowledgement section).
 
-Você pode encontrar exemplos dessas afirmações nas políticas do autor (dados de pesquisa) dos editores.
+You can find examples of these statements in the publishers' (research data) author policies.
 
-### Exemplos da disponibilidade de dados:
+### Data availability statement examples:
 
-**Usando o Digital Object Identifier (DOI):** “Os dados que suportam as descobertas deste estudo estão abertamente disponíveis no [nome do repositório] em http://doi.
+**Using the Digital Object Identifier (DOI):** “The data that support the findings of this study are openly available in [repository name] at http://doi.org/[doi].”
 
-**Se nenhum DOI for emitido:**
-- Os dados que suportam as conclusões deste estudo estão abertamente disponíveis no [nome do repositório] em [URL], número de referência [número de referência]".
+**If no DOI is issued:**
+- “The data that support the findings of this study are openly available in [repository name] at [URL], reference number [reference number].”
 
-**Quando houver um período de embargo, você pode reservar o seu DOI e ainda incluir uma referência ao conjunto de dados no seu papel:**
-- “Os dados que apoiam as conclusões estarão disponíveis no [nome do repositório] em [URL / DOI] na sequência de um embargo [6 mês] a partir da data de publicação para permitir a comercialização dos resultados de pesquisa.”
+**When there is an embargo period you can reserve your DOI and still include a reference to the dataset in your paper:**
+- “The data that support the findings will be available in [repository name] at [URL / DOI] following a [6 month] embargo from the date of publication to allow for the commercialisation of research findings.”
 
-**Quando os dados não podem ser disponibilizados:**
-- “As restrições aplicam-se aos dados que suportam as descobertas deste estudo. [Explicar a natureza das restrições, por exemplo, se os dados contém informações que poderiam comprometer a privacidade dos participantes da pesquisa] Dados estão disponíveis a uma solicitação razoável entrando em contato com [nome e detalhes de contato] e com permissão de [nome de terceiro]."
--  “Os dados que suportam as conclusões deste estudo estão disponíveis mediante pedido. Condições de acesso e procedimentos podem ser encontrados na [URL para repositório de acesso restrito como [FÁCIL](https://easy.dans.knaw.nl/ui/home).]"
+**When data cannot be made available:**
+- “Restrictions apply to the data that support the findings of this study. [Explain nature of restrictions, for example, if the data contains information that could compromise the privacy of research participants] Data are available upon reasonable request by contacting [name and contact details] and with permission of [third party name].”
+-  “The data that support the findings of this study are available upon request. Access conditions and procedures can be found at [URL to restricted access repository such as [EASY](https://easy.dans.knaw.nl/ui/home).]”
 
-**Mais exemplos de declaração de disponibilidade de dados:**
+**More Data Availability Statement examples:**
 
-Você pode encontrar mais exemplos na [página de demonstrações de acesso aos dados do Mancher](https://www.library.manchester.ac.uk/using-the-library/staff/research/research-data-management/sharing/data-access-statements/), os [exemplos de Declaração de Disponibilidade de Dados de Cambridge](https://www.cambridge.org/core/services/authors/open-data/data-availability-statements), os [exemplos de Declaração de Disponibilidade de Dados AMS](https://www.ametsoc.org/index.cfm/ams/publications/author-information/formatting-and-manuscript-components/data-availability-statement-examples/)ou [Dicas da Natureza para escrever um comando deslumbrante de Disponibilidade de Dados](https://researchdata.springernature.com/posts/tips-for-writing-a-dazzling-das-data-availability-statement).
+You can find more examples on the [Manchester's Data Access Statements page](https://www.library.manchester.ac.uk/using-the-library/staff/research/research-data-management/sharing/data-access-statements/), the [Cambridge Data Availability Statement examples](https://www.cambridge.org/core/services/authors/open-data/data-availability-statements), the [AMS Data Availability Statement examples](https://www.ametsoc.org/index.cfm/ams/publications/author-information/formatting-and-manuscript-components/data-availability-statement-examples/), or [Nature's Tips for writing a dazzling Data Availability Statement](https://researchdata.springernature.com/posts/tips-for-writing-a-dazzling-das-data-availability-statement).
 
-(cm-cite-software)=
-## Software de Citação
+(cm-citable-cite-software)=
+## Citing Software
 
-Uma citação de software tem muitos dos mesmos elementos que uma citação de dados, descrita acima, e são descritos com mais detalhes nos [Princípios de Citação do Software](https://www.force11.org/software-citation-principles). Ao usar outros software, é vital citá-los e atribuí-los correctamente.
+A software citation has a lot of the same elements as a data citation, described above, and are described in more detail in the [Software Citation Principles](https://www.force11.org/software-citation-principles). When using others software, it is vital to cite and attribute it properly.
 
-Para tornar seu código cível, você pode usar a integração entre [Zenodo](https://zenodo.org/) e GitHub.
+To make your code citable, you can use the integration between [Zenodo](https://zenodo.org/) and GitHub.
 
-- Crie um arquivo para dizer às pessoas como citar seu software. Use este [guia prático](https://citation-file-format.github.io/cff-initializer-javascript/) para formatar o arquivo.
-- Vincule sua conta do GitHub com uma conta Zenodo. Este guia explica [como](https://guides.github.com/activities/citable-code/).
-- Você pode dizer ao Zenodo quais informações ou metadados você deseja incluir no seu software adicionando um `zenodo. arquivo` do filho, descrito [aqui](https://guide.esciencecenter.nl/citable_software/making_software_citable.html).
-- No Zenodo, vire o interruptor para a posição 'on' para o repositório do GitHub que você deseja liberar.
-- No GitHub, clique no botão *Criar um novo release*. O Zenodo deve ser notificado automaticamente e deve fazer uma cópia de snapshot do estado atual do repositório (apenas uma filial), sem qualquer histórico) e também deve atribuir um identificador persistente (DOI) para esse snapshot.
-- Utilize o DOI em qualquer citação do seu software e diga aos colaboradores e usuários que façam o mesmo!
+- Create a file to tell people how to cite your software. Use this [handy guide](https://citation-file-format.github.io/cff-initializer-javascript/) to format the file.
+- Link your GitHub account with a Zenodo account. This guide explains [how](https://guides.github.com/activities/citable-code/).
+- You can tell Zenodo what information or metadata you want to include with your software by adding a `zenodo.json` file, described [here](https://guide.esciencecenter.nl/citable_software/making_software_citable.html).
+- On Zenodo, flip the switch to the 'on' position for the GitHub repository you want to release.
+- On GitHub, click the *Create a new release* button. Zenodo should automatically be notified and should make a snapshot copy of the current state of your repository (just one branch, without any history), and should also assign a persistent identifier (DOI) to that snapshot.
+- Use the DOI in any citations of your software and tell any collaborators and users to do the same!

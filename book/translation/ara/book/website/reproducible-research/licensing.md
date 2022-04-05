@@ -1,27 +1,27 @@
-crwdns845342:0crwdne845342:0
-# crwdns845344:0crwdne845344:0
+(rr-licensing)=
+# Licensing
 
-crwdns845346:0crwdne845346:0
-## crwdns845348:0crwdne845348:0
+(rr-licensing-prerequisites)=
+## Prerequisites
 
-crwdns845350:0crwdne845350:0
+No previous knowledge is needed, but it is important to understand how licensing can affect your project.
 
-crwdns845352:0crwdne845352:0
-## crwdns845354:0crwdne845354:0
+(rr-licensing-summary)=
+## Summary
 
-> crwdns845356:0crwdne845356:0 crwdns845358:0crwdne845358:0
+> This chapter was written using American English, in which the word **license** is a noun **_and_** a verb. With British English, however, **licence** is a noun (as in, _to issue a licence_), while **license** is a verb (as in, _they licensed the event_).
 
-crwdns845360:0crwdne845360:0 crwdns845362:0crwdne845362:0
+As with anything else in society, some of what you can and cannot do in software development is determined by the law. Most of the constraints in this particular domain stem from intellectual property laws: laws that make abstract things like designs, stories, or computer programs resemble physical objects by allowing them to be owned.
 
-crwdns845364:0crwdne845364:0 crwdns845366:0crwdne845366:0
+This chapter aims to give a brief summary of relevant intellectual property laws (enough to be able to read most software licenses), explain free and open source software licensing, and explain how combining software from different sources works from a legal perspective. It also gives some rules we have worked out to deal with common situations.
 
-## crwdns845368:0crwdne845368:0
+## Motivation
 
-crwdns845370:0crwdne845370:0 crwdns845372:0crwdne845372:0 crwdns845374:0crwdne845374:0
+Without a license, all rights are with the author of the code, and that means nobody else can use, copy, distribute, or modify the work without consent. A license gives this consent. If you do not have a license for your software, it is effectively unusable by the whole research community.
 
 ```{Attention}
-crwdns845376:0crwdne845376:0
-crwdns845378:0crwdne845378:0
-crwdns845380:0crwdne845380:0
-crwdns845382:0crwdne845382:0
+Good legal advice is timely, specific, and given by an expert; this chapter is none of these.
+It was written by an engineer, not by a lawyer, and it is a heavily simplified overview of a very complex field.
+The intent is to give you an overview of the basics so that you will know when to check whether something you want to do has potential legal ramifications.
+Do not make any important decisions based solely on the contents of this chapter.
 ```

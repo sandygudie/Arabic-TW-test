@@ -1,31 +1,31 @@
 (rr-testing-acceptance-regression)=
-# Teste de Aceitação e Regressão
+# Acceptance and Regression Testing
 
 (rr-testing-acceptance)=
-## Testes da aceitação
+## Acceptance testing
 
-Testes de aceitação são um dos últimos tipos de testes que são executados no software antes da entrega. Testes de aceitação são usados para determinar se um software satisfaz todos os requisitos na perspectiva da empresa ou do usuário. Este software faz o que precisa fazer? Estes testes são, por vezes, feitos contra a especificação original.
+Acceptance tests are one of the last tests types that are performed on software prior to delivery. Acceptance testing is used to determine whether a piece of software satisfies all of the requirements from the business or user's perspective. Does this piece of software do what it needs to do? These tests are sometimes built against the original specification.
 
-Uma vez que o software de pesquisa é tipicamente escrito pelo pesquisador que o utilizará (ou pelo menos com contributos significativos) testes de aceitação podem não ser necessários.
+Because research software is typically written by the researcher that will use it (or at least with significant input from them) acceptance tests may not be necessary.
 
 (rr-testing-regression)=
-## Teste de regressão
+## Regression testing
 
-O teste de revogação é um estilo de teste que se concentra na busca de retornos após as alterações serem feitas. Os resultados dos testes após as alterações são comparados aos resultados anteriores, e os erros são detectados se forem diferentes. O teste de regressão destina-se a garantir que mudanças (melhorias ou correções de defeitos) para o software não o tenham afetado negativamente. A probabilidade de qualquer mudança de código nas funcionalidades de impacto que não estejam diretamente associadas ao código sempre existe e é essencial que os testes de regressão sejam realizados para garantir que a correção de uma coisa não tenha quebrado outra. Os testes de regressão podem ser realizados durante qualquer nível de teste (unidade, integração, sistema ou aceitação), mas é principalmente relevante durante os testes do sistema. Qualquer teste pode ser reutilizado e, portanto, qualquer teste pode tornar-se um teste de regressão.
+Regression testing is a style of testing that focuses on retesting after changes are made. The results of tests after the changes are compared to the results before, and errors are raised if these are different. Regression testing is intended to ensure that changes (enhancements or defect fixes) to the software have not adversely affected it. The likelihood of any code change impacting functionalities that are not directly associated with the code is always there and it is essential that regression testing is conducted to make sure that fixing one thing has not broken another. Regression testing can be performed during any level of testing (unit, integration, system, or acceptance) but it is mostly relevant during system testing. Any test can be reused, and so any test can become a regression test.
 
-Os testes de regressão são, obviamente, especialmente importantes no trabalho em equipa, mas é surpreendentemente fácil quebrar seu próprio código sem notá-lo, mesmo que você esteja trabalhando por conta própria. E porque o teste de regressão é quase impossível de fazer satisfatoriamente (é muito tedioso), é um caso óbvio para a automatização.
+Regression testing is obviously especially important in team working, but it is surprisingly easy to break your own code without noticing it, even if you are working on your own. And because regression testing is next to impossible to do satisfactorily by hand (it's simply too tedious), it's an obvious case for automation.
 
-Testes de agressão são escritos pela primeira vez executando o código (ou parte do) para entradas determinadas e gravando as saídas. Isto pode ser feito escrevendo os arquivos de entrada e salvando os arquivos de saída correspondentes. Estas saídas servem como as saídas esperadas do programa dadas as entradas correspondentes. Os testes de regressão são então escritos. Cada teste de regressão executa o código para o conjunto de entradas. Em seguida, compara a saída do código com as saídas esperadas, e cria um erro se eles não correspondem.
+Regression tests are written by first running the (or part of the) code for given inputs and recording the outputs. This could be done by writing input files and saving the corresponding output files. These outputs serve as the expected outputs from the program given the corresponding inputs. Regression tests are then written. Each regression test runs the code for the set of inputs. It then compares the output from the code to the expected outputs, and raises an error if these do not match.
 
-As abordagens do teste de regressão diferem em seu foco.
+Regression testing approaches differ in their focus.
 
-Exemplos comuns incluem:
-- Regressividade de bug: Nós retratamos um bug específico que foi supostamente corrigido.
-- O antigo teste de regressão de correção: nós retestamos vários erros antigos que foram corrigidos, para ver se eles estão de volta. (Esta é a noção clássica de regressão: o programa regressou para um estado negativo.)
-- Regressão funcional geral: Retomamos o projeto em termos gerais, incluindo áreas que funcionaram antes, para ver se mudanças mais recentes desestabilizaram o código de trabalho.
-- Teste de conversão ou da porta: O programa é portado para uma nova plataforma e um conjunto de testes de regressão é executado para determinar se a porta foi bem sucedida.
-- Teste de configuração: O programa é executado em um novo dispositivo ou em uma nova versão do sistema operacional ou em conjunto com um novo aplicativo. Isto é como teste do porto, exceto que o código subjacente não foi alterado, apenas os componentes externos com os quais o software sob teste deve interagir.
+Common examples include:
+- Bug regression: We retest a specific bug that has been allegedly fixed.
+- Old fix regression testing: We retest several old bugs that were fixed, to see if they are back. (This is the classical notion of regression: the program has regressed to a bad state.)
+- General functional regression: We retest the project broadly, including areas that worked before, to see whether more recent changes have destabilized working code.
+- Conversion or port testing: The program is ported to a new platform and a regression test suite is run to determine whether the port was successful.
+- Configuration testing: The program is run with a new device or on a new version of the operating system or in conjunction with a new application. This is like port testing except that the underlying code hasn't been changed--only the external components that the software under test must interact with.
 
-### Limitações de teste de regressão
+### Limitations of Regression Testing
 
-Não é garantido que os testes de regressão testem todas as partes do código. O mais importante, testes de regressão não testam se o resultado gerado por um pedaço de código está *correto*, apenas que não mudou. Esse mandato de outros tipos de testes, embora os testes de regressão possam servir como ponto de partida para introduzir testes de correção, através da utilização de soluções analíticas e através de funções de teste que leem os arquivos de saída e verifiquem os dados de exatidão, conforme definido por um investigador.
+Regression tests are not guaranteed to test all parts of the code. Most importantly, regression tests do not test if the result outputted by a piece of code is *correct*, only that it has not changed. This the remit of other kinds of tests, though regression tests can serve as the starting point for introducing tests for correctness, by both the use of analytical solutions, and through test functions which read output files and check the data for correctness, as defined by a researcher.

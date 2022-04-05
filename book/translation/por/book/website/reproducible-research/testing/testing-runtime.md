@@ -1,37 +1,37 @@
 (rr-testing-runtime)=
-# Teste de execução
+# Runtime testing
 
-Testes de tempo de execução são testes que são executados como parte do próprio programa. Eles podem assumir a forma de verificações dentro do código, como mostrado abaixo:
+Runtime tests are tests that run as part of the program itself. They may take the form of checks within the code, as shown below:
 ```
-população = population + people_born - people_died
+population = population + people_born - people_died
 
-// teste se a população é positiva
-if (população < 0):
-error( 'O número de pessoas nunca pode ser negativo')
+// test that the population is positive
+if (population < 0):
+error( 'The number of people can never be negative' )
 ```
 
-Outro exemplo de uso de testes de tempo de execução é as verificações internas dentro de funções que verificam se suas entradas e saídas são válidas, como mostrado abaixo:
+Another example of a use of runtime tests is internal checks within functions that verify that their inputs and outputs are valid, as shown below:
 ```
 function add_arrays( array1, array2 ):
 
-// teste se as arrays têm o mesmo tamanho
-if (array1. ize() != array2.size()):
-  erro( 'Os arrays têm tamanhos diferentes!' )
+// test that the arrays have the same size
+if (array1.size() != array2.size()):
+  error( 'The arrays have different sizes!' )
 
 output = array1 + array2
 
 if (output.size() != array1.size()):
-  error( 'A matriz de saída tem o tamanho errado!'' )
+  error( 'The output array has the wrong size!'' )
 
-saída de retorno
+return output
 ```
 
-Vantagens do teste em tempo de execução:
-- Execute dentro do programa para poder capturar problemas causados por erros lógicos ou casos de aresta.
-- Torna mais fácil encontrar a causa do bug pegando problemas mais cedo.
-- Capturar problemas cedo também ajuda a prevenir a sua escalada em falhas catastróficas. Ele minimiza o raio solo.
+Advantages of runtime testing:
+- Run within the program, so can catch problems caused by logic errors or edge cases.
+- Makes it easier to find the cause of the bug by catching problems early.
+- Catching problems early also helps prevent them escalating into catastrophic failures. It minimises the blast radius.
 
-Desvantagens do teste em tempo de execução:
+Disadvantages of runtime testing:
 
-- Os testes podem tornar o programa mais lento.
-- Qual é a coisa certa a se um erro é detectado? Como esse erro deve ser relatado? As excepções são uma rota recomendada para acompanhar este processo.
+- Tests can slow down the program.
+- What is the right thing to do if an error is detected? How should this error be reported? Exceptions are a recommended route to go with this.

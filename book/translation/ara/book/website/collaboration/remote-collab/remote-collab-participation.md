@@ -1,63 +1,63 @@
-crwdns827186:0crwdne827186:0
-# crwdns827188:0crwdne827188:0
+(cl-remote-collab-participation)=
+# Participating in Remote Events
 
-## crwdns827190:0crwdne827190:0
+## Motivation
 
-crwdns827192:0crwdne827192:0
+Now that you have been invited to attend an online meeting, or have registered to attend an online event, this checklist will help you start preparing for your participation and make the most of it.
 
-crwdns827194:0crwdne827194:0 crwdns827196:0crwdne827196:0
+This checklist also aims to help participants support the event organisers by being proactive and informed about the resources that are available for them and make the best of their participation. The tasks and responsibilities are listed in chronological order and have been divided into "before", "during" and "after" the meeting.
 
-## crwdns827198:0crwdne827198:0
+## Before participating in the meeting
 
-- crwdns827200:0crwdne827200:0
-- crwdns827202:0crwdne827202:0
-- crwdns827204:0crwdne827204:0
-- crwdns827206:0crwdne827206:0
-- crwdns827208:0crwdne827208:0
-- crwdns827210:0crwdne827210:0
-  - crwdns827212:0crwdne827212:0
-- crwdns827214:0crwdne827214:0
-- crwdns827216:0crwdne827216:0
-- crwdns827218:0crwdne827218:0
-- crwdns827220:0crwdne827220:0
-- crwdns827222:0crwdne827222:0
-- crwdns827224:0crwdne827224:0
-  - crwdns827226:0crwdne827226:0
-  - crwdns827228:0crwdne827228:0
-- crwdns827230:0crwdne827230:0
-- crwdns827232:0crwdne827232:0
-  - crwdns827234:0crwdne827234:0
-- crwdns827236:0crwdne827236:0
+- Note the date and time of the meeting in your time zone and mark them correctly in your calendar using custom links from the websites like [arewemeetingyet.com](https://www.timeanddate.com/worldclock/meeting.html) and [timeanddate.com](https://www.timeanddate.com/worldclock/fixedform.html).
+- Indicate that you will be participating by completing any formality put in place, like registering through a registration page, signing up on a shared document, or accepting the calendar invite.
+- Check if there is any other information you need to supply as a participant, like adding or approving agenda items, filling a pre-event survey, signing up for different sessions of a longer event.
+- Install software required for you to join the meeting online.
+- Test your microphone, webcam, internet bandwidth and compatibility of the software used for the online meeting with your system minimum 2 days before the meeting.
+- Check if the event offers any support that you can use for your participation and you are eligible to apply, such as the participation support grant.
+  - If the event doesn't offer any support, check if you can seek this support from other resources, for example, as offered by the [Open Bioinformatics Foundation](https://www.open-bio.org/travel-awards/) and [Software Sustainability Institute](https://software.ac.uk/programmes-and-events/fellowship-programme).
+- Reach out to the organisers if you need any help with installation, or join one of their pre-event setup calls.
+- Ask for the protocols and agenda for the meeting if not supplied already.
+- Familiarise yourself with the participation guideline and Code of Conduct supplied by the conference organisers.
+- Note the contact person for the organisation committee and the Code of Conduct.
+- Familiarise yourself with other documents like agenda of the meeting, protocols for the participation, etiquette for online attendees (how to raise your hand, or participate in a discussion) and other shared documents that will be used during the meeting.
+- If you are responsible for leading or chairing any agenda items, talks, or sessions, please note the slot and duration assigned to you.
+  - Check if there is a speaker or chair guidelines, reach out to the organisers if you have not been given one already.
+  - Prepare your notes or presentation that you will use during your slot as per the guidelines.
+- Please consider accessibility and inclusivity when designing your talk, [see this for reference](https://www.w3.org/WAI/teach-advocate/accessible-presentations/#preparing-slides-and-projected-material-speakers).
+- Join social media platforms, like [Slack](https://slack.com), [Twitter](https://twitter.com), [GitHub](https://github.com) or [Gitter](https://gitter.im), that will be used for announcing updates on the event, or facilitate live chat during the event.
+  - To get a head start on networking with other attendees, use the social media platform to introduce yourself.
+- Help organisers correct any information that you notice by flagging it, and even better, by supplying the correct information.
 
-## crwdns827238:0crwdne827238:0
+## During participating in the meeting
 
-- crwdns827240:0crwdne827240:0
-- crwdns827242:0crwdne827242:0
-- crwdns827244:0crwdne827244:0
-- crwdns827246:0crwdne827246:0
-  - crwdns827248:0crwdne827248:0
-- crwdns827250:0crwdne827250:0
-- crwdns827252:0crwdne827252:0
-- crwdns827254:0crwdne827254:0
-- crwdns827256:0crwdne827256:0
-- crwdns827258:0crwdne827258:0
-- crwdns827260:0crwdne827260:0
-- crwdns827262:0crwdne827262:0
-- crwdns827264:0crwdne827264:0
-- crwdns827266:0crwdne827266:0
-- crwdns827268:0crwdne827268:0
-- crwdns827270:0crwdne827270:0
-- crwdns827272:0crwdne827272:0
+- You must have already tested your system in advance, therefore, log in to the online call (using the links supplied by the organisers) a minimum of 5 minutes in advance so that you can troubleshoot any last-minute software updates.
+- The social media platform, especially for the live chat, will be particularly useful to ask for help or information during the meeting that you may have missed.
+- Videos are very important to have effective interaction with someone on the online calls, so if you do not mind, keep your video on.
+- Check the lighting of your room to ensure that your face is clearly visible and people can see you if you raise your hand or speak.
+  - You can use the blurring options to take your background out of focus.
+- Always mute your microphone when not speaking.
+- Follow the etiquette for online meetings that should have been shared by the organisers in their protocol.
+- Introduce yourself on the shared notes or verbally in short and clear sentences if a slot is assigned for that.
+- Note the Code of Conduct facilitator's contact during the meeting, so that you can directly contact them to report any breach or issue that may occur during the call.
+- When participating in a group discussion, for example, during a breakout session, be mindful that you don't use up a lot of time and give everyone a fair chance to speak and share their thoughts.
+- If someone else raised their hand before you, give them a chance to speak first.
+- Avoid repeating something that has already been shared by adding a '+1', 'I agree' or 'I second' in the chat or in the shared notes.
+- Help note-takers capture any information that they might have missed.
+- Avoid off-topic discussions and keep the meeting focused on the assigned agenda points.
+- Ask for clarification on any point that you did not understand so that you continue in the meeting effectively and leave the call with the right information.
+- Note any action points assigned to you at the end of the meeting.
+- Leave the call by thanking everyone!
 
-## crwdns827274:0crwdne827274:0
+## After participating in the meeting
 
-- crwdns827276:0crwdne827276:0
-- crwdns827278:0crwdne827278:0
-  - crwdns827280:0crwdne827280:0
-- crwdns827282:0crwdne827282:0
-- crwdns827284:0crwdne827284:0
-- crwdns827286:0crwdne827286:0
-- crwdns827288:0crwdne827288:0
-- crwdns827290:0crwdne827290:0
+- Finish any post-event formality such as by filling out any feedback survey or form requested from the organisers, or claiming any participation support grant if you are one of the awardees.
+- If requested by the organisers, share with them what worked and what did not work for you in the call and if you have any suggestion for their future events.
+  - This can help them see the impact of their event, and continue doing their work by bringing any change that will be helpful in the future.
+- If you write blogs on your experience from a meeting or event, share them with the organisers so that they can promote and highlight those in their final report.
+- When the notes from the meeting are circulated for approval, make sure that information supplied by you is correctly captured.
+- If you would like to, or if you have the opportunity to, send a thank-you note to the organisers or anyone who might have helped in enhancing your experience as a participant.
+- If you made new connections or established new collaborations during the event, send a follow-up email after the event.
+- Finish any task assigned to you or your team, within the given time limit by coordinating with your collaborators.
 
-*crwdns827292:0crwdne827292:0*
+***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*

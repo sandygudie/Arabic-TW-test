@@ -1,72 +1,104 @@
-crwdns836368:0crwdne836368:0
-# crwdns836370:0crwdne836370:0
+(ch-contributing-workflow)=
+# Contribution Workflow
 
-crwdns836372:0crwdne836372:0 crwdns836374:0crwdne836374:0 crwdns836376:0crwdne836376:0
+Whether you are writing new content or reviewing existing ones, contributing to _The Turing Way_ generally encompasses the steps discussed in this section. You may refer to the recommendations here to ensure that you have adequately prepared your contribution for review. Please note that the order of these recommendations are not strict and we encourage you to follow the approach that suits you best.
 
-crwdns836378:0crwdne836378:0
-## crwdns836380:0crwdne836380:0
+(ch-contributing-workflow-template)=
+## Select a template
 
-crwdns836382:0crwdne836382:0
+Once you have decided on the type of content you want to contribute to _The Turing Way_, use the relevant [template](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/templates) to prepare your contribution.
 
 ```{note}
-crwdns836384:0crwdne836384:0
-crwdns836386:0crwdne836386:0
-crwdns836388:0crwdne836388:0
+Please note that we welcome new template contributions.
+If the chapter or case study templates do not suit your needs, please open a Pull Request with suggestions for improving them.
+If you want to contribute content for which there is no corresponding template, you are also encouraged to create the missing template and add it to the template collection.
 ```
 
-crwdns836390:0crwdne836390:0
-## crwdns836392:0crwdne836392:0
+(ch-contributing-workflow-location)=
+## Place new files and folders in appropriate locations
 
-crwdns836394:0crwdne836394:0 crwdns836396:0crwdne836396:0 crwdns836398:0crwdne836398:0
+_The Turing Way_'s Github repository follows an overall file structure where Guides are folders and chapters are sub-folders within them. Similarly, case studies are located inside a `case-studies` sub-folder within the Guide folders. All folders are located inside the [`book/website`](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/website) directory.
 
-crwdns836400:0crwdne836400:0
+When writing new content, ensure that the new files and folders you create are placed appropriately to preserve _The Turing Way's_ file structure.
 
-crwdns836402:0crwdne836402:0
+For example, the [Version Control](https://the-turing-way.netlify.app/reproducible-research/vcs.html) chapter in the Guide for Reproducible Research is placed as follows:
 
 ````{admonition} Adding new files and folders
-crwdns836404:0:class:crwdne836404:0
-crwdns836406:0crwdne836406:0
-crwdns836408:0crwdne836408:0
-crwdns836410:0crwdne836410:0
+:class: dropdown
+```
+book\website
+│
+└───reproducible-research <---- (folder for the Guide to Reproducible Research)
+│   │   reproducible-research.md <---- (Guide's Landing Page)
+│   │   vcs.md <---- (Landing page for the Version Control chapter)
+|   |   new-chapter <---- (Landing page for a new chapter)
+│   │
+│   └───vcs (chapter folder)
+│   |   │   vcs-workflow.md
+|   |   |   vcs-git.md
+|   |   |   vcs-git-commit.md
+|   |   |   ...
+|   |   |   vcs-personal-stories.md
+│   |   │   vcs-checklist.md
+│   |   │   vcs-resources.md
+│   |
+|   |
+|   └───new-chapter (new chapter folder)
+|   |   |   ...
+|    
+└───project-design <---- (folder for the Guide for Project Design)
+    │   project-design.md
+    │   ...
+```
 ````
 
-crwdns836412:0crwdne836412:0
+New chapters in the Guide for Reproducible Research should be added like `new-chapter` in the example above.
 
-crwdns836414:0crwdne836414:0
-## crwdns836416:0crwdne836416:0
+(ch-contributing-workflow-naming)=
+## Name files/folders appropriately
 
-crwdns836418:0crwdne836418:0 crwdns836420:0crwdne836420:0
+Please follow _The Turing Way's_ conventions for naming files. With proper file names, other contributors can easily identify the purpose and location of your files and add to or improve them if necessary.
 
-crwdns836422:0crwdne836422:0
-## crwdns836424:0crwdne836424:0
+(ch-contributing-workflow-guidelines)=
+## Follow the style and consistency guidelines
 
-crwdns836426:0crwdne836426:0 crwdns836428:0crwdne836428:0
+As you write your chapter, keep _The Turing Way's_ [style](https://the-turing-way.netlify.app/community-handbook/style.html) and [consistency](https://the-turing-way.netlify.app/community-handbook/consistency.html) recommendations in mind. This ensures that your new content is accessible, and fits the overall style, structure, and formatting of the book.
 
-crwdns836430:0crwdne836430:0
-## crwdns836432:0crwdne836432:0
+(ch-contributing-workflow-toc)=
+## Add your new files to the book's table of contents
 
-crwdns836434:0crwdne836434:0 crwdns836436:0crwdne836436:0 crwdns836438:0crwdne836438:0
+The book-wide table of contents lives in the `_toc.yml` [file](https://github.com/alan-turing-institute/the-turing-way/blob/main/book/website/_toc.yml). This file structures _The Turing Way_ and defines the order in which chapters appear. Your chapter's files should be added to the `_toc.yml` as appropriate.
 
-crwdns836440:0crwdne836440:0
+For example, because the [Statistical Methods Manuscript](https://the-turing-way.netlify.app/reproducible-research/case-studies/statistical-methods-manuscript.html) case study belongs to the Guide for Reproducible Research, it was added to the table of contents as follows:
 
 ````{admonition} Updating the book-wide table of contents
-crwdns836442:0:class:crwdne836442:0
+:class: dropdown
+```
 
-  crwdns836444:0crwdne836444:0
+- file: reproducible-research/reproducible-research
+  sections:
+  ...
+
+  - title: Case Studies
+    file: reproducible-research/case-studies
+    sections:
+    - title: A Statistical Methods Manuscript
+      file: reproducible-research/case-studies/statistical-methods-manuscript
+```
 
 ````
 
-crwdns836446:0crwdne836446:0
-## crwdns836448:0crwdne836448:0
+(ch-contributing-workflow-referencing)=
+## Reference external sources appropriately
 
-crwdns836450:0crwdne836450:0
+Ensure external sources are properly referenced and included in _The Turing Way's_ centralised bibtex file as recommended in the [style guide](https://the-turing-way.netlify.app/community-handbook/style/style-citing.html)
 
-crwdns836452:0crwdne836452:0
-## crwdns836454:0crwdne836454:0
+(ch-contributing-workflow-glossary)=
+## Update the book-wide glossary
 
-crwdns836456:0crwdne836456:0 crwdns836458:0crwdne836458:0
+_The Turing Way_ maintains a book-wide glossary located in its [Afterword](https://the-turing-way.netlify.app/afterword/glossary.html). When writing your chapter, [update the book-wide glossary](https://the-turing-way.netlify.app/community-handbook/style/style-more-styling.html) with the key terms in your chapter that readers should remember.
 
-crwdns836460:0crwdne836460:0
-## crwdns836462:0crwdne836462:0
+(ch-contributing-workflow-crosschecking)=
+## Cross check your Pull Request
 
-crwdns836464:0crwdne836464:0 crwdns836466:0crwdne836466:0
+The content of the templates are only meant to guide and structure your writing. Please remove all of the template's placeholders, tips, and suggestions from your chapter before you submit your PR for review.

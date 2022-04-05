@@ -1,133 +1,175 @@
-crwdns853492:0crwdne853492:0
-# crwdns853494:0crwdne853494:0
+(rr-testing-challenges)=
+# Challenges and exceptional cases in testing
 
-crwdns853496:0crwdne853496:0
-## crwdns853498:0crwdne853498:0
+(rr-testing-challenges-stochastic-code)=
+## Testing stochastic code
 
-crwdns853500:0crwdne853500:0 crwdns853502:0crwdne853502:0 crwdns853504:0crwdne853504:0
+Sometimes code contains an element of randomness, a common example being code that makes use of [Monte Carlo methods](https://en.wikipedia.org/wiki/Monte_Carlo_method). Testing this kind of code can be very difficult because if it is run multiple times it will generate different answers, all of which may be "right", even is it contains no bugs. There are two main ways to tackle testing stochastic code:
 
-### crwdns853506:0crwdne853506:0
+### Use random number seeds
 
-crwdns853508:0crwdne853508:0 crwdns853510:0crwdne853510:0
-
-```python
-crwdns853512:0crwdne853512:0
-```
-
-crwdns853514:0crwdne853514:0 crwdns853516:0crwdne853516:0
+Random number seeds are a little difficult to explain so here's an example. Here's a little Python script that prints three random numbers.
 
 ```python
-crwdns853518:0crwdne853518:0
+import random
+
+# Print three random numbers
+print(random.random())
+print(random.random())
+print(random.random())
 ```
 
-crwdns853520:0crwdne853520:0
+This script has no bugs but if you run it repeatedly you will get different answers each time. Now let's set a random number seed.
 
 ```python
-crwdns853522:0crwdne853522:0
+import random
+
+# Set a random number seed
+random.seed(1)
+
+# Print three random numbers
+print(random.random())
+print(random.random())
+print(random.random())
 ```
 
-crwdns853524:0crwdne853524:0 crwdns853526:0crwdne853526:0
+Now if you run this script it outputs
 
 ```python
-crwdns853528:0crwdne853528:0
+0.134364244112
+0.847433736937
+0.763774618977
 ```
-crwdns853530:0crwdne853530:0
 
-crwdns853532:0crwdne853532:0 crwdns853534:0crwdne853534:0 crwdns853536:0crwdne853536:0
+and every time you run this script you will get the *same* output, it will print the *same* three random numbers. If the random number seed is changed you will get a different three random numbers:
 
 ```python
-crwdns853538:0crwdne853538:0
+0.956034271889
+0.947827487059
+0.0565513677268
+```
+but again you will get those same numbers every time the script is run in the future.
+
+Random number seeds are a way of making things reliably random. However a risk with tests that depend on random number seeds is they can be brittle. Say you have a function structured something like this:
+
+```python
+def my_function():
+  a = calculation_that_uses_two_random_numbers()
+  b = calculation_that_uses_five_random_numbers()
+  c = a + b
 ```
 
-crwdns853540:0crwdne853540:0 crwdns853542:0crwdne853542:0 crwdns853544:0crwdne853544:0 crwdns853546:0crwdne853546:0 crwdns853548:0crwdne853548:0
+If you set the random number seed you will always get the same value of `c`, so it can be tested. But, say the model is changed and the function that calculates `a` uses a different number of random numbers that it did previously. Now not only will `a` be different but `b` will be too, because as shown above the random numbers outputted given a random number seed are in a fixed order. As a result the random numbers produced to calculate `b` will have changed. This can lead to tests failing when there is in fact no bug.
 
-#### crwdns853550:0crwdne853550:0
+#### Measure the distribution of results
 
-crwdns853552:0crwdne853552:0 crwdns853554:0crwdne853554:0 crwdns853556:0crwdne853556:0 crwdns853558:0crwdne853558:0 crwdns853560:0crwdne853560:0 crwdns853562:0crwdne853562:0
+Another way to test code with a random output is to run it many times and test the distribution of the results. Perhaps the result may fluctuate a little, but is always expected around 10 within some tolerance. That can be tested. The more times the code is run the more reliable the average and so the result. However the more times you run a piece of code the longer it will take your tests to run, which may make tests prohibitively time-consuming to conduct if a reliable result is to be obtained. Furthermore, there will always be an element of uncertainty and if the random numbers happen to fall in a certain way you may get result outside of the expected tolerance even if the code is correct.
 
-crwdns853564:0crwdne853564:0
+Both of these approaches to testing stochastic code can still be very useful, but it is important to also be aware of their potential pitfalls.
 
-crwdns853566:0crwdne853566:0
-## crwdns853568:0crwdne853568:0
+(rr-testing-challenges-difficult-quatify)=
+## Tests that are difficult to quantify
 
-crwdns853570:0crwdne853570:0 crwdns853572:0crwdne853572:0
+Sometimes (particularly in research) the outputs of code are tested according to whether they "look" right. For example say we have a code modelling the water levels in a reservoir over time.
 
-crwdns853574:0crwdne853574:0
+The result may look like this:
 
 ```{figure} ../../figures/eyeball-test1.jpg
-crwdns853576:0crwdne853576:0
+---
+name: eyeball-test1
+alt:
+---
 ```
 
-crwdns853578:0crwdne853578:0
+On a day with rain it might look like this:
 
 ```{figure} ../../figures/eyeball-test2.jpg
-crwdns853580:0crwdne853580:0
+---
+name: eyeball-test2
+alt:
+---
 ```
 
-crwdns853582:0crwdne853582:0
+and on a dry day it might look like this:
 
 ```{figure} ../../figures/eyeball-test3.jpg
-crwdns853584:0crwdne853584:0
+---
+name: eyeball-test3
+alt:
+---
 ```
 
-crwdns853586:0crwdne853586:0 crwdns853588:0crwdne853588:0
+All of these outputs look very different but are valid. However, if a researcher sees a result like this:
 
 ```{figure} ../../figures/eyeball-test-error.jpg
-crwdns853590:0crwdne853590:0
+---
+name: eyeball-test-error
+alt:
+---
 ```
 
-crwdns853592:0crwdne853592:0 crwdns853594:0crwdne853594:0 crwdns853596:0crwdne853596:0 crwdns853598:0crwdne853598:0 crwdns853600:0crwdne853600:0 crwdns853602:0crwdne853602:0
+they could easily conclude there is a bug as a lake is unlikely to triple its volume and then lose it again in the space of a few hours. "Eyeballing" tests like these are time-consuming as they must be done by a human. However, the process can be partially or fully automated by creating basic "sanity checks". For example, the water level at one time should be within, say, 10% of the water level at the previous time step. Another check could be that there are no negative values, as a lake can't be -30% full. These sort of tests can't cover every way something can be visibly wrong, but they are much easier to automate and will suffice for most cases.
 
-crwdns853604:0crwdne853604:0
-## crwdns853606:0crwdne853606:0
+(rr-testing-challenges-non-integer)=
+## Testing if non-integer numbers are equal
 
-### crwdns853608:0crwdne853608:0
+### When 0.1 + 0.2 does not equal 0.3
 
-crwdns853610:0crwdne853610:0 crwdns853612:0crwdne853612:0
+There is a complication with testing if the answer a piece of code outputs is equal to the expected answer when the numbers are not integers. Let's look at this Python example, but note that this problem is not unique to Python.
 
-crwdns853614:0crwdne853614:0
+If we assign 0.1 to `a` and 0.2 to `b` and print their sum, we get 0.3, as expected.
 
 ```python
-crwdns853616:0crwdne853616:0
+>>> a = 0.1
+>>> b = 0.2
+>>> print(a + b)
+0.3
 ```
 
-crwdns853618:0crwdne853618:0
+If, however, we compare the result of `a` plus `b` to 0.3 we get False.
 
 ```python
-crwdns853620:0crwdne853620:0
+>>> print(a + b == 0.3)
+False
 ```
 
-crwdns853622:0crwdne853622:0
+If we show the value of `a` plus `b` directly, we can see there is a subtle margin of error.
 
 ```python
-crwdns853624:0crwdne853624:0
+>>> a + b
+0.30000000000000004
 ```
 
-crwdns853626:0crwdne853626:0 crwdns853628:0crwdne853628:0 crwdns853630:0crwdne853630:0
+This is because floating-point numbers are approximations of real numbers. The result of floating-point calculations can depend upon the compiler or interpreter, processor or system architecture and number of CPUs or processes being used. This can present a major obstacle for writing tests.
 
-### crwdns853632:0crwdne853632:0
+### Equality in a floating point world
 
-crwdns853634:0crwdne853634:0 crwdns853636:0crwdne853636:0
+When comparing floating-point numbers for equality, we have to compare to within a given tolerance, alternatively termed a threshold or delta. For example, we might consider the calculated and expected values of some number to be equal if the absolute value of their difference is within the absolute value of our tolerance.
 
-crwdns853638:0crwdne853638:0 crwdns853640:0crwdne853640:0
+Many testing frameworks provide functions for comparing equality of floating-point numbers to within a given tolerance. For example for the framework pytest:
 
 ```python
-crwdns853642:0crwdne853642:0
+import pytest
+
+a = 0.1
+b = 0.2
+c = a + b
+assert c == pytest.approx(0.3)
 ```
 
-crwdns853644:0crwdne853644:0
+this passes, but if the 0.3 was changed to 0.4 it would fail.
 
-crwdns853646:0crwdne853646:0
+Unit test frameworks for other languages also often provide similar functions:
 
-- crwdns853648:0crwdne853648:0
-- crwdns853650:0crwdne853650:0
-- crwdns853652:0crwdne853652:0
-- crwdns853654:0crwdne853654:0
-- crwdns853656:0crwdne853656:0
-- crwdns853658:0crwdne853658:0
-  - crwdns853660:0crwdne853660:0
-  - crwdns853662:0crwdne853662:0
-- crwdns853664:0crwdne853664:0
-  - `crwdns853666:0crwdne853666:0`
-  - `crwdns853668:0crwdne853668:0`
-  - crwdns853670:0crwdne853670:0
+- Cunit for C: CU_ASSERT_DOUBLE_EQUAL(actual, expected, granularity)
+- CPPUnit for C++: CPPUNIT_ASSERT_DOUBLES_EQUAL(expected, actual, delta)
+- googletest for C++: ASSERT_NEAR(val1, val2, abs_error)
+- FRUIT for Fortran: subroutine assert_eq_double_in_range_(var1, var2, delta, message)
+- JUnit for Java: org.junit.Assert.assertEquals(double expected, double actual, double delta)
+- testthat for R:
+  - expect_equal(actual, expected, tolerance=DELTA) - absolute error within DELTA
+  - expect_equal(actual, expected, scale=expected, tolerance=DELTA) - relative error within DELTA
+- julia:
+  - `val1 ≈ val2`
+  - `isapprox(val1, val2, atol=abs_delta, rtol=rel_delta)`
+  - `Test.jl` with `≈`: `@test val1 ≈ val2 atol=abs_delta rtol=rel_delta`

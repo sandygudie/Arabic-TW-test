@@ -1,61 +1,61 @@
-crwdns831582:0crwdne831582:0
+(cm-citable-linking)=
 
-# crwdns831584:0crwdne831584:0
+# Linking Research Objects
 
-crwdns831586:0crwdne831586:0 crwdns831588:0crwdne831588:0 crwdns831590:0crwdne831590:0
+Linking your data, code and article will ensure that you receive **credit** for your work and it will increase the visibility of your research outputs. There are several different ways to do this. You can decide to:
 
-crwdns831592:0crwdne831592:0
+1) Open up your Research Object publicly, at the same time as, for example, the **preprint** of your article, or
 
-crwdns831594:0crwdne831594:0
+2) Keep the Research Object closed until the article is published.
 
-crwdns831596:0crwdne831596:0
-## crwdns831598:0crwdne831598:0 crwdns831600:0crwdne831600:0
+(cm-citable-linking-open)=
+## 1. Open the Research Objects
 
-crwdns831602:0crwdne831602:0 crwdns831604:0{ref}crwdne831604:0 crwdns831606:0crwdne831606:0 crwdns831608:0crwdne831608:0 crwdns831610:0{ref}crwdne831610:0 crwdns831612:0crwdne831612:0 crwdns831614:0crwdne831614:0
+The easiest way to connect your dataset to your publication is to publish the dataset first (for example, at the same time as the **preprint**). This will provide you with the correct information for your **Data Availability Statement** and your references (see {ref}`Citing Data<cm-citable-cite-data>`), and will allow reviewers to include the dataset in their review. If any adjustments are needed based on the review process you can often upload a new version of the dataset (see for example [Zenodo](https://zenodo.org/), [Figshare](https://figshare.com/), [4TU.ResearchData](https://data.4tu.nl/info//en/)). This will provide you with a new DOI for the latest version, and some repositories (such as Zenodo) allow you to have a canonical DOI that will always point to the latest version of the dataset). See {ref}`cm-citable-steps-doi` for more information about DOIs. Remember that the contributors and date of deposition are publicly available, making it unlikely that others will 'scoop' you. But if you are hesitant about opening up your dataset before the article is published, you can either publish the dataset under restricted access, under embargo, or reserve a DOI in advance and publish the Research Object later.
 
-crwdns831616:0crwdne831616:0
-## crwdns831618:0crwdne831618:0 crwdns831620:0crwdne831620:0
+(cm-citable-linking-closed)=
+## 2. Keep the Research Objects closed
 
-### crwdns831622:0crwdne831622:0
+### Publish the Research Objects under restricted access
 
-crwdns831624:0crwdne831624:0
-* crwdns831626:0crwdne831626:0
-    * crwdns831628:0crwdne831628:0
-* crwdns831630:0crwdne831630:0
-* crwdns831632:0{ref}crwdne831632:0
-* crwdns831634:0crwdne831634:0
-    * crwdns831636:0crwdne831636:0
-    * crwdns831638:0crwdne831638:0
+Publishing your data under restricted access means that the data is uploaded to the repository, but you're only providing access to individuals that request access or you can provide access through sharing a private link.
+* You decide with whom to share the private link and whether individuals that request access will obtain access.
+    * You can share the data with reviewers.
+* Your metadata (information about the data) is publicly available.
+* You can provide the correct DOI in the paper's **Data Availability Statement** and in the reference list (see {ref}`Citing Data<cm-citable-cite-data>`).
+* After your article is published:
+    * Add the DOI of the publication to the dataset;
+    * Change the access permission rights to public (see for example [Zenodo](https://zenodo.org/)).
 
-### crwdns831640:0crwdne831640:0
+### Publish the Research Objects under embargo
 
-crwdns831642:0crwdne831642:0
-* crwdns831644:0crwdne831644:0
-    * crwdns831646:0crwdne831646:0
-* crwdns831648:0crwdne831648:0
-* crwdns831650:0{ref}crwdne831650:0
-* crwdns831652:0crwdne831652:0
-    * crwdns831654:0crwdne831654:0
-    * crwdns831656:0crwdne831656:0
+An embargo means that you have already uploaded the data to the repository, but are not providing access to the data until a certain date.
+* No one has access to your data until the embargo period has expired (you can define this period), or until you changed the access permissions yourself.
+    * You cannot share the data with reviewers.
+* Your metadata (information about the data) is publicly available.
+* You can provide the correct DOI in the paper's **Data Availability Statement** and in the reference list (see {ref}`Citing Data<cm-citable-cite-data>`).
+* After your article is published:
+    * Add the DOI of the publication to the dataset;
+    * Change the access permission rights if the embargo has not yet expired (see for example [Zenodo](https://zenodo.org/)).
 
-### crwdns831658:0crwdne831658:0
+### Reserve a DOI and publish later
 
-crwdns831660:0crwdne831660:0 crwdns831662:0crwdne831662:0 crwdns831664:0crwdne831664:0
-* crwdns831666:0crwdne831666:0
-    * crwdns831668:0crwdne831668:0
-* crwdns831670:0{ref}crwdne831670:0
-* crwdns831672:0crwdne831672:0
-    * crwdns831674:0crwdne831674:0
-    * crwdns831676:0crwdne831676:0
-    * crwdns831678:0crwdne831678:0
+Several data repositories, such as [Zenodo](https://zenodo.org/) and [Figshare](https://figshare.com/), allow you to reserve a DOI. Reserving a DOI means you are not required to upload your data yet, but you will need to provide some metadata (title, author/contributors) to complete the DOI reservation. The reserved DOI will be in use after you actually uploaded the data and decide to publish the data.
+* No one has access to your data or the metadata yet, because the landing page of your dataset is not working yet.
+    * Your data is not available to reviewers.
+* You can provide the correct DOI in the paper's **Data Availability Statement** and in the reference list (see {ref}`Citing Data<cm-citable-cite-data>`).
+* After your article is published:
+    * Upload the dataset to your reserved DOI;
+    * Add the DOI of the publication to the dataset;
+    * Publish your dataset.
 
-# crwdns831680:0crwdne831680:0
+# Check the data DOI in your publication
 
-crwdns831682:0crwdne831682:0 crwdns831684:0crwdne831684:0 crwdns831686:0{ref}crwdne831686:0
+Whichever route you decide to take, it is important to double-check the proof of your article. The DOI for your dataset should be correctly listed in the **Data Availability Statement** and in the reference list. For more information see {ref}`Citing Data<cm-citable-cite-data>`.
 
 
-## crwdns831688:0crwdne831688:0
+## More resources:
 
-* [crwdns831692:0crwdne831692:0](crwdns831690:0crwdne831690:0)
-* [crwdns831696:0crwdne831696:0](crwdns831694:0crwdne831694:0)
-* [crwdns831700:0crwdne831700:0](crwdns831698:0crwdne831698:0)
+* [How to disclose data for double-blind review and make it archived open data upon acceptance](https://ineed.coffee/5205/how-to-disclose-data-for-double-blind-review-and-make-it-archived-open-data-upon-acceptance/)
+* [Anonymous data sharing using the Open Science Framework](https://help.osf.io/hc/en-us/articles/360019930333-Create-a-View-only-Link-for-a-Project)
+* [Anonymous GitHub](https://anonymous.4open.science/)

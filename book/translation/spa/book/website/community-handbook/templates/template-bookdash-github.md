@@ -1,89 +1,87 @@
 (ch-template-bookdash-github)=
-# Reserva Dash GitHub Session
+# Book Dash GitHub Session
 
-*Esta plantilla se puede compartir a través de una página de HackMD para facilitar una sesión de GitHub pre-evento para los participantes de Book Dash. El permiso de acceso se puede establecer para que las notas puedan ser leídas por todos y editadas por los usuarios conectados.*
+*This template can be shared via a HackMD page to facilitate a pre-event GitHub session for the Book Dash participants. The access permission can be set so that the notes can be read by everyone and edited by signed-in users.*
 
 ```
-# Libro Dash, DD Mes AAAA - Sesión de GitHub
+# Book Dash, DD Month YYYY - GitHub Session
 
-###### etiquetas: `bookdash AAYY` `month` `event`
+###### tags: `bookdash YYYY` `month` `event`
 
-==Si eres nuevo en HackMD, por favor vea esta breve guía: [https://hackmd. o/@turingway/hackmd-guide](https://hackmd. o/@turingway/hackmd-guide)==
+==If you are new to HackMD, please see this short guide: [https://hackmd.io/@turingway/hackmd-guide](https://hackmd.io/@turingway/hackmd-guide)==
 
 :::info
-- **Fecha:** Mes DD <--- Actualiza este
-- **Hora:** 16:00 - 17:00 hora de Londres ([en tu zona horaria](https://arewemeetingyet. om/London/YYY-MM-DD/16:00)) <--- Actualizar esto
-- **Hosts:** (Agregar nombre) <--- Actualizar esto
-- Únete a la reunión de Zoin: (Añadir enlace) <--- Actualizar esto
+- **Date:** DD Month <--- Update this
+- **Time:** 16:00 - 17:00 London time ([in your time zone](https://arewemeetingyet.com/London/YYYY-MM-DD/16:00)) <--- Update this
+- **Hosts:** (Add name) <--- Update this
+- Join Zoom Meeting: (Add link) <--- Update this
 :::
 
-**Antes de esta reunión:**
+**Before this meeting:**
 
-- Consulta la [Introducción de GitHub amigable](https://kirstiejane. ithub. o/friendly-github-intro/)
+- Check the [Friendly GitHub Intro](https://kirstiejane.github.io/friendly-github-intro/)
 
-**En esta llamada**
-te daremos un tutorial opcional de GitHub de 1 hora:
+**At this call**
+we will give you an optional 1 hour GitHub tutorial:
 
-- Creando un nuevo repositorio
-- Creando un archivo README
-- Escribiendo en Markdown
-- Enviar cambios (a _The Turing Way_) vía Pull Request (PR)
-- demo: Revisar PR, Crear problema
+- Creating a new repository
+- Creating a README file
+- Writing in Markdown
+- Submit changes (to _The Turing Way_) via Pull Request (PR)
+- demo: Review PR, Create issue
 
-## Regístrate añadiendo tu nombre
+## Sign up below by adding your name
 
-Nombre / Instituto o afiliación / ¿Qué aspecto específico de GitHub encuentras desafiante?
+Name / Institute or affiliation / What specific aspect of GitHub do you find challenging?
 * 
 * 
 * 
 
-🗣️ ¡Bienvenido!
+🗣️ Welcome!
 
-[Código de conducta & directrices de participación comunitaria](https://the-turing-way.netlify.app/community-handbook/coc. tml)
-- Si experimentas o eres testigo de un comportamiento inaceptable, o tienes otras preocupaciones, por favor informarlo contactando con los organizadores - Malvika y Kirstie. ([theturingway@gmail.com](mailto:theturingway@gmail.com)).
+- Reminder: [Code of conduct & community participation guidelines](https://the-turing-way.netlify.app/community-handbook/coc.html)
+- If you experience or witness unacceptable behaviour, or have any other concerns, please report it by contacting the organisers - Malvika and Kirstie. ([theturingway@gmail.com](mailto:theturingway@gmail.com)).
 
-### Llamada rol
+### Roll call
 
-- Nombre / Pregunta del rompecabezas: Comparte algo de la naturaleza que te ha impresionado o te ha traído paz recientemente - quizás una flor, una vista, una foto, un perfume, una planta en macetas, un pájaro que voló pasado... * 
+- Name / Icebreaker question: Share something from nature that has awed you or brought you peace recently - perhaps a flower, a view, a photo, a scent, a potted plant, a bird that flew past... 
+* 
 * 
 *  
 
-🗣️ Introducción a GitHub
+🗣️ Introduction to GitHub
 
-- Material de entrenamiento: https://malvikasharan. ithub.io/developing_collaborative_document/
-- Slides: [Friendly GitHub intro](https://docs.google. om/presentation/d/1_bmRZcLwQr.UVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/edit?usp=sharing)
-- Cheatsheet: https://guides.github.com/pdfs/markdown-cheatsheet-online. df
+- Training materials: https://malvikasharan.github.io/developing_collaborative_document/
+- Slides: [Friendly GitHub Intro](https://docs.google.com/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/edit?usp=sharing)
+- Cheatsheet: https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 
-**Tarea de salida:** 
+**Breakout room task:** 
 - 
 - 
 - 
 
-**Recursos** :
+**Resources** :
 
-- Recursos útiles de GitHub
-  - [GitHub para la colaboración (de Mozilla)](https://mozilla. ithub.io/open-leadership-training-series/articles/github-for-collaboration/)
-  - [Entendiendo el flujo de trabajo de GitHub](https://guides. ithub.com/introduction/flow/)
-  - [A Friendly Github Intro Workshop (from Technelle Robinson)](https://daniellecrobinson.github.io/friendly-github-intro/)
-  - [GitHub help](https://help.github. om/)
+- Useful GitHub resources
+  - [GitHub for Collaboration (from Mozilla)](https://mozilla.github.io/open-leadership-training-series/articles/github-for-collaboration/)
+  - [Understanding the GitHub workflow](https://guides.github.com/introduction/flow/)
+  - [A Friendly Github Intro Workshop (from Danielle Robinson)](https://daniellecrobinson.github.io/friendly-github-intro/)
+  - [GitHub help](https://help.github.com/)
   - [Oh Shit, Git!?!](http://ohshitgit.com/)
-  - [Prueba Git](https://try.github. o/)
+  - [Try Git](https://try.github.io/)
   - [Git book](https://git-scm.com/book/en/v2)
-  - [GitHub glossary](https://github. om/joeyklee/friendly-github-intro/blob/master/glossary.md)
-  - [Escribiendo en Github](https://help.github.com/categories/writing-on-github/)
-  - [Markdown Cheatsheet](https://github. om/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+  - [GitHub glossary](https://github.com/joeyklee/friendly-github-intro/blob/master/glossary.md)
+  - [Writing on Github](https://help.github.com/categories/writing-on-github/)
+  - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
   - [Git workflow](https://www.atlassian.com/git/tutorials/comparing-workflows)
 
-**Preguntas / comentarios?**
+**Questions / Comments?**
   - 
   -
 
-**Comentarios**
+**Feedback**
 
-¿Qué funcionó? ¿Qué no funcionó? ¿Qué soporte adicional necesitaría antes o durante el Cuadro de Control de Libro?
-
--
--
+What worked? What did not work? What additional support would you need before or during the Book Dash?
 
 -
 -

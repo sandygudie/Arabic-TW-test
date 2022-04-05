@@ -1,58 +1,62 @@
-crwdns847368:0crwdne847368:0
-# crwdns847370:0crwdne847370:0
+(rr-open-data)=
+# Open Data
 
-crwdns847372:0crwdne847372:0 crwdns847374:0crwdne847374:0 crwdns847376:0crwdne847376:0 crwdns847378:0crwdne847378:0
+يشهد العالم تحولاً عالمياً كبيراً تيسره التكنولوجيا ووسائط الإعلام الرقمية، وتغذيه البيانات والمعلومات، وينطوي هذا التحول على إمكانات هائلة لتشجيع إجراء بحوث أكثر شفافية، ومساءلة، وكفاءة، واستجابة، وفعالية، ولا تُنشر سوى نسبة ضئيلة جداً من البيانات الأصلية في المجلات التقليدية، وعلى الرغم من السياسات القائمة بشأن أرشفة البيانات، فإن بيانات الممارسة اليوم تُخزن في المقام الأول في ملفات خاصة، وليس في مستودعات مؤسسية آمنة، لا يتمكن احد من الوصول لها أو الاطلاع عليها (وفي كثير من الأحيان حتى الباحث الذي أصدر البيانات)،
 
-crwdns847380:0crwdne847380:0
+This lack of data sharing is an obstacle to international research (be it academic, governmental, or commercial) for two main reasons:
 
-1. crwdns847382:0crwdne847382:0
-2. crwdns847384:0crwdne847384:0
+1. It is generally difficult or impossible to reproduce a study without the original data.
+2. و لا يمكن للباحثين الآخرين إعادة استخدام البيانات أو إدماجها في أعمال جديدة إذا لم يتمكنوا من الوصول إليها،
 
-crwdns847386:0crwdne847386:0 crwdns847388:0{term}crwdne847388:0 crwdns847390:0crwdne847390:0 crwdns847392:0crwdne847392:0
+وبناءاً على ذلك، هناك ثورة عالمية جارية في مجال البيانات تسعى إلى تعزيز التعاون وإنشاء وتوسيع برامج بحوث فعالة تَتَّسم بالكفاءة. Open data [{term}`def<Open data>`] is crucial to meeting these objectives. وهي متاحة مجاناً على الإنترنت. ويُسمح لأي مستخدم بتنزيلها أو نسخها أو تحليلها أو معالجتها أو إعادة استخدامها لأي غرض آخر مع حواجز مالية، وقانونية، وتقنية أقل.
 
-crwdns847394:0crwdne847394:0 crwdns847396:0{ref}crwdne847396:0 crwdns847398:0crwdne847398:0 crwdns847400:0crwdne847400:0 crwdns847402:0crwdne847402:0 crwdns847404:0crwdne847404:0 crwdns847406:0crwdne847406:0
+وهذا يمثل تحولاً حقيقياً في كيفية عمل البحوث. Funders are starting to require researchers to make their data available and submit data management plans {ref}`Data Management Plans<rr-rdm-dmp>` as part of project proposals. وفي الوقت الراهن، كثيراً ما يتعيَّن على أي شخص يرغب في استخدام بيانات من أحد الباحثين أن يتصل بذلك الباحث وأن يقدم طلباً، وإذا كان الوصول إلى البيانات مقيداً، لأسباب أمنية على سبيل المثال، فينبغي توضيح مبررات ذلك، وإذا كان الوصول إلى البيانات مقيداً، لأسباب أمنية على سبيل المثال، فينبغي توضيح مبررات ذلك، ثم إن وحرية الوصول إلى البيانات واستخدامها فيما بعد، يُعد ذا قيمة كبيرة للمجتمع والاقتصاد، ولذلك ينبغي أن تكون تلك البيانات مفتوحة بشكل تلقائي وألا تكون مغلقة إلا عند الضرورة،
 
-crwdns847408:0{ref}crwdnd847408:0{ref}crwdne847408:0
+يمكنك العثور على المزيد حول الخطوات العملية لجعل بياناتك متاحة في القسم الذي يصف {ref}`خطوات مشاركة البيانات <rr-rdm-sharing-steps>` في الفصل الفرعي: {ref}`مشاركة وأرشفة البيانات<rr-rdm-sharing>`.
 
-crwdns847410:0crwdne847410:0
-## crwdns847412:0crwdne847412:0
-crwdns847414:0crwdne847414:0 crwdns847416:0{cite:ps}crwdne847416:0
+(rr-open-data-barriers)=
+## عوائق (Data Sharing) مشاركة البيانات
+ويجد العديد من الأكاديميين أن مشاركة البيانات أمر صعب. وأوضحت الدراسات الاستقصائيّة الأخيرة {cite:ps}`Stuart2018sharing` التي أُجريت بين الباحثين تسرد الأسباب التالية:
 
-- crwdns847418:0crwdne847418:0
-- crwdns847420:0crwdne847420:0
-- crwdns847422:0crwdne847422:0
+- تنظيم البيانات بطريقة قابلة للعرض ومفيدة يُعدّ أمراً صعباً (كما ذكر 46 في المائة من الأشخاص)
+- الباحثون غير متيقِّنين من حقوق النشر والتأليف والترخيص (كما ذكر 37 في المائة من الأشخاص)،
+- كما انه لا يعرف الباحثون أي مستودع يمكن استخدامه لأنواع مختلفة من البيانات (كما ذكر 33 في المائة)
 
-crwdns847424:0crwdne847424:0 crwdns847426:0crwdne847426:0 crwdns847428:0crwdne847428:0
+وهذه تحديات ثقافية يمكن التصدي لها في الممارسة المتغيرة التي تمضي قدماً. بَيد أن هناك أيضاً أسباباً قانونية أو أخلاقية أو تعاقدية تحول أحياناً دون إتاحة البيانات للجمهور بكاملها أو حتى أجزاء منها، بَيد أن هناك أيضاً أسباباً قانونية أو أخلاقية أو تعاقدية تحول أحياناً دون إتاحة البيانات للجمهور بكاملها أو حتى أجزاء منها،
 
 ```{figure} ../../figures/data-privacy.jpg
-crwdns847430:0crwdne847430:0 crwdns847432:0crwdne847432:0 crwdns847434:0crwdne847434:0 crwdns847436:0crwdne847436:0
-crwdns847438:0crwdne847438:0 crwdns847440:0crwdne847440:0 crwdns847442:0crwdne847442:0
+---
+height: 500px
+name: data-privacy
+alt: An image detailing why private data should be used. A person stands next to a well with 'private data' written on it and a padlock around it. It is black and white and blue. The text lists that 'people deserve - dignity, agency, privacy, rights, confirmed consent.'
+---
+_The Turing Way_ project illustration by Scriberia. Original version on Zenodo. [http://doi.org/10.5281/zenodo.3695300](http://doi.org/10.5281/zenodo.3695300)
 ```
 
-crwdns847444:0crwdne847444:0
-### crwdns847446:0crwdne847446:0
+(rr-open-data-barriers-privacy)=
+### Privacy And Data Protection
 
-crwdns847448:0crwdne847448:0 crwdns847450:0crwdne847450:0 crwdns847452:0crwdne847452:0 crwdns847454:0crwdne847454:0
+تنطوي العديد من مجالات البحث على العمل بالبيانات الشخصية الحساسة، علماً بأن البحوث الطبية هي أوضح مثال على ذلك. ويجب حماية الأفراد من إعادة تحديد هُوِيَّتهم عن طريق بياناتهم المستخدمة في البحوث، وقد يكون إخفاء هُوِيَّة البيانات كافياً في بعض الحالات، ولكن ضمان عدم إمكانية إعادة تحديد الهُوِيَّة يُصبح صعباً بصورة متزايدة وذلك بسبب التقدم التقني، ونُموّ الطاقة الحاسوبية، - ومن المفارقات العجيبة - نُموّ البيانات المفتوحة، فعلى سبيل المثال، قد يكون من الممكن تحديد الهُوِيَّة عن طريق التنقيب في البيانات التي يمكن الوصول إليها وما يسمى بأشباه المُعرفات، وهي مجموعة من الخصائص (المشتركة) المحددة ــ في تركيبها ــ بحيث يمكن استخدامها للتعرف على الأفراد،
 
-crwdns847456:0crwdne847456:0 crwdns847458:0crwdne847458:0 crwdns847460:0crwdne847460:0 crwdns847462:0crwdne847462:0
+وقد يظَل الحفاظ على الخصوصية ممكناً إذا تم توفير مجموعات بيانات جزئية أو عامة. على سبيل المثال، من الممكن أن تُقَدِّم نطاقات عُمرية بدلاً من تاريخ الميلاد أو أول رقمين فقط من الرموز البريدية، وقد يكون من الممكن أيضاً توفير البيانات في شكل يُتيح للباحثين الاستفسار عنها مع إبقاء البيانات نفسها مغلقة، على سبيل المثال، قد يكون المستخدم قادراً على إرسال استفسار لاسترداد متوسط مجموعة البيانات، ولكن لا يمكنه الوصول إلى أي من نِقَاط البيانات الفردية،
 
-crwdns847464:0crwdne847464:0 crwdns847466:0{cite:ps}crwdne847466:0
+وتنطوي العديد من مجالات التخصصات العلمية على العمل بالبيانات الشخصية الحساسة، وتُنظَّم إدارتها تنظيماً جيّداً في تشريعات حماية البيانات (في أوروبا من خلال التنفيذ الوطني للقواعد العامة لحماية البيانات) والإجراءات الأخلاقية كما هي راسخة في معظم مؤسسات البحث {cite:ps}`EU2016protection`.
 
-crwdns847468:0crwdne847468:0
-### crwdns847470:0crwdne847470:0
+(rr-open-data-barriers-consent)=
+### Consent
 
-crwdns847472:0crwdne847472:0 crwdns847474:0{cite:ps}crwdne847474:0 crwdns847476:0crwdne847476:0
+ولكي تُتاح بيانات البحث المجهولة لإعادة الاستخدام في المستقبل، يجب أن تشمل استمارات الموافقة مشاركة هذه البيانات مع باحثين آخرين، تُشير البحوث حتى الآن إلى أن المشاركين في الدراسة عادة ما يكونون أقل اهتماماً بالبيانات التي يتم أرشفتها ومشاركتها مما يعتقد الباحثون {cite:ps}`Kuula2010archiving`. وينبغي أن تتضمن أوراق المعلومات المقدّمة من المشاركين واستمارات الموافقة كيفية تخزين البيانات البحثية، وحفظها واستخدامها في الأمد الطويل، وكيفية حماية السرية عند الحاجة.
 
-crwdns847478:0crwdne847478:0
-### crwdns847480:0crwdne847480:0
+(rr-open-data-barriers-anonymisation)=
+### Anonymisation
 
-crwdns847482:0crwdne847482:0 crwdns847484:0crwdne847484:0
+Individuals must be protected from (re)identification through their data Anonymisation of the data may be sufficient in some cases, but ensuring that re-identification is not possible is becoming increasingly difficult. It might even be impossible due to technical progress, growing computational power and – ironically – more open data.
 
-crwdns847486:0crwdne847486:0 crwdns847488:0crwdne847488:0 crwdns847490:0crwdne847490:0 crwdns847492:0crwdne847492:0 crwdns847494:0crwdne847494:0
+For example, re-identification may be possible via data-mining of accessible data and so-called quasi-identifiers, a set of (common) properties that are – in their combination – so specific that they can be used to identify an individual. Preserving privacy may still be possible if partial or generalised datasets are provided, like age groups instead of birth date, or only the first two digits of postal codes. It may also be possible to provide the data in such a format that researchers can query whilst keeping the data itself closed. على سبيل المثال، قد يكون المستخدم قادراً على إرسال استفسار لاسترداد متوسط مجموعة البيانات، ولكن لا يمكنه الوصول إلى أي من نِقَاط البيانات الفردية، Another way to provide anonymised data is to provide [synthetic data](https://en.wikipedia.org/wiki/Synthetic_data), data generated to reflect the conditions and properties of the raw data, without including any personal information.
 
-crwdns847496:0crwdne847496:0
-### crwdns847498:0crwdne847498:0
+(rr-open-data-barriers-national)=
+### National and Commercially Sensitive Data
 
-crwdns847500:0crwdne847500:0 crwdns847502:0crwdne847502:0 crwdns847504:0crwdne847504:0 crwdns847506:0crwdne847506:0 crwdns847508:0crwdne847508:0 crwdns847510:0crwdne847510:0 crwdns847512:0crwdne847512:0
+In many cases, companies are understandably unwilling to publish much of their data. The reasoning goes that if commercially sensitive information of a company is disclosed, it will damage the company’s commercial interests and undermine competitiveness. This is based on the thinking that in competitive markets, innovation will only occur with some protection of information. If a company spends time and money developing something new, the details of which are then made public, then its competitors can easily copy it without having to invest the same resources. The result is that no one would innovate in the first place. Similarly, for public safety concerns, governments are often unwilling to publish data that relates to issues such as national security. In such cases, it may not be possible to make data open, or it may only be possible to share partial/obscured datasets.
 
-*crwdns847514:0crwdne847514:0*
+***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*

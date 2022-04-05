@@ -1,20 +1,23 @@
-crwdns842560:0crwdne842560:0
-# crwdns842562:0crwdne842562:0
+(pd)=
+# Guide for Project Design
 
-***crwdns842564:0crwdne842564:0***
+***This guide covers topics related to effective project planning and management.***
 
-crwdns842566:0crwdne842566:0
+In this guide, we compile best practices and guidance for designing research projects by including different aspects of project management and (iterative) development practices derived from academia and industry.
 
-crwdns842568:0crwdne842568:0 crwdns842570:0crwdne842570:0 crwdns842572:0crwdne842572:0
+Before starting a project, researchers must define the project's scope. Researchers should start by identifying the main questions they aim to address through their work. Scope definition also includes defining the project goals, possible outcomes, resources requirements, people involved (collaborators, users and target audience) and possible constraints.
 
-crwdns842574:0crwdne842574:0 crwdns842576:0crwdne842576:0
+Researchers can then proceed to identify the expected minimum viable product of their project, synergies with other projects (similarities as well as differences), measure(s) of success, and the overall impact they hope to achieve. After these crucial questions are addressed, planning can focus on the operational aspects of the project, including ensuring that the project is usable and compliant with appropriate external guidelines (for instance, ethics requirements and regulatory limitations).
 
 ```{figure} ../figures/project-design.jpg
-crwdns842578:0crwdne842578:0 
-crwdns842580:0crwdne842580:0 crwdns842582:0crwdne842582:0 crwdns842584:0crwdne842584:0
+---
+name: project-design
+alt: A group of people collaboratively developing a project plan by writing on a giant canvas with a giant pencil to signify the importance of design work in the project management process. 
+---
+ _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
-crwdns842586:0crwdne842586:0 crwdns842588:0crwdne842588:0 crwdns842590:0crwdne842590:0
+When designing a team-based project, it is important to think about all the skills required for the project and the resources needed to access those skills. The project design also includes aspects such as timeline, budget, risks, expectations, resources for project management and preregistration of research protocols. With these viewpoints, we welcome chapters defining the requirements in a project in terms of up-skilling, supporting and improving accessibility of different stakeholders.
 
-crwdns842592:0crwdne842592:0 crwdns842594:0crwdne842594:0
+We hope you will learn from different case studies for small, mid-size, and large projects spanning both short-term and long-term plans. If you are brave enough, your examples of failed projects will be incredibly valuable for understanding how to avoid making the same (totally understandable!) mistakes again.
 
-crwdns842596:0crwdne842596:0
+Check out our [contributing guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) to get involved.

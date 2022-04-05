@@ -1,14 +1,19 @@
-crwdns825828:0crwdne825828:0
-# crwdns825830:0crwdne825830:0
+(cl-remote-collab)=
+# Remote Collaboration
 
-crwdns825832:0crwdne825832:0 crwdns825834:0crwdne825834:0
+Remote collaboration refers to the ability to interact and work with others from anywhere in the world. Remote collaboration is extremely valuable for removing physical barrier in communication among members in a distributed teams who work remotely rather than being located in a physical office.
 
 ```{figure} ../figures/distributed-collaboration.jpg
-crwdns825836:0crwdne825836:0 crwdns825838:0crwdne825838:0 crwdns825840:0crwdne825840:0 crwdns825842:0crwdne825842:0
+---
+height: 500px
+name: distributed-collaboration
+alt: A person standing on a globe and interacting virtually with people in different time zones on different computer screens
+---
+Distributed Collaboration. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-crwdns825844:0crwdne825844:0 crwdns825846:0crwdne825846:0
+Remote collaboration is quite a standard practice in open source projects or online communities. It has gained popularity over the last few years as more and more companies expand their businesses in areas far from the location of the main office (for example, [Mozilla](https://www.mozilla.org/en-GB/)), or exist entirely as a remote company (for example, [RStudio](https://rstudio.com/about/)).
 
-crwdns825848:0crwdne825848:0 crwdns825850:0crwdne825850:0
+In early 2020, as we began to work entirely from home due to the [Coronavirus (COVID-19) pandemic](https://www.who.int/emergencies/diseases/novel-coronavirus-2019), we experienced a drastic change in our work culture. This chapter will present resources and tips for researchers to make their transition of working from the office (physical location) to working from home (online/virtual) easier, or make their collaboration more effective if they are already working remotely.
 
 <!--- Add a summary of all the subchapters --->

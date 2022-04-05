@@ -1,22 +1,23 @@
-(A-reconhecimento)=
-# Contribuidores Reconhecendo
+(ch-acknowledgement)=
+# Acknowledging Contributors
 
-_A Turing Way_ é desenvolvida de forma colaborativa por sua comunidade diversa de pesquisadores, alunos, educadores e outras partes interessadas. Este projeto não pode simplesmente existir sem a natureza colaborativa deste projeto e a vontade dos membros da nossa comunidade de trabalhar cooperativamente para criar este livro.
+_The Turing Way_ is collaboratively developed by its diverse community of researchers, learners, educators, and other stakeholders. This project can simply not exist without the collaborative nature of this project and the willingness of our community members to work cooperatively to create this book.
 
-Todo mundo tem uma habilidade que é útil para alguém, e portanto qualquer um pode contribuir para _O Caminho de Turing_. Valorizamos todos os tipos de contributos neste projecto e estamos empenhados em reconhecer cada um deles de forma justa.
+Everyone has a skill that is useful for someone, and therefore anyone can contribute to _The Turing Way_. We value all kinds of contributions in this project and are committed to recognising each of them fairly.
 
 ```{figure} ../figures/theturingway-acknowledgement.jpg
 ---
 height: 400px
-nome: reconhecimento de estilo
-alt: Esta ilustração mostra que o sistema de reconhecimento tradicional está quebrado, então mostra como tentamos reconhecê-los de forma justa. Temos um bot de contribuidores que captura todas as informações dos colaboradores e os armazena no registro de contribuidores
---- O processo de reconhecimento dos contribuidores do *The Turing Way*. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+name: theturingway-acknowledgement
+alt: This illustration shows that the traditional acknowledgement system is broken then it shows how we try to acknowledge them fairly. We have a contributors bot that catches all the contributors information and stores them in contributors record
+---
+The process of acknowledging contributors in *The Turing Way*. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-Reconhecemos todos os tipos de contribuições possíveis para este projecto. Nós atualizamos nossa {ref}`Tabela de Colaboradores<contributors-record-contributors>` reconhecendo adequadamente o trabalho dos nossos colaboradores dentro de _The Turing Way_. Além convidamos todos os membros da comunidade a atualizar o {ref}`Registro de Contribuições<contributors-record-highlights>` com seus destaques pessoais em _The Turing Way_ e usá-lo para promover suas contribuições para abrir a ciência em geral.
+We recognise all kinds of contributions that are possible in this project. We update our {ref}`Contributors Table<contributors-record-contributors>` by appropriately acknowledging our contributors' work within _The Turing Way_. Furthermore, we invite every community member to update the {ref}`Record of Contributions<contributors-record-highlights>` with their personal highlights in _The Turing Way_ and use it for promoting their contributions to open science in general.
 
-Neste capítulo, fornecemos pormenores sobre os seguintes aspectos:
-- quem nossos colaboradores e membros da comunidade são
-- como criamos oportunidades para uma propriedade compartilhada deste projeto
-- como podemos utilizar o registro de contribuições para destacar o trabalho dos membros da nossa comunidade
-- quais os diferentes tipos e caminhos possíveis para as contribuições existem em _The Turing Way_
+In this chapter, we provide details on the following aspects:
+- who our contributors and community members are
+- how we create opportunities for a shared ownership of this project
+- how we can use record of contributions to highlight work of our community members
+- what the different types and possible pathways for contributions exist in _The Turing Way_

@@ -1,117 +1,143 @@
-crwdns845146:0crwdne845146:0
-# crwdns845148:0crwdne845148:0
+(rr-compendia)=
+# Research Compendia
 
-## crwdns845150:0crwdne845150:0
+## Prerequisite
 
-| crwdns845152:0crwdne845152:0      | crwdns845154:0crwdne845154:0 | crwdns845156:0crwdne845156:0 |
-| --------------------------------- | ---------------------------- | ---------------------------- |
-| crwdns845158:0{ref}crwdne845158:0 | crwdns845160:0crwdne845160:0 | crwdns845162:0crwdne845162:0 |
-| crwdns845164:0{ref}crwdne845164:0 | crwdns845166:0crwdne845166:0 | crwdns845168:0crwdne845168:0 |
-| crwdns845170:0{ref}crwdne845170:0 | crwdns845172:0crwdne845172:0 | crwdns845174:0crwdne845174:0 |
-| crwdns845176:0{ref}crwdne845176:0 | crwdns845178:0crwdne845178:0 | crwdns845180:0crwdne845180:0 |
-| crwdns845182:0{ref}crwdne845182:0 | crwdns845184:0crwdne845184:0 | crwdns845186:0crwdne845186:0 |
+| Prerequisite                                    | Importance | Notes                                           |
+| ----------------------------------------------- | ---------- | ----------------------------------------------- |
+| {ref}`Version Control<rr-vcs>`            | Helpful    | Can be used to version the compendium           |
+| {ref}`Open Research<rr-open>`             | Helpful    | Components are part of the compendium           |
+| {ref}`Reproducible Environments<rr-renv>` | Helpful    | Can be used to make the compendium reproducible |
+| {ref}`Binder Hub<rr-binderhub>`           | Helpful    | Can be used to publish the compendium           |
+| {ref}`Make<rr-make>`                      | Helpful    | Can be used for automation in the compendium    |
 
-## crwdns845188:0crwdne845188:0
+## Summary
 
-crwdns845190:0crwdne845190:0 crwdns845192:0{cite:ps}crwdne845192:0
+A research compendium is a collection of all digital parts of a research project including data, code, texts (protocols, reports, questionnaires, meta data). The collection is created in such a way that reproducing all results is straightforward {cite:ps}`Nuest2017compendia,Gentleman2007statistical`.
 
-crwdns845194:0crwdne845194:0 crwdns845196:0crwdne845196:0 crwdns845198:0crwdne845198:0
+This chapter has many prerequisites as it takes all digital components of a project together into a reproducible research package. That said: a research compendium can be constructed with minimal technical knowledge. The main purpose is that all elements of a project are published together, so a basic folder structure combining all components can be sufficient.
 
 ```{figure} ../figures/research-compendium.jpg
-crwdns845200:0crwdne845200:0
-crwdns845202:0crwdne845202:0 crwdns845204:0crwdne845204:0 crwdns845206:0crwdne845206:0
+---
+height: 500px
+name: research-compendium
+alt: An illustration showing a person churning a big machine that takes scientific information from multiple papers and gives one output of readable file.
+---
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-## crwdns845208:0crwdne845208:0
+## Motivation
 
-crwdns845210:0{term}crwdne845210:0 crwdns845212:0crwdne845212:0 crwdns845214:0crwdne845214:0 crwdns845216:0{ref}crwdne845216:0
+A research compendium [{term}`def<Research Compendia>`] combines all elements of your project, allowing others to reproduce your work, and should be the final product of your research project. Publishing your research paper along with a research compendium allows others to access your input, test your analysis, and, if the compendium can be executed, rerun to assess the resulting output. This does not only instill trust in your research but can give you more visibility. Others may use your research in unexpected ways, some of which are discussed below (refer to section: {ref}`Using a research compendium<rr-compendia-using>`).
 
-## crwdns845218:0crwdne845218:0
+## Background
 
-crwdns845220:0crwdne845220:0 crwdns845222:0crwdne845222:0 crwdns845224:0crwdne845224:0
-
-
-### crwdns845226:0crwdne845226:0
-
-crwdns845228:0{cite:ps}crwdne845228:0
-
-- crwdns845230:0crwdne845230:0
-- crwdns845232:0crwdne845232:0
-- crwdns845234:0crwdne845234:0
-
-crwdns845236:0crwdne845236:0 crwdns845238:0crwdne845238:0
+A research compendium at its most basic is a comprehensive set of files that combines all components of a project. This compendium can be downloaded and run locally to recreate the work done, or it can contain elements that allow it to be executed on a remote server. Executable research compendia aim to make the computational part of a scientific publication reproducible by providing all the building blocks available and give a description of how the user can execute the contained code.
 
 
-#### crwdns845240:0crwdne845240:0
+### Structure of a Research Compendium
 
-crwdns845242:0crwdne845242:0 crwdns845244:0crwdne845244:0 crwdns845246:0crwdne845246:0
+Three principles should be kept in mind when constructing a research compendium {cite:ps}`Marwick2018compendia`.
+
+- Files should be organized in a conventional folder structure;
+- Data, methods, and output should be clearly separated;
+- The computational environment should be specified.
+
+With these principles, a wide variety of compendia are possible. Let's start with the most basic version.
+
+
+#### Basic Compendium
+
+A basic compendium follows these three principles. It separates data and methods into a conventional folder structure, and describes the computational environment in a designated file. Furthermore, any compendium should have a landing page in the form of a README document.
 
 ```text
-crwdns845248:0crwdne845248:0
+compendium/
+├── data
+│   ├── my_data.csv
+├── analysis
+│   └── my_script.R
+├── DESCRIPTION
+└── README.md
 ```
 
-#### crwdns845250:0crwdne845250:0
+#### Executable Compendium
 
-crwdns845252:0crwdne845252:0 crwdns845254:0crwdne845254:0 crwdns845256:0crwdne845256:0 crwdns845258:0crwdne845258:0
+The following folder can be considered an executable research compendium. It contains all the digital parts of the research project (code, data, text, figures) and all the information on how to obtain the results. The computing environment is described in the `Dockerfile`, the dependencies of files and how to automatically generate the results are described in the `Makefile`. Additionally we have a `README.md` describing what the compendium is about and a `LICENSE` file with info on how it can be used.
 
 ```text
-crwdns845260:0crwdne845260:0
+compendium/
+├── CITATION
+├── code
+│   ├── analyse_data.R
+│   └── clean_data.R
+├── data_clean
+│   └── data_clean.csv
+├── data_raw
+│   ├── datapackage.json
+│   └── data_raw.csv
+├── Dockerfile
+├── figures
+│   └── flow_chart.jpeg
+├── LICENSE
+├── Makefile
+├── paper.Rmd
+└── README.md
 ```
 
-#### crwdns845262:0crwdne845262:0
+#### Separating Methods, Data, Output
 
-crwdns845264:0crwdne845264:0 crwdns845266:0crwdne845266:0
+The principles of a research compendium state that it should clearly separate Methods, Data, and Output. Phrased differently, this means we should distinguish between three types of files and folders:
 
-- crwdns845268:0crwdne845268:0
-- crwdns845270:0crwdne845270:0
-- crwdns845272:0crwdne845272:0
+- **Read-only**: raw data (``data_raw\`), metadata (``datapackage.json`,`CITATION`)
+- **Human-generated**: code (`clean_data.R`, `analyse_data.R`), paper (`paper.Rmd`), documentation (`README.md`)
+- **Project-generated**: clean data (``data_clean\`, figures (``figures\`), other output
 
-crwdns845274:0crwdne845274:0 crwdns845276:0crwdne845276:0
-
-
-### crwdns845278:0crwdne845278:0
-
-crwdns845280:0crwdne845280:0 crwdns845282:0crwdne845282:0 crwdns845284:0crwdne845284:0 crwdns845286:0crwdne845286:0 crwdns845288:0crwdne845288:0
+The examples mentioned here are not exhaustive and some may first be "human-generated" and at some point become "read-only" (for example a human may generate the data metadata `datapackage.json`, but once that is done it may become something not to be touched). In other words, whether a folder contains files in either of these categories, may depend on the life cycle of the project.
 
 
-### crwdns845290:0crwdne845290:0
+### Creating a Compendium
 
-crwdns845292:0crwdne845292:0
-
-- crwdns845294:0crwdne845294:0
-- crwdns845296:0crwdne845296:0
-- crwdns845298:0crwdne845298:0
-
-crwdns845300:0crwdne845300:0 crwdns845302:0crwdne845302:0
-
-crwdns845304:0crwdne845304:0
-
-crwdns845306:0crwdne845306:0
-### crwdns845308:0crwdne845308:0
-
-crwdns845310:0crwdne845310:0
-
-- crwdns845312:0crwdne845312:0
-- crwdns845314:0crwdne845314:0
-- crwdns845316:0crwdne845316:0
-- crwdns845318:0crwdne845318:0
+If you already use some of the tools in this book - such as version control, Makefiles, and/or reproducible environments - it may come naturally to you to create a research compendium. This is, because a version control repository can be a research compendium; A Makefile makes it executable; A reproducible environment makes it reproducible. To create a research compendium, we recommend to first think about *what the components of your project are* and create the folder structure accordingly. Use names for files and folders that make it easy for others to understand what they contain. It is a good idea to think about this early in the research process and start your project with the mindset that the output in the end is a research compendium rather than just a research paper.
 
 
-## crwdns845320:0crwdne845320:0
+### Publishing a Compendium
 
-crwdns845322:0crwdne845322:0
+There are several options to publish a research compendium:
 
-- crwdns845324:0crwdne845324:0
-- crwdns845326:0crwdne845326:0
-- crwdns845328:0crwdne845328:0
-- crwdns845330:0crwdne845330:0
-- crwdns845332:0crwdne845332:0
-- crwdns845334:0crwdne845334:0
-- crwdns845336:0crwdne845336:0
+- On a versioning platform such as GitHub or GitLab (potentially with a link to Binder).
+- On a research archive such as Zenodo or the Open Science Framework (OSF).
+- As supplementary material of a paper publication.
 
-## crwdns845338:0crwdne845338:0
+For examples, see the label/tag/community "research-compendium" (applied on GitHub, Zenodo, OSF) or as a fallback the term "research compendium" in the description (used on GitLab). For more info, see also [Research Compendium](https://research-compendium.science).
 
-- crwdns845340:0crwdne845340:0
+In the future, the research compendium may even be the publication itself allowing peer review of the entire research project.
+
+(rr-compendia-using)=
+### Using a Compendium
+
+A research compendium can be used in several ways, including (but not limited to):
+
+- Peer review: If peers can check what you have done, they can review it much more thoroughly.
+- Understanding research: If you really want to understand what someone has done in their research project, the research compendium is what you need to look at.
+- Teaching: Research compendia can be great examples to be used in teaching.
+- Reproducibility studies / repro hacks: A research compendium allows other researchers to attempt (and hopefully succeed) to redo your computations.
+
+
+## Checklist
+
+To create a research compendium, follow these steps:
+
+- Think about a good folder structure (see example above)
+- Create folder structure (main directory and sub directories)
+- Optional: Make the compendium into a git repository
+- Add all files needed for reproducing the results of the project
+- Try to have the compendium as clean and easy to use as possible when you advertise it for others to use
+- Optional: Have a peer check the compendium and see if it works correctly
+- Publish your compendium
+
+## Further Reading
+
+- The website [Research Compendium](https://research-compendium.science) contains links to further resources and publications on research compendia as well as links to examples.
 
 
 <!---

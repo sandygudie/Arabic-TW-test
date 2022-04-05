@@ -1,140 +1,140 @@
-crwdns828676:0crwdne828676:0
-# crwdns828678:0crwdne828678:0
+(cm-aa-stories-community)=
+# Personal stories - Large Collaborative Research Community
 
-## crwdns828680:0crwdne828680:0
+## Discussion with Remi Gau and Isil Poraz Bilgin from the Brainhack community
 
-crwdns828682:0crwdne828682:0 crwdns828684:0crwdne828684:0
+Brainhack is an open science community that has an innovative meeting format to promote scientific collaboration and education in an open, inclusive environment. Remi, Isil and their colleagues have been dealing with the issue of how to determine contributions and authorship in such a large community.
 
-**crwdns828686:0crwdne828686:0**
-* [crwdns828690:0crwdne828690:0](crwdns828688:0crwdne828688:0)
-* [crwdns828694:0crwdne828694:0](crwdns828692:0%5Ecrwdnd828692:0%7Ccrwdnd828692:0%5Ecrwdnd828692:0%7Ccrwdnd828692:0%5Ecrwdne828692:0)
+**More information about Remi Gau:**
+* [Website](https://remi-gau.github.io/)
+* [Twitter](https://twitter.com/RemiGau?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)
 
-**crwdns828696:0crwdne828696:0**
-* [crwdns828700:0crwdne828700:0](crwdns828698:0crwdne828698:0)
-* [crwdns828704:0crwdne828704:0](crwdns828702:0crwdne828702:0)
+**More information about Isil Poyraz Bilgin:**
+* [Github](https://github.com/complexbrains)
+* [Twitter](https://twitter.com/complexbrains)
 
-**crwdns828706:0crwdne828706:0 crwdns828708:0crwdne828708:0 crwdns828710:0crwdne828710:0**
+**1. What is the *normal* practice of authorship for academic papers in your discipline? or used to be the normal practice?**
 
-crwdns828712:0crwdne828712:0 crwdns828714:0crwdne828714:0 crwdns828716:0crwdne828716:0 crwdns828718:0crwdne828718:0
+**Remi:** My background is in Biology and Psychology. Most papers are multi-author and so have more than one author. Single authorship can happen but not for experimental work. This work usually involves at least a Principal Investigator with a Postdoctoral Researcher or PhD student.
 
-crwdns828720:0crwdne828720:0 crwdns828722:0crwdne828722:0 crwdns828724:0crwdne828724:0 crwdns828726:0crwdne828726:0
+Single author papers don't have a bad reputation. They tend to be theoretical, summarizing articles or opinion pieces. However, they are more unusual now. This is because of a need to collaborate as projects are more complex and therefore require more skills and hence more people.
 
-crwdns828728:0crwdne828728:0 crwdns828730:0crwdne828730:0
+There are still some problematic practices happening such as providing materials for the project because of wanting to get on the paper. So yes, these people are providing something that makes the project possible, such as a raw material needed for the project, but are not making a substantial contribution to the project in any other way.
 
-crwdns828732:0crwdne828732:0 crwdns828734:0crwdne828734:0 crwdns828736:0crwdne828736:0
+In terms of the order of authors on papers, usually the two first names are very important and the two last names. First names are the people who have completed the most work on the project and the last two names have supervisory roles. The middle ranking authors can be random or alphabetical.
 
-crwdns828738:0crwdne828738:0 crwdns828740:0crwdne828740:0
+There is a slow move towards using the [CRediT system](https://casrai.org/credit/) now; giving a description of what the contributions have been. The issue with this is that it is a very detailed description of the different roles and there is a lot of push back about this and trying to do things differently.
 
-crwdns828742:0crwdne828742:0
+The increase in large collaborative papers and also the generation of software in projects means authorship needs to be dealt with in a different way.
 
 
-crwdns828744:0crwdne828744:0 crwdns828746:0crwdne828746:0 crwdns828748:0crwdne828748:0
+**Isil:** I am a mathematician and have a Computer Science MSc, so I have more insights from the engineering practices due to my background, in which the authorship models follow a more compact authorship line-up. This means authorship that mainly constitutes of PhD or Postdoctoral students who actively work in the project as the first authors and the most senior person, such as the supervisors, principal investigators as the last author. However, with the development of more interdisciplinary research in the field, we have seen an increase in the number of authors that are included in papers.
 
-crwdns828750:0crwdne828750:0 crwdns828752:0crwdne828752:0
+As the general rule of thumb, the author lists are created by those who made a 'significant intellectual contribution' to scientific research. However the complication comes from having no clear definition or metrics to quantify the significance of the contribution that has been made.
 
-crwdns828754:0crwdne828754:0
+The only definition that has been made to this day is by the American Institute of Physics (AIP) as _"Authorship should be limited to those who have made a significant contribution to the concept, design, execution, or interpretation of the research study”_, which still does not give a clear guideline regarding how to evaluate the contributors in the fairest and consistent way across journals, institutions and laboratories.
 
 
-**crwdns828756:0crwdne828756:0 crwdns828758:0crwdne828758:0**
+**2. When did you discuss authorship in your project?**
 
-crwdns828760:0crwdne828760:0 crwdns828762:0crwdne828762:0 crwdns828764:0crwdne828764:0
+**Remi:** This was done very early in the project. We spent some of the first three meetings, in which the two main questions were finding out how to deal with authorship and the journal we wanted to aim for. We also discussed how we were dividing up the tasks.
 
-crwdns828766:0crwdne828766:0 crwdns828768:0crwdne828768:0
+Even with this early approach, there were some headaches. The main issues were whether authorship should be all alphabetical, random or ranking.
 
-crwdns828770:0crwdne828770:0
+The order does let people know to what level they want to contribute and has implications on different peoples input into the project.
 
-crwdns828772:0crwdne828772:0 crwdns828774:0crwdne828774:0
+Alphabetical authorship order would not seem very radical in some groups, such as an open science crowd. But in other settings it is very radical and may mean that some researchers are less keen to contribute if they don't get the recognition for their work that they think they should get.
 
-crwdns828776:0crwdne828776:0
+**Isil:** In addition to these, there have been some discussions regarding using consortium authorships with some examples given from previous papers by the community members as in [SciPy paper](https://www.nature.com/articles/s41592-019-0686-2) or as in [Open Brain Consent](https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.25351).
 
-crwdns828778:0crwdne828778:0 crwdns828780:0crwdne828780:0
+But going back to what Remi mentioned, through the discussions, the feeling was that there had been some missing links in the general understanding regarding what the audience of a community paper should be in comparison to a scientific paper. How the authorship model and the expectations regarding the contributions should be justified and what they should be formed like.
 
-crwdns828782:0crwdne828782:0
+Therefore, these consortium authorship models remained a topic that needed more extensive discussions, which was not possible due to the pressure of time.
 
 
-**crwdns828784:0crwdne828784:0 crwdns828786:0crwdne828786:0**
+**3. Who had the discussion about authorship in your project?**
 
-crwdns828788:0crwdne828788:0
+**Remi:** Everybody was included in the discussions at the beginning of the project and we had a vote on it.
 
-crwdns828790:0crwdne828790:0
+These general guidelines were documented but were to be revisited at a later stage of the project.
 
-crwdns828792:0crwdne828792:0 crwdns828794:0crwdne828794:0 crwdns828796:0crwdne828796:0
+Problems arose when more people joined the project. Most people agreed with the framework and guidelines but I'm not sure that they were made aware of this fully when onboarding. It was a rush and the process was rushed.
 
-crwdns828798:0crwdne828798:0
+Later on there were more discussions about authorship.
 
-crwdns828800:0crwdne828800:0
+The time scale of the project, and the writing of articles, is going to affect the authorship process.
 
-crwdns828802:0crwdne828802:0 crwdns828804:0crwdne828804:0 crwdns828806:0crwdne828806:0
+It will affect who gets a say and if the decisions are made correctly. If you have to move fast, then having a democratic decision takes a long time in a large community and might not be possible. To speed up the process, we found some core members needed to make decisions, but this undermines the process.
 
-crwdns828808:0crwdne828808:0
+**Isil:** Also the discussions, the voting to be done, the decisions taken or to be taken were all shared through the public communication channels and a google email list that includes all the contributors to make sure everyone had a chance to see this information or follow the process one way or another.
 
 
-**crwdns828810:0crwdne828810:0 crwdns828812:0crwdne828812:0**
+**4. What approach have you decided to take in your project?**
 
-crwdns828814:0crwdne828814:0
+**Remi:** Our guidelines set out that we list authors into three groups:
 
-* crwdns828816:0crwdne828816:0 crwdns828818:0crwdne828818:0 crwdns828820:0crwdne828820:0 crwdns828822:0crwdne828822:0
+* Group 1 are a core team of people that are actively working in the project and writing the paper. For example, the actual writing of the paper, brainstorming and recording agendas for meetings. We are using an all contributors model like *The Turing Way's* but with our own emojis in a checklist. This core team were ranked in terms of their contributions but this did create an issue of how to decide the value of different contributions and I would suggest that this should be decided firmly at the beginning.
 
-* crwdns828824:0crwdne828824:0 crwdns828826:0crwdne828826:0
+* Group 2 are those people that did not actively write the paper but are active in the Brainhack community so they ran events, gave talks or led a project. These members were listed alphabetically.
 
-* crwdns828828:0crwdne828828:0 crwdns828830:0crwdne828830:0 crwdns828832:0crwdne828832:0
+* Group 3 is the last author. It was decided to be the Brainhack community (not by name but part of the community). There were some discussions about a web list of names.
 
-crwdns828834:0crwdne828834:0
+We did have to revisit these guidelines.
 
-crwdns828836:0crwdne828836:0
+**Isil:**  Just to add to this, the groups were formed organically as a bottom-up process and kept open to participation at any point in time through data collection and writing processes.
 
-crwdns828838:0crwdne828838:0 crwdns828840:0crwdne828840:0
+Due to the personal time schedules and commitments, some people were only able to be present at the beginning of the discussions and some were present throughout the whole time or some were able to contribute at the end. However, at the end of the day, we tried to do our best to quantify any contributions given at any time point throughout the process independent of the amount of presence that had been shown.
 
 
-**crwdns828842:0crwdne828842:0 crwdns828844:0crwdne828844:0**
+**5. How have you gone about paper writing practically?**
 
-crwdns828846:0crwdne828846:0 crwdns828848:0crwdne828848:0
+**Remi:** We started by brainstorming to break the paper into different sections and then created sub teams, where each team worked on one section. There were at least 4 teams.
 
-crwdns828850:0crwdne828850:0
+There was also a master editing team to unify all these sections and another team to work on the figures, tables and glossary.
 
-crwdns828852:0crwdne828852:0 crwdns828854:0crwdne828854:0 crwdns828856:0crwdne828856:0 crwdns828858:0crwdne828858:0
+Very early on we realised that the paper would be this fixed thing. However, we wanted there to be an evolving version. We were restricted with the word limit to the paper and we wanted to spill over with all the ideas and keep evolving so we started a Jupyter book. So there is also a team working on the [Jupyter book](http://brainhack.org/brainhack_jupyter_book/).
 
-crwdns828860:0crwdne828860:0
+Once all of the sections were written and then passed to the editing team, they were sent to the co-authors.
 
-crwdns828862:0crwdne828862:0 crwdns828864:0crwdne828864:0
+We took lots of notes in meetings and fed this back to all co-authors. All meetings were recorded and videos made available.
 
-crwdns828866:0crwdne828866:0 crwdns828868:0crwdne828868:0
+Once the paper was finished we sent it out for Community review. This was done by putting the pre-print online for any contributors to check.
 
-crwdns828870:0crwdne828870:0 crwdns828872:0crwdne828872:0
+Then another meeting took place with the core team to finalise these comments. The community review followed the example of the [INCF - A standards organisation for open and FAIR neuroscience](https://www.incf.org/).
 
-crwdns828874:0crwdne828874:0 crwdns828876:0crwdne828876:0
+**Isil:** The teams for the sections were self-organized by those members who wanted to share their ideas and experiences in that particular domain such as educational aspect, community building or projects. There was no clear cut division between these section teams, the members were fluid across the teams as needed.
 
-crwdns828878:0crwdne828878:0
+Although this was helpful given the race we were in against the time in completing the tasks at hand, making this organisation more explicit between the members of the teams might have given greater opportunities for contributions from more contributors who represent a larger variety of backgrounds and opinions.
 
 
-**crwdns828880:0crwdne828880:0 crwdns828882:0crwdne828882:0**
+**6. What have been the problems with doing this?**
 
-crwdns828884:0crwdne828884:0 crwdns828886:0crwdne828886:0 crwdns828888:0crwdne828888:0
+**Remi:** We under specified the ranking system for the core team. We did not want the core team to do the ranking, we wanted more of a bottom up approach. Like a tiering system of what their contributions were.
 
-crwdns828890:0crwdne828890:0 crwdns828892:0crwdne828892:0 crwdns828894:0crwdne828894:0 crwdns828896:0crwdne828896:0 crwdns828898:0crwdne828898:0 crwdns828900:0crwdne828900:0 crwdns828902:0crwdne828902:0
+We wanted to use the contributions checklist to rank people such as the number of boxes that they had ticked. We tried to go about this by ranking people in subteams, but this made people very uncomfortable. The community ethos was against a ranking system and also it was unclear that they would not rank themselves. This lack of clarity made it hard to decide how to make a change to this system once it was in place. The process needed to be slowed down and discussed more thoroughly about how to rank people fairly. Decisions were finally made about how to rank authors by a core team. But it was time constraints and the ever increasing people onboarding to the community that caused an issue.
 
-crwdns828904:0crwdne828904:0 crwdns828906:0crwdne828906:0 crwdns828908:0crwdne828908:0
+For other publications we will probably just use the 'Brainhack community' as consortium authorship. Each person's name will appear underneath the community name as a list and therefore all named authors will get the citation. This will make our authorship more equitable.
 
-crwdns828910:0crwdne828910:0
+**Isil:** Remi has touched upon the many important points above.
 
-crwdns828912:0crwdne828912:0 crwdns828914:0crwdne828914:0 crwdns828916:0crwdne828916:0 crwdns828918:0crwdne828918:0
+Just to add, one of the difficulties we also had was to have a full representation of the Brainhack community in this beautiful work. The nature of the Brainhack community has made it a real challenge to trace back all the contributors and have them involved in the publication process. It is a voluntary based organization that has had events all around the world since 2012. Sometimes these events are run as stand-alone events, or under the roof of the yearly organized Brainhack Global or even by one of the biggest international neuroscience society - Organization for Human Brain Mapping (OHBM) - through their yearly conference.
 
 
-crwdns828920:0crwdne828920:0 crwdns828922:0crwdne828922:0
+Because of his past leadership and many other involvements in OHBM Brainhack events, Remi at the OHBM side and I personally at the Brainhack Global side, we spent weeks tracing back to these Brainhack organizers and attendees, chasing the changed affiliations, and persuading them they should be in this project and why it matters for the future of the Open science and the community itself. There were, however, still missing members or data to be represented in this whole process.
 
-crwdns828924:0crwdne828924:0 crwdns828926:0crwdne828926:0
+I believe this is a difficulty in writing a paper that strives to engage and embrace an inclusive and representative approach. We want differing ideas, backgrounds and experiences at its heart but we have to deal with the aforementioned struggles.
 
-crwdns828928:0crwdne828928:0 crwdns828930:0crwdne828930:0
+Therefore, I also strongly believe that adopting an accumulative 'Brainhack community' consortium authorship model would create better, fair and equal opportunities for the representation of every single member of the community. This will create a better chance of incentivizing and acknowledging the years of commitments and efforts given by each member of the community.
 
 
 
-**crwdns828932:0crwdne828932:0 crwdns828934:0crwdne828934:0**
+**7. What collaborative tools did you use for the writing and projects?**
 
-crwdns828936:0crwdne828936:0 crwdns828938:0crwdne828938:0 crwdns828940:0crwdne828940:0 crwdns828942:0crwdne828942:0
+**Remi:** We used Google docs and sheets. Also forms for information from authors. But some Google tools are not accessible in some countries such as China. So it is good to have a discussion about what tools to use so that everyone has access to the same software and tools from the start.
 
-crwdns828944:0crwdne828944:0 crwdns828946:0crwdne828946:0
+**Isil:** Also since we had a lot of supplementary details regarding the years-long events and projects that were run under Brainhack events, that was not able to go into the paper due to the limitation of the word count. We created a supplementary Jupyterbook for which we had a public repository on Github, that is constituted of markdown files for the content of the book, .json files for the data to process and many graphics to summarise the data.
 
-crwdns828948:0crwdne828948:0 crwdns828950:0crwdne828950:0 crwdns828952:0crwdne828952:0 crwdns828954:0crwdne828954:0 crwdns828956:0crwdne828956:0 crwdns828958:0crwdne828958:0
+[Recent article from the Brainhack community](https://pubmed.ncbi.nlm.nih.gov/33932337/): Gau R, Noble S, Heuer K, Bottenhorn KL, Bilgin IP, Yang YF, Huntenburg JM, Bayer JMM, Bethlehem RAI, Rhoads SA, Vogelbacher C, Borghesani V, Levitis E, Wang HT, Van Den Bossche S, Kobeleva X, Legarreta JH, Guay S, Atay SM, Varoquaux GP, Huijser DC, Sandström MS, Herholz P, Nastase SA, Badhwar A, Dumas G, Schwab S, Moia S, Dayan M, Bassil Y, Brooks PP, Mancini M, Shine JM, O'Connor D, Xie X, Poggiali D, Friedrich P, Heinsfeld AS, Riedl L, Toro R, Caballero-Gaudes C, Eklund A, Garner KG, Nolan CR, Demeter DV, Barrios FA, Merchant JS, McDevitt EA, Oostenveld R, Craddock RC, Rokem A, Doyle A, Ghosh SS, Nikolaidis A, Stanley OW, Uruñuela E; Brainhack Community. **Brainhack: Developing a culture of open, inclusive, community-driven neuroscience.** Neuron. 2021 Jun 2;109(11):1769-1775. doi: 10.1016/j.neuron.2021.04.001. Epub 2021 Apr 30. PMID: 33932337.
 
-*crwdns828960:0crwdne828960:0*
+*This interview was conducted by Emma Karoune.*
 

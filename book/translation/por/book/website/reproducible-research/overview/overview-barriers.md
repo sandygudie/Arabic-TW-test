@@ -1,124 +1,126 @@
-(rr-geros-barreiras)=
-# Barreiras para reprodutibilidade
+(rr-overview-barriers)=
+# Barriers to reproducibility
 
-Até agora, explicamos {ref}`o que entendemos por<rr-overview-definitions>` reprodutível pesquisa e explicamos alguns dos`benefícios adicionais de {ref}<code><rr-overview-benefits>`.
+So far we have explained {ref}`what we mean<rr-overview-definitions>` by reproducible research and explained some of the {ref}`additional benefits<rr-overview-benefits>`.
 
-Nesta seção, cobrimos algumas das (reais e percebidas) barreiras que você pode enfrentar, tornando seu trabalho reprodutível.
+In this section we cover some of the (real and perceived) barriers you may face in making your work reproducible.
 
 ```{figure} ../../figures/barriers-reproducibility.png
 ---
-largura: 500px
-nome: reprodutibilidade-barreiras
-alt: Deslize da apresentação mostrando as diferentes barreiras para reprodutibilidade. O texto no centro diz "Barreiras à pesquisa reprodutível" e as seguintes barreiras estão organizadas no sentido horário em torno do deslizamento - não é considerado para promoção, Segurado a um padrão mais alto que outros, Viés de publicação para descobertas de romances, liderar o 5, Tomar o tempo, Suportar usuários adicionais, Requer habilidades adicionais.
---- Um slide delineando algumas das barreiras para reprodutível pesquisa por Kirstie Whitaker [fale sobre A Turing Way_](https://youtu.be/wZeoZaIV0VE?t=312) em [csv,conf,v4](https://csvconf.com/2019) em maio de 2019.
-Usado sob uma licença CC-BY 4.0.
+width: 500px
+name: reproducibility-barriers
+alt: Slide from the presentation showing the different barriers to reproducibility. The text in the center says 'Barriers to reproducible research' and the following barriers are arranged clockwise around the slide - Is not considered for promotion, Held to a higher standard than others, Publication bias towards novel findings, Plead the 5th, Takes time, Support additional users, Requires additional skills.
+---
+A slide outlining some of the barriers to reproducible research from Kirstie Whitaker's [talk about _The Turing Way_](https://youtu.be/wZeoZaIV0VE?t=312) at [csv,conf,v4](https://csvconf.com/2019) in May 2019.
+Used under a CC-BY 4.0 license.
 DOI: [10.5281/zenodo.2669547](https://doi.org/10.5281/zenodo.2669547).
 ```
 
-Este capítulo descreve algumas dessas barreiras, e algumas sugestões para as contornar. Os obstáculos à reprodução da investigação podem ser descritos em três grandes grupos. O primeiro, e o mais difícil de superar são as relacionadas à atual estrutura de incentivo da pesquisa acadêmica: {ref}`incentivos limitados para fornecer evidências contra si mesmo<rr-overview-barriers-incentives>` (ou "Conduza o quinto"), os conhecidos {ref}`viés de publicação para novas descobertas<rr-overview-barriers-publication>`, o fato de que a pesquisa reprodutível ou aberta pode ser {ref}`realizada a padrões mais altos que os outros<rr-overview-barriers-standards>`, e que todo este esforço {ref}`não é considerado para promoção<rr-overview-barriers-promotion>`. Depois, há os desafios técnicos e teóricos de trabalhar com {ref}`grandes dados e uma infraestrutura computacional complexa<rr-overview-barriers-infrastructure>` e lembrar que {ref}`ser reproduzível não significa que a resposta está certa<rr-overview-barriers-notright>`. Terminamos com três barreiras, considerando as pressões sobre cientistas de dados individuais: que este trabalho pode ser percebido para {ref}`levar tempo extra<rr-overview-barriers-time>`, que você pode ser necessário para {ref}`suportar usuários adicionais<rr-overview-barriers-support>` (spoiler: você não! , e que você e membros de seu time podem {ref}`exigir habilidades adicionais<rr-overview-barriers-skills>`. A boa notícia é que ajudá-lo a aprender essas habilidades é exatamente para quê _The Turing Way_ está aqui!
+This chapter outlines some of those barriers, and a few suggestions to get around them. The barriers to reproducible research can be described in three main groups. The first, and hardest to overcome are those relating to the current incentive structure in academic research: {ref}`Limited incentives to give evidence against yourself<rr-overview-barriers-incentives>` (or "Plead the fifth"), the known {ref}`publication bias towards novel findings<rr-overview-barriers-publication>`, the fact that reproducible or open research may be {ref}`held to higher standards than others<rr-overview-barriers-standards>`, and that all this effort is {ref}`not considered for promotion<rr-overview-barriers-promotion>`. Then there are the technical and theoretical challenges of working with {ref}`big data and complex computational infrastructure<rr-overview-barriers-infrastructure>` and remembering that {ref}`being reproducible does not mean the answer is right<rr-overview-barriers-notright>`. We finish with three barriers considering the pressures on individual data scientists: that this work can be perceived to {ref}`take extra time<rr-overview-barriers-time>`, that you may be required to {ref}`support additional users<rr-overview-barriers-support>` (spoiler: you aren't!), and that you and members of your team might {ref}`require additional skills<rr-overview-barriers-skills>`. The good news is that helping you learn those skills is exactly what _The Turing Way_ is here for!
 
-(rr-vos-visão-barreiras-incentivos)=
-## Incentivos limitados para fornecer provas contra si mesmo
+(rr-overview-barriers-incentives)=
+## Limited incentives to give evidence against yourself
 
-A [Quinta Alteração](https://en.wikipedia.org/wiki/Fifth_Amendment_to_the_United_States_Constitution) à Constituição dos Estados Unidos inclui uma cláusula segundo a qual ninguém "será obrigado, em qualquer caso criminal, a ser testemunha contra [them]navio[ves]". (Edicado a linguagem de gênero neutro.) (Edicado a linguagem de gênero neutro.) "Defender a quinta" significa que alguém opta por não dar provas de que poderia ter havido algo de errado no seu comportamento passado. Têm o direito de permanecer em silêncio.
+The [Fifth Amendment](https://en.wikipedia.org/wiki/Fifth_Amendment_to_the_United_States_Constitution) to the United States Constitution includes a clause that no one "shall be compelled in any criminal case to be a witness against [them]sel[ves]". (Edited to gender-neutral language.) To "plead the fifth" means that someone chooses not to give evidence that there might have been something wrong in their past behaviour. They have the right to remain silent.
 
-Sabemos que ninguém quer incriminar-se a si próprio e também que ninguém é infalível. Colocar seu código e seus dados online pode ser muito revelador e intimidador, e faz parte da condição humana estar nervoso por ser julgado pelos outros. Embora não exista nenhuma _lei_ que rege a comunicação de pesquisas reprodutíveis - a menos que você cometer fraude explícita no seu trabalho - a partilha de erros que você encontre em seu trabalho é fortemente desincentivada.
+We know that no one wants to incriminate themselves, and also that no one is infallible. Putting your code and data online can be very revealing and intimidating, and it is part of the human condition to be nervous of being judged by others. Although there is no _law_ governing the communication of reproducible research - unless you commit explicit fraud in your work - sharing errors that you find in your work is heavily disincentivised.
 
 ```{figure} ../../figures/make-ok-to-be-human.jpg
 ---
-largura: 500px
-name: help-you-of-the-future
-alt: Um desenho animado de uma mulher que volta para si mesma uma pasta de documentos. Bolha de fala diz que você está mantendo registros para você no futuro. ---
-Embora tornar uma documentação clara pode parecer que está demorando muito tempo no momento, você está ajudando você e seus colaboradores lembram o que você fez para que seja fácil reutilizar o trabalho ou fazer alterações no futuro.
-Ilustração por The Ludic Group LLP da apresentação de keynote do Kirstie Whitaker em Dados Científicos de 2017.
-Usado sob uma licença CC-BY 4.0.
+height: 500px
+name: make-ok-to-be-human
+alt: A cartoon of a woman holding a folder of files and looking worried. Thought bubble says, If I share my data people might find mistakes. The caption on the images reads Need to make it ok to be human.
+---
+An illustration of the "plead the fifth" barrier where our current culture disincentivises acknowledging and correcting mistakes.
+Illustration by The Ludic Group LLP from Kirstie Whitaker's keynote presentation at Scientific Data in 2017.
+Used under a CC-BY 4.0 license.
 DOI: [10.6084/m9.figshare.5577340.v1](https://doi.org/10.6084/m9.figshare.5577340.v1).
 ```
 
-A apresentação de provas contra si própria, sobretudo se se detectarem erros no material publicado, é difícil e tenaz. Mas precisamos equilibrar esse custo individual face ao fato de que liberar código pode ajudar outros investigadores a fornecer feedback, aprenda e pode ajudá-los em sua pesquisa. De fato, você quase certamente descobrirá que publicar seu código e documentação de dados te motivar a conduzir suas análises a um padrão mais elevado. Ter cuidado com o que você escreve, e documentar suas decisões, também pode ajudar a gerar novas ideias para você e para os outros.
+Giving evidence against yourself, particularly if you find mistakes in published material, is difficult and stressful. But we need to balance that individual cost against the fact that releasing code can help other researchers provide feedback, learn and may help them in their research. In fact, you will almost certainly find that publishing your code and data documentation motivates you to conduct your analyses to a higher standard. Being careful about what you write down, and documenting your decisions, can also help generate new ideas for yourself and for others.
 
-O mais importante, precisamos nos afastar de uma cultura onde publicar nada é mais seguro do que publicar _algo_. _A Turing Way_ está aqui para ajudá-lo a dar pequenos passos no sentido de ser mais reprodutível à medida que sua carreira avança. Não queremos que ninguém se sinta sozinho, ou "pouco bem" enquanto começam e continuam sua jornada de pesquisa aberta.
+Most importantly, we need to move away from a culture where publishing nothing is safer than publishing _something_. _The Turing Way_ is here to help you take little steps towards being more reproducible as your career progresses. We don't want anyone to feel alone, or "not good enough" as they start and continue their open research journey.
 
-(rr-overview-barriers-publicação)=
-## Viés de publicação para descobertas novas
+(rr-overview-barriers-publication)=
+## Publication bias towards novel findings
 
-Os novos resultados não são necessariamente precisos ou interessantes, mas são recompensados no mundo académico! Papéis que não encontram relações estatisticamente significativas são difíceis de publicar, particularmente se os resultados *não* reproduzem descobertas publicadas anteriormente. (Isso inclui descobertas estatisticamente significativas que vão na direcção oposta à do trabalho já publicado.) (Isso inclui descobertas estatisticamente significativas que vão na direcção oposta à do trabalho já publicado.) Da mesma forma, um artigo pode ser menos provável de ser aceito por um diário ou uma conferência se ele reproduz resultados já publicados com sucesso em vez de produzir um novo conjunto. Há uma boa chance de os revisores dizerem "já sabemos disso" e rejeitarem o envio.
+Novel results are not necessarily accurate or interesting but they are rewarded in the academic world! Papers that do not find statistically significant relationships are hard to publish, particularly if the results *do not* reproduce previously published findings. (That includes statistically significant findings that go in the opposite direction to already published work.) Similarly, an article might be less likely to be accepted to a journal or a conference if it successfully reproduces already-published results instead of producing a new set. There's a good chance that reviewers will say "we already know this" and reject the submission.
 
-O preconceito para a novidade na ciência de dados significa que muitos investigadores estão desincentivados de fazer o trabalho para documentar, testar e compartilhar seus códigos e dados. John Ioannidis publicou um documento influente em 2005 intitulado "Por que as mais publicadas pesquisas descobertas são falsas" {cite:ps}`Ioannidis2005False` que discute os muitos fatores que contribuem para a publicação de viés. Tendo em conta estes preconceitos, é muito provável que haja muito trabalho duplicado na ciência dos dados. Muitos pesquisadores diferentes fazem a mesma pergunta, não obter a resposta que esperam ou que queiram e depois não dizer a ninguém o que encontraram.
+The bias towards novelty in data science means many researchers are disincentivised from doing the work to document, test and share their code and data. John Ioannidis published an influential paper in 2005 titled "Why Most Published Research Findings Are False" {cite:ps}`Ioannidis2005False` which discusses the many factors that contribute to publication bias. Given these biases, it is very likely that there is a lot of duplicated work in data science. Too many different researchers are asking the same question, not getting the answer they expect or want, and then not telling anyone what they have found.
 
-Essa barreira não é específica para a reprodutibilidade computacional conforme a definimos em _The Turing Way_. No entanto, é uma importante barreira cultural a {ref}`comunicação transparente<cm>`, e afeta {ref}`design do projeto<pd>`. _A comunidade_ Modo de Turing está defendendo em todos os lugares que nós somos capazes, para a alteração da cultura sistémica que é necessária para desmantelar a actual publicação e as tendências de crédito académico no sentido de uma novidade em relação ao rigor.
+This barrier is not specific to computational reproducibility as we define it in _The Turing Way_. However, it is a major cultural barrier to {ref}`transparent communication<cm>`, and affects {ref}`project design<pd>`. _The Turing Way_ community are advocating in all the places we are able, for the systemic culture change that is required to dismantle the current publication and academic credit biases towards novelty over rigour.
 
-(rr-overview-barriers-padrões)=
-## Mantidos aos padrões mais altos que os outros
+(rr-overview-barriers-standards)=
+## Held to higher standards than others
 
-Um pesquisador que torna seu trabalho reprodutível compartilhando seus códigos e dados pode ser mantido a um padrão mais alto do que outros pesquisadores. Se os autores não compartilham nada, todos os leitores de um manuscrito ou papel de conferência podem fazer é confiar (ou não confiar) nos resultados.
+A researcher who makes their work reproducible by sharing their code and data may be held to a higher standard than other researchers. If authors share nothing at all, then all readers of a manuscript or conference paper can do is trust (or not trust) the results.
 
-Se o código e os dados estiverem disponíveis, os revisores por pares podem procurar diferenças na implementação. Talvez regressem com novas ideias sobre formas de analisar os dados porque conseguiram experimentar o trabalho. Há o risco de eles exigirem alterações adicionais dos autores do manuscrito apresentado antes de ele ser aceito para a revisão por pares.
+If code and data are available, peer reviewers may go looking for differences in the implementation. They may come back with new ideas on ways to analyse the data because they have been able to experiment with the work. There is a risk that they then require additional changes from the authors of the submitted manuscript before it is accepted for peer review.
 
-Como descrito na seção {ref}`"Plead the Quinto"<rr-overview-barriers-incentives>` acima, a solução para este desafio é alinhar incentivos de carreira, para que fazer o que é melhor para a _ciência_ também beneficie os indivíduos envolvidos.
+As we described in the {ref}`"Plead the Fifth"<rr-overview-barriers-incentives>` section above, the solution to this challenge is to align career incentives so that doing what is best for _science_ also benefits the individuals involved.
 
-(rr-overview-barriers-promoção)=
-## Não considerado para promoção
+(rr-overview-barriers-promotion)=
+## Not considered for promotion
 
-No actual sistema académico, uma das principais preocupações de promoção é a capacidade comprovada de receber subvenções e de recrutar estudantes. Tanto organismos de financiamento como futuros estudantes valorizam a novidade e esse comportamento é refletido em papéis preferencialmente recompensadores com um alto [fator de impacto dos periódicos](https://en.wikipedia.org/wiki/Impact_factor). É provável que parte da condição humana seja motivada por coisas novas ou surpreendentes. mas como {ref}`discutiu acima de<rr-overview-barriers-publication>`, este viés para novidade causa um viés de publicação sistemático.
+In the current academic system, a primary consideration for promotion is the proven ability to be awarded grants and recruit students. Both funding bodies and prospective students value novelty and this behaviour is reflected in preferentially rewarding papers with a high [journal impact factor](https://en.wikipedia.org/wiki/Impact_factor). It is likely part of the human condition to be motivated by things that are new or surprising, but as {ref}`discussed above<rr-overview-barriers-publication>`, this bias towards novelty causes a systematic publication bias.
 
-De um modo mais geral, o sistema de promoções no meio académico tende a recompensar os indivíduos que se mostraram diferentes dos outros no seu domínio. Isso significa que a partilha de códigos e dados para facilitar aos "concorrentes" a realização do mesmo trabalho acaba por ser desencorajada pela promoção e financiamento de painéis de selecção. Um bom exemplo desta parcialidade é o prémio Nobel, que só é atribuído a um pequeno número de investigadores todos os anos. e como tal ["esquece muitos dos seus importantes contribuidores"](https://www.theatlantic.com/science/archive/2017/10/the-absurdity-of-the-nobel-prizes-in-science/541863/) (Ed Yong, The Atlantic, 2017). Um dos objetivos de _The Turing Way_ é chamar atenção para o desalinhamento do período e do processo de promoção com ciência de dados colaborativa e reprodutível.
+More broadly, the promotion system in academia tends to reward individuals who have shown themselves to be different from others in their field. That means sharing code and data to make it easy for "competitors" to do the same work ends up being discouraged by promotion and funding selection panels. A good example of this bias is the Nobel Prize award which only goes to a small number of researchers each year, and as such ["overlooks many of its important contributors"](https://www.theatlantic.com/science/archive/2017/10/the-absurdity-of-the-nobel-prizes-in-science/541863/) (Ed Yong, The Atlantic, 2017). One of the goals of _The Turing Way_ is to draw attention to the misalignment of the tenure and promotion process with collaborative and reproducible data science.
 
-(rr-overview-barriers-infraestrutura)=
-## Grande dados e complexa infraestrutura computacional
+(rr-overview-barriers-infrastructure)=
+## Big data and complex computational infrastructure
 
-Os grandes dados são concebidos de diferentes maneiras por diferentes investigadores. Os dados "Big" podem ser complexos, provenientes de uma variedade de fontes de dados, são grandes no volume de armazenamento e/ou são transmitidos em uma resolução temporária muito alta. Embora existam maneiras de definir sementes aleatórias e tirar snapshots de um conjunto de dados em um determinado momento no tempo, pode ser difícil ter dados idênticos ao longo de diferentes processos de análise. Isto é particularmente relevante no contexto das ferramentas de computação paralela. Por exemplo, alguns dados, como o rastreamento de voo ou o tráfego na Internet, são tão grandes que não podem ser armazenados e devem ser processados, uma vez que são transmitidos em tempo real.
+Big data is conceptualised in different ways by different researchers. "Big" data may be complex, come from a variety of data sources, is large in storage volume and/or be streamed at very high temporal resolution. Although there are ways to set random seeds and take snapshots of a dataset at a particular moment in time, it can be difficult to have identical data across different runs of an analysis pipeline. This is particularly relevant in the context of tools for parallel computing. For example, some data such as flight tracking or internet traffic is so big that it can not be stored and must be processed as it is streamed in real time.
 
-Um desafio mais comum para pesquisadores de "grandes dados" é a variabilidade do desempenho de software em sistemas operacionais e a rapidez com que as ferramentas mudam ao longo do tempo. Está disponível um ecossistema quase em mudança constante de tecnologias da ciência de dados, o que significa reproduzir resultados no futuro é altamente variável e depende da utilização de ferramentas perfeitamente retrógradas à medida que se desenvolvem. Muitas vezes, os resultados dos testes estatísticos variarão consoante a configuração da infra-estrutura utilizada em cada um dos experimentos, tornando muito difícil reproduzir um resultado de forma independente. As experiências são muitas vezes dependentes de inicialização aleatória para algoritmos iterativos e nem todo o software inclui a habilidade de consertar um número pseudo-aleatório sem limitar as capacidades de paralelização (por exemplo, em Tensorflow). Estes instrumentos podem exigir competências técnicas profundas, que não estão amplamente disponíveis para cientistas de dados. A estrutura [Apache Hadoop](https://hadoop.apache.org/) por exemplo, é extremamente complexa para implementar experimentos em ciência de dados sem um forte conhecimento de software e engenharia de hardware.
+A more common challenge for "big data" researchers is the variability of software performance across operating systems and how quickly the tools change over time. An almost constantly changing ecosystem of data science technologies is available, which means reproducing results in the future is highly variable and dependent on using perfectly backwards compatible tools as they develop. Very often the results of statistical tests will vary depending on the configuration of the infrastructure that was used in each of the experiments, making it very hard to independently reproduce a result. Experiments are often dependent on random initialisation for iterative algorithms and not all software includes the ability to fix a pseudorandom number without limiting parallelisation capabilities (for example in Tensorflow). These tools can require in depth technical skills which are not widely available to data scientists. The [Apache Hadoop](https://hadoop.apache.org/) framework, for instance, is extremely complex to deploy data science experiments without strong software and hardware engineering knowledge.
 
-Mesmo computação de alto desempenho "padrão", pode ser difícil de configurar para ser perfeitamente reprodutível, particularmente em diferentes provedores de computação na nuvem ou configurações institucionais. _A Turing Way_ contém capítulos para ajudar os cientistas a aprender habilidades em {ref}`ambiente computacional reprodutível<rr-renv>` incluindo {ref}`contêineres<rr-renv-containers>` como o docker e maneiras de {ref}`controlar suas bibliotecas de software<rr-renv-package>`. Estamos sempre [abertos a mais contribuições](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) à medida que a tecnologia para apoiar a pesquisa reprodutível em conjuntos de dados muito grandes ou para desenvolver modelagem complexa.
+Even "standard" high performance computing, can be difficult to set up to be perfectly reproducible, particularly across different cloud computing providers or institutional configurations. _The Turing Way_ contains chapters to help data scientists learn skills in {ref}`reproducible computational environments<rr-renv>` including {ref}`containers<rr-renv-containers>` such as docker and ways to {ref}`version control your software libraries<rr-renv-package>`. We are always [open to more contributions](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) as the technology to support reproducible research in very large datasets or for complex modelling evolves.
 
 (rr-overview-barriers-notright)=
-## Ser reprodutível não significa que a resposta está certa
+## Being reproducible does not mean the answer is right
 
-Ao tornar o código e dados usados para produzir um resultado abertamente disponível para outros nossos resultados podem ser **reproduzidos** mas erros cometidos pelo autor inicial podem ser levados a cabo. Obter a mesma resposta errada toda vez é uma etapa na direção certa, mas ainda é uma **resposta** errada!
+By making the code and data used to produce a result openly available to others, our results may be **reproduced** but mistakes made by the initial author can be carried through. Getting the same wrong answer each time is a step in the right direction, but still very much a **wrong** answer!
 
-Essa barreira não é realmente uma barreira __ de reprodutível a pesquisa tanto quanto uma ressalva de que o tempo de investimento na reprodutibilidade não significa necessariamente que você está fazendo uma ciência melhor. Você pode considerar a reprodutibilidade computacional como necessária, mas não suficiente para pesquisas de alta qualidade. É necessária uma abordagem crítica, em vez de uma utilização ingénua do software existente ou da implementação de métodos estatísticos sem compreender o que fazem. Veja, por exemplo, [uma discussão](https://ryxcommar.com/2019/08/30/scikit-learns-defaults-are-wrong) em agosto de 2019 sobre se as configurações padrão para implementação da regressão logística do Scikit-learn's estão enganando os novos usuários. É necessária interpretabilidade e interoperabilidade para avaliar adequadamente a investigação original e reforçar as descobertas.
+This barrier isn't really a _barrier_ to reproducible research as much as a caveat that investing time in reproducibility doesn't necessarily mean that you're doing better science. You can consider computational reproducibility as being necessary but not sufficient for high quality research. A critical approach is needed, rather than naively using existing software or implementing statistical methods without understanding what they do. See, for example, [a discussion](https://ryxcommar.com/2019/08/30/scikit-learns-defaults-are-wrong) in August 2019 about whether the default settings for Scikit-learn's implementation of logistic regression are misleading to new users. Interpretability and interoperability are required to properly evaluate the original research and to strengthen findings.
 
-(rr-overview-barriers-tempo)=
-## Determina o tempo
+(rr-overview-barriers-time)=
+## Takes time
 
-A reprodução de uma análise exige tempo e esforço, particularmente no início do projecto. Isso pode incluir concordar com um`framework de testes do {ref}<rr-testing>`, configurando {ref}`controle de versão<rr-vcs>` como um repositório Github e {ref}`integração contínua<rr-ci>`, e {ref}`gerenciando dados<rr-rdm>`. Ao longo de todo o projeto, pode ser necessário tempo para manter o pipeline reprodutível.
+Making an analysis reproducible takes time and effort, particularly at the start of the project. This may include agreeing upon a {ref}`testing framework<rr-testing>`, setting up {ref}`version control<rr-vcs>` such as a Github repository and {ref}`continuous integration<rr-ci>`, and {ref}`managing data<rr-rdm>`. Throughout the project, time may be required to maintain the reproducible pipeline.
 
-Também pode ser gasto tempo comunicando com os colaboradores para concordar sobre quais partes do projeto podem ser de código aberto e quando e como essas saídas são compartilhadas. Pesquisadores podem descobrir que eles precisam "melhorar" seus colegas para permitir que a equipe se beneficie de ferramentas de reprodutibilidade como o git e o GitHub, Recipientes, notebook do Jupyter ou bancos de dados.
+Time may also be spent communicating with collaborators to agree on which parts of the project may be open source and when and how these outputs are shared. Researchers may find that they need to "upskill" their colleagues to allow the team to benefit from reproducibility tools such as git and GitHub, containers, Jupyter notebooks, or databases.
 
 ```{figure} ../../figures/help-you-of-the-future.jpg
 ---
-height: 500px
-nome: make-ok-to-be-human
-alt: Um desenho animado de uma mulher que segura uma pasta de arquivos e parece preocupada. Bolha de fala diz que você está mantendo registros para você no futuro.
+width: 500px
+name: help-you-of-the-future
+alt: A cartoon of a woman passing a folder of documents back to herself. Speech bubble says You're mainly keeping records for you in the future.
 ---
-Embora tornar uma documentação clara pode parecer que está demorando muito tempo no momento, você está ajudando você e seus colaboradores lembram o que você fez para que seja fácil reutilizar o trabalho ou fazer alterações no futuro.
-Ilustração por The Ludic Group LLP da apresentação de keynote do Kirstie Whitaker em Dados Científicos de 2017.
-Usado sob uma licença CC-BY 4.0.
+Although making clear documentation may feel like it is taking a lot of time at the moment, you are helping your and your collaborators remember what you have done so it is easy to reuse the work or make changes in the future.
+Illustration by The Ludic Group LLP from Kirstie Whitaker's keynote presentation at Scientific Data in 2017.
+Used under a CC-BY 4.0 license.
 DOI: [10.6084/m9.figshare.5577340.v1](https://doi.org/10.6084/m9.figshare.5577340.v1).
 ```
 
-No entanto, _a comunidade The Turing Way_ defende que desta vez é mais do que compensado até o final do projeto. Tome como um experimento de pensamento um revisor pedindo "apenas mais uma análise" quando a publicação for submetida a um diário. Em muitos casos, este pedido chegará entre 6 e 12 meses após a equipa de investigação ter trabalhado com os dados brutos. Pode ser muito difícil voltar atrás no tempo para encontrar a parte do gasoduto que o revisor pediu para mudar. Se o trabalho for totalmente reproduzível, incluindo dados controlados pela versão e a configuração geradora de código, esta análise será muito rápida para rodar e incorporar no resultado final da pesquisa. O pipeline de análise pode ser facilmente adaptado conforme necessário em resposta aos pedidos de co-autor e revisor. Também pode ser facilmente reutilizada para futuros projectos de investigação.
+However, _The Turing Way_ community advocates that this time is more than made up for by the end of the project. Take as a thought experiment a reviewer asking for "just one more analysis" when the publication has been submitted to a journal. In many cases, this request will come 6 to 12 months after the research team have worked with the raw data. It can be very hard to go back in time to find the one part of the pipeline that the reviewer has asked you to change. If the work is fully reproducible, including version-controlled data and figure generating code, this analysis will be very fast to run and incorporate into the final research output. The analysis pipeline can be easily adapted as needed in response to co-author and reviewer requests. It can also be easily reused for future research projects.
 
 (rr-overview-barriers-support)=
-## Apoie usuários adicionais
+## Support additional users
 
-Muitas pessoas preocupam-se com o facto de ao tornar sua análise reprodutível, serem obrigadas a responder a muitas perguntas de futuros usuários do seu código. These questions may cover software incompatibility across operating systems and the dependencies changing over time (see the {ref}`Big data and complex computational infrastructure<rr-overview-barriers-infrastructure>` barrier above). Eles também podem incluir perguntas sobre como ajustar o código para outra finalidade.
+Many people worry that by making their analysis reproducible they will be required to answer lots of questions from future users of their code. These questions may cover software incompatibility across operating systems and the dependencies changing over time (see the {ref}`Big data and complex computational infrastructure<rr-overview-barriers-infrastructure>` barrier above). They may also include questions about how to adjust the code for a different purpose.
 
-Esta barreira baseia-se em parte na mistura "reprodutível" com a pesquisa "aberta". A _Turing Way_ {ref}`definição de "reprodutível"<rr-overview-definitions>` não requer que os autores apoiem a expansão e a reutilização dos dados e do código além de executar as análises exatas que geram os resultados publicados no manuscrito que os acompanha.
+This barrier is based in part on conflating "reproducible" with "open" research. The _Turing Way_ {ref}`definition of "reproducible"<rr-overview-definitions>` doesn't require authors to support the expansion and re-use of the data and code beyond running the exact analyses that generate the published results in the accompanying manuscript.
 
-Em quase todos os casos, a criação de código e de código aberto requer uma documentação melhor do que a escrita de um pesquisador. Isto pode parecer uma barreira adicional, embora - como discutido na seção anterior sobre a pesquisa reprodutível {ref}`reserve tempo extra<rr-overview-barriers-time>` é provável que os principais beneficiários do código comentado e testado com documentação detalhada sejam a equipe de pesquisa - particularmente o principal investigador do projeto - em si.
+In almost all cases, making code and data open source requires better documentation than a researcher would write for themselves. This can feel like an additional barrier, although - as discussed in the previous section on reproducible research {ref}`taking extra time<rr-overview-barriers-time>` it is likely that the primary beneficiaries of well commented and tested code with detailed documentation are the research team - particularly the principal investigator of the project - themselves.
 
-(rr-overview-barriers-habilidades)=
-## Requer habilidades adicionais
+(rr-overview-barriers-skills)=
+## Requires additional skills
 
-Como você pode ver pelo número crescente de capítulos em _The Turing Way_, trabalhar de forma reprodutiva requer competências que nem sempre são ensinadas em programas de formação. Você - ou alguém da sua equipe - pode precisar desenvolver experiência em engenharia de dados, pesquisar engenharia de software, escrita técnica para documentação ou gerenciamento de projetos no GitHub. Essa é uma grande barreira quando as estruturas de incentivo atuais não estão alinhadas com o aprendizado dessas habilidades (veja as barreiras no {ref}`invocando o quinto<rr-overview-barriers-incentives>`, {ref}`viés de publicação para novas descobertas<rr-overview-barriers-publication>`, {ref}`mantidos em padrões mais altos do que outros<rr-overview-barriers-standards>`, e {ref}`não são considerados para promoção<rr-overview-barriers-promotion>`!) No entanto, esta é a principal barreira que nós no _The Turing Way_ estamos trabalhando para desmantelar com você. No entanto, esta é a principal barreira que nós no _The Turing Way_ estamos trabalhando para desmantelar com você. Esperamos que você goste de aprender estas habilidades conosco e que nos ajude a melhorar o livro como quiser.
+As you can tell from the ever-growing number of chapters in _The Turing Way_, working reproducibly requires skills that aren't always taught in training programmes. You - or someone in your team - might need to develop expertise in data engineering, research software engineering, technical writing for documentation or project management on GitHub. That is a major barrier when the current incentive structures are not aligned with learning these skills (see the barriers on {ref}`plead the fifth<rr-overview-barriers-incentives>`, {ref}`publication bias towards novel findings<rr-overview-barriers-publication>`, {ref}`held to higher standards than others<rr-overview-barriers-standards>`, and {ref}`not considered for a promotion<rr-overview-barriers-promotion>`!) However, this is the primary barrier that we at _The Turing Way_ are working to dismantle with you. We hope you enjoy learning these skills with us and that you'll help us to improve the book as you do.
 
-> "Uma jornada de mil milhas começa com um único passo" (filósofo chinês [Lao Tzu](https://en.wikipedia.org/wiki/A_journey_of_a_thousand_miles_begins_with_a_single_step)).
+> "A journey of a thousand miles begins with a single step" (Chinese philosopher [Lao Tzu](https://en.wikipedia.org/wiki/A_journey_of_a_thousand_miles_begins_with_a_single_step)).
 
-Esperamos que, trabalhando para vos ajudar a aprender algumas destas valiosas competências, eliminemos também algumas das barreiras mais estruturais à investigação reprodutível.
+We hope that by working towards helping you learn some of these valuable skills we also dismantle some of the more structural barriers to reproducible research.
 
-## Leitura e recursos adicionais
+## Further reading and additional resources
 
-Você pode assistir Kirstie Whitaker descrever algumas destas barreiras em [sua conversa sobre _The Turing Way_](https://youtu.be/wZeoZaIV0VE?t=312) em [csv, onf,v4](https://csvconf.com/2019) em maio de 2019. Você pode usar e reutilizar seus slides sob uma licença CC-BY via Zenodo (doi: [10.5281/zenodo.2669547](https://doi.org/10.5281/zenodo.2669547)). A seção que descreve o slide abaixo começa cerca de 5 minutos no vídeo.
+You can watch Kirstie Whitaker describe some of these barriers in [her talk about _The Turing Way_](https://youtu.be/wZeoZaIV0VE?t=312) at [csv,conf,v4](https://csvconf.com/2019) in May 2019. You can use and re-use her slides under a CC-BY licence via Zenodo (doi: [10.5281/zenodo.2669547](https://doi.org/10.5281/zenodo.2669547)). The section describing the slide below starts around 5 minutes into the video.

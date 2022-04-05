@@ -1,178 +1,178 @@
-crwdns836494:0crwdne836494:0
-# crwdns836496:0crwdne836496:0
+(ch-coworking-collabcafe)=
+# Online Collaboration Cafe
 
-crwdns836498:0crwdne836498:0 crwdns836500:0crwdne836500:0
+_The Turing Way_ Collaboration Cafes (or 'Cafés' with an accent) are virtual co-working spaces that are held fortnightly on the first and third Wednesdays of each month for 2 hours. The schedule will be updated periodically on our [Community Calendar](https://calendar.google.com/calendar?cid=dGhldHVyaW5nd2F5QGdtYWlsLmNvbQ) as per the community requirement.
 
-crwdns836502:0crwdne836502:0 crwdns836504:0crwdne836504:0
+We host these calls online using [Zoom](https://www.zoom.us/) where we make use of the [breakout rooms](#breakout-rooms) feature to allow small groups to use the 2 hours as best fits them. One or two members from the core team are always available on the call to support anyone wanting to learn more about collaborating on GitHub, getting a virtual tour of our GitHub repository or the book, and help you to make your first pull request (PR).
 
-## crwdns836506:0crwdne836506:0
+## Attending an online Collaboration Cafe
 
-crwdns836508:0%40gcrwdnd836508:0%2Fcrwdne836508:0 crwdns836510:0crwdne836510:0
+The schedule for the collaboration cafe can be viewed from the [community calendar](https://calendar.google.com/calendar/embed?src=theturingway%40gmail.com&ctz=Europe%2FLondon). We also announce calls in our [monthly newsletters](https://tinyletter.com/TuringWay/archive), send a reminder on the [Slack channel](https://tinyurl.com/jointuringwayslack) and [Twitter](https://twitter.com/turingway).
 
-crwdns836512:0crwdne836512:0
+Though scheduled for 2 hours, we understand that for many interested participants it might be impossible to commit to the entire 2 hours on one or multiple occasions, therefore, you are welcome to join for as long as your schedule allows.
 
-crwdns836514:0crwdne836514:0 crwdns836516:0crwdne836516:0 crwdns836518:0crwdne836518:0
+If the current schedule of the online Collaboration Cafe is not suitable for your time zone, you are welcome to host a separate collaboration cafe for your community/time zone. Please open a new issue (see [this example](https://github.com/alan-turing-institute/the-turing-way/issues/684)) or reach out to _The Turing Way_ team members for details. We are also currently developing a guide for hosting these calls ([issue #925](https://github.com/alan-turing-institute/the-turing-way/issues/925)).
 
-### crwdns836520:0crwdne836520:0
+### Resources used for the call
 
-crwdns836522:0crwdne836522:0
+Here are the resources we use for these calls:
 
-1. crwdns836524:0crwdne836524:0
-2. crwdns836526:0crwdne836526:0
-3. crwdns836528:0crwdne836528:0
-4. crwdns836530:0crwdne836530:0
+1. Shared notes by [HackMD](https://hackmd.io/): You can access these notes online at [hackmd.io/@turingway/collaboration-cafe](https://hackmd.io/@turingway/collaboration-cafe) and can take notes together with others on the call.
+2. Online call by [Zoom](https://www.zoom.us/): The Zoom link is provided in the HackMD before the call, and members can click to join the call by opening zoom window on the web or by using the Zoom app that should be installed locally ([available for free](https://zoom.us/download)).
+3. An online Pomodoro clock on [Cuckoo.team](https://cuckoo.team/collabcafe): During the call, the clock is set for Pomodoro work intervals that can be live-tracked by everyone through their browsers.
+4. Video recordings from some of the earlier calls are available on [our YouTube channel](https://www.youtube.com/channel/UCPDxZv5BMzAw0mPobCbMNuA).
 
-crwdns836532:0crwdne836532:0
+We coordinate our tasks on the shared HackMD and/or _The Turing Way_ GitHub repository, where we can work collaboratively or independently while working on an older GitHub issues/PRs, creating new issues/PRs, taking notes as comments on the GitHub repository or working on a branch locally.
 
-## crwdns836534:0crwdne836534:0
+## Format of the call
 
-crwdns836536:0{ref}crwdne836536:0
+We have a template for the {ref}`Collaboration Cafes<ch-template-coworking-collabcafe>`, which is updated on the shared notes for each call.
 
-**crwdns836538:0crwdne836538:0**
+**Bonus**
 
-crwdns836544:0crwdne836544:0
-<iframe width="560" height="315" src="crwdns836540:0crwdne836540:0" title="crwdns836542:0crwdne836542:0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+You can watch this video to see Kirstie and Malvika plan the structure and format of Collaboration Café.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XUw5kpypeo8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### crwdns836546:0crwdne836546:0
+### Schedule
 
-crwdns836548:0crwdne836548:0
+We'll run the following schedule during each Collaboration Cafe:
 
-| crwdns836550:0crwdne836550:0 | crwdns836552:0crwdne836552:0 |
-| ---------------------------- | ---------------------------- |
-| crwdns836554:0crwdne836554:0 | crwdns836556:0crwdne836556:0 |
-| crwdns836558:0crwdne836558:0 | crwdns836560:0crwdne836560:0 |
-| crwdns836562:0crwdne836562:0 | crwdns836564:0crwdne836564:0 |
-| crwdns836566:0crwdne836566:0 | crwdns836568:0crwdne836568:0 |
-| crwdns836570:0crwdne836570:0 | crwdns836572:0crwdne836572:0 |
-| crwdns836574:0crwdne836574:0 | crwdns836576:0crwdne836576:0 |
-| crwdns836578:0crwdne836578:0 | crwdns836580:0crwdne836580:0 |
-| crwdns836582:0crwdne836582:0 | crwdns836584:0crwdne836584:0 |
-| crwdns836586:0crwdne836586:0 | crwdns836588:0crwdne836588:0 |
-| crwdns836590:0crwdne836590:0 | crwdns836592:0crwdne836592:0 |
+| Duration | Activity                                                         |
+| -------- | ---------------------------------------------------------------- |
+| Start    | 👋 Welcome, code of conduct review                                |
+| 10 mins  | Introductions and personal goal setting                          |
+| 20 mins  | 🍅 1st Pomodoro session                                           |
+| 5 mins   | ☕️ Break                                                         |
+| 20 mins  | 🍅 2nd Pomodoro session                                           |
+| 5 mins   | ☕️ Break                                                         |
+| 20 mins  | 🍅 3rd Pomodoro session                                           |
+| 5 mins   | ☕️ Break                                                         |
+| 30 mins  | Open discussion: celebrations, reflections and future directions |
+| 5 mins   | 👋 Close                                                          |
 
-### crwdns836594:0crwdne836594:0
+### Chairing an online Collaboration Cafe
 
-#### crwdns836596:0crwdne836596:0
+#### Before the Call
 
-- crwdns836598:0crwdne836598:0
-  - crwdns836600:0crwdne836600:0
-  - crwdns836602:0crwdne836602:0
-  - crwdns836604:0crwdne836604:0
-  - crwdns836606:0crwdne836606:0
+- Please update the shared document ([HackMD](https://hackmd.io/@turingway/collaboration-cafe)) before the event using the following steps:
+  - Update the date for the upcoming call
+  - Move the notes from the previous call below the working area (that will be archived in this Notion page periodically)
+  - Update an icebreaker question
+  - Share the notes on Slack and Twitter announcing the event
 
-**crwdns836608:0crwdne836608:0**
+**Want to see how we run these calls?**
 
-crwdns836610:0crwdne836610:0 crwdns836612:0crwdne836612:0
+We have posted a few videos from our Collaboration Cafés on YouTube. Watch the video to see how Kirstie hosted the calls when it was first launched.
 
-<iframe width="560" height="315" src="crwdns836614:0crwdne836614:0" title="crwdns836616:0crwdne836616:0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I0z7OEbBzes" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-#### crwdns836618:0crwdne836618:0
-- crwdns836620:0crwdne836620:0
-- crwdns836622:0crwdne836622:0
-- crwdns836624:0crwdne836624:0
-- crwdns836626:0crwdne836626:0
-- crwdns836628:0crwdne836628:0
-- crwdns836630:0crwdne836630:0
+#### During the Call
+- Use the notes during the call to share information as you chair the call
+- Make sure that you share the Code of Conduct link and use the shared Cuckoo (or other web-based clocks)
+- Create breakout rooms for people before starting the Pomodoro
+- As the Pomodoro ends, close the rooms, ask for any feedback, and call for a 5 minutes break
+- Continue the repeated session for 2-3 Pomodoro, leaving the last 15-30 minutes for discussion on what people worked on.
+- Close the call thanking everyone, and archive the notes for the next call
 
-#### crwdns836632:0crwdne836632:0
+#### After the Call
 
-crwdns836634:0crwdne836634:0 crwdns836636:0crwdne836636:0
+Please share any feedback from this call with the Community Manager of *The Turing Way*, specifically, if you have any feedback, concern or ideas for future calls. You are encouraged to create a Pull Request to improve this chapter that can help the future attendees and chair of the Collaboration Café.
 
-#### crwdns836638:0crwdne836638:0
+#### Beginning
 
-crwdns836640:0crwdne836640:0
+The call begins with the team members welcoming the participants, sharing the Code of Conduct, reminding how to participate in the call, and setting the stage for quick introductions by everyone.
 
-#### crwdns836642:0crwdne836642:0
+#### Breaks
 
-crwdns836644:0crwdne836644:0
+We will take short breaks after each Pomodoro to discuss what we are working on, ask questions that might help you in your next Pomodoro session, share any error or progress, and celebrate each others successes.
 
-crwdns836646:0crwdne836646:0
+We will use the last 30 minutes for themed discussion, collaborative troubleshooting, or idea exchange for the project and community.
 
-crwdns836648:0crwdne836648:0
+The welcome, introductions, breaks, and the open discussion will all happen in the main room.
 
-#### crwdns836650:0crwdne836650:0
+#### Pomodoro sessions
 
-crwdns836652:0crwdne836652:0 crwdns836654:0crwdne836654:0 crwdns836656:0crwdne836656:0 crwdns836658:0crwdne836658:0
+Pomodoro sessions can happen either in the main zoom room in silence or in [breakout rooms](#breakout-rooms). We won't record the Pomodoro parts of the Collaboration Cafe, nor conversations in the breakout rooms. You don't need to know in advance what you're going to do in those Pomodoro sessions! There will always be someone who can help you develop a goal, or allocate a task that you can do in a couple of rounds of 20 minutes.
 
-#### crwdns836660:0crwdne836660:0
+#### If joining this call later
 
-crwdns836662:0crwdne836662:0 crwdns836664:0crwdne836664:0 crwdns836666:0crwdne836666:0
+During a typical Pomodoro session, attendees are sent to breakout rooms based on the topic they are working on. If you join later, you will be able to check the remaining time in the ongoing Pomodoro by opening the shared clock in your browser (link should be provided in the shared notes). You can use that Pomodoro session to sign up, read notes from other attendees in the shared document, and explore what you would like to work on during the next Pomodoro session.
 
-crwdns836668:0crwdne836668:0
+If you know in advance what time you will join the coworking call, you can let the host know before the call or leave a note in the shared document.
 
-#### crwdns836670:0crwdne836670:0
+#### Recording this call
 
-crwdns836672:0crwdne836672:0 crwdns836674:0crwdne836674:0 crwdns836676:0crwdne836676:0
+We may record the call for the part that involves open discussion so that others who can't attend the call can learn from the conversations we have during the Collaboration Cafes. For this part, you do not have to speak or have your video on if you prefer not to be in the video. The videos will be uploaded to _The Turing Way_ YouTube channel: [https://www.youtube.com/channel/UCPDxZv5BMzAw0mPobCbMNuA](https://www.youtube.com/channel/UCPDxZv5BMzAw0mPobCbMNuA).
 
-### crwdns836678:0crwdne836678:0
+### Sign-up and icebreaker
 
-crwdns836680:0crwdne836680:0 crwdns836682:0crwdne836682:0 crwdns836684:0crwdne836684:0 crwdns836686:0crwdne836686:0
+If you're interested in joining the next Collaboration Cafe, please let the organisers know by adding your name to the **Sign Up** section of the HackMD notes page. Adding your name is helpful for the organisers so they can prepare for the call. But don't worry if you don't sign up in advance. It's ok to join at any time for as long as you'd like.
 
-crwdns836688:0crwdne836688:0
+In addition to your names, we will encourage everyone to add a short response to an icebreaker question, that will help us all learn something personal about all the different people on the call.
 
-crwdns836690:0crwdne836690:0
+Here are a few example questions (so you know what to expect):
 
-* crwdns836692:0crwdne836692:0
-* crwdns836694:0crwdne836694:0
-* crwdns836696:0crwdne836696:0
-* crwdns836698:0crwdne836698:0
+* what was your biggest achievement this week?
+* when was the last time you saw a rainbow?
+* what are you most excited about this year?
+* What is your favorite flavor in cake/ice-cream?
 
-crwdns836700:0crwdne836700:0
+*Do you have another interesting question to ask others?* *[Get in touch](/README.md#get-in-touch) and let us know!* *We love creative suggestions!*
 
-crwdns836702:0crwdne836702:0
+Here's an example from the second Collaboration Cafe in September 2019:
 
-> crwdns836704:0crwdne836704:0 crwdns836706:0crwdne836706:0
+> *Name + biggest achievement from this week + emoji that best explain your day* *(Remember that this is a public document. You can use a pseudonym if you'd prefer.)*
 > 
-> * crwdns836708:0crwdne836708:0 crwdns836710:0crwdne836710:0
-> * crwdns836712:0:grimacing:crwdne836712:0
+> * Kirstie Whitaker + got a structure written out for an article that had been super hard to get started on! + 🤦‍♀️ (because I got these times mixed up - whoops!)
+> * Malvika Sharan + Coming back from holiday, ready for exciting work :D + :grimacing:
 
-crwdns836714:0crwdne836714:0 crwdns836716:0crwdne836716:0
+As you can see, there's a reminder in the notes that they are in a public document. It's totally fine for you to add as much or as little information as you feel comfortable sharing.
 
-### crwdns836718:0crwdne836718:0
+### Conversation starters
 
-crwdns836720:0crwdne836720:0
+In the **Conversation Starters** section of the HackMD notes, we encourage everyone to advertise their events or give an update from their community.
 
-crwdns836722:0crwdne836722:0 crwdns836724:0crwdne836724:0
+These don't have to be Turing Way "branded"! **We want to know about all the cool things you're working on.** ✨
 
-### crwdns836726:0crwdne836726:0
+### Good first contributions
 
-crwdns836728:0crwdne836728:0
+We want the Collaboration Cafes to be a place that welcomes new and old members to _The Turing Way_ community.
 
-crwdns836730:0crwdne836730:0 crwdns836732:0crwdne836732:0
+In brainstorming these events, we imagined that some people may want to add new material that they've created before to the book, others may want to finish a contribution that they've started, and still others might want to learn new skills including _how_ to contribute to _The Turing Way_. These are **all** great reasons to join us!
 
-crwdns836734:0crwdne836734:0
+We'll always have someone on the team available to help you brainstorm your first contribution, and answer any questions about how to incorporate your work.
 
-crwdns836736:0crwdne836736:0
+Good first contributions might include:
 
-* crwdns836738:0crwdne836738:0
-* crwdns836740:0crwdne836740:0
-* crwdns836742:0crwdne836742:0
-* crwdns836744:0crwdne836744:0
+* Finding a typo in the book and/or repository and fixing it.
+* Looking for duplicated information in the book and opening an issue to discuss how it can be combined.
+* Finding an old issue or PR and try to summarize the discussion so it is easy to decide on the next step.
+* Adding your personal experience of reproducible research in the always open google form: [https://goo.gl/forms/akFqZEIy2kxAjfZW2](https://goo.gl/forms/akFqZEIy2kxAjfZW2).
 
-crwdns836746:0crwdne836746:0
-### crwdns836748:0crwdne836748:0
+(ch-coworking-collabcafe-breakout)=
+### Breakout rooms
 
-crwdns836750:0crwdne836750:0
+Zoom allows groups of collaborators to chat in one "main room" altogether, or to split up - within the same call - and talk with each other in smaller ["breakout rooms"](https://support.zoom.us/hc/en-us/articles/206476093-Getting-Started-with-Breakout-Rooms).
 
-crwdns836752:0crwdne836752:0
+During the online Collaboration Cafe sessions, we'll use the breakout rooms to allow people to talk about multiple different topics in parallel during the Pomodoro sessions.
 
-crwdns836754:0crwdne836754:0
+You'll see a breakout section in the shared notes:
 
-> **crwdns836756:0crwdne836756:0**
+> **Breakout-rooms-Topic-proposals**
 > 
-> crwdns836758:0crwdne836758:0
+> *If you have an idea for a topic you'd like to discuss in a breakout room, please add it below and put your name next to it.* *If you like one of the topics that are already suggested, please add your name next to that one.* *Teamwork makes the dream work.* *For more information about breakout rooms see [the description on GitHub](https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md#breakout-rooms).*
 
-crwdns836760:0crwdne836760:0
+For each session, you can propose a conversation to have in a breakout room or add your name to join a suggestion that is already on the list.
 
-crwdns836762:0crwdne836762:0
+You don't have to add your name in advance (although you're welcome to) and you don't have to stay in the breakout room you've put your name next to.
 
-crwdns836764:0crwdne836764:0
+Breakout room conversation topics might include:
 
-* crwdns836766:0crwdne836766:0
-* crwdns836768:0crwdne836768:0
-* crwdns836770:0crwdne836770:0
-* crwdns836772:0crwdne836772:0
-* crwdns836774:0crwdne836774:0
-* crwdns836776:0crwdne836776:0
+* GitHub new user or refresher questions (and answers)
+* Finding a good first issue
+* Reading and giving feedback on a chapter with the original author
+* Reading and giving feedback on a chapter with a new reader
+* Brainstorming _where_ your topics could best fit into _The Turing Way_
+* Bug squashing - removing barriers (technical and otherwise)
 
-crwdns836778:0crwdne836778:0
+The person chairing the call will put you into the specific breakout rooms for the Pomodoro sessions and then bring you back into the main room for the 5-minute breaks and the broader conversation at the end of the Collaboration Cafe.

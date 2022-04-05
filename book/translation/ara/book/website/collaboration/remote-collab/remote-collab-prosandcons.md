@@ -1,28 +1,28 @@
-crwdns827294:0crwdne827294:0
-# crwdns827296:0crwdne827296:0
+(cl-remote-collab-prosandcons)=
+# Perceived Pros and Cons
 
-crwdns827298:0crwdne827298:0 crwdns827300:0crwdne827300:0 crwdns827302:0crwdne827302:0
-> crwdns827304:0crwdne827304:0
+It is needless to say that the same setting can not always work for everyone, which applies to remote collaboration, working, and event participation. For many, it may not always feel as effective as working in physical offices, for example, when they live in a small apartment, share their place with a large family, have an inadequate remote-work setting or feel less connected with their colleagues. However, for others, remote working may be more enjoyable and productive.
+> "As someone who used to commute 4 hours per day for 12 years, I can sum my experiences in four words - *remote working reduces inequality*", says one of our contributors, Pablo Rodríguez-Sánchez (GitHub: PabRod).
 
-crwdns827306:0crwdne827306:0
+In this subchapter, we have captured *light opinions* a few contributors on their experience of collaborating remotely with others under "pro" and "cons" sections.
 
-## crwdns827308:0crwdne827308:0
+## Pros
 
-- crwdns827310:0crwdne827310:0
-- crwdns827312:0crwdne827312:0
-- crwdns827314:0crwdne827314:0
-- crwdns827316:0crwdne827316:0
-- crwdns827318:0crwdne827318:0
-- crwdns827320:0crwdne827320:0
-- crwdns827322:0crwdne827322:0
+- Remote collaboration dramatically improves the life quality of those who cannot comfortably travel or afford to live close to their office.
+- It has a positive impact on the environment by reducing travel-related CO2 emissions.
+- A well-established format works equally well for low resource environments as the overall organisational cost can be reduced by not having to deal with the on-site expense.
+- Distributed team format attracts people from different time zones, different workplace requirements or those who work best with flexible working hour arrangements.
+- This can lead to innovative ways to establish social interactions and social dynamics in general.
+- It will help us learn about more colleagues from different parts of the world and educate us more about our cultural differences and accommodations to make in our work environment.
+- Decision making will become more efficient by involving all stakeholders irrespective of their locations, given the meeting is done at a mutually convenient time.
 
-## crwdns827324:0crwdne827324:0
+## Cons
 
-- crwdns827326:0crwdne827326:0
-- crwdns827328:0crwdne827328:0
-- crwdns827330:0crwdne827330:0
-- crwdns827332:0crwdne827332:0
-- crwdns827334:0crwdne827334:0
-- crwdns827336:0crwdne827336:0
-- crwdns827338:0crwdne827338:0
-- crwdns827340:0crwdne827340:0
+- Developing camaraderie may be challenging as we are used to developing this in-person.
+- The boundaries between working life and personal life become more blurred.
+- If running an online meeting, the allocated time might not be enough to conclude and may sometime lead to misinterpretation of decisions made by the team.
+- Conflict resolution may be difficult if most interactions happen in an allocated time slot.
+- Sometimes, such interactions may lack body language or tone (online chat) and may lead to misunderstanding or unnecessary conflict.
+- May lose the possibility of chanced interaction or water-cooler-effects and innovative ideas that they produce.
+- People will have different working conditions, for example, limited access to hardware that can lead to wrong assumptions regarding replication of certain tasks.
+- May be distracting if working from a busy co-working space or home without a sufficient arrangement for work that can make it difficult for some people to focus and have disciplined work practices.

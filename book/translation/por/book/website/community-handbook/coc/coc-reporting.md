@@ -1,20 +1,20 @@
-# 3 Diretrizes para Relatórios de Incidentes
+# 3 Incident Reporting Guidelines
 
-(ch-coc-relatório)=
-## 3.1 pontos de contato
+(ch-coc-reporting)=
+## 3.1 Contact points
 
-Se você conseguir, entre em contato com Kirstie Whitaker por e-mail [kwhitaker@turing.ac.uk](mailto:kwhitaker@turing.ac.uk).
+If you feel able to, please contact Kirstie Whitaker by email at [kwhitaker@turing.ac.uk](mailto:kwhitaker@turing.ac.uk).
 
-## 3.2 pontos de contato alternativos
+## 3.2 Alternate contact points
 
-Se você não se sentir confortável em entrar em contato com Kirstie Whitaker, por favor informe um incidente a Anna Krystalli por e-mail em [a.krystalli@sheffield.ac.uk](mailto:a.krystalli@sheffield.ac.uk).
+If you do not feel comfortable contacting Kirstie Whitaker, please report an incident to Anna Krystalli by email at [a.krystalli@sheffield.ac.uk](mailto:a.krystalli@sheffield.ac.uk).
 
-Como alternativa, se você quiser entrar em contato com alguém fora da equipe central de desenvolvimento, entre em contato com Ben Murton por e-mail em [bmurton@turing.ac.uk](mailto:bmurton@turing.ac.uk).
+Alternatively, if you would like to contact someone outside of the core development team, please contact Ben Murton by email at [bmurton@turing.ac.uk](mailto:bmurton@turing.ac.uk).
 
-## 3.3 O que fazer se alguém estiver em perigo físico
+## 3.3 What to do if someone is in physical danger
 
-Se você acredita que alguém está em perigo físico, por favor, contate a resposta de emergência apropriada.
+If you believe someone is in physical danger, please contact the appropriate emergency responders.
 
-## 3.4 - Código de Conduta
+## 3.4 Code of Conduct Enforcement
 
-Uma política de execução detalhada está disponível no Manual de Execução abaixo.
+A detailed enforcement policy is available in the Enforcement Manual below.

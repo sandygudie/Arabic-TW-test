@@ -1,29 +1,29 @@
 (pd-overview-repro)=
-# Comunicação e colaboração
+# Communication and Collaboration
 
-As boas práticas de comunicação e colaboração são complementares da reprodução da investigação e, muitas vezes, é difícil separar estes conceitos uns dos outros. Em _The Turing Way_, </em>, consideramos estes essenciais para a reprodutível pesquisa e fornecemos guias separados para {ref}`comunicação<cm>` e {ref}`colaboração<cl>`.
+Good communication and collaboration practices are complementary to research reproducibility, and often it is hard to separate these concepts from each other. In _The Turing Way_, we consider these essential for reproducible research and provide separate guides for {ref}`communication<cm>` and {ref}`collaboration<cl>`.
 
-Nesta página, destacamos algumas das recomendações mais importantes para colaboração e comunicação para garantir que você, e todos os outros membros do seu projeto, compreendem o que é o projecto, quem são as partes interessadas e como podem participar. Você pode visitar capítulos específicos para obter uma compreensão profunda e seleção de práticas que atendam aos requisitos específicos do seu projeto.
+In this page, we highlight some of the most important recommendations for collaboration and communication to ensure that you, and everyone else in your project, understand what the project is about, who the stakeholders are and how they can participate. You can visit specific chapters to gain an in-depth understanding and selection of practices that meet the specific requirements in your project.
 
-**Documentando os planos e processos do projeto para transparência**:
+**Documenting project plans and processes for transparency**:
 
-Documento todos os planos propostos para o projeto com informação sobre recursos disponíveis e práticas recomendadas para garantir que todos estejam na mesma página (literalmente!). Comunicar a cultura de trabalho que você deseja promover e políticas que garantem a segurança dos seus dados e pessoas.
+Document all proposed plans for the project with information on available resources and recommended practices to ensure everyone is on the same page (literally!). Communicate the work culture that you want to promote and policies that ensures the safety and security of both your data and people.
 
-Documentação deve ser compartilhada através de plataformas centralizadas, finalizadas e acessíveis. É particularmente importante partilhar claramente a visão, a missão e os marcos. Fornece informação suficiente para quais são os resultados e resultados esperados.
+Documentation should be shared via centralised, findable and accessible platforms. It is particularly important to share the vision, mission and milestones clearly. Provide sufficient information for what the expected outcomes and deliverables are.
 
-Forneça superações, bem como objetivos de curto prazo e descreva os resultados esperados para ajudar os colaboradores a se afastarem de se focar em uma única ideia do recurso. Descrever a possível expansão de recursos em formas pré-determinadas e acordadas em etapas além da implementação inicial.
+Provide overarching as well as short-term goals and describe expected outcomes to help contributors move away from focusing on a single idea of the feature. Describe the possible expansion of features in pre-determined and agreed on ways at stages beyond the initial implementation.
 
-**Projeto "Who-is-Who"**:
+**Project's "Who-is-Who"**:
 
-Crie um diretório para destacar diferentes partes interessadas com seus papéis no projeto, habilidades, interesses e informações de contato (quando possível). Descreva as oportunidades de colaboração que diferentes membros terão. Quando possível, como em um projeto de código aberto, forneça esses detalhes para aqueles fora do grupo atual, especialmente quando se pretende incentivar pessoas fora do projeto a serem envolvidas.
+Create a directory to highlight the different stakeholders with their roles in the project, keys skills, interests and contact information (when possible). Describe what opportunities for collaboration different members will have. When possible, such as in an open source project, provide these details for those outside the current group, especially when you want to encourage people outside the project to be involved.
 
-Fornecer recursos sobre formas de trabalhar para garantir uma participação justa das partes interessadas que colaboram em marcos de curto e longo prazo dentro do projeto. Reduz ou aborda as preocupações sobre o progresso do projeto para alcançar os objetivos e evita potenciais repercussões entre as partes interessadas do projeto.
+Provide resources on ways of working to ensure fair participation of stakeholders who collaborate on short- and long-term milestones within the project. It reduces or addresses concerns about the project's progress towards meeting goals and prevent potential fallout between project stakeholders.
 
-**Participação e processo de contribuição**:
+**Participation and contribution process**:
 
-Considerando a variedade de diferentes origens e habilidades que seus membros trazem, descreva como eles podem participar e começar a contribuir. Proporciona oportunidades claras de contribuições, revisão, gestão, aconselhamento e apoio. Forneça uma visão geral de como diferentes contribuições ou recursos são conectados e como novas contribuições se encaixam em materiais existentes. Proporciona um quadro de tomada de decisão para facilitar as discussões e chegar a uma conclusão partilhada. No contexto de software, os projetos de codificação têm tanto a ver com comunicação quanto sobre programação (se não mais). Permitir discussões informadas quando um determinado projeto tiver chegado ao fim ou quando for útil atualizá-lo para eficiência e sustentabilidade.
+Considering the variety of different backgrounds and skills your members bring, describe how they can participate and start contributing. Provide clear opportunities for contributions, review, management, mentoring and support. Provide an overview of how different contributions or resources are connected and how new contributions will fit into existing materials. Provide a decision-making framework to facilitate discussions and reaching a shared conclusion. In the context of software, coding projects are as much about communication as they are about coding (if not more). Allow informed discussions when a particular project design has reached the end or when it is useful to update it for efficiency and sustainability.
 
-Descreva como seus objetos de pesquisa estão disponíveis ou serão publicados e como diferentes partes interessadas serão reconhecidos. Ajuda todos a sentirem-se reconhecidos e reconhecidos pela sua contribuição para a visão global.
+Describe how your research objects are available or will be published and how different stakeholders will be recognised. It helps everyone feel appreciated and acknowledged for their contribution to the overall vision.
 
 
 <!--
@@ -42,44 +42,46 @@ We recommend reading the following chapters to understand effective communicatio
 - {ref}`<>`
 -->
 
-(pd-overview-repro-erros)=
-## Seção de bônus: Aprender com Erros
+(pd-overview-repro-mistakes)=
+## Bonus Section: Learning from Mistakes
 
-> A construção leva muitos e muitos erros. -- Câmaras de Becky, [A Via Longa para um Planeta Pequeno e Irritado](https://www.goodreads.com/work/quotes/42270825)
+> “Building takes many, many mistakes.” ― Becky Chambers, [The Long Way to a Small, Angry Planet](https://www.goodreads.com/work/quotes/42270825)
 
-Aprender sobre erros de design passados pode nos dar uma ideia do que podemos fazer de forma diferente no futuro. Pedimos a um grupo de investigadores que partilhassem o que consideram que o projecto do seu projecto lamenta e que aqui resumimos:
+Learning about past design mistakes can give us insight into what we can do differently in the future. We asked a group of researchers to share what they consider their project design regrets, which we have summarised here:
 
-- Não defender desde o início objectivos mais claros e critérios de sucesso.
-- Não comunicando a visão do projeto claramente/frequentemente o suficiente para os outros membros da equipe.
-- Não garantir que todas as partes interessadas estivessem plenamente cientes da natureza do projecto.
-- Não entender que projeto do projeto é sobre as pessoas primeiro. Projeta motivar os interessados e permite colaboração e inclusão.
-- Penso que escrevi estas acções como acções que desejaria ter feito melhor - sem fixar marcos de curto e longo prazo, comunicação e aplicação de normas para envolvimento do colaborador, delegação de trabalho e gerenciamento de projetos.
-- Não ter documentação além dos relatórios finais. Quando perguntados sobre o código ou conjunto de dados (bruto e processo), o processo passo a passo desde a preparação dos dados até a obtenção dos resultados, a falta de orientações documentadas em um só lugar dificultou o rastreamento do projeto com todos os membros da equipe (problema clássico).
-- Não tendo devidamente em conta o grau de mudança das exigências ao longo de um projecto - o que acontece muito na academia - e o efeito que isso tem nos desenhos que depois também têm de mudar.
-- Tentando planejar demais no início e nunca começando.
-- Sentindo-se como se estivesse sempre adoptando uma abordagem ad hoc para planejar um projeto e então me sentindo como se estivesse gastando muito tempo na organização do projeto porque não tenho um fluxo de trabalho definido para lidar com o planejamento e a concepção do projeto. Além disso, não saber como o planejamento de projetos se encaixa no desenho do projeto.
-- Usando um excel muito confuso para armazenar/processar dados, a vergonha!
-- Projetando em excesso um projeto para recursos que não acabaram sendo implementados (a vida antes da academia!)
-- Não implementa o fluxo do Git desde o início, e não ensinar colaboradores a usar o fluxo Git.
-- Só de desenvolver testes depois de uma quantidade significativa de código ter sido escrita.
-- Não está fazendo revisões de código.
-- Não definir cenários de uso para o software desde o início, o que significa que não prestamos atenção suficiente à entrada e saída de dados.
-- Agonizando muito tempo antes de mudar para um melhor design objetivamente (particularmente traduzindo de uma base de código amplamente funcional para mais orientada ao objeto).
-- Indo com opções com as quais os membros da equipe são “confortáveis” (por exemplo, usando idiomas desatualizados ou compiladores dependentes da plataforma), em vez de ensinar os membros da equipe novas habilidades. Torna a vida mais difícil no longo prazo.
-- Definir governança em diferentes fases do projeto ou potencial planejamento de cenários sobre como governança pode mudar, à medida que o projeto aumenta/baixo/ganha novos usuários, etc.
-- Não pensar na comunidade desde o início, começando com um Código de Conduta, pensando em um Contrato de Licença de Contribuidor (propriedade intelectual), que processos serão usados e como funcionarão, como impactarão futuros colaboradores e o projeto em geral.
+- Not advocating for clearer goals and success criteria from the beginning.
+- Not communicating the project vision clearly/often enough to the other team members.
+- Not ensuring that all stakeholders were fully aware of the nature of the project.
+- Not understanding that project design is about people first. Designs motivate stakeholders and allow collaboration and inclusion.
+- I guess I wrote these as actions I wish I had done better - Not setting short- and long-term milestones, communicating and enforcing norms for collaborator engagement, delegating work and project management tasks.
+- Not having documentation besides final reports. When being asked about the code or dataset (raw and process), step by step process from preparing data to getting the results, lack of documented guidance in one place made it hard to trace the project with all team members (classic problem).
+- Not properly taking into account the degree to which requirements will change throughout a project - which happens a lot in academia - and the effect this has on designs that then also need to change.
+- Trying to plan too much at the beginning and never getting started.
+- Feeling like I am always taking an ad hoc approach to planning a project and then feeling like I am spending too much time on the organisation side of the project because I don’t have a set workflow to handle project planning and design. Also, not knowing how does project planning fit into project design.
+- Using a very messy excel to store/process data, the shame!
+- Over-engineering a design for features that didn’t end up being implemented (in life before academia!)
+- Not implementing Git flow from the start, and not teaching collaborators how to use Git flow.
+- Not developing tests until after a significant amount of code was written.
+- Not doing code reviews.
+- Not defining use scenarios for the software from the beginning, meaning we didn’t pay enough attention to data input and output.
+- Agonising too long before switching to objectively better design (particularly translating from a largely functional codebase to more object-oriented).
+- Going with options that team members are ‘comfortable’ with (for example, using outdated languages or platform-dependent compilers), rather than teaching team members new skills. Makes life more difficult in the long run.
+- Defining governance at different stages of the project or potential scenario planning for how governance might change as the project scales up/down/gains new users and so on.
+- Not thinking about community from the start, starting with a Code of Conduct, thinking about a Contributor License Agreement (intellectual property), what processes will be used and how they will work, how they will impact future contributors and the overall project.
 
-### Preparando-se para a mudança
+### Preparing for Change
 
 ```{note}
-**Eu trabalho sozinho, preciso pensar no projeto desenhado?** A resposta curta é "sim".
-O projeto permitirá que você gerencie seu trabalho bem para si mesmo (veja a seção: {ref}`Primeiros passos<pd-overview-planning-started>`).
+**I work alone, do I need to think about project design?**
 
-Um pouco de trabalho e de investimento no tempo cedo na concepção do projeto economiza muito tempo mais tarde, quando quaisquer circunstâncias que exijam mudança.
+The short answer is 'yes'.
+The project design will allow you to manage your work well for yourself (see the section: {ref}`Getting Started<pd-overview-planning-started>`).
+
+A little work and time investment early on in project design saves a lot of time later when any circumstances that demand change.
 ```
 
-É realmente difícil para um projeto passar de práticas que foram projetadas para uma pessoa para práticas que trabalham para uma equipe. Por conseguinte, é essencial documentar e usar práticas que permitam a colaboração se e quando é necessário envolver outros no seu projeto. Considerar boas práticas em equipe, mesmo para um projeto gerenciado por indivíduos, torna mais fácil para eles atingirem seus objetivos. Por exemplo, você pode definir objetivos no seu projeto e identificar tarefas fazendo perguntas como: como meu trabalho pode ser dividido, como será revisto, como serão tomadas as decisões, etc. Saiba como [metodologias ágeis](http://www.agilenutshell.com/) ajudam a adaptar mudanças. Saiba como [metodologias ágeis](http://www.agilenutshell.com/) ajudam a adaptar mudanças. Saiba mais sobre boas práticas de equipe na nossa seção de {ref}`no trabalho em equipe<cl-new-community-teamwork>`.
+It is really hard for a project to move from practices that were designed for one person to practices that work for a team. Therefore, it is essential to document and use practices that will enable collaboration if and when you have to involve others in your project. Considering good team practices even for a project run by an individual makes it easy for them to effectively accomplish their goals. For example, you can define goals in your project and identify tasks by asking questions like: how can my work be split, how will it be reviewed, how will decisions be made, and so on. Learn how [agile methodologies](http://www.agilenutshell.com/) help adapt to changes. Learn about good team practices in our {ref}`section on teamwork<cl-new-community-teamwork>`.
 
-O projeto não garantirá que tudo corra sempre como planejado ou que não haverá desafios inesperados. No entanto, ajuda a preparar antecipadamente a gestão dos riscos e a adaptar-se melhor às mudanças. Além disso, veja [O custo da curva de mudança](http://www.agilemodeling.com/essays/costOfChange.htm) no contexto do Engenheiro de Software.
+Project design would not ensure that everything will always go as planned or there will be no unexpected challenges. However, it helps prepare in advance for risk management and adapt to changes better. Also, see [The cost of change curve](http://www.agilemodeling.com/essays/costOfChange.htm) in the context of Software Engineering.
 
-_Este capítulo sintetiza as notas dos participantes de uma pequena oficina chamada "Boas Práticas para Projetos de Desenvolvimento de Software (The Turing Way)" no [Oficina de Colaboração 2021](https://www.software.ac.uk/cw21)  hospedado pelo [Instituto de Sustentabilidade do Software](https://www.software.ac.uk). O workshop foi entregue por Malvika Sharan, Emma Karoune e Batool Almarzouq em 31 de Março de 2021. Zenodo. DOI: [10.5281/zenodo.4650221](https://doi.org/10.5281/zenodo.4650221). ._
+_This chapter summarises participants' notes from a short workshop called "Good Practices for Designing Software Development Projects (The Turing Way)" at the [Collaboration Workshop 2021](https://www.software.ac.uk/cw21)  hosted by [Software Sustainability Institute](https://www.software.ac.uk). The workshop was delivered by Malvika Sharan, Emma Karoune and Batool Almarzouq on 31 March 2021. Zenodo. DOI: [10.5281/zenodo.4650221](https://doi.org/10.5281/zenodo.4650221)._

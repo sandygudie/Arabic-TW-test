@@ -1,55 +1,55 @@
-crwdns852076:0crwdne852076:0
-# crwdns852078:0crwdne852078:0
+(rr-renv-resources)=
+# Resources and Checklist
 
-crwdns852080:0crwdne852080:0
-## crwdns852082:0crwdne852082:0
+(rr-renv-resources-checklist)=
+## Checklist
 
-- crwdns852084:0crwdne852084:0
-- crwdns852086:0crwdne852086:0
-- crwdns852088:0crwdne852088:0
+- Choose the most appropriate method for your project for capturing your computational environment
+- Capture your computational environment
+- Share your captured computational environment along with your results/analysis
 
-crwdns852090:0crwdne852090:0
-## crwdns852092:0crwdne852092:0
+(rr-renv-resources-learn)=
+## What to Learn Next
 
-crwdns852094:0{ref}crwdnd852094:0{ref}crwdne852094:0 crwdns852096:0{ref}crwdne852096:0 crwdns852098:0{ref}crwdne852098:0
+We recommend reading the chapter on {ref}`rr-testing`, and then the chapter on {ref}`rr-ci`. Note that the chapter on {ref}`rr-vcs` is a prerequisite for the chapter on continuous integration. The {ref}`rr-open` chapter also contains further information on sharing research reproducibly.
 
-crwdns852100:0crwdne852100:0
-## crwdns852102:0crwdne852102:0
+(rr-renv-resources-reading)=
+## Further Reading
 
-crwdns852104:0crwdne852104:0
+The [Docker documentation](https://docs.docker.com/get-started/) contains a lot of information about containers in general.
 
 
-crwdns852106:0crwdne852106:0
-## crwdns852108:0crwdne852108:0
+(rr-renv-resources-bibliography)=
+## Bibliography
 
-- crwdns852110:0crwdne852110:0
+- [semantic versioning](https://semver.org) **Creative Commons - CC BY 3.0**
 
-- crwdns852112:0crwdne852112:0 crwdns852114:0crwdne852114:0
+- [A. Brinckman, et al., Computing environments for reproducibility: Capturing the "Whole Tale", Future Generation Computer Systems (2018), https://doi.org/10.1016/j.future.2017.12.029](https://www.sciencedirect.com/science/article/pii/S0167739X17310695) **Attribution 4.0 International (CC BY 4.0)**
 
-- crwdns852116:0crwdne852116:0
+- [Paper presenting singularity](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0177459) **CC0 1.0 Universal (CC0 1.0)**
 
-- crwdns852118:0crwdne852118:0
+- [Paper presenting singularity](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0177459) **CC0 1.0 Universal (CC0 1.0)**
 
-- crwdns852120:0crwdne852120:0
+- [Package Managers](https://opensource.com/article/18/7/evolution-package-managers) **Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**
 
-- crwdns852122:0crwdne852122:0
+- [Talk by Will Furnass on Conda](https://github.com/willfurnass/conda-rses-pres/blob/master/content.md) **Attribution-NonCommercial-ShareAlike 4.0 International**
 
-- crwdns852124:0crwdne852124:0
+- [YAML tutorial](https://gettaurus.org/docs/YAMLTutorial/) **[Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0)**
 
-- crwdns852126:0crwdne852126:0
+- [Binder illustration](https://opendreamkit.org/2017/11/02/use-case-publishing-reproducible-notebooks/) **Permission to use granted by Juliette Taka, Logilab and the OpenDreamKit project.**
 
-- crwdns852128:0crwdne852128:0
+- [mybinder docs intro](https://github.com/jupyterhub/binder/blob/master/doc/introduction.rst) **[BSD 3-Clause](https://github.com/binder-examples/requirements/blob/master/LICENSE)**
 
-- crwdns852130:0crwdne852130:0
+- [Zero to Binder - official tutorial](https://github.com/Build-a-binder/build-a-binder.github.io/blob/master/workshop/10-zero-to-binder.md) **[BSD 3-Clause](https://github.com/binder-examples/requirements/blob/master/LICENSE)**
 
-- crwdns852132:0crwdne852132:0
+- [Zero to Binder - adapted version](https://github.com/alan-turing-institute/the-turing-way/blob/main/workshops/boost-research-reproducibility-binder/workshop-presentations/zero-to-binder.md) **MIT**
 
-- crwdns852134:0crwdne852134:0
+- [Zero to Binder](https://github.com/Build-a-binder/build-a-binder.github.io/blob/master/workshop/10-zero-to-binder.md) **[BSD 3-Clause](https://github.com/binder-examples/requirements/blob/master/LICENSE)**
 
-- crwdns852136:0crwdne852136:0
-- crwdns852138:0crwdne852138:0
+- [Bryan Brown LITA blog](https://litablog.org/2014/12/virtual-machines-in-a-nutshell/) **[Copyright granted for educational use](http://www.ala.org/copyright)**
+- [What is docker?](https://opensource.com/resources/what-docker) **CC BY-SA 4.0**
 
-- crwdns852140:0crwdne852140:0
-- crwdns852142:0crwdne852142:0
-- crwdns852144:0crwdne852144:0
-- crwdns852146:0crwdne852146:0 crwdns852148:0crwdne852148:0
+- [What are containers?](https://opensource.com/resources/what-are-linux-containers?intcmp=7016000000127cYAAQ) **CC BY-SA 4.0**
+- [Docker carpentry](http://www.manicstreetpreacher.co.uk/docker-carpentry/aio/) **Creative Commons Attribution 4.0**
+- [Geohackweek tutorial](https://geohackweek.github.io/Introductory/docker-tutorial_temp/) **Creative Commons Attribution 3.0 Unported**
+- [Nüst, D., Sochat, V., Marwick, B., Eglen, S., Head, T., Hirst, T., & Evans, B. (2020, November 10). Ten simple rules for writing Dockerfiles for reproducible data science, https://doi.org/10.1371/journal.pcbi.1008316 ](https://github.com/nuest/ten-simple-rules-dockerfiles) **Creative Commons Attribution 4.0 International**

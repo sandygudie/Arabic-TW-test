@@ -1,32 +1,32 @@
-(rr-visão geral)=
-# Visão geral de pesquisa reprodutível
+(rr-overview)=
+# Overview of Reproducible Research
 
-(rr-overview-pré-requisitos)=
-## Pré-requisitos
+(rr-overview-prerequisites)=
+## Prerequisites
 
-Não é necessário conhecimento anterior.
+No previous knowledge needed.
 
 ```{figure} ../figures/research-cycle.jpg
 ---
 name: research-cycle
-alt: O processo de pesquisa é representado como um ciclo perpétuo de gerar ideias de pesquisa, realizando o planejamento e design de dados, coleta de dados e processamento e análise de dados, publicando, preservando e portanto permitindo a reutilização de dados. 
+alt: The research process is represented as a perpetual cycle of generating research ideas, performing data planning and design, data collection, and data processing and analysis, publishing, preserving and hence, allowing re-use of data. 
 ---
-_A Turing Way_ ilustração de projeto por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-(rr-overview-sumy)=
+(rr-overview-summary)=
 ## Summary
 
-Os resultados e evidências científicos são reforçados se eles podem ser replicados e confirmados por vários pesquisadores independentes (veja {ref}`definições <rr-overview-definitions>`).
+Scientific results and evidence are strengthened if those results can be replicated and confirmed by several independent researchers (see {ref}`definitions <rr-overview-definitions>`).
 
-Quando os investigadores empregam a transparência na sua investigação - ou seja, quando eles documentam e compartilham adequadamente os dados e processos associados às suas análises - a comunidade científica em geral é capaz de poupar um tempo valioso ao reproduzir ou construir novos trabalhos a partir de resultados publicados. Muitas vezes, os dados ou códigos de projetos anteriores serão reutilizados por novos pesquisadores para verificar descobertas antigas ou desenvolver novas análises.
+When researchers employ transparency in their research - in other words, when they properly document and share the data and processes associated with their analyses - the broader research community is able to save valuable time when reproducing or building upon published results. Often, data or code from prior projects will be re-used by new researchers to verify old findings or develop new analyses.
 
-Saiba mais sobre alguns dos outros benefícios da pesquisa reprodutível no subcapítulo {ref}`Vantagens Adicionais<rr-overview-benefits>`.
+Learn about some of the other benefits of reproducible research in the {ref}`Added Advantages <rr-overview-benefits>` subchapter.
 
-Principais meios de comunicação [relataram](https://www.theguardian.com/science/2018/aug/27/attempt-to-replicate-major-social-scientific-findings-of-past-decade-fails) sobre pesquisas que mostram que uma porcentagem significativa de estudos científicos não pode ser reproduzida. Isso leva a que outros acadêmicos e sociedades percam a confiança nos resultados científicos {cite:ps}`baker2016reproducibility`.
+Major media outlets have [reported on](https://www.theguardian.com/science/2018/aug/27/attempt-to-replicate-major-social-scientific-findings-of-past-decade-fails) investigations showing that a significant percentage of scientific studies cannot be reproduced. This leads to other academics and society losing trust in scientific results {cite:ps}`baker2016reproducibility`.
 
-Além disso, "resultados negativos" podem ser publicados facilmente, ajudando a evitar que outros pesquisadores percam tempo repetindo análises que não retornarão os resultados esperados {cite:ps}`Dirnagl2010bias`.
+In addition, "negative results" can be published easily, helping avoid other researchers wasting time repeating analyses that will not return the expected results {cite:ps}`Dirnagl2010bias`.
 
 For further reading resources on reproducibility, please check out the {ref}`Resources <rr-overview-resources>` subchapter.
 
-***Tags de Capítulo**: Este capítulo é curado pelo `Grupo de Estudo de Dados de Turing` (`turing-dsg`).*
+***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*

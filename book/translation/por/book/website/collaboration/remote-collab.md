@@ -1,18 +1,19 @@
 (cl-remote-collab)=
-# Colaboração Remota
+# Remote Collaboration
 
-A colaboração remota refere-se à capacidade de interagir e trabalhar com outras pessoas de qualquer lugar do mundo. A colaboração remota é extremamente valiosa para eliminar a barreira física na comunicação entre os membros de uma equipe distribuída que trabalham remotamente em vez de estar localizada em um escritório físico.
+Remote collaboration refers to the ability to interact and work with others from anywhere in the world. Remote collaboration is extremely valuable for removing physical barrier in communication among members in a distributed teams who work remotely rather than being located in a physical office.
 
 ```{figure} ../figures/distributed-collaboration.jpg
 ---
 height: 500px
-nome: colaboração distribuída
-alt: Uma pessoa de pé em um globo e interagindo virtualmente com pessoas em diferentes fusos horários em diferentes telas de computador
---- Colaboração Distribuída. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+name: distributed-collaboration
+alt: A person standing on a globe and interacting virtually with people in different time zones on different computer screens
+---
+Distributed Collaboration. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-A colaboração remota é uma prática padrão em projetos de código aberto ou comunidades on-line. Ganhou popularidade nos últimos anos à medida que cada vez mais empresas expandem as suas empresas em áreas longe da localização do escritório principal (por exemplo, [Mozilla](https://www.mozilla.org/en-GB/)), ou existe inteiramente como uma empresa remota (por exemplo, [RStudio](https://rstudio.com/about/)).
+Remote collaboration is quite a standard practice in open source projects or online communities. It has gained popularity over the last few years as more and more companies expand their businesses in areas far from the location of the main office (for example, [Mozilla](https://www.mozilla.org/en-GB/)), or exist entirely as a remote company (for example, [RStudio](https://rstudio.com/about/)).
 
-Em início de 2020, quando começamos a trabalhar inteiramente em casa devido à [pandemia de Coronavirus (COVID-19)](https://www.who.int/emergencies/diseases/novel-coronavirus-2019), Vivemos uma mudança drástica na nossa cultura de trabalho. Este capítulo irá apresentar recursos e dicas para os pesquisadores fazerem a transição de trabalho do escritório (localização física) para o trabalho em casa (online/virtual) mais fácil, ou tornar a sua colaboração mais eficaz se já estiverem a trabalhar remotamente.
+In early 2020, as we began to work entirely from home due to the [Coronavirus (COVID-19) pandemic](https://www.who.int/emergencies/diseases/novel-coronavirus-2019), we experienced a drastic change in our work culture. This chapter will present resources and tips for researchers to make their transition of working from the office (physical location) to working from home (online/virtual) easier, or make their collaboration more effective if they are already working remotely.
 
 <!--- Add a summary of all the subchapters --->

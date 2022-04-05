@@ -1,18 +1,18 @@
-crwdns825258:0crwdne825258:0
-# crwdns825260:0crwdne825260:0
-crwdns825262:0crwdne825262:0
+(cl-maintain-review-permissions)=
+# Ownership and Permissions
+In any team or organisation owned project, there are different contributors.
 
-crwdns825264:0crwdne825264:0 crwdns825266:0crwdne825266:0
+Owners of a project are individuals or teams who generally start a project, or join it at the time of project creation with a defined vision and goals. The owners have the right to give different [levels of permission](https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams/repository-permission-levels-for-an-organization#permission-levels-for-repositories-owned-by-an-organization) to outside contributors.
 
-crwdns825268:0crwdne825268:0
-* crwdns825270:0crwdne825270:0
-* crwdns825272:0crwdne825272:0
-* crwdns825274:0crwdne825274:0
-* crwdns825276:0crwdne825276:0
-* crwdns825278:0crwdne825278:0
+In Github, there are five levels of permissions: read, triage, write, maintain, and admin.
+* Readers are non-code contributors who are read the content or join discussions on GitHub issues.
+* With triage permission, contributors can manage issues and pull requests without write access.
+* Write permission allows contributors to push changes to the project.
+* Maintain permission is for project managers but have no access to sensitive or destructive actions (such as project deletion).
+* Admins are people who have full access to the project, including sensitive and destructive actions, and are responsible for granting permission to make other contributors.
 
-crwdns825280:0crwdne825280:0 crwdns825282:0crwdne825282:0
+These roles are often defined in a project file such as a [CODEOWNERS file](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners) or a Ways of Working file (see _The Turing Way_'s [Ways of Working](https://github.com/alan-turing-institute/the-turing-way/blob/main/ways_of_working.md) as an example). These files provide insight into the core project team and members responsible for maintenance roles in the project.
 
-crwdns825284:0crwdne825284:0 crwdns825286:0crwdne825286:0 crwdns825288:0crwdne825288:0 crwdns825290:0crwdne825290:0 crwdns825292:0crwdne825292:0
+In this chapter, anyone with triage, write and maintain permission is referred to as maintainers. Maintainers are involved with creating issues and pull requests whenever required. They keep the codebase or project updated and help in reviewing contributions. They can often approve and merge pull requests. They can also request reviews from someone else.
 
-*crwdns825294:0crwdne825294:0*
+*For more information on permission level, please see this [documentation on GitHub](https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams/repository-permission-levels-for-an-organization).*

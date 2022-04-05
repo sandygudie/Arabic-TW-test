@@ -1,32 +1,32 @@
-(pd-project-repo-contribuidores)=
-# Colaboradores e Pathways de Comunicação
+(pd-project-repo-contributors)=
+# Contributors and Communication Pathways
 
-Seu projeto provavelmente será melhor se o que você cria for usado pelos outros e eles compartilham suas ideias e opiniões para adicionar novos recursos ou melhorias. Ao projetar o seu projeto, os objetivos e metas são tão importantes quanto os seus colaboradores. Ao projetar seu projeto, é importante pensar sobre quem são os contribuidores e como eles irão colaborar no projeto (como descrito no {ref}`pd-project-repo-readme` e {ref}`pd-project-repo-roadmapping`).
+Your project is likely to be better if what you create is used by others and they share their ideas and feedback to add new features or improvements. When designing your project, the Goals and aims are as important as their contributors. When designing your project, it is important to think about who the contributors are and how they will collaborate in the project (as described in {ref}`pd-project-repo-readme` and {ref}`pd-project-repo-roadmapping`).
 
-Também é importante definir expectativas claras para os seus colaboradores e descrever recursos disponíveis para facilitar a sua participação, que são discutidos neste subcapítulo. As relações de trabalho que você estabelece com seus colaboradores, acolhendo-os, engajar-se com eles e apoiá-los, faz com que os seus colaboradores se sintam valorizados e animados com as suas contribuições.
+It is also important to set clear expectations for your contributors and describe resources available to facilitate their participation, which discuss in this subchapter. The working relationships you establish with your contributors by welcoming them, engaging with them and supporting them, makes your contributors feel valued and excited about their contributions.
 
-(pd-project-repo-contribuinte-contribuidores)=
-## Identificando seus colaboradores
+(pd-project-repo-contributing-contributors)=
+## Identifying Your Contributors
 
-A maioria das colaborações em projetos comunitários são estabelecidas e mantidas com os colaboradores. Colaboração eficaz significa que todos os colaboradores têm a possibilidade de combinar suas diversas perspectivas e habilidades para criar recursos significativos. Eles contribuem para o projeto de várias maneiras, por exemplo, desenvolvendo a documentação ou código, corrigindo erros, sugerindo novos recursos ou apoiando outros.
+Most collaborations in community projects are established and maintained with the contributors. Effective collaboration means that all contributors are given the possibility to combine their diverse perspectives and skills to create meaningful resources. They contribute to the project in various ways, for example by developing documentation or code, fixing bugs, suggesting new features or supporting others.
 
-Para garantir que você mira um conjunto diversificado de colaboradores, comece projetando {ref}`Persona<pd-persona>` para o seu projeto.
+To make sure that you target a diverse set of collaborators, start by designing {ref}`Persona<pd-persona>` for your project.
 
 ```{note}
-Uma persona é um detalhe de um usuário ou membro imaginário, baseado em observações e entendimentos do mundo real de membros existentes ou futuros membros.
-É significativo quando emparelhado com percursos através dos quais essas pessoas se relacionam com um projeto.
+A persona is a detail of an imaginary user or member, based on real-world observations and understandings of existing members or potential future members.
+It is meaningful when paired with pathways through which these personas engage with a project.
 ```
 
-Quando você tiver escolhido algumas pessoas que capturam sua ideia de contribuidores que querem envolver, você pode desenvolver caminhos que eles podem levar para se envolver e contribuir para o seu projeto (veja {ref}`Pessoa<pd-persona-contributors>`).
+When you have selected a few personas that capture your idea of contributors who want to involve, you can develop pathways that they can take to engage and contribute to your project (see {ref}`Persona<pd-persona-contributors>`).
 
-(pd-project-repo-contribuição-comunicação)=
-## Definindo caminhos de comunicação
+(pd-project-repo-contributing-communication)=
+## Setting Communication Pathways
 
-Ao configurar seus caminhos de comunicação, há algumas coisas importantes a considerar como as seguintes:
-- Quão fácil é para a comunidade encontrar esses canais e assinar/cancelar sua assinatura?
-- São moderados? Grupos com baixa representação podem não participar se um canal for gratuito para todos.
-- Qual é a facilidade de os membros da comunidade encontrarem e participarem de conversas específicas nas quais estão interessados?
-- Será um canal de “ruído” (por exemplo, muitas notificações)?
-- Os usuários podem controlar ou filtrar que tipo de informação receberam?
+When setting up your communication pathways, there are some important things to consider such as the following:
+- How easy is it for the community to find these channels and subscribe/unsubscribe to them?
+- Are they moderated? Under-represented groups may not participate if a channel is free for all.
+- How easy is it for members of the community to find and join specific conversations they are interested in?
+- Will it be a “noisy” channel (for example, lots of notifications)?
+- Can users control or filter what kind of information they receive?
 
-Veja {ref}`cm-os-comms` para entender vários recursos que você pode considerar para definir um canal de comunicação para seu projeto.
+See {ref}`cm-os-comms` to understand various features you can consider for setting a communication channel for your project.

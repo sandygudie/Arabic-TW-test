@@ -1,42 +1,42 @@
-crwdns850106:0crwdne850106:0
-# crwdns850108:0crwdne850108:0
+(rr-rdm-sharing)=
+# Sharing and Archiving Data
 
-crwdns850110:0crwdne850110:0
-## crwdns850112:0crwdne850112:0
-crwdns850114:0crwdne850114:0
+(rr-rdm-sharing-motivations)=
+## Motivations For Sharing Data
+There are many reasons to share your research data publicly.
 
-1. crwdns850116:0crwdne850116:0
-2. crwdns850118:0crwdne850118:0 crwdns850120:0crwdne850120:0
-3. crwdns850122:0crwdne850122:0
-4. crwdns850124:0crwdne850124:0
+1. To allow the possibility to fully reproduce a scientific study.
+2. To prevent duplicate efforts and speed up scientific progress. Large amounts of research funds and careers of researchers can be wasted by only sharing a small part of research in the form of publications.
+3. To facilitate collaboration and increase the impact and quality of scientific research.
+4. To make results of research openly available as a public good, since research is often publicly funded.
 
-crwdns850126:0{ref}crwdne850126:0
+You can read more about why data should be available, and why some data should remain closed, in the {ref}`Open Data section <rr-open-data>`
 
-crwdns850128:0crwdne850128:0
-## crwdns850130:0crwdne850130:0
+(rr-rdm-sharing-steps)=
+## Steps To Share Your Data
 
-### crwdns850132:0crwdne850132:0
+### Step 1: Select what data you want to share
 
-crwdns850134:0{ref}crwdne850134:0 <rr-open-data>crwdns850136:0crwdne850136:0 crwdns850138:0crwdne850138:0
+Not all data can be made openly available, due to ethical and commercial concerns (see the {ref}`Open Data section <rr-open-data>), and you may decide that some of your intermediate data is too large to share. As such, you first need to decide which data you need to share for others to be able to reproduce your research.
 
-### crwdns850140:0crwdne850140:0
+### Step 2: Choose a data repository or other sharing platform
 
-crwdns850142:0{term}crwdne850142:0 crwdns850144:0crwdne850144:0 crwdns850146:0crwdne850146:0 crwdns850148:0{ref}crwdne850148:0 crwdns850150:0{ref}crwdne850150:0
+Data should be shared in a formal, open, and indexed data repository [{term}`def<Repository>`] where possible so that it will be accessible in the long run. Suitable data repositories by subject, content type or location can be found at [Re3data.org](https://www.re3data.org/), and in [FAIRsharing](https://fairsharing.org/databases) where you can also see which standards (metadata and identifier) the repositories implement and which journal/publisher recommend them. If possible use a repository that assigns a DOI, a digital object identifier, to make it easier for others to cite your data. Have a look in the {ref}`cm-citable` to see how to share and cite your data and other research objects. The {ref}`cm-citable-linking` section explains several options for linking your data and other research objects.
 
-crwdns850152:0crwdne850152:0
+A few public data repositories are [Zenodo](https://zenodo.org/), [Figshare](https://figshare.com/), [4TU.ResearchData](https://data.4tu.nl/info/en), and [Dryad](https://datadryad.org/).
 
-### crwdns850154:0crwdne850154:0
+### Step 3: Choose a licence and link to your paper and code
 
-crwdns850156:0{term}crwdne850156:0 crwdns850158:0crwdne850158:0 crwdns850160:0crwdne850160:0
+So that others know what they can do with your data, you need to apply a licence [{term}`def<License>`] to your data. The most commonly used licences are [Creative Commons](https://creativecommons.org/choose/), [Open Government Licence](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/), or an [Open Data Commons Attribution License](https://opendatacommons.org/licenses/by/index.html). To get maximum value from data sharing, make sure that your paper and code both link to your data, and vice versa, to allow others understand your project better.
 
-### crwdns850162:0crwdne850162:0
+### Step 4: Upload your data and documentation
 
-crwdns850164:0{ref}crwdne850164:0 crwdns850166:0crwdne850166:0 crwdns850168:0crwdne850168:0 crwdns850170:0crwdne850170:0
+In line with the {ref}`FAIR principles <rr-rdm-FAIR>`, upload the data in open formats as much as possible and include sufficient documentation and metadata so that someone else can understand your data. It is also essential to think about the file formats in which the information is provided. Data should be presented in structured and standardised formats to support interoperability, traceability, and effective reuse. In many cases, this will include providing data in multiple, standardized formats, so that it can be processed by computers and used by people.
 
-## crwdns850172:0crwdne850172:0
-* crwdns850174:0crwdne850174:0
-* crwdns850176:0crwdne850176:0
+## Additional resources on data sharing
+* '[How can you make research data accessible?](https://www.software.ac.uk/how-can-you-make-research-data-accessible)': a blog that contains five steps to make your data more accessible
+* The European Commission's [data guidelines](https://open-research-europe.ec.europa.eu/for-authors/data-guidelines)
 
-crwdns850178:0crwdne850178:0
-## crwdns850180:0crwdne850180:0
-crwdns850182:0crwdne850182:0 crwdns850184:0crwdne850184:0 crwdns850186:0{ref}crwdne850186:0
+(rr-rdm-data-availability-statement)=
+## Data Availability Statement
+Once you made your data available, it is important to ensure that people can find it when they read the associated article. You should cite your dataset directly in the paper in places where it is relevant, and include a citation in your reference list, as well as include a Data Availability Statement at the end of the paper (similar to the acknowledgement section). See {ref}`cm-citable-cite-data` for some examples.

@@ -1,39 +1,42 @@
-crwdns854468:0crwdne854468:0
-# crwdns854470:0crwdne854470:0
+(rr-vcs)=
+# Version Control
 
-crwdns854472:0crwdne854472:0
-## crwdns854474:0crwdne854474:0
+(rr-vcs-prerequisites)=
+## Prerequisites
 
-| crwdns854476:0crwdne854476:0                                 | crwdns854478:0crwdne854478:0 | crwdns854480:0crwdne854480:0 |
-| ------------------------------------------------------------ | ---------------------------- | ---------------------------- |
-| [crwdns854484:0crwdne854484:0](crwdns854482:0crwdne854482:0) | crwdns854486:0crwdne854486:0 |                              |
+| Prerequisite                                                                                  | Importance | Notes |
+| --------------------------------------------------------------------------------------------- | ---------- | ----- |
+| [Experience with the command line](https://programminghistorian.org/en/lessons/intro-to-bash) | Helpful    |       |
 
-crwdns854488:0crwdne854488:0
+**Recommended Skill Level**: _Beginner-Intermediate_
 
-crwdns854490:0crwdne854490:0
-## crwdns854492:0crwdne854492:0
+(rr-vcs-summary)=
+## Summary
 
-crwdns854494:0crwdne854494:0 crwdns854496:0crwdne854496:0 crwdns854498:0crwdne854498:0
+No matter how your group is organized, the work of many contributors needs to be managed into a single set of shared working documents. Version control is an approach to record changes made in a file or set of files over time so that you and your collaborators can track their history, review any changes, and revert or go back to earlier versions. Management of changes or revisions to any types of information made in a file or project is called versioning.
 
-crwdns854500:0crwdne854500:0 crwdns854502:0crwdne854502:0 crwdns854504:0crwdne854504:0 crwdns854506:0crwdne854506:0
+In this chapter, we discuss the best practices that are relevant regardless of tools. Versioning practices mainly come from managing changes in the code repositories. However, in reality, you can use version control for nearly any type of file on a computer. For example, when writing a paper with multiple collaborators, version control can help track what changed, who changed them, and what updates were made.
 
-crwdns854508:0crwdne854508:0 crwdns854510:0crwdne854510:0 crwdns854512:0crwdne854512:0 crwdns854514:0crwdne854514:0 crwdns854516:0crwdne854516:0 crwdns854518:0crwdne854518:0
+Different version control systems can be used through a program with a graphical user interface, web browser-based applications, or command-line tools. We have all seen a simple file versioning approach where different versions of a file are stored with a different name. Tools such as Google Drive and Dropbox offer platforms to update files and share them with others in real-time, collaboratively. More sophisticated version control system exists within tools like [Google docs](https://docs.google.com/) or [HackMD](http://hackmd.io/). These allow collaborators to update files while storing each version in its version history (we will discuss this in detail). Advanced version control systems (VCS) such as [Git](https://en.wikipedia.org/wiki/Git), [Mercurial](https://www.mercurial-scm.org/), and [SVN](https://subversion.apache.org/) provide much more powerful tools.
 
-crwdns854520:0crwdne854520:0 crwdns854522:0crwdne854522:0 crwdns854524:0crwdne854524:0
+This chapter aims to cover the general principles underpinning all the advanced version control systems and best practice which applies for all such systems. We discuss many tools and features; however, we encourage readers to use features that are useful for their work and tools they are comfortable with. Most instructions given in this chapter will also be geared towards Git, which is most commonly used by researchers, and a web-based Git repository hosting service, [GitHub](https://github.com/), which facilitates online collaborations.
 
-crwdns854526:0crwdne854526:0 crwdns854528:0crwdne854528:0
+Later in this chapter, we also discuss version control for data, which is applied to keep track of revisions of large amounts of data, especially when working collaboratively. It is useful to know that data can be volatile and versioning them can improve the reproducibility of your scientific analyses.
 
 ```{figure}  ../figures/project-history.jpg
-crwdns854530:0crwdne854530:0 crwdns854532:0crwdne854532:0 crwdns854534:0crwdne854534:0
-crwdns854536:0crwdne854536:0 crwdns854538:0crwdne854538:0 crwdns854540:0crwdne854540:0
+---
+name: project-history
+alt: Contrast in project history management. On the left - choosing between ambiguosly named files. On the right - picking between successive versions (from V1 to V6).
+---
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-crwdns854542:0crwdne854542:0
-## crwdns854544:0crwdne854544:0
+(rr-vcs-useful)=
+## Motivation and Background
 
-crwdns854546:0crwdne854546:0 crwdns854548:0crwdne854548:0 crwdns854550:0crwdne854550:0
+Version control helps us understand what changes we made in the past or why we did a specific analysis in the way we did it, even weeks or months later. With the help of comments and commit messages, each version can explain what changes it contains compared to the previous versions. This is helpful when we share our analysis (not only data), and make it auditable or **reproducible** - which is good scientific practice.
 
-crwdns854552:0crwdne854552:0 crwdns854554:0crwdne854554:0
+A version control system neatly stores a history of changes and who made them, so while it is still easy to access them, your working directory is not cluttered by the debris of previous versions that are necessary to keep just in case. Similarly, with version control, there is no need to leave chunks of code commented should you ever need to come back to an old version again.
 
 
-crwdns854556:0crwdne854556:0 crwdns854558:0crwdne854558:0 crwdns854560:0crwdne854560:0 crwdns854562:0{ref}crwdne854562:0
+Finally, version control is invaluable for collaborative projects where different people work on the same code simultaneously and build on each other's work. It allows the changes made by different people to be tracked and can automatically combine people's work while saving a great deal of painstaking effort to do so manually. Using version control for your research project means that your work is totally transparent, and because all your actions are recorded, it enables others to reproduce your studies. Moreover, version control hosting services such as {ref}`GitHub<cl-github-novice-motivation>` provide a way to communicate and collaborate in a more structured way, such as in pull requests, code reviews, and issues.

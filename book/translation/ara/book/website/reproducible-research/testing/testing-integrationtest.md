@@ -1,53 +1,53 @@
-crwdns853896:0crwdne853896:0
-# crwdns853898:0crwdne853898:0
+(rr-testing-types-integrationtest)=
+# Integration Testing
 
-crwdns853900:0crwdne853900:0 crwdns853902:0crwdne853902:0 crwdns853904:0crwdne853904:0
+Integration testing is a level of software testing where individual units are combined and tested as a group. While unit tests validate the functionality of code in isolation, integration tests ensure that components cooperate when interfacing with one another. The purpose of this level of testing is to expose faults in the interaction between integrated units.
 
-crwdns853906:0crwdne853906:0 crwdns853908:0crwdne853908:0 crwdns853910:0crwdne853910:0 crwdns853912:0crwdne853912:0
+For example, maybe a unit that reads in some data is working and passes its unit tests, and the following unit that cleans up the data once it's been read in is also working and passes its tests. However say the first unit outputs the data as (time_data, temperature_data) but the function that cleans the data expects input of the form (temperature_data, time_data). This can obviously lead to bugs. While the units are correct there in an error in their integration.
 
-crwdns853914:0crwdne853914:0 crwdns853916:0crwdne853916:0
+An example of an integration test for this case could be to supply a test data file, use these functions to read it in and clean it, and check the resulting cleaned data against what would be expected. If a bug like this is present then the cleaned data outputted would be very unlikely to match the expected result, and an error would be raised.
 
-crwdns853918:0crwdne853918:0 crwdns853920:0crwdne853920:0 crwdns853922:0crwdne853922:0 crwdns853924:0crwdne853924:0
+Integration testing is particularly important in collaborative projects where different people work on different parts of the code. If two different people complete separate units and then need to integrate then integration issues are more likely as neither may understand the other's code. A famous example of this is a multi-million dollar satellite which [crashed](https://en.wikipedia.org/wiki/Mars_Climate_Orbiter) because one piece of code outputted distance data in feet, while another assumed data in meters. This is another example of an integration issue.
 
-crwdns853926:0crwdne853926:0 crwdns853928:0crwdne853928:0 crwdns853930:0crwdne853930:0
+A sub-type of integration testing is system integration testing. This tests the integration of systems, packages and any interfaces to external organizations (such as Electronic Data Interchange, Internet). Depending on the nature of a project system integration testing may or may not be applicable.
 
-## crwdns853932:0crwdne853932:0
+## Integration Testing Approaches
 
-crwdns853934:0crwdne853934:0 crwdns853936:0crwdne853936:0 crwdns853938:0crwdne853938:0 crwdns853940:0crwdne853940:0 crwdns853942:0crwdne853942:0
+There are several different approaches to integration testing. Big Bang is an approach to integration testing where all or most of the units are combined together and tested at one go. This approach is taken when the testing team receives the entire software in a bundle. So what is the difference between Big Bang integration testing and system testing? Well, the former tests only the interactions between the units while the latter tests the entire system.
 
-crwdns853944:0crwdne853944:0 crwdns853946:0crwdne853946:0
+Top Down is an approach to integration testing where top-level sections of the code (that themselves contain many smaller units) are tested first and lower level units are tested step by step after that. So is a code can be split into the main steps A, B, and C, and each of those contain steps to complete them, and these steps may have substeps like:
 
-- crwdns853948:0crwdne853948:0
-- crwdns853950:0crwdne853950:0
-  - crwdns853952:0crwdne853952:0
-  - crwdns853954:0crwdne853954:0
-- crwdns853956:0crwdne853956:0
-- crwdns853958:0crwdne853958:0
-- crwdns853960:0crwdne853960:0
-- crwdns853962:0crwdne853962:0
-  - crwdns853964:0crwdne853964:0
-  - crwdns853966:0crwdne853966:0
-  - crwdns853968:0crwdne853968:0
-- crwdns853970:0crwdne853970:0
+- A
+- A.1
+  - A.1.1
+  - A.1.2
+- A.2
+- B
+- B.1
+- B.2
+  - B.2.1
+  - B.2.2
+  - B.2.3
+- B.3
 
-- crwdns853972:0crwdne853972:0
-- crwdns853974:0crwdne853974:0
-  - crwdns853976:0crwdne853976:0
-  - crwdns853978:0crwdne853978:0
-- crwdns853980:0crwdne853980:0
-  - crwdns853982:0crwdne853982:0
-  - crwdns853984:0crwdne853984:0
+- C
+- C.1
+  - C.1.1
+  - C.1.2
+- C.2
+  - C.2.1
+  - C.2.2
 
-crwdns853986:0crwdne853986:0 crwdns853988:0crwdne853988:0 crwdns853990:0crwdne853990:0
+So in the top down approach the integration between sections at the top level (A, B and C) are tested, then integration between sections at the next level (for example, A.1 -> A.2) and so on. Testing upper level units by running all the code they contain including running lower level ones can lead to upper level tests breaking due to bugs in low level units. This is undesirable, so to prevent this the lower level sections should not be run, but [test stubs](#Use_test_doubles_stubs_mocking_where_appropriate) should be used to simulate the outputs from them.
 
-crwdns853992:0crwdne853992:0 crwdns853994:0crwdne853994:0
+Bottom Up is an approach to integration testing where integration between bottom level sections are tested first and upper-level sections step by step after that. Again test stubs should be used, in this case to simulate inputs from higher level sections.
 
-crwdns853996:0crwdne853996:0
+Sandwich/Hybrid is an approach to integration testing which is a combination of Top Down and Bottom Up approaches.
 
-crwdns853998:0crwdne853998:0
+Which approach you should use will depend on which best suits the nature/structure of your project.
 
-## crwdns854000:0crwdne854000:0
+## Integration Testing Tips
 
-- crwdns854002:0crwdne854002:0 crwdns854004:0crwdne854004:0
-- crwdns854006:0crwdne854006:0 crwdns854008:0crwdne854008:0
-- crwdns854010:0crwdne854010:0
+- Ensure that you have a proper Detail Design document where interactions between each unit are clearly defined. It is difficult or impossible to perform integration testing without this information.
+- Make sure that each unit is unit tested and fix any bugs before you start integration testing. If there is a bug in the individual units then the integration tests will almost certainly fail even if there is no error in how they are integrated.
+- Use mocking/stubs where appropriate.

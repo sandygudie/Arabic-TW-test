@@ -1,8 +1,8 @@
-crwdns853460:0crwdne853460:0
-# crwdns853462:0crwdne853462:0
+(rr-testing-driven-development)=
+# Test Driven Development
 
-crwdns853464:0crwdne853464:0 crwdns853466:0crwdne853466:0 crwdns853468:0crwdne853468:0 crwdns853470:0crwdne853470:0 crwdns853472:0crwdne853472:0
+One way of ensuring tests are not neglected in a project is to adopt test-driven development. This is an approach in which unit tests are written before the code. The tests thus describe a "contract" that the code is expected to comply with. This ensures that the code will be correct (as far as can be enforced by the testing contract) as written, and it provides a useful framework for thinking about how the code should be designed, what interfaces it should provide, and how its algorithms might work. This can be a very satisfying mental aid in developing tricky algorithms.
 
-crwdns853474:0crwdne853474:0 crwdns853476:0crwdne853476:0 crwdns853478:0crwdne853478:0 crwdns853480:0{ref}crwdne853480:0
+Once the tests are written, the code is developed so that it passes all the associated tests. Testing the code from the outset ensures that your code is always in a releasable state (as long as it passes the tests!). Test driven development forces you to break up your code into small discrete units, to make them easier to test; the code must be modular. The benefits of this were discussed in the section on {ref}`unit testing<rr-testing-unittest>`.
 
-crwdns853482:0crwdne853482:0 crwdns853484:0crwdne853484:0 crwdns853486:0crwdne853486:0 crwdns853488:0crwdne853488:0 crwdns853490:0crwdne853490:0
+An alternative development approach is behaviour driven development. Simply put, under the test driven development paradigm, we check "has the thing been done correctly?", whereas under behaviour driven development we test "has the correct thing been done?". It is more often used in commercial software development to focus development on making the software as simple and effective as possible for users. User experience is very rarely at the heart of code written for the purposes of research, but there are cases where such software is written with a large user-base in mind. In such cases behaviour-driven development is a path worth considering.

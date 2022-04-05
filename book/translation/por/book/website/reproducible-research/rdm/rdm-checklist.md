@@ -3,12 +3,12 @@
 
 <!-- This is a different style than the other chapters, but I really love what Alex provided so I just kept it. -->
 
-- Não toque nos dados brutos. Faça o backup em algum lugar razoável e mantenha uma cópia somente leitura.
+- Do not touch the raw data. Back it up somewhere reasonable and keep a read-only copy.
 
-- Tenha um plano! Decida onde seus dados serão armazenados, como são chamados, quando/se precisa ser excluído ANTE, você começa a coletá-lo e anota num plano de gestão de dados. Se você coletar dados confidenciais, plano de consentimento para compartilhar do início!
+- Have a plan! Decide where your data is going to be stored, what it is called, when/if it needs to be deleted BEFORE you start collecting it and note it down in a data management plan. If you collect sensitive data, plan for consent for sharing from the start!
 
-- Documento tudo. Você sabe quem era a pior pessoa a responder a e-mails é sobre qual era a frequência de amostragem do canal X. Não é ele mesmo, na verdade, é você mesmo de um ano atrás. Não é ele mesmo, na verdade, é você mesmo de um ano atrás. Guarde a documentação com os dados!
+- Document everything. You know who the worst person at replying to emails is about what the sampling frequency of channel X was. Nope not him, it's actually yourself from a year ago. Keep the documentation with the data!
 
-- Crie os dados que você deseja ver na palavra. Imagine que alguém estava prestes a lhe dar um conjunto de dados com o qual você precisava analisar bem para conseguir esse trabalho com o qual você tem sonhado. Como você gostaria que ficasse assim? É assim que o senhor deve parecer.
+- Create the data you want to see in the word. Imagine someone was about to give you a dataset that you needed to analyse well in order to get that job you have been dreaming about. What would you want it to look like? That is how yours should look.
 
-- Tente não reinventar a roda. Antes de começar a criar um novo esquema, formato de armazenamento ou protocolo de nomenclatura, tenha um google rápido ou pergunte aos seus colegas. É provável que algo que já está a ser utilizado seja melhor a longo prazo, mesmo que se pense que existe uma solução melhor.
+- Try not to re-invent the wheel. Before you start creating some crazy new schema, storage format or naming protocol, have a quick google or ask your colleagues. Something that is already being used is likely to be better in the long run, even if you think there is a better solution.

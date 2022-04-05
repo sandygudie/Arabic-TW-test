@@ -1,43 +1,46 @@
-crwdns846156:0crwdne846156:0
-# crwdns846158:0crwdne846158:0
+(rr-make)=
+# Reproducibility with Make
 
-crwdns846160:0crwdne846160:0
-## crwdns846162:0crwdne846162:0
+(rr-make-prerequisites)=
+## Prerequisites
 
-| crwdns846164:0crwdne846164:0                                 | crwdns846166:0crwdne846166:0 | crwdns846168:0crwdne846168:0 |
-| ------------------------------------------------------------ | ---------------------------- | ---------------------------- |
-| [crwdns846172:0crwdne846172:0](crwdns846170:0crwdne846170:0) | crwdns846174:0crwdne846174:0 |                              |
-| crwdns846176:0{ref}crwdne846176:0                            | crwdns846178:0crwdne846178:0 | crwdns846180:0crwdne846180:0 |
+| Prerequisite                                                                                  | Importance | Notes                                                        |
+| --------------------------------------------------------------------------------------------- | ---------- | ------------------------------------------------------------ |
+| [Experience with the command line](https://programminghistorian.org/en/lessons/intro-to-bash) | Necessary  |                                                              |
+| {ref}`Version Control<rr-vcs>`                                                          | Helpful    | Experience using git is useful to follow along with examples |
 
-crwdns846182:0crwdne846182:0
+Recommended skill level: intermediate
 
-crwdns846184:0crwdne846184:0
-## crwdns846186:0crwdne846186:0
+(rr-make-summary)=
+## Summary
 
-crwdns846188:0crwdne846188:0  crwdns846190:0crwdne846190:0  crwdns846192:0crwdne846192:0  crwdns846194:0crwdne846194:0  crwdns846196:0crwdne846196:0
+A data science or research project can be seen as a tree of dependencies: the report depends on the figures and tables, and these in turn depend on the data and the analysis scripts used to process this data (illustrated in the figure below).  Make is a tool for creating output files from their dependencies through pre-specified rules.  It is possible to combine these two ideas to create a reproducible project with Make.  In this chapter we give an introduction to Make and provide a tutorial on how Make can be used for a data analysis pipeline.  We also describe a real-world reproducible research project that uses Make to go from the raw input data to the experiments all the way to the pdf file of the paper!
 
 ```{figure} ../figures/make-research-dag.png
-crwdns846198:0crwdne846198:0
-crwdns846200:0crwdne846200:0
+---
+name: make-research-dag
+alt: Schematic of a research project.
+---
+Schematic of a research project.
 ```
 
-crwdns846202:0crwdne846202:0
-## crwdns846204:0crwdne846204:0
+(rr-make-intro)=
+## An Introduction to Make
 
-crwdns846206:0crwdne846206:0 crwdns846208:0crwdne846208:0 crwdns846210:0crwdne846210:0  crwdns846212:0crwdne846212:0  crwdns846214:0crwdne846214:0 crwdns846216:0{ref}crwdne846216:0 crwdns846218:0crwdne846218:0
+Make is a build automation tool. It uses a configuration file called a Makefile that contains the *rules* for what to build. Make builds *targets* using *recipes*.  Targets can optionally have *prerequisites*.  Prerequisites can be files on your computer or other targets. Make determines what to build based on the dependency tree of the targets and prerequisites (technically, this is a {ref}`rr-make-resources-tools`). It uses the *modification time* of prerequisites to update targets only when needed.
 
-crwdns846220:0crwdne846220:0
-### crwdns846222:0crwdne846222:0
+(rr-make-why)=
+### Why use Make for Reproducibility?
 
-crwdns846224:0crwdne846224:0
+There are several reasons why Make is a good tool to use for reproducibility:
 
-1. crwdns846226:0crwdne846226:0
-1. crwdns846228:0crwdne846228:0
-1. crwdns846230:0crwdne846230:0
-1. crwdns846232:0crwdne846232:0
-1. crwdns846234:0crwdne846234:0 crwdns846236:0crwdne846236:0
-1. crwdns846238:0crwdne846238:0 crwdns846240:0crwdne846240:0
-1. crwdns846242:0crwdne846242:0
-1. crwdns846244:0crwdne846244:0
+1. Make is easy to learn
+1. Make is available on many platforms
+1. Make is flexible
+1. Many people are already familiar with Make
+1. Makefiles reduce cognitive load because as long as the common Make targets `all` and `clean` are present (explained below), you can be up and running without having to read lengthy instructions. This is especially useful when you work on someone else's project or on one that you haven't used in a long time.
+1. Makefiles are human-readable and machine-readable text files. So instead of writing instructions to a human for how to build a report or output, you can provide a Makefile with instructions that can be read by a human *and* executed by a computer.
+1. Because Makefiles are text files they are easy to share and keep in version control.
+1. Using Make doesn't exclude using other tools such as Travis and Docker.
 
-crwdns846246:0crwdne846246:0 crwdns846248:0crwdne846248:0 crwdns846250:0crwdne846250:0 crwdns846252:0crwdne846252:0
+With a clever Makefile, you can share a complete analysis (code, data, and computational workflows) and let collaborators or the readers of your paper recompute your results. By using tools such as LaTeX, you can even generate a complete manuscript that includes freshly computed figures and results! This can increase the trust in the research output that you generate, it can make your research more accessible, and it can make collaborating easier. This chapter can show you how to get started.

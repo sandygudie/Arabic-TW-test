@@ -1,78 +1,78 @@
-(cl-infrastructure-dataservers)=
-# 数据步骤：概览
+(cl-infrastructure-datastewards)=
+# Data Stewards: Overview
 
-数据管理在科学界发挥着日益重要的作用。 “数据管理”是涉及创建的众多支助作用的总括术语。 研究数据的管理和使用(另见 {ref}`rr-rdm` 章节)。
+Data Stewards are a growing role within scientific communities. 'Data Steward' is an umbrella term for numerous support roles that involve the creation, management and usage of research data (see also the {ref}`rr-rdm` chapter).
 
-(cl-infrastructure-data-servers-tasks)=
-## 数据管理员怎么办？
-数据管理层的核心责任可能各不相同，从政策顾问/顾问到实际操作任务，到技术或与信息和通信技术有关的任务。 数据管理员以符合适当法律和体制政策的方式促进数据的质量、完整性和获取（元）数据。 确保在研究项目的所有阶段对数据进行专业处理。 另见： {cite:ps}`Verheul2019DataStewardship`
+(cl-infrastructure-datastewards-tasks)=
+## What do Data Stewards do?
+The core responsibilities of a Data Steward can vary, ranging from policy advisor/consultant, to hands-on operational tasks, to technical or ICT-related tasks. A Data Steward facilitates the quality, integrity and access to (meta)data in a manner that is consistent with the appropriate laws and institutional policies, ensuring professional treatment of data throughout all stages of the research project. See also: {cite:ps}`Verheul2019DataStewardship`
 
-每个作用都各不相同，但主要活动通常侧重于数据、管理和向研究人员提供咨询：
-* 牵头制定和执行研究数据管理政策
-* 充当发言人，提高对良好数据管理的附加值的认识
-* 协助规划研究项目数据的收集、管理和发布
-* 在您的研究所/研究小组内探讨、分析和评估研究数据管理的趋势
-* 开发和举办研究数据管理培训活动
+Each role is varied but the main activities are typically focused around data, stewardship, and advising researchers:
+* Leading policy development and implementation on research data management
+* Act as a spokesperson, create awareness for the added value of good data management
+* Assist in planning the collection, management and publication of data in research projects
+* Explore, analyse and assess trends in research data management at your institute/research group
+* Develop and run training events on research data management
 
-数据向导的日常任务可包括：
-* 检查数据管理计划并提供咨询意见(详情请查看 {ref}`rr-rdm-dmp`)
-* 为赠款申请提供支助
-* 提供数据管理培训
-* 通过数据共享程序指导一名研究人员
-* 牵头讨论哪些类型的数据可以长期保存以及哪些数据可以公开分享。
-* 即将举行的社区信息会议、培训、活动
-* 提供信息(通过电子邮件或网站)
-* 撰写一个与研究数据管理相关的主题的博客
-* 参与国际社会和工作组，以改进建议的做法或宣传研究数据的重要性
-* 还有更多！
-
-
-（cl-infrastructure-data-servers-skills）=
-## 您需要什么资格或技能来进行数据管理？
-目前没有正式的轨迹可以成为数据管理器。 大多数数据管理员都有硕士或博士教育，或研究和教育方面的背景。 这种背景需要与科学人员使用相同的语言，以便更容易理解他们的要求和关切。 视位置的特定焦点而定，您需要更多的技术/信息和通信技术背景。 • 了解纪律方面的具体问题或咨询和政策制定方面的经验。 软技能在咨询/政策角色中很重要，因为您需要...
-
-“To FAIR data management as profession”报告（{cite:ps}`Scholtens2019FAIRSteward`）得出结论认为，有八个能力领域对数据管理很重要：
-1. 政策/战略：设计或提高对研究数据管理政策和条例的认识
-2. 遵约：就如何向研究数据管理政策和条例提供咨询意见
-3. 2. 便利财会联合会/推荐的研究数据管理做法
-4. 服务：提议、实施和监测数据管理服务和改进工作过程
-5. B. 数据基础设施：确定对基础设施和工具的要求
-6. 知识管理：确定研究数据管理知识和技能的水平
-7. 网络与沟通：建立网络以提高认识，参与（内部）国家研究数据管理网络
-8. 数据共享：存档和发布
-
-除了这些具体领域之外，协调工作和发展软技能可能也很重要。 另见： {cite:ps}`Jetten2021DataStewardship`
-
-一般来说，数据管理员通过在职学习获得这些技能，这得到了现有网络的帮助(见下文 {ref}`cl-infrastructure-data managers-`)。 通过这些网络，可以与同行交流经验，这有利于个人和职业发展。 这些合作努力的一个例子是“23件事：支持研究数据”（{cite:ps}`Jetten2023ThingsData`），它很好地概述了数据步骤有用的资源。 根据数据管理的作用， 通过促进具体项目或参加有关专题的大小会议，学习纪律方面的具体技能可能很重要。 随着研究文化适应（相互）国家变化，数据管理技能也需要不断更新。
+The day-to-day tasks of a Data Steward could include:
+* Checking and advising on a Data Management Plan (see {ref}`rr-rdm-dmp` for more information)
+* Providing support for grant proposals
+* Providing data management training
+* Guiding a researcher through the data sharing process
+* Leading discussions on what type of data to preserve for the long time and what data to share publicly
+* Planning for upcoming community information sessions, trainings, events
+* Providing information (through emails or on a website)
+* Writing a blog on a topic related to research data management
+* Being involved in international communities and working groups to improve the recommended practises or advocate for the importance of research data
+* And a lot more!
 
 
-(cl-infrastructure-data-servers-challenges)=
-## 数据管理面临的挑战
-* 由于数据Steward是一个相对较新的专业(~2017年)，他们的职务说明并不总是得到正式确定，他们的职业轨道可能不清楚。
-* 很难提高对数据管理机构和/或现有数据政策的认识，在资源有限的情况下尤其如此。
-* 了解研究人员并赢得他们的信任需要时间。 这对于向他们提供充分的咨询意见和共同努力改进数据管理做法十分重要。
-* 并非每个人都认为建立更透明的研究文化是有益的。 而且你可以遇到不想改变其现有工作流的研究人员的抵制。
-* 可能需要有限的资源和时间来满足研究人员的所有支助要求。 通常只有一个小型中央数据管理团队可供整个安装。
-* 当你提供高质量的支持和你可以改进的地方时，这并不总是很清楚， 因为没有正规教育，在你的学院并不总是有很强的反馈文化。
+(cl-infrastructure-datastewards-skills)=
+## What qualifications or skills do you need to be a Data Steward?
+There is currently no formal track to take to become a Data Steward. Most Data Stewards have a masters or doctoral education, or a background in research and education. This background is needed to speak the same language as scientific staff, so that it becomes easier to understand their requirements and concerns. Depending on the particular focus of the position, you would need a more technical/ICT background, knowledge of discipline specific matters or experience with advising and policy construction. Soft skills are important in the advisory/policy roles, as you need to..
 
-(cl-infrastructure-data servers-benefits)=
-## 数据提升的利益
-* 分享信息或提供数据管理培训，使研究人员不必自己重新发明轮子，并能轻易地了解推荐的做法， 这将最终提高研究质量。
-* 数据管理层可以向研究人员提供保证，就他们的数据管理计划提供反馈、实践和就其他解决办法提供咨询意见。
-* 支持更大规模的合作赠款，因为数据管理和开放科学是提案的一个组成部分([地平线欧洲](https://ec.europa.eu/info/research-and-innovation/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en))。
-* 数据升级可以在制定数据和软件管理政策方面发挥主导作用。
-* 数据升级可以回答研究人员提出的问题，或将其引导给能够回答问题的其他有关工作人员。
+The “Towards FAIR data stewardship as profession” report ({cite:ps}`Scholtens2019FAIRSteward`) concluded that there are eight competency areas that of importance to Data Stewards:
+1. Policy/strategy: designing or raising awareness of research data management policies and regulations
+2. Compliance: advise on how to confer to research data management policies and regulations
+3. Facilitating FAIR/recommended research data management practices
+4. Services: propose, implement and monitor data management services and improve work processes
+5. Data infrastructure: identify requirements for infrastructure and tools
+6. Knowledge management: identify the level of research data management knowledge and skills
+7. Network and communication: set up networks to increase awareness and participate in (inter)national research data management networks
+8. Data sharing: archiving and publishing
 
-(cl-infrastructure-data stafers-support)=
-## 支持数据升级的组织
-* [研究数据联盟](https://www.rd-alliance.org/)
-* [DTL-Data Stewards 兴趣组](https://www.dtls.nl/about/community/interest-groups/data-stewards-interest-group/)
-* [研究访问数据 &](https://rdapassociation.org/)
+Next to these specific areas coordination of work and development of soft skills may be important. See also: {cite:ps}`Jetten2021DataStewardship`
+
+Generally, Data Stewards acquire these skills through learning-on-the-job, which is facilitated by existing networks (see {ref}`cl-infrastructure-datastewards-support` below). Through these networks experiences can be exchanged with peers, which is beneficial for personal and professional development. An examples of these collaborative efforts is the '23 Things: Support for Research Data'({cite:ps}`Jetten201923ThingsData`) that provides a good overview of helpful resources for Data Stewards. Depending on the role of the Data Steward, learning discipline specific skills may be important through contributing to specific projects or attending conferences and meetings on relevant topics. As the research culture adapts to (inter)national changes, so too do the skills of the Data Steward that have to be continuously updated.
 
 
-(cl-infrastructure-data-servers-summary)=
+(cl-infrastructure-datastewards-challenges)=
+## Challenges for Data Stewards
+* As Data Steward is a relatively new profession (~2017), their job profile is not always formally defined and their career-track may be unclear.
+* It is difficult to increase the awareness of the presence of the data steward and/or existing data policies, especially when resources are limited.
+* It takes time to know the researchers and earn their trust, which is important to be able to adequately advise them and work together to improve data management practises.
+* Not everyone sees the move towards a more transparent research culture as beneficial, and you can be met with resistance from researchers that do not want to change their existing workflows.
+* There might be limited resources and time to cover all the support requests from researchers. Often there's only a small central team of Data Stewards available to the entire instutite.
+* It is not always clear when you're providing high quality support and where you could improve, as there is no formal education and there is not always a strong feedback culture at your institute.
+
+(cl-infrastructure-datastewards-benefits)=
+## Benefits of having Data Stewards
+* Sharing  information or provide training for data management so that researchers don't have to reinvent the wheel themselves and can easily learn about recommended practises, which will ultimately improve the quality of research.
+* Data Stewards can provide reassurance to researchers, by providing feedback on their Data Management Plans, practises and providing advise on alternative solutions.
+* Support for larger, collaborative grants where data management and open science are an integral part of the proposal ([Horizon Europe](https://ec.europa.eu/info/research-and-innovation/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en)).
+* Data Stewards can play a leading role in developing policies regarding data and software management.
+* Data Stewards can provide answers to questions from researchers, or direct them to other relevant staff that will be able to answer the question.
+
+(cl-infrastructure-datastewards-support)=
+## Organisations that support Data Stewards
+* [Research Data Alliance](https://www.rd-alliance.org/)
+* [DTL-Data Stewards Interest Group](https://www.dtls.nl/about/community/interest-groups/data-stewards-interest-group/)
+* [Research Data Access & Preservation](https://rdapassociation.org/)
+
+
+(cl-infrastructure-datastewards-summary)=
 ## Summary
-数据管理是科学界的一个重要部分，支持建议的数据管理做法，并通过支持研究人员的这些努力来节省研究人员的时间。 他们没有正式的职业道路或资格，但通常有科学或研究背景。
+Data Stewards are an important part of scientific communities, supporting recommended data management practices and saving researchers time by supporting them in these efforts. They do not have a formal career path or qualifications, but typically have a scientific or research background themselves.
 
 
 <!-- 

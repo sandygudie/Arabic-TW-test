@@ -1,98 +1,98 @@
-# Otras recomendaciones
+# Further Recommendations
 
-Trate de leer el capítulo sobre ambientes computacionales reproducibles y luego el capítulo sobre integración continua. El capítulo sobre la revisión describe cómo puede fortalecer aún más su base de código añadiendo una etapa de revisión formal a su flujo de trabajo.
+Try reading the chapter on reproducible computational environments and then the chapter on continuous integration. The chapter on reviewing outlines how you can further strengthen your code base by adding a formal reviewing stage to your development workflow.
 
-[TutorialsPoint](https://www.tutorialspoint.com/software_testing/) tiene varios tutoriales útiles relacionados con la prueba, al igual que el [Turing Institute](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch03tests/01testingbasics.html). También vale la pena consultar [softwaretestingfundamentals.com](http://softwaretestingfundamentals.com).
+[TutorialsPoint](https://www.tutorialspoint.com/software_testing/) has a number of useful tutorials related to testing, as does the [Turing Institute](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch03tests/01testingbasics.html). It is also worth looking at [softwaretestingfundamentals.com](http://softwaretestingfundamentals.com).
 
-## Materiales usados: Cómo esto te ayudará / por qué esto es útil
+## Materials used: How this will help you/ why this is useful
 
-- [Habla por Chrys Woods](https://drive.google.com/file/d/1CBTAhCVixccui1DjeUT13qh6ga5SDXjl/view) [**Licencia internacional Creative Commons Attribution-NonCommercial-ShareAlike 4.0**](https://chryswoods.com/main/copyright.html)
-- [Turing tests basics del curso](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch03tests/01testingbasics.html) **Creative Commons comparten y remix**
-- [SSI blog](https://www.software.ac.uk/resources/guides/testing-your-software?_ga=2.39233514.830272891.1552653652-1336468516.1531506806) **Creative Commons Attribution Non-Commercial 2.5 License**
+- [Talk by Chrys Woods](https://drive.google.com/file/d/1CBTAhCVixccui1DjeUT13qh6ga5SDXjl/view) [**Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License**](https://chryswoods.com/main/copyright.html)
+- [Turing testing course basics](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch03tests/01testingbasics.html) **Creative Commons share and remix**
+- [SSI blog](https://www.software.ac.uk/resources/guides/testing-your-software?_ga=2.39233514.830272891.1552653652-1336468516.1531506806) **Creative Commons Attribution Non-Commercial 2.5 License.**
 
-## Materiales utilizados: Guía general y buenas prácticas para probar
+## Materials used: General guidance and good practice for testing
 
-- [blog SSI en prueba de software](https://www.software.ac.uk/resources/guides/testing-your-software?_ga=2.39233514.830272891.1552653652-1336468516.1531506806) **Licencia Creative Commons Attribution Non-Commercial 2.5 Licencia**
-- [Curso de prueba Turing](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch03tests/03pytest.html) **Creative Commons compartir y remix**
-- [Mocking](https://www.vogella.com/tutorials/Mockito/article.html) **Atribución-No comercial-CompartirAlike 3.0 Alemania (CC BY-NC-SA 3.0**
-- [Pruebas con puntos flotantes](https://github.com/softwaresaved/automated_testing/blob/master/README.md) **Licencia Apache 2.0**
+- [SSI blog on testing software](https://www.software.ac.uk/resources/guides/testing-your-software?_ga=2.39233514.830272891.1552653652-1336468516.1531506806) **Creative Commons Attribution Non-Commercial 2.5 License.**
+- [Turing testing course](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch03tests/03pytest.html) **Creative Commons share and remix**
+- [Mocking](https://www.vogella.com/tutorials/Mockito/article.html) **Attribution-NonCommercial-ShareAlike 3.0 Germany (CC BY-NC-SA 3.0 DE)**
+- [Testing with floating points](https://github.com/softwaresaved/automated_testing/blob/master/README.md) **Apache License 2.0**
 
-## Materiales utilizados: Tipos de pruebas
+## Materials used: Types of tests
 
-- [Pruebas de software fundamentales: niveles de pruebas](http://softwaretestingfundamentals.com/software-testing-levels/) **Copiado izquierdo - 2019 STF**
+- [Software testing fundamentals: levels of tests](http://softwaretestingfundamentals.com/software-testing-levels/) **Copyleft - 2019 STF**
 
-## Materiales utilizados: pruebas de humo
+## Materials used: Smoke testing
 
-- [Digital ocean](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License**
+- [Digitalocean](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.**
 
-## Materiales utilizados: Ejecución de pruebas
+## Materials used: Unit testing
 
-- [Una introducción a la integración continua](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Licencia Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International**
-- [Pruebas de software fundamentales: pruebas unitarias](http://softwaretestingfundamentals.com/unit-testing/) **Copiada - 2019 STF**
+- [An introduction to continuous integration](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.**
+- [Software testing fundamentals: unit tests](http://softwaretestingfundamentals.com/unit-testing/) **Copyleft - 2019 STF**
 
-## Materiales utilizados: Prueba de integración
+## Materials used: Integration testing
 
-- [Una introducción a la integración continua](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Licencia Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International**
-- [Pruebas de software fundamentales: prueba de integración](http://softwaretestingfundamentals.com/integration-testing/) **Copiada - 2019 STF**
+- [An introduction to continuous integration](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.**
+- [Software testing fundamentals: integration testing](http://softwaretestingfundamentals.com/integration-testing/) **Copyleft - 2019 STF**
 
-## Materiales utilizados: Prueba del sistema
+## Materials used: System testing
 
-- [Pruebas de software fundamentales: prueba del sistema](http://softwaretestingfundamentals.com/system-testing/) **Copiada - 2019 STF**
-- [Una introducción a la integración continua](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Licencia Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International**
+- [Software testing fundamentals: system testing](http://softwaretestingfundamentals.com/system-testing/) **Copyleft - 2019 STF**
+- [An introduction to continuous integration](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.**
 
-## Materiales utilizados: Prueba de Aceptación
-- [Una introducción a la integración continua](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Licencia Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International**
+## Materials used: Acceptance testing
+- [An introduction to continuous integration](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.**
 
-## Materiales utilizados: Prueba de Regresión
+## Materials used: Regression testing
 
-- [Software de sonido](http://soundsoftware.ac.uk/unit-testing-why-bother/) **Licencia Creative Commons Attribution-NonCommercial 3.0**
-- [Prueba de software de pruebas fundamentales de regresión](http://softwaretestingfundamentals.com/regression-testing/) **Copiado**
-- [Ejemplos de pruebas de Regresión por Cem Karner](http://www.testingeducation.org/k04/RegressionExamples.htm) **Licencia Creative Commons Attribution-ShareAlike 2.0**
-- [Adoptando pruebas automatizadas](https://github.com/softwaresaved/automated_testing/blob/master/README.md) **Licencia Apache 2.0**
+- [Sound software](http://soundsoftware.ac.uk/unit-testing-why-bother/) **Creative Commons Attribution-NonCommercial 3.0 License**
+- [Software testing fundamentals regression testing](http://softwaretestingfundamentals.com/regression-testing/) **Copyleft**
+- [Examples of Regression Testing by Cem Karner](http://www.testingeducation.org/k04/RegressionExamples.htm) **Creative Commons Attribution-ShareAlike License 2.0**
+- [Adopting automated testing](https://github.com/softwaresaved/automated_testing/blob/master/README.md) **Apache License 2.0**
 
-## Materiales utilizados: Ejecución de pruebas
+## Materials used: Runtime testing
 
-- [Habla por Chrys Woods](https://drive.google.com/file/d/1CBTAhCVixccui1DjeUT13qh6ga5SDXjl/view) [**Licencia internacional Creative Commons Attribution-NonCommercial-ShareAlike 4.0**](https://chryswoods.com/main/copyright.html)
+- [Talk by Chrys Woods](https://drive.google.com/file/d/1CBTAhCVixccui1DjeUT13qh6ga5SDXjl/view) [**Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License**](https://chryswoods.com/main/copyright.html)
 
-## Materiales utilizados: Desarrollo impulsado por pruebas
+## Materials used: Test driven development
 
-- [Probando su software](https://software.ac.uk/resources/guides/testing-your-software) **Licencia Creative Commons Attribution-NonCommercial 3.0**
-- [¿Por qué molestar](http://soundsoftware.ac.uk/unit-testing-why-bother/) **Licencia Creative Commons Attribution-NonCommercial 3.0**
+- [Testing your software](https://software.ac.uk/resources/guides/testing-your-software) **Creative Commons Attribution-NonCommercial 3.0 License.**
+- [Why bother](http://soundsoftware.ac.uk/unit-testing-why-bother/) **Creative Commons Attribution-NonCommercial 3.0 License.**
 
-## Materiales utilizados: glosario
+## Materials used: glossary
 
-- [Centro Holandés de eScience](https://guide.esciencecenter.nl/#/best_practices/testing) **Licencia Creative Commons Attribution 4.0 International**
+- [Netherlands eScience centre](https://guide.esciencecenter.nl/#/best_practices/testing) **Creative Commons Attribution 4.0 International License**
 
-### Definiciones/glosario
+### Definitions/glossary
 
-- **Prueba de aceptancia:** Una prueba que el programa cumple con los requisitos fundamentales del proyecto.
+- **Acceptance test:** A test that the program meets the project's fundamental requirements.
 
-- **Cobertura del código:** Una medida que describe la cantidad del código fuente que ejerce la suite de pruebas.
+- **Code coverage:** A measure which describes how much of the source code is exercised by the test suite.
 
-- **Prueba de fin a fin:** Una prueba que ejecuta el programa de principio a fin y verifica que la salida es correcta.
+- **End to end test:** A test that runs the program from beginning to end and verifies that the output is correct.
 
-- **Prueba de integración:** Una prueba donde las unidades de código se combinan y ejecutan, y la salida se verifica para comprobar que las unidades han sido correctamente integradas.
+- **Integration test:** A test where units of code are combined and run, and the output is verified to check the units have been correctly integrated.
 
-- **Mocking:** Reemplaza un objeto real con uno fingido para usar al ejecutar pruebas.
+- **Mocking:** Replace a real object with a pretend one to use when running tests.
 
-- **Prueba de regresión:** Comparando el resultado de una prueba antes y después de que el código ha sido alterado. Si la salida ha cambiado un problema ha sido introducido en algún lugar del programa, y se produce un error.
+- **Regression test:** Comparing the result of a test before and after the code has been altered. If the output has changed a problem has been introduced somewhere in the program, and an error is thrown.
 
-- **Prueba de ejecución:** Pruebas incrustadas en el programa que se ejecutan como parte de él.
+- **Runtime test:** Tests embedded within the program which are run as part of it.
 
-- **Prueba de humo:** Comprobaciones iniciales muy breves que aseguran los requisitos básicos necesarios para ejecutar el proyecto.
+- **Smoke test:** Very brief initial checks that ensure the basic requirements needed to run the project hold.
 
-- **Código estocástico:** Código que, si es correcto, no siempre produce el mismo resultado. Por ejemplo, un programa que produce diez números aleatorios generará un resultado diferente cada vez, a pesar de ser correcto.
+- **Stochastic code:** Code which, while correct, does not always output the same result. For example a program that outputs ten random numbers will generate a different result each time, despite being correct.
 
-- **Prueba del sistema:** Vea "end to end test".
+- **System test:** See "end to end test".
 
-- **Desarrollo impulsado por pruebas:** Un proceso de desarrollo de código donde las pruebas unitarias se escriben antes que las unidades mismas.
+- **Test driven development:** A process of code development where unit tests are written before the units themselves.
 
-- **Base de pruebas:** Implementaciones falsas de partes de código que se utilizan en pruebas para eliminar dependencias.
+- **Test stub:** Fake implementations of parts of code which are used in testing to remove dependences.
 
-- **Test suite:** Las pruebas que se han escrito para un proyecto.
+- **Test suite:** The tests that have been written for a project.
 
-- **Marco de prueba:** Herramientas que hacen que la escritura y ejecución de pruebas sean menos intensivas.
+- **Testing framework:** Tools that make writing and running tests less labour intensive.
 
-- **Unidad:** Un pequeño fragmento de código que hace una cosa simple. Normalmente tiene una o unas pocas entradas y generalmente una sola salida.
+- **Unit:** A small piece of code that does one simple thing. It usually has one or a few inputs and usually a single output.
 
-- **Prueba unitaria:** Una prueba que comprueba el comportamiento de una unidad.
+- **Unit test:** A test that checks the behaviour of a unit.

@@ -1,43 +1,43 @@
-crwdns842090:0crwdne842090:0
-# crwdns842092:0crwdne842092:0
+(pd-overview-version)=
+# Version Control and Documentation
 
-crwdns842094:0crwdne842094:0 crwdns842096:0crwdne842096:0
+Once the project is designed, is important to keep track of all the changes. This will save you a lot of time and can help others understand and reuse your research - you have a record of what worked best and information to understand why.
 
-crwdns842098:0crwdne842098:0
-## crwdns842100:0crwdne842100:0
+(pd-overview-version-experiments)=
+## Experimental Work
 
-crwdns842102:0crwdne842102:0 crwdns842104:0crwdne842104:0
+It is necessary to write down all the details about your experimental work. This allows future reader, a colleague and your future self to understand and reproduce all the experimental work related to your project.
 
-crwdns842106:0{ref}crwdne842106:0 crwdns842108:0crwdne842108:0 crwdns842110:0crwdne842110:0
+An useful tool to do this is {ref}`Electronic Lab Notebooks<rr-open-notebooks>` (ELNs). ELNs are a digital version of the paper notebook, with the added advantage of searchability, secure storage and remote access. They also are easy to share among team members and collaborators.
 
-crwdns842112:0crwdne842112:0
+It is important to document and share the methodology, analysis and procedures used, as well as data specific information.
 
-crwdns842114:0crwdne842114:0
-## crwdns842116:0crwdne842116:0
+(pd-overview-version-comp)=
+## Computational Work
 
-crwdns842118:0{ref}crwdne842118:0
+In the active phase of a project is important to keep consistency in your code (read this chapter on {ref}`code quality<rr-code-quality>`), as well as documenting and creating tests for it.
 
-crwdns842120:0crwdne842120:0 crwdns842122:0crwdne842122:0
-- crwdns842124:0crwdne842124:0
-- crwdns842126:0crwdne842126:0
-- crwdns842128:0crwdne842128:0
+Documenting your code will help others understand your work. Some tools that can be used to document your code more easily are:
+- "Docstring" in R or Python
+- "Javadoc" format in Java
+- Integrated software development (RStudio, Eclipse, VS Code) facilitate the comment writing process and the generation of documentation.
 
-crwdns842130:0crwdne842130:0 crwdns842132:0crwdne842132:0
+Creating tests helps to save time and money. By providing a way to know if your code works, mistakes can be easily addressed by you and others.
 
-crwdns842134:0{ref}crwdne842134:0
+To read more about code testing go to the {ref}`Code Testing chapter<rr-testing>`.
 
-crwdns842136:0crwdne842136:0
-## crwdns842138:0crwdne842138:0
+(pd-overview-version-vcs)=
+## Version Control
 
-crwdns842140:0crwdne842140:0 crwdns842142:0crwdne842142:0
+Recording all the changes made while researching is a principal part of doing reproducible research. It helps you and others understand the decisions made and makes the work reproducible - you will have all the information about the steps taken.
 
-crwdns842144:0crwdne842144:0
+If working on a collaborative project, this will also help to keep track of who performed each change.
 
-crwdns842146:0crwdne842146:0
+The added advantage is that everything will be neatly organized, with easy access to the current version of your project and ways to look for changes made in the past.
 
-crwdns842148:0crwdne842148:0
-- crwdns842150:0crwdne842150:0
-- crwdns842152:0crwdne842152:0
-- crwdns842154:0crwdne842154:0
+Some systems for controlling versions are:
+- Git
+- Mercurial
+- Subversion
 
-crwdns842156:0{ref}crwdne842156:0
+There is an extensive chapter about {ref}`Version Control System<rr-vcs>` in the Guide for Reproducible Research that can be helpful at this stage.

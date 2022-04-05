@@ -1,201 +1,226 @@
-crwdns835856:0crwdne835856:0
-# crwdns835858:0crwdne835858:0
+(ch-consistency-formatting)=
+# Formatting
 
-crwdns835860:0crwdne835860:0
+Formatting refers to how _The Turing Way_ book is written and directly affects the book's appearance and presentation.
 
-crwdns835862:0crwdne835862:0 crwdns835864:0crwdne835864:0
-
-
-crwdns835866:0crwdne835866:0
-## crwdns835868:0crwdne835868:0
-
-crwdns835870:0crwdne835870:0 crwdns835872:0crwdne835872:0
-
-crwdns835874:0crwdne835874:0
-### crwdns835876:0crwdne835876:0
-
-crwdns835878:0crwdne835878:0
+_The Turing Way_ is hosted online as a Jupyter Book and uses the formatting recommendations as described in their [documentation](https://jupyterbook.org/intro.html). Proper formatting ensures that _The Turing Way_ is readable, accessible, and resembles a modular piece of work.
 
 
-#### crwdns835880:0crwdne835880:0
+(ch-consistency-formatting-hr)=
+## Hard Requirements
 
-crwdns835882:0crwdne835882:0
+The hard requirements in the consistency checklist ensure that _The Turing Way_ prioritises accessibility, collaboration, readability and ease of use. The checks that deal with the _The Turing Way's_ formatting include:
 
-crwdns835884:0{ref}crwdne835884:0
+(ch-consistency-formatting-hr-markdown)=
+### Check 1:  Use Markdown for creating your content
+
+_The Turing Way_ should be written in [Markdown](https://en.wikipedia.org/wiki/Markdown) where possible, so that the Jupyter Book renders as intended.
+
+
+#### Markdown x HTML
+
+Parts of earlier chapters in _The Turing Way_ were written in `HTML`, making some of their content hard to read.
+
+For example, {ref}`html-to-markdown` depicts a table that was written in `HTML`.
 
 ```{figure} ../../figures/html-to-markdown.png
-crwdns835886:0crwdne835886:0 crwdns835888:0crwdne835888:0 crwdns835890:0crwdne835890:0
-crwdns835892:0crwdne835892:0
+---
+name: html-to-markdown
+alt: A screenshot of a poorly formatted table written in HTML. The table is squished together and does not have column or row borders. This makes it hard for a reader to decipher its meaning.
+---
+Content written in HTML may not render properly.
 ```
 
-crwdns835894:0crwdne835894:0
+When reformatted to Markdown, the table became cleaner and easier to read:
 
 ```{figure} ../../figures/html-to-markdown2.png
-crwdns835896:0crwdne835896:0 crwdns835898:0crwdne835898:0
-crwdns835900:0crwdne835900:0
+---
+name: html-to-markdown2
+alt: A screenshot of a table converted to Markdown from HTML. The table becomes easier to read and understand when converted to Markdown.
+---
+Converting HTML to Markdown makes The Turing Way book easier to read.
 ```
-crwdns835902:0{note}crwdne835902:0
-```
-
-crwdns835904:0crwdne835904:0
-crwdns835906:0[W3Schools]crwdne835906:0
-crwdns835908:0[Turndown]crwdnd835908:0[CloudConvert]crwdne835908:0
-
-crwdns835910:0crwdne835910:0
-crwdns835912:0crwdne835912:0
-crwdns835914:0crwdne835914:0
-
-
-crwdns835916:0{attention}crwdnd835916:0:class:crwdne835916:0
-crwdns835918:0crwdne835918:0
-
-crwdns835920:0crwdne835920:0
-
-crwdns835922:0crwdne835922:0
-
+```{note} A PR that addresses this check can be found [here](https://github.com/alan-turing-institute/the-turing-way/pull/1460).
 ```
 
-crwdns835924:0{ref}crwdne835924:0
+Chapter content written in `HTML` are usually enclosed in tags which begin and end with angle brackets `<>`.
+[W3Schools](https://www.w3schools.com/html/html_elements.asp) is an excellent resource for understanding what these tags mean, and Markdown reference guides, such as [this cheatsheet](https://www.markdownguide.org/cheat-sheet/), can help translate `HTML` formatting to Markdown.
+There are also helpful tools on the web, such as [Turndown](https://domchristie.github.io/turndown/) and [CloudConvert](https://cloudconvert.com/html-to-md), that convert `HTML` to Markdown with a single click.
 
-#### crwdns835926:0crwdne835926:0
+Please note that if `HTML` is the only option for you to format your text the way you desire, you can use it only if the content in the online book can still be read and understood (use the Netlify preview in your PR to test).
+For example, [superscripts and subscripts](https://support.squarespace.com/hc/en-us/articles/206543587-Markdown-cheat-sheet#toc-superscript-and-subscript) can be written in `HTML` because they always appear as intended.
+In addition, content like YouTube videos and tables with headers that span multiple columns or rows can be written in `HTML`.
+
+
+```{attention} A Note About Styling
+:class: tip
+
+_The Turing Way_ has a [book-wide stylesheet](https://github.com/alan-turing-institute/the-turing-way/blob/main/book/website/_static/book-stylesheet.css) that controls the look of content written in `HTML`.
+If you include `HTML` in your contribution, ensure that your formatting includes the relevant classes and IDs from the stylesheet.
+
+For example, if you want to add a YouTube video to your content using the `<iframe>` tag, wrap the `<iframe>` in a `<div>` tag, and give the `div` a `video-container` class as shown below.
 
 <div class="video-container">
-    <iframe width="560" height="315" src="crwdns835928:0crwdne835928:0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe>....</iframe>
 </div>
 
-#### crwdns835930:0crwdne835930:0
-
-crwdns835932:0crwdne835932:0 crwdns835934:0crwdne835934:0
-
-```
-crwdns835936:0crwdne835936:0
-
 ```
 
-crwdns835938:0crwdne835938:0
+This is also described in the {ref}`Style Guide<ch-style-custom-styling-videos>`.
+
+#### Demo
+
+<div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/tv0HlVgxDdI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+#### Writing Checklists
+
+When writing a new chapter for _The Turing Way_, you might include a Checklist subchapter that itemises key action points you want readers to take based on the chapter content. For earlier chapters in _The Turing Way_, this subchapter is written in Markdown as a Task List with checkboxes:
+
+```
+# Checklist
+- [ ] Item One
+- [ ] Item Two
+- [ ] Item Three
+
+```
+
+However, the checkboxes do not display as intended in the online version of the book, for example:
 
 ```{figure} ../../figures/checklist-formatting.png
-crwdns835940:0crwdne835940:0
-crwdns835942:0crwdne835942:0
+---
+name: checklist-formatting
+alt: When the Checklist subchapter of any chapter is written in Markdown as a Task List with checkboxes, square brackets are displayed rather than checkboxes in the web version of the book.
+---
+Checkboxes are displayed as square brackets in the web version of the book.
 ```
 
-crwdns835944:0crwdne835944:0
+Thus, we recommend that you format your Checklist subchapters as unordered lists in your future contributions, and edit earlier chapters that follow the other convention:
 
 ```
-crwdns835946:0crwdne835946:0
+# Checklist
+- Item One
+- Item Two
+- Item Three
 
 ```
-#### crwdns835948:0crwdne835948:0
+#### Demo
 
 <div class="video-container">
-    <iframe width="560" height="315" src="crwdns835950:0crwdne835950:0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/oe2Up1pU5DY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-crwdns835952:0crwdne835952:0
-### crwdns835954:0crwdne835954:0
+(ch-consistency-formatting-hr-headers)=
+### Check 2: Use headers in sequential order.
 
-crwdns835956:0crwdne835956:0 crwdns835958:0crwdne835958:0
-
-```
-crwdns835960:0crwdne835960:0
-```
-crwdns835962:0crwdne835962:0 crwdns835964:0crwdne835964:0
+Non-consecutive headers refer to an increase in header levels of more than one. For example:
 
 ```
-crwdns835966:0crwdne835966:0
+# Heading
+### Another Heading
+```
+Such an increase of two header levels results in warnings when building _The Turing Way_ locally. Ideally, all Markdown files should start with a level 1 heading and increase sequentially as appropriate:
+
+```
+# Heading
+## Another Heading
 ```
 
-crwdns835968:0crwdne835968:0 crwdns835970:0crwdne835970:0
+Several files in _The Turing Way_ book do not follow this convention. A list of such files can be found in [this issue](https://github.com/alan-turing-institute/the-turing-way/issues/1321), and [this PR](https://github.com/alan-turing-institute/the-turing-way/pull/1451) is a great example of how to fix a file with non-consecutive headers.
 
-#### crwdns835972:0crwdne835972:0
+#### Demo
 
 <div class="video-container">
-    <iframe width="560" height="315" src="crwdns835974:0crwdne835974:0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/qq9QCrykdbw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-crwdns835976:0crwdne835976:0
-### crwdns835978:0crwdne835978:0
+(ch-consistency-formatting-hr-labels)=
+### Check 3: Add labels to chapters, subchapters, sections, and images to enable cross-referencing.
 
-crwdns835980:0crwdne835980:0 crwdns835982:0crwdne835982:0 crwdns835984:0crwdne835984:0
+Often, a chapter might refer to content from another chapter to explain concepts or expand on points. Cross-referencing facilitates this by ensuring that the referred content is easy to find with a simple click. This helps make _The Turing Way_ more navigable and accessible.
 
-crwdns835986:0{ref}crwdnd835986:0{ref}crwdne835986:0 crwdns835988:0crwdne835988:0
+{ref}`Cross-referencing <ch-style-crossref>` is discussed in detail in the {ref}`ch-style`. The subchapter explains what labels are, provides a naming convention for labels in _The Turing Way_, and gives several useful examples for how cross-referencing should be done.
 
-#### crwdns835990:0crwdne835990:0
+#### Demo
 
 <div class="video-container">
-    <iframe width="560" height="315" src="crwdns835992:0crwdne835992:0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ikcjxjklLVg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-crwdns835994:0crwdne835994:0
-### crwdns835996:0crwdne835996:0
+(ch-consistency-formatting-hr-images)=
+### Check 4: Use `MyST` for image formatting
 
-crwdns835998:0crwdne835998:0 crwdns836000:0crwdne836000:0
+Some figures and images in _The Turing Way_ are embedded using Markdown syntax. While this works, it does not allow the images to adapt to the screen size of the device the book is read from.
 
-crwdns836002:0crwdne836002:0
+Markedly Structured Text (`MyST`) is a flavour of Markdown that addresses this and enables responsive images in the _The Turing Way_.
 
-crwdns836004:0crwdne836004:0 crwdns836006:0crwdne836006:0
+It also allows the use of captions and alternative text (ALT text), which are the invisible image descriptions that are read aloud to readers of the _The Turing Way_ who use a screen reader. If no ALT text is provided with an image, these users will be unable to understand the purpose of the image.
 
-crwdns836008:0crwdne836008:0
-- crwdns836010:0crwdne836010:0 crwdns836012:0crwdne836012:0
-- crwdns836014:0crwdne836014:0 crwdns836016:0crwdne836016:0
+When writing ALT text, remember to:
+- **Be descriptive** - Adequately describe the image using its content and context for guidance. In doing so, there is no need to "announce" an image in your description (for example, using "illustration of" or "picture of") since screen readers will already do this.
+- **Keep it as short as possible** - Although a long description may be necessary for some images, it is better to keep them as short as possible. This ensures that the descriptions are easy to understand.
 
-crwdns836018:0crwdne836018:0 crwdns836020:0crwdne836020:0
+Please note that images included in _The Turing Way_ book should be less than 1MB. This allows the book load faster, especially for readers who may have slow internet connections.
 
-crwdns836022:0{ref}crwdne836022:0 crwdns836024:0crwdne836024:0 crwdns836026:0crwdne836026:0
+Please refer to the {ref}`style guide <ch-style-figures>` for examples on formatting images using `MyST` and adding ALT text to them. When including images in your contributions, it may be better to avoid the height parameter as the wrong value could make your image appear distorted on mobile devices. You should always check how your image looks in the Netlify preview of the book when you make a PR.
 
-#### crwdns836028:0crwdne836028:0
+#### Demo
 
 <div class="video-container">
-    <iframe width="560" height="315" src="crwdns836030:0crwdne836030:0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/upBiKLR_A5E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-crwdns836032:0crwdne836032:0
-## crwdns836034:0crwdne836034:0
+(ch-consistency-formatting-sr)=
+## Soft Requirements
 
-crwdns836036:0crwdne836036:0 crwdns836038:0crwdne836038:0 crwdns836040:0crwdne836040:0
+Soft requirements help improve the overall look and feel of _The Turing Way_. When effected, these checks may go unnoticed, but they also contribute to making _The Turing Way_ a polished piece of work. Soft requirements that deal with _The Turing Way's_ formatting include:
 
-crwdns836042:0crwdne836042:0
-### crwdns836044:0crwdne836044:0
+(ch-consistency-formatting-sr-one)=
+### Check 1: Ensure that the names of chapters/subchapters are short and map exactly to how they are titled in the `_toc.yml`
 
-crwdns836046:0crwdne836046:0 crwdns836048:0crwdne836048:0
+Some chapters and subchapters in _The Turing Way_ do not match their corresponding references in the book-wide table of contents that appears on the left of the webpage. This may be confusing for users, especially when the chapter/subchapter's reference in the table of contents significantly varies from the chapter/subchapter's name.
 
 ```{figure} ../../figures/mismatched-title-toc.png
-crwdns836050:0crwdne836050:0 crwdns836052:0crwdne836052:0
-crwdns836054:0crwdne836054:0
+---
+name: mismatched-title-toc
+alt: A subchapter whose title differs from its reference in the table of contents. The title of the subchapter is 'Using Spreadsheets for Research Data', however in the table of contents, it is referred as 'Data Organisation in Spreadsheets'.
+---
+The title of this subchapter is 'Using Spreadsheets for Research Data', however the table of content refers to the same file as 'Data Organisation in Spreadsheets'.
 ```
 
-crwdns836056:0crwdne836056:0 crwdns836058:0crwdne836058:0 crwdns836060:0crwdne836060:0
+In ensuring that _The Turing Way's_ content passes this check, one recommendation to follow is to keep the titles short. When writing a new chapter, ensure that its title is short and has the same name in the table of contents. Similarly, when reviewing existing chapters, if its title and reference in the table of contents differ, make the shorter of the two the chapter's title, and update the `_toc.yml` if necessary.
 
 ```{note}
-crwdns836062:0crwdne836062:0
+The `_toc.yml` is the file where the book-wide table of contents for _The Turing Way_ lives.
 ```
 
-crwdns836064:0crwdne836064:0
+Nonetheless, remember that the final title should adequately tell readers what to expect from a chapter or subchapter.
 
-#### crwdns836066:0crwdne836066:0
+#### Demo
 
 <div class="video-container">
-    <iframe width="560" height="315" src="crwdns836068:0crwdne836068:0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HxcdqKJbCE4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-crwdns836070:0crwdne836070:0
-### crwdns836072:0crwdne836072:0
+(ch-consistency-formatting-sr-two)=
+### Check 2: Ensure proper title-casing for headers
 
-crwdns836074:0crwdne836074:0 crwdns836076:0crwdne836076:0 crwdns836078:0crwdne836078:0
+The titles of some chapters in _The Turing Way_ do not use title-casing. [Title-casing](https://en.wikipedia.org/wiki/Title_case) is a capitalisation style used to format the titles and headings of published works. Being a citeable reference for individuals seeking to carry out reproducible data science, titles and headings in _The Turing Way_ should be title-cased.
 
-crwdns836080:0crwdne836080:0
-- crwdns836082:0crwdne836082:0
-- crwdns836084:0crwdne836084:0
-- crwdns836086:0crwdne836086:0
+Although _The Turing Way_ does not follow a specific title capitalisation style, some general, non-exhaustive rules to consider include:
+- Capitalise principal or important words
+- Lowercase articles, conjunctions, and prepositions (unless when these are stressed)
+- Capitalise the first and last words
 
-crwdns836088:0crwdne836088:0 crwdns836090:0crwdne836090:0 crwdns836092:0crwdne836092:0
+There are helpful tools, such as [CapitalizeMyTitle](https://capitalizemytitle.com/) and [Title Case Converter](https://titlecaseconverter.com/), that can be used to title-case headers when writing your content. Furthermore, headers in _The Turing Way_ can be run through these tools to ensure they follow title-casing conventions. They can then be replaced within chapters and in the `_toc.yml` as appropriate.
 
-crwdns836094:0{ref}crwdne836094:0
+For example, In {ref}`mismatched-title-toc` above, **Using spreadsheets for research data** should be title-cased to **Using Spreadsheets for Research Data**.
 
-crwdns836096:0crwdne836096:0 crwdns836098:0crwdne836098:0
+Certain headers may not need to be title-cased depending on the context in which they are used. For example, because some of the headers in this chapter make up a checklist - they do not need to be title-cased.
 
-#### crwdns836100:0crwdne836100:0
+#### Demo
 
 <div class="video-container">
-    <iframe width="560" height="315" src="crwdns836102:0crwdne836102:0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ET_LI5dwP9M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

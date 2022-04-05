@@ -1,41 +1,42 @@
-(terra-política-interno)=
-# Política interna de defesa
+(er-internal-policy)=
+# Internal Policy Advocacy
 
-A defesa da política interna é quando indivíduos ou grupos associados a uma campanha de organização a favor de uma mudança na forma como a organização toma decisões, executa projetos, escolhe colaboradores, desenvolve produtos ou em outras áreas. Pode ser um instrumento verdadeiramente poderoso de mudança, independentemente de o grupo de pessoas a fazer campanha estar ou não unido.
+Internal policy advocacy is when individuals or groups associated with an organisation campaign for a change in the way that the organisation makes decisions, runs projects, chooses collaborators, develops products, or in other areas. It can be a really powerful tool for change, regardless of whether or not the group of people campaigning are in a union.
 
 ```{figure} ../figures/advocacy.jpg
 ---
-nome: advocacy
-alt: Uma pessoa assina uma petição realizada por outra pessoa, em frente a um grupo de pessoas marchando sob um estandarte lendo "Advogada!"
---- Existem diferentes maneiras de participar do advocacia. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.4906004](https://doi.org/10.5281/zenodo.4906004).
+name: advocacy
+alt: One person signs a petition held by another person, in front of a group of people marching under a banner reading "Advocacy!"
+---
+There are different ways to take part in advocacy. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.4906004](https://doi.org/10.5281/zenodo.4906004).
 ```
 
-## Como defender internamente
-Um conjunto básico de passos que você pode tomar para a defesa da política interna (adaptado das [diretrizes](https://knowhow.ncvo.org.uk/how-to/how-to-run-effective-campaigns) produzidas pelo NCVO no Reino Unido, usado sob [CC BY-NC-SA 4.](https://creativecommons.org/licenses/by-nc-sa/4.0/) licença):
-1. Definir a issue
-    - Qual é o problema que nos preocupa?
-    - Está ligada a outras questões ou políticas? Ferramentas como [árvores problemáticas](https://www.odi.org/publications/5258-planning-tools-problem-tree-analysis) podem ser úteis para identificar o que mais está contribuindo para o problema. Pode acontecer que a política que o senhor deputado está preocupado com a construção de outras políticas ou problemas internos. Talvez queiram fazer campanha contra estes.
-    - Você pode encapsular o problema numa mensagem curta e de fácil compreensão?
-2. Coletar provas
-    - Estude a questão que os senhores estão a defender exaustivamente
-    - Você pode querer coletar provas documentais, depoimentos, cobertura mídia, trabalho acadêmico sobre o problema
-    - Junte uma discussão clara e concisa sobre os problemas e o que você acha que precisa mudar
-    - Prepare-se para responder a perguntas difíceis sobre sua questão, por que é real e por que é importante
-3. Encontre aliados úteis
-    - Mire as pessoas que entendem sua causa ou têm uma ligação com ela.
-    - Entre em contato com organizações criadas para ajudar a causas como as suas (peça conselhos, acesso a especialistas).
-    - Obtenha apoio de pessoas que têm poder em seu campo ou em outras áreas
-    - Encontre formas de envolver seus colegas, dentro e fora da organização: por exemplo, assinar uma petição pode ser um primeiro passo
-4. Saiba quem deve pressionar o lobby
-    - Identifique suas rotas de influência. Quem está em posição de mudar? Como você os alcançará?
-    - Pense nos seus próprios contatos: você pode alcançar as pessoas diretamente no comando ou você precisa ir através de outras pessoas
-    - Não se sinta desanimado com o primeiro obstáculo, o lobbying é um trabalho difícil!
-5. Use uma variedade de táticas
-    - E-mails, cobertura de mídia e um bom site são úteis.
-    - BUT... Experimente um pouco mais de criatividade - o que faria sua campanha se destacar e fazer as pessoas falarem?
-    - Não se esqueça de avaliar como está fazendo (número de assinaturas em uma petição, número de vezes que a questão é levantada em uma reunião completa
+## How to advocate internally
+A basic set of steps you can take for internal policy advocacy (adapted from [guidelines](https://knowhow.ncvo.org.uk/how-to/how-to-run-effective-campaigns) produced by the NCVO in the UK, used under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license):
+1. Define the issue
+    - What is the problem that you are concerned about?
+    - Is it linked to other issues or policies? Tools like [problem trees](https://www.odi.org/publications/5258-planning-tools-problem-tree-analysis) can be useful to map out what else is contributing to the problem. It might be the case that the policy you are worried about builds on other internal policies or problems. You might want to campaign against those instead.
+    - Can you encapsulate the problem in a short, easy-to-understand message?
+2. Gather evidence
+    - Research the issue you are campaigning about thoroughly
+    - You might want to collect documentary evidence, testimonials, media coverage, academic work, about the issue
+    - Put together a clear, concise argument about the problems and what you think needs to change
+    - Prepare yourself to answer difficult questions about your issue, why it is real and why it is important
+3. Find useful allies
+    - Target people who understand your cause or have a connection to it.
+    - Get in touch with organisations set up to help causes such as yours (ask for advice, access to experts).
+    - Get endorsement from people who hold power in your field, or in other areas
+    - Find ways to involve your colleagues, inside and outside the organisation: for example, signing a petition can be a first step
+4. Know who to lobby
+    - Identify your routes of influence. Who is in a position to make change? How will you reach them?
+    - Think about your own contacts: can you reach people in charge directly, or do you need to go via other people
+    - Don't get disheartened at the first hurdle, lobbying is hard work!
+5. Use a range of tactics
+    - Emails, media coverage and a good website are all useful.
+    - BUT... try a little more creativity - what would make your campaign stand out and get people talking?
+    - Don't forget to assess how you're doing (number of signatures on a petition, number of times the issue is raised at an all-hands meeting
 
-Deveria reflectir também sobre os potenciais riscos para si e para os seus colegas por falarem de si. Muitas pessoas estão relutantes em defender ou exercer pressões no seu local de trabalho, porque correm o risco de perder os seus meios de subsistência se houver retaliação contra elas. A adesão à União Europeia pode oferecer alguma protecção contra esta situação: a campanha pode ser levada a cabo pela União como um colectivo, e não por trabalhadores individuais. Pense em outras coisas que podem dar errado, ou que possam dissuadir seus colegas de falarem, e ver se você consegue encontrar uma maneira de mitigá-los. 
+You should also think about the potential risks to you and your colleagues for speaking up. Many people are reluctant to engage in advocacy or lobbying in their workplace, because they risk losing their livelihoods if there is retaliation against them. Union membership can offer some protection against this: campaigning can be done by the union as a collective, rather than by individual workers. Think about other things that might go wrong, or that might dissuade your colleagues from speaking up, and see if you can find a way to mitigate them. 
 
 
 

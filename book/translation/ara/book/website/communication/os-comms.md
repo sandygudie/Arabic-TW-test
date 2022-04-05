@@ -1,19 +1,23 @@
-crwdns832488:0crwdne832488:0
-# crwdns832490:0crwdne832490:0
+(cm-os-comms)=
+# Communications in Open Source Projects
 
-## crwdns832492:0crwdne832492:0
+## Summary
 
-> crwdns832494:0crwdne832494:0
+> Conversation as Collaboration
 
-crwdns832496:0crwdne832496:0 crwdns832498:0crwdne832498:0 crwdns832500:0crwdne832500:0
+In an Open Source project, a significant amount of collaboration between the core or leadership team and the wider community takes place in the form of online interactions (likely many of them!). It is therefore really important to plan carefully _how_ and _where_ these interactions take place. Community interactions should maintain the transparency and openness of the project to facilitate the growth of your community, and the choice of the platforms should ensure that your project is welcoming, accessible, and secure for its collaborators.
 
-crwdns832502:0crwdne832502:0
+This chapter gives an overview of the most common ways to track, support and maintain community interactions such as by raising issues, reporting bugs and attracting contributions that lead to improvements in the project.
 
 ```{figure} ../figures/research-tools.jpg
-crwdns832504:0crwdne832504:0 crwdns832506:0crwdne832506:0
-crwdns832508:0crwdne832508:0 crwdns832510:0crwdne832510:0 crwdns832512:0crwdne832512:0 crwdns832514:0crwdne832514:0
+---
+name: research-tools
+width: 500px
+alt: A few people are looking for different information about experiment, tools, privacy. There are different places or channels where these details can be identified, which is displayed in a findable manner.
+---
+Idetifying right channel to communicate and find information. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-## crwdns832516:0crwdne832516:0
+## Background ad Motivation
 
-crwdns832518:0crwdne832518:0 crwdns832520:0crwdne832520:0
+When trying to build a community around an Open Source project, the content in this chapter will help make sure that your communications are as open, transparent and accessible as possible. This will help foster trust between the project team and the wider community and give them the agency to contribute where they can.

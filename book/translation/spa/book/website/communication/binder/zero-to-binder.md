@@ -1,431 +1,431 @@
 (z2b)=
-# Cero a Binder
+# Zero-to-Binder
 
-En este capítulo, crearemos un proyecto Binder desde cero: primero haremos un repositorio en GitHub y luego lo lanzaremos en mybinder.org. Las secciones en las que se espera que complete una tarea se deben a tres semáforos :vertical_trafficic_light: emojis. Algunos pasos te dan la opción de Python, Julia o R - haz clic en la pestaña de tu idioma preferido.
+In this chapter, we will create a Binder project from scratch: we will first make a repository on GitHub and then launch in on mybinder.org. Sections where you are expected to complete a task are denoted by three traffic light 🚦 emojis. Some steps give you the option of Python, Julia or R - click on the tab of your preferred language.
 
 ```{admonition} Attributions
-Este tutorial se basa en los talleres _Zero-to-Binder_ de Tim Head, que se pueden encontrar aquí: <http://bit.ly/zero-to-binder> y <http://bit.ly/zero-to-binder-rise>
+This tutorial is based on Tim Head's _Zero-to-Binder_ workshops which can be found here: <http://bit.ly/zero-to-binder> and <http://bit.ly/zero-to-binder-rise>
 
-Gracias a Anna Krystalli y Oliver Strickson por su ayuda para desarrollar el contenido de R y Julia. respectivamente.
+Thank you to Anna Krystalli and Oliver Strickson for their help developing the R and Julia content, respectively.
 ```
 
 ```{attention}
-El Binder puede tardar mucho en cargarse, pero esto no significa necesariamente que el Binder falle en su lanzamiento.
-Siempre puede actualizar la ventana si ve el mensaje "... está tardando más en cargar, ¡colgar fuerte!".
+Binder can take a long time to load, but this doesn't necessarily mean that your Binder will fail to launch.
+You can always refresh the window if you see the "... is taking longer to load, hang tight!" message.
 ```
 
 ```{admonition} If you are using R...
-Si estás siguiendo la ruta R, hemos incluido algunos pasos alternativos usando el [paquete `holepunch`](https://github. om/karthik/holepunch) que construirá tu entorno usando una [imagen base de rocker](https://github.com/rocker-org/rocker) y debería, en última instancia, ser más rápido de construir y lanzar.
+If you are following the R path, we have included some alternative steps using the [`holepunch` package](https://github.com/karthik/holepunch) which will build your environment using a [rocker base image](https://github.com/rocker-org/rocker) and should, ultimately, be faster to build and launch.
 ```
 
 (z2b-reqs)=
-## Requisitos
+## Requirements
 
-Necesitarás:
+You will need:
 
-- **Algún código y algunos datos.** El código debe tardar menos de **10 minutos en ejecutar**, y los datos deben ser menores de **10 MB**. Esto podría significar que sólo escoge un script de un proyecto más grande, o que traiga un subconjunto de sus datos. Ten en cuenta que es realmente importante que el código y los datos se puedan hacer **públicos** porque usaremos la instancia pública del enlace.
-- **Una cuenta de GitHub.** Por favor regístrate para una si aún no tienes una: <https://github.com/join>
+- **Some code and some data.** The code should take less than **10 minutes to run**, and the data should be less than **10 MB**. This might mean that you just pick one script from a bigger project, or bring a subset of your data. Note that it's really important that the code and data can be made **public** because we'll be using the public binder instance.
+- **A GitHub account.** Please sign up for one if you don't already have one: <https://github.com/join>
 
 (z2b-step-1)=
-## 1. Crear un repositorio para Binderizar
+## 1. Creating a repo to Binderize
 
 🚦🚦🚦
 
 ````{tabbed} Python
-1) Crea un nuevo repositorio en GitHub llamado "my-first-binder"
-   - Asegúrate de que el repositorio es **público**, _not private_!
-   - ¡No olvides inicializar el repositorio con un README!
-2) Crea un archivo llamado `hello.py` a través de la interfaz web con `print("Hola de Binder!")` en la primera línea y envía un commit a la rama `main`
+1) Create a new repo on GitHub called "my-first-binder"
+   - Make sure the repository is **public**, _not private_!
+   - Don't forget to initialise the repo with a README!
+2) Create a file called `hello.py` via the web interface with `print("Hello from Binder!")` on the first line and commit to the `main` branch
 ````
 
 ````{tabbed} Julia
-1) Crea un nuevo repositorio en GitHub llamado "my-first-binder"
-   - Asegúrate de que el repositorio es **público**, _not private_!
-   - ¡No olvides inicializar el repositorio con un README!
-2) Crear un archivo llamado `hola. l` a través de la interfaz web con `println("Hola de Binder! )` en la primera línea y enviar un commit a la rama `main`
-3) Crea un archivo llamado `Project. oml` (ADVERTENCIA: la capitalización es importante!) con el siguiente contenido y consagrarlo a `main`.
-   Esto instalará Julia en el entorno Binder .
+1) Create a new repo on GitHub called "my-first-binder"
+   - Make sure the repository is **public**, _not private_!
+   - Don't forget to initialise the repo with a README!
+2) Create a file called `hello.jl` via the web interface with `println("Hello from Binder!")` on the first line and commit to the `main` branch
+3) Create a file called `Project.toml` (WARNING: the capitalisation is important!) with the following content and commit it to `main`.
+   This will install Julia into the Binder environment.
 
-   ```Julia
+   ```julia
    [compat]
-   Julia = "1.3"
-```
+   julia = "1.3"
+   ```
 ````
 
 ````{tabbed} R
-1) Crea un nuevo repositorio en GitHub llamado "my-first-binder"
-   - Asegúrate de que el repositorio es **público**, _not private_!
-   - ¡No olvides inicializar el repositorio con un README!
-2) Crear un archivo llamado `hola. ` a través de la interfaz web con `print("Hola de Binder! )` en la primera línea y confirmar a la rama `main`
-3) Crea un archivo llamado `runtime. xt` con `r-2022-01-01` en la primera línea.
-   Esta fecha representa la instantánea de [CRAN](https://cran.r-project.org/) alojada en [RStudio Package Manager](https://packagemanager.rstudio.com) que usaremos.
-   Cometer este archivo a la rama `main`.
+1) Create a new repo on GitHub called "my-first-binder"
+   - Make sure the repository is **public**, _not private_!
+   - Don't forget to initialise the repo with a README!
+2) Create a file called `hello.R` via the web interface with `print("Hello from Binder!")` on the first line and commit to the `main` branch
+3) Create a file called `runtime.txt` with `r-2022-01-01` on the first line.
+   This date represents the snapshot of [CRAN](https://cran.r-project.org/) hosted on the [RStudio Package Manager](https://packagemanager.rstudio.com) we will use.
+   Commit this file to the `main` branch.
 
    ```{note}
-   En R puedes usar `holepunch::write_runtime()` para crear un `runtime.txt` en el directorio `.binder/`; será configurado con la fecha de hoy.
+   In R you can use `holepunch::write_runtime()` to create a `runtime.txt` in the `.binder/` directory; it will be configured with today's date.
    ```
 ````
 (z2b-public-repo)=
-### ¿Por qué el repo tiene que ser público?
-mybinder.org no puede acceder a los repositorios privados, ya que esto requeriría un token secreto. El equipo de Binder decide no asumir la responsabilidad de manejar fichas secretas, ya que mybinder.org es un servicio público y prueba del concepto tecnológico. Si acceder a los repositorios privados es una característica que usted o su equipo necesitan, le recomendamos que busque construir su propio [BinderHub](https://binderhub.readthedocs.io).
+### Why does the repo have to be public?
+mybinder.org cannot access private repositories as this would require a secret token. The Binder team choose not to take on the responsibility of handling secret tokens as mybinder.org is a public service and proof of technological concept. If accessing private repositories is a feature you/your team need, we advise that you look into building your own [BinderHub](https://binderhub.readthedocs.io).
 (z2b-step-2)=
-## 2. ¡Lanza tu primer repo!
+## 2. Launch your first repo!
 🚦🚦🚦
-1) Ve a **<https://mybinder.org>** 2) Escribe la URL de tu repositorio en el recuadro "GitHub repo o URL". Debería verse así:
-> **https://github.com/YOUR-USERNAME/my-first-binder** 3) A medida que escribes, la página web genera un enlace en la "Copiar la URL a continuación. ." box Debería verse así: **https://mybinder. rg/v2/gh/YOUR-USERNAME/my-first-binder/HEAD** 4) Copiarlo, abrir una nueva pestaña del navegador y visitar esa URL - Verás un "girador" cuando Binder lance el repositorio
-`Hola de Binder!` debe imprimirse en el terminal.
-(z2b-fondo-1)=
-### ¿Qué está pasando en segundo plano? - Parte 1
-Era fácil empezar, pero nuestro entorno es barebones - ¡Añadamos una **dependencia**!
-- Comparte la URL **https://mybinder.org/v2/gh/YOUR-USERNAME/my-first-binder/HEAD** directamente
-- Analizando el contenido
-- Construir una imagen Docker basada en tu repositorio
-- Iniciando esa imagen de Docker en la nube
-- Conectándote a ella a través de tu navegador
+1) Go to **<https://mybinder.org>** 2) Type the URL of your repo into the "GitHub repo or URL" box. It should look like this:
+> **https://github.com/YOUR-USERNAME/my-first-binder** 3) As you type, the webpage generates a link in the "Copy the URL below..." box It should look like this: **https://mybinder.org/v2/gh/YOUR-USERNAME/my-first-binder/HEAD** 4) Copy it, open a new browser tab and visit that URL - You will see a "spinner" as Binder launches the repo
+If everything ran smoothly, you'll see a JupyterLab interface.
+(z2b-background-1)=
+### What's happening in the background? - Part 1
+While you wait, BinderHub (the backend of Binder) is:
+- Fetching your repo from GitHub
+- Analysing the contents
+- Building a Docker image based on your repo
+- Launching that Docker image in the cloud
+- Connecting you to it via your browser
 (z2b-step-3)=
-## 3. Ejecutar el script
+## 3. Run the script
 🚦🚦🚦
 
 ````{tabbed} Python
-1. En el panel de inicio, seleccione "Terminal"
-2. En la nueva ventana de terminal, escribe `python hello.py` y presiona return
+1. From the launch panel, select "Terminal"
+2. In the new terminal window, type `python hello.py` and press return
 ````
 
 ````{tabbed} Julia
-1. En el panel de inicio, seleccione "Terminal"
-2. En la nueva ventana de terminal, escriba `ulevia hello.jl` y presione return
+1. From the launch panel, select "Terminal"
+2. In the new terminal window, type `julia hello.jl` and press return
 ````
 
 ````{tabbed} R
-1. En el panel de inicio, seleccione "Terminal"
-2. En la nueva ventana de terminal, escribe `Rscript -e 'source("hello.R")'` y luego presiona return
+1. From the launch panel, select "Terminal"
+2. In the new terminal window, type `Rscript -e 'source("hello.R")'` and then press return
 ````
 
-(z2b-fondo-2)=
+`Hello from Binder!` should be printed to the terminal.
 
 (z2b-step-4)=
-## 4. Dependencias fijadas
+## 4. Pinning Dependencies
 
-(z2b-dependencias)=
+It was easy to get started, but our environment is barebones - let's add a **dependency**!
 
 🚦🚦🚦
 
 ````{tabbed} Python
-1) En tu repositorio crea un archivo llamado `requirements.txt`
-2) Añade una línea que dice: `numpy==1.14.5`
-3) ¡Comprueba los errores tipográficos! Luego envía un commit a la rama `main`
-4) Visita **https://mybinder.org/v2/gh/YOUR-USERNAME/my-first-binder/HEAD** de nuevo en una nueva pestaña
+1) In your repo, create a file called `requirements.txt`
+2) Add a line that says: `numpy==1.14.5`
+3) Check for typos! Then commit to the `main` branch
+4) Visit **https://mybinder.org/v2/gh/YOUR-USERNAME/my-first-binder/HEAD** again in a new tab
 ````
 
 ````{tabbed} Julia
-1) En su reproducción, edite el `Project. oml` archivo
-2) Agrega un nuevo bloque que dice:
+1) In your repo, edit the `Project.toml` file
+2) Add a new block that says:
 
-   ```úlcera
+   ```julia
    [deps]
    CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
    ```
 
-3) Compruebe los errores tipográficos! Luego confirmar a `main`.
-4) Visita **https://mybinder.org/v2/gh/YOUR-USERNAME/my-first-binder/HEAD** de nuevo en una nueva pestaña
+3) Check for typos! Then commit to `main`.
+4) Visit **https://mybinder.org/v2/gh/YOUR-USERNAME/my-first-binder/HEAD** again in a new tab
 ````
 
 ````{tabbed} R
-1) En tu repositorio crea un archivo llamado `install.R`
-2) Añade una línea que dice: `install.packages("readr")`
-3) ¡Comprueba los errores tipográficos! Luego commit a la rama `main`
-4) Visita **https://mybinder. rg/v2/gh/YOUR-USERNAME/my-first-binder/HEAD** otra vez en una nueva pestaña
+1) In your repo, create a file called `install.R`
+2) Add a line that says: `install.packages("readr")`
+3) Check for typos! Then commit to the `main` branch
+4) Visit **https://mybinder.org/v2/gh/YOUR-USERNAME/my-first-binder/HEAD** again in a new tab
 
 ```{note}
-Si usas `holepunch`, puedes crear una `instalación. ` y añade automáticamente el código para instalar todas las dependencias de tu proyecto usando `holepunch::write_install()`.
+If using `holepunch`, you can create an `install.R` file and automatically add the code to install all dependencies in your project using `holepunch::write_install()`.
 ```
 ````
-Esta vez, haga clic en "Build Logs" en la barra gris grande, horizontal, grande. Esto le permitirá observar el progreso de su construcción. Es útil cuando falla tu compilación o falta algo que piensas que _debería_ estar instalado.
+This time, click on "Build Logs" in the big, horizontal, grey bar. This will let you watch the progress of your build. It's useful when your build fails or something you think _should_ be installed is missing.
 
 ```{note}
-A veces los registros de construcción de Binder imprimen cosas en la fuente roja, tales como advertencias de que `pip` no está actualizado (`pip` está a menudo desactualizado porque se actualiza regularmente! o mensajes de instalación, especialmente si está usando R.
-Estos mensajes rojos no necesariamente significan que haya un problema con tu construcción y fallará - ¡Es una desafortunada elección de color de fuente!
+Sometimes Binder's build logs prints things in red font, such as warnings that `pip` is not up-to-date (`pip` is often out of date because it's regularly updated!) or installation messages, especially if you're using R.
+These red messages don't necessarily mean there's a problem with your build and it will fail - it's just an unfortunate font colour choice!
 ```
 
-(z2b-fondo-2)=
-### ¿Qué está pasando en segundo plano? - Parte 2
+(z2b-background-2)=
+### What's happening in the background? - Part 2
 
-Binder trata de compartir tu trabajo fácilmente y hay dos maneras de hacerlo:
+This time, BinderHub will read the configuration file you added and install the specific version of the package you requested.
 
-(z2b-dependencias)=
-### Más sobre las dependencias fijadas
+(z2b-dependencies)=
+### More on pinning dependencies
 
 ````{tabbed} Python
-En el ejemplo anterior, usamos dos signos iguales (`==`) para fijar la versión de `numpy`.
-Esto le dice a Binder que instale esa versión _specific_.
+In the above example, we used two equals signs (`==`) to pin the version of `numpy`.
+This tells Binder to install that _specific_ version.
 
-Otra manera de anclar un número de versión es usar el signo mayor o igual (`>=`) para permitir que cualquier versión superior a una determinada sea instalada.
-Esto es útil cuando tienes muchas dependencias que pueden tener dependencias unas de otras y permite a Binder encontrar una configuración de tus dependencias que no entran en conflicto entre ellas, evitando cualquier versión anterior que pueda romper o cambiar tu código.
+Another way to pin a version number is to use the greater than or equal to sign (`>=`) to allow any version above a particular one to be installed.
+This is useful when you have a lot of dependencies that may have dependencies on each other and allows Binder to find a configuration of your dependencies that do not conflict with one another whilst avoiding any earlier versions which may break or change your code.
 
-Por último, no se pudo proporcionar ningún número de versión (sólo el nombre de la librería/paquete) y Binder instalará la última versión de ese paquete.
+Finally, you could not provide a version number at all (just the name of the library/package) and Binder will install the latest version of that package.
 ````
 
 ````{tabbed} Julia
-En el ejemplo anterior, copiamos un hash en nuestro archivo `Project.toml` que está relacionado con la versión del paquete que nos gustaría instalar.
-Para una gráfica de dependencias completa, también necesitaríamos incluir un archivo `Manifest.toml` que documentara las dependencias de dependencias.
-Entre estos dos archivos, somos capaces de instanciar una replicación exacta de un entorno Julia.
+In the above example, we copied a hash into our `Project.toml` file which is related to the version of the package we'd like to install.
+For a full dependency graph, we would also need to include a `Manifest.toml` file which would document dependencies of dependencies.
+Between these two files, we are able to instantiate an exact replication of a Julia environment.
 
-Por supuesto, podemos imaginar que, a medida que el entorno crece y las interdependencias se vuelven más complejas, se convertiría en muy gravoso escribir estos archivos a mano!
-La verdad es que nunca lo harías manualmente, el gestor de paquetes integrado `Pkg` puede [generarlos automáticamente](https://ulevialang.github.io/Pkg.jl/v1/environments/).
+Of course we can imagine that, as the environment grows and the inter-dependencies become more complex, it would become very taxing to write these files by hand!
+The truth is that you'd never do it manually, the built-in package manager `Pkg` can [generate them automatically](https://julialang.github.io/Pkg.jl/v1/environments/).
 ````
 
 ````{tabbed} R
-En el ejemplo anterior, especificamos que queremos usar R en nuestro proyecto incluyendo una fecha en `runtime.txt`.
-La fecha le dice a Binder de qué captura de CRAN para el código fuente R y paquetes.
-Estas instantáneas proceden del [gestor de paquetes de RStudio](https://packagemanager.rstudio.com) (RSPM).
-En el ejemplo anterior, se utiliza la snapshot RSPM con fecha `r-2022-01-01` y la versión de R y `readr` disponible en esa fecha e instalado.
-Para que el flujo de trabajo de ejemplo funcione correctamente, por favor asegúrese de no proporcionar una fecha anterior a esta fecha de ejemplo.
+In the above example, we specified that we want to use R in our project by including a date in `runtime.txt`.
+The date tells Binder which CRAN snapshot to source R and packages from.
+These snapshots are sourced from the [RStudio Package Manager](https://packagemanager.rstudio.com) (RSPM).
+In the above example, the RSPM snapshot dated `r-2022-01-01` is used and the version of R and `readr` available at that date and installed.
+For the example workflow to work correctly, please ensure you do not supply a date earlier than this example date.
 
-Esto proporciona algunas versiones rudimentarias de paquetes para usuarios R pero no es tan robusto como las versiones fijadas en un `requirements.txt` en Python.
-Para un anclaje de versión más robusto y específico en R, eche un vistazo al paquete [`renv`](https://rstudio.github.io/renv/).
+This provides some rudimentary package versioning for R users but is not as robust as pinning versions in a `requirements.txt` in Python.
+For more robust and specific version pinning in R, have a look at the [`renv`](https://rstudio.github.io/renv/) package.
 ````
 
 (z2b-step-5)=
-## 5. Compruebe el Entorno
+## 5. Check the Environment
 
 🚦🚦🚦
 
 ````{tabbed} Python
-1) Desde el panel de lanzamiento, selecciona "Python 3" en la sección de Cuadernos para abrir un nuevo cuaderno
-2) Escribe lo siguiente en una nueva celda:
+1) From the launch panel, select "Python 3" from the Notebook section to open a new notebook
+2) Type the following into a new cell:
 
    ```python
    import numpy
    print(numpy.__version__)
-   numpy.random. andn()
+   numpy.random.randn()
    ```
 
    ```{attention}
-   ¡Ten en cuenta que los dos guiones bajos a cada lado de `version`!
+   Note the two underscores either side of `version`!
    ```
 
-3) Ejecuta la celda para ver el número de versión y un número aleatorio impreso
+3) Run the cell to see the version number and a random number printed out
 
-   - Presiona SHIFT+RETURN o el botón "Ejecutar" en la barra de menú
+   - Press either SHIFT+RETURN or the "Run" button in the Menu bar
 ````
 
 ````{tabbed} Julia
-1) Desde el panel de lanzamiento, seleccione "Julia" en la sección de Cuadernos para abrir un nuevo Cuaderno de Julia
-2) Escriba lo siguiente en una nueva celda:
+1) From the launch panel, select "Julia" from the Notebook section to open a new Julia notebook
+2) Type the following into a new cell:
 
-   ```Mañana
-   usando Pkg
-   Pkg. tatus()
+   ```julia
+   using Pkg
+   Pkg.status()
    ```
 
-3) Ejecute la celda para ver el número de versión impreso
+3) Run the cell to see the version number printed out
 
-   - Presione SHIFT+RETURN o el botón "Ejecutar" en la barra de menú
+   - Press either SHIFT+RETURN or the "Run" button in the Menu bar
 ````
 
 ````{tabbed} R
-1) Desde el panel de lanzamiento, selecciona "R" en la sección de Cuadernos para abrir un nuevo cuaderno R
-2) Escribe lo siguiente en una nueva celda:
+1) From the launch panel, select "R" from the Notebook section to open a new R notebook
+2) Type the following into a new cell:
 
    ```r
    library(readr)
    packageVersion("readr")
-   read_csv(system. ile("extdata/mtcars. sv", package = "readr"))
+   read_csv(system.file("extdata/mtcars.csv", package = "readr"))
    ```
 
-3) Ejecute la celda
+3) Run the cell
 
-    - Presione SHIFT+RETURN o el botón "Ejecutar" en la barra de menú
-    Debería ver la siguiente salida:
-      - el número de versión de la versión instalada de `readr`
-      - un martilo del contenido de los `mtcars. sv` que es un archivo csv incluido en el paquete `readr`
+    - Press either SHIFT+RETURN or the "Run" button in the Menu bar
+    You should see the following output:
+      - the version number of the installed version of `readr`
+      - a tibble of the contents of the `mtcars.csv` which is a csv file included in package `readr`
 ````
 
 ```{attention}
-Si guardas este cuaderno, **no** se guardará en el repositorio de GitHub.
-El envío de cambios de vuelta al repositorio de GitHub a través del contenedor no es posible con Binder.
-**Los cambios que hayas realizado en los archivos dentro del Binder se perderán una vez que cierres la ventana del navegador.**
+If you save this notebook, it **will not** be saved to the GitHub repo.
+Pushing changes back to the GitHub repo through the container is not possible with Binder.
+**Any changes you have made to files inside the Binder will be lost once you close the browser window.**
 ```
 
 (z2b-step-6)=
-## 6. Compartiendo tu trabajo
+## 6. Sharing your Work
 
-(z2b-pequeño-archivos)=
+Binder is all about sharing your work easily and there are two ways to do it:
 
-- Comparte la URL **https://mybinder.org/v2/gh/YOUR-USERNAME/my-first-binder/HEAD** directamente
-- Visita **[https://mybinder. rg](https://mybinder.org)**, escribe la URL de tu repositorio y copia el fragmento de texto estructurado o Markdown en tu `README. d` archivo. Este fragmento renderizará una insignia que la gente puede hacer clic, que se ve así: ![Binda](https://mybinder.org/badge_logo.svg)
+- Share the **https://mybinder.org/v2/gh/YOUR-USERNAME/my-first-binder/HEAD** URL directly
+- Visit **<https://mybinder.org>**, type in the URL of your repo and copy the Markdown or ReStructured Text snippet into your `README.md` file. This snippet will render a badge that people can click, which looks like this: ![Binder](https://mybinder.org/badge_logo.svg)
 
 🚦🚦🚦
 
-Esto es ideal para archivos de hasta **10MB**.
-   - La barra gris que muestra una insignia se desplegará para revelar los fragmentos. Haga clic en el icono del portapapeles junto a la casilla marcada con "m" para copiar automáticamente el fragmento de Markdown. 2) ¡Haz clic en la insignia para asegurarte de que funciona!
+1) Add the **Markdown** snippet from **<https://mybinder.org>** to the `README.md` file in your repo
+   - The grey bar displaying a binder badge will unfold to reveal the snippets. Click the clipboard icon next to the box marked with "m" to automatically copy the Markdown snippet. 2) Click the badge to make sure it works!
 
 (z2b-step-7)=
-## 7. Accediendo a los datos en tu Binder
+## 7. Accessing data in your Binder
 
-Otro tipo de dependencia para proyectos es **datos**. Hay diferentes maneras de hacer que los datos estén disponibles en tu Binder dependiendo del tamaño de tus datos y de tus preferencias para compartirlos.
+Another kind of dependency for projects is **data**. There are different ways to make data available in your Binder depending on the size of your data and your preferences for sharing it.
 
-(z2b-pequeño-archivos)=
-### Archivos públicos pequeños
+(z2b-small-files)=
+### Small public files
 
-El método más simple para archivos pequeños de datos públicos es añadirlos directamente a su repositorio de GitHub. Luego se encapsulan directamente en el medio ambiente y se versionan junto con tu código.
+The simplest approach for small, public data files is to add them directly into your GitHub repository. They are then directly encapsulated into the environment and versioned along with your code.
 
-Esto es ideal para archivos de hasta **10MB**.
+This is ideal for files up to **10MB**.
 
-(z2b-archivos medios)=
-### Archivos públicos medios
+(z2b-medium-files)=
+### Medium public files
 
-Para acceder a archivos medios **desde unos 10 MB hasta unos cuantos cientos de MB**, puedes añadir un archivo llamado `postBuild` a tu repo. Un archivo `postBuild` es un script de shell que se ejecuta como parte de la construcción de la imagen y solo se ejecuta una vez que se construye una nueva imagen, no cada vez que el Binder es lanzado.
+To access medium files **from a few 10s MB up to a few hundred MB**, you can add a file called `postBuild` to your repo. A `postBuild` file is a shell script that is executed as part of the image construction and is only executed once when a new image is built, not every time the Binder is launched.
 
 See [Binder's `postBuild` example](https://mybinder.readthedocs.io/en/latest/using/config_files.html#postbuild-run-code-after-installing-the-environment) for more uses of the `postBuild` script.
 
 ```{note}
-Las imágenes nuevas sólo se construyen cuando Binder ve una nueva confirmación, no cada vez que hace clic en el enlace de Binder .
-Por lo tanto, los datos sólo se descargan una vez cuando se construye la imagen de Docker, no cada vez que se lanza el enlace.
+New images are only built when Binder sees a new commit, not every time you click the Binder link.
+Therefore, the data is only downloaded once when the Docker image is built, not every time the Binder is launched.
 ```
 
-Con el fin de soportar el acceso a archivos privados, necesitarías crear un despliegue local de [BinderHub](https://binderhub.readthedocs.io) donde puedes decidir las compensaciones de seguridad tú mismo.
-### Grandes archivos públicos
+(z2b-large-files)=
+### Large public files
 
-No es práctico colocar archivos grandes en su repositorio de GitHub o incluirlos directamente en la imagen que construye Binder . La mejor opción para archivos grandes es utilizar una biblioteca específica al formato de datos para transmitir los datos a medida que lo estás usando o descargarlos bajo demanda como parte de tu código.
+It is not practical to place large files in your GitHub repo or include them directly in the image that Binder builds. The best option for large files is to use a library specific to the data format to stream the data as you're using it or to download it on demand as part of your code.
 
-Por razones de seguridad, el tráfico saliente de su Binder está restringido únicamente a conexiones HTTP/S o GitHub. No podrá utilizar sitios FTP para obtener datos en mybinder.org.
+For security reasons, the outgoing traffic of your Binder is restricted to HTTP/S or GitHub connections only. You will not be able to use FTP sites to fetch data on mybinder.org.
 
-(z2b-o-notebooks)=
-### Archivos privados
+(z2b-private-files)=
+### Private files
 
-No hay forma de acceder a archivos que no son públicos desde mybinder.org. Deberías considerar toda la información de tu Binder como pública, lo que significa que:
+There is no way to access files which are not public from mybinder.org. You should consider all information in your Binder as public, meaning that:
 
-- no debería haber contraseñas, tokens, llaves, etc. en su repositorio de GitHub;
-- no debería escribir contraseñas en un Binder corriendo en mybinder.org;
-- no debería subir su clave SSH privada o token de API a un Binder en ejecución.
+- there should be no passwords, tokens, keys and so on in your GitHub repo;
+- you should not type passwords into a Binder running on mybinder.org;
+- you should not upload your private SSH key or API token to a running Binder.
 
-Esta es la estructura de la URL dentro de una instancia de Binder en ejecución ejecutando JupyterLab:
+In order to support access to private files, you would need to create a local deployment of [BinderHub](https://binderhub.readthedocs.io) where you can decide the security trade-offs yourselves.
 
 ```{note}
-Construir un BinderHub no es una tarea sencilla y generalmente es asumido por grupos de IT/RSE por razones relacionadas con la gestión de mantenimiento, seguridad y gobernanza.
-Sin embargo, eso no quiere decir que sean los _sólo_ grupos de personas que deberían/podrían construir un BinderHub.
+Building a BinderHub is not a simple task and is usually taken on by IT/RSE groups for reasons around managing maintenance, security and governance.
+However, that is not to say that they are the _only_ groups of people who should/could build a BinderHub.
 ```
 
 (z2b-step-8)=
-## 8. Obtener datos con `postBuild`
+## 8. Get data with `postBuild`
 
 🚦🚦🚦
 
 ````{tabbed} Python
-1) Ve a tu repositorio de GitHub y crea un archivo llamado `postBuild`
-2) En `postBuild`, añade una sola lectura en línea: `wget -q -O gapminder. sv http://bit.ly/2uh4s3g`
-   - `wget` es un programa que recupera contenido de servidores web.
-     Esta línea extrae el contenido de la bitly URL y lo guarda en el nombre de archivo indicado por la bandera `-O` (mayúsculas "O", no cero), en este caso `gapminder. sv`.
-     La bandera `-q` le dice a `wget` que haga esto en silencio, lo que significa que no imprimirá nada en la consola.
-3) Actualizar sus `requisitos. archivo xt` añadiendo una nueva línea con `pandas` en él y otra nueva línea con `matplotlib` en él
-   - Estos paquetes no son necesarios para descargar los datos, pero los usaremos para leer el archivo CSV y hacer una gráfica
-4) Haz clic en la insignia de enlace en tu README para lanzar tu Binder
+1) Go to your GitHub repo and create a file called `postBuild`
+2) In `postBuild`, add a single line reading: `wget -q -O gapminder.csv http://bit.ly/2uh4s3g`
+   - `wget` is a program which retrieves content from web servers.
+     This line extracts the content from the bitly URL and saves it to the filename denoted by the `-O` flag (capital "O", not zero), in this case `gapminder.csv`.
+     The `-q` flag tells `wget` to do this quietly, meaning it won't print anything to the console.
+3) Update your `requirements.txt` file by adding a new line with `pandas` on it and another new line with `matplotlib` on it
+   - These packages aren't necessary to download the data but we will use them to read the CSV file and make a plot
+4) Click the binder badge in your README to launch your Binder
 
-Una vez que el Binder se haya lanzado, debería ver que ha aparecido un nuevo archivo que no era parte de su repositorio cuando hizo clic en la insignia.
+Once the Binder has launched, you should see a new file has appeared that was not part of your repo when you clicked the badge.
 
-Ahora visualice los datos creando un nuevo cuaderno (seleccionando "Python 3" en la sección Notebook) y ejecute el siguiente código en una celda.
+Now visualise the data by creating a new notebook (selecting "Python 3" from the Notebook section) and run the following code in a cell.
 
 ```python
-%matplotlib en línea
+%matplotlib inline
 
 import pandas
 
 data = pandas.read_csv("gapminder.csv", index_col="country")
 
-años = datos. olumns.str.strip("gdpPercap_") # Extraer año de los últimos 4 caracteres de cada nombre de columna
-data.columns = años. stype(int) # Convierte valores de año a enteros, guardar resultados de vuelta a dato
+years = data.columns.str.strip("gdpPercap_")  # Extract year from last 4 characters of each column name
+data.columns = years.astype(int)              # Convert year values to integers, saving results back to dataframe
 
-datos. oc["Junia"]. lot()
+data.loc["Australia"].plot()
 ```
 
 ```{note}
-Vea esta [lección de Carpintería de software](https://swcarpentry.github.io/python-novice-gapminder/09-plotting/index.html) para más información.
+See this [Software Carpentry lesson](https://swcarpentry.github.io/python-novice-gapminder/09-plotting/index.html) for more info.
 ```
 ````
 
 ````{tabbed} Julia
-1) Ve a tu repositorio de GitHub y crea un archivo llamado `postBuild`
-2) En `postBuild`, añade una sola lectura en línea: `wget -q -O gapminder. sv http://bit.ly/2uh4s3g`
-   - `wget` es un programa que recupera contenido de servidores web.
-     Esta línea extrae el contenido de la bitly URL y lo guarda en el nombre de archivo indicado por la bandera `-O` (mayúsculas "O", no cero), en este caso `gapminder. sv`.
-     La bandera `-q` le dice a `wget` que haga esto en silencio, lo que significa que no imprimirá nada en la consola.
-3) Actualizar su `Project. oml` archivo añadiendo nuevas dependencias a `[deps]` con las siguientes líneas:
+1) Go to your GitHub repo and create a file called `postBuild`
+2) In `postBuild`, add a single line reading: `wget -q -O gapminder.csv http://bit.ly/2uh4s3g`
+   - `wget` is a program which retrieves content from web servers.
+     This line extracts the content from the bitly URL and saves it to the filename denoted by the `-O` flag (capital "O", not zero), in this case `gapminder.csv`.
+     The `-q` flag tells `wget` to do this quietly, meaning it won't print anything to the console.
+3) Update your `Project.toml` file by adding new dependencies to `[deps]` with the following lines:
 
-   ```ucaramia
+   ```julia
    DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
    Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
    ```
 
-   - Estos paquetes no son necesarios para descargar los datos pero los usaremos para leer el archivo CSV y hacer una trampa
-4) Haga clic en la insignia del binder para lanzar su Binder
+   - These packages aren't necessary to download the data but we will use them to read the CSV file and make a plot
+4) Click the binder badge in your README to launch your Binder
 
-Una vez que el Binder haya iniciado, debería ver que ha aparecido un nuevo archivo que no era parte de su repositorio cuando hizo clic en la insignia.
+Once the Binder has launched, you should see a new file has appeared that was not part of your repo when you clicked the badge.
 
-Ahora visualice los datos creando un nuevo cuaderno (seleccionando "Julia" en la sección Notebook) y ejecute el siguiente código en una celda.
+Now visualise the data by creating a new notebook (selecting "Julia" from the Notebook section) and run the following code in a cell.
 
-```Thursia
+```julia
 using DataFrames
 using CSV
 using Plots
 
-data = CSV.read("gapminder. sv", DataFrame)
+data = CSV.read("gapminder.csv", DataFrame)
 
-# Extrae la fila correspondiente a Australia
-aus_gdp = data[data[:, :country] . = "Ninguna", :]
-aus_gdp = MATIx(aus_gdp[:, :end])[:] # as vector
+# Extract the row corresponding to Australia
+aus_gdp = data[data[:, :country] .== "Australia", :]
+aus_gdp = Matrix(aus_gdp[:,2:end])[:]  # as vector
 
-# Extraer los años como Ints de los nombres de las columnas
-años = [x[end-3:end] for x in names(data)[2:end]]
-años = análisis. Int, años)
+# Extract the years as Ints from the column names
+years = [x[end-3:end] for x in names(data)[2:end]]
+years = parse.(Int, years)
 
-# Trazar
-parcela (años, aus_gdp)
+# Plot
+plot(years, aus_gdp)
 ```
 ````
 
 ````{tabbed} R
-1) Ve a tu repositorio de GitHub y crea un archivo llamado `postBuild`
-2) En `postBuild`, añade una sola lectura en línea: `wget -q -O gapminder. sv http://bit.ly/2uh4s3g`
-   - `wget` es un programa que recupera contenido de servidores web.
-     Esta línea extrae el contenido de la bitly URL y lo guarda en el nombre de archivo indicado por la bandera `-O` (mayúsculas "O", no cero), en este caso `gapminder. sv`.
-     La bandera `-q` le dice a `wget` que haga esto en silencio, lo que significa que no imprimirá nada en la consola.
-3) Actualiza tu archivo `install.R` para instalar dos dependencias adicionales, `"tidyr"` y `"ggplot2"`. Para ello, proporcione un vector de caracteres de los paquetes requeridos a `install.packages()` en lugar de una única cadena de caracteres. El comando de instalación ahora debería verse así:
+1) Go to your GitHub repo and create a file called `postBuild`
+2) In `postBuild`, add a single line reading: `wget -q -O gapminder.csv http://bit.ly/2uh4s3g`
+   - `wget` is a program which retrieves content from web servers.
+     This line extracts the content from the bitly URL and saves it to the filename denoted by the `-O` flag (capital "O", not zero), in this case `gapminder.csv`.
+     The `-q` flag tells `wget` to do this quietly, meaning it won't print anything to the console.
+3) Update your `install.R` file to install two additional dependencies, `"tidyr"` and `"ggplot2"`. To do so, supply a character vector of the required packages to `install.packages()` instead of a single character string. The installation command should now look like this:
 
    ```r
-   install. ackages(c("readr", "tidyr", "ggplot2"))
+   install.packages(c("readr", "tidyr", "ggplot2"))
    ```
 
-    - Estos paquetes no son necesarios para descargar los datos, pero los usaremos para leer el archivo CSV, procesarlo y hacer una parcela
-4) Haga clic en la insignia del binder en su README para lanzar su Binder
+    - These packages aren't necessary to download the data but we will use them to read the CSV file, process it and make a plot
+4) Click the binder badge in your README to launch your Binder
 
-Una vez que el Binder se haya lanzado, debería ver que ha aparecido un nuevo archivo que no era parte de su repositorio cuando hizo clic en la insignia.
+Once the Binder has launched, you should see a new file has appeared that was not part of your repo when you clicked the badge.
 
-Ahora visualice los datos creando un nuevo cuaderno (seleccionando "R" en la sección Notebook) y ejecutando el siguiente código en una celda.
+Now visualise the data by creating a new notebook (selecting "R" from the Notebook section) and running the following code in a cell.
 
 ```r
 library(readr)
 library(tidyr)
 library(ggplot2)
 
-datos <- read_csv("gapminder. sv") %>%
+data <- read_csv("gapminder.csv") %>%
     pivot_longer(-country,
-                 nombres_to = "año",
-                 valores_to = "gdpPercap",
+                 names_to = "year",
+                 values_to = "gdpPercap",
                  names_prefix = "gdpPercap_",
-                 nombres_transformacin = lista(año = as. nteger))
+                 names_transform = list(year = as.integer))
 
-data[data$country == "Corealia", ] %>%
-    ggplot(aes(x = año, y = gdpPercap)) +
+data[data$country == "Australia", ] %>%
+    ggplot(aes(x = year, y = gdpPercap)) +
     geom_line()
 ```
 ````
-(z2b-o-notebooks)=
-## Cambiando la interfaz
-A lo largo de este tutorial hemos estado utilizando la interfaz de JupyterLab. Esta es la interfaz por defecto para las nuevas instancias de Binder creadas. Sin embargo, esta no es la única interfaz disponible en mybinder.org, la vista Classic Notebook y RStudio también están disponibles. (Debe instalarse un entorno R para que RStudio esté disponible.)
-Puede acceder a las diferentes interfaces de diferentes maneras. La forma más fácil es usar los botones en el JupyterLab Launcher, pero usted puede proporcionar parámetros de URL para abrir directamente una interfaz específica (o archivo! cuando la instancia de Binder se ejecuta. Ahora cubriremos tres maneras en que puedes manipular tu URL de Binder para navegar entre interfaces.
-### desde dentro de un Binder en ejecución
-Esta es la estructura de la URL dentro de una instancia de Binder en ejecución ejecutando JupyterLab:
+(z2b-beyond-notebooks)=
+## Changing the Interface
+Throughout this tutorial, we have been using the JupyterLab interface. This is the default interface for newly created Binder instances. However, this is not the only interface available on mybinder.org, the Classic Notebook view and RStudio are available too. (An R environment needs to be installed for RStudio to be available.)
+You can access the different interfaces in different ways. The easiest way is to use the buttons in the JupyterLab Launcher, but you can provide URL parameters to directly open a specific interface (or file!) when the Binder instance launches. We'll now cover three ways you can manipulate your Binder URL to navigate between interfaces.
+### from inside a running Binder
+Here is the structure of the URL inside a running Binder instance running JupyterLab:
 > **https://<some-prefix>.mybinder.org/user/<a composite of your username, repo name and a hash>/lab**
 You can change the interface from JupyterLab to either the Classic Notebook or RStudio by changing the `/lab` part of the URL to:
 - **Classic Notebook:** `/tree`

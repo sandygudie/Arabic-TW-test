@@ -1,20 +1,61 @@
-crwdns837500:0crwdne837500:0
-# crwdns837502:0crwdne837502:0
+(ch-newsltters-template)
+# Template for Drafting Newsletters
 
-crwdns837504:0crwdne837504:0 crwdns837506:0crwdne837506:0 crwdns837508:0crwdne837508:0 crwdns837510:0crwdne837510:0
+The template outlined below is what we have been using as a guide for collecting news items for the _The Turing Way_ newsletters since September 2019. This template has evolved over several months and in no way claims to be the 'perfect' format. When reusing this template, you should experiment with what works for your community. Your suggestions in the earlier subchapters are very welcome.
 
 ```
-crwdns837512:0crwdne837512:0
+Date: DD Month YYYY
 
-crwdns837514:0crwdne837514:0
+# title
 
-crwdns837516:0crwdne837516:0
+Hello Turing Way friends!
 
-crwdns837518:0crwdne837518:0
+This month ...
 
-crwdns837520:0crwdne837520:0
+Shout out ...
 
-crwdns837522:0crwdne837522:0
+Events ...
 
-crwdns837524:0[here]crwdne837524:0
+Find more details on these topics below 👇
+
+
+## Community meetings
+
+    <About events like Collaboration Café, book dash, other meetings>
+
+## News from the community
+
+    <Any news from the team, community members, and new chapters>
+
+## Relevant resources
+
+    <Any useful resources like relevant publication, training items, and materials from collaborators>
+
+## Tips & Tricks for new contributors
+
+    <Any material that helps the new contributor to relate to the project like impact statement, story, and contributor in focus>
+
+## Acknowledgments and celebrations
+
+    <Shout out and wishes to celebratory news from members, recent meetings where someone talked about Turing Way, Tweets and other online mentions from people other than the team members>
+
+## Special mentions
+
+    <Shout out to the reviewers for this newsletter other than the team members>
+
+## Connect with us!
+
+- [About the project](https://www.turing.ac.uk/research/research-projects/turing-way-handbook-reproducible-data-science)
+- [_The Turing Way_ book](https://the-turing-way.netlify.com)
+- [GitHub repository](https://github.com/alan-turing-institute/the-turing-way)
+- [Slack channel](https://join.slack.com/t/theturingway/shared_invite/zt-fn608gvb-h_ZSpoA29cCdUwR~TIqpBw)
+- [Public Gitter channel](https://gitter.im/alan-turing-institute/the-turing-way)
+- [YouTube Videos](https://www.youtube.com/channel/UCPDxZv5BMzAw0mPobCbMNuA)
+- [Twitter Channel](https://twitter.com/turingway)
+
+You are welcome to contribute content for the next newsletter by
+emailing [Malvika Sharan](mailto:msharan@turing.ac.uk).
+
+*Did you miss the last newsletters?*
+*Check them out [here](https://tinyletter.com/TuringWay/archive).*
 ```

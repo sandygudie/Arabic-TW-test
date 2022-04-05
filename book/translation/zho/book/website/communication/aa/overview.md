@@ -1,43 +1,43 @@
-(通信-aa-overview)=
-# 学术作者概览
+(communication-aa-overview)=
+# Overview of Academic Authorship
 
-学术著作权具有很大的价值，因为同行审查的期刊文章仍被视为研究项目最有价值的成果。 学术研究人员的文章数量 而且尤其是该人是否被任命为第一提交人，对其职业生涯有重大影响。
+A great deal of value is placed on academic authorship because a peer-reviewed journal article is still seen as the most valued output from a research project. The number of articles an academic researcher is named on, and particularly whether the person is named as the first author, has a significant impact on their career.
 
-但谁应该是文章的作者？ 我们能否摆脱第一作者接受最高分的想法？
+But who should be an author on an article? And can we move away from the idea of first author taking the most credit?
 
-(来文――aa-overview-who)=
-## 谁是作者？ 还是他们实际上是贡献者？
+(communication-aa-overview-who)=
+## Who is an author? or are they actually contributors?
 
-将名称分配给出版物可能是个棘手的生意。 一个需要在项目开始时作出的重要决定是，该项目制作的文章上的名字是否将是作者还是贡献者？
+Assigning names to a publication can be a tricky business. However, an important decision that needs to be made at the outset of a project is whether the names on the articles produced from the project are going to be authors or contributors, or a combination of both.
 
-由于期刊和出版商都有关于作者标准的具体政策，因此这个决定可能根本得不到你们的注意。 因此， 如果您想要在特定的日记中发布，您将必须遵守策略并在您的项目中就此达成协议。
+The decision may essentially be out of your hands as journals and publishers have specific policies on authorship criteria. Therefore, if you want to publish in a specific journal you will have to adhere to the policy and make an agreement about this within your project.
 
-作者的一般定义被视为创作者是书面作品的创造者(创作者和实际写作者)，作者对书面作品的内容拥有所有权。
+A general definition of an author is seen as the person that is the creator of the written work (creator of the ideas and the actual physical writing) and there is an ownership for the author regarding the content of what is written.
 
-然而，大多数研究都有一组人参与，以实现这一目标。 那么由谁来决定这些贡献是否值得作者还是只是得到承认？
+However, most research involves a team of people to make it happen. So who decides whether these contributions are worthy of authorship or are they just to be acknowledged?
 
-因此， 现在仍然常见的情况是，只给那些实际参与撰写或编辑文章以及其他实质性研究内容的作者。 这往往不包括技术人员、本科生和研究生对该项目的大量贡献。 • 与项目基础设施有关的人员，例如研究软件工程师。 它还提出了一些道德问题，涉及谁对项目工作的功劳。
+Therefore, it is still common to give authorship to only those that have actually taken part in the writing or editing of the article as well as other substantial aspects of the research. This often excludes large contributions to the project from technicians, undergraduate and postgraduate students, and people involved in the infrastructure of the project such as research software engineers. It also raises ethical issues concerning who takes credit for the work on a project.
 
-(来文――aa-overview-first)=
-## 第一作者支配地位
+(communication-aa-overview-first)=
+## First author dominance
 
-作为第一个作者，由于人们认为此人的贡献最大，因此影响到此人的声誉和知名度， 引文指数，过去只计算了第一名作者的引文。 和学术文章中引用的引文被缩短为第一作者的名字为 *et al* (Ref: Frandsen & Nicolaisen 2010)。 论文引用的次数和刊登的期刊往往是获得新工作的重要标准， 获得提升和赢得资金申请的机会。
+Being the first author impacts that person's reputation and visibility due to a perceived view that this person makes the greatest contribution, citation indices that in the past only counted citations for the first-named author, and citations within academic articles being shortened to the first author's name with *et al* (Ref: Frandsen & Nicolaisen 2010). The number of citations that papers have and what journals they are published in are often important criteria for obtaining new jobs, getting promoted and winning funding applications.
 
-第一撰文人的做法优先于他人，这也涉及社会问题。 例如，研究人员更改姓名可能是一项困难的决定。 由于这种行动可能对她们的研究生生涯产生不利影响。
+The practice of the first author taking prominence over others also has social implications. For example, it might be a difficult decision for a researcher to change their name, due to marriage or divorce, as this action could have a negative impact on their research career.
 
-与学术界关于更改名称影响的讨论的联系：
-* 会话中的文章 - [三位科学家如何在婚姻情况下改变姓名对个人和职业的影响](https://theconversation.com/how-three-scientists-navigated-the-personal-and-career-implications-of-a-name-change-with-marriage-114918)
-* 已婚妇女在学术界——你是否改变了名字？
-* 伦敦经济学院社会科学博客对社会经济的影响—— [学术出版具有横贯性。 必须允许作者追溯性地更改他们的名字](https://blogs.lse.ac.uk/impactofsocialsciences/2020/09/30/for-academic-publishing-to-be-trans-inclusive-authors-must-be-allowed-to-retroactively-change-their-names/)。
+Links to discussions about the impact of changing names in academia:
+* Article from The Conversation - [How three scientists navigated the personal and career implications of a name change with marriage](https://theconversation.com/how-three-scientists-navigated-the-personal-and-career-implications-of-a-name-change-with-marriage-114918)
+* [Married women in academia - did you change your name?](https://www.reddit.com/r/AskAcademia/comments/2dfqho/married_women_in_academia_did_you_change_your/).
+* London School of Economics Impact of Social Sciences Blog - [For academic publishing to be trans-inclusive, authors must be allowed to retrospectively change their names](https://blogs.lse.ac.uk/impactofsocialsciences/2020/09/30/for-academic-publishing-to-be-trans-inclusive-authors-must-be-allowed-to-retroactively-change-their-names/).
 
-本章并不是反对这种竞争性引证的学术文化的地方，但必须指出，现在有许多不同类型的产出可以不同方式归类。 因此，我们目前看到期刊文章的唯一重要性发生缓慢变化。 这种产出可包括数据集， 记录研究项目的代码或博客，就通信和研究的可复制性而言，这些代码或博客的价值基本上与期刊文章相同。
+It is not the place of this chapter to argue against this academic culture of competitive citation but it must be noted that there are now many different types of outputs that can be attributed in different ways. Therefore, we are currently seeing a slow shift in the sole importance of journal articles. Such outputs might include datasets, code or blogs that document a research project and these essentially have as much value as a journal article in terms of communication and the reproducibility of the research.
 
-以下有两篇很好的文章，说明我们如何需要摆脱第一作者和最后作者的文化，并反映更多样化的产出：
-* [再也没有第一位提交人，再也没有Gretchen Kisher的最后一位提交人](https://www.nature.com/articles/d41586-018-06779-2)
-* [评估Malvika Sharan对可再生研究和开放科学的贡献方面的挑战](https://malvikasharan.github.io/blogs/dora-panel-open-science/)。
+Here are two good articles on how we need to move away from the culture of first and last authors and reflect more diverse outputs:
+* [No more first author, no more last author by Gretchen Kisher](https://www.nature.com/articles/d41586-018-06779-2)
+* [Challenges in assessing contributions to reproducible research and open science by Malvika Sharan](https://malvikasharan.github.io/blogs/dora-panel-open-science/).
 
-然而，关于作者身份的决定仍然是大多数学者心目中的核心，也被用作项目影响的标志。 因此，需要作出关于作者身份的决定，而两项主要决定是：谁应当在文件上得到作者身份？ 姓名的顺序是什么？
+However, decisions concerning authorship are still central in the minds of most academics and also used as a marker of a projects impact. Therefore, decisions about authorship need to be taken and the two main decisions to make are: who should get authorship on the paper? and what order the names should take?
 
-对研究项目的贡献以及如何将这些翻译成期刊文章作者的方式有许多不同的处理，这取决于研究所依据的学科是什么。 出版物的位置(使用杂志或出版商)， • 项目提供者的动机和参与项目的人数。 命名令在很大程度上是以该命令所理解的特定学科传统为基础的，这可能在建立新的研究合作关系时造成紧张关系。
+Contributions to research projects and how these translate into the authorship of a journal article are tackled in many different ways dependent on what discipline the study is based in, the location of the publication (which journal or publisher is used), the motivation of the project contributors and the number of people involved in the project. The name order is heavily based in a discipline specific tradition of what is understood by that order and this can create tension when new research collaborations are set up.
 
-越来越多的人反对较传统的权威思想； 该著作的作者人数及其次序应反映整个研究小组或社区的贡献。 这种包容性编写模式难以实现，必须在任何项目开始时规划，以便记录所有捐款。
+There is a growing trend pushing against more traditional ideas of authorship; in the number of authors and their order, and that authorship should reflect the contributions of the whole research team or community. Such an inclusive authorship model is hard to achieve and must be planned at the beginning of any project so that all contributions are recorded.

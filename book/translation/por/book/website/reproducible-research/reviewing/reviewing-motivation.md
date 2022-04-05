@@ -1,46 +1,46 @@
 (rr-reviewing-motivation)=
-# Importância e Benefícios Pessoais
+# Importance and Personal Benefits
 
-*Como isso irá ajudá-lo/por que isso é útil*
+*How this will help you/ why this is useful*
 
-Como no {ref}`teste<rr-testing>`, um objetivo fundamental da revisão de código é remover erros e prática ruim das alterações feitas em um projeto de software antes dessas alterações entrarem na base de código principal. No entanto, tem também uma série de outros benefícios directos e indirectos para os projectos. Estas são discutidas abaixo.
+As with {ref}`testing<rr-testing>`, a key objective of code review is to remove mistakes and bad practice from changes made to a software project before those changes enter the main code base. However, it also has a number of other direct and indirect benefits to projects. These are discussed below.
 
-Revisões de código são um método eficaz para melhorar a qualidade de software. McConnell (2004) sugere que os testes unitários encontram aproximadamente 25% dos defeitos, função teste 35%, integração testando 45% e revisão de código 55-60%. Enquanto isso significa que nenhum desses métodos é bom o suficiente por si só. e que eles devem ser combinados, claramente a revisão de código é uma ferramenta essencial aqui.
+Code reviews are an effective method for improving software quality. McConnell (2004) suggests that unit testing finds approximately 25% of defects, function testing 35%, integration testing 45%, and code review 55-60%. While that means that none of these methods are good enough on their own, and that they should be combined, clearly code review is an essential tool here.
 
 (rr-reviewing-motivation-bugs)=
-## Pegando Bugs e Erros Fundamental
+## Catching Bugs and Elementary Errors
 
-Um objetivo simples do processo de revisão é capturar bugs e erros elementares nas alterações propostas antes de eles entrarem no código trunk. Desta forma, a revisão do código compartilha aspectos com testes. No entanto, um programa de ensaio robusto deveria reduzir a importância de uma revisão do código para identificar este tipo de erros simples, uma vez que os testes devem pegá-los antes que o código o faça rever a fase. Por isso, em princípio, esta função da revisão de código deve ser restrita a alterações triviais como erros de documentação. Na prática, porém, a revisão do código funciona como uma segunda linha importante de defesa contra todo o tipo de erros e erros.
+A simple objective of the review process is to catch bugs and elementary errors in proposed changes before they make it into the trunk code. In this way, code review shares aspects with testing. However, a robust testing programme should reduce the importance of code review for identifying these kinds of straightforward errors, as the tests should catch them before the code makes it to review stage. So in principle, this function of code review should be restricted to trivial changes like documentation typos. In practice, however, code review does act as an important second line of defence against all kinds of bugs and errors.
 
 (rr-reviewing-motivation-improvements)=
-## Melhorias no Teste
+## Improvements to Testing
 
-Como mencionado acima, uma revisão deveria, e frequentemente faz, pegar erros reais nas alterações de código propostas. Isto, evidentemente, é um sinal de que as alterações propostas não foram suficientemente testadas. Um dos principais objectivos da revisão do código é destacar locais no código onde os processos de teste existentes ou recentemente desenvolvidos são inadequados. Desta forma, a revisão de código ajuda a garantir a saúde futura da base de código, fornecendo uma segunda perspectiva sobre os tipos de testes que são necessários - não apenas agora, mas também sob cenários hipotéticos que podem surgir no futuro à medida que o código evolui.
+As noted above, a review should, and often does, catch actual bugs in proposed code changes. This, of course, is a sign that the proposed changes were not well-tested enough in the first place. A major aim of code review is to highlight places in the code where existing or newly developed testing processes are inadequate. In this way, code review helps to ensure the future health of the code base by providing a second perspective on what kinds of tests are needed - not only now, but also under hypothetical scenarios that could arise in the future as the code evolves.
 
 (rr-reviewing-motivation-documentation)=
-## Documentação
+## Documentation
 
 <!--SiccarPoint notes a whole section on documentation is justified in the book!-->
-Documentação sua<!--reference vai aqui uma vez que a seção existe-->é um componente-chave de reprodutibilidade e de software sustentável em geral. A revisão de código oferece outro par de olhos para considerar se a documentação fornecida juntamente com as alterações de código propostas é adequada para propósito. Isto é duplamente valioso. como o revisor olhando de fora do processo de desenvolvimento pode ter uma perspectiva mais clara do que o codificador sobre se a nova documentação oferece informações suficientes para um usuário que está indo ao código pela primeira vez.
+Thorough documentation<!--reference goes here once section exists--> is a key component of reproducibility and of sustainable software more generally. Code review provides another pair of eyes to consider whether the documentation provided along with the proposed code changes is fit-for-purpose. This is doubly valuable, as the reviewer looking in from outside the development process may have a clearer perspective than the coder on whether new documentation offers enough information for a user coming to the code for the first time.
 
-Este tipo de feedback sobre a documentação aplica-se igualmente à documentação voltada para o usuário e aos comentários embutidos.
+This kind of feedback on documentation applies equally to user-facing documentation and to inline comments.
 
 (rr-reviewing-motivation-readability)=
-## Leitura
+## Readability
 
-Relacionado à documentação, a revisão de código também pode ajudar a garantir que o código seja legível e fácil de entender. Ter um segundo par de olhos pode ajudar a identificar áreas onde o código pode ser difícil de seguir. Quanto mais legível for seu código, mais fácil será para outros desenvolvedores reproduzir seu código para seus próprios fins.
+Related to documentation, code review can also help to ensure that code is readable and easy to understand. Having a second pair of eyes can help spot areas where the code might be difficult to follow. The more readable your code is, the easier it will be for other developers to reproduce your code for their own purposes.
 
 (rr-reviewing-motivation-enforcement)=
-## Cumprimento de estilo
+## Style Enforcement
 
-Muitos projetos aplicam certas diretrizes de estilo de código da {ref}`<rr-code-quality>`, seja eles padrões amplamente adotados (por exemplo, [PEP8](https://www.python.org/dev/peps/pep-0008/), o [guia de estilo Google C++](https://google.github.io/styleguide/cppguide.html)) ou mais convenções específicas do projeto. 
-{ref}`Serviços automatizados<rr-code-style-and-formatting-service>` fornecem uma maneira conveniente para impor um estilo de codificação e iniciar a discussão sobre a qualidade do código.
+Many projects enforce certain {ref}`code style guidelines<rr-code-quality>`, be they widely-adopted standards (for example, [PEP8](https://www.python.org/dev/peps/pep-0008/), the [Google C++ style guide](https://google.github.io/styleguide/cppguide.html)) or more project-specific conventions. 
+{ref}`Automated services<pd-code-styling-tools>` provide a convenient way to enforce a coding style and start the discussion about code quality.
 
-A revisão de código oferece uma oportunidade para garantir que todas as alterações propostas cumpram as normas mínimas exigidas para o projeto.
+Code review provides an opportunity to ensure all proposed changes meet the minimum required standards for the project.
 
 (rr-reviewing-motivation-knowledge)=
-## Conhecimento e coesão em grupo
+## Group Knowledge and Cohesion
 
-As práticas de revisão do código proporcionam vantagens significativas para além da mera defesa da saúde do código de tronco de um projecto quando são propostas alterações. A análise peer-to-peer cria troca de informações nos dois sentidos através de uma web strung entre todos os membros contribuintes de uma equipe. Isto proporciona uma transferência eficaz e orgânica das melhores práticas.
+Code review practices provide significant advantages beyond simply defending the health of the trunk code of a project when changes are proposed. Peer-to-peer review creates two-way exchange of information across a web strung between all contributing members of a team. This provides effective, organic transfer of best practice.
 
-As análises conduzidas no espírito certo (veja especialmente {ref}`aqui<rr-reviewing-recommendation-be-nice>`) também servem um propósito importante para aproximar membros da equipe e criar a coesão em grupo. Em particular, boas avaliações pelos membros principais da equipe do trabalho dos recém-chegados a um projeto podem ajudar a fazer com que esses recém-chegados se sintam bem recebidos e valorizados, e encorajar a continuação da sua participação.
+Reviews conducted in the right spirit (see especially {ref}`here<rr-reviewing-recommendation-be-nice>`) also serve an important purpose in bringing team members together and creating group cohesion. In particular, good reviews by core team members of the work of newcomers to a project can help make those newcomers feel welcomed and valued, and encourage their continued participation.

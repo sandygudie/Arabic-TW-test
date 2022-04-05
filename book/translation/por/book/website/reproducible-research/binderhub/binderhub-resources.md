@@ -1,17 +1,17 @@
 (rr-binderhub-resources)=
-# Recursos
+# Resources
 
-## Leitura adicional
+## Further reading
 
-- [Documentação do binder](https://mybinder.readthedocs.io/en/latest/)
-- [Documentação da BinderHub](https://binderhub.readthedocs.io/en/latest/index.html)
-- [Zero-to-JupyterHub com documentação do Kubernetes](https://zero-to-jupyterhub.readthedocs.io/en/latest/index.html)
-- [Documentação do JupyterHub](https://jupyterhub.readthedocs.io/en/stable/)
-- [_A Via de Viagem_ Construa uma Oficina BinderHub](http://bit.ly/zero-to-binderhub-workshop)
+- [Binder documentation](https://mybinder.readthedocs.io/en/latest/)
+- [BinderHub documentation](https://binderhub.readthedocs.io/en/latest/index.html)
+- [Zero-to-JupyterHub with Kubernetes documentation](https://zero-to-jupyterhub.readthedocs.io/en/latest/index.html)
+- [JupyterHub documentation](https://jupyterhub.readthedocs.io/en/stable/)
+- [_The Turing Way_ Build a BinderHub Workshop](http://bit.ly/zero-to-binderhub-workshop)
 
-## Referências específicas para este capítulo
+## References specific for this chapter
 
-- **Documentação do Kubernetes**: [https://kubernetes.io/](https://kubernetes.io/)
-- **Documentação do Helm**: [https://helm.sh/](https://helm.sh/)
+- **Kubernetes documentation**: [https://kubernetes.io/](https://kubernetes.io/)
+- **Helm documentation**: [https://helm.sh/](https://helm.sh/)
 - **repo2docker**: [https://repo2docker.readthedocs.io/en/latest/?badge=latest](https://repo2docker.readthedocs.io/en/latest/?badge=latest)
-- **Documentação do Microsoft Azure sobre Controle Baseado em Funções**: [https://docs.microsoft.com/en-us/azure/role-based-access-control/overview](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview)
+- **Microsoft Azure documentation on Role Based Access Control**: [https://docs.microsoft.com/en-us/azure/role-based-access-control/overview](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview)

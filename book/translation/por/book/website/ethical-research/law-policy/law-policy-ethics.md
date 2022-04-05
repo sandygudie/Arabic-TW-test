@@ -1,79 +1,80 @@
-(er-política-ética)=
-# Ética e lei
+(er-law-policy-ethics)=
+# Ethics and law
 
-As leis são feitas por humanos. Eles reflectem os resultados das negociações entre diferentes pessoas, com diferentes interesses e diferentes níveis de poder. Cumprir com leis é geralmente necessário, mas *raramente suficiente*, para garantir que você esteja agindo de forma ética.
+Laws are made by humans. They reflect the outcomes of negotiations between different people, with different interests and different amounts of power. Complying with laws is usually necessary, but *rarely sufficient*, to ensure that you are acting ethically.
 
-## Direito nacional e regional
+## Domestic and regional law
 
-Deveriam saber que leis abrangem o trabalho científico aberto que estão a fazer. Isso dependerá de quais jurisdições você trabalha: geralmente a área geográfica coberta por uma lei. Devem estar cientes das leis que nos cobrem a nível local, estatal ou regional, nacional e internacional.
+You should be aware of what laws cover the open science work that you are doing. This will depend on which jurisdictions you work in: usually the geographical area covered by a law. You should be aware of the laws that cover you at local, state or regional, national, and international levels.
 
-Você também deve estar ciente dos passos que deve tomar para garantir que está em conformidade com todas as leis relevantes. Esta seção não é exaustiva! Destina-se a dar-vos uma ideia dos tipos de leis de que se deve ter conhecimento.
+You should also be aware what steps you should take to ensure that you are compliant with all relevant laws. This section is not exhaustive! It is designed to give you some idea of the kinds of laws you should be aware of.
 
-### Direito de proteção de dados
+### Data protection law
 
-As leis de protecção de dados cobrem o que é permitido por lei quando se procede à recolha e processamento de dados. O objectivo da legislação em matéria de protecção de dados é proteger a privacidade dos indivíduos na recolha e utilização de informações sobre os mesmos.
+Data protection laws cover what is permitted by law when collecting and processing data. The aim of data protection laws is to protect the privacy of individuals when collecting and using information about them.
 
-As leis relativas à protecção de dados têm de ser actualizadas com frequência, a fim de garantir que cobrem todas as formas que os diferentes actores estão a utilizar novas tecnologias para recolher e utilizar dados de novas formas. Porque as leis de protecção de dados se encontram nos limites do que as empresas - especialmente os grandes gigantes da tecnologia - são capazes de fazer, o processo de elaboração, actualização e aplicação das leis de protecção de dados tornou-se cada vez mais digno de notícia. Por exemplo, novos actos legislativos como o Regulamento Geral da Proteção de Dados ([GDPR](https://gdpr-info.eu/)) na UE atraíram muita atenção.
+Data protection laws need to be updated frequently in order to make sure they cover all the ways that different actors are using new forms of technology to collect and use data in new ways. Because data protection laws sit at the limits of what companies - especially big tech giants - are able to do, the process of making, updating and enforcing data protection laws has become increasingly newsworthy. For example, new pieces of legislation such as the General Data Protection Regulation ([GDPR](https://gdpr-info.eu/)) in the EU have attracted a lot of attention.
 
-Muitos países têm uma autoridade nacional em matéria de protecção de dados, que é incumbida da protecção de dados. Oferecem frequentemente orientações sobre a forma de cumprir as leis de protecção de dados no seu país. A Wikipédia tem uma lista [de autoridades de proteção de dados](https://en.wikipedia.org/wiki/National_data_protection_authority) cobrindo muitos países.
+Many countries have a national data protection authority, which is tasked with protecting data. They often produce guidance on how to comply with data protection laws in their country. Wikipedia has a [list of data protection authorities](https://en.wikipedia.org/wiki/National_data_protection_authority) covering lots of countries.
 
-As leis de protecção de dados são por vezes confundidas com as leis da privacidade, mas não são a mesma coisa.
+Data protection laws are sometimes confused with privacy laws, but they are not the same thing.
 
-### Direito de privacidade
+### Privacy law
 
-As leis relativas à privacidade protegem a capacidade das pessoas para se manterem ou a informação sobre si mesmas, longe da visão pública. O conteúdo específico das leis de privacidade varia entre jurisdições. As leis podem ser gerais, ou só podem cobrir certos tipos de informações, às vezes referidas como "informações sensíveis" ou "informações que pessoalmente identificáveis". Isso poderia incluir, por exemplo, informações médicas ou financeiras sobre uma pessoa.
+Privacy laws protect people's ability to keep themselves, or information about themselves, away from public view. The specific content of privacy laws varies between jurisdictions. Laws may be general, or they may only cover certain kinds of information, sometimes referred to as 'sensitive information' or 'personally identifiable information.' This might include, for example, medical or financial information about a person.
 
-As leis de privacidade foram periodicamente actualizadas para ter em conta as novas tecnologias. que ofereceram novas formas de invasão da privacidade e de partilha de informações sobre as pessoas. Isto começou no século XIX, quando os jornais difundiram, e continua a acontecer enquanto legisladores tentam acompanhar a evolução da Internet e da recolha de dados.
+Privacy laws have periodically been updated to take into account new technologies, which have offered new ways for privacy to be invaded and for information about people to be shared. This started in the 19th century when newspapers became widespread, and is still happening as legislators try to keep up with developments in the internet and in data collection.
 
-A privacidade é por vezes confundida com a protecção de dados, mas é muito mais ampla. Por exemplo, o direito à privacidade protege os indivíduos contra a recolha de amostras de sangue sem a sua autorização. Significa que as buscas corporais devem ser feitas de forma a preservar a dignidade da pessoa que é procurada, e que as buscas de casa só devem ser feitas para procurar provas, e não para o assédio. Além disso, criminaliza leis que criminalizam o sexo privado e consensual entre adultos do mesmo sexo ilegal (ainda assim, essas leis ainda não foram revogadas em toda a parte). A privacidade também é um {ref}`direito humano<er-law-policy-rights>`.
+Privacy is sometimes confused with data protection, but it is much broader. For example, the right to privacy protects individuals from having blood samples taken without their permission. It means that body searches must be done in a way that preserves the dignity of the person being searched, and that home searches must only be done to search for evidence, not for harassment. It also makes laws that criminalise private, consensual sex between adults of the same sex unlawful (nonetheless, these laws have not yet been repealed everywhere). Privacy is also a {ref}`human right<er-law-policy-rights>`.
 
-### Direito de propriedade intelectual
+### Intellectual property law
 
-A propriedade intelectual refere-se a criações feitas por seres humanos. Estes podem incluir obras literárias e artísticas, bem como invenções. Podem também incluir obras científicas e descobertas. Os direitos de propriedade intelectual visam proteger os interesses dos criadores dessas obras.
+Intellectual property refers to creations that have been made by humans. These can include literary and artistic works, as well as inventions. They can also include scientific works and discoveries. Intellectual property rights aim to protect the interests of the creators of these works.
 
-Estas podem incluir:
-- direitos de autor: cobre obras criativas e dá ao proprietário o direito de fazer cópias.
-- marca registrada: abrange bens ou serviços e identifica-os como sendo provenientes de um determinado fornecedor.
-- patente: abrange as invenções e dá ao proprietário o direito de impedir que outros actores façam ou vendam essa invenção.
+These can include:
+- copyright: covers creative works, and gives the owner the right to make copies.
+- trademark: covers goods or services, and identifies them as coming from a particular provider.
+- patent: covers inventions, and gives the owner the right to stop other actors from making or selling that invention.
 
-A Organização Mundial da Propriedade Intelectual (a agência das Nações Unidas que supervisiona problemas de propriedade intelectual) produziu FAQs sobre [direitos autorais](https://www.wipo.int/copyright/en/faq_copyright.html), [marcas registradas](https://www.wipo.int/trademarks/en/), e [patentes](https://www.wipo.int/patents/en/faq_patents.html).
+The World Intellectual Property Organisation (the UN agency which oversees intellectual property issues) has produced FAQs on [copyright](https://www.wipo.int/copyright/en/faq_copyright.html), [trademarks](https://www.wipo.int/trademarks/en/), and [patents](https://www.wipo.int/patents/en/faq_patents.html).
 
-A medida em que qualquer propriedade intelectual está protegida na lei varia por jurisdição e é frequentemente limitada no tempo. A aplicação da legislação relativa à propriedade intelectual também varia de acordo com a jurisdição. De um modo geral, é o proprietário da propriedade intelectual que é responsável pela aplicação dos seus direitos, por exemplo, processando outra pessoa em tribunal.
+The extent to which any intellectual property is protected in law varies by jurisdiction, and is often time-limited. Enforcement of intellectual property law also varies by jurisdiction. In general, it is the owner of the intellectual property who is responsible for enforcing their rights, for example by suing another person in court.
 
-Você deve saber quem é o dono da propriedade intelectual que você cria. Em algumas situações, será o senhor a título pessoal. Se você estiver empregado, dependendo dos termos de seu trabalho, seu empregador pode possuir a propriedade intelectual que você cria enquanto trabalha para eles. Isso pode impactar o que você é capaz de fazer com a propriedade intelectual que você criar, incluindo os termos sob os quais você pode licenciá-la. A relação entre o direito de propriedade intelectual e o direito de fonte aberta é complicada, mas não é necessariamente incompatível.
+You should know who owns the intellectual property you create. In some situations, it will be you personally. If you are employed, depending on the terms of your employment, your employer may own the intellectual property you create while you work for them. This may impact what you are able to do with the intellectual property you create, including the terms under which you can license it. The relationship between intellectual property law and open source is complicated but it is not necessarily incompatible.
 <!--- Link to the activism chapter, section on advocating for open practice, when we've written it -->
 
-Se você possui a propriedade intelectual que cria, você deve pensar cuidadosamente sobre como licenciá-la. Se você não licencia explicitamente seu conteúdo de forma diferente, geralmente ele está sob direitos autorais e tecnicamente não pode ser remixado sem sua permissão. Isto pode apresentar problemas para trabalhar abertamente!
+If you own the intellectual property that you create, you should think carefully about how to license it. If you do not explicitly license your content differently, it generally falls under copyright and technically cannot be remixed without your permission. This can present problems for working openly!
 
-Você pode usar uma licença aberta para compartilhar código, conteúdo ou ambos. Há muitas licenças projetadas especialmente para compartilhar amplamente, e organizações como a Creative Commons e a Free Software Foundation criaram ferramentas e recursos para facilitar a partilha de conteúdo, dados e código. Há mais informações no [capítulo de Licença](https://the-turing-way.netlify.app/reproducible-research/licensing.html).
+You may use an open license to share code, or content, or both. There are lots of licenses designed especially for sharing broadly, and organizations like Creative Commons and the Free Software Foundation have created tools and resources to facilitate sharing of content, data and code. There is more information in the [Licensing](https://the-turing-way.netlify.app/reproducible-research/licensing.html) chapter.
 
-## Direito tumulto
+## Tort law
 
-A lei sobre os tormentos é o ramo da lei que permite que as pessoas que foram lesadas processem por indemnização ou outro tipo de reparação desses danos. As leis sobre os estratos variam de acordo com a jurisdição. Pode incluir não só os danos resultantes da negligência, mas também os danos intencionais. Se prejudicarmos alguém, intencionalmente ou negligentemente, poderemos ser legalmente responsáveis pelos danos causados.
+Tort law is the branch of law which allows people who have been harmed to sue for compensation or other remedy for that harm. Tort law varies by jurisdiction. It can include both harm that arises from negligence, and intentional harm. If you harm someone, either intentionally or negligently, you may be legally liable for the harm caused.
 
-No entanto, agir do ponto de vista ético significa normalmente ir além da ideia de responsabilidade jurídica. Deve estar ciente de todos os danos que o seu trabalho pode causar, e não apenas daquilo por que pode ser legalmente responsável.
+Acting ethically, however, usually means going beyond thinking only about legal liability. You should be aware of all the possible harm that your work could cause, not only what you might be legally liable for.
 
-### Direito do contrato
+### Contract law
 
-O direito dos contratos é o ramo da lei que lida com a forma como os contratos - acordos legais entre as partes - são aplicados. Você deve saber os termos dos contratos que assinou e o que significam esses termos. Deve saber também qual a jurisdição que abrange o contrato que assinou (deve constar do contrato).
+Contract law is the branch of law which handles how contracts - legal agreements between parties - are enforced. You should know the terms of contracts you have signed, and what those terms mean. You should also know which jurisdiction covers the contract you have signed (this should be in the contract).
 
-O trabalho ético também pode incluir uma reflexão crítica sobre os contratos. Você deve pensar em quais obrigações você está inscrevendo quando assinar um contrato. Deveria também pensar em que obrigações contratuais estão a ser impostas a outras pessoas quando se celebra um contrato com elas.
+Ethical work can also include thinking critically about contracts. You should think about what obligations you are signing up for when you sign a contract. You should also think about what contractual obligations you are imposing on other people when you form a contract with them.
 
-## Como alterar as leis
+## How to change laws
 
-A lei não é estática nem inalterável. A lei é feita pelos seres humanos e pode ser alterada pelo homem. Se você sente que a lei na sua jurisdição funciona de uma forma que não é útil ou prejudicial, considere unir esforços para mudá-lo! Alterar a legislação é um projecto a longo prazo e pode levar décadas.
+Law is not static and unchanging. The law is made by humans and it can be changed by humans. If you feel that the law in your jurisdiction works in a way that is unhelpful or damaging, consider joining efforts to change it! Changing laws is a long-term project and can take decades.
 
-Esta secção não pretende explicar como o fazer: um bom local para começar é encontrar uma organização de campanha que esteja a trabalhar no assunto, e pergunte a eles como se envolver.<!--- edite isto para se referir ao capítulo de ativismo, quando tivermos escrito -->Veja detalhes nos capítulos no {ref}`er-activismo` para mais detalhes.
-<!--- edite isto para se referir ao capítulo de ativismo, quando tivermos escrito --> Veja detalhes nos capítulos no {ref}`er-activismo` para mais detalhes.
+This section is not intended to explain how to do this: a good place to start is to find a campaigning organisation who is working on the issue, and ask them how to get involved.
+<!--- edit this to refer to the activism chapter, when we have written it -->
+See details in the chapters on {ref}`er-activism` for more details.
 
-## Política
+## Policy
 
-A política é um termo geral para um conjunto de ideias ou princípios que orientam acções em situações específicas. As políticas não são juridicamente vinculativas, mas destinam-se a incentivar determinados comportamentos e a desencorajar outros. Por exemplo, a comunidade Turing Way concorda em seguir a política estabelecida no [Código de Conduta](https://the-turing-way.netlify.app/community-handbook/coc.html).
+Policy is a general term for a set of ideas or principles that guide actions in particular situations. Policies are not legally binding, but they are designed to encourage certain kinds of behaviours and discourage others. For example, the Turing Way community agrees to abide by the policy set out in the [Code of Conduct](https://the-turing-way.netlify.app/community-handbook/coc.html).
 
-As políticas são acordadas entre grupos de pessoas: pode ser a nível organizacional, intra-organizacional ou governamental. É útil estar ciente, por exemplo, de políticas em matéria de investigação ética e inovação estabelecidas pelo seu governo, ou pela sua organização de financiamento. Por exemplo, a Associação Estatística Americana criou [diretrizes éticas para prática estatística](https://www.amstat.org/ASA/Your-Career/Ethical-Guidelines-for-Statistical-Practice.aspx). As políticas também podem ser estabelecidas por organizações nacionais ou internacionais. Se você é membro de uma organização profissional ou académica, deve estar ciente das políticas que abrangem a pesquisa ética para a sua profissão.
+Policies are agreed between groups of people: this can be at organisational, intra-organisational, or governmental level. It is useful to be aware, for example, of policies on ethical research and innovation that are set by your government, or your funding organisation. For example, the American Statistical Association has created [ethical guidelines for statistical practice](https://www.amstat.org/ASA/Your-Career/Ethical-Guidelines-for-Statistical-Practice.aspx). Policies can also be set by national or international organisations. If you are a member of a professional or academic organisation, you should be aware of the policies that cover ethical research for your profession.
 
-Muitas das orientações éticas que foram produzidas assumem a forma de política. Elas podem fornecer orientações úteis.
+Many ethical guidelines that have been produced are in the form of policy. These can provide useful guidance.
 
-Uma vez que as políticas são o resultado da negociação e do acordo, podem ser influenciadas. Se você não acha que as políticas da sua organização profissional são fortes ou eficazes, você pode pressionar por mudanças como membro dessa organização. O processo para o fazer dependerá da organização. Muitas empresas e organizações têm pessoal de defesa e de lobbying que pugnam por mudanças na política governamental que beneficiarão a sua organização.
+Because policies are the result of negotiation and agreement, they can be influenced. If you don't think your professional organisation's policies are strong or effective enough, you can lobby for changes as a member of that organisation. The process for doing this will depend on the organisation. Many companies and organisations have advocacy and lobbying staff who argue for changes in government policy that will benefit their organisation.
 
-Veja detalhes nos capítulos da`política interna da {ref}` para mais detalhes.
+See details in the chapters on {ref}`er-internal-policy` for more details.

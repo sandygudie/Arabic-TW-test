@@ -1,43 +1,43 @@
-crwdns829890:0crwdne829890:0
-# crwdns829892:0crwdne829892:0
+(communication-aa-overview)=
+# Overview of Academic Authorship
 
-crwdns829894:0crwdne829894:0 crwdns829896:0crwdne829896:0
+A great deal of value is placed on academic authorship because a peer-reviewed journal article is still seen as the most valued output from a research project. The number of articles an academic researcher is named on, and particularly whether the person is named as the first author, has a significant impact on their career.
 
-crwdns829898:0crwdne829898:0 crwdns829900:0crwdne829900:0
+But who should be an author on an article? And can we move away from the idea of first author taking the most credit?
 
-crwdns829902:0crwdne829902:0
-## crwdns829904:0crwdne829904:0 crwdns829906:0crwdne829906:0
+(communication-aa-overview-who)=
+## Who is an author? or are they actually contributors?
 
-crwdns829908:0crwdne829908:0 crwdns829910:0crwdne829910:0
+Assigning names to a publication can be a tricky business. However, an important decision that needs to be made at the outset of a project is whether the names on the articles produced from the project are going to be authors or contributors, or a combination of both.
 
-crwdns829912:0crwdne829912:0 crwdns829914:0crwdne829914:0
+The decision may essentially be out of your hands as journals and publishers have specific policies on authorship criteria. Therefore, if you want to publish in a specific journal you will have to adhere to the policy and make an agreement about this within your project.
 
-crwdns829916:0crwdne829916:0
+A general definition of an author is seen as the person that is the creator of the written work (creator of the ideas and the actual physical writing) and there is an ownership for the author regarding the content of what is written.
 
-crwdns829918:0crwdne829918:0 crwdns829920:0crwdne829920:0
+However, most research involves a team of people to make it happen. So who decides whether these contributions are worthy of authorship or are they just to be acknowledged?
 
-crwdns829922:0crwdne829922:0 crwdns829924:0crwdne829924:0 crwdns829926:0crwdne829926:0
+Therefore, it is still common to give authorship to only those that have actually taken part in the writing or editing of the article as well as other substantial aspects of the research. This often excludes large contributions to the project from technicians, undergraduate and postgraduate students, and people involved in the infrastructure of the project such as research software engineers. It also raises ethical issues concerning who takes credit for the work on a project.
 
-crwdns829928:0crwdne829928:0
-## crwdns829930:0crwdne829930:0
+(communication-aa-overview-first)=
+## First author dominance
 
-crwdns829932:0crwdne829932:0 crwdns829934:0crwdne829934:0
+Being the first author impacts that person's reputation and visibility due to a perceived view that this person makes the greatest contribution, citation indices that in the past only counted citations for the first-named author, and citations within academic articles being shortened to the first author's name with *et al* (Ref: Frandsen & Nicolaisen 2010). The number of citations that papers have and what journals they are published in are often important criteria for obtaining new jobs, getting promoted and winning funding applications.
 
-crwdns829936:0crwdne829936:0 crwdns829938:0crwdne829938:0
+The practice of the first author taking prominence over others also has social implications. For example, it might be a difficult decision for a researcher to change their name, due to marriage or divorce, as this action could have a negative impact on their research career.
 
-crwdns829940:0crwdne829940:0
-* crwdns829942:0crwdne829942:0
-* crwdns829944:0crwdne829944:0
-* crwdns829946:0crwdne829946:0
+Links to discussions about the impact of changing names in academia:
+* Article from The Conversation - [How three scientists navigated the personal and career implications of a name change with marriage](https://theconversation.com/how-three-scientists-navigated-the-personal-and-career-implications-of-a-name-change-with-marriage-114918)
+* [Married women in academia - did you change your name?](https://www.reddit.com/r/AskAcademia/comments/2dfqho/married_women_in_academia_did_you_change_your/).
+* London School of Economics Impact of Social Sciences Blog - [For academic publishing to be trans-inclusive, authors must be allowed to retrospectively change their names](https://blogs.lse.ac.uk/impactofsocialsciences/2020/09/30/for-academic-publishing-to-be-trans-inclusive-authors-must-be-allowed-to-retroactively-change-their-names/).
 
-crwdns829948:0crwdne829948:0 crwdns829950:0crwdne829950:0 crwdns829952:0crwdne829952:0
+It is not the place of this chapter to argue against this academic culture of competitive citation but it must be noted that there are now many different types of outputs that can be attributed in different ways. Therefore, we are currently seeing a slow shift in the sole importance of journal articles. Such outputs might include datasets, code or blogs that document a research project and these essentially have as much value as a journal article in terms of communication and the reproducibility of the research.
 
-crwdns829954:0crwdne829954:0
-* [crwdns829958:0crwdne829958:0](crwdns829956:0crwdne829956:0)
-* crwdns829960:0crwdne829960:0
+Here are two good articles on how we need to move away from the culture of first and last authors and reflect more diverse outputs:
+* [No more first author, no more last author by Gretchen Kisher](https://www.nature.com/articles/d41586-018-06779-2)
+* [Challenges in assessing contributions to reproducible research and open science by Malvika Sharan](https://malvikasharan.github.io/blogs/dora-panel-open-science/).
 
-crwdns829962:0crwdne829962:0 crwdns829964:0crwdne829964:0 crwdns829966:0crwdne829966:0
+However, decisions concerning authorship are still central in the minds of most academics and also used as a marker of a projects impact. Therefore, decisions about authorship need to be taken and the two main decisions to make are: who should get authorship on the paper? and what order the names should take?
 
-crwdns829968:0crwdne829968:0 crwdns829970:0crwdne829970:0
+Contributions to research projects and how these translate into the authorship of a journal article are tackled in many different ways dependent on what discipline the study is based in, the location of the publication (which journal or publisher is used), the motivation of the project contributors and the number of people involved in the project. The name order is heavily based in a discipline specific tradition of what is understood by that order and this can create tension when new research collaborations are set up.
 
-crwdns829972:0crwdne829972:0 crwdns829974:0crwdne829974:0
+There is a growing trend pushing against more traditional ideas of authorship; in the number of authors and their order, and that authorship should reflect the contributions of the whole research team or community. Such an inclusive authorship model is hard to achieve and must be planned at the beginning of any project so that all contributions are recorded.

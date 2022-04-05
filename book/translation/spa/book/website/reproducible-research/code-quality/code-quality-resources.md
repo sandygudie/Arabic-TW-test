@@ -1,30 +1,30 @@
-# Lista de control y recomendaciones de lectura
+# Checklist and Reading Recommendations
 
 ## Checklist
 
-### Para el autoformateo de código
+### For code auto-formatting
 
-- [ ] Escribe tu código de desarrollo en tu editor de texto o IDE favorito.
-- [ ] Activar el formato automático en su editor ajustando las preferencias/ajustes.
-- [ ] Escriba `Ctrl + s` (ventanas, linux) o `/etc+ s` (mac) para guardar el trabajo para formatear el código.
+- [ ] Write your development code in your favourite IDE/text-editor.
+- [ ] Enable auto formatting in your editor by tweaking the preferences/settings.
+- [ ] Type `Ctrl + s` (windows, linux) or `⌘ + s` (mac) to save the work to format the code.
 
-### Para análisis de código estático
+### For static code analysis
 
-- [ ] Construye el proyecto para habilitar `linters` para detectar los errores/advertencias en el código (si existe).
-- [ ] Hacer cambios relevantes y repetir el paso anterior.
-- [ ] {ref}`Commit y push<rr-vcs-git-commit>` los cambios al repositorio **Github/GitLab/BitBucket** para ejecutar las pruebas de pre-implementación.
+- [ ] Build the project to enable `linters` to spot the errors/warnings in the code (if any).
+- [ ] Make relevant changes and repeat the above step.
+- [ ] {ref}`Commit and push<rr-vcs-git-commit>` the changes to remote **Github/GitLab/BitBucket** repository to run the pre-deployment tests.
 
-## Lectura posterior
+## Further reading
 
-- [Artículo de la Universidad de Friburgo](https://swt.informatik.uni-freiburg.de/service/coding-conventions)
-- [Convenciones de codificación - Wikipedia](https://en.wikipedia.org/wiki/Coding_conventions)
-- [Una lista exhaustiva de herramientas de análisis de código estático - Wikipedia](https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis)
-- [Excelente compilación de directrices de análisis de código - OWASP](https://owasp.org/www-community/controls/Static_Code_Analysis)
-- [Guía internacional ES6 de ECMA](http://www.ecma-international.org/ecma-262/6.0/)
+- [Article by University of Freiburg](https://swt.informatik.uni-freiburg.de/service/coding-conventions)
+- [Coding Conventions - Wikipedia](https://en.wikipedia.org/wiki/Coding_conventions)
+- [An exhaustive list of static code analysis tools - Wikipedia](https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis)
+- [Excellent compilation of code analysis guidelines - OWASP](https://owasp.org/www-community/controls/Static_Code_Analysis)
+- [ECMA International ES6 guide](http://www.ecma-international.org/ecma-262/6.0/)
 
-## Referencias específicas para este capítulo
+## References specific for this chapter
 
-- [Guía de análisis de herramientas estáticas](https://en.wikipedia.org/wiki/Static_program_analysis)
-- [Enlaces de teclas en VSCode](https://code.visualstudio.com/docs/getstarted/keybindings)
-- [Blog de Dev. To sobre personalización del editor de texto](https://dev.to/josuerodriguez98/my-vs-code-customization-i4o)
-- [Guía de configuración del editor](https://editorconfig.org/)
+- [Static Tool analysis guide](https://en.wikipedia.org/wiki/Static_program_analysis)
+- [KeyBindings in VSCode](https://code.visualstudio.com/docs/getstarted/keybindings)
+- [Dev.To blog about text-editor customization](https://dev.to/josuerodriguez98/my-vs-code-customization-i4o)
+- [EditorConfig guide](https://editorconfig.org/)

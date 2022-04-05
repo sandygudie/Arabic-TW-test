@@ -1,39 +1,39 @@
-crwdns847308:0crwdne847308:0
-# crwdns847310:0crwdne847310:0
+(rr-open-checklist)=
+# Checklist
 
-crwdns847312:0crwdne847312:0
-## crwdns847314:0crwdne847314:0
+(rr-open-checklist-data)=
+## Open Data
 
 
-- crwdns847316:0crwdne847316:0
-- crwdns847318:0crwdne847318:0
-- crwdns847320:0crwdne847320:0
-- crwdns847322:0crwdne847322:0
+- Ensure your data is in a simple, standard format or formats which is machine and human-readable.
+- Check, reformat or create metadata to clearly describe what the data is, how it was collected, and any associated strengths/weaknesses to someone that finds it.
+- Identify a relevant, easily discoverable repository or repositories to host your data, and upload it there.
+- Assign your data a persistent identifier such as a DOI.
 
-crwdns847324:0crwdne847324:0
-## crwdns847326:0crwdne847326:0
+(rr-open-checklist-software)=
+## Open Source Software
 
-- crwdns847328:0crwdne847328:0
-- crwdns847330:0crwdne847330:0 crwdns847332:0{ref}crwdne847332:0
-- crwdns847334:0crwdne847334:0
-- crwdns847336:0crwdne847336:0
+- Put your code in a freely accessible repository.
+- Include a licence granting others the right to use, copy and modify your work. You can use the {ref}`rr-licensing` chapter to help you pick the most appropriate licence for your project.
+- Include a README file containing useful information about a project such as what it is, how to use/install it and how to run any tests.
+- If you want others to collaborate on the project include contribution guidelines.
 
-crwdns847338:0crwdne847338:0
-## crwdns847340:0crwdne847340:0
+(rr-open-checklist-hardware)=
+## Open Hardware
 
-- crwdns847342:0crwdne847342:0
-- crwdns847344:0crwdne847344:0
-- crwdns847346:0crwdne847346:0 crwdns847348:0crwdne847348:0
-- crwdns847350:0crwdne847350:0
+- Use open hardware where practical.
+- Make detailed documentation and designs for any hardware you develop openly available.
+- Include a licence granting others the right to use, copy and modify your work. You can use [this](https://choosealicense.com/) website to help you pick the most appropriate licence for your project.
+- Include a README file containing useful information about a project (for example, what it is and the materials used).
 
-crwdns847352:0crwdne847352:0
-## crwdns847354:0crwdne847354:0
+(rr-open-checklist-access)=
+## Open Access
 
-- crwdns847356:0crwdne847356:0
-- crwdns847358:0crwdne847358:0
+- Publish your research in an open-access journal.
+- Store a copy or preprint of your work in a freely accessible public repository.
 
-crwdns847360:0crwdne847360:0
-## crwdns847362:0crwdne847362:0
+(rr-open-checklist-notebooks)=
+## Open Notebooks
 
-- crwdns847364:0crwdne847364:0
-- crwdns847366:0crwdne847366:0
+- Keep notes in an Electronic Lab Notebook.
+- Make your notebooks publicly accessible online.

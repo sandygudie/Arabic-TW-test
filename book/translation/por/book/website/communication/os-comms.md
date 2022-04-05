@@ -1,22 +1,23 @@
 (cm-os-comms)=
-# Comunicações em Projetos de Código Aberto
+# Communications in Open Source Projects
 
 ## Summary
 
-> Conversa como colaboração
+> Conversation as Collaboration
 
-Em um projeto Open Source, uma quantidade significativa de colaboração entre a equipe central ou de liderança e a comunidade em geral ocorre na forma de interações on-line (provavelmente muitas delas!). Portanto, é realmente importante planejar cuidadosamente _como_ e _onde_ essas interações acontecem. As interacções comunitárias devem manter a transparência e a abertura do projecto, a fim de facilitar o crescimento da sua comunidade. e a escolha das plataformas deverá assegurar que o seu projeto seja bem-vindo, acessível e seguro para os seus colaboradores.
+In an Open Source project, a significant amount of collaboration between the core or leadership team and the wider community takes place in the form of online interactions (likely many of them!). It is therefore really important to plan carefully _how_ and _where_ these interactions take place. Community interactions should maintain the transparency and openness of the project to facilitate the growth of your community, and the choice of the platforms should ensure that your project is welcoming, accessible, and secure for its collaborators.
 
-Este capítulo dá uma visão geral das formas mais comuns de rastrear, apoiar e manter as interações da comunidade, como levantando problemas, relatar erros e atrair contribuições que levam a melhorias no projeto.
+This chapter gives an overview of the most common ways to track, support and maintain community interactions such as by raising issues, reporting bugs and attracting contributions that lead to improvements in the project.
 
 ```{figure} ../figures/research-tools.jpg
 ---
-nome: ferramentas de pesquisa
-largura: 500px
-alt: poucas pessoas estão procurando diferentes informações sobre experimento, ferramentas, privacidade. Existem diferentes locais ou canais onde esses detalhes podem ser identificados, o que é exibido de forma definitiva.
---- Idetizando o canal certo para se comunicar e encontrar informações. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+name: research-tools
+width: 500px
+alt: A few people are looking for different information about experiment, tools, privacy. There are different places or channels where these details can be identified, which is displayed in a findable manner.
+---
+Idetifying right channel to communicate and find information. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-## Fundo de Motivação de anúncio
+## Background ad Motivation
 
-Ao tentar construir uma comunidade ao redor de um projeto Open Source, o conteúdo deste capítulo ajudará a garantir que suas comunicações sejam tão abertas, transparentes e acessíveis quanto possível. Isto ajudará a fomentar a confiança entre a equipa do projecto e a comunidade em geral e dar-lhes-á a agência para contribuírem onde puderem.
+When trying to build a community around an Open Source project, the content in this chapter will help make sure that your communications are as open, transparent and accessible as possible. This will help foster trust between the project team and the wider community and give them the agency to contribute where they can.

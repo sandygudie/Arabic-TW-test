@@ -1,76 +1,76 @@
-crwdns847756:0crwdne847756:0
-# crwdns847758:0crwdne847758:0
+(rr-open-resources)=
+# Resources
 
-crwdns847760:0crwdne847760:0
-## crwdns847762:0crwdne847762:0
+(rr-open-resources-checklist)=
+## Checklist
 
-## crwdns847764:0crwdne847764:0
+## Open source software
 
-- crwdns847766:0crwdne847766:0
-- crwdns847768:0crwdne847768:0 crwdns847770:0{ref}crwdne847770:0
-- crwdns847772:0crwdne847772:0
-- crwdns847774:0crwdne847774:0
+- Put your code in a freely accessible repository.
+- Include a licence granting others the right to use, copy and modify your work. You can use the {ref}`software licenses<rr-licensing-software>`) section to help you pick the most appropriate licence for your project.
+- Include a readme file containing useful information about a project such as what it is, how to use/install it and how to run any tests.
+- If you want others to collaborate on the project include contribution guidelines.
 
-## crwdns847776:0crwdne847776:0
+## Open hardware
 
-- crwdns847778:0crwdne847778:0
-- crwdns847780:0crwdne847780:0
-- crwdns847782:0crwdne847782:0 crwdns847784:0crwdne847784:0
-- crwdns847786:0crwdne847786:0
+- Use open hardware where practical.
+- Make detailed documentation and designs for any hardware you develop openly available.
+- Include a licence granting others the right to use, copy and modify your work. You can use [this](https://choosealicense.com/) website to help you pick the most appropriate licence for your project.
+- Include a readme file containing useful information about a project (for example, what it is and the materials used).
 
-## crwdns847788:0crwdne847788:0
+## Open access
 
-- crwdns847790:0crwdne847790:0
-- crwdns847792:0crwdne847792:0
+- Publish your research in an open access journal.
+- Store a copy and/or preprint of your work in a freely accessible public repository.
 
-## crwdns847794:0crwdne847794:0
+## Open notebooks
 
-- crwdns847796:0crwdne847796:0
-- crwdns847798:0crwdne847798:0
+- Keep notes in an Electronic Lab Notebook.
+- Make your notebooks publicly accessible online.
 
-crwdns847800:0crwdne847800:0
-## crwdns847802:0crwdne847802:0
+(rr-open-resources-learn)=
+## What to Learn Next
 
-crwdns847804:0{ref}crwdne847804:0
+If you have not had a chance already, take a look at the chapter on {ref}`rr-vcs`, particularly the sections on GitHub in the latter half.
 
-crwdns847806:0crwdne847806:0 crwdns847808:0crwdne847808:0 crwdns847810:0crwdne847810:0
+[This](http://book.openingscience.org.s3-website-eu-west-1.amazonaws.com/) book on open science has a great deal of interesting information. For information specific to open source software, [this](https://opensource.guide/) is a good place to look. For more information on DOIs and citing resources look [here](http://www.doi.org/index.html).
 
-crwdns847812:0crwdne847812:0 crwdns847814:0crwdne847814:0
+If you want to take a look at an active open source project, this textbook *is* one. The source can be found on GitHub [here](https://github.com/alan-turing-institute/the-turing-way), and for further details related to this project, you can take a look at the project [website](https://www.turing.ac.uk/research/research-projects/turing-way-handbook-reproducible-data-science).
 
-crwdns847816:0crwdne847816:0
-## crwdns847818:0crwdne847818:0
+(rr-open-resources-references)=
+## References
 
-- crwdns847820:0crwdne847820:0
-- crwdns847822:0crwdne847822:0
-- crwdns847824:0crwdne847824:0
-- crwdns847826:0crwdne847826:0
-- crwdns847828:0crwdne847828:0
-- crwdns847830:0crwdne847830:0
-- crwdns847832:0crwdne847832:0
-- crwdns847834:0crwdne847834:0
-- crwdns847836:0crwdne847836:0
-- crwdns847838:0crwdne847838:0
-- crwdns847840:0crwdne847840:0
-- crwdns847842:0crwdne847842:0
-- crwdns847844:0crwdne847844:0
-- crwdns847846:0crwdne847846:0
-- crwdns847848:0crwdne847848:0
-- crwdns847850:0crwdne847850:0
-- crwdns847852:0crwdne847852:0
-- crwdns847854:0crwdne847854:0
-- crwdns847856:0crwdne847856:0
-- crwdns847858:0crwdne847858:0
-- crwdns847860:0crwdne847860:0
-- crwdns847862:0crwdne847862:0
-- crwdns847864:0crwdne847864:0
-- crwdns847866:0crwdne847866:0
-- crwdns847868:0crwdne847868:0
-- crwdns847870:0crwdne847870:0
-- crwdns847872:0crwdne847872:0
-- crwdns847874:0crwdne847874:0
-- crwdns847876:0crwdne847876:0
+- [1.](https://www.fosteropenscience.eu/node/1420) **CC-BY 4.0**
+- [2.](https://open-science-training-handbook.gitbook.io/book/introduction) **CC 1.0**
+- [3.](https://www.fosteropenscience.eu/content/introduction-open-science-funders-introductory) **Attribution + Noncommercial - CC-BY-NC**
+- [4.](https://link.springer.com/chapter/10.1007/978-3-319-00026-8_2) **Creative Commons Attribution Noncommercial Licence**
+- [5.](https://elifesciences.org/articles/16800) **Attribution 4.0 International (CC BY 4.0)**
+- [6.](https://www.fosteropenscience.eu/content/introduction-open-science-funders-introductory) **Attribution + Noncommercial - CC-BY-NC**
+- [7.](http://book.openingscience.org.s3-website-eu-west-1.amazonaws.com/vision/open_research_data.html) **Creative Commons Attribution-NonCommercical**
+- [8.](http://opendatahandbook.org/guide/en/what-is-open-data/) **CC Attribution 4.0 International Licence**
+- [9.](https://opendatacharter.net/) **Creative Commons Attribution 4.0 International Licence**
+- [10.](http://book.openingscience.org.s3-website-eu-west-1.amazonaws.com/cases_recipes_howtos/making_data_citeable.html) **Creative Commons Attribution-NonCommercical**
+- [11.](http://book.openingscience.org.s3-website-eu-west-1.amazonaws.com/cases_recipes_howtos/challenges_of_open_data_in_medical_research.html) **Creative Commons Attribution-NonCommercical**
+- [12.](http://www.dcc.ac.uk/resources/how-guides/cite-datasets) **Creative Commons**
+- [13.](https://www.open-contracting.org/2016/09/19/diving-deeper-commercial-confidentiality/) **Creative Commons Attribution 4.0 International Licence**
+- [14.](https://ben.balter.com/2015/11/23/why-open-source/) **CC BY 3.0**
+- [15.](https://opensource.guide/starting-a-project/) **(CC BY 4.0)**
+- [16.](https://opensource.guide/) **(CC BY 4.0)**
+- [17.](https://opensource.com/resources/what-open-access) **Attribution-ShareAlike 4.0 International**
+- [18.](http://www.righttoresearch.org/learn/whyOA/index.shtml) **Creative Commons Attribution 3.0 Licence**
+- [19.](https://open-science-training-handbook.gitbook.io/book/open-science-basics/open-access-to-published-research-results) **CC0 1.0 Universal**
+- [20.](https://www.oercommons.org/about) **Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Licence**
+- [21.](https://libguides.ioe.ac.uk/oer)  **Creative CommonsAttribution-NonCommercial-ShareAlike 2.0 UK: England & Wales (CC BY-NC-SA 2.0 UK)**
+- [22.](https://opencontent.org/blog/archives/3221) **Creative Commons Attribution licence version 4.0**
+- [23.](https://opensource.com/resources/what-open-hardware) **CC BY-SA 4.0**
+- [24.](https://opensource.com/article/17/8/enterprise-open-source-advantages) **CC BY-SA 4.0**
+- [25.](https://www.oshwa.org/sharing-best-practices/) **Creative Commons Attribution-ShareAlike 4.0 International Licence**
+- [26.](https://openlabnotebooks.org/open-science-at-sgc/) **CC BY 4.0**
+- [27.](http://onsnetwork.org/) **Attribution 3.0 Unported (CC BY 3.0)**
+- [28.](https://libraries.mit.edu/data-management/store/electronic-lab-notebooks/) **CC BY-NC 2.0**
+- [29.](https://www.citizenscience.org/) **(CC BY 4.0)**
 
-crwdns847878:0crwdne847878:0
-## crwdns847880:0crwdne847880:0
+(rr-open-resources-footnotes)=
+## Footnotes
 
-1. crwdns847882:0crwdne847882:0
+1. References by discipline: Agricultural studies (Kousha and Abdoli, 2010); Physics/astronomy (Gentil-Beccot et al., 2010; Harnad and Brody, 2004; Metcalfe, 2006); Medicine (Sahu et al., 2005; Xu et al., 2011); Computer science (Lawrence, 2001); Sociology/social sciences (Hajjem et al., 2006; Norris et al., 2008; Xu et al., 2011); Psychology (Hajjem et al., 2006); Political science (Hajjem et al., 2006; Antelman, 2004; Atchison and Bull, 2015); Management (Hajjem et al., 2006); Law (Donovan et al., 2015; Hajjem et al., 2006); Economics (Hajjem et al., 2006; McCabe and Snyder, 2015; Norris et al., 2008; Wohlrabe, 2014); Mathematics (Antelman, 2004; Davis and Fromerth, 2007; Norris et al., 2008); Health (Hajjem et al., 2006); Engineering (Antelman, 2004; Koler-Povh et al., 2014); Philosophy (Antelman, 2004); Education (Hajjem et al., 2006; Zawacki-Richter et al., 2010); Business (Hajjem et al., 2006; McCabe and Snyder, 2015); Communication studies (Zhang, 2006); Ecology (McCabe and Snyder, 2014; Norris et al., 2008); Biology (Frandsen, 2009b; Hajjem et al., 2006; McCabe and Snyder, 2014).

@@ -1,53 +1,53 @@
-crwdns849506:0crwdne849506:0
-# crwdns849508:0crwdne849508:0
+(rr-rdm-dmp)=
+# Data Management Plan
 
-crwdns849510:0crwdne849510:0 crwdns849512:0crwdne849512:0
+A Data Management Plan (DMP), or Output Management Plan, is a document that describes how your research outputs will be generated, stored, used and shared within your project. A DMP is a living document, which can be updated throughout the research project as needed.
 
-crwdns849514:0crwdne849514:0 crwdns849516:0crwdne849516:0 crwdns849518:0crwdne849518:0 crwdns849520:0{ref}crwdnd849520:0{ref}crwdne849520:0
+A Data Management Plan is a roadmap for you to manage your data efficiently and securely. This can prevent data loss or breaches. Planning ahead on how to manage your data consistently can save you time later on! It can also make it easier to {ref}`share<rr-rdm-sharing>` your data with others and therefore make the data more {ref}`FAIR<rr-rdm-fair>`
 
-## crwdns849522:0crwdne849522:0
+## A Data Management Plan should provide information on five main topics:
 
-### crwdns849524:0crwdne849524:0 crwdns849526:0crwdne849526:0
-* crwdns849528:0crwdne849528:0 crwdns849530:0crwdne849530:0
-* crwdns849532:0crwdne849532:0 crwdns849534:0crwdne849534:0 crwdns849536:0crwdne849536:0 crwdns849538:0crwdne849538:0
+### 1. Roles and Responsibilities
+* It is important to discuss who is responsible for different tasks during the life-cycle of a research project. Defining who is responsible for the management of the data and code can prevent confusion/miscommunication later in the project.
+* You should check the DMP recommendations and requirements of your institute and funder. The library research support team of your institute and the website of your funder are usually good places to find information and help. Some of the funders require you to use their DMP template. You can check if your funder or institute has a DMP using [DMPonline](https://dmponline.dcc.ac.uk/).
 
-### crwdns849540:0crwdne849540:0 crwdns849542:0crwdne849542:0
-* crwdns849544:0crwdne849544:0 crwdns849546:0crwdne849546:0 crwdns849548:0crwdne849548:0
-* crwdns849550:0crwdne849550:0
-    * crwdns849552:0crwdne849552:0
-    * crwdns849554:0crwdne849554:0
-    * crwdns849556:0{ref}crwdne849556:0 crwdns849558:0crwdne849558:0
-* crwdns849560:0{ref}crwdne849560:0
-* crwdns849562:0crwdne849562:0
+### 2. Type and size of data collected and documentation/metadata generated
+* Here, you can list the file formats you will use to collect, process and present your data. If you want to share your research outputs later, standard file formats that can be openly used without a particular license for a software programme are preferred. To ensure this, you should adapt your files or start working in these formats early on.
+* A distinction can be made between different types of data that can be described in the plan separately:
+    * Raw/primary data: data collected from the source (always keep a read-only version of raw data so you can come back to it later!)
+    * Processed data: a version of the data that has been modified for analysis or visualisation
+    * Finalised data: data that is ready to be shared in a publication or data repository (see {ref}`Sharing and archiving data section <rr-rdm-sharing>` for more information). Some data repositories, such as [Zenodo](https://zenodo.org/), allow versioning of datasets so that you can update your finalised dataset if you want to release another version.
+* All of these types of data will have to be described to be placed into context by using metadata (see the {ref}`Documentation and metadata section<rr-rdm-metadata>`) and adequate documentation which will allow future you, and anyone in your team, to interpret the data.
+* It is helpful to know the approximate size (in the range of MB, GB, TB or PB) of the data in these various stages because this will affect the storage solutions available for you (discussed in the next point).
 
-### crwdns849564:0crwdne849564:0 crwdns849566:0crwdne849566:0
-* crwdns849568:0{ref}crwdne849568:0
-* crwdns849570:0crwdne849570:0
-    * crwdns849572:0crwdne849572:0
-    * crwdns849574:0crwdne849574:0
-    * crwdns849576:0{ref}crwdne849576:0
-    * crwdns849578:0crwdne849578:0
-* crwdns849580:0crwdne849580:0 crwdns849582:0{ref}crwdne849582:0
-* crwdns849584:0crwdne849584:0 crwdns849586:0crwdne849586:0 crwdns849588:0crwdne849588:0
+### 3. Type of data storage used and back up procedures that are in place
+* Check the {ref}`data storage and organisation section<rr-rdm-storage>` for storage and back-up solutions and ways to organise your files
+* Check if there are any **costs** associated with your project
+    * Preferred storage solution (during and after the project, see below)
+    * Personnel costs (if you need a data manager to manage more sensitive or large quantities of data)
+    * Software licenses (such as Electronic Lab Notebooks, see the {ref}`Open notebooks section<rr-open-notebooks>`
+    * You can use this [checklist for costs](https://www.ukdataservice.ac.uk/media/622368/costingtool.pdf) as a guidance
+* Keeping track of who made specific changes in your data/code will be important, particularly for code. See the {ref}`Version Control chapter<rr-vcs>` for more information.
+* Determine who has access to the data and who grants access. At least one other person should have access to your data, such as your supervisor/PI/head of the department. If you're managing personal/commercially sensitive data, access should only be given to individuals that have to work with the data.
 
-### crwdns849590:0crwdne849590:0 crwdns849592:0crwdne849592:0
-* crwdns849594:0crwdne849594:0 crwdns849596:0{ref}crwdne849596:0
-* crwdns849598:0crwdne849598:0 crwdns849600:0{ref}crwdne849600:0
-    * crwdns849602:0crwdne849602:0 crwdns849604:0crwdne849604:0 crwdns849606:0crwdne849606:0
+### 4. Preservation of the research outputs after the project
+* Consider whether your research outputs can be made publicly available. Personal data or research outputs needed to apply for patents cannot be publicly shared, see the {ref}`Open data section<rr-open-data>` If data cannot be made publicly available you will still have to preserve it for several years, depending on the policies of your country, institute and funder.
+* You can outsource long term preservation of your data to a data repository. You can find more information on how to select an appropriate repository in {ref}`sharing and archiving data<rr-rdm-sharing>` section
+    * Select repositories using, for example, [FAIRsharing](https://fairsharing.org/) or [Nature's recommended repository list](https://www.springernature.com/gp/authors/research-data-policy/repositories/12327124), that provide a persistent identifier such as a DOI for your research output. A repository should have a preservation policy that specifies how long your outputs will be curated. When in doubt, contact your library Research Data Support Team for more information about data repositories.
 
-### crwdns849608:0crwdne849608:0 crwdns849610:0crwdne849610:0
-* crwdns849612:0{ref}crwdnd849612:0{ref}crwdne849612:0 crwdns849614:0crwdne849614:0 crwdns849616:0crwdne849616:0
-* crwdns849618:0crwdne849618:0
-    * crwdns849620:0{ref}crwdne849620:0
+### 5. Reuse of your research outputs by others
+* Select a license when you make your output available on a repository (see the Licensing subchapters on {ref}`data<rr-licensing-data>` and {ref}`software<rr-licensing-software>` for more information). By selecting a license you tell others how they can reuse your data. If you do not select a license others will not be able to reuse your data without asking you for permission.
+* You can put your research outputs into context using and introduction text, such as a README.txt file
+    * See the {ref}`documentation and metadata section<rr-rdm-metadata>`
 
-crwdns849622:0crwdne849622:0
+You can use this [checklist](https://ukdataservice.ac.uk/learning-hub/research-data-management/plan-to-share/checklist/) to see if you have everything covered in your Data Management Plan.
 
-## crwdns849624:0crwdne849624:0
+## Further Reading Recommendations
 
-- [crwdns849628:0crwdne849628:0](crwdns849626:0crwdne849626:0)
-- [crwdns849632:0crwdne849632:0](crwdns849630:0crwdne849630:0)
-- [crwdns849636:0crwdne849636:0](crwdns849634:0crwdne849634:0)
-- [crwdns849640:0crwdne849640:0](crwdns849638:0crwdne849638:0)
-- crwdns849642:0crwdne849642:0 crwdns849644:0crwdne849644:0
-- crwdns849646:0crwdne849646:0 crwdns849648:0crwdne849648:0 crwdns849650:0crwdne849650:0
-- crwdns849652:0crwdne849652:0 crwdns849654:0crwdne849654:0 crwdns849656:0crwdne849656:0
+- [DataOne education modules](https://www.dataone.org/education-modules)
+- [UK Data Services data management information](https://ukdataservice.ac.uk/learning-hub/research-data-management/)
+- [TU Delft Research Data Management portal](https://www.tudelft.nl/en/library/research-data-management)
+- [Videos (3-7 min) on data management by Kristin Briney](https://www.youtube.com/watch?v=K5_ocBG5xek&list=PLEor4jq8YPgK_sgEiAcpHZLw-62mufXus)
+- Briney, Kristin. Data Management for Researchers : Organize, maintain and share your data for research success, Pelagic Publishing, 2015.
+- Briney, K.A., Coates, H. and Goben, A., 2020 Foundational Practices of Research Data Management. Research Ideas and Outcomes 6: e56508. [https://doi.org/10.3897/rio.6.e56508](https://doi.org/10.3897/rio.6.e56508)
+- Hart EM, Barmby P, LeBauer D, Michonneau F, Mount S, Mulrooney P, et al. (2016) Ten Simple Rules for Digital Data Storage. PLoS Comput Biol 12(10): e1005097. [https://doi.org/10.1371/journal.pcbi.1005097](https://doi.org/10.1371/journal.pcbi.1005097)

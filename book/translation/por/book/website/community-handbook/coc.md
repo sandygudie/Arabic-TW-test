@@ -1,25 +1,25 @@
 (ch-coc)=
-# Código de Conduta
+# Code of Conduct
 
-Valorizamos a participação de todos os membros da nossa comunidade e queremos garantir que todos os contribuintes tenham uma experiência agradável e realizante. Assim, espera-se que todos que participem do projeto Turing Way mostrem respeito e cortesia para com outros membros da comunidade o tempo todo.
+We value the participation of every member of our community and want to ensure that every contributor has an enjoyable and fulfilling experience. Accordingly, everyone who participates in the Turing Way project is expected to show respect and courtesy to other community members at all times.
 
-Kirstie Whitaker, como PI deste projecto, e todos os membros do projeto, são dedicados a uma experiência de ***sem assédio para todos***, independentemente do sexo, identidade e expressão de género, orientação sexual, deficiência, aparência física, tamanho do corpo, raça, idade ou religião. **Nós não toleramos assédio por e/ou membros de nossa comunidade de nenhuma forma**.
+Kirstie Whitaker, as PI of this project, and all project members, are dedicated to a ***harassment-free experience for everyone***, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion. **We do not tolerate harassment by and/or of members of our community in any form**.
 
-Estamos particularmente motivados para apoiar os colaboradores novos e/ou ansiosos, pessoas que procuram aprender e desenvolver as suas competências, bem como todos aqueles que foram alvo de discriminação no passado.
+We are particularly motivated to support new and/or anxious collaborators, people who are looking to learn and develop their skills, and anyone who has experienced discrimination in the past.
 
-Para esclarecer o que se espera, pedimos a todos os membros da comunidade que cumpram o seguinte Código de Conduta.
+To make clear what is expected, we ask all members of the community to conform to the following Code of Conduct.
 
-O documento de Código de Conduta foi escrito em 4 partes: {ref}`Visão geral <ch-coc-overview>`, {ref}`Detalhes <ch-coc-details>` {ref}`Relatando <ch-coc-reporting>` e {ref}`Forças <ch-coc-enforcement>`.
+The Code of Conduct document has been written in 4 parts: {ref}`Overview <ch-coc-overview>`, {ref}`Details <ch-coc-details>`, {ref}`Reporting <ch-coc-reporting>` and {ref}`Enforcement <ch-coc-enforcement>`.
 
-A última parte reconhece todas as fontes em que se baseou este Código de Conduta.
+The last part acknowledges all sources that this Code of Conduct has been built upon.
 
-(ch-coc-visão geral)=
-## 1 Código de Conduta: Visão geral
+(ch-coc-overview)=
+## 1 Code of Conduct: Overview
 
-A Turing Way é um projeto orientado para a comunidade e orientado para o projeto. Valorizamos a participação de todos na comunidade. Estamos empenhados em criar um lugar amigável e respeitoso para a aprendizagem, ensino e contribuição. Espera-se que todos os participantes em nossos eventos presenciais e comunicações on-line mostrem respeito e cortesia para os outros o tempo todo.
+The Turing Way is a community-oriented and -led project. We value the involvement of everyone in the community. We are committed to creating a friendly and respectful place for learning, teaching and contributing. All participants in our in-person events and online communications are expected to show respect and courtesy to others at all times.
 
-Para deixar claro o que se espera, todos aqueles que participam de atividades associadas ao projeto Caminho de Turing devem estar em conformidade com este Código de Conduta. Este código de conduta aplica-se a todos os espaços gerenciados pelo projeto Caminho de Turing, incluindo, mas não se limitado a, grupos e workshops de foco presencial e comunicações on-line via GitHub.
+To make clear what is expected, everyone participating in activities associated with the Turing Way project is required to conform to this Code of Conduct. This Code of Conduct applies to all spaces managed by the Turing Way project including, but not limited to, in-person focus groups and workshops, and communications online via GitHub.
 
-O investigador principal do Caminho de Turing - Dr. Kirstie Whitaker - é responsável pela aplicação do Código de Conduta. Ela pode ser contatada enviando um e-mail para [kwhitaker@turing.ac.uk](mailto:kwhitaker@turing.ac.uk). Você pode contatar a [Anna Krystalli](mailto:a.krystalli@sheffield.ac.uk) ou [Ben Murton](mailto:bmurton@turing.ac.uk) se preferir não entrar em contato com a Dr Whitaker.
+The lead investigator of the Turing Way - Dr Kirstie Whitaker - is responsible for enforcing the Code of Conduct. She can be contacted by emailing [kwhitaker@turing.ac.uk](mailto:kwhitaker@turing.ac.uk). You may contact [Anna Krystalli](mailto:a.krystalli@sheffield.ac.uk) or [Ben Murton](mailto:bmurton@turing.ac.uk) if you would prefer not to contact Dr Whitaker.
 
-Relatórios podem ser revisados por outros membros da equipe central de desenvolvimento, a menos que haja um conflito de interesses e serão mantidos confidenciais.
+Reports may be reviewed by other members of the core development team, unless there is a conflict of interest, and will be kept confidential.

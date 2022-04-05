@@ -1,8 +1,8 @@
-(cl-líder)=
-# Liderazgo en Ciencias de Datos
+(cl-leadership)=
+# Leadership in Data Science
 
 TBA
 
-## Resumen
+## Overview
 
 TBA

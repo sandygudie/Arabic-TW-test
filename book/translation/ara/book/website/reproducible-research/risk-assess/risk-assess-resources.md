@@ -1,3 +1,3 @@
-# crwdns853224:0crwdne853224:0
+# Overview of Risk assessment
 
-crwdns853226:0crwdne853226:0 crwdns853228:0crwdne853228:0 crwdns853230:0crwdne853230:0 crwdns853232:0crwdne853232:0
+Understand your software and what it is used for. Knowing this helps you decide what sustainability concepts are appropriate for your needs. There are many tools and ecosystems that are commonly used to help you practice these concepts- GitHub, Docker and many more. Read on to learn about these concepts and tools…

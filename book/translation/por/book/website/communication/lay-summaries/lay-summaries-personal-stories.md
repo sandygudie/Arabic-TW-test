@@ -1,55 +1,55 @@
-(cm-lay-summaries-histórias-pessoais)=
-# Histórias pessoais - Resumos de Brinquedo
+(cm-lay-summaries-personal-stories)=
+# Personal Stories - Lay Summaries
 
-## Emma Karoune - Fazendo Palaeoecologia Mais Acessível
+## Emma Karoune - Making Palaeoecology More Accessible
 
-**Dr Emma Karoune** é um Associado de Pesquisa no Instituto de Turing e História Inglaterra focada em Ciência Aberta e [Pesquisa Fytolith](https://en.wikipedia.org/wiki/Phytolith). Ela está atualmente liderando um projeto sobre a FAIRificação de dados fitossanitários.
+**Dr Emma Karoune** is a Research Associate at The Alan Turing Institute and Historic England focusing on Open Science and [Phytolith](https://en.wikipedia.org/wiki/Phytolith) Research. She is currently leading a project concerning the FAIRification of phytolith data.
 
-Saiba mais sobre seu trabalho pelos links abaixo:
-* [Site de Phytoliths FAIR](https://open-phytoliths.github.io/FAIR-phytoliths/)
-* Blog - [O Archaeobotanist aberto](https://ekaroune.github.io/The-Open-Archaeobotanist/)
+Find out more about her work from the links below:
+* [FAIR Phytoliths Project Website](https://open-phytoliths.github.io/FAIR-phytoliths/)
+* Blog - [The Open Archaeobotanist](https://ekaroune.github.io/The-Open-Archaeobotanist/)
 * Twitter - [ekaroune](https://twitter.com/ekaroune)
 
-Gostaríamos de agradecer à **Emma** por responder nossas perguntas de entrevistas sobre seu trabalho com [PalaeoSIG](https://www.britishecologicalsociety.org/membership-community/special-interest-groups/palaeoecology-group/), o grupo de interesse especial para a paleocarecologia na British Ecológica Society.
+We would like to thank **Emma** for answering our interview questions about her work with [PalaeoSIG](https://www.britishecologicalsociety.org/membership-community/special-interest-groups/palaeoecology-group/), the special interest group for palaeoecology at the British Ecological Society.
 
-Neste caso, são também feitas observações pelo Dr. Althea Davies e pelo Dr. Jane Bunting, que são os Secretários do PalaeoSIG e os organizadores deste projecto, juntamente com o Dr. Eileen Tisdall.
+Comments are also made in this case study by Dr Althea Davies and Dr Jane Bunting, who are the Secretaries of the PalaeoSIG and the organisers of this project along with Dr Eileen Tisdall.
 
-**1. Por que você começou o seu trabalho em sumários?**
+**1. Why did you start your work on lay summaries?**
 
-Assisti a uma oficina on-line que PalaeoSIG organizou na primavera de 2020 sobre a [escrita e comunicação de ciências](https://palaeosigbes.wordpress.com/2020/05/11/testing-testing/). Este foi dirigido por Althea Davies (University St Andrews), Jane Bunting (University Hull) e Eileen Tisdall (University Stirling). Este workshop pretendia formar paleóecologistas para comunicar mais eficazmente a sua investigação com não-especialistas. Como parte do workshop, fomos encarregados de produzir curtos. resumos acessíveis de artigos que tinham sido sugeridos como documentos paleólicos mais influentes num recente Palaeoecologia e que seriam divulgados num blogue por grupos de interesse especiais.
-
-
-**2. Como você se começou?**
-
-Durante o workshop, fomos colocados em pares para que pudéssemos trabalhar em colaboração na elaboração de nossas duas sínteses leigas. Meu colaborador e eu optámos por trabalhar na documentação do Google para que pudéssemos iniciar documentos para o primeiro rascunho de cada resumo lazer separadamente, mas depois poderíamos continuar colaborando em tempo real para editar e discutir nossa escrita utilizando os recursos embutidos de edição e comentário.
-
-Aqui está um dos resumos sumários que escrevi com meu parceiro da oficina Nick Loughlin - [Nova evidência para avaliar os 5 motivos por que Elm quase desapareceu](https://palaeosigbes.wordpress.com/2020/11/18/new-evidence-to-assess-the-5-reasons-elm-almost-disappeared/).
-
-Uma vez terminada a oficina, perguntaram-nos se alguém queria ajudar a editar e publicar os sumários de criação. Alguns de nós então formaram um grupo de editores de cópia e editores de resumo novamente para trabalhar em pares para finalizar cada resumo de lazer toda semana para lançamento no site do projeto. O objectivo era divulgar uma síntese por semana para um ano inteiro.
-
-**3. Qual impacto você acha que seus resumos de análise estão fazendo em sua pesquisa/projeto/comunidade?**
-
-Althea disse-me que o site WordPress tem entre c.80 e 530 pontos de vista por mês, dependendo da quantidade de lugares que temos. Quanto ao impacto que eles têm, ela não sabe como medir isso. Althea comentou que eles não decidiram ser um 'influenciador' procurando por uma alta taxa de impacto, mais do que um mecanismo de suporte, ponto de ligação e de recurso comunitário para palaeoscianos que trabalham em diversas disciplinas e sectores. Por exemplo, proporcionando uma oportunidade para blogs feitos por Early Career Researchers, que podem não ter certeza sobre oferecer uma organização 'grande', como um diário.
-
-**4. Quais ferramentas/software você usa mais em seus resumos?**
-
-O grupo de interesse especial Palaeoecologia usou o Google Drive para executar o projeto como Google Docs foi usado para escrever de forma colaborativa e o Google Sheets foi usado para coordenar os resumos laicos e o progresso de edição e publicação. Isso permitiu-nos trabalhar de forma sincronizada durante o workshop e de forma assíncrona ao longo de todo o projeto.
-
-O site do blog usa o WordPress. Althea disse que ela achou o upload de blogs bastante direto e isso provavelmente reflete as escolhas de configuração iniciais da Jane, bem como a simplicidade do formato e modelos WordPress.
-
-**5. Você tem alguma dicas de topo para outras pessoas que possam estar interessadas em começar a fazer resumos?**
-
-Escrever resumos lay é um tipo diferente de escrita, então você tem que aprender a fazer isso. O treinamento de oficina ajudou todos a melhorar suas habilidades de escrita conforme nos foi dado lições por um editor científico especializado em um site de notícias de ciência popular. Isto ajudou-me a pensar nas diferenças entre a escrita académica e a escrita para as audiências formadas.
-
-Além disso, você precisa escrever para alguém. A colaboração é a chave para o sucesso, já que outro par de olhos ajuda a refinar e melhorar ainda mais a sua redação.
-
-**6. Você tem dicas para evitar?**
-
-Não deixe em palavras técnicas - isso pode parecer uma coisa muito difícil, mas há sempre uma maneira de você explicá-las ou descrevê-las. Se tiver de incluir uma palavra técnica, você deve colocar uma definição entre parênteses ou um link para um site que explica o termo simplesmente como Wikipédia.
+I attended an online workshop that PalaeoSIG organised in spring 2020 about [science writing and communication](https://palaeosigbes.wordpress.com/2020/05/11/testing-testing/). This was run by Althea Davies (University St Andrews), Jane Bunting (University Hull) and Eileen Tisdall (University Stirling). This workshop aimed to train palaeoecologists to communicate their research more effectively with non-specialists. As part of the workshop, we were tasked to produce short, accessible summaries of articles that had been suggested as the most influential palaeoecological papers in a recent Palaeoecology special interest group survey and these would then be disseminated in a blog.
 
 
-**7. Onde você vê suas resumos de escrita de habilidades indo no futuro?**
+**2. How did you get started?**
 
-Eu achei estas habilidades realmente úteis por vários motivos. Tive de escrever um resumo de escrita de um artigo recente que enviei, então ele me ajudou a pensar em como mudar meu estilo de escrita em comparação ao abstrato.
+During the workshop, we were put into pairs so that we could work collaboratively on writing our two lay summaries. My collaborator and I opted to work in Google docs so that we could start documents for the first draft of each lay summary separately but we could also then go on to collaborate in real-time to edit and discuss our writing using the built-in editing and commenting features.
 
-Também iniciei um novo posto de trabalho no último ano que era um projecto fora da minha disciplina específica e a minha primeira tarefa era editar as sínteses. Isso deu-me uma perspectiva diferente sobre como são importantes para uma comunicação clara dentro de projectos para membros da equipa com diferentes especialidades.
+Here is one of the lay summaries I wrote with my workshop partner Nick Loughlin - [New evidence to assess the 5 reasons Elm almost disappeared](https://palaeosigbes.wordpress.com/2020/11/18/new-evidence-to-assess-the-5-reasons-elm-almost-disappeared/).
+
+Once the workshop was over, we were asked if anyone wanted to help with editing and publishing the lay summaries. Some of us then formed a group of copy editors and summary editors, again to work in pairs to finalise each lay summary every week for release on the project website. The aim was to release one lay summary a week for a whole year.
+
+**3. What impact do you think your lay summaries are making to your research/project/community?**
+
+Althea told me that the WordPress site has between c.80 and 530 views per month, depending on how many posts we have. As to what impact they're having, she is not sure how to measure this. Althea commented that they didn't set out to be an 'influencer' looking for a high hit rate, rather more of a support mechanism, point of connection and community resource for palaeoscientists working in various disciplines and sectors. For instance, providing an opportunity for blogs by Early Career Researchers who might be unsure about offering one to a 'bigger' organisation, like a journal.
+
+**4. What tools/software do you use most in your lay summaries?**
+
+The Palaeoecology special interest group used Google Drive to run the project as Google Docs were used to write collaboratively and Google Sheets were used to coordinate the lay summaries and the editing and publishing progress. This allowed us to work synchronously during the workshop and asynchronously over the whole time of the project.
+
+The blog website uses WordPress. Althea said that she found uploading blogs quite straightforward and this probably reflects Jane's initial setup choices as well as the simplicity of the WordPress format and templates.
+
+**5. Do you have any top tips for other people that might be interested in starting lay summaries?**
+
+Writing lay summaries is a different type of writing so you do have to learn how to do it. The workshop training helped everyone to improve their writing skills as we were given lectures by an expert scientific editor from a popular science news website. This helped me to think about the differences between academic writing and writing for lay audiences.
+
+Also, you need to write to someone. Collaboration is the key to success as another pair of eyes helps to refine and improve your writing further.
+
+**6. Do you have any tips on things to avoid?**
+
+Don't leave in any technical words - this might seem a very hard thing to achieve but there is always a way you can explain or describe them simply instead. If you do have to include a technical word, you should put a definition in brackets or a link to a website that explains the term simply such as Wikipedia.
+
+
+**7. Where do you see your lay summaries writing skills going in the future?**
+
+I have found these skills really useful for several reasons. I had to write a lay summary for a recent article I submitted so it helped me to think about how to change my writing style compared to the abstract.
+
+I have also started a new job in the last year that was a project outside of my particular discipline and my first task was to edit lay summaries. This gave me a different perspective about how important they are for clear communication within projects for team members with different specialisms.

@@ -1,35 +1,36 @@
 (pd-overview)=
-# Visão geral do projeto
+# Overview of Project Design
 
 ## Summary
 
-Técnicas de design do projeto podem ajudar os pesquisadores a identificar e comunicar claramente seus objetivos, requisitos de habilidade e recursos disponíveis para eles. Assegura que todas as partes interessadas possam trabalhar em conjunto de forma eficiente, aplicar métodos de reprodutibilidade e comunicar eficazmente o seu trabalho com o público-alvo. Um projeto de design requer links de projeto, gestores e organizadores para serem deliberados e claros sobre as suas expectativas, desde o início dos seus projectos, a fim de assegurar a implementação bem sucedida dos seus planos em todas as fases da investigação.
+Project design techniques can help researchers clearly identify and communicate their project goals, skill requirements and resource available to them. It ensures that all stakeholders can work together efficiently, apply reproducibility methods and communicate their work effectively with their target audience. A project design requires project leads, managers and organisers to be deliberate and clear about their expectations from the beginning of their projects to ensure successful implementation of their plans at all stages of research.
 
 ```{figure} ../figures/project-design-overview.jpg
 ---
-altura: 500px
-nome: projeto-design-overview
-alt: Esta ilustração mostra uma etapa com um troféu rotulado como 'troféu pesquisa reprodutível'. Uma equipa diversificada de quatro pessoas está a ajudar-se mutuamente a levar escadas para o troféu. A escadaria tem três conjuntos de rótulos indicando etapas de pesquisa como (1) antes, o que inclui "equipe, financiamento, pergunta, metodologia, aprovação, licença', (2) durante o qual se inclui controle de versão e documentação, e (3) depois disso inclui etapas de arquivamento e publicação.
---- _O projeto Turing Way_ ilustração por Scriberia.
-Usado sob uma licença CC-BY 4.0.
+height: 500px
+name: project-design-overview
+alt: This illustration shows a stage with a trophy labeled as 'reproducible research trophy'. A diverse team of four people are helping each other take staircase towards the trophy. The staircase has three sets of labels indicating research stages as (1) before, that includes 'team, funding, question, methodology, approval, license', (2) during that includes version control and documentation, and (3) after that includes archiving and publishing steps.
+---
+Illustration of project design overview. _The Turing Way_ project illustration by Scriberia.
+Used under a CC-BY 4.0 licence.
 DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
 ```
 
-Neste capítulo, temos boas práticas para assegurar a manutenção de uma boa comunicação (e evitar a má comunicação), cria oportunidades de colaboração e, em última análise, assegura a reprodutibilidade em diferentes fases do projecto.
+In this chapter, we have curated good practices to ensure that we maintain good communication (and avoid miscommunication), create opportunities for collaboration and ultimately ensure reproducibility at different stages of the project.
 
-## Fundo & Motivação
+## Background & Motivation
 
-Todos aplicam vários conceitos de design em seu projeto formal ou informalmente. No entanto, muitas vezes pensamos sobre esses conceitos retrospectivamente, quando o projecto estiver concluído e conseguirmos uma melhor compreensão dos erros de concepção que poderiam ter sido evitados com um melhor planeamento e organização.
+Everyone applies various design concepts to their project formally or informally. However, often we think about these concepts retrospectively, when the project is over and we gain a better understanding of design mistakes that could have been avoided with better planning and organisation.
 
-Esta falta de planeamento contribui para o facto de a maior parte do trabalho de investigação não poder ser reproduzido directa e independentemente, e este estilo de comunicação e colaboração entre os diferentes grupos difere, sendo portanto um desafio.
+This lack of planning contributes to the fact that most research work can not be directly and independently reproduced, and that communication and collaboration style across different groups differ and hence are challenging.
 
-Para ajudar a aprender boas práticas, *The Turing Way* fornece vários capítulos para {ref}`reprodutibilidade<rr>`, {ref}`comunicação<cm>` e {ref}`colaboração<cl>` que consideramos essencial para a reprodutibilidade da pesquisa. Embora as publicações{cite:ps}`Turkyilmaz-vanderVelden2020projeto` e _A Caminho de Turing_ capítulos sobre métodos específicos, Existem ferramentas e práticas que pode ser esmagador saber quais são os capítulos a ler se você já não conhece os conceitos.
+To help learn good practices, *The Turing Way* provides various chapters for {ref}`reproducibility<rr>`, {ref}`communication<cm>` and {ref}`collaboration<cl>` that we consider essential for research reproducibility. Although publications{cite:ps}`Turkyilmaz-vanderVelden2020projectdesign` and _The Turing Way_ chapters on specific methods, tools and practices exist it can be overwhelming to know which chapters to read if you don't already know about the concepts.
 
-Neste capítulo, tratámos práticas e recomendações essenciais e associámo-las a capítulos individuais que abrangem diferentes guias.
+In this chapter, we have curated essential practices and recommendations and linked them to individual chapters across different guides.
 
 ```{note}
-Há muitos capítulos que não ligamos aqui para evitar a esmagadora maioria dos leitores que são novos no desenho do projeto reprodutível.
-Convidamos você a contribuir para este capítulo, adicionando ferramentas ou práticas importantes que não foram mencionadas aqui.
+There are many chapters that we don't link here to avoid overwhelming readers who are new to reproducible project design.
+We invite you to contribute to this chapter by adding important tools or practices that have not been mentioned here.
 ```
 
-Nos diferentes subcapítulos discutimos como você pode {ref}`começar a planejar<pd-overview-planning>` para o projeto de projeto, o aspecto de comunicação e colaboração {ref}`<pd-overview-repro>` para garantir a reprodutibilidade, {ref}`ferramentas e métodos<pd-overview-methods>` para reprodutibilidade {ref}`controle de versão e documentação<pd-overview-version>` aspectos e {ref}`compartilhando sua pesquisa<pd-overview-sharing>`.
+In the different subchapters we discuss how you can {ref}`start planning<pd-overview-planning>` for project design, the {ref}`communication and collaboration<pd-overview-repro>` aspect for ensuring reproducibility, {ref}`tools and methods<pd-overview-methods>` for reproducibility, {ref}`version control and documentation<pd-overview-version>` aspects and {ref}`sharing your research<pd-overview-sharing>`.

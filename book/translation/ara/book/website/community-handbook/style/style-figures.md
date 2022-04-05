@@ -1,108 +1,136 @@
-crwdns837942:0crwdne837942:0
-# crwdns837944:0crwdne837944:0
+(ch-style-figures)=
+# Using figures in _The Turing Way_
 
-crwdns837946:0crwdne837946:0 crwdns837948:0{ref}crwdnd837948:0{ref}crwdne837948:0
+We encourage you to add images to _The Turing Way_ book chapters. This section of the style guide will explain how to use [Markedly Structured Text](https://myst-parser.readthedocs.io/en/latest/) (MyST) format to add them to the book with appropriate {ref}`alt text<ch-style-figures-alttext>` and {ref}`captions<ch-style-figures-caption>`.
 
-crwdns837950:0{ref}crwdne837950:0 crwdns837952:0crwdne837952:0
+We are very passionate about ensuring that the creators of the original image files (including you!) are {ref}`acknowledged appropriately<ch-style-figures-licence>`. Please do not use images that are not licenced for reuse.
 
-crwdns837954:0crwdne837954:0 crwdns837956:0crwdne837956:0
+In this sub-chapter we have used the term **figure** to refer to an illustration that conveys information in the context of _The Turing Way_ chapters. The term **image** is used to refer to the file object itself.
 
-crwdns837958:0crwdne837958:0
-## crwdns837960:0crwdne837960:0
+(ch-style-figures-licence)=
+## Open licence
 
-crwdns837962:0crwdne837962:0
+Please ensure that you attribute the image files fairly and avoid files that are either restricted from reuse or lack reproduction permissions.
 
-crwdns837964:0crwdne837964:0
+The following recommendations will help you to check that you're using the images according to their licence permissions:
 
-* crwdns837966:0crwdne837966:0 crwdns837968:0crwdne837968:0
-* crwdns837970:0crwdne837970:0 crwdns837972:0crwdne837972:0
-* crwdns837974:0crwdne837974:0 crwdns837976:0crwdne837976:0
+* If you are using your own images, please add them to the `figures` folder. They will then be made available under a [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.ast) licence as with the rest of the book.
+* Alternatively, you can source images in the public domain ([CC0 licence](https://creativecommons.org/share-your-work/public-domain/cc0)) or images licensed through appropriate Creative Commons terms. Images that are also available under CC-BY 4.0 permissions are very easily interoperable with the _The Turing Way_ as this is the same licence as the rest of the content for the book.
+* If an image (for example that you have found on the internet), is not available under an open licence please contact the original author of the image and seek permission to reproduce their image. Make sure to ask them **how they would like to be credited** in the caption for the figure.
 
-crwdns837978:0crwdne837978:0 crwdns837980:0crwdne837980:0
+In general, make sure to always cite the image properly as directed by the image owners. "Image from the internet" is not enough.
 
-crwdns837982:0crwdne837982:0
-## crwdns837984:0crwdne837984:0
+(ch-style-figures-image)=
+## Image type, file name, size and location
 
-crwdns837986:0crwdne837986:0 crwdns837988:0crwdne837988:0
+Please upload `.jpg` or `.png` files that are under 1MB to allow them to load faster in the online book. If your file is larger than 1MB, please use a local image editing tools, or online tool like [IMG2GO](https://www.img2go.com/compress-image) to compress your file.
 
-crwdns837990:0crwdne837990:0 crwdns837992:0crwdne837992:0 crwdns837994:0crwdne837994:0
+To name your image file, please use all-lowercase and separate words with hyphens. Every image file used in this book should be located in the file `_figure-list.md` in the directory `book/website/figures` of our [GitHub Repository](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/website/figures). If you use a new image file, please add the file in the `figures` directory, and add details in the `_figure-list.md`.
 
-crwdns837996:0crwdne837996:0
-## crwdns837998:0crwdne837998:0
+(ch-style-figures-syntax)=
+## MyST syntax to add a figure to a _Turing Way_ chapter
 
-crwdns838000:0crwdne838000:0 crwdns838002:0crwdne838002:0
+All our chapters are written in Markdown files. Therefore, using Markdown syntax to include a figure in a Markdown file will work fine, for example, `![](../../figures/file-collection.jpg)`, where the relative path of the image file is provided inside the round brackets '()'.
 
-crwdns838004:0crwdne838004:0 crwdns838006:0crwdne838006:0
+**However**, this formatting does not allow images to be responsive to screen sizes, making them inaccessible to read on small screens and smartphones. Furthermore, this doesn't allow authors to resize figures in their chapters or cross reference them somewhere else in the book.
 
-crwdns838008:0crwdne838008:0
+Therefore, our recommendation is to use [Markedly Structured Text](https://myst-parser.readthedocs.io/en/latest/) (MyST) format available in Jupyter Book.
 
-crwdns838010:0crwdne838010:0 crwdns838012:0{ref}crwdne838012:0
+You can resize figures to adjust how they appear in our chapters using the parameters: `width` and `height` (takes value in px, for example, 400px) or `scale` (takes value in percentage, for example, 50%), especially if your original figure is large. Using the parameter: `name`, you can reference figures in other chapters in a similar manner as defined in {ref}`ch-style-crossref`.
 
-crwdns838014:0crwdne838014:0
+All the components of your figure (figures location, size and name) can be encapsulated in section within a markdown file using the following directive:
 
 ````
-crwdns838016:0{figure}crwdne838016:0
+```{figure} ../../figures/file-collection.jpg
+---
+height: 500px
+name: file-collection
+---
+```
 ````
-crwdns838018:0{ref}crwdne838018:0
+This figure can be referred in other files using the {ref} role like:
 
 ```
-crwdns838020:0{ref}crwdne838020:0
+{ref}`file-collection`
 ```
-crwdns838022:0crwdne838022:0
-crwdns838024:0crwdne838024:0
-## crwdns838026:0crwdne838026:0
-crwdns838028:0crwdne838028:0 crwdns838030:0crwdne838030:0
-crwdns838032:0crwdne838032:0 crwdns838034:0crwdne838034:0
-crwdns838036:0crwdne838036:0
+Please note that a height of 500px works very well with _The Turing Way_ book, but this is only a suggestion.
+(ch-style-figures-alttext)=
+## Alternative text
+Alternative text or alt text are used for describing the appearance and function of an image on an HTML page. Our example figure can be explained with this sentence: *Two people happily browsing files in a drawer of documents.*
+Adding alternative text to figure is one of the first principles of web accessibility. Screen reader software can read an alt text to better explain the content of the figure to its users.
+All the components of your figure (image file location, size, name, alt text and title) can be encapsulated in section within a markdown file using the following directive:
 
 ````
-crwdns838038:0{figure}crwdne838038:0
-crwdns838040:0crwdne838040:0 crwdns838042:0crwdne838042:0 crwdns838044:0crwdne838044:0
-crwdns838046:0crwdne838046:0
+```{figure} ../../figures/file-collection.jpg
+---
+height: 500px
+name: file-collection
+alt: Two people happily browsing files in a drawer of documents.
+---
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+```
 ````
-crwdns838048:0crwdne838048:0
+Another advantage of using alt text is when an image cannot be loaded in a browser, or the link to the image breaks, it is displayed in place of an figure like shown below:
 
 ```{figure} ../../figures/alt-text-demo.png
-crwdns838050:0crwdne838050:0
-crwdns838052:0crwdne838052:0 crwdns838054:0crwdne838054:0 crwdns838056:0crwdne838056:0
+---
+name: alt-text-demo
+alt: Two people happily browsing files in a drawer of documents.
+---
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-crwdns838058:0crwdne838058:0
+When all these components are used correctly, a figure included in a file will be rendered in the online book like in this page:
 
 ```{figure} ../../figures/file-collection.jpg
-crwdns838060:0crwdne838060:0
-crwdns838062:0crwdne838062:0 crwdns838064:0crwdne838064:0 crwdns838066:0crwdne838066:0
+---
+height: 500px
+name: file-collection
+alt: Two people happily browsing files in a drawer of documents.
+---
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-crwdns838068:0crwdne838068:0
-## crwdns838070:0crwdne838070:0
+(ch-style-figures-caption)=
+## Caption
 
-crwdns838072:0crwdne838072:0 crwdns838074:0crwdne838074:0 crwdns838076:0crwdne838076:0
+Captions appear below the figure. They should be short and concise and include a reference to the source where they are taken from. In particular it is important to describe the licence under which the image is re-used.
 
-crwdns838078:0crwdne838078:0
+For example, a caption might say:
 
-> crwdns838080:0crwdne838080:0 crwdns838082:0crwdne838082:0 crwdns838084:0crwdne838084:0 crwdns838086:0crwdne838086:0
+> Making your first pull request on GitHub. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 
-crwdns838088:0crwdne838088:0
+The syntax for this image is as follows, and the way it appears in the book is below the code snippet.
 
 ````
-crwdns838090:0{figure}crwdne838090:0
-crwdns838092:0crwdne838092:0 crwdns838094:0crwdne838094:0 crwdns838096:0crwdne838096:0
-crwdns838098:0crwdne838098:0
+```{figure} ../../figures/first-pull-request.png
+---
+height: 400px
+name: first-pull-request
+alt: A person helping out another person making their first pull request on GitHub
+---
+Making your first pull request on GitHub.
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+```
 ````
 
 ```{figure} ../../figures/first-pull-request.png
-crwdns838100:0crwdne838100:0
-crwdns838102:0crwdne838102:0 crwdns838104:0crwdne838104:0 crwdns838106:0crwdne838106:0
+---
+height: 400px
+name: first-pull-request
+alt: A person helping out another person making their first pull request on GitHub
+---
+Making your first pull request on GitHub.
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-crwdns838108:0{term}crwdne838108:0 crwdns838110:0[text]crwdne838110:0
+Please make sure that the link to the source is the {term}`digital object identifier <Digital Object Identifier>` not the Zenodo record. Also ensure that you have created a link to the source using markdown link formatting: `[text](url)`.
 
-crwdns838112:0crwdne838112:0
-## crwdns838114:0crwdne838114:0
+(ch-style-figures-advanced)=
+## Advanced features and "gotchas"
 
-crwdns838116:0crwdne838116:0 crwdns838118:0crwdne838118:0
+For more advanced parameters, please see the [Jupyter Book Documentation](https://jupyterbook.org/content/figures.html). That page includes information on how to [scale and align](https://jupyterbook.org/content/figures.html#figure-scaling-and-aligning) the figures, and how to add the figures or their captions to the [margins](https://jupyterbook.org/content/figures.html#margin-captions-and-figures) of the book.
 
-crwdns838120:0crwdne838120:0
+We've noticed a couple of "gotchas" from contributors to _The Turing Way_ and we'll try to keep this section of the guide up to date for anyone else learning the MyST syntax for figures
 
-* crwdns838122:0crwdne838122:0 crwdns838124:0crwdne838124:0
+* Both `:` and `"` have syntactic meaning for Sphinx. That means it is important that you do not use these characters in your alt text.

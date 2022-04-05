@@ -1,55 +1,55 @@
-(rr-code-reuse-reuse-recommendation)=
-# 代码重复使用概览
+(rr-code-reuse-recommendations)=
+# Overview of Code Reuse
 
-本节载有使您的软件更易重新使用的建议清单。 The {ref}`rr-code-reuse-details` section contains a more in-depth explanation of each of these recommendations. 您可以遵循更适合您的软件类型的建议，并跳过与您的情况无关的建议。 您可以遵循更适合您的软件类型的建议，并跳过与您的情况无关的建议。
+This section contains a checklist of recommendations for making your software more reusable. The {ref}`rr-code-reuse-details` section contains a more in-depth explanation of each of these recommendations. You can follow the recommendations that are more suitable for your type of software and skip the ones which are not relevant in your case.
 
-## 可重复的建议
+## Repeatable Recommendations
 
-1. 请确保您可以找到它(在空间中。 意味着：能够定位仓库/项目)
-1. 请确保您可以找到它(时间；含义：能够找到某个特定版本)
-1. 请确保您可以执行相同的操作序列
-1. 请确保您的环境和操作顺序是稳固的，不需要人来复制已经做过的工作
-1. 授权您的代码
-    - 使用允许再使用的许可证；
-    - 与依赖许可兼容的许可证
-1. 确保它是有线的
-1. 包含必要的数据
-1. 写有用的文档*
+1. Make sure you can find it (in space; meaning: being able locate the repository/project)
+1. Make sure you can find it (in time; meaning: being able to locate a particular version)
+1. Make sure you can execute the same sequence of operations
+1. Make sure your environment and sequence of operations is robust and no human is needed to replicate what was done
+1. License your code
+    - with a license that allows for reuse;
+    - with a license compatible with the dependencies’ licenses
+1. Make sure it is citable
+1. Include necessary data
+1. Write useful documentation*
 
-## 可重新运行的建议
+## Re-runnable Recommendations
 
-1. 移除硬代码位(例如只存在于运行管道的硬盘上的路径)，并使代码模块
-1. 测试你制作的模块可以使用不同类型的输入数据或参数
-1. 将模块变成一个包/工具箱
-1. 写有用的文档*
+1. Remove hardcoded bits (such as paths that only existed on the hard drive where the pipeline was run) and make the code modular
+1. Test that the modules you made can take different types of input data or parameters
+1. Turn the modules into a package/toolbox
+1. Write useful documentation*
 
-## 便携式建议
-1. 请确保您可以重新创建它所生活的环境
-1. 写有用的文档*
+## Portable Recommendations
+1. Make sure you can recreate the environment where it lived
+1. Write useful documentation*
 
-## 可扩展的建议
-1. 写有用的文档*
+## Extendable Recommendations
+1. Write useful documentation*
 
-## 可修改的建议
-1. 请确保你的代码可以被人类读
-1. 请确保评论已存在
-1. 写有用的文档*
+## Modifiable Recommendations
+1. Make sure your code is readable by humans
+1. Make sure comments are present
+1. Write useful documentation*
 
-观察者阅读器可能会注意到，在每个级别的重新使用中都提到了 `个有用的文档`。 这是因为不同程度的再利用需要不同程度的文件。
+The observant reader might will notice that `Write useful documentation` is mentioned for every level of reuse. This is because different levels of documentation are required for different levels of reuse.
 
-## 文件
+## Documentation
 
-*对不同程度再利用的不同文件要求*
+*Different documentation requirements for different levels of reuse*
 
-编写有用的文件是各级再利用的一项重要要求。 然而，对于不同程度的再利用，文件要求不同：
+Writing useful documentation is an important requirement for all levels of reuse. However, for the different levels of reuse, there are different documentation requirements:
 
-文件：
-- 解释用法，具体说明：
-  - 软件做些什么；(需要重复)
-  - 如何使用它；(需要重复)
-  - 什么选项/参数是可用的。 (需要重复)
-- 包含如何运行的示例。 (需要重复)
-- 有安装指示，包括以下内容的详细说明：
-  - 它依赖的硬件(例如，GPUs)；(便携式所需)
-  - 软件已测试的操作系统; (需要便携式)
-  - 软件要求(例如库和外壳设置)。 (便携式设备所需)
+The documentation:
+- explains usage, specifying:
+  - what the software does; (required for repeatable)
+  - how it can be used; (required for repeatable)
+  - what options/parameters are available. (required for repeatable)
+- contains examples of how to run it. (required for repeatable)
+- has installation instructions, including good descriptions of:
+  - the hardware it depends on (for example GPUs); (required for portable)
+  - the operating system the software has been tested on; (required for portable)
+  - software requirements (such as libraries and shell settings). (required for portable)

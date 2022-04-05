@@ -1,74 +1,88 @@
-crwdns837638:0crwdne837638:0
-# crwdns837640:0crwdne837640:0
+(ch-style-citing)=
+# Citing and Referencing
 
-crwdns837642:0crwdne837642:0 crwdns837644:0crwdne837644:0
+We maintain a centralised [BibTeX](http://www.bibtex.org/) file containing all references. The file is located within this repository in the file [`./book/website/_bibliography/references.bib`][turingbib].
 
-## crwdns837646:0crwdne837646:0
+## BibTeX file basics
 
-crwdns837648:0crwdne837648:0 crwdns837650:0crwdne837650:0
+BibTeX files are a way to format lists of references in a structured way. Basic elements of an entry include a reference type, a unique citation key, and a series of key-value pairs that describe the reference (for example, author or title).
 
-crwdns837652:0crwdne837652:0 crwdns837654:0crwdne837654:0 crwdns837656:0crwdne837656:0 crwdns837658:0crwdne837658:0 crwdns837660:0crwdne837660:0
+There are a number of keywords for different references types in BibTeX. Luckily, there are tools to help format references into BibTeX syntax. If you know the DOI for your reference, you can use [doi2bib](https://doi2bib.org/) to help populate a good enough BibTeX entry. For example, [here](https://doi2bib.org/bib/https://doi.org/10.5281/zenodo.3233853) is a good enough BibTeX entry for The Turing Way handbook itself. Another good tool is [Google Scholar](https://scholar.google.com/), where you search for a reference, click on the large double quotes `"`, and then click on "BibTeX" near the bottom.
 
-crwdns837662:0crwdne837662:0
+Examples of listing a BibTeX-formatted reference are shown below.
 
-## crwdns837664:0crwdne837664:0
+## Adding a new reference in `references.bib`
 
-crwdns837666:0crwdne837666:0
+You can edit reference file locally using a method from the following:
 
-- crwdns837668:0crwdne837668:0
-- crwdns837670:0crwdne837670:0
+- Edit [`references.bib`][turingbib] directly using a text editor
+- Edit [`references.bib`][turingbib] directly using a managing program such as [JabRef](http://www.jabref.org/) (Linux, Windows, macOS) or [BibDesk](https://bibdesk.sourceforge.io/) (macOS)
 
-crwdns837672:0crwdne837672:0 crwdns837674:0crwdne837674:0
-
-```
-crwdns837676:0{Baker, Monya}crwdnd837676:0{Nature}crwdnd837676:0{533}crwdnd837676:0{26}crwdnd837676:0{353--66}crwdnd837676:0{2016}crwdne837676:0
-```
-
-**crwdns837678:0crwdne837678:0**
-
-## crwdns837680:0crwdne837680:0
-
-crwdns837682:0crwdne837682:0
+We use a standard bibtex format to add a new entry. For example, there is an entry in the [`references.bib`][turingbib] file as:
 
 ```
-crwdns837684:0crwdne837684:0
+@article{baker2016reproducibility,
+    author={Baker, Monya},
+    title={Reproducibility crisis?},
+    journal={Nature},
+    volume={533},
+    number={26},
+    pages={353--66},
+    year={2016}
+}
 ```
 
-crwdns837686:0crwdne837686:0
+**Finish editing by adding a new entry at the end of the file.**
 
-1. crwdns837688:0crwdne837688:0
-2. crwdns837690:0crwdne837690:0
-3. crwdns837692:0crwdne837692:0 crwdns837694:0crwdne837694:0
+## Citation key style-guide
 
-## crwdns837696:0crwdne837696:0
-
-crwdns837698:0crwdne837698:0
-
-crwdns837700:0crwdne837700:0
-
-- crwdns837702:0crwdne837702:0
-```
-crwdns837704:0{cite:ps}crwdne837704:0
+We recommend using the following structure for citation keys:
 
 ```
-crwdns837706:0crwdne837706:0
-- crwdns837708:0crwdne837708:0
-```
-crwdns837710:0{cite:ps}crwdne837710:0
+AuthorYYYYword
 ```
 
-crwdns837712:0crwdne837712:0
+Where:
+
+1. `Author` is the surname of the first author (`Baker` above)
+2. `YYYY` is the year (`2016` above)
+3. `word` is the first meaningful word in the title (`reproducibility` above). Note, this is subjective―choose a name that makes it easy to remember the reference when you see the citation key.
+
+## Adding a new reference in the text
+
+To include a citation in your content, we follow the recommendation by [Jupyter Book](https://jupyterbook.org/content/citations.html) that uses [`sphinxcontrib-bibtex`](https://sphinxcontrib-bibtex.readthedocs.io/en/latest/) extension.
+
+The key concepts are:
+
+- Include a reference using using:
+```
+{cite:ps}`CITEKEY`
 
 ```
-crwdns837714:0{cite:ps}crwdne837714:0
+Here `CITEKEY` is the corresponding citation key in [`references.bib`][turingbib].
+- You can also include multiple citations in one go by separating the CITEKEYs by a comma:
+```
+{cite:ps}`CITEKEY1,CITEKEY2,CITEKEY3`
 ```
 
-crwdns837716:0{cite:ps}crwdne837716:0
+We will cite the article that we edit earlier in the [`reference.bib`][turingbib] file using:
 
-crwdns837718:0{ref}crwdne837718:0
+```
+{cite:ps}`Kuula2010archiving`
+```
+
+This will appear in your chapter as {cite:ps}`baker2016reproducibility`.
+
+The complete bibliography entry is available at the end of this book (see {ref}`resources <bibliography>`) using the directives:
 
     ```{bibliography} ../_bibliography/references.bib
 
     ```
 
-crwdns837720:0crwdne837720:0
+For the advanced usage, see the [documentation by sphinxcontrib-bibtex](https://sphinxcontrib-bibtex.readthedocs.io/en/latest/usage.html), which is a Sphinx extension for BibTeX style citations.
+
+[turingbib]: https://github.com/alan-turing-institute/the-turing-way/blob/main/book/website/_bibliography/references.bib
+
+[turingbib]: https://github.com/alan-turing-institute/the-turing-way/blob/main/book/website/_bibliography/references.bib
+
+[turingbib]: https://github.com/alan-turing-institute/the-turing-way/blob/main/book/website/_bibliography/references.bib

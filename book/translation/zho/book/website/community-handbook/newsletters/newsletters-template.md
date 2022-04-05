@@ -1,55 +1,49 @@
-(ch-newsltter-template)
-# 撰写时事通讯模板
+(ch-newsltters-template)
+# Template for Drafting Newsletters
 
-下面概述的模板是我们自2019年9月以来一直用来为 _Ting Way_ newsletter收集新闻项目的指南。 这个模板已经经过了几个月的演变，绝不说它是“完美的”格式。 当重用此模板时，您应该尝试什么对您的社区有效。 你在前面的章节中提出的建议是非常受欢迎的。
+The template outlined below is what we have been using as a guide for collecting news items for the _The Turing Way_ newsletters since September 2019. This template has evolved over several months and in no way claims to be the 'perfect' format. When reusing this template, you should experiment with what works for your community. Your suggestions in the earlier subchapters are very welcome.
 
 ```
-日期：YYYY
+Date: DD Month YYYY
 
-# 标题
+# title
 
-你好路朋友！
+Hello Turing Way friends!
 
-本月...
+This month ...
 
-冲出...
+Shout out ...
 
-事件...
+Events ...
 
-本月...
-
-冲出...
-
-事件...
-
-在:backhand_index_pointing_down下面找到这些主题的更多细节：
+Find more details on these topics below 👇
 
 
-## 社区会议
+## Community meetings
 
     <About events like Collaboration Café, book dash, other meetings>
 
-## 来自社区的新闻
+## News from the community
 
     <Any news from the team, community members, and new chapters>
 
-## 相关资源
+## Relevant resources
 
     <Any useful resources like relevant publication, training items, and materials from collaborators>
 
-##提示 & 推荐给新贡献者
+## Tips & Tricks for new contributors
 
     <Any material that helps the new contributor to relate to the project like impact statement, story, and contributor in focus>
 
-#纪念和庆祝
+## Acknowledgments and celebrations
 
     <Shout out and wishes to celebratory news from members, recent meetings where someone talked about Turing Way, Tweets and other online mentions from people other than the team members>
 
-## 特别提及
+## Special mentions
 
     <Shout out to the reviewers for this newsletter other than the team members>
 
-## 与我们联系！
+## Connect with us!
 
 - [About the project](https://www.turing.ac.uk/research/research-projects/turing-way-handbook-reproducible-data-science)
 - [_The Turing Way_ book](https://the-turing-way.netlify.com)
@@ -62,8 +56,6 @@
 You are welcome to contribute content for the next newsletter by
 emailing [Malvika Sharan](mailto:msharan@turing.ac.uk).
 
-*您错过了上次的通讯吗？
-
-*
-*查看他们 [here](https://tinyletter.com/TuringWay/archive).*
+*Did you miss the last newsletters?*
+*Check them out [here](https://tinyletter.com/TuringWay/archive).*
 ```

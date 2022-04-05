@@ -1,24 +1,24 @@
-(estilo pd-code)=
-# Estilo e link de código
+(pd-code-styling)=
+# Code Styling and Linting
 
-Você já abriu um arquivo de sintaxe ou script dois anos depois de executar uma análise apenas para descobrir que você não tem memória imediata do código? Você recebeu arquivos de análise de um colaborador ou fez o download de um repositório online que você nunca usou antes? Agora, imagine que esses arquivos são muito difíceis de ler, ou há muitas variáveis sendo passadas para funções arcanas, ou pior, você não pode encontrar um código útil, pois eles são salvos com nomes de arquivos sem sentido como `analyis_1final_FINAL.`, ou `onlyusethisoneforanalyis_onamonday2a.py`.
+Have you ever opened a syntax or script file two years after running an analysis only to find that you have no immediate memory of the code? Have you received analysis files from a collaborator, or downloaded them from an online repository that you have never used before? Now imagine that these files are very hard to read, or there are lots of variables being passed to arcane functions, or worse, you can't find useful code as they are saved with meaningless file names such as `analysis_1final_FINAL.R`, or `onlyusethisoneforanalysis_onamonday2a.py`.
 
-Se não tiver - então somos um dos afortunados! Mas se já o experimentámos, talvez se saiba como é frustrante trabalhar com esses dossiers.
+If you have not - then you are one of the lucky ones! But if you have experienced it then you might know how frustrating it is to work with those files.
 
-Este capítulo irá destacar maneiras de evitar tais desafios em seus projetos introduzindo alguns diretores de "higiene de código", caso conhecido como *linhamento*.
+This chapter will highlight ways to avoid such challenges in your projects by introducing some principals of 'code hygiene', otherwise known as *linting*.
 
 ```{figure} ../figures/zen-of-python.png
 ---
 height: 500px
-nome: zen-of-python
-alt: The Zen of Python, por Tim Peters. Que bonito é melhor que feio. Mais vale explícito que implícito. Simples é melhor que complexo. Complexo é melhor que complicado. O plano é melhor que o aninhado. É melhor que denso. Contagem de legibilidade. Casos especiais não são especiais o suficiente para quebrar as regras. Embora a praticabilidade supere a pureza. Erros nunca devem passar silenciosamente. A menos que explicitamente silenciado. Perante a ambiguidade, recusa-se a tentação de adivinhar. Deve haver um único - e de preferência apenas um - caminho óbvio para o fazer. Embora esse modo possa não ser óbvio no início, a menos que você seja holandês. Agora é melhor do que nunca. Embora nunca seja geralmente melhor do que *direito* agora. Se a implementação é difícil de explicar, é uma má ideia. Se a implementação é fácil de explicar, talvez seja uma boa ideia. Espaços de Nomes são uma ótima ideia pra brincar -- vamos fazer mais desses!
+name: zen-of-python
+alt: The Zen of Python, by Tim Peters. Beautiful is better than ugly. Explicit is better than implicit. Simple is better than complex. Complex is better than complicated. Flat is better than nested. Sparse is better than dense. Readability counts. Special cases aren't special enough to break the rules. Although practicality beats purity. Errors should never pass silently. Unless explicitly silenced. In the face of ambiguity, refuse the temptation to guess. There should be one-- and preferably only one --obvious way to do it. Although that way may not be obvious at first unless you're Dutch. Now is better than never. Although never is often better than *right* now. If the implementation is hard to explain, it's a bad idea. If the implementation is easy to explain, it may be a good idea. Namespaces are one honking great idea -- let's do more of those!
 ---
-*Ponto 7 do [Zen de Python](https://www.python.org/dev/peps/pep-0020/) é "Readability Counts". (Isso pode ser impresso com o comando python `>>> importar isso`)*
+*Point 7 of the [Zen of Python](https://www.python.org/dev/peps/pep-0020/) is "Readability Counts". (This can be printed with the python command `>>> import this`)*
 ```
 
-## Geral
+## Overview
 
-O Linting inclui {ref}`diretrizes para o estilo<pd-code-styling-guidelines>` como para nomenclatura, e garantir que o código de {ref}`seja legível para uso humano<pd-code-styling-readability>` , por exemplo, usando uma formatação útil e escrevendo comentários.  
-Alguns ambientes de desenvolvimento integrados (IDEs) incluem cunhagem automática, mas há {ref}`pacotes e ferramentas gratuitos para linhar<pd-code-styling-tools>` que vão ficar em código pra você (por exemplo, [autopep8](https://pypi.org/project/autopep8/)).
+Linting includes {ref}`guidelines for styling<pd-code-styling-guidelines>` such as for naming, and ensuring that {ref}`code is human readable<pd-code-styling-readability>` such as by using useful formatting, and writing comments.  
+Some integrated development environments (IDEs) include automatic linting, but there are free {ref}`packages and tools for linting<pd-code-styling-tools>` that will lint code for you (for example, [autopep8](https://pypi.org/project/autopep8/)).
 
-Mantendo em mente os conselhos a seguir durante a programação, seu código será mais reutilizável, adaptável e claro.
+By keeping the following advice in mind while coding, your code will be more reusable, adaptable, and clear.

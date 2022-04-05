@@ -1,58 +1,62 @@
-crwdns837858:0crwdne837858:0
-# crwdns837860:0crwdne837860:0
+(ch-style-custom-styling)=
+# Custom Styling
 
-crwdns837862:0{ref}crwdne837862:0 crwdns837864:0crwdne837864:0 crwdns837866:0crwdne837866:0
+Although content contributed to _The Turing Way_ should be written in {ref}`Markdown <ch-consistency-formatting-hr-markdown>` where possible, sometimes, `HTML` syntax may be necessary to format your contribution the way you desire. Already, Jupyter Book converts Markdown syntax to `HTML`, making it possible to have a web version of _The Turing Way_ book. As a result, writing your own custom `HTML` may introduce some variation in the way your new content appears online compared to the rest of the book.
 
-crwdns837868:0crwdne837868:0 crwdns837870:0crwdne837870:0 crwdns837872:0crwdne837872:0
+To minimise this disparity, _The Turing Way_ maintains book-wide [stylesheets](https://github.com/alan-turing-institute/the-turing-way/blob/main/book/website/_static/book-stylesheet.css) that control the look and feel of the book's content. When including `HTML` in your contributions, please refer to these stylesheets and add the relevant classes and IDs defined there to your `HTML` elements. This ensures that your new content fits the overall style of _The Turing Way_ book.
 
-crwdns837874:0crwdne837874:0 crwdns837876:0crwdne837876:0
+In this subchapter, we provide an explanation of how to leverage the book's stylesheets to style your contributions in sample use-cases. If you want to improve the style of the book, this subchapter also provides a brief overview of how to do so.
 
-crwdns837878:0crwdne837878:0
-## crwdns837880:0crwdne837880:0
+(ch-style-custom-styling-stylesheets)=
+## Using the Stylesheets
 
-crwdns837882:0crwdne837882:0
-### crwdns837884:0crwdne837884:0
+(ch-style-custom-styling-videos)=
+### Videos
 
-crwdns837886:0crwdne837886:0 crwdns837888:0crwdne837888:0
+While it is possible to embed images and GIFs in your content using Markdown syntax, it is currently only possible to embed videos with `HTML`. More so, we do not recommend adding videos directly to _The Turing Way's_ Github repository as video files are usually large and will make the book load much slower, especially for readers with slow internet connections.
 
-crwdns837890:0crwdne837890:0
-1. crwdns837892:0crwdne837892:0
-1. crwdns837894:0crwdne837894:0
+To add a video to your contribution, first upload it to _The Turing Way's_ Youtube channel, then copy/paste the `HTML` code that is generated when you:
+1. Click on the `Share` option underneath the video,
+1. And then click on the `Embed` option from the range of options that appear.
 
 
-crwdns837896:0crwdne837896:0 crwdns837898:0crwdne837898:0
-
-```
-crwdns837900:0crwdne837900:0
-```
-
-crwdns837902:0crwdne837902:0 crwdns837904:0crwdne837904:0
-
-crwdns837906:0crwdne837906:0 crwdns837908:0crwdne837908:0
+The `HTML` code you copy will be an [`iframe`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) element. For example:
 
 ```
-crwdns837910:0crwdne837910:0
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MdOS6tPq8fc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ```
 
-crwdns837912:0crwdne837912:0
+By default, `iframes` are not responsive, meaning that the video you just embedded will be inaccessible to readers on mobile devices. To fix this, _The Turing Way's_ stylesheets define classes and styling that allow `iframes` to resize and fit the screen the book is read from.
+
+To leverage this custom styling, wrap the `iframe` in `div` tags and give the `div` element a `video-container` class. For example:
+
+```
+<div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/MdOS6tPq8fc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+```
+
+The code above then renders as follows:
 
 <div class="video-container">
-    <iframe width="560" height="315" src="crwdns837914:0crwdne837914:0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/MdOS6tPq8fc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-crwdns837916:0crwdne837916:0
-## crwdns837918:0crwdne837918:0
+(ch-style-custom-styling-improvements)=
+## Improving _The Turing Way's_ Styling
 
-crwdns837920:0crwdne837920:0 crwdns837922:0crwdne837922:0
+Jupyter Book works by converting Markdown syntax to `HTML`. Therefore, to improve the overall styling of the book, `CSS` rules should target the `HTML` elements that Jupyter Book generates.
 
-crwdns837924:0crwdne837924:0 crwdns837926:0crwdne837926:0
+Before writing any CSS, inspect the book's HTML source code first. This gives you an idea of what elements to target, and may help you figure out how to structure your CSS rules.
 
-crwdns837928:0crwdne837928:0 crwdns837930:0crwdne837930:0 crwdns837932:0crwdne837932:0
+All web browsers allow you to view the source code of websites easily. On computers running the Windows OS, this is done using `CTRL + U`. For computers running Mac OS, this is done using `Option + Command + U`.
 
-crwdns837934:0crwdne837934:0 crwdns837936:0crwdne837936:0
+Once you have determined the element(s) you want to modify, write your CSS in _The Turing Way's_ [stylesheet file](https://github.com/alan-turing-institute/the-turing-way/blob/main/book/website/_static/book-stylesheet.css). If, for example, you wanted to change the `font-family` of the paragraph text across the entire _The Turing Way_ book, then you could add the following CSS rule to the stylesheets which target all elements with a `<p>` tag:
 
 ```
-crwdns837938:0crwdne837938:0
+p {
+    font-family: georgia, garamond, serif;
+}
 ```
 
-crwdns837940:0crwdne837940:0
+If you think that the styling introduced in _The Turing way_ can be useful for other Jupyter Book users, please consider making an upstream contribution to the project by creating a new GitHub issue and starting a discussion with their maintainers: [https://github.com/executablebooks/jupyter-book/issues](https://github.com/executablebooks/jupyter-book/issues).

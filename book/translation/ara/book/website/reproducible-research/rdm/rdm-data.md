@@ -1,14 +1,14 @@
-crwdns849472:0crwdne849472:0
-# crwdns849474:0crwdne849474:0
+(rr-rdm-data)=
+# Research Data
 
-crwdns849476:0crwdne849476:0
-## crwdns849478:0crwdne849478:0
+(rr-rdm-data-definition)=
+## What is Data?
 
-crwdns849480:0crwdne849480:0 crwdns849482:0crwdne849482:0 crwdns849484:0crwdne849484:0 crwdns849486:0crwdne849486:0 crwdns849488:0crwdne849488:0 crwdns849490:0crwdne849490:0
+Data are objects that you use and produce during your research life cycle, encompassing datasets, software, code, workflow, models, figures, tables, images and videos, interviews, articles. Data are your research asset. In some fields, it is obvious what data means - you have observations or results of simulations. However, in other fields, particularly in Social Sciences, Humanities or Arts, you may be thinking "I do not think I have any data". A good way of thinking about what might be classed as data that needs to be managed is to ask yourself the questions: "What is the information that I need to use and write about in my paper or book?", "What information would I need to back up my conclusions?" and "What information is needed by others to understand and possibly replicate the research that I have done?". This information is your data.
 
-crwdns849492:0crwdne849492:0
-## crwdns849494:0crwdne849494:0
+(rr-rdm-data-lifecycle)=
+## The Research Data Lifecycle - A Model for Data Management
 
-crwdns849496:0crwdne849496:0 crwdns849498:0crwdne849498:0
+Research data often follows a 'lifecycle' which follows the research project as it evolves; here is a [video](https://www.youtube.com/watch?v=-wjFMMQD3UA) that describes it. This model provides a sound basis on which to plan for research data management, from data creation at the start of a research project, through to publishing and sharing research at the end of the project, and archiving any research data for the long-term and future re-use once the project has ended.
 
-crwdns849500:0crwdne849500:0 crwdns849502:0crwdne849502:0 crwdns849504:0{ref}crwdne849504:0
+The research data lifecycle involves data creation, data use, data publication and sharing, data archiving, and data re-use or destruction. However, data have a longer lifespan than the research project that creates them. In a  {ref}`Data Management Plan <rr-rdm-dmp>` you can structure how you will manage and share your research data.

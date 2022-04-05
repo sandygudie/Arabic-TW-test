@@ -1,85 +1,85 @@
 (ch-style-citing)=
-# Citas y referencias
+# Citing and Referencing
 
-Mantenemos un archivo [BibTeX](http://www.bibtex.org/) centralizado que contiene todas las referencias. El archivo se encuentra dentro de este repositorio en el archivo [`./book/website/_bibliography/references.bib`][turingbib].
+We maintain a centralised [BibTeX](http://www.bibtex.org/) file containing all references. The file is located within this repository in the file [`./book/website/_bibliography/references.bib`][turingbib].
 
-## Básicos de archivo BibTeX
+## BibTeX file basics
 
-Los archivos BibTeX son una forma de formatear listas de referencias de una manera estructurada. Los elementos básicos de una entrada incluyen un tipo de referencia, una clave de cita única, y una serie de pares clave-valor que describen la referencia (por ejemplo, autor o título).
+BibTeX files are a way to format lists of references in a structured way. Basic elements of an entry include a reference type, a unique citation key, and a series of key-value pairs that describe the reference (for example, author or title).
 
-Hay un número de palabras clave para diferentes tipos de referencias en BibTeX. Por suerte, hay herramientas para ayudar a formatear referencias en la sintaxis BibTeX. Si conoces el DOI para tu referencia, puedes usar [doi2bib](https://doi2bib.org/) para ayudar a poblar una entrada BibTeX lo suficientemente buena. Por ejemplo, [aquí](https://doi2bib.org/bib/https://doi.org/10.5281/zenodo.3233853) es una entrada BibTeX suficientemente buena para el propio manual de Turing Way. Otra buena herramienta es [Google Académico](https://scholar.google.com/), donde se busca una referencia, haga clic en las grandes comillas dobles `"`y luego haga clic en "BibTeX" cerca de la parte inferior.
+There are a number of keywords for different references types in BibTeX. Luckily, there are tools to help format references into BibTeX syntax. If you know the DOI for your reference, you can use [doi2bib](https://doi2bib.org/) to help populate a good enough BibTeX entry. For example, [here](https://doi2bib.org/bib/https://doi.org/10.5281/zenodo.3233853) is a good enough BibTeX entry for The Turing Way handbook itself. Another good tool is [Google Scholar](https://scholar.google.com/), where you search for a reference, click on the large double quotes `"`, and then click on "BibTeX" near the bottom.
 
-A continuación se muestran ejemplos de una referencia con formato BibTeX.
+Examples of listing a BibTeX-formatted reference are shown below.
 
-## Añadiendo una nueva referencia en `references.bib`
+## Adding a new reference in `references.bib`
 
-Puede editar el archivo de referencia localmente utilizando un método de lo siguiente:
+You can edit reference file locally using a method from the following:
 
-- Editar [`references.bib`][turingbib] directamente usando un editor de texto
-- Editar [`references.bib`][turingbib] directamente usando un programa de gestión como [JabRef](http://www.jabref.org/) (Linux, Windows, macOS) o [BibDesk](https://bibdesk.sourceforge.io/) (macOS)
+- Edit [`references.bib`][turingbib] directly using a text editor
+- Edit [`references.bib`][turingbib] directly using a managing program such as [JabRef](http://www.jabref.org/) (Linux, Windows, macOS) or [BibDesk](https://bibdesk.sourceforge.io/) (macOS)
 
-Utilizamos un formato bibtex estándar para añadir una nueva entrada. Por ejemplo, hay una entrada en el archivo [`references.bib`][turingbib] como:
+We use a standard bibtex format to add a new entry. For example, there is an entry in the [`references.bib`][turingbib] file as:
 
 ```
 @article{baker2016reproducibility,
     author={Baker, Monya},
-    title={crisis de reproducibilidad? ,
+    title={Reproducibility crisis?},
     journal={Nature},
-    volumen={533},
-    número ={26},
-    páginas={353--66},
-    año ={2016}
+    volume={533},
+    number={26},
+    pages={353--66},
+    year={2016}
 }
 ```
 
-**Termina la edición añadiendo una nueva entrada al final del archivo.**
+**Finish editing by adding a new entry at the end of the file.**
 
-## Guía de estilo de clave de cita
+## Citation key style-guide
 
-Recomendamos utilizar la siguiente estructura para las claves de cita:
+We recommend using the following structure for citation keys:
 
 ```
-AutorYYYword
+AuthorYYYYword
 ```
 
-Donde:
+Where:
 
-1. `Autor` es el apellido del primer autor (`Pasador` arriba)
-2. `AAAAA` es el año (`2016` anterior)
-3. `palabra` es la primera palabra significativa en el título (`reproducibilidad` arriba). Tenga en cuenta que esto es ·ectivo―elija un nombre que haga fácil recordar la referencia cuando vea la clave de cita.
+1. `Author` is the surname of the first author (`Baker` above)
+2. `YYYY` is the year (`2016` above)
+3. `word` is the first meaningful word in the title (`reproducibility` above). Note, this is subjective―choose a name that makes it easy to remember the reference when you see the citation key.
 
-## Añadir una nueva referencia en el texto
+## Adding a new reference in the text
 
-Para incluir una cita en su contenido, seguimos la recomendación de [Jupyter Book](https://jupyterbook.org/content/citations.html) que usa [`sphinxcontrib-bibtex`](https://sphinxcontrib-bibtex.readthedocs.io/en/latest/) extensión.
+To include a citation in your content, we follow the recommendation by [Jupyter Book](https://jupyterbook.org/content/citations.html) that uses [`sphinxcontrib-bibtex`](https://sphinxcontrib-bibtex.readthedocs.io/en/latest/) extension.
 
-Los conceptos clave son:
+The key concepts are:
 
-- Incluye una referencia usando usando:
+- Include a reference using using:
 ```
 {cite:ps}`CITEKEY`
 
 ```
-Aquí `CITEKEY` es la clave de cita correspondiente en [`references.bib`][turingbib].
-- También puede incluir múltiples citas en una sola vez separando los CITEKEYs por una coma:
+Here `CITEKEY` is the corresponding citation key in [`references.bib`][turingbib].
+- You can also include multiple citations in one go by separating the CITEKEYs by a comma:
 ```
 {cite:ps}`CITEKEY1,CITEKEY2,CITEKEY3`
 ```
 
-Citaremos el artículo que editamos anteriormente en el archivo [`reference.bib`][turingbib] utilizando:
+We will cite the article that we edit earlier in the [`reference.bib`][turingbib] file using:
 
 ```
 {cite:ps}`Kuula2010archiving`
 ```
 
-Esto aparecerá en tu capítulo como {cite:ps}`baker2016reproducibility`.
+This will appear in your chapter as {cite:ps}`baker2016reproducibility`.
 
-La entrada completa de bibliografía está disponible al final de este libro (ver {ref}`recursos <bibliography>`) utilizando las directivas:
+The complete bibliography entry is available at the end of this book (see {ref}`resources <bibliography>`) using the directives:
 
     ```{bibliography} ../_bibliography/references.bib
 
     ```
 
-Para el uso avanzado, consulte la documentación [de sphinxcontrib-bibtex](https://sphinxcontrib-bibtex.readthedocs.io/en/latest/usage.html), que es una extensión Sphinx para citas estilo BibTeX.
+For the advanced usage, see the [documentation by sphinxcontrib-bibtex](https://sphinxcontrib-bibtex.readthedocs.io/en/latest/usage.html), which is a Sphinx extension for BibTeX style citations.
 
 [turingbib]: https://github.com/alan-turing-institute/the-turing-way/blob/main/book/website/_bibliography/references.bib
 

@@ -1,49 +1,52 @@
-crwdns855288:0crwdne855288:0
-# crwdns855290:0crwdne855290:0
+(rr-vcs-git)=
+# Getting Started with Git
 
-crwdns855292:0crwdne855292:0 crwdns855294:0crwdne855294:0 crwdns855296:0crwdne855296:0 crwdns855298:0crwdne855298:0
+To get started, please make sure that your have Git installed on your computer. Instructions for installing Git on Linux, Windows and Mac machines are available [here](https://Git-scm.com/book/en/v2/Getting-Started-Installing-Git). Once the installation is complete, go to your project directory via terminal or command-line interface (for example, `cd my-project-folder`). Your project folder contains all of your files, including subdirectories.
 
-crwdns855300:0crwdne855300:0 crwdns855302:0crwdne855302:0 crwdns855304:0crwdne855304:0
+When working on a project, you will make numerous changes to your files as you progress. Sometimes you may need to undo changes, take another look at past versions, or compare versions. Saving each version individually (such as `version_1.py` and `version_2.py`) is messy and quickly becomes impractical.
 
-crwdns855306:0crwdne855306:0 crwdns855308:0crwdne855308:0
+Commits serve as checkpoints where individual files or an entire project can be safely reverted to when necessary. By making commits, you can save versions of your code and switch between them/compare them easily without cluttering up your directory.
 
-crwdns855310:0crwdne855310:0
+To get started with your Git repository, run the following Git command in the terminal to create/initialise your Git repository:
 
 ```
-crwdns855312:0crwdne855312:0
+git init
 ```
 
-crwdns855314:0crwdne855314:0
+This only needs to be done once per project.
 
-crwdns855316:0crwdne855316:0 crwdns855318:0crwdne855318:0 crwdns855320:0crwdne855320:0
+Think of the repository as a place where the history is being stored. When you first initialise a repository with `git init`, all of the files in your project would not be added to the Git repository as they are  untracked by Git by default. Therefore, the next step is to add your files to the Git repository and allow Git to track them.
 
-crwdns855322:0crwdne855322:0
+Run the following command to add all files in the current folder:
 ```
-crwdns855324:0crwdne855324:0
+git add .
 ```
-crwdns855326:0crwdne855326:0
+OR run the following command to add only the files ('your_file_name' in this example):
 ```
-crwdns855328:0crwdne855328:0
+git add your_file_name
 ```
 
-crwdns855330:0crwdne855330:0
+This command puts your newly added files or any other changes into what is called the "staging" state.
 
 ```{figure} ../../figures/change-stage-repo.png
-crwdns855332:0crwdne855332:0
-crwdns855334:0crwdne855334:0
+---
+name: change-stage-repo
+alt: An illustration of the `git add` and git commit Commands.
+---
+How `git add` and `git commit` works
 ```
 
-crwdns855336:0crwdne855336:0
+If you are ever unsure what files have been added, what files have been changed, or what files are untracked, you can run the following to find out:
 
 ```
-crwdns855338:0crwdne855338:0
+git status
 ```
 
-crwdns855340:0crwdne855340:0
+The next step is to "commit" any changes stored in your staging area so that they are recorded in your repository.
 
 ```
-crwdns855342:0crwdne855342:0
+git commit
 ```
-crwdns855344:0crwdne855344:0
+Congratulations, you have finished setting up your repository!
 
-crwdns855346:0crwdne855346:0
+You will learn more about `git commit` in the next chapter.

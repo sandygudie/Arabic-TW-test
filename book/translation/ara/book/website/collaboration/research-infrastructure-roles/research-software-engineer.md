@@ -1,41 +1,41 @@
-(البنية التحتية - rse)=
-# مهندس برمجيات البحث: نظرة عامة
+(cl-infrastructure-rse)=
+# Research Software Engineer: Overview
 
-ومهندسو البرامجيات البحثية هم مبرمجون ذوو خلفيات علمية يؤدون أدوارا متزايدة الأهمية في إجراء البحوث وإنتاج أدوات البرامجيات البحثية. وهم أعضاء في فريق ذوي مهارات عالية يمكنهم أيضا إجراء بحوثهم الخاصة كجزء من دورهم.
+Research Software Engineers (RSEs) are programmers with scientific backgrounds who play increasingly critical roles in the conduct of research and production of research software tools. They are highly skilled team members who can also conduct their own research as part of their role.
 
 
-(البنية التحتية - دور rse-role)=
-## ماذا يفعل مهندسو البرمجيات البحث؟
-وتعمل هذه المؤسسات على تنفيذ مشاريع بحثية. ويمكن إسنادها إلى مشاريع على أساس المهارات أو الخلفية من مجموعة من جماعات الدعم الإقليمي الأخرى، أو توظف خصيصا للعمل في مشروع ما.
+(cl-infrastructure-rse-role)=
+## What do Research Software Engineers do?
+RSEs work on research projects. They may be assigned to projects based on skills or background from a pool of other RSEs, or be specifically hired to work on a project.
 
-وبالإضافة إلى ذلك، يمكن للأقليات الإقليمية أيضاً أن تكون مؤسسات للإحصاء وأن تدير مشاريعها البحثية المستقلة. ويعتمد ذلك على المؤسسات والسياسات المتعلقة بالمشاريع التي تعكف على تنفيذها.
+Additionally, RSEs can also be PIs and run their own independent research projects, depending on the institution and policies of the projects they are working on.
 
-## من هم مهندسو برمجيات البحث؟
-وعادة ما تكون للأقليات الأكاديمية خلفية علمية أو بحثية، وكثيراً ما تنمي مهارات البرمجة أثناء دراسات الماجستير أو الدكتوراه. يمكنك معرفة المزيد عن خلفيات RSEs من خلال [استقصاء معهد استدامة البرمجيات لعام 2018](https://www.software.ac.uk/blog/2018-03-12-what-do-we-know-about-rses-results-our-international-surveys).
+## Who are Research Software Engineers?
+RSEs typically have a scientific or research background, often developing programming skills during masters or doctoral studies. You can find out more about the backgrounds of RSEs through the [Software Sustinability Institute's 2018 Survey](https://www.software.ac.uk/blog/2018-03-12-what-do-we-know-about-rses-results-our-international-surveys).
 
-## ما هي المؤهلات أو المهارات التي تحتاجها لتكون مهندس برامج بحث؟
-ولا توجد مؤهلات رسمية محددة مطلوبة لكي تصبح شهادة تعليم مهني، ولكن الأغلبية ستكون على الأقل حاصلة على درجة عليا واحدة (درجة الماجستير أو درجة الدكتوراه). ومع ذلك، فإن جميع مجموعات RSEs قادرة على البرمجة، مع برمجة الأغلبية في Python أو SQL أو R أو C/C++ أو JavaScript. ومن المرجح أيضا أن تفهم هذه المؤسسات مفاهيم من قبيل التطوير السريع، والتكامل والاختبار، وهندسة البرمجيات، ومراقبة النسخ.
+## What qualifications or skills do you need to be a Research Software Engineer?
+There are not specific formal qualifications needed to become an RSE, but the majority will have at least one advanced degree (masters or doctoral level). However, all RSEs are able to program, with the majority coding in Python, SQL, R, C/C++ or JavaScript. RSEs are also likely to understand concepts such as agile development, integration and testing, software architecture, and version control.
 
-## التحديات التي تواجه مهندسي البرمجيات البحثية
-* عدم وجود مسارات رسمية للتنمية
-* إنتاج البرمجيات والأدوات التي لا يعترف بها دائما كناتج بحثي
-* مجالس الإشراف الإقليمية لا تعتبر باحثين في حد ذاتها
-* التكيف مع العمل في مشاريع مختلفة، ربما بعيداً عن خلفيتها الأصلية
+## Challenges for Research Software Engineers
+* Lack of formal pathways for development
+* Production of software and tools not always recognised as a research output
+* RSEs not viewed as researchers in their own right
+* Adjusting to working on different projects, possibly far from their original background
 
-## فوائد الحصول على أبحاث مهندسي البرمجيات
-* المهارات التقنية العالية التي تدعم الباحثين الذين لا يستطيعون البرمجة
-* تبادل أفضل الممارسات في مجال هندسة البرامجيات البحثية عبر المشاريع
-* تطبيق المعرفة المتعددة التخصصات على مختلف المشاريع
-* وسيكون البرنامج أكثر موثوقية وقوة، ويدعم إعادة الاستخدام والتناسب
+## Benefits of having Research Software Engineers
+* Highly technical skills that support researchers who cannot program
+* Sharing of best practices in research software engineering across projects
+* Apply cross-disciplinary knowledge to different projects
+* Software will be more reliable and robust, supporting reuse and reproducibility
 
-(البنية التحتية - rse-support)=
-## المنظمات التي تدعم مهندسي البرامجيات البحثية
-* [جمعية البحوث الهندسية](https://society-rse.org/)
-* [معهد استدامة البرمجيات](https://www.software.ac.uk/)
+(cl-infrastructure-rse-support)=
+## Organisations that support Research Software Engineers
+* [Society for Research Engineering](https://society-rse.org/)
+* [Software Sustainability Institute](https://www.software.ac.uk/)
 
-(البنية الأساسية - تلخيص)
+(cl-infrastructure-rse-summary)=
 ## Summary
-ومهندسو البرمجيات البحثيون هم من ذوي المهارات العالية والقيمة في أي مجموعة بحثية تجري بحوثا حاسوبية. وهي تجلب مهارات البرمجة التقنية فضلا عن أفضل الممارسات من هندسة البرمجيات وتطوير المصادر المفتوحة إلى البحوث الأكاديمية. ويضطلع البعض أيضا بمشاريعهم البحثية المستقلة.
+Research Software Engineers are highly skilled, valuable members of any research group that is conducting computational research. They bring technical programming skills as well as best practices from software architecture and open source development to academic research. Some also conduct their own independent research projects.
 
 
 

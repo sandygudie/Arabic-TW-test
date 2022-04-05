@@ -1,51 +1,54 @@
-crwdns827920:0crwdne827920:0
-# crwdns827922:0crwdne827922:0
+(cl-infrastructure-ram)=
+# Research Application Managers: Overview
 
-## crwdns827924:0crwdne827924:0
+## Context and the unmet need
 
-crwdns827926:0crwdne827926:0 crwdns827928:0crwdne827928:0 crwdns827930:0crwdne827930:0
-- crwdns827932:0crwdne827932:0
-- crwdns827934:0crwdne827934:0
-- crwdns827936:0crwdne827936:0
-- crwdns827938:0crwdne827938:0
-- crwdns827940:0crwdne827940:0
+Academic incentives encourage the creation of novel knowledge, such as creating new machine learning algorithms. Often, after ground-breaking work has been published in an academic journal, the algorithm and the software built to deploy it are not supported because the researcher begins a new project or moves to another institution. Traditionally, academia is less interested in supporting and rewarding work on:
+- Improving and extending existing research outputs/software
+- Promoting interoperability of new and existing outputs/software
+- Investing in usability, re-usability and user-friendliness of outputs/software (new and existing)
+- Co-creating outputs with users from the early stages of the research output lifecycle
+- Proactively discovering new real-world applications and use cases beyond the original academic field and investing in their promotion, adaptation and adoption
 
-crwdns827942:0crwdne827942:0 crwdns827944:0crwdne827944:0 crwdns827946:0crwdne827946:0
+In other words, academia highly prizes knowledge creation. Investment in dissemination, interconnectivity and usability beyond the original academic field is typically not rewarded with the greatest academic prizes. In the highly competitive world of early career research, such work is therefore often not prioritised.
 
 ```{figure} ../../figures/research-application-managers.jpg
-crwdns827948:0crwdne827948:0
-crwdns827950:0crwdne827950:0 crwdns827952:0crwdne827952:0 crwdns827954:0crwdne827954:0 crwdns827956:0crwdne827956:0 crwdns827958:0crwdne827958:0 crwdns827960:0crwdne827960:0
+---
+name: research-application-managers
+alt: An illustration depicting the animal rams as the research application managers who are connecting with users, applying research in real world and facilitating innovative process in research infrastructure.
+---
+Research Application Managers work with the research team to embed outputs into user organisations. _The Turing Way_ Community, & Scriberia. (2020, November). Illustrations from the Turing Way book dashes. Zenodo. http://doi.org/10.5281/zenodo.4323154
 ```
 
 
-## crwdns827962:0crwdne827962:0
+## A RAM as a connecting role in the research ecosystem
 
-crwdns827964:0crwdne827964:0 crwdns827966:0crwdne827966:0
+We have created the role of a Research Application Manager (RAM) at The Alan Turing Institute with the aim of addressing this incentive gap. RAMs are specifically incentivised and rewarded to conduct the work that traditionally sits on the margins for a typical early career researcher engaging in creating outputs such as open source software.
 
-crwdns827968:0crwdne827968:0 crwdns827970:0crwdne827970:0 crwdns827972:0crwdne827972:0
+RAMs are in part inspired by the role of a Product Manager in tech firms. They also have similarities with the role of a Developer Advocate and their work overlaps with that of the Community Manager. In some cases the RAM workload may include detailed, often technical, input, resembling a Solutions Engineer or a Forward Deployed Engineer, who interface directly with customers to ensure that the tool meets user needs.
 
-crwdns827974:0crwdne827974:0
-- crwdns827976:0crwdne827976:0
-- crwdns827978:0crwdne827978:0
-- crwdns827980:0crwdne827980:0
-- crwdns827982:0crwdne827982:0
-- crwdns827984:0crwdne827984:0
-- crwdns827986:0crwdne827986:0
-- crwdns827988:0crwdne827988:0
-- crwdns827990:0crwdne827990:0
-- crwdns827992:0crwdne827992:0
+The measures of success for a RAM:
+- Engaging with the research team early on in the project to bring the perspective of potential users of their software tools and to proactively co-create from the early stages
+- Advocating for the user perspective throughout the development and feature prioritisation process
+- Identifying the key users and the target audience
+- Researching and understanding the user community
+- Engaging with the user community
+- Identifying sustainability and funding solutions in collaboration with the research team
+- Promoting the tools outside the academic field of the original research team
+- Approaching the output as a research "product" and bringing an appropriate level of "market intelligence" to the academic team
+- "Packaging" or "re-packaging" the tool to improve usability/accessibility to different audiences
 
-crwdns827994:0crwdne827994:0 crwdns827996:0crwdne827996:0
+RAMs are a solution primarily to the incentive gap problem. They bring a "Team Science" mindset to the research teams and promote research best practices - a task they share with the Community Manager role.
 
-crwdns827998:0crwdne827998:0
-- crwdns828000:0crwdne828000:0
-- crwdns828002:0crwdne828002:0
-- crwdns828004:0crwdne828004:0
-- crwdns828006:0crwdne828006:0
-- crwdns828008:0crwdne828008:0
-- crwdns828010:0crwdne828010:0
+Both RAMs and CMs promote best practices in:
+- Interoperability of outputs
+- Reproducibility of research findings and outputs
+- Team Science / Open Science
+- Ethics
+- Co-creation
+- Inclusivity
 
-crwdns828012:0crwdne828012:0 crwdns828014:0crwdne828014:0
+Community managers are becoming an established role in the research ecosystem and in open source software communities in particular. We hope that RAMs will have a similarly successful trajectory.
 
-crwdns828016:0crwdne828016:0
+Key RAM values: _adaptability, collaboration and legacy_
 

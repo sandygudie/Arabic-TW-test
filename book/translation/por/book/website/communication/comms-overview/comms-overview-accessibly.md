@@ -1,42 +1,42 @@
-(cm-comentários-acessível-acessível)=
-# Comunicar Acessivelmente
+(cm-comms-overview-accessibly)=
+# Communicating Accessibly
 
-A acessibilidade da sua escrita ou apresentação é mais do que apenas a nível técnico. Como ele pode ser acessado em termos de onde está localizado, o formato de texto e diagramas, A linguagem e a FAIRness da comunicação em geral têm de ser todas consideradas.
+Accessibility of your writing or presentation is more than just about the technical level. How it can be accessed in terms of where it is located, the format of text and diagrams, the language and overall FAIRness of the communication all need to be considered.
 
-FAIR significa detectável, acessível, interoperável e reutilizável e você pode descobrir mais no nosso subcapítulo {ref}`subcapítulo sobre os Princípios do FAIR<rr-rdm-fair>`.
+FAIR stands for findable, accessible, interoperable and reusable and you can find out more in our sub-chapter {ref}`sub-chapter on The FAIR Principles<rr-rdm-fair>`.
 
-## Onde você comunica
+## Where you communicate
 
-Onde a sua pesquisa é comunicada e quanto ela custa terá um impacto na sua acessibilidade. A maior parte das comunicações a audiências mais amplas será livre de acesso, uma vez que serão distribuídas em linha, o que as torna ainda mais impactantes. No entanto, muitos artigos científicos nem sequer são acessíveis aos investigadores, porque estão atrás dos salários. Um [paywall](https://en.wikipedia.org/wiki/Paywall#:~:text=A%20paywall%20is%20a%20method,a%20paid%20subscription%2C%20especially%20news.) é a restrição de acesso ao conteúdo por meio de um custo único de pagamento ou assinatura. Você pode saber mais sobre paywals assistindo ao filme [Paywall](https://paywallthemovie.com/).
+Where your research is communicated and how much it costs will have an impact on its accessibility. Most communications to wider audiences will be free to access as they will be distributed online, which makes them even more impactful. However, many scientific articles are not accessible even to researchers because they are behind paywalls. A [paywall](https://en.wikipedia.org/wiki/Paywall#:~:text=A%20paywall%20is%20a%20method,a%20paid%20subscription%2C%20especially%20news.) is the restricting of access to content through a one off payment or subscription cost. You can find out more about paywals by watching the movie [Paywall](https://paywallthemovie.com/).
 
-O custo dos livros académicos é também exclusivo. Frequentemente, custam cinco vezes mais do que os romances populares, embora haja um movimento crescente no sentido de um acesso aberto aos livros electrónicos.
+The cost of academic books is also exclusionary. They often cost five times more than popular novels, although there is a growing movement towards open access e-books.
 
-* Taxas de conferência e workshop podem excluir alguns pesquisadores. Embora você não tenha controle sobre o acesso à conferência, você pode compartilhar as apresentações e cartazes da sua conferência em um repositório aberto que ampliará sua acessibilidade. Você também pode considerar gravar suas apresentações e disponibilizá-las online.
-* Se estiver organizando um evento, você pode fazer um esforço para reduzir os custos ou oferecer subsídios a certos indivíduos para garantir que seu evento seja acessível.
+* Conference and workshop fees can exclude some researchers. While you may not have control over conference access, you can share your conference presentations and posters on an open repository which will widen their accessibility. You may also consider recording your presentations and making them available online.
+* If you are organising an event, you can make an effort to reduce the costs or offer grants to certain individuals to ensure that your event is accessible.
 
-Você pode tentar tornar suas saídas disponíveis livremente publicando-as em um repositório on-line como o [Zenodo](https://zenodo.org/), , [Figura compartilhe](https://figshare.com/) ou [Open Science Framework](https://osf.io/). Isso permitirá o acesso ao seu conteúdo por um público maior e, consequentemente, terá um maior impacto.
+You can try to make your outputs freely available by publishing them in an online repository such as [Zenodo](https://zenodo.org/), [Figshare](https://figshare.com/) or [Open Science Framework](https://osf.io/). This will allow your content to be accessed by a larger audience and consequently have a greater impact.
 
-## Considere Deficiências
+## Consider Disabilities
 
-Você precisa considerar como é que as pessoas com deficiência podem aceder plenamente às suas comunicações.
+You need to consider how those with disabilities can fully access your communications.
 
-* Muitas vezes o texto é acessível em publicações académicas, mas as imagens e os números não o são.
-* A cor das imagens deve ser considerada para pessoas com cegueira de cores e é necessário incluir texto alternativo para todas as imagens. Além disso, considere qual formato é melhor para os leitores de tela.
-* Existem recursos que você pode usar na maioria dos softwares de processamento e apresentação de palavras que podem ajudá-lo a editar seus documentos desta maneira. Estes incluem ser capaz de adicionar texto alternativo a quaisquer imagens e usar os cabeçalhos específicos para ajudar o leitor de tela a se mover para seções diferentes.
-* O Microsoft Office tem um verificador de acessibilidade, por isso você pode facilmente executar este recurso quando seu documento ou apresentação estiver concluído e fazer ajustes.
-* Para obter mais informações sobre a acessibilidade, consulte [Rede de Capacidade](https://abilitynet.org.uk/) e seu [guia para criar documentos acessíveis](https://abilitynet.org.uk/factsheets/creating-accessible-documents-0).
-* Há também um blog [útil sobre texto alternativo](https://abilitynet.org.uk/news-blogs/five-golden-rules-compliant-alt-text) e você pode descobrir mais nesta [útil introdução ao texto alternativo do Webaim](https://webaim.org/techniques/alttext/).
+* Often the text in academic publications is accessible but the images and figures are not.
+* The colour of images needs to be considered for people with colour blindness and it is a must to include alternative text for all images. Also, consider what format is best for screen readers.
+* There are features you can use within most word processing and presentation software that can help you to edit your documents in this manner. These include being able to add alt text to any images and using the specific headings to help a screen reader move to different sections.
+* Microsoft Office has an accessibility checker so you can easily run this feature when your document or presentation is completed and make adjustments.
+* For more information about accessibility see [Ability Net](https://abilitynet.org.uk/) and their [guide to creating accessible documents](https://abilitynet.org.uk/factsheets/creating-accessible-documents-0).
+* There is also a useful [blog about alternative text](https://abilitynet.org.uk/news-blogs/five-golden-rules-compliant-alt-text) and you can find out more in this useful [introduction to alt text by Webaim](https://webaim.org/techniques/alttext/).
 
-## Tradução do idioma
+## Language Translation
 
-O inglês é considerado a língua acadêmica e devemos ter cuidado para garantir que todas as nossas saídas sejam acessíveis neste idioma. Os resultados devem ser escritos de forma simples para torná-los mais acessíveis para aqueles que têm inglês como segunda língua.
+English is considered the academic language and we should be careful to make sure that all our outputs are accessible in this language. Outputs should be written straightforwardly to make them more accessible to those with English as a second language.
 
-* No entanto, nem todas as comunicações devem estar em inglês. Os investigadores têm de considerar o público mais vasto das suas comunicações. Poderá haver uma comunidade específica com outra língua que precisa de ser plenamente envolvida na investigação, pelo que as comunicações devem ser traduzidas.
-* Comunidades de pesquisa globais também devem considerar a possibilidade de traduzir documentos chave para idiomas adicionais, como foi feito para o nosso arquivo [LEIA-ME](https://github.com/alan-turing-institute/the-turing-way/blob/main/README.md) do projeto.
+* However, not all communications should be in English. Researchers need to consider the wider audience of their communications. There may be a specific community with another language that needs to be engaged fully in the research and therefore communications should be translated.
+* Global research communities should also consider translating key documents into additional languages as has been done for our project [README file](https://github.com/alan-turing-institute/the-turing-way/blob/main/README.md).
 
-## Recursos FAIR
+## FAIR resources
 
-Vale a pena considerar a aplicação dos princípios da FAIR a todas as comunicações científicas que você deposita em repositórios abertos, tais como as apresentações e os cartazes das conferências, que as tornarão mais sustentáveis.
-* As dicas para aplicar os princípios de FAIR aos materiais de treinamento da Garcia e al (2020) {cite:ps}`Garcia2020ten` podem ser facilmente adaptadas para este fim.
+It is worth considering applying the FAIR principles to all the science communications that you deposit in open repositories, such as conference presentations and posters, as this will make them more sustainable.
+* Tips to apply the FAIR principles to training materials by Garcia et al (2020) {cite:ps}`Garcia2020ten` can be easily adapted for this purpose.
 
-Descubra mais no nosso {ref}`sub-capítulo sobre os princípios do FAIR<rr-rdm-fair>`.
+Find out more in our {ref}`sub-chapter on The FAIR Principles<rr-rdm-fair>`.

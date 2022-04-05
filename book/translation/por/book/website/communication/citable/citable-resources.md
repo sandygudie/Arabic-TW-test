@@ -1,35 +1,35 @@
-(checklist-cm-citable-citable)=
-# Checklists e recursos
+(cm-citable-checklist)=
+# Checklists and Resources
 
-(cm-citable-checklist-autores)=
-## Lista de verificação para autores
+(cm-citable-checklist-authors)=
+## Checklist For Authors
 
-- Escolha os principais conjuntos de dados e softwares que suas conclusões dependem
-- Cite dados e software da mesma forma que cita um papel
-- Publique seus próprios dados/software e cite isso também
-- Obtenha um [ID ORCID!](https://orcid.org/)
+- Pick out key datasets and software your conclusions rely on
+- Cite data and software just like you would cite a paper
+- Publish your own data/software and cite that too
+- Get an [ORCID ID!](https://orcid.org/)
 
 (cm-citable-checklist-data)=
-## Para Criadores de Dados
+## For Data Creators
 
-- Deposite seus dados em um repositório estável
-- Obter um identificador persistente (DOI) para seus dados
-- Inclua um exemplo de referência no arquivo LEIAME do seu conjunto de dados
+- Deposit your data in a stable repository
+- Get a persistent identifier (DOI) for your data
+- Include an example citation in your dataset's README file
 
 (cm-citable-checklist-software)=
-## Para desenvolvedores de software
+## For Software Developers
 
-- Depositar imagens importantes de versão do seu software em um repositório estável
-- Obter um identificador persistente distinto para cada versão de chave
-- Inclua um exemplo de citação em seu manual de software
+- Deposit key version snapshots of your software in a stable repository
+- Get a distinct persistent identifier for each key version
+- Include an example citation in your software manual
 
-(cm-citable-checklist-recomendação)=
-## Mais Recomendações
+(cm-citable-checklist-recommendation)=
+## Further Recommendation
 
-- [Orientação por DataCite](https://datacite.org/cite-your-data.html)
-- [Princípios de dados FAIR](https://www.force11.org/group/fairgroup/fairprinciples)
-- [Princípios de Citação de Dados FORCE11](https://www.force11.org/datacitationprinciples)
-- [Princípios de Software FORCE11 Citação](https://www.force11.org/software-citation-principles)
-- [Primeiros passos com seu registro ORCID](https://support.orcid.org/hc/en-us/articles/360006896894-Getting-started-with-your-ORCID-record)
-- [Tornando software citável](https://guide.esciencecenter.nl/citable_software/making_software_citable.html)
-- [Guia OpenAIRE sobre Identificadores Pessoais](https://www.openaire.eu/how-can-identifiers-improve-the-dissemination-of-your-research-outputs)
+- [DataCite Citation Guidance](https://datacite.org/cite-your-data.html)
+- [FAIR data principles](https://www.force11.org/group/fairgroup/fairprinciples)
+- [FORCE11 Data Citation principles](https://www.force11.org/datacitationprinciples)
+- [FORCE11 Software Citation principles](https://www.force11.org/software-citation-principles)
+- [Getting Started with your ORCID record](https://support.orcid.org/hc/en-us/articles/360006896894-Getting-started-with-your-ORCID-record)
+- [Making software citeable](https://guide.esciencecenter.nl/citable_software/making_software_citable.html)
+- [OpenAIRE Guide on Person Identifiers](https://www.openaire.eu/how-can-identifiers-improve-the-dissemination-of-your-research-outputs)

@@ -1,36 +1,36 @@
-(cm-aa-mala conducta)=
-# Tipos de mala conducta de autor
+(cm-aa-misconduct)=
+# Types of authorship misconduct
 
-Existen varias formas de mala conducta de autoría. Estos reflejan estructuras de poder desiguales en el mundo académico. La mala conducta de las autoridades da lugar a una falta de transparencia y responsabilidad en la investigación.
+There are various forms of authorship misconduct. These reflect unequal power structures in academia. Authorship misconduct results in a lack of transparency and accountability in research.
 
-Un estudio de autoría inapropiada en revistas biomédicas reveló que el 21,0% del artículo incluía la autoría de honor, la autoría fantasma o ambas en 2008. Esta es una reducción de un estudio en 1996 (29,2%) pero muestra que estas prácticas siguen siendo prevalentes {cite}`wislar2011honorary`.
+A study of inappropriate authorship in biomedical journals found 21.0% of the article included honorary authorship, ghost authorship or both in 2008. This is a reduction from a study in 1996 (29.2%) but shows that these practices are still prevalent {cite}`wislar2011honorary`.
 
-(cm-aa-honorario de mala conducta)=
-## Autoría honoraria
-La autoría honoraria es cuando una persona se convierte en autor con nombre aunque no haya realizado una contribución sustancial y/o cumplido con los criterios de autoría.
+(cm-aa-misconduct-honorary)=
+## Honorary authorship
+Honorary authorship is when an individual becomes a named author even though they have not made a substantial contribution and/or met authorship criteria.
 
-Un estudio reciente de mala conducta académica determinó 35. % de los encuestados en todas las disciplinas habían añadido autores a sus propios manuscritos, a pesar de que esos autores hicieron una mínima contribución al proyecto {cite}`fong2017manipulación`. El estudio también determinó que ser asistente o asistente aumenta significativamente tu probabilidad de ser un autor honorario.
+A recent study of academic misconduct found 35.5% of survey respondents across all disciplines had added authors to their own manuscripts even though those authors made minimal contributions to the project {cite}`fong2017manipulation`. The study also found that being an Assistant or Associate Professors significantly increases your likelihood of being an honorary author.
 
-Esto también puede llamarse:
-* Autoría de regalo o invitado - nombrar a un autor individual por respeto o gratitud.
-* Autoría coerciva - un investigador senior que obliga a un investigador junior a incluir un autor de regalo o invitado.
+This can also be called:
+* Gift or guest authorship - naming an individual author out of respect or gratitude.
+* Coercive authorship - a senior researcher forcing a junior researcher to include a gift or guest author.
 
-Esta práctica ocurre por varias razones:
-* Los investigadores jóvenes pueden sentirse presionados para que acepten la autoría honoraria de los investigadores más veteranos de su grupo de investigación en un intento de no ofender o debido a que estos investigadores tienen poder sobre su progreso profesional.
-* En algunas disciplinas, el jefe de departamento o los investigadores de alto nivel pueden ser añadidos independientemente de su contribución.
-* También podría considerarse un buen paso incluir a colegas más experimentados para mejorar la aparente calidad del documento y, por tanto, dar más oportunidades para su publicación.
+This practice happens for a number of reasons:
+* Junior researchers may feel pressured into accepting honorary authorship for more senior researchers in their research group in an attempt not to offend or due to these researchers having power over their career progression.
+* In some disciplines, department head or senior researchers may be added regardless of their contribution.
+* It could also be seen as a good move to include more experienced colleagues to raise the apparent quality of the paper and therefore give more chance for publication.
 
-(cm-aa-mala conducta-fantasma)=
-## Autoría fantasma
-La autoría fantasma es un autor que hace una contribución significativa a la escritura del artículo sin ser reconocido.
+(cm-aa-misconduct-ghost)=
+## Ghost authorship
+Ghost authorship is an author that makes a significant contribution to the writing of the article without getting acknowledged.
 
-Esto podría deberse a:
-* un escritor profesional empleado para redactar un artículo en nombre de una empresa.
-* un científico podría emplear a un escritor profesional para superar la falta de habilidades de escritura, el tiempo limitado o la falta de conocimiento de los requerimientos de la revista.
+This could be due to:
+* a professional writer employed to draft an article on behalf of a company.
+* a scientist could employ a professional writer to overcome a lack of writing skills, limited time or lack of knowledge of journal requirements.
 
-También hay colaboradores fantasma que son colaboradores de un proyecto pero que no suelen estar involucrados en el proceso de escritura. Por lo tanto, es poco probable que estos contribuyentes sean nombrados en documentos académicos como los que recogen los datos, realizar análisis de datos, hacer software y contribuir de muchas maneras a un proyecto de investigación.
+There are also ghost contributors that are contributors to a project but are not usually involved in the writing process. Therefore, these contributors are unlikely to be named on academic papers such as those that collected the data, performed data analysis, make software and contribute in other many ways to a research project.
 
-Es común que aquellos que tienen contratos temporales o a corto plazo, como los investigadores posdoctorales, puedan haber pasado a otro proyecto antes de ultimar las publicaciones. Esto también puede incluir trabajo voluntario como los estudiantes universitarios que trabajan en un proyecto durante sus estudios.
+It is common that those on temporary or short-term contracts, such as postdoctoral researchers, may have moved on to another project before publications are finalised. This can also include voluntary work such as University students working on a project during their studies.
 
-Por lo tanto, estas contribuciones pueden perderse la autoría de cualquier publicación, aunque hayan contribuido a la investigación de alguna manera. Por lo tanto, sin un esfuerzo significativo por parte de los autores del artículo o de quien esté a cargo del artículo en general, y también sin una política de autoría más inclusiva, estos investigadores no tendrán la oportunidad de reconocer sus contribuciones. 
+These contributions may therefore be missed off the authorship of any publications even though they have contributed to the research in some way. Therefore, without significant effort on the part of the article writers or whoever is in overall charge of the article, and also without a more inclusive authorship policy, these researchers will not get a chance for their contributions to be recognised. 
 

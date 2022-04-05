@@ -1,18 +1,18 @@
-crwdns832822:0crwdne832822:0
-# crwdns832824:0crwdne832824:0
+(cm-podcasts)=
+# Podcasts for Research Communication
 
-crwdns832826:0crwdne832826:0 crwdns832828:0crwdne832828:0 crwdns832830:0crwdne832830:0 crwdns832832:0crwdne832832:0 crwdns832834:0crwdne832834:0
+A podcast is an audio programme that you can subscribe to and listen to on an app. They are like blogs as they focus on a particular topic. A podcast can be a solo effort but would work better as collaborative work. The length of podcasts varies from short 1-minute snippets to much longer in-depth pieces lasting hours. They also vary in frequency from daily to monthly.
 
-crwdns832836:0crwdne832836:0
-## crwdns832838:0crwdne832838:0
+(cm-podcasts-how)=
+## Start a Podcast
 
-* crwdns832840:0crwdne832840:0
+* [How to start a podcast](https://www.podcastinsights.com/start-a-podcast/?gclid=CjwKCAiA9vOABhBfEiwATCi7GNV7zJl0tHaVkW-7DCjVdAwGa4q0vbaXB44xsSBHp7YBO8K6pH0syBoCVtUQAvD_BwE) If you have experience making podcasts and would like to write in more detail about this to help others, then please get in touch with us.
 
-crwdns832842:0crwdne832842:0
-## crwdns832844:0crwdne832844:0
+(cm-podcasts-recommendations)=
+## Some of Our Recommended Podcasts
 
-* crwdns832846:0crwdne832846:0
-* crwdns832848:0crwdne832848:0
-* crwdns832850:0crwdne832850:0
-* crwdns832852:0crwdne832852:0
-* crwdns832854:0crwdne832854:0
+* [Orion Open Science](https://www.orion-openscience.eu/publications/training-materials/201902/podcasts).
+* [Open Science talk](https://soundcloud.com/opensciencetalk).
+* [The Turing Podcast](https://www.turing.ac.uk/news/turing-podcast).
+* [ReproducibiliTea Podcast](https://soundcloud.com/reproducibilitea).
+* [Open science stories](https://podcasts.apple.com/gb/podcast/open-science-stories/id1547403532).

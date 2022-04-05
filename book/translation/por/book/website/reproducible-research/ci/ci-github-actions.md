@@ -1,58 +1,59 @@
 (rr-ci-github-actions)=
-# Integração contínua com o GitHub Actions
+# Continuous Integration with GitHub Actions
 
-Esta seção irá guiá-lo através da configuração básica da integração contínua (CI) usando o **GitHub Actions (GHA)**. GHA é um sistema de automação de tarefas totalmente integrado com o GitHub. Em outras palavras, é uma API que orquestra qualquer fluxo de trabalho baseado em qualquer evento. Embora existam muitos prestadores de serviços CI, o GHA torna mais fácil do que nunca a incorporação da CI nos seus repositórios. Ele fornece uma maneira flexível de automatizar quase todos os aspectos do seu fluxo de trabalho do projeto. Aqui estão apenas alguns exemplos de casos de uso de ações GitHub:
+This section will walk you through the basic setup of continuous integration (CI) using **GitHub Actions (GHA)**. GHA is a task automation system fully integrated with GitHub. In other words, it is an API that orchestrates any workflow based on any event. Although there are many CI service providers, GHA makes it easier than ever to incorporate CI into your repositories. It provides a flexible way to automate nearly every aspect of your project workflow. Here are just a few examples of use cases of GitHub Actions:
 
-- Teste automatizado do software
-- Gerar relatórios sobre o estado de quaisquer alterações no repositório
-- Responder a gatilhos de fluxo de trabalho usando etiquetas, issues, menções especiais e mais
-- Gatilho de revisões de código e pull requests
-- Gerenciamento de branches
+- Automated testing of the software
+- Generate reports of the status of any changes in the repository
+- Responding to workflow triggers using labels, issues, special mentions, and more
+- Triggering code reviews and pull requests
+- Managing branches
 
-GitHub Actions são orientadas por eventos, o que significa que ele responde a qualquer evento (Exemplos: pull request (PR) criado, issue criada e aciona uma ação (Exemplos: adiciona um rótulo, executa testes, ordenação). Qualquer coleção dessas ações é chamada de fluxo de trabalho. Uma descrição mais detalhada deste vocabulário relacionado ao GitHub é descrita na próxima seção.
+GitHub Actions are event-driven, which means it responds to any event (Examples: pull request (PR) created, issue created) and triggers an action (Examples: adds a label, runs tests, sort). Any collection of these actions is called a workflow. A more detailed description of this GitHub-related Vocabulary is described in the next section.
 
 ```{figure} ../../figures/github-actions.jpg
 ---
-largura: 700px
-align: centro
-nome: ações do Github
-alt: um diagrama descrevendo como a ação do GitHub ouve um evento (por exemplo, `PR` criado, issue criada, PR merged) e em seguida, disparar um trabalho que pode ser testes, classificação, rotulagem ou implantação.
+width: 700px
+align: center
+name: Github actions
+alt: A diagram describing how GitHub action listen to an event (for example, `PR` created, issue created, PR merged) and then trigger a job which can be testing, sorting, labelling or deployment.
 ---
-_A Turing Way_ ilustração de projeto por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
-## Vocabulário relacionado ao GitHub
+## GitHub-related Vocabulary
 
 ### 1. WorkFlow
 
-**O fluxo de trabalho** é uma unidade de automação do início ao fim. Ele consiste em todos os aspectos que devem ser tidos em conta durante a automação, incluindo qual evento pode acionar a automação. O fluxo de trabalho pode ser usado para compilação, teste, pacote, versão ou publicar um projeto no GitHub. É feito de vários trabalhos que são formados a partir das etapas, conforme mostrado no diagrama geral abaixo.
+**The workflow** is a unit of automation from start to finish. It consists of all the aspects which should be taken into account during the automation including what event can trigger the automation. The workflow can be used to build, test, package, release, or deploy a project on GitHub. It is made of multiple jobs which is formed from steps as shown in the overview diagram below.
 
 ```{figure} ../../figures/ci-01.png
 ---
-nome: Contínuo - Nov20
-alt: Uma ilustração de como a integração contínua funciona com vários trabalhos e ações trabalhando lado a lado para ilustrar os passos para mostrar a integração com a versão principal.
---- À esquerda: ilustração de projeto The Turing Way_ por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807). À direita: Diagrama geral dos conceitos mais importantes das Ações GitHub, adaptado de [morioh.com](https://morioh.com/p/aadcfe6cac57).
+name: ContinuousIntegration-Nov20
+alt: An illustration of how continuous integration works with multiple jobs and actions working alongside each other to feed into an illustration of steps to show merging into the main version.
+---
+On the left: _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807). On the right: Overview diagram of the most important concepts of GitHub Actions, adapated from [morioh.com](https://morioh.com/p/aadcfe6cac57).
 ```
 
-### 2. Trabalho
+### 2. Job
 
-Uma tarefa de **** é definida como um conjunto de passos sequenciais executados no mesmo runner. Um fluxo de trabalho pode gerar um ou vários trabalhos e pode ser executado paralelo (padrão) ou sequencialmente.
+A **job** is defined as a set of sequential steps run on the same runner. A workflow can build up of one or several jobs, and can be run either parallel (default) or sequentially.
 
-### 3. Passo
+### 3. Step
 
-Um **passo** representa uma tarefa individual. Uma etapa pode ser uma ação ou outra unidade de comando, como executar um script Python ou imprimir algo no console.
+A **step** represents one individual task. A step could be either an action or another command unit, like running a Python script or printing something to the console.
 
-### 4. Ações.
+### 4. Actions
 
-Uma **Ação do GitHub** é um pedaço de automação escrita de uma forma que é compatível com fluxos de trabalho. Ações podem ser escritas pelo [GitHub](https://github.com/actions), pela [comunidade](https://github.com/sdras/awesome-actions)de código aberto, ou você pode escrevê-las você mesmo!
+A GitHub **Action** is a piece of automation written in a way that is compatible with workflows. Actions can be written by [GitHub](https://github.com/actions), by the open source [community](https://github.com/sdras/awesome-actions), or you can write them yourself!
 
-## Primeiros passos com GitHub Action
+## Getting started with GitHub Action
 
-O GitHub Actions usa a sintaxe YAML e armazenado em um diretório chamado `.github/workflows` no repositório. Pode usar um fluxo de trabalho modelo ou criar o seu próprio.
+GitHub Actions uses YAML syntax and stored in a directory called `.github/workflows` in the repository. You can either use a templated workflow or create your own.
 
 
-### 1- Usando template GitHub Actions
+### 1- Using GitHub Actions template
 
-Se você quiser começar com as ações do GitHub, você pode iniciar clicando na guia "Ações" do repositório, onde você deseja criar um fluxo de trabalho, conforme mostrado abaixo. Na guia "Ações" você encontrará fluxos de trabalho populares do CI, que podem ajudar a implantar ou automatizar algumas tarefas no repositório.
+If you want to get started with GitHub Actions, you can start by clicking the "Actions" tab in the repository where you want to create a workflow, as shown below. Under the "Actions" tab, you will find popular CI workflows, which can help deploy or automate some tasks in the repository.
 
 ```{figure} ../../figures/gifs/start_ghactions.gif
 ---
@@ -62,26 +63,26 @@ name: GitHub action template
 alt: A gif showing where you can find GitHub Actions template in your Github repo.
 ---
 ```
-Você pode escolher qualquer um destes fluxos de trabalho iniciais e personalizá-los ainda mais.  Uma explicação para a construção de blocos dentro do fluxo de trabalho é descrita em uma seção posterior.
+You can choose any of these starter workflows and customise them further.  An explanation for building blocks within the workflow is described in a later section.
 
 
-### 2- Usando modelos específicos de bibliotecas.
+### 2- Using libraries-specific templates.
 
 
-O modelo de ação do Github não está o único kit inicial disponível; existem templates específicos de bibliotecas para o idioma de interesse. Por exemplo, você pode usar o pacote  {usethis} no R para criar um modelo para pacotes R executando `usethis::use_github_action_check_standard()`. Isto irá gerar verificações CRAN após cada commit ou pull request. Isso é tudo o que você precisa fazer!
+Github Action template is not the only starter kit available; there are libraries-specific templates for the language of interest. For example, you can  use  {usethis} package in R to create a template for R packages by running `usethis::use_github_action_check_standard()`. This will generate GitHub Actions to run CRAN checks after every commit or pull request. That’s all you have to do!
 
 
-### 3 - Usando a configuração de outros projetos como insultação
+### 3- Using the configuration of other projects as inspriration
 
-Muitas bibliotecas de código aberto bem mantidas e projetos estabilizados usam GitHub Actions para sua IC. Dê uma olhada nas listas de verificações dos pull requests destes projectos para inspiração e ideias; seguindo verificando seus arquivos de configuração de CI. Na maioria dos casos, sua licença permitirá copiar os bits que funcionariam para o seu caso. A vantagem desta abordagem é utilizar algumas abordagens que já estão a funcionar.
+Many well maintained open source libraries and estableshed projects use GitHub Actions for their CI. Have a look at the checks lists on pull requests of these projects for inspiration and ideas; following by checking out their CI configuration files. In most cases their licence will allow to copy the bits that would work for your case. The advantage of this approach is to use some approaches that are already working.
 
-Por exemplo:
+For example:
 
-- O workflow Caminho de Turing para [construir o livro Way Turing e fornecer uma prévia para as pull requests](https://github.com/alan-turing-institute/the-turing-way/blob/main/.github/workflows/ci.yml)
-- Uma matriz de testes em [3 sistemas operacionais e várias versões Python para o pacote Python NetworkX](https://github.com/networkx/networkx/blob/main/.github/workflows/test.yml)
-- Uma configuração mais complexa do teste da [compilação em várias circunstâncias para o pacote Python Numpy](https://github.com/numpy/numpy/blob/main/.github/workflows/build_test.yml)
+- The Turing Way workflow to [build the Turing Way book and to provide a preview for the pull requests](https://github.com/alan-turing-institute/the-turing-way/blob/main/.github/workflows/ci.yml)
+- A matrix of tests on [3 operating systems and multiple Python versions for the Python package NetworkX](https://github.com/networkx/networkx/blob/main/.github/workflows/test.yml)
+- A more complex setup of testing the [build in multiple circumstances for the Python package Numpy](https://github.com/numpy/numpy/blob/main/.github/workflows/build_test.yml)
 
 
-Na próxima seção, explicaremos os blocos de construção para o fluxo de trabalho.
+In the next section, we will explain building blocks for the workflow.
 
 <!-- (I'll explain each vocab separately using diagrams made with adobe illustrator) -->

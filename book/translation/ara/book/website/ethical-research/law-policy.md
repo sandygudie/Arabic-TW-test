@@ -1,28 +1,31 @@
-crwdns840362:0crwdne840362:0
-# crwdns840364:0crwdne840364:0
+(er-law-policy)=
+# Law, Policy and Human Rights in Ethics
 
-## crwdns840366:0crwdne840366:0
-crwdns840368:0crwdne840368:0
+## Summary
+Law, human rights and policy all relate to ethics, but they are not the same thing.
 
-crwdns840370:0crwdne840370:0 crwdns840372:0crwdne840372:0
+You should be aware of the laws and policies that apply to you and your work. However, this is not sufficient to ensure that your work is ethical.
 
-crwdns840374:0crwdne840374:0 crwdns840376:0crwdne840376:0 crwdns840378:0crwdne840378:0
+Human rights provide a legal framework for protecting individuals. However, this framework operates at national and international level. Ethical work should be grounded in human rights, but sometimes require more guidance to operationalise for particular contexts.
 
-crwdns840380:0crwdne840380:0
+Laws and policies are made by people, and they are subject to negotiations and exercises of power: they can also be changed.
 
 ```{figure} ../figures/human-rights.jpg
-crwdns840382:0crwdne840382:0 crwdns840384:0crwdne840384:0 crwdns840386:0crwdne840386:0
-crwdns840388:0crwdne840388:0
-crwdns840390:0crwdne840390:0 crwdns840392:0crwdne840392:0 crwdns840394:0crwdne840394:0
+---
+name: human-rights
+alt: Image shows two people sitting on the ground. They are smiling and looking at the concrete wall called 'human rights' that is secured by heavy chain and lock. Behind the wall there are several monsters depicting human right violators and harmful elements of society that can breach laws and policy in the absence of this protective wall.
+---
+Illustration about human rights, law and policies.
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.
 ```
 
-## crwdns840396:0crwdne840396:0
+## Background and Motivation
 
-crwdns840398:0crwdne840398:0 crwdns840400:0crwdne840400:0 crwdns840402:0crwdne840402:0
+It's useful to know how the ethics that guide your work are underpinned by other frameworks, including law, policy, and human rights. Knowing the law, policy, and human rights that underpin research ethics will give you a deeper understanding of how to conduct ethical research. It can also help you to advocate for ethical work with colleagues and collaborators.
 
-crwdns840404:0{ref}crwdnd840404:0{ref}crwdnd840404:0{ref}crwdne840404:0
+This chapter provides subchapters on {ref}`Law and Policy<er-law-policy-ethics>` in the context of ethical research, {ref}`er-law-policy-rights` and {ref}`er-law-policy-resources`.
 
 ```{attention}
-crwdns840406:0crwdne840406:0 crwdns840408:0crwdne840408:0
+This is not legal advice. Please read for information only!
 ```
-*crwdns840410:0{ref}crwdne840410:0*
+*Read the {ref}`legal-disclaimer` for why you should not use The Turing Way for legal advice.*

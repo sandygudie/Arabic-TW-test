@@ -1,57 +1,58 @@
 (cm-citable-steps)=
-# Passos para tornar objetos de pesquisa fictícios
+# Steps for Making Research Objects Citable
 
-Há muitas razões pelas quais autores não citam os dados e softwares que usam, mas uma das maiores é que não está claro como. Você pode fazer um longo caminho para reduzir essa barreira seguindo alguns passos para torná-la o mais fácil possível.
+There are many reasons why authors don't cite the data and software that they use, but one of the biggest ones is that it's not clear how. You can go a long way to reducing this barrier by following a few steps to make it as easy as possible.
 
 (cm-citable-steps-object)=
-## 1. Identifique seus objetos de pesquisa
+## 1. Identify Your Research Objects
 
-Queremos salientar que a maioria dos nossos objectos de investigação deve ser partilhada para que outros investigadores possam reproduzir e reutilizá-los. Portanto, o primeiro passo é identificar todos os componentes de pesquisa que você compartilharia on-line. Praticar a pesquisa aberta não é essencial para obter crédito por seu software ou dados, mas é muito mais fácil para outros desenvolverem o seu trabalho de uma forma que reconheça a sua contribuição. Há cada vez mais provas que mostram que a investigação aberta tende a ser mais citada do que a investigação não aberta de qualidade e significado equivalentes.
+We want to emphasise that most of our research objects should be shared so that other researchers can reproduce and reuse them. Therefore, the first step is to identify all the research components that you would share online. Practising open research isn't essential to get credit for your data or software, but it makes it much easier for others to build on your work in a way that acknowledges your contribution. There is a growing body of evidence that shows open research tends to be cited more than non-open research of equivalent quality and significance.
 
-Como parte da referência para seus objetos de pesquisa, é importante publicar objetos de pesquisa além de papéis, tais como imagens, dados, software, protocolos, fluxos de trabalho persistentes associados a suas pesquisas.
+As part of the citation for your research objects, it is important to publish research objects beyond papers, such as images, data, software, protocols, methods ang workflow associated with your research.
 
-A melhor maneira de começar com isto será procurar alguns exemplos do tipo de objetos de pesquisa que são ou devem ser citados. Localizar objetos de pesquisa referenciados normalmente na sua disciplina serve a dois propósitos:
-1. Demonstra que software & dados são coisas que podem ser citadas;
-2. Dá aos autores uma referência e um formato que eles podem copiar e colar diretamente no seu documento.
+The best way to get started with this will be to look up some examples of what kind of research objects are or should be cited. Finding commonly referenced research objects in your discipline serves two purposes:
+1. It demonstrates that software & data are things that can be cited;
+2. It gives authors a reference and format that they can copy and paste directly into their document.
 <!-- TODO: Cite relevant paper for this (Piwowar et al 2013?) -->
 
 ```{note}
-Você pode aprender mais sobre os diferentes tipos de objetos de pesquisa nos capítulos {ref}`fazer sua pesquisa aberta<rr-open>` e {ref}`fazer sua pesquisa FALHA<rr-rdm>`.
+You can learn more about the different types of research objects in the chapters {ref}`making your research open<rr-open>` and {ref}`making your research FAIR<rr-rdm>`.
 ```
 
 (cm-citable-steps-publish)=
-## 2. Publique seu trabalho on-line
+## 2. Publish your work online
 
-As publicações on-line são anexadas a identificadores persistentes que são utilizados para citá-los. É importante notar que nem tudo o publicado on-line obtém um identificador único, mas é importante que os objetos de pesquisa sejam publicados on-line com DOIs conforme descrito abaixo.
+Online publications are attached to persistent identifiers that are used for citing them. It's important to note that not everything published online gets a unique identifier but it is important that research objects are published online with DOIs as described below.
 
 (cm-citable-steps-doi)=
 ### DOIs
 
 ```{figure} ../../figures/DOI.jpg
 ---
-nome: faça-o
-alternativa: Esta imagem exibe três caixas com materiais no topo. A caixa principal do meio contém "identificadores" escritos nele com três discos em cima, que são rotulados como "conjuntos de dados". Ambas as caixas a seu lado têm artigos de diário sobre eles. Uma seta no topo da imagem aponta para essas imagens como sendo 'Identificadores Digitais de Objetos Identificadores'. Há um texto no fundo da imagem que diz "Persistente", "Único", "Confiável".
---- Identificadores Digitais de Objetos ou DOIs são persistentes, únicos e confiáveis. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+name: doi
+alt: This image shows three boxes with materials on top. The main box in the middle has 'identifiers' written on it with three discs on top of it that are labelled 'data sets'. Both boxes by their side have journal articles on top of them. An arrow on the top of the image points to these images as being 'Digital Object Identifiers'. There is text at the bottom of the image which says 'Persistent', 'Unique', 'Trusted'.
+---
+Digital Object Identifiers or DOIs are persistent, unique and trusted. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-Identificadores exclusivos ou ligações persistentes para objetos digitais são mais chamados formalmente de [Identificadores Digitais de Objeto ou DOIs](https://en.wikipedia.org/wiki/Digital_object_identifier). Usar DOIs torna muito mais fácil para outros citar seus dados reduz o risco de podridão de link e significa que você pode rastrear como sua pesquisa está sendo usada e citada.
+Unique identifiers or persistent links for digital objects are more formally called [Digital Object Identifiers or DOIs](https://en.wikipedia.org/wiki/Digital_object_identifier). Using DOIs makes it much easier for others to cite your data, reduces the risk of link rot and means you can track how your research is being used and cited.
 
-### Servidores que fornecem DOIs
+### Servers that provide DOIs
 
-Independente do papel, diferentes objetos de pesquisa podem ser publicados on-line em servidores que oferecem DOIs. Alguns desses servidores são [Zenodo](https://zenodo.org/) e [FigShare](https://figshare.com/) (para objetos diferentes como figuras, apresentações e relatórios), [Data Dryad](https://datadryad.org/stash) (para dados), [Concessões Abertas](https://www.ogrants.org/) (para conceder propostas) e [Open Science Framework (OSF)](https://osf.io/) (para componentes diferentes de um projeto de pesquisa aberta).
+Independent of the paper, different research objects can be published online on servers that offer DOIs. Some of these servers are [Zenodo](https://zenodo.org/) and [FigShare](https://figshare.com/) (for different objects such as figures, presentations and reports), [Data Dryad](https://datadryad.org/stash) (for data), [Open Grants](https://www.ogrants.org/) (for grant proposals) and [Open Science Framework (OSF)](https://osf.io/) (for different components of an open research project).
 
-É perfeitamente possível citar um conjunto de dados ou pacote de software diretamente, e a maioria dos principais editores agora permite isso em seus guias de estilo. No entanto, por vezes, pode ajudar a citar um documento mais convencional, e é aqui que entra o software e as revistas de dados. Esses periódicos são semelhantes aos diários de métodos, na medida em que tendem a não incluir resultados significativos, concentrando-se em descrever, com suficiente detalhe, dados e software para permitir a reutilização. Alguns exemplos incluem:
-- [Diário de Software de Pesquisa Aberta](https://openresearchsoftware.metajnl.com/)
-- [Jornal de Software de Código Aberto](https://joss.theoj.org/)
+It's perfectly possible to cite a dataset or software package directly, and most major publishers now permit this in their style guides. However, it can sometimes help to have a more conventional paper to cite, and this is where software and data journals come in. These journals are similar to methods journals, in that they tend not to include significant results but instead focus on describing data and software in sufficient detail to allow reuse. Some examples include:
+- [Journal of Open Research Software](https://openresearchsoftware.metajnl.com/)
+- [Journal of Open Source Software](https://joss.theoj.org/)
 
-(cm-citable-steps-referências)=
-## 3. Adicionar Informações de Referenciamento por Máquina Leitura
+(cm-citable-steps-referencing)=
+## 3. Add Machine-Readable Referencing Information
 
-Você pode ir mais longe permitindo que as pessoas importem informações sobre seus objetos de pesquisa para o banco de dados de referência preferido. Se [BibTeX](https://en.wikipedia.org/wiki/BibTeX) é popular no seu campo para gerenciar referências, poste um `. arquivo` ib de *todas* as suas saídas (não apenas seus papéis). Se [Endnote](https://endnote.com/) for mais popular, torne uma exportação de Endnote disponível. Se você usa GitHub, GitLab ou similar, considere a criação de um arquivo de `CITATION` em cada repositório contendo orientação sobre como alguém pode consultar resultados de pesquisa diferentes de seu projeto.
+You can go a step further by allowing people to import information about your research objects into their preferred referencing database. If [BibTeX](https://en.wikipedia.org/wiki/BibTeX) is popular in your field for managing references, post a `.bib` file of *all* your outputs (not just your papers). If [Endnote](https://endnote.com/) is more popular, make an Endnote export available. If you use GitHub, GitLab or similar, consider creating a `CITATION` file in each repository containing guidance for how someone can refer to different research outputs from your project.
 
-Se possível, forneça vários formatos: você não precisará atualizá-los com muita frequência e isso será recompensado.
+If possible, provide several formats: you won't need to update these very often and it will pay off.
 
 ```{note}
-Muitas ferramentas on-line permitem exportar citações de objetos de pesquisa em formatos diferentes.
-Por exemplo, veja [https://www.citethisforme.com/](https://www.citethisforme.com/).
+Many online tools allow exporting citation of research objects in different formats.
+For example, see [https://www.citethisforme.com/](https://www.citethisforme.com/).
 ```

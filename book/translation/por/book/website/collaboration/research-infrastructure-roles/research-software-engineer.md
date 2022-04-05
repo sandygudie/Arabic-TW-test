@@ -1,41 +1,41 @@
-(cl-infraestrutura-rse)=
-# Engenheiro de Software de Pesquisa: Visão Geral
+(cl-infrastructure-rse)=
+# Research Software Engineer: Overview
 
-Os Engenheiros de Software de Pesquisa (RSES) são programadores com antecedentes científicos que desempenham papéis cada vez mais críticos na condução da pesquisa e produção de ferramentas de software de pesquisa. São membros de equipa altamente qualificados que também podem realizar as suas próprias pesquisas como parte do seu papel.
+Research Software Engineers (RSEs) are programmers with scientific backgrounds who play increasingly critical roles in the conduct of research and production of research software tools. They are highly skilled team members who can also conduct their own research as part of their role.
 
 
-(cl-infraestrutura-rse-papel)=
-## O que fazem os engenheiros de softwares de pesquisa?
-Os RSE trabalham em projectos de investigação. Eles podem ser atribuídos a projetos com base em habilidades ou experiência de um conjunto de outras RSE, ou seja contratado especificamente para trabalhar em um projeto.
+(cl-infrastructure-rse-role)=
+## What do Research Software Engineers do?
+RSEs work on research projects. They may be assigned to projects based on skills or background from a pool of other RSEs, or be specifically hired to work on a project.
 
-Além disso, as RSEs também podem ser PIs e executar seus próprios projetos de pesquisa independentes. dependendo da instituição e das políticas dos projectos em que estão a trabalhar.
+Additionally, RSEs can also be PIs and run their own independent research projects, depending on the institution and policies of the projects they are working on.
 
-## Quem são engenheiros de software de pesquisa?
-As RSE têm, normalmente, antecedentes científicos ou de investigação, desenvolvendo muitas vezes competências de programação durante mestres ou estudos de doutoramento. Você pode descobrir mais sobre os planos de fundo da RSEs através do [Pesquisa de Software Sustability Institute do Software 2018](https://www.software.ac.uk/blog/2018-03-12-what-do-we-know-about-rses-results-our-international-surveys).
+## Who are Research Software Engineers?
+RSEs typically have a scientific or research background, often developing programming skills during masters or doctoral studies. You can find out more about the backgrounds of RSEs through the [Software Sustinability Institute's 2018 Survey](https://www.software.ac.uk/blog/2018-03-12-what-do-we-know-about-rses-results-our-international-surveys).
 
-## Que qualificações ou competências você precisa para ser um Engenheiro de Software de Pesquisa?
-Não são necessárias qualificações formais específicas para se tornar uma RSE, mas a maioria terá pelo menos um grau avançado (mestrado ou nível médico). No entanto, todas as RSEs são capazes de programar, com a maioria da codificação em Python, SQL, R, C/C++ ou JavaScript. Os RSEs também têm a probabilidade de entender conceitos como desenvolvimento ágil, integração e testes, arquitetura de software e controle de versão.
+## What qualifications or skills do you need to be a Research Software Engineer?
+There are not specific formal qualifications needed to become an RSE, but the majority will have at least one advanced degree (masters or doctoral level). However, all RSEs are able to program, with the majority coding in Python, SQL, R, C/C++ or JavaScript. RSEs are also likely to understand concepts such as agile development, integration and testing, software architecture, and version control.
 
-## Desafios para Engenheiros de Software de Pesquisa
-* Falta de caminhos formais para o desenvolvimento
-* Produção de software e ferramentas nem sempre reconhecida como uma saída de pesquisa
-* RSEs não vistas como pesquisadoras em seus próprios direitos
-* Ajustando o trabalho em diferentes projetos, possivelmente longe do seu fundo original
+## Challenges for Research Software Engineers
+* Lack of formal pathways for development
+* Production of software and tools not always recognised as a research output
+* RSEs not viewed as researchers in their own right
+* Adjusting to working on different projects, possibly far from their original background
 
-## Benefícios de ter engenheiros de software de pesquisa
-* Habilidades técnicas que apoiam pesquisadores que não podem programar
-* Compartilhamento de melhores práticas em engenharia de software de pesquisa através de projetos
-* Aplicar conhecimento interdisciplinar a diferentes projetos
-* O software será mais confiável e robusto, suportando a reutilização e reprodutibilidade
+## Benefits of having Research Software Engineers
+* Highly technical skills that support researchers who cannot program
+* Sharing of best practices in research software engineering across projects
+* Apply cross-disciplinary knowledge to different projects
+* Software will be more reliable and robust, supporting reuse and reproducibility
 
-(cl-infraestrutura-suporte)=
-## Organizações que apoiam Engenheiros de Software de Pesquisa
-* [Sociedade de Engenharia de Pesquisa](https://society-rse.org/)
-* [Instituto de Sustentabilidade de Software](https://www.software.ac.uk/)
+(cl-infrastructure-rse-support)=
+## Organisations that support Research Software Engineers
+* [Society for Research Engineering](https://society-rse.org/)
+* [Software Sustainability Institute](https://www.software.ac.uk/)
 
-(cl-infraestrutura-resumo)=
+(cl-infrastructure-rse-summary)=
 ## Summary
-Os Engenheiros de Software de Pesquisa são membros altamente especializados e valiosos de qualquer grupo de pesquisa que está realizando pesquisa computacional. Eles trazem habilidades técnicas de programação, bem como melhores práticas, da arquitetura de software e desenvolvimento de código aberto para a pesquisa acadêmica. Alguns também realizam os seus próprios projectos de investigação independentes.
+Research Software Engineers are highly skilled, valuable members of any research group that is conducting computational research. They bring technical programming skills as well as best practices from software architecture and open source development to academic research. Some also conduct their own independent research projects.
 
 
 

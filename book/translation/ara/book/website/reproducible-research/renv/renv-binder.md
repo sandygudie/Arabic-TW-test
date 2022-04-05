@@ -1,169 +1,188 @@
-crwdns850858:0crwdne850858:0
-# crwdns850860:0crwdne850860:0
+(rr-renv-binder)=
+# Binder
 
-crwdns850862:0crwdne850862:0
-## crwdns850864:0crwdne850864:0
+(rr-renv-binder-overview)=
+## Overview
 
-crwdns850866:0crwdne850866:0
+Now that we have seen how to use and capture the computational environment used in a Python project, it is time to think about how to share that environment.
 
-crwdns850868:0crwdne850868:0 crwdns850870:0crwdne850870:0 crwdns850872:0crwdne850872:0
+With an `environment.yml` file (or similar, from alternative package management systems),others can recreate the environment specified by that file. However, this relies on the new user having the same package management system set up, and knowing how to use it. It would be far easier if there was an automated solution to recreate the computational environment - and this is where Binder comes in.
 
-crwdns850874:0crwdne850874:0 crwdns850876:0crwdne850876:0 crwdns850878:0crwdne850878:0
+Binder uses a tool called `repo2docker` to create a Docker image of a project based on the configuration files that are included. The resulting image contains the project and the computational environment specified by the original user. Other users can access the image via a cloud-based BinderHub, which allows them to view, edit and run the code from their web browser.
 
-crwdns850880:0crwdne850880:0
+Juliette Taka's excellent cartoon below illustrates the steps in creating and sharing a "binderized" project.
 
-crwdns850882:0crwdne850882:0 crwdns850884:0crwdne850884:0
+**Step 1:** We start with a researcher who has completed a project and wants to share her work with anyone, regardless of their computational environment. Note that Binder does not only have to be applied to finished projects; it can be used in the same way to share projects that are in progress.
 
-crwdns850886:0crwdne850886:0 crwdns850888:0crwdne850888:0 crwdns850890:0crwdne850890:0
+**Step 2:** The researcher's project contains many files of different types. In this case, the researcher has been working in Jupyter notebooks. However, Binder can be used just as effectively with many other file formats and languages which we will cover in more detail shortly.
 
-crwdns850892:0crwdne850892:0 crwdns850894:0crwdne850894:0
+**Step 3:** The researcher uploads her code to a publicly available repository hosting service, such as GitHub, where others can access it. She includes a file describing the computational environment required to run the project.
 
-crwdns850896:0crwdne850896:0 crwdns850898:0crwdne850898:0 crwdns850900:0crwdne850900:0 crwdns850902:0crwdne850902:0 crwdns850904:0crwdne850904:0 crwdns850906:0crwdne850906:0
+**Step 4:** She generates a link at the [mybinder.org](https://mybinder.org) BinderHub. By clicking on this link, anyone can access a "binderized" version of her project. The click triggers `repo2docker` to build a Docker image based on the contents of the repository and its configuration files. This image is then hosted on the cloud. The person who clicked the link will be taken to a copy of her project in their web browser where they can interact with it. This copy of the project is hosted in the environment the researcher specified in step 3, regardless of the computational environment it is accessed from.
 
 ```{figure} ../../figures/binder-comic.png
-crwdns850908:0crwdne850908:0
-crwdns850910:0crwdne850910:0
+---
+name: binder-comic
+alt: An illustration of the steps a person can take to create a binderised project.
+---
+Figure credit - [Juliette Taka, Logilab and the OpenDreamKit project](https://opendreamkit.org/2017/11/02/use-case-publishing-reproducible-notebooks/)
 ```
 
-crwdns850912:0crwdne850912:0 crwdns850914:0crwdne850914:0
+To get an idea of what this looks like, below is a binder of a simple example project. Files are listed and can be clicked on and modified by the person accessing the Binder.
 
 ```{figure} ../../figures/binder-home.png
-crwdns850916:0crwdne850916:0
+---
+name: binder-home
+alt: A screenshot of a binder of a sample project
+---
+A binder of a sample project.
 ```
 
-crwdns850918:0crwdne850918:0 crwdns850920:0crwdne850920:0
+Users can also open terminals to run or otherwise interact with the files by clicking on "New" and then "Terminal" in the top right of the home Binder screen shown above. Here, this is used to run the analysis script in the example Binder which performs a linear regression on some data:
 
 ```{figure} ../../figures/binder-terminal.png
-crwdns850922:0crwdne850922:0
+---
+name: binder-terminal
+alt: A screenshot of a terminal where users can run or interact with project files
+---
+A screenshot of a terminal where users can run or interact with project files
 ```
 
-crwdns850924:0crwdne850924:0 crwdns850926:0crwdne850926:0 crwdns850928:0crwdne850928:0
+As mentioned, Binder is well integrated with Jupyter notebooks. Notebooks can be opened by clicking on "New" and then "Notebook" in the same way terminals can be opened. These may be more convenient for those working with graphical outputs, as shown here where one is used to run `make_plot.py` in the example Binder:
 
 ```{figure} ../../figures/binder-notebook.png
-crwdns850930:0crwdne850930:0
+---
+name: binder-notebook
+alt: A screenshot of a Jupyter Notebook integrated with Binder
+---
+A screenshot of a Jupyter Notebook integrated with Binder
 ```
 
-crwdns850932:0crwdne850932:0
+If R is installed in a Binder, the dropdown menu will show the options to open R Jupyter notebooks and RStudio sessions in the Binder.
 
-crwdns850934:0crwdne850934:0
-## crwdns850936:0crwdne850936:0
+(rr-renv-binder-disambiguation)=
+## Disambiguation
 
-crwdns850938:0crwdne850938:0
+In this section, there are some related terms, which will be outlined here for clarity:
 
-- crwdns850940:0crwdne850940:0
-- crwdns850942:0crwdne850942:0 crwdns850944:0crwdne850944:0 crwdns850946:0crwdne850946:0 crwdns850948:0crwdne850948:0
-- crwdns850950:0crwdne850950:0 crwdns850952:0crwdne850952:0
-- crwdns850954:0crwdne850954:0
+- **Binder**: A sharable version of a project that can be viewed and interacted within a reproducible computational environment via a web browser.
+- **BinderHub**: A service which generates Binders. The most widely-used is [mybinder.org](https://mybinder.org), which is maintained by the Binder team. It is possible to create other BinderHubs which can support more specialised configurations. One such configuration could include authentication to enable private repositories to be shared amongst close collaborators.
+- **[mybinder.org](https://mybinder.org)**: A public and free BinderHub. Because it is public, you should not use it if your project requires any personal or sensitive information (such as passwords).
+- **Binderize**: To make a Binder of a project.
 
-crwdns850956:0crwdne850956:0
-## crwdns850958:0crwdne850958:0
+(rr-renv-binder-creating)=
+## Creating a Binder for a Project
 
-crwdns850960:0crwdne850960:0
+Creating a binderized version of a project involves three key steps which will be explained in this section:
 
-1. crwdns850962:0crwdne850962:0
-2. crwdns850964:0crwdne850964:0
-3. crwdns850966:0crwdne850966:0
+1. Specify the computational environment
+2. Put the project files somewhere publicly available (we will describe how to do this with GitHub)
+3. Generate a link to a Binder of the project
 
-crwdns850968:0crwdne850968:0
+For a list of sample repositories for use with Binder, see the [Sample Binder Repositories](https://mybinder.readthedocs.io/en/latest/sample_repos.html) page.
 
-crwdns850970:0crwdne850970:0
-### crwdns850972:0crwdne850972:0
+(rr-renv-binder-creating-stepone)=
+### Step 1: Specify your Computational Environment
 
-crwdns850974:0crwdne850974:0 crwdns850976:0crwdne850976:0 crwdns850978:0crwdne850978:0 crwdns850980:0crwdne850980:0 crwdns850982:0crwdne850982:0
+Suppose project contains no file specifying the computational environment. When a Binder is generated, the environment will be the Binder default environment, (containing Python 3.6) which may or may not be suitable for the project. However, if it does contain a configuration file for the environment, then the Binder will be generated with the specified environment. A full list of such files Binder accepts, with examples, can be found [here](https://mybinder.readthedocs.io/en/latest/config_files.html). Key ones are discussed below, some of which are language-specific:
 
-- `crwdns850984:0crwdne850984:0`
-  - crwdns850986:0{ref}crwdne850986:0
-- crwdns850988:0crwdne850988:0
-  - crwdns850990:0{ref}crwdne850990:0
-- `crwdns850992:0crwdne850992:0`
-  - crwdns850994:0crwdne850994:0
-  - crwdns850996:0crwdne850996:0
+- `environment.yml`
+  - Recall that `environment.yml` files were discussed in the {ref}`rr-renv-package` section.
+- Dockerfile
+  - Dockerfiles will be discussed in the {ref}`rr-renv-containers` section, so will not be discussed further here.
+- `apt.txt`
+  - Dependencies that would typically be installed via commands such as `sudo apt-get install package_name` should be listed in an `apt.txt` file, and will be automatically installed in the Binder.
+  - For example if a project uses Latex the `apt.txt` file should read
     ```
-    crwdns850998:0crwdne850998:0
+    texlive-latex-base
     ```
-    crwdns851000:0crwdne851000:0
-- `crwdns851002:0crwdne851002:0`
-  - crwdns851004:0{ref}crwdne851004:0
-- crwdns851006:0crwdne851006:0
-  - crwdns851008:0crwdne851008:0
-  - crwdns851010:0crwdne851010:0
+    to install the base Latex package.
+- `default.nix`
+  - For those that use the {ref}`rr-renv-package` Nix a `default.nix` file can be a convenient way to capture their environment.
+- `requirements.txt` (Python)
+  - For Python users a `requirements.txt` file can be used to list dependent packages.
+  - For example to have Binder install `numpy` this file would simply need to read:
     ```
-    crwdns851012:0crwdne851012:0
+    numpy
     ```
-  - crwdns851014:0crwdne851014:0 crwdns851016:0crwdne851016:0
+  - A specific package version can also be specified using an `==`. For example, to have Binder install version `1.14.5` of `numpy` then the file would be
     ```
-    crwdns851018:0crwdne851018:0
+    numpy==1.14.5
     ```
-  - crwdns851020:0crwdne851020:0 crwdns851022:0crwdne851022:0
-- `crwdns851024:0crwdne851024:0`
-  - crwdns851026:0crwdne851026:0
-  - crwdns851028:0crwdne851028:0
+  - The `requirement.txt` file does not need to be handwritten. Running the command `pip freeze > requirements.txt` will output a `requirements.txt` file that fully defines the Python environment.
+- `runtime.txt`
+  - It is used to specify a particular version of Python or R for the Binder to use.
+  - To specify which version of R to use, find the date it was captured on [MRAN](https://mran.microsoft.com/documents/rro/reproducibility) and include it in the `runtime.txt` file as
     ```
-    crwdns851030:0crwdne851030:0
+    r-<YYYY>-<MM>-<DD>
     ```
-  - crwdns851032:0crwdne851032:0 crwdns851034:0crwdne851034:0
+  - To specify a version of Python, state the version in the `runtime.txt` file. For example, to use Python 2.7, the file would need to read
     ```
-    crwdns851036:0crwdne851036:0
+    python-2.7
     ```
-- crwdns851038:0crwdne851038:0
-  - crwdns851040:0crwdne851040:0 crwdns851042:0crwdne851042:0
+- `install.R` or `DESCRIPTION` (R/RStudio)
+  - An `install.R` file lists the packages to be installed. For example, to install the package `tibble` in the Binder:
     ```
-    crwdns851044:0crwdne851044:0
+    install.packages("tibble")
     ```
-  - crwdns851046:0crwdne851046:0
+  - [DESCRIPTION files](https://cran.r-project.org/doc/manuals/r-release/R-exts.html#The-DESCRIPTION-file) are more typically used in the R community for dependency management.
 
-crwdns851048:0crwdne851048:0
-### crwdns851050:0crwdne851050:0
+(rr-renv-binder-creating-steptwo)=
+### Step 2: Put your Code on GitHub
 
-crwdns851052:0{ref}crwdne851052:0 crwdns851054:0crwdne851054:0 crwdns851056:0crwdne851056:0 crwdns851058:0crwdne851058:0
+GitHub is discussed at length in the chapter on {ref}`rr-vcs`, which you should refer to if you wish to understand more about this step. In this chapter, we will give a brief explanation. GitHub is a very widely used platform where you can make "repositories", and upload code, documentation, or any other files into them. To complete this step:
 
-1. crwdns851060:0crwdne851060:0
-2. crwdns851062:0crwdne851062:0
-3. crwdns851064:0crwdne851064:0
+1. Make an account on [GitHub](https://github.com/).
+2. Create a repository for the project you wish to make a Binder of.
+3. Upload your project files (including the file you have created to specify your computational environment) to the repository and save ("commit" in the vocabulary of GitHub) them there.
 
-crwdns851066:0{ref}crwdne851066:0
+If you are unable to complete these steps, refer to the chapter on {ref}`version control <rr-vcs>` for a fuller explanation.
 
-crwdns851068:0crwdne851068:0
-### crwdns851070:0crwdne851070:0
+(rr-renv-binder-creating-stepthree)=
+### Step 3: Generate a Link to a Binder of your Project
 
-crwdns851072:0crwdne851072:0 crwdns851074:0crwdne851074:0 crwdns851076:0crwdne851076:0 crwdns851078:0crwdne851078:0
+Head to [https://mybinder.org](https://mybinder.org). You will see a form that asks you to specify a repository for [mybinder.org](https://mybinder.org) to build. In the first field, paste the URL of the project's GitHub repository. It will look something like this: `https://github.com/<your-username>/<your-repository>`
 
 ```{figure} ../../figures/mybinder-gen-link.png
-crwdns851080:0crwdne851080:0
+---
+name: mybinder-gen-link
+alt: A screenshot of the webpage used to generate a Binder link for your project
+---
+Interface for generating Binder links for projects
 ```
 
-crwdns851082:0crwdne851082:0
+As you can see, there are additional fields in this form, but these are optional and will not be discussed here.
 
-crwdns851084:0crwdne851084:0
+Once the URL to the project to be binderized is supplied, two fields will be automatically populated on the screen depicted above:
 
-- crwdns851086:0crwdne851086:0
-- crwdns851088:0crwdne851088:0
+- The `Copy the URL below and share your Binder with others` field, provides a link to the Binder that can be copied and shared.
+- The `Copy the text below, then paste into your README to show a binder badge` field, can be included in GitHub to create a button that allows anyone that accesses your project to launch the Binder.
 
-crwdns851090:0crwdne851090:0 crwdns851092:0crwdne851092:0 crwdns851094:0crwdne851094:0 crwdns851096:0crwdne851096:0 crwdns851098:0crwdne851098:0
+Finally, click the launch button. This will ask [mybinder.org](https://mybinder.org) to build the environment needed to run the project. This may take several minutes. You can click on the `Build logs` button to see the logs generated by the build process. These logs help resolve any issues that cause the build to fail, such as errors in the file defining the computational environment to be generated.
 
-crwdns851100:0crwdne851100:0
+Once it has been built, the Binder will be automatically launched; again, this may take some time.
 
-crwdns851102:0crwdne851102:0
-## crwdns851104:0crwdne851104:0
+(rr-renv-binder-data)=
+## Including Data in a Binder
 
-crwdns851106:0crwdne851106:0 crwdns851108:0crwdne851108:0 crwdns851110:0crwdne851110:0 crwdns851112:0crwdne851112:0
+There are a few ways to make data available in your Binder. The best one depends on how big your data is and your preferences for sharing data. Note that the more data that is included, the longer it will take for a Binder to launch. Data also takes up storage space that must be paid for, so it is good to be considerate and minimise the data you include, especially on the publicly provided [mybinder.org](https://mybinder.org).
 
-crwdns851114:0crwdne851114:0
-### crwdns851116:0crwdne851116:0
+(rr-renv-binder-data-small)=
+### Small Public Files
 
-crwdns851118:0crwdne851118:0 crwdns851120:0crwdne851120:0
+The simplest approach for small data files that are public is to add them directly to your GitHub repository or include them along with the rest of your project files in the Binder. This works well and is reasonable for files with sizes up to 10MB.
 
-crwdns851122:0crwdne851122:0
-### crwdns851124:0crwdne851124:0
+(rr-renv-binder-data-medium)=
+### Medium Public Files
 
-crwdns851126:0crwdne851126:0 crwdns851128:0crwdne851128:0 crwdns851130:0crwdne851130:0
+For medium-sized files - a few 10s of megabytes to a few hundred megabytes - find some other place online to store them and make sure they are publicly available. Add a file named `postBuild` (which is a shell script so the first line must be `#!/bin/bash`) to your project files. In the `postBuild` file, add a single line reading:
 ```
-crwdns851132:0crwdne851132:0
+wget -q -O name_of_your_file link_to_your_file
 ```
 
-crwdns851134:0crwdne851134:0 crwdns851136:0crwdne851136:0
+The `postBuild` file is used to execute commands when the files to produce the Binder are being generated. In this case, it can be used to download your data into the files used to launch the binder.
 
-crwdns851138:0crwdne851138:0
-### crwdns851140:0crwdne851140:0
+(rr-renv-binder-data-large)=
+### Large Public Files
 
-crwdns851142:0crwdne851142:0 crwdns851144:0crwdne851144:0 crwdns851146:0crwdne851146:0 crwdns851148:0crwdne851148:0 crwdns851150:0crwdne851150:0
+The best option for large files is to use a library specific to the data format to stream the data as you are using it. There are a few restrictions on outgoing traffic from your Binder that are imposed by the team operating [mybinder.org](https://mybinder.org). Currently only connections to HTTP and Git are allowed. This comes up when people want to use FTP sites to fetch data. For security reasons FTP is not allowed on [mybinder.org](https://mybinder.org).

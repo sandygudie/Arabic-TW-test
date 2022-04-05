@@ -1,32 +1,32 @@
 (rr-overview)=
-# 可再生研究概述
+# Overview of Reproducible Research
 
-(rr-overview-前提)=
-## 必备条件
+(rr-overview-prerequisites)=
+## Prerequisites
 
-不需要先前的知识。
+No previous knowledge needed.
 
 ```{figure} ../figures/research-cycle.jpg
 ---
-名称：研究周期
-备选案文：研究过程是一个产生研究想法的永久周期。 执行数据规划和设计、数据收集、数据处理和分析、公布、保存并从而使数据能够重新使用。 
+name: research-cycle
+alt: The research process is represented as a perpetual cycle of generating research ideas, performing data planning and design, data collection, and data processing and analysis, publishing, preserving and hence, allowing re-use of data. 
 ---
-_Ting Way_ 项目示意图由 Storeria 标明。 在 CC-BY 4.0 许可下使用。 DOI：[10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)。
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
 (rr-overview-summary)=
 ## Summary
 
-如果一些独立研究人员能够复制和确认这些结果，科学成果和证据就会得到加强(见 {ref}`definition <rr-overview-definitions>`)。
+Scientific results and evidence are strengthened if those results can be replicated and confirmed by several independent researchers (see {ref}`definitions <rr-overview-definitions>`).
 
-当研究人员在其研究中使用透明性——换句话说，当研究人员在研究中使用透明性时。 当研究界适当记录和分享与其分析有关的数据和进程时――更广泛的研究界能够在复制或利用已公布的结果时节省宝贵的时间。 新的研究人员往往会重新使用先前项目提供的数据或代码，以核实旧的研究结果或进行新的分析。
+When researchers employ transparency in their research - in other words, when they properly document and share the data and processes associated with their analyses - the broader research community is able to save valuable time when reproducing or building upon published results. Often, data or code from prior projects will be re-used by new researchers to verify old findings or develop new analyses.
 
-在 {ref}`添加的优势 <rr-overview-benefits>` 小章中了解可再生产研究的一些其他好处。
+Learn about some of the other benefits of reproducible research in the {ref}`Added Advantages <rr-overview-benefits>` subchapter.
 
-主要媒体机构有 [个关于](https://www.theguardian.com/science/2018/aug/27/attempt-to-replicate-major-social-scientific-findings-of-past-decade-fails) 项调查的报道，表明很大比例的科学研究无法转载。 这导致其他学者和社会失去对科学成果的信任 {cite:ps}`baker2016 reproducciability`
+Major media outlets have [reported on](https://www.theguardian.com/science/2018/aug/27/attempt-to-replicate-major-social-scientific-findings-of-past-decade-fails) investigations showing that a significant percentage of scientific studies cannot be reproduced. This leads to other academics and society losing trust in scientific results {cite:ps}`baker2016reproducibility`.
 
-此外，还可以轻易地公布“消极结果”。 帮助避免其他研究人员浪费时间重复分析，这些分析不会返回预期结果 {cite:ps}`Dirnagl2010偏见`
+In addition, "negative results" can be published easily, helping avoid other researchers wasting time repeating analyses that will not return the expected results {cite:ps}`Dirnagl2010bias`.
 
-欲进一步阅读可复制资源，请查看 {ref}`Resources <rr-overview-resources>` 小章。
+For further reading resources on reproducibility, please check out the {ref}`Resources <rr-overview-resources>` subchapter.
 
-***Chapter Tags**: this chape are managed for the `Ting Data Study Group` (`turing-dsg`).*
+***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*

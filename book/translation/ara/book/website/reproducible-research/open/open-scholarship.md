@@ -1,72 +1,72 @@
-(ص - منحة مفتوحة)=
-# منحة مفتوحة
+(rr-open-scholarship)=
+# Open Scholarship
 
-تندرج البحوث المفتوحة ومكوناتها الفرعية تحت مظلة مفهوم أوسع - منحة مفتوحة [{term}`def<Open Scholarship>`].
+Open research and its subcomponents fit under the umbrella of a broader concept - open scholarship [{term}`def<Open Scholarship>`].
 
 ```{figure} ../../figures/open-umbrella.png
 ---
-الطول: 500px
-الاسم: مظلة مفتوحة
-بديلة: صورة للمنح الدراسية المفتوحة كمظلة مع عناصر أخرى من البحث المفتوح تحتها.
+height: 500px
+name: open-umbrella
+alt: A depiction of Open Scholarship as an umbrella with other elements of Open Research beneath it.
 ---
 ```
 
-(خ ع - موارد المنح الدراسية المفتوحة)
-## الموارد التعليمية المفتوحة
+(rr-open-scholarship-resources)=
+## Open Educational Resources
 
-الموارد التعليمية المفتوحة (OERs) [{term}`def<Open Educational Resources>`] هي مواد يُمكن استخدامها للتعليم والتعلّم بحرية تامة دون الحاجة إلى طلب الإذن من أحد. من الأمثلة على تلك الموارد، المساقات الإلكترونية ومن ضمنها الدورات الدراسية الضخمة المفتوحة على الإنترنت (MOOCs)، والمحاضرات، والمواد التعليمية، والمهام وموارد أُخرى. وهي متوافرة بعدة أشكال مختلفة متوافقة مع الإنترنت، كالنصوص والصور والصوت والفيديو. ويستطيع أيّ شخص لديه إمكانية الوصول إلى الإنترنت أن يستخدم الموارد التعليمية المفتوحة (OERs)؛ حيث أنّ الوصول إليها ليس حكرًا على مكان جغرافي معين أو على مؤسسة بعينها أو حتى على عضويتها.
+Open educational resources (OERs) [{term}`def<Open Educational Resources>`] are teaching and learning materials that can be freely used and reused for learning or teaching at no cost, and without needing to ask permission. Examples are courses, including Massive Online Open Courses (MOOCs), lectures, teaching materials, assignments, and various other resources. OERs are available in many different formats compatible with online usage, most obviously text, images, audio, and video. Anyone with internet access can access and use OERs; access is not dependent on location or membership of a particular institution.
 
-وخلافاً للموارد ذات حقوق الملكية، فإن الموارد التعليمية المفتوحة سواء أُنشئت من قبل أفراد أو منظمات تختار الاحتفاظ بحقوق ملكية قليلة، إن وُجدت. يعني ذلك أنه يمكن لأي شخص في بعض الحالات تنزيل بعض المصادر وتقاسمها مع بقية الزملاء أو الطلاب. أحيانًا أخرى، قد يذهب الأمر إلى أبعد من ذلك حيث يقوم البعض بالتعديل على هذه المصادر ومن ثمّ إعادة نشرها كعمل مُعدّل. كيف تعرف الخيارات المتاحة لك؟ غالباً ما يكون لدى المؤسسة ترخيص المشاع الإبداعي أو أي إذن آخر للتعرف على كيفية استخدام المواد وإعادة استخدامها وتكييفها ومشاركتها.
+Unlike copyrighted resources, OERs have been authored or created by an individual or organization that chooses to retain few, if any, ownership rights. In some cases, that means anyone can download a resource and share it with colleagues and students. In other cases, this may go further and enable people to edit resources and then re-post them as a remixed work. How do you know your options? OERs often have a Creative Commons licence or other permission to let you know how the material may be used, reused, adapted, and shared.
 
-وتمتثل اللوائح التنظيمية المفتوحة تماما للطلبات الخمس بالإعادات:
+Fully open OERs comply with the 5 Rs:
 
-- _يحتفظ بـ_: الحق في صنع وامتلاك ومراقبة نسخ من المحتوى.
-- _إعادة الاستخدام_: الحق في استخدام المحتوى بمجموعة واسعة من الطرق (على سبيل المثال، في فصل دراسي، في مجموعة دراسية، على صفحات الشبكة العالمية، في شريط فيديو).
-- _نقح_: الحق في تكييف المحتوى نفسه أو تعديله أو تعديله أو تعديله (على سبيل المثال، ترجمة المحتوى إلى لغة أخرى).
-- _Remix_: الحق في الجمع بين المحتوى الأصلي أو المنقح مع محتوى مفتوح آخر لإنشاء شيء جديد (على سبيل المثال، دمج المحتوى في نسخة).
-- _إعادة الإشارة_: الحق في مشاركة نسخ من المحتوى الأصلي، تنقيحاتك أو ريميكسك مع الآخرين (على سبيل المثال أعط نسخة من المحتوى لصديق).
+- _Retain_: the right to make, own, and control copies of the content.
+- _Reuse_: the right to use the content in a wide range of ways (for example, in a class, in a study group, on a website, in a video).
+- _Revise_: the right to adapt, adjust, modify, or alter the content itself (for example, translate the content into another language).
+- _Remix_: the right to combine the original or revised content with other open content to create something new (for example, incorporate the content into a mashup).
+- _Redistribute_: the right to share copies of the original content, your revisions, or your remixes with others (for example, give a copy of the content to a friend).
 
-ويولد الباحثون قدراً كبيراً من الموارد التعليمية في أثناء التدريس للطلاب وفيما بينهم (في ورش العمل مثلاً). عن طريق جعل هذه متاحة علنا (على سبيل المثال، في [المشاعات المفتوحة للموارد التعليمية](https://www.oercommons.org/))، ويمكن للمجتمع الأوسع أن يستفيد منها بثلاث طرق رئيسية هي:
+Researchers generate a great deal of educational resources in the course of teaching students and each other (at workshops, for example). By making these openly available (for example, in the [open educational resource commons](https://www.oercommons.org/)), the wider community can benefit from them in three main ways:
 
-1. والأمر الأكثر وضوحا هو أن المجتمع يمكنه استخدام المواد لمعرفة المحتوى الذي تغطيه.
-2. ويقلل تقاسم الموارد من ازدواجية الجهود. وإذا كان المرشد يحتاج إلى مواد للتدريس وكانت هذه المواد موجودة بالفعل بشكل علني، فلا يحتاج إلى صنع مواد خاصة به من الصفر، ومن ثم توفير الوقت.
-3. ويساعد توفير المواد علنا المجتمع المحلي على بناء موارد أفضل من خلال تحسين الموارد الموجودة بالفعل. ويمكن للمجتمع المحلي أن يجمع بين عدة متفجرات من مخلفات الحرب للاستفادة من مواطن قوتها المختلفة، مثل رسم بياني أو تفسير كبير.
+1. Most obviously, the community can use the materials to learn about the content they cover.
+2. Sharing resources reduces duplication of effort. If an educator needs materials for teaching and such materials already exist openly, then they need not make their own from scratch, thereby saving time.
+3. Making materials openly available helps a community build better resources by improving those that already exist. The community can combine several OERs to take advantage of their different strengths, such as a great diagram or explanation.
 
-وإلى جانب الفوائد العملية الأولية، فإن الحركة العالمية للموارد التعليمية المفتوحة تمتد جذورها إلى حق الإنسان في الحصول على تعليم عالي الجودة. وهذا التحول في الممارسة التعليمية يتعلق بالمشاركة والاشتراك في العمل. وتوفر الموارد التعليمية المفتوحة فرصاً لإجراء تغيير منهجي في محتوى التعليم والتعلم عن طريق إشراك المعلمين في العمليات الجديدة القائمة على المشاركة والاستفادة من التكنولوجيات الفعالة للمشاركة في التعلم.
+Beyond the raw practical benefits, the worldwide OER movement is rooted in the human right to access high-quality education. This shift in educational practice is about participation and co-creation. Open Educational Resources (OERs) offer opportunities for systemic change in teaching and learning content by involving educators in new participatory processes and leveraging effective technologies for learning engagement.
 
-(r-open-grants -equity)=
-## الإنصاف، التنوع، الإدماج [{term}`def<Equitable, Diverse and Inclusive Practices>`]
+(rr-open-scholarship-equity)=
+## Equity, Diversity, Inclusion [{term}`def<Equitable, Diverse and Inclusive Practices>`]
 
-المنحة الدراسية المفتوحة تعني مفتوحة لـ *الجميع* دون تمييز على أساس عوامل مثل العرق أو نوع الجنس أو التوجه الجنسي أو أي عدد من العوامل الأخرى. وبوصفنا مجتمعا، ينبغي أن نتعهد بكفالة توفير فرص متكافئة للجميع. ويمكننا أن نفعل ذلك من خلال التعزيز المتعمد لثقافات الترحيب والشمول داخل مجتمعاتنا. فعلى سبيل المثال، ينبغي توفير تسهيلات معقولة، حيثما أمكن، لكي تشمل أفراد المجتمع المحلي المعوقين لتمكينهم من المشاركة مشاركة كاملة، ويمكن أن يكون هذا بسيطاً مثل اختيار مخططات الألوان الآمنة بالألوان عند إعداد الرسوم البيانية.
+Open scholarship means open to *everyone* without discrimination based on factors such as race, gender, sexual orientation, or any number of other factors. As a community, we should undertake to ensure equitable opportunities for all. We can go about that by deliberately fostering welcoming, inclusive cultures within our communities. For example, reasonable accommodations should be made wherever possible to include community members with disabilities to enable them to participate fully, and this can be as simple as choosing colourblind-safe colour schemes when making graphs.
 
-(بآلاف دولارات الولايات المتحدة)=
-## علم المواطن
+(rr-open-scholarship-citizen)=
+## Citizen Science
 
-علم المواطن [{term}`ديف<Citizen Science>`] هو مشاركة الجمهور في البحث العلمي - سواء كان بحوثا مجتمعية أو بحوثا عالمية. وقد عرّفها قاموس أكسفورد الإنكليزي مؤخراً بأنه: "العمل العلمي الذي يضطلع به عامة الناس. وكثيراً ما يكون ذلك بالتعاون مع العلماء المحترفين والمؤسسات العلمية أو بتوجيه منها". إن علم المواطنين يوفر قوة العلم للجميع وقدرة الجميع على العلم.
+Citizen science [{term}`def<Citizen Science>`] is the involvement of the public in scientific research – whether community-driven research or global investigations. The Oxford English Dictionary recently defined it as: "scientific work undertaken by members of the general public, often in collaboration with or under the direction of professional scientists and scientific institutions". Citizen science offers the power of science to everyone and the power of everyone to science.
 
-ومن خلال السماح لأفراد الجمهور بالمساهمة في البحث العلمي، يساعد علم المواطنين على إشراك العالم الأوسع واستثماره في العلوم. ويستفيد منها الباحثون أيضا بتوفير موارد بشرية لا يمكن الوصول إليها لولا ذلك. وتشمل الأمثلة على ذلك [العثور على](https://citizensciencegames.com/games/eterna/) طرق لطي الجزيئات و [تصنيف](https://www.zooniverse.org/) أنواع مختلفة من المجرات.
+By allowing members of the public to contribute to scientific research, citizen science helps engage and invest the broader world in science. It also benefits researchers by offering human resources that would not be accessible otherwise. Examples of this include [finding](https://citizensciencegames.com/games/eterna/) ways of folding molecules and [classifying](https://www.zooniverse.org/) different types of galaxies.
 
-(r-open-منحة دراسية)=
-## المريض والمشاركة العامة
+(rr-open-scholarship-involvement)=
+## Patient and Public Involvement
 
-في حين أن علم المواطن يشمل طريقة واحدة للمساهمة في البحث العلمي، تعد مشاركة المريض والعام شكلا أكثر تخصصا من أشكال علم المواطنين، وهو مفيد بوجه خاص عند البحث في المسائل الصحية أو الاجتماعية.
+Whilst citizen science encompasses one way of contributing to scientific research, Patient and Public Involvement (PPI) is a far more specialized form of citizen science which is particularly useful when researching health or social issues.
 
-PPI هو *ليس*:
-- _المشاركة_: توظيف المشاركين (مثل التجربة السريرية أو المسح السريري) للمساهمة ببيانات في مشروع ما.
-- _المشاركة_: النشر، مثل التقديم إلى مجموعات اهتمام المرضى أو كتابة منشور مدونة.
+PPI is *not*:
+- _Participation_: Recruitment of participants (such as for a clinical trial or survey) to contribute data to a project.
+- _Engagement_: Dissemination, such as presenting at patient interest groups or writing a blog post.
 
-PPI *هو*:
-- _المشاركة_: المرضى وأعضاء الجمهور يساهمون في *جميع* مراحل دورة البحث.
+PPI *is*:
+- _Involvement_: patients and members of the public contribute at *all* stages of the research cycle.
 
-عند دمج PPI في البحوث، يعمل الباحثون *مع* المتطوعين، بدلا من القيام بعمل *بشأنهم*. وعادة ما يكون متطوعو المعهد من مرضى أو أفراد من الجمهور يهتمون اهتماما خاصا ببعض مجالات البحوث. وهذا يعني أن الموضوع غالبا ما يكون شخصيا جدا، وأن المشاركة في دورة البحث يمكن أن تكون تجربة تمكينية. وبالنسبة للباحث، فإن المعهد كثيرا ما يولد رؤى فريدة وقيّمة من خبرة المتطوعين لا يمكن للباحث أن يتنبأ بها دائما.
+When incorporating PPI into research, researchers work *with* volunteers, rather than doing work *about* them. PPI volunteers are usually patients or members of the public with a particular interest in some area of research, which means that the topic is often very personal, and being involved in the research cycle can be an empowering experience. For the researcher, PPI often generates unique and invaluable insights from the volunteers' expertise which the researcher cannot always predict.
 
-إنها فكرة جيدة النظر في مؤشر تكافؤ القوة الشرائية في وقت مبكر جدا في مشروع، والوضع الأمثل هو قبل كتابة أي طلبات أو طلبات للحصول على موافقة أخلاقية. ويمكن لمتطوعي المعهد أن يساعدوا الباحثين بطرق عديدة من قبيل ما يلي:
-1. توليد أو تشكيل أسئلة البحث.
-2. المساهمة في تصميم الدراسة أو مراجعته.
-3. المساعدة في تقديم الطلبات أو الطلبات إلى اللجان المعنية بأخلاقيات البحوث (ولا سيما الموجز غير الرسمي).
-4. جمع البيانات.
-5. تحليل البيانات.
-6. ساهم في المخطوط، وسيندرج اسمه في قائمة المؤلفين.
-7. نشر النتائج بالإنكليزية الواضحة.
+It is a good idea to consider PPI very early in a project, ideally before any grant applications or submissions for ethical approval have been written. PPI volunteers can help researchers in many ways, such as the following:
+1. Generate or shape research questions.
+2. Contribute to, or review, study design.
+3. Help with grant applications or submissions to research ethics committees (particularly the lay summary).
+4. Collect data.
+5. Analyse data.
+6. Contribute to the manuscript and be listed as a co-author.
+7. Disseminate findings in plain English.
 
-ويتمثل أحد أهم الحواجز التي تعترض مؤشر تكافؤ القوة الشرائية في عدم معرفة كيفية البدء. المعهد الوطني للبحوث الصحية في المملكة المتحدة له موقعه الخاص، [إنذار](https://www.invo.org.uk/)، لمساعدتك على التعرف على أسس PPI. وبالإضافة إلى ذلك، فإن الجمعيات الخيرية ذات الصلة بمجال بحثك المحدد قد تكون قادرة على تيسير أو دعم هذا البرنامج؛ على سبيل المثال [بحث السرطان بالمملكة المتحدة](https://www.cancerresearchuk.org/funding-for-researchers/patient-involvement-toolkit-for-researchers) و [باركنسون بالمملكة المتحدة](https://www.parkinsons.org.uk/research/patient-and-public-involvement-ppi) لديها أدلة رسمية توفر نظرة عامة شاملة عن الرقم القياسي لأسعار الصرف.
+One of the most significant barriers to PPI is not knowing how to get started. The UK National Institute for Health Research has its own site, [INVOLVE](https://www.invo.org.uk/), to help familiarise yourself with the foundations of PPI. Additionally, charities related to your specific research field may be able to facilitate or support PPI; for example, [Cancer Research UK](https://www.cancerresearchuk.org/funding-for-researchers/patient-involvement-toolkit-for-researchers) and [Parkinson's UK](https://www.parkinsons.org.uk/research/patient-and-public-involvement-ppi) have formal guides in place that provide a comprehensive overview of PPI.

@@ -1,127 +1,145 @@
-crwdns824744:0crwdne824744:0
-# crwdns824746:0crwdne824746:0
+(cl-github-novice-firststeps)=
+# First steps on GitHub
 
-crwdns824748:0crwdne824748:0
+Here, we provide step-by-step instructions to get started with GitHub.
 
-## crwdns824750:0crwdne824750:0 crwdns824752:0crwdne824752:0
+## 1. Create a GitHub account
 
-crwdns824754:0crwdne824754:0
+Go to [https://github.com/](https://github.com/) and create a new account using the sign up to GitHub box.
 
-## crwdns824756:0crwdne824756:0 crwdns824758:0crwdne824758:0
+## 2. Create a repository
 
-crwdns824760:0crwdne824760:0
+When you have created a new account and you are logged in, you need to create a new repository.
 
-crwdns824762:0crwdne824762:0
+A repository or repo is the online space where you store all of the documents, data and other files for your project.
 
-* crwdns824764:0crwdne824764:0 crwdns824766:0crwdne824766:0
-* crwdns824768:0crwdne824768:0
-* crwdns824770:0crwdne824770:0
-* crwdns824772:0crwdne824772:0
+* To create the new repository, you need to click on the + sign in the top right corner (in the black band at the top of your window) and then click New repository. This will take you to a page that looks like a form.
+* You will see the name of your account and you need to fill in a repository name next to it.
+* Also, leave the box ticked for “public” (so your repository is open to all) and then tick the box to create a “README file”.
+* Then click the green create repository button at the bottom.
 
-crwdns824774:0crwdne824774:0 crwdns824776:0crwdne824776:0 crwdns824778:0crwdne824778:0
+This is what you should see now. It is the landing page for your repository. The diagram below explains what all the buttons, tabs and other things do!
 
 ```{figure} ../../figures/github-basic-diagram.jpg
-crwdns824780:0crwdne824780:0 crwdns824782:0crwdne824782:0
-crwdns824784:0crwdne824784:0 crwdns824786:0crwdne824786:0 crwdns824788:0crwdne824788:0 crwdns824790:0crwdne824790:0
-crwdns824792:0crwdne824792:0 crwdns824794:0crwdne824794:0 crwdns824796:0crwdne824796:0
-crwdns824798:0crwdne824798:0 crwdns824800:0crwdne824800:0 crwdns824802:0crwdne824802:0
-crwdns824804:0crwdne824804:0 crwdns824806:0crwdne824806:0
-crwdns824808:0crwdne824808:0 crwdns824810:0crwdne824810:0
-crwdns824812:0crwdne824812:0 crwdns824814:0crwdne824814:0 crwdns824816:0crwdne824816:0
+---
+name: github-basic-diagram
+alt: Annotated diagram of repository after its creation, explaining the main features. The main features are explained in the figure legend.
+align: left
+---
+Annotated diagram of repository after its basic creation, explaining the main features. On the left side of the webpage we have the following features:
+- **1. Username:** GitHub user’s name (account). In this example, the username is “EKaroune”.
+- **2. Repository:** project directory (also known as repo). In this example, the repository name is “trial-repo”.
+- **3. Code:** this tab brings you back to your landing page. It shows you the folders that you have made in the repo.
+- **4. Main:** this is your default development branch or active branch of your repository.
+- **5. Branch:** parallel version(s) of your repository.
+- **6. README.md file:** this file contains basic information about your project (in this case it only has the project name: “trial-repo”. When we plan to make a website, this will be rendered as a landing (front) page for your site.
 
-crwdns824818:0crwdne824818:0 crwdns824820:0crwdne824820:0
-crwdns824822:0crwdne824822:0 crwdns824824:0crwdne824824:0
-crwdns824826:0crwdne824826:0 crwdns824828:0crwdne824828:0 crwdns824830:0crwdne824830:0
-crwdns824832:0crwdne824832:0
-crwdns824834:0crwdne824834:0
-crwdns824836:0crwdne824836:0
+On the right side of the webpage we have the following features:
+- **7. Green Code button:** click it to download your repository locally.
+- **8. '+' symbol:** where you can create new repository, import repos and create new issues.
+- **9. Fork:** create a personal copy of another user’s repo. The number shows how many forks there are of your current repository.
+- **10: Add file:** create or upload a file to your repository.
+- **11: Commits/clock symbol:** click to see the history of this file as a list of all the edits (commits) saved at different time points.
+- **12: Edit/Pencil symbol:** click this pencil symbol to edit your README.md file.
 ```
 
-## crwdns824838:0crwdne824838:0 crwdns824840:0crwdne824840:0
+## 3. Edit your README.md file
 
-crwdns824842:0crwdne824842:0 crwdns824844:0crwdne824844:0 crwdns824846:0crwdne824846:0 crwdns824848:0crwdne824848:0 crwdns824850:0crwdne824850:0
+Unless you have added any other files or included a license file during repo creation, you should have one file in your repository now - README.md. We'll need edit this file to add information about the repo. This file is a Markdown file; you can see this because it has “.md” after the name of the file. This is where you start to use the Markdown formatting. Whatever you write in this file will be shown on the landing (front) page of your project on GitHub, so use it to tell people all about your project.
 
-### crwdns824852:0crwdne824852:0
-crwdns824854:0crwdne824854:0
+### Navigating the GitHub editing interface
+To edit your README.md file:
 
-* crwdns824856:0crwdne824856:0
+* You can click on the pencil symbol in the top right of the central box on your landing page.
 
-**crwdns824858:0crwdne824858:0**
+**Or**
 
-* crwdns824860:0crwdne824860:0
+* Click on the README.md file and then click the pencil symbol.
 
-crwdns824862:0crwdne824862:0 crwdns824864:0crwdne824864:0
+You can now edit the file. We'll talk about how to save your changes after some pointers on writing a good README.
 
 ```{figure} ../../figures/github-readme-before-edit.jpg
-crwdns824866:0crwdne824866:0 crwdns824868:0crwdne824868:0
-crwdns824870:0crwdne824870:0
-crwdns824872:0crwdne824872:0 crwdns824874:0crwdne824874:0
-crwdns824876:0crwdne824876:0 crwdns824878:0crwdne824878:0 crwdns824880:0crwdne824880:0
-crwdns824882:0crwdne824882:0 crwdns824884:0crwdne824884:0
-crwdns824886:0crwdne824886:0 crwdns824888:0crwdne824888:0 crwdns824890:0crwdne824890:0
-crwdns824892:0crwdne824892:0 crwdns824894:0crwdne824894:0
-crwdns824896:0crwdne824896:0 crwdns824898:0crwdne824898:0 crwdns824900:0crwdne824900:0
-crwdns824902:0crwdne824902:0 crwdns824904:0crwdne824904:0
-crwdns824906:0crwdne824906:0 crwdns824908:0crwdne824908:0
+---
+name: github-readme-before-edit
+alt: Annotated diagram of README.md file, if you click on the file name on your landing page. The main features are explained in the figure legend.
+align: left
+---
+Annotated diagram of README.md file, if you click on the file name on your landing page.
+- **1. Repository and current file:** the repo name and the name of the file you are viewing.
+- **2. Main branch:** currently active branch ("main" is the default). Use to change to different branches of your repo (if there are more branches previously created).
+- **3. Contributors:** number of contributors (users) to your file.
+- **4. README.md file content:** the content of your README.md file appears here. This content will expand once we add more information..
+- **5. Raw file:** view the raw markdown text file.
+- **6. Blame:** view the last modification made to each line of the file. It can be used to track when and who made changes and go back to older versions of the file to fix bugs.
+- **7. Edit file:** click this pencil to edit your README.md file.
+- **8. Delete file:** click the bin to delete this file.
 ```
 
 ```{figure} ../../figures/github-readme-after-edit.jpg
-crwdns824910:0crwdne824910:0 crwdns824912:0crwdne824912:0
-crwdns824914:0crwdne824914:0
-crwdns824916:0crwdne824916:0 crwdns824918:0crwdne824918:0
-crwdns824920:0crwdne824920:0 crwdns824922:0crwdne824922:0
-crwdns824924:0crwdne824924:0 crwdns824926:0crwdne824926:0 crwdns824928:0crwdne824928:0
+---
+name: github-readme-after-edit
+alt: Annotated diagram of README.md file in edit mode – before editing. Explained in the title.
+align: left
+---
+Annotated diagram of README.md file in edit mode – before editing.
+- **1. Preview changes:** press to see your text rendered (how it would appear on GitHub or on a web page).
+- **2. Edit file:** press this tab to edit the content of your README.md file.
+- **3. Add content to README.md:** write the Markdown text for your README.md file. You currently only have the repository title in this file.
 ```
 
-### crwdns824930:0crwdne824930:0
+### Tips for writing your README file
 
-* crwdns824932:0crwdne824932:0 crwdns824934:0crwdne824934:0 crwdns824936:0crwdne824936:0
-* crwdns824938:0crwdne824938:0
-* crwdns824940:0crwdne824940:0
+* Keep it simple! When you’re working in any field, whether it’s software engineering or astrophysics, you’ll learn and use jargon – terms that have a special meaning to your field but likely won’t make sense to anyone who isn’t part of that field. Too much jargon can confuse newcomers, so use simple language and define all potentially unfamiliar terms here.
+* Share your project with others - describe what you are doing now and what you want to do in the future.
+* Tell people who you are and how you can be contacted.
 
 
-**crwdns824942:0crwdne824942:0**
+**NOTE: If you’re having trouble getting started, it’s a good idea to look at other peoples' README.md files.**
 
-crwdns824944:0crwdne824944:0 crwdns824946:0crwdne824946:0
+If you can’t get your raw markdown content to render in the way you want, it is also a good idea to find a file that has what you want and then look at the raw file. You can copy and paste other people’s raw file content into your README.md file and then edit it.
 
-crwdns824948:0crwdne824948:0
+Here is an example of a really well formatted README.md file: [STEMM Role Models App](https://github.com/KirstieJane/STEMMRoleModels/blob/gh-pages/README.md)
 
-crwdns824950:0crwdne824950:0 crwdns824952:0crwdne824952:0
+If you click the link above, it will take you to their README.file. You can use this as a template for your README.md file.
 
-* crwdns824954:0crwdne824954:0
-* crwdns824956:0crwdne824956:0
-* crwdns824958:0crwdne824958:0 crwdns824960:0crwdne824960:0
-* crwdns824962:0crwdne824962:0
-* crwdns824964:0crwdne824964:0
+* To look at the raw markdown file you need to click on the raw button (top right of the white box).
+* This takes you to the markdown raw file that is rendered into a nicely formatted README.md file on GitHub.
+* Now just copy and paste it into your README.md edit tab. You can now edit this for your project.
+* Remember to check what it looks like by clicking on the preview changes tab.
+* When you have finished editing, you need to scroll down to the bottom of the page and press the green commit changes button.
 
 ```{figure} ../../figures/github-edited-readme.jpg
-crwdns824966:0crwdne824966:0 crwdns824968:0crwdne824968:0
-crwdns824970:0crwdne824970:0
-crwdns824972:0crwdne824972:0 crwdns824974:0crwdne824974:0 crwdns824976:0crwdne824976:0 crwdns824978:0{ref}crwdne824978:0
+---
+name: /github-edited-readme
+alt: Annotated diagram of README.md file in edit mode – with a template added. Features are explained in the figure legend.
+align: left
+---
+Annotated diagram of README.md file in edit mode – with a template added.
+- **1. Using MarkDown to add content to README.md:** the Markdown (denoted by ‘.md’ in the file extension) text for your README.md file. This example shows the template file that has different sections (headers and subheaders are created by using one or more of ‘#’ symbol. See the {ref}`formatting consistency section of the Community Handbook<ch-consistency-formatting-hr-markdown>` for some more information on using Markdown.
 ```
-### crwdns824980:0crwdne824980:0
-crwdns824982:0crwdne824982:0 crwdns824984:0crwdne824984:0
+### Committing - or saving - your changes
+Committing your changes is like hitting the "save button" for a file. GitHub will not automatically save your changes, so it's important not to skip this step.
 
-crwdns824986:0crwdne824986:0
+Whatever changes you have made in the file will be deposited into your repository.
 
-crwdns824988:0crwdne824988:0 crwdns824990:0crwdne824990:0 crwdns824992:0crwdne824992:0
+It is good practice to write a descriptive commit title and a short description of what you have done in the commit changes box. So something like - commit title: ‘first edit of the readme file'; description: 'copied template from … and edited it with the details of this project’. This information about the commit is called a “commit message”, and the commit title will enable you to quickly look through the history of changes for a file (which is why making them descriptive is so important - it's like leaving a helpful note to your future self).
 
-crwdns824994:0crwdne824994:0
+You can see a list of your commits (or your "commit history") by clicking the clock symbol on your landing page or within the page for each file.
 
-## crwdns824996:0crwdne824996:0 crwdns824998:0crwdne824998:0
+## 4. Add a license to your repository
 
-crwdns825000:0crwdne825000:0 crwdns825002:0crwdne825002:0 crwdns825004:0crwdne825004:0 crwdns825006:0crwdne825006:0
+It is important that all of your work has a license from the very beginning or no one can reuse it. Licenses tell other researchers how they are able to reuse, modify and remix your work. No license implies that others are *not* allowed to use your work, even with attribution. So it is better to include a license that lets people know what they can and can't do and how to give you credit for your work.
 
-crwdns825008:0crwdne825008:0 crwdns825010:0crwdne825010:0
+Depending on your field, much of your work may be documents with only some data or code. The standard licenses offered on GitHub are most approriate for software and won’t really be the right kind for documents.
 
-crwdns825012:0crwdne825012:0
+[Creative commons](https://creativecommons.org/licenses/) licenses are the best to use for this purpose, and the most open of these is the CC BY 4.0.
 
-crwdns825014:0crwdne825014:0
+To add a license to your repository, the first thing to do is create a LICENSE.md file:
 
-* crwdns825016:0crwdne825016:0 crwdns825018:0crwdne825018:0
-* crwdns825020:0crwdne825020:0 crwdns825022:0crwdne825022:0
-* crwdns825024:0crwdne825024:0
-* crwdns825026:0crwdne825026:0
-* crwdns825028:0crwdne825028:0 crwdns825030:0crwdne825030:0 crwdns825032:0crwdne825032:0
+* To do this, click on the Add file button, and click create file. This will give you a blank file.
+* Then, you need to name the file, so call it LICENSE.md. This makes it into a markdown file.
+* You can find all the creative commons licenses in the link above so copy the text of the license you want and then paste it into this file.
+* Don’t forget to press the green commit new file button at the bottom and write a commit message to describe what you have done.
+* You can also add a link to the license to the bottom of your README.md file. Here is a link to a repository that you can copy to add in a [CC BY 4.0 license](https://github.com/santisoler/cc-licenses). It has a text file for your LICENSE.md file and also a shield (or badge) that you can put at the bottom of your README.md file.
 
-crwdns825034:0{ref}crwdne825034:0
+You can find more information about licenses in the {ref}`rr-licensing` chapter of The Turing Way.

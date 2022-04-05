@@ -1,23 +1,26 @@
-crwdns831926:0crwdne831926:0
-# crwdns831928:0crwdne831928:0
+(cm-comms-overview)=
+# Overview of the Guide for Communication
 
-crwdns831930:0crwdne831930:0 crwdns831932:0crwdne831932:0 crwdns831934:0crwdne831934:0
+Research projects, publications and communities are evaluated based on the impact that they make. This is often based on academic journal articles, generally published on completion of a project. However, there is much more scope to plan communication in a research project to enable effective collaboration, sharing progress as well as reporting results and conclusions at different stages of research through different streams of dissemination.
 
-crwdns831936:0crwdne831936:0 crwdns831938:0crwdne831938:0
+In this guide, we present tools, methods and recommendations for communicating our research with wider audiences. Communication methods described here can be used for establishing efficient ways to work with your collaborators, share different research objects as well as increase the breadth of the audience for your research or community.
 
 ```{figure} ../figures/communication-styles.jpg
-crwdns831940:0crwdne831940:0 crwdns831942:0crwdne831942:0 crwdns831944:0crwdne831944:0 crwdns831946:0crwdne831946:0 crwdns831948:0crwdne831948:0
-crwdns831950:0crwdne831950:0
-crwdns831952:0crwdne831952:0 crwdns831954:0crwdne831954:0 crwdns831956:0crwdne831956:0
+---
+name: communication-styles
+alt: Two people sitting working. One using a feather and scroll with the words inaccessible and too technical written on the scroll. The other person sitting at a computer with different communication methods coming out of the computer including blogs, podcasts, lay summaries and social media. There are also dictionaries for foreign languages showing that it is important to translate our research into different languages. Accessibility is written on the computer screen.
+---
+Illustration about communicating with a wider audience.
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.
 ```
 
-crwdns831958:0crwdne831958:0
-## crwdns831960:0crwdne831960:0
+(cm-comms-overview-jargon)=
+## Avoid Jargon
 
-> crwdns831962:0[all]crwdne831962:0 crwdns831964:0crwdne831964:0 crwdns831966:0crwdne831966:0
+> Plain language makes it easier for the public to read, understand, and use [all] communications. When we say not to use jargon, we’re not advocating leaving out necessary technical terms, but we are saying to make sure your language is as clear as possible. - [plainlanguage.gov](https://www.plainlanguage.gov/guidelines/words/avoid-jargon)
 
-crwdns831968:0crwdne831968:0 crwdns831970:0crwdne831970:0 crwdns831972:0crwdne831972:0 crwdns831974:0crwdne831974:0 crwdns831976:0crwdne831976:0
+Choosing to communicate in a jargon-free and less technical manner, with more consideration for accessibility ultimately results in our research being read and heard by more people. This includes writing your papers, guidelines and documentation simply and jargon-free. Other forms of communication include blogging, writing lay summaries, podcasting, presenting posters and talks at conferences outside of your discipline, and using social media. This can involve translating technical scientific writing into different styles that make your research more accessible to specialists outside of your specific discipline and also to the wider public. We also describe different communication channels you can select for your project to enable collaboration with your team or community members.
 
-crwdns831978:0crwdne831978:0 crwdns831980:0crwdne831980:0 crwdns831982:0crwdne831982:0
+We present several case studies from groups and individuals that have successfully used these methods of communication. They describe how they have practically gone about doing the communication method and offer some tips for others to get started. You are welcome to share your personal stories and impact studies in this guide.
 
-crwdns831984:0crwdne831984:0 crwdns831986:0crwdne831986:0
+Lessons learnt in this guide will enable researchers to communicate their research more clearly with wider audiences and therefore increase its overall impact. Methods discussed in the guide can have a considerable impact on the overall project or community in terms of gaining interest within your scientific discipline, engaging with the wider scientific community and gaining interest from the general public.

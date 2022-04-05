@@ -1,22 +1,22 @@
-(pt_BR/contributing-templates)=
-# Modelos
+(ch-contributing-templates)=
+# Templates
 
-No `livro` [diretório](https://github.com/alan-turing-institute/the-turing-way/tree/main/book) do _repositório do Github The Turing Way,_ do The Turing Way, você vai encontrar um sub-diretório `templates` [](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/templates) que contém modelos para escrever capítulos e estudos de casos. Por favor, use-os para guiá-los e estruturar suas contribuições para _A Via de Viagem_.
+In the `book` [directory](https://github.com/alan-turing-institute/the-turing-way/tree/main/book) of the _The Turing Way's_ Github repository, you will find a `templates` [sub-directory](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/templates) that contains templates for writing chapters and case studies. Please use them to guide and structure your contributions to _The Turing Way_.
 
-(ch-contribuição-temas-capítulos)=
-## Capítulos
+(ch-contributing-templates-chapters)=
+## Chapters
 
-Capítulos são _os_ blocos de construção do livro _The Turing Way_ e cada guia em _The Turing Way_ abrange vários capítulos que todos exploram tópicos sob o tema geral do Guia.
+Chapters are _the_ building blocks of _The Turing Way_ book and each Guide in _The Turing Way_ spans several chapters that all explore topics under the Guide's overall theme.
 
-Capítulos, contém _sub-capítulos_ que se aprofundam mais no tópico do capítulo, uma seção _Checklist_ que itemises pontos de ação para os leitores tomarem com base nos conceitos-chave do capítulo, e uma seção de _recursos_ que aponta os leitores para outros recursos onde eles podem investigar mais o tópico do capítulo. Além disso, um capítulo pode conter _Histórias Pessoais_ subcapítulo que estuda como práticas individuais o tópico do capítulo em seus trabalhos.
+Chapters, themselves, contain _sub-chapters_ that delve deeper into the chapter's topic, a _Checklist_ section that itemises action points for readers to take based on the key concepts from the chapter, and a _Resources_ section that points readers to other resources where they can investigate the chapter's topic further. In addition, a chapter may contain a _Personal Stories_ sub-chapter that studies how an individual practices the chapter's topic in their work.
 
-O [modelo de capítulo](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/templates/chapter-template) é um ótimo recurso para projetar e planejar um novo capítulo. Ele contém recomendações úteis para estruturar o seu conteúdo e ajudar você a pensar sobre _o que_ escrever.
+The [chapter template](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/templates/chapter-template) is a great resource for designing and planning a new chapter. It contains useful recommendations to structure your content and help you think about _what_ to write.
 
-Além disso, se desejar rever um capítulo existente. o modelo de capítulo permanece um bom ponto de referência para identificar quais seções incluir ou o que um capítulo típico em _The Turing Way_ deve conter.
+In addition, if you wish to revise an existing chapter instead, the chapter template remains a good point of reference to identify what sections to include or what a typical chapter in _The Turing Way_ should contain.
 
-(ch-contribuir-modelos-casestudies)=
-## Estudos de casos
+(ch-contributing-templates-casestudies)=
+## Case Studies
 
-Em cada guia em _The Turing Way_, , você encontrará um capítulo de estudos de caso que contém uma coleção de estudos de caso que cada um investiga como os conceitos-chave do Guia se relacionam com assuntos específicos. Estes servem como exemplos relatáveis e do mundo real que ajudam os leitores a adquirir uma compreensão mais profunda dos conceitos, ferramentas e práticas introduzidas no Guia.
+In each Guide in _The Turing Way_, you will find a case studies chapter that contains a collection of case studies that each investigate how key concepts from the Guide relate to specific subjects. These serve as relatable, real-world examples that help readers gain a deeper understanding of the concepts, tools, and practices introduced in the Guide.
 
-Curta o modelo de capítulo, o modelo de estudos de caso [](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/templates/case-study-template) é um recurso útil para escrever e rever estudos de caso em _The Turing Way_. Por favor, estruture as contribuições de estudo do seu caso, de acordo com as recomendações do modelo que incluem instruções para ajudá-lo a pensar sobre _o que_ deve escrever, bem como _como_ escrevê-lo.
+Like the chapter template, the [case studies template](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/templates/case-study-template) is a useful resource for writing and revising case studies in _The Turing Way_. Please structure your case study contributions as per the template's recommendations that includes prompts to help you think about _what_ to write, as well as _how_ to write it.

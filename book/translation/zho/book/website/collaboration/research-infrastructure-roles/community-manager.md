@@ -1,84 +1,84 @@
 (cl-infrastructure-communitymanagers)=
-# 社区管理：概览
+# Community Managers: Overview
 
-社区管理人员在科学界发挥越来越大的作用。 它们与从事研究和科学工作的人组织、支持、维护、发展、评价和协作。
+Community Managers are a growing role within scientific communities. They organise, support, maintain, grow, develop, evaluate and collaborate with people involved in research and scientific communities.
 
 (cl-infrastructure-communitymanagers-tasks)=
-## 社区管理员做什么？
+## What do Community Managers do?
 
-社区管理人员的主要目标是围绕共同的研究主题和目标组织科学家、研究人员和/或病人团体和公众。 她们往往受雇于专业团体、大学、研究机构、大型方案和非营利组织。
+Community Managers main objective is to organise groups of scientists, researchers and/or patients and the public around shared research topics and objectives. They are often employed by professional societies, universities, research institutions, larger programmes, and non-profit organisations.
 
-每一种作用都是不同的，但主要活动的重点通常是同情、管理和与社区的协作：
-* 促进与所有利益攸关方的联系
-* 促进社区（共同融入社区）
-* 将合适的人联系在一起(基于专门知识和兴趣)
-* 活跃的社区成员
-* 将技术专题传达给非技术性同事，反之亦然。
-* 鼓励高标准的可复制性、伦理、包容性和合作性数据科学
-* 在社区内围绕交流经验建立次级网络，例如早期职业研究人员网络
+Each role is varied but the main activities are typically focused around compassion, stewardship, and collaboration with the community:
+* Catalyse connections with all stakeholders
+* Foster communities (integrating communities together)
+* Linking the right people up together (based on expertise and interests)
+* Active community member
+* Communicating technical topics to non-technical colleagues and vice versa
+* Encouraging high standards of reproducible, ethical, inclusive and collaborative data science
+* Creating sub-networks within the community around shared experiences, for example, such as an early career researcher network
 
-社区管理人员的日常任务可以包括：
-* 组织和托管社区电话
-* 在线新成员
-* 参加社区领导会议
-* 撰写社区报告或简报
-* 维护和更新社区网站
-* 在社交媒体上发布
-* 规划即将开展的社区倡议
-* 正在开办培训课程 & 讲习班
-* 阅读与社区有关的出版物
-* 管理会员列表
-* 指导社区贡献
-* 制作信息材料以帮助更广泛的领域或公众了解社区及其项目
-* 还有更多！
+The day-to-day tasks of a community manager could include:
+* Organising and hosting community calls
+* Onboarding new members
+* Attending community leadership meetings
+* Writing community reports or newsletters
+* Maintaining and updating the community site
+* Posting on social media
+* Planning for upcoming community initiatives
+* Running training courses & workshops
+* Reading publications relevant to the community
+* Managing membership lists
+* Mentoring community contributions
+* Creating informational materials to help the wider field or public learn about the community and their projects
+* And a lot more!
 
 (cl-infrastructure-communitymanagers-skills)=
-## 您需要什么资格或技能作为社区管理者？
-绝大多数社区管理人员将具有科学背景，包括高级学位(硕士或博士学位)。 许多社区管理人员也有与他们管理社区的具体领域或纪律有关的背景，但并非所有这些管理人员都有背景。 如果社区与软件或编程相关联，社区管理人员通常也具备一些编码技能。
+## What qualifications or skills do you need to be a Community Manager?
+The vast majority of community managers will have a scientific background that may include advanced degrees (at a masters or doctoral level). Many community managers also have a background related to the specific field or discipline they manage a community in, but not all of them do. If the community is associated with software or programming, it is common for community managers to also have some coding skills.
 
-没有得到专业承认的资格或培训课程可以成为科学界的经理， 但各组织确实提供培训和资源，以帮助支持从事这些工作的人的专业发展。 社区管理人员发挥其作用的价值观和方法往往是作为社区管理人员取得成功的最重要条件。
+There is no professionally recognised qualification or training course to become a scientific community manager, but organisations do offer training and resources to help support the professional development of people in these roles. The values and approaches community managers bring to their roles are often the most important qualifications for success as a community manager.
 
 ```{admonition} CSCCE Skills Wheel - Five Core Competancies 
-科学协作和社区参与中心已经发行了一辆技能车轮，展示了科学界管理人员可能需要发挥其作用的各种不同技能。 
-它们对社区管理人员所强调的五项核心竞争是：技术技能、交流、方案管理、方案发展和人际关系。 
-每个社区管理者的角色都需要根据社区的需要、目标和平台在这些技能之间保持不同的平衡。 
+The Center for Scientific Collaboration and Community Engagement have released a skills wheel showing the wide variety of different skills a scientific community manager might need to perform their roles. 
+The five core competancies they highlight for community managers are: technical skills, communication, programme management, programme development and interpersonal. 
+Every community manager role will need a different balance of these skills depending on the needs, aims and platforms of the community. 
 
-你可以在这里找到Zendo上的技能轮: [https://zenodo.org/record/4437294#.YYjzg07P1aQ](https://zenodo.org/record/44337294#.YYjzg07P1aQ)
+You can find the Skills Wheel on Zendo here: [https://zenodo.org/record/4437294#.YYjzg07P1aQ](https://zenodo.org/record/4437294#.YYjzg07P1aQ)
 ```
 
 (cl-infrastructure-communitymanagers-challenges)=
-## 社区管理人员面临的挑战
-* 在社区成员之间进行调解的必要性
-* 但愿不会被视为社区本身的一部分，需要在社区内部建立信任和可信度。
-* 需要有许多不同的技能(技术、人际、项目管理)
-* 支持和鼓励社区参与
-* 从零开始在新创建的角色中建立基础结构
-* 被视为自己的专业人员，而不仅仅是受人欢迎的工作人员
-* 与不了解社区的新观众连接
-* 同一领域或机构不同群体之间的翻译
-* 在没有正式程序的情况下管理任务
-* 管理不同利益攸关方群体的不同优先事项
-* 不一定总是能看到事情好转！
-* 缺乏正式的职业进步
+## Challenges for Community Managers
+* Need to mediate between community members
+* May not be seen as a part of the community themselves and need to build trust and credibility within it
+* Need to have a lot of different skills (technical, interpersonal, project management)
+* Supporting and encouraging engagement in the community
+* Building infrastructure from scratch in newly created roles
+* Being seen as a professional in their own right and not just adminstrative staff
+* Connecting with new audiences who are not aware of the community
+* Translating between different groups in the same field or institution
+* Managing tasks where there is little formal process in place
+* Managing the different priorities of different stakeholder groups
+* Not always visible when things go well!
+* Lack of formal career progression
 
 (cl-infrastructure-communitymanagers-benefits)=
-## 社区管理人员的福利
-* 能够提供关于社区结构和运行方式的元思维。
-* 围绕通信、合作、多样性、公平和包容以及其他研究领域交流最佳做法
-* 支持通过技术技能共享和培训提高成员的技能
-* 支持社区其他成员发挥更积极的作用，提高社区的复原力和扩张能力
-* 指导发展社区的倡议，如数据标准、行为守则或培训讲习班
-* 为社区提供一个稳定的基础，确保及时举行会议
-* 将共同致力于类似项目的各小组联系起来，以支持加强合作
-* 拆分各部门、实地和研究组之间的sloos
-* 加深对社区需要的认识
+## Benefits to having Community Managers
+* Able to offer meta-thinking about how the community is structured and run
+* Shares best practices around communication, collaboration, diversity, equity and inclusion, and other areas of research
+* Supports the upskilling of members via technical skill sharing and training
+* Supports other members of the community to take on more active roles, increasing resilience and expansion of the community
+* Stewarding initiatives to develop the community such as data standards, a code of conduct, or training workshops
+* Offers a stable base for the community, to make sure meetings happen on time
+* Connecting groups working on similar projects together, to support increased collaboration
+* Breaking down siloes between departments, fields, research groups
+* Greater understanding of the needs of the community
 
 
 (cl-infrastructure-communitymanagers-organisations)=
-## 支持社区管理人员的组织
-科学合作和社区参与中心（[csc）。 rg](https://www.cscce.org/) 适用于 _“使社区参与管理员(CEM)在科学中的作用专业化和制度化。 _ 他们提供培训、共同创立的资源、研究、 科学界管理人员相互联系和相互支持的积极实践社区。
+## Organisations that support Community Managers
+The Center for Scientific Collaboration and Community Engagement ([cscce.org](https://www.cscce.org/) works to _"professionalize and institutionalize the role of the community engagement manager (CEM) within science."_ They offer training, co-created resources, research, and an active community of practice for scientific community managers to connect and support each other.
 
 (cl-infrastructure-communitymanagers-summary)=
 ## Summary
-社区管理人员是科学界的一个重要组成部分，支持协作、最佳做法，并在社区发展过程中提供指导。 他们没有正式的职业道路或资格，但通常有科学或研究背景。 
+Community Managers are an important part of scientific communities, supporting collaboration, best practices, and stewarding their communities as they develop. They do not have a formal career path or qualifications, but typically have a scientific or research background themselves. 
 

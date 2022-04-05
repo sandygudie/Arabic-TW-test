@@ -1,60 +1,60 @@
-crwdns832274:0crwdne832274:0
-# crwdns832276:0crwdne832276:0
+(cm-lay-summaries)=
+# Lay Summaries
 
-crwdns832278:0crwdne832278:0 crwdns832280:0crwdne832280:0 crwdns832282:0crwdne832282:0 crwdns832284:0crwdne832284:0
+Lay summaries are useful for many purposes. They are usually used to communicate findings in a simple way to the wider public but they have a far greater scope than this. They help to disseminate findings between scientific disciplines as academic research articles are often hard for other disciplines to access. This can aid collaboration within research groups that have a mix of specialists and other stakeholders in the same team.
 
-crwdns832286:0crwdne832286:0 crwdns832288:0crwdne832288:0
+More recently, lay summaries are becoming a requirement from academic journals as part of the submission of a research article. However, writing lay summaries is a specific form of writing and requires training, or at least careful thought, to be able to adapt your scientific writing.
 
-crwdns832290:0crwdne832290:0
-## crwdns832292:0crwdne832292:0
+(cm-lay-summaries-what)=
+## What is a Lay Summary?
 
-crwdns832294:0crwdne832294:0 crwdns832296:0{cite:ps}crwdne832296:0
+A lay summary is a summary of a research project or a research proposal that is usually written for members of the public, rather than researchers or professionals. It should be written in plain English, avoid the use of jargon and explain any technical terms that have to be included {cite:ps}`Duke2012summary`.
 
-crwdns832298:0crwdne832298:0
-## crwdns832300:0crwdne832300:0
+(cm-lay-summaries-why)=
+## Why Write Lay Summaries?
 
-crwdns832302:0crwdne832302:0
+Apart from fulfilling the transparency and collaborative goals of an open science approach, there are specific reasons why writing lay summaries can benefit scientific progress.
 
-crwdns832304:0crwdne832304:0 crwdns832306:0{cite:ps}crwdne832306:0
-* crwdns832308:0crwdne832308:0
-* crwdns832310:0crwdne832310:0
-* crwdns832312:0crwdne832312:0
-* crwdns832314:0crwdne832314:0
-* crwdns832316:0crwdne832316:0
+[INVOLVE](https://www.invo.org.uk/about-involve/), a national advisory group funded by the UK National Institute for Health Research reported that involving patients and healthcare professionals helps at all stages of a research project, from developing the research question to disseminating the results. The benefits of this direct involvement in research have been identified as follows {cite:ps}`Duke2012summary`:
+* Increasing the relevance of the research.
+* Increasing recruitment to clinical research.
+* Improving the design of the research to address ethical concerns, improve the research tools and make it easier for the people taking part.
+* Improving the quality of the data and its interpretation.
+* Making it more likely that the findings of the research will be used to make a difference to patients and healthcare workers lives.
 
-crwdns832318:0crwdne832318:0
-## crwdns832320:0crwdne832320:0
+(cm-lay-summaries-how)=
+## Writing a Good Lay Summary
 
-**crwdns832322:0crwdne832322:0**
+**The difference between a lay summary and academic writing**
 
-crwdns832324:0crwdne832324:0 crwdns832326:0crwdne832326:0
+Academic writing is usually not accessible to researchers outside of your discipline as well as those in non-academic roles. It is therefore a good idea to make all your academic writing more readable as being too ‘academised’ narrows the likelihood of dissemination to wider academic disciplines and the general public.
 
-crwdns832328:0{cite:ps}crwdne832328:0
-* crwdns832330:0crwdne832330:0
-* crwdns832332:0crwdne832332:0
-* crwdns832334:0crwdne832334:0
-* crwdns832336:0crwdne832336:0
+Less accessible academic writing has four main characteristics {cite:ps}`DunleavyTinkler2021impact`
+* Use of specialised vocabularies.
+* Passive verb use (or passive voice) that is supposed to make the writing more neutral or impersonal.
+* Nouns substituting for verbs to make sentences sound more complicated.
+* The generation of new nouns or acronyms that are discipline-specific.
 
-crwdns832338:0crwdne832338:0
+Therefore, the key to making your writing more accessible is changing this language into a less formal and less technical style.
 
-### crwdns832340:0crwdne832340:0
+### Adapting Content for Lay Summaries:
 
-* crwdns832342:0crwdne832342:0 crwdns832344:0crwdne832344:0
-* crwdns832346:0crwdne832346:0
-* crwdns832348:0crwdne832348:0
-* crwdns832350:0crwdne832350:0
-* crwdns832352:0crwdne832352:0
-* crwdns832354:0crwdne832354:0
-* crwdns832356:0crwdne832356:0
-* crwdns832358:0crwdne832358:0
+* Know your audience - Most lay summaries are written for a high school-age child’s level of understanding. That's about 14 years old!
+* Minimise jargon - Cut out all scientific words or, if you can’t cut them out completely, add a definition or weblink to explain the word.
+* Logical structure - Introduction sentence, aims and objectives, results and conclusions.
+* Shorten sentences and paragraphs - Lengthy paragraphs just put people off, most people cannot pay attention to paragraphs longer than two or three sentences in length.
+* Use active verbs and active voice - Make it personal, use 'I' and 'we'.
+* Content - The text should provide answers to the essential questions: Who, What, Where, When, Why, How.
+* Relevance and benefits - Aims and objectives clearly written, impact clearly stated.
+* If you are including diagrams, make sure that they are also simplified and include alternative text for greater accessibility.
 
-crwdns832360:0crwdne832360:0
-## crwdns832362:0crwdne832362:0
+(cm-lay-summaries-test)=
+## Test Your Readability
 
-crwdns832364:0crwdne832364:0
+Have a go at using one of the resources below to test the readability of the lay summary you have written.
 
-crwdns832366:0crwdne832366:0
-* [crwdns832370:0crwdne832370:0](crwdns832368:0crwdne832368:0)
-* [crwdns832374:0crwdne832374:0](crwdns832372:0crwdne832372:0)
+Readability tests:
+* [Hemingway app](http://www.hemingwayapp.com/)
+* [The first word readability test](http://thefirstword.co.uk/readabilitytest/)
 
-crwdns832376:0crwdne832376:0
+Here is a good example of how abstract can be changed into a lay summary: [Perfecting that lay summary](https://bitesizebio.com/10871/perfecting-that-lay-summary/).

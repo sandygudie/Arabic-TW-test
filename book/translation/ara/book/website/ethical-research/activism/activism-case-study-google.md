@@ -1,43 +1,43 @@
-crwdns839262:0crwdne839262:0
-# crwdns839264:0crwdne839264:0
+(er-activism-case-study-google)=
+# Case study: Google Workers & Project Maven
 
-crwdns839266:0crwdne839266:0
+Tech workers have historically had low levels of unionisation for a variety of different reasons, including comparatively high pay and status, roles that are often short-term, and a concentration in countries where union levels are low overall (for example, the US).
 
-crwdns839268:0crwdne839268:0 crwdns839270:0crwdne839270:0 crwdns839272:0crwdne839272:0
+Workers in tech are also sometimes ambivalent about their employer's products and services. This is because the products and services are developed with limited consideration of their impacts on systemic inequalities and injustices. However, more and more people who work in the industry are speaking up and demanding that companies and organisations consider the ethics and impact of the work they do and who they do that work with.
 
-crwdns839274:0crwdne839274:0
+Google is one example of a large tech company where workers have spoken up on several different issues including internal company policy and external contracts.
 
-crwdns839276:0crwdne839276:0
-## crwdns839278:0crwdne839278:0
-### crwdns839280:0crwdne839280:0
-crwdns839282:0crwdne839282:0 crwdns839284:0crwdne839284:0 crwdns839286:0crwdne839286:0 crwdns839288:0crwdne839288:0 crwdns839290:0crwdne839290:0
+(er-activism-case-study-google-advocacy)=
+## Advocacy & Workplace Activism by Google Workers
+### Project Maven - 2018
+One project which faced resistance via workplace activism was Google's Project Maven, a contract with the US Pentagon to use AI to develop more effective drone guidance. Google employees across the globe who opposed this project spoke up in internal meetings, signed petitions, made memes, and shared personal statements about why they disagreed with the contract. Some employees even resigned. Eventually, the leadership at Google agreed not to seek further contracts with the US Pentagon and also agreed to adopt ["Ethical AI Principles"](https://blog.google/technology/ai/ai-principles/) including not using its technology for weapons or surveillance. [Source, accessed 8 December 2020](https://jacobinmag.com/2018/06/google-project-maven-military-tech-workers)
 
-### crwdns839292:0crwdne839292:0
-crwdns839294:0crwdne839294:0
-* crwdns839296:0crwdne839296:0
-* crwdns839298:0crwdne839298:0
-* crwdns839300:0crwdne839300:0
-* crwdns839302:0crwdne839302:0
-* crwdns839304:0crwdne839304:0
+### Walkout for Real Change - 2018
+In response to allegations of million dollar exit packages for executives accused of sexual harassment against workers, workers at Google offices across the globe walked out demanding:
+* Ending of private arbitration in sexual harassment cases
+* Publication of a transparency report on instances of sexual harassment
+* Further disclosures of salaries and compensation
+* An employee representative on the company board
+* A chief diversity officer who could speak directly to the board
 
-crwdns839306:0crwdne839306:0
+Google agreed to end the use of private arbitration in sexual harassment cases, but did not agree to the rest of the demands.
 
-[crwdns839310:0crwdne839310:0](crwdns839308:0crwdne839308:0)
+[Source, NYT, accessed 18 May 2021](https://www.nytimes.com/2018/11/01/technology/google-walkout-sexual-harassment.html)
 
-### crwdns839312:0crwdne839312:0
-crwdns839314:0crwdne839314:0 crwdns839316:0crwdne839316:0
+### No Police Contracts - 2020
+In the wake of protests at the killing of George Floyd in May 2020, over 1,100 Alphabet workers signed a petition demanding that the company stop selling technology to police departments and end existing contracts with police departments with a history of racial discrimination. The company insisted that the contracts were in line with its AI Principles.
 
-[crwdns839320:0crwdne839320:0](crwdns839318:0crwdne839318:0)
+[Source, CNBC, accessed 18 May 2021](https://www.cnbc.com/2020/06/22/google-employees-petition-company-to-cancel-police-contracts.html)
 
-crwdns839322:0crwdne839322:0
-## crwdns839324:0crwdne839324:0
+(er-activism-case-study-google-union)=
+## Alphabet Worker's Union
 
-crwdns839326:0crwdne839326:0 crwdns839328:0crwdne839328:0 crwdns839330:0crwdne839330:0 crwdns839332:0crwdne839332:0 crwdns839334:0crwdne839334:0
+The work that went into speaking out against different issues at Google has now transformed into a new union, specifically for people employed at Google or one of the other companies owned by Alphabet. The union was launched in January 2021 and has over 800 members as of May 2021. Importantly, all workers at Alphabet companies, whether they are cleaners or tech workers, on fixed-term contracts or in permanent employment, are eligible to join the union. This broad membership makes it much easier for the workers to organise together and fight for better conditions for everyone in the workplace, rather than segregating people based on the type of work they do. It also reinforces that everyone in the workplace is important and has a part to play in the union, regardless of what their day-to-day role looks like.
 
-crwdns839336:0crwdne839336:0
+The Alphabet Union is supported by a larger union, [Communications Workers of America](https://cwa-union.org/), who are also [campaigning to help workers in other tech and digital companies to organise in unions](https://cwa-union.org/news/releases/cwa-launches-new-initiative-in-support-of-organizing-tech-and-game-workers).
 
-## crwdns839338:0crwdne839338:0
+## Further Resources
 
-* [crwdns839342:0crwdne839342:0](crwdns839340:0crwdne839340:0)
-* [crwdns839346:0crwdne839346:0](crwdns839344:0crwdne839344:0)
-* [crwdns839350:0crwdne839350:0](crwdns839348:0crwdne839348:0)
+* [Alphabet Worker's Union](https://alphabetworkersunion.org/)
+* [Communication Worker's Union - a UK-based union with a dedicated tech branch](https://cwu.org)
+* [Miller C and Coldicutt R, ‘People, Power and Technology: The Tech Workers’ View’ (doteveryone 2019)](https://doteveryone.org.uk/report/workersview/)

@@ -1,37 +1,37 @@
-﻿crwdns848924:0crwdne848924:0
-# crwdns848926:0crwdne848926:0
-crwdns848928:0{ref}crwdnd848928:0{ref}crwdne848928:0
+﻿(rr-overview-resources)=
+# Resources
+For additional resources like videos and reference papers on reproducibility, see the {ref}`rr-overview-resources-reading` and {ref}`rr-overview-resources-addmaterial` sections.
 
-crwdns848930:0crwdne848930:0
-## crwdns848932:0crwdne848932:0
-crwdns848934:0{ref}crwdne848934:0 crwdns848936:0{ref}crwdne848936:0
+(rr-overview-resources-learn)=
+## What to Learn Next?
+{ref}`rr-open` would be a good chapter to read next. If you want to start learning hands-on practices, we recommend reading the {ref}`rr-vcs` chapter next.
 
-crwdns848938:0crwdne848938:0
-## crwdns848940:0crwdne848940:0
+(rr-overview-resources-reading)=
+## Further Reading
 
-* crwdns848942:0crwdne848942:0 crwdns848944:0crwdne848944:0 crwdns848946:0crwdne848946:0 crwdns848948:0crwdne848948:0
+* Baker, M. (2016). 1,500 scientists lift the lid on reproducibility. Nature, 533(7604), 452–454. https://doi.org/10.1038/533452a
 
-* crwdns848950:0crwdne848950:0 crwdns848952:0crwdne848952:0 crwdns848954:0crwdne848954:0 crwdns848956:0crwdne848956:0
+* Barba, L. (2017): Barba-group Reproducibility Syllabus. figshare. Paper. https://doi.org/10.6084/m9.figshare.4879928.v1
 
-* crwdns848958:0crwdne848958:0 crwdns848960:0crwdne848960:0 crwdns848962:0crwdne848962:0 crwdns848964:0crwdne848964:0 crwdns848966:0crwdne848966:0
+* Piwowar, H. A., & Vision, T. J. (2013). Data reuse and the open data citation advantage. PeerJ, 1, e175. https://doi.org/10.7717/peerj.175
 
-* crwdns848968:0crwdne848968:0 crwdns848970:0crwdne848970:0 crwdns848972:0crwdne848972:0 crwdns848974:0crwdne848974:0
+* Whitaker, Kirstie (2018): Barriers to reproducible research (and how to overcome them). figshare. Paper. https://doi.org/10.6084/m9.figshare.7140050.v2
 
-crwdns848976:0crwdne848976:0
-## crwdns848978:0crwdne848978:0
+(rr-overview-resources-addmaterial)=
+## Additional Material
 
-### crwdns848980:0crwdne848980:0
+### Useful Links
 
-#### **crwdns848982:0crwdne848982:0**
+#### **Reproducibility**
 
-* crwdns848984:0crwdne848984:0 crwdns848986:0crwdne848986:0 crwdns848988:0crwdne848988:0 crwdns848990:0crwdne848990:0 crwdns848992:0crwdne848992:0
+* Markowetz, F. (2018). 5 selfish reasons to work reproducibly. Slides available at https://osf.io/a8wq4/. Recording from a talk at  Data Stewardship TU Delft in 2019. [https://youtu.be/yVT07Sukv9Q](https://youtu.be/yVT07Sukv9Q).
 
-* crwdns848994:0crwdne848994:0 crwdns848996:0crwdne848996:0 crwdns848998:0crwdne848998:0 crwdns849000:0crwdne849000:0
+* Leipzig, J (2020). Awesome Reproducible Research: A curated list of reproducible research case studies, projects, tutorials, and media. Github repo. https://github.com/leipzig/awesome-reproducible-research
 
-#### **crwdns849002:0crwdne849002:0**
+#### **Data Science**
 
-* crwdns849004:0crwdne849004:0 crwdns849006:0crwdne849006:0 crwdns849008:0crwdne849008:0 crwdns849010:0crwdne849010:0
+* _Data science: A guide for society_. Ask for Evidence. (2019). Retrieved October 26, 2021, from https://askforevidence.org/articles/data-science-a-guide-for-society.
 
-* crwdns849012:0crwdne849012:0 crwdns849014:0crwdne849014:0 crwdns849016:0crwdne849016:0
+* Riley, E. (2019). Data Science Guide for Society. London; senseaboutscience.org.
 
-* crwdns849018:0crwdne849018:0 crwdns849020:0crwdne849020:0 crwdns849022:0crwdne849022:0 crwdns849024:0crwdne849024:0 crwdns849026:0crwdne849026:0
+* The Open Data Institute. (2019). _Knowledge & opinion_. The ODI. Retrieved October 26, 2021, from https://theodi.org/article/data-ethics-canvas.

@@ -1,39 +1,39 @@
-# crwdns834644:0crwdne834644:0
+# After the Book Dash
 
-crwdns834646:0crwdne834646:0 crwdns834648:0crwdne834648:0
+Our Book Dash attendees begin to introduce their perspectives and skills into the project at the Book Dash. These participants go on to join our global community of contributors.
 
-crwdns834650:0crwdne834650:0 crwdns834652:0crwdne834652:0
+We invite our attendees to contribute in any capacity that is most suitable for their interests and availability. Also, we share with them some ways they can stay connected and keep contributing to the project.
 
-## crwdns834654:0crwdne834654:0
+## Joining the ongoing efforts
 
-crwdns834656:0crwdne834656:0 crwdns834658:0crwdne834658:0 crwdns834660:0crwdne834660:0 crwdns834662:0crwdne834662:0 crwdns834664:0crwdne834664:0
+With every new effort initiated by our members, we gain new insights to improve our global outreach. These efforts often start in our [GitHub issue](https://github.com/alan-turing-institute/the-turing-way/issues) section. These are good places to begin new discussions by creating a new issue or join the ongoing discussion by commenting on the issue. If our contributors want to start to get to know the project or want to return after a long break, they can begin with our good first issues. If they have a new idea that they would like to add to the project as a new section in an existing chapter, or as a whole new chapter, they can start by creating a new issue.
 
-## crwdns834666:0crwdne834666:0
+## Attend our online Collaboration Cafe and coworking calls
 
-crwdns834668:0crwdne834668:0 crwdns834670:0crwdne834670:0 crwdns834672:0crwdne834672:0 crwdns834674:0crwdne834674:0
+Our online Collaboration Cafes take place every 1st Wednesdays and 3rd Wednesdays on each month. These calls are 2 hour long co-working spaces for the _The Turing Way_ community. Everyone interested in learning from or developing this project can join us for any duration possible for them. At these calls, you can work on ideas for a new contribution or enhancement of existing content in the project.
 
-crwdns834676:0crwdne834676:0 crwdns834678:0crwdne834678:0 crwdns834680:0{ref}crwdne834680:0
+Participants can sign up on this HackMD to attend the upcoming calls: https://hackmd.io/@KirstieJane/CollabCafe. Anyone who would like to host these calls at other times, please get in touch with the team members. See more details in the chapter {ref}`Coworking Call<ch-coworking-weekly>`
 
-## crwdns834682:0crwdne834682:0
+## Reviewing open pull requests
 
-crwdns834684:0crwdne834684:0 crwdns834686:0crwdne834686:0
+Our contributors can help us by reviewing one of the several open pull requests based on their interests. They can join discussions on these pull requests or help in exploring resources that currently exist in the book.
 
-## crwdns834688:0crwdne834688:0
+## Representing _The Turing Way_ in your community/conference
 
-crwdns834690:0crwdne834690:0 crwdns834692:0crwdne834692:0
+If our attendees would like to represent our community, they can connect with _The Turing Way_ team for support and assistance in drafting an abstract and help them prepare to deliver a short workshop or presentation. This is another contribution that can be discussed and prepared collaboratively during our Collaboration cafe or coworking calls.
 
-## crwdns834694:0crwdne834694:0
+## Connecting through social media
 
-crwdns834696:0crwdne834696:0 crwdns834698:0crwdne834698:0 crwdns834700:0crwdne834700:0
+Everyone is welcome to join our Gitter channel for informal discussions. They can also sign up to receive our monthly newsletter: [https://tinyletter.com/TuringWay/](https://tinyletter.com/TuringWay/). We are on Twitter as [@turingway](https://twitter.com/turingway), where we send regular updates.
 
-crwdns834702:0crwdne834702:0
+If you have more ideas or questions about the project, the Book Dash event or something else related to our community, please feel free to reach out to the team members [theturingway@gmail.com](mailto:theturingway@gmail.com).
 
-## crwdns834704:0crwdne834704:0
+## Reports and additional materials
 
-- crwdns834706:0{ref}crwdne834706:0
-- [crwdns834710:0crwdne834710:0](crwdns834708:0crwdne834708:0)
-- crwdns834712:0crwdne834712:0
-- crwdns834714:0crwdne834714:0
-- [crwdns834718:0crwdne834718:0](crwdns834716:0crwdne834716:0)
-- [crwdns834722:0crwdne834722:0](crwdns834720:0crwdne834720:0)
-- [crwdns834726:0crwdne834726:0](crwdns834724:0crwdne834724:0)
+- All the templates related to Book Dash is provided in the {ref}`community template collection<ch-templates>`
+- [_The Turing Way_ Report By Malvika Sharan with team members from November 2020](https://github.com/alan-turing-institute/the-turing-way/blob/book-dash-chapter/workshops/book-dash/book-dash-nov20-report.md)
+- CSCCE blog post by Arielle Bennett, July 2020: [Book Dashes: Collaborative Community Events](https://www.cscce.org/2020/07/09/book-dashes-collaborative-community-events/)
+- Open Working blog post by Esther Plomp, February 2020: [The Turing Way Bookdash](https://openworking.wordpress.com/2020/02/27/the-turing-way-bookdash/)
+- [_The Turing Way_ Report By Malvika Sharan with team members from February 2020](https://github.com/alan-turing-institute/the-turing-way/blob/book-dash-chapter/workshops/book-dash/book-dash-feb20-report.md)
+- [_The Turing Way_ Report By Rachael Ainsworth with team members from London 2019](https://github.com/alan-turing-institute/the-turing-way/blob/main/workshops/book-dash/book-dash-ldn-report.md)
+- [_The Turing Way_ Report By Rachael Ainsworth with team members from Manchester 2019](https://github.com/alan-turing-institute/the-turing-way/blob/main/workshops/book-dash/book-dash-mcr-report.md)

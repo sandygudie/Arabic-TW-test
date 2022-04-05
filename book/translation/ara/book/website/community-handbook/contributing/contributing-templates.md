@@ -1,22 +1,22 @@
-crwdns836332:0crwdne836332:0
-# crwdns836334:0crwdne836334:0
+(ch-contributing-templates)=
+# Templates
 
-crwdns836336:0crwdne836336:0 crwdns836338:0crwdne836338:0
+In the `book` [directory](https://github.com/alan-turing-institute/the-turing-way/tree/main/book) of the _The Turing Way's_ Github repository, you will find a `templates` [sub-directory](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/templates) that contains templates for writing chapters and case studies. Please use them to guide and structure your contributions to _The Turing Way_.
 
-crwdns836340:0crwdne836340:0
-## crwdns836342:0crwdne836342:0
+(ch-contributing-templates-chapters)=
+## Chapters
 
-crwdns836344:0crwdne836344:0
+Chapters are _the_ building blocks of _The Turing Way_ book and each Guide in _The Turing Way_ spans several chapters that all explore topics under the Guide's overall theme.
 
-crwdns836346:0crwdne836346:0 crwdns836348:0crwdne836348:0
+Chapters, themselves, contain _sub-chapters_ that delve deeper into the chapter's topic, a _Checklist_ section that itemises action points for readers to take based on the key concepts from the chapter, and a _Resources_ section that points readers to other resources where they can investigate the chapter's topic further. In addition, a chapter may contain a _Personal Stories_ sub-chapter that studies how an individual practices the chapter's topic in their work.
 
-crwdns836350:0crwdne836350:0 crwdns836352:0crwdne836352:0
+The [chapter template](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/templates/chapter-template) is a great resource for designing and planning a new chapter. It contains useful recommendations to structure your content and help you think about _what_ to write.
 
-crwdns836354:0crwdne836354:0
+In addition, if you wish to revise an existing chapter instead, the chapter template remains a good point of reference to identify what sections to include or what a typical chapter in _The Turing Way_ should contain.
 
-crwdns836356:0crwdne836356:0
-## crwdns836358:0crwdne836358:0
+(ch-contributing-templates-casestudies)=
+## Case Studies
 
-crwdns836360:0crwdne836360:0 crwdns836362:0crwdne836362:0
+In each Guide in _The Turing Way_, you will find a case studies chapter that contains a collection of case studies that each investigate how key concepts from the Guide relate to specific subjects. These serve as relatable, real-world examples that help readers gain a deeper understanding of the concepts, tools, and practices introduced in the Guide.
 
-crwdns836364:0crwdne836364:0 crwdns836366:0crwdne836366:0
+Like the chapter template, the [case studies template](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/templates/case-study-template) is a useful resource for writing and revising case studies in _The Turing Way_. Please structure your case study contributions as per the template's recommendations that includes prompts to help you think about _what_ to write, as well as _how_ to write it.

@@ -1,7 +1,7 @@
 (rr-make-casestudy-rp)=
-# Estudo de Caso: Produzir Papel usando Criar
+# Case Study: Reproducible Paper using Make
 
-No tutorial acima usamos as classificações de filmes do IMDB para diferentes gêneros como dados de exemplo. Estes dados foram obtidos de um conjunto de dados [compartilhado em Kaggle](https://www.kaggle.com/orgesleka/imdbmovies#imdb.csv) como um arquivo CSV. O arquivo se parece com isso:
+In the tutorial above we used IMDB movie ratings for different genres as example data. This data was obtained from a dataset [shared on Kaggle](https://www.kaggle.com/orgesleka/imdbmovies#imdb.csv) as a CSV file. The file looks like this:
 
 ```text
 fn,tid,title,wordsInTitle,url,imdbRating,ratingCount,duration,year,type,nrOfWins,nrOfNominations,nrOfPhotos,nrOfNewsArticles,nrOfUserReviews,nrOfGenre,Action,Adult,Adventure,Animation,Biography,Comedy,Crime,Documentary,Drama,Family,Fantasy,FilmNoir,GameShow,History,Horror,Music,Musical,Mystery,News,RealityTV,Romance,SciFi,Short,Sport,TalkShow,Thriller,War,Western
@@ -11,32 +11,32 @@ titles01/tt0017136,tt0017136,Metropolis (1927),metropolis,http://www.imdb.com/ti
 titles01/tt0017925,tt0017925,Der General (1926),der general,http://www.imdb.com/title/tt0017925/,8.3,37521,6420,1926,video.movie,1,1,53,123,219,3,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 ```
 
-Enquanto estiver na superfície isto se parece com um arquivo CSV normal, quando você tenta abri-lo com a biblioteca Python CSV, ou Pandas, ou R's `read_csv`, ou até mesmo `readr:read_csv`, os dados não são carregados corretamente. Isso acontece porque o arquivo CSV usa um caractere de escape `\` para nomes de filmes que têm vírgulas e os leitores CSV não detectam automaticamente esta variação no formato CSV .  Acontece que isso é um problema bastante comum para cientistas de dados: arquivos CSV são frequentemente confusos e usam um *dialeto incomum*dialeto: como delimitadores estranhos e caracteres de citação incomuns.  Coletivamente, cientistas de dados perdem algum tempo com esses problemas de disputas de dados em que a intervenção manual é necessária. Mas esse problema também não é tão fácil de resolver: para um computador um arquivo CSV é simplesmente uma sequência de caracteres longa e cada dialeto te dará *alguma* tabela. Então, como determinar com precisão o dialecto em geral?
+While on the surface this looks like a regular CSV file, when you try to open it with the Python CSV library, or Pandas, or R's `read_csv`, or even `readr:read_csv`, the data is not loaded correctly. This happens because the CSV file uses an escape character `\` for movie names that have commas in them and the CSV readers don't automatically detect this variation in the CSV format.  It turns out that this is quite a common issue for data scientists: CSV files are often messy and use an uncommon *dialect*: such as strange delimiters and uncommon quote characters.  Collectively, data scientists waste quite some time on these data wrangling issues where manual intervention is needed. But this problem is also not that easy to solve: to a computer a CSV file is simply a long string of characters and every dialect will give you *some* table, so how do we determine the dialect accurately in general?
 
-Recentemente, pesquisadores do Alan Turing Institute apresentaram um método que atinge 97% de precisão em um grande corpus de arquivos CSV, com uma melhoria de 21% em relação às abordagens existentes em arquivos CSV não padrão. Esta pesquisa foi feita para ser reproduzida através do uso do Make e está disponível através de um repositório on-line: [https://github.com/alan-turing-institute/CSV_Wrangling](https://github.com/alan-turing-institute/CSV_Wrangling).
+Recently, researchers from the Alan Turing Institute have presented a method that achieves 97% accuracy on a large corpus of CSV files, with an improvement of 21% over existing approaches on non-standard CSV files. This research was made reproducible through the use of Make and is available through an online repository: [https://github.com/alan-turing-institute/CSV_Wrangling](https://github.com/alan-turing-institute/CSV_Wrangling).
 
-Abaixo, descreveremos brevemente como é o Makefile para esse projeto.  Para o arquivo completo, por favor veja o repositório. O Makefile consiste de várias seções:
+Below we will briefly describe what the Makefile for such a project looks like.  For the complete file, please see the repository. The Makefile consists of several sections:
 
-1. Coleta de dados: porque os dados são coletados de fontes públicas o repositório contém um script Python que permite que qualquer pessoa baixe os dados por meio de um simples comando `faça os dados`.
+1. Data collection: because the data is collected from public sources, the repository contains a Python script that allows anyone to download the data through a simple `make data` command.
 
-2. Todos os números, tabelas e constantes usados no papel são gerados com base nos resultados dos experimentos. Para facilitar a recriar todos os resultados de um certo tipo, `. HONY` metas estão incluídas que dependem de todos os resultados desse tipo (para que você possa executar `faça figuras`). As regras para essas saídas seguem o mesmo padrão dos números no tutorial acima.  Tabelas são criadas como arquivos LaTeX para que possam ser diretamente incluídas na fonte LaTeX para o manuscrito.
+2. All the figures, tables, and constants used in the paper are generated based on the results from the experiments. To make it easy to recreate all results of a certain type, `.PHONY` targets are included that depend on all results of that type (so you could run `make figures`). The rules for these outputs follow the same pattern as those for the figures in the tutorial above.  Tables are created as LaTeX files so they can be directly included in the LaTeX source for the manuscript.
 
-3. As regras para os resultados de detecção seguem uma assinatura específica:
+3. The rules for the detection results follow a specific signature:
 
    ```makefile
    $(OUT_DETECT)/out_sniffer_%.json: $(OUT_PREPROCESS)/all_files_%.txt
-    python $(SCRIPT_DIR)/run_detector.py sniffer $(DETECTOR_OPTS) $<$@
+    python $(SCRIPT_DIR)/run_detector.py sniffer $(DETECTOR_OPTS) $< $@
    ```
 
    The `%` symbol is used to create outputs for both sources of CSV files with a single rule in {ref}`rr-make-examples-patternrules` and the rule uses in {ref}`rr-make-examples-automaticvar` to extract the input and output filenames.
 
-4. Algumas das regras de limpeza removerão arquivos de saída que levam um tempo para criar.  Portanto, eles dependem de um alvo de `check_clean` especial que pede ao usuário para confirmar antes de prosseguir:
+4. Some of the cleaning rules will remove output files that take a while to create.  Therefore, these depend on a special `check_clean` target that asks the user to confirm before proceeding:
 
    ```makefile
-   verificar_limpar:
-    @echo -n "Você tem certeza? [y/N]" && lê ans && [ $$ans == y ]
+   check_clean:
+    @echo -n "Are you sure? [y/N]" && read ans && [ $$ans == y ]
    ```
 
-É importante enfatizar que este arquivo não foi criado de uma só vez, mas foi construído iterativamente. O Makefile começou como uma maneira de executar vários métodos de detecção de dialeto em uma coleção de arquivos de entrada e cresceu gradualmente para incluir a criação de figuras e tabelas dos arquivos de resultado. Assim, o conselho para usar Make for reproducibility é *começar pequeno e começar cedo*.
+It is important to emphasize that this file was not created in one go, but was constructed iteratively. The Makefile started as a way to run several dialect detection methods on a collection of input files and gradually grew to include the creation of figures and tables from the result files. Thus the advice for using Make for reproducibility is to *start small and start early*.
 
-O Makefile publicado no repositório não contém o papel, mas este *está* incluído no relatório interno Makefile e segue a mesma estrutura do `. df` arquivo no tutorial acima. Isso se provou especialmente útil para a colaboração pois apenas um repositório precisava ser compartilhado que contenha o código, os resultados, e o manuscrito.
+The published Makefile in the repository does not contain the paper, but this *is* included in the internal Makefile and follows the same structure as the `report.pdf` file in the tutorial above. This proved especially useful for collaboration as only a single repository needed to be shared that contains the code, the results, and the manuscript.

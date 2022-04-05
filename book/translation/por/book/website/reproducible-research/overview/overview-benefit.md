@@ -1,38 +1,39 @@
 (rr-overview-benefits)=
-# Vantagens adicionadas
+# Added Advantages
 
-Na seção {ref}`rr-over-definitions` (definições), discutimos os diferentes aspectos de pesquisa reprodutível que são benéficos para a comunidade científica. Neste capítulo, partilharemos alguns aspectos menos óbvios do trabalho reprodutível para investigadores e equipas individuais.
+In the {ref}`rr-overview-definitions` section, we discussed the different aspects of reproducible research that are beneficial for the scientific community. In this chapter, we will share some less obvious aspects of working reproducibly for individual researchers and teams.
 
 
 ```{figure} ../../figures/reasons-reproducibility.png
 ---
-nome: reasons-reproducibility
-alt: Por que devemos nos importar em trabalhar reprodutível.
---- Uma ilustração de razões pelas quais devemos nos preocupar em trabalhar reprodutível.
+name: reasons-reproducibility
+alt: Why we should care about working reproducibly.
+---
+An illustration of reasons why we should care about working reproducibly.
 ```
 
-**1. Acompanhe o histórico completo de suas pesquisas**
+**1. Track a complete history of your research**
 
-A pesquisa reprodutível deve conter um histórico completo e narrativo (também conhecido como [Proveniência](https://en.wikipedia.org/wiki/Provenance)) do planejamento e processo de desenvolvimento do projeto. Isso inclui informações sobre os dados, ferramentas, métodos, códigos e documentação usada no projeto de pesquisa. Armazenando um registo completo do nosso trabalho, podemos garantir a sustentabilidade da investigação, uma citação/reconhecimento justo, e a utilidade do trabalho de nosso e de outros em nossos campos de pesquisa.
+Reproducible research must contain a complete history and narrative (also known as [Provenance](https://en.wikipedia.org/wiki/Provenance)) of the project planning and development process. This includes information on the data, tools, methods, codes, and documentation used in the research project. By storing a complete track-record of our work, we can ensure research sustainability, fair citation/acknowledgement, and usefulness of our and others' work in our research fields.
 
-**2. Facilitar o processo de colaboração e revisão**
+**2. Facilitate collaboration and review process**
 
-Criando fluxos de trabalho reprodutíveis e compartilhando-os com os diferentes componentes do nosso projeto de pesquisa. Podemos permitir que outros desenvolvam uma compreensão profunda do nosso trabalho. Isso os encoraja a revisar nossos métodos, testar nosso código, propor mudanças úteis e fazer contribuições pensativas para desenvolver nosso projeto ainda mais. Fluxos de trabalho reproduzíveis facilitam tremendamente o processo de revisão por pares, permitindo aos revisores o acesso às diferentes partes dos projetos que são necessários para validar os resultados da pesquisa.
+By designing reproducible workflows and sharing them with the different components of our research project, we can allow others to develop an in-depth understanding of our work. This encourages them to review our methods, test our code, propose useful changes and make thoughtful contributions to develop our project further. Reproducible workflows facilitate the peer review process tremendously by allowing reviewers access to the different parts of the projects that are necessary to validate the research outcomes.
 
-**3. Publicar pesquisa validada e evitar desinformação**
+**3. Publish validated research and avoid misinformation**
 
-A falta de reprodutibilidade é um dos principais fatores que levam a retrações de papel (fonte [Relógio de Retração](https://retractionwatch.com/)). As mais conhecidas análises de literatura científica na psicologia {cite:ps}`Início de 2012` e biologia de câncer {cite:ps}`OpenScienceCollaboration2015Reproducibility` descobriram as taxas de reprodutibilidade de seus resultados de pesquisa de cerca de 40% e 10%, respectivamente. Trabalhando reprodutamente, podemos desenvolver trabalhos de pesquisa validados, evitar desinformação que possa limitar a replicabilidade do nosso trabalho e publicar resultados de pesquisa precisos. Este aspecto não suporta apenas a validade do trabalho atual. mas quaisquer estudos futuros que sejam baseados na pesquisa reprodutível {cite:ps}`MozillaScienceLab`.
+Lack of reproducibility is one of the major factors that lead to paper retractions (source [Retraction Watch](https://retractionwatch.com/)). The best-known analyses of scientific literature in psychology {cite:ps}`Begley2012` and cancer biology {cite:ps}`OpenScienceCollaboration2015Reproducibility` found the reproducibility rates of their research output of around 40% and 10%, respectively. By working reproducibly, we can develop validated research work, avoid misinformation that can limit replicability of our work and publish accurate research outputs. This aspect does not only support the validity of the current work, but any future studies that are based on reproducible research {cite:ps}`MozillaScienceLab`.
 
-**4. Escreva seus papéis, teses e relatórios de forma eficiente**
+**4. Write your papers, thesis and reports efficiently**
 
-Análises bem documentadas ajudam-nos a manter o fácil acesso a todos os resultados gerados dentro de um projeto que pode ser escrito eficientemente. Se trabalhar em uma equipe, os colaboradores podem facilmente obter reconhecimento em termos de autoria pelas suas contribuições. Além disso, aproveitando o conjunto de dados e os métodos subjacentes, podemos facilmente cumprir as orientações de diário de nível mais elevado.
+Well documented analyses help us maintain easy access to all the results generated within a project that can be written up efficiently. If working in a team, collaborators can easily get recognition in terms of authorship for their contributions. Furthermore, by availing the underlying dataset and methods we can easily comply with the highest-level journal guidelines.
 
-**5. Ganhe créditos pelo seu trabalho de forma justa**
+**5. Get credits for your work fairly**
 
-Aplicar separadamente práticas de reprodutibilidade em diferentes partes do projeto, como dados, códigos executáveis e scripts de forma independente, protocolos e relatórios permitem que outros investigadores testem e reutilizem o nosso trabalho na sua investigação e proporcionam um reconhecimento justo do nosso trabalho. Pesquisadores que publicam seu trabalho com as informações subjacentes, são citados com mais frequência, pois seus resultados de pesquisa podem ser amplamente replicados e confiáveis. Este sistema de crédito justo incentiva os investigadores a continuarem a manter as práticas de reprodutibilidade no seu trabalho.
+Applying reproducibility practices separately on different parts of the project such as data, independently executable codes and scripts, protocols, and reports allow other researchers to test and reuse our work in their research and brings fair recognition for our work. Researchers who publish their work with the underlying information, get cited more often as their research outcome can be broadly replicated and trusted. This fair credit system encourages researchers to further maintain reproducibility practices in their work.
 
-**6. Assegure a continuidade do seu trabalho**
+**6. Ensure continuity of your work**
 
-Seguindo orientações para a reprodução, podemos facilmente comunicar o nosso trabalho com diferentes partes interessadas, tais como supervisores, financiadores, revisores, estudantes e potenciais colaboradores. Este aspecto da reprodutibilidade aumenta a utilidade da nossa investigação, ao permitir que outros possam facilmente tirar partido dos nossos resultados. e reutilize nossos materiais de pesquisa {cite:ps}`MozillaScienceLab`. Isto garante a continuidade de uma ideia de investigação e pode até encontrar novas aplicações noutros contextos. O progresso desses projectos pode ser facilmente rastreado e prosseguido - ou por outros investigadores, ou você mesmo, se quiser construir sobre o seu próprio trabalho após um período mais longo de {cite:ps}`Markowetz2015`.
+By following guidelines for reproducibility, we can easily communicate our work with different stakeholders such as our supervisors, funders, reviewers, students, and potential collaborators. This aspect of reproducibility increases the usefulness of our research by enabling others to easily build on our results, and re-use our research materials {cite:ps}`MozillaScienceLab`. This ensures the continuity of a research idea and can even find fresh applications in other contexts. Progress of such projects can easily be tracked and continued - either by other researchers, or yourself if you want to build on your own work after a longer period {cite:ps}`Markowetz2015`.
 
-Para aprender sobre outros benefícios de trabalhar reprodutivamente em projetos de Pesquisa Aberta estão cobertos no nosso capítulo {ref}`rr-open`.
+To learn about other benefits of working reproducibly on Open Research projects are covered in our {ref}`rr-open` chapter.

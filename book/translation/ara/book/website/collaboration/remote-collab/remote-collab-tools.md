@@ -1,92 +1,92 @@
-crwdns827342:0crwdne827342:0
-# crwdns827344:0crwdne827344:0
+(cl-remote-collab-tools)=
+# Tools for Remote Collaboration
 
-crwdns827346:0crwdne827346:0 crwdns827348:0crwdne827348:0 crwdns827350:0crwdne827350:0
+Many free and commercial tools exist to improve people's experience of planning, organising, and hosting online and hybrid events. To effectively run an event, it is important to choose tools that can maximise the overall success and reduce the risk of things going wrong during the event. We should also consider how user-friendly they are and how they impact the engagement of different stakeholders such as organisers, helpers and attendees.
 
-crwdns827352:0crwdne827352:0 crwdns827354:0crwdne827354:0
+Here is a list of some popular tools for facilitating different aspects of remote collaboration discussed in the earlier subchapter. Please note that we are not a listing conference or webinar-related tools, but only providing those tools that allow an interactive (hence, collaborative) format for online events.
 
-## crwdns827356:0crwdne827356:0
+## Task management tools
 
-crwdns827358:0crwdne827358:0 crwdns827360:0crwdne827360:0
+Every event has several stages of planning and organising that involve numerous tasks as discussed in earlier subchapters. Therefore, it is important to track those tasks in an online event management tool, where the responsible individuals can see their to-dos and deadlines, and collaborate with others.
 
-- crwdns827362:0crwdne827362:0
-- crwdns827364:0crwdne827364:0
-- crwdns827366:0crwdne827366:0
-- crwdns827368:0crwdne827368:0
-- crwdns827370:0crwdne827370:0
+- [Trello](https://trello.com/): online kanban like tools to assign tasks and checklists to individual users and monitor their progress.
+- [Asana](https://asana.com/): online kanban tool that can be used for creating different teams create tasks, set deadlines and send reminders.
+- [Jira](https://www.atlassian.com/software/jira): useful for large event teams to help them track tasks before, during, and after the event.
+- [GitHub project board](https://github.com/features/project-management/): every repository on GitHub can have a project board where tasks can be issues and Pull Requests that can be coordinated, tracked, and updated transparently by all contributors.
+- [notion.so](https://www.notion.so/): This is a high-level project management tool that allows storing reports, creating documents and integrate different tools.
 
-## crwdns827372:0crwdne827372:0
+## Finding a common availability
 
-crwdns827374:0crwdne827374:0
+Meeting scheduling platforms help find a common availability without having to check multiple times with all the intended participant's.
 
-crwdns827376:0crwdne827376:0 crwdns827378:0crwdne827378:0
+Some commonly used options are [Doodle](https://doodle.com/poll/) and [when2meet.com](https://www.when2meet.com/). See more options [here](https://zapier.com/blog/best-meeting-scheduler-apps/).
 
-crwdns827380:0crwdne827380:0
+It is particularly crucial to use meeting links like [arewemeetingyet](https://arewemeetingyet.com/#form) or [create/send calendar invitations](https://www.calendar.com/blog/how-to-send-a-google-calendar-invite/) to communicate these schedules to invitees from different countries and time zones.
 
-## crwdns827382:0crwdne827382:0
+## Creating shared notes
 
-crwdns827384:0crwdne827384:0 crwdns827386:0crwdne827386:0
+A document that can be edited collaboratively in real-time allows all attendees to participate equitably during the online call. This is especially important for creating an opportunity for those who can not (or do not feel comfortable to) actively speak up in group meetings.
 
-- crwdns827388:0crwdne827388:0
-- crwdns827390:0crwdne827390:0
-- crwdns827392:0crwdne827392:0
-- crwdns827394:0crwdne827394:0
+- [Google doc](https://en.wikipedia.org/wiki/Google_Docs): Google Docs is a word processor included as part of a free, web-based Google Docs suite offered by Google within its Google Workspace service.
+- [Etherpad](https://etherpad.org/): Etherpad is an Open Source customisable online editor.
+- [HackMD](https://hackmd.io/): HackMD is an online collaborative document that can be written in [Markdown](https://www.markdownguide.org/) format.
+- [HedgeDoc (previously CodiMD)](https://demo.hedgedoc.org/): HedgeDoc is the community-driven fork of CodiMD, which is the open source version of HackMD.
 
-## crwdns827396:0crwdne827396:0
+## Maintaining shared notes
 
-crwdns827398:0crwdne827398:0
+It is important to create shared notes, but also to save them to share with others and to make them available to refer back to later.
 
-- crwdns827400:0crwdne827400:0
-- crwdns827402:0crwdne827402:0
-- crwdns827404:0crwdne827404:0 crwdns827406:0crwdne827406:0
-- crwdns827408:0crwdne827408:0
+- [Google Drive](https://en.wikipedia.org/wiki/Google_Drive): Google Drive is a file storage and synchronization service developed by Google.
+- [DropBox](https://www.dropbox.com/): Dropbox is a file hosting service operated by the American company Dropbox.
+- [owncloud](https://owncloud.com/): ownCloud is a suite of client-server software for creating and using file hosting services. ownCloud functionally has similarities to the widely used Dropbox.
+- [GitHub](https://github.com/), [GitLab](https://about.gitlab.com/free-trial/) and [BitBucket](https://bitbucket.org/product): Platforms for hosting, sharing and collaborating on documents and software with a version control system (see [this post for detail/difference](https://stackshare.io/stackups/bitbucket-vs-github-vs-gitlab)).
 
-## crwdns827410:0crwdne827410:0
+## Managing event registration
 
-crwdns827412:0crwdne827412:0 crwdns827414:0crwdne827414:0
+Effective event registration is the first place to get to know who will attend your event. It's especially important when the events are intended for a large group of people.
 
-- crwdns827416:0crwdne827416:0
-- crwdns827418:0crwdne827418:0 crwdns827420:0crwdne827420:0 crwdns827422:0crwdne827422:0
-- crwdns827424:0crwdne827424:0
+- [Zoom](https://support.zoom.us/hc/en-us/articles/204619915-Scheduling-a-Webinar-with-Registration): Scheduling an online meeting and webinar with registration on Zoom provides an automatic brief form before receiving the link to join your webinar.
+- [Eventbrite](https://www.eventbrite.com/): An event management and ticketing website. The service allows users to browse, create, and promote local events. The service charges a fee to event organizers in exchange for the online ticketing services, unless the event is free.
+- [Google Form](https://en.wikipedia.org/wiki/Google_Forms): Google Forms is a survey administration software that allows registration/data collection that can be automatically entered into a spreadsheet.
 
-## crwdns827426:0crwdne827426:0
+## Hosting online calls
 
-crwdns827428:0crwdne827428:0 crwdns827430:0crwdne827430:0
+Video conferencing is probably the most important aspect of organising and hosting an online event. An effective software allows the creation of a meeting link or dial-in number that can be shared with others who can join scheduled or in-progress calls.
 
-- crwdns827432:0crwdne827432:0
-- crwdns827434:0crwdne827434:0
-- crwdns827436:0crwdne827436:0
-- crwdns827438:0crwdne827438:0
-- crwdns827440:0crwdne827440:0
+- [Zoom](https://zoom.us): Zoom is a cloud-based video conferencing service that can be attended either by video or audio-only or both, with live chats that can be recorded to view/share.
+- [Google Meet](https://en.wikipedia.org/wiki/Google_Meet): Google Meet is a communications platform that facilitates messaging and video chatting.
+- [Skype](https://www.skype.com/en/): Skype is a telecommunications application that specializes in providing video chat and voice calls.
+- [Jisti](https://meet.jit.si/): Jitsi is a collection of free and open-source multiplatform voice, videoconferencing and instant messaging applications for the web platform.
+- [Webex](https://www.webex.com/): Cisco Webex develops and sells web conferencing and videoconferencing applications.
 
-## crwdns827442:0crwdne827442:0
+## Facilitating informal interactions
 
-crwdns827444:0crwdne827444:0
-- crwdns827446:0crwdne827446:0
-- crwdns827448:0crwdne827448:0
-- crwdns827450:0crwdne827450:0
+A communication platform and chat system is a good way to connect all the attendees before, during and after the event.
+- [Slack](https://slack.com/): Slack offers real-time chat features, including persistent chat rooms organized by topic, private groups, and direct messaging.
+- [Gitter](https://gitter.im/): Gitter is a chat and networking platform for messaging for communities.
+- Web-based or phone applications like WhatsApp and telegram ([see more](https://www.makeuseof.com/tag/messaging-apps-phone-computer/)).
 
-## crwdns827452:0crwdne827452:0
+## Web-based timers
 
-crwdns827454:0crwdne827454:0
-- [crwdns827458:0crwdne827458:0](crwdns827456:0crwdne827456:0)
-- [crwdns827462:0crwdne827462:0](crwdns827460:0crwdne827460:0)
+An online timer that can be created on a web-browser and shared with a distributed team to have more productive meeting formats.
+- [cuckoo.team](https://cuckoo.team/)
+- [vclock](https://vclock.com/timer/)
 
-## crwdns827464:0crwdne827464:0
+## Online polling
 
-crwdns827466:0crwdne827466:0 crwdns827468:0crwdne827468:0 crwdns827470:0crwdne827470:0 crwdns827472:0crwdne827472:0 crwdns827474:0crwdne827474:0
+Event Polling tools can be used for asking questions and receiving feedback from attendees in real-time. They create an interactive experience for the participants through question and answer (Q&A) sessions during the event. A dedicated link can be created for each event to share with the participants who can post their questions to be discussed in the meeting or respond to polls set by the speakers or organisers before the event. Such tools not only collect answers but also analyse, summarise and visualise them as word clouds and plots in real-time that can be shared with everyone. Two commonly used tools are:
 
-- [crwdns827478:0crwdne827478:0](crwdns827476:0crwdne827476:0)
-- [crwdns827482:0crwdne827482:0](crwdns827480:0crwdne827480:0)
+- [sli.do](https://www.sli.do/)
+- [mentimeter](https://www.mentimeter.com/)
 
-crwdns827484:0crwdne827484:0
+Read more about event polling in [this post](https://www.encore-anzpac.com/event-services/live-polling-for-events) and find more apps with feature analysis in [this post](https://www.worksup.com/event-interaction-app-feature-comparison/).
 
-## crwdns827486:0crwdne827486:0
+## Pre- and post-event surveys
 
-crwdns827488:0crwdne827488:0 crwdns827490:0crwdne827490:0
+Pre-event surveys can be used for managing day-to-day work with the organisers, inviting ideas and suggestions from different stakeholders of the event and setting expectations by communicating about your event beforehand with everyone. Post-event surveys are used for gathering feedback from everyone regarding their experience from past events and suggestions to improve future events.
 
-- crwdns827492:0crwdne827492:0
-- crwdns827494:0crwdne827494:0
-- crwdns827496:0crwdne827496:0 crwdns827498:0crwdne827498:0
+- [Google Form](https://en.wikipedia.org/wiki/Google_Forms): Google Forms is a survey administration software that allows data collection that can be automatically entered into a spreadsheet.
+- [Survey Monkey](https://www.surveymonkey.com/): This is one of the most popular tool, available with limited features (10 questions and 100 respondents for free) and provides many features including templates for the paid version.
+- [Typeform](https://www.typeform.com/surveys/): Allows developing surveys in a more creative manner. The free version can be used only for a small group.
 
-*crwdns827500:0crwdne827500:0*
+***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*

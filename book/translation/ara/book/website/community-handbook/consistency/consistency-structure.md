@@ -1,91 +1,100 @@
-crwdns836168:0crwdne836168:0
-# crwdns836170:0crwdne836170:0
+(ch-consistency-structure)=
+# Structure
 
-crwdns836172:0crwdne836172:0 crwdns836174:0crwdne836174:0
+Structure refers to how _The Turing Way_ is organised. A good structural framework ensures that _The Turing Way's_ content is presented in an orderly manner.
 
-crwdns836176:0crwdne836176:0
-## crwdns836178:0crwdne836178:0
+(ch-consistency-structure-hr)=
+## Hard Requirements
 
-crwdns836180:0crwdne836180:0
+The hard checks that deal with _The Turing Way's_ structure include:
 
-crwdns836182:0crwdne836182:0
-### crwdns836184:0crwdne836184:0
+(ch-consistency-structure-hr-emptyfiles)=
+### Check 1: Do not add empty files in the `_toc.yml`
 
-crwdns836186:0crwdne836186:0 crwdns836188:0crwdne836188:0 crwdns836190:0crwdne836190:0
+The `_toc.yml` file is where _The Turing Way's_ table of contents (ToC) lives. Some files referenced in the ToC are empty, and their inclusion means that readers can navigate to an empty (sub)chapter while reading _The Turing Way_. This negatively impacts the reader's experience as they go through the book.
 
 ```{figure} ../../figures/empty-toc-file.png
-crwdns836192:0crwdne836192:0 crwdns836194:0crwdne836194:0
-crwdns836196:0crwdne836196:0
+---
+name: empty-toc-file
+alt: An empty file that was included in the Turing Way's Table of Contents. Readers can still navigate to empty files when they are included in the table of contents.
+---
+Empty files included Turing Way's Table of Contents can still be accessed by readers.
 ```
 
-crwdns836198:0crwdne836198:0 crwdns836200:0crwdne836200:0
+A general suggestion is to remove references to such files from the ToC and raise an issue in _The Turing Way_ Github [repo](https://github.com/alan-turing-institute/the-turing-way) for content to be written for those files. When the content is written, the files can then be added to the ToC.
 
-crwdns836202:0{ref}crwdne836202:0
+For example, [this issue](https://github.com/alan-turing-institute/the-turing-way/issues/1391) curates a list of empty and incomplete files currently in _The Turing Way_, and [this PR](https://github.com/alan-turing-institute/the-turing-way/pull/1448) writes content for the `Data Licences` subchapter shown in the {ref}`image <empty-toc-file>`.
 
-crwdns836204:0crwdne836204:0
-### crwdns836206:0crwdne836206:0
+(ch-consistency-structure-hr-structure)=
+### Check 2: Ensure chapters follow a consistent structure
 
-crwdns836208:0crwdne836208:0 crwdns836210:0crwdne836210:0
+_The Turing Way_ is made up of five guides that contain several chapters and subchapters. However, these chapters do not follow a uniform structure, taking away from the reader's experience.
 
 ```{figure} ../../figures/recommended-chapter-structure.png
-crwdns836212:0crwdne836212:0 crwdns836214:0crwdne836214:0 crwdns836216:0crwdne836216:0
-crwdns836218:0crwdne836218:0
+---
+name: recommended-chapter-structure
+alt: The recommended structure for chapters in The Turing Way. Chapters should have a landing page with a sections for prerequisites, summary, and why the chapter is useful. Chapters should also have a checklist and a resources subchapter in addition to the rest of the chapter content.
+---
+Recommended structure for chapters in The Turing Way.
 ```
 
-- **crwdns836220:0crwdne836220:0**
-    - crwdns836222:0crwdne836222:0
-- **crwdns836224:0crwdne836224:0**
-    - crwdns836226:0crwdne836226:0 crwdns836228:0crwdne836228:0
-- **crwdns836230:0crwdne836230:0**
-    - crwdns836232:0crwdne836232:0
-- **crwdns836234:0crwdne836234:0**
-    - crwdns836236:0crwdne836236:0
+- **Landing page:**
+    - The chapter's landing page should include information about any prerequisites required to understand the chapter, a summary of the chapter's content, and an explanation of why the chapter is useful.
+- **Subchapters:**
+    - A chapter can contain any number of subchapters or none at all. However, please note the next requirement about the checklist and resources subchapters.
+- **Checklist subchapter:**
+    - The checklist subchapter itemizes action points for the reader to take based on the concepts introduced in the chapter.
+- **Resources subchapter:**
+    - The resources subchapter points the reader to other sources where they can learn more about the concepts discussed in the chapter, as well as related topics to explore.
 
 
 ```{attention} Please note that making chapters follow this structure may require splitting some of the existing content into new files.
-crwdns836238:0crwdne836238:0
+References to these files should be updated in the table of contents in the `_toc.yml` file.
 ```
 
-crwdns836240:0crwdne836240:0 crwdns836242:0crwdne836242:0
+Refer to the [chapter template](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/templates/chapter-template) to structure new chapter contributions, and use it to assess current chapters in _The Turing Way_. For chapters that do not fit this structure, please raise a Pull Request.
 
 
-crwdns836244:0crwdne836244:0
-### crwdns836246:0crwdne836246:0
+(ch-consistency-structure-hr-toc)=
+### Check 3: Do not add a 'table of content' in chapters or subchapters.
 
-crwdns836248:0crwdne836248:0 crwdns836250:0crwdne836250:0 crwdns836252:0crwdne836252:0
+Some chapters in _The Turing Way_ were written with a hand-crafted table of contents. However, Jupyter Book auto-generates a permanent table of contents that can be found on the left side of _The Turing Way_ book, and a dynamic, page-specific table of content located at the top-right of each page. This makes a manually written table of contents unnecessary, and it may negatively impact a reader's experience with _The Turing Way_.
 
 ```{figure} ../../figures/many-table-of-contents.png
-crwdns836254:0crwdne836254:0 crwdns836256:0crwdne836256:0
-crwdns836258:0crwdne836258:0
+---
+name: many-table-of-contents
+alt: A subchapter in The Turing Way with three table of contents. Two that are generated by Jupyter Book and one made by the chapter author.
+---
+The manually written table of contents is unnecessary as Jupyter Book auto-generates two separate table of contents.
 ```
-#### crwdns836260:0crwdne836260:0
+#### Demo
 
 <div class="video-content">
-    <iframe width="560" height="315" src="crwdns836262:0crwdne836262:0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zKWrvgCxSB0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-crwdns836264:0crwdne836264:0
-### crwdns836266:0crwdne836266:0
+(ch-consistency-structure-hr-citing)=
+### Ensure external sources are properly cited and referenced
 
-crwdns836268:0{ref}crwdne836268:0 crwdns836270:0crwdne836270:0
+As described in the {ref}`style guide<ch-style-citing>`, _The Turing Way_'s book-wide references are stored in a BibTeX file called `references.bib`. When writing new content, ensure that information culled from external sources are cited using the BibTeX format and added to the `references.bib` file as appropriate.
 
-crwdns836272:0{ref}crwdne836272:0
-
-
-crwdns836274:0crwdne836274:0
-## crwdns836276:0crwdne836276:0
-
-crwdns836278:0crwdne836278:0
-
-crwdns836280:0crwdne836280:0
-### crwdns836282:0crwdne836282:0
-
-crwdns836284:0crwdne836284:0 crwdns836286:0crwdne836286:0 crwdns836288:0crwdne836288:0 crwdns836290:0crwdne836290:0
+The {ref}`style guide<ch-style-citing>` demonstrates how to add a new reference to the centralised BibTeX file, and shows how this reference can be included in your writing.
 
 
-crwdns836292:0crwdne836292:0
-### crwdns836294:0crwdne836294:0
+(ch-consistency-structure-soft-req)=
+## Soft Requirements
 
-crwdns836296:0crwdne836296:0 crwdns836298:0crwdne836298:0 crwdns836300:0crwdne836300:0
+Soft requirements that deal with _The Turing Way's_ structure include:
 
-crwdns836302:0crwdne836302:0 crwdns836304:0crwdne836304:0
+(ch-consistency-structure-sr-summary)=
+### Check 1: Ensure each chapter has a good summary in their landing page
+
+A chapter with a good summary gives the reader an overview of the content that follows. Ideally, summaries should communicate the main idea of the chapter and identify any supporting detail, but be brief and precise. Summaries should also adequately cross-reference the chapter's subchapters, for the benefit of readers who may want to quickly explore the topics the summary introduces. Chapters in _The Turing Way_ that contain summaries that do not fit these criteria may need to be reworded or rewritten.
+
+
+(ch-consistency-structure-sr-modular)=
+### Check 2: Split long chapters into smaller subchapters so they are modular
+
+Long chapters may be difficult for some readers to go through. Furthermore, very long content can be intimidating for other readers who may only be interested in the main ideas the chapter talks about. Therefore, to make  _The Turing Way_ easier to read, long chapters should be appropriately modularised.
+
+When keeping chapters modular, ensure that its subchapters only talk about one aspect of the overall topic. For example, if a chapter on Machine Learning was to be written for _The Turing Way_, such a chapter should contain at least three subchapters that each focus Supervised Learning, Unsupervised Learning, and Reinforcement Learning.

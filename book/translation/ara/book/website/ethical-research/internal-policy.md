@@ -1,39 +1,42 @@
-crwdns840278:0crwdne840278:0
-# crwdns840280:0crwdne840280:0
+(er-internal-policy)=
+# Internal Policy Advocacy
 
-crwdns840282:0crwdne840282:0 crwdns840284:0crwdne840284:0
+Internal policy advocacy is when individuals or groups associated with an organisation campaign for a change in the way that the organisation makes decisions, runs projects, chooses collaborators, develops products, or in other areas. It can be a really powerful tool for change, regardless of whether or not the group of people campaigning are in a union.
 
 ```{figure} ../figures/advocacy.jpg
-crwdns840286:0crwdne840286:0
-crwdns840288:0crwdne840288:0 crwdns840290:0crwdne840290:0 crwdns840292:0crwdne840292:0 crwdns840294:0crwdne840294:0
+---
+name: advocacy
+alt: One person signs a petition held by another person, in front of a group of people marching under a banner reading "Advocacy!"
+---
+There are different ways to take part in advocacy. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.4906004](https://doi.org/10.5281/zenodo.4906004).
 ```
 
-## crwdns840296:0crwdne840296:0
-crwdns840298:0crwdne840298:0
-1. crwdns840300:0crwdne840300:0
-    - crwdns840302:0crwdne840302:0
-    - crwdns840304:0crwdne840304:0 crwdns840306:0crwdne840306:0 crwdns840308:0crwdne840308:0 crwdns840310:0crwdne840310:0
-    - crwdns840312:0crwdne840312:0
-2. crwdns840314:0crwdne840314:0
-    - crwdns840316:0crwdne840316:0
-    - crwdns840318:0crwdne840318:0
-    - crwdns840320:0crwdne840320:0
-    - crwdns840322:0crwdne840322:0
-3. crwdns840324:0crwdne840324:0
-    - crwdns840326:0crwdne840326:0
-    - crwdns840328:0crwdne840328:0
-    - crwdns840330:0crwdne840330:0
-    - crwdns840332:0crwdne840332:0
-4. crwdns840334:0crwdne840334:0
-    - crwdns840336:0crwdne840336:0 crwdns840338:0crwdne840338:0 crwdns840340:0crwdne840340:0
-    - crwdns840342:0crwdne840342:0
-    - crwdns840344:0crwdne840344:0
-5. crwdns840346:0crwdne840346:0
-    - crwdns840348:0crwdne840348:0
-    - crwdns840350:0crwdne840350:0
-    - crwdns840352:0crwdne840352:0
+## How to advocate internally
+A basic set of steps you can take for internal policy advocacy (adapted from [guidelines](https://knowhow.ncvo.org.uk/how-to/how-to-run-effective-campaigns) produced by the NCVO in the UK, used under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license):
+1. Define the issue
+    - What is the problem that you are concerned about?
+    - Is it linked to other issues or policies? Tools like [problem trees](https://www.odi.org/publications/5258-planning-tools-problem-tree-analysis) can be useful to map out what else is contributing to the problem. It might be the case that the policy you are worried about builds on other internal policies or problems. You might want to campaign against those instead.
+    - Can you encapsulate the problem in a short, easy-to-understand message?
+2. Gather evidence
+    - Research the issue you are campaigning about thoroughly
+    - You might want to collect documentary evidence, testimonials, media coverage, academic work, about the issue
+    - Put together a clear, concise argument about the problems and what you think needs to change
+    - Prepare yourself to answer difficult questions about your issue, why it is real and why it is important
+3. Find useful allies
+    - Target people who understand your cause or have a connection to it.
+    - Get in touch with organisations set up to help causes such as yours (ask for advice, access to experts).
+    - Get endorsement from people who hold power in your field, or in other areas
+    - Find ways to involve your colleagues, inside and outside the organisation: for example, signing a petition can be a first step
+4. Know who to lobby
+    - Identify your routes of influence. Who is in a position to make change? How will you reach them?
+    - Think about your own contacts: can you reach people in charge directly, or do you need to go via other people
+    - Don't get disheartened at the first hurdle, lobbying is hard work!
+5. Use a range of tactics
+    - Emails, media coverage and a good website are all useful.
+    - BUT... try a little more creativity - what would make your campaign stand out and get people talking?
+    - Don't forget to assess how you're doing (number of signatures on a petition, number of times the issue is raised at an all-hands meeting
 
-crwdns840354:0crwdne840354:0 crwdns840356:0crwdne840356:0 crwdns840358:0crwdne840358:0 crwdns840360:0crwdne840360:0 
+You should also think about the potential risks to you and your colleagues for speaking up. Many people are reluctant to engage in advocacy or lobbying in their workplace, because they risk losing their livelihoods if there is retaliation against them. Union membership can offer some protection against this: campaigning can be done by the union as a collective, rather than by individual workers. Think about other things that might go wrong, or that might dissuade your colleagues from speaking up, and see if you can find a way to mitigate them. 
 
 
 

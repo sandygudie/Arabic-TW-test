@@ -1,20 +1,20 @@
-# crwdns835602:0crwdne835602:0
+# 3 Incident Reporting Guidelines
 
-crwdns835604:0crwdne835604:0
-## crwdns835606:0crwdne835606:0
+(ch-coc-reporting)=
+## 3.1 Contact points
 
-crwdns835608:0crwdne835608:0
+If you feel able to, please contact Kirstie Whitaker by email at [kwhitaker@turing.ac.uk](mailto:kwhitaker@turing.ac.uk).
 
-## crwdns835610:0crwdne835610:0
+## 3.2 Alternate contact points
 
-crwdns835612:0crwdne835612:0
+If you do not feel comfortable contacting Kirstie Whitaker, please report an incident to Anna Krystalli by email at [a.krystalli@sheffield.ac.uk](mailto:a.krystalli@sheffield.ac.uk).
 
-crwdns835614:0crwdne835614:0
+Alternatively, if you would like to contact someone outside of the core development team, please contact Ben Murton by email at [bmurton@turing.ac.uk](mailto:bmurton@turing.ac.uk).
 
-## crwdns835616:0crwdne835616:0
+## 3.3 What to do if someone is in physical danger
 
-crwdns835618:0crwdne835618:0
+If you believe someone is in physical danger, please contact the appropriate emergency responders.
 
-## crwdns835620:0crwdne835620:0
+## 3.4 Code of Conduct Enforcement
 
-crwdns835622:0crwdne835622:0
+A detailed enforcement policy is available in the Enforcement Manual below.

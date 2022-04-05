@@ -1,23 +1,23 @@
 (cl-maintain-review)=
-# Mantenedores e Revisores no GitHub
+# Maintainers and Reviewers on GitHub
 
-## Pré-requisitos
+## Prerequisites
 
-| Pré-requisito                                           | Importância |
-| ------------------------------------------------------- | ----------- |
-| {ref}`Experiência com controle de versão<rr-vcs>` | Útil        |
+| Prerequisite                                         | Importance |
+| ---------------------------------------------------- | ---------- |
+| {ref}`Experience with version control<rr-vcs>` | Helpful    |
 
 ## Summary
-Para qualquer projeto de código aberto uma das tarefas mais desafiadoras para um novo colaborador é identificar formas de se envolver fazendo contribuições on-line para propor alterações adequadas. Os mantenedores de projeto dedicados da equipe principal do projeto ou comunidade de voluntários muitas vezes assumem a função de apoiar tais contribuições por outros colaboradores. Diretrizes de contribuição de projetos de código aberto descrevem como membros da comunidade podem fazer tal contribuição, mas muitas vezes não explicam como é que se pode contribuir para o projecto tornando-se um mantenedor do projecto.
+For any open source project, one of the most challenging tasks for a new contributor is to identify ways to get involved by making online contributions to propose appropriate changes. Contribution guidelines of open source projects outline how community members can make such a contribution, but they often do not explain how one can contribute to the project by becoming a project maintainer. Dedicated project maintainers from the project's core team or volunteer community often take up the role of supporting such contributions by other contributors.
 
-Este subcapítulo lança luz sobre o papel e as tarefas de mantenedores do projeto que gerenciam ou coordenam as discussões da comunidade e as contribuições, apoie o desenvolvimento de recursos, ajude no teste de issues e revise Pull Requests ou PRs em um projeto colaborativo online no GitHub. Fornece também as melhores práticas a serem utilizadas enquanto contribui para um projeto como mantenedor.
+This subchapter sheds light on the role and tasks of such project maintainers who manage or coordinate community discussions, mentor contributions, support resource development, help in issue triaging, and review Pull Requests or PRs on an online collaborative GitHub project. It also provides the best practices to be used while contributing to a project as a maintainer.
 
-### Este subcapítulo cobri:
+### This subchapter covers:
 
-Este capítulo será particularmente útil para os membros da comunidade que desejam fornecer suporte em manutenção e revisão no trabalho de _The Turing Way_  repository e projetos similares online.
+This chapter will be particularly useful for the community members who want to provide support in maintenance and review work in _The Turing Way_  repository and or similar projects online.
 
-O fluxo de trabalho Git é difícil de entender, especialmente ao colaborar com um grupo de contribuidores de um projeto. Portanto, este capítulo visa guiar os processos de revisão para que todas as contribuições feitas em um projeto no GitHub sejam feitas regularmente e apropriadamente.
+The Git workflow is difficult to understand, especially when collaborating with a group of contributors for a project. Hence, this chapter aims to guide the review processes so that all the contributions made on a GitHub project are regularly and properly done.
 
-### Este subcapítulo não cobri:
+### This subchapter does not cover:
 
-Por favor, note que não se trata de um guia "como" sobre como fazer contribuições, mas sim de uma lista das principais responsabilidades de um mantenedor do projeto e de como essas responsabilidades devem idealmente ser executadas ao trabalhar em projetos on-line e colaborativos.
+Please note that it is not a "how-to" guide to how to make contributions but lists the major responsibilities of a project maintainer and how these responsibilities should ideally be carried out when working in online and collaborative projects.

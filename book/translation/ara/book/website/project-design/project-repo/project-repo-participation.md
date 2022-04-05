@@ -1,52 +1,52 @@
-crwdns842876:0crwdne842876:0
-# crwdns842878:0crwdne842878:0
+(pd-project-repo-participation)=
+# Participation Guidelines
 
-crwdns842880:0crwdne842880:0
+In addition to setting out some ground rules for communication in your project, you might want to provide some guidelines (contribution guidelines) and social norms (Code of Conduct) that potential collaborators should follow to add their contributions.
 
-crwdns842882:0crwdne842882:0
-## crwdns842884:0crwdne842884:0
+(pd-project-repo-participation-guideline)=
+## Contribution Guidelines
 
-crwdns842886:0crwdne842886:0 crwdns842888:0crwdne842888:0
+Those instructions are laid out in a CONTRIBUTING file (this is an idea borrowed from software engineering where capitalised filenames are the norm for the most important files of a project). A CONTRIBUTING file describes how others may contribute to the project and engage with other contributors (or a community).
 
-crwdns842890:0crwdne842890:0
+Your audiences for the contributing guidelines are your potential contributors who need to understand what is expected from them, project consumers who need to know how they can remix and re-use your work, and yourself who creates and maintains the file as a key part to outline interactions with your community.
 
-crwdns842892:0crwdne842892:0
+Here are a few suggestions of what your contributing guidelines could cover:
 
-* crwdns842894:0crwdne842894:0
-* crwdns842896:0crwdne842896:0
-* crwdns842898:0crwdne842898:0
-* crwdns842900:0crwdne842900:0
-* crwdns842902:0crwdne842902:0
-* crwdns842904:0crwdne842904:0
-* crwdns842906:0crwdne842906:0
-* crwdns842908:0crwdne842908:0
-* crwdns842910:0crwdne842910:0
-* crwdns842912:0crwdne842912:0
+* Your project vision.
+* A welcome to potential contributors.
+* Pointers to the Code of Conduct.
+* A list of other important resources such as the README file or your project's roadmap.
+* Communication channels where contributors can reach you.
+* How to submit changes.
+* Good first bugs or issues to start working on.
+* How to report a bug.
+* Your recognition model and how contributions will get acknowledged.
+* Where to go for help.
 
-crwdns842914:0crwdne842914:0
+Like other key documents, it is recommended that you look at examples of and reuse contribution guidelines of open source projects like [_The Turing Way_](https://github.com/alan-turing-institute/the-turing-way/blob/lottycoupat-roadmapping-casestudy/CONTRIBUTING.md) that describes how you can contribute or re-this project.
 
-crwdns842916:0crwdne842916:0
-## crwdns842918:0crwdne842918:0
+(pd-project-repo-participation-coc)=
+## Code of Conduct
 
-> crwdns842920:0crwdne842920:0
+> Code of Conduct, commonly abbreviated as “CoC”, is a set of rules outlining the social norms, rules, & responsibilities of an individual project, party or organization.
 
-crwdns842922:0crwdne842922:0 crwdns842924:0crwdne842924:0 crwdns842926:0crwdne842926:0 crwdns842928:0crwdne842928:0
-* crwdns842930:0crwdne842930:0
-* crwdns842932:0crwdne842932:0
+If your project is open for individuals to contribute and foster a community, your project should be designed to be welcoming and inclusive to thrive. One way to establish guidelines for participating in your project is to create a CoC and Participating Guidelines. These documents can be used for virtual interactions but also for any events you might host related to your project. Codes of Conduct serve two main purposes:
+* Establishing the kind of behaviour encouraged in the community you would like to create as well as clearly outlining unacceptable behaviour.
+* Outlining the process by which problems or violations of the guidelines will be addressed and who will be in charge of enforcing the Code of Conduct.
 
-crwdns842934:0crwdne842934:0 crwdns842936:0crwdne842936:0 crwdns842938:0crwdne842938:0
+We should also provide clear guidelines for how to process incidents if something happens, from reporting to enforcement. It is very important to enforce the CoC, the only thing that is worse than not having one, is not enforcing it. By prominently displaying and practising these guidelines, you can ensure that social behaviour expectations are modelled and encouraged among all participants, including the project leadership.
 
-crwdns842940:0crwdne842940:0
-* crwdns842942:0crwdne842942:0
-* crwdns842944:0crwdne842944:0
-* crwdns842946:0crwdne842946:0
-* crwdns842948:0crwdne842948:0
+You can create your own CoC by using the following process:
+* Brainstorm core words that represent community values
+* Consider behaviours to encourage/discourage
+* Think through the process for enforcement, incident reporting & response
+* Understand/accept your role as project lead and act collaboratively
 
-crwdns842950:0crwdne842950:0 crwdns842952:0crwdne842952:0 crwdns842954:0crwdne842954:0
+It is recommended to select and adapt a well established Code of Conduct. Many openly developed projects have a Code of Conduct in place that often is openly licensed and can be re-used and adapted for your own project. The [Turing Way Code of Conduct](https://github.com/alan-turing-institute/the-turing-way/blob/main/CODE_OF_CONDUCT.md) is one example of a Code of Conduct built on various existing ones and can be adapted further.
 
-crwdns842956:0crwdne842956:0
-- [crwdns842960:0crwdne842960:0](crwdns842958:0crwdne842958:0)
-- [crwdns842964:0crwdne842964:0](crwdns842962:0crwdne842962:0)
-- [crwdns842968:0crwdne842968:0](crwdns842966:0crwdne842966:0)
-- [crwdns842972:0crwdne842972:0](crwdns842970:0crwdne842970:0)
-- [crwdns842976:0crwdne842976:0](crwdns842974:0crwdne842974:0)
+You can also consult the following references and templates to get started on a code of conduct for your project.
+- [opensource.guide for CoC](http://opensource.guide/code-of-conduct/)
+- [Contributor Covenant example of CoC](http://contributor-covenant.org/)
+- [The Carpentries CoC](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html)
+- [CSV,Conf conference CoC](https://github.com/csvconf/csvconf.com/blob/gh-pages/coc.md)
+- [PyCon CoC](https://us.pycon.org/2020/about/code-of-conduct/)

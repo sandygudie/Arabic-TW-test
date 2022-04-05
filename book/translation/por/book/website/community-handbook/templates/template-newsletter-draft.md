@@ -1,16 +1,18 @@
 (ch-template-newsletter-draft)=
-# Modelo para redigir _The Turing Way_ Boletins
+# Template for drafting _The Turing Way_ Newsletters
 
 ```
-Data: Mês DD YYYY
+Date: DD Month YYYY
 
-# título Olá Turing Way amigos!
+# title
 
-Este mês...
+Hello Turing Way friends!
 
-Gritar ...
+This month ...
 
-Eventos ...
+Shout out ...
+
+Events ...
 
 Find more details on these topics below 👇
 
@@ -47,9 +49,11 @@ Find more details on these topics below 👇
 - [Slack channel](https://join.slack.com/t/theturingway/shared_invite/zt-fn608gvb-h_ZSpoA29cCdUwR~TIqpBw)
 - [Public Gitter channel](https://gitter.im/alan-turing-institute/the-turing-way)
 - [YouTube Videos](https://www.youtube.com/channel/UCPDxZv5BMzAw0mPobCbMNuA)
-- [Twitter Channel](https://twitter.com/turingway) You are welcome to contribute content for the next newsletter by
+- [Twitter Channel](https://twitter.com/turingway)
+
+You are welcome to contribute content for the next newsletter by
 emailing [Malvika Sharan](mailto:msharan@turing.ac.uk).
 
-*Perdeu as últimas newsletters?*
-*Confira os textos [here](https://tinyletter.com/TuringWay/archive).*
+*Did you miss the last newsletters?*
+*Check them out [here](https://tinyletter.com/TuringWay/archive).*
 ```

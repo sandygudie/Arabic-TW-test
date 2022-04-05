@@ -1,35 +1,35 @@
-crwdns831746:0crwdne831746:0
-# crwdns831748:0crwdne831748:0
+(cm-citable-checklist)=
+# Checklists and Resources
 
-crwdns831750:0crwdne831750:0
-## crwdns831752:0crwdne831752:0
+(cm-citable-checklist-authors)=
+## Checklist For Authors
 
-- crwdns831754:0crwdne831754:0
-- crwdns831756:0crwdne831756:0
-- crwdns831758:0crwdne831758:0
-- crwdns831760:0crwdne831760:0
+- Pick out key datasets and software your conclusions rely on
+- Cite data and software just like you would cite a paper
+- Publish your own data/software and cite that too
+- Get an [ORCID ID!](https://orcid.org/)
 
-crwdns831762:0crwdne831762:0
-## crwdns831764:0crwdne831764:0
+(cm-citable-checklist-data)=
+## For Data Creators
 
-- crwdns831766:0crwdne831766:0
-- crwdns831768:0crwdne831768:0
-- crwdns831770:0crwdne831770:0
+- Deposit your data in a stable repository
+- Get a persistent identifier (DOI) for your data
+- Include an example citation in your dataset's README file
 
-crwdns831772:0crwdne831772:0
-## crwdns831774:0crwdne831774:0
+(cm-citable-checklist-software)=
+## For Software Developers
 
-- crwdns831776:0crwdne831776:0
-- crwdns831778:0crwdne831778:0
-- crwdns831780:0crwdne831780:0
+- Deposit key version snapshots of your software in a stable repository
+- Get a distinct persistent identifier for each key version
+- Include an example citation in your software manual
 
-crwdns831782:0crwdne831782:0
-## crwdns831784:0crwdne831784:0
+(cm-citable-checklist-recommendation)=
+## Further Recommendation
 
-- [crwdns831788:0crwdne831788:0](crwdns831786:0crwdne831786:0)
-- [crwdns831792:0crwdne831792:0](crwdns831790:0crwdne831790:0)
-- [crwdns831796:0crwdne831796:0](crwdns831794:0crwdne831794:0)
-- [crwdns831800:0crwdne831800:0](crwdns831798:0crwdne831798:0)
-- [crwdns831804:0crwdne831804:0](crwdns831802:0crwdne831802:0)
-- [crwdns831808:0crwdne831808:0](crwdns831806:0crwdne831806:0)
-- [crwdns831812:0crwdne831812:0](crwdns831810:0crwdne831810:0)
+- [DataCite Citation Guidance](https://datacite.org/cite-your-data.html)
+- [FAIR data principles](https://www.force11.org/group/fairgroup/fairprinciples)
+- [FORCE11 Data Citation principles](https://www.force11.org/datacitationprinciples)
+- [FORCE11 Software Citation principles](https://www.force11.org/software-citation-principles)
+- [Getting Started with your ORCID record](https://support.orcid.org/hc/en-us/articles/360006896894-Getting-started-with-your-ORCID-record)
+- [Making software citeable](https://guide.esciencecenter.nl/citable_software/making_software_citable.html)
+- [OpenAIRE Guide on Person Identifiers](https://www.openaire.eu/how-can-identifiers-improve-the-dissemination-of-your-research-outputs)

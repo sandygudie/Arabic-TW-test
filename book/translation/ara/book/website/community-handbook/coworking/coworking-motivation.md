@@ -1,67 +1,67 @@
-crwdns836780:0crwdne836780:0
-# crwdns836782:0crwdne836782:0
+(ch-coworking-motivation)=
+# Background, Motivations, and Techniques
 
-## crwdns836784:0crwdne836784:0
+## Background and Motivation
 
-crwdns836786:0crwdne836786:0 crwdns836788:0crwdne836788:0
+When _The Turing Way_ started with around 10 members located in the United Kingdom, they could work in real-time and often together in the same location. They shared ideas, helped each other out, got huge amounts of writing, editing and reviewing done, and had lots of fun interacting with each other.
 
-crwdns836790:0crwdne836790:0 crwdns836792:0crwdne836792:0 crwdns836794:0crwdne836794:0 crwdns836796:0crwdne836796:0
+To help the community of contributors grow beyond the core team, the in-person book dash (a shorter version of [book sprints](https://www.booksprints.net/)) were hosted to offer interested participants a similar collaborative environment with an advantage to connect with each other informally. However, not everyone can join such in-person events. These only work for people who can take 1-2 full days from their job-related and personal responsibilities to attend the event. Moreover, they take a lot of time and effort in organisation and are expensive to run, especially if we want to host them frequently to allow more and more participants to experience the joy of working together.
 
-crwdns836798:0crwdne836798:0
+This is where the practice of online coworking is extremely valuable for _The Turing Way_ as a community project.
 
-crwdns836800:0crwdne836800:0
+The motivation behind hosting these online calls for _The Turing Way_ community are the following:
 
-1. crwdns836802:0crwdne836802:0
-2. crwdns836804:0crwdne836804:0
-3. crwdns836806:0crwdne836806:0
-4. crwdns836808:0crwdne836808:0
-5. crwdns836810:0crwdne836810:0
+1. Onboard members who are new to the project by providing a real-time orientation
+2. Build personal connections between members of the community
+3. Support contributors as they edit, review, design and write content for the book
+4. Create a sense of accountability and ownership for the goals our members want to accomplish in the project
+5. Celebrate the progress of _The Turing Way_ and collaboratively build consensus on the next steps and future directions.
 
-crwdns836812:0crwdne836812:0
+We aim to create a safe space for shared experience, connection, support and collaboration for the distributed community of _The Turing Way_.
 
-crwdns836814:0crwdne836814:0 crwdns836816:0crwdne836816:0
+If you want to attend these calls but don't know what to work on, don't worry! _The Turing Way_ core team members will be on the call and point you to some starting points in the project and other ongoing efforts where you can make a difference.
 
-## crwdns836818:0crwdne836818:0
+## Techniques
 
-crwdns836820:0crwdne836820:0 crwdns836822:0crwdne836822:0
+We offer two types of coworking calls: 1-hour short calls every week to work on ongoing projects in the community, and 2-hour long bimonthly Collaboration Cafes that offers a mix of community discussion and quiet working slots. We encourage our members to attend for as long during these designated hours as their schedule allows, even if they can't be present during the entire call.
 
-crwdns836824:0crwdne836824:0
-1. crwdns836826:0crwdne836826:0
-2. crwdns836828:0crwdne836828:0
+These calls use a combination of two techniques:
+1. Shut up & Write method
+2. Pomodoro Interval Technique
 
-### crwdns836830:0crwdne836830:0
+### Shut up & Write
 
-crwdns836832:0crwdne836832:0 crwdns836834:0crwdne836834:0 crwdns836836:0crwdne836836:0 crwdns836838:0crwdne836838:0
+The [Shut up & Write!](https://shutupwrite.com/) are *local writing meetups where you get your writing done*. Their [method](https://shutupwrite.com/method) divides the writing process into eight steps: ideation, structuring, drafting, editing, restructuring and revising, polishing, publishing, and promoting. They encourage their participants to identify what they want to write and where they are in this eight-step process. Once they identify their starting point and commit to getting through the next steps by practicing consistency *steadily to “The End”*.
 
-crwdns836840:0crwdne836840:0 crwdns836842:0crwdne836842:0
+They explain that the Shut up & Write! events provide two things:
 
-**crwdns836844:0crwdne836844:0 crwdns836846:0crwdne836846:0**
+**1. Accountability & Habit Formation:**
 
-crwdns836848:0crwdne836848:0 crwdns836850:0crwdne836850:0
+A new habit becomes a part of our routine when we commit to doing them consistently on a specific day, time, and location. Based on this principle, Shut up & Write events allow participants to yield successful outcomes for their writing assignments by making the commitment to attend the writing event each week at the same time for 1 hour.
 
-**crwdns836852:0crwdne836852:0 crwdns836854:0crwdne836854:0**
+**2. Social Motivation & Support:**
 
-crwdns836856:0crwdne836856:0 crwdns836858:0{cite:ps}crwdne836858:0 crwdns836860:0crwdne836860:0
+The *sense of belonging* can increase performance and engagement in tasks. In a survey conducted on 2000 participants from different sectors, high belonging was linked to a whopping 56% increase in job performance {cite:ps}`HBR2019Belonging`. Along the same line, Shut Up & Write events provide a sense of community where attendees feel supported and motivated by everyone else writing around them.
 
-crwdns836862:0crwdne836862:0
+They create a cycle of 3 experiences: "habit building and progress", "social support and accountability" and "great writing experience", which keep people engaged, feel committed and accomplish what they set out to do.
 
-### crwdns836864:0crwdne836864:0
+### Pomodoro Technique
 
-crwdns836866:0crwdne836866:0 crwdns836868:0crwdne836868:0
+The [pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) uses a timer to break down work into smaller intervals usually of 25 minutes called "Pomodoros", separated by short breaks of 5 minutes. Like the previous technique, the Pomodoro technique allows planning, tracking, recording, processing and visualizing the task at hand.
 
-> crwdns836870:0crwdne836870:0 crwdns836872:0{cite:ps}crwdne836872:0
+> Pomodoro, from the Italian word for 'tomato', after the tomato-shaped kitchen timer that Francesco Cirillo used as a university student. {cite:ps}`Lifehack2020pomodoro`
 
-crwdns836874:0crwdne836874:0
-- crwdns836876:0crwdne836876:0
-- crwdns836878:0crwdne836878:0
-- crwdns836880:0crwdne836880:0
-- crwdns836882:0crwdne836882:0
-- crwdns836884:0crwdne836884:0
-- crwdns836886:0crwdne836886:0
+The goal of this technique is to avoid procrastinating and get things done with the help of the following workflow:
+- identify the task
+- set the Pomodoro timer (25 minutes long)
+- work on the task until the timer rings
+- take a 5 minutes break
+- identify what would you work on next
+- restart the timer and repeat the workflow
 
-crwdns836888:0crwdne836888:0 crwdns836890:0crwdne836890:0
-- crwdns836892:0crwdne836892:0
-- crwdns836894:0crwdne836894:0
-- crwdns836896:0crwdne836896:0
+The original method recommends putting a checkmark on a piece of paper to count the number of Pomodoros and suggests taking a longer break of 15-30 minutes after four Pomodoros. The longer breaks can be used for the following tasks:
+- Reflect on the work that you could get done in the last Pomodoros
+- Reflect on what you learned and what you would do differently going forward
+- Identify the next set of tasks or the next steps in the project you are working on
 
-crwdns836898:0crwdne836898:0
+In the next subchapters, we explain our coworking call formats where we combine these two techniques to host the biweekly Collaboration Cafes and weekly coworking calls for our community members.

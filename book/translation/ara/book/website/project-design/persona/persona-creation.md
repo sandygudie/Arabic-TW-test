@@ -1,128 +1,132 @@
-crwdns842372:0crwdne842372:0
-# crwdns842374:0crwdne842374:0
+(pd-persona-creation)=
+# Persona Creation Tool
 
-crwdns842376:0crwdne842376:0 crwdns842378:0crwdne842378:0
+Persona development for a project or community is a great way for recognising who the stakeholders of that project are, why they would associate with the project, what their needs are and how those needs could be met. Persona creation tools can allow team members to collaborate efficiently with each other, develop a common understanding of their target audience and bring design principles into their work while ultimately creating an empathetic pathway for engagement.
 
-crwdns842380:0crwdne842380:0 crwdns842382:0crwdne842382:0
+In this chapter, we provide a simple step by step guide that one can use for creating different personas for their communities and projects. Your project-specific personas will then be useful in enhancing the pathways your members take to engage with your project, examples for which has been provided in the next subchapter.
 
-## crwdns842384:0crwdne842384:0
+## Step-by-step guide for building a persona
 
-### crwdns842386:0crwdne842386:0
+### Section 1: Name and Role
 
-crwdns842388:0crwdne842388:0 crwdns842390:0crwdne842390:0 crwdns842392:0crwdne842392:0
+Start by giving your persona a real name and real role with the help of some assumed professional skills. This will help you anchor them in reality. You can use the random name generator website [behindthename.com](https://www.behindthename.com/random/) to create diverse names.
 
 ```{figure} ../../figures/persona-creation.png
-crwdns842394:0[DESIGNBETTERBUSINESS.COM]crwdne842394:0
+---
+name: persona-creation
+alt: Persona Canvas by DESIGNBETTERBUSINESS.COM
+---
+Persona Canvas by [DESIGNBETTERBUSINESS.COM](https://www.designabetterbusiness.tools/tools/persona-canvas) available under the CC-BY-SA 4.0 license
 ```
 
-### crwdns842396:0crwdne842396:0
+### Section 2: Background and demography
 
-crwdns842398:0crwdne842398:0 crwdns842400:0crwdne842400:0
+This section is to create an image of your persona. Be aware of your own biases in terms of how you imagine your persona looks like based on their name or assumed gender.
 
-#### crwdns842402:0crwdne842402:0
+#### Section 2.1: Background
 
-crwdns842404:0crwdne842404:0
+Reflect on the job, career, education, and family aspect of your persona by answering the following questions:
 
-- crwdns842406:0crwdne842406:0
-- crwdns842408:0crwdne842408:0
-  - crwdns842410:0crwdne842410:0
-- crwdns842412:0crwdne842412:0
-    - crwdns842414:0crwdne842414:0
-- crwdns842416:0crwdne842416:0
-  - crwdns842418:0crwdne842418:0
+- Which job does your persona hold?
+- What is your persona's family status?
+  - Some options: single, parent, married, pet-owner, parent, or carer.
+- Does your persona have any health issues?
+    - You don't need to go in detail (though that would add more value to your planning), but start by answering in 'yes' or 'no'.
+- What is your persona's social environment like?
+  - Some options: neutral, favorable, supportive, non-supportive, financially challenging, distracting, politically challenging.
 
-#### crwdns842420:0crwdne842420:0
+#### Section 2.2: Demography
 
-crwdns842422:0crwdne842422:0
+Reflect on the age range, gender, location, and living situation of your persona by answering the following questions:
 
-- crwdns842424:0crwdne842424:0
-  - crwdns842426:0crwdne842426:0
-- crwdns842428:0crwdne842428:0
-  - crwdns842430:0crwdne842430:0
-- crwdns842432:0crwdne842432:0
-  - crwdns842434:0crwdne842434:0
-- crwdns842436:0crwdne842436:0
-- crwdns842438:0crwdne842438:0
+- What age group that your persona belongs to?
+  - Some options: below 16, 17 - 21, 21 - 30, 31 - 45, 45 - 65, above 65
+- What is your persona's gender?
+  - Some options: man, woman, non-binary, cisgender, transgender, gender-queer, gender-fluid or other (learn more [here](http://thepbhscloset.weebly.com/a-list-of-genders--sexualities-and-their-definitions.html))
+- Which time zone does your persona live in?
+  - Some options: UTC - GMT, EET - GMT+2:00, IST - GMT+5:30, JST - GMT+9:00, NST - GMT+12:00, CST - GMT-6:00, BET - GMT-3:00, CAT - GMT-1:00
+- What is your persona's living situation?
+- If there is any disability or physical barrier that your persona has to deal with when participating?
 
-*crwdns842440:0crwdne842440:0*
+*For this section, you can continue using the random name generator website [behindthename.com](https://www.behindthename.com/random/) with the option "generate life story".*
 
-### crwdns842442:0crwdne842442:0
+### Section 3: Needs and Resources
 
-crwdns842444:0crwdne842444:0 crwdns842446:0crwdne842446:0
+This section will reflect on the resources available to your persona to participate in your project or community online. This section defines your persona's needs and decisions they make, which you can sketch out by asking the following questions:
 
-- crwdns842448:0crwdne842448:0
-- crwdns842450:0crwdne842450:0
-- crwdns842452:0crwdne842452:0
-  - crwdns842454:0crwdne842454:0
-- crwdns842456:0crwdne842456:0
-  - crwdns842458:0crwdne842458:0
-- crwdns842460:0crwdne842460:0
+- What is the level of interest your persona has in your project?
+- Does your persona have a suitable schedule to participate in your project activity?
+- Does your persona have the appropriate resources to collaborate or contribute to your project?
+  - Some options: hardware, software, appropriate work arrangement, proper documentation
+- How much time (minimum) your persona needs to dedicate to make contributions to your project by completing different tasks?
+  - This can result in a list of tasks that your members are invited to do with approximate time and skill requirements for each of them.
+- What else can influence your persona's decisions on a day-to-day basis?
 
-### crwdns842462:0crwdne842462:0
+### Section 4: Persona Profile (positive trends)
 
-crwdns842464:0crwdne842464:0 crwdns842466:0crwdne842466:0 crwdns842468:0crwdne842468:0
+This section will reflect on the hobbies, interests, and things your persona enjoys doing regularly. This can be approached to understand what makes your persona's experience positive. You can sketch out this information by answering the following questions:
 
-- crwdns842470:0crwdne842470:0
-- crwdns842472:0crwdne842472:0
-- crwdns842474:0crwdne842474:0
-  - crwdns842476:0crwdne842476:0
-- crwdns842478:0crwdne842478:0
+- What hobbies and interests your persona has?
+- What personality/demeanor (such as introvert, extrovert) matches your persona's?
+- Through which communication channel will your persona potentially find out about the event?
+  - Some options: by email, mailing list or forums, Twitter, Facebook, Slack, Gitter, newsletters, website or community repository
+- What keeps your persona motivated on a typical day?
 
-### crwdns842480:0crwdne842480:0
+### Section 5: Provisions and opportunities
 
-crwdns842482:0crwdne842482:0
+This section will reflect on the provisions available to your persona to participate in this project by asking the following questions:
 
-- crwdns842484:0crwdne842484:0
-- crwdns842486:0crwdne842486:0
-- crwdns842488:0crwdne842488:0
+- What equipment or support can you offer your persona to participate in the project?
+- Are there funding or skill-building opportunity that your persona can share more widely.
+- What other resources does your persona need to fully participate with?
 
-### crwdns842490:0crwdne842490:0
+### Section 6: Hopes and dreams
 
-crwdns842492:0crwdne842492:0
+This section will reflect on the expectations, goals, and emotions of your persona in regards to this project by asking the following questions:
 
-- crwdns842494:0crwdne842494:0
-- crwdns842496:0crwdne842496:0
-- crwdns842498:0crwdne842498:0
-- crwdns842500:0crwdne842500:0
-- crwdns842502:0crwdne842502:0
+- What does your persona want to achieve from this project?
+- What information does your persona want to gain from their participation?
+- What fear or anxiety may your persona have regarding the project?
+- What could inspire your persona at the project?
+- How will your persona know that their goal has been achieved?
 
-### crwdns842504:0crwdne842504:0
+### Section 7: Perceived Barriers (negative trends)
 
-crwdns842506:0crwdne842506:0
+This section will reflect on the perceived barriers that your persona may face in regards to this project by asking the following questions:
 
-- crwdns842508:0crwdne842508:0
-- crwdns842510:0crwdne842510:0
-- crwdns842512:0crwdne842512:0
-- crwdns842514:0crwdne842514:0
-- crwdns842516:0crwdne842516:0
+- What can frustrate your persona on a typical day?
+- Why would your persona not join this project?
+- What is speaking against this project that can discourage your persona from joining?
+- What could alienate your persona from this project?
+- What improvements can be introduced to help your persona overcome these barriers?
 
-### crwdns842518:0crwdne842518:0
+### Section 8: Hurdles in the project (headaches)
 
-crwdns842520:0crwdne842520:0
+This section will reflect on the hurdles and issues that your persona may encounter in regards to this project by asking the following questions:
 
-- crwdns842522:0crwdne842522:0
-- crwdns842524:0crwdne842524:0
-- crwdns842526:0crwdne842526:0
-- crwdns842528:0crwdne842528:0
+- What challenges does your persona face when participating in this project?
+- What are your persona's hurdles specific to this project?
+- How can your persona be supported in overcoming the challenges?
+- How can we surpass your persona's expectations?
 
-### crwdns842530:0crwdne842530:0
+### Section 9: Fears and personal issues
 
-crwdns842532:0crwdne842532:0
+This section will reflect on fears and personal issues that your persona may face while participating in this project or community online by asking the following questions:
 
-- crwdns842534:0crwdne842534:0
-- crwdns842536:0crwdne842536:0
-- crwdns842538:0crwdne842538:0
-- crwdns842540:0crwdne842540:0
-- crwdns842542:0crwdne842542:0
+- Would your persona be able to participate for a long period?
+- In what situations your persona might encounter difficulties during their participation?
+- What interruptions they might face while participating in this project?
+- What are the resources available to support your persona better (like funding or equipment)?
+- How can we assist your persona in reaching their goals?
 
-## crwdns842544:0crwdne842544:0
+## Putting this together in a persona canvas
 
-crwdns842546:0crwdne842546:0
+The persona canvas can be used to assemble all your responses in one place, share this tangible information of your mental model (abstract concepts from our thoughts) with your colleagues and create a common language to communicate about your community members, users, and contributors.
 
-crwdns842548:0crwdne842548:0
+The [https://www.designabetterbusiness.tools](https://www.designabetterbusiness.tools) have created multiple persona canvases (one is shown in the figure above) which are available for reuse under CC-BY ShareAlike 4.0 License, which can be downloaded [here](https://www.designabetterbusiness.tools/tools/persona-canvas).
 
-## crwdns842550:0crwdne842550:0
+## Examples of personas in _The Turing Way_ community
 
-crwdns842552:0crwdne842552:0 crwdns842554:0{ref}crwdne842554:0
+In the next subchapter, you will find examples of personas and pathways in _The Turing Way_ community. With the help of different personas, we have also collected a list of contribution pathways in _The Turing Way_ and how they are acknowledged (see {ref}`Contribution types and pathways <ch-acknowledgement-examples>`).
 
-*crwdns842556:0crwdne842556:0 crwdns842558:0crwdne842558:0*
+*You are welcome to contribute to this chapter by testing the process described here to create a persona for your project. Your feedback will help us improve this process, and your output can be added here under the example section.*

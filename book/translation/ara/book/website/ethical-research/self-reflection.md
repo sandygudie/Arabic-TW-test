@@ -1,32 +1,35 @@
-crwdns840808:0crwdne840808:0
-# crwdns840810:0crwdne840810:0
+(er-self-reflection)=
+# Self Reflection
 
-crwdns840812:0crwdne840812:0
-## crwdns840814:0crwdne840814:0
+(er-self-reflection-prerequisites)=
+## Prerequisites
 
-crwdns840816:0crwdne840816:0 crwdns840818:0{ref}crwdne840818:0
+There are no prerequisites for this chapter. However, it's advised that you should be aware of the {ref}`legal and human rights<er-law-policy>` context first if you are considering an ethical dialemma.
 
 
-crwdns840820:0crwdne840820:0
-## crwdns840822:0crwdne840822:0
+(er-self-reflection-summary)=
+## Summary
 
-crwdns840824:0crwdne840824:0 crwdns840826:0crwdne840826:0 crwdns840828:0crwdne840828:0
+Our lived experiences and identities give us a particular lens to view the world through, which can be shaped by where we live, the places we work, the education we receive, or the dominant culture we were brought up in. However, this can also lead us to see a situation or problem in one particular way, or to take approaches that exclude certain people or groups. When it comes to ethical dilemmas, our lived experiences also shape our *personal ethics*, which are the way we make decisions about what is right or wrong.
 
-crwdns840830:0crwdne840830:0 crwdns840832:0crwdne840832:0 crwdns840834:0crwdne840834:0
+**Self-reflection** is a method we can use to examine our personal assumptions, patterns and actions. When we understand ourselves better, we can ask questions about why we do things in a certain way and challenge ourselves to consider new perspectives or to act differently. This can help to make sure the research we are conducting is responsible, inclusive, fair and ultimately ethical!
 
 ```{figure} ../figures/ethics-self-reflection.jpg
-crwdns840836:0crwdne840836:0 crwdns840838:0crwdne840838:0 crwdns840840:0crwdne840840:0 
-crwdns840842:0crwdne840842:0 crwdns840844:0crwdne840844:0 crwdns840846:0crwdne840846:0 crwdns840848:0crwdne840848:0
+---
+name: self reflection
+alt: A woman stands in a glasses shop next to the shop assistant who is holding a range of glasses for her to try. She is trying to read a sign to test her sight that has the words 'Gender', 'Race', 'Age', 'Class', 'Education' and 'Sexuality' on it. The sign on the door of the shop says 'Self Reflection - come in and see for yourself'. 
+---
+Self Reflection. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-crwdns840850:0crwdne840850:0
-## crwdns840852:0crwdne840852:0
+(er-self-reflection-motivation)=
+## Motivation and Background
 
-crwdns840854:0crwdne840854:0 crwdns840856:0crwdne840856:0 crwdns840858:0crwdne840858:0
+As data scientists, we may not always see ourselves as people with much power. However, we are constantly creating tools and technologies that alter the course of many people's lives. In that sense, we have a **lot** of power, and with it comes responsibility for working towards justice and equality in our data science work.
 
-crwdns840860:0crwdne840860:0 crwdns840862:0crwdne840862:0
+We know we must be aware of fairness and bias in data science and AI, but the tools we make do not passively inherit these features - they are built into systems by decisions we make. By being aware of the kinds of biases we hold, we can do more to challenge them and create data science technologies that help people rather than harming them.
 
-crwdns840864:0crwdne840864:0
-## crwdns840866:0crwdne840866:0
+(er-self-reflection-influences)=
+## Influences
 
-crwdns840868:0{cite:ps}crwdnd840868:0{cite:ps}crwdnd840868:0{cite:ps}crwdne840868:0 crwdns840870:0{cite:ps}crwdnd840870:0{cite:ps}crwdnd840870:0{cite:ps}crwdne840870:0 crwdns840872:0crwdne840872:0 
+This chapter on the importance of self-reflection in research and data science draws on work from standpoint theory and feminist (particuarly Black feminist) theory, most notably Patricia Hill Collins' matrix of domination {cite:ps}`collins1990black`, Kimberlié Crenshaw's theory of intersectionality {cite:ps}`crenshaw1989demarginalizing`, and Donna Haraway's situated knowledges {cite:ps}`haraway1988situated`, amongst others. More recently these ideas have been brought to data science by Catherine D'Ignazio and Lauren Klein's book 'Data Feminism' {cite:ps}`datafeminism2020`, and researchers like Abebea Birhane {cite:ps}`birhane2021algorithmic`and Timnit Gebru {cite:ps}`gebru2018datasheets`. A full list of further resources is provided in the Resources section. 

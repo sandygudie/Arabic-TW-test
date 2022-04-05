@@ -1,65 +1,73 @@
-crwdns846954:0crwdne846954:0
-# crwdns846956:0crwdne846956:0
+(rr-open)=
+# Open Research
 
-crwdns846958:0crwdne846958:0
-## crwdns846960:0crwdne846960:0
+(rr-open-prerequisites)=
+## Prerequisites
 
-| crwdns846962:0crwdne846962:0      | crwdns846964:0crwdne846964:0 | crwdns846966:0crwdne846966:0 |
-| --------------------------------- | ---------------------------- | ---------------------------- |
-| crwdns846968:0{ref}crwdne846968:0 | crwdns846970:0crwdne846970:0 | crwdns846972:0crwdne846972:0 |
+| Prerequisite  | Importance | Notes                                         |
+| ------------- | ---------- | --------------------------------------------- |
+| {ref}`rr-vcs` | Helpful    | Experience with GitHub is particularly useful |
 
 
 ```{figure} ../figures/evolution-open-research.jpg
-crwdns846974:0crwdne846974:0 crwdns846976:0crwdne846976:0
-crwdns846978:0crwdne846978:0 crwdns846980:0crwdne846980:0 crwdns846982:0crwdne846982:0
+---
+name: evolution-open-research
+alt: This image shows a researcher evolving their research practices to move towards the era of open research. The image starts with the person looking anxious about engaging with open science, slowly they take a few steps, feel comfortable about sharing their work, and finally start to collaborate with others.
+---
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-crwdns846984:0crwdne846984:0
-## crwdns846986:0crwdne846986:0
+(rr-open-summary)=
+## Summary
 
-crwdns846988:0crwdne846988:0 crwdns846990:0crwdne846990:0 crwdns846992:0crwdne846992:0 crwdns846994:0crwdne846994:0
+Open research aims to transform research by making it more reproducible, transparent, reusable, collaborative, accountable, and accessible to society. It pushes for change in the way that research is carried out and disseminated by digital tools. One definition of open research, [as given by the Organisation for Economic Co-operation and Development (OECD)](https://www.fct.pt/dsi/docs/Making_Open_Science_a_Reality.pdf "Making Open Science a Reality, OECD Science, Technology and Industry Policy Papers No. 25"), is the practice of making "the primary outputs of publicly funded research results – publications and the research data – publicly accessible in a digital format with no or minimal restriction." To achieve this openness in research, each element of the research process should:
 
-- crwdns846996:0crwdne846996:0
-- crwdns846998:0crwdne846998:0
-- crwdns847000:0crwdne847000:0
+- _Be publicly available_: It is difficult to use and benefit from knowledge hidden behind barriers such as passwords and paywalls.
+- _Be reusable_: Research outputs need to be licensed appropriately, so that prospective users know any limitations on re-use.
+- _Be transparent_: With appropriate metadata to provide clear statements of how research output was produced and what it contains.
 
-crwdns847002:0crwdne847002:0 crwdns847004:0crwdne847004:0 crwdns847006:0crwdne847006:0 crwdns847008:0crwdne847008:0 crwdns847010:0crwdne847010:0
+The research process typically has the following form: data is collected and then analysed (usually using software). This process may involve the use of specialist hardware. The results of the research are then published. Throughout the process, it is good practice for researchers to document their working in notebooks. Open research aims to make each of these elements open:
 
-- crwdns847012:0crwdne847012:0
-- crwdns847014:0crwdne847014:0
-- crwdns847016:0crwdne847016:0
-- crwdns847018:0crwdne847018:0
-- crwdns847020:0crwdne847020:0
+- _Open Data_: Documenting and sharing research data openly for re-use.
+- _Open Source Software_: Documenting research code and routines, and making them freely accessible and available.
+- _Open Hardware_: Documenting designs, materials, and other relevant information related to hardware, and making them freely accessible and available.
+- _Open Access_: Making all published outputs freely accessible for maximum use and impact.
+- _Open Notebooks_: An emerging practice, documenting and sharing the experimental process of trial and error.
 
-crwdns847022:0crwdne847022:0
+These elements are expanded upon in this chapter.
 
-crwdns847024:0{term}crwdne847024:0 crwdns847026:0crwdne847026:0
+Open scholarship [{term}`def<Open Scholarship>`] is a concept that extends open research further. It relates to making other aspects of scientific research open to the public, for example:
 
-- crwdns847028:0crwdne847028:0
-- crwdns847030:0crwdne847030:0
-- crwdns847032:0crwdne847032:0
+- _Open educational resources_: Making educational resources publicly available to be re-used and modified.
+- _Equity, diversity, inclusion_: Ensuring scholarship is open to anyone without barriers based on factors such as race, background, gender, and sexual orientation.
+- _Citizen science_: The inclusion of members of the public in scientific research.
 
-crwdns847034:0crwdne847034:0
+These elements are also discussed in detail in this chapter.
 
-crwdns847036:0crwdne847036:0
-## crwdns847038:0crwdne847038:0
+(rr-open-useful)=
+## Motivation and Background
 
-crwdns847040:0crwdne847040:0
+There are five main schools of thought motivating open practices to benefit research:
 
-| crwdns847042:0crwdne847042:0 | crwdns847044:0crwdne847044:0 | crwdns847046:0crwdne847046:0 |
-| ---------------------------- | ---------------------------- | ---------------------------- |
-| crwdns847048:0crwdne847048:0 | crwdns847050:0crwdne847050:0 | crwdns847052:0crwdne847052:0 |
-| crwdns847054:0crwdne847054:0 | crwdns847056:0crwdne847056:0 | crwdns847058:0crwdne847058:0 |
-| crwdns847060:0crwdne847060:0 | crwdns847062:0crwdne847062:0 | crwdns847064:0crwdne847064:0 |
-| crwdns847066:0crwdne847066:0 | crwdns847068:0crwdne847068:0 | crwdns847070:0crwdne847070:0 |
-| crwdns847072:0crwdne847072:0 | crwdns847074:0crwdne847074:0 | crwdns847076:0crwdne847076:0 |
+| School         | Belief                                                                     | Aim                                                                       |
+| -------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| Infrastructure | Efficient research depends on the available tools and applications.        | Creating openly available platforms, tools, and services for researchers. |
+| Pragmatic      | Knowledge-creation could be more efficient if researchers worked together. | Opening up the process of knowledge creation.                             |
+| Measurement    | Academic contributions today need alternative impact measurements.         | Developing an alternative metric system for research impact.              |
+| Democratic     | The access to knowledge is unequally distributed.                          | Making knowledge freely available for everyone.                           |
+| Public         | Research needs to be made accessible to the public.                        | Making research accessible for citizens.                                  |
 
-crwdns847078:0crwdne847078:0 crwdns847080:0{cite:ps}crwdne847080:0
+Open practices also benefit the researchers that propagate them. For example, there is evidence {cite:ps}`McKiernan et al. 2016<McKiernan2016Open>` that open access articles are cited more often, as shown by the metastudy presented in the figure below.
 
 ```{figure} ../figures/open-access-citations.jpg
-crwdns847082:0crwdne847082:0 crwdns847084:0crwdne847084:0 crwdns847086:0crwdne847086:0 crwdns847088:0crwdne847088:0
+---
+height: 500px
+name: open-access-citations
+alt: A scatter plot of the relationship between citation rates and discipline
+---
+The relative citation rate (OA: non-OA) in 19 fields of research. This rate is defined as the mean citation rate of OA articles divided by the mean citation rate of non-OA articles. Multiple points for the same discipline indicate different estimates from the same study or estimates from several studies. (See footnote 1 for references.)
 ```
 
-crwdns847090:0crwdne847090:0 crwdns847092:0crwdne847092:0
+Another benefit of openness is that while research collaborations are essential to advancing knowledge, identifying and connecting with appropriate collaborators is not trivial. Open practices can make it easier for researchers to connect by increasing the discoverability and visibility of one's work, facilitating rapid access to novel data and software resources, and creating new opportunities to interact with and contribute to ongoing communal projects.
 
-*crwdns847094:0crwdne847094:0*
+***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*

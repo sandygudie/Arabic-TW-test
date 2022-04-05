@@ -1,45 +1,46 @@
-(rr-fazer)=
-# Reprodutibilidade com Make
+(rr-make)=
+# Reproducibility with Make
 
-(rr-make-pré-requisitos)=
-## Pré-requisitos
+(rr-make-prerequisites)=
+## Prerequisites
 
-| Pré-requisito                                                                                   | Importância | Observações                                          |
-| ----------------------------------------------------------------------------------------------- | ----------- | ---------------------------------------------------- |
-| [Experimente com a linha de comando](https://programminghistorian.org/en/lessons/intro-to-bash) | Necessário  |                                                      |
-| {ref}`Controle de Versão<rr-vcs>`                                                         | Útil        | Experiência usando o git é útil para seguir exemplos |
+| Prerequisite                                                                                  | Importance | Notes                                                        |
+| --------------------------------------------------------------------------------------------- | ---------- | ------------------------------------------------------------ |
+| [Experience with the command line](https://programminghistorian.org/en/lessons/intro-to-bash) | Necessary  |                                                              |
+| {ref}`Version Control<rr-vcs>`                                                          | Helpful    | Experience using git is useful to follow along with examples |
 
-Nível recomendado de habilidade: intermediário
+Recommended skill level: intermediate
 
-(rr-make-sumy)=
+(rr-make-summary)=
 ## Summary
 
-Um projeto de ciência de dados ou de pesquisa pode ser visto como uma árvore de dependências: o relatório depende das figuras e tabelas, e estes, por sua vez, dependem dos dados e os scripts de análise usados para processar esses dados (ilustrado na figura abaixo).  Faça uma ferramenta para criar arquivos de saída a partir de suas dependências através de regras pré-especificadas.  É possível combinar estas duas idéias para criar um projeto reprodutível com Make.  Neste capítulo, nós apresentamos uma introdução para Criar e fornecer um tutorial sobre como Criar pode ser usado para uma análise de dados.  Também descrevemos um projeto de pesquisa reprodutível do mundo real que usa Make para ir desde os dados de entrada bruta até os experimentos até o arquivo pdf do papel!
+A data science or research project can be seen as a tree of dependencies: the report depends on the figures and tables, and these in turn depend on the data and the analysis scripts used to process this data (illustrated in the figure below).  Make is a tool for creating output files from their dependencies through pre-specified rules.  It is possible to combine these two ideas to create a reproducible project with Make.  In this chapter we give an introduction to Make and provide a tutorial on how Make can be used for a data analysis pipeline.  We also describe a real-world reproducible research project that uses Make to go from the raw input data to the experiments all the way to the pdf file of the paper!
 
 ```{figure} ../figures/make-research-dag.png
 ---
-nome: Faça pesquisa-dag
-alt: Esquema de um projeto de pesquisa.
---- Esquema de um projeto de pesquisa.
+name: make-research-dag
+alt: Schematic of a research project.
+---
+Schematic of a research project.
 ```
 
 (rr-make-intro)=
-## Uma introdução a fazer
+## An Introduction to Make
 
-Criar é uma ferramenta de automação de construção. Ele usa um arquivo de configuração chamado Makefile que contém as *regras* para o que construir. Faz com que *alvos* usando *receitas*.  Os alvos podem opcionalmente ter *pré-requisitos*.  Pré-requisitos podem ser arquivos em seu computador ou em outros alvos. Determinar o que construir com base na árvore de dependências dos alvos e pré-requisitos (tecnicamente, esta é uma ferramenta de {ref}`rr-make-resources-`). Ele usa o *tempo de modificação* dos pré-requisitos para atualizar alvos apenas quando necessário.
+Make is a build automation tool. It uses a configuration file called a Makefile that contains the *rules* for what to build. Make builds *targets* using *recipes*.  Targets can optionally have *prerequisites*.  Prerequisites can be files on your computer or other targets. Make determines what to build based on the dependency tree of the targets and prerequisites (technically, this is a {ref}`rr-make-resources-tools`). It uses the *modification time* of prerequisites to update targets only when needed.
 
-(rr-make-porquê)=
-### Por que usar Make para a reprodutividade?
+(rr-make-why)=
+### Why use Make for Reproducibility?
 
-Existem várias razões pelas quais fazer é uma boa ferramenta para reprodutibilidade:
+There are several reasons why Make is a good tool to use for reproducibility:
 
-1. Tornar fácil é aprender
-1. Tornar disponível em muitas plataformas
-1. Tornar flexível
-1. Muitas pessoas já estão familiarizadas com o Make
-1. Makefiles reduzem a carga cognitiva porque enquanto os alvos comuns `todas as` e `limpar` estão presentes (explicados abaixo), você pode estar pronto e funcionando sem ter que ler instruções longas. Isso é especialmente útil quando você trabalha em um projeto de outra pessoa ou em um que você não usou por muito tempo.
-1. Makefiles são arquivos de texto legíveis e legíveis por máquina. So instead of writing instructions to a human for how to build a report or output, you can provide a Makefile with instructions that can be read by a human *and* executed by a computer.
-1. Porque os arquivos Makefiles são arquivos de texto são fáceis de compartilhar e manter o controle da versão
-1. Usar o Travis e o Docker não excluem usando outras ferramentas.
+1. Make is easy to learn
+1. Make is available on many platforms
+1. Make is flexible
+1. Many people are already familiar with Make
+1. Makefiles reduce cognitive load because as long as the common Make targets `all` and `clean` are present (explained below), you can be up and running without having to read lengthy instructions. This is especially useful when you work on someone else's project or on one that you haven't used in a long time.
+1. Makefiles are human-readable and machine-readable text files. So instead of writing instructions to a human for how to build a report or output, you can provide a Makefile with instructions that can be read by a human *and* executed by a computer.
+1. Because Makefiles are text files they are easy to share and keep in version control.
+1. Using Make doesn't exclude using other tools such as Travis and Docker.
 
-Com um arquivo inteligente Makefile, você pode compartilhar uma análise completa (código, dados, e fluxos de trabalho computacionais) e permitem aos colaboradores ou leitores do seu papel recalcularem seus resultados. Ao usar ferramentas como LaTeX, você pode até mesmo gerar um manuscrito completo que inclui figuras e resultados computados recentemente! Isso pode aumentar a confiança na produção de pesquisa que você gera, isto pode tornar sua pesquisa mais acessível e pode facilitar a colaboração. Este capítulo pode te mostrar como começar.
+With a clever Makefile, you can share a complete analysis (code, data, and computational workflows) and let collaborators or the readers of your paper recompute your results. By using tools such as LaTeX, you can even generate a complete manuscript that includes freshly computed figures and results! This can increase the trust in the research output that you generate, it can make your research more accessible, and it can make collaborating easier. This chapter can show you how to get started.

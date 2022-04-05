@@ -1,19 +1,24 @@
-crwdns841120:0crwdne841120:0
-# crwdns841122:0crwdne841122:0
+(pd-code-styling)=
+# Code Styling and Linting
 
-crwdns841124:0crwdne841124:0 crwdns841126:0crwdne841126:0 crwdns841128:0crwdne841128:0
+Have you ever opened a syntax or script file two years after running an analysis only to find that you have no immediate memory of the code? Have you received analysis files from a collaborator, or downloaded them from an online repository that you have never used before? Now imagine that these files are very hard to read, or there are lots of variables being passed to arcane functions, or worse, you can't find useful code as they are saved with meaningless file names such as `analysis_1final_FINAL.R`, or `onlyusethisoneforanalysis_onamonday2a.py`.
 
-crwdns841130:0crwdne841130:0 crwdns841132:0crwdne841132:0
+If you have not - then you are one of the lucky ones! But if you have experienced it then you might know how frustrating it is to work with those files.
 
-crwdns841134:0crwdne841134:0
+This chapter will highlight ways to avoid such challenges in your projects by introducing some principals of 'code hygiene', otherwise known as *linting*.
 
 ```{figure} ../figures/zen-of-python.png
-crwdns841136:0crwdne841136:0 crwdns841138:0crwdne841138:0 crwdns841140:0crwdne841140:0 crwdns841142:0crwdne841142:0 crwdns841144:0crwdne841144:0 crwdns841146:0crwdne841146:0 crwdns841148:0crwdne841148:0 crwdns841150:0crwdne841150:0 crwdns841152:0crwdne841152:0 crwdns841154:0crwdne841154:0 crwdns841156:0crwdne841156:0 crwdns841158:0crwdne841158:0 crwdns841160:0crwdne841160:0 crwdns841162:0crwdne841162:0 crwdns841164:0crwdne841164:0 crwdns841166:0crwdne841166:0 crwdns841168:0crwdne841168:0 crwdns841170:0crwdne841170:0 crwdns841172:0crwdne841172:0 crwdns841174:0crwdne841174:0
-crwdns841176:0crwdne841176:0 crwdns841178:0crwdne841178:0
+---
+height: 500px
+name: zen-of-python
+alt: The Zen of Python, by Tim Peters. Beautiful is better than ugly. Explicit is better than implicit. Simple is better than complex. Complex is better than complicated. Flat is better than nested. Sparse is better than dense. Readability counts. Special cases aren't special enough to break the rules. Although practicality beats purity. Errors should never pass silently. Unless explicitly silenced. In the face of ambiguity, refuse the temptation to guess. There should be one-- and preferably only one --obvious way to do it. Although that way may not be obvious at first unless you're Dutch. Now is better than never. Although never is often better than *right* now. If the implementation is hard to explain, it's a bad idea. If the implementation is easy to explain, it may be a good idea. Namespaces are one honking great idea -- let's do more of those!
+---
+*Point 7 of the [Zen of Python](https://www.python.org/dev/peps/pep-0020/) is "Readability Counts". (This can be printed with the python command `>>> import this`)*
 ```
 
-## crwdns841180:0crwdne841180:0
+## Overview
 
-crwdns841182:0{ref}crwdnd841182:0{ref}crwdnd841182:0{ref}crwdne841182:0
+Linting includes {ref}`guidelines for styling<pd-code-styling-guidelines>` such as for naming, and ensuring that {ref}`code is human readable<pd-code-styling-readability>` such as by using useful formatting, and writing comments.  
+Some integrated development environments (IDEs) include automatic linting, but there are free {ref}`packages and tools for linting<pd-code-styling-tools>` that will lint code for you (for example, [autopep8](https://pypi.org/project/autopep8/)).
 
-crwdns841184:0crwdne841184:0
+By keeping the following advice in mind while coding, your code will be more reusable, adaptable, and clear.

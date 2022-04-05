@@ -1,55 +1,55 @@
-(rr-code-reuse-recomendaciones)=
-# Resumen de reutilización de código
+(rr-code-reuse-recommendations)=
+# Overview of Code Reuse
 
-Esta sección contiene una lista de recomendaciones para hacer su software más reutilizable. La sección {ref}`rr-code-reuse-details` contiene una explicación más detallada de cada una de estas recomendaciones. Puede seguir las recomendaciones más adecuadas para su tipo de software y omitir las que no sean relevantes en su caso.
+This section contains a checklist of recommendations for making your software more reusable. The {ref}`rr-code-reuse-details` section contains a more in-depth explanation of each of these recommendations. You can follow the recommendations that are more suitable for your type of software and skip the ones which are not relevant in your case.
 
-## Recomendaciones repetibles
+## Repeatable Recommendations
 
-1. Asegúrese de encontrarlo (en el espacio; significando: ser capaz de localizar el repositorio/proyecto)
-1. Asegúrese de encontrarlo (en el tiempo; significando: ser capaz de localizar una versión en particular)
-1. Asegúrese de que puede ejecutar la misma secuencia de operaciones
-1. Asegúrese de que su entorno y secuencia de operaciones son robustas y no se necesita ningún humano para replicar lo que se hizo
-1. Licencia de tu código
-    - con una licencia que permite reutilizar;
-    - con una licencia compatible con las licencias de las dependencias
-1. Asegúrese de que es citable
-1. Incluye datos necesarios
-1. Escribe documentación útil*
+1. Make sure you can find it (in space; meaning: being able locate the repository/project)
+1. Make sure you can find it (in time; meaning: being able to locate a particular version)
+1. Make sure you can execute the same sequence of operations
+1. Make sure your environment and sequence of operations is robust and no human is needed to replicate what was done
+1. License your code
+    - with a license that allows for reuse;
+    - with a license compatible with the dependencies’ licenses
+1. Make sure it is citable
+1. Include necessary data
+1. Write useful documentation*
 
-## Recomendaciones reejecutables
+## Re-runnable Recommendations
 
-1. Remueve bits codificados (tales como rutas que sólo existían en el disco duro donde se ejecutaba el pipeline) y crea el código modular
-1. Comprueba que los módulos que has realizado pueden tomar diferentes tipos de datos de entrada o parámetros
-1. Convierte los módulos en un paquete/caja de herramientas
-1. Escribe documentación útil*
+1. Remove hardcoded bits (such as paths that only existed on the hard drive where the pipeline was run) and make the code modular
+1. Test that the modules you made can take different types of input data or parameters
+1. Turn the modules into a package/toolbox
+1. Write useful documentation*
 
-## Recomendaciones portátiles
-1. Asegúrate de que puedes recrear el ambiente en el que viviste
-1. Escribe documentación útil*
+## Portable Recommendations
+1. Make sure you can recreate the environment where it lived
+1. Write useful documentation*
 
-## Recomendaciones extendidas
-1. Escribe documentación útil*
+## Extendable Recommendations
+1. Write useful documentation*
 
-## Recomendaciones modificables
-1. Asegúrese de que su código es legible por los humanos
-1. Asegúrate de que los comentarios estén presentes
-1. Escribe documentación útil*
+## Modifiable Recommendations
+1. Make sure your code is readable by humans
+1. Make sure comments are present
+1. Write useful documentation*
 
-El lector observante puede notar que `La documentación útil de escritura` se menciona para cada nivel de reutilización. Esto se debe a que se requieren diferentes niveles de documentación para diferentes niveles de reutilización.
+The observant reader might will notice that `Write useful documentation` is mentioned for every level of reuse. This is because different levels of documentation are required for different levels of reuse.
 
-## Documentación
+## Documentation
 
-*Diferentes requisitos de documentación para diferentes niveles de reutilización*
+*Different documentation requirements for different levels of reuse*
 
-Escribir documentación útil es un requisito importante para todos los niveles de reutilización. Sin embargo, para los diferentes niveles de reutilización hay diferentes requisitos de documentación:
+Writing useful documentation is an important requirement for all levels of reuse. However, for the different levels of reuse, there are different documentation requirements:
 
-La documentación:
-- explica el uso, especificando:
-  - lo que hace el software; (requerido para repetir)
-  - cómo se puede utilizar; (requerido para repetir)
-  - qué opciones/parámetros están disponibles. (obligatorio para repetir)
-- contiene ejemplos de cómo ejecutarlo. (obligatorio para repetir)
-- tiene instrucciones de instalación, incluyendo buenas descripciones de:
-  - el hardware del que depende (por ejemplo GPUs); (requerido para portátil)
-  - el sistema operativo en el que el software ha sido probado; (requerido para portátil)
-  - requerimientos de software (como librerías y ajustes de shell). (requerido para portátil)
+The documentation:
+- explains usage, specifying:
+  - what the software does; (required for repeatable)
+  - how it can be used; (required for repeatable)
+  - what options/parameters are available. (required for repeatable)
+- contains examples of how to run it. (required for repeatable)
+- has installation instructions, including good descriptions of:
+  - the hardware it depends on (for example GPUs); (required for portable)
+  - the operating system the software has been tested on; (required for portable)
+  - software requirements (such as libraries and shell settings). (required for portable)

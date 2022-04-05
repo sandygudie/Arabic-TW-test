@@ -1,61 +1,62 @@
 (rr-renv-yaml)=
 # YAML
 
-O YAML é uma linguagem de marcação baseada no dentro, que visa ser fácil de ler e fácil de escrever. Muitos projetos o usam para arquivos de configuração por causa de sua legibilidade, simplicidade e bom suporte para muitas linguagens de programação. Ele pode ser usado para muitas coisas, incluindo a definição de ambientes computacionais e está bem integrado com as [ações do GitHub](https://travis-ci.org/), que é discutido no capítulo {ref}`rr-ci-github-actions`.
+YAML is an indentation-based markup language which aims to be both easy to read and easy to write. Many projects use it for configuration files because of its readability, simplicity, and good support for many programming languages. It can be used for many things, including defining computational environments, and is well integrated with [GitHub actions](https://travis-ci.org/), which is discussed in the {ref}`rr-ci-github-actions` chapter.
 
 (rr-renv-yaml-files)=
-## Arquivos YAML
+## YAML Files
 
-Um arquivo YAML que define um ambiente computacional pode parecer algo como isto:
+A YAML file defining a computational environment might look something like this:
 
 ```
-# Defina o sistema operacional como Linux
+# Define the operating system as Linux
 os: linux
 
-# Use a distribuição xenófoba do Linux
-distância: xenial
+# Use the xenial distribution of Linux
+dist: xenial
 
-# Use a linguagem de programação Python
-idioma: python
+# Use the programming language Python
+language: python
 
-# Use a versão do Python 3. python: 3.2
+# Use version of Python 3.2
+python: 3.2
 
-# Use o pacote Python numpy e use a versão 1. Pacotes 6.1
-:
+# Use the Python package numpy and use version 1.16.1
+packages:
   numpy:
-    versão: 1.16.1
+    version: 1.16.1
 ```
 
-Observe que os comentários podem ser adicionados precedendo eles com um `#`.
+Note that comments can be added by preceding them with a `#`.
 
-(rr-renv-yaml-sintaxe)=
-## Sintaxe YAML
+(rr-renv-yaml-syntax)=
+## YAML Syntax
 
-Um documento YAML pode consistir dos seguintes elementos.
+A YAML document can consist of the following elements.
 
-(rr-renv-yaml-sintaxe escalar)=
-### Escamas
+(rr-renv-yaml-syntax-scalars)=
+### Scalars
 
-Os escamas são valores comuns: números, strings, booleanos.
-
-```
-número-valor: 42
-floating-point value: 3.141592
-booleano: true
-
-# strings podem ser ambas 'unle-quoted' e "double-quoted"
-valor-string: 'Bonjour'
-```
-
-A sintaxe YAML também permite strings não cotadas valores por razões de conveniência:
+Scalars are ordinary values: numbers, strings, booleans.
 
 ```
-texto sem citação: Olá Mundo
+number-value: 42
+floating-point-value: 3.141592
+boolean-value: true
+
+# strings can be both 'single-quoted` and "double-quoted"
+string-value: 'Bonjour'
+```
+
+YAML syntax also allows unquoted string values for convenience reasons:
+
+```
+unquoted-string: Hello World
 ```
 (rr-renv-yaml-syntax-lists)=
-### Listas e Dicionários
+### Lists and Dictionaries
 
-Listas são coleções de elementos:
+Lists are collections of elements:
 
 ```
 jedis:
@@ -65,47 +66,47 @@ jedis:
   - Luke Skywalker
 ```
 
-Cada elemento da lista é endentado e começa com um traço e um espaço.
+Every element of the list is indented and starts with a dash and a space.
 
-Dicionários são coleções de `chave: valor` mapeamentos. Todas as chaves diferenciam maiúsculas de minúsculas.
+Dictionaries are collections of `key: value` mappings. All keys are case-sensitive.
 
 ```
 jedi:
   name: Obi-Wan Kenobi
-  planet: Stewjon
-  espécies: humano
+  home-planet: Stewjon
+  species: human
   master: Qui-Gon Jinn
-  altura: 1.82m
+  height: 1.82m
 ```
 
-Note que um espaço após o dobro é obrigatório.
+Note that a space after the colon is mandatory.
 
 (rr-renv-yaml-syntax-gotchas)=
-### Pegadas YAML
+### YAML Gotchas
 
-Devido ao formato buscando ser fácil de escrever e ler, existem algumas ambiguidades no YAML.
+Due to the format aiming to be easy to write and read, there are some ambiguities in YAML.
 
-- **Caracteres especiais em frases sem citação:** YAML tem vários caracteres especiais que não podem ser usados em frases sem citação. Por exemplo, analisar a seguinte amostra falhará:
+- **Special characters in unquoted strings:** YAML has several special characters you cannot use in unquoted strings. For example, parsing the following sample will fail:
   ```
-  texto sem citação: deixe-me colocar dois pontos aqui: oops
+  unquoted-string: let me put a colon here: oops
   ```
-  Citar o valor string torna este valor inequívoco:
+  Quote the string value makes this value unambiguous:
   ```
-  texto sem citação: "Deixe-me colocar dois pontos aqui: oops"
+  unquoted-string: "let me put a colon here: oops"
   ```
-  Geralmente, você deve citar todas as frases que contenham qualquer um dos seguintes caracteres: `[] {} : > e`.
-- **Guias versus espaços para indentação:** _não_ usam abas para indentação. Embora o YAML resultante ainda possa ser válido, isso pode ser uma fonte de muitos erros de análise sutil. Use apenas espaços.
+  Generally, you should quote all strings that contain any of the following characters: `[] {} : > |`.
+- **Tabs versus spaces for indentation:** do _not_ use tabs for indentation. While the resulting YAML can still be valid, this can be a source of many subtle parsing errors. Just use spaces.
 
-(rr-renv-yaml-ambientes)=
-## Como usar Yaml para definir ambientes computacionais
+(rr-renv-yaml-environments)=
+## How To Use Yaml To Define Computational Environments
 
-Por causa da sua simplicidade, arquivos YAML podem ser escritos à mão. Como alternativa, eles podem ser gerados automaticamente conforme discutido no subcapítulo {ref}`rr-renv-package`. De um arquivo YAML, um ambiente computacional pode ser replicado de algumas maneiras.
+Because of their simplicity, YAML files can be handwritten. Alternatively, they can be automatically generated as discussed in the {ref}`rr-renv-package` subchapter. From a YAML file, a computational environment can be replicated in a few ways.
 
-- **Manualmente.** Isso pode ser feito manualmente instalando cuidadosamente os pacotes especificados. Porque os arquivos YAML também podem especificar sistemas operacionais e versões que podem ou não coincidir com a da pessoa que tenta replicar o ambiente, isso pode exigir o uso de {ref}`rr-renv-vm`.
+- **Manually.** It can be done manually by carefully installing the specified packages. Because YAML files can also specify operating systems and versions that may or may not match that of the person trying to replicate the environment, this may require the use of {ref}`rr-renv-vm`.
 
-- **Por meio de Sistemas de Gerenciamento de Pacotes como Conda.** Como {ref}`discutiu <rr-renv-package>`, além de poder gerar arquivos YAML a partir de ambientes computacionais, Conda também pode gerar ambientes computacionais de arquivos YAML.
+- **Via Package Management Systems such as Conda.** As {ref}`discussed <rr-renv-package>`, as well as being able to generate YAML files from computational environments, Conda can also generate computational environments from YAML files.
 
 (rr-renv-yaml-security)=
-## Problemas de Segurança
+## Security Issues
 
-Existe um risco inerente em baixar/usar arquivos que você não escreveu no seu computador, e é possível incluir código malicioso nos arquivos YAML. Não carregue arquivos YAML nem gere ambientes computacionais a partir deles, a menos que confie na sua fonte.
+There is an inherent risk in downloading/using files you have not written to your computer, and it is possible to include malicious code in YAML files. Do not load YAML files or generate computational environments from them unless you trust their source.

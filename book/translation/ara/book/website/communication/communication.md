@@ -1,14 +1,19 @@
-crwdns832246:0crwdne832246:0
-# crwdns832248:0crwdne832248:0
+(cm)=
+# Guide for Communication
 
-***crwdns832250:0crwdne832250:0***
+***This guide covers topics related to effective communication in research.***
 
-crwdns832252:0crwdne832252:0 crwdns832254:0crwdne832254:0 crwdns832256:0crwdne832256:0
+Data analysis process, statistics and project development can be overwhelming to explain to people, especially when they are not already involved in this process. Therefore, data scientists should not only have a good understanding of data analysis techniques but also develop skills to communicate insights from their work in a clear and accessible format that can help key stakeholders make meaningful decisions. There are many ways we can convey our insights responsibly that can resonate with and impact our target audience.
 
 ```{figure} ../figures/communication.jpg
-crwdns832258:0crwdne832258:0 crwdns832260:0crwdne832260:0 crwdns832262:0crwdne832262:0 crwdns832264:0crwdne832264:0
+---
+name: communication
+width: 500px
+alt: A network of people exchanging and sharing different information
+---
+Communication network for sharing, learning and teaching. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-crwdns832266:0crwdne832266:0 crwdns832268:0crwdne832268:0
+In this guide, we welcome contributions to developing chapters and guidance on effectively communicating the data-driven outcome to different audience types who may or may not be aware of scientific data analytics. We are excited to support data scientists develop skills ranging from interactive visualisation, how to give a talk, writing your first paper, and being interviewed by the media.
 
-crwdns832270:0crwdne832270:0 crwdns832272:0crwdne832272:0
+_The Turing Way_ itself is a [Jupyter Book](https://jupyterbook.org/intro.html), so please also consider how we can make our communications more exciting! Check out our [contributing guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) to get involved.

@@ -1,51 +1,51 @@
 (rr-make-resources)=
-# Recursos para "Fazer"
+# Resources for "Make"
 
 (rr-make-resources-manual)=
-## Manualmente
+## Manual
 
-- https://www.gnu.org/software/make/manual/make.html
+- [The Official Make Reference manual](https://www.gnu.org/software/make/manual/make.html).
 
 (rr-make-resources-discussions)=
-## Discussões
+## Discussions
 
-- [Discussão sobre Criar um HackerNews](https://news.ycombinator.com/item?id=15041986).
+- [Discussion on Make on HackerNews](https://news.ycombinator.com/item?id=15041986).
 
-- [Recursive make considerado Contraído](http://aegis.sourceforge.net/auug97.pdf). Este é um artigo bem conhecido por que você não deveria usar improvisos aninhados. Para resumir: se você fizer isso, não pode ver todo o DAG e isso leva a problemas.
+- [Recursive Make Considered Harmful](http://aegis.sourceforge.net/auug97.pdf). This is a well-known paper on why you shouldn't use nested makefiles. To summarise: if you do this Make can't see the entire DAG and that leads to problems.
 
-- [Fusão Não-Recursiva Considerado Contraído](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/03/hadrian.pdf): Este é um papel de pesquisa descrevendo as falhas de Faça construções grandes e complexas.
+- [Non-Recursive Make Considered Harmful](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/03/hadrian.pdf): This is a research paper describing the failings of Make for large and complex builds.
 
 (rr-make-resources-blogs)=
 ## Blogs
 
-Claro que não somos os primeiros a sugerir o uso de "Make for reprodutibilidade!" Os posts do blog citados abaixo foram encontrados depois que o tutorial acima foi escrito, mas podem adicionar mais informações e exemplos.
+Of course we are not the first to suggest the use of Make for reproducibility! The blog posts cited below were found after the above tutorial was written, but can add further information and examples.
 
-- [Reprodução é difícil](https://kbroman.wordpress.com/tag/reproducible-research/). Discuta tornar um projeto de pesquisa reproduzível usando Make.
+- [Reproducibility is hard](https://kbroman.wordpress.com/tag/reproducible-research/). Discusses making a research project reproducible using Make.
 
-- [GNU Make for Reproducible Data Analysis](http://zmjones.com/make/). Argues para usar "Make for reprodutible" análise em uma veia semelhante à que usamos acima.
+- [GNU Make for Reproducible Data Analysis](http://zmjones.com/make/). Argues for using Make for reproducible analysis in a similar vein as we do above.
 
-- [Tubulações Bioinformáticas Reproduzidas usando Make](http://byronjsmith.com/make-bml/). Um tutorial bastante extenso sobre o uso de Faça a análise de dados.
+- [Reproducible Bioinformatics Pipelines using Make](http://byronjsmith.com/make-bml/). A quite extensive tutorial on using Make for data analysis.
 
-- [Pipelines de análise de dados automática](http://stat545.com/automation04_make-activity.html). Um tutorial semelhante que usa R para a análise.
+- [Automatic Data-analysis Pipelines](http://stat545.com/automation04_make-activity.html). A similar tutorial that uses R for the analysis.
 
-- [Escrevendo um papel reprodutível](http://handbook.datalad.org/en/latest/usecases/reproducible-paper.html#automation-with-existing-tools). Um tutorial similar com Python usando variáveis para preencher tabelas no manuscrito de .
+- [Writing a reproducible Paper](http://handbook.datalad.org/en/latest/usecases/reproducible-paper.html#automation-with-existing-tools). A similar tutorial with Python using variables to populate tables in the manuscript.
 
-(rr-make-resources-ferramentas)=
-## Ferramentas
+(rr-make-resources-tools)=
+## Tools
 
-- Trate a DAG do Makefile com [makefile2graph](https://github.com/lindenb/makefile2graph).
+- Plot the DAG of the Makefile with [makefile2graph](https://github.com/lindenb/makefile2graph).
 
-(rr-make-resources-alternativas)=
-## Alternativas a fazer
+(rr-make-resources-alternatives)=
+## Alternatives to Make
 
-Há [muitas alternativas para Faça](https://en.wikipedia.org/wiki/List_of_build_automation_software). Abaixo de estão alguns que chamaram a nossa atenção, e isso pode valer a pena.
+There are [many alternatives to Make](https://en.wikipedia.org/wiki/List_of_build_automation_software). Below are some that caught our eye and that might be worth a look.
 
-- [SnakeMake](https://snakemake.readthedocs.io/en/stable/). A Python3-based alternative to Make. Snakemake suporta múltiplos caracteres curinga em nomes de arquivos, suporta código Python nas regras e pode executar fluxos de trabalho em estações de trabalho, clusters, a grade e na nuvem sem modificação.
+- [SnakeMake](https://snakemake.readthedocs.io/en/stable/). A Python3-based alternative to Make. Snakemake supports multiple wildcards in filenames, supports Python code in rules, and can run workflows on workstations, clusters, the grid, and in the cloud without modification.
 
-- [Tup](http://gittup.org/tup/index.html). Um sistema de compilação rápido que processa pré-requisitos baixo para cima ao invés de "top-down" de Make. A velocidade parece impressionante e o papel que o descreve é interessante, mas para pequenos projetos a velocidade do Make não será um gargalo. A sintaxe do Tupfile não é compatível com a do Makefiles.
+- [Tup](http://gittup.org/tup/index.html). A fast build system that processes prerequisites bottom-up instead of Make's top-down. The speed looks impressive and the paper describing it is interesting, but for small projects Make's speed will not be a bottleneck. The Tupfile syntax is not compatible with that of Makefiles.
 
 - [Bazel](https://www.bazel.build). An open-source version of Google's Blaze build system.
 
-- [Buck](https://buckbuild.com/). Sistema de compilação do Facebook.
+- [Buck](https://buckbuild.com/). Facebook's build system.
 
 

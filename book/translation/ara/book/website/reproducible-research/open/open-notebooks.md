@@ -1,10 +1,10 @@
-crwdns847724:0crwdne847724:0
-# crwdns847726:0crwdne847726:0
+(rr-open-notebooks)=
+# Open Notebooks
 
-crwdns847728:0crwdne847728:0 crwdns847730:0crwdne847730:0 crwdns847732:0crwdne847732:0
+Electronic Lab Notebooks (ELNs) enable researchers to organize and store experimental procedures, protocols, plans, notes, data, and even unfiltered interpretations using their computer or mobile device. They are a digital analogue to the paper notebook most researchers keep. ELNs can offer several advantages over the traditional paper notebook in documenting research during the active phase of a project, including; searchability within and across notebooks, secure storage with multiple redundancies, remote access to notebooks, and the ability to easily share notebooks among team members and collaborators.
 
-crwdns847734:0{term}crwdne847734:0 crwdns847736:0crwdne847736:0 crwdns847738:0crwdne847738:0 crwdns847740:0crwdne847740:0 crwdns847742:0crwdne847742:0
+Open notebook [{term}`def<Open Notebooks>`] research is simply the practice of making such notebooks openly available, usually online. Some researchers choose to keep their notebooks open from the very beginning of their projects. Rather than wait months, or years, to share their research through journal publication as is the current practice, this allows researchers to post their experimental data and protocols online and in real-time. Sharing research in this open and timely manner helps to reduce duplication of work, helps foster new collaborations, and cultivates a more open dialogue with others. It also helps researchers avoid exploring dead ends and making mistakes that may have already been covered by their colleague but went unpublished because of lack of scientific interest.
 
-crwdns847744:0crwdne847744:0 crwdns847746:0crwdne847746:0 crwdns847748:0crwdne847748:0
+Open notebooks have the further benefit of increasing the quality of scientific outputs by forcing researchers to be careful, thorough, and explicit. Making research open has the added benefit of increasing the likelihood that any errors made in an investigation will be spotted quickly, instead of down the line. Immediate fixes will have much less impact on a research project, which will save research time, lab money, and pride.
 
-crwdns847750:0crwdne847750:0 crwdns847752:0crwdne847752:0 crwdns847754:0crwdne847754:0
+Ideally, every scientist should maintain an open notebook, which would encompass all aspects of their research, in real-time. However, fears about dealing with complete open access, conflicts with intellectual property and publications, and online data overload hamper this movement. To combat this, practitioners encourage any form of open notebook research ("make open what you can") even if that means uploading some information for a project from many years ago that never saw the light of day.

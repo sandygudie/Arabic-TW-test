@@ -1,29 +1,29 @@
-(cl-resears-infrastructure-roll)=
-# 研究基础设施的作用：导言
+(cl-research-infrastructure-roles)=
+# Research Infrastructure Roles: Introduction
 
-很少有人或一群人没有成功的合作。 • 负责安排参与者互动、促进工作和支持项目影响的工作。 这些人可以是志愿者，也可以根据项目的资金、规模、长度和所涉组织的数目领取报酬。
+It is rare that successful collaborations occur without a person, or group of people, taking on the work of structuring participants interactions, facilitating work, and supporting the impact of the project. These people may be either volunteers or paid, depending on a project's funding, size, length, and number of organisations involved.
 
-他们被称为 **研究基础设施角色** ，因为他们所做的工作主要是为了支持研究人员的工作。 虽然研究也可以在这些作用中占相当大的比例。 这些角色的具体细节将各不相同，但可包括处理行政工作、管理数据存储。 利益攸关方的参与、社区管理、通信、软件工程、活动协调等等。
+They're called **research infrastructure roles** because the work they perform is primarily to support the work of researchers, although research can also be a significant proportion of these roles as well. The specifics of these roles will vary but can include handling administrative work, managing data storage, stakeholder engagement, community management, communications, software engineering, events coordination, and a lot more.
 
-发挥这种作用的人来自不同的背景， 但往往有一些研究经验，尽管不一定是在他们目前正在从事的实地工作。 作用名称的例子包括：社区管理人员、项目管理人员、研究软件工程师、再生产线、研究应用管理员、方案管理员、管理员或网络协调员。
+People performing these types of roles come from varied backgrounds, but will often have some research experience, although not necessarily in the field they are now working in. Examples of role titles include: Community manager, project manager, research software engineer, reproducibility lead, research application manager, programme manager, administrator, or network coordinator.
 
-(cl-research-infrastructure-rolles-prequite)=
-## 必备条件
+(cl-research-infrastructure-roles-prerequisites)=
+## Prerequisites
 
-本章没有先决条件。
+There are no prerequisites for this chapter.
 
 
-(cl-resears-infrastructure-rolles-summary)=
+(cl-research-infrastructure-roles-summary)=
 ## Summary
 
-“创新方式”这一章介绍了不同研究基础设施作用的实例，这些作用在促进合作方面的重要性。 • 提供更多的资源以了解这些问题。
+This chapter of the Turing Way covers examples of different research infrastructure roles, their importance in promoting collaboration, ethical research, and reproducibility, and additional resources to find out more about them.
 
-我们请任何发挥研究基础设施作用的人作为个案研究分享他们的经验。
+We invite anyone who works in a research infrastructure role to share their experiences as a case study.
 
 
-(cl-research-infrastructure-rolles-motives)=
-## 动机和背景
+(cl-research-infrastructure-roles-motivation)=
+## Motivation and Background
 
-没有研究基础设施的作用，许多项目就永远不会成功！ 但这项工作往往是隐藏的，在学术界看不见的。 如果论文和引文是主要的“声誉货币”，系统则非常注重促进“传统”学术生涯中的文凭。 撰写本章和提供研究基础设施工作类型的例子的动机是让更多的人看到这种隐藏的劳动力，并强调这些研究方面对任何社区或项目的重要性。
+Without research infrastructure roles, a lot of projects would never succeed! But this work is often hidden and not visible in academia, where papers and citations are the primary "reputation currency" and the system is very focused on promoting those in "traditional" academic careers. The motivation for writing this chapter and providing examples of the type of work that goes into research infrastructure is to make this hidden labour visible to a wider audience and highlight just how critical these aspects of research are for any community or project.
 
-其他倡议，如 [软件可持续性研究所](https://www.software.ac.uk/)， [科学合作中心 & 社区参与](https://www.cscce.org/), [隐藏的REF](https://hidden-ref.org/)都有助于人们日益认识到这些作用对研究的重要性。 
+Other initiatives such as the [Software Sustainability Institute](https://www.software.ac.uk/), the [Center for Scientific Collaboration & Community Engagement](https://www.cscce.org/), and the [Hidden REF](https://hidden-ref.org/), are all contributing to the growing recognition of the importance of these roles for research. 

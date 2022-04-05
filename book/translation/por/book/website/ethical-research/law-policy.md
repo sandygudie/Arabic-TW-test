@@ -1,30 +1,31 @@
-(er-legislar-política)=
-# Lei, Política e Direitos Humanos em Ética
+(er-law-policy)=
+# Law, Policy and Human Rights in Ethics
 
 ## Summary
-O direito, os direitos humanos e a política estão relacionados com a ética, mas não são a mesma coisa.
+Law, human rights and policy all relate to ethics, but they are not the same thing.
 
-Deveriam estar cientes das leis e das políticas que se aplicam a si e ao seu trabalho. No entanto, isso não é suficiente para garantir que o seu trabalho seja ético.
+You should be aware of the laws and policies that apply to you and your work. However, this is not sufficient to ensure that your work is ethical.
 
-Os direitos humanos proporcionam um quadro jurídico para a protecção dos indivíduos. No entanto, este quadro funciona a nível nacional e internacional. O trabalho ético deve assentar nos direitos humanos, mas por vezes exige mais orientações para o funcionamento em contextos específicos.
+Human rights provide a legal framework for protecting individuals. However, this framework operates at national and international level. Ethical work should be grounded in human rights, but sometimes require more guidance to operationalise for particular contexts.
 
-As leis e as políticas são feitas pelas pessoas e estão sujeitas a negociações e a exercícios de poder: também podem ser alteradas.
+Laws and policies are made by people, and they are subject to negotiations and exercises of power: they can also be changed.
 
 ```{figure} ../figures/human-rights.jpg
 ---
-nome: direitos humanos
-alt: Imagem mostra duas pessoas sentadas no chão. Estão a sorrir e a olhar para o muro de betão denominado "direitos humanos", que é assegurado por uma cadeia pesada e por um bloqueio pesado. Por detrás do muro há vários monstros que ilustram os violadores dos direitos humanos e elementos nocivos da sociedade que podem violar leis e políticas na ausência deste muro de protecção.
---- Ilustração sobre direitos humanos, leis e políticas.
-_O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: 10.5281/zenodo.3332807.
+name: human-rights
+alt: Image shows two people sitting on the ground. They are smiling and looking at the concrete wall called 'human rights' that is secured by heavy chain and lock. Behind the wall there are several monsters depicting human right violators and harmful elements of society that can breach laws and policy in the absence of this protective wall.
+---
+Illustration about human rights, law and policies.
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.
 ```
 
-## Fundo e Motivação
+## Background and Motivation
 
-É útil saber como a ética que orienta seu trabalho assenta em outros quadros, incluindo lei, política e direitos humanos. Conhecer a lei, a política e os direitos humanos que estão na base da ética da pesquisa te dará uma compreensão mais profunda de como realizar pesquisa ética. Pode também ajudá-lo a defender o trabalho ético com colegas e colaboradores.
+It's useful to know how the ethics that guide your work are underpinned by other frameworks, including law, policy, and human rights. Knowing the law, policy, and human rights that underpin research ethics will give you a deeper understanding of how to conduct ethical research. It can also help you to advocate for ethical work with colleagues and collaborators.
 
-Este capítulo fornece subcapítulos sobre {ref}`Lei e Política<er-law-policy-ethics>` no contexto de pesquisa ética, {ref}`er-law-policy-rights` e {ref}`er-law-policy-resources`.
+This chapter provides subchapters on {ref}`Law and Policy<er-law-policy-ethics>` in the context of ethical research, {ref}`er-law-policy-rights` and {ref}`er-law-policy-resources`.
 
 ```{attention}
-Não se trata de um parecer jurídico. Por favor leia apenas informações!
+This is not legal advice. Please read for information only!
 ```
-*Leia o {ref}`advogado de aviso` por que você não deve usar o The Turing Way por aconselhamento legal.*
+*Read the {ref}`legal-disclaimer` for why you should not use The Turing Way for legal advice.*

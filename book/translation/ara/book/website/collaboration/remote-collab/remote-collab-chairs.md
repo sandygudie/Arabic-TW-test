@@ -1,107 +1,107 @@
-crwdns825852:0crwdne825852:0
-# crwdns825854:0crwdne825854:0
+(cl-remote-collab-chairs)=
+# Chairing Remote Events
 
-crwdns825856:0crwdne825856:0 crwdns825858:0crwdne825858:0 crwdns825860:0crwdne825860:0
+To run an event smoothly, part of planning and preparation is to delegate tasks of leading and chairing different sessions of an event to different individuals. The main duties of a chair are to moderate their session by introducing speakers and keep their sessions as planned - within the time limit by keeping their session on the topic, avoid distractors and help address any challenges that may appear. However, their roles may include other tasks depending on the purpose of the event, attendees, format and so on.
 
-crwdns825862:0crwdne825862:0
+In this subchapter, we provide guidelines for the chairs of different types of sessions, which can be adapted and built upon by the event organisers and chairs to prepare ahead of time.
 
-## crwdns825864:0crwdne825864:0
-*crwdns825866:0crwdne825866:0*
+## Talks and presentations
+*Checklist for the chair of the designated talk*
 
-- crwdns825868:0crwdne825868:0
-- crwdns825870:0crwdne825870:0
-- crwdns825872:0crwdne825872:0
-- crwdns825874:0crwdne825874:0
-- crwdns825876:0crwdne825876:0
-- crwdns825878:0crwdne825878:0
-- crwdns825880:0crwdne825880:0
-- crwdns825882:0crwdne825882:0
-- crwdns825884:0crwdne825884:0
-- crwdns825886:0crwdne825886:0
-- crwdns825888:0crwdne825888:0
-- crwdns825890:0crwdne825890:0
-  - crwdns825892:0crwdne825892:0
-- crwdns825894:0crwdne825894:0
-- crwdns825896:0crwdne825896:0
-- crwdns825898:0crwdne825898:0
-- crwdns825900:0crwdne825900:0
+- Coordinate with the organisers regarding the schedule, exact responsibilities and other people involved in the event they'll chair.
+- Coordinate with a designated note-taker, or be ready to assign one at the beginning of the event.
+- Share the link to the notes or shared document with all the attendees.
+- Remind everyone of the Code of the Conduct contact person in case something needs to be reported.
+- Introduce the speaker and note-takers (and sign language interpreter if available).
+- Remind everyone if the video will be recorded.
+- Request everyone to keep their camera on whenever possible.
+- Indicate if the speakers should speed up or slow down, or if there is a technical issue that the speaker should check.
+- Help answer procedural questions like “where is this button that I should click”.
+- Direct technical questions to the organiser when needed.
+- Note-takers take notes to capture main points from the talk.
+- With note-takers, gather questions, opinion and response, on the shared document for the open discussion.
+  - This can be done on a document or by using interactive tools like [sli.do](https://www.sli.do/).
+- Ask people to add '+1' next to the points that they like or agree with.
+- Verbalise some of the popular insights, opinion and thoughts.
+- Close session in time by thanking the speakers and note-takers.
+- Take a moment to thank the speakers for their talks.
 
-## crwdns825902:0crwdne825902:0
+## Short workshops, up-skilling or discussion sessions
 
-*crwdns825904:0crwdne825904:0*
-- crwdns825906:0crwdne825906:0
-- crwdns825908:0crwdne825908:0
-- crwdns825910:0crwdne825910:0
-- crwdns825912:0crwdne825912:0
-- crwdns825914:0crwdne825914:0
-- crwdns825916:0crwdne825916:0
-- crwdns825918:0crwdne825918:0
-- crwdns825920:0crwdne825920:0
-- crwdns825922:0crwdne825922:0
-- crwdns825924:0crwdne825924:0
-- crwdns825926:0crwdne825926:0
-- crwdns825928:0crwdne825928:0
-- crwdns825930:0crwdne825930:0
-- crwdns825932:0crwdne825932:0
-  - crwdns825934:0crwdne825934:0
-- crwdns825936:0crwdne825936:0
-- crwdns825938:0crwdne825938:0
-- crwdns825940:0crwdne825940:0
-- crwdns825942:0crwdne825942:0
-- crwdns825944:0crwdne825944:0
-- crwdns825946:0crwdne825946:0
+*Checklist for the session lead, helpers and note-takers of the designated session*
+- Share the link to the shared document.
+- Remind of the Code of the Conduct contact person in case something needs to be reported.
+- Introduce the helpers and note-takers (and sign language interpreter if available).
+- If recording the call, make sure to tell the participants before you hit the record button.
+- Allow them to turn off their video when recording.
+- To allow participation with the video on, don't record general discussions.
+- Help notetakers in documenting important outcomes from every discussion.
+- Encourage everyone to help the notetaker in documenting correct information.
+- With helpers and note-takers, gather questions, opinion and response, on the shared document for the open discussion.
+- Ask people to add '+1' next to the points that they like or agree with.
+- Verbalise some of the popular insights, opinion and thoughts.
+- Take note of any technical issue that the speaker or others come across and help troubleshoot them.
+- Help answer procedural questions like “where is this button that I should click”.
+- Direct technical questions to the organiser when needed.
+  - This can be done on a document or by using interactive tools like sli.do.
+- Create breakout rooms  whenever possible to ensure that people can connect while discussing mutually useful question or issues.
+- Facilitate fair discussion, don’t fixate on one argument.
+- In the last part of the session, take some time to collect feedback from the participants.
+- Ask people to volunteer to write short blogs about their experience.
+- Close their sessions in time by thanking the speakers and note-takers.
+- Take a moment to celebrate the session and everyone involved in running it.
 
-## crwdns825948:0crwdne825948:0
+## Lightning talks
 
-*crwdns825950:0crwdne825950:0*
+*Checklist for the designated chair of these sessions*
 
-- crwdns825952:0{ref}crwdne825952:0
-- crwdns825954:0crwdne825954:0
-- crwdns825956:0crwdne825956:0
-- crwdns825958:0crwdne825958:0
-  - crwdns825960:0crwdne825960:0
-- crwdns825962:0crwdne825962:0
-- crwdns825964:0crwdne825964:0
-- crwdns825966:0crwdne825966:0
+- Share the link of the shared notes for the session along with the link to the pre-recorded lightning talks (see details in the subchapter on {ref}`organising conference<cl-remote-collab-conferences>`).
+- Ask presenters who are attending the session to write down their names so that other attendees can ask questions specific to their talks.
+- Allow enough time for everyone to check out multiple Lightning Talks.
+- Run an open question and answer period where anyone can ask questions to any presenters; remind everyone to keep their questions and responses short.
+  - Use a shared document or Slido for taking questions.
+- Keep the format informal and allow flexibility for participation.
+- Finish the session by thanking all the participants, and ask everyone to leave encouraging words, gifs or emojis to celebrate the session and presenters' work.
+- If the feedback for the session is available, use the last few minutes to gather those from the participants.
 
-## crwdns825968:0crwdne825968:0
+## Poster sessions
 
-*crwdns825970:0crwdne825970:0*
+*Checklist for the designated chair of these sessions*
 
-- crwdns825972:0{ref}crwdne825972:0
-  - crwdns825974:0crwdne825974:0
-- crwdns825976:0crwdne825976:0
-- crwdns825978:0crwdne825978:0
-- crwdns825980:0crwdne825980:0
-- crwdns825982:0crwdne825982:0
-- crwdns825984:0crwdne825984:0 crwdns825986:0crwdne825986:0
-  - crwdns825988:0crwdne825988:0
-- crwdns825990:0crwdne825990:0
-- crwdns825992:0crwdne825992:0
-- crwdns825994:0crwdne825994:0
+- Share the link of the shared notes for the session along with the link to the gallery where the posters can be browsed (see details in {ref}`organising conference<cl-remote-collab-conferences>`).
+  - If short pre-recorded lightning talks on the posters are available, allow time to watch a few videos.
+- Ask presenters who are attending the session to write down their names so that other attendees can ask questions specific to their talks.
+- Allow enough time for everyone to ask questions on the shared document, dedicated channel (Slack or sli.do) for poster discussions.
+- Keep an eye on the document to see if everything is going well.
+- Remind everyone of the time at regular intervals.
+- At the end, run an open question and answer session where anyone can ask a question to any presenters in that session. Remind everyone to keep their questions and responses short.
+  - Use shared documents or [Slido](https://www.sli.do/) for taking questions.
+- Keep the format informal and allow flexibility for participation.
+- Finish the session by thanking all the participants, and ask everyone to leave nice words, gif or emoji to celebrate the session and presenters' work.
+- If the feedback for the session is available, use the last few minutes to gather that from the participants.
 
-## crwdns825996:0crwdne825996:0
+## Social events
 
-*crwdns825998:0crwdne825998:0*
-- crwdns826000:0crwdne826000:0
-- crwdns826002:0crwdne826002:0
-- crwdns826004:0crwdne826004:0
-- crwdns826006:0crwdne826006:0
-- crwdns826008:0crwdne826008:0
-- crwdns826010:0crwdne826010:0
-- crwdns826012:0crwdne826012:0
-- crwdns826014:0crwdne826014:0
-- crwdns826016:0crwdne826016:0
-- crwdns826018:0crwdne826018:0 crwdns826020:0crwdne826020:0
-  - crwdns826022:0crwdne826022:0
+*Checklist for the session lead, helpers and note-takers of the designated session*
+- Host loosely themed social events so that the participants know what to expect, most importantly keep the theme and format informal.
+- Keep these sessions longer than what they would be in an in-person event, for example, 2 hours lunch instead of 1 hour.
+- Don't keep these sessions too late in the day, remember that your attendees may not want to spend extra hours on the online call for a variety of reasons.
+- Start the online call at least 15 minutes before the actual event starts, and keep the call running for 5-15 minutes after the main event is over.
+- Share the collaborative notes with an agenda or a plan, links to join the call from the session or a social event chat system (for example, Slack) - an agenda will help attendees to be prepared of what to expect at the event.
+- Start with an informal ice breaker - allow everyone to introduce themselves to everyone on the call.
+- Follow the "show, don't tell" format, such as visual artefacts in the session format as much as possible.
+- Host online games that are not too hard to explain and can be played by multiple people.
+- Other parallel activities such as online treasure hunt, virtual museum or movie viewing can be organised.
+- Conference dinners can be hosted in parallel in multiple locations. Perhaps a care package with ingredients can be sent out before the conference, or provide a budget so participants can order their favourite meal.
+  - Other options could be to host a cooking and dining session (see the [Tweet thread](https://twitter.com/kevin_kunzmann/status/1240921979462520834), add your ideas too!).
 
-## crwdns826024:0crwdne826024:0
+## Handling breakout rooms
 
-*crwdns826026:0crwdne826026:0*
+*If using breakout rooms in Zoom (or similar tool), make sure that the organiser helps you create Groups*
 
-- crwdns826028:0crwdne826028:0
-- crwdns826030:0crwdne826030:0
-- crwdns826032:0crwdne826032:0
-- crwdns826034:0crwdne826034:0
-  - crwdns826036:0crwdne826036:0
-- crwdns826038:0crwdne826038:0
+- Create groups that are more diverse (they will have a better discussion).
+- Remind everyone to give others a fair chance to speak.
+- Ask them to write notes from their discussion in the shared document.
+- Send messages periodically reminding everyone of how much time for discussion is left.
+  - Remind them to move on to the next person if only one person has spoken so far in their Groups.
+- When people come back from their breakout rooms, ask them to share main points from their discussion.

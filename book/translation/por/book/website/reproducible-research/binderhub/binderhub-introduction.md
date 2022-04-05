@@ -1,16 +1,16 @@
-(rr-binderhub-inn-ction)=
-# Introdução a BinderHub
+(rr-binderhub-inntroduction)=
+# Introduction to BinderHub
 
-[BinderHub](https://binderhub.readthedocs.io/en/latest/index.html) é uma tecnologia baseada em nuvem que pode iniciar um repositório de código (do GitHub, GitLab, e outros) em uma janela do navegador, tal que o código pode ser executado e interagido. Uma URL única é gerada permitindo que o código interativo seja facilmente compartilhado.
+[BinderHub](https://binderhub.readthedocs.io/en/latest/index.html) is a cloud-based technology that can launch a repository of code (from GitHub, GitLab, and others) in a browser window such that the code can be executed and interacted with. A unique URL is generated allowing the interactive code to be easily shared.
 
-O objetivo dessas instâncias binárias é promover a reprodutibilidade em projetos de pesquisa, incentivando pesquisadores a documentar suas dependências de software e produzir diversão, ambientes interativos!
+The purpose of these Binder instances is to promote reproducibility in research projects by encouraging researchers to document their software dependencies and produce fun, interactive environments!
 
-Binder, como uma interface de usuário, é útil para reprodutibilidade porque o código precisa ser controlado por versão e o ambiente computacional precisa ser documentado para se beneficiar da funcionalidade da Binder. Cada alteração do repositório de código também força uma nova compilação da instância Binder. Isso atua como um proxy para uma integração contínua do ambiente computacional, pois a instância Binder quebrará se o arquivo de configuração não for atualizado.
+Binder, as a user interface, is useful for reproducibility because the code needs to be version controlled and the computational environment needs to be documented in order to benefit from the functionality of Binder. Each change to the code repository also forces a new build of the Binder instance. This acts as a proxy for continuous integration of the computational environment as the Binder instance will break if the configuration file is not updated.
 
-Saiba mais sobre Integração Contínua {ref}`aqui<rr-ci>`.
+Learn more about Continuous Integration {ref}`here<rr-ci>`.
 
-## Como funciona um BinderHub?
+## How does a BinderHub work?
 
-O BinderHub depende de ferramentas e recursos diferentes para criar e abrir as instâncias binárias.
+BinderHub relies on different tools and resources in order to create and launch the Binder instances.
 
-Para obter mais informações, consulte esta [explicação de alto nível sobre a arquitetura de BinderHub](https://binderhub.readthedocs.io/en/latest/overview.html).
+For more information, see this [high-level explanation of the BinderHub architecture](https://binderhub.readthedocs.io/en/latest/overview.html).

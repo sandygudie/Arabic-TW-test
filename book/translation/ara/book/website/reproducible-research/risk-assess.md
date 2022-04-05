@@ -1,26 +1,26 @@
-crwdns853020:0crwdne853020:0
-# crwdns853022:0crwdne853022:0
+(rr-risk-assess)=
+# Risk Assessment - deciding how to manage your software
 
-## crwdns853024:0crwdne853024:0
-crwdns853026:0crwdne853026:0 crwdns853028:0crwdne853028:0 crwdns853030:0crwdne853030:0
+## TL;DR
+Use a risk assessment to help choose the appropriate sustainable software concepts for your project. Too little and your software is unsustainable; too much and you won’t be able to Get On With It. It can take just a few seconds, but gets you off on the right foot.
 
-## crwdns853032:0crwdne853032:0
-crwdns853034:0crwdne853034:0 crwdns853036:0crwdne853036:0 crwdns853038:0crwdne853038:0
+## Longer read…
+We all use risk assessments all the time. Sometimes they’re formal procedures to ensure an activity is safe, but most of the time they’re the thought of a moment: "Is this coffee too hot?", "Is there a bus coming?". Software is no different, and using a risk assessment approach like the one described below can really help make your work successful and sustainable.
 
-### crwdns853040:0crwdne853040:0
-crwdns853042:0crwdne853042:0 crwdns853044:0crwdne853044:0 crwdns853046:0crwdne853046:0
+### The risk matrix
+A risk matrix is a very popular way of quantifying what’s going on with the thing you’re interested in. One axis measures exposure in some way, and the other the impact of a mishap. The further from the origin, the more safeguards are needed to make the risk acceptable.
 
-crwdns853048:0crwdne853048:0 crwdns853050:0crwdne853050:0
+In our case, we will use ‘complexity’ and ‘impact’ as the two axes. Some case studies illustrate how it works…
 
-crwdns853052:0crwdne853052:0
+Case 1
 
-> crwdns853054:0crwdne853054:0 crwdns853056:0crwdne853056:0 crwdns853058:0crwdne853058:0 crwdns853060:0crwdne853060:0 crwdns853062:0crwdne853062:0 crwdns853064:0crwdne853064:0 crwdns853066:0crwdne853066:0
+> Richard needs to submit 100 small jobs to the department cluster, with the names of the jobs varying according to a simple pattern. This is tedious and he wants to go outside and play. Therefore, Richard decides to write a short shell script to submit all the jobs. He pauses for a few seconds and asks: "How complicated is this? It’ll only be about 1 screen of text." "What if it goes wrong? The jobs won’t submit or run and I’ll get some failure emails."
 
-## crwdns853068:0crwdne853068:0
-> crwdns853070:0crwdne853070:0
+## Prerequisites/recommended skill level
+> This needs writing
 
-## crwdns853072:0crwdne853072:0
-crwdns853074:0crwdne853074:0 crwdns853076:0crwdne853076:0 crwdns853078:0crwdne853078:0
+## Summary
+Use a risk assessment to help choose the appropriate sustainable software concepts for your project. Too little and your software is unsustainable; too much and you won’t be able to Get On With It. It can take just a few seconds, but gets you off on the right foot.
 
-## crwdns853080:0crwdne853080:0
-> crwdns853082:0crwdne853082:0
+## How this will help you/why this is useful
+> This needs writing

@@ -1,81 +1,81 @@
-crwdns839076:0crwdne839076:0
-# crwdns839078:0crwdne839078:0
+(ch-template-coworking-weekly)=
+# Weekly Coworking Call Template
 
-*crwdns839080:0crwdne839080:0*
+*A permanent document exists in the HackMD: [https://hackmd.io/@malvikasharan/TW-coworking](https://hackmd.io/@malvikasharan/TW-coworking) that is updated every Monday with the dates and times for the respective week.*
 
-## crwdns839082:0crwdne839082:0
+## _The Turing Way_ online coworking hours
 
-crwdns839084:0crwdne839084:0 crwdns839086:0crwdne839086:0
+**What?** _The Turing Way_ is a **lightly opinionated guide to reproducible data science and research**. _The Turing Way_ team hosts 1-hr long coworking calls each week for the community members to work together in real time.
 
-*crwdns839088:0crwdne839088:0*
+*Read more about it here: https://the-turing-way.netlify.app/community-handbook/coworking.html*
 
-crwdns839090:0crwdne839090:0
-* crwdns839092:0crwdne839092:0
-* crwdns839094:0crwdne839094:0
-* crwdns839096:0crwdne839096:0
+**Who?** **Everyone** interested in reproducible, ethical, and inclusive data science and research are welcome to join the full or any part of The Turing Way project, community, and/or this call.*
+* If you are working from home and want to connect for _The Turing Way_ co-working hour - sign up for a slot provided below for this week between 11:00 - 12:00 BST.
+* Join us with a task that you are already working on in _The Turing Way_, an idea that you want to discuss, a pull request that you want to review, or something you started in the past and struggling to finish.
+* If you want to get an orientation to the project as a new member or connect with the team members - this would be a good place too!
 
-crwdns839098:0crwdne839098:0
+If you would like to join _The Turing Way_ co-working hour - sign up for a slot provided for this week between 11:00 - 12:00 BST.
 
-crwdns839100:0crwdne839100:0
+**Host:** Malvika Sharan (msharan@turing.ac.uk)
 
-*crwdns839102:0crwdne839102:0*
+*If you can't join from the beginning of the hour, please let the host know by contacting on [Gitter](https://gitter.im/alan-turing-institute/the-turing-way) or via email.*
 
-### crwdns839104:0crwdne839104:0
+### Code of conduct
 
-* [crwdns839108:0crwdne839108:0](crwdns839106:0crwdne839106:0)
+* [Take a moment to read this](https://github.com/alan-turing-institute/the-turing-way/blob/main/CODE_OF_CONDUCT.md)
 
-crwdns839110:0:hourglass_flowing_sand:crwdne839110:0
+:hourglass_flowing_sand: **Schedule:**
 
-**crwdns839112:0crwdne839112:0**
+**Schedule:**
 
-| crwdns839114:0crwdne839114:0 | crwdns839116:0crwdne839116:0 |
-| ---------------------------- | ---------------------------- |
-| crwdns839118:0crwdne839118:0 | crwdns839120:0crwdne839120:0 |
-| crwdns839122:0crwdne839122:0 | crwdns839124:0crwdne839124:0 |
-| crwdns839126:0crwdne839126:0 | crwdns839128:0crwdne839128:0 |
-| crwdns839130:0crwdne839130:0 | crwdns839132:0crwdne839132:0 |
-| crwdns839134:0crwdne839134:0 | crwdns839136:0crwdne839136:0 |
-| crwdns839138:0crwdne839138:0 | crwdns839140:0crwdne839140:0 |
+| Duration | Activity                                |
+| -------- | --------------------------------------- |
+| Start    | 👋 Welcome                               |
+| 5 mins   | Introductions and personal goal setting |
+| 20 mins  | 🍅 1st Pomodoro session                  |
+| 5 mins   | ☕️ Break and report out                 |
+| 20 mins  | 🍅 2nd Pomodoro session                  |
+| 5 mins   | Open discussion and Close 👋             |
 
-### crwdns839142:0crwdne839142:0
+### This week/month, we will host coworking calls on the following days:
 
-- crwdns839144:0crwdne839144:0
-- crwdns839146:0crwdne839146:0
+- DD Month YYYY: HH:MM BST (link for a local time from https://arewemeetingyet.com)
+- ...
 
-crwdns839148:0crwdne839148:0 <Provide a Zoom link>
+**Joining link**: <Provide a Zoom link>
 
-crwdns839150:0crwdne839150:0
+**Pomodoro clock for these calls**: https://cuckoo.team/tw-coworking
 
-### crwdns839152:0crwdne839152:0 crwdns839154:0crwdne839154:0
+### Sign up below to indicate you will join on particular dates. *Time is given in BST*
 
-*crwdns839156:0crwdne839156:0*
+*Please ping the host of this call on Gitter if you signed up but no longer can join*
 
-#### crwdns839158:0crwdne839158:0
+#### DD Month YYYY:
 
-- [crwdns839162:0crwdne839162:0](crwdns839160:0crwdne839160:0)
+- [11:00 UK Summer Time](https://arewemeetingyet.com/London/2020-06-02/11:00/TW-coworking)
 
-- crwdns839164:0crwdne839164:0
+- Name / Your idea to work on today:
 -
 
-**crwdns839166:0crwdne839166:0**
-
--
-
-**crwdns839168:0crwdne839168:0**
+**Short notes from the call**
 
 -
 
-#### crwdns839170:0crwdne839170:0
-
-- [crwdns839174:0crwdne839174:0](crwdns839172:0crwdne839172:0)
-
-- crwdns839176:0crwdne839176:0
--
-
-**crwdns839178:0crwdne839178:0**
+**Some PRs from the discussions**
 
 -
 
-**crwdns839180:0crwdne839180:0**
+#### DD Month YYYY:
+
+- [11:00 UK Summer Time](https://arewemeetingyet.com/London/2020-06-02/11:00/TW-coworking)
+
+- Name / Your idea to work on today:
+-
+
+**Short notes from the call**
+
+-
+
+**Some PRs from the discussions**
 
 -

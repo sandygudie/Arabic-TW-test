@@ -1,206 +1,227 @@
-crwdns845410:0crwdne845410:0
-# crwdns845412:0crwdne845412:0
+(rr-licensing-compatibility)=
+# License Compatibility
 
-crwdns845414:0crwdne845414:0 crwdns845416:0crwdne845416:0
+If you use multiple external components in your program, then you may end up with multiple different constraints on the license of the combined work. If these constraints conflict, then you cannot legally distribute the result (if proprietary software is involved, then you may not legally be able to make the combined work at all).
 
-crwdns845418:0crwdne845418:0
+If two licenses specify incompatible constraints on the license of the combined work, then they are _incompatible_.
 
-crwdns845420:0crwdne845420:0 crwdns845422:0crwdne845422:0
+The GNU GPL, for instance, is incompatible with proprietary licenses, because it requires the combined work to be licensed under the GPL, with no additional restrictions allowed. Having a part of the work under a proprietary license is such an additional restriction, so you cannot distribute such a combination (unless the copyright owner of the GPL code gives special permission).
 
-crwdns845424:0crwdne845424:0
+When you use different pieces of software together to solve a problem, and want to distribute the result, here are the questions you have to answer:
 
-- crwdns845426:0crwdne845426:0
-- crwdns845428:0crwdne845428:0 crwdns845430:0crwdne845430:0
-- crwdns845432:0crwdne845432:0
+- Which separate works are there, and what is derived from what?
+- Can the derivative works be distributed? Do the licenses allow this, and are they compatible?
+- How should the work(s) be licensed?
 
-crwdns845434:0crwdne845434:0
+The next section shows some examples of how this is done.
 
-crwdns845436:0crwdne845436:0
-## crwdns845438:0crwdne845438:0
+(rr-licensing-compatibility-examples)=
+## Examples
 
-crwdns845440:0crwdne845440:0 crwdns845442:0crwdne845442:0
+Many of the examples in this section relate to [xtas](http://xtas.net). xtas is a natural language processing toolkit for Python that reuses many third-party libraries, programs and data sets, and therefore provides a variety of excellent examples.
 
 ```{figure} ../../figures/xtas-overview96.png
-crwdns845444:0crwdne845444:0 crwdns845446:0crwdne845446:0 crwdns845448:0crwdne845448:0 crwdns845450:0crwdne845450:0 crwdns845452:0crwdne845452:0 crwdns845454:0crwdne845454:0 crwdns845456:0crwdne845456:0 crwdns845458:0crwdne845458:0 crwdns845460:0crwdne845460:0 crwdns845462:0crwdne845462:0 crwdns845464:0crwdne845464:0 crwdns845466:0crwdne845466:0 crwdns845468:0crwdne845468:0 crwdns845470:0crwdne845470:0 crwdns845472:0crwdne845472:0 crwdns845474:0crwdne845474:0
-crwdns845476:0crwdne845476:0
+---
+name: xtas-overview96
+alt: A graphical overview of xtas. A large rectangle represents the combined work xtas. Within this rectangle, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Underneath this, there are three side-by-side squares, representing respectively Python libraries, software, and data, that are used by xtas. Within the Python libraries square, there are three boxes. The first box contains the words "BSD", "MIT" and "ALv2". The second box contains "LGPLv2.1". The third box contains "GPLv2+". Within the Software square, there are four boxes. The first box contains "Web Service". The second box contains "LGPL v2.1+". The third box contains "Research only", and the fourth box contains "GPL 2+/3+". The Data square also contains four boxes. The first box contains "CC BY-SA 3.0". The second box contains "Research Only". The third box contains "No license, US" and the fourth box contains "CoNLL'02 only".
+---
+A graphical overview of xtas.
 ```
 
-crwdns845478:0crwdne845478:0 crwdns845480:0crwdne845480:0
+xtas itself is written in Python, and it uses a number of Python libraries that are licensed under common free licenses. These include the simple permissive BSD and MIT licenses, the permissive Apache License version 2.0 (ALv2), the GNU Lesser General Public License version 2.1 (LGPLv2.1), and the GNU General Public License version 2 or later (GPLv2+).
 
-crwdns845482:0crwdne845482:0
+(Note that the dependency on the GPLv2+ Python library is deprecated, but for the sake of these examples, we will assume it to still be there.)
 
-crwdns845484:0crwdne845484:0 crwdns845486:0crwdne845486:0 crwdns845488:0crwdne845488:0
+xtas' Python code is distributed under the Apache License version 2.0. Since the xtas authors own the copyright, they can license it any way they like (although there is a gray area concerning GPL dependencies, see below). The xtas authors do not distribute any combined works or binaries, but in the examples below, we will assume that there is a combined work, so that we can consider how it should be licensed.
 
-crwdns845490:0crwdne845490:0
+In the following examples, we will simplify most of this away and look at one or a few dependencies in turn.
 
-crwdns845492:0crwdne845492:0
-### crwdns845494:0crwdne845494:0
+(rr-licensing-compatibility-examples-apachevsbsd)=
+### Apache vs. BSD
 
 ```{figure} ../../figures/xtas-snowball96.png
-crwdns845496:0crwdne845496:0  crwdns845498:0crwdne845498:0 crwdns845500:0crwdne845500:0 crwdns845502:0crwdne845502:0
-crwdns845504:0crwdne845504:0
+---
+name: xtas-snowball96
+alt: An illustration of the xtas vs. Snowball example.  A large rectangle represents the combined work xtas. Within this rectangle, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Below that is a square containing the words "Snowball Stemmer" and "Python lib BSD".
+---
+An illustration of the xtas vs. Snowball example.
 ```
 
-crwdns845506:0crwdne845506:0 crwdns845508:0crwdne845508:0 crwdns845510:0crwdne845510:0
+xtas uses [Snowball](https://snowballstem.org/), a Python-based stemming library. Snowball is published under the 3-clause BSD license. Considering only xtas and Snowball, we can answer the three questions as follows:
 
-#### crwdns845512:0crwdne845512:0
+#### Which separate works are there, and what is derived from what?
 
-crwdns845514:0crwdne845514:0 crwdns845516:0crwdne845516:0
+There are three works: Snowball, the xtas Python code, and the combined work xtas. The combined work is derived from Snowball and xtas Python code, which are both independent works.
 
-crwdns845518:0crwdne845518:0 crwdns845520:0crwdne845520:0
+Note that the ALv2 and the LGPL v2.1 explicitly state that source code that is intended to work in combination with a library is not a derivative work, while the binary resulting from (statically or dynamically) linking the pieces together is. Other licenses, including the GPL, do not make any explicit statement about this.
 
-crwdns845522:0crwdne845522:0
+As far as I know, there is no case law on this; we will assume it to be the case in these examples.
 
-#### crwdns845524:0crwdne845524:0 crwdns845526:0crwdne845526:0
+#### Can the derivative works be distributed? Do the licenses allow this, and are they compatible?
 
-crwdns845528:0crwdne845528:0 crwdns845530:0crwdne845530:0 crwdns845532:0crwdne845532:0
+Snowball is licensed under a permissive license. It can be redistributed under that license, and there are no constraints on the license of derivative works. The xtas authors can license it any way they want.
 
-#### crwdns845534:0crwdne845534:0
+#### How should the work(s) be licensed?
 
-crwdns845536:0crwdne845536:0
+The xtas Python code, and the xtas combined work, are licensed under the Apache License v2.0.
 
-crwdns845538:0crwdne845538:0 crwdns845540:0crwdne845540:0
+If xtas authors redistribute Snowball, they must do so under the BSD license granted by Snowball authors. (They cannot give additional permissions for Snowball, since they do not own the copyright, and additional restrictions would be unenforceable for the same reason.)
 
-crwdns845542:0crwdne845542:0
-### crwdns845544:0crwdne845544:0
+(rr-licensing-compatibility-examples-apachevslgpl)=
+### Apache vs. LGPL
 
 ```{figure} ../../figures/xtas-chardet96.png
-crwdns845546:0crwdne845546:0 crwdns845548:0crwdne845548:0 crwdns845550:0crwdne845550:0 crwdns845552:0crwdne845552:0
-crwdns845554:0crwdne845554:0
+---
+name: xtas-chardet96
+alt: An illustration of the xtas vs. chardet example. A large rectangle represents the combined work xtas. Within this rectangle, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Below that is a square containing the words "chardet" and "Python lib LGPLv2.1".
+---
+An illustration of the xtas vs. chardet example.
 ```
 
-crwdns845556:0crwdne845556:0 crwdns845558:0crwdne845558:0 crwdns845560:0crwdne845560:0
+xtas uses [chardet](https://pypi.org/project/chardet/), a Python library for detecting the character set used in a string of text. Chardet is published under the GNU Lesser General Public License v2.1. Considering only xtas and chardet, we can answer the three questions as follows.
 
-#### crwdns845562:0crwdne845562:0
+#### Which separate works are there, and what is derived from what?
 
-crwdns845564:0crwdne845564:0 crwdns845566:0crwdne845566:0 crwdns845568:0crwdne845568:0
+There are three works: chardet, the xtas Python code, and the combined work. The combined work is derived from chardet and xtas Python code. The others are independent works.
 
-#### crwdns845570:0crwdne845570:0 crwdns845572:0crwdne845572:0
+#### Can the derivative works be distributed? Do the licenses allow this, and are they compatible?
 
-crwdns845574:0crwdne845574:0 crwdns845576:0crwdne845576:0 crwdns845578:0crwdne845578:0
+Chardet is licensed under a weak copyleft license, so it can be redistributed under the terms of that license. Derivative works can be licensed under any license. However, the LGPL v2.1 requires that the recipient can (and is allowed to) modify the library and use the modified library with the derivative work.
 
-#### crwdns845580:0crwdne845580:0
+#### How should the work(s) be licensed?
 
-crwdns845582:0crwdne845582:0 crwdns845584:0crwdne845584:0
+xtas as a whole, and the xtas Python code, can be licensed in any way the authors want, so they used the Apache License v2.0. If they distribute chardet, they must do so under the LGPL v2.1 license granted by its copyright owners.
 
-crwdns845586:0crwdne845586:0
-### crwdns845588:0crwdne845588:0
+(rr-licensing-compatibility-examples-apachevsgplv2)=
+### Apache vs. GPLv2
 
 ```{figure} ../../figures/xtas-unidecode96.png
-crwdns845590:0crwdne845590:0 crwdns845592:0crwdne845592:0 crwdns845594:0crwdne845594:0 crwdns845596:0crwdne845596:0
-crwdns845598:0crwdne845598:0
+---
+name: xtas-unidecode96
+alt: An illustration of the xtas vs. unidecode example. The large rectangle represents the combined work xtas. Within this rectangle, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Below that is a square containing the words "unidecode" and "Python lib GPLv2+".
+---
+An illustration of the xtas vs. unidecode example.
 ```
 
-crwdns845600:0crwdne845600:0 crwdns845602:0crwdne845602:0 crwdns845604:0crwdne845604:0
+xtas previously used [unidecode](https://pypi.org/project/Unidecode/), a Python library for converting text encoded according to The Unicode® Standard into an ASCII approximation of it. Unidecode is published under the GNU General Public License version 2 or later (GPLv2+). Considering only xtas and unidecode, we can answer the three questions as follows.
 
-#### crwdns845606:0crwdne845606:0
+#### Which separate works are there, and what is derived from what?
 
-crwdns845608:0crwdne845608:0 crwdns845610:0crwdne845610:0
+There are three works: unidecode, the xtas Python code, and the combined work. The combined work derives from unidecode and the xtas Python code.
 
-crwdns845612:0crwdne845612:0 crwdns845614:0crwdne845614:0
+Whether the xtas Python code is a derivative work of unidecode is not clearly defined by the law, and there is no case law on this. The Apache license and the LGPL explicitly state that it is not for the purpose of those licenses, but the GPL does not contain such a clause.
 
-crwdns845616:0crwdne845616:0
+As they are developed separately, and there is no code from unidecode in the xtas code, we assume here that it is not a derivative work.
 
-#### crwdns845618:0crwdne845618:0 crwdns845620:0crwdne845620:0
+#### Can the derivative works be distributed? Do the licenses allow this, and are they compatible?
 
-crwdns845622:0crwdne845622:0 crwdns845624:0crwdne845624:0
+Unidecode is licensed under a strong copyleft license, so it is redistributed under the terms of that license. Derivative works must be licensed under the same license.
 
-crwdns845626:0crwdne845626:0 crwdns845628:0crwdne845628:0 crwdns845630:0crwdne845630:0 crwdns845632:0crwdne845632:0
+Unidecode is licensed under the GPL version 2 or later. This is known as a _disjunctive license_. The copyright owners of unidecode offer everyone a GPLv2 license, but also a GPLv3 license, and even proactively any later version of the GNU GPL that may be created in the future. A potential user may choose to accept any one of these licenses, or a combination of them, if they want to copy the work or make derivative works.
 
-#### crwdns845634:0crwdne845634:0
+#### How should the work(s) be licensed?
 
-crwdns845636:0crwdne845636:0 crwdns845638:0crwdne845638:0 crwdns845640:0crwdne845640:0
+If the xtas authors distribute unidecode, they should do so under the GPL version 2 or higher, as arbitrarily removing licenses from someone else's code does not make sense. The combined work xtas must be distributed under the same licenses or a subset of them. The xtas Python code can be licensed in any way they want.
 
-crwdns845642:0crwdne845642:0 crwdns845644:0crwdne845644:0
+The xtas authors should choose a license for the xtas Python code that is compatible with at least one of the licenses that unidecode can be distributed under so that others can assemble and distribute combined works. The ALv2 is compatible with the GPLv3 (but not with the GPLv2, for technical reasons), so they can use it here.
 
-crwdns845646:0crwdne845646:0 crwdns845648:0crwdne845648:0
+The combined work should then be licensed under the GPL version 3 or later. If it is important that it can be used under the GPLv2 as well, then the xtas authors can license the xtas Python code under both the ALv2 and the GPLv2 (meaning, they offer both licenses, and the user can choose to accept either or both), and the combined work under the GPL version 2 or later.
 
-crwdns845650:0crwdne845650:0 crwdns845652:0crwdne845652:0 crwdns845654:0crwdne845654:0
+Finally, it may be decided later that the xtas Python source code is a derivative work of unidecode because it calls into it. Even if none of unidecode is included in the work, then the xtas authors must distribute the xtas Python code under at least one of the GPL licenses that unidecode is distributed under. In that case, they can offer xtas under the ALv2 and GPLv2+ set of licenses.
 
-crwdns845656:0crwdne845656:0
+The simplest solution, in this case, would be to simply license the xtas Python code and the derived work under the GPLv3.
 
-crwdns845658:0crwdne845658:0
+As is probably clear by now, dependencies that are under a strong copyleft license complicate your life if you want people to be able to make proprietary works based on your software.
 
-crwdns845660:0crwdne845660:0
-### crwdns845662:0crwdne845662:0
+(rr-licensing-compatibility-examples-apachevsall)=
+### Apache vs BSD vs LGPL vs GPLv2
 
 ```{figure} ../../figures/xtas-all-python-libs96.png
-crwdns845664:0crwdne845664:0 crwdns845666:0crwdne845666:0 crwdns845668:0crwdne845668:0 crwdns845670:0crwdne845670:0 crwdns845672:0crwdne845672:0 crwdns845674:0crwdne845674:0 crwdns845676:0crwdne845676:0
-crwdns845678:0crwdne845678:0
+---
+name: xtas-all-python-libs96
+alt: An illustration of the xtas and all Python libraries example. A large rectangle represents the combined work xtas. Within this rectangle, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Below this, there are three squares. The first square contains the words "Snowball" and "Python lib BSD". The second square contains "chardet" and "Python lib LGPLv2.1". The third square contains the words "unidecode" and "Python lib GPLv2+".
+---
+An illustration of the xtas and all Python libraries example.
 ```
 
-crwdns845680:0crwdne845680:0
+Now, we will consider all three of the above examples at the same time.
 
-#### crwdns845682:0crwdne845682:0
+#### How many separate works are there, and what is derived from what?
 
-crwdns845684:0crwdne845684:0 crwdns845686:0crwdne845686:0
+There are five works: Snowball, chardet, unidecode, the xtas Python code, and xtas the combined work. The combined work is derived from all its components.
 
-#### crwdns845688:0crwdne845688:0 crwdns845690:0crwdne845690:0
+#### Can the derivative works be distributed? Do the licenses allow this, and are they compatible?
 
-crwdns845692:0crwdne845692:0 crwdns845694:0crwdne845694:0
+The four non-xtas components are under free software licenses, and the xtas authors own the copyright to the xtas Python code, so all five components can be distributed by the xtas authors. The BSD, LGPLv2.1 and GPLv2+ all allow licensing the combined work under the GPL version 2 or higher, so there is at least one license that the combined work can be licensed under.
 
-#### crwdns845696:0crwdne845696:0
+#### How should the work(s) be licensed?
 
-crwdns845698:0crwdne845698:0 crwdns845700:0{ref}crwdne845700:0
+The xtas Python code should be licensed under the Apache License v2 and the combined work under the GPL version 3 or higher. (See the {ref}`unicode example <rr-licensing-compatibility-examples-apachevsgplv2>` above for alternatives.)
 
 
-### crwdns845702:0crwdne845702:0
+### Call External Program
 
-crwdns845704:0crwdne845704:0 crwdns845706:0crwdne845706:0
+xtas can run the [Stanford CoreNLP program](https://stanfordnlp.github.io/CoreNLP/), which is written in Java and distributed under the GNU GPL version 3 or later. When the user calls the corresponding xtas function, CoreNLP is started by xtas, the user's input is sent to it through a pipe, and then the CoreNLP output is handed back to the user or processed further.
 
 ```{figure} ../../figures/xtas-corenlp1-96.png
-crwdns845708:0crwdne845708:0 crwdns845710:0crwdne845710:0 crwdns845712:0crwdne845712:0 crwdns845714:0crwdne845714:0
-crwdns845716:0crwdne845716:0
+---
+name: xtas-corenlp1-96
+alt: An illustration of the xtas vs. CoreNLP example. The square represents the combined work xtas. Within this square, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Below that is a square containing the words "Stanford CoreNLP" and "Java program GPLv3+".
+---
+An illustration of the xtas vs. CoreNLP example.
 ```
 
-crwdns845718:0crwdne845718:0 crwdns845720:0crwdne845720:0
+One interpretation of this situation is that it is no different from calling a function in a library and that any distribution of xtas, as a whole, including CoreNLP, should therefore be under the GPLv3+. Contributing to this interpretation is the fact that xtas will download and install CoreNLP automatically if needed.
 
 ```{figure} ../../figures/xtas-corenlp2-96.png
-crwdns845722:0crwdne845722:0 crwdns845724:0crwdne845724:0 crwdns845726:0crwdne845726:0 crwdns845728:0crwdne845728:0 crwdns845730:0crwdne845730:0
-crwdns845732:0crwdne845732:0
+---
+name: xtas-corenlp2-96
+alt: Another illustration of the xtas vs. CoreNLP example. The square on the left represents the combined work xtas. Within this square, there is a rectangle representing the xtas Python code, licensed under the Apache License v2. On the right is a separate square representing CoreNLP, with the text "Stanford CoreNLP" and "Java program GPLv3+". Between the squares are two arrows, one at the top pointing from xtas to CoreNLP, and one at the bottom pointing from CoreNLP to xtas.
+---
+Another illustration of the xtas vs. CoreNLP example.
 ```
 
-crwdns845734:0crwdne845734:0
+Another interpretation is that xtas and CoreNLP are separate works and that xtas merely communicates with CoreNLP over its standard user interface.
 
-crwdns845736:0crwdne845736:0 crwdns845738:0crwdne845738:0
+In this interpretation xtas is a separate program that helps a user use the CoreNLP program from the Python language, and not a derivative work of CoreNLP. One can consider xtas analogous to a package installer and a command shell here, which are clearly not derivative works of the packages they install or the programs they start.
 
-crwdns845740:0crwdne845740:0
+Under this interpretation, xtas as a whole (not including CoreNLP) can be distributed under any given license (subject to restrictions imposed by its other dependencies of course).
 
-crwdns845742:0crwdne845742:0
+In practice, the xtas authors do not distribute CoreNLP at all; they only distribute the xtas Python code, under the Apache License version 2.
 
 
-### crwdns845744:0crwdne845744:0
+### GPLv3 vs Proprietary License
 
-crwdns845746:0crwdne845746:0 crwdns845748:0crwdne845748:0
+In this example project we want to combine the [OpenIFS global circulation model](https://confluence.ecmwf.int/display/OIFS) with the [DALES large-eddy simulation model](https://github.com/dalesteam/dales). Both these models are available as libraries, so the project entails combining the OpenIFS and Dales libraries into a single program.
 
-crwdns845750:0crwdne845750:0
+(This is a simplified example, the reality of this project is a notch or two more complicated, and the below is not exactly what we do.)
 
-crwdns845752:0crwdne845752:0 crwdns845754:0crwdne845754:0
+The OpenIFS library (part of the ECMWF weather model code) is available under a proprietary license that allows running the program and making private modifications, but does not allow distributing the program or any derivatives. DALES is published under the GPL version 3.
 
-#### crwdns845756:0crwdne845756:0
+#### How many separate works are there, and what is derived from what?
 
-crwdns845758:0crwdne845758:0 crwdns845760:0crwdne845760:0
+There are four works: OpenIFS, DALES, the rest of the program written by us, and the combination of them all. The combined work is derived from its components.
 
-#### crwdns845762:0crwdne845762:0 crwdns845764:0crwdne845764:0
+#### Can the derivative works be distributed? Do the licenses allow this, and are they compatible?
 
-crwdns845766:0crwdne845766:0 crwdns845768:0crwdne845768:0 crwdns845770:0crwdne845770:0
+The OpenIFS license does not allow redistribution, so it cannot be distributed. DALES can be distributed, under the GPLv3. The rest of the program is written by us and can be licensed by us if we want to.
 
-crwdns845772:0crwdne845772:0 crwdns845774:0crwdne845774:0
+The whole combined work cannot be distributed, since it incorporates OpenIFS. If it did not include OpenIFS, it would have to be distributed under the GPLv3, because of the DALES dependency.
 
-#### crwdns845776:0crwdne845776:0
+#### Can we work on this privately, without distributing anything?
 
-crwdns845778:0crwdne845778:0 crwdns845780:0crwdne845780:0 crwdns845782:0crwdne845782:0
+The GPL allows making private modifications of software covered by it, with no restrictions, provided the changed software is not distributed at all. The OpenIFS license also allows making private modifications. So we can work on this project (and prepare and run combined works) without violating the licenses, as long as we do not share the results with anyone.
 
-crwdns845784:0crwdne845784:0 crwdns845786:0crwdne845786:0
+However, if we want to collaborate with someone outside our organization, this means that we exchange materials between different legal entities, which counts as distribution. We can do that with our own code (which we can even publish openly under the ALv2) and with DALES, but not with OpenIFS or any combined works.
 
-#### crwdns845788:0crwdne845788:0
+#### What other options are there in this kind of situation?
 
-crwdns845790:0crwdne845790:0 crwdns845792:0crwdne845792:0 crwdns845794:0crwdne845794:0
+We can try to split up the system into independent programs that run in separate processes and communicate with each other over well-documented, generic interfaces. In this way, there would never be a combined work, just a few independent works that exchange information. However, to not be considered a single work, how separate the programs have to be is unclear.
 
-crwdns845796:0crwdne845796:0 crwdns845798:0crwdne845798:0
+We could also ask the OpenIFS and DALES copyright owners for permission to share combined works between our organization and the outsider. That would remove all uncertainty, but may not be practical in general.
 
-crwdns845800:0crwdne845800:0 crwdns845802:0crwdne845802:0
+Another option would be to replace one of the dependencies by one we write. This is usually impractical, both due to time constraints and because the new version would not have the scientific pedigree of the existing one.
 
-crwdns845804:0crwdne845804:0
+The fundamental issue here is that the GPL tries to make everyone shared stewards of the software we use, while proprietary software tries to keep control in the hands of a single owner.
 
-crwdns845806:0crwdne845806:0 crwdns845808:0crwdne845808:0
+Combining them in a single project is complicated and not without legal risk, and you should avoid it. If that is not possible, you should tread carefully.

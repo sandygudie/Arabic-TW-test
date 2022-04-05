@@ -1,37 +1,38 @@
 ```{figure} ../figures/data-ecosystem.jpg
 ---
 height: 400px
-nome: data-ecosystem
-alt: imagem do ecossistema de dados com dados privados e públicos
---- Abrir e fechar dados para reprodução.
-_O projeto Turing Way_ ilustração por Scriberia. Versão original do Zenodo. http://doi.org/10.5281/zenodo.3695300. 
+name: data-ecosystem
+alt: image of the data ecosystem with private and public data
+---
+Open and closed data for reproducibility.
+_The Turing Way_ project illustration by Scriberia. Original version on Zenodo. http://doi.org/10.5281/zenodo.3695300. 
 ```
 
 (rr-rdm)=
-# Gerenciamento de Dados de Pesquisa
+# Research Data Management
 
-(rr-rdm-pré-requisitos)=
-## Pré-requisitos
+(rr-rdm-prerequisites)=
+## Prerequisites
 
-As seções seguintes deste manual fornecem um contexto útil e informações complementares a este capítulo:
+The following sections in this handbook provide useful context and complementary information to this chapter:
 
-| Pré-requisito  | Importância |
-| -------------- | ----------- |
-| {ref}`rr-vcs`  | Útil        |
-| {ref}`rr-open` | Útil        |
+| Prerequisite   | Importance |
+| -------------- | ---------- |
+| {ref}`rr-vcs`  | Helpful    |
+| {ref}`rr-open` | Helpful    |
 
-(rr-rdm-resumy)=
+(rr-rdm-summary)=
 ## Summary
 
-Gerenciamento de Dados de Pesquisa (RDM) [{term}`def<Research Data Management>`] cobre como os dados de pesquisa podem ser armazenados, descritos e reutilizados. Os dados aqui são usados como um termo genérico para abranger todos os objetos digitais. O RDM é uma parte vital para permitir a investigação reprodutível. RDM garante eficiência em fluxos de trabalho de pesquisa, e também maior alcance e impacto, à medida que os dados se tornam FAIR (buscáveis, acessíveis, interoperáveis e reutilizáveis). Os dados devem ser armazenados em vários locais e no backup regularmente para prevenir a perda ou a corrupção de dados. Descrever claramente dados usando a documentação e os metadados garante que outros saibam como acessá-los. use e reutilize seus dados, e também ative condições para que sejam delineados os dados de compartilhamento e publicação.
+Research Data Management (RDM) [{term}`def<Research Data Management>`] covers how research data can be stored, described and reused. Data here is used as a generic term to encompass all digital objects. RDM is a vital part of enabling reproducible research. RDM ensures efficiency in research workflows, and also greater reach and impact, as data become FAIR (Findable, Accessible, Interoperable and Reusable). Data should be stored in multiple locations and backed-up regularly to prevent loss or data corruption. Clearly describing data using documentation and metadata ensures that others know how to access, use and reuse your data, and also enable conditions for sharing and publishing data to be outlined.
 
 
 
-(rr-rdm-útil)=
-## Por que isso é Útil
+(rr-rdm-useful)=
+## Why This is Useful
 
-- Gerenciar seus dados permite que você sempre encontre seus dados e garanta a qualidade da prática científica.
-- Armazenar seus dados corretamente e fazer backup regularmente evita a perda de dados.
-- Pode ajudar com {ref}`reconhecimento <cm-citable-orcid>` para todos os resultados da pesquisa.
-- Ele estimula **colaboração** com outras pessoas, que acharão mais fácil entender e reutilizar seus dados.
-- O RDM é eficiente em custo/tempo, pois você sempre será capaz de encontrar e usar seus dados.
+- Managing your data allows you to always find your data and ensure the quality of scientific practice.
+- Storing your data properly and and backing-up regularly prevents data loss.
+- It can help with {ref}`recognition <cm-citable-orcid>` for all research outputs.
+- It stimulates **collaboration** with others, who will find it easier to understand and reuse your data.
+- RDM is cost/time efficient, as you will always be able to find and use your data.

@@ -1,83 +1,112 @@
-crwdns852254:0crwdne852254:0
-# crwdns852256:0crwdne852256:0
+(rr-renv-yaml)=
+# YAML
 
-crwdns852258:0crwdne852258:0 crwdns852260:0crwdne852260:0 crwdns852262:0{ref}crwdne852262:0
+YAML is an indentation-based markup language which aims to be both easy to read and easy to write. Many projects use it for configuration files because of its readability, simplicity, and good support for many programming languages. It can be used for many things, including defining computational environments, and is well integrated with [GitHub actions](https://travis-ci.org/), which is discussed in the {ref}`rr-ci-github-actions` chapter.
 
-crwdns852264:0crwdne852264:0
-## crwdns852266:0crwdne852266:0
+(rr-renv-yaml-files)=
+## YAML Files
 
-crwdns852268:0crwdne852268:0
-
-```
-crwdns852270:0crwdne852270:0
-```
-
-crwdns852272:0crwdne852272:0
-
-crwdns852274:0crwdne852274:0
-## crwdns852276:0crwdne852276:0
-
-crwdns852278:0crwdne852278:0
-
-crwdns852280:0crwdne852280:0
-### crwdns852282:0crwdne852282:0
-
-crwdns852284:0crwdne852284:0
+A YAML file defining a computational environment might look something like this:
 
 ```
-crwdns852286:0crwdne852286:0
+# Define the operating system as Linux
+os: linux
+
+# Use the xenial distribution of Linux
+dist: xenial
+
+# Use the programming language Python
+language: python
+
+# Use version of Python 3.2
+python: 3.2
+
+# Use the Python package numpy and use version 1.16.1
+packages:
+  numpy:
+    version: 1.16.1
 ```
 
-crwdns852288:0crwdne852288:0
+Note that comments can be added by preceding them with a `#`.
+
+(rr-renv-yaml-syntax)=
+## YAML Syntax
+
+A YAML document can consist of the following elements.
+
+(rr-renv-yaml-syntax-scalars)=
+### Scalars
+
+Scalars are ordinary values: numbers, strings, booleans.
 
 ```
-crwdns852290:0crwdne852290:0
-```
-crwdns852292:0crwdne852292:0
-### crwdns852294:0crwdne852294:0
+number-value: 42
+floating-point-value: 3.141592
+boolean-value: true
 
-crwdns852296:0crwdne852296:0
-
-```
-crwdns852298:0crwdne852298:0
+# strings can be both 'single-quoted` and "double-quoted"
+string-value: 'Bonjour'
 ```
 
-crwdns852300:0crwdne852300:0
-
-crwdns852302:0crwdne852302:0 crwdns852304:0crwdne852304:0
+YAML syntax also allows unquoted string values for convenience reasons:
 
 ```
-crwdns852306:0crwdne852306:0
+unquoted-string: Hello World
+```
+(rr-renv-yaml-syntax-lists)=
+### Lists and Dictionaries
+
+Lists are collections of elements:
+
+```
+jedis:
+  - Yoda
+  - Qui-Gon Jinn
+  - Obi-Wan Kenobi
+  - Luke Skywalker
 ```
 
-crwdns852308:0crwdne852308:0
+Every element of the list is indented and starts with a dash and a space.
 
-crwdns852310:0crwdne852310:0
-### crwdns852312:0crwdne852312:0
+Dictionaries are collections of `key: value` mappings. All keys are case-sensitive.
 
-crwdns852314:0crwdne852314:0
+```
+jedi:
+  name: Obi-Wan Kenobi
+  home-planet: Stewjon
+  species: human
+  master: Qui-Gon Jinn
+  height: 1.82m
+```
 
-- crwdns852316:0crwdne852316:0 crwdns852318:0crwdne852318:0
+Note that a space after the colon is mandatory.
+
+(rr-renv-yaml-syntax-gotchas)=
+### YAML Gotchas
+
+Due to the format aiming to be easy to write and read, there are some ambiguities in YAML.
+
+- **Special characters in unquoted strings:** YAML has several special characters you cannot use in unquoted strings. For example, parsing the following sample will fail:
   ```
-  crwdns852320:0crwdne852320:0
+  unquoted-string: let me put a colon here: oops
   ```
-  crwdns852322:0crwdne852322:0
+  Quote the string value makes this value unambiguous:
   ```
-  crwdns852324:0crwdne852324:0
+  unquoted-string: "let me put a colon here: oops"
   ```
-  crwdns852326:0crwdne852326:0
-- crwdns852328:0crwdne852328:0 crwdns852330:0crwdne852330:0 crwdns852332:0crwdne852332:0
+  Generally, you should quote all strings that contain any of the following characters: `[] {} : > |`.
+- **Tabs versus spaces for indentation:** do _not_ use tabs for indentation. While the resulting YAML can still be valid, this can be a source of many subtle parsing errors. Just use spaces.
 
-crwdns852334:0crwdne852334:0
-## crwdns852336:0crwdne852336:0
+(rr-renv-yaml-environments)=
+## How To Use Yaml To Define Computational Environments
 
-crwdns852338:0crwdne852338:0 crwdns852340:0{ref}crwdne852340:0 crwdns852342:0crwdne852342:0
+Because of their simplicity, YAML files can be handwritten. Alternatively, they can be automatically generated as discussed in the {ref}`rr-renv-package` subchapter. From a YAML file, a computational environment can be replicated in a few ways.
 
-- crwdns852344:0crwdne852344:0 crwdns852346:0{ref}crwdne852346:0
+- **Manually.** It can be done manually by carefully installing the specified packages. Because YAML files can also specify operating systems and versions that may or may not match that of the person trying to replicate the environment, this may require the use of {ref}`rr-renv-vm`.
 
-- crwdns852348:0{ref}crwdne852348:0
+- **Via Package Management Systems such as Conda.** As {ref}`discussed <rr-renv-package>`, as well as being able to generate YAML files from computational environments, Conda can also generate computational environments from YAML files.
 
-crwdns852350:0crwdne852350:0
-## crwdns852352:0crwdne852352:0
+(rr-renv-yaml-security)=
+## Security Issues
 
-crwdns852354:0crwdne852354:0 crwdns852356:0crwdne852356:0
+There is an inherent risk in downloading/using files you have not written to your computer, and it is possible to include malicious code in YAML files. Do not load YAML files or generate computational environments from them unless you trust their source.

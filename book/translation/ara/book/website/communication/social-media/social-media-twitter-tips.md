@@ -1,84 +1,84 @@
-crwdns833778:0crwdne833778:0
-# crwdns833780:0crwdne833780:0
+(cm-social-media-twitter-tips)=
+# Tips for Starting with Twitter
 
-crwdns833782:0crwdne833782:0 crwdns833784:0crwdne833784:0 crwdns833786:0crwdne833786:0
+Twitter has 353 million monthly active users. You are limited to 280 characters and the style is more informal and chatty than other platforms like Linkedin. You can use links, photos (1200 x 628 pixels) and videos (max 2 minutes 20 secs) in similar ways to the other social media platforms.
 
-crwdns833788:0crwdne833788:0 crwdns833790:0{cite:ps}crwdne833790:0
+Below are general tips for starting to use Twitter for personal academic purposes. Some of the tips have been adapted from 'Practical tips for scientists using twitter' {cite:ps}`Chabrol2021twitter`.
 
-crwdns833792:0crwdne833792:0 crwdns833794:0crwdne833794:0
+But when starting with Twitter it is important to first consider what your purpose for using it is. This will help you develop your voice (how you want to be heard, what topics you focus on, your overall message) on Twitter.
 
-**crwdns833796:0crwdne833796:0 crwdns833798:0crwdne833798:0**
+**1. Choose a good Twitter handle and write a good bio**
 
-* crwdns833800:0crwdne833800:0
-* crwdns833802:0crwdne833802:0
-* crwdns833804:0crwdne833804:0
+* Add a photo, cover image and short bio that is relevant to the research you are doing.
+* Your bio can be linked to accounts such as your institution using their @, your funding body and common hashtags for your subject.
+* You might want to have a specific Twitter account for your project or organisation as well as a personal one.
 
-**crwdns833806:0crwdne833806:0 crwdns833808:0crwdne833808:0**
+**2. Make lists**
 
-* crwdns833810:0crwdne833810:0
-* crwdns833812:0crwdne833812:0
+* This helps you to follow lots of people and can be used for events.
+* Lists can be made public.
 
-**crwdns833814:0crwdne833814:0 crwdns833816:0crwdne833816:0**
+**3. Think about your audience for each tweet**
 
-* crwdns833818:0crwdne833818:0 crwdns833820:0crwdne833820:0
+* It might be that all your tweets are to target your research community but some may also be for the wider public. Therefore, think carefully about the language you use, avoid jargon and subject-specific acronyms, and add links to more information.
 
-**crwdns833822:0crwdne833822:0 crwdns833824:0crwdne833824:0**
+**4. Add subject-specific hashtags**
 
-* crwdns833826:0crwdne833826:0
-* crwdns833828:0crwdne833828:0
-* crwdns833830:0crwdne833830:0
+* You only have 280 characters so using hashtags to link to different groups of interest is an important way to get your message out there.
+* Tweets with hashtags can increase engagement by almost 100% for individuals.
+* There are also regular hashtags for each day of the week, for example, #MondayMotivation or #FridayFeeling.
 
-**crwdns833832:0crwdne833832:0 crwdns833834:0crwdne833834:0**
+**5. Include some other accounts in your tweet**
 
-* crwdns833836:0crwdne833836:0
-* crwdns833838:0crwdne833838:0 crwdns833840:0crwdne833840:0
+* Linking your tweet to other accounts using @ will mean you get more retweets and therefore will spread your tweet further.
+* It is a good idea to find other researchers and organisation that have large Twitter followings. This gives your tweet the largest reach possible.
 
-**crwdns833842:0crwdne833842:0 crwdns833844:0crwdne833844:0**
+**6. Add visuals**
 
-* crwdns833846:0crwdne833846:0
-* crwdns833848:0crwdne833848:0
-* crwdns833850:0crwdne833850:0 crwdns833852:0crwdne833852:0
+* You can use images and gifs to draw attention to your tweets.
+* If you don't have an image, a link will generate an image so make sure that the link is up to date and has a relevant image for your tweet.
+* Yow also have the option to add a description of the image so that content is accessible to more people. Here is a link to the twitter help page on [how to make images accessible for people](https://help.twitter.com/en/using-twitter/picture-descriptions).
 
-**crwdns833854:0crwdne833854:0 crwdns833856:0crwdne833856:0**
+**7. Don't start a tweet with '@'**
 
-* crwdns833858:0crwdne833858:0
+* These are treated as replies so become hidden.
 
-**crwdns833860:0crwdne833860:0 crwdns833862:0crwdne833862:0**
+**8. Be careful with sensitive data**
 
-* crwdns833864:0crwdne833864:0
-* crwdns833866:0crwdne833866:0
+* Make sure you are aware of the policy concerning social media in your project or institution.
+* Some projects will not allow you to tweet about progress until a certain time in the project and others will encourage the use of social media from the start.
 
-**crwdns833868:0crwdne833868:0 crwdns833870:0crwdne833870:0**
+**9. Take care of yourself**
 
-* crwdns833872:0crwdne833872:0
-* crwdns833874:0crwdne833874:0
-* crwdns833876:0%27crwdne833876:0 crwdns833878:0crwdne833878:0 crwdns833880:0crwdne833880:0
-* crwdns833882:0crwdne833882:0
-* crwdns833884:0crwdne833884:0
+* Not all the interactions that you have on Twitter will be pleasant as some people find fun in starting arguments or being offensive towards you.
+* It is best not to interact with these people.
+* You can follow [Charles' Rules of Arguments](https://geekfeminism.wikia.org/wiki/Charles%27_Rules_of_Argument). This sets out that if you receive an argumentative reply, you should state your position once explaining any misunderstandings and then do not reply again. Let others come to your defence.
+* If it continues, you can block this person and report the abuse.
+* Here is a link to the Twitter help page about [how to block accounts](https://help.twitter.com/en/using-twitter/blocking-and-unblocking-accounts).
 
-crwdns833886:0crwdne833886:0
+Starting to use Twitter might involve tweeting about new papers and useful resources in your field, events that you go to such as workshops and conferences, and retweeting other people in your field to highlight their work.
 
-crwdns833888:0crwdne833888:0 crwdns833890:0crwdne833890:0
+You might also want to start with a series of intro tweets to introduce yourself, your career so far and your current work. You can pin this to your profile so that it is always what people see first.
 
 
-## crwdns833892:0crwdne833892:0
+## Twitter Terms
 
-crwdns833894:0{cite:ps}crwdne833894:0
+These terms are adapted from {cite:ps}`Cheplygina2020twitter`.
 
-* crwdns833896:0crwdne833896:0
-* crwdns833898:0crwdne833898:0 crwdns833900:0crwdne833900:0
-* crwdns833902:0crwdne833902:0
-* crwdns833904:0crwdne833904:0
-* crwdns833906:0crwdne833906:0
-* crwdns833908:0crwdne833908:0
-* crwdns833910:0crwdne833910:0
-* crwdns833912:0crwdne833912:0
-* crwdns833914:0crwdne833914:0
-* crwdns833916:0crwdne833916:0
-* crwdns833918:0crwdne833918:0
-* crwdns833920:0crwdne833920:0
-* crwdns833922:0crwdne833922:0
-* crwdns833924:0crwdne833924:0
-* crwdns833926:0crwdne833926:0
-* crwdns833928:0crwdne833928:0
-* crwdns833930:0crwdne833930:0
+* Confirmation step - Enabling a checking process tweets before posting using Tweetdeck.
+* Direct message (DM) — A private message that is only visible to the sender and the specifically identified recipients. By default, regular Twitter messages are visible to the whole world, including (via search engines such as Google) people who do not have a Twitter account.
+* Hashtag (#) — Used to make it easier to find tweets with a common theme by defining keywords, for example, tweets about an event (#BookDash) or career talks (#PhDChat).
+* Hat Tip or Heard Through (HT) - Used for thanking the source of a tweet.
+* Like (♡) - Used for showing you like a tweet—a fast way to give feedback without replying.
+* There is no similar function for disliking a tweet.
+* List — A list of Twitter users that can be public (followed by anyone) or private.
+* Lists can be used to follow accounts that tweet about specific topics, but which you don’t want to follow yourself.
+* Live-tweeting — Tweeting short summaries of an event, for example of a conference talk, as it is happening.
+* Mentioning (@) — If you mention someone with their account handle (“This paper by @CaAl is great”), your tweet will show up in their notifications.
+* Notifications — Tweets that mention you and replies, retweets and likes for your tweets.
+* Quote-tweet — Sharing a tweet by someone else in a quote, while adding your comments.
+* Retweet (RT)— Sharing a tweet that was originally made by someone else.
+* Subtweeting — Tweeting about somebody without explicitly mentioning their handle, so that they are not informed of your comment.
+* Thread — A series of tweets on one subject, for instance, ten tweets about a new research paper.
+* Timeline — The tweets from the people you follow.
+* Tweetdeck - App that can be used to tweet and run multiple accounts.

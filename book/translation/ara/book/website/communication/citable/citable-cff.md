@@ -1,114 +1,153 @@
-crwdns831150:0crwdne831150:0
-# crwdns831152:0crwdne831152:0
+(cm-citable-cff)=
+# Software Citation with CITATION.cff
 
-crwdns831154:0crwdne831154:0
+The [Citation File Format](https://citation-file-format.github.io) lets you provide citation metadata, for software or datasets, in plaintext files that are easy to read by both humans and machines.
 
 ```{figure} ../../figures/recognition.jpg
-crwdns831156:0crwdne831156:0
-crwdns831158:0crwdne831158:0 crwdns831160:0crwdne831160:0 crwdns831162:0crwdne831162:0 crwdns831164:0crwdne831164:0
+---
+name: recognition
+width: 500px
+alt: Research software developers get recognition by making software citable.
+---
+Research software developers get recognition by making software citable. _The Turing Way_ project illustration by Scriberia. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
 ```
 
-crwdns831166:0crwdne831166:0 crwdns831168:0crwdne831168:0
+To provide this metadata, start by writing a `CITATION.cff` file and include it with your software or dataset. A `CITATION.cff` file aggregates the information in a key-value format that can be easily interpreted and updated by humans, and easily parsed and converted with existing tools.
 
-crwdns831170:0crwdne831170:0
-## crwdns831172:0crwdne831172:0
+(cm-citable-cff-why)=
+## Why Use `CITATION.cff`?
 
-crwdns831174:0crwdne831174:0
+There are great advantages when using a `CITATION.cff` file for the citation information for your software!
 
-crwdns831176:0crwdne831176:0 crwdns831178:0crwdne831178:0 crwdns831180:0crwdne831180:0
+It's easier for you: When you host your software source code on GitHub and have a `CITATION.cff` in your repository, you can use the Zenodo-GitHub integration to automatically publish new releases of the software. Zenodo will use the information from `CITATION.cff` and show it together with the publication. You don't have to edit this information manually on Zenodo anymore.
 
 ```{figure} ../../figures/software-credit.jpg
-crwdns831182:0crwdne831182:0
-crwdns831184:0crwdne831184:0 crwdns831186:0crwdne831186:0 crwdns831188:0crwdne831188:0 crwdns831190:0crwdne831190:0
+---
+name: software-credit
+width: 500px
+alt: More credits for the software creators.
+---
+More credits for the software creators. _The Turing Way_ project illustration by Scriberia. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
 ```
 
-crwdns831192:0crwdne831192:0
-1. crwdns831194:0crwdne831194:0
-2. crwdns831196:0crwdne831196:0 crwdns831198:0crwdne831198:0
-3. crwdns831200:0crwdne831200:0
+It's easier for the users of your software:
+1. They can directly use the citation information from `CITATION.cff` to cite your software.
+2. If your source code is on GitHub, they will show the citation information in the sidebar as a formatted citation, and also in the BibTeX format. Users can copy either, paste it into their manuscripts, and/or cite your software correctly.
+3. If they use the Zotero reference manager, they can import the citation metadata directly from the `CITATION.cff` file in the GitHub repository to their reference manager.
 
-crwdns831202:0crwdne831202:0
-## crwdns831204:0crwdne831204:0
+(cm-citable-cff-how-to-create)=
+## How to Create a `CITATION.cff` File
 
-crwdns831206:0crwdne831206:0 crwdns831208:0crwdne831208:0 crwdns831210:0crwdne831210:0
+The `CITATION.cff` is a `YAML` file with its own schema definition. The schema defines the rules for each field, and which fields are required and which ones are optional. The user must follow these rules in order to create a valid `CITATION.cff` file.
 
-crwdns831212:0crwdne831212:0
+A minimal example of a valid `CITATION.cff` file, that only contains the required keys, would look like this:
 
 ```yaml
-crwdns831214:0crwdne831214:0
+authors:
+  - family-names: Doe
+    given-names: John
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+title: "My research software"
 ```
 
-crwdns831216:0crwdne831216:0 crwdns831218:0crwdne831218:0
+However, adding more fields can help you create more descriptive metadata of your software. The example below also provides important information of software such as version, release date, DOI, license, keywords.
 
 ```yaml
-crwdns831220:0crwdne831220:0 crwdns831222:0crwdne831222:0
+abstract: "This is my awesome research software. It does many things."
+authors:
+  - family-names: Doe
+    given-names: John
+    orcid: "https://orcid.org/0000-0001-8888-9999"
+cff-version: 1.2.0
+date-released: "2021-10-13"
+identifiers:
+  - description: "This is the collection of archived snapshots of all versions of My Research Software"
+    type: doi
+    value: 10.5281/zenodo.123456
+  - description: "This is the archived snapshot of version 0.11.2 of My Research Software"
+    type: doi
+    value: 10.5281/zenodo.123457
+keywords:
+  - "amazing software"
+  - research
+license: Apache-2.0
+message: "If you use this software, please cite it using the metadata from this file."
+repository-code: "https://github.com/citation-file-format/my-research-software"
+title: "My Research Software"
+version: 0.11.2
 ```
 
-crwdns831224:0crwdne831224:0 crwdns831226:0crwdne831226:0
+The complete list of fields is described in the [CFF schema guide](https://github.com/citation-file-format/citation-file-format/blob/main/schema-guide.md). In the next section, you can find out which tools can help you create and use the `CITATION.cff` file.
 
-### crwdns831228:0crwdne831228:0
+### Steps to Make Your Software Citable
 
-crwdns831230:0crwdne831230:0
+To make your software citable, you need to follow the two steps below.
 
-#### crwdns831232:0crwdne831232:0 crwdns831234:0crwdne831234:0
+#### Step 1. Create a `CITATION.cff` File
 
-crwdns831236:0crwdne831236:0
+There are two ways of creating a `CITATION.cff` file.
 
-1. crwdns831238:0crwdne831238:0 crwdns831240:0crwdne831240:0
+1. Use [cffinit](https://citation-file-format.github.io/cff-initializer-javascript/), a web application which guides you through the process of creating your citation file. The `cffinit` has a few advantages compared to manual editing such as
 
-    - crwdns831242:0crwdne831242:0
-    - crwdns831244:0crwdne831244:0
-    - crwdns831246:0crwdne831246:0
-    - crwdns831248:0crwdne831248:0
+    - no need for installing extra tools;
+    - no need for manual validation;
+    - guidance for each fields;
+    - visual feedback to indicate issues.
 
-    crwdns831250:0crwdne831250:0 crwdns831252:0{ref}crwdne831252:0
+    We suggest using `cffinit` as it simplifies the creation and validation. For more details on using `cffinit` see {ref}`cm-citable-cffinit`.
 
-2. crwdns831254:0crwdne831254:0 crwdns831256:0crwdne831256:0 crwdns831258:0crwdne831258:0 crwdns831260:0crwdne831260:0 crwdns831262:0crwdne831262:0
-
-    ```shell
-    crwdns831264:0crwdne831264:0
-    ```
-
-    crwdns831266:0crwdne831266:0
+2. Edit the file manually in your favorite code editor. The disadvantages of this method are installing the required tools on your system and doing the validation yourself. Also, the error messages of the validation can be relatively long and difficult to understand. Once you have a `CITATION.cff` file, it needs to be validated to make sure there are no issues. You can validate your `CITATION.cff` file on the command line with the [`cffconvert` Python package](https://pypi.org/project/cffconvert/).
 
     ```shell
-    crwdns831268:0${PWD}crwdne831268:0
+    cd path/to/CITATION.cff
+    cffconvert --validate
     ```
 
-    crwdns831270:0crwdne831270:0
+    If you prefer to use Docker, you can use the [`cffconvert` Docker image](https://hub.docker.com/r/citationcff/cffconvert):
+
+    ```shell
+    cd path/to/CITATION.cff
+    docker run --rm -v ${PWD}:/app citationcff/cffconvert --validate
+    ```
+
+    If you get error messages, look for the relevant validation error and fix it.
 
 ```{note}
-crwdns831272:0[cff-validator]crwdne831272:0
+To make sure your GitHub repository always has a valid `CITATION.cff` file, you can use the [cff-validator](https://github.com/marketplace/actions/cff-validator) GitHub Action.
 ```
 
-#### crwdns831274:0crwdne831274:0 crwdns831276:0crwdne831276:0
+#### Step 2. Add Your `CITATION.cff` to a Public Code Repository
 
-crwdns831278:0crwdne831278:0
+After creating a valid `CITATION.cff` file, you will need to add it to root of your code or data repository so that it can be easily found and cited.
 
-crwdns831280:0crwdne831280:0
-## crwdns831282:0crwdne831282:0
+(cm-citable-cff-updating)=
+## Updating your `CITATION.cff` file
 
-crwdns831284:0crwdne831284:0 crwdns831286:0crwdne831286:0
+When you need to update your `CITATION.cff` file, for example to add an author or to change the information about releases, you will need to edit the file manually. It is recommended to update your `CITATION.cff` file before making a software release.
 
-crwdns831288:0crwdne831288:0
-## crwdns831290:0crwdne831290:0
+(cm-citable-cff-how-to-cite)=
+## How to Cite Using `CITATION.cff`
 
-crwdns831292:0crwdne831292:0
+If you have found software or datasets that contain a `CITATION.cff`, there are a few ways to obtain the reference information to cite them in your publication.
 
-- crwdns831294:0crwdne831294:0
+- You can use one of the tools, such as `cffconvert` command line program, to convert your `CITATION.cff` file to one of the [supported formats](https://github.com/citation-file-format/cff-converter-python#supported-output-formats), such as APA, BibTeX or EndNote.
 
-- crwdns831296:0crwdne831296:0 crwdns831298:0crwdne831298:0
+- Alternatively, if the software or datasets you want to cite are available on GitHub, you can use GitHub's interface to copy the reference in either APA or BibTeX formats by clicking the "Cite this repository" button (see the green area in the image below). For more details on software citation on GitHub please see [GitHub's guide on software citation](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files).
 
   ```{figure} ../../figures/github-cff-integration.jpg
-  crwdns831300:0crwdne831300:0
-  crwdns831302:0crwdne831302:0
+  ---
+  name: github-cff-integration
+  alt: Button on GitHub that provides automatically conversion of the `CITATION.cff` file to APA's and BibTex's format.
+  ---
+  "Cite this repository" automatically converts the `CITATION.cff` file to APA's and BibTex's format.
   ```
 
   ```{note}
-  crwdns831304:0crwdne831304:0
+  "Cite this repository" button only appears when there is a `CITATION.cff` file in the repository.
   ```
 
-crwdns831306:0crwdne831306:0
-## crwdns831308:0crwdne831308:0
+(cm-citable-cff-available-tools)=
+## Available Tools
 
-crwdns831310:0crwdne831310:0 crwdns831312:0crwdne831312:0
+Several tools exist to facilitate the creation and validation of `CITATION.cff` files, as well as the conversion to and from other formats. The Citation File Format’s repository provides [a list of all known tools](https://github.com/citation-file-format/citation-file-format#tools-to-work-with-citationcff-files-wrench) for this.

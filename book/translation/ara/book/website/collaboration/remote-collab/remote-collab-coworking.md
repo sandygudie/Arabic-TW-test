@@ -1,107 +1,107 @@
-crwdns826532:0crwdne826532:0
-# crwdns826534:0crwdne826534:0
+(cl-remote-collab-coworking)=
+# Organising Online Coworking Calls
 
-crwdns826536:0crwdne826536:0
+The concept of coworking is generally associated with the practice of sharing physical office space with different people who work independently such as remote employees or freelancers.
 
-crwdns826538:0crwdne826538:0
+This allows people - who may otherwise feel isolated while working alone at home - to use traditional office setups, create a work routine, and build a sense of companionship with others who they share their office spaces with.
 
-crwdns826540:0{ref}crwdne826540:0 crwdns826542:0crwdne826542:0
+In our Community Handbook, we discuss coworking calls hosted for _The Turing Way_ community (see the chapter on {ref}`The Turing Way Coworking Calls<ch-coworking>`). It includes our motivation, background, techniques, format, templates, and materials, which can be repurposed and adapted to support your teams and communities by setting up coworking calls for them.
 
-crwdns826544:0crwdne826544:0
+Below are descriptions of different aspects that one should take into consideration when planning or designing your coworking calls.
 
-## crwdns826546:0crwdne826546:0
+## Designing a format the works for you
 
-crwdns826548:0crwdne826548:0
+To identify what could be the best format for your coworking calls, you need to think about the following aspects:
 
-**crwdns826550:0crwdne826550:0**
+**Purpose of your coworking calls**
 
-crwdns826552:0{ref}crwdne826552:0
+As described in the {ref}`motivation <ch-coworking-motivation>` subchapter, we host online calls for our community members for building connections, supporting our contributors, onboarding new members and celebrating their work.
 
-crwdns826554:0crwdne826554:0
+Your purpose for hosting coworking calls could be completely different and identifying that is important for you to plan the remaining logistics.
 
-crwdns826556:0crwdne826556:0
-  - crwdns826558:0crwdne826558:0
-  - crwdns826560:0crwdne826560:0
-  - crwdns826562:0crwdne826562:0
-  - crwdns826564:0crwdne826564:0
+A few other scenarios could be:
+  - If you work from home, you would like to see your colleagues and stay connected with them through designated coworking schedules.
+  - If you are working with a distributed group of people on a common project, and if communication and exchange related to the project while working asynchronously is an issue, you can get a lot of your work done over a coworking call.
+  - If you are working on multiple projects and struggle to focus on one task at a time, coworking can help you put aside a few hours of your time to work with your colleagues who you share the project with.
+  - If there is a task you are struggling to complete, you can invite support from your trusted colleagues through coworking calls.
 
-**crwdns826566:0crwdne826566:0**
+**Target audience**
 
-crwdns826568:0crwdne826568:0
+If you already know the purpose of your coworking calls, you will be able to identify who your target audience is.
 
-crwdns826570:0crwdne826570:0 crwdns826572:0crwdne826572:0
+For example, if you host your coworking calls for an open source project such as _The Turing Way_, you can expect your current members, past contributors or even new members to the project to participate. If you are part of a small project, you would expect the same familiar faces in all your coworking calls.
 
-**crwdns826574:0crwdne826574:0**
+**Organisers and hosts**
 
-crwdns826576:0crwdne826576:0 crwdns826578:0crwdne826578:0 crwdns826580:0crwdne826580:0 crwdns826582:0crwdne826582:0
+Many tasks go into organising a coworking call. These tasks can be taken care of by one person like a community manager, project manager, or a volunteer organiser. However, it is always a good idea to involve more people as co-organisers so that the coworking call still happens even when the main organiser can't join for any reason. To avoid one person burdening themselves with "not so exciting" organisation issues, you can also decide to rotate the role within the members of your project.
 
-**crwdns826584:0crwdne826584:0**
+**Size of the call**
 
-crwdns826586:0crwdne826586:0 crwdns826588:0crwdne826588:0 crwdns826590:0crwdne826590:0 crwdns826592:0crwdne826592:0
+No matter what the purpose and who the target audience of your calls are, you can decide the size of your call by managing participation by prior registration. If you organise these calls for your project members on a mutually agreed time and with an agenda to work on specific tasks, you can expect most of them to show up. If you keep your call open for any of your community members to join, you may end up having a different number of participants on different calls. This would also mean that for some calls, there won't be anyone available to co-work with you.
 
-crwdns826594:0crwdne826594:0 crwdns826596:0crwdne826596:0
+It's useful to handle some sort of sign-up sheet or registration system so the organisers know who to expect on the call. In _The Turing Way_, we use dedicated HackMD notes that can be updated before each call by the participants.
 
-**crwdns826598:0crwdne826598:0**
+**Frequency of these calls**
 
-crwdns826600:0crwdne826600:0 crwdns826602:0crwdne826602:0
+Once you have identified the purpose, target audience and size of your calls, you can decide how often you would like to host them. If you work with the same group of people, you can host it as per your common availability and at a mutually agreed time on a weekly or monthly basis.
 
-crwdns826604:0crwdne826604:0 crwdns826606:0crwdne826606:0 crwdns826608:0crwdne826608:0
+If the expected participants of your call also work on multiple projects, you might consider regularly hosting it on the same day and time each week or each month. This consistency will allow them to check their availability in advance and block these hours in their calendar. This will also reduce the extra work of coordinating the common availability every time (though you will have to do this in the beginning).
 
-**crwdns826610:0crwdne826610:0**
+**Resource availability**
 
-crwdns826612:0crwdne826612:0
+Based on the resources available to you, you might have to fine-tune other aspects of your call.
 
-crwdns826614:0crwdne826614:0
-- crwdns826616:0crwdne826616:0
-- crwdns826618:0crwdne826618:0 crwdns826620:0crwdne826620:0
-- crwdns826622:0crwdne826622:0 crwdns826624:0crwdne826624:0
+For example:
+- *Shared calendar*: If there is a calendar that is updated with a schedule of the coworking calls, people can subscribe to it and indicate their availability.
+- *Communication platforms*: software like Zoom can allow you to connect with many people at the same time. However, you will need a paid subscription (pro account) to control who joins your call (by activating waiting room to avoid Zoom bombing), manage breakout rooms (to allow multiple small groups and discussions) or host longer calls (>40 minutes).
+- *Chat system*: If you have a group Slack or Gitter channel, information can be exchanged with everyone, including those who can not join the calls but want to offer suggestions or carry out related tasks asynchronously but in coordination with the group. This also allows people to keep each other informed of any last-minute changes such as updated links for joining calls, correct notes, or cancellation of calls.
 
-## crwdns826626:0crwdne826626:0
+## Logistics and tasks
 
-crwdns826628:0crwdne826628:0
+Like any event, coworking calls require planning, organising, hosting and making sure that they happen.
 
-crwdns826630:0crwdne826630:0
+As the organiser/s of the event, you will be required to:
 
-**crwdns826632:0crwdne826632:0 crwdns826634:0crwdne826634:0**
+**1. Choose the tools**
 
-crwdns826636:0crwdne826636:0 crwdns826638:0{ref}crwdne826638:0
+The choice in regards to which tools you will use will depend on the purpose and scope of your calls. Please see the subchapter {ref}`Tools for Remote Collaboration<cl-remote-collab-tools>` to identify which tools will be most appropriate for communication, chats, shared documentation and scheduling.
 
-**crwdns826640:0crwdne826640:0 crwdns826642:0crwdne826642:0**
+**2. Plan and host the calls**
 
-crwdns826644:0crwdne826644:0 crwdns826646:0crwdne826646:0
+As discussed earlier, you will need to agree upon dates and times with people who would like to participate in coworking calls. Your calls could be organised on a weekly or monthly basis that consistently takes place on a certain day and time, or it could be organised once in a while by finding a common availability.
 
-crwdns826648:0crwdne826648:0
-- crwdns826650:0crwdne826650:0 crwdns826652:0crwdne826652:0
-- crwdns826654:0crwdne826654:0
+Once you have found a schedule (date, time and frequency), the following tasks will will go into planning them:
+- Update the schedule, agenda and calendar to share them with the attendees (or potential target audience). It is also effective when they receive a calendar invite.
+- Maintain communication (by email, newsletter, or social media) so that everyone is aware of the next calls and the resources available for them to participate.
 
-crwdns826656:0crwdne826656:0
-- crwdns826658:0crwdne826658:0 crwdns826660:0crwdne826660:0
-- crwdns826662:0crwdne826662:0
+Your main tasks as a host will be to:
+- Provide adequate support to the participants so they can make the best of their time. In _The Turing Way_ coworking calls, we find it useful to use breakout rooms when many people are working in small groups or if some people need more discussions, while others want to quietly work on their tasks.
+- Facilitate shared notes with participants before, during and after the call, so that they can keep track of useful resources or ideas they discuss during the coworking call.
 
-**crwdns826664:0crwdne826664:0 crwdns826666:0crwdne826666:0**
+**3. Create a safe and accountable space**
 
-crwdns826668:0crwdne826668:0
+Though discussed last, this should be your highest priority.
 
-crwdns826670:0crwdne826670:0 crwdns826672:0crwdne826672:0 crwdns826674:0{ref}crwdne826674:0 crwdns826676:0crwdne826676:0
+You should design these calls to make everyone feel welcome, involved and safe. It's highly recommended to choose a Code of Conduct and put reporting guidelines in place to share with everyone in advance. See this minimal [CoC from Contributor Covenant](https://www.contributor-covenant.org/) and an expanded version of {ref}`The Turing Way CoC<ch-coc>`. Additionally, you should also communicate the basic etiquettes, such as muting microphones when not speaking or not interrupting others when working in a Pomodoro session unless necessary.
 
-crwdns826678:0crwdne826678:0 crwdns826680:0crwdne826680:0 crwdns826682:0crwdne826682:0
+It is useful to let everyone know who they can contact if they need help in troubleshooting during the call or need more time to discuss their ideas. Create an agenda that states clearly what is expected of them, such as if they should bring their tasks and questions to the call or communicate them beforehand. In _The Turing Way_, we have dedicated slots for both group discussions and quiet working.
 
-## crwdns826684:0crwdne826684:0
+## Some Examples
 
-### crwdns826686:0crwdne826686:0
+### Open calls for building connections
 
-crwdns826688:0crwdne826688:0 crwdns826690:0crwdne826690:0 crwdns826692:0crwdne826692:0
+One of _The Turing Way_ contributors, Natalie Thurlby has adapted the Collaboration Café to create a [Data science online co-working group](http://bristol.ac.uk/golding/ask-jgi/data-science-online-co-working-group/). They have designed their call format for the Jean Golding Institute's community members in Bristol to work together and build connections while working on their data science projects. This is a great example of using coworking calls for community building and supporting others with similar research interests.
 
-### crwdns826694:0crwdne826694:0
+### Small groups for supporting each other
 
-crwdns826696:0crwdne826696:0 crwdns826698:0crwdne826698:0
+You can also plan your coworking calls with a small group of (2-3) colleagues with whom you can mutually hold accountability for your time and work. A small group reduces the burden of coordinating multiple time zones and finding a schedule that is suitable for everyone.
 
-crwdns826700:0crwdne826700:0 crwdns826702:0crwdne826702:0
+Naomi Penfold and Stefanie Butland have written about their 1:1 coworking format in this post: [Online Co-working Partnerships are Community of Practice in Action](https://www.cscce.org/2020/02/04/online-co-working-partnerships-are-community-of-practice-in-action/#more-3009). While reviewing this chapter, Naomi described their 1:1 call format in contrast with _The Turing Way_ group format as follows:
 
-> crwdns826704:0crwdne826704:0 crwdns826706:0crwdne826706:0 crwdns826708:0crwdne826708:0 crwdns826710:0crwdne826710:0
+> In the co-working calls I have, it's 1:1 and we often spend 20 minutes, in the beginning, catching up and talking about our progress since last time. If there is something we want to discuss more intensely, we allocate 30 minutes of our call time to that, for example, one of us asking the other how to troubleshoot something. For the time in between, we do a few quiet working sessions (sometimes 25 minutes, sometimes longer). This is likely a combination of a co-mentoring call and a co-working Pomodoro call, and it works well for me.
 
-crwdns826712:0{cite:ps}crwdne826712:0
+You can read an adapted version of their blog post along with other ideas for virtual events in the document by Center for Scientific Collaboration and Community Engagement {cite:ps}`CSCCE2020virtual`.
 
-crwdns826714:0crwdne826714:0
+If you organise or host a coworking call in your community, you are welcome to highlight them in this chapter by creating a [pull request](https://github.com/alan-turing-institute/the-turing-way/pulls) on the GitHub repository (see [contributing guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) for details).
 
-*crwdns826716:0crwdne826716:0*
+***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*

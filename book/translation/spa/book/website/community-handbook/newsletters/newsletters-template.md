@@ -1,20 +1,20 @@
-(ch-newsltters-templation)
-# Plantilla para Borradores de Boletines
+(ch-newsltters-template)
+# Template for Drafting Newsletters
 
-La plantilla que se describe a continuación es lo que hemos estado utilizando como guía para recoger noticias para los boletines de _The Turing Way_ desde septiembre de 2019. Esta plantilla ha evolucionado durante varios meses y de ningún modo pretende ser el formato "perfecto". Al reutilizar esta plantilla, deberías experimentar con lo que funciona para tu comunidad. Sus sugerencias en los subcapítulos anteriores son muy bienvenidas.
+The template outlined below is what we have been using as a guide for collecting news items for the _The Turing Way_ newsletters since September 2019. This template has evolved over several months and in no way claims to be the 'perfect' format. When reusing this template, you should experiment with what works for your community. Your suggestions in the earlier subchapters are very welcome.
 
 ```
-Fecha: DD Mes AAAA
+Date: DD Month YYYY
 
 # title
 
-Hola amigos Turing Way!
+Hello Turing Way friends!
 
-Este mes...
+This month ...
 
-A lo largo de ...
+Shout out ...
 
-Eventos ...
+Events ...
 
 Find more details on these topics below 👇
 
@@ -45,19 +45,17 @@ Find more details on these topics below 👇
 
 ## Connect with us!
 
-- [Acerca del proyecto](https://www.turing.ac.uk/research/research-projects/turing-way-handbook-reproducible-data-science)
+- [About the project](https://www.turing.ac.uk/research/research-projects/turing-way-handbook-reproducible-data-science)
 - [_The Turing Way_ book](https://the-turing-way.netlify.com)
-- [Repositorio de GitHub](https://github.com/alan-turing-institute/the-turing-way)
-- [Canal de Slack](https://join.slack.com/t/theturingway/shared_invite/zt-fn608gvb-h_ZSpoA29cdUwR~TIqpBw)
-- [Canal público Gitter](https://gitter.
-
-m/alan-turing-institute/the-turing-way)
+- [GitHub repository](https://github.com/alan-turing-institute/the-turing-way)
+- [Slack channel](https://join.slack.com/t/theturingway/shared_invite/zt-fn608gvb-h_ZSpoA29cCdUwR~TIqpBw)
+- [Public Gitter channel](https://gitter.im/alan-turing-institute/the-turing-way)
 - [YouTube Videos](https://www.youtube.com/channel/UCPDxZv5BMzAw0mPobCbMNuA)
 - [Twitter Channel](https://twitter.com/turingway)
 
-Te invitamos a contribuir con contenido para el siguiente boletín
-enviando un correo electrónico a [Malvika Sharan](mailto:msharan@turing.ac.uk).
+You are welcome to contribute content for the next newsletter by
+emailing [Malvika Sharan](mailto:msharan@turing.ac.uk).
 
-*¿Te has perdido los últimos boletines de noticias?*
-*Échales un vistazo [here](https://tinyletter.com/TuringWay/archive).*
+*Did you miss the last newsletters?*
+*Check them out [here](https://tinyletter.com/TuringWay/archive).*
 ```

@@ -1,23 +1,23 @@
 (pd)=
-# Guia para Projeto
+# Guide for Project Design
 
-***Este guia abrange tópicos relacionados a planejamento e gestão eficazes de projetos.***
+***This guide covers topics related to effective project planning and management.***
 
-Neste guia, compilamos as melhores práticas e orientações para a concepção de projectos de investigação, incluindo diferentes aspectos da gestão de projectos e práticas de desenvolvimento (iterativas) derivadas da academia e da indústria.
+In this guide, we compile best practices and guidance for designing research projects by including different aspects of project management and (iterative) development practices derived from academia and industry.
 
-Antes de iniciar um projeto, pesquisadores devem definir o escopo do projeto. Os investigadores devem começar por identificar as principais questões que visam abordar através do seu trabalho. A definição de escopo também inclui a definição de objetivos do projeto, resultados possíveis, requisitos de recursos, pessoas envolvidas (colaboradores, usuários e público-alvo) e possíveis restrições.
+Before starting a project, researchers must define the project's scope. Researchers should start by identifying the main questions they aim to address through their work. Scope definition also includes defining the project goals, possible outcomes, resources requirements, people involved (collaborators, users and target audience) and possible constraints.
 
-Os investigadores podem depois avançar para identificar o produto mínimo viável esperado do seu projeto. sinergias com outros projetos (semelhanças e diferenças), medição(s) de sucesso e o impacto global que eles esperam alcançar. Depois de abordadas estas questões cruciais, o planeamento pode centrar-se nos aspectos operacionais do projecto. incluindo garantir que o projeto seja utilizável e compatível com orientações externas apropriadas (por exemplo, requisitos de ética e limitações regulatórias).
+Researchers can then proceed to identify the expected minimum viable product of their project, synergies with other projects (similarities as well as differences), measure(s) of success, and the overall impact they hope to achieve. After these crucial questions are addressed, planning can focus on the operational aspects of the project, including ensuring that the project is usable and compliant with appropriate external guidelines (for instance, ethics requirements and regulatory limitations).
 
 ```{figure} ../figures/project-design.jpg
 ---
-nome: design do projeto
-alternativo: Um grupo de pessoas colaborativamente desenvolvendo um plano de projeto escrevendo em uma tela gigante com um lápis gigante para significar a importância do trabalho de design no processo de gerenciamento de projetos. 
+name: project-design
+alt: A group of people collaboratively developing a project plan by writing on a giant canvas with a giant pencil to signify the importance of design work in the project management process. 
 ---
- _A Turing Way_ ilustração de projeto por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+ _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
-Ao projetar um projeto baseado em equipe é importante pensar em todas as habilidades necessárias para o projecto e nos recursos necessários para aceder a essas competências. A concepção do projecto também inclui aspectos como calendário, orçamento, riscos, expectativas, recursos para a gestão de projectos e pré-registo de protocolos de investigação. Com estes pontos de vista, saudamos os capítulos que definem os requisitos de um projecto em termos de competência, apoio e melhoria da acessibilidade de diferentes partes interessadas.
+When designing a team-based project, it is important to think about all the skills required for the project and the resources needed to access those skills. The project design also includes aspects such as timeline, budget, risks, expectations, resources for project management and preregistration of research protocols. With these viewpoints, we welcome chapters defining the requirements in a project in terms of up-skilling, supporting and improving accessibility of different stakeholders.
 
-Esperamos que você aprenda com diferentes estudos de caso para pequenos e médios projetos grandes que abrangem planos de curto e longo prazo. Se você é corajoso, seus exemplos de projetos falhados serão incrivelmente valiosos para entender como evitar fazer o mesmo (totalmente compreensível! erros novamente.
+We hope you will learn from different case studies for small, mid-size, and large projects spanning both short-term and long-term plans. If you are brave enough, your examples of failed projects will be incredibly valuable for understanding how to avoid making the same (totally understandable!) mistakes again.
 
-Confira nossas [diretrizes de contribuição](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) para participar.
+Check out our [contributing guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) to get involved.

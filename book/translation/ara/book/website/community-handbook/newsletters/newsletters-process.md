@@ -1,101 +1,101 @@
-# crwdns837260:0crwdne837260:0
+# Process of Creating a newsletter
 
-crwdns837262:0crwdne837262:0 crwdns837264:0crwdne837264:0
+This document provides an overview of a process we use in _The Turing Way_ for drafting, reviewing and publishing newsletters. Though written for _The Turing way_, these steps can be adapted for documenting newsletter for any project.
 
-crwdns837266:0crwdne837266:0 crwdns837268:0crwdne837268:0 crwdns837270:0crwdne837270:0 crwdns837272:0crwdne837272:0
+We only suggest using these recommendations as guides. These should not be considered as a set of fixed rules or the "only" way one should create newsletters. As individual authors, you should allow your personality to show in your newsletter drafts. After all, these newsletters land in someone's personal mailbox and most likely they know you (or your community).
 
-## crwdns837274:0crwdne837274:0
+## Steps for drafting _The Turing Way_ newsletters
 
-### crwdns837276:0crwdne837276:0
+### Create a GitHub issue to collect items
 
-crwdns837278:0crwdne837278:0 crwdns837280:0crwdne837280:0 crwdns837282:0crwdne837282:0
+Create a new GitHub issue where throughout the month you and other community members can suggest news items as a comment. For example, in [this issue](https://github.com/alan-turing-institute/the-turing-way/issues/1037), several members could suggest news items to include in the next newsletter, in this case for June 2020. Such GitHub issues can be published in the current newsletter inviting contributions from the readers and community members for the next month.
 
-### crwdns837284:0crwdne837284:0
+### Start a draft
 
-crwdns837286:0crwdne837286:0
+There are several ways to start a draft:
 
-1. crwdns837288:0{ref}crwdne837288:0
+1. Create a new branch of _The Turing Way_ [GitHub repository](https://github.com/alan-turing-institute/the-turing-way/) within the appropriate directory (explained in the next subchapter on {ref}`newsletter's style guide <ch-newsletters-style>`).
 
-crwdns837290:0crwdne837290:0 crwdns837292:0[WIP]crwdne837292:0
+You can work on this GitHub branch locally or online through a pull request (PR). If working online, please keep the draft mode on for your PR or add "[WIP]" (work in progress) in the title.
 
-2. crwdns837294:0crwdne837294:0
+2. Create the first draft on a shared HackMD when working with others to collaboratively write your draft before you transfer them on a GitHub branch.
 
-crwdns837296:0crwdne837296:0
+Here is an example of HackMD where Malvika currently creates the first draft: https://hackmd.io/@malvikasharan/tw-newsletter.
 
-### crwdns837298:0crwdne837298:0
+### Collect items for the newsletter as bullet points
 
-crwdns837300:0crwdne837300:0
+Based on what we currently publish, collect information from the listed resources for the topics described below:
 
-1. crwdns837302:0%40gcrwdnd837302:0%2Fcrwdne837302:0
+1. **Community meetings**: review the [community calendar](https://calendar.google.com/calendar/embed?src=theturingway%40gmail.com&ctz=Europe%2FLondon) for upcoming events such as Collaboration Café, book dash and workshops.
 
-2. crwdns837304:0%3crwdnd837304:0%3crwdnd837304:0%3crwdne837304:0 crwdns837306:0crwdne837306:0 crwdns837308:0crwdne837308:0
+2. **News from the community**: check Twitter for updates on the [official account](https://twitter.com/turingway) and the [#TuringWay Hashtag](https://twitter.com/hashtag/TuringWay?src=hashtag_click), see the Github repository for [issues](https://github.com/alan-turing-institute/the-turing-way/issues) for ongoing discussions, recently [merged PRs](https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+is%3Aclosed+sort%3Aupdated-desc) and new chapters. You can also ask in the [Slack channel](https://theturingway.slack.com) if someone would like to add something to the newsletter. In this part, also highlight any important milestones in the project that were either established or achieved over the last month.
 
-4. crwdns837310:0crwdne837310:0
+4. **Relevant resources for the community**: check Twitter and online posts for any recent publication from the community members, resources for training or skill-building or any other materials like blog posts or articles published in the network that could be useful for others.
 
-5. crwdns837312:0crwdne837312:0
+5. **Tips & Tricks for new contributors**: this includes any resource in the project that can make new members learn ways to engage, identify paths to get started as contributors and find relatable contents like impact stories of existing members, contributor's profiles or other community-related aspects.
 
-6. crwdns837314:0crwdne837314:0 crwdns837316:0crwdne837316:0
+6. **Acknowledgments and celebrations section**: this is the place to give shout outs to our members who have helped the project or others in some ways, celebrate personal milestones and highlight any relevant announcements from the community members. This is also a place to share tweets from the community or mention other online interactions such as posts from recent meetings where someone talked about _The Turing Way_.
 
-crwdns837318:0crwdne837318:0
+The newsletter should focus more on the contributing and new members, and highlight only noteworthy content from _The Turing Way_ core members.
 
-### crwdns837320:0crwdne837320:0
+### Collect images associated with the news item
 
-crwdns837322:0{ref}crwdnd837322:0{ref}crwdne837322:0 crwdns837324:0crwdne837324:0
+Following the recommendations on {ref}`style guide for community<ch-style>` and {ref}`style guide for newsletters<ch-newsletters-style>` for using images, collect a few images (maximum 2 per section). Make sure that these images are available under a free license (like CC-BY), collected with the link of their sources, and named clearly as suggested in the style guide.
 
-crwdns837326:0crwdne837326:0 crwdns837328:0crwdne837328:0
+For the twitter mentions, there is no fixed number of screenshots, but 4-6 tweets look less crowded in the newsletter. They can be edited together in one image (explained in the newsletter's style guide).
 
-### crwdns837330:0crwdne837330:0
+### Write about each news item
 
-crwdns837332:0crwdne837332:0
+Based on the bullet points collected for each news item, create 1-2 small paragraphs using the recommendations for the language and format described in the next subchapter.
 
-crwdns837334:0crwdne837334:0
+Provide links when useful, give credits fairly to the community members who might be associated with the news item and end the paragraph with a sentence and link to more information.
 
-### crwdns837336:0crwdne837336:0
+### Proofreading your draft
 
-crwdns837338:0crwdne837338:0 crwdns837340:0crwdne837340:0
+Before sharing your draft you should do a proofread for grammar and typo. An online app like [Ginger Grammar Checker](https://www.gingersoftware.com/grammarcheck), [Grammarly](https://app.grammarly.com) free version, [GrammarCheck](https://www.grammarcheck.net/editor/) or [Reverso Speller](https://www.reverso.net/spell-checker/english-spelling-grammar/) can help correct any grammatical and spelling errors.
 
-crwdns837342:0crwdne837342:0 crwdns837344:0crwdne837344:0
+You should also double-check to make sure that the links mentioned in the draft are not broken. You can use online tools such as the [W3C link checker](https://validator.w3.org/checklink) or free version of [Dr. Link Check](https://www.drlinkcheck.com/).
 
-crwdns837346:0crwdne837346:0
+If possible, get your draft reviewed by 1-2 members.
 
-### crwdns837348:0crwdne837348:0
+### Updating your draft in the online repository
 
-crwdns837350:0crwdne837350:0 crwdns837352:0{ref}crwdne837352:0
+If you have drafted your newsletter in a local branch, before creating a PR, please add all the images mentioned in the newsletter to the right file location: `the-turing-way/communications/newsletters/images`. More details about using images have been discussed in the next subchapter, {ref}`style guide<ch-newsletters-style>`.
 
-crwdns837354:0crwdne837354:0
+If you are working on a PR on GitHub, upload all the images and check if they are linked properly.
 
-crwdns837356:0crwdne837356:0
+If you have created your newsletter draft in a HackMD, then copy-paste the content to create/update your GitHub PR and upload all the linked images.
 
-crwdns837358:0crwdne837358:0
+When ready, mark your PR as "Ready for Review" and tag a few contributing members, preferably those who have been mentioned in the draft so that they can review and approve your text.
 
-### crwdns837360:0crwdne837360:0
+### Review process
 
-crwdns837362:0crwdne837362:0
+The reviewers for the newsletter can review the text for language, relevance, typos, accuracy (fact-check), appropriateness of the use of images and the overall tone.
 
-crwdns837364:0crwdne837364:0
+Reviewers can provide constructive feedback on the newsletter draft, add any missing item that they would like to highlight, suggest appropriate changes and approve the PR when ready for the draft to be published.
 
-crwdns837366:0crwdne837366:0
+After the review process, each reviewer's name can be added under the special mentions section by the author to acknowledge their work.
 
-### crwdns837368:0crwdne837368:0
+### Publication process
 
-crwdns837370:0crwdne837370:0 crwdns837372:0crwdne837372:0
+We are currently using [TinyLetter](https://tinyletter.com/) to publish our newsletters. TinyLetter is a subsidiary of [MailChimp](https://mailchimp.com/), that offers a simplified interface based free service for setting up an email newsletter and sharing it with subscribers.
 
-crwdns837374:0crwdne837374:0
+Here are the steps for publishing the newsletter draft online and send by email to the subscribed members:
 
-- crwdns837376:0crwdne837376:0
-- crwdns837378:0crwdne837378:0
-- crwdns837380:0crwdne837380:0
-- crwdns837382:0crwdne837382:0
-- crwdns837384:0crwdne837384:0
-- crwdns837386:0crwdne837386:0
-- crwdns837388:0crwdne837388:0
-- crwdns837390:0crwdne837390:0
+- Convert the Markdown content of the newsletter draft to HTML using [browserling.com](https://www.browserling.com/tools/markdown-to-html) by copy-pasting the Markdown content to the text box in the web application and pressing "Convert to HTML button".
+- If authorised, log in to the TinyLetter account and click the “Write A Newsletter” button.
+- Paste the HTML content of your draft generated by browserling.
+- Make sure that the subject is written in the correct text box.
+- Click “Preview” to see how the rendered version of your message will look like.
+- Send a preview version to your email or _The Turing Way_ email (theturingway@gmail.com) to check if everything looks OK.
+- Once confirmed for its format and content, the newsletter is sent to the registered members by clicking “Send to all”.
+- The [online newsletters](https://tinyletter.com/TuringWay/) are shareable by links and can be read by non-subscribed members as well.
 
-*crwdns837392:0crwdne837392:0*
+*(Learn to make your newsletter [here](https://www.sitepoint.com/how-start-a-newsletter-in-minutes-with-tinyletter/).)*
 
- **crwdns837394:0crwdne837394:0**
+ **It's published, now what?**
 
-- crwdns837396:0crwdne837396:0
-- crwdns837398:0crwdne837398:0
-- crwdns837400:0crwdne837400:0
-- crwdns837402:0crwdne837402:0 crwdns837404:0crwdne837404:0 crwdns837406:0crwdne837406:0
+- Update the index table in the [README.md file](https://github.com/alan-turing-institute/the-turing-way/blob/main/communications/newsletters/README.md) with the details of the newly published newsletter.
+- Tweet about it from [@turingway](https://twitter.com/turingway).
+- Send a notification on [Gitter](https://gitter.im/alan-turing-institute/the-turing-way) and [Slack](https://theturingway.slack.com) channels.
+- Do a celebratory dance! (This is mandatory! 💃)

@@ -1,62 +1,66 @@
-crwdns835710:0crwdne835710:0
-# crwdns835712:0crwdne835712:0
+(ch-consistency)=
+# Maintaining Consistency
 
-crwdns835714:0crwdne835714:0 crwdns835716:0crwdne835716:0 crwdns835718:0crwdne835718:0 crwdns835720:0{ref}crwdne835720:0 crwdns835722:0crwdne835722:0 crwdns835724:0crwdne835724:0 crwdns835726:0crwdne835726:0 crwdns835728:0crwdne835728:0 crwdns835730:0crwdne835730:0
+_The Turing Way_ is an open-source project that empowers contributors around the world to leverage their skills, knowledge, and expertise to build and expand its content. _The Turing Way_ guides are continually evolving, with multiple chapters co-developed by individuals from varied backgrounds - who are all passionate about sharing knowledge around data science and research. To sustain and support this vibrant community, _The Turing Way_ book should remain consistent and accessible as it evolves. The {ref}`ch-style` chapter already provides guidelines for maintaining a consistent style across the book. However, not all chapters follow these suggestions since they're often written asynchronously by different authors. Reviewing consistency across _The Turing Way_ alone is reasonably challenging. This points towards a need to encourage and support our contributors to maintain consistency throughout the chapters in _The Turing Way_ guides. Therefore, this chapter will outline a step-by-step consistency checklist that will guide our contributors. Each step will emphasize a consistency check to look out for as they design and develop chapters in _The Turing Way_ or bring consistency to existing chapters.
 
-crwdns835732:0crwdne835732:0
-## crwdns835734:0crwdne835734:0
+(ch-consistency-requirements)=
+## Hard vs Soft Requirements
 
-crwdns835736:0crwdne835736:0 crwdns835738:0crwdne835738:0 crwdns835740:0crwdne835740:0
+Items in the consistency checklist are categorised into hard and soft requirements. Hard requirements are essential consistency checks that a chapter must pass so that _The Turing Way_ builds without errors. Moreover, they make the chapter readable and accessible to everyone.
 
-crwdns835742:0crwdne835742:0 crwdns835744:0crwdne835744:0 crwdns835746:0crwdne835746:0
+Soft requirements, on the other hand, are nice-to-have consistency checks that a chapter should pass. These checks greatly enhance the overall look and feel of the book, but can be safely ignored if they cannot be integrated into your contribution. You can always return to review your past contributions and enhance their content.
 
-crwdns835748:0{ref}crwdne835748:0 crwdns835750:0crwdne835750:0 crwdns835752:0crwdne835752:0
+An overview of these requirements is itemised {ref}`below <ch-consistency-requirements-checklist>`. For easy description, these consistency checks are classified by format, structure, and language. The subchapters explain these in more detail and describe how they can be achieved.
 
 ```{important} Please note that these requirements are not exhaustive or definitive, and neither are their classifications rigid.
-crwdns835754:0crwdne835754:0
+Moreover, no items are inherently more important than the other.
 
-crwdns835756:0[here]crwdne835756:0
+If you identify more consistency issues that need to be addressed, join the conversation [here](https://github.com/alan-turing-institute/the-turing-way/issues/1174).
 
 ```
 
 ```{figure} ../figures/theturingway-consistency.jpg
-crwdns835758:0crwdne835758:0 crwdns835760:0crwdne835760:0
-crwdns835762:0crwdne835762:0 crwdns835764:0crwdne835764:0 crwdns835766:0crwdne835766:0 crwdns835768:0crwdne835768:0
+---
+height: 400px
+name: theturingway-consistency
+alt: This illustration shows a staircase indicating pathway to maintain consistency that has three pillars - formatting, structure and language. One person is guiding two new contributors up the staires.
+---
+Pathway to maintaining consistency. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-crwdns835770:0crwdne835770:0
-### crwdns835772:0crwdne835772:0
+(ch-consistency-requirements-checklist)=
+### Consistency Checklist
 
-#### crwdns835774:0crwdne835774:0
+#### Formatting
 
-| crwdns835776:0crwdne835776:0 | crwdns835778:0crwdne835778:0                              |
-| ---------------------------- | --------------------------------------------------------- |
-| crwdns835780:0crwdne835780:0 | crwdns835782:0crwdne835782:0                              |
-| crwdns835784:0crwdne835784:0 | crwdns835786:0crwdne835786:0 crwdns835788:0crwdne835788:0 |
-| crwdns835790:0crwdne835790:0 | crwdns835792:0{ref}crwdne835792:0                         |
-| crwdns835794:0crwdne835794:0 | crwdns835796:0{ref}crwdne835796:0                         |
-| crwdns835798:0crwdne835798:0 | crwdns835800:0crwdne835800:0                              |
-| crwdns835802:0crwdne835802:0 | crwdns835804:0crwdne835804:0                              |
-
-
-#### crwdns835806:0crwdne835806:0
-
-| crwdns835808:0crwdne835808:0 | crwdns835810:0crwdne835810:0      |
-| ---------------------------- | --------------------------------- |
-| crwdns835812:0crwdne835812:0 | crwdns835814:0crwdne835814:0      |
-| crwdns835816:0crwdne835816:0 | crwdns835818:0crwdne835818:0      |
-| crwdns835820:0crwdne835820:0 | crwdns835822:0{ref}crwdne835822:0 |
-| crwdns835824:0crwdne835824:0 | crwdns835826:0crwdne835826:0      |
-| crwdns835828:0crwdne835828:0 | crwdns835830:0crwdne835830:0      |
-| crwdns835832:0crwdne835832:0 | crwdns835834:0crwdne835834:0      |
+| REQUIREMENT | CHECK                                                                                                                                                                            |
+| ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Hard        | Use Markdown for creating your content (see this [WordPress cheatsheet](https://wordpress.com/support/markdown-quick-reference/)).                                               |
+| Hard        | Use the headers in sequential order. For example, starting the top level with h1 tag `#`, second-level header with h2 tag `##` and so on.                                        |
+| Hard        | Add labels to chapters, subchapters and images to enable cross-referencing as described in the {ref}`style guide<ch-style-crossref>`                                       |
+| Hard        | Use `MyST` for image formatting as described in the {ref}`style guide<ch-style-figures>` | Use public domain images that are less than 1MB in size and cite appropriately. |
+| Soft        | Ensure that the names of chapters/subchapters are short and map exactly to how they are titled in the `_toc.yml`                                                                 |
+| Soft        | Ensure proper title-casing for headers | Capitalise the first, last and 'important' words of every title; for example, 'Snow White and the Seven Dwarves'.                       |
 
 
-#### crwdns835836:0crwdne835836:0
+#### Structure
 
-| crwdns835838:0crwdne835838:0 | crwdns835840:0crwdne835840:0      |
-| ---------------------------- | --------------------------------- |
-| crwdns835842:0crwdne835842:0 | crwdns835844:0{ref}crwdne835844:0 |
-| crwdns835846:0crwdne835846:0 | crwdns835848:0crwdne835848:0      |
-| crwdns835850:0crwdne835850:0 | crwdns835852:0crwdne835852:0      |
+| REQUIREMENT | CHECK                                                                                                                                                                            |
+| ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Hard        | Ensure chapters follow a structure as described in the new [chapter template](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/templates/chapter-template) |
+| Hard        | Do not add a 'table of contents' in chapters or subchapters as it is auto-generated by the Jupyter Book                                                                          |
+| Hard        | Ensure external sources are properly referenced and included in the centralised BibTeX file as recommended in the {ref}`style guide<ch-style-citing>`                      |
+| Hard        | Do not add any empty files in the `_toc.yml`, instead create an issue for new chapters                                                                                           |
+| Soft        | Ensure each chapter has a good summary on its landing page along with links to its subchapters.                                                                                  |
+| Soft        | Split long chapters into smaller subchapters so they are modular.                                                                                                                |
 
-crwdns835854:0{ref}crwdnd835854:0{ref}crwdnd835854:0{ref}crwdne835854:0
+
+#### Language
+
+| REQUIREMENT | CHECK                                                                                                                       |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Hard        | Ensure chapters do not use any Latin abbreviation as discussed in the {ref}`style guide<ch-style>`                    |
+| Hard        | Ensure correct grammar and a consistent tone across the book with the help of 1-2 reviewers                                 |
+| Hard        | Ensure chapters use a consistent language, for example, if you choose to write in British English, maintain that throughout |
+
+These checks are further explained in the {ref}`Formatting<ch-consistency-formatting>`, {ref}`Structure<ch-consistency-structure>`, and {ref}`Language<ch-consistency-language>` subchapters.

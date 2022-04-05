@@ -1,34 +1,35 @@
-(auto-reflexão)=
-# Reflexão pessoal
+(er-self-reflection)=
+# Self Reflection
 
-(er-auto-reflexão-pré-requisitos)=
-## Pré-requisitos
+(er-self-reflection-prerequisites)=
+## Prerequisites
 
-Não há condições prévias para este capítulo. No entanto É aconselhado que você deve estar ciente do contexto {ref}`de direitos humanos e legais<er-law-policy>` primeiro se você estiver considerando um dilema ético.
+There are no prerequisites for this chapter. However, it's advised that you should be aware of the {ref}`legal and human rights<er-law-policy>` context first if you are considering an ethical dialemma.
 
 
-(er-auto-reflexão-resumo)=
+(er-self-reflection-summary)=
 ## Summary
 
-Nossas experiências e identidades vividas nos dão uma determinada lente para ver o mundo inteiro, que pode ser moldado por onde vivemos, os locais onde trabalhamos, a educação que recebemos, ou a cultura dominante em que fomos criados. No entanto, isso pode também levar-nos a ver uma situação ou um problema de uma forma particular. ou para adoptar abordagens que excluam certas pessoas ou grupos. Quando se trata de dilemas éticos, nossas experiências vivas também moldam nossa *ética pessoal*, que é a forma como tomamos decisões sobre o que está certo ou errado.
+Our lived experiences and identities give us a particular lens to view the world through, which can be shaped by where we live, the places we work, the education we receive, or the dominant culture we were brought up in. However, this can also lead us to see a situation or problem in one particular way, or to take approaches that exclude certain people or groups. When it comes to ethical dilemmas, our lived experiences also shape our *personal ethics*, which are the way we make decisions about what is right or wrong.
 
-**Autoreflexão** é um método que podemos usar para examinar nossas suposições, padrões e ações pessoais. Quando nos entendermos melhor, Podemos perguntar por que razão fazemos as coisas de uma certa forma e nos desafiamos a considerar novas perspectivas ou a agir de forma diferente. Isto pode ajudar a garantir que a investigação que estamos a desenvolver seja responsável, inclusiva, justa e, em última análise, ética!
+**Self-reflection** is a method we can use to examine our personal assumptions, patterns and actions. When we understand ourselves better, we can ask questions about why we do things in a certain way and challenge ourselves to consider new perspectives or to act differently. This can help to make sure the research we are conducting is responsible, inclusive, fair and ultimately ethical!
 
 ```{figure} ../figures/ethics-self-reflection.jpg
 ---
-nome: reflexão automática
-alternativa: Uma mulher fica em uma loja de óculos ao lado da assistente da loja que está segurando uma série de óculos para que ela experimente. Ela está a tentar ler um sinal para testar a sua visão, que contém as palavras "Sexualidade", "Círculo", "Área", "Classe", "Educação" e "Sexualidade". O letreiro na porta da loja diz "Reflexão autónoma - venha ver você mesmo". 
---- Reflexão própria. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+name: self reflection
+alt: A woman stands in a glasses shop next to the shop assistant who is holding a range of glasses for her to try. She is trying to read a sign to test her sight that has the words 'Gender', 'Race', 'Age', 'Class', 'Education' and 'Sexuality' on it. The sign on the door of the shop says 'Self Reflection - come in and see for yourself'. 
+---
+Self Reflection. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-(er-auto-reflexão-motivação)=
-## Motivação e fundo
+(er-self-reflection-motivation)=
+## Motivation and Background
 
-Como cientistas de dados, podemos nem sempre ver-nos a nós próprios como pessoas com muito poder. No entanto, estamos constantemente a criar instrumentos e tecnologias que alteram o curso da vida de muitas pessoas. Nesse sentido, temos um **lote** de poder, e com ela vem a responsabilidade de trabalhar em prol da justiça e da igualdade no nosso trabalho em matéria de ciência dos dados.
+As data scientists, we may not always see ourselves as people with much power. However, we are constantly creating tools and technologies that alter the course of many people's lives. In that sense, we have a **lot** of power, and with it comes responsibility for working towards justice and equality in our data science work.
 
-Sabemos que temos de estar conscientes da equidade e do preconceito na ciência dos dados e na AI, mas os instrumentos que fazemos não herdam passivamente estas características - são integrados em sistemas através de decisões que tomamos. Estando ciente dos tipos de preconceitos, nós temos, podemos fazer mais para os desafiar e criar tecnologias de ciência de dados que ajudem as pessoas em vez de as prejudicar.
+We know we must be aware of fairness and bias in data science and AI, but the tools we make do not passively inherit these features - they are built into systems by decisions we make. By being aware of the kinds of biases we hold, we can do more to challenge them and create data science technologies that help people rather than harming them.
 
-(er-auto-reflexão-influências)=
-## Influências
+(er-self-reflection-influences)=
+## Influences
 
-Este capítulo sobre a importância da auto-reflexão na pesquisa e na ciência de dados baseia-se no trabalho da teoria do ponto de vista e da teoria feminista (particuarly Black feminist), mais notavelmente matriz da Patricia Hill Collins de dominação {cite:ps}`collins1990preto`, Kimberlie➲ A teoria da interseccionalidade de Crenshaw {cite:ps}`crenshaw1989demarginalizando`, e os conhecimentos situados de Donna Haraway {cite:ps}`haraway1988situado`, entre outros. Mais recentemente, essas ideias foram trazidas à ciência de dados por Catherine D'Ignazio e pelo livro de Lauren Klein 'Data Feminism' {cite:ps}`datafeminism2020`, e pesquisadores como Abea Birhane {cite:ps}`birhane2021-Algoritmo`e Timnit Gebru {cite:ps}`gebru2018datasheets`. É fornecida uma lista completa dos recursos adicionais na seção Recursos. 
+This chapter on the importance of self-reflection in research and data science draws on work from standpoint theory and feminist (particuarly Black feminist) theory, most notably Patricia Hill Collins' matrix of domination {cite:ps}`collins1990black`, Kimberlié Crenshaw's theory of intersectionality {cite:ps}`crenshaw1989demarginalizing`, and Donna Haraway's situated knowledges {cite:ps}`haraway1988situated`, amongst others. More recently these ideas have been brought to data science by Catherine D'Ignazio and Lauren Klein's book 'Data Feminism' {cite:ps}`datafeminism2020`, and researchers like Abebea Birhane {cite:ps}`birhane2021algorithmic`and Timnit Gebru {cite:ps}`gebru2018datasheets`. A full list of further resources is provided in the Resources section. 

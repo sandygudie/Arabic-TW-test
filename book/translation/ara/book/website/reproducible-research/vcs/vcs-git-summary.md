@@ -1,22 +1,22 @@
-crwdns855212:0crwdne855212:0
-# crwdns855214:0crwdne855214:0
+(rr-vcs-git-summary)
+# Summary Table of Git Commands
 
-| crwdns855216:0crwdne855216:0   | crwdns855218:0crwdne855218:0 |
-| ------------------------------ | ---------------------------- |
-| `crwdns855220:0crwdne855220:0` | crwdns855222:0crwdne855222:0 |
-| `crwdns855224:0crwdne855224:0` | crwdns855226:0crwdne855226:0 |
-| `crwdns855228:0crwdne855228:0` | crwdns855230:0crwdne855230:0 |
-| `crwdns855232:0crwdne855232:0` | crwdns855234:0crwdne855234:0 |
-| `crwdns855236:0crwdne855236:0` | crwdns855238:0crwdne855238:0 |
-| `crwdns855240:0crwdne855240:0` | crwdns855242:0crwdne855242:0 |
-| `crwdns855244:0crwdne855244:0` | crwdns855246:0crwdne855246:0 |
-| `crwdns855248:0crwdne855248:0` | crwdns855250:0crwdne855250:0 |
-| `crwdns855252:0crwdne855252:0` | crwdns855254:0crwdne855254:0 |
-| `crwdns855256:0crwdne855256:0` | crwdns855258:0crwdne855258:0 |
-| `crwdns855260:0crwdne855260:0` | crwdns855262:0crwdne855262:0 |
-| `crwdns855264:0crwdne855264:0` | crwdns855266:0crwdne855266:0 |
-| `crwdns855268:0crwdne855268:0` | crwdns855270:0crwdne855270:0 |
-| `crwdns855272:0crwdne855272:0` | crwdns855274:0crwdne855274:0 |
-| `crwdns855276:0crwdne855276:0` | crwdns855278:0crwdne855278:0 |
-| `crwdns855280:0crwdne855280:0` | crwdns855282:0crwdne855282:0 |
-| `crwdns855284:0crwdne855284:0` | crwdns855286:0crwdne855286:0 |      
+| Command                         | Use                                                                          |
+| ------------------------------- | ---------------------------------------------------------------------------- |
+| `git init`                      | Initialises a Git repository in that directory                               |
+| `git add .`                     | Adds all changes to the staging area to be committed                         |
+| `git add file_name`             | Adds changes to the specified file to the staging area to be committed       |
+| `git commit`                    | Commits staged changes and allows you to write a commit message              |
+| `git checkout SHA`              | Checks out a past commit with the given SHA                                  |
+| `git checkout SHA -- file_name` | Checks out the past version of a file from the commit with the given SHA     |
+| `git checkout -b branch_name`   | Creates and switches to a new branch                                         |
+| `git checkout branch_name`      | Switches to the specified branch                                             |
+| `git merge branch_name`         | Merges the branch you are on into the specified branch                       |
+| `git log`                       | Outputs a log of past commits with their commit messages                     |
+| `git status`                    | Outputs status, including what branch you are on and what changes are staged |
+| `git diff`                      | Outputs the differences between the working directory and most recent commit |
+| `git diff thing_a thing_b`      | Outputs the differences between two things, such as commits and branches     |
+| `git clone URL`                 | Makes a clone of the repository at the specified URL                         |
+| `git remote add origin URL`     | Links a local repository and an online repository at the specified URL       |
+| `git push origin branch_name`   | Pushes local changes to the specified branch of the online repository        |
+| `git pull origin branch_name`   | Pull changes from the online repository into local repository                |      

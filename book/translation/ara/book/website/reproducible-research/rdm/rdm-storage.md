@@ -1,64 +1,68 @@
-crwdns850482:0crwdne850482:0
-# crwdns850484:0crwdne850484:0
+(rr-rdm-storage)=
+# Data Storage and Organisation
 
-crwdns850486:0crwdne850486:0 crwdns850488:0crwdne850488:0
+Data loss can be catastrophic for your research project and can happen often. You can prevent data loss by picking suitable storage solutions and backing your data up frequently.
 
 ```{figure} ../../figures/version-control.jpg
-crwdns850490:0crwdne850490:0 crwdns850492:0crwdne850492:0 crwdns850494:0crwdne850494:0 crwdns850496:0crwdne850496:0 crwdns850498:0crwdne850498:0 crwdns850500:0crwdne850500:0
-crwdns850502:0crwdne850502:0 crwdns850504:0crwdne850504:0 crwdns850506:0crwdne850506:0
+---
+height: 500px
+name: version-control
+alt: Two images are shown to represent the benefits of using version control. On the left, there is an image of two people rummaging through a blue box on top of a table. The box is full of jumbled documents and the people look confused and frustrated. The documents are named "final 2" and "let this be the final". On the right, the same two people look happy and are searching through files organised clearly in a blue filing cabinet. There are "V1, V2, V3 and V4" separations organising the files.
+---
+_The Turing Way_ project illustration by Scriberia. Original version on Zenodo. [http://doi.org/10.5281/zenodo.3695300](http://doi.org/10.5281/zenodo.3695300)
 ```
 
-crwdns850508:0crwdne850508:0
-## crwdns850510:0crwdne850510:0
+(rr-rdm-storage-where)=
+## Where to Store Data
 
-- crwdns850512:0crwdne850512:0
-- crwdns850514:0crwdne850514:0
-- crwdns850516:0crwdne850516:0 crwdns850518:0crwdne850518:0
+- Most institutions will provide a _network drive_ that you can use to store data.
+- _Portable storage media_ such as memory sticks (USB sticks) are more risky and vulnerable to loss and damage.
+- _Cloud storage_ provides a convenient way to store, backup and retrieve data. You should check terms of use before using them for your research data.
 
-crwdns850520:0crwdne850520:0 crwdns850522:0crwdne850522:0
+Especially if you are handling personal or sensitive data, you need to ensure the cloud option is compliant with any data protection rules the data is bound by. To add an extra layer of security, you should encrypt devices and files where needed.
 
-crwdns850524:0crwdne850524:0 crwdns850526:0crwdne850526:0
+Your institution might provide local storage solutions and policies or guidelines restricting what you can use. Thus, we recommend you familiarise yourself with your local policies and recommendations.
 
-crwdns850528:0crwdne850528:0 crwdns850530:0{ref}crwdne850530:0
+When you are ready to release the data to the wider community, you can also search for the appropriate databases and repositories in [FAIRsharing](https://fairsharing.org/databases), according to your data type, and type of access to the data. Learn more about this in the {ref}`rr-rdm-sharing` subchapter.
 
-crwdns850532:0crwdne850532:0
-## crwdns850534:0crwdne850534:0
+(rr-rdm-storage-organisation)=
+## Data Organisation
 
-crwdns850536:0crwdne850536:0
+To organise your data, you can create a folder structure, or re-use a previous structure (see an example below), to ensure that you can find your files.
 
--   crwdns850538:0crwdne850538:0
--   crwdns850540:0crwdne850540:0 crwdns850542:0crwdne850542:0
+-   Make sure you have enough (sub)folders so that files can be stored in the right folder and are not scattered in folders where they do not belong, or stored in large quantities in a single folder.
+-   Use a clear folder structure. You can structure folders based on the person that has generated the data/folder, chronologically (month, year, sessions), per project (as done in the example below), or based on analysis method/equipment or data type.
 
-crwdns850544:0crwdne850544:0
-### crwdns850546:0crwdne850546:0
+(rr-rdm-storage-organisation-examples)=
+### Data Organisation Examples
 
-- crwdns850548:0crwdne850548:0
-- crwdns850550:0crwdne850550:0
-- crwdns850552:0crwdne850552:0
+- Download [this](http://nikola.me/folder_structure.html) folder structure by Nikola Vukovic
+- You can pull/download folder structures using GitHub: [This template](https://github.com/bvreede/good-enough-project) by Barbara Vreede, based on [cookiecutter](https://github.com/cookiecutter/cookiecutter), follows recommended practices for scientific computing by [Wilson et al. (2017)](https://doi.org/10.1371/journal.pcbi.1005510).
+- See [this template](https://osf.io/4sdn3/) by Chris Hartgerink for file organisation on the [Open Science Framework](https://osf.io/).
 
-crwdns850554:0crwdne850554:0
-## crwdns850556:0crwdne850556:0
+(rr-rdm-storage-conventions)=
+## File Naming Conventions
 
-crwdns850558:0crwdne850558:0 crwdns850560:0crwdne850560:0 crwdns850562:0crwdne850562:0 crwdns850564:0crwdne850564:0
+Structure your file names and set up a template for this. For example, it may be advantageous to start naming your files with the date each file was generated (such as `YYYYMMDD`). This will sort your files chronologically and create a unique identifier for each file. The utility of this process is apparent when you generate multiple files on the same day that may need to be versioned to avoid overwriting.
 
 
-crwdns850566:0crwdne850566:0
-- crwdns850568:0crwdne850568:0
-- crwdns850570:0crwdne850570:0
-- crwdns850572:0crwdne850572:0
-- crwdns850574:0crwdne850574:0
-- crwdns850576:0crwdne850576:0
-- crwdns850578:0crwdne850578:0
+Some other tips for file naming include:
+- Use the date or date range of the experiment: `YYYYMMDD`
+- Use the file type
+- Use the researcher's name/initials
+- Use the version number of file (v001, v002) or language used in the document (ENG)
+- Do not make file names too long (this can complicate file transfers)
+- Avoid special characters (?\!@\*%{[<>) and spaces
 
-crwdns850580:0crwdne850580:0
+You can explain the file naming convention in a README.txt file so that it will also become apparent to others what the file names mean.
 
-crwdns850582:0crwdne850582:0
-## crwdns850584:0crwdne850584:0
+(rr-rdm-storage-backups)=
+## Backups
 
-crwdns850586:0crwdne850586:0
+To avoid losing your data, you should follow good backup practices.
 
-- crwdns850588:0crwdne850588:0
-- crwdns850590:0crwdne850590:0
-- crwdns850592:0crwdne850592:0
+- You should have 2 or 3 copies of your files, stored on
+- at least 2 different storage media,
+- in different locations.
 
-crwdns850594:0crwdne850594:0 crwdns850596:0crwdne850596:0 crwdns850598:0crwdne850598:0
+The more important the data and the more often the datasets change, the more frequently you should back them up. If your files take up a large amount of space and backing up all of them proves to be challenging or expensive, you may want to create a set of criteria for when you back up the data. This can be part of your data management plan (DMP).

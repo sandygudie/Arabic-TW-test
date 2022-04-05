@@ -1,18 +1,18 @@
-(cm-apresentações)=
-# Apresentando pôsteres e palestras de conferência
+(cm-presentations)=
+# Presenting Posters and Conference Talks
 
-Muito parecido com a escrita lay sumies e blogs, A apresentação do seu trabalho em conferências que não estão dentro do seu ambiente imediato de investigação tem de ser cuidadosamente ponderada.
+Much like writing lay summaries and blogs, presentation of your work at conferences that are not within your immediate research environment need to be carefully thought through.
 
-Os mesmos princípios se aplicam aqui: saber seu público, adaptar seu estilo e geralmente tornar sua escrita ou fala menos técnica em termos do idioma.
+The same principles apply here: know your audience, adapt your style and generally make your writing/talk less technical in terms of the language.
 
-Além destes pontos, para aumentar a acessibilidade e a capacidade de encontrar as suas apresentações, é uma boa ideia para:
-* Durante a conversa, use legendas para ajudar a acessibilidade.
-* Registre a palestra e adicione este link à apresentação quando compartilhado.
-* Adicionar notas de palestra para a apresentação (isso pode ser feito em um arquivo PowerPoint) ou fazê-los em um arquivo separado a ser compartilhado. Você também pode escrever um post de blog com base na sua conversa.
-* Use mídias sociais acadêmicas, como ORCID, ResearchGate ou Academia, para ajudar a disseminar seu trabalho ainda mais.
-* Compartilhar os slides da conferência nas redes sociais com um identificador persistente (discutido abaixo).
+In addition to these points, to increase the accessibility and findability of your presentations it is a good idea to:
+* During the talk, use captions to aid accessibility.
+* Record the talk and add this link to the presentation when shared.
+* Add talk notes to the presentation (this can be done in a PowerPoint file) or have them in a separate file to be shared. You could also write a blog post based on your talk.
+* Use academic social media, such as ORCID, ResearchGate or Academia, to help disseminate your work further.
+* Share the conference slides on social media with a persistent identifier (discussed below).
 
-(cm-apresentações-compartilhamento)=
-## Compartilhando suas Apresentações
+(cm-presentations-sharing)=
+## Sharing your Presentations
 
-Há muitas maneiras de disponibilizar seu pôster e slides para as palestras publicamente. por exemplo, compartilhando os respectivos arquivos em formatos acessíveis (como pdf, arquivo de imagem, slides PowerPoint e formato Markdown). Esses arquivos podem ser compartilhados via um repositório online (como o [GitHub](https://github.com/) ou [Bitbucket](https://bitbucket.org/)), um drive compartilhado com um link compartilhável (como Dropbox e Google Drive) ou a plataforma criada pelo evento onde você apresenta seu trabalho. É aconselhável compartilhar seu arquivo sob uma licença de sua escolha para que outros saibam como reutilizar sua obra (ver {ref}`rr-licensing`). Além você pode obter um identificador de objeto digital ou DOI carregando seus arquivos de apresentação para um servidor de sua escolha (como [Zenodo](https://zenodo.org/) e [FigShare](https://figshare.com/)). Veja o capítulo no {ref}`DOI<cm-citable-steps-doi>` para detalhes.
+There are many ways you can make your poster and slides for your talks publicly available, such as by sharing the respective files in accessible formats (such as pdf, image file, PowerPoint slides, Markdown format). These files can be shared via an online repository (like [GitHub](https://github.com/) or [Bitbucket](https://bitbucket.org/)), a shared drive with a shareable link (like Dropbox and Google Drive) or the platform put in place by the event where you present your work. It is advisable to share your file under a license of your choice so that others know how to reuse your work (see {ref}`rr-licensing`). Furthermore, you can get a digital object identifier or DOI by uploading your presentation files to a server of your choice (like [Zenodo](https://zenodo.org/) and [FigShare](https://figshare.com/)). See the chapter on {ref}`DOI<cm-citable-steps-doi>` for details.

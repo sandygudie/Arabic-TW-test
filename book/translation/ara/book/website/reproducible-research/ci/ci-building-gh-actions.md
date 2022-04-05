@@ -1,48 +1,74 @@
-crwdns843744:0crwdne843744:0
-# crwdns843746:0crwdne843746:0
+(rr-ci-building-gh-actions)=
+# Building a Block of a Github Actions
 
-crwdns843748:0crwdne843748:0 crwdns843750:0{ref}crwdne843750:0 crwdns843752:0crwdne843752:0
+As described previously, workflow files use YAML syntax, which has either a `.yml` or `.yaml` file extension. If you're new to YAML and want to learn more, {ref}`see our section about YMAL<rr-renv-yaml>`. This workflow files must be stored in the `.github/workflows` directory of your repository.
 
-crwdns843754:0crwdne843754:0 crwdns843756:0crwdne843756:0
-
-```
-crwdns843758:0crwdne843758:0
-```
-
-**crwdns843760:0crwdne843760:0 crwdns843762:0crwdne843762:0**
-
-crwdns843764:0crwdne843764:0 crwdns843766:0crwdne843766:0
-```
-crwdns843768:0crwdne843768:0
-```
-
-**crwdns843770:0crwdne843770:0 crwdns843772:0crwdne843772:0**
-
-crwdns843774:0crwdne843774:0 crwdns843776:0crwdne843776:0
-```
-crwdns843778:0crwdne843778:0
-```
-crwdns843780:0crwdne843780:0 crwdns843782:0crwdne843782:0
-
-**crwdns843784:0crwdne843784:0 crwdns843786:0crwdne843786:0**
-
-crwdns843788:0crwdne843788:0 crwdns843790:0crwdne843790:0 crwdns843792:0crwdne843792:0 crwdns843794:0crwdne843794:0
+Each workflow is defined in a separate YAML. We will introduce the building block of a workflow using Hello World Example:
 
 ```
-crwdns843796:0crwdne843796:0
+name:
+    Hello World package
+on:
+  push:
+    branches: [ main ]
+Jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
 ```
 
-crwdns843798:0crwdne843798:0 crwdns843800:0crwdne843800:0 crwdns843802:0crwdne843802:0 crwdns843804:0crwdne843804:0
+**1. name**
 
-- crwdns843806:0crwdne843806:0
-- crwdns843808:0crwdne843808:0
-- crwdns843810:0crwdne843810:0
+This is the name of the workflow and it is optional. GitHub will use this name to be displayed on the repository's actions page.
+```
+name:
+    Hello World package
+```
+
+**2. on**
+
+The `on` field tells GHA when to run. For example, we can run the workflow anytime there's a `push` or a `pull` on the `main` branch.
+```
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+```
+There are many events which can be used to trigger a workflow. You can explore them [here](https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-syntax-for-github-actions).
+
+**3. jobs and steps**
+
+This block defines the core component of an Action workflow. Workflows are made of `jobs`. Every job also needs a specific host machine on which to run, the `runs-on:` field is how we specify it. The template workflow is running the `build` job in the latest version of Ubuntu, a Linux-based operating system.
+
+```
+jobs:
+  build:
+  runs-on: ubuntu-latest
+```
+
+We can also separate the `build` and `test` functions of our workflow into more than one job that will run when our workflow is triggered. Jobs are made of `steps`. These allow you define what to run in each job. There are three ways to define steps.
+
+- With `uses`
+- With `run`
+- With `name`
 
 ```
 
-crwdns843812:0crwdne843812:0
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+  test:
+    steps:
+    - name: npm install
+      run: |
+        npm install
+        npm test
 ```
 
-crwdns843814:0crwdne843814:0 crwdns843816:0crwdne843816:0 crwdns843818:0crwdne843818:0 crwdns843820:0crwdne843820:0 crwdns843822:0crwdne843822:0 crwdns843824:0crwdne843824:0
+The most basic action is `actions/checkout@v2`. This uses a GitHub provided action called [`checkout`](https://github.com/actions/checkout) to allow the workflow to access the contents of the repository. All the steps of a job run sequentially on the runner associated with the job. By default, if a step fails, the subsequent steps of the job are skipped. Each run keyword represents a new process and shell in the runner environment. When you provide multi-line commands, each line runs in the same shell.
 
-crwdns843826:0crwdne843826:0
+Providing a comprehensive guide of all the available options is beyond the scope of this overview, and instead, we would urge you to study [official reference documentation](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions) and/or the CI configuration open-source projects references in the previous section.

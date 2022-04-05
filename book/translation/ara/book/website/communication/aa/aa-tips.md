@@ -1,58 +1,59 @@
-crwdns829130:0crwdne829130:0
-# crwdns829132:0crwdne829132:0
+(cm-aa-tips)=
+# Tips for Getting Authorship Right
 
-crwdns829134:0crwdne829134:0
-## crwdns829136:0crwdne829136:0
+(cm-aa-tips-who)=
+## Establish who wants to be an author
 
-crwdns829138:0crwdne829138:0 crwdns829140:0crwdne829140:0
+It is worth considering that not everyone on the same research project or in the same community will have the same motivation when it comes to authorship. Not everyone places the same importance on academic citation rates and therefore this is an issue that needs to be considered at the start of a project.
 
-crwdns829142:0crwdne829142:0 crwdns829144:0crwdne829144:0
+**Strong motivation** There will be team members that are focused on an academic career path and feel paper authorship is a driving force for career progression. They will put high importance on being an author and probably will also have strong opinions on how they want authorship to be attributed and what order authors names should take.
 
-crwdns829146:0crwdne829146:0
+**Medium motivation** Other team members, probably more established academics who already have a substantial amount of publications and in stable employment, may be less worried about the order of authors on their papers or how contributions are attributed and tracked.
 
-crwdns829148:0crwdne829148:0
+**Low motivation** Team members that are not interested in a purely academic career but still are an integral part of the team and have made substantial contributions to the project, such as research engineers, may not be interested in authorship at all.
 
-crwdns829150:0crwdne829150:0
-## crwdns829152:0crwdne829152:0
-crwdns829154:0crwdne829154:0 crwdns829156:0crwdne829156:0
+(cm-aa-tips-culture)=
+## Encourage a culture of ethical and equitable authorship
+There may be unethical practices that exist in your discipline, or even in your institution, but this does not mean that you have to follow them. You can implement a more ethical and equitable authorship approach in your own research.
 
-* crwdns829158:0crwdne829158:0
-* crwdns829160:0crwdne829160:0
-* crwdns829162:0crwdne829162:0
+* Find out about your own institution's authorship policy or make one yourself.
+* If you know what journal you are going to target for your publications, then find out about their authorship policy.
+* Read about ethical authorship such as on the [Committee on Publication Ethics (COPE) website](https://publicationethics.org/).
 
-crwdns829164:0crwdne829164:0
-## crwdns829166:0crwdne829166:0
-crwdns829168:0crwdne829168:0 crwdns829170:0crwdne829170:0
+(cm-aa-tips-plan)=
+## Plan an authorship strategy early on in a project
+The earlier that authorship is discussed, the more awareness project members will have. This will hopefully lead to less conflict about authorship when it comes to the paper writing stage of the project.
 
-crwdns829172:0crwdne829172:0
+It is not good practice to wait until you have finished writing a paper to have these discussions and this could lead to a lot of problems.
 
-* crwdns829174:0crwdne829174:0 crwdns829176:0crwdne829176:0
-    * crwdns829178:0crwdne829178:0
-        * crwdns829180:0crwdne829180:0
-        * crwdns829182:0crwdne829182:0
-        * crwdns829184:0crwdne829184:0 crwdns829186:0crwdne829186:0 crwdns829188:0crwdne829188:0 crwdns829190:0crwdne829190:0
-        * crwdns829192:0crwdne829192:0
+* Have a discussion about authorship at the outset of the project or even in the planning stage. These discussions need to involve the whole team.
+    * This needs to include:
+        * What journals you are targeting - this means you can find out about their own authorship policies.
+        * How the order of authors will be decided or are you following one type of authorship model/definition from the beginning.
+        * How you will track contributions - will this be done for all contributions or a selected list? How will you do this? a checklist/all contributors bot? Who will be in charge of maintaining the list of contributors?
+        * Whether the authorship policy/guidelines will be reviewed, when this will be done and how this will be done.
 
-* crwdns829194:0crwdne829194:0
-    * crwdns829196:0crwdne829196:0
-    * crwdns829198:0crwdne829198:0
+* Produce documentation on the decisions that have been made in these meetings.
+    * If possible, video the meetings where this is discussed, produce meeting notes and store them on your project repository.
+    * This needs to include a formal statement about authorship, different peoples roles, when it will be reviewed and how it will be reviewed.
 
-* crwdns829200:0crwdne829200:0
-    * crwdns829202:0crwdne829202:0
+* Make sure that every member of the project has signed an authorship agreement at the beginning of the project or this agreement/vote has been recorded in meeting notes.
+    * Someone should be assigned to oversee this and also to get this agreement from any new member that join during the project.
 
-* crwdns829204:0crwdne829204:0
+* Record a time for the policy to be reviewed, who will do it and what will happen in this review.
 
-crwdns829206:0crwdne829206:0
-## crwdns829208:0crwdne829208:0
-crwdns829210:0crwdne829210:0
+(cm-aa-tips-onboarding)=
+## Make the authorship policy and agreement part of onboarding
+It is likely that you will have new members join your project at different stages and it is important that you make the authorship policy known to them during onboarding.
 
-* crwdns829212:0crwdne829212:0
-    * crwdns829214:0crwdne829214:0
+* Make sure that onboarding during the project includes documentation explaining your authorship approach and a signed agreement to the project policy.
+    * This might be a choice of whether to be an author with this policy or to opt out of it all together.
 
-crwdns829216:0crwdne829216:0
-## crwdns829218:0crwdne829218:0
-crwdns829220:0crwdne829220:0
+(cm-aa-tips-revisit)=
+## Revisit the authorship policy before you start to write each article
+Each article from a project may not have the same authorship due to the specialist nature of certain types of publications and different aspects of a project.
 
-* crwdns829222:0crwdne829222:0
-    * crwdns829224:0crwdne829224:0 crwdns829226:0crwdne829226:0
-    * crwdns829228:0crwdne829228:0 
+* To make credit for the project more equitable, it is worth considering what publications can be written to give chance for different team members to be first author.  
+  You may also want to have some publications that give authorship to the whole team equally.
+    * Junior members of the team will gain more advantage from first author papers than more senior members. It will have an impact on their career status and job prospects.
+    * Sharing out the first author role will also distribute the workload more fairly throughout your team as the first author is responsible for a large part of the work involved in writing and administering the paper. 

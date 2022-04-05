@@ -1,103 +1,166 @@
-crwdns846254:0crwdne846254:0
-# crwdns846256:0crwdne846256:0
+(rr-make-appendix)=
+# Appendix
 
-crwdns846258:0crwdne846258:0
-## crwdns846260:0crwdne846260:0
+(rr-make-appendix-dag)=
+## Directed Acyclic Graph
 
-crwdns846262:0crwdne846262:0
+A Directed Acyclic Graph (DAG) is a *graph* of nodes and edges that is:
 
-1. crwdns846264:0crwdne846264:0
-2. crwdns846266:0crwdne846266:0
+1. *directed*: edges have a direction and you can only walk the graph in that direction
+2. *acyclic*: does not contain cycles: A can't depend on B when B depends on A.
 
-crwdns846268:0crwdne846268:0 crwdns846270:0crwdne846270:0
+The latter property is of course quite handy for a build system. More information on DAGs can be found on [Wikipedia](https://en.wikipedia.org/wiki/Directed_acyclic_graph).
 
-crwdns846272:0crwdne846272:0
-## crwdns846274:0crwdne846274:0
+(rr-make-appendix-installing)=
+## Installing Make
 
-crwdns846276:0crwdne846276:0 crwdns846278:0crwdne846278:0
-
-```bash
-crwdns846280:0crwdne846280:0
-```
-
-crwdns846282:0crwdne846282:0 crwdns846284:0crwdne846284:0  crwdns846286:0crwdne846286:0
-
-crwdns846288:0crwdne846288:0 crwdns846290:0crwdne846290:0
+First, check if you have GNU Make installed already. In a terminal type:
 
 ```bash
-crwdns846292:0crwdne846292:0
+$ make
 ```
 
-crwdns846294:0crwdne846294:0
+If you get `make: command not found` (or similar), you don't have Make. If you get `make: *** No targets specified and no makefile found.  Stop.` you do have Make.
 
-crwdns846296:0crwdne846296:0
+We'll be using **GNU Make** in this tutorial. Verify that this is what you have by typing:
 
-- crwdns846298:0crwdne846298:0 crwdns846300:0crwdne846300:0
+```bash
+$ make --version
+```
+
+If you don't have GNU Make but have the BSD version, some things might not work as expected and we recommend installing GNU Make.
+
+To install GNU Make, please follow these instructions:
+
+- **Linux**: Use your package manager to install Make. For instance on Arch Linux:
 
   ```bash
-  crwdns846302:0crwdne846302:0
+  $ sudo pacman -S make
   ```
 
-  crwdns846304:0crwdne846304:0
+  Ubuntu:
   ```bash
-  crwdns846306:0crwdne846306:0
+  $ sudo apt-get install build-essential
   ```
 
-- crwdns846308:0crwdne846308:0
+- **MacOS**: If you have [Homebrew](https://brew.sh/) installed, it's simply:
 
   ```bash
-  crwdns846310:0crwdne846310:0
+  $ brew install make
   ```
 
-  crwdns846312:0crwdne846312:0
+  If you have a builtin Make implementation, please ensure that it's GNU Make by checking `make --version`.
 
-crwdns846314:0crwdne846314:0
-## crwdns846316:0crwdne846316:0
+(rr-make-appendix-advancedgr)=
+## Advanced: Generating Rules using Call
 
-*crwdns846318:0crwdne846318:0*
+*This section continues the tutorial above and demonstrates a feature of Make for automatic generation of rules.*
 
-crwdns846320:0crwdne846320:0 crwdns846322:0crwdne846322:0 crwdns846324:0crwdne846324:0
+In a data science pipeline, it may be quite common to apply multiple scripts to the same data (for instance when you're comparing methods or testing different parameters). In that case, it can become tedious to write a separate rule for each script when only the script name changes. To simplify this process, we can let Make expand a so-called [*canned* recipe](https://www.gnu.org/software/make/manual/make.html#Canned-Recipes).
 
-crwdns846326:0crwdne846326:0
+To follow along, switch to the `canned` branch:
 
 ```bash
-crwdns846328:0crwdne846328:0
+$ make clean
+$ git stash --all        # note the '--all' flag so we also stash the Makefile
+$ git checkout canned
 ```
 
-crwdns846330:0crwdne846330:0 crwdns846332:0%Ecrwdnd846332:0%80crwdnd846332:0%93crwdne846332:0 crwdns846334:0crwdne846334:0
+On this branch you'll notice that there is a new script in the **scripts** directory called `generate_qqplot.py`. This script works similarly to the `generate_histogram.py` script (it has the same command line syntax), but it generates a [QQ-plot](https://en.wikipedia.org/wiki/Q%E2%80%93Q_plot). The **report.tex** file has also been updated to incorporate these plots.
 
-crwdns846336:0crwdne846336:0 crwdns846338:0crwdne846338:0
+After switching to the `canned` branch there will be a Makefile in the repository that contains a separate rule for generating the QQ-plots. This Makefile looks like this:
 
 ```makefile
-crwdns846340:0$(ALL_CSV)crwdnd846340:0$(DATA)crwdnd846340:0$(DATA)crwdnd846340:0$(HISTOGRAMS)crwdnd846340:0$(QQPLOTS)crwdnd846340:0$(FIGURES)crwdnd846340:0$(HISTOGRAMS)crwdnd846340:0$(QQPLOTS)crwdne846340:0
+# Makefile for analysis report
+#
+
+ALL_CSV = $(wildcard data/*.csv)
+DATA = $(filter-out $(wildcard data/input_file_*.csv),$(ALL_CSV))
+HISTOGRAMS = $(patsubst data/%.csv,output/figure_%.png,$(DATA))
+QQPLOTS = $(patsubst data/%.csv,output/qqplot_%.png,$(DATA))
+
+.PHONY: all clean
+
+all: output/report.pdf
+
+$(HISTOGRAMS): output/histogram_%.png: data/%.csv scripts/generate_histogram.py
+    python scripts/generate_histogram.py -i $< -o $@
+
+$(QQPLOTS): output/qqplot_%.png: data/%.csv scripts/generate_qqplot.py
+    python scripts/generate_qqplot.py -i $< -o $@
+
+output/report.pdf: report/report.tex $(FIGURES)
+    cd report/ && pdflatex report.tex && mv report.pdf ../$@
+
+clean:
+    rm -f output/report.pdf
+    rm -f $(HISTOGRAMS) $(QQPLOTS)
 ```
 
-crwdns846342:0crwdne846342:0
+You'll notice that the rules for histograms and QQ-plots are very similar.
 
-crwdns846344:0crwdne846344:0 crwdns846346:0crwdne846346:0
+As the number of scripts that you want to run on your data grows, this may lead to a large number of rules in the Makefile that are almost exactly the same. We can simplify this by creating a [*canned recipe*](https://www.gnu.org/software/make/manual/html_node/Canned-Recipes.html) that takes both the name of the script and the name of the genre as input:
 
 ```makefile
-crwdns846348:0$(1)crwdnd846348:0$(2)crwdnd846348:0$(2)crwdnd846348:0$(1)crwdnd846348:0$(1)crwdne846348:0
+define run-script-on-data
+output/$(1)_$(2).png: data/$(2).csv scripts/generate_$(1).py
+    python scripts/generate_$(1).py -i $$< -o $$@
+endef
 ```
 
-crwdns846350:0$(1)crwdnd846350:0$(2)crwdne846350:0 crwdns846352:0crwdne846352:0 crwdns846354:0crwdne846354:0 crwdns846356:0crwdne846356:0  crwdns846358:0crwdne846358:0
+Note that in this recipe we use `$(1)` for either `histogram` or `qqplot` and `$(2)` for the genre. These correspond to the expected function arguments to the `run-script-on-data` canned recipe. Also, notice that we use `$$<` and `$$@` in the actual recipe, with two `$` symbols for escaping. To actually create all the targets, we need a line that calls this canned recipe.  In our case, we use a double for loop over the genres and the scripts:
 
 ```makefile
-crwdns846360:0$(GENRES)crwdnd846360:0$(SCRIPTS)crwdnd846360:0$(script)crwdnd846360:0$(genre)crwdne846360:0
+$(foreach genre,$(GENRES),\
+    $(foreach script,$(SCRIPTS),\
+        $(eval $(call run-script-on-data,$(script),$(genre))) \
+    ) \
+)
 ```
 
-crwdns846362:0crwdne846362:0
+In these lines the `\` character is used for continuing long lines.
 
-crwdns846364:0crwdne846364:0
+The full Makefile then becomes:
 
 ```makefile
-crwdns846366:0$(ALL_CSV)crwdnd846366:0$(GENRES)crwdnd846366:0$(GENRES)crwdnd846366:0$(DATA)crwdnd846366:0$(1)crwdnd846366:0$(2)crwdnd846366:0$(2)crwdnd846366:0$(1)crwdnd846366:0$(1)crwdnd846366:0$(GENRES)crwdnd846366:0$(SCRIPTS)crwdnd846366:0$(script)crwdnd846366:0$(genre)crwdnd846366:0$(HISTOGRAMS)crwdnd846366:0$(QQPLOTS)crwdnd846366:0$(HISTOGRAMS)crwdnd846366:0$(QQPLOTS)crwdne846366:0
+# Makefile for analysis report
+#
+
+ALL_CSV = $(wildcard data/*.csv)
+DATA = $(filter-out $(wildcard data/input_file_*.csv),$(ALL_CSV))
+HISTOGRAMS = $(patsubst %,output/histogram_%.png,$(GENRES))
+QQPLOTS = $(patsubst %,output/qqplot_%.png,$(GENRES))
+
+GENRES = $(patsubst data/%.csv,%,$(DATA))
+SCRIPTS = histogram qqplot
+
+.PHONY: all clean
+
+all: output/report.pdf
+
+define run-script-on-data
+output/$(1)_$(2).png: data/$(2).csv scripts/generate_$(1).py
+    python scripts/generate_$(1).py -i $$< -o $$@
+endef
+
+$(foreach genre,$(GENRES),\
+    $(foreach script,$(SCRIPTS),\
+        $(eval $(call run-script-on-data,$(script),$(genre)))\
+    )\
+)
+
+output/report.pdf: report/report.tex $(HISTOGRAMS) $(QQPLOTS)
+    cd report/ && pdflatex report.tex && mv report.pdf ../$@
+
+clean:
+    rm -f output/report.pdf
+    rm -f $(HISTOGRAMS) $(QQPLOTS)
 ```
 
-crwdns846368:0crwdne846368:0 crwdns846370:0crwdne846370:0
+Note that we've added a `SCRIPTS` variable with the `histogram` and `qqplot` names. If we were to add another script that follows the same pattern as these two, we would only need to add it to the `SCRIPTS` variable.
 
-crwdns846372:0crwdne846372:0
+To build all of this, run
 
 ```bash
-crwdns846374:0crwdne846374:0
+$ make -j 4
 ```

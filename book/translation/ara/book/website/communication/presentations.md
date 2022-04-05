@@ -1,18 +1,18 @@
-crwdns833024:0crwdne833024:0
-# crwdns833026:0crwdne833026:0
+(cm-presentations)=
+# Presenting Posters and Conference Talks
 
-crwdns833028:0crwdne833028:0
+Much like writing lay summaries and blogs, presentation of your work at conferences that are not within your immediate research environment need to be carefully thought through.
 
-crwdns833030:0crwdne833030:0
+The same principles apply here: know your audience, adapt your style and generally make your writing/talk less technical in terms of the language.
 
-crwdns833032:0crwdne833032:0
-* crwdns833034:0crwdne833034:0
-* crwdns833036:0crwdne833036:0
-* crwdns833038:0crwdne833038:0 crwdns833040:0crwdne833040:0
-* crwdns833042:0crwdne833042:0
-* crwdns833044:0crwdne833044:0
+In addition to these points, to increase the accessibility and findability of your presentations it is a good idea to:
+* During the talk, use captions to aid accessibility.
+* Record the talk and add this link to the presentation when shared.
+* Add talk notes to the presentation (this can be done in a PowerPoint file) or have them in a separate file to be shared. You could also write a blog post based on your talk.
+* Use academic social media, such as ORCID, ResearchGate or Academia, to help disseminate your work further.
+* Share the conference slides on social media with a persistent identifier (discussed below).
 
-crwdns833046:0crwdne833046:0
-## crwdns833048:0crwdne833048:0
+(cm-presentations-sharing)=
+## Sharing your Presentations
 
-crwdns833050:0crwdne833050:0 crwdns833052:0crwdne833052:0 crwdns833054:0{ref}crwdne833054:0 crwdns833056:0crwdne833056:0 crwdns833058:0{ref}crwdne833058:0
+There are many ways you can make your poster and slides for your talks publicly available, such as by sharing the respective files in accessible formats (such as pdf, image file, PowerPoint slides, Markdown format). These files can be shared via an online repository (like [GitHub](https://github.com/) or [Bitbucket](https://bitbucket.org/)), a shared drive with a shareable link (like Dropbox and Google Drive) or the platform put in place by the event where you present your work. It is advisable to share your file under a license of your choice so that others know how to reuse your work (see {ref}`rr-licensing`). Furthermore, you can get a digital object identifier or DOI by uploading your presentation files to a server of your choice (like [Zenodo](https://zenodo.org/) and [FigShare](https://figshare.com/)). See the chapter on {ref}`DOI<cm-citable-steps-doi>` for details.

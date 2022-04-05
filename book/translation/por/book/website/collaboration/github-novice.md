@@ -1,21 +1,21 @@
 (cl-github-novice)=
-# Começando com GitHub
+# Getting Started With GitHub
 
-## Pré-requisitos
+## Prerequisites
 
-| Pré-requisito                   | Importância | Observações                                         |
-| ------------------------------- | ----------- | --------------------------------------------------- |
-| {ref}`rr-open`                  | Útil        | Componentes fazem parte do fluxo de trabalho aberto |
-| Nível de habilidade recomendado | Iniciante   | Para ajudar um iniciante completo                   |
+| Prerequisite            | Importance | Notes                                    |
+| ----------------------- | ---------- | ---------------------------------------- |
+| {ref}`rr-open`          | Helpful    | Components are part of the open workflow |
+| Recommended skill level | Beginner   | To help a complete beginner              |
 
 ## Summary
 
-Este capítulo apresenta um guia passo a passo para usar uma interface web online chamada GitHub. Essa plataforma é popular entre os pesquisadores para armazenar e compartilhar seus códigos, pequenos dados e informações relacionadas. No entanto, evoluiu para uma plataforma colaborativa para desenvolver documentos e comunicá-los aberta e transparentemente.
+This chapter introduces a step-by-step guide for using an online web interface called GitHub. This platform is popular among researchers to store and share their code, small data and related information. However, it has evolved into a collaborative platform for developing documents and communicating them openly and transparently.
 
-Muitas das novas ferramentas desenvolvidas para pesquisas reprodutíveis podem parecer assustadoras para pesquisadores que têm pouca ou nenhuma experiência com ferramentas computacionais. No entanto, se pesquisadores tiverem usado ferramentas on-line como Google workspace e Microsoft Office, com uma pequena quantidade de instruções que eles devem ser capazes de aprender a usar a plataforma online do GitHub com bastante facilidade.
+Many of the new tools developed for reproducible research can seem daunting to researchers who have little or no experience with computational tools. However, if researchers have used online tools such as Google workspace and Microsoft Office, with a small amount of instruction they should be able to learn to use GitHub online platform fairly easily.
 
-Neste capítulo, descrevemos a motivação {ref}`de usar o GitHub<cl-github-novice-motivation>`, explicar o {ref}`primeiros passos importantes<cl-github-novice-firststeps>`, discuta alguns {ref}`recursos úteis<cl-github-novice-features>` e lista recursos para aprender {ref}`recursos avançados do GitHub<cl-github-novice-advanced>`.
+In this chapter, we describe the {ref}`motivation of using GitHub<cl-github-novice-motivation>`, explain the {ref}`important first steps<cl-github-novice-firststeps>`, discuss some {ref}`useful features<cl-github-novice-features>` and list resources to learn {ref}`advanced GitHub features<cl-github-novice-advanced>`.
 
-As lições aprendidas neste capítulo permitirão que os pesquisadores trabalhem de forma aberta, colaborativa e com o controle de versão.
+Lessons learned in this chapter will enable researchers to work openly, collaboratively and with version control.
 
-***Tags de Capítulo**: Este capítulo é curado pelo `Grupo de Estudo de Dados de Turing` (`turing-dsg`).*
+***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*

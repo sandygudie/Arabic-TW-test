@@ -1,359 +1,358 @@
 (rr-make-examples-learnmake)=
-# Aprenda "Fazer" por Exemplos
+# Learn "Make" by Examples
 
-(rr-make-exemplos-makefiles)=
-## Mapeamentos
+(rr-make-examples-makefiles)=
+## Makefiles
 
-Uma das coisas que pode desencorajar alguém de usar Make é que os Makefiles existentes podem parecer bem complexos, e pode parecer difícil adequar uma para suas próprias necessidades. Neste tutorial prático vamos criar um Makefile do zero para um projeto de análise de dados real. A ideia é explicar diferentes características do Make por meio de iteração em várias versões de um Makefile para este projeto. Esperamos que a experiência que você ganha com este tutorial permita que você crie Makefiles para seus próprios projetos.
+One of the things that might discourage someone from using Make is that existing Makefiles can look quite complex, and it might seem difficult to tailor one to your own needs. In this hands-on tutorial we will create a Makefile from scratch for a real data analysis project. The idea is to explain different features of Make by iterating through several versions of a Makefile for this project. Hopefully the experience that you gain from this tutorial allows you to create Makefiles for your own projects.
 
-Nós criaremos um `Makefile` para um pipeline de análise de dados. The task is as follows:
+We will create a `Makefile` for a data analysis pipeline. The task is as follows:
 
-> **Tarefa: Alguns conjuntos de dados, crie um relatório resumido (em pdf) que contenha os histogramas destes conjuntos de dados.**
+> **Task: Given some datasets, create a summary report (in pdf) that contains the histograms of these datasets.**
 
-(Claro que esta tarefa de dados é muito simples de se concentrar em como usar o Make.)
+(Of course this data task is very simple to focus on how to use Make.)
 
-*Através dos blocos de código do tutorial que começam com um sinal de dólar (`$`) são destinados a ser digitado no terminal.*
+*Throughout the tutorial code blocks that start with a dollar sign (`$`) are intended to be typed in the terminal.*
 
 (rr-make-examples-settingup)=
-### Configurando acima
+### Setting up
 
-Criamos um repositório básico para esta tarefa, que já contém tudo o que precisamos (*exceto o Makefile of course !*). Para começar, clone o repositório base usando o git:
+We have created a basic repository for this task, that already contains everything that we need (*except the Makefile of course!*). To start, clone the base repository using git:
 
 ```bash
 $ git clone https://github.com/alan-turing-institute/IntroToMake
 ```
 
-Este repositório básico contém todo o código que vamos precisar neste tutorial, e deve ter esse conteúdo:
+This basic repository contains all the code that we'll need in this tutorial, and should have this content:
 
 ```text
 .
-. ── dados /
-─── input_file_1.csv
-── input_file_2.csv
-── LICENSE
-── output /
-── LEIA-README. d
-── relatório/
-── relatório.tex
-─ scripts/
-    ── generate_histogram.py
+├── data/
+│   ├── input_file_1.csv
+│   └── input_file_2.csv
+├── LICENSE
+├── output/
+├── README.md
+├── report/
+│   └── report.tex
+└── scripts/
+    └── generate_histogram.py
 ```
 
-- **dados**: diretório com dois conjuntos de dados que vamos analisar
-- **reportar**: o diretório de entrada para o relatório
-- **scripts**: diretório para o script de análise
-- **Saída**: diretório de saída para as figuras e o relatório
+- **data**: directory with two datasets that we're going to analyse
+- **report**: the input directory for the report
+- **scripts**: directory for the analysis script
+- **output**: output directory for the figures and the report
 
-Você notará que existem dois datasets no diretório **** de dados (`input_file_1.csv` e `input_file_2. sv`) e que já existe um script básico de Python em scripts **** e um relatório básico de um arquivo LaTeX em **relatório**.
+You'll notice that there are two datasets in the **data** directory (`input_file_1.csv` and `input_file_2.csv`) and that there is already a basic Python script in **scripts** and a basic report LaTeX file in **report**.
 
-Se você quiser seguir junto, certifique-se de que você tem os `pacotes matplotlib` e `numpy` instalados:
+If you want to follow along, ensure that you have the `matplotlib` and `numpy` packages installed:
 
 ```bash
 $ pip install matplotlib numpy
 ```
 
-Você também precisará de uma versão funcional do `pdflatex` e, é claro, `fazer`.
+You will also need a working version of `pdflatex` and, of course, `make`.
 
-Para instruções de instalação do Make, consulte {ref}`rr-make-appendix-install`.
+For installation instructions for Make, see {ref}`rr-make-appendix-installing`.
 
 (rr-make-examples-makefile1)=
-### Makefile no. 1 (O Básico)
+### Makefile no. 1 (The Basics)
 
-Vamos criar nosso primeiro Makefile. No terminal, vá para o `IntroToMake` repositório que você acabou de clonar:
+Let's create our first Makefile. In the terminal, move into the `IntroToMake` repository that you just cloned:
 
 ```bash
 $ cd IntroToMake
 ```
 
-Usando o seu editor favorito, crie um arquivo chamado `Makefile` com o seguinte conteúdo:
+Using your favourite editor, create a file called `Makefile` with the following contents:
 
 ```makefile
-# Makefile for analysis relatório
+# Makefile for analysis report
 
-output/figure_1.png: data/input_file_file_1.csv scripts/generate_histogram.py
+output/figure_1.png: data/input_file_1.csv scripts/generate_histogram.py
     python scripts/generate_histogram.py -i data/input_file_1.csv -o output/figure_1.png
 
-output/figure_2.png: data/input_file_2.csv scripts/generate_histogram. y
+output/figure_2.png: data/input_file_2.csv scripts/generate_histogram.py
     python scripts/generate_histogram.py -i data/input_file_2.csv -o output/figure_2.png
 
-output/report.pdf: relatório/relatório. ex saída/figurre_1.png de saída/figura_png
-    cd relatório/ && pdflatex report.tex && mv report.pdf ../output/report.pdf
+output/report.pdf: report/report.tex output/figure_1.png output/figure_2.png
+    cd report/ && pdflatex report.tex && mv report.pdf ../output/report.pdf
 ```
-O recuo em cada uma das receitas são ***abas***, Makefiles não aceitam recuo com espaços.
+The indentation in each of the recipes are ***tabs***, Makefiles do not accept indentation with spaces.
 
-Agora você deve ser capaz de digitar:
+You should now be able to type:
 
 ```bash
-$ faz saída/report.pdf
+$ make output/report.pdf
 ```
 
-Se tudo funcionou corretamente, as duas figuras serão criadas e o relatório pdf será construído.
+If everything worked correctly, the two figures will be created and pdf report will be built.
 
-Vamos passar pelo Makefile em um pouco mais detalhes. Temos três regras, duas para as figuras e uma para o relatório. Vamos analisar a regra para `saída/figurre_1.png` primeiro. Esta regra tem o destino `output/figure_1.png` que tem dois pré-requisitos: `data/input_file_1.csv` e `scripts/generate_histogram.py`. Ao dar ao arquivo de saída, estes pré-requisitos serão atualizados se algum desses arquivos mudar. Este é um das razões pelas quais fazer foi criado: atualizar os arquivos de saída quando os arquivos de origem forem alterados.
+Let's go through the Makefile in a bit more detail. We have three rules, two for the figures and one for the report. Let's look at the rule for `output/figure_1.png` first. This rule has the target `output/figure_1.png` that has two prerequisites: `data/input_file_1.csv` and `scripts/generate_histogram.py`. By giving the output file these prerequisites it will be updated if either of these files changes. This is one of the reasons why Make was created: to update output files when source files change.
 
-Você notará que a linha de receita chama Python com o nome do script e usa flags de linha de comando (`-i` e `-o`) para marcar a entrada e a saída do script. Este não é um requisito para o uso do Maware, mas faz com que seja fácil ver qual arquivo é uma entrada para o script e qual é uma saída.
+You'll notice that the recipe line calls Python with the script name and uses command line flags (`-i` and `-o`) to mark the input and output of the script. This isn't a requirement for using Make, but it makes it easy to see which file is an input to the script and which is an output.
 
-A regra para o relatório PDF é muito semelhante, mas tem três pré-requisitos (a fonte LaTeX e ambas as figuras). Observe que a receita altera o diretório de trabalho antes de chamar LaTeX e também move o PDF gerado para o diretório de saída . Estamos fazendo isso para manter os arquivos intermediários LaTeX no diretório de relatórios . No entanto, é importante distinguir a regra acima de o seguinte:
+The rule for the PDF report is very similar, but it has three prerequisites (the LaTeX source and both figures). Notice that the recipe changes the working directory before calling LaTeX and also moves the generated PDF to the output directory. We're doing this to keep the LaTeX intermediate files in the report directory. However, it's important to distinguish the above rule from the following:
 
 ```makefile
-# não faça este
-output/report.pdf: report/report.tex output/figure_1.png de saída/figure_2.png
-    cd relatório/
-    pdflatex relatório.tex
+# don't do this
+output/report.pdf: report/report.tex output/figure_1.png output/figure_2.png
+    cd report/
+    pdflatex report.tex
     mv report.pdf ../output/report.pdf
 ```
 
-Essa regra coloca os três comandos em linhas separadas. No entanto, **Faça executar cada linha independentemente** em um subshell separado, então mudar o diretório de trabalho na primeira linha não tem efeito sobre a segunda, e uma falha na segunda linha não impedirá a terceira linha de ser executada. Portanto, combinamos os três comandos em uma única receita acima.
+This rule places the three commands on separate lines. However, **Make executes each line independently** in a separate subshell, so changing the working directory in the first line has no effect on the second, and a failure in the second line won't stop the third line from being executed. Therefore, we combine the three commands in a single recipe above.
 
-Isso é como a árvore de dependências se parece para este Makefile:
+This is what the dependency tree looks like for this Makefile:
 
-![DAG para Makefile no. 1](../../figures/makefile-no1.png) <small style="margin: 5pt auto; text-align: center; display: block;">O gráfico de dependências para nosso primeiro Makefile, criado usando [makefile2graph](https://github.com/lindenb/makefile2graph). Observe a semelhança da figura {ref}`na introdução<rr-make-summary>`!</small>
+![DAG for Makefile no. 1](../../figures/makefile-no1.png) <small style="margin: 5pt auto; text-align: center; display: block;">The dependency graph for our first Makefile, created using [makefile2graph](https://github.com/lindenb/makefile2graph). Notice the similarity to the figure {ref}`in the introduction<rr-make-summary>`!</small>
 
 (rr-make-examples-makefile2)=
-### Makefile no. 2 (tudo e limpo)
+### Makefile no. 2 (all and clean)
 
-No nosso primeiro Makefile temos as regras básicas em vigor. Nós poderíamos nos manter com isto se quiséssemos, mas há algumas melhorias que podemos fazer:
+In our first Makefile we have the basic rules in place. We could stick with this if we wanted to, but there are a few improvements we can make:
 
-1. Agora temos que chamar explicitamente `fazer output/report.pdf` se quisermos fazer o relatório.
+1. We now have to explicitly call `make output/report.pdf` if we want to make the report.
 
-2. Não temos como limpar e começar do zero.
+2. We have no way to clean up and start fresh.
 
-Vamos remediar isso adicionando dois novos alvos: `todos` e `limpos`. No seu editor de , altere o conteúdo do Makefile para adicionar as `todas as` e `regras` limpas das seguintes formas:
+Let's remedy this by adding two new targets: `all` and `clean`. In your editor, change the Makefile contents to add the `all` and `clean` rules as follows:
 
 ```makefile
-# Makefile for analysis relatório
+# Makefile for analysis report
 
 all: output/report.pdf
 
 output/figure_1.png: data/input_file_1.csv scripts/generate_histogram.py
-    python scripts/generate_histogram. y -i data/input_file_1.csv -o output/figure_1.png
+    python scripts/generate_histogram.py -i data/input_file_1.csv -o output/figure_1.png
 
-output/figure_2.png: data/input_file_file_2.csv scripts/generate_histogram.py
-    scripts/generate_histograma python. y -i data/input_file_2.csv -o output/figure_2.png
+output/figure_2.png: data/input_file_2.csv scripts/generate_histogram.py
+    python scripts/generate_histogram.py -i data/input_file_2.csv -o output/figure_2.png
 
 output/report.pdf: report/report.tex output/figure_1.png output/figure_2.png
-    cd relatório/ && pdflatex relatório. ex && mv report.pdf ../output/report. df
+    cd report/ && pdflatex report.tex && mv report.pdf ../output/report.pdf
 
 clean:
     rm -f output/report.pdf
     rm -f output/figure_*.png
 ```
 
-Note que nós adicionamos `todos` alvo ao topo do arquivo. Fazemos isso porque fazer executar o *primeiro* alvo quando não for dado nenhum alvo explícito.  Então você pode agora digitar `fazer` na linha de comando e faria o mesmo que `faça todo`.  Além disso, note que só adicionamos o relatório como o pré-requisito de `todos` porque essa é a nossa saída desejada e as outras regras ajudam a construir essa saída. Se você tem várias saídas, você pode adicionar como outros pré-requisitos para o alvo `todos`. Chamando o alvo principal `todos` é uma convenção de Makefiles que muitas pessoas seguem.
+Note that we've added the `all` target to the top of the file. We do this because Make executes the *first* target when no explicit target is given.  So you can now type `make` on the command line and it would do the same as `make all`.  Also, note that we've only added the report as the prerequisite of `all` because that's our desired output and the other rules help to build that output. If you have multiple outputs, you could add these as further prerequisites to the `all` target. Calling the main target `all` is a convention of Makefiles that many people follow.
 
-A regra `clean` está normalmente na parte inferior, mas isso é mais estilo que requisito. Note que usamos o sinalizador `-f` para `rm` para garantir que não reclame quando não há nenhum arquivo para remover.
+The `clean` rule is typically at the bottom, but that's more style than requirement. Note that we use the `-f` flag to `rm` to make sure it doesn't complain when there is no file to remove.
 
-Você pode experimentar o novo Makefile executando:
+You can try out the new Makefile by running:
 
 ```bash
-$ faz com que seja limpo
-$
+$ make clean
+$ make
 ```
 
-Faça com que os arquivos de saída e intermediários sejam removidos após o primeiro comando, e gerá-los novamente após o segundo.
+Make should remove the output and intermediate files after the first command, and generate them again after the second.
 
 (rr-make-examples-makefile3)=
-### Makefile no. 3 (Alvos do Solo)
+### Makefile no. 3 (Phony Targets)
 
-Normalmente, `todas as` e `limpos` são definidas como chamadas [Telefones Alvos](https://www.gnu.org/software/make/manual/make.html#Phony-Targets). Estes são alvos que não criam um arquivo de saída. Se não estiver marcado como `. APENAS` esses alvos seriam sempre executados se eles surgirem em uma dependência, mas não será mais executado se um diretório/arquivo for criado que se chama `todos` ou `limpo`. Nós adicionamos, portanto, uma linha no topo do Makefile para definir esses dois como destinos de phony :
+Typically, `all` and `clean` are defined as so-called [Phony Targets](https://www.gnu.org/software/make/manual/make.html#Phony-Targets). These are targets that don't actually create an output file. If not marked as `.PHONY` these targets would always be run if they come up in a dependency, but will no longer be run if a directory/file is ever created that is called `all` or `clean`. We therefore add a line at the top of the Makefile to define these two as phony targets:
 
 ```makefile
-# Makefile for analysis relatório
+# Makefile for analysis report
 
-.PHONY: tudo limpo
+.PHONY: all clean
 
-todos: output/report.pdf
+all: output/report.pdf
 
 output/figure_1.png: data/input_file_1.csv scripts/generate_histogram.py
-    python scripts/generate_histogram. y -i data/input_file_1.csv -o output/figure_1.png
+    python scripts/generate_histogram.py -i data/input_file_1.csv -o output/figure_1.png
 
-output/figure_2.png: data/input_file_file_2.csv scripts/generate_histogram.py
-    scripts/generate_histograma python. y -i data/input_file_2.csv -o output/figure_2.png
+output/figure_2.png: data/input_file_2.csv scripts/generate_histogram.py
+    python scripts/generate_histogram.py -i data/input_file_2.csv -o output/figure_2.png
 
 output/report.pdf: report/report.tex output/figure_1.png output/figure_2.png
-    cd report/ && pdflatex relatório. ex && mv relatório.pdf ../output/report. df
+    cd report/ && pdflatex report.tex && mv report.pdf ../output/report.pdf
 
 clean:
     rm -f output/report.pdf
     rm -f output/figure_*.png
 ```
 
-Alvos de telefone também são úteis quando você deseja usar Fazer recursivamente. Nesse caso você especificaria os subdiretórios como alvos phony. Você pode ler mais sobre [destinos de phony na documentação](https://www.gnu.org/software/make/manual/make.html#Phony-Targets), mas por enquanto é suficiente para saber que `todos os` e `limpos` são tipicamente declarados como phony.
+Phony targets are also useful when you want to use Make recursively. In that case you would specify the subdirectories as phony targets. You can read more about [phony targets in the documentation](https://www.gnu.org/software/make/manual/make.html#Phony-Targets), but for now it's enough to know that `all` and `clean` are typically declared as phony.
 
-> ministro: outro alvo que normalmente a telefonia é **test**, no caso de você ter um diretório de testes chamado **test** e quer ter um destino para executá-los que também é chamado **teste**.
+> Sidenote: another target that's typically phony is **test**, in case you have a directory of tests called **test** and want to have a target to run them that's also called **test**.
 
 (rr-make-examples-makefile4)=
-### Makefile no. 4 (Automatic Translation) e Regras de Padrão)
+### Makefile no. 4 (Automatic Variables and Pattern Rules)
 
-Não há nada de errado com o Makefile que temos agora, mas isso é um pouco detalhado porque declaramos todos os alvos usando regras separadas. Podemos simplificar isso usando [Automatic Variáveis](https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html) e [padrão Regras](https://www.gnu.org/software/make/manual/html_node/Pattern-Rules.html#Pattern-Rules).
+There's nothing wrong with the Makefile we have now, but it's somewhat verbose because we've declared all the targets explicitly using separate rules. We can simplify this by using [Automatic Variables](https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html) and [Pattern Rules](https://www.gnu.org/software/make/manual/html_node/Pattern-Rules.html#Pattern-Rules).
 
 (rr-make-examples-automaticvar)=
-#### Variáveis automáticas.
+#### Automatic Variables.
 
-Com variáveis automáticas, podemos usar os nomes dos pré-requisitos e objetivos na receita. Veja como nós faríamos isso para as regras da figura :
+With automatic variables we can use the names of the prerequisites and targets in the recipe. Here's how we would do that for the figure rules:
 
 ```makefile
-# Makefile para relatório de análise
+# Makefile for analysis report
 
-.PHONY: tudo limpo
+.PHONY: all clean
 
-todos: output/report.pdf
+all: output/report.pdf
 
-output/figure_1.png: data/input_file_1.csv scripts/generate_histogram. y
+output/figure_1.png: data/input_file_1.csv scripts/generate_histogram.py
     python scripts/generate_histogram.py -i $< -o $@
 
 output/figure_2.png: data/input_file_2.csv scripts/generate_histogram.py
-    python scripts/generate_histogram. y -i $< -o $@
+    python scripts/generate_histogram.py -i $< -o $@
 
-output/report.pdf: report/report.tex output/figure_1. ng relatório de saída/figurre_2.png
-    cd relatório/ && pdflatex. ex && mv relatório.pdf ../output/report. df
+output/report.pdf: report/report.tex output/figure_1.png output/figure_2.png
+    cd report/ && pdflatex report.tex && mv report.pdf ../output/report.pdf
 
 clean:
     rm -f output/report.pdf
     rm -f output/figure_*.png
 ```
 
-Substituímos os nomes de entrada e arquivo de saída nas receitas respectivamente por `$<`, que indica o *primeiro* pré-requisito e `$@` que indica o alvo **. Você pode se lembrar de `$<` porque é como uma seta que aponta para o início (*primeiro* pré-requisito), e você pode se lembrar de `$@` (dólar *a*) [como o alvo que você está mirando *a*](https://jameshfisher.com/2016/12/07/makefile-automatic-variables/).
+We've replaced the input and output filenames in the recipes respectively by `$<`, which denotes the *first* prerequisite and `$@` which denotes the *target*. You can remember `$<` because it's like an arrow that points to the beginning (*first* prerequisite), and you can remember `$@` (dollar *at*) [as the target you're aiming *at*](https://jameshfisher.com/2016/12/07/makefile-automatic-variables/).
 
-Existem mais variáveis automáticas que você poderia usar, consulte [a documentação](https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html).
+There are more automatic variables that you could use, see [the documentation](https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html).
 
 (rr-make-examples-patternrules)=
-#### Regras de padrão
+#### Pattern Rules
 
-Observe que as receitas para as figuras se tornaram idênticas!  Como não gostamos de nos repetir, podemos combinar as duas regras em uma única regra usando as *regras de padrão*. As regras padrão permitem que você use o símbolo `%` como um caractere curinga e combine as duas regras em uma só:
+Notice that the recipes for the figures have become identical!  Because we don't like to repeat ourselves, we can combine the two rules into a single rule by using *pattern rules*. Pattern rules allow you to use the `%` symbol as a wildcard and combine the two rules into one:
 
 ```makefile
-# Makefile para o relatório de análise
+# Makefile for analysis report
 
-.PHONY: tudo limpo
+.PHONY: all clean
 
-todos: output/report.pdf
+all: output/report.pdf
 
-output/figure_%.png: data/input_file_%. scripts/generate_histogram.py
-    scripts/generate_histogram.py -i $< -o $@
+output/figure_%.png: data/input_file_%.csv scripts/generate_histogram.py
+    python scripts/generate_histogram.py -i $< -o $@
 
-output/report. df: relatório / report/report.tex output/figure_1.png de saída/figura_2.png
-    cd relatório/ && pdflatex relatório.tex && mv relatório df ../output/report.pdf
+output/report.pdf: report/report.tex output/figure_1.png output/figure_2.png
+    cd report/ && pdflatex report.tex && mv report.pdf ../output/report.pdf
 
 clean:
     rm -f output/report.pdf
     rm -f output/figure_*.png
 ```
 
-O símbolo `%` agora é um caractere curinga que (no nosso caso) recebe o valor `1` ou `2` baseado nos arquivos de entrada na `pasta`. Você pode verificar que tudo ainda funciona executando `faça clean` seguido por `fazer`.
+The `%` symbol is now a wildcard that (in our case) takes the value `1` or `2` based on the input files in the `data` directory. You can check that everything still works by running `make clean` followed by `make`.
 
-Uma vantagem disso é que, se você agora quer adicionar outro conjunto de dados, diga `input_file_3`, então você só precisa adicionar isso à regra para o relatório !
+An advantage of this is that if you now want to add another dataset, say `input_file_3`, then you would only need to add that to the rule for the report!
 
 (rr-make-examples-makefile5)=
-### Makefile no. 5 (Curinga e substituição de trajetórias)
+### Makefile no. 5 (Wildcards and Path Substitution)
 
-Quando Makefiles ficam mais complexos, você pode querer usar recursos mais avançados como construir saídas para todos os arquivos em um diretório de entrada. Enquanto as regras de padrão te derem um longo caminho, Também possui recursos para caracteres curingas e string ou manipulação de caminhos para quando as regras de padrão são insuficientes.
+When Makefiles get more complex, you may want to use more advanced features such as building outputs for all the files in an input directory. While pattern rules will get you a long way, Make also has features for wildcards and string or path manipulation for when pattern rules are insufficient.
 
-Anteriormente nossos arquivos de entrada estavam numerados, agora vamos mudar para um cenário onde eles têm nomes mais significativos. Vamos alternar para o branch `big_data` :
+While previously our input files were numbered, we'll now switch to a scenario where they have more meaningful names. Let's switch over to the `big_data` branch:
 
 ```bash
-$ git checkout big_data # checkout da branch big_data
+$ git checkout big_data         # checkout the big_data branch
 ```
 
-A estrutura de diretórios agora se parece com isso:
+The directory structure now looks like this:
 
 ```text
-── dados /
-─── action.csv
-── ...
+├── data/
+│   ├── action.csv
+│   ├── ...
 │   ├── input_file_1.csv
 │   ├── input_file_2.csv
 │   ├── ...
-├── western.csv
-── LICENSE
-── output /
-── README.md
-── report/
-── report-report-report.tex
-── scripts/
-    ── scripts/ 
- ── generate_histogram.py
+│   └── western.csv
+├── LICENSE
+├── output/
+├── README.md
+├── report/
+│   └── report.tex
+└── scripts/
+    └── generate_histogram.py
 ```
 
-Como você pode ver, o diretório **dados** agora contém arquivos de entrada adicionais que são nomeados de forma mais significativa (os dados são avaliações IMBD de filmes por gênero). Além disso, o arquivo **report.tex** foi atualizado para funcionar com os valores esperados .
+As you can see, the **data** directory now contains additional input files that are named more meaningfully (the data are IMBD movie ratings by genre). Also, the **report.tex** file has been updated to work with the expected figures.
 
-Vamos adaptar nosso Makefile para criar uma figura no diretório de saída chamada `histograma_{genre}. ng` para cada arquivo `{genre}.csv` excluindo o `input_file_{N}.csv`.
+We'll adapt our Makefile to create a figure in the output directory called `histogram_{genre}.png` for each `{genre}.csv` file, while excluding the `input_file_{N}.csv` files.
 
-> Politica: se removêssemos os arquivos `input_file_{N}.csv` , as regras padrão seriam suficientes aqui. This highlights that sometimes your directory structure and Makefile should be developed hand in hand.
+> Sidenote: if we were to remove the `input_file_{N}.csv` files, pattern rules would be sufficient here. This highlights that sometimes your directory structure and Makefile should be developed hand in hand.
 
-Antes de mudar o arquivo Makefile, execute
+Before changing the Makefile, run
 
 ```bash
-$ fazer limpeza
+$ make clean
 ```
-para remover os arquivos de saída.
+to remove the output files.
 
-Vamos mostrar primeiro o Makefile completo e depois descrever as diferentes linhas em mais detalhes. O arquivo completo é:
+We'll show the full Makefile first, and then describe the different lines in more detail. The complete file is:
 
 ```makefile
-# Makefile para o relatório de análise
+# Makefile for analysis report
 #
 
 ALL_CSV = $(wildcard data/*.csv)
-INPUT_CSV = $(wildcard data/input_file_*. sv)
-DADA = $(filter-out $(INPUT_CSV),$(ALL_CSV))
-FIGURES = $(patsubst data/%. sv,output/figure_%.png,$(DATA))
+INPUT_CSV = $(wildcard data/input_file_*.csv)
+DATA = $(filter-out $(INPUT_CSV),$(ALL_CSV))
+FIGURES = $(patsubst data/%.csv,output/figure_%.png,$(DATA))
 
-.PHONY: tudo limpo
+.PHONY: all clean
 
-toda: output/report.pdf
+all: output/report.pdf
 
-$(FIGURES): output/figure_%. ng: data/%.csv scripts/generate_histogram.py
-    scripts python generate_histogram.py -i $< -o $@
+$(FIGURES): output/figure_%.png: data/%.csv scripts/generate_histogram.py
+    python scripts/generate_histogram.py -i $< -o $@
 
-output/report.pdf: relatório/relatório. ex $(FIGURES)
-    relatório cd && pdflatex.tex && mv report. df ../$@
+output/report.pdf: report/report.tex $(FIGURES)
+    cd report/ && pdflatex report.tex && mv report.pdf ../$@
 
-limpo:
+clean:
     rm -f output/report.pdf
     rm -f $(FIGURES)
 ```
 
-Primeiramente, usamos a função `curinga` para criar uma variável que lista todos os arquivos CSV no diretório de dados e um que lista apenas o antigo{N}`input_file_ . arquivos sv`:
+First, we use the `wildcard` function to create a variable that lists all the CSV files in the data directory and one that lists only the old `input_file_{N}.csv` files:
 
 ```makefile
 ALL_CSV = $(wildcard data/*.csv)
 INPUT_CSV = $(wildcard data/input_file_*.csv)
 ```
 
-Uma convenção de código para Makefiles é usar todas as maiúsculas para nomes de variáveis e defini-los no topo do arquivo.
+A code convention for Makefiles is to use all capitals for variable names and define them at the top of the file.
 
-Em seguida, criamos uma variável para listar apenas os arquivos de dados em que estamos interessados filtrando o `INPUT_CSV` de `ALL_CSV`:
+Next, we create a variable to list only the data files that we're interested in by filtering out the `INPUT_CSV` from `ALL_CSV`:
 
 ```makefile
-DADOS = $(filter-out $(INPUT_CSV),$(ALL_CSV))
+DATA = $(filter-out $(INPUT_CSV),$(ALL_CSV))
 ```
 
-Essa linha utiliza a função [`filter-out`](https://www.gnu.org/software/make/manual/make.html#index-filter_002dout) para remover itens na variável `INPUT_CSV` da variável `ALL_CSV` .  Observe que usamos ambos a sintaxe `$( ... )` para funções e variáveis. Finalmente, usaremos a variável `DADOS` para criar uma variável `IGURES` com a saída desejada:
+This line uses the [`filter-out`](https://www.gnu.org/software/make/manual/make.html#index-filter_002dout) function to remove items in the `INPUT_CSV` variable from the `ALL_CSV` variable.  Note that we use both the `$( ... )` syntax for functions and variables. Finally, we'll use the `DATA` variable to create a `FIGURES` variable with the desired output:
 
 ```makefile
 FIGURES = $(patsubst data/%.csv,output/figure_%.png,$(DATA))
 ```
 
-Aqui nós usamos a função [`patst`](https://www.gnu.org/software/make/manual/make.html#index-patsubst-1) para transformar a variável de entrada na variável `DATA` (que segue o dado `/{genre}. sv` padrão) para os nomes de arquivo de saída desejados (usando o `padrão_{genre}.png` padrões). Observe que `%` de caracteres marca a parte do nome do arquivo que será o mesmo na entrada e na saída.
+Here we've used the [`patsubst`](https://www.gnu.org/software/make/manual/make.html#index-patsubst-1) function to transform the input in the `DATA` variable (that follows the `data/{genre}.csv` pattern) to the desired output filenames (using the `output/figure_{genre}.png` pattern). Notice that the `%` character marks the part of the filename that will be the same in both the input and output.
 
-Agora usamos essas variáveis para a regra de geração de figuras da seguinte forma:
+Now we use these variables for the figure generation rule as follows:
 
 ```makefile
 $(FIGURES): output/figure_%.png: data/%.csv scripts/generate_histogram.py
-    scripts/generate_histogram.py -i $< -o $@
+    python scripts/generate_histogram.py -i $< -o $@
 ```
 
-Esta regra aplica novamente um padrão: ela recebe uma lista de metas (`$(FIGURES)`) que todas seguem um determinado padrão (`output/figure_%. ng`) e com base nisso cria um pré-requisito (`data/%.csv`). Tal regra de padrão é ligeiramente diferente daquela que vimos antes, porque ela usa dois símbolos ``. It is called a [static pattern rule](https://www.gnu.org/software/make/manual/make.html#Static-Pattern).
+This rule again applies a pattern: it takes a list of targets (`$(FIGURES)`) that all follow a given pattern (`output/figure_%.png`) and based on that creates a prerequisite (`data/%.csv`). Such a pattern rule is slightly different from the one we saw before because it uses two `:` symbols. It is called a [static pattern rule](https://www.gnu.org/software/make/manual/make.html#Static-Pattern).
 
-É claro que temos que atualizar a regra `report.pdf` também:
+Of course we have to update the `report.pdf` rule as well:
 
 ```makefile
-output/report.pdf: relatório/report.tex $(FIGURES)
-    relatório cd / && pdflatex report.tex && mv report.pdf ../$@
+output/report.pdf: report/report.tex $(FIGURES)
+    cd report/ && pdflatex report.tex && mv report.pdf ../$@
 ```
 
-e a regra `clean`:
+and the `clean` rule:
 
 ```makefile
 clean:
@@ -361,15 +360,15 @@ clean:
     rm -f $(FIGURES)
 ```
 
-Se você executar este arquivo Makefile, ele precisará construir 28 números. Você pode querer usar a bandeira `-j` para `fazer` para construir essas metas **em paralelo!**
+If you run this Makefile, it will need to build 28 figures. You may want to use the `-j` flag to `make` to build these targets **in parallel!**
 
 ```bash
-$ faça -j 4
+$ make -j 4
 ```
 
-A capacidade de construir alvos em paralelo é bastante útil quando o seu projeto tem muitas dependências!
+The ability to build targets in parallel is quite useful when your project has many dependencies!
 
-O arquivo PDF resultante deve agora ficar assim:
+The resulting PDF file should now look like this:
 
-![Denunciar com todos os gêneros](../../figures/make-report-all-genres.png)<small
-style="margin: 5pt auto; text-align: center; display: block;">Uma visão compactada do relatório com histogramas para todos os gêneros.</small>
+![Report with all genres](../../figures/make-report-all-genres.png)<small
+style="margin: 5pt auto; text-align: center; display: block;">A compressed view of the report with histograms for all genres.</small>

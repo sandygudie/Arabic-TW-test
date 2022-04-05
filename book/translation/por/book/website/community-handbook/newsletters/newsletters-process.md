@@ -1,101 +1,101 @@
-# Processo de criação de um boletim informativo
+# Process of Creating a newsletter
 
-Este documento fornece uma visão geral do processo que usamos em _The Turing Way_ para desenhar, analisar e publicar boletins informativos. Embora escritas para _O jeito de viragem_, estas etapas podem ser adaptadas para documentar o boletim informativo de qualquer projeto.
+This document provides an overview of a process we use in _The Turing Way_ for drafting, reviewing and publishing newsletters. Though written for _The Turing way_, these steps can be adapted for documenting newsletter for any project.
 
-Sugerimos apenas usar essas recomendações como guias. Estas regras não devem ser consideradas como um conjunto de regras fixas ou a forma "única" de criar boletins informativos. Como autores individuais, você deve permitir que sua personalidade seja exibida nos seus rascunhos da newsletter. Afinal, esses boletins informativos caem na caixa de correio pessoal de alguém e provavelmente eles conhecem você (ou sua comunidade).
+We only suggest using these recommendations as guides. These should not be considered as a set of fixed rules or the "only" way one should create newsletters. As individual authors, you should allow your personality to show in your newsletter drafts. After all, these newsletters land in someone's personal mailbox and most likely they know you (or your community).
 
-## Passos para redigir _The Turing Way_ newsletters
+## Steps for drafting _The Turing Way_ newsletters
 
-### Criar uma issue no GitHub para coletar itens
+### Create a GitHub issue to collect items
 
-Crie uma nova issue no GitHub onde ao longo do mês você e outros membros da comunidade podem sugerir notícias como um comentário. Por exemplo, em [essa issue](https://github.com/alan-turing-institute/the-turing-way/issues/1037), vários membros poderiam sugerir notícias para incluir na próxima newsletter , neste caso para Junho de 2020. Tal GitHub podem ser publicadas na newsletter atual convidando contribuições de leitores e membros da comunidade para o próximo mês.
+Create a new GitHub issue where throughout the month you and other community members can suggest news items as a comment. For example, in [this issue](https://github.com/alan-turing-institute/the-turing-way/issues/1037), several members could suggest news items to include in the next newsletter, in this case for June 2020. Such GitHub issues can be published in the current newsletter inviting contributions from the readers and community members for the next month.
 
-### Começar um rascunho
+### Start a draft
 
-Há várias maneiras de iniciar um rascunho:
+There are several ways to start a draft:
 
-1. Crie um novo ramo de _The Turing Way_ [GitHub repositório](https://github.com/alan-turing-institute/the-turing-way/) dentro do diretório apropriado (explicado no próximo subcapítulo em {ref}`guia de estilo do boletim <ch-newsletters-style>`).
+1. Create a new branch of _The Turing Way_ [GitHub repository](https://github.com/alan-turing-institute/the-turing-way/) within the appropriate directory (explained in the next subchapter on {ref}`newsletter's style guide <ch-newsletters-style>`).
 
-Você pode trabalhar localmente ou online nesta branch do GitHub através de um pull request (PR). Se estiver trabalhando online, por favor, mantenha o modo rascunho ligado para seu PR ou adicione "\[WIP\](trabalho em andamento) no título.
+You can work on this GitHub branch locally or online through a pull request (PR). If working online, please keep the draft mode on for your PR or add "[WIP]" (work in progress) in the title.
 
-2. Crie o primeiro rascunho em um HackMD compartilhado ao trabalhar com outros para escrever seu rascunho de forma colaborativa antes de transferi-los em um ramo do GitHub.
+2. Create the first draft on a shared HackMD when working with others to collaboratively write your draft before you transfer them on a GitHub branch.
 
-Aqui está um exemplo de HackMD onde Malvika cria atualmente o primeiro rascunho: https://hackmd.io/@malvikasharan/tw-newsletter.
+Here is an example of HackMD where Malvika currently creates the first draft: https://hackmd.io/@malvikasharan/tw-newsletter.
 
-### Colete itens para a newsletter como pontos de balas
+### Collect items for the newsletter as bullet points
 
-Com base no que publicamos atualmente, colete informações dos recursos listados para os tópicos descritos abaixo:
+Based on what we currently publish, collect information from the listed resources for the topics described below:
 
-1. **Reuniões da comunidade**: consulte o [calendário da comunidade](https://calendar.google.com/calendar/embed?src=theturingway%40gmail.com&ctz=Europe%2FLondon) para eventos futuros, como Colaboração Cafect, , livro traço e workshops.
+1. **Community meetings**: review the [community calendar](https://calendar.google.com/calendar/embed?src=theturingway%40gmail.com&ctz=Europe%2FLondon) for upcoming events such as Collaboration Café, book dash and workshops.
 
-2. **Notícias da comunidade**: verifique no Twitter se há atualizações sobre a [conta oficial](https://twitter.com/turingway) e o [#TuringWay Hashtag](https://twitter.com/hashtag/TuringWay?src=hashtag_click), ver o repositório do Github para [problemas](https://github.com/alan-turing-institute/the-turing-way/issues) para discussões em andamento, recentemente [merge de PRs](https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+is%3Aclosed+sort%3Aupdated-desc) e novos capítulos. Você também pode perguntar no [canal do Slack](https://theturingway.slack.com) se alguém gostaria de adicionar algo à newsletter. Nesta parte, destacam-se também quaisquer marcos importantes do projecto que foram ou estabelecidos ou alcançados ao longo do último mês.
+2. **News from the community**: check Twitter for updates on the [official account](https://twitter.com/turingway) and the [#TuringWay Hashtag](https://twitter.com/hashtag/TuringWay?src=hashtag_click), see the Github repository for [issues](https://github.com/alan-turing-institute/the-turing-way/issues) for ongoing discussions, recently [merged PRs](https://github.com/alan-turing-institute/the-turing-way/pulls?q=is%3Apr+is%3Aclosed+sort%3Aupdated-desc) and new chapters. You can also ask in the [Slack channel](https://theturingway.slack.com) if someone would like to add something to the newsletter. In this part, also highlight any important milestones in the project that were either established or achieved over the last month.
 
-4. **Recursos relevantes para a comunidade**: verifique o Twitter e posts on-line para qualquer publicação recente dos membros da comunidade, recursos para formação ou criação de habilidades ou qualquer outro material, como posts de blog ou artigos publicados na rede que possam ser úteis para os outros.
+4. **Relevant resources for the community**: check Twitter and online posts for any recent publication from the community members, resources for training or skill-building or any other materials like blog posts or articles published in the network that could be useful for others.
 
-5. **Dicas & truques para novos contribuidores**: isto inclui qualquer recurso no projeto que pode fazer novos membros aprenderem maneiras de interagir identificar caminhos para começar como contribuidores e encontrar conteúdo relativo como histórias de impacto de membros existentes, perfis dos contribuintes ou outros aspectos relacionados à comunidade.
+5. **Tips & Tricks for new contributors**: this includes any resource in the project that can make new members learn ways to engage, identify paths to get started as contributors and find relatable contents like impact stories of existing members, contributor's profiles or other community-related aspects.
 
-6. **Seção de Reconhecimento e celebração**: este é o lugar para dar gritos aos nossos membros que ajudaram o projeto ou outros de alguma forma, comemore marcos pessoais e destaque quaisquer anúncios relevantes dos membros da comunidade. Este é também um lugar para compartilhar tweets da comunidade ou mencionar outras interações online, como publicações de reuniões recentes onde alguém falou sobre _The Turing Way_.
+6. **Acknowledgments and celebrations section**: this is the place to give shout outs to our members who have helped the project or others in some ways, celebrate personal milestones and highlight any relevant announcements from the community members. This is also a place to share tweets from the community or mention other online interactions such as posts from recent meetings where someone talked about _The Turing Way_.
 
-A newsletter deve se concentrar mais nos contribuidores e novos membros e destacar apenas conteúdo digno de nota dos membros principais da _The Turing Way_.
+The newsletter should focus more on the contributing and new members, and highlight only noteworthy content from _The Turing Way_ core members.
 
-### Colete imagens associadas com o item de notícias
+### Collect images associated with the news item
 
-Seguindo as recomendações no guia de estilo {ref}`para a comunidade<ch-style>` e {ref}`guia de estilo para newsletters<ch-newsletters-style>` para usar imagens, coletar algumas imagens (máximo de 2 por seção). Certifique-se de que estas imagens estão disponíveis sob uma licença gratuita (como CC-BY), coletada com o link de suas fontes, e nomeada claramente conforme sugerido no guia de estilo.
+Following the recommendations on {ref}`style guide for community<ch-style>` and {ref}`style guide for newsletters<ch-newsletters-style>` for using images, collect a few images (maximum 2 per section). Make sure that these images are available under a free license (like CC-BY), collected with the link of their sources, and named clearly as suggested in the style guide.
 
-Para as menções ao Twitter, não há um número fixo de screenshots, mas 4-6 tweets parecem menos lotados no boletim informativo. Eles podem ser editados juntos em uma imagem (explicado no guia de estilo da newsletter).
+For the twitter mentions, there is no fixed number of screenshots, but 4-6 tweets look less crowded in the newsletter. They can be edited together in one image (explained in the newsletter's style guide).
 
-### Escreva sobre cada item de notícia
+### Write about each news item
 
-Baseado nos pontos de balas coletados para cada item de notícia, criar 1-2 pequenos parágrafos usando as recomendações para o idioma e formato descrito no subcapítulo seguinte.
+Based on the bullet points collected for each news item, create 1-2 small paragraphs using the recommendations for the language and format described in the next subchapter.
 
-Forneça links quando útil, dar créditos de forma justa aos membros da comunidade que possam estar associados à notícia e terminar o parágrafo com uma frase e link para mais informações.
+Provide links when useful, give credits fairly to the community members who might be associated with the news item and end the paragraph with a sentence and link to more information.
 
-### Revisando seu rascunho
+### Proofreading your draft
 
-Antes de compartilhar seu rascunho, você deve fazer um revisor de gramática e erro de digitação. Um aplicativo online como [Ginger Grammar Checker](https://www.gingersoftware.com/grammarcheck), [Grammarly](https://app.grammarly.com) versão gratuita, [GrammarCheck](https://www.grammarcheck.net/editor/) ou [Reverso Speller](https://www.reverso.net/spell-checker/english-spelling-grammar/) pode ajudar a corrigir quaisquer erros gramaticais e de ortografia.
+Before sharing your draft you should do a proofread for grammar and typo. An online app like [Ginger Grammar Checker](https://www.gingersoftware.com/grammarcheck), [Grammarly](https://app.grammarly.com) free version, [GrammarCheck](https://www.grammarcheck.net/editor/) or [Reverso Speller](https://www.reverso.net/spell-checker/english-spelling-grammar/) can help correct any grammatical and spelling errors.
 
-Você também deve verificar novamente se os links mencionados no rascunho não estão quebrados. Você pode usar ferramentas online, como o [verificador de links do W3C](https://validator.w3.org/checklink) ou versão gratuita do [Dr. Link Check](https://www.drlinkcheck.com/).
+You should also double-check to make sure that the links mentioned in the draft are not broken. You can use online tools such as the [W3C link checker](https://validator.w3.org/checklink) or free version of [Dr. Link Check](https://www.drlinkcheck.com/).
 
-Se possível, obtenha seu rascunho analisado por 1-2 membros.
+If possible, get your draft reviewed by 1-2 members.
 
-### Atualizando seu rascunho no repositório online
+### Updating your draft in the online repository
 
-Se você já elaborou sua newsletter em uma agência local, antes de criar uma PR, adicione todas as imagens mencionadas no boletim informativo para o local do arquivo da direita: `the-turing-way/communications/newsletters/images`. Mais detalhes sobre o uso de imagens foram discutidos no próximo subcapítulo, {ref}`guia de estilo<ch-newsletters-style>`.
+If you have drafted your newsletter in a local branch, before creating a PR, please add all the images mentioned in the newsletter to the right file location: `the-turing-way/communications/newsletters/images`. More details about using images have been discussed in the next subchapter, {ref}`style guide<ch-newsletters-style>`.
 
-Se você está trabalhando em um PR no GitHub, envie todas as imagens e verifique se elas estão ligadas corretamente.
+If you are working on a PR on GitHub, upload all the images and check if they are linked properly.
 
-Se você criou seu rascunho da newsletter em um HackMD, copie e cole o conteúdo para criar/atualizar seu PR GitHub e carregue todas as imagens vinculadas.
+If you have created your newsletter draft in a HackMD, then copy-paste the content to create/update your GitHub PR and upload all the linked images.
 
-Quando estiver pronto, marque seu PR como "Pronto para Revisão" e marque alguns membros contribuidores, De preferência, aqueles que foram mencionados no projecto para que possam rever e aprovar o seu texto.
+When ready, mark your PR as "Ready for Review" and tag a few contributing members, preferably those who have been mentioned in the draft so that they can review and approve your text.
 
-### Revisar processo
+### Review process
 
-Os revisores da newsletter podem rever o texto para linguagem, relevância, tipos, precisão (verificação de fatos), adequação do uso de imagens e do tom geral.
+The reviewers for the newsletter can review the text for language, relevance, typos, accuracy (fact-check), appropriateness of the use of images and the overall tone.
 
-Os revisores podem fornecer feedback construtivo sobre o rascunho da newsletter e adicionar qualquer item ausente que gostaria de destacar, sugerir alterações apropriadas e aprovar o PR quando estiver pronto para o rascunho ser publicado.
+Reviewers can provide constructive feedback on the newsletter draft, add any missing item that they would like to highlight, suggest appropriate changes and approve the PR when ready for the draft to be published.
 
-Após o processo de revisão, o nome de cada revisor pode ser adicionado sob as menções especiais pelo autor para reconhecer seu trabalho.
+After the review process, each reviewer's name can be added under the special mentions section by the author to acknowledge their work.
 
-### Processo de publicação
+### Publication process
 
-Atualmente estamos usando o [TinyLetter](https://tinyletter.com/) para publicar os nossos boletins informativos. TinyLetter é uma subsidiária do [MailChimp](https://mailchimp.com/), que oferece um serviço gratuito simplificado para configurar uma newsletter por e-mail e compartilhá-lo com os inscritos.
+We are currently using [TinyLetter](https://tinyletter.com/) to publish our newsletters. TinyLetter is a subsidiary of [MailChimp](https://mailchimp.com/), that offers a simplified interface based free service for setting up an email newsletter and sharing it with subscribers.
 
-Aqui estão as etapas para publicar o rascunho da newsletter on-line e enviar por e-mail para os membros inscritos:
+Here are the steps for publishing the newsletter draft online and send by email to the subscribed members:
 
-- Converta o conteúdo Markdown do rascunho da newsletter em HTML usando o [browserling. om](https://www.browserling.com/tools/markdown-to-html) copiando o conteúdo Markdown para a caixa de texto no aplicativo web e pressionando "Converter para o botão HTML".
-- Se autorizado, faça login na conta do TinyLetter e clique no botão "Escrever um boletim informativo".
-- Cole o conteúdo HTML do seu rascunho gerado pelo navegador.
-- Certifique-se de que o assunto esteja escrito na caixa de texto correta.
-- Clique em "Visualizar" para ver como será a versão renderizada de sua mensagem.
-- Envie uma versão de pré-visualização para o seu e-mail ou _The Turing Way_ email (theturingway@gmail.com) para verificar se tudo está OK.
-- Uma vez confirmado o seu formato e conteúdo, o boletim informativo é enviado para os membros registrados clicando em "Enviar para todos".
-- Os [boletins informativos on-line](https://tinyletter.com/TuringWay/) são compartilháveis pelos links e também podem ser lidos por membros não inscritos.
+- Convert the Markdown content of the newsletter draft to HTML using [browserling.com](https://www.browserling.com/tools/markdown-to-html) by copy-pasting the Markdown content to the text box in the web application and pressing "Convert to HTML button".
+- If authorised, log in to the TinyLetter account and click the “Write A Newsletter” button.
+- Paste the HTML content of your draft generated by browserling.
+- Make sure that the subject is written in the correct text box.
+- Click “Preview” to see how the rendered version of your message will look like.
+- Send a preview version to your email or _The Turing Way_ email (theturingway@gmail.com) to check if everything looks OK.
+- Once confirmed for its format and content, the newsletter is sent to the registered members by clicking “Send to all”.
+- The [online newsletters](https://tinyletter.com/TuringWay/) are shareable by links and can be read by non-subscribed members as well.
 
-*(Ganhe para fazer sua newsletter [aqui](https://www.sitepoint.com/how-start-a-newsletter-in-minutes-with-tinyletter/).)*
+*(Learn to make your newsletter [here](https://www.sitepoint.com/how-start-a-newsletter-in-minutes-with-tinyletter/).)*
 
- **Ele é publicado, e agora?**
+ **It's published, now what?**
 
-- Atualize a tabela de índice no [arquivo README.md](https://github.com/alan-turing-institute/the-turing-way/blob/main/communications/newsletters/README.md) com os detalhes da nova newsletter publicada.
-- Tweet sobre isso em [@turingway](https://twitter.com/turingway).
-- Envie uma notificação nos canais [Gitter](https://gitter.im/alan-turing-institute/the-turing-way) e [Slack](https://theturingway.slack.com).
-- Faça uma dança comemorativa! (Isso é obrigatório! 💃)
+- Update the index table in the [README.md file](https://github.com/alan-turing-institute/the-turing-way/blob/main/communications/newsletters/README.md) with the details of the newly published newsletter.
+- Tweet about it from [@turingway](https://twitter.com/turingway).
+- Send a notification on [Gitter](https://gitter.im/alan-turing-institute/the-turing-way) and [Slack](https://theturingway.slack.com) channels.
+- Do a celebratory dance! (This is mandatory! 💃)

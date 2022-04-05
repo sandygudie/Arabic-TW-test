@@ -1,38 +1,38 @@
 (rr-make-appendix)=
-# 附 录
+# Appendix
 
 (rr-make-appendix-dag)=
-## 定向Accyclic Graphs
+## Directed Acyclic Graph
 
-定向Accyclic Graph(DAG) 是节点和边缘的 *图* ，其内容是：
+A Directed Acyclic Graph (DAG) is a *graph* of nodes and edges that is:
 
-1. *directed*: 边缘有一个方向，您只能在那个 方向上走图
-2. *自行车*: 不包含自行车: B 依赖A时不能依赖B.
+1. *directed*: edges have a direction and you can only walk the graph in that direction
+2. *acyclic*: does not contain cycles: A can't depend on B when B depends on A.
 
-后一种财产当然对建筑系统很方便。 更多关于 DAGs 的 信息可在 [维基百科](https://en.wikipedia.org/wiki/Directed_acyclic_graph) 上找到。
+The latter property is of course quite handy for a build system. More information on DAGs can be found on [Wikipedia](https://en.wikipedia.org/wiki/Directed_acyclic_graph).
 
 (rr-make-appendix-installing)=
-## 安装 Make
+## Installing Make
 
-首先，检查您是否已安装 GNU 在终端类型中： 在终端类型中：
+First, check if you have GNU Make installed already. In a terminal type:
 
 ```bash
 $ make
 ```
 
-如果你得到 `make：命令找不到` (或类似的)，你没有Make。 如果 你得到 `make：*** 没有指定目标和找不到makefile。  Stop.` 你的 确实有Make。
+If you get `make: command not found` (or similar), you don't have Make. If you get `make: *** No targets specified and no makefile found.  Stop.` you do have Make.
 
-我们将在此教程中使用 **GNU Make**。 通过输入您 所拥有的东西来验证：
+We'll be using **GNU Make** in this tutorial. Verify that this is what you have by typing:
 
 ```bash
 $ make --version
 ```
 
-如果您没有 GNU Make 但有 BSD 版本，一些东西可能无法正常工作 ，我们建议安装 GNU Make 。
+If you don't have GNU Make but have the BSD version, some things might not work as expected and we recommend installing GNU Make.
 
-要安装 GNU Make, 请按照以下说明:
+To install GNU Make, please follow these instructions:
 
-- **Linux**: 使用您的软件包管理器安装 Make 例如在Arch Linux上： 例如在Arch Linux上：
+- **Linux**: Use your package manager to install Make. For instance on Arch Linux:
 
   ```bash
   $ sudo pacman -S make
@@ -43,32 +43,32 @@ $ make --version
   $ sudo apt-get install build-essential
   ```
 
-- **MacOS**: 如果您已经安装 [Homebrew](https://brew.sh/) 它很简单：
+- **MacOS**: If you have [Homebrew](https://brew.sh/) installed, it's simply:
 
   ```bash
-  $酿造厂安装
+  $ brew install make
   ```
 
   If you have a builtin Make implementation, please ensure that it's GNU Make by checking `make --version`.
 
 (rr-make-appendix-advancedgr)=
-## 高级：使用通话生成规则
+## Advanced: Generating Rules using Call
 
-*本节将继续上面的教程，并展示Make 的功能，用于自动生成规则。*
+*This section continues the tutorial above and demonstrates a feature of Make for automatic generation of rules.*
 
-In a data science pipeline, it may be quite common to apply multiple scripts to the same data (for instance when you're comparing methods or testing different parameters). 在这种情况下，在只有脚本名称更改时为每个脚本单独写一个 规则可能变得很费解。 为了简化这个 进程，我们可以让创建一个所谓的 [*预设* 配方](https://www.gnu.org/software/make/manual/make.html#Canned-Recipes)
+In a data science pipeline, it may be quite common to apply multiple scripts to the same data (for instance when you're comparing methods or testing different parameters). In that case, it can become tedious to write a separate rule for each script when only the script name changes. To simplify this process, we can let Make expand a so-called [*canned* recipe](https://www.gnu.org/software/make/manual/make.html#Canned-Recipes).
 
-要跟随，切换到 `预设的` 分支：
+To follow along, switch to the `canned` branch:
 
 ```bash
-美元清理
-美元git stash --all # 注明'--all' 标志，所以我们也保存Makefile
-美元结帐罐头了
+$ make clean
+$ git stash --all        # note the '--all' flag so we also stash the Makefile
+$ git checkout canned
 ```
 
-在这个分支上，你会注意到 **脚本** 目录中有一个新脚本，名为 `Generate_qqplot.py`。 此脚本的工作类似于 `Generate_histogram。 y` 脚本 (它有相同的命令行语法)，但它 生成一个 [QQ-绘图](https://en.wikipedia.org/wiki/Q%E2%80%93Q_plot)。 **report.tex** 文件也已更新，以纳入这些绘图。
+On this branch you'll notice that there is a new script in the **scripts** directory called `generate_qqplot.py`. This script works similarly to the `generate_histogram.py` script (it has the same command line syntax), but it generates a [QQ-plot](https://en.wikipedia.org/wiki/Q%E2%80%93Q_plot). The **report.tex** file has also been updated to incorporate these plots.
 
-After switching to the `canned` branch there will be a Makefile in the repository that contains a separate rule for generating the QQ-plots. 此 Makefile 看起来像这样： 此 Makefile 看起来像这样：
+After switching to the `canned` branch there will be a Makefile in the repository that contains a separate rule for generating the QQ-plots. This Makefile looks like this:
 
 ```makefile
 # Makefile for analysis report
@@ -97,30 +97,30 @@ clean:
     rm -f $(HISTOGRAMS) $(QQPLOTS)
 ```
 
-您会注意到，直方图和QQ-绘图的规则非常相似。
+You'll notice that the rules for histograms and QQ-plots are very similar.
 
-In a data science pipeline, it may be quite common to apply multiple scripts to the same data (for instance when you're comparing methods or testing different parameters). 在这种情况下，在只有脚本名称更改时为每个脚本单独写一个 规则可能变得很费解。 为了简化这个 进程，我们可以让创建一个所谓的 [*预设* 配方](https://www.gnu.org/software/make/manual/make.html#Canned-Recipes)
+As the number of scripts that you want to run on your data grows, this may lead to a large number of rules in the Makefile that are almost exactly the same. We can simplify this by creating a [*canned recipe*](https://www.gnu.org/software/make/manual/html_node/Canned-Recipes.html) that takes both the name of the script and the name of the genre as input:
 
 ```makefile
-定义运行脚本至数据
-输出$(1)_$(2).png: data/$(2).csv 脚本/生成_$(1). y
-    python 脚本/生成_$(1).py -i $$< -o $@
-结束
+define run-script-on-data
+output/$(1)_$(2).png: data/$(2).csv scripts/generate_$(1).py
+    python scripts/generate_$(1).py -i $$< -o $$@
+endef
 ```
 
-请注意，在这个配方中，我们要么使用 `$(1)` 直方图 `直方图` 要么 `qplot` 和 `$(2)` 用于基因。 这些与预期的 函数参数对应于 `run-script-on-data` 罐头配方。 另外，注意 我们在实际配方中使用 `$<` 和 `$@` 两个 `美元` 符号 用于越狱。 要真正创建所有目标，我们需要一个调用 这种预设配方的线。  在我们的情况下，我们使用双倍来循环流派和 脚本：
+Note that in this recipe we use `$(1)` for either `histogram` or `qqplot` and `$(2)` for the genre. These correspond to the expected function arguments to the `run-script-on-data` canned recipe. Also, notice that we use `$$<` and `$$@` in the actual recipe, with two `$` symbols for escaping. To actually create all the targets, we need a line that calls this canned recipe.  In our case, we use a double for loop over the genres and the scripts:
 
 ```makefile
-$(foreach genre,$(GENRES), \
-    $(foreach script,$(SCRIPTS), \
-        $(eval $(all run-script-on-data,$(script),$(genre)) ))
-    (
+$(foreach genre,$(GENRES),\
+    $(foreach script,$(SCRIPTS),\
+        $(eval $(call run-script-on-data,$(script),$(genre))) \
+    ) \
 )
 ```
 
-在这些行中， `` 字符用于继续长线。
+In these lines the `\` character is used for continuing long lines.
 
-完整的 Makefile 后来变成：
+The full Makefile then becomes:
 
 ```makefile
 # Makefile for analysis report
@@ -157,10 +157,10 @@ clean:
     rm -f $(HISTOGRAMS) $(QQPLOTS)
 ```
 
-请注意，我们已经添加了一个 `SCRIPTS` 变量，带有 `直方图` 和 `qplot` 名称。 如果我们要添加另一个脚本，跟这两个脚本相同的 模式。 我们只需要将其添加到 `SCRIPTS` 变量。
+Note that we've added a `SCRIPTS` variable with the `histogram` and `qqplot` names. If we were to add another script that follows the same pattern as these two, we would only need to add it to the `SCRIPTS` variable.
 
-要构建所有这一切，请运行
+To build all of this, run
 
 ```bash
-美元制作-j 4
+$ make -j 4
 ```
