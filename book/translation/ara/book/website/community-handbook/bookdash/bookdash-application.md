@@ -7,57 +7,57 @@ In this subchapter, we have provided details on the book dash's application and 
 
 ## Call for applications
 
-وينظم الحدث الخاص بتوصيل الكتاب لعدد يصل إلى 15 مشاركا. The event is divided into multiple sessions with small groups of participants attending in their time zone. والسبب في الإبقاء عليها صغيرا هو السماح لأعضاء الفريق الأساسيين بتقديم إرشادات محددة للمشاركين المدعوين وجعلها تفاعلية، حدث حميم وممتع ومنتج.
+The book dash event is organised for a minimum of 15 participants. The event is divided into multiple sessions with small groups of participants attending in their time zone. This allows the core team members to offer specific mentorship to the invited participants and make this an interactive, intimate, fun, and productive event.
 
-ولإجراء هذا الاختيار بإنصاف، تُفتح الدعوة إلى تقديم الطلبات قبل 3 أشهر على الأقل حتى يتمكن الأعضاء المهتمون من تقاسم مهاراتهم. الاهتمام والنتائج المتوقعة من خلال تطبيق قصير. The applications are kept open for a minimum of 4 weeks and the timeline is communicated clearly through our newsletters, Twitter feed, and application form.
+To fairly make this selection, a call for applications is opened at least two months in advance so that interested members can share their skills, interest, and expected outcomes through a short application. The applications are kept open for a minimum of 4 weeks and the timeline is communicated clearly through our newsletters, Twitter feed, and application form.
 
 This application can take 30-45 minutes to complete. We have created this template document with all the questions to prepare a draft before submission: https://tinyurl.com/tw-bookdash-template.
 
-وما زلنا نفكر في طرق لضمان الخصوصية وحماية البيانات. في الوقت الحالي، يتم التعامل مع جميع هذه الاستجابات بشكل آمن بموجب قانون [GDPR (لائحة حماية البيانات)](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) (تعلم إنشاء [استطلاعات ضد GDPR](https://www.surveylegend.com/gdpr/how-to-make-gdpr-proof-surveys-or-forms/)). All our applicants must agree with the following GDPR statement when sending their application:
-> *نحن بحاجة إلى تخزين عنوان بريدك الإلكتروني للاتصال بك. The information provided in this form will be shared only with The Turing Way Book Dash organisers to help them review your application fairly. جميع التفاصيل المقدمة سيتم تخزينها في Google Drive التي فقط الأعضاء الأساسيين في _طريق التوريق_ لديهم حق الوصول إليها. الخوادم موجودة في الولايات المتحدة. يمكنك طلب حذف عنوان البريد الإلكتروني الخاص بك والمعلومات الأخرى القابلة للتحديد من قاعدة البيانات الخاصة بنا في أي وقت. إذا كان لديك أي أسئلة يرجى الاتصال بأعضاء الفريق عن طريق البريد الإلكتروني turingway@gmail.com. You may edit your responses after submission until 21 May 2022. Please select the "I understand and I accept" option before proceeding.*
+We continue to think of ways to ensure privacy and data protection. Currently, all these responses are securely handled under the [GDPR (General Data Protection Regulation) law](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) (learn about creating [GDPR-proof surveys](https://www.surveylegend.com/gdpr/how-to-make-gdpr-proof-surveys-or-forms/)). All our applicants must agree with the following GDPR statement when sending their application:
+> *We need to store your e-mail address to contact you. The information provided in this form will be shared only with The Turing Way Book Dash organisers to help them review your application fairly. These details will be stored in a Google Drive that core Turing Way team members have access to. The servers are based in the USA. You can ask for your e-mail address or any information to be removed from our database at any time. If you have any questions please contact us by emailing turingway@gmail.com. You may edit your responses after submission until 21 May 2022. Please select the "I understand and I accept" option before proceeding.*
 
 We ask if applicants have previously participated in a Book Dash so that they can express their interest to join the Book Dash review and planning committee for this event:
 > We encourage returning applicants to The Turing Way Book Dash to join the planning committee. They will take on advisory and leading roles for the Book Dash events in 2022 by getting involved in application Review, selection process, organisation meeting, session host and mentorship or accessibility-related support they can offer based on their willingness, availability and interest. For any questions, please email theturingway@gmail.com.
 
-ويجيب مقدمو الطلبات على الأسئلة التالية بكلمة 150 كلمة لكل منهم:
-- ماذا يمكنك المساهمة في طريق التوريند؟
-- ما الذي ستكسبه من كونك جزءا من درب تورينج ؟
+In 150 words each, applicants respond to the following mandatory questions:
+- What could you contribute to The Turing Way during the book dash event?
+- What would you gain from being part of The Turing Way book dash event?
 
 We ask an optional question for returning members to express their interest to take on leadership roles in designing and organising Book Dashes:
-- هل أجاب مقدم الطلب على أسئلة الطلب؟
+- How would you like to collaborate with other participants, or what support will you invite from them during the Book Dash event?
 
-وتساعدنا هذه الردود على الأسئلة الواردة في استمارة الطلب على اختيار مجموعة من الأشخاص الذين سيكونون قادرين على العمل معا بشكل فعال وعلى تغطية مجموعة واسعة من المساهمات الممكنة في طريق تورينج. ونحن لا نتوقع أن يكون المرشحون قد ساهموا سابقا في المشروع أو أنهم على دراية بالبنية التحتية لمشروعنا مثل المساهمة القائمة على GitHub. نحن نبحث أكثر عن أفكارهم حول ما يعتقدون أنه مهم ومفيد للآخرين للقيام بعلوم البيانات في السيناريو الحالي.
+These responses to the questions in the application form help us select a group of people who will be able to work effectively together and cover a broad set of possible contributions to the Turing Way. We don't expect that the candidates might have previously contributed to the project, but some familiarity with our project infrastructure such as GitHub-based contributions will be helpful. We are looking to support ideas on what our participants think is important and helpful for others doing reproducible research and data science in the current scenario.
 
-ثم نطرح بعض الأسئلة الديمغرافية. نريد أن نتأكد من أن مجموعة المشاركين المختارة تجلب مهارات ومعارف وخبرات متعددة إلى _طريق التوريد_. ونهدف إلى إشراك أعضاء من مجموعات متنوعة، لا سيما أولئك الذين يستبعدون تقليديا من علم البيانات على أساس نوع الجنس والإثنية والمرحلة الوظيفية. ولذلك، فإننا نطلب من مقدمي طلباتنا أن يبينوا ما إذا كانوا يعتبرون أنفسهم أعضاء في مجموعة أو عدة مجموعات ممثلة تمثيلا ناقصا تاريخيا. وهنا يمكنهم إضافة أي معلومات أخرى عن أنفسهم يعتقدون أن الفريق الأساسي ينبغي أن يعرفها عند استعراض طلبهم (مثل LGBTQ+، المهاجرون والمعوقون والوالد والمقدم للرعاية، وأعضاء المجلس التنفيذي).
+We then ask a few demographic questions. We want to make sure that the selected group of participants brings multiple skills, knowledge, and experience to _The Turing Way_. We aim to involve members from diverse groups, especially those who are traditionally excluded from data science based on gender, ethnicity, and career stage. Therefore, we ask our applicants to indicate if they consider themselves to be a member of one or multiple historically underrepresented groups. Here they can add any other information about themselves that they think the core team should know when reviewing their application.
 
-ونسعى إلى إزالة أي حواجز قد تحول دون حضور المشاركين في هذا الحدث. ومن ثم فإننا نستخدم هذا النموذج لتقييم ما يمكن أن نقدمه من دعم، بما في ذلك متطلبات التمويل. إلى المشاركين في هذه المناسبة لضمان تمكنهم من حضور الحدث على نحو مريح. ويمكن لمقدمي الطلبات أن يذكروا متطلبات مشاركتهم فيما يتعلق بالسفر والسكن ورعاية الأطفال وإمكانية الوصول.
+We seek to remove any barriers that might prevent our participants from attending the event. Hence, we use this form to assess what support we can offer, including funding requirements, to our participants in ensuring that they can comfortably attend the event. Applicants can mention their travel, accommodation, childcare, and accessibility requirements for their participation.
 
 Finally, we provide details regarding the event schedule and ask our applicants to indicate which time slots for collaborative co-working and social sessions would work for their time zones.
 
 ## Reviewing process
 
-طلبات _الطريق الوشيك_ يتم مراجعتها من قبل عضوين على الأقل من _فريق الطريق الوشيك_ الأساسي. نموذج استجابة أنشأه الأعضاء المنظمون باستخدام العناوين الموصوفة أدناه، ويتقاسم الرد جميع خبراء الاستعراض خلال اجتماع معين بين أعضاء الفريق. ويتم تسجيل درجات لكل معيار بين 1 و 3، حيث تستوفي 3 = المعايير بالكامل، و 2 = المعايير المستوفاة جزئيا، و 1 = المعايير. ولتفادي التحيز الشخصي، تحدد كل درجة من هذه الدرجات بوضوح لكل سؤال في استمارة الرد على الاستعراض التي يرد شرحها أدناه. ويهدف هذا العنوان إلى تقييم التطبيق في جوانب متعددة وتجنب أي تحيز شخصي قد يكون لدى أعضاء الفريق.
+Applications for _The Turing Way_ book dashes are reviewed by at least 2 members of _The Turing Way_ core team. A response form created by the organising members using the rubrics described below, the response from which are shared among all the reviewers during a designated meeting between the panel members. Scoring for each criterion is done between 1 to 3, where 3=criteria fully met, 2=criteria partially met, and 1=criteria not met. To avoid personal bias, each of these scores is clearly defined for every question in the review response form, which is explained below. This rubric aims to evaluate the application across multiple aspects and avoid any personal bias panel members may have.
 
-*تم تكييف هذا العنوان من [موزيلا القيادة المفتوحة](https://foundation.mozilla.org/en/initiatives/mozilla-open-leaders/) و [علوم الحياة المفتوحة](https://openlifesci.org/)*
+*This rubric is adapted from the [Mozilla Open Leadership](https://foundation.mozilla.org/en/initiatives/mozilla-open-leaders/) and the [Open Life Science](https://openlifesci.org/) programs*
 
 (ch-bookdash-application-rubrics)=
 ### Rubrics for scoring applications
 
-واستنادا إلى تقييمها للتطبيقات، ستوفر نتائج لمختلف المعايير التي سيجري تقييمها على النحو التالي:
+The invited reviewers will rate the participants across multiple dimensions with scores of 1, 2, or 3.
 
-ونطلب إلى مستعرضنا أن ينظروا في الأسئلة التالية:
+We ask our reviewers to consider the following questions:
 
 * Has the applicant answered the application questions?
-* هل لدى مقدم الطلب فكرة واضحة وممكنة وذات صلة عن كيفية إسهامه في تصريح الكتاب؟    وتتطابق هذه الدرجات بصفة عامة مع استعراضات "غير جاهزة" و"متحمسة" و"واضحة" على التوالي:
-* هل مقدم الطلب متحمس بشأن قابلية التضحية وأهداف _طريق التوريد_؟
+* Does the applicant have a clear, feasible, and relevant idea of how they will contribute to the book dash?    This scoring corresponds generally to reviews of "not ready", "enthusiastic" and "clear" respectively:
+* Is the applicant enthusiastic about reproducibility and the aims of _The Turing Way_?
 
 
-(يستند هذا التصنيف إلى معايير اختيار القادة المفتوحين في موزيلا وعلوم الحياة المفتوحة)
+Based on their evaluation of the applications they will provide scores for different criteria that will be assessed as follows:
 1. Applicants who score **mostly 1s** do not have a clear idea/topic ready for contribution or do not have a clear understanding of the overall goals of _The Turing Way_ and book dash in general.
 2. Applicants who score **mostly 2s** are enthusiastic if not wholly suitable for the project/event, for example, they may come with some ideas for a contribution that is currently not in the scope of the project/event.
 3. Applicants who score **mostly 3s** are clearly ready, goal-oriented, interested in contributing to the project, and excited to learn from others at the event.
 
-**الجدول الذي يلخص علامات ومعايير كل درجة:**
+**Table summarising our scoring rubric and criteria for each score:**
 
 *This scoring rubric is based on the Mozilla Open Leaders and Open Life Science (OLS) selection criteria as described in the 'Review Rubrics' on [this GitHub repository](https://github.com/open-life-science/application-forms).*
 
@@ -68,9 +68,9 @@ Finally, we provide details regarding the event schedule and ask our applicants 
 | **Purpose of participation and what they will get out of the book dash:** | (not ready) Purposes for participation at the book dash seem almost entirely self-centered and about the applicant’s status, rather than about participating in _The Turing Way_ community to develop the project | (enthusiastic) Purposes for the participation at the book dash event are not completely clear from the application or are limited (even though useful), such as typo or bug fixing                            | (clear) Purposes for participation at the book dash event are valuable in many ways and are likely to help the applicant to become an active contributor and take ownership of their work in _The Turing Way_ project and in the broader ecosystem in their own rights |
 | **Willingness to collaborate and contribute after the book dash:**        | (not ready) Seems closed to collaborative ways of working or more interested in only one aspect of data science, research or related topic                                                                        | (enthusiastic) Seems excited to learn from others and _The Turing Way_ project, but in a general way without much understanding of what those things mean yet                                                 |                                                                                                                                                          (clear) Seems excited to collaborate with others and is motivated to contribute to _The Turing Way_ community |
 
-ويُطلب إلى المستعرضين أيضا الكشف عما إذا كان أي تضارب في المصالح قد يؤثر على استعراضهم مما يؤدي إلى أي تحيز في قرارهم.
+The following sections are aimed at collecting open-ended response by the reviewers:
 
-ونطلب إلى جميع خبراء الاستعراض أن ينهوا الاستعراض بوصف الطلب، وتمثيل جوانب مقدم الطلب ودوافع درجاته لتيسير التحاور أثناء مناقشة فريق الاختيار في إطار هذه الأسئلة.
+We ask all reviewers to finish the review by describing the application, representation aspects of the applicant and the motivations for their scores to facilitate conversation during the selection panel discussion under these questions.
 
 ```
 - Please highlight any diversity/minority groups this applicant belong to, that should be represented at this event
@@ -83,4 +83,4 @@ Reviewers are also asked to disclose if any conflict of interest may have influe
 - Please state if you have any conflict of interest with the proposal described in this application or do you know this applicant personally that may lead to a biased decision
 ```
 
-وأخيراً، يُسأل المستعرضون عما إذا كانوا سيوصون بتقديم طلب. والإجابات المتاحة هي "لا" أو "نعم" أو "غير مؤكدة" أو "طلب مناقشة مفتوحة في الفريق". المرشحون الذين لديهم تصنيفات "لا" أو "غير مؤكد" في جميع المستعرضين سيتم رفضهم. وستجري مناقشة جميع المرشحين الآخرين في اختيار الفريق.
+Finally, reviewers are asked whether they would recommend an applicant. The available answers are "No", "Yes", "Unsure" or "Request for open discussion in the panel". Candidates who have ratings of "No" or "Unsure" across all reviewers will be rejected. All other candidates will be discussed at the panel selection.
