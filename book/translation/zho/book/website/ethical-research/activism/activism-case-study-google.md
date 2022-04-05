@@ -3,7 +3,7 @@
 
 Tech workers have historically had low levels of unionisation for a variety of different reasons, including comparatively high pay and status, roles that are often short-term, and a concentration in countries where union levels are low overall (for example, the US).
 
-Workers in tech are also sometimes ambivalent about their employer's products and services. This is because the products and services are developed with limited consideration of their impacts on systemic inequalities and injustices. 越来越多在该行业工作的人正在讲话，要求各公司和组织考虑他们所做工作的道德和影响以及他们从事这项工作的人。
+Workers in tech are also sometimes ambivalent about their employer's products and services. This is because the products and services are developed with limited consideration of their impacts on systemic inequalities and injustices. However, more and more people who work in the industry are speaking up and demanding that companies and organisations consider the ethics and impact of the work they do and who they do that work with.
 
 Google is one example of a large tech company where workers have spoken up on several different issues including internal company policy and external contracts.
 
@@ -32,7 +32,7 @@ In the wake of protests at the killing of George Floyd in May 2020, over 1,100 A
 (er-activism-case-study-google-union)=
 ## Alphabet Worker's Union
 
-The work that went into speaking out against different issues at Google has now transformed into a new union, specifically for people employed at Google or one of the other companies owned by Alphabet. The union was launched in January 2021 and has over 800 members as of May 2021. Importantly, all workers at Alphabet companies, whether they are cleaners or tech workers, on fixed-term contracts or in permanent employment, are eligible to join the union. 这种广泛的成员资格使工人们更容易组织起来，为每个人在工作场所获得更好的条件而奋斗。 It also reinforces that everyone in the workplace is important and has a part to play in the union, regardless of what their day-to-day role looks like.
+The work that went into speaking out against different issues at Google has now transformed into a new union, specifically for people employed at Google or one of the other companies owned by Alphabet. The union was launched in January 2021 and has over 800 members as of May 2021. Importantly, all workers at Alphabet companies, whether they are cleaners or tech workers, on fixed-term contracts or in permanent employment, are eligible to join the union. This broad membership makes it much easier for the workers to organise together and fight for better conditions for everyone in the workplace, rather than segregating people based on the type of work they do. It also reinforces that everyone in the workplace is important and has a part to play in the union, regardless of what their day-to-day role looks like.
 
 The Alphabet Union is supported by a larger union, [Communications Workers of America](https://cwa-union.org/), who are also [campaigning to help workers in other tech and digital companies to organise in unions](https://cwa-union.org/news/releases/cwa-launches-new-initiative-in-support-of-organizing-tech-and-game-workers).
 
