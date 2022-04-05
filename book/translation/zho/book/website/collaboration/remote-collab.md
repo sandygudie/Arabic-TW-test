@@ -5,11 +5,11 @@ Remote collaboration refers to the ability to interact and work with others from
 
 ```{figure} ../figures/distributed-collaboration.jpg
 ---
-高度：500px
-名称：分布式协作
-Alt：一个站在地球上，几乎与不同时区的人在不同的计算机屏幕上进行交互
+height: 500px
+name: distributed-collaboration
+alt: A person standing on a globe and interacting virtually with people in different time zones on different computer screens
 ---
-分布式协作. Stereteria的绘画线路项目示例。 _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+Distributed Collaboration. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
 Remote collaboration is quite a standard practice in open source projects or online communities. It has gained popularity over the last few years as more and more companies expand their businesses in areas far from the location of the main office (for example, [Mozilla](https://www.mozilla.org/en-GB/)), or exist entirely as a remote company (for example, [RStudio](https://rstudio.com/about/)).
