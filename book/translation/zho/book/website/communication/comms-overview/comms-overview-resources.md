@@ -22,7 +22,7 @@ Read more in this chapter: {ref}`cm-blogs`.
 ### Some of our favourite blogs
 * Dr Veronika Cheplygina's [How I fail series](https://veronikach.com/failure/)
 * [Software Sustainability Institute Blog](https://www.software.ac.uk/blog)
-* [通过4TU研究数据 & TU Delft 库和数据Steward来打开工作](https://openworking.wordpress.com/) 使用 WordPress。 Uses WordPress.
+* [Open Working](https://openworking.wordpress.com/) by 4TU.ResearchData & TU Delft Library and Data Stewards. Uses WordPress.
 * [Metadocencia](https://metadocencia.netlify.app/post/) - This is in Spanish but you can also read it in English [here](https://metadocencia.netlify.app/en/post/).
 
 (cm-comms-overview-resources-lay)=
@@ -66,10 +66,10 @@ Here are some websites that offer free resources making different aspects of pre
 * [Canva](https://www.canva.com) for icons.
 
 For recording talks:
-* [OBS](https://obsproject.com). [OBS](https://obsproject.com). 请参阅 [本指南用于使用软件可持续性研究所的 OBS](https://software.ac.uk/fellowship-programme/2019/application-video-guide)。
+* [OBS](https://obsproject.com). See [this guide for using OBS](https://software.ac.uk/fellowship-programme/2019/application-video-guide) by the Software Sustainability Institute.
 * [Amara](https://amara.org) or [Otter](https://otter.ai/) can be used to generate your subtitles. Video conferencing platforms such as Zoom or Google meet also have captions.
 
-* 提供远程语音(或班级)的许多技术方面和工具都在 [在线教学的 Carpentris 提示](https://carpentries.org/blog/2020/03/tips-for-teaching-online/) 和网络研讨会 [RStudio 的“短通知在线教学”](https://rstd.io/teach-online-2020) 中涉及。
+* Many of the technical aspects and tools for giving remote talks (or classes) are covered in [The Carpentries tips for teaching online](https://carpentries.org/blog/2020/03/tips-for-teaching-online/) and the webinar ["Teaching Online on Short Notice"](https://rstd.io/teach-online-2020) by RStudio, a source for several points of this section.
 
 * The Outlier conference has some excellent tips on [speech development](https://docs.google.com/presentation/d/1VltGZmwfFcqwJ_pMwNx-ECfhgtl0dhxYC99qM5xnV-U/), [structure](https://docs.google.com/presentation/d/1XyFdpqjlvXd_8kIl3dJFHhGTcywX0tayQtHXXYUi9DQ/), and [technical setup](https://https://docs.google.com/presentation/d/1ZLrVBs5Zt9_DDu2TYUN3CzsEr1WiMXbwj-AP5m9Rbhc/).
 
