@@ -52,4 +52,4 @@ Branches should be used to **keep the main branch clean**. That is, the main sho
 
 ## Interactive tutorial
 
-[Learn Git Branching](https://learngitbranching.js.org/) is a project to provide an interactive way to learn Git. الذهاب إلى من خلال دروسهم سيوفر تجربة كبيرة مع أوامر git الأكثر شيوعا وتقنيات التلاعب بالفرع.
+[Learn Git Branching](https://learngitbranching.js.org/) is a project to provide an interactive way to learn Git. Going through their tutorials will provide substantial experience with the most commonly used git commands and branch manipulation techniques.
