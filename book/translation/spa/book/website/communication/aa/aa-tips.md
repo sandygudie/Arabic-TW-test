@@ -1,14 +1,14 @@
 (cm-aa-tips)=
-# Consejos para conseguir la autoría derecha
+# Tips for Getting Authorship Right
 
 (cm-aa-tips-who)=
 ## Establish who wants to be an author
 
 It is worth considering that not everyone on the same research project or in the same community will have the same motivation when it comes to authorship. Not everyone places the same importance on academic citation rates and therefore this is an issue that needs to be considered at the start of a project.
 
-**fuerte motivación** Habrá miembros del equipo que estén enfocados en un camino académico, y sentir que la autoría en papel es una fuerza motriz para la progresión de la carrera. They will put high importance on being an author and probably will also have strong opinions on how they want authorship to be attributed and what order authors names should take.
+**Strong motivation** There will be team members that are focused on an academic career path and feel paper authorship is a driving force for career progression. They will put high importance on being an author and probably will also have strong opinions on how they want authorship to be attributed and what order authors names should take.
 
-**Media motivación** Otros miembros del equipo probablemente académicos más establecidos que ya tienen una cantidad sustancial de publicaciones y en un empleo estable, puede estar menos preocupado por el orden de los autores en sus trabajos o cómo se atribuyen y rastrean las contribuciones.
+**Medium motivation** Other team members, probably more established academics who already have a substantial amount of publications and in stable employment, may be less worried about the order of authors on their papers or how contributions are attributed and tracked.
 
 **Low motivation** Team members that are not interested in a purely academic career but still are an integral part of the team and have made substantial contributions to the project, such as research engineers, may not be interested in authorship at all.
 
@@ -30,7 +30,7 @@ It is not good practice to wait until you have finished writing a paper to have 
     * This needs to include:
         * What journals you are targeting - this means you can find out about their own authorship policies.
         * How the order of authors will be decided or are you following one type of authorship model/definition from the beginning.
-        * How you will track contributions - will this be done for all contributions or a selected list? How will you do this? ¿Cómo lo hará? ¿un bot de lista de verificación/todos los colaboradores? ¿Quién se encargará de mantener la lista de colaboradores? Who will be in charge of maintaining the list of contributors?
+        * How you will track contributions - will this be done for all contributions or a selected list? How will you do this? a checklist/all contributors bot? Who will be in charge of maintaining the list of contributors?
         * Whether the authorship policy/guidelines will be reviewed, when this will be done and how this will be done.
 
 * Produce documentation on the decisions that have been made in these meetings.
