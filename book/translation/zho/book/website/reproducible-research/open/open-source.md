@@ -30,7 +30,7 @@ Researchers that make use of open-source software often make changes to them, su
 ### Contributing to Others' Open Source Software Projects
 
 - _It is empowering to be able to make changes, even small ones_: You do not have to become a lifelong contributor to enjoy participating in open source. Have you ever seen a typo on a website, and wished someone would fix it? On an open source software project, you can do just that. Open source helps people feel agency over their lives and how they experience the world, and that in itself is gratifying.
-- _它是有趣的_: 开放源码提供了一套没完没了的、不断变化的 Rubix 立方体，供您在周末解决。 Just like puzzles, both crossword and jigsaw, open source provides bite-sized intellectual escapes.
+- _It is fun_: Open source provides an endless, ever-changing set of Rubix cubes for you to solve on weekends. Just like puzzles, both crossword and jigsaw, open source provides bite-sized intellectual escapes.
 
 (rr-open-source-benefitsresearch)=
 ## How Open Source Software Benefits Research
@@ -56,9 +56,9 @@ Working openly also allows any number of researchers to collaborate on projects 
 (rr-open-source-run)=
 ## How to Run Your Open Source Software Project
 
-You can open source an idea, a work in progress, or after years of being closed source. At the most basic level, all you need to do is put your code online somewhere that is likely to last a long time. 你可以将你的代码分配为 DOI [{term}`def<Digital Object Identifier>`] (在关于 {ref}的章节中讨论过`rr-rdmsharing`). 这有助于确保如果有人使用您的工作或以您的工作为基础，您可以获得适当的积分。 This helps ensure that you get proper credit if people use or build upon your work.
+You can open source an idea, a work in progress, or after years of being closed source. At the most basic level, all you need to do is put your code online somewhere that is likely to last a long time. You can make your code citeable by assigning it a DOI [{term}`def<Digital Object Identifier>`] (as discussed in the section on {ref}`rr-rdm-sharing`). This helps ensure that you get proper credit if people use or build upon your work.
 
-A popular place to make your code available is GitHub [{term}`def<Github>`] (see the chapter on {ref}`rr-vcs`). You must include a license file stating that anyone has permission to use, copy, and modify your work. Without this, no one can legally use your work, and so it is not open source. The {ref}`rr-licensing` chapter will help you to pick the best license for your project. 还有几个其他文件你应该包含在你的代码中，如下所述。 There are also a few other files you should include with your code, as described below.
+A popular place to make your code available is GitHub [{term}`def<Github>`] (see the chapter on {ref}`rr-vcs`). You must include a license file stating that anyone has permission to use, copy, and modify your work. Without this, no one can legally use your work, and so it is not open source. The {ref}`rr-licensing` chapter will help you to pick the best license for your project. There are also a few other files you should include with your code, as described below.
 
 (rr-open-source-run-readme)=
 ### Welcome Users by Adding Information to Your README
