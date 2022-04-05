@@ -51,7 +51,7 @@ By allowing members of the public to contribute to scientific research, citizen 
 
 Whilst citizen science encompasses one way of contributing to scientific research, Patient and Public Involvement (PPI) is a far more specialized form of citizen science which is particularly useful when researching health or social issues.
 
-PPI no es **:
+PPI is *not*:
 - _Participation_: Recruitment of participants (such as for a clinical trial or survey) to contribute data to a project.
 - _Engagement_: Dissemination, such as presenting at patient interest groups or writing a blog post.
 
