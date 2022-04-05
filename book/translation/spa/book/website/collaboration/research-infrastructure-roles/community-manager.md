@@ -76,7 +76,7 @@ You can find the Skills Wheel on Zendo here: [https://zenodo.org/record/4437294#
 
 (cl-infrastructure-communitymanagers-organisations)=
 ## Organisations that support Community Managers
-Centro de Colaboración Científica y Compromiso Comunitario ([cscce. rg](https://www.cscce.org/) trabaja para _"profesionalizar e institucionalizar el rol del gestor de compromiso con la comunidad (CEM) dentro de la ciencia._ Ofrecen formación, recursos co-creados, investigación, y una comunidad activa de prácticas para que los administradores de la comunidad científica se conecten y se apoyen mutuamente.
+The Center for Scientific Collaboration and Community Engagement ([cscce.org](https://www.cscce.org/) works to _"professionalize and institutionalize the role of the community engagement manager (CEM) within science."_ They offer training, co-created resources, research, and an active community of practice for scientific community managers to connect and support each other.
 
 (cl-infrastructure-communitymanagers-summary)=
 ## Summary
