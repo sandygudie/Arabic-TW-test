@@ -1,14 +1,14 @@
-(دراسة حالة) =
-# دراسات الحالات الإفرادية: بحوث قابلة للتقويم
+(rr-case-studies)=
+# Case Studies: Reproducible Research
 
-## المتطلبات الأساسية/مستوى المهارة الموصى به
+## Prerequisites / recommended skill level
 
-يفترض هذا الفصل الإلمام بعدة مواضيع تغطيها {ref}`rr`. وبما أن الأمثلة لن تثبت جميعها استخدام نفس مجموعات الأساليب المشمولة بهذا الدليل، ويختلف مستوى المطلب الأساسي ومستوى المهارات باختلاف دراسات الحالة. ولذلك، نوصي المؤلفين بأن يبينوا تلك المهارات لكل دراسة حالة على حدة.
+This chapter assumes familiarity with several topics covered in this {ref}`rr`. Since not all examples will demonstrate the use of the same combinations of methods covered in this guide, the prerequisite and skill level will vary across the case studies. Therefore, we recommend the authors to indicate those skills for each case study separately.
 
 ## Summary
 
 في هذا الفصل، يتم عرض مجموعة مختارة من دراسات الحالة التي يمكن استخدامها لمعرفة كيفية استخدام طرق البحث القابلة للاستنساخ في الممارسة العملية وتطبيقها عبر الميادين. إذا كنت تعتقد أنه قد يكون لديك مثال للمساهمة بنفسك، لا تتردد في فتح مشكلة في [هنا](https://github.com/alan-turing-institute/the-turing-way/issues).
 
-## كيف سيساعدك هذا/لماذا هذا مفيد
+## How this will help you/ why this is useful
 
-والتعلم عن طريق المثال يمكن أن يكون طريقة فعالة لتعلم مفاهيم جديدة. ربما يمكنك بدء مشروعك الشخصي بتكييف أحد الأمثلة مع احتياجاتك؟
+Learning by example can be an effective way to learn new concepts. ربما يمكنك بدء مشروعك الشخصي بتكييف أحد الأمثلة مع احتياجاتك؟
