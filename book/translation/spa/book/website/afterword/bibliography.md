@@ -1,5 +1,5 @@
-(bibliografía)=
-# Bibliografía
+(bibliography)=
+# Bibliography
 
-*Este archivo consiste en una bibliografía completa para este libro ordenado alfabéticamente*
+*This file consist of a complete bibliography for this book sorted alphabetically*
 `{bibliography}`
