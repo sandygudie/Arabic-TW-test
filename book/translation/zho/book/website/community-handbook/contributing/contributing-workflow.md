@@ -38,8 +38,6 @@ book\website
 |   |   |   vcs-git.md
 |   |   |   vcs-git-commit.md
 |   |   |   ...
-| | | vcs-personal-stories.md
-condur| cvcs-checklist。
 |   |   |   vcs-personal-stories.md
 │   |   │   vcs-checklist.md
 │   |   │   vcs-resources.md
@@ -47,16 +45,10 @@ condur| cvcs-checklist。
 |   |
 |   └───new-chapter (new chapter folder)
 |   |   |   ...
-d
-x|
-| |
-| relevant clape (new chapter 文件夹)
-| | | | | ...
 |    
-原始－－－－－项目设计 <---- (项目设计指南文件夹)
-    与项目设计.md
-    个周期...
-```
+└───project-design <---- (folder for the Guide for Project Design)
+    │   project-design.md
+    │   ...
 ```
 ````
 
@@ -87,18 +79,11 @@ For example, because the [Statistical Methods Manuscript](https://the-turing-way
   sections:
   ...
 
-  :class: 下拉了
-```
-
-- 文件: reducible-research/reducible-research
-  部分:
-...
-
-  - 标题：案例研究
-    档案：复现-研究/案例研究
-    部分：
-    - 标题：统计方法 手稿
-      文件：复现-研究/案例研究/统计方法-手稿
+  - title: Case Studies
+    file: reproducible-research/case-studies
+    sections:
+    - title: A Statistical Methods Manuscript
+      file: reproducible-research/case-studies/statistical-methods-manuscript
 ```
 
 ````
