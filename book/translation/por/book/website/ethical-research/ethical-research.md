@@ -1,17 +1,18 @@
 (er)=
-# Guia de Pesquisa Ética
+# Guide for Ethical Research
 
-***Este guia abrange temas relacionados com aspectos éticos na ciência de dados.***
+***This guide covers topics related to ethical aspects in data science.***
 
-Os cientistas de dados tomam decisões orientadas para os dados que exigem a recolha de dados e abordagens de construção de modelos que podem ter graves implicações para a saúde. segurança, política, sociedade e tudo o que lhes está associado. Pesquisadores ou qualquer tipo de partes interessadas na ciência de dados têm a obrigação de considerar os padrões éticos e seu impacto da vida das pessoas {cite:ps}`Loyola2020Ética`.
+Data scientists make data-driven decisions that require the collection of data and model building approaches that can have serious implications for health, security, politics, society and everything associated with them. Researchers or any kind of stakeholders in data science have an obligation to consider the ethical standards and their impact of people's lives {cite:ps}`Loyola2020Ethics`.
 
 ```{figure} ../figures/ethics.jpg
 ---
-nome: ética
-alta: uma ilustração de um martelo de madeira rotulado com a lei está atingindo uma tábua rotulada com uma ética com uma citação "considere uma restrição necessária ao compartilhamento de diferentes tipos de dados
---- Pesquisa de Ética. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+name: ethics
+alt: An illustration of a wooden judge hammer labeled with law is hitting a plank labeled with ethics with a quotation "consider necessary restriction around sharing different types of data
+---
+Research Ethics. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-Neste guia, convidamos discussões e orientações sobre considerações éticas que um cientista de dados deve ter em mente para garantir não só que o seu trabalho mantém um elevado nível de integridade moral, mas também que o seu trabalho é realizado segundo os mais elevados padrões científicos.
+In this guide, we invite discussions and guidance on ethical considerations that a data scientist should keep in mind to ensure not only that their work maintains a high level of moral integrity, but also that their work is carried out at the highest scientific standards.
 
-Confira nossas [diretrizes de contribuição](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) para participar.
+Check out our [contributing guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) to get involved.
