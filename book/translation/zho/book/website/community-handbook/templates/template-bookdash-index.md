@@ -121,7 +121,7 @@ We will use take a mid-sprint break and get to know each other through a "show a
 
 *Show and tell activity:*
 
-- 带着一些你可以展示和告诉他人的东西。 你喜欢喜欢的爱好、 侧边项目或工作项目(而不是Ting Way)。
+- Bring along something that you can show and tell others about a favourite hobby, side project, or work project (other than The Turing Way).
 - We will informally go around the room and have a chance to hear from you, exchange thoughts and ideas beyond our Book Dash plans.
 - You are not required to speak. We will leave the topic entirely up to you to decide. We look forward to learning with you.
 
@@ -205,7 +205,7 @@ Any day-to-day feedback during the event can be directly shared in the main even
 
 ## :gift: Your contribution to the project
 
-**请阅读并遵循我们的项目 [贡献指南](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md)！ ** :sparkles:
+**Please read and follow our project [Contributing Guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md)!** :sparkles:
 
 If you find them confusing, difficult to follow or think that information needs to be added, please let us know! This will help us improve the contributing experience for everyone going forward.
 
@@ -230,7 +230,7 @@ The tl;dr version for easy reference during dashing:
 * You can also collaborate with others or start slowly by checking out the list of [open issues](https://github.com/alan-turing-institute/the-turing-way/issues)
 * Proofread [existing chapters](https://the-turing-way.netlify.com) (check for typos, grammar, and links)
 * Add further information to an existing chapter
-* 建议新章节的主题(特别是如果你可以写它们！
+* Suggest topics for new chapters (particularly if you can write them!)
     * A chapter can be minimum 3 paragraphs in length - what can you write 3 paragraphs on?
     * What skills or tools do you wish you had been taught at the start of your research career?
 * Review `[Ready to review]` [pull requests](https://github.com/alan-turing-institute/the-turing-way/pulls)
