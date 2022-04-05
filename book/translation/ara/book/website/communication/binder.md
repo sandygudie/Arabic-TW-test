@@ -1,5 +1,5 @@
 (عاش) =
-# عشق
+# Binder
 
 وفي هذا الفصل، سنناقش مشروعي بيندر و mybinder.org كوسيلة لتقاسم البحوث بشفافية وتفاعل.
 
@@ -58,14 +58,14 @@ GitHub هو منصة رائعة لمشاركة التعليمات البرمجي
 يمكنك معرفة المزيد حول مشروع Binder و mybinder.org في صفحة [حول mybinder.org](https://mybinder.readthedocs.io/en/latest/about/about.html).
 
 (دينام) =
-### التشكك
+### Disambiguation
 
-وفي هذا الفرع، هناك بعض المصطلحات ذات الصلة التي سيجري إيجازها هنا توخيا للوضوح:
+In this section, there are some related terms, which will be outlined here for clarity:
 
 - **مشروع بايندر**: مجتمع مفتوح يجعل من الممكن إنشاء بيئات شفافة ومتفاعلة وقابلة للتكاثر. الناتج التكنولوجي لهذا المشروع هو {ref}`rr-binderhub`.
-- **BinderHub**: بنية تحتية قائمة على السحابة لتوليد البيندز. الأكثر استخداما هو [mybinder.org](https://mybinder.org)، والذي يقوم بصيانته فريق المشروع بيندر. تم بناءه على مجموعة من الأدوات مفتوحة المصدر، بما في ذلك [JupyterHub](https://z2jh.jupyter.org)، لتوفير موارد الكمبيوتر السحابية للمستخدمين عبر المتصفح؛ و [`repo2docker`](https://repo2docker.readthedocs.io/)لبناء صور أرصفة من المشاريع. بما أنه مشروع مفتوح، من الممكن إنشاء BinderHubs الأخرى التي يمكنها دعم تكوينات أكثر تخصصا. ويمكن أن يشمل أحد هذه التشكيلات المصادقة لتمكين المستودعات الخاصة من تقاسمها فيما بين المتعاونين الوثيقين.
+- **BinderHub**: بنية تحتية قائمة على السحابة لتوليد البيندز. الأكثر استخداما هو [mybinder.org](https://mybinder.org)، والذي يقوم بصيانته فريق المشروع بيندر. تم بناءه على مجموعة من الأدوات مفتوحة المصدر، بما في ذلك [JupyterHub](https://z2jh.jupyter.org)، لتوفير موارد الكمبيوتر السحابية للمستخدمين عبر المتصفح؛ و [`repo2docker`](https://repo2docker.readthedocs.io/)لبناء صور أرصفة من المشاريع. بما أنه مشروع مفتوح، من الممكن إنشاء BinderHubs الأخرى التي يمكنها دعم تكوينات أكثر تخصصا. One such configuration could include authentication to enable private repositories to be shared amongst close collaborators.
 - **Binder**: نسخة مشتركة من المشروع الذي يمكن الاطلاع عليه والتفاعل في بيئة حسابية قابلة للتكرار تعمل في السحابة عبر متصفح ويب. عن طريق التشغيل الآلي لتثبيت البيئة الحاسوبية (كما نوقش في فصل {ref}`rr-renv` ) مشروع بيندر يحوّل النفقات العامة لتقاسم مثل هذه البيئة إلى عمل لتقاسم عنوان URL.
-- **[mybinder.org](https://mybinder.org)**: BinderHub. لأنه عام، يجب ألا تستخدمه إذا كان مشروعك يتطلب أي معلومات شخصية أو حساسة (مثل كلمات المرور).
+- **[mybinder.org](https://mybinder.org)**: A public and free BinderHub. Because it is public, you should not use it if your project requires any personal or sensitive information (such as passwords).
 - **قرع**: عملية صنع بايندر من مشروع.
 
 (مدخل مناسب)=
