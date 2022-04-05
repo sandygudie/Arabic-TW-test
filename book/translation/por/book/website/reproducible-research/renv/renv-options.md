@@ -1,45 +1,46 @@
 (rr-renv-options)=
-# Capturando Ambientes Computacionais
+# Capturing Computational Environments
 
-Existem várias maneiras de capturar ambientes computacionais. As principais abrangidas neste capítulo serão os Sistemas de Gestão de Pacotes, Binder, Máquinas Virtuais e Contêineres. Cada um tem seus prós e contras, e a opção mais apropriada para você dependerá da natureza do seu projeto.
+There are several ways of capturing computational environments. The major ones covered in this chapter will be Package Management Systems, Binder, Virtual Machines, and Containers. Each has its pros and cons, and the most appropriate option for you will depend on the nature of your project.
 
-Podem ser amplamente divididos em duas categorias: aquelas que capturam apenas o software e suas versões usadas em um ambiente (Sistemas de Gerenciamento de ackage), e aqueles que replicam todo um ambiente computacional - incluindo o sistema operacional e configurações personalizadas (Máquinas Virtuais e Contêiners).
+They can be broadly split into two categories: those that capture only the software and its versions used in an environment (Package Management Systems), and those that replicate an entire computational environment - including the operating system and customised settings (Virtual Machines and Containers).
 
-Outra forma de as separar é através do modo como a investigação reproduzida é apresentada ao reprodutor. Usar Binder ou uma Máquina Virtual cria um resultado muito mais gráfico, do tipo GUI. Em contraste, as saídas dos contêineres e dos Sistemas de Gestão de Pacotes são mais facilmente interagidas através da linha de comando.
+Another way these can be split is by how the reproduced research is presented to the reproducer. Using Binder or a Virtual Machine creates a much more graphical, GUI-type result. In contrast, the outputs of Containers and Package Management Systems are more easily interacted with via the command line.
 
 ```{figure} ../../figures/computational-environments.jpg
 ---
-nome: ambientes computacionais
-alt: Uma imagem das várias ferramentas usadas para capturar ambientes computacionais
---- Formas de capturar ambientes computacionais
+name: computational-environments
+alt: A depiction of the various tools used to capture computational environments
+---
+Ways of capturing computational environments
 ```
 
-Uma breve descrição de cada uma dessas ferramentas é fornecida abaixo
+A brief description of each of these tools is given below
 
 
 (rr-renv-options-pms)=
-## Sistemas de Gerenciamento de Pacotes
+## Package Management Systems
 
-Sistemas de Gerenciamento de Pacotes [{term}`def<Package Management System>`] são ferramentas usadas para instalar e acompanhar o software (e versões críticas de software) usados em um sistema e podem exportar arquivos especificando estes pacotes/versões de software necessários. Os arquivos podem ser compartilhados com outras pessoas que podem usá-los para replicar o ambiente, seja manualmente ou através de seus sistemas de gerenciamento de pacotes.
+Package Management Systems [{term}`def<Package Management System>`] are tools used to install and keep track of the software (and critically versions of software) used on a system and can export files specifying these required software packages/versions. The files can be shared with others who can use them to replicate the environment, either manually or via their Package Management Systems.
 
 
 (rr-renv-options-binder)=
-## Vestimenta
+## Binder
 
-Binder [{term}`def<Binder>`] é um serviço que gera versões completas de projetos de um repositório git e os serve na nuvem. Esses projetos "binderizados" podem ser acessados e interagidos por outros através de um navegador web. Para fazer isso, a Binder requer que o software (e, opcionalmente, as versões) necessárias para executar o projeto sejam especificados. Os usuários podem fazer uso de Sistemas de Gerenciamento de Pacotes ou Dockerfiles (discutidos nas seções {ref}`rr-renv-options-containers` ) para fazer isso, se eles assim o desejarem.
+Binder [{term}`def<Binder>`] is a service which generates fully-functioning versions of projects from a git repository and serves them on the cloud. These "binderized" projects can be accessed and interacted with by others via a web browser. In order to do this, Binder requires that the software (and, optionally, versions) required to run the project are specified. Users can make use of Package Management Systems or Dockerfiles (discussed in the {ref}`rr-renv-options-containers` sections) to do this if they so desire.
 
 
 (rr-renv-options-vm)=
-## Máquinas virtuais
+## Virtual Machines
 
-Máquinas Virtuais [{term}`def<Virtual machine>`] são computadores simulados. Um usuário pode fazer um computador "virtual" muito facilmente, especificando o sistema operacional que ele quer que ele tenha, entre outros recursos, e execute-o como qualquer outro aplicativo. Dentro do aplicativo será a área de trabalho, sistema de arquivos, bibliotecas de software padrão e outros recursos da máquina especificada. Eles podem ser interagidos como se fosse um computador de verdade. Máquinas virtuais podem ser facilmente replicadas e compartilhadas. Isso permite que pesquisadores criem Máquinas Virtuais, façam pesquisa sobre elas e depois salvem seu estado juntamente com seus arquivos, configurações e saídas. Poderão depois distribuí-las como um projecto em pleno funcionamento.
+Virtual Machines [{term}`def<Virtual machine>`] are simulated computers. A user can make a "virtual" computer very easily, specifying the operating system they want it to have, among other features, and run it like any other app. Within the app will be the desktop, file system, default software libraries, and other features of the specified machine. These can be interacted with as if it was a real computer. Virtual Machines can be easily replicated and shared. This allows researchers to create Virtual Machines, perform their research on them, and then save their state along with their files, settings and outputs. They can then distribute these as a fully-functioning project.
 
 
 (rr-renv-options-containers)=
-## Recipientes
+## Containers
 
-Os contêineres [{term}`def<Container>`] oferecem muitos dos mesmos benefícios que as Máquinas Virtuais. Actuam, essencialmente, como máquinas completamente separadas, que podem conter os seus próprios arquivos, programas e configurações.
+Containers [{term}`def<Container>`] offer many of the same benefits as Virtual Machines. They essentially act as entirely separate machines which can contain their own files, software and settings.
 
-A diferença é que as Máquinas Virtuais incluem um sistema operacional inteiro, juntamente com todo o software associado que é normalmente empacotado com ele - independentemente de o projeto fazer uso do software associado. Os contêineres só contêm o software e arquivos definidos explicitamente dentro deles para executar o projeto que eles contêm. Isto os torna muito mais leves do que as Máquinas Virtuais.
+The difference is that Virtual Machines include an entire operating system along with all the associated software that is typically packaged with it - regardless of whether the project makes use of that associated software. Containers only contain the software and files explicitly defined within them in order to run the project they contain. This makes them far more lightweight than Virtual Machines.
 
-Os contêineres são particularmente úteis se projetos precisarem ser executados em ambientes de computação de alto desempenho. Uma vez que eles já contém __ todo o software necessário, salvam ter que instalar qualquer coisa em um sistema não familiar, onde o pesquisador pode não ter as permissões necessárias para fazê-lo.
+Containers are particularly useful if projects need to run on high-performance computing environments. Since they already _contain_ all the necessary software, they save having to install anything on an unfamiliar system where the researcher may not have the required permissions to do so.
