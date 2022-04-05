@@ -1,9 +1,9 @@
 (welcome)=
 # Welcome
 
-*مرحبا بكم في كتاب (The Turing Way) منهج تورينج  لتعلم علم البيانات الأخلاقي والتعاوني.*
+*Welcome to The Turing Way handbook to reproducible, ethical and collaborative data science.*
 
-_  (The Turing Way) منهج تورينج _ مفتوح المصدر، وتعاون مفتوح، وتحركه المجتمعات المحلية. We involve and support a diverse community of contributors to make data science accessible, comprehensible and effective for everyone. هدفنا هو توفير كل المعلومات التي يقدمها الباحثون وعلماء البيانات في الأوساط الأكاديمية، وينبغي للصناعة والقطاع العام أن يكفلا سهولة استنساخ المشاريع التي يعملان عليها وإعادة استخدامها.
+_The Turing Way_ project is open source, open collaboration, and community-driven. We involve and support a diverse community of contributors to make data science accessible, comprehensible and effective for everyone. هدفنا هو توفير كل المعلومات التي يقدمها الباحثون وعلماء البيانات في الأوساط الأكاديمية، وينبغي للصناعة والقطاع العام أن يكفلا سهولة استنساخ المشاريع التي يعملان عليها وإعادة استخدامها.
 
 ```{admonition} Top Tip
 :class: tip
@@ -23,7 +23,7 @@ _The Turing Way_ project illustration by Scriberia. Zenodo. [http://doi.org/10.5
 ```
 
 (welcome-community)=
-## عن مجتمعنا
+## Our Community
 
 _The Turing Way_ community is dedicated to making collaborative, reusable and transparent research "too easy not to do". That means investing in the socio-technical skills required to work in a team, to build something more significant than any individual could deliver alone.
 
@@ -42,7 +42,7 @@ The book is collaboratively written and open from the start. To make this projec
 name: theturingway-chapters
 alt: The Turing Way Guide to reproducible research and it's stucture illustrated to show a set of doors to represent how it's built on chapters and sub chapters of the different areas of the guide
 ---
-_The Turing Way_ project illustration by Scriberia. النسخة الأصلية على Zenodo. http://doi.org/10.5281/zenodo.3695300.
+_The Turing Way_ project illustration by Scriberia. Original version on Zenodo. http://doi.org/10.5281/zenodo.3695300.
 ```
 
 Although _The Turing Way_ receives support and funding from [The Alan Turing Institute](https://www.turing.ac.uk/), the project is designed to be a global collaboration. We have contributions from across the UK, and from India, Mexico, Australia, USA, and many European countries. Chapters have been written, reviewed and curated by members of research institutes and universities, government departments, and industry. We are committed to creating a space where people with diverse expertise and lived experiences can share their knowledge with others to allow us all to use data science to improve the world.
