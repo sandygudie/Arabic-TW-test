@@ -1,86 +1,86 @@
 (pd-code-styling-guidelines)=
-# Diretrizes para estilo de código
+# Guidelines for Code Styling
 
-As directrizes de estilo diferem entre organizações, línguas e ao longo do tempo. Antes, o guia de estilo Python Enhancement Proposal 8 (PEP 8) tem tido numerosas revisões desde a sua publicação em 2001. Você deve escolher um framework que seja melhor para os seus propósitos: seja para o seu benefício ou o benefício dos outros. Também é importante mantermo-nos consistentes (e não consistentemente inconsistentes)!
+Style guidelines differ between organisations, languages, and over time. Even, the Python style guide Python Enhancement Proposal 8 (PEP 8) has had numerous revisions since it was released in 2001. You must choose a framework that is best for your purposes: be they for your benefit or the benefit of others. It is also important to remain consistent (and not consistently inconsistent)!
 
-Diretrizes de estilo incluem conselhos para nome de arquivos, nome de variáveis, uso de comentários e espaço em branco e colchete.
+Style guidelines include advice for file naming, variable naming, use of comments, and whitespace and bracketing.
 
-Os seguintes links são links para guias de estilo existentes que podem ser úteis ao decidir como formatar seu código:
+The following are links to existing style guides that may be of use when deciding how to format your code:
 
-* [PEP8](https://www.python.org/dev/peps/pep-0008/) para Python.
-* [Guia de estilo](http://adv-r.had.co.nz/Style.html) para R </a> de Hadley Wickham.
-* [Guia de estilo](https://google.github.io/styleguide/Rguide.xml) do Google para R.
-* [Guia de estilo da Microsoft](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions) para C#.
-* [PEP7](https://www.python.org/dev/peps/pep-0007/) para C.
+* [PEP8](https://www.python.org/dev/peps/pep-0008/) for Python.
+* [Hadley Wickham's](http://adv-r.had.co.nz/Style.html) style guide for R.
+* [Google's](https://google.github.io/styleguide/Rguide.xml) style guide for R.
+* [Microsoft's](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions) style guide for C#.
+* [PEP7](https://www.python.org/dev/peps/pep-0007/) for C.
 
-No entanto, para começar rapidamente, as seções seguintes fornecem alguns conselhos para o estilo de código.
+However, to get started quickly, the following sections present some advice for code style.
 
-## Nomeação de arquivos
+## File Naming
 
-O [Centro para Ciência Aberta](http://help.osf.io/m/bestpractices/l/609932-file-naming) tem algumas sugestões úteis para a nomeação de arquivos, em especial assegurar a sua legibilidade para os seres humanos e para as máquinas. Isto inclui evitar o uso de caracteres curinga (@£$%) e o uso de sublinhados ("\_") para fornecer informações, e traços ("\-") para conjuntar informações ou espaços. Também sugerem datar ou numerar arquivos e evitar palavras como FINAL (ou FINAL-FINAL). A sugestão de namoro é o formato longo `YYYY-MM-DD`, seguido pelo nome do arquivo e o número da versão. Isso resulta em ordem cronológica automática. Por exemplo:
+The [Centre for Open Science](http://help.osf.io/m/bestpractices/l/609932-file-naming) has some useful suggestions for the naming of files, particularly ensuring that they are readable for both humans and machines. This includes avoiding the use of wildcard characters (@£$%) and using underscores ("\_") to delimit information, and dashes ("\-") to conjunct information or spaces. They also suggest dating or numbering files and avoiding words like FINAL (or FINAL-FINAL). The dating suggestion is the long format `YYYY-MM-DD`, followed by the name of the file, and the version number. This results in automatic, chronological order. For example:
 
 ```r
-dados <- read.csv("2019-05-17_Turing-Way_Book-Dash.csv")
+data <- read.csv("2019-05-17_Turing-Way_Book-Dash.csv")
 
 ```
-O guia de estilo R sugere manter os nomes de arquivos básicos. Isso pode ser adequado para pequenos projetos compactos, no entanto em projetos maiores com muitos arquivos similares. ou se você não estiver usando o controle de versão (ver capítulo /? talvez seja mais adequado utilizar as orientações COS. Para mais detalhes, por favor veja o capítulo no {ref}`Nome de Arquivo<pd-filenaming>`.
+The R style guide suggests keeping file names basic. This might be appropriate for small compact projects, however over larger projects with lots of similar files, or if you are not using version control (see chapter /?) it may be more appropriate to use the COS guidelines. For more details please see the chapter on {ref}`File Naming<pd-filenaming>`.
 
 ### Versioning
 
-Uma consideração adicional à nomeação de arquivos é versionar o seu software. Usar diretrizes de versão ajudará a evitar o uso de palavras como `_FINAL. R`. Uma convenção típica é a abordagem MajorMinorPatch (ou MajorMinorRevision). Nisto, sua primeira tentativa em um pacote ou biblioteca pode ser assim:
+An extra consideration to file-naming is versioning your software. Using versioning guidelines will help avoid using words like `_FINAL.R`. A typical convention is the MajorMinorPatch (or MajorMinorRevision) approach. In this, your first attempt at a package or library might look like this:
 ```
-meu-pacote_1_0_0.py
+my-package_1_0_0.py
 ```
-Isso indica que o software está na fase alfa sem revisão/alterada (0) da primeira versão principal.
+This indicates that the software is in the unrevised/patched alpha stage (0) of the first major release.
 
-## Nomeação de Variáveis
+## Variable Naming
 
-Em projetos de matemática na escola, as variáveis são muitas vezes inimaginativamente chamadas "x", "y" e "z". Esta brevidade é provavelmente porque os professores (compreensivelmente) não querem escrever repetidamente nomes de variáveis longos no quadro. No entanto, ao programar, você tem a liberdade de nomear suas variáveis o que quiser. Isso pode ser útil para representar o fluxo do seu script.
+In maths projects at school,  variables are often unimaginatively named "x", "y", and "z". This brevity is probably because teachers (understandably) do not want to repeatedly write long variable names on the board. In coding, however, you have the freedom to name your variables anything you like. This can be useful for representing the flow of your script.
 
-Seja criativo!
+Be creative!
 
-### Convenções de nomeação
+### Naming conventions
 
-Para clareza e legibilidade, escolher um conjunto de convenções para suas variáveis é útil. Existe uma grande variedade, e algumas pessoas podem ser muito eloquentes sobre qual é "correto" (selecione uma que esteja certa para você!). Estas incluem:
+For clarity and readability, choosing a set of naming conventions for your variables is useful. There is a large variety, and some people can be quite vocal about which one is 'correct' (pick one that is right for you!). These include:
 
 - CamelCase
 - lowerCamelCase
-- Sublinhado_Métodos
-- Misturado_Case_With_Underscores
-- minúsculas
+- Underscore_Methods
+- Mixed_Case_With_Underscores
+- lowercase
 
-Por exemplo:
+For example:
 
 ```r
-raw_data <- read.csv("data.csv") # Não muito criativo
-rawData <- read.csv("data.csv") #lowerCamelCase
+raw_data <- read.csv("data.csv") # Not very creative
+rawData <- read.csv("data.csv")  #lowerCamelCase
 ```
 
-OK, `raw_data` não é muito criativo, mas poderia ter sido facilmente `spam` ou `ovos` se isso fizesse sentido no seu script. Você também pode ter uma função que recupera uma variável:
+OK, `raw_data` is not very creative, but it could easily have been `spam` or `eggs` if that makes sense in your script. You may also have a function that recodes a variable:
 
 ```r
 rawDat <- recode(rawDat)
 ```
 
-A reutilização do nome da variável não fornece informações sobre o processo que o rawDat atravessou. Armazená-lo como uma variável separada nos permite ver quais transformações foram realizadas na variável original:
+Reusing the variable name provides no information about the process that rawDat has been through. Storing it as a separate variable lets us see what transformations have been carried out on the original variable:
 
 ```
-rawDat_recoded <- recode(rawData)
+rawDat_recoded <- recode(rawDat)
 ```
 
-Se você gostar, você pode limpar a variável antiga usando remover como acima.
+If you like you can clear out the old variable using remove as above.
 
 ```
 remove(rawDat) #In R
 del(rawDat) # In Python
 ```
 
-É importante escolher um estilo e cingir-se:
+It is important to choose one style and stick to it:
 
 ```
-ThisIs Because_SwitchingbetweenDifferentFormatos é.difícil de ler.
+ThisIs Because_SwitchingbetweenDifferentformats is.difficult to read.
 ```
 
 ```
-Considerando que _se_você agarra_a um estilo, seu_código será_mais fácil_seguir!
+Where_as if_you stick_to one_style, your_code will_be easier_to_follow!
 ```
