@@ -1,7 +1,7 @@
 (cm-os-comms-issue-tracking)=
 # Issue Tracking
 
-Most software development projects have some kind of issue board to easily track current issues in the project, such as bug fixing, rolling out new features, or community engagement plans. [GitHub](https://github.com) (一个非常受欢迎的协作平台) 有一个内置的 [问题跟踪器](https://guides.github.com/features/issues/) 和 [项目板](https://help.github.com/en/github/managing-your-work-on-github/about-project-boards) 可以将问题一起进行比较以追踪更具体的进度。
+Most software development projects have some kind of issue board to easily track current issues in the project, such as bug fixing, rolling out new features, or community engagement plans. [GitHub](https://github.com) (a very popular collaboration platform) has a built-in [issue tracker](https://guides.github.com/features/issues/) and [project boards](https://help.github.com/en/github/managing-your-work-on-github/about-project-boards) where issues can be collated together to track progress towards a more specific, higher-level goal.
 
 This section is a discussion around why issue tracking is useful and where you can store them.
 
@@ -29,7 +29,7 @@ This approach has several smaller issue boards for each repository (or module) w
 (os-comms-issue-tracking-purpose-issues-case-study)=
 #### Case study: mybinder.org
 
-[mybinder。 rg](https://mybinder.org) 是一个方便用户通过云端轻松分享可重复分析和计算环境的平台。 This project is spread across a number of different repositories, each one an individual tool that can be used in isolation from the others. These are:
+[mybinder.org](https://mybinder.org) is a platform facilitating users to easily share reproducible analyses and computational environments with one another in [Jupyter Notebooks](https://jupyter-notebook.readthedocs.io/en/stable/) via the cloud. This project is spread across a number of different repositories, each one an individual tool that can be used in isolation from the others. These are:
 
 - [repo2docker](https://github.com/jupyter/repo2docker),
 - [JupyterHub for Kubernetes](https://github.com/jupyterhub/zero-to-jupyterhub-k8s),
@@ -43,12 +43,9 @@ Can you imagine trying to combine all of these issues into one place? It would b
 
 In the Project Binder team's experience, most community members contribute to just one or maybe two of these projects. So having consolidated access to all the issues for all the working parts is not a high priority for their community.
 
-他们发现，分发问题跟踪后，社区中那些只能在朱皮特尔胡布工作的成员能够轻松地作出贡献，而不需要熟悉运行
-mybinder的一切。</p> 
+They find that having distributed issue tracking allows those members of the community who may only work with JupyterHub to comfortably contribute without needing to be familiar with everything that goes into running [mybinder.org](https://mybinder.org).
 
 (os-comms-issue-tracking-purpose-issues-case-centralised-issue)=
-
-
 ### Centralised Issue Repository
 
 With a big project, it can be tempting to collate all your issues into one place for the sake of easier management: a centralised system. If you are using issues to track a central service, personal to-do lists, and answering questions like if a task is high priority or if it is assigned to someone already, then issue tracking in a centralised system is a good option and it does not necessarily need to be circulated to your wider community.
@@ -62,8 +59,6 @@ However in terms of engaging your community, such a centralised system can be pr
 A very large impact on the community of having a separate issue board is that when people visit your code repository, it looks like an inactive project because there are no issues or conversations going on where the code is hosted. This may cause community members to believe that the code is no longer being actively developed/maintained/supported and may choose to use another codebase or software package.
 
 (os-comms-issue-tracking-comparative-table)=
-
-
 ## Comparative Table
 
 The table below compares features of distributed and centralised issue repositories for a multi-repository project.
@@ -79,12 +74,9 @@ The table below compares features of distributed and centralised issue repositor
 | Appears active to community             |                        |            ✅            |
 | Manageable volume                       |                        |            ✅            |
 
-
 *Power users = These are people who are already familiar enough with a platform to know the gotchas and tricks that make their experience more efficient
-
-
 
 ## Further Reading
 
-- 博客文章比较邮件列表和论坛的方便性和社区近似性： [https://psychcentral.com/blog/mailing-lists-versus-forums-community-closeness/](https://psychcentral.com/blog/mailing-lists-versus-forums-community-convenience-closeness/)
-- 博客文章由 [Tim Head](https://github.com/betatim):  [https://betatim.github.io/posts/posts-on-collective-thinking/](https://betatim.github.io/posts/thoughts-on-collective-thinking/)
+- Blog post comparing the convenience and community closeness of Mailing Lists and Forums: <https://psychcentral.com/blog/mailing-lists-versus-forums-community-convenience-closeness/>
+- Blog post by [Tim Head](https://github.com/betatim):  <https://betatim.github.io/posts/thoughts-on-collective-thinking/>
