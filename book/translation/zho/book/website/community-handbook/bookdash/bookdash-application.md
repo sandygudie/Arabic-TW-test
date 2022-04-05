@@ -1,15 +1,15 @@
 (ch-bookdash-application)=
-# 应用程序和审查进程
+# Application and Review Process
 
-申请、审查 我们已经制定了甄选程序，以便为所有感兴趣的成员提供一个公平的机会，让他们表示有兴趣参加我们的图书破折活动。
+The application, review, and selection process have been developed to provide a fair opportunity for all the interested members to show their interest in attending our book dash events.
 
-在这个小章中，我们提供了关于该书的应用程序和审查过程的细节。
+In this subchapter, we have provided details on the book dash's application and reviewing process.
 
-## 呼叫申请
+## Call for applications
 
 这本书破折号活动由最多15名参与者组织。 The event is divided into multiple sessions with small groups of participants attending in their time zone. This allows the core team members to offer specific mentorship to the invited participants and make this an interactive, intimate, fun, and productive event.
 
-为了公平地作出这一选择，至少提前3个月开始申请，以便感兴趣的成员能够分享他们的技能。 通过一个简短的应用程序，了解到的兴趣和预期结果。 这些应用程序至少开放4周，时间表通过我们的通讯、Twitter种子和应用程序表单明确传达。
+为了公平地作出这一选择，至少提前3个月开始申请，以便感兴趣的成员能够分享他们的技能。 通过一个简短的应用程序，了解到的兴趣和预期结果。 The applications are kept open for a minimum of 4 weeks and the timeline is communicated clearly through our newsletters, Twitter feed, and application form.
 
 This application can take 30-45 minutes to complete. We have created this template document with all the questions to prepare a draft before submission: https://tinyurl.com/tw-bookdash-template.
 
@@ -34,14 +34,14 @@ We ask an optional question for returning members to express their interest to t
 
 Finally, we provide details regarding the event schedule and ask our applicants to indicate which time slots for collaborative co-working and social sessions would work for their time zones.
 
-## 审查进程
+## Reviewing process
 
 _的应用程序诱惑路径_ 预订破折号由至少2个 _的成员审核_ 核心团队审阅。 A response form created by the organising members using the rubrics described below, the response from which are shared among all the reviewers during a designated meeting between the panel members. 每项标准的评分在1至3之间，3=标准完全符合，2=标准部分符合，1=标准没有达到。 为了避免个人偏见，下文对审评答复表中的每个问题都明确界定了每个得分。 这个标题旨在评估该应用的多个方面，避免小组成员可能有的任何个人偏见。
 
 *这个标题来自 [Mozilla Open Leader](https://foundation.mozilla.org/en/initiatives/mozilla-open-leaders/) and [Open Life Science](https://openlifesci.org/) 程序*
 
 (ch-bookdash-application-rubrics)=
-### 评分应用程序的歌词
+### Rubrics for scoring applications
 
 根据它们对申请的评价，它们将为不同的标准提供评分，这些评分将按以下方式进行评估：
 
@@ -54,33 +54,33 @@ _的应用程序诱惑路径_ 预订破折号由至少2个 _的成员审核_ 核
 
 (这个评分图形基于Mozilla 开放领袖和开放生命科学选择标准)
 1. 得分 **最多1秒** 的申请者没有一个明确的想法/话题可供贡献或者对 _的总体目标没有明确的了解。</li>
-2 得分 **最多2秒** 的申请者如果不完全适合项目/事件则很热情！ 例如，他们可能对目前不属于项目/活动范围的贡献提出一些想法。
-3 得分最多为 **的 3 s** 的申请者显然已经准备就绪，面向目标， 有兴趣为该项目作出贡献，并很高兴在活动中向其他人学习。</ol>
+2 Applicants who score **mostly 2s** are enthusiastic if not wholly suitable for the project/event, for example, they may come with some ideas for a contribution that is currently not in the scope of the project/event.
+3 Applicants who score **mostly 3s** are clearly ready, goal-oriented, interested in contributing to the project, and excited to learn from others at the event.</ol>
 
 **表格概括了我们每个得分的标本和标准：**
 
 *This scoring rubric is based on the Mozilla Open Leaders and Open Life Science (OLS) selection criteria as described in the 'Review Rubrics' on [this GitHub repository](https://github.com/open-life-science/application-forms).*
 
-| 班级                      | 得分1                                                                 | 得分 2                                                          |                                                                             得分 3 |
-| ----------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------- | --------------------------------------------------------------------------------:|
-| **书籍破折号事件的准备情况**        | (尚未准备好) 不提供足够的信息，或似乎误解 _图案路径_ 项目和此事件的性质                             | (热情) 觉得可以清楚地了解 _Ting Way_ 项目和这个事件，并且带着特定的贡献内容                 |                       (clear) 看来要清楚地了解Ting Way 项目和本次活动，并清楚地了解他们如何能够在本次活动中相互促进和合作 |
-| **项目捐助的目标：**            | (尚未准备好) 分享与 _无关的模糊或笼统的想法_ 项目和此事件或根本没有目标                             | (激情) 共享清晰度 过于雄心勃勃的 _美味之路_ 项目和这个可能在协作咖啡厅中精炼的事件， 或集思广益会议期间事件的前天 |                              (clear) 共享清除 可实现的贡献/开发想法适合于 _诱惑方式_ 项目，可能通过申请者的参与实现。 |
-| **参与的目的以及他们将从书签破解的内容：** | （尚未准备好）参与书粉碎的目的看起来几乎完全是以自己为中心的，并且关于申请人的地位。 而不是参与 _开发项目的 Ting 路径_ 社区 | （热情）参与书粉碎活动的目的从应用程序中并不完全清楚，或是有限的（即使有用）， 例如键盘或错误修正             | (clear) 参加书籍破折活动的目的在许多方面都很有价值，很可能有助于申请者成为积极贡献者并掌握他们在 _Ting Way_ 项目和更广泛的生态系统中的工作。 |
-| **在书签结束后愿意合作并做出贡献：**    | 看起来不允许合作性的工作方式或只对数据科学、研究或相关主题的某个方面更感兴趣。                             | (热情) 看起来很高兴向他人学习， _画路_ 项目 但在一般情况下，对这些问题的含义不甚了解。               |                                             (clear) 看起来很高兴与其他人合作，并有助于 _诱惑的方式_ 社区 |
+| Sections                                                                  | Score 1                                                                                                                                                                                                           | Score 2                                                                                                                                                                                                       |                                                                                                                                                                                                                                                                Score 3 |
+| ------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| **Readiness for the book dash event**                                     | (not ready) Does not provide enough information or seems to misunderstand the nature of _The Turing Way_ project and this event in general                                                                        | (enthusiastic) Seems to have a clear understanding of _The Turing Way_ project and this event and brings along a specific content for contributions                                                           |                                                                                (clear) Seems to have a clear understanding of the Turing Way project and this event and a clear understanding of how they can contribute and collaborate with each other at this event |
+| **Goals for the project contributions:**                                  | (not ready) Shares vague or general ideas that are unrelated to _The Turing Way_ project and this event, or no goals at all                                                                                       | (enthusiastic) Shares clear, overly ambitious ideas for _The Turing Way_ project and this event that can likely be refined in a collaboration cafe, or the day before the event during the brainstorm session |                                                                                  (clear) Shares clear, achievable contribution/development ideas for this event that fits _The Turing Way_ project and are likely to be achieved through the applicant’s participation |
+| **Purpose of participation and what they will get out of the book dash:** | (not ready) Purposes for participation at the book dash seem almost entirely self-centered and about the applicant’s status, rather than about participating in _The Turing Way_ community to develop the project | (enthusiastic) Purposes for the participation at the book dash event are not completely clear from the application or are limited (even though useful), such as typo or bug fixing                            | (clear) Purposes for participation at the book dash event are valuable in many ways and are likely to help the applicant to become an active contributor and take ownership of their work in _The Turing Way_ project and in the broader ecosystem in their own rights |
+| **Willingness to collaborate and contribute after the book dash:**        | 看起来不允许合作性的工作方式或只对数据科学、研究或相关主题的某个方面更感兴趣。                                                                                                                                                                           | (enthusiastic) Seems excited to learn from others and _The Turing Way_ project, but in a general way without much understanding of what those things mean yet                                                 |                                                                                                                                                          (clear) Seems excited to collaborate with others and is motivated to contribute to _The Turing Way_ community |
 
 还要求审查人员披露是否有任何利益冲突可能对其审查产生影响，导致其决定中的任何偏差。
 
 我们请所有审查人员通过描述应用程序来完成审查。 在甄选小组就这些问题进行讨论时，应考虑到申请人的意见和评分的动机。
 
 ```
-- 请强调该申请人所属的多样性/少数群体： 那应该代表这个活动
-- 请提供这个应用程序的1-2 摘要句子，以便利选择面板中的讨论
+- Please highlight any diversity/minority groups this applicant belong to, that should be represented at this event
+- Please provide 1-2 summary sentences about this application to facilitate discussion during the selection panel
 ```
 
 Reviewers are also asked to disclose if any conflict of interest may have influenced their review leading to any bias in their decision.
 
 ```
-- 请说明你是否与本申请书所述提案有任何利益冲突，或你是否知道该申请人个人可能导致有偏见的决定
+- Please state if you have any conflict of interest with the proposal described in this application or do you know this applicant personally that may lead to a biased decision
 ```
 
 最后，还要问审查人员是否会建议申请人。 可用的答案是“否”、“是”、“不确定”或“请求在面板中进行公开讨论”。 所有审评员中被评分为“否”或“不确定”的候选人将被拒绝。 所有其他候选人将在甄选小组中讨论。
