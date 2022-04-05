@@ -7,7 +7,7 @@
 - Pick out key datasets and software your conclusions rely on
 - Cite data and software just like you would cite a paper
 - Publish your own data/software and cite that too
-- 获取 [ORCID ID！ ](https://orcid.org/)
+- Get an [ORCID ID!](https://orcid.org/)
 
 (cm-citable-checklist-data)=
 ## For Data Creators
