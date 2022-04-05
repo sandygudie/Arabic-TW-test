@@ -1,49 +1,49 @@
-(ch-newslers-قالب)
-# قالب لصياغة النشرات الإخبارية
+(ch-newsltters-template)
+# Template for Drafting Newsletters
 
-القالب الموجز أدناه هو ما كنا نستخدمه كدليل لجمع عناصر الأخبار من أجل الرسائل الإخبارية _الطريق الوشيك_ منذ سبتمبر 2019. وقد تطور هذا النموذج على مدى عدة أشهر ولا يدعي بأي حال من الأحوال أنه صيغة "مثالية". عند إعادة استخدام هذا القالب، يجب عليك تجربة ما يصلح لمجتمعك. إن اقتراحاتكم الواردة في الفصول الفرعية السابقة موضع ترحيب كبير.
+The template outlined below is what we have been using as a guide for collecting news items for the _The Turing Way_ newsletters since September 2019. This template has evolved over several months and in no way claims to be the 'perfect' format. When reusing this template, you should experiment with what works for your community. Your suggestions in the earlier subchapters are very welcome.
 
 ```
-التاريخ: DD شهر السنة
+Date: DD Month YYYY
 
-# عنوان
+# title
 
-مرحبا بالأصدقاء!
+Hello Turing Way friends!
 
-هذا الشهر ...
+This month ...
 
-ارسل ...
+Shout out ...
 
-الأحداث ...
+Events ...
 
-ابحث عن المزيد من التفاصيل حول هذه المواضيع أسفل 👇
+Find more details on these topics below 👇
 
 
-## اجتماعات المجتمع
+## Community meetings
 
     <About events like Collaboration Café, book dash, other meetings>
 
-## أخبار المجتمع
+## News from the community
 
     <Any news from the team, community members, and new chapters>
 
-## # الموارد ذات الصلة
+## Relevant resources
 
     <Any useful resources like relevant publication, training items, and materials from collaborators>
 
-## # نصائح & خدمة المساهمين الجدد
+## Tips & Tricks for new contributors
 
     <Any material that helps the new contributor to relate to the project like impact statement, story, and contributor in focus>
 
-## # اعترافات واحتفالات
+## Acknowledgments and celebrations
 
     <Shout out and wishes to celebratory news from members, recent meetings where someone talked about Turing Way, Tweets and other online mentions from people other than the team members>
 
-## ذكر خاص
+## Special mentions
 
     <Shout out to the reviewers for this newsletter other than the team members>
 
-## اتصل بنا!
+## Connect with us!
 
 - [About the project](https://www.turing.ac.uk/research/research-projects/turing-way-handbook-reproducible-data-science)
 - [_The Turing Way_ book](https://the-turing-way.netlify.com)
@@ -56,6 +56,6 @@
 You are welcome to contribute content for the next newsletter by
 emailing [Malvika Sharan](mailto:msharan@turing.ac.uk).
 
-*هل فوتت آخر الرسائل الإخبارية؟*
-*تحقق منها [here](https://tinyletter.com/TuringWay/archive).*
+*Did you miss the last newsletters?*
+*Check them out [here](https://tinyletter.com/TuringWay/archive).*
 ```
