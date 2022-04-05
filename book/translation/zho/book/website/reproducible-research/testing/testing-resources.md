@@ -61,38 +61,38 @@ Try reading the chapter on reproducible computational environments and then the 
 
 ## Materials used: glossary
 
-- [荷兰电子科学中心](https://guide.esciencecenter.nl/#/best_practices/testing) **知识共享属性4.0 国际许可证**
+- [Netherlands eScience centre](https://guide.esciencecenter.nl/#/best_practices/testing) **Creative Commons Attribution 4.0 International License**
 
 ### Definitions/glossary
 
-- **接受测试：** 程序符合项目基本要求的测试。
+- **Acceptance test:** A test that the program meets the project's fundamental requirements.
 
-- **代码覆盖：** 一个描述测试套件执行多少源代码的计量。
+- **Code coverage:** A measure which describes how much of the source code is exercised by the test suite.
 
-- **结束测试：** 一个运行程序从开始到结束的测试，并验证输出是否正确。
+- **End to end test:** A test that runs the program from beginning to end and verifies that the output is correct.
 
-- **集成测试：** 一个混合和运行代码的测试 并验证输出以检查设备是否被正确集成。
+- **Integration test:** A test where units of code are combined and run, and the output is verified to check the units have been correctly integrated.
 
-- **Mocking：** 用一个假装的对象来替换一个真正的对象来运行测试。
+- **Mocking:** Replace a real object with a pretend one to use when running tests.
 
-- **回归测试：** 比较代码更改之前和之后的测试结果。 If the output has changed a problem has been introduced somewhere in the program, and an error is thrown.
+- **Regression test:** Comparing the result of a test before and after the code has been altered. If the output has changed a problem has been introduced somewhere in the program, and an error is thrown.
 
-- **运行时间测试：** 程序内嵌的测试作为程序的一部分。
+- **Runtime test:** Tests embedded within the program which are run as part of it.
 
-- **烟雾测试：** 非常简短的初步检查，确保运行项目挂卡所需的基本要求。
+- **Smoke test:** Very brief initial checks that ensure the basic requirements needed to run the project hold.
 
-- **存档代码：** 代码虽然正确，但并不总是输出相同的结果。 For example a program that outputs ten random numbers will generate a different result each time, despite being correct.
+- **Stochastic code:** Code which, while correct, does not always output the same result. For example a program that outputs ten random numbers will generate a different result each time, despite being correct.
 
-- **系统测试：** 查看“结束到结束测试”。
+- **System test:** See "end to end test".
 
-- **测试驱动开发：** 代码开发过程，单位测试由单位自己编写。
+- **Test driven development:** A process of code development where unit tests are written before the units themselves.
 
-- **测试根:** 虚拟实现测试中用于删除依赖的代码部件。
+- **Test stub:** Fake implementations of parts of code which are used in testing to remove dependences.
 
-- **测试套装：** 已经为一个项目编写的测试。
+- **Test suite:** The tests that have been written for a project.
 
-- **测试框架：** 可以降低写作和运行测试的劳动力密集度的工具。
+- **Testing framework:** Tools that make writing and running tests less labour intensive.
 
-- **单位：** 一件用来做一件简单事情的小代码。 It usually has one or a few inputs and usually a single output.
+- **Unit:** A small piece of code that does one simple thing. It usually has one or a few inputs and usually a single output.
 
-- **单元测试：** 个测试，检查单元的行为。
+- **Unit test:** A test that checks the behaviour of a unit.
