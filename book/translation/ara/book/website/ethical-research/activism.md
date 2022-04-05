@@ -14,7 +14,7 @@ This chapter covers why activism can be an important part of ethical data scienc
 (er-activism-motivation)=
 ## Motivation and Background
 
-وهناك العديد من السيناريوهات المختلفة التي ينخرط فيها العلماء والباحثون في نشاط لتحقيق التغيير، مثل وضع سياسة مؤسسية مختلفة بشأن البيانات المفتوحة، زيادة المعايير الأخلاقية للبحث (أنظر {ref}``)، أو تحسين ظروف العمل. Scientists may engage in activism across topics related to their work, institutions, fields, or cross-disciplinary issues such as open research, or on topics unrelated to their career.
+There are many different scenarios where scientists and researchers would engage in activism to achieve change, such as a different institutional policy on open data, increasing ethical standards of research (see the {ref}`er`), or improving working conditions. Scientists may engage in activism across topics related to their work, institutions, fields, or cross-disciplinary issues such as open research, or on topics unrelated to their career.
 
 The [Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/activism) defines activism as "the use of direct and noticeable action to achieve a result, usually a political or social one". Activism can take many forms and achieve many different things, but it's most effective when people work together as a community with a shared goal.
 
