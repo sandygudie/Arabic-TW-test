@@ -5,11 +5,11 @@
 
 This section briefly introduces the key concepts of *Responsible Research and Innovation* (RRI) and *Research Integrity*. Both refer to different questions within the field of research ethics. Below is a table summarising these questions.
 
-| Factor                              | RRI                                                                    | Research Integrity                                                        |
-| ----------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| **Perception of ethical questions** | Outward (for example: how does the public perceive scientific output?) | 内向(例如：研究人员如何自己行事？                                                         |
-| **Who researchers interact with**   | With research subjects (for example: do we treat them with respect?)   | With fellow researchers (for example: do we adhere to a code of conduct?) |
-| **What shapes research**            | 被社会形状(例如：大赦国际如何被普遍理解为解决办法？                                             | 以体制规范为形形色色(例如：正在为哪些研究问题提供资金？ )                                            |
+| Factor                              | RRI                                                                            | Research Integrity                                                                     |
+| ----------------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
+| **Perception of ethical questions** | Outward (for example: how does the public perceive scientific output?)         | Inward (for example: how do researchers conduct themselves?)                           |
+| **Who researchers interact with**   | With research subjects (for example: do we treat them with respect?)           | With fellow researchers (for example: do we adhere to a code of conduct?)              |
+| **What shapes research**            | Shaped by society (for example: how is AI as a solution generally understood?) | Shaped by institutional norms (for example: what research questions are being funded?) |
 
 ```{figure} ../figures/ethical-research.jpg
 ---
@@ -34,7 +34,7 @@ Looking at different aspects of research ethics. _The Turing Way_ project illust
 
  ### Motivating Research Ethics
 
- Taking *ethics* as the study of what behaviours are right and what behaviours are wrong highlights that it refers to *action*. 考虑到这一点，只要研究人员在开展工作时行为 ** and *在某些方面行为*。 Taking this definition seriously also means accepting moral philosophy as paramount in our everyday lives: ethics pertains to us all. Furthermore, the potential ripple effects of any research project may be far greater than an individual's actions under normal circumstances.
+ Taking *ethics* as the study of what behaviours are right and what behaviours are wrong highlights that it refers to *action*. Considering this, ethics is relevant to research insofar that researchers are *acting* and *behaving* in certain ways when conducting their work. Taking this definition seriously also means accepting moral philosophy as paramount in our everyday lives: ethics pertains to us all. Furthermore, the potential ripple effects of any research project may be far greater than an individual's actions under normal circumstances.
 
  To this effect, the importance of acting ethically within the academic sphere is heightened. Scientists must reflect on the ethical questions their research projects raise.
 
@@ -48,8 +48,8 @@ Looking at different aspects of research ethics. _The Turing Way_ project illust
 
 ### Responsible Research and Innovation
 
-  • 在欧洲政策范围内成为一个重要术语(Owen等人， (2012年)。 Turning to the European Union’s “Horizon 2020” research programme, we can find one definition of RRI:
-> “[RRI是一种预期和评估对研究和创新的潜在影响和社会期望的方法。 其目的是促进设计包容性和可持续的研究和创新”（欧洲联盟委员会，注21）。
+  *RRI* is a term which has been around for several decades but which gained traction in 2011, when becoming an important term in the context of European policy (Owen et al., 2012). Turning to the European Union’s “Horizon 2020” research programme, we can find one definition of RRI:
+> “[RRI is] an approach that anticipates and assesses potential implications and societal expectations with regard to research and innovation, with the aim to foster the design of inclusive and sustainable research and innovation” (European Commission, n.d.).
 
  There are two aspects of this definition worth focusing on for the purpose of this introductory section. Firstly, RRI refers to “potential implications and societal expectations.” Secondly, it is about “the design of inclusive and sustainable research”. These are two traditionally important aspects of the ethics of science: how research is set up or designed, and what societal consequences this setup has. What is important here is that we consider these aspects of research when speaking of making it ethical.
 
@@ -64,7 +64,7 @@ Looking at different aspects of research ethics. _The Turing Way_ project illust
 
  The two concepts of RRI and research integrity are by no means entirely distinct, as they can overlap in important ways. However, three differences between both concepts are outlined below for the purpose of drawing out more diverse questions pertaining to research ethics at large. A table with the list of concept spefici questions is shared at the end of this subsection.
 
- Firstly, we can see that who *perceives* the ethical questions differs in either case. 首先，RRRI可以被理解为外向的，或是公众可见。 To start with, RRI can be understood as outward-looking, or visible to the public. For example, people might ask for what it means when scientists keep animals’ brains alive hours after their decapitation (Reardon, 2019). In the meantime, research integrity refers to how research findings are produced — it is inward-looking. A common term to describe a *lack* of research integrity is “research misconduct”, for which there are many examples. 其中一个例子是Brian Wansink在食品科学方面所做的工作。 One such example is that of Brian Wansink's work in food science, who endorsed p-hacking and has had a number of papers retracted (see Oransky, 2018).
+ Firstly, we can see that who *perceives* the ethical questions differs in either case. To start with, RRI can be understood as outward-looking, or visible to the public. For example, people might ask for what it means when scientists keep animals’ brains alive hours after their decapitation (Reardon, 2019). In the meantime, research integrity refers to how research findings are produced — it is inward-looking. A common term to describe a *lack* of research integrity is “research misconduct”, for which there are many examples. One such example is that of Brian Wansink's work in food science, who endorsed p-hacking and has had a number of papers retracted (see Oransky, 2018).
 
  Secondly, each term refers to different people scientists interact with during research. On the one hand, RRI questions how scientists engage with research subjects. Consider, for example, how volunteers are treated during clinical trials. The point here is to work with data subjects in a respectful and inclusive way. One (in)famous case in which there was no respect for data subjects was the Tuskagee experiments, wherein African-American men were recruited to study the development of untreated syphilis, but the volunteers were falsely told they were receiving free treatment — the monitoring and lies persisted for forty years (CDC, 2020). On the other hand, we can question how scientists engage with fellow researchers. We can here discuss the importance of codes of conduct in open source collaborations, for example, [*The Turing Way*'s](https://the-turing-way.netlify.app/community-handbook/coc.html?highlight=code%20conduct); or — returning to “research misconduct” — how one might engage in authorship fraud. Once again, there are many examples of this sort of practice. From being insincere about who contributed to a paper because the academic incentives system almost encourages this (see Harvey, 2018) to inventing entirely fictional authors (see this piece by Marcus & Oransky, 2016), these are questions that are not commonly within the public’s purview.
 
@@ -74,11 +74,11 @@ Looking at different aspects of research ethics. _The Turing Way_ project illust
 
  Below is a table illustrating the three differences outlined above. The point here is not to argue for this conceptual distinction but to introduce two important concepts in research ethics and, in doing so, present different questions we must be ready to reflect on when thinking about ethical research.
 
-| Factor                              | RRI                                                                    | Research Integrity                                                        |
-| ----------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| **Perception of ethical questions** | Outward (for example: how does the public perceive scientific output?) | 内向(例如：研究人员如何自己行事？                                                         |
-| **Who researchers interact with**   | With research subjects (for example: do we treat them with respect?)   | With fellow researchers (for example: do we adhere to a code of conduct?) |
-| **What shapes research**            | 被社会形状(例如：大赦国际如何被普遍理解为解决办法？                                             | 以体制规范为形形色色(例如：正在为哪些研究问题提供资金？ )                                            |
+| Factor                              | RRI                                                                            | Research Integrity                                                                     |
+| ----------------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
+| **Perception of ethical questions** | Outward (for example: how does the public perceive scientific output?)         | Inward (for example: how do researchers conduct themselves?)                           |
+| **Who researchers interact with**   | With research subjects (for example: do we treat them with respect?)           | With fellow researchers (for example: do we adhere to a code of conduct?)              |
+| **What shapes research**            | Shaped by society (for example: how is AI as a solution generally understood?) | Shaped by institutional norms (for example: what research questions are being funded?) |
 
 
 ## What to learn next
