@@ -39,19 +39,19 @@ b = 5
 print(a/b)
 ```
 
-One divided by five is `0.2`, and this is what is printed if the script is run using Python 3. However, if a slightly older version of Python, such as Python 2, is used, the result printed is `0`. 这是因为整数除法适用于Python 2中的 整数 但是(正常)除法适用于包括整数在内的所有类型的 Python 3。
+One divided by five is `0.2`, and this is what is printed if the script is run using Python 3. However, if a slightly older version of Python, such as Python 2, is used, the result printed is `0`. This is because integer division is applied to integers in Python 2, but (normal) division is applied to all types, including integers, in Python 3.
 
-Therefore this simple script returns _different_ answers depending on the computational environment in which it is run. Using the wrong version of Python is easy to do, and demonstrates how a perfectly valid piece of code can give different results depending on its environment. 如果这些问题会影响到像这样的简单脚本， 想象有多少人可能出现在一个复杂的分析程序中，这个程序可能涉及数千行代码和几十个依赖包。 If such issues can impact a simple script like this, imagine how many could appear in a complex analysis procedure which may involve thousands of lines of code and dozens of dependent packages.
+Therefore this simple script returns _different_ answers depending on the computational environment in which it is run. Using the wrong version of Python is easy to do, and demonstrates how a perfectly valid piece of code can give different results depending on its environment. If such issues can impact a simple script like this, imagine how many could appear in a complex analysis procedure which may involve thousands of lines of code and dozens of dependent packages.
 
 Researchers need to understand and capture the computational environments in which they are conducting their work, as it has the potential to impact three parties:
 
 ### Researchers
 
-Researchers' working environments evolve as they update software, install new software, and move to different computers. If the project environment is not captured and the researchers need to return to their project after months or years (as is common in research), they will be unable to do so confidently. 他们将无法知道特定研究环境发生了什么变化，以及这些变化可能对其运行守则的能力产生什么影响。
+Researchers' working environments evolve as they update software, install new software, and move to different computers. If the project environment is not captured and the researchers need to return to their project after months or years (as is common in research), they will be unable to do so confidently. They will have no way of knowing what changes to a specific research environment have occurred and what impact those changes might have on their ability to run the code, and on the results.
 
 ### Collaborators
 
-Much research is now collaborative, and researching multiple different computational environments opens up a minefield of potential bugs. 试图解决这类问题往往是耗费时间和令人沮丧的，因为研究人员必须弄清计算环境之间的差异。 三、结论和建议的执行情况 更糟糕的是，有些缺陷可能仍然未被察觉，可能影响结果。
+Much research is now collaborative, and researching multiple different computational environments opens up a minefield of potential bugs. Trying to fix these kinds of issues is often time-consuming and frustrating as researchers have to figure out what the differences between computational environments are, and their effects. Worse, some bugs may remain undetected, potentially impacting the results.
 
 ### Science
 
