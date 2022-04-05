@@ -1,32 +1,32 @@
 (rr-vcs-git)=
-# 开始使用 Git
+# Getting Started with Git
 
-若要启动，请确保您的电脑上安装Git。 在 Linux 、 Windows 和 Mac 机器上安装 Git 的说明可在这里使用 [](https://Git-scm.com/book/en/v2/Getting-Started-Installing-Git)。 安装完成后，通过终端或命令行接口进入您的项目目录(例如， `cd my-project-文件夹`)。 您的项目文件夹包含所有文件，包括子目录。
+To get started, please make sure that your have Git installed on your computer. Instructions for installing Git on Linux, Windows and Mac machines are available [here](https://Git-scm.com/book/en/v2/Getting-Started-Installing-Git). Once the installation is complete, go to your project directory via terminal or command-line interface (for example, `cd my-project-folder`). Your project folder contains all of your files, including subdirectories.
 
-当你在一个项目上工作时，你会在进行中对你的文件进行多处修改。 有时您可能需要撤销更改，请另行查看过去的版本，或比较版本。 单独保存每个版本(如 `version_1.py` and `version_2.py`) 是不正常的，很快就变得不切实际了。
+When working on a project, you will make numerous changes to your files as you progress. Sometimes you may need to undo changes, take another look at past versions, or compare versions. Saving each version individually (such as `version_1.py` and `version_2.py`) is messy and quickly becomes impractical.
 
-承诺作为检查站，每个档案或整个项目可在必要时安全地恢复到这个检查站。 通过提交，您可以保存您的代码版本并在它们之间切换/比较它们，而不会打乱您的目录。
+Commits serve as checkpoints where individual files or an entire project can be safely reverted to when necessary. By making commits, you can save versions of your code and switch between them/compare them easily without cluttering up your directory.
 
-要从您的 Git 仓库开始，请在终端中运行下面的 Git 命令来创建/初始化您的 Git 仓库：
+To get started with your Git repository, run the following Git command in the terminal to create/initialise your Git repository:
 
 ```
 git init
 ```
 
-每个项目只需要完成一次。
+This only needs to be done once per project.
 
-将仓库视为保存历史的地方。 当你首次初始化资源库时, `git init`, 您工程中的所有文件都不会被添加到 Git 仓库，因为它们默认是由 Git 解压的。 因此，下一步是将您的文件添加到 Git 仓库，并允许Git 跟踪它们。
+Think of the repository as a place where the history is being stored. When you first initialise a repository with `git init`, all of the files in your project would not be added to the Git repository as they are  untracked by Git by default. Therefore, the next step is to add your files to the Git repository and allow Git to track them.
 
-运行以下命令来添加当前文件夹中的所有文件：
+Run the following command to add all files in the current folder:
 ```
-git 添加
+git add .
 ```
-或者运行以下命令只添加文件 ('your_file_name' 在此示例中)：
+OR run the following command to add only the files ('your_file_name' in this example):
 ```
-git 添加您的文件名称
+git add your_file_name
 ```
 
-此命令将您新添加的文件或任何其他更改放入所谓的“分阶段”状态。
+This command puts your newly added files or any other changes into what is called the "staging" state.
 
 ```{figure} ../../figures/change-stage-repo.png
 ---
@@ -35,20 +35,20 @@ alt：`git add` 和 git 提交命令的图示.
 ---
 `git add` 和 `git commit` 如何工作
 ---
-`git add` 和 `git commit` 如何工作
+How `git add` and `git commit` works
 ```
 
-如果您不知道添加了哪些文件，那些文件已被更改。 或者哪些文件被取消跟踪，您可以运行以下操作来寻找：
+If you are ever unsure what files have been added, what files have been changed, or what files are untracked, you can run the following to find out:
 
 ```
 git status
 ```
 
-下一步是"提交"存储在您的暂存区域中的任何更改，以便它们被记录到您的存储库。
+The next step is to "commit" any changes stored in your staging area so that they are recorded in your repository.
 
 ```
-git 提交
+git commit
 ```
-恭喜您，您已经完成了您的仓库设置！
+Congratulations, you have finished setting up your repository!
 
-您将在下一章了解更多关于 `git 提交` 的信息。
+You will learn more about `git commit` in the next chapter.
