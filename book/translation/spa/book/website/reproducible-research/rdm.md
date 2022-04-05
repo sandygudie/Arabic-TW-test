@@ -2,9 +2,9 @@
 ---
 height: 400px
 name: data-ecosystem
-alt: imagen del ecosistema de datos con datos privados y públicos
+alt: image of the data ecosystem with private and public data
 ---
-Datos abiertos y cerrados para reproducibilidad.
+Open and closed data for reproducibility.
 _The Turing Way_ project illustration by Scriberia. Original version on Zenodo. http://doi.org/10.5281/zenodo.3695300. 
 ```
 
