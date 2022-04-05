@@ -11,7 +11,7 @@ In fact, BinderHub is not dependent on cloud-hosting at all and can be deployed 
 
 ## Helm
 
-[Helm](https://helm.sh/) is a package manager for Kubernetes. تأتي الحزم في شكل مخططات ** التي هي مجموعة من التعليمات للنشر، قم بترقية وإدارة التطبيقات التي تعمل على مجموعة كوبيرنيتس. They can make installing and managing Kubernetes applications much easier and specific Charts for projects can be published online. For example, the Helm Chart for BinderHub is available [here](https://jupyterhub.github.io/helm-chart/#development-releases-binderhub).
+[Helm](https://helm.sh/) is a package manager for Kubernetes. Packages come in the form of *Charts* which are a set of instructions to deploy, upgrade and manage applications running on a Kubernetes cluster. They can make installing and managing Kubernetes applications much easier and specific Charts for projects can be published online. For example, the Helm Chart for BinderHub is available [here](https://jupyterhub.github.io/helm-chart/#development-releases-binderhub).
 
 ## repo2docker
 
