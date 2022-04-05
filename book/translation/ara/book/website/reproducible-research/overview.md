@@ -1,32 +1,32 @@
-(r-Overview)=
-# لمحة عامة عن البحوث القابلة للتكرير
+(rr-overview)=
+# Overview of Reproducible Research
 
-(بآلاف دولارات الولايات المتحدة)
-## الشروط المسبقة
+(rr-overview-prerequisites)=
+## Prerequisites
 
-لا حاجة إلى معرفة سابقة.
+No previous knowledge needed.
 
 ```{figure} ../figures/research-cycle.jpg
 ---
-الاسم: دورة البحث
-البديل: عملية البحث ممثلة كدورة دائمة لتوليد الأفكار البحثية، إجراء تخطيط وتصميم البيانات، وجمع البيانات، وتجهيز البيانات وتحليلها، والنشر، والمحافظة عليها، وبالتالي السماح بإعادة استخدام البيانات. 
+name: research-cycle
+alt: The research process is represented as a perpetual cycle of generating research ideas, performing data planning and design, data collection, and data processing and analysis, publishing, preserving and hence, allowing re-use of data. 
 ---
-_طريق التوحيد_ التوضيحي لمشروع سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-(بآلاف دولارات الولايات المتحدة)
+(rr-overview-summary)=
 ## Summary
 
-ويتم تعزيز النتائج العلمية والأدلة العلمية إذا أمكن تكرار تلك النتائج وتأكيدها من قبل عدة باحثين مستقلين (انظر {ref}`التعاريف <rr-overview-definitions>`).
+Scientific results and evidence are strengthened if those results can be replicated and confirmed by several independent researchers (see {ref}`definitions <rr-overview-definitions>`).
 
-عندما يستخدم الباحثون الشفافية في بحوثهم - أي بعبارة أخرى. وعندما تقوم هذه الجهات بتوثيق البيانات والعمليات المرتبطة بتحليلاتها وتبادلها على نحو سليم - يكون بمقدور دوائر البحوث الأوسع أن توفر وقتاً قيماً عند استنساخ النتائج المنشورة أو البناء عليها. وكثيرا ما يقوم باحثون جدد بإعادة استخدام البيانات أو الرموز الواردة من المشاريع السابقة للتحقق من النتائج القديمة أو تطوير تحليلات جديدة.
+When researchers employ transparency in their research - in other words, when they properly document and share the data and processes associated with their analyses - the broader research community is able to save valuable time when reproducing or building upon published results. Often, data or code from prior projects will be re-used by new researchers to verify old findings or develop new analyses.
 
-تعرف على بعض المزايا الأخرى للبحوث القابلة للتكرير في الفصل الفرعي {ref}`الميزات المضافة <rr-overview-benefits>`.
+Learn about some of the other benefits of reproducible research in the {ref}`Added Advantages <rr-overview-benefits>` subchapter.
 
-وسائل الإعلام الرئيسية [أبلغت عن](https://www.theguardian.com/science/2018/aug/27/attempt-to-replicate-major-social-scientific-findings-of-past-decade-fails) بحث تظهر أنه لا يمكن تكرار نسبة كبيرة من الدراسات العلمية. وهذا يؤدي إلى فقدان أكاديميين آخرين والمجتمع الثقة في النتائج العلمية {cite:ps}`الخبز 2016قابلية التكرار`.
+Major media outlets have [reported on](https://www.theguardian.com/science/2018/aug/27/attempt-to-replicate-major-social-scientific-findings-of-past-decade-fails) investigations showing that a significant percentage of scientific studies cannot be reproduced. This leads to other academics and society losing trust in scientific results {cite:ps}`baker2016reproducibility`.
 
-وبالإضافة إلى ذلك، يمكن نشر "النتائج السلبية" بسهولة، المساعدة في تجنب إضاعة الوقت للباحثين الآخرين لتكرار التحليلات التي لن تعود بالنتائج المتوقعة {cite:ps}`Dirnagl2010bias`.
+In addition, "negative results" can be published easily, helping avoid other researchers wasting time repeating analyses that will not return the expected results {cite:ps}`Dirnagl2010bias`.
 
 لمزيد من قراءة الموارد على قابلية الاستنساخ، يرجى التحقق من {ref}`<code> فصل فرعي <rr-overview-resources>`.
 
-***الفصل**: يتم معالجة هذا الفصل لـ `مجموعة دراسة البيانات تورين` (`turing-dsg`).*
+***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*
