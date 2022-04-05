@@ -296,7 +296,7 @@ Se a segunda parte (o `path_to_where_to_put_file/file_name`) é substituído por
 (rr-renv-containers-volumes)=
 ## Volume
 
-Toda vez que um recipiente é aberto a partir de uma imagem, esse recipiente é completamente novo. Diga que um recipiente está aberto e que é feito trabalho dentro dele. Se esse contêiner é fechado, e a imagem de que veio é usada novamente para iniciar outro contêiner, nenhum desse trabalho será no novo. Terá simplesmente o estado de partida descrito na imagem.
+Toda vez que um recipiente é aberto a partir de uma imagem, esse recipiente é completamente novo. Diga que um recipiente está aberto e que é feito trabalho dentro dele. If that container is closed, and the image it came from is again used to start another container, none of that work will be in the new one. It will simply have the starting state described in the image.
 
 Isso pode ser um problema se um pesquisador quiser trabalhar em um recipiente ao longo do tempo. Felizmente, há uma maneira de contornar esta situação utilizando volumes. Os volumes armazenam o trabalho feito em um recipiente mesmo depois de fechado, e podem ser usados para carregar que funcionam em futuros contêineres.
 
