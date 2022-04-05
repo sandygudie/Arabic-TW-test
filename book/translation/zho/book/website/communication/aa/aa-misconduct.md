@@ -5,7 +5,7 @@ There are various forms of authorship misconduct. These reflect unequal power st
 
 A study of inappropriate authorship in biomedical journals found 21.0% of the article included honorary authorship, ghost authorship or both in 2008. This is a reduction from a study in 1996 (29.2%) but shows that these practices are still prevalent {cite}`wislar2011honorary`.
 
-(cm-aa-misconduct-酬金) =
+(cm-aa-misconduct-honorary)=
 ## Honorary authorship
 Honorary authorship is when an individual becomes a named author even though they have not made a substantial contribution and/or met authorship criteria.
 
