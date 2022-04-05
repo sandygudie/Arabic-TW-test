@@ -1,11 +1,11 @@
 ```{figure} ../figures/data-ecosystem.jpg
 ---
-الطول: 400px
-الاسم: البيانات - النظام الإيكولوجي
-بديل: صورة النظام الإيكولوجي للبيانات مع البيانات الخاصة والعامة
+height: 400px
+name: data-ecosystem
+alt: image of the data ecosystem with private and public data
 ---
-البيانات المفتوحة والمغلقة لإمكانية التثبيت.
-_The Turing Way_ project illustration by Scriberia. النسخة الأصلية على Zenodo. http://doi.org/10.5281/zenodo.3695300. 
+Open and closed data for reproducibility.
+_The Turing Way_ project illustration by Scriberia. Original version on Zenodo. http://doi.org/10.5281/zenodo.3695300. 
 ```
 
 (rr-rdm)=
