@@ -18,7 +18,7 @@ In this document, we have listed some guidelines to maintain consistency across 
 - **Links**: Use the Markdown formatting for link like this, `[text that needs to be linked](full HTTP link)`
     - Provide links wherever useful, for example, [HackMD for Collaboration Café](https://hackmd.io/@KirstieJane/CollabCafe), [GitHub issue](https://github.com/alan-turing-institute/the-turing-way/issues), [registration pages](https://www.eventbrite.co.uk/) and [see details](https://github.com/alan-turing-institute/the-turing-way).
     - Create link for email ids using this Markdown syntax - `[real-email-id](mailto:real-email-id)`
-- **Quoting others**: Use smaller than (>) symbol followed by a space before the quoted sentence. على سبيل المثال: `> هذا هو اقتباسي الأسطوري.` سيظهر كالتالي: > هذا اقتباسي الأسطوري.
+- **Quoting others**: Use smaller than (>) symbol followed by a space before the quoted sentence. For example: `> This is my legendary quote.` will appear as: > This is my legendary quote.
 - **Header and styling**: The newsletter title is the top header.
     - Different sections as suggested in the newsletters are second-level headers and the sub-sections are third-level headers.
     - Use bold letters, italics, hyperlinked texts and quotations wherever applicable
