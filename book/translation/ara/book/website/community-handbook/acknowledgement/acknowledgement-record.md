@@ -1,24 +1,17 @@
 (ch-acknowledgement-record)=
 # Record of Contributions
 
-يتم استخدام وثيقتين في [مستودع GitHub](https://github.com/alan-turing-institute/the-turing-way) لإنشاء سجل للمساهمات في _طريق التوريد_: طاولة المساهمين في [`إعادة الارتقاء`](https://github.com/alan-turing-institute/the-turing-way/blob/main/README.md) الملف، و
-
-`المساهمون.
-This record is made available in the afterword of this book as {ref}<code>Contributors<contributors-record-contributors>` and {ref}`Personal Highlights<contributors-record-highlights>`. These documents can be used for highlighting skills that our members have gained and shared through their involvement in _The Turing Way_.</p> 
+Two documents in our [GitHub repository](https://github.com/alan-turing-institute/the-turing-way) are used for creating a record of contributions in _The Turing Way_: Contributors Table in the [`README`](https://github.com/alan-turing-institute/the-turing-way/blob/main/README.md) file, and [`contributors.md`](https://github.com/alan-turing-institute/the-turing-way/blob/main/contributors.md) file. This record is made available in the afterword of this book as {ref}`Contributors<contributors-record-contributors>` and {ref}`Personal Highlights<contributors-record-highlights>`. These documents can be used for highlighting skills that our members have gained and shared through their involvement in _The Turing Way_.
 
 We invite all our members to co-create this record to capture the important work they do around answering questions, representing the project, developing and maintaining the infrastructure, and all other nurturing roles that make The Turing Way community so special.
 
 The process of developing this record is described below in detail.
-
-
 
 ## 1. Contributors Table
 
 The [Contributors](https://github.com/alan-turing-institute/the-turing-way#contributors) table in [`README`](https://github.com/alan-turing-institute/the-turing-way/blob/main/README.md) file is updated with every contributor's name using the [all contributors bot](https://allcontributors.org/)'s [emoji key](https://allcontributors.org/docs/en/emoji-key).
 
 No contribution is too small, and these emojis allow us to recognise and fairly acknowledging all kinds of contributions our community members make to the project. Those contributions can include (but are not limited to) bug fixing, chapter planning, writing, editing, reviewing, idea generation, presentation, project management, and maintenance. Please see the subchapter {ref}`Acknowledgement Examples <ch-acknowledgement-examples>` for details.
-
-
 
 ```{figure} ../../figures/allcontributorsbot-emoji.png
 ---
@@ -29,28 +22,17 @@ alt: Table with different emojis that is used by the contributors bot
 [Emoji key table](https://allcontributors.org/docs/en/emoji-key) of the all contributors bot that _The Turing Way_ uses for acknowledging different contributions from the community members.
 ```
 
-
-
-
 ## 2. Contributors file
 
 The contributors file, called [`contributors.md`](https://github.com/alan-turing-institute/the-turing-way/blob/main/contributors.md) in the GitHub repository, will hold specific details provided by community members regarding their involvements in the project. This will be referred to as `contributor's detail` in the rest of this document:
 
-
-
-> `اسم المساهم` * دور: `هذا هو عنصر اختياري لأي دور محدد قام به المساهمون في المشروع. It is also a place to mention the date/year since a contributor has taken this role. أمثلة: "مساهم أساسي (2018 حتى الآن)"، أو قيادة الترجمة (2020)، أو عضو لجنة مدونة قواعد السلوك (2019-2020).` * معرف GitHub `GitHub id, مثال: [@kirstiejane](http://github. om/kirstiejane)` * ORCID: `معرف المساهم، مثال: [0000-0001-8498-4059](https://orcid. rg/0000-0001-8498-4059)` * قصير بيو: `1-2 جمل عن نفسها`
+> `Contributor's name` * Role: `This is an optional entry for any specific role contributors have assumed in the project. It is also a place to mention the date/year since a contributor has taken this role. Examples, "Core contributor (2018-present)", Translation lead (2020), or Code of Conduct committee member (2019-2020).` * GitHub id: `GitHub id, example: [@kirstiejane](http://github.com/kirstiejane)` * ORCID: `ORCID id of the contributor, example: [0000-0001-8498-4059](https://orcid.org/0000-0001-8498-4059)` * Short Bio: `1-2 sentences about themselves`
 
 Then, our contributors will add "Personal highlights", which will hold details of their contributions to _The Turing way_:
-
-
 > * Personal highlights: `GitHub contributions, PRs and issues. Further details have been discussed below.`
 
 Additionally, contributors can opt to add more information they think can help them share their work and engagement with _The Turing Way_ project by supplementing "More information":
-
-
 > * More information: `Additional information provided by the contributors. This is optional.`
-
-
 
 ### Personal highlights
 
@@ -62,17 +44,13 @@ This record can be directly translated towards the professional development of o
 
 _The Turing Way_ was originally funded by a [Strategic Priority Fund](https://www.ukri.org/research/themes-and-programmes/strategic-priorities-fund/) investment to the Alan Turing Institute to support [AI For Science and Government](https://www.turing.ac.uk/research/asg). The personal highlights are very valuable for capturing the impact that _The Turing Way_ has for its community members in terms of personal networking, professional development, skill sharing and other relevant activities, and how they have made positive impacts around transparency, reproducibility and ethical collaboration in their organisation.
 
-
-
 ### Recording different types of contributions
 
 In the contribution types discussed below, we use scenarios from some of the most common contribution types.
 
 These examples are also outlined in the next subchapter {ref}`Acknowledgement Examples <ch-acknowledgement-examples>` along with other types of contributions that are made to _The Turing Way_.
 
-**نوصي باستخدام هذه الأمثلة من العبارات فقط كدليل.** كمساهم، ستتمكن من إضافة أكبر عدد من التفاصيل المفيدة لسجلك.
-
-
+**We recommend using these example statements only as a guide.** As a contributor, you will be able to add as many details as useful for your record.
 
 #### Bug fixes
 
@@ -82,9 +60,7 @@ Anyone who raises bugs, related issues or fixes them are listed as contributors 
 
 The contributor's file will be updated for the contributors with a similar statement as below after the `contributor's detail`:
 
-* الملامح الشخصية: > لدي مطبوعات ثابتة وقدمت مساهمات أخرى `تفاصيل أخرى مثل الأقسام المحددة من الكتاب غير واضحة`.
-
-
+* Personal highlights: > I have fixed typos and made other contributions `other details like identified sections of the book that are unclear`.
 
 #### Reviewing chapters and other pull requests
 
@@ -94,9 +70,7 @@ Anyone who reviews a chapter is listed as reviewers and are acknowledged with �
 
 The contributor's file will be updated for the contributors with a similar statement as below:
 
-* الملامح الشخصية: > لقد راجعت الفصل `اسم الفصل`. > I made other contributions to the chapter `other details like structuring and adding references`.
-
-
+* Personal highlights: > I have reviewed the chapter `Chapter name`. > I made other contributions to the chapter `other details like structuring and adding references`.
 
 #### Chapter contribution
 
@@ -106,21 +80,17 @@ The designing, writing, and reviewing of a chapter's content are acknowledged wi
 
 The contributor's file will be updated for the contributors with a similar statement as below:
 
-* النقاط البارزة الشخصية: > لقد قمت بتصميم وكتابة فصل حول `اسم الفصل` و `تفاصيل حول مراجعة وتنظيم المحتوى الجديد`.
-
-
+* Personal highlights: > I have designed and written a chapter on `chapter name` and `details on reviewing and structuring new content`.
 
 #### Translation
 
-*عملية الترجمة في _طريقة الترجمة_ تتضمن جوانب ترجمة _طريقة الترجمة_ فصول إلى لغات أخرى غير اللغة الإنجليزية ومراجعتها.* البنية التحتية للترجمة في مايو 2020 هي [تراسيفيكس](https://www.transifex.com/theturingway/theturingway/dashboard/).
+*The translation process in _The Turing Way_ includes aspects translating _The Turing Way_ chapters into languages other than English and reviewing them.* The translation infrastructure as of May 2020 is [Trasifex](https://www.transifex.com/theturingway/theturingway/dashboard/).
 
 Contributors who participate in the translation process will be acknowledged in the Contributors table with the 🌍 (`translation`) emoji.
 
 The contributor's file will be updated for the contributors with a similar statement as below:
 
-* النقاط البارزة الشخصية: > قمت بترجمة جزء من الفصل `اسم الفصل` إلى `لغة`. I have also `details like designed and implemented a process to translate the book into multiple languages, mentored multiple contributors within the community and has translated 3 chapters of The Turing Way into Chinese`.
-
-
+* Personal highlights: > I have translated part of the chapter `chapter name` into `language`. I have also `details like designed and implemented a process to translate the book into multiple languages, mentored multiple contributors within the community and has translated 3 chapters of The Turing Way into Chinese`.
 
 #### Organisational support
 
@@ -130,21 +100,17 @@ Each organisation who supports its members to collaborate with _The Turing Way_ 
 
 Every contribution from collaborating organisation will be updated with a similar statement as below:
 
-* الملامح الشخصية: > قدمت مساهمات `نوع المساهمة` للفصول `اسم الفصل`. I have also `details on other contributions like managing a team of contributors, writing a chapter`.
-
-
+* Personal highlights: > I have made contributions `contribution type` to the chapters `chapter name`. I have also `details on other contributions like managing a team of contributors, writing a chapter`.
 
 #### Maintenance
 
 *Maintenance work in _The Turing Way_ applies to the conversations in community spaces, technical infrastructure, online hosting platforms for the book, and translation infrastructure of Transifex.*
 
-سيتم الاعتراف بالمساهمين في طاولة المساهمين مع 💬 (`السؤال`) الرموز التعبيرية للإجابة على الأسئلة. 🤔 (`أفكار`) إيموجي للمناقشات، 🚇 (`أدناه`) emoji لدعم البنية التحتية، و 🚧 (`صيانة`) لجهود المجتمع أو صيانة البنية التحتية.
+Contributors will be acknowledged in the Contributors table with the 💬 (`question`) emoji for answering questions, 🤔 (`ideas`) emoji for discussions, 🚇 (`infra`) emoji for infrastructure support, and 🚧 (`maintenance`) for community efforts or infrastructure maintenance.
 
 The contributor's file will be updated for the contributors with a similar statement as below:
 
-* النقاط البارزة الشخصية: > لدي `تفاصيل مثل الرد على الأسئلة في قناة Gitter للمجتمع، قام بتوجيه عدة مساهمين داخل المجتمع المحلي واستعرض طلبات سحب لإصلاح الطباعيات في الكتاب، وصيانة البنية التحتية للمشروع، توفير الدعم والحل فيما يتعلق بكتاب المشتري والاندماج المستمر، وقد صممت ونفذت عملية لترجمة الكتاب إلى لغات متعددة، وساعدت مساهمين متعددين في تيسير جهود الترجمة`.
-
-
+* Personal highlights: > I have `details like responded to questions in the community's Gitter channel, mentored multiple contributors within the community and has reviewed pull requests to fix typos in the book, maintains the backend infrastructure of the project, provide support and solution regarding Jupyter book and continuous integration, designed and implemented a process to translate the book into multiple languages, helped multiple contributors in facilitating translation efforts`.
 
 #### Representing the Turing Way
 
@@ -154,6 +120,6 @@ Each contributor who represents _The Turing Way_ at an event is acknowledged in 
 
 Their contributions will be listed in the contributor's file with a similar statement as below:
 
-* الملامح الشخصية: > لقد قدمت حديث في _طريق التورين_ في `اسم الحدث`. > I have also `details like mentored multiple contributors within the community and have given talks at and event on behalf of the community`.
+* Personal highlights: > I have presented a talk at _The Turing Way_ at `event's name`. > I have also `details like mentored multiple contributors within the community and have given talks at and event on behalf of the community`.
 
 Please read personas and pathways for different contributions in the next subchapter.
