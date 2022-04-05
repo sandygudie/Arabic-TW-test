@@ -1,27 +1,27 @@
-(العمل الجماعي المجتمعي الجديد)=
-# العمل الجماعي
-كان المعيار الواسع الانتشار في الأوساط الأكاديمية ولا يزال يعمل بشكل فردي في أغلب الأوقات. غير أن العمل في فريق يمكن أن يكون أكثر متعة، وأكثر إنتاجية، وأكثر فعالية. وهناك فوائد وسلبيات في آن واحد للعمل في أفرقة، والمفتاح هو العمل معا بطريقة تفوق فيها المزايا العيوب على العيوب.
+(cl-new-community-teamwork)=
+# Teamwork
+The widespread standard in academia has been, and still is, to work individually for the majority of one’s time. However, if done well, working in a team can be more fun, more productive, and more effective. There are both benefits and downsides of working in teams, and the key is to work together in such a way that the advantages outweigh the disadvantages.
 
 ```{figure} ../../figures/new-community.png
 ---
-الاسم: مجتمع جديد
-البديل: مثال توضيحي لشخصين يعملان معا ومناقشة مخطط بيانات.
+name: new-community
+alt: An illustration of 2 people who are working together and discussing a data chart.
 ---
-جعل الفريق يعمل فعالا. [Royalty free image from Many Pixels](https://www.manypixels.co/gallery/)
+Making teamwork effective. [Royalty free image from Many Pixels](https://www.manypixels.co/gallery/)
 ```
 
-## إطار عمل الفريق
+## Team Framework
 
-وهناك العديد من الأطر الشعبية التي توفر توجيها مفيدا بشأن أفضل طريقة للعمل في إطار الأفرقة. الأمثلة الشائعة هي [كانبان](https://www.atlassian.com/agile/kanban)و [سكوم](https://www.scrum.org/)و وكلاهما من التطبيقات العملية لـ [بيان الأغنية](https://agilemanifesto.org/). وهناك العديد من الخصائص التي ينبغي العمل بها في إطار علم البيانات مما يجعل تطبيق هذه الأطر أمرا صعبا.
+There are many popular frameworks that provide useful guidance on how to best work in teams. Popular examples are [Kanban](https://www.atlassian.com/agile/kanban), and [Scrum](https://www.scrum.org/), which are both practical implementations of the [Agile Manifesto](https://agilemanifesto.org/). There are many particularities to working in a data science setting that will make application of these frameworks challenging.
 
-## دروس عن العمل الجماعي لتطوير البرمجيات البحثية
+## Lessons on Teamwork for Research Software Development
 
-[العمل الجماعي لتطوير برمجيات البحث](https://nlesc.github.io/teamwork-for-research-software-development/) هو درس مستقل مع دروس في العمل الجماعي. • إطار العمل المتعلق بالكفاءة والمخطوط، ومجلس المشاريع مثل كانبان والتحديات والتوصيات العملية. 3 - كفالة أن يكون لدى جميع أعضاء الأفرقة فهم مشترك لسبل العمل، ويمكن لأي باحث يقود فريقاً على فهم هذه الموضوعات.
+[Teamwork for Research Software Development](https://nlesc.github.io/teamwork-for-research-software-development/) is a standalone tutorial with lessons on teamwork, agile and scrum framework, project board such as kanban, challenges and practical recommendations. To ensure that all team members have a shared understanding of ways of working, this can be delivered by any researcher leading a team with an understanding of these topics.
 
-هذا البرنامج التعليمي الذي وضعه الباحثون في المركز الهولندي للعلوم الإلكترونية موجه في المقام الأول نحو الأشخاص الذين يصنعون برامج بحثية في إطار أكاديمي. غير أن ممارسات العمل الجماعي التي تناقش هنا مفيدة بوجه عام لأي شخص يحاول العمل في فريق في المشاريع العلمية.
+Developed by the researchers at Netherlands eScience Center, this tutorial is geared primarily towards people that create research software in an academic setting. However, teamwork practices discussed here are generally useful for anyone trying to work on a team in scientific projects.
 
 ## Further Recommendations
 
-دليل *طريق التدوين* للتعاون، كما أننا وفرنا موارد مفيدة لـ {ref}`لتسهيل التعاون عن بعد<remote-collab>`. تحديداً، تحقق من التوصيات لـ {ref}`تنظيم<remote-collab-meetings>`، {ref}`قائمة الأدوات<remote-collab-tools>` و {ref}`إدارة الفرق البعيدة<remote-collab-management>`.
+The *The Turing Way* guide for Collaboration, we have also provided useful resources for {ref}`facilitating remote collaboration<cl-remote-collab>`. Especially, check out recommendations for {ref}`organising<cl-remote-collab-meetings>`, {ref}`list of tools<cl-remote-collab-tools>` and {ref}`managing remote teams<cl-remote-collab-manage-teams>`.
 
-لدى أتلسانيا [مجموعة كبيرة من المدونات](https://www.atlassian.com/blog/teamwork) لـ أفكار ونصائح جميلة عن العمل الجماعي. انظر على سبيل المثال [7 مهارات العمل الجماعي الأساسية](https://www.atlassian.com/blog/teamwork/teamwork-skills-accelerate-career)أو أو [كيفية إدارة اجتماعات فعالة وازدهار](https://www.atlassian.com/blog/teamwork/how-to-run-effective-meetings).
+Atlassian has [a great collection of blogs](https://www.atlassian.com/blog/teamwork) for nice ideas and tips on teamwork. See for example [7 essential teamwork skills](https://www.atlassian.com/blog/teamwork/teamwork-skills-accelerate-career), or [How to run effective meetings and thrive](https://www.atlassian.com/blog/teamwork/how-to-run-effective-meetings).
