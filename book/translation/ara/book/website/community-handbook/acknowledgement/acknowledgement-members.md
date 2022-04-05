@@ -33,7 +33,7 @@ This is also an opportunity for us to promote a cultural change in the research 
 
 ## Highlight your contributions!
 
-في الفصل الفرعي التالي من {ref}`<ch-acknowledgement-record>`عددنا جميع الوثائق في هذا المشروع التي تعتبر "سجل الاشتراكات".
+In the {ref}`next subchapter <ch-acknowledgement-record>`, we have listed all the documents in this project that is considered "Record of Contributions".
 
 We want our community members to take pride in the valuable work they have done this project. We invite them to edit these documents to add details of their contributions that they want to highlight in _The Turing Way_.
 
