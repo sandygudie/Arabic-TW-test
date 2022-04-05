@@ -65,22 +65,23 @@ compendium/
 The following folder can be considered an executable research compendium. It contains all the digital parts of the research project (code, data, text, figures) and all the information on how to obtain the results. The computing environment is described in the `Dockerfile`, the dependencies of files and how to automatically generate the results are described in the `Makefile`. Additionally we have a `README.md` describing what the compendium is about and a `LICENSE` file with info on how it can be used.
 
 ```text
-compendio/
-→ CITACIÓN
-CITUDES (Codigo de tencia)
-(codigo de tencia)
-(t.). analyse_data.R
-(t.). Limpieza_datos. → data_clean
-Ninguno: datos_clean.csv
-Ninguno: datos_raw
-tórax. son
-✫ ✓ Datos de data_raw.csv
-→ Dockerfile
-Ninguno: figuras
-diagrama. flow_chart. peg
-★ LICENSE
-✓ ★ Makefile
-→ → Papel.
+compendium/
+├── CITATION
+├── code
+│   ├── analyse_data.R
+│   └── clean_data.R
+├── data_clean
+│   └── data_clean.csv
+├── data_raw
+│   ├── datapackage.json
+│   └── data_raw.csv
+├── Dockerfile
+├── figures
+│   └── flow_chart.jpeg
+├── LICENSE
+├── Makefile
+├── paper.Rmd
+└── README.md
 ```
 
 #### Separating Methods, Data, Output
@@ -91,65 +92,55 @@ The principles of a research compendium state that it should clearly separate Me
 - **Human-generated**: code (`clean_data.R`, `analyse_data.R`), paper (`paper.Rmd`), documentation (`README.md`)
 - **Project-generated**: clean data (``data_clean\`, figures (``figures\`), other output
 
-Los ejemplos mencionados aquí no son exhaustivos y algunos pueden ser "generados por el hombre" y en algún momento convertirse en "solo lectura" (por ejemplo, un humano puede generar el paquete de datos de metadatos de datos.
-In other words, whether a folder contains files in either of these categories, may depend on the life cycle of the project.</p>
+The examples mentioned here are not exhaustive and some may first be "human-generated" and at some point become "read-only" (for example a human may generate the data metadata `datapackage.json`, but once that is done it may become something not to be touched). In other words, whether a folder contains files in either of these categories, may depend on the life cycle of the project.
 
-<h3 spaces-before="0">Creating a Compendium</h3>
 
-<p spaces-before="0">If you already use some of the tools in this book - such as version control, Makefiles, and/or reproducible environments - it may come naturally to you to create a research compendium.
-This is, because a version control repository can be a research compendium; A Makefile makes it executable; A reproducible environment makes it reproducible.
-To create a research compendium, we recommend to first think about <em x-id="3">what the components of your project are</em> and create the folder structure accordingly.
-Use names for files and folders that make it easy for others to understand what they contain.
-It is a good idea to think about this early in the research process and start your project with the mindset that the output in the end is a research compendium rather than just a research paper.</p>
+### Creating a Compendium
 
-<h3 spaces-before="0">Publishing a Compendium</h3>
+If you already use some of the tools in this book - such as version control, Makefiles, and/or reproducible environments - it may come naturally to you to create a research compendium. This is, because a version control repository can be a research compendium; A Makefile makes it executable; A reproducible environment makes it reproducible. To create a research compendium, we recommend to first think about *what the components of your project are* and create the folder structure accordingly. Use names for files and folders that make it easy for others to understand what they contain. It is a good idea to think about this early in the research process and start your project with the mindset that the output in the end is a research compendium rather than just a research paper.
 
-<p spaces-before="0">There are several options to publish a research compendium:</p>
 
-<ul>
-<li>On a versioning platform such as GitHub or GitLab (potentially with a link to Binder).</li>
-<li>On a research archive such as Zenodo or the Open Science Framework (OSF).</li>
-<li>As supplementary material of a paper publication.</li>
-</ul>
+### Publishing a Compendium
 
-<p spaces-before="0">For examples, see the label/tag/community "research-compendium" (applied on GitHub, Zenodo, OSF) or as a fallback the term "research compendium" in the description (used on GitLab). For more info, see also <a href="https://research-compendium.science">Research Compendium</a>.</p>
+There are several options to publish a research compendium:
 
-<p spaces-before="0">In the future, the research compendium may even be the publication itself allowing peer review of the entire research project.</p>
+- On a versioning platform such as GitHub or GitLab (potentially with a link to Binder).
+- On a research archive such as Zenodo or the Open Science Framework (OSF).
+- As supplementary material of a paper publication.
 
-<p spaces-before="0">(rr-compendia-using)=</p>
+For examples, see the label/tag/community "research-compendium" (applied on GitHub, Zenodo, OSF) or as a fallback the term "research compendium" in the description (used on GitLab). For more info, see also [Research Compendium](https://research-compendium.science).
 
-<h3 spaces-before="0">Using a Compendium</h3>
+In the future, the research compendium may even be the publication itself allowing peer review of the entire research project.
 
-<p spaces-before="0">A research compendium can be used in several ways, including (but not limited to):</p>
+(rr-compendia-using)=
+### Using a Compendium
 
-<ul>
-<li>Peer review: If peers can check what you have done, they can review it much more thoroughly.</li>
-<li>Understanding research: If you really want to understand what someone has done in their research project, the research compendium is what you need to look at.</li>
-<li>Teaching: Research compendia can be great examples to be used in teaching.</li>
-<li>Reproducibility studies / repro hacks: A research compendium allows other researchers to attempt (and hopefully succeed) to redo your computations.</li>
-</ul>
+A research compendium can be used in several ways, including (but not limited to):
 
-<h2 spaces-before="0">Checklist</h2>
+- Peer review: If peers can check what you have done, they can review it much more thoroughly.
+- Understanding research: If you really want to understand what someone has done in their research project, the research compendium is what you need to look at.
+- Teaching: Research compendia can be great examples to be used in teaching.
+- Reproducibility studies / repro hacks: A research compendium allows other researchers to attempt (and hopefully succeed) to redo your computations.
 
-<p spaces-before="0">To create a research compendium, follow these steps:</p>
 
-<ul>
-<li>Think about a good folder structure (see example above)</li>
-<li>Create folder structure (main directory and sub directories)</li>
-<li>Optional: Make the compendium into a git repository</li>
-<li>Add all files needed for reproducing the results of the project</li>
-<li>Try to have the compendium as clean and easy to use as possible when you advertise it for others to use</li>
-<li>Optional: Have a peer check the compendium and see if it works correctly</li>
-<li>Publish your compendium</li>
-</ul>
+## Checklist
 
-<h2 spaces-before="0">Further Reading</h2>
+To create a research compendium, follow these steps:
 
-<ul>
-<li>The website <a href="https://research-compendium.science">Research Compendium</a> contains links to further resources and publications on research compendia as well as links to examples.</li>
-</ul>
+- Think about a good folder structure (see example above)
+- Create folder structure (main directory and sub directories)
+- Optional: Make the compendium into a git repository
+- Add all files needed for reproducing the results of the project
+- Try to have the compendium as clean and easy to use as possible when you advertise it for others to use
+- Optional: Have a peer check the compendium and see if it works correctly
+- Publish your compendium
 
-<p spaces-before="0"><!---
+## Further Reading
+
+- The website [Research Compendium](https://research-compendium.science) contains links to further resources and publications on research compendia as well as links to examples.
+
+
+<!---
 > top 3/5 resources to read on this topic (if they weren't licensed so we could include them above already) at the top, maybe in their own box/in bold.
 > less relevant/favourite resources in case someone wants to dig into this in detail
---></p>
+-->
