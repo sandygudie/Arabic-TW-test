@@ -7,7 +7,7 @@
 名称：新社区
 备选案文：两个正在一起工作并讨论数据图的人的示例。
 ---
-提高团队工作效率。 [许多Pixels免税图像](https://www.manypixels.co/gallery/)
+提高团队工作效率。 [Royalty free image from Many Pixels](https://www.manypixels.co/gallery/)
 ```
 
 ## 团队框架
@@ -20,7 +20,7 @@
 
 本教程由荷兰电子科学中心的研究人员开发，主要面向在学术环境中创造研究软件的人。 然而，此处讨论的团队协作做法对任何试图在科学项目中工作的人来说都是有用的。
 
-## 进一步的建议
+## Further Recommendations
 
 *协作之路* 指南，我们还为 {ref}`促进远程协作<remote-collab>` 提供了有用的资源。 特别是，查看 {ref}`组织<remote-collab-meetings>`的推荐， {ref}`工具列表<remote-collab-tools>` 和 {ref}`管理远程团队<remote-collab-management>`
 
