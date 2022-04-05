@@ -1,29 +1,29 @@
 (pd-persona)=
-# الأشخاص والمسارات
+# Personas and Pathways
 
-(بآلاف دولارات الولايات المتحدة)
-## الشروط المسبقة
-لا شيء.
+(pd-persona-prerequisites)=
+## Prerequisites
+None.
 
-(بآلاف دولارات الولايات المتحدة)
+(pd-persona-summary)=
 ## Summary
-والشخص عبارة عن تفاصيل لمستعمل أو عضو وهمي، استنادا إلى ملاحظات العالم الحقيقي وتفاهمات الأعضاء الحاليين أو الأعضاء المحتملين في المستقبل. وهو مفيد عندما يقترن بمسارات ينخرط فيها هؤلاء الأشخاص في مشروع.
+A persona is a detail of an imaginary user or member, based on real-world observations and understandings of existing members or potential future members. It is meaningful when paired with pathways through which these personas engage with a project.
 
 ```{figure} ../figures/personas.png
 ---
-الطول: 400px
-الاسم: الأشخاص
-بديلة: 4 أشخاص لهم مظهرات متنوعة يتحدثون مع بعضهم البعض. مشاركة الأفكار مباشرة مع بعضها البعض وكذلك المشاركة في وسائل الإعلام الإجتماعية.
+height: 400px
+name: personas
+alt: 4 people with diverse appearances are talking to each other, sharing ideas directly with each other and also sharing on social media.
 ---
-الناس يشاركون أفكارهم من خلال المحادثات المباشرة وعلى وسائل الإعلام الإجتماعية. _توضيح مشروع طريق التورين_ من سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
+People sharing their ideas through direct conversations and on social media. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
 
-(pd-persona-الحافز)= في مشروع موجه نحو المجتمع ومفتوح المصدر، يأتي المشاركون مع مستويات مختلفة من المهارات التقنية. وكذلك من مختلف الخلفيات والهويات والتوزيع الديمغرافي والتجارب المعيشية. وتسمح لنا أداة تطوير الأشخاص والمسارات بمراعاة تجارب الأفراد وتوقعاتهم عند تخطيط الجوانب المجتمعية لمشاريعنا.
+(pd-persona-motivation)= In a community-oriented and open source project, participants come with different levels of technical skills, as well as from different backgrounds, identities, demographic distribution and lived experiences. The personas and pathways development tool allows us to take experiences and expectations of individuals into account when planning the community aspects of our projects.
 
 يهدف هذا الفصل إلى التقاط 'شخصيات`مختلفة من الأعضاء أو المستخدمين وفهم 'المسار` التي يتخذونها للاتصال بالمشروع أو البقاء في علاقة به.
 
-في الفصل الفرعي الأول، نقدم {ref}`أداة إنشاء شخصية<pd-persona-creation>`. في الفصل الفرعي الثاني، {ref}`الأشخاص المساهمون والمسارات <pd-persona-contributors>`، نحن نناقش كيف يمكن للمرء أن يحدد المسارات باستخدام أمثلة من مجتمع _طريق الشحن_.
+In the first subchapter, we provide a {ref}`persona creation tool<pd-persona-creation>`. In the second subchapter, {ref}`Contributors Personas and Pathways <pd-persona-contributors>`, we discuss how one can identify pathways using examples from _The Turing Way_ community.
 
-*نحن نرحب بك لإضافة شخصياتك ومسالك في هذا الفصل لتقديم المزيد من الأمثلة من مختلف المشاريع.*
+*We welcome you to add your personas and pathways in this chapter to provide more examples from different projects.*
 
