@@ -15,7 +15,7 @@ You can see a log of your previous commits using
 git log
 ```
 
-In the log report on your terminal, you will see that each version is automatically tagged with a unique string of numbers and letters, called an SHA. You can identify, access and compare different versions by using their corresponding SHA. Aquí hay un ejemplo de un commit en el registro de Git: El SHA está en la primera línea, y aparte de este SHA, el registro también contiene información sobre la fecha, hora y autor del cambio, así como sobre el mensaje de confirmación ("corrección menor del error tipo").
+In the log report on your terminal, you will see that each version is automatically tagged with a unique string of numbers and letters, called an SHA. You can identify, access and compare different versions by using their corresponding SHA. Here is an example of a commit in the Git log: The SHA is in the very first line, and apart from this SHA, the log also contains information on the date, time, and author of the change as well as the commit message ("minor typo fix").
 
 ```
 commit 0346c937d0c451f6c622c5800a46f9e9e1c2b035
