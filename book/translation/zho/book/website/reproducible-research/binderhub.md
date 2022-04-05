@@ -17,8 +17,6 @@ This chapter is primarily aimed at Research Software Engineers and IT Services w
 name: binderhub
 alt: A representation of the BinderHub architecture that involves GitHub, repo2docker, docker, jupyterhub and shipping to clients in company.
 ---
-关于 BinderHub 架构的插图。
----
 Illustration about BinderHub architecture.
 _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.
 ```
