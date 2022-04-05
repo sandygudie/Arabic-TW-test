@@ -68,8 +68,8 @@ The following folder can be considered an executable research compendium. It con
 compendium/
 ├── CITATION
 ├── code
-│   ├── analyse_data. R
-│   └── clean_data. R
+│   ├── analyse_data.R
+│   └── clean_data.R
 ├── data_clean
 │   └── data_clean.csv
 ├── data_raw
@@ -80,7 +80,7 @@ compendium/
 │   └── flow_chart.jpeg
 ├── LICENSE
 ├── Makefile
-├── paper. Rmd
+├── paper.Rmd
 └── README.md
 ```
 
@@ -89,7 +89,7 @@ compendium/
 The principles of a research compendium state that it should clearly separate Methods, Data, and Output. Phrased differently, this means we should distinguish between three types of files and folders:
 
 - **Read-only**: raw data (``data_raw\`), metadata (``datapackage.json`,`CITATION`)
-- **صنع البشر**: الكود (`Cle_data. R`، `Analyse_data .`)، ورقة (`paper. Rmd`)، وثائق (`README.md`)
+- **Human-generated**: code (`clean_data.R`, `analyse_data.R`), paper (`paper.Rmd`), documentation (`README.md`)
 - **Project-generated**: clean data (``data_clean\`, figures (``figures\`), other output
 
 The examples mentioned here are not exhaustive and some may first be "human-generated" and at some point become "read-only" (for example a human may generate the data metadata `datapackage.json`, but once that is done it may become something not to be touched). In other words, whether a folder contains files in either of these categories, may depend on the life cycle of the project.
