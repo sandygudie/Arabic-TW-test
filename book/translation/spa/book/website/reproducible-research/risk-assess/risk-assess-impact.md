@@ -1,6 +1,6 @@
 # Risk assessment: complexity and impact
 
-We all use risk assessments all the time. A veces son procedimientos formales para asegurar que una actividad es segura. pero la mayoría de las veces están pensando en un momento - ¿Es este café demasiado caliente? ¿Llegará un autobús? Software is no different, and using a risk assessment approach like the one described below can really help make your work successful and sustainable.
+We all use risk assessments all the time. Sometimes they’re formal procedures to ensure an activity is safe, but most of the time they’re the thought of a moment- Is this coffee too hot? Is there a bus coming? Software is no different, and using a risk assessment approach like the one described below can really help make your work successful and sustainable.
 
 ## The risk matrix
 
@@ -38,7 +38,7 @@ The key point of these case studies is that every piece of software has differen
 
 ## More about measuring complexity
 
-One measure of complexity is line count. The more lines you have the more places there are to make a mistake. However, there are other things one might care about. How many libraries do you depend on? How many functions are there? All of these measure the complexity of the codebase. Complexity can take other forms too. How many use cases are there? Does your blob counting software only get used for counting blobs in the biosciences? Are there people using it to count blobs in CCTV images? ¿En qué tipo de ordenador lo utilizan las personas? ¿CPU? ¿GPU? ¿Raspberry Pi? CPU? GPU? Raspberry Pi? Take a broad view of your software.
+One measure of complexity is line count. The more lines you have the more places there are to make a mistake. However, there are other things one might care about. How many libraries do you depend on? How many functions are there? All of these measure the complexity of the codebase. Complexity can take other forms too. How many use cases are there? Does your blob counting software only get used for counting blobs in the biosciences? Are there people using it to count blobs in CCTV images? What types of computer are people using it on? CPU? GPU? Raspberry Pi? Take a broad view of your software.
 
 ## More about measuring impact
 
