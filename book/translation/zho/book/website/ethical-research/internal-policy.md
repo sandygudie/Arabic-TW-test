@@ -5,10 +5,8 @@ Internal policy advocacy is when individuals or groups associated with an organi
 
 ```{figure} ../figures/advocacy.jpg
 ---
-名称：辩护
-备选案文：一个人签名另一个人持有的请愿书， 在一群人面前游行，横幅读作“宣传！”
----
-参与宣传有不同的方式。
+name: advocacy
+alt: One person signs a petition held by another person, in front of a group of people marching under a banner reading "Advocacy!"
 ---
 There are different ways to take part in advocacy. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.4906004](https://doi.org/10.5281/zenodo.4906004).
 ```
