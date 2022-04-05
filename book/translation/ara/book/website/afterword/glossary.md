@@ -1,5 +1,5 @@
 (glossary)=
-# crwdns4381:0crwdne4381:0
+# Glossary
 
 ## A
 
@@ -20,7 +20,7 @@ Authors
 ```
 ---
 
-## crwdns4401:0crwdne4401:0
+## B
 
 ```{glossary}
 
@@ -45,7 +45,7 @@ Build
 ```
 ---
 
-## crwdns4427:0crwdne4427:0
+## C
 
 ```{glossary}
 
@@ -118,7 +118,7 @@ CRediT Taxonomy
 ```
 ---
 
-## crwdns4501:0crwdne4501:0
+## D
 
 ```{glossary}
 
@@ -145,7 +145,7 @@ Digital Object Identifier
 
 ```
 ---
-## crwdns4523:0crwdne4523:0
+## E
 
 ```{glossary}
 
@@ -160,7 +160,7 @@ End to End Test
 
 ```
 ---
-## crwdns4529:0crwdne4529:0
+## F
 
 ```{glossary}
 
@@ -172,7 +172,7 @@ First author
 
 ```
 ---
-## crwdns4537:0crwdne4537:0
+## G
 
 ```{glossary}
 Generalisable
@@ -200,7 +200,7 @@ Guarantor
  As well as fulfilling criteria for being a named author, some journals require one or more authors that take responsibility for the integrity of the work as a whole from inception to the published article.
 ```
 ---
-## crwdns4571:0crwdne4571:0
+## H
 
 ```{glossary}
 Head
@@ -216,7 +216,7 @@ Human Readable
   A human readable medium or human readable format is any encoding of data or information that can be naturally read by humans. Some human readable formats, such as PDF, are not machine readable as they are not structured data, such as the representation of the data on disk does not represent the actual relationships present in the data.
 ```
 ---
-## crwdns4583:0crwdne4583:0
+## I
 
 ```{glossary}
 
@@ -226,17 +226,17 @@ Image
 Integration Testing
   A level of software testing where individual units are combined and tested as a group. The purpose of this level of testing is to expose faults in the interaction between integrated units.
 
-التقاطع
-  الطريقة التي يتم بها تحديد هوية الشخص (نوع الجنس أو العرق أو الطبقة أو التوجه الجنسي) ويمكن أن تتداخل وتتقاطع القدرات البدنية وغيرها لتكوين تجربة فريدة من نوعها في الوضع الاجتماعي أو التمييز أو القمع. () هذا المصطلح صاغه البروفيسور كيمبرلي كرينشاو.
+Intersectionality
+  The way in which a person's identities (gender, race, class, sexual orientation, physical ability and others) can overlap and intersect to form a unique experience of social status, discrimination or oppression. This term was coined by Professor Kimberlé Crenshaw.
 
-مشكلات
-  نظام تتبع الأخطاء لـ GitHub. يمكن للمتعاونين استخدام المشكلات للإبلاغ عن الأخطاء أو طلب الميزات أو تعيين معالم للمشاريع. ويقوم المتعاونون بتتبع القضايا والإبلاغ عنها وإغلاقها خلال عملية التنمية. إنها طريقة رائعة للتواصل مع فريقك والإبلاغ عن التقدم المحرز.
+Issues
+  Bug tracking system for GitHub. Collaborators can use issues to report bugs, request features, or set milestones for projects. Issues are tracked, reported, and closed by collaborators during the development process. They’re a great way of communicating with your team and reporting progress.
 
-تتبع المشكلة
-  عملية تتبع المشكلات الحالية في المشروع، مثل إصلاح الأخطاء، نشر ميزات جديدة أو خطط مشاركة المجتمع.
+Issue Tracking
+  The process of tracking current issues on the project, such as bug fixing, rolling out new features or community engagement plans.
 ```
 ---
-## crwdns4601:0crwdne4601:0
+## J
 
 ```{glossary}
 
@@ -247,14 +247,15 @@ JupyterHub
   A multi-user server for Jupyter Notebook instances.
 ```
 ---
-## crwdns4609:0crwdne4609:0
+## K
 
 ```{glossary}
 
-crwdns4611:0crwdne4611:0
+Kubernetes
+  Autonomous computational cluster manager.
 ```
 ---
-## crwdns4613:0crwdne4613:0
+## L
 
 ```{glossary}
 
@@ -265,7 +266,7 @@ Last author
  Usually the person in the research team with a supervisory role such as a PhD supervisor or Principal investigator. This is discipline dependent as sometimes the last author is the person that has made the smallest contribution to the research.
 ```
 ---
-## crwdns4623:0crwdne4623:0
+## M
 
 ```{glossary}
 
@@ -294,13 +295,13 @@ Mock Test
   Replace a real object with a pretend one to use when running tests.
 ```
 ---
-## crwdns4655:0crwdne4655:0
+## N
 
 ```{glossary}
 
 ```
 ---
-## crwdns4657:0crwdne4657:0
+## O
 
 ```{glossary}
 
@@ -344,7 +345,7 @@ Owner
   The person/s who has administrative ownership over the organization or repository (not always the same as the original author).
 ```
 ---
-## crwdns4699:0crwdne4699:0
+## P
 
 ```{glossary}
 
@@ -388,13 +389,13 @@ Push
   Sending changes to a remote repo. The remote repository is updated with the changes pushed and now mirrors the local repo.
 ```
 ---
-## crwdns4733:0crwdne4733:0
+## Q
 
 ```{glossary}
 
 ```
 ---
-## crwdns4735:0crwdne4735:0
+## R
 
 ```{glossary}
 
@@ -458,7 +459,7 @@ Runtime Test
 
 ```
 ---
-## crwdns4803:0crwdne4803:0
+## S
 
 ```{glossary}
 
@@ -491,7 +492,7 @@ System Testing
 
 ```
 ---
-## crwdns4831:0crwdne4831:0
+## T
 
 ```{glossary}
 
@@ -514,7 +515,7 @@ Travis
   A commonly used continuous integration platform.
 ```
 ---
-## crwdns4849:0crwdne4849:0
+## U
 
 ```{glossary}
 
@@ -525,35 +526,37 @@ Unit Testing
   A level of the software testing process where individual units of a software are tested. The purpose is to validate that each unit of the software performs as designed.
 ```
 ---
-## crwdns4859:0crwdne4859:0
+## V
 
 ```{glossary}
 
-crwdns4861:0crwdne4861:0
+Virtual Machine
+  A simulated computer that can encapsulate and entire computational environment including its operating system, customised settings, software and files.
 
 ```
 ---
-## crwdns4863:0crwdne4863:0
-
-```{glossary}
-
-```
----
-## crwdns4865:0crwdne4865:0
+## W
 
 ```{glossary}
 
 ```
 ---
-## crwdns4867:0crwdne4867:0
+## X
 
 ```{glossary}
-crwdns4869:0crwdne4869:0
+
 ```
 ---
-## crwdns4871:0crwdne4871:0
+## Y
+
+```{glossary}
+YAML
+  A human readable/writable markup language which used by many projects for configuration files.
+```
+---
+## Z
 
 ```{glossary}
 
 ```
-crwdns35175:0crwdne35175:0
+--->
