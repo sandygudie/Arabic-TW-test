@@ -14,7 +14,7 @@ Create a new GitHub issue where throughout the month you and other community mem
 
 There are several ways to start a draft:
 
-1. 在适当的目录中创建 _的新分支。 _ [GitHub 版本库](https://github.com/alan-turing-institute/the-turing-way/) (在下一章关于 {ref}的说明`新闻通讯的风格指南 <ch-newsletters-style>`)。
+1. Create a new branch of _The Turing Way_ [GitHub repository](https://github.com/alan-turing-institute/the-turing-way/) within the appropriate directory (explained in the next subchapter on {ref}`newsletter's style guide <ch-newsletters-style>`).
 
 You can work on this GitHub branch locally or online through a pull request (PR). If working online, please keep the draft mode on for your PR or add "[WIP]" (work in progress) in the title.
 
@@ -48,7 +48,7 @@ For the twitter mentions, there is no fixed number of screenshots, but 4-6 tweet
 
 Based on the bullet points collected for each news item, create 1-2 small paragraphs using the recommendations for the language and format described in the next subchapter.
 
-向可能与新闻相关联的社区成员提供公正的信贷，并在段落末尾加上句子和与更多信息的链接。
+Provide links when useful, give credits fairly to the community members who might be associated with the news item and end the paragraph with a sentence and link to more information.
 
 ### Proofreading your draft
 
@@ -91,11 +91,11 @@ Here are the steps for publishing the newsletter draft online and send by email 
 - Once confirmed for its format and content, the newsletter is sent to the registered members by clicking “Send to all”.
 - The [online newsletters](https://tinyletter.com/TuringWay/) are shareable by links and can be read by non-subscribed members as well.
 
-*(赚钱让您的通讯 [在这里](https://www.sitepoint.com/how-start-a-newsletter-in-minutes-with-tinyletter/)。 )*
+*(Learn to make your newsletter [here](https://www.sitepoint.com/how-start-a-newsletter-in-minutes-with-tinyletter/).)*
 
  **It's published, now what?**
 
 - Update the index table in the [README.md file](https://github.com/alan-turing-institute/the-turing-way/blob/main/communications/newsletters/README.md) with the details of the newly published newsletter.
 - Tweet about it from [@turingway](https://twitter.com/turingway).
 - Send a notification on [Gitter](https://gitter.im/alan-turing-institute/the-turing-way) and [Slack](https://theturingway.slack.com) channels.
-- Do a celebratory dance! (这是强制性的! 💃) 💃)
+- Do a celebratory dance! (This is mandatory! 💃)
