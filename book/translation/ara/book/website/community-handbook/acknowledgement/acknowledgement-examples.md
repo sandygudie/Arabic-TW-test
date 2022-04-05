@@ -10,29 +10,29 @@ In this subchapter, we will explore the different types of contributions that ex
 We use the term "bug" for small errors in the text or code like typos formatting issues or broken links, or minor fixes.
 
 - *Persona for Small bug fixing*: Fraya found a typo and fixed it.
-  - **تقدير:** تم الاعتراف بهم في طاولة المساهمين مع 🐛 (`خطأ`) الرموز التعبيرية.
+  - **Acknowledgement:** They are acknowledged in the Contributors table with a 🐛 (`bug`) emoji.
 - *Persona for fixing bug while maintaining sustained engagement*: Amal has found multiple typos on multiple visits to the project and contributes to conversations in issues about where these typos cause confusion or need additional input to fix. Amal has had a sustained engagement with the community.
-  - **اعتراف:** أمل معترف به في طاولة المساهمين مع 🐛 (`خطأ`) و 🤔 (`فكرة`) رمز تعبيري و اسمه كمؤلف في الإصدارين الأخيرين من الكتاب.
+  - **Acknowledgement:** Amal is acknowledged in the Contributors table with a 🐛 (`bug`) and a 🤔 (`idea`) emoji and named as an author on the last 2 releases of the book.
 
 ## Providing examples
 
 Contributors can also provide examples that can make _The Turing Way_ chapters comprehensible for the readers.
 
 - *Persona for adding examples*: Divna made a pull request to add an example that enhanced the quality of the chapter.
-  - **إعتراف:**ديفنا معروفة ب💡(`مثال`) الرموز التعبيرية في جدول المساهمين.
+  - **Acknowledgement:** Divna is acknowledged with 💡(`example`) emoji in the Contributors table.
 - *Persona for adding examples*: Pawel wrote a subchapter and added it through a pull request to add a detailed example that demonstrated the content of the chapter being used in a real world example.
-  - **اعتراف:** باويل معترف به مع 💡(`مثال`) الرموز التعبيرية في طاولة المساهمين ويسمى مؤلف في آخر 3 إصدارات من الكتاب.
+  - **Acknowledgement:** Pawel is acknowledged with 💡(`example`) emoji in the Contributors table and named as an author on the last 3 releases of the book.
 
 ## Code and scripts
 
 We encourage our contributors to write a piece of code, bots or scripts to help improve the project workflow.
 
 - *Persona for writing scripts for the project*: Kendra wrote a Python script to spot a Latin word in a new contribution, which should be avoided in this book.
-  - **اعتراف:** كندرا معترف بها مع 💻 (`الشفرة`) الرموز التعبيرية في طاولة المساهمين.
+  - **Acknowledgement:** Kendra is acknowledged with 💻 (`code`) emoji in the Contributors table.
 - *Persona for reusing an existing tool*: Serena set up the continuous integration pipeline for the book using GitHub action features. They further wrote a Python script to make the error report easy to understand and fix.
-  - **اعتراف:** سيرينا معترف بها مع 💻 (`code`) الرموز التعبيرية في طاولة المساهمين مع 🚧 (`صيانة`) الرموز التعبيرية وسميت كمؤلف في أحدث إصدار للكتاب.
+  - **Acknowledgement:** Serena is acknowledged with 💻 (`code`) emoji in the Contributors table along with the 🚧 (`maintenance`) emoji and named as an author in the most recent release of the book.
 
-## مجموعة البيانات
+## Dataset
 
 Contributors can provide test data for a test or to link with a chapter to improve the overall content.
 
@@ -96,7 +96,7 @@ When members participate in _The Turing Way_ community with the in-kind support 
 - *Persona for a contributing member from the organisation*: Abby is one of the members of the NNAII who contributed to the guidance before she left to join a non-profit last year. After leaving NNAII, Abby has designed and written a new chapter in her own time.
   - **Acknowledgement:** In addition to her previous acknowledgments, she will be acknowledged with a 🖋  (`content`) and 🤔 (`idea`) emoji in the Contributors Table and her {ref}`the record of contributions<ch-acknowledgement-record>` will develop independently of the NNAII.
 - *Persona for the supporting (indirect contributor) members from the organisation*: Kadie is a programme director at the NNAII who manages the team that wrote the guidance that has been incorporated into _The Turing Way_.
-  - **اعتراف:** تم الاعتراف بها في طاولة المساهمين مع :$_banknote: (`التمويل`) emoji. سئلت كادي عما إذا كانت ترغب في أن تكون مؤلفة في أحدث إصدار لكتاب _الطريق الوشيك_ ولكنها رفضت لأنها لم تشعر شخصياً بأنها ساهمت بما يكفي لتسميتها كمؤلف.
+  - **Acknowledgement:** She is acknowledged in the Contributors table with the 💵 (`finance`) emoji. Kadie was asked if she would like to be an author on the most recent release of _The Turing Way_ book but declined as she did not personally feel that she had contributed enough to be named as an author.
 - *Persona for a contributing member from the organisation with sustained engagement*: Patty works in a National Library and her employers have approved her to host their resources as chapters in _The Turing Way_. Patty has developed materials, contributed to the community discussions and reviewed others' pull requests on the GitHub repository.
   - **Acknowledgement:** Patty will be listed in the Contributors Table with a 🤔 (`idea`), 🖋  (`content`) and 👀 (`review`) emoji and named as an author on the last release of the book..
 
@@ -104,7 +104,7 @@ When members participate in _The Turing Way_ community with the in-kind support 
 
 Maintenance work in _The Turing Way_ applies to the multiple aspects, some of which are: responding to the questions in community spaces such as Gitter, GitHub issues, or Twitter; the technical infrastructure of the GitHub repository, associated GitHub bots, scripts and continuous integration pipeline; online hosting platforms of Jupyter book and Netlify; and translation infrastructure of Transifex.
 
-- جانب من شخصية شخص للحفاظ على التفاعلات المجتمعية: نيفي ساعدت اثنين من المساهمين في مناسبتين مختلفتين من خلال الرد على سؤال في قناة Turing Way Gitter وعلى سؤال عن المشاكل في مستودع Turing Way على ال GitHub.
+- *Persona for maintaining community interactions*: Neve has helped two contributors on two individual occasions by responding to a question on the Turing Way Gitter channel and a question on one of the issues in _The Turing Way_ GitHub repository.
   - **Acknowledgement:** He is acknowledged in the Contributors table with the 💬 (`question`) and 🤔 (`idea`) emoji.
 - *Persona for maintaining community interactions with sustained engagement*: Ursula regularly points new contributors to documentation and submits pull requests to improve the guidance when she sees unclear areas. She reviews pull requests from others working to make the process of contributing smoother.
   - **Acknowledgement:** She is acknowledged in the Contributors table with the 💬 (`question`), 🤔 (`idea`), 👀 (`review`) and 🚧 (`maintenance`) emoji , and named as an author on the last two releases of the book.
