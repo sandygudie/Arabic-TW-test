@@ -15,4 +15,4 @@ These roles are often defined in a project file such as a [CODEOWNERS file](http
 
 In this chapter, anyone with triage, write and maintain permission is referred to as maintainers. Maintainers are involved with creating issues and pull requests whenever required. They keep the codebase or project updated and help in reviewing contributions. They can often approve and merge pull requests. They can also request reviews from someone else.
 
-**关于权限级别的更多信息，请在GitHub</a> 上查看 文档。*
+*For more information on permission level, please see this [documentation on GitHub](https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams/repository-permission-levels-for-an-organization).*
