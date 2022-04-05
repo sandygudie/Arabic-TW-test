@@ -9,7 +9,7 @@ In all cases, the goal is to use your programming experience to figure out how t
 
 ## For the coder
 
-- Compruebe los estándares requeridos del proyecto. Los estándares normalmente están escritos en `pautas de contribución` por el proyecto al que estás contribuyendo.
+- Does the new code meets the required standards of the project? The standards are typically written under `contributing guidelines` by the project you are contributing to.
 - Is there [documentation](#documentation) that meets the required standards of the project?
 - Are you following any declared {ref}`style guide<rr-code-quality>` for the project?
 - Are there new [tests](#tests) for the new material, based on the required standards of the project?
@@ -21,7 +21,7 @@ In all cases, the goal is to use your programming experience to figure out how t
 
 ## For the reviewer
 
-- Check the required standards of the project. ¿Cumple el nuevo código con los estándares requeridos del proyecto? Los estándares normalmente están escritos bajo `pautas de contribución` por el proyecto al que estás contribuyendo.
+- Check the required standards of the project. The standards are typically written under `contributing guidelines` by the project you are contributing to.
 - Check the code meets basic project {ref}`style guide<rr-code-quality>`, if this is not automatically checked by {ref}`continuous integration (CI)<rr-ci>`.
 - Do the [tests](#tests) and [documentation](#documentation) conform to the standards?
 - Is all the code easily understood? Depending on the language, files may contain interfaces, classes or other type definitions, and functions (see [Architecture](#architecture)). The essential architectural concepts can be reviewed as follows:
@@ -37,17 +37,17 @@ In all cases, the goal is to use your programming experience to figure out how t
 
 ## Program level checklist
 
-Aquí hay una lista de cosas a tener en cuenta al considerar el programa como un todo, en lugar de mirar un archivo individual o un cambio.
+Here is a list of things to consider when looking at the program as a whole, rather than when looking at an individual file or change.
 
 ### Documentation
 
-Documentation is a prerequisite for using, developing, and reviewing the program. Alguien que no esté involucrado con tu proyecto debería entender lo que hace tu código, y qué enfoque estás tomando. Here are some things to check for.
+Documentation is a prerequisite for using, developing, and reviewing the program. Someone who isn’t involved with your project should understand what your code does, and what approach you’re taking. Here are some things to check for.
 
 - Is there a description of the purpose of the program or library?
 - Are detailed requirements listed?
 - Are requirements ranked according to [MoSCoW](https://en.wikipedia.org/wiki/MoSCoW_method)?
 - Is the use and function of third-party libraries documented?
-- ¿Está documentada la estructura/arquitectura del programa? (ver abajo) (see below)
+- Is the structure/architecture of the program documented? (see below)
 - Is there an installation manual?
 - Is there a user manual?
 - Is there documentation on how to contribute?
@@ -56,30 +56,30 @@ Documentation is a prerequisite for using, developing, and reviewing the program
 
 ### Architecture
 
-Estos artículos son principalmente importantes para programas más grandes, pero pueden ser buenos para considerarlos también para los pequeños.
+These items are mainly important for larger programs, but may still be good to consider for small ones as well.
 
 - Is the program split up into clearly separated modules?
 - Are these modules as small as they can be?
-- ¿Hay una estructura de dependencia clara, jerárquica o por capas, entre estos módulos?
-  - Si no es así, la funcionalidad debería reorganizarse, o tal vez se deberían combinar módulos interdependientes.
+- Is there a clear, hierarchical or layered, dependency structure between these modules?
+  - If not, the functionality should be rearranged, or perhaps heavily interdependent modules should be combined.
 - Can the design be simplified?
 
 ### Security
 
-Si está haciendo software accesible al mundo exterior (por ejemplo, una aplicación web ), entonces la seguridad es importante. Los problemas de seguridad son defectos, pero no todos los defectos son problemas de seguridad. Un diseño consciente de seguridad puede ayudar a mitigar el impacto de seguridad de los defectos.
+If you're making software that is accessible to the outside world (for example a web application), then security becomes important. Security issues are defects, but not all defects are security issues. A security-conscious design can help mitigate the security impact of defects.
 
 - Which modules deal with user input?
 - Which modules generate output?
 - Are input and output compartmentalized?
-  - Si no, considera hacer módulos separados que gestionan toda la entrada y la salida, así que la validación puede ocurrir en un solo lugar.
+  - If not, consider making separate modules that manage all input and output, so validation can happen in one place.
 - In which modules is untrusted data present?
   - The fewer the better.
 - Is untrusted data compartmentalized?
-  - Idealmente, valida en el módulo de entrada y pasa solo datos validados a otras partes.
+  - Ideally, validate in the input module and pass only validated data to other parts.
 
 ### Legal
 
-Como desarrollador, deberías prestar atención a los derechos legales de los creadores del código que estás usando. Here are some things to check. Cuando tengas dudas, pídele consejo a alguien con experiencia en licencias.
+As a developer, you should pay attention to the legal rights of the creators of the code you're using. Here are some things to check. When in doubt, ask someone experienced in licensing for advice.
 
 - Are the licenses of all modules/libraries that are used documented?
 - Are the requirements set by those licenses fulfilled?
@@ -91,7 +91,7 @@ Como desarrollador, deberías prestar atención a los derechos legales de los cr
 
 ## File/Change level checklist
 
-Cuando está comprobando cambios o archivos individuales en una solicitud de extracción, el código en sí mismo se convierte en objeto de escrutinio. Dependiendo del idioma, los archivos pueden contener interfaces, clases u otras definiciones de tipo y funciones. Todas estas deben ser revisadas.
+When you're checking individual changes or files in a pull request, the code itself becomes the subject of scrutiny. Depending on the language, files may contain interfaces, classes or other type definitions, and functions. All these should be checked.
 
 ### Interfaces
 
@@ -99,7 +99,7 @@ Cuando está comprobando cambios o archivos individuales en una solicitud de ext
 - Does the concept it models make sense?
 - Can it be split up further? (Interfaces should be as small as possible)
 
-Ten en cuenta que la mayoría de los siguientes elementos asumen un estilo de programación orientada a objetos , el cual puede no ser relevante para el código que estás buscando.
+Note that most of the following items assume an object-oriented programming style, which may not be relevant to the code you're looking at.
 
 ### Classes and types
 
@@ -126,7 +126,7 @@ Ten en cuenta que la mayoría de los siguientes elementos asumen un estilo de pr
 - Are edge cases and unusual things commented?
 - Is there any incomplete code?
 - Could this function be split up (is it not too long)?
-- Does it work? ¿Funciona? Realizar la función prevista, lógica correcta, ...
+- Does it work? Perform intended function, logic correct, ...
 - Is it easy to understand?
 - Is there redundant or duplicate code? (DRY)
 - Do loops have a set length and do they terminate correctly?
