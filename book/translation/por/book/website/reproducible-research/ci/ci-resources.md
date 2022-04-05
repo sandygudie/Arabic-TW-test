@@ -1,64 +1,64 @@
 (rr-ci-resources)=
-# Lista de verificação e recursos
+# Checklist and Resources
 
 ## Checklist
 
-- Tenha um projeto em que você colabore com pelo menos uma outra pessoa
-- Coloque o projeto no GitHub
-- Os membros do projeto devem fazer um commit regular do seu trabalho para este repositório central
-- Esse projeto deve ter pelo menos alguns testes
-- Escreva um arquivo `ci.yml` que:
-  - Deve estar dentro de `.github/workflows`
-  - Defina o nome do evento do GitHub que dispara o fluxo de trabalho usando o `na tecla` no YMAL.
-  - Define uma máquina de host específica na qual executar o trabalho usando `jobs` e `runs-on`.
-  - Inclui código para instalar quaisquer dependências necessárias para executar o projeto em um passo anterior à instalação
-  - Contém um script para executar os testes do projeto
-- Envie o arquivo `ci.yml` para o repositório do projeto no GitHub
-- Cada vez que um novo compromisso for levado a cabo pelo Travis executará os testes e dará os resultados. Se esses relatórios de commit fazem com que o teste / testes falhe, então encontre e corrija o problema o mais rápido possível
+- Have a project that you collaborate on with at least one other person
+- Put the project on GitHub
+- Have project members regularly commit their work to this central repository
+- That project should have at least some tests
+- Write a `ci.yml` file which:
+  - Must be inside `.github/workflows`
+  - Define the name of the GitHub event that triggers the workflow using `on` key on the YMAL.
+  - Defines a specific host machine on which to run the job using `jobs` and `runs-on`.
+  - Includes code to install any dependencies required to run the project in a before_install step
+  - Contains a script to run the project tests
+- Commit the `ci.yml` file to the project's GitHub repository
+- Each time a new commit is pushed Travis will run the tests and return the results. If these report that a commit causes test/tests to fail then find and fix the problem as soon as possible
 
-## O que aprender a seguir
+## What to learn next
 
-Se já não leu o capítulo de teste, é sugerido que o façamos para aprender mais sobre os diferentes tipos de testes e os seus benefícios, a fim de tirar o máximo proveito da IC.
+If you have not already read the testing chapter it is suggested to do so to learn more about the different kinds of tests and their benefits in order to make the most of CI.
 
-## Definições/glossário
+## Definitions/glossary
 
-**Integração contínua:** O processo de combinar regularmente o trabalho dos membros do projeto em uma versão centralizada. Também chamado CI. O software de CI normalmente executa testes na versão integrada de um projeto para identificar conflitos e bugs introduzidos pela integração.
+**Continuous integration:** The process of regularly combining the work of project members into a centralised version. Also called CI. CI software typically runs tests on the integrated version of a project to identify conflicts and bugs introduced by the integration.
 
-**Build:** Um grupo de trabalhos. Por exemplo, uma construção pode ter dois empregos, cada um deles testa um projeto com uma versão diferente de uma linguagem de programação. Uma construção termina quando todas as suas tarefas são concluídas.
+**Build:** A group of jobs. For example, a build might have two jobs, each of which tests a project with a different version of a programming language. A build finishes when all of its jobs are finished.
 
-**Ambiente computacional:** O ambiente onde um projeto é executado, incluindo o sistema operacional, o software instalado nele e as versões de ambos.
+**Computational environment:** The environment where a project is run, including the operating system, the software installed on it, and the versions of both.
 
-**GitHub:** Uma plataforma de controle de versão amplamente utilizada.
+**GitHub:** A widely used version control platform.
 
-**Ações GitHub:** É um serviço de CI/CD que é executado em repositórios GitHub.
+**GitHub Actions:** It is a CI/CD service that runs on GitHub repos.
 
-**Fluxos de trabalho** Eles são arquivos YAML armazenados no diretório _.github/workflows_ de um repositório.
+**Workflows** They are YAML files stored in the _.github/workflows_ directory of a repository.
 
-**Ação** É um pacote que você pode importar e usar no seu **workflow**. O GitHub fornece um **[Mercado de Ações](https://github.com/marketplace?type=actions)** para encontrar ações para usar nos fluxos de trabalho.
+**Action** It is a package you can import and use in your **workflow**. GitHub provides an **[Actions Marketplace](https://github.com/marketplace?type=actions)** to find actions to use in workflows.
 
-**Trabalho** É uma máquina virtual que executa uma série de **etapas**. **Tarefas** são paralelas por padrão, mas **passos** são sequenciais por padrão.
+**Job** It is a virtual machine that runs a series of **steps**. **Jobs** are parallelized by default, but **steps** are sequential by default.
 
-## Tutoriais práticos
+## Practical Tutorials
 
-- Para começar com o GitHub Actions, o Padok fornece [um tutorial prático](https://github.com/padok-team/github-actions-tutorial) onde você pode criar um fluxo de trabalho que testa automaticamente, compila, lança e implementa um simples microserviço.
-- O GitHub Learning Lab também oferece um guia interativo para [projetos práticos para aprender sobre as ações do GitHub](https://lab.github.com/githubtraining/github-actions:-continuous-integration).
+- To get you started with GitHub Actions, Padok provides [a hand-on tutorial](https://github.com/padok-team/github-actions-tutorial) where you can build a workflow that automatically tests, builds, releases, and deploys a simple microservice.
+- GitHub Learning Lab also offers an interactive guide for [practical projects to learn GitHub actions](https://lab.github.com/githubtraining/github-actions:-continuous-integration).
 
-## Referências
+## References
 
-- [O que é CI](https://github.com/travis-ci/docs-travis-ci-com/blob/master/user/for-beginners.md) **MIT**
-- [Blog SSI](https://software.ac.uk/using-continuous-integration-build-and-test-your-software?_ga=2.231776223.1391442519.1547641475-1644026160.1541158284) **Licença Creative Commons Attribution Non-Commercial 2.5**
-- [A diferença entre integração contínua, implantação contínua e entrega contínua](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.**
-- [CI com python](https://docs.python-guide.org/scenarios/ci/) **Attribution-NonCommercial-ShareAlike 3.0 Unported**
-- [Começando com as ações do GitHub: conceitos e tutorial](https://www.padok.fr/en/blog/github-actions)
-- [Tutorial CI/CD usando GitHub Actions](https://dev.to/michaelcurrin/intro-tutorial-to-ci-cd-with-github-actions-2ba8)
-- [Criando uma ação de contêiner Docker](https://docs.github.com/en/actions/creating-actions/creating-a-docker-container-action)
+- [What is CI](https://github.com/travis-ci/docs-travis-ci-com/blob/master/user/for-beginners.md) **MIT**
+- [SSI blog](https://software.ac.uk/using-continuous-integration-build-and-test-your-software?_ga=2.231776223.1391442519.1547641475-1644026160.1541158284) **Creative Commons Attribution Non-Commercial 2.5 License**
+- [The difference between continuous integration, continuous deployment, and continuous delivery](https://www.digitalocean.com/community/tutorials/an-introduction-to-continuous-integration-delivery-and-deployment) **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.**
+- [CI with python](https://docs.python-guide.org/scenarios/ci/) **Attribution-NonCommercial-ShareAlike 3.0 Unported**
+- [Getting started with GitHub Actions: concepts and tutorial](https://www.padok.fr/en/blog/github-actions)
+- [CI/CD tutorial using GitHub Actions](https://dev.to/michaelcurrin/intro-tutorial-to-ci-cd-with-github-actions-2ba8)
+- [Creating a Docker container action](https://docs.github.com/en/actions/creating-actions/creating-a-docker-container-action)
 
-### Materiais usados: O que são ações Github e como ele funciona?
+### Materials used: What is Github actions and how does it work?
 
-- [Folha de Trapaças do GitHub Ações](https://resources.github.com/whitepapers/GitHub-Actions-Cheat-sheet/)
-- [Docs GitHub: Actions - Conceitos principais](https://docs.github.com/en/actions/getting-started-with-github-actions/core-concepts-for-github-actions)
-- [Docs GitHub: Ações - Configurar e gerenciar fluxos de trabalho](https://docs.github.com/en/actions/configuring-and-managing-workflows)
+- [GitHub Actions Cheat Sheet](https://resources.github.com/whitepapers/GitHub-Actions-Cheat-sheet/)
+- [GitHub docs: Actions - Core concepts](https://docs.github.com/en/actions/getting-started-with-github-actions/core-concepts-for-github-actions)
+- [GitHub docs: Actions - Configuring and managing workflows](https://docs.github.com/en/actions/configuring-and-managing-workflows)
 
-## Reconhecimentos
+## Acknowledgements
 
-Graças ao grupo da Universidade de Sheffield RSE David Jones, que realizou discussões úteis.
+Thanks to David Jones of the University of Sheffield RSE group for useful discussions.
