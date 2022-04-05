@@ -1,31 +1,31 @@
 (rr-ci)=
-# Integração contínua
+# Continuous integration
 
-| Pré-requisito                                                                                   | Importância | Observações                                                                                                                                  |
-| ----------------------------------------------------------------------------------------------- | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Experimente com a linha de comando](https://programminghistorian.org/en/lessons/intro-to-bash) | Necessário  | A integração contínua seguirá as instruções da linha de comando                                                                              |
-| {ref}`Controle da versão<rr-vcs>`                                                         | Necessário  | Integração contínua é executada toda vez que um novo _commit_ é feito no seu projeto                                                         |
-| {ref}`Reprodutíveis ambientes computacionais<rr-renv>`                                    | Necessário  | A integração contínua executa seus testes em um computador separado (geralmente na nuvem), então você precisa configurá-lo da mesma maneira. |
-| {ref}`Testando<rr-testing>`                                                               | Muito útil  | Integração contínua _testa_ se algo importante foi alterado quando você faz uma alteração no seu projeto                                     |
+| Prerequisite                                                                                  | Importance   | Notes                                                                                                                          |
+| --------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------ |
+| [Experience with the command line](https://programminghistorian.org/en/lessons/intro-to-bash) | Necessary    | Continuous integration will follow command line instructions                                                                   |
+| {ref}`Version control<rr-vcs>`                                                          | Necessary    | Continuous integration runs every time a new _commit_ is made to your project                                                  |
+| {ref}`Reproducible computational environments<rr-renv>`                                 | Necessary    | Continuous integration runs your tests on a separate computer (usually in the cloud) so you need to set it up in the same way. |
+| {ref}`Testing<rr-testing>`                                                              | Very helpful | Continuous integration _tests_ if anything important has changed when you make a change in your project                        |
 ## Summary
 
-Integração contínua (CI) é a prática de integração principal das alterações a um projeto feito por indivíduos versão compartilhada frequentemente (geralmente várias vezes por dia). O software de CI também é normalmente usado para identificar quaisquer conflitos e bugs que são introduzidos por mudanças, portanto são encontrados e fixados mais cedo, minimizando o esforço necessário para o fazer. Executar testes regularmente também evita que os humanos precisem fazer isso manualmente. Ao sensibilizar os usuários para erros tão cedo quanto possível pesquisadores (se o projeto é um projeto de pesquisa) não desperdice muito tempo fazendo trabalho que pode precisar ser jogado fora, o que pode ser o caso se os testes forem executados com pouca frequência e se os resultados forem produzidos com base em código defeituoso.
+Continuous integration (CI) is the practice of integrating changes to a project made by individuals into a main, shared version frequently (usually multiple times per day). CI software is also typically used to identify any conflicts and bugs that are introduced by changes, so they are found and fixed early, minimising the effort required to do so. Running tests regularly also saves humans from needing to do it manually. By making users aware of bugs as early as possible researchers (if the project is a research project) do not waste a lot of time doing work that may need to be thrown away, which may be the case if tests are run infrequently and results are produced using faulty code.
 
 ```{figure} ../figures/continuous-integration-may19.jpg
 ---
 height: 500px
-nome: continue-integração-may19
-alt: Um esboço mostrando como a integração contínua ajuda os desenvolvedores a planejarem projetar, integrar código a um repositório compartilhado e, em seguida, observar a influência de quaisquer mudanças.
+name: continuous-integration-may19
+alt: A sketch showing how continuous integration helps developers plan, design, integrate code into a shared repository, and then observe the influence of any changes.
 ---
-_A Turing Way_ ilustração de projeto por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-## Como isso irá ajudá-lo/por que isso é útil
+## How this will help you/ why this is useful
 
-CI tem uma série de principais benefícios:
+CI has a number of key benefits:
 
-- Ajuda erros a serem encontrados cedo, minimizando seu dano e tornando-os mais fáceis de corrigir
-- Mantém os colaboradores do projeto atualizados com o trabalho um do outro para que possam se beneficiar dele o mais rápido possível
-- Encoraja os usuários a escrever testes
-- Automatize a execução de testes
-- Garante que os testes são realizados com frequência
+- Helps bugs to be found early, minimising their damage and making them easier to fix
+- Keeps project contributors up to date with each other's work so they can benefit from it as soon as possible
+- Encourages users to write tests
+- Automates running of tests
+- Ensures tests are run frequently
