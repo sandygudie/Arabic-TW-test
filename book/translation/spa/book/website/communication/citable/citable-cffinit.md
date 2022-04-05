@@ -1,135 +1,135 @@
 (cm-citable-cffinit)=
-# Crea un `CITATION.cff` usando `cffinit`
+# Create a `CITATION.cff` using `cffinit`
 
-`cffinit` es una aplicación web que ayuda a los usuarios a crear un archivo `CITATION.cff`. La aplicación proporciona orientación para cada campo del [esquema CFF](https://github.com/citation-file-format/citation-file-format/blob/main/schema-guide.md) y realiza la validación automáticamente. Cuando hay problemas, `cffinit` proporcionará un feedback visual sobre los campos relevantes.
+`cffinit` is a web application which helps users create a `CITATION.cff` file. The application provides guidance for each field of the [CFF schema](https://github.com/citation-file-format/citation-file-format/blob/main/schema-guide.md) and does the validation automatically. When there are issues, `cffinit` will provide a visual feedback on relevant fields.
 
-En las siguientes secciones usted puede encontrar detalles sobre cada paso del proceso.
+In the following sections you can find details about each step of the process.
 
-Para empezar, visita [`cffinit`](https://citation-file-format.github.io/cff-initializer-javascript/) y haz clic en el botón "Crear" para continuar a la pantalla **Iniciar**.
+To get started, visit [`cffinit`](https://citation-file-format.github.io/cff-initializer-javascript/) and click on the "Create" button to continue to the **Start** screen.
 
 ```{figure} ../../figures/gifs/cffinit-0.gif
 ---
-nombre: cffinit-1
-ancho: 80%
-alt:
+name: cffinit-0
+width: 80%
+alt: Landing page of cffinit.
 ---
-Página de tierra de cffinit. [^cffinitversion]
+Landing page of cffinit. [^cffinitversion]
 ```
 
 ## Start
 
-En la primera página de la aplicación, introduzca el título de su obra, escriba un mensaje para indicar cómo desea que se mencione su software y seleccione si está creando una CITACIÓN `.` archivo para software o un conjunto de datos.
+On the first page of the application, enter the title of your work, write a message to indicate how you want your software to be mentioned, and select whether you are creating a `CITATION.cff` file for software or a dataset.
 
 ```{figure} ../../figures/gifs/cffinit-1.gif
 ---
-name: cffinit-0
-ancho: 80%
-alt: Página de tierra de cffinit.
+name: cffinit-1
+width: 80%
+alt: First page of the application, for Title, Message and Type. Fields are empty.
 ---
-Página de tierra de cffinit. [^cffinitversion]
+First page of the application, for Title, Message and Type. [^cffinitversion]
 ```
 
-Puedes ver la vista previa del archivo `CITATION.cff` generado a la derecha.
+You can see the preview of the generated `CITATION.cff` file on the right.
 
-Si hay problemas en cualquiera de los campos, serán resaltados y los mensajes de error serán mostrados en rojo. Cuando el archivo `CITATION.cff` generado no es válido, el widget de vista previa tendrá un borde rojo.
+If there are issues in any of the fields, they will be highlighted and error messages will be shown in red. When the generated `CITATION.cff` file is not valid, the preview widget will have a red border.
 
 ```{note}
-Como título, mensaje y autor son campos obligatorios por el esquema, estos campos serán resaltados hasta que los proporciones.
+As title, message and author are required fields by the schema, these fields will be highlighted until you provide them.
 ```
 
-Haga clic en siguiente para continuar a la pantalla de **Autores**.
+Click next to continue to the **Authors** screen.
 
 ```{figure} ../../figures/gifs/cffinit-1-filled.gif
 ---
 name: cffinit-1-filled
-ancho: 80%
-alt: Primera página del formulario, para título, mensaje y tipo. Los campos están vacíos.
+width: 80%
+alt: First page of the form, for Title, Message and Type. Fields are filled.
 ---
-Primera página del formulario, para título, mensaje y tipo. Los campos están vacíos. [^cffinitversion]
+First page of the form, for Title, Message and Type. Fields are filled. [^cffinitversion]
 ```
 
-## Autores
+## Authors
 
-El esquema CFF requiere al menos un autor en el archivo `CITATION.cff`. Haga clic en el botón "Añadir autor" para abrir un formulario para hacerlo. Rellene los campos relevantes para los autores. La adición de ORCID para autores es altamente recomendable. Vea {ref}`cm-citable-orcid` para aprender más sobre ORCID.
+The CFF schema requires at least one author in the `CITATION.cff` file. Click the "Add author" button to open a form to do so. Fill the relevant fields for authors. Adding ORCID for authors is highly recommended. See {ref}`cm-citable-orcid` to learn more about ORCID.
 
 ```{figure} ../../figures/gifs/cffinit-2.gif
 ---
-nombre: cffinit-2
-ancho: 80%
-alt: Segunda página del formulario, para los autores.
+name: cffinit-2
+width: 80%
+alt: Second page of the form, for Authors.
 ---
-Segunda página del formulario, para los autores. [^cffinitversion]
+Second page of the form, for Authors. [^cffinitversion]
 ```
 
 ```{figure} ../../figures/gifs/cffinit-2-add-author.gif
 ---
 name: cffinit-2-add-author
-ancho: 80%
-alt: Segunda página del formulario, para los autores. Añadida de autor en progreso.
+width: 80%
+alt: Second page of the form, for Authors. Author addition in progress.
 ---
-Segunda página del formulario, para los autores. Añadida de autor en progreso. [^cffinitversion]
+Second page of the form, for Authors. Author addition in progress. [^cffinitversion]
 ```
 
-Después de agregar un autor, tienes la información mínima requerida para un archivo `CITATION.cff` válido. Añadir más autores según sea necesario. Haga clic a continuación para continuar.
+After adding one author, you have the minimum required information for a valid `CITATION.cff` file. Add more authors as needed. Click next afterwards to continue.
 
 ```{figure} ../../figures/gifs/cffinit-2-filled.gif
 ---
 name: cffinit-2-filled
-ancho: 80%
-alt: Segunda página del formulario, para los autores. Un autor lleno.
+width: 80%
+alt: Second page of the form, for Authors. One author filled.
 ---
-Segunda página del formulario, para los autores. Un autor lleno. [^cffinitversion]
+Second page of the form, for Authors. One author filled. [^cffinitversion]
 ```
 
-## Mínimo `archivo CITATION.cff`
+## Minimal `CITATION.cff` file
 
-¡Enhorabuena! ¡Enhorabuena! Ahora tu archivo `CITATION.cff` cumple con los requisitos mínimos. En esta pantalla puede descargar el archivo generado o copiarlo desde el widget de vista previa. Le recomendamos encarecidamente que añada más información. Haga clic en el botón "Añadir más" para añadir más campos a su archivo de citas para hacerlo aún mejor.
+Well done! Now your `CITATION.cff` file meets the minimum requirements. In this screen you can download the generated file or copy it from the preview widget. We highly recommend that you add more information. Click the "Add more" button to add more fields to your citation file to make it even better.
 
 ```{figure} ../../figures/gifs/cffinit-3.gif
 ---
 name: cffinit-3
-ancho: 80%
-alt: Última página de la forma mínima.
+width: 80%
+alt: Last page of the minimal form.
 ---
-Última página de la forma mínima. [^cffinitversion]
+Last page of the minimal form. [^cffinitversion]
 ```
 
-## Campos adicionales
+## Additional fields
 
-Todos los campos adicionales son opcionales, pero se recomienda que rellene los más relevantes para su trabajo.
+All additional fields are optional, but it is recommended that you fill the most relevant for your work.
 
 ```{note}
-Si decide no continuar más, puede pulsar el botón "Finalizar" para omitir todos los pasos restantes e ir a la pantalla final.
+If you decide not to continue further, you can press the "Finish" button to skip all remaining steps and go to the final screen.
 ```
 
-En esta pantalla, verás nuevos pasos en el stepper. Esta es una breve descripción de las pantallas adicionales:
-- Identificadores: Añadir DOIs, URLs e identificadores del patrimonio de software;
-- Recursos relacionados: URLs de los repositorios relacionados con el trabajo y su sitio web;
-- Resumen: Un breve resumen de la obra;
-- Palabras clave: Palabras clave que describen el trabajo;
-- Licencia: La licencia bajo la cual el trabajo está disponible;
-- Versión específica: Información sobre una versión específica o confirmación, incluyendo la fecha de la versión.
+On this screen, you will see new steps in the stepper. Here is a brief description of the additional screens:
+- Identifiers: Add DOIs, URLs, and Software Heritage identifiers;
+- Related resources: URLs of repositories related to the work and its website;
+- Abstract: A short summary of the work;
+- Keywords: Keywords describing the work;
+- License: The license under which the work is available;
+- Version specific: Information about a specific release or commit, including the date of the release.
 
 ```{figure} ../../figures/gifs/cffinit-3-advanced.gif
 ---
 name: cffinit-3-advanced
-ancho: 80%
-alt: Tercera página del formulario. Más opciones aparecen a la izquierda.
+width: 80%
+alt: Third page of the form. More options appear on the left.
 ---
-Tercera página del formulario. Más opciones aparecen a la izquierda. [^cffinitversion]
+Third page of the form. More options appear on the left. [^cffinitversion]
 ```
 
-Haga clic a continuación para comenzar a añadir campos adicionales.
+Click next to start adding additional fields.
 
-## Pantalla final
+## Final screen
 
-¡Excelente que has llegado a la pantalla final! Después de agregar toda la información relevante, tendrás un archivo `CITATION.cff` validado. ¡Descargue o cópielo y añádelo a su repositorio público para obtener el crédito que desierve!
+Great that you made it to the final screen! After adding all the relevant information, you will have a validated `CITATION.cff` file. Download or copy it and add it to your public repository to get the credit you deserve!
 
 ```{figure} ../../figures/gifs/cffinit-final.gif
 ---
 name: cffinit-final
-ancho: 80%
-alt: Última página del formulario completo.
+width: 80%
+alt: Last page of the complete form.
 ---
-Última página del formulario completo. [^cffinitversion]
+Last page of the complete form. [^cffinitversion]
 ```
