@@ -34,9 +34,7 @@ Please see more details on [the project](https://github.com/alan-turing-institut
 - Introductions (get to know each other): 10 minutes
 - About the Book Dash ([logistics, accessibility support, socials](https://hackmd.io/@turingway/bookdash-may2021-index)): 10 minutes
 - [SMART goal setting exercise](https://www.atlassian.com/blog/productivity/how-to-write-smart-goals) in breakout (or quiet writing): 15 minutes
-- A Scriberia artist will be there!! - would you like to get some illustration? o/@turingway/bookdash-may2021-index)): 10 minutos
-- [ejercicio de configuración de objetivos SMART](https://www.atlassian.com/blog/productivity/how-to-write-smart-goals) en breakout (o escritura silenciosa): 15 minutos
-- Un artista de Scriberia estará allí!! - ¿Quiere obtener alguna ilustración? (you should [check this out(https://zenodo.org/record/3332808))
+- A Scriberia artist will be there!! - would you like to get some illustration? (you should [check this out(https://zenodo.org/record/3332808))
 - Report out and general discussion: 30 minutes
 - Wrap up and final words: 5 minutes
 
@@ -88,42 +86,30 @@ Setting our personal goals will help us prepare better for your participation:
 - **R**elevant: They are important and practical.
 - **T**ime-bound: They specify a deadline for when the goal will be met.
 
-*Estamos usando [esta plantilla](https://fre)[video] publishingblog.com/wp-content/uploads/2015/08/setting-smart-goals.pdf) por la Sra. R. Schultz (2015). <! -COPY IT BELOW-->
+*We are using [this template](https://freespiritpublishingblog.com/wp-content/uploads/2015/08/setting-smart-goals.pdf) by Danielle R. Schultz (2015).*
+
+<!--COPY IT BELOW-->
 
 > [name=Name]
-> **S**pecific: ¿Qué quiero cumplir?
-> **M**easurable: ¿Cómo voy a medir mi éxito?:
-> **A**ttainable: ¿Puedo alcanzar este objetivo realistamente? What steps will I take?
-    ¿Qué medidas tomaré?
-    > paso 1:
-    > paso 2:
-    > paso 3:
-> **R**elevante: ¿Esta meta cumple con una necesidad específica? 
-> **T**límite: ¿Cuál es el plazo límite de mi objetivo? (potencialmente entre el 9 y el 13 de Noviembre): 
-> Declaración de meta:
-
-> [name=Nombre]
-> **S**Especific: ¿Qué quiero cumplir?
-> **M**easurable: ¿Cómo voy a medir mi éxito?:
-> **A**ttainable: ¿Puedo lograr realmente este objetivo? (potentially between 9 and 13 Nov): 
+> **S**pecific: What do I want to accomplish?:
+> **M**easurable: How will I measure my success?:
+> **A**ttainable: Can I realistically achieve this goal? What steps will I take?
+    > step 1:
+    > step 2:
+    > step 3:
+> **R**elevant: Does this goal meet a specific need?: 
+> **T**ime-bound: What is my target deadline? (potentially between 9 and 13 Nov): 
 > Goal statement:
 
 > [name=Name]
 > **S**pecific: What do I want to accomplish?:
 > **M**easurable: How will I measure my success?:
 > **A**ttainable: Can I realistically achieve this goal? What steps will I take?
-    ¿Qué medidas tomaré?
-    > paso 1:
-    > paso 2:
-    > paso 3:
-> **R**elevante: ¿Esta meta cumple con una necesidad específica? 
-> **T**límite: ¿Cuál es el plazo límite de mi objetivo? (potencialmente entre el 9 y el 13 de Noviembre): 
-> Declaración de meta:
-
-> [name=Nombre]
-> **S**Especific: ¿Qué quiero cumplir?
-> **M**easurable: ¿Cómo voy a medir mi éxito?:
-> **A**ttainable: ¿Puedo lograr realmente este objetivo? (potentially between 9 and 13 Nov): 
+    > step 1:
+    > step 2:
+    > step 3:
+> **R**elevant: Does this goal meet a specific need?: 
+> **T**ime-bound: What is my target deadline? (potentially between 9 and 13 Nov): 
 > Goal statement:
 >
 
