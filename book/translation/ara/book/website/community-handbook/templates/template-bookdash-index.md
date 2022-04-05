@@ -78,7 +78,7 @@ Notes: https://hackmd.io/@turingway/bookdash-may2021-day1 <--- update this
 | 14:00 - 16:30 | see notes                                                                 | No Talk      | names     |
 | 17:00 - 19:30 | see notes                                                                 | Talk by name | names     |
 
-السمة: **TBA**
+±Theme: **TBA**
 
 ### Day 2: DD Month YYYY <--- update this
 
@@ -93,7 +93,7 @@ Notes: https://hackmd.io/@turingway/bookdash-may2021-day2 <--- update this
 | 14:00 - 15:30 | ==Themed discussion & Networking: Accessibility & communication==± | name  | names     |
 | 17:00 - 19:30 | see notes                                                          | name  | names     |
 
-السمة: **TBA**
+±Theme: **TBA**
 
 ### Day 3: DD Month YYYY <--- update this
 
@@ -138,7 +138,7 @@ Notes: https://hackmd.io/@turingway/bookdash-may2021-day4 <--- update this
 | 14:00 - 15:30 | ==Themed discussion & Networking: Activism in Research==± | name  | names     |
 | 17:00 - 19:30 | see notes                                                 | name  | names     |
 
-السمة: **TBA**
+±Theme: **TBA**
 
 ### Day 5: DD Month YYYY <--- update this
 
@@ -153,7 +153,7 @@ Notes: https://hackmd.io/@turingway/bookdash-may2021-day5 <--- update this
 | 14:00 - 16:00 | see notes           | names | names     |
 | 17:00 - 19:00 | ==Open to public==± | names | names     |
 
-± ***مشاركة المجتمع & احتفال المساهمين - ***فتح للجمهور******
+± ***Community Share-out & Contributor Celebration - ***Open to Public******
 
 These sessions are open to public. Feel free to invite your colleagues and friends who would like to connect with The Turing Way community. In this session, all the contributors including the Book Dash attendees will have a chance to share their work with everyone through short demo/presentation.
 
@@ -167,7 +167,7 @@ These sessions are open to public. Feel free to invite your colleagues and frien
 
 :heavy_plus_sign::arrow_up_small: Pluses and deltas - Final Feedback Document <--- update links
 ---
-**هام:** يرجى أخذ بضع دقائق إلى **مشاركة النقاط البارزة الخاصة بك** كتعليق تحت الإصدار [#1973](https://github.com/alan-turing-institute/the-turing-way/issues/1937) و **تقديم الملاحظات** (الإضافات و دلتا: https://hackmd.
+**IMPORTANT:** Please take a few minutes to **share your highlights** as a comment under issue [#1973](https://github.com/alan-turing-institute/the-turing-way/issues/1937) and **provide feedback** (pluses and delta: https://hackmd.io/@turingway/bookdash-may2021-feedback) from the event.
 
 _These will be extremely valuable for us to explain to our funders why this event was valuable, and to learn about your experience, what you enjoyed and how we can improve future events._
 
