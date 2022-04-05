@@ -5,7 +5,7 @@ GitHub is an online web interface for collaborating, developing, sharing and usi
 
 GitHub is not the only available development platform, but it hosts this book and is widely used across disciplinary and private-public boundaries. Thus, this chapter is tailored towards GitHub and its resources, though other platforms probably have analogous functions.
 
-بعض الأشياء الرئيسية التي يجب أن تعرف عن GitHub: - لديها ميزات رائعة لإدارة المشروع، منصة اجتماعية وأدوات اتصال مفيدة لأي مشروع تعمل فيه مجموعة من الناس معاً على نفس مجموعة الوثائق.
+Some key things to know about GitHub: – it has terrific project management features, a social platform and communication tools that are useful for any project where a group of people is working together on the same set of documents.
 - it can be used to store documentation, data and make web pages for projects.
 - it provides an easy-to-use interface for {ref}`version control<rr-vcs>` that allows all activities to be recorded so you can revisit past versions and you know who made each contribution to the project.
 - it has many options for automating repeated project management tasks.
