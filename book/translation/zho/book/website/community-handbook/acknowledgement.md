@@ -9,9 +9,9 @@ Everyone has a skill that is useful for someone, and therefore anyone can contri
 ---
 height: 400px
 name: theturingway-acknowledgement
-alt: This illustration shows that the traditional acknowledgement system is broken then it shows how we try to acknowledge them fairly. 我们有一个贡献者机器人，可以捕捉所有贡献者的信息并将其存储在贡献者记录
--
-。 确认贡献者的过程在 *诱导之道*。 _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+alt: This illustration shows that the traditional acknowledgement system is broken then it shows how we try to acknowledge them fairly. We have a contributors bot that catches all the contributors information and stores them in contributors record
+---
+The process of acknowledging contributors in *The Turing Way*. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
 We recognise all kinds of contributions that are possible in this project. We update our {ref}`Contributors Table<contributors-record-contributors>` by appropriately acknowledging our contributors' work within _The Turing Way_. Furthermore, we invite every community member to update the {ref}`Record of Contributions<contributors-record-highlights>` with their personal highlights in _The Turing Way_ and use it for promoting their contributions to open science in general.
