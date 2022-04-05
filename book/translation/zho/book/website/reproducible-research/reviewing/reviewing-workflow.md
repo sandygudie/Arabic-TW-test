@@ -20,15 +20,15 @@ This section focuses on the typical workflows behind a formal review process, as
 
 ## Prepare The Code
 
-Before requesting a review, make sure you've met all the obvious quality benchmarks for the project you are contributing to. 这意味着请确保您已经检查过审核列表(见代码&lt;rr-checklist-for-code-review&gt;</code> 的 {ref}`清单)。
+Before requesting a review, make sure you've met all the obvious quality benchmarks for the project you are contributing to. This means making sure you have checked the review list (see {ref}`checklist for the coder<rr-checklist-for-code-review>`).
 
-审核者应检查这些内容(见编程器的 {ref}<code>清单<rr-checklist-for-code-review>`)， 但这些方面的缺陷应该是偶尔的监督，而不是系统性的。
+A reviewer should check these things (see {ref}`checklist for the coder<rr-checklist-for-code-review>`), but defects on these fronts should be by occasional oversight, rather than systematic.
 
-## 合并更改
+## Propose Changes
 
 In the GitHub system, the review is begun directly from and often accessed through the [pull request page](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request). The review step occurs between the points where the coder believes their contribution is complete and where that contribution is merged into the trunk code for the project, and so it is intimately associated with a single pull request.
 
-Within the Github environment, projects can be configured to *require* a review before a given pull request can be merged. 即使这个选项尚未被选中，仍然可以(甚至最佳做法)手动请求对一个待处理的合并请求进行审查。 Even if this option hasn't been selected, it's still possible (and indeed best practice) to manually request a review on a pending pull request.
+Within the Github environment, projects can be configured to *require* a review before a given pull request can be merged. Even if this option hasn't been selected, it's still possible (and indeed best practice) to manually request a review on a pending pull request.
 
 ## Create and Discuss The Review
 
@@ -42,7 +42,7 @@ Once post-review changes have been made to the code, make final updates the comm
 
 ## Communicating Results Through GitHub
 
-这样他们可以被附加到特定的代码行中，见 [GitHub 审查脉冲请求中的更改](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/reviewing-changes-in-pull-requests)。 以这种方式发表许多小的评论，而不是用其中的一切作一整套大的文字，以便将不同的问题分开处理。 Make many small comments this way, rather than a big ball of text with everything in it, so that different issues can be kept separate. Where relevant, refer to existing Issues and documentation.
+In Github, comments should be added in the `Files changed` section, so they can be attached to a particular line of code, see [GitHub reviewing changes in pullrequests](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/reviewing-changes-in-pull-requests). Make many small comments this way, rather than a big ball of text with everything in it, so that different issues can be kept separate. Where relevant, refer to existing Issues and documentation.
 
 If you're reviewing existing code rather than changes, it is still handy to use pull requests. If you find an issue that has an obvious fix, you can submit a pull request with a patch in the usual way.
 
