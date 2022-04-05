@@ -4,7 +4,7 @@ Your software project could range from a small script you use for data processin
 
 Different types of software have different requirements for being reusable: for a small script, having sufficient documentation might be enough, while for a mission critical software library, thorough testing might be necessary. At the most basic level, all you need to do is put your code online somewhere that is likely to last a long time. A more elaborate approach to making your research software more reusable is by following the FAIR Principles for Research Software (FAIR4RS Principles) {cite:ps}`ChueHong2021FAIR4RS`.
 
-When we talk about making code reusable, it is useful to clarify what is we mean. In the {ref}`Table of Definitions for Reproducibility<rr-overview-definitions-reproducibility>` we defined reproducible research as using the same data and the same code. 然而，当我们谈到代码的重新使用时，这可能需要多种形式：我们可能想要运行完全相同的代码(对于编译的编程语言)。 这甚至可能意味着完全相同的二进制文件， 或者我们可能希望修改源代码并以某种特定方式加以扩展以满足我们的需要。 Freire and Chirigati {cite:ps}`Freire2018Reproducibility` provide a framework of different levels of reproducibility, depending on what can be modified. They define the following levels of reproducibility: repeatable, re-runnable, portable, extendable and modifiable.
+When we talk about making code reusable, it is useful to clarify what is we mean. In the {ref}`Table of Definitions for Reproducibility<rr-overview-definitions-reproducibility>` we defined reproducible research as using the same data and the same code. However, when we talk about code re-use this can take many forms: we may want to run the exact same code (for compiled programming languages, this could even mean the exact same binary file), or we may want to modify the source code and extend it in some particular way to fit our needs. Freire and Chirigati {cite:ps}`Freire2018Reproducibility` provide a framework of different levels of reproducibility, depending on what can be modified. They define the following levels of reproducibility: repeatable, re-runnable, portable, extendable and modifiable.
 
 We can map the definitions of reproducibly on the Freire framework as follows:
 
@@ -18,13 +18,13 @@ We can map the definitions of reproducibly on the Freire framework as follows:
 
 Portability was not previously considered, but for software a different environment (such as different hardware, operating system or even a fresh install on comparable hardware) may affect the ability for the software to work (for example it may affect dependencies).
 
-此外，可普遍封装的两个概念：可扩展(与其他软件结合的能力) 和可修改(能够改变部分实现以扩大其功能)。
+Also, Generalisable encapsulates two concepts: Extendable (the ability to integrate with other software) and Modifiable (the ability to change part of the implementation to extend its functionality).
 
 In the rest of this chapter we provide list of recommendations you can follow to make sure your code is reusable.
 
 (rr-code-reuse-recommendation-checklist)=
 ## How to make your code more reusable
-This section contains a checklist of recommendations for making your software more reusable. The {ref}`rr-code-reuse-recommendation-details` section contains a more in-depth explanation of each of these recommendations. 您可以遵循更适合您的软件类型的建议，并跳过与您的情况无关的建议。 You can follow the recommendations that are more suitable for your type of software and skip the ones which are not relevant in your case.
+This section contains a checklist of recommendations for making your software more reusable. The {ref}`rr-code-reuse-recommendation-details` section contains a more in-depth explanation of each of these recommendations. You can follow the recommendations that are more suitable for your type of software and skip the ones which are not relevant in your case.
 
 ### Repeatable recommendations
 1. Make sure you can find it (in space)
@@ -74,7 +74,7 @@ The documentation:
 
 (rr-code-reuse-recommendation-details)=
 ## Recommendations for reusable code
-Make sure you (or somebody else) can re-use your code to do the same exact thing you did. The {ref}`rr-code-reuse-recommendation-checklist` section contains a checklist of recommendations for making your software more reusable. 在本节中，对其中每项建议作了更深入的解释，并指明了本指南其他有关部分。 In this section contains a more in-depth explanation of each of these recommendations, with pointers to other relevant parts of this guide.
+Make sure you (or somebody else) can re-use your code to do the same exact thing you did. The {ref}`rr-code-reuse-recommendation-checklist` section contains a checklist of recommendations for making your software more reusable. In this section contains a more in-depth explanation of each of these recommendations, with pointers to other relevant parts of this guide.
 
 ### Repeatable recommendations
 At this stage, you might not even need to be able to open the code and read it, you just want to make sure you can re-run all the needed steps and obtain the same results you had.
