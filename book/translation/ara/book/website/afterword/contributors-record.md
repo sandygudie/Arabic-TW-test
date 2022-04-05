@@ -38,26 +38,26 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Achintya Rao
 
-* الدور:
+* Role:
   * عضو المشروع (2021 - حتى الآن)
   * كتاب مشارك 2021
 * GitHub id: [RaoOfPhysics](http://github.com/RaoOfPhysics)
 * ORCID: [0000-0002-1628-2618](https://orcid.org/0000-0002-1628-2618)
 * Short bio:
-> أشينتيا هي مدير المجتمع لبرنامج البحث _AI للعلوم والحكومة_ في معهد آلان تورينج. لديه درجة الماجستير في الفيزياء وماجستير في الصحافة العلمية. وقبل أن ينضم إلى تيرنغ، قضى أكثر من عقد من الزمان كمخاطب علمي في المنظمة الأوروبية للبحوث النووية في جنيف. كما أنه يقوم بتغليف دكتوراه في الاتصال العلمي من جامعة أويو بريستول.
+> Achintya is the Community Manager for the _AI for Science and Government_ research programme at The Alan Turing Institute. He has a BSc in physics and an MA in science journalism. Prior to joining The Turing, he spent over a decade as a science communicator at CERN, the European Organization for Nuclear Research, in Geneva. He is also wrapping up a PhD in science communication from UWE Bristol.
 
 * Personal highlights:
-> لقد كانت سعيدة لمساعدة الناس الذين لم يستخدموا GitHub أبداً قبل تقديم أول مشكلاتهم وتقديم طلبات السحب الأولى. كما اطلعت على هيكل الكتاب وآمل أن أساعد أعضاء المجتمع الآخرين على تقديم مساهمات له في المستقبل! كان الكثير من المتعة في العمل مع العديد من الناس الرائعين في مساحة افتراضية مشتركة.
+> It was a joy helping people who had never used GitHub before file their first issues and make their first pull requests. I also familiarised myself with the structure of the book and can hopefully help other members of the community make contributions to it in the future! It was a lot of fun co-working with so many wonderful people in a shared virtual space.
 
 * More information:
-> أنا أحب أن يكون مستودع TTW مكانا ليس فقط للإسهام ولكن أيضا للتعلم، لذلك لم أكن خائفا من ارتكاب أخطاء في العصابات وطلبات السحب. من المفيد أن يكون هناك الكثير من أعضاء المجتمع ذوي المعرفة للمساعدة!
+> I love that the TTW repo is a place not just to contribute but also to learn, so I wasn't afraid of making mistakes in commits and pull requests. It’s helpful that so many knowledgeable members of the community are there to help!
 
-* الأسعار الشخصية:
-> _الطريق الوشيك_ هو مكان مثالي لجمع المعرفة الجماعية من الخبرات المتنوعة في علوم البيانات والبحث المفتوح. و أن تتعلم عن طريق العمل.
+* Personal Quote:
+> _The Turing Way_ is an ideal place to gather collective knowledge from diverse experiences in data science and open research, and to learn by doing.
 
 ### Alejandro Coca
 
-* الدور:
+* Role:
     * المساهم الأساسي - المساهم في الترجمة (2021 - حاضر)
     * كتاب مشارك 2021
 * GitHub id: [acocac](https://github.com/acocac)
@@ -76,7 +76,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### ألكسندر مورلي
 
-* الدور:
+* Role:
   * المساهم الأساسي - مشرف البنية التحتية (2018-2019)
   * عضو المشروع السابق
 * GitHub id: [alexmorley](http://github.com/alexmorley)
@@ -133,7 +133,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Anna Krystalli
 
-* الدور:
+* Role:
   * [عضو لجنة مدونة قواعد السلوك](https://the-turing-way.netlify.app/community-handbook/coc/coc-enforcement.html) (2018 - حتى الآن)
   * عضو سابق في المشروع (2018-2019)
 * GitHub id: [annakrystalli](http://github.com/annakrystalli)
@@ -146,7 +146,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### أرييل بينيت
 
-* الدور:
+* Role:
   * عضو المشروع (2021 - حتى الآن)
   * لجنة التخطيط للكتاب 2021
   * كتاب مشارك 2020
@@ -162,7 +162,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 * More information:
 > لم ينته فصل أدوار البنية التحتية البحثية! ويحدونا الأمل في أن يسهم الناس بإلقاء نظرة عامة على المزيد من الأدوار في هذا الفضاء، أو يتقاسمون مسارهم الوظيفي وخلفيتهم كدراسات حالة في المستقبل.
 
-* الأسعار الشخصية:
+* Personal Quote:
 > من دواعي السرور دائما العمل مع المشاركين في كتاب داش، ذوي الخبرة والجدد، لإنشاء شيء مذهل. كتاب داش هو تجربة رائعة لكل من أعضاء المجتمع الأحدث والراسخين. ومن دواعي السرور أن ننفق وقتاً مركزاً على تطوير المحتوى من أجل طريق تورينغ ودعم الناس من جميع أنحاء العالم للإسهام فيه. وأشعر بأنني محظوظ لأنني تمكنت من المشاركة والقيام بدور أكثر بروزا كجزء من اللجنة التنظيمية.
 
 
@@ -172,7 +172,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Batool Almarzouq
 
-* الدور:
+* Role:
     * المساهم الرئيسي، مشرف البنية التحتية (2021 - حاليا)
     * لجنة التخطيط للكتاب 2021
     * كتاب مشارك 2021
@@ -229,7 +229,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### كاميلا رانجيل سميث
 
-* الدور:
+* Role:
   * المساهم الأساسي - رائد ترجمة المشروع (بالإسبانية) (2020 - الحالي)
   * كتاب داش مايو 2019 الحضور
 * GitHub id: [crangelsmith](https://github.com/crangelsmith)
@@ -252,7 +252,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Emma Karoune
 
-* الدور:
+* Role:
     * عضو المشروع (2020 - حتى الآن)
     * مشارك كتاب Dash 2020-2021
     * لجنة التخطيط للكتاب 2021
@@ -309,7 +309,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Heidi Seibold
 
-* الدور:
+* Role:
   * المساهم الأساسي (2020 - الحالي)
   * كتاب مشارك 2020
 * GitHub id: [HeidiSeibold](https://github.com/HeidiSeibold)
@@ -341,7 +341,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Ismael Kherroubi Garcia
 
-* الدور:
+* Role:
   * المساهم الأساسي - دليل البحوث الأخلاقية (2020-2021)
   * [OLS-2 لقيادة المشروع](https://github.com/alan-turing-institute/the-turing-way/tree/main/open-life-science-mentoring)
   * كتاب مشارك 2020
@@ -361,7 +361,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Jessica Scheick
 
-* الدور:
+* Role:
   * المساهم الأساسي (2021 - حاضر)
   * كتاب مشارك 2021
 * GitHub id: @JessicaS11
@@ -406,7 +406,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Laura Acion
 
-* الدور:
+* Role:
   * المساهم الأساسي (2020)
   * كتاب مشارك 2020
 * GitHub id: [lauracion](http://github.com/lauracion)
@@ -419,7 +419,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### لورا كارتر
 
-* الدور:
+* Role:
   * المساهم الأساسي - دليل البحوث الأخلاقية (2020-2021)
   * لجنة التخطيط للكتاب 2021
   * [OLS-2 لقيادة المشروع](https://github.com/alan-turing-institute/the-turing-way/tree/main/open-life-science-mentoring)
@@ -435,7 +435,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 * More information:
 > أنا مهتم بمنهجيات البحث النسائية و الملكية، و باستجواب هياكل السلطة و أنظمة التصنيف. وطوال حياتي المهنية، كان معظم عملي يتعلق بفهم هذه النظم، كيف يعملون وكيف يصيبون بالضرر: بحيث يمكن تفكيكهم! مزيد من المعلومات عني على موقعي [](https://lauracarter.github.io/).
 
-* الأسعار الشخصية:
+* Personal Quote:
 > "أنا لست من حقل تكنولوجي ولكني تعلمت الكثير عن Github كأداة للعمل التعاوني: شكراً جزيلاً لكل من كان جزءاً من كتاب نوفمبر 2020 على مشورتك المفيدة!"
 
 ### Lena Karvovskaya
@@ -460,7 +460,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### لويز باولر
 
-* الدور:
+* Role:
   * عضو مشروع سابق (2019)
   * كتاب داش/مساعد 2020
 * GitHub id: [LouiseABowler](http://github.com/LouiseABowler)
@@ -479,7 +479,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### مالفيكا شاران
 
-* الدور:
+* Role:
   * عضو المشروع - محقق رئيسي مشارك (2021 - حتى الآن)
   * مدير المجتمع السابق (2019-2021)
   * كتاب مشارك 2019
@@ -540,7 +540,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Marta Mangiarulo
 
-* الدور:
+* Role:
   * كتاب داش/مساعد (2020-2021)
 * GitHub id: [Marta-MM](http://github.com/Marta-MM)
 * ORCID: [0000-0001-7995-3717](https://orcid.org/0000-0001-7995-3717)
@@ -572,7 +572,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Martina G. Vilas
 
-* الدور:
+* Role:
   * المساهم الأساسي (2020 - الحاضر)
   * مشرف البنية التحتية للكتاب (JupyterBok) (2020)
   * OLS-2 للمُرشِد
@@ -611,7 +611,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Patricia Herterich
 
-* الدور:
+* Role:
   * عضو سابق في المشروع (2019-2020)
 * GitHub id: [pherterich](http://github.com/pherterich)
 * ORCID: [0000-0002-4542-9906](https://orcid.org/0000-0002-4542-9906)
@@ -626,7 +626,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### بول أوويتشو
 
-* الدور:
+* Role:
   * عضو مشروع سابق (2020)
   * موسم جوجل من الوثيقة: الكاتب الفني (2020)
   * [OLS-2 لقيادة المشروع](https://github.com/alan-turing-institute/the-turing-way/tree/main/open-life-science-mentoring)(2020)
@@ -639,7 +639,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 * Personal highlights:
 > طريق الترينج هو أول مجيلتي إلى مصدر مفتوح وكان تجربة تعلم رائعة. لم أكسب فهما وتقديرا أعمق لكيفية عمل GitHub فحسب، ولكني أتعلم أيضا أن أعطي الأولوية للاستدامة والتمكين في العمل الذي أقوم به. على الرغم من أن "طريق الترينغ هو أول مشروع لي مفتوح المصدر، فقد استمتعت تماماً بالتجربة وتعلمت الكثير على طول الطريق. قبل برنامج GSoD، استخدمت Github فقط "لتخزين" مشاريعي. الآن، أنا أكثر إتقانا لاستخدام جيثوب في المساعي التعاونية، وأنا أكثر مهارة في العمل مع أدوات مثل ماركدون، كتاب المشتري و سفينكس وبالإضافة إلى ذلك، اكتسبت معرفة بوضع برنامج تحليلات الويب والعمل معه. وبالإضافة إلى ذلك، اكتسبت معرفة بوضع برنامج تحليلات الويب والعمل معه. يمكنك رؤية التقرير الكامل من مشاركة GSoD [هنا](https://github.com/alan-turing-institute/the-turing-way/blob/main/communications/GSOD-applications/GSoD-2020-Project-Report.md). كتب داش نوفمبر 2020 كان رائعاً! كان من الرائع الالتقاء والتعاون وتبادل الأفكار مع الناس من جميع أنحاء العالم. وفيما وراء كتاب داش ، فإن طريق التورينج هو أول مشروع مفتوح المصدر كنت قد عملت عليه على الإطلاق. كانت التجربة رائعة، وأنا أعتزم أن أتمسك كمساهم بعد انتهاء برنامج موسم جوجل من الوثائق. كما أرى نفسي أنخرط في مشاريع أخرى مفتوحة المصدر.
 
-* الأسعار الشخصية:
+* Personal Quote:
 > وعلى الرغم من المهارات التقنية، أعربت عن تقديري العميق لما ينطوي عليه العمل على مشروع مفتوح المصدر. ساعدني مرشدي في إدراك أن القيمة التي خلفتها من برنامج GSoD لم تكن في حجم العمل الذي قمت به، ولكن كيف قمت بتمكين المساهمين الآخرين من القيام أيضا بالعمل الذي كنت أقوم به. ونتيجة لذلك، تعلمت أن أسهم، بصفتي كاتب تقني، بطريقة استنساخية، ومستدامة، وميسورة وشاملة.
 
 <!---Q
@@ -652,7 +652,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Rosie Higman
 
-* الدور:
+* Role:
   * عضو المشروع (2019)
   * كتاب داش/مساعد 2019
 * GitHub id: [rosiehigman](http://github.com/rosiehigman)
@@ -667,7 +667,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### راشيل آنسورث
 
-* الدور:
+* Role:
   * عضو سابق في المشروع - مدير المجتمع (2019)
   * منظم طعام الكتاب 2019
 * GitHub id: [rainsworth](http://github.com/rainsworth)
@@ -699,7 +699,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### صموئيل غواي
 
-* الدور:
+* Role:
   * OLS-2 للمُرشِد
   * كتاب مشارك 2020
 * GitHub id: [SamGuay](https://github.com/SamGuay)
@@ -714,7 +714,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### سارة جيبسون
 
-* الدور:
+* Role:
   * عضو المشروع (2018 حتى الآن)
   * مشرف على البنية التحتية (2019 - حتى الآن)
   * OLS للمرشدين
@@ -732,7 +732,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### باتشيلور صوفيا
 
-* الدور:
+* Role:
   * المساهم الأساسي (2020) - ميسر مساهمة هاكتوبرفست
   * [رائد مشروع OLS](https://github.com/alan-turing-institute/the-turing-way/tree/main/open-life-science-mentoring) (2020)
   * كتاب مشارك 2020
@@ -769,7 +769,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### فيكي هيلون
 
-* الدور:
+* Role:
   * عضو المشروع *كتاب مشارك 2021
 * GitHub id: vhellon
 * تويتر: @ فيكيهيلون
@@ -1222,7 +1222,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 هذا المشروع يتبع مواصفات [لجميع المساهمين](https://github.com/all-contributors/all-contributors). المساهمات من أي نوع! (المساهمون - سجل المتعاونون)=
-# المنظمات والمشاريع المتعاونة
+# Collaborating Organisations and Projects
 
 *ويتلقى المجتمع المحلي المعني بطريق تورينغ مساهمات عينية من أعضاء يدعمهم أصحاب العمل أو المشاريع أو المنظمات من أجل مشاركتهم. وتنطبق هذه المساهمات عندما يتعاون عضو واحد أو عدة أعضاء من مشروع أو منظمة على بناء الموارد والمحافظة عليها في طريق التوفيق. وتشمل هذه المساهمات أيضا المشاريع التي تستفيد من موارد طريق “The Ting” أو تتعاون مع أعضاء فريق “The Ting” من مختلف الصفات. ونحن ننوه بكل عضو من هؤلاء الأعضاء المساهمين على حدة وندرج ملامحهم تحت بند ”المنظمات والمشاريع المتعاونة“.*
 
@@ -1262,7 +1262,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Carlos Martinez Oritz
 
-* الدور:
+* Role:
   * مشروع Memebr (2020 - الحاضر)
   * كتاب مشارك 2020
   * لجنة التخطيط للكتاب 2021
@@ -1280,7 +1280,7 @@ See this entry as an example by Kirstie Whitaker, the project lead:
 
 ### Mateusz Kuzak
 
-* الدور:
+* Role:
   * مشروع Memebr (2020 - الحاضر)
   * كتاب داش/مساعد 2020
 * GitHub id: [mkuzak](http://github.com/mkuzak)
@@ -1299,7 +1299,7 @@ _طريقة التورين_ أعضاء الفريق و [أعضاء مجالس ت
 
 ### سوزانا - أسونتا سانسون
 
-* الدور:
+* Role:
   * كتاب مشارك 2019
 * GitHub id: [susannasansone](http://github.com/susannasansone)
 * ORCID: [0000-0001-5306-5690](https://orcid.org/0000-0001-5306-5690)
@@ -1314,7 +1314,7 @@ _طريقة التورين_ أعضاء الفريق و [أعضاء مجالس ت
 
 ### Philippe Rocca-Serra
 
-* الدور:
+* Role:
   * كتاب مشارك 2020
 * GitHub id: [proccaserra](http://github.com/proccaserra)
 * ORCID: [0000-0001-9853-5668](https://orcid.org/0000-0001-9853-5668)
