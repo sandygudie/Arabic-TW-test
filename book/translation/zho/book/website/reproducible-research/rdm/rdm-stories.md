@@ -10,7 +10,7 @@ Let us start with my digital footprints so that you can discover my activities:
 - [ORCID: 0000-0001-5306-5690](https://orcid.org/0000-0001-5306-5690)
 - [Profile on LinkedIn](https://uk.linkedin.com/in/sasansone)
 - [Talks on SlideShare](https://www.slideshare.net/SusannaSansone)
-- [Twitter。 是的，我是FAIRlady](https://twitter.com/SusannaASansone)
+- [Twitter; yes I am the FAIRlady](https://twitter.com/SusannaASansone)
 - [Activities on GitHub; yeah, no code sorry](https://github.com/SusannaSansone)
 - [Google Scholar](https://scholar.google.co.uk/citations?user=gfJ8wsIAAAAJ&hl=en)
 
@@ -20,10 +20,10 @@ The reuse of other people’s data is providing useful insights for new research
 
 Within my group of research software and knowledge engineers, we address the grand challenges related to information science and scholarly communications, where data quality and readiness for (re)use is a prerequisite for success. I believe that better data means better science, and this underpins reusable research, aids scholarly publishing, and enables faster and reliable data-driven discoveries. As I say in my [one minute video](https://youtu.be/3VDw7XIulIk), my vision is to transform the concept of data readiness into a powerful toolkit at the researchers’ fingertips to realize FAIR data by stealth.
 
-FAIR is not a magic wand. There is a lot to be done to enable and enact this transformation. We need all hands on deck! 研究人员、服务提供者、期刊出版商、图书馆科学专家 提供资金者和学术界在学术界以及商业界和政府界都发挥着作用： 从提供案例到推动激励政策和文化变革， • 对传播和出版高质量机器可读数据的研究人员给予奖励和信用； • 建立工具和服务，提供信息、培训和教育。
+FAIR is not a magic wand. There is a lot to be done to enable and enact this transformation. We need all hands on deck! Researchers, service providers, journal publishers, library science experts, funders and learned societies in the academic as well as the commercial and governmental settings all play a role: from providing use cases to drive policy and culture changes that motivates, rewards and credits researchers for disseminating and publishing high-quality, machine-readable data; to building tools and services, to inform, training and educate.
 
 There are many community efforts around FAIR; keeping abreast with these is an activity in itself. I spend considerable time to bring my group activities (such as [ISA](https://isa-tools.org) and [FAIRsharing](https://fairsharing.org)) in and under larger international umbrella organizations like [GO FAIR](https://www.go-fair.org/implementation-networks/overview/fair-strepo) and the [RDA](http://dx.doi.org/10.15497/RDA00030) to interact with others, learn from them, compare and contrast efforts and build new collaborations. I also play leading roles, sitting on boards and chairing working groups with colleagues, because you must get your hands dirty and lead by example.
 
 In research data management, the history is the future. The one I envision is a future where scientific evidence is routinely available in a transparent, trustworthy and persistent manner to support peer-review and withstand reproducibility, to underpin new results and discoveries, and effectively drive sciences forward.
 
-**我的咨询意见： _已知，不知道！ _**
+**My advice: _be aware, be FAIR!_**
