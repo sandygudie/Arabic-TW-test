@@ -2,88 +2,88 @@
 (rr-code-reuse-details)=
 # 代码重用的详细建议
 
-请确保您(或其他人)可以重新使用您的代码来做同样的事情。 本节载有使您的软件更易重新使用的建议清单。 在本节中，对其中每项建议作了更深入的解释，并指明了本指南其他有关部分。
+Make sure you (or somebody else) can re-use your code to do the same exact thing you did. 本节载有使您的软件更易重新使用的建议清单。 In this section contains a more in-depth explanation of each of these recommendations, with pointers to other relevant parts of this guide.
 
 ## 可重复的建议
 
-在这个阶段，你可能甚至不需要能够打开并读取代码。 你只是想确保你可以重新运行所有需要的步骤并获得相同的结果。
+At this stage, you might not even need to be able to open the code and read it, you just want to make sure you can re-run all the needed steps and obtain the same results you had.
 
-### 1. 请确保您可以找到它(在空格中)
+### 1. Make sure you can find it (in space)
 
-您的代码必须公开存储并与合作者共享。 它有一个独特的持久识别码，以便每个人都能找到并获得它。
+Your code must be stored publicly and shared with collaborators. It has an unique persistent identifier, so that everyone can find it and access it.
 
-**还见**: {ref}`rr-vcs`
+**See also**: {ref}`rr-vcs`
 
-### 2. 请确保您可以找到它(在时间上)
+### 2. Make sure you can find it (in time)
 
-最理想的情况是，代码的时间演变是用版本控制记录的。 这允许您从过去获取特定版本。
+Ideally the temporal evolution of the code is documented with version control. This allows you to retrieve a specific version from the past.
 
-**还见**: {ref}`rr-vcs`
+**See also**: {ref}`rr-vcs`
 
-### 3. 请确保您可以执行相同的操作序列
+### 3. Make sure you can execute the same sequence of operations
 
-建立环境的人往往也是撰写代码的人和知道能够重新运行代码和复制结果所需步骤的确切顺序的人。 这肯定能够得到认真的记录，供另一个人再做。
+Often the human who set up the environment is also the one who wrote the code and the one who knows the exact order of steps needed to be able to re-run the code and reproduce the results. This could surely be carefully documented for another human to re-do it.
 
-**还见**: [Reducible Research CodeRefinery 课程](https://coderefinery.github.io/reproducible-research/)
+**See also**: [CodeRefinery lesson on Reproducible Research](https://coderefinery.github.io/reproducible-research/)
 
-### 4. 请确保您的环境和操作顺序是稳固的，不需要人来复制已经做过的工作
+### 4. Make sure your environment and sequence of operations is robust and no human is needed to replicate what was done
 
-你不想依赖人类。 他们往往犯错误，即使他们的用意不好。 所以你想要你的环境被脚本并在需要时被重新创建，你想要你的操作序列由一个管道脚本运行，这个脚本把所有的步骤序列合在一起。 操作序列的一个好副作用是，这常常可以作为步骤的文件记录。
+You do not want to depend on humans. They tend to make errors even if they do not have bad intentions. So you want your environment to be scripted and be re-created when needed and you want your sequence of operations to be run by a pipeline script that glues together all the sequence of steps. 操作序列的一个好副作用是，这常常可以作为步骤的文件记录。
 
-**还见**: {ref}`rr-renv-options`
+**See also**: {ref}`rr-renv-options`
 
-### 5. 授权您的代码
+### 5. License your code
 
-请确保您的代码附加许可证，并指定当人们重新使用它时您想被引用的方式。 考虑使用允许再使用的许可协议。 此外，您应该选择一个与您的软件依赖的库或包的许可兼容的许可证。
+Make sure you attach a license to your code and specify how you want to be cited when people re-use it. Consider using a permissive license that allows for reuse. Also, you should choose a license which is compatible with the licenses of libraries or packages your software depends on.
 
-**还见**: {ref}`rr-licensing-software`, {ref}`rr-licensing-software permissive`, {ref}`rr-licensing-compatibility`
+**See also**: {ref}`rr-licensing-software`, {ref}`rr-licensing-software-permissive`, {ref}`rr-licensing-compatibility`
 
-### 6. 确保它是有线的
+### 6. Make sure it is citable
 
-请确保指定当人们重新使用它时你想被引用。
+Make sure to specify how you want to be cited when people re-use it.
 
-**还见**: {ref}`cm-citable-cite-software`
+**See also**: {ref}`cm-citable-cite-software`
 
-### 7. 包含必要的数据
+### 7. Include necessary data
 
-如果软件依赖于任何类型的数据，数据应该可用
+If the software depends on any sort of data, the data should be available
 
-**还见**: {ref}`rr-rdm-data`
+**See also**: {ref}`rr-rdm-data`
 
-## 可重新运行的建议
+## Re-runnable recommendations
 
-请确保您(或其他人)可以重新使用它来做你做的事情，但有不同的数据/不同的参数
+Make sure you (or others) can re-use it to do the thing you did, but with different data/different parameters
 
-### 1. 移除硬代码位并使代码模块化
-您不想要有您的数据或分析参数的详细信息被编入代码。 如果某些东西可以变成可重复使用的函数，将其与硬代码参数分开，然后将其变成自己可以使用的(重新)函数。 使模块纯度：给出相同的输入，一个纯函数总是返回相同的值。 不是在脚本中指定文件路径，而是考虑传递它们作为命令行参数，用于更易移植、更通用和可复用的脚本。
+### 1. Remove hardcoded bits and make the code modular
+You do not want to have details specific of your data or analysis parameters hardcoded into the code. If something can become a reusable function, separate it from the hardcoded parameters and turn it into something (re)usable on its own. Make the modules pure: given the same input, a pure function always returns the same value. 不是在脚本中指定文件路径，而是考虑传递它们作为命令行参数，用于更易移植、更通用和可复用的脚本。
 
-**还见**: [CodeRefinery模块代码开发课程](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md/#1)
+**See also**: [CodeRefinery Modular Code Development lesson](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md/#1)
 
-### 2. 测试你制作的模块可以使用不同类型的输入数据或参数
-您可能还不知道您的代码将如何在未来被重新使用。 但如果您可以测试允许的参数，您可以防止它不被使用。
+### 2. Test that the modules you made can take different types of input data or parameters
+You might not know yet how your code will be re-used in the future, but you can prevent how it should not be used if you can test which parameters are allowed.
 
-**还见**: [CodeRefinery 课程关于自动测试](https://coderefinery.github.io/testing/motivation/)
+**See also**: [CodeRefinery lesson on Automated testing](https://coderefinery.github.io/testing/motivation/)
 
-### 3. 将模块变成一个包/工具箱
-更多地将你的项目的细节与可以在你的项目中被其他人或其他人重新使用的bit分开。
+### 3. Turn the modules into a package/toolbox
+Separate even more the specifics of your project with the bits that can be reused in other of your projects or by other people.
 
-**还见**: {ref}`rr-renv-package`, [Packaging software](https://scicomp.aalto.fi/scicomp/packaging-software/), [Software python](https://aaltoscicomp.github.io/python-for-scicomp/packaging/)
+**See also**: {ref}`rr-renv-package`, [Packaging software](https://scicomp.aalto.fi/scicomp/packaging-software/), [Software packaging in Python](https://aaltoscicomp.github.io/python-for-scicomp/packaging/)
 
 ## 便携式建议
-可携带性是指向新环境传输软件的能力。 这可能是指相同（但不是相同）机器，但也可以是指新的硬件结构、操作系统等等。 这两者对于软件的再利用都很重要。
+Portability refers to the ability to transfer software to a new environment. This could refer to an identical (but not the same) machine, but it can also refer to a new hardware architecture, operating system and such. Both of these are important for software reuse.
 
-### 1. 请确保您可以重新创建它所生活的环境
-环境是及时的一种脆弱的快照，它默默地伴随了该守则。 它可以包括操作软件的人员、人类准备数据的步骤。 硬件、操作系统、库、外部软件包/工具箱/依赖项。 所有这些都可以仔细地记载，让另一个人重新采取所有同样的准确步骤。
+### 1. Make sure you can recreate the environment where it lived
+The environment is a fragile snapshot in time which silently accompanies the code. It can include the human who operated the software, the steps the human did to prepare the data, the hardware, the OS, the libraries, external packages/toolboxes/dependencies. All this can be carefully documented for another human to re-do all the same exact steps.
 
-**还见**: {ref}`rr-renv`
+**See also**: {ref}`rr-renv`
 
 ## 可延长和可修改的建议
-请确保其他人可以在你的代码基础上扩展并改进它。
+Make sure others can build on your code to extend it and improve it.
 
-### 2. 请确保你的代码可以被人类读
-它往往支付更多的费用给其他人写代码，以便他们能够阅读(包括你的未来)。 一个带有模糊变量名称的密码内线人比将一个班轮分成多个步骤和可读变量名具有意义更快或更有效率。 此外，使用编码约定将帮助其他读者。
+### 2. Make sure your code is readable by humans
+It often pays more to write code for other humans so they can read it (including your future self). A cryptic oneliner with obscure variable names is not any faster or more efficient than splitting the one liner into multiple steps with readable variable names that make sense. Furthermore, using coding conventions will help other readers.
 
-**还见**: {ref}`rr-code-style-and-forming`, {ref}`rr-code-quality-advantages`
+**See also**: {ref}`rr-code-style-and-formatting`, {ref}`rr-code-quality-advantages`
 
-### 3. 请确保评论已存在
-在写入实际代码之前写下评论。 想象一下，某人可以只读评论并跳过评论之间的所有代码位，并获得关于正在发生的事情的全景，好像他们阅读了整个代码。
+### 3. Make sure comments are present
+Write comments before writing the actual code. Imagine that somebody could just read the comments and skip all the code bits between comments and get a full picture of what is going on as if they read the whole code.
