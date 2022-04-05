@@ -8,33 +8,32 @@
 
 ### Usar semente de números aleatórios
 
-Número aleatório de sementes são um pouco difíceis de explicar, então aqui está um exemplo. Aqui está um pouco de script Python que imprime três números aleatórios.
+Random number seeds are a little difficult to explain so here's an example. Here's a little Python script that prints three random numbers.
 
 ```python
-importar aleatório
+import random
 
-# Imprimir três números aleatórios
+# Print three random numbers
 print(random.random())
 print(random.random())
 print(random.random())
 ```
 
-Este script não tem bugs, mas se você executá-lo repetidamente receberá respostas diferentes de cada vez. Agora vamos definir um número aleatório de semente.
+This script has no bugs but if you run it repeatedly you will get different answers each time. Now let's set a random number seed.
 
 ```python
-importar aleatório
+import random
 
-# Definir uma seed com número aleatório
-aleatório.seed(1)
+# Set a random number seed
+random.seed(1)
 
-# Imprimir três números aleatórios
+# Print three random numbers
 print(random.random())
 print(random.random())
-print(random.random()) 
- print(random.random())
+print(random.random())
 ```
 
-Se você executar este script ele será executado
+Now if you run this script it outputs
 
 ```python
 0.134364244112
@@ -42,7 +41,7 @@ Se você executar este script ele será executado
 0.763774618977
 ```
 
-e toda vez que você executar este script você receberá a *mesma* saída, ele vai imprimir o *mesmo* três números aleatórios. Se a semente do número aleatório for alterada, você receberá três números aleatórios:
+and every time you run this script you will get the *same* output, it will print the *same* three random numbers. If the random number seed is changed you will get a different three random numbers:
 
 ```python
 0.956034271889
@@ -51,12 +50,12 @@ e toda vez que você executar este script você receberá a *mesma* saída, ele 
 ```
 mas de novo você obterá os mesmos números toda vez que o script for executado no futuro.
 
-Sementes numéricas aleatórias são uma maneira de tornar as coisas confiavelmente aleatórias. No entanto, um risco com testes que dependem de sementes com números aleatórios é que eles podem ser frágeis. Diga que você tem uma função estruturada algo como isto:
+Random number seeds are a way of making things reliably random. However a risk with tests that depend on random number seeds is they can be brittle. Say you have a function structured something like this:
 
 ```python
-def minha_function():
+def my_function():
   a = calculation_that_uses_two_random_numbers()
-  b = calculation_that_uses_cinco_random_numbers()
+  b = calculation_that_uses_five_random_numbers()
   c = a + b
 ```
 
@@ -77,7 +76,7 @@ O resultado pode ficar assim:
 
 ```{figure} ../../figures/eyeball-test1.jpg
 ---
-nome: eyeball-test1
+name: eyeball-test1
 alt:
 ---
 ```
@@ -86,7 +85,7 @@ Em um dia com chuva, pode ficar assim:
 
 ```{figure} ../../figures/eyeball-test2.jpg
 ---
-nome: eyeball-test2
+name: eyeball-test2
 alt:
 ---
 ```
@@ -95,7 +94,7 @@ e em um dia seco, pode ficar assim:
 
 ```{figure} ../../figures/eyeball-test3.jpg
 ---
-nome: eyeball-test3
+name: eyeball-test3
 alt:
 ---
 ```
@@ -104,12 +103,12 @@ Todos estes resultados parecem muito diferentes, mas são válidos. No entanto, 
 
 ```{figure} ../../figures/eyeball-test-error.jpg
 ---
-nome: erro de e-yeball-test-error
+name: eyeball-test-error
 alt:
 ---
 ```
 
-eles poderiam facilmente concluir que há um erro, pois é improvável que um lago tripla seu volume e depois o perca novamente no espaço de algumas horas. Testes de "Olho" como estes são demorados, pois devem ser feitos por um ser humano. No entanto, o processo pode ser parcialmente ou totalmente automatizado criando "verificações básicas de sanidade". Por exemplo, o nível da água numa determinada altura deveria estar, por exemplo, entre 10% do nível da água no período anterior. Outra verificação poderia ser a de que não existem valores negativos, uma vez que um lago não pode estar -30% cheio. Este tipo de testes não pode cobrir todas as maneiras possíveis de algo ser visivelmente errado. mas são muito mais fáceis de automatizar e serão suficientes para a maioria dos casos.
+eles poderiam facilmente concluir que há um erro, pois é improvável que um lago tripla seu volume e depois o perca novamente no espaço de algumas horas. "Eyeballing" tests like these are time-consuming as they must be done by a human. However, the process can be partially or fully automated by creating basic "sanity checks". For example, the water level at one time should be within, say, 10% of the water level at the previous time step. Outra verificação poderia ser a de que não existem valores negativos, uma vez que um lago não pode estar -30% cheio. Este tipo de testes não pode cobrir todas as maneiras possíveis de algo ser visivelmente errado. mas são muito mais fáceis de automatizar e serão suficientes para a maioria dos casos.
 
 (rr-testing-desafios-não-inteiro)=
 ## Testando se os números não-inteiros são iguais
@@ -118,44 +117,44 @@ eles poderiam facilmente concluir que há um erro, pois é improvável que um la
 
 Há uma complicação com o teste se a resposta um pedaço de saídas de código é igual à resposta esperada quando os números não são inteiros. Vamos ver este exemplo do Python, mas note que este problema não é exclusivo do Python.
 
-Se atribuirmos 0.1 a `um` e 0.2 a `b` e imprimirmos o seu som, ficaremos 0.3, como esperado.
+If we assign 0.1 to `a` and 0.2 to `b` and print their sum, we get 0.3, as expected.
 
 ```python
 >>> a = 0.1
 >>> b = 0.2
->>> impressão (uma + b)
+>>> print(a + b)
 0.3
 ```
 
-Se, no entanto, compararmos o resultado de `um` mais `b` com 0.3, ficamos falsos.
+If, however, we compare the result of `a` plus `b` to 0.3 we get False.
 
 ```python
 >>> print(a + b == 0.3)
-Falso
+False
 ```
 
-Se nós mostrarmos o valor de `um` mais `b` diretamente, podemos ver que existe uma margem de erro sutil.
+If we show the value of `a` plus `b` directly, we can see there is a subtle margin of error.
 
 ```python
 >>> a + b
 0.30000000000000004
 ```
 
-Isso porque os números de ponto flutuante são aproximações de números reais. O resultado dos cálculos de pontos flutuantes pode depender do compilador ou interpretador, processador ou arquitetura do sistema e número de CPUs ou processos sendo utilizados. Isto pode representar um obstáculo importante para a elaboração de testes.
+This is because floating-point numbers are approximations of real numbers. The result of floating-point calculations can depend upon the compiler or interpreter, processor or system architecture and number of CPUs or processes being used. This can present a major obstacle for writing tests.
 
 ### Igualdade em um mundo de ponto flutuante
 
-Quando comparamos números de pontos flutuantes para a igualdade, temos de comparar com uma determinada tolerância, designada como limiar ou delta. Por exemplo, podemos considerar os valores calculados e esperados de algum número como iguais se o valor absoluto de sua diferença estiver dentro do valor absoluto de nossa tolerância.
+When comparing floating-point numbers for equality, we have to compare to within a given tolerance, alternatively termed a threshold or delta. Por exemplo, podemos considerar os valores calculados e esperados de algum número como iguais se o valor absoluto de sua diferença estiver dentro do valor absoluto de nossa tolerância.
 
-Muitos quadros de ensaio proporcionam funções para comparar a igualdade dos números de pontos flutuantes com uma determinada tolerância. Por exemplo, para o framework pytest:
+Many testing frameworks provide functions for comparing equality of floating-point numbers to within a given tolerance. For example for the framework pytest:
 
 ```python
 import pytest
 
-a = 0,1
-b = 0{,}2
+a = 0.1
+b = 0.2
 c = a + b
-assert c == pytest.approx(0{,}3)
+assert c == pytest.approx(0.3)
 ```
 
 isso passa, mas se os 0,3 fossem alterados para 0,4 falharia.
