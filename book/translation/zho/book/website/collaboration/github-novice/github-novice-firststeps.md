@@ -1,76 +1,76 @@
-(cl-github-nowerfirststeps)=
-# GitHub 最初步骤
+(cl-github-novice-firststeps)=
+# First steps on GitHub
 
-在这里，我们提供逐步的指示，让GitHub开始。
+Here, we provide step-by-step instructions to get started with GitHub.
 
 ## 1. 1. Create a GitHub account
 
-转到 [https://github.com/](https://github.com/) 并使用注册到 GitHub 框创建一个新帐户。
+Go to [https://github.com/](https://github.com/) and create a new account using the sign up to GitHub box.
 
 ## 2. 2. 创建仓库
 
-当您创建了一个新帐户并登录时，您需要创建一个新的仓库。
+When you have created a new account and you are logged in, you need to create a new repository.
 
-仓库或仓库是您存储项目所有文档、数据和其他文件的在线空间。
+A repository or repo is the online space where you store all of the documents, data and other files for your project.
 
-* 创建新的仓库， 您需要点击右上角的 + 登录(在您窗口顶部的黑段中)，然后点击新的仓库。 这将把你带到一个看起来像一个表单的页面。
-* 您将会看到您的帐户名称，您需要在它旁边填写仓库名称。
-* 此外，将盒子打勾为“公开”(所以你的仓库对所有人开放)，然后将盒子打勾以创建一个“README文件”。
-* 然后点击底部的绿色创建仓库按钮。
+* To create the new repository, you need to click on the + sign in the top right corner (in the black band at the top of your window) and then click New repository. This will take you to a page that looks like a form.
+* You will see the name of your account and you need to fill in a repository name next to it.
+* Also, leave the box ticked for “public” (so your repository is open to all) and then tick the box to create a “README file”.
+* Then click the green create repository button at the bottom.
 
-这是你现在应该看到的。 这是你的资源库的登陆页面。 下面的图表解释了所有按钮、标签和其他事情做了什么！
+This is what you should see now. It is the landing page for your repository. The diagram below explains what all the buttons, tabs and other things do!
 
 ```{figure} ../../figures/github-basic-diagram.jpg
 ---
-名称：github基本图表
-备选案文：仓库创建后注解图表，解释其主要特征。 图解说明了主要特点。
-对齐：在仓库的基本创建后左侧
--
-附加说明的图表，解释主要功能。 在网页左侧，我们有以下功能：
-- **1。 用户名：** GitHub 用户名(帐户)。 在这个例子中，用户名是“EKaroun”。
-- **2. - **2. 仓库：** 项目目录（也称为仓库）。 在这个例子中，仓库名称是“试点储存”。
-- **3. - **3. 代码:** 此选项卡将您带回您的登陆页面。 它向你展示了你在仓库中制作的文件夹。
+name: github-basic-diagram
+alt: Annotated diagram of repository after its creation, explaining the main features. The main features are explained in the figure legend.
+align: left
+---
+Annotated diagram of repository after its basic creation, explaining the main features. On the left side of the webpage we have the following features:
+- **1. Username:** GitHub user’s name (account). In this example, the username is “EKaroune”.
+- **2. - **2. 仓库：** 项目目录（也称为仓库）。 In this example, the repository name is “trial-repo”.
+- **3. - **3. 代码:** 此选项卡将您带回您的登陆页面。 It shows you the folders that you have made in the repo.
 - **4. - **4. 主要:** 这是你的默认开发分支或你仓库的活动分支。
 - **5. - **5. 分支:** 你的资源库的并行版本。
-- **6. - **6. README.md 文件：** 此文件包含有关您项目的基本信息(在这种情况下，它只包含项目名称：“trial-repo”。 当我们计划创建一个网站时，这将会成为您网站的登陆(青色)页面。
+- **6. - **6. README.md 文件：** 此文件包含有关您项目的基本信息(在这种情况下，它只包含项目名称：“trial-repo”。 When we plan to make a website, this will be rendered as a landing (front) page for your site.
 
-在网页右侧，我们有以下功能：
-- **7。 绿色代码按钮：** 点击它本地下载您的存储库。
+On the right side of the webpage we have the following features:
+- **7. Green Code button:** click it to download your repository locally.
 - **8. - **8. '+'符号：** 你可以在哪里创建新的仓库，导入仓库并创建新问题。
-- **9. - **9. Fork:** 创建另一个用户仓库的个人副本。 数字显示了您当前仓库的派生数量。
-- **10：添加文件：** 创建或上传文件到您的资源库。
-- **11：提交/时钟符号：** 点击查看此文件的历史记录作为在不同时间点保存的所有编辑(提交)列表。
-- **12：编辑/铅笔符号：**点击此铅笔符号来编辑您的README.md文件。
+- **9. - **9. Fork:** 创建另一个用户仓库的个人副本。 The number shows how many forks there are of your current repository.
+- **10: Add file:** create or upload a file to your repository.
+- **11: Commits/clock symbol:** click to see the history of this file as a list of all the edits (commits) saved at different time points.
+- **12: Edit/Pencil symbol:** click this pencil symbol to edit your README.md file.
 ```
 
 ## 3. 3. 编辑您的README.md文件
 
-除非您在重建过程中添加了任何其他文件或包含了许可文件， 您现在应该在您的资源库中有一个文件 - README.md. 我们需要编辑此文件来添加仓库信息。 此文件是Markdown文件。 您可以看到这个文件，因为它在文件名称后有“.md”。 这是您开始使用Markdown格式的地方。 无论您在这个文件中写了什么，都会显示在您项目的 GitHub 登陆页面上， 所以用它来告诉所有人你的项目。
+除非您在重建过程中添加了任何其他文件或包含了许可文件， 您现在应该在您的资源库中有一个文件 - README.md. 我们需要编辑此文件来添加仓库信息。 此文件是Markdown文件。 您可以看到这个文件，因为它在文件名称后有“.md”。 This is where you start to use the Markdown formatting. Whatever you write in this file will be shown on the landing (front) page of your project on GitHub, so use it to tell people all about your project.
 
-### 导航GitHub 编辑界面
-要编辑您的README.md 文件：
+### Navigating the GitHub editing interface
+To edit your README.md file:
 
-* 您可以点击您登陆页面中央框右上角的铅笔符号。
+* You can click on the pencil symbol in the top right of the central box on your landing page.
 
-**或**
+**Or**
 
-* 点击README.md文件，然后点击铅笔符号。
+* Click on the README.md file and then click the pencil symbol.
 
-您现在可以编辑文件。 我们将在编写好的README时讨论如何保存您的更改。
+You can now edit the file. We'll talk about how to save your changes after some pointers on writing a good README.
 
 ```{figure} ../../figures/github-readme-before-edit.jpg
 ---
-名称：github-readme-before-edit
-alt: 注释的README.md 文件图表，如果您点击您的登陆页面上的文件名。 图解说明了主要特点。
-对齐：左侧
--
-README.md文件的注释图表，如果您点击您的登陆页面上的文件名。
+name: github-readme-before-edit
+alt: Annotated diagram of README.md file, if you click on the file name on your landing page. The main features are explained in the figure legend.
+align: left
+---
+Annotated diagram of README.md file, if you click on the file name on your landing page.
 - **1. - **1. 仓库和当前文件：** 仓库名称和您正在查看的文件的名称。
-- **2. - **2. 主分支:** 当前活动的分支(默认值为“主要”)。 用于切换到你的仓库的不同分支(如果有更多分支先前创建)。
+- **2. - **2. 主分支:** 当前活动的分支(默认值为“主要”)。 Use to change to different branches of your repo (if there are more branches previously created).
 - **3. - **3. 贡献者:** 为您的文件贡献者数目(用户)。
-- **4. - **4. README.md 文件内容：** 您README.md 文件的内容出现在这里。 添加更多信息后，此内容将会扩展...
-- **5. 原始文件：** 查看原始Markdown文本文件。
-- **6. - **6. Blame:** 查看文件每行的最后一次修改。 它可以用来跟踪什么时候和谁进行了更改，并返回到旧版本的文件来修复bug。
+- **4. - **4. README.md 文件内容：** 您README.md 文件的内容出现在这里。 This content will expand once we add more information..
+- **5. Raw file:** view the raw markdown text file.
+- **6. - **6. Blame:** 查看文件每行的最后一次修改。 It can be used to track when and who made changes and go back to older versions of the file to fix bugs.
 **
   - **8。 - **7. 编辑文件：** 点击此铅笔来编辑您的README.md文件。
 - **8. - **8. 删除文件：** 点击bin 删除此文件。
@@ -78,69 +78,69 @@ README.md文件的注释图表，如果您点击您的登陆页面上的文件�
 
 ```{figure} ../../figures/github-readme-after-edit.jpg
 ---
-名称：github-readme-dedy
-备选案文：编辑模式下README.md文件的注释图表——编辑前. 在标题中进行解释。
-对齐：在编辑前，留下
--
-编辑模式下README.md文件的注释图表。
+name: github-readme-after-edit
+alt: Annotated diagram of README.md file in edit mode – before editing. Explained in the title.
+align: left
+---
+Annotated diagram of README.md file in edit mode – before editing.
 - **1. - **1. 预览更改：** 点击查看您的文本渲染(如何出现在 GitHub 或网页上)。
 - **2. - **2. 编辑文件：** 按此选项卡编辑您README.md文件的内容。
-- **3. - **3. 将内容添加到README.md:** 为您的 README.md 文件写入Markdown文本。 您当前只有这个文件中的仓库标题。
+- **3. - **3. 将内容添加到README.md:** 为您的 README.md 文件写入Markdown文本。 You currently only have the repository title in this file.
 ```
 
-### 写入您的README 文件的提示
+### Tips for writing your README file
 
-* 保持简单！ 当您在任何领域工作时，无论是软件工程还是天体物理学， 您将学习并使用术语——对您的字段具有特殊意义，但对那个字段不属于该字段的任何人来说可能没有意义。 太多的术语可能会混淆新来者，所以在这里使用简单的语言并定义所有可能不熟悉的术语。
-* 与他人分享你的项目 - 描述你现在做了什么以及你今后想做什么。
-* 告诉您是谁以及如何联系您。
+* Keep it simple! When you’re working in any field, whether it’s software engineering or astrophysics, you’ll learn and use jargon – terms that have a special meaning to your field but likely won’t make sense to anyone who isn’t part of that field. Too much jargon can confuse newcomers, so use simple language and define all potentially unfamiliar terms here.
+* Share your project with others - describe what you are doing now and what you want to do in the future.
+* Tell people who you are and how you can be contacted.
 
 
-**注意：如果你在开始时遇到麻烦，看看其他人的 README.md 文件是一个好主意。**
+**NOTE: If you’re having trouble getting started, it’s a good idea to look at other peoples' README.md files.**
 
-如果您不能以您想要的方式将您的原始Markdown内容渲染， 找到一个你想要的文件，然后查看原始文件，也是一个好主意。 您可以复制并粘贴其他人的原始文件内容到您的README.md文件，然后进行编辑。
+If you can’t get your raw markdown content to render in the way you want, it is also a good idea to find a file that has what you want and then look at the raw file. You can copy and paste other people’s raw file content into your README.md file and then edit it.
 
-下面是一个很好格式的 README.md 文件的示例： [STEMM 角色模型应用程序](https://github.com/KirstieJane/STEMMRoleModels/blob/gh-pages/README.md)
+Here is an example of a really well formatted README.md file: [STEMM Role Models App](https://github.com/KirstieJane/STEMMRoleModels/blob/gh-pages/README.md)
 
-如果您点击上面的链接，它将带您到他们的 README.file。 您可以将此作为您README.md文件的模板。
+If you click the link above, it will take you to their README.file. You can use this as a template for your README.md file.
 
-* 要查看原生Markdown文件，您需要点击原始按钮 (白箱右上方)。
-* 这就使您进入了 Markdown 原始文件，它会被渲染成一个格式很好的 README.md 文件在 GitHub 上。
-* 现在只需复制并粘贴到您的README.md编辑选项卡。 您现在可以为您的项目编辑此项目。
-* 请记住，点击预览更改选项卡来检查它看起来像是什么。
-* 当您完成编辑后，您需要向下滚动到页面底部，然后按绿色提交更改按钮。
+* To look at the raw markdown file you need to click on the raw button (top right of the white box).
+* This takes you to the markdown raw file that is rendered into a nicely formatted README.md file on GitHub.
+* Now just copy and paste it into your README.md edit tab. You can now edit this for your project.
+* Remember to check what it looks like by clicking on the preview changes tab.
+* When you have finished editing, you need to scroll down to the bottom of the page and press the green commit changes button.
 
 ```{figure} ../../figures/github-edited-readme.jpg
 ---
-名称：/github-ed-read-readme
-备选案文：在编辑模式中附加注释的README.md文件图表——添加了一个模板。 图解图解中对特征作了解释。
-对齐：左侧
--
-附加说明的编辑模式下README.md文件的图表——添加了一个模板。
-- **1. - **1. 使用 MarkDown 添加内容到 README.md：** 您README.md文件的Markdown (由文件扩展名中的 '.md' 阅读) 文本。 此示例显示具有不同章节的模板文件 (标题和子标题通过一个或多个符号创建)。 关于使用Markdown的更多信息，请参阅社区手册的 {ref}`格式一致性部分<ch-consistency-formatting-hr-markdown>` 。
+name: /github-edited-readme
+alt: Annotated diagram of README.md file in edit mode – with a template added. Features are explained in the figure legend.
+align: left
+---
+Annotated diagram of README.md file in edit mode – with a template added.
+- **1. - **1. 使用 MarkDown 添加内容到 README.md：** 您README.md文件的Markdown (由文件扩展名中的 '.md' 阅读) 文本。 This example shows the template file that has different sections (headers and subheaders are created by using one or more of ‘#’ symbol. See the {ref}`formatting consistency section of the Community Handbook<ch-consistency-formatting-hr-markdown>` for some more information on using Markdown.
 ```
-### 正在提交 - 或正在保存 - 您的更改
-提交您的更改就像点击文件的“保存按钮”。 GitHub 不会自动保存您的更改，所以重要的是不要跳过这一步。
+### Committing - or saving - your changes
+Committing your changes is like hitting the "save button" for a file. GitHub will not automatically save your changes, so it's important not to skip this step.
 
-您对文件所作的任何更改都将存入您的存储库。
+Whatever changes you have made in the file will be deposited into your repository.
 
-编写描述性的提交标题和你在提交更改框中做些什么是一个很好的做法。 所以像这样的东西——提交标题：“第一次编辑读取文件”； 描述: '复制自 … 的模板并使用此项目的详细信息编辑它'。 这个关于承诺的信息被称为“提交信息”， 而且提交的标题将使您能够快速查看文件更改的历史(这就是为什么使其描述性如此重要――它就像为您的未来留下一个有用的注释)。
+It is good practice to write a descriptive commit title and a short description of what you have done in the commit changes box. So something like - commit title: ‘first edit of the readme file'; description: 'copied template from … and edited it with the details of this project’. This information about the commit is called a “commit message”, and the commit title will enable you to quickly look through the history of changes for a file (which is why making them descriptive is so important - it's like leaving a helpful note to your future self).
 
-您可以通过点击您的登陆页面或每个文件的页面中的时钟符号，看到您的提交列表(或“提交历史”)。
+You can see a list of your commits (or your "commit history") by clicking the clock symbol on your landing page or within the page for each file.
 
 ## 4. 4. 将许可证添加到您的存储库
 
-重要的是，您的所有作品从一开始就有许可证，或者没有人能够重新使用。 许可证告诉其他研究人员，他们如何能够重新使用、修改和重新组合你的工作。 No license implies that others are *not* allowed to use your work, even with attribution. 所以最好包括一个许可，让人们知道他们可以做什么和不能做什么，以及如何为你的工作给你功劳。 所以最好包括一个许可，让人们知道他们可以做什么和不能做什么，以及如何为你的工作给你功劳。
+It is important that all of your work has a license from the very beginning or no one can reuse it. Licenses tell other researchers how they are able to reuse, modify and remix your work. No license implies that others are *not* allowed to use your work, even with attribution. 所以最好包括一个许可，让人们知道他们可以做什么和不能做什么，以及如何为你的工作给你功劳。 So it is better to include a license that lets people know what they can and can't do and how to give you credit for your work.
 
-根据您的字段，您的大部分工作可能只是一些数据或代码的文档。 GitHub 上提供的标准许可证最适合软件，不会真正成为文件的正确类型。
+Depending on your field, much of your work may be documents with only some data or code. The standard licenses offered on GitHub are most approriate for software and won’t really be the right kind for documents.
 
-[创意公共](https://creativecommons.org/licenses/) 许可证是用于此目的的最佳使用方式，其中最开放的是CC BY 4.0。
+[Creative commons](https://creativecommons.org/licenses/) licenses are the best to use for this purpose, and the most open of these is the CC BY 4.0.
 
-要将许可证添加到您的仓库，首先要做的是创建一个 LICENSE.md 文件：
+To add a license to your repository, the first thing to do is create a LICENSE.md file:
 
-* 要做到这一点，请点击添加文件按钮，然后点击创建文件。 这将给您一个空白文件。
-* 然后，你需要给文件命名，所以请拨它LICENSE.md. 这使它变成一个Markdown文件。 这使它变成一个Markdown文件。
-* 您可以在上面的链接中找到所有创造性共用许可，所以复制您想要的许可文本，然后粘贴到这个文件。
-* 别忘了按下底部的绿色提交新文件按钮，然后写一个提交消息来描述您做了什么。
-* 您也可以添加一个链接到您README.md文件底部。 这里是一个链接到一个仓库，您可以复制到 [CC BY 4.0 许可证](https://github.com/santisoler/cc-licenses) 中。 它有您的LICENSE的文本文件。 d 文件和您可以放在README.md文件底部的盾牌(或徽章)。
+* To do this, click on the Add file button, and click create file. This will give you a blank file.
+* 然后，你需要给文件命名，所以请拨它LICENSE.md. 这使它变成一个Markdown文件。 This makes it into a markdown file.
+* You can find all the creative commons licenses in the link above so copy the text of the license you want and then paste it into this file.
+* Don’t forget to press the green commit new file button at the bottom and write a commit message to describe what you have done.
+* You can also add a link to the license to the bottom of your README.md file. Here is a link to a repository that you can copy to add in a [CC BY 4.0 license](https://github.com/santisoler/cc-licenses). It has a text file for your LICENSE.md file and also a shield (or badge) that you can put at the bottom of your README.md file.
 
 You can find more information about licenses in the {ref}`rr-licensing` chapter of The Turing Way.
