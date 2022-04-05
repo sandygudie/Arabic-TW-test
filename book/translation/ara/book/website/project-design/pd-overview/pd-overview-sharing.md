@@ -1,55 +1,55 @@
-(بآلاف دولارات الولايات المتحدة)
-# مشاركة بحثك
-الآن بعد أن كنت في المرحلة الأخيرة من مشروعك، تريد التأكد من أن المخرجات الخاصة بك متاحة لأي شخص مهتم بتحليلها أو إعادة استخدامها. يمكن للعلوم أن تتقدم فقط من البناء فوق نتائج بعضها البعض. الخطوة الأولى هي مشاركة عملك.
+(pd-overview-sharing)=
+# Sharing Your Research Work
+Now that you are in the last phase of your project, you want to make sure that your outputs are available to anyone interested in analysing or reusing them. Science can only progress from building on top of each other's results. The first step is sharing your work.
 
-ولكن المشاركة وحدها ليست كافية. تحتاج إلى التأكد من أن الكائنات البحثية الخاصة بك **F**غير مسموح بها، **A**مملوك، **I**غير قابل للتشغيل و **R**قابل للاستعمال ويشار إلى ذلك باسم {ref}`مبادئ FAIR<rr-rdm-fair>` التي توفر مبادئ توجيهية لتحسين القدرة على الاستبعاد، (ج) إمكانية الوصول إلى الموجودات الرقمية وقابليتها للتشغيل على نحو متبادل؛ كل ذلك يدعم قابلية البحث للتكرار. ويشار إلى ذلك باسم {ref}`مبادئ FAIR<rr-rdm-fair>` التي توفر مبادئ توجيهية لتحسين القدرة على الاستبعاد، (ج) إمكانية الوصول إلى الموجودات الرقمية وقابليتها للتشغيل على نحو متبادل؛ كل ذلك يدعم قابلية البحث للتكرار.
+But only sharing is not enough. تحتاج إلى التأكد من أن الكائنات البحثية الخاصة بك **F**غير مسموح بها، **A**مملوك، **I**غير قابل للتشغيل و **R**قابل للاستعمال ويشار إلى ذلك باسم {ref}`مبادئ FAIR<rr-rdm-fair>` التي توفر مبادئ توجيهية لتحسين القدرة على الاستبعاد، (ج) إمكانية الوصول إلى الموجودات الرقمية وقابليتها للتشغيل على نحو متبادل؛ كل ذلك يدعم قابلية البحث للتكرار. This is referred to as {ref}`FAIR Principles<rr-rdm-fair>` that provides guidelines to improve the Findability, Accessibility, Interoperability and Reusability of digital assets; all of which support research reproducibility.
 
-هذا الجانب قد تم أخذه في الاعتبار عند تطوير {ref}`خطة إدارة البيانات (DMP)<rr-rdm-dmp>` (انظر {ref}`pd-view-planing-dmp`). لذلك، من المهم إعادة النظر في برنامج إدارة الوجهات السياحية الخاص بك للتأكد من أن المبادئ التوجيهية تطبق أيضاً عند إتاحة نتائجك. يمكنك معرفة المزيد عن هذا في فصل على {ref}`جعل البيانات صالحة<rr-rdm-fair>`).
+This aspect is already considered when developing your {ref}`Data Management Plan (DMP)<rr-rdm-dmp>` (see {ref}`pd-overview-planning-dmp`). Therefore, it is important to revisit your DMP to make sure that the guidelines are also applied when making your results available. You can learn more about this in a chapter on {ref}`making data FAIR<rr-rdm-fair>`).
 
-(بآلاف دولارات الولايات المتحدة)
-## أرشفة المخرجات
+(pd-overview-sharing-archive)=
+## Archive your Outputs
 
-مثل بياناتك ، يجب أرشفة مخرجاتك في مكان مفتوح ، حيث يمكن للناس الوصول إليها. المستودع هو مكان جيد لتخزين النتائج الخاصة بك.
+Like your data, your outputs should be archived in an open place, where people can access them. A repository is a good place to store your results.
 
-يمكن العثور على نظرة عامة على بعض المستودعات المتاحة لأرشفة بياناتك في [re3data.org](https://www.re3data.org/).
+An overview of some repositories available for archiving your data can be found in [re3data.org](https://www.re3data.org/).
 
-مورد جيد آخر حيث يمكنك قراءة المزيد حول هذا الموضوع هو الفصل على {ref}`مشاركة وأرشيف البيانات<rr-rdm-sharing>`.
+Another good resource where you can read more about this topic is the chapter on {ref}`Sharing and Archiving Data<rr-rdm-sharing>`.
 
-(بروتوكولات المشاركة - استعراض عام)=
-## شارك بروتوكولاتك
+(pd-overview-sharing-protocols)=
+## Share your Protocols
 
-وأحد أسباب إجراء البحوث القابلة للاستنساخ هو تزويد الآخرين بالأدوات التي تمكنهم من البناء عليها. وإذا لم يتم تقاسم تفاصيل البروتوكولات، فيمكن للباحثين قضاء أشهر في تحسينها قبل أن يتمكنوا من البدء بمشاريعهم.
+One of the reasons to do reproducible research is to provide others with the tools to build on top of it. If the details of the protocols are not shared, researchers can spend months optimizing them before being able to start with their projects.
 
-الأداة التي يمكن استخدامها لتجنب هذا هي [بروتوكولات.io](https://www.protocols.io/). إنه يوفر طريقة لضمان أن تكون بروتوكولاتك متاحة بشكل مفتوح، مما يسمح لك بتحديثها مع تتبع التغييرات. وعلاوة على ذلك، فإن وجود بروتوكولات خاصة بك على الإنترنت يجعل مشاركتها أيسر، مما يخلق فرصة للمساهمة.
+A tool that can be used to avoid this is [protocols.io](https://www.protocols.io/). It provides a way to ensure that your protocols are openly available, allowing you to update them while keeping track of the changes. Furthermore, having your protocols online makes them easier to share, creating opportunity for contributing.
 
-## برامج برمجة تحليل المشاركة و البحث
+## Share Analysis Scripts and Research Software
 
-إذا كنت تستخدم نظام تحكم الإصدار فسيكون لديك هذا التغطية.
+If you have been using a version control system you will have this covered.
 
-إذا كان تطوير البرامج النصية للتحليل وبرمجيات البحث جزء من بحثك، تحتاج إلى استخدام نظام التحكم في الإصدار. إذا كنت جديداً للتحكم في الإصدار، فيمكنك قراءة المزيد عنه في فصل {ref}`التحكم في الإصدارات<rr-vcs>`.
+If developing analysis scripts and research software is part of your research, you need to use a version control system. If you are new to version control you can read more about it in the {ref}`Version Control<rr-vcs>` chapter.
 
-يمكنك دمج نظام التحكم في الإصدار الخاص بك مع مستودع الأغراض العامة. على سبيل المثال، عند دمج GitHub مع Zenodo يمكنك الحصول على معرفات الكائنات الرقمية أو DOIs لبرنامجك. وهذا تلقائياً يجعل من الأسهل مشاركته وجعله قابلاً للتناسق. يمكنك قراءة عن DOIs في الفصل على {ref}`جعل مكونات البحث<cm-citable>`.
+You can integrate your version control system with a general-purpose repository. For example, when integrating GitHub with Zenodo you can get Digital Object Identifiers or DOIs for your software. This automatically makes it easier to share and makes it citable. You can read about DOIs in the chapter on {ref}`Making Research Components Citable<cm-citable>`.
 
-## جمع بحثك
+## Collecting your Research
 
-بمجرد الانتهاء من بحثك قد ترغب في جمع جميع الأجزاء الرقمية من مشروعك في مكان واحد. وتسمى هذه الخلاصة الوافية للبحوث. نشر ورقتك مع خلاصة بحثية تتيح النطاق الكامل لبحثك: من تصميم المشروع، من خلال استخلاص البيانات وتحليلها والنواتج الناتجة.
+Once you are done with your research you may want to collect all the digital parts of your project in one place. This is called a research compendium. Publishing your paper along with a research compendium allows the full extent of your research: from the design of the project, through the data recollection and analysis and the resulting outputs.
 
-ولهذا مزايا لا نهاية لها. إنه يجعل عملك قابلا للمشاركة، ويمكن للآخرين أن يبنوا عليه ويعطيكم المزيد من الوضوح.
+This has endless advantages. It makes your work shareable and reproducible, others can build upon it and gives you more visibility.
 
-يمكنك قراءة كيفية إعداد خلاصة البحوث الخاصة بك، {ref}`هذا الفصل<rr-compendia>`.
+You can read how to set up your research compendia, {ref}`this chapter<rr-compendia>`.
 
-(عرض عام للترخيص) =
-## إضافة ترخيص لمخرجات البحث
+(pd-overview-sharing-License)=
+## Add License to Research Outputs
 
-حتى لو حصلت على ترخيص في بداية المشروع تحتاج إلى التفكير فيه مرة أخرى عند مشاركة مخرجاتك ونتائجك النهائية - وهذا يسمح للناس بالحصول على معلومات حول كيفية إعادة استخدام بحثك ومشاركته.
+Even if you got a license at the beginning of the project you need to think about it again when sharing your outputs and final results - this allows people to have the information about how your research should be reused and shared.
 
-إذا كنت تريد المزيد من المعلومات حول كيفية اختيار وإضافة ترخيص إلى مشروعك يمكنك التحقق من {ref}`فصل الترخيص<rr-licensing>`.
+If you want more information about how to choose and add a license to your project you can check the {ref}`Licensing Chapter<rr-licensing>`.
 
-(بآلاف دولارات الولايات المتحدة)
-## تلقي الاقتباسات
+(pd-overview-citation)=
+## Receive Citations
 
-كل هذا العمل الشاق سيحصل على مكافأته. بعد نشر جميع أبحاثك من التصميم إلى النتائج يضيف وضوحاً لعملك ويزيد من فرص الحصول على الائتمان.
+All this hard work will have its reward. Having published all your research from the design to the results adds visibility to your work and more opportunity to get credit.
 
-لا يمكن فقط الاستشهاد بالنتائج الخاصة بك، ولكن يمكن إعادة استخدام أساليبك وبروتوكولاتك ويمكن مشاركة تصميمك.
+Not only can your results can be cited, but your methods and protocols can be reused and your design can be shared.
 
-اقرأ {ref}`هذا الفصل على ORCID<cm-citable-orcid>` للحصول على مزيد من المعلومات حول كيفية جمع نواتج بحث مختلفة في مكان واحد باستخدام ORCID وإبرازها للحصول على رصيد عادل لعملك.
+Read {ref}`this chapter on ORCID<cm-citable-orcid>` for more information about how you can collect different research outputs in one place using ORCID and highlight them to get fair credit for your work.
