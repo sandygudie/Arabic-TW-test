@@ -1,13 +1,13 @@
-(r-make-resources)=
-# الموارد لـ "صنع"
+(rr-make-resources)=
+# Resources for "Make"
 
-(r-make-resources-manual)=
-## دليل
+(rr-make-resources-manual)=
+## Manual
 
 - [دليل المرجع الرسمي ](https://www.gnu.org/software/make/manual/make.html).
 
-(الموارد - المناقشات) =
-## المناقشات
+(rr-make-resources-discussions)=
+## Discussions
 
 - [مناقشة حول صنع HackerNews](https://news.ycombinator.com/item?id=15041986).
 
@@ -15,28 +15,28 @@
 
 - [جعل غير متكرر نظر في ضار](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/03/hadrian.pdf): هذه ورقة بحث تصف إخفاقات صنع للبنايات الكبيرة و المعقدة.
 
-(r-make-resources-blogs)=
-## المدوّنات
+(rr-make-resources-blogs)=
+## Blogs
 
-بالطبع نحن لسنا أول من يقترح استخدام "صنع للتأثير"! تم العثور على مشاركات المدونة المذكورة أدناه بعد كتابة البرنامج التعليمي أعلاه، ولكن يمكن إضافة المزيد من المعلومات والأمثلة.
+Of course we are not the first to suggest the use of Make for reproducibility! تم العثور على مشاركات المدونة المذكورة أدناه بعد كتابة البرنامج التعليمي أعلاه، ولكن يمكن إضافة المزيد من المعلومات والأمثلة.
 
 - [قابلية التكرار صعبة](https://kbroman.wordpress.com/tag/reproducible-research/). مناقشة إنشاء مشروع بحث قابل للاستنساخ باستخدام Make.
 
-- [غنو صنع لتحليل البيانات القابلة للنسخ](http://zmjones.com/make/). لإستخدام اصنع لتحليل قابل للتكاثر في نفس النسق كما نفعل أعلاه.
+- [GNU Make for Reproducible Data Analysis](http://zmjones.com/make/). لإستخدام اصنع لتحليل قابل للتكاثر في نفس النسق كما نفعل أعلاه.
 
 - [أنابيب المعلومات الحيوية القابلة للتكرار باستخدام صنع](http://byronjsmith.com/make-bml/). دروس موسعة جدا حول استخدام اصنع لتحليل البيانات.
 
 - [التحليل التلقائي للبيانات خطوط الأنابيب](http://stat545.com/automation04_make-activity.html). برنامج تعليمي مماثل يستخدم R للتحليل.
 
-- [كتابة ورقة قابلة للاستنساخ](http://handbook.datalad.org/en/latest/usecases/reproducible-paper.html#automation-with-existing-tools). دروس مشابهة مع بايثون باستخدام المتغيرات لتجميع الجداول في المخطوطة .
+- [Writing a reproducible Paper](http://handbook.datalad.org/en/latest/usecases/reproducible-paper.html#automation-with-existing-tools). دروس مشابهة مع بايثون باستخدام المتغيرات لتجميع الجداول في المخطوطة .
 
-(r-make-resources-أدوات)=
-## أدوات
+(rr-make-resources-tools)=
+## Tools
 
 - رسم DAG لـ Makefile باستخدام [makefile2graph](https://github.com/lindenb/makefile2graph).
 
-(r-make-resources-Alternatives)=
-## بدائل لعمل
+(rr-make-resources-alternatives)=
+## Alternatives to Make
 
 هناك [العديد من البدائل صنع](https://en.wikipedia.org/wiki/List_of_build_automation_software). في الأسفل هناك بعض الذين ألقوا القبض على عينينا، وقد يكون ذلك يستحق النظرة.
 
@@ -46,6 +46,6 @@
 
 - [Bazel](https://www.bazel.build). نسخة مفتوحة المصدر من نظام بناء Blaze الخاص بجوجل.
 
-- [Buck](https://buckbuild.com/). نظام بناء الفيسبوك.
+- [Buck](https://buckbuild.com/). Facebook's build system.
 
 
