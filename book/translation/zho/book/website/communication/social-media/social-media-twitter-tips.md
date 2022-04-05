@@ -7,13 +7,13 @@ Below are general tips for starting to use Twitter for personal academic purpose
 
 But when starting with Twitter it is important to first consider what your purpose for using it is. This will help you develop your voice (how you want to be heard, what topics you focus on, your overall message) on Twitter.
 
-**1. 1. 选择一个良好的 Twitter 句柄并写下一个好的 bio**
+**1. Choose a good Twitter handle and write a good bio**
 
 * Add a photo, cover image and short bio that is relevant to the research you are doing.
 * Your bio can be linked to accounts such as your institution using their @, your funding body and common hashtags for your subject.
 * You might want to have a specific Twitter account for your project or organisation as well as a personal one.
 
-**2. 2. 创建列表**
+**2. Make lists**
 
 * This helps you to follow lots of people and can be used for events.
 * Lists can be made public.
@@ -22,18 +22,18 @@ But when starting with Twitter it is important to first consider what your purpo
 
 * It might be that all your tweets are to target your research community but some may also be for the wider public. Therefore, think carefully about the language you use, avoid jargon and subject-specific acronyms, and add links to more information.
 
-**4. 4. 添加特定主题的哈希标签**
+**4. Add subject-specific hashtags**
 
 * You only have 280 characters so using hashtags to link to different groups of interest is an important way to get your message out there.
 * Tweets with hashtags can increase engagement by almost 100% for individuals.
 * There are also regular hashtags for each day of the week, for example, #MondayMotivation or #FridayFeeling.
 
-**5. 5. 在您的 tweet 中包含其他账户**
+**5. Include some other accounts in your tweet**
 
 * Linking your tweet to other accounts using @ will mean you get more retweets and therefore will spread your tweet further.
 * It is a good idea to find other researchers and organisation that have large Twitter followings. This gives your tweet the largest reach possible.
 
-**6. 6. 添加视觉效果**
+**6. Add visuals**
 
 * You can use images and gifs to draw attention to your tweets.
 * If you don't have an image, a link will generate an image so make sure that the link is up to date and has a relevant image for your tweet.
@@ -43,12 +43,12 @@ But when starting with Twitter it is important to first consider what your purpo
 
 * These are treated as replies so become hidden.
 
-**8. 8. 小心处理敏感数据**
+**8. Be careful with sensitive data**
 
 * Make sure you are aware of the policy concerning social media in your project or institution.
 * Some projects will not allow you to tweet about progress until a certain time in the project and others will encourage the use of social media from the start.
 
-**9. 9. 照顾自己**
+**9. Take care of yourself**
 
 * Not all the interactions that you have on Twitter will be pleasant as some people find fun in starting arguments or being offensive towards you.
 * It is best not to interact with these people.
