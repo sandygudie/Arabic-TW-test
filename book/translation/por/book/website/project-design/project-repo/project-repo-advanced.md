@@ -1,140 +1,148 @@
-# Estrutura Avançada para Análise de Dados
+# Advanced Structure for Data Analysis
 
-## Nível de Habilidade Pré-requisitos/recomendados
+## Prerequisites/Recommended Skill Level
 
-| Pré-requisito                                | Importância | Observações                                          |
-| -------------------------------------------- | ----------- | ---------------------------------------------------- |
-| {ref}`Controle de Versão<rr-vcs>`      | Útil        | Conhecimento de usar o git para controle de versão   |
-| {ref}`Pesquisa Aberta<rr-open>`        | Útil        | Componentes são parte do compêndio                   |
-| {ref}`Ambientes Reproduíveis<rr-renv>` | Útil        | Pode ser usado para tornar o compendium reprodutível |
+| Prerequisite                                    | Importance | Notes                                           |
+| ----------------------------------------------- | ---------- | ----------------------------------------------- |
+| {ref}`Version Control<rr-vcs>`            | Helpful    | Knowledge of using git for version control      |
+| {ref}`Open Research<rr-open>`             | Helpful    | Components are part of the compendium           |
+| {ref}`Reproducible Environments<rr-renv>` | Helpful    | Can be used to make the compendium reproducible |
 
 ## Summary
 
-Ao planejar um estudo de pesquisa, um componente crucial e muitas vezes esquecido é a configuração de um repositório. Nesta seção, serão delineados os benefícios e considerações de como projetar um repositório, junto com um exemplo de estrutura e recursos adicionais para guiar seu fluxo de trabalho.
+When planning out a research study, one crucial and often forgotten component is setting up a repository. In this section, the benefits and considerations of designing a repository will be outlined, along with an example structure and further resources to guide your workflow.
 
-Os pré-requisitos para este capítulo podem variar consoante as necessidades organizacionais de um projeto. Criar um repositório com um simples layout de projeto de pesquisa pode exigir um conhecimento técnico mínimo (como gerenciar apenas dados de entrada e resultados de saída). Enquanto isso, podem ser necessários layouts avançados de repositório para projetos mais complicados (como projetos com dependências de outros projetos).
+The prerequisites for this chapter can vary depending on the organisational needs of a project. Creating a repository with a simple research project layout can require minimal technical knowledge (such as managing only input data and output results). Meanwhile, advanced repository layouts can be required for more complicated projects (such as projects with dependencies on other projects).
 
-## Fundo
+## Background
 
-Um repositório (ou um "repositório") é um local de armazenamento para o seu projeto de pesquisa. Um repositório pode conter uma série de objetos digitais e pode ser usado para armazenar seu projeto usando plataformas online como o GitHub. O objetivo de um repositório é organizar seu projeto de tal forma que ele seja acessível para outros e eficiente de utilização.
+A repository (or a "repo") is a storage location for your research project. A repository can contain a range of digital objects and can be used to store your project by using online platforms such as GitHub. The aim of a repository is to organise your project in such a way this is both accessible to others and efficient to use.
 
-Até agora, vimos os principais documentos que se deve adicionar ao iniciar ou configurar um repositório de projeto. Se você estiver seguindo junto, seu projeto deve conter os seguintes arquivos:
+So far, we saw the key documents that one should add when starting or setting up a project repository. If you are following along, your project should contain the following files:
 
 ```
-Pasta do Projeto/
-── CODE_OF_CONDUCT          <- Código de Conduta para projetos da comunidade
-── CONTRIBUTING             <- Guia de contribuição para colaboradores
-─ LICENSE                  <- licença de software
-── . . <- quaisquer outros arquivos que você possa ter adicionado para o seu projeto
-─ LEIA-ME. d                <- informações sobre o repositório
+Project Folder/
+├── CODE_OF_CONDUCT          <- Code of Conduct for community projects
+├── CONTRIBUTING             <- Contribution guideline for collaborators
+├── LICENSE                  <- software license
+├── ...                      <- any other files that you may have added for your project
+└── README.md                <- information about the repo
 ```
 
-Neste subcapítulo, descrevemos os benefícios e considerações de projetar um repositório, juntamente com um exemplo de estrutura e recursos adicionais para guiar seu fluxo de trabalho.
+In this subchapter, we outline the benefits and considerations of designing a repository, along with an example structure and further resources to guide your workflow.
 
 ```{note}
-O principal benefício de projetar seu repositório adicionando intencionalmente documentação, recursos e informações relevantes permitem criar uma infraestrutura para pesquisa ética, aberta e de alta qualidade na fase de busca.
+The main benefit of designing your repository by intentionally adding documentation, resources and relevant information allows creating an infrastructure for ethical, open and high-quality research from the get-go.
 ```
 
-## Principais considerações
+## Main Considerations
 
-Ao compartilhar seus recursos por meio do repositório, considere os seguintes aspectos da reprodutibilidade em sua pesquisa:
+When sharing your resources via your repository, consider the following aspects of reproducibility in your research:
 
-- Transparência e abertura
-- Sistema de controle de versão (nenhum outro arquivo como final_v1_FINAL. R, final_v2_FINAL. R, ...)
-- Faça com que seja fácil navegar para que você economize tempo para todos os envolvidos
-- Considere {ref}`aspectos pd-overview-repro`
-- Certifique-se de fornecer detalhes suficientes para que outros possam desenvolver o seu trabalho
+- Transparency and openness
+- Version control system (no more files like final_v1_FINAL.R, final_v2_FINAL.R, ...)
+- Make it easy to navigate so that you save time for everyone involved
+- Consider {ref}`pd-overview-repro` aspects
+- Make sure that you provide sufficient details so that others can build on your work
 
-## Principais Recomendações
+## Main Recommendations
 
-Sempre considere projetar seu projeto para colaboração adicionando documentos-chave que descrevam objetivos, visão, roteamento, contribuição e processo de comunicação conforme descrito em subcapítulos anteriores).
-- Inclua detalhes no {ref}`README arquivo<pd-project-repo-readme>`descrevendo _o que_ o repositório é e _como_ navegá-lo
-- Forneça visão, objetivos e roteiro sempre que possível (veja [o roteiro de desenvolvimento do Kamran Ahme](https://github.com/kamranahmedse/developer-roadmap) por exemplo)
-- Estrutura geral deve separar entrada (dados), métodos (scripts) e saída (resultados, números, manuscritos)
-- Especifique o que não deve ser rastreado no arquivo `.gitignore` , como arquivos confidenciais/privados, conjunto de dados grande ou notas pessoais
-- Inclua informações em seu ambiente computacional {ref}`Ambientes Reproduíveis<rr-renv>` para garantir a reprodutibilidade (isso também pode ser especificado no README)
+Always consider designing your project for collaboration by adding key documents describing project goals, vision, roadmap, contribution and communication process (as described in earlier subchapters).
+- Include details in {ref}`README file<pd-project-repo-readme>`describing _what_ the repository is for and _how_ to navigate it
+- Provide vision, goals and roadmap wherever possible (see [Kamran Ahmed's developer roadmap](https://github.com/kamranahmedse/developer-roadmap) for example)
+- General structure should separate input (data), methods (scripts) and output (results, figures, manuscript)
+- Specify what shouldn't be tracked in the `.gitignore` file, such as sensitive/private files, large dataset or personal notes
+- Include information on your computational environment {ref}`Reproducible Environments<rr-renv>` to ensure reproducibility (this can also be specified in the README)
 
-## Exemplo da estrutura do repositório
+## Example Repository Structure
 
-### Exemplo para um projeto de pesquisa
+### Example for a Research Project
 
-Aqui estão a sugestão de arquivos e pastas que um projeto de pesquisa deve ter.
-
-```
-Pasta do Projeto/
-── docs                     <- documentação
-─── codelist.txt 
-── project_plan.txt
-── ...
-├─── deliverables.txt
-── dados
-── raw/
-── my_data. sv
-── clean/
-── clean/
-named@@5─ data_clean. sv
-── analise                 <- scripts
-── meu_script. ─── resultados                  <- saída da análise     
-── figuras
-── . itignore               <- arquivos excluídos do controle de versão do git 
-─ installing. <- configuração de ambiente
-── CODE_OF_CONDUCT          <- Código de Conduta para projetos da comunidade
-── CONTRIBUTING             <- Guia de Contribuição para colaboradores
-── LICENSE                  <- licença de software
-─ README. d                <- informações sobre o relatório de repositório
-── . d                <- relatório do projeto
-```
-
-### Exemplo com cada possível pasta
-
-Este exemplo mostra arquivos diferentes e diretório que um projeto pode conter ao criar um aplicativo de software ou ferramentas de engenharia de pesquisa.
+Here are suggestion of files and folders a research project must have.
 
 ```
-sv
-├── limpo/
-── data_clean. sv
-── docs                     <- documentação
-── codelist . xt 
-── gerenciamento de projeto       <- documentos relacionados a gerenciamento de projetos
-── comunicação. d
-├── pessoas.md
-── project-report.md
-├── ferramentas. d
-── res                      <- recursos estáticos (imagens e arquivos de áudio)
-── figuras
-── . itignore               <- arquivos excluídos do controle de versão do git 
-── CODE_OF_CONDUCT          <- Código de Conduta para projetos da comunidade
-─ CONTRIBUTING             <- Guia de Contribuição para colaboradores
-─ lib                      <- dependências (componentes compartilhados que podem ser usados através de um aplicativo ou em outros projetos. código que suporta a aplicação de núcleo)
-── logs. xt                 <- histórico de todas as principais atualizações, como lançamentos de recursos, correção de erro, atualiza
-── exemplo                  <- aplicação de exemplo de código
-── LICENSE                  <- licença de software
-── ambiente. ml          <- configuração de ambiente anaconda   
-─ instale. <- Configuração de ambiente R
-require─ requisitos. xt         <- configuração do ambiente python
-── runtime. xt              <- R em configuração do binder
-── relatório. d                <- relatório de análise
-─ README. d                <- informações sobre o repo
-── src                      <- arquivos de origem
-─ test                     <- testes de unidade  
+Project Folder/
+├── docs                     <- documentation
+│   └── codelist.txt 
+│   └── project_plan.txt
+│   └── ...
+│   └── deliverables.txt
+├── data
+│   └── raw/
+│       └── my_data.csv
+│   └── clean/
+│       └── data_clean.csv
+├── analysis                 <- scripts
+│   └── my_script.R
+├── results                  <- analysis output     
+│   └── figures
+├── .gitignore               <- files excluded from git version control 
+├── install.R                <- environment setup
+├── CODE_OF_CONDUCT          <- Code of Conduct for community projects
+├── CONTRIBUTING             <- Contribution guideline for collaborators
+├── LICENSE                  <- software license
+├── README.md                <- information about the repo
+└── report.md                <- report of project
 ```
 
-## Recursos
+### Example with Every Possible Folder
 
-### Pacotes R e Python
+This example shows different files and directory a project can contain when building a software application or research engineering tools.
+
+```
+Project Folder/                        
+├── analysis                 <- scripts
+│   └── my_script.R
+├── build                    <- built files, Makefile
+|   ├── debug
+|   └── release
+├── data
+│   └── raw/
+│       └── my_data.csv
+│   └── clean/
+│       └── data_clean.csv
+├── docs                     <- documentation
+│   └── codelist.txt 
+├── project-management       <- project management related documents
+│   └── communication.md
+│   └── people.md
+│   └── project-report.md
+│   └── tools.md
+├── res                      <- static resources (images and audio files)
+│   └── figures
+├── .gitignore               <- files excluded from git version control 
+├── CODE_OF_CONDUCT          <- Code of Conduct for community projects
+├── CONTRIBUTING             <- Contribution guideline for collaborators
+├── lib                      <- dependencies (shared components that can be used across an application or across projects, code that supports the core application)
+├── logs.txt                 <- history of all major updates like feature release, bug fix, updates
+├── example                  <- example code application
+├── LICENSE                  <- software license
+├── environment.yml          <- anaconda environment setup   
+├── install.R                <- R environment setup
+├── requirements.txt         <- python environment setup
+├── runtime.txt              <- R in binder setup
+├── report.md                <- report of analysis
+├── README.md                <- information about the repo
+├── src                      <- source files
+└── test                     <- unit tests  
+```
+
+## Resources
+
+### R and Python Packages
 
 | R                                                                 | Python                                                       |
 | ----------------------------------------------------------------- | ------------------------------------------------------------ |
 | [rrtools](https://annakrystalli.me/rrresearch/10_compendium.html) | [compendium-dodo](https://pypi.org/project/compendium-dodo/) |
-| [modelo](https://github.com/Pakillo/template)                     | [css-compendium](https://pypi.org/project/ccs-compendium/)   |
+| [template](https://github.com/Pakillo/template)                   | [css-compendium](https://pypi.org/project/ccs-compendium/)   |
 | [rcompendia](https://github.com/FRBCesab/rcompendium)             |                                                              |
-| [refazer](https://github.com/richfitz/remake)                     |                                                              |
+| [remake](https://github.com/richfitz/remake)                      |                                                              |
 
-### format@@0 Curated Examples of GitHub Repositories
+### Curated Examples of GitHub Repositories
 
-- [_O projeto Repo do Caminho de Turing_](https://github.com/alan-turing-institute/the-turing-way)
-- [Repositório de projeto Jupyter Book](https://github.com/executablebooks/jupyter-book)
-- [Repositório do Pacote Pandas](https://github.com/pandas-dev/pandas)
-- [Repositório do Editor de Texto Atom](https://github.com/atom/atom)
+- [_The Turing Way_ project repo](https://github.com/alan-turing-institute/the-turing-way)
+- [Jupyter Book project repo](https://github.com/executablebooks/jupyter-book)
+- [Pandas Package repo](https://github.com/pandas-dev/pandas)
+- [Atom Text Editor repo](https://github.com/atom/atom)
 
-Para mais detalhes, siga o {ref}`projeto-repo-recomendações-avançado`.
+For more details, please follow {ref}`project-repo-recommendations-advanced`.
