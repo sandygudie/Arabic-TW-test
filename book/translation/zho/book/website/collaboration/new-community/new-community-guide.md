@@ -10,10 +10,10 @@ As a 'project lead', you want to set up a welcoming and inclusive environment an
 
 The checklist below will help you in making the process of establishing collaboration in your research project thoughtfully in a structured manner.
 
-[Mozilla 开放领袖](https://mozilla.github.io/open-leadership-training-series/), [开放生命科学](https://openlifesci.org/) 和 _“正在进行的方法_ 阅读本章时，请注意您可能需要对性质可能非常不同的项目进行调整(例如)。 资料来源不完全公开）。 While reading this chapter, please be aware that you may need to make adjustments for projects that may be very different in nature (for example, not entirely open source).
+The practices listed here are derived from and limited by the experiences of the authors who participate in several successful Open Research communities and lead community-driven projects such as [The Carpentries](https://carpentries.org), [Mozilla Open Leaders](https://mozilla.github.io/open-leadership-training-series/), [Open Life Science](https://openlifesci.org/) and _The Turing Way_. While reading this chapter, please be aware that you may need to make adjustments for projects that may be very different in nature (for example, not entirely open source).
 
 (cl-new-community-guide-checklist-comms-platform)=
-### 1. 1. 选择一个通信平台
+### 1. Choose a Communication Platform
 
 - When leading an open project, use collaborative and open platforms such as [GitHub](http://github.com/) or [GitLab](https://about.gitlab.com/).
 - Evaluate the need for any real-time communications, such as if a text chat system like [Slack](https://slack.com) or [Element/Matrix](https://element.io/get-started) will be useful or if a mailing list will be sufficient (read details {ref}`Communication Channels <cm-os-comms-channels>`).
@@ -22,7 +22,7 @@ The checklist below will help you in making the process of establishing collabor
 - Make sure that the choices of these platforms are made to ensure that there is a low barrier to join them.
 
 (cl-new-community-guide-checklist-proj-summary)=
-### 2. 2. 提供一个项目摘要文件：
+### 2. Provide a Project Summary File:
 
 - The first document in your project should be a project summary file, which in a GitHub repository will be a [README.md file](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes).
 - This will provide basic information about your project so that people can evaluate why your project will be interesting for them.
@@ -32,7 +32,7 @@ The checklist below will help you in making the process of establishing collabor
   - See [The Atom project](https://github.com/atom/atom) for example.
 
 (cl-new-community-guide-checklist-code-conduct)=
-### 3. 3. 选择一个行为守则：
+### 3. Select a Code of Conduct:
 
 - Add an Open Source Project [Codes of Conduct](https://opensourceconduct.com/) to your project.
 - This document should not be used as a token, it is very important to put intentional effort into it.
@@ -42,7 +42,7 @@ The checklist below will help you in making the process of establishing collabor
   - This can be done on [GitHub issues](https://help.github.com/en/github/managing-your-work-on-github/about-issues), or [Pull Requests](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests).
 
 (cl-new-community-contrib-guidelines)=
-### 4. 4. 提供贡献指南和交互路径：
+### 4. Provide Contribution Guidelines and Interaction Pathways:
 
 - A thoughtful guideline helps people decide which pathway they can choose to contribute to your project, or if they want to be in your community at all.
 - Make sure that your community interactions and different pathways to contribute are open, inclusive, and clearly stated.
@@ -53,7 +53,7 @@ The checklist below will help you in making the process of establishing collabor
   - See [_The Turing Way_'s contributing file](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) for reference.
 
 (cl-new-community-leadership)=
-### 5. 5. 创建基本管理/领导结构：
+### 5. Create a Basic Management/Leadership Structure:
 
 - A leadership structure in an open project should aim to empower others and develop agency and accountability in your community.
 - You can start by listing different tasks within your project and inviting your members to lead those tasks.
@@ -70,7 +70,7 @@ The checklist below will help you in making the process of establishing collabor
 - This will be particularly useful if something needs immediate resolution.
 
 (cl-new-community-approaches)=
-### 7. 7. 识别失败的方法并停止主题：
+### 7. Identify Failed Approaches, and Stop Them:
 
 - Development happens in an iterative manner, therefore, revisit your plans and ideas in regular intervals and involve your members in the process.
 - Check if there are parallel developments or multiple approaches that should be merged or changed.
@@ -82,7 +82,7 @@ The checklist below will help you in making the process of establishing collabor
   - [The Beginner’s Guide To Scrum And Agile Project Management](https://blog.trello.com/beginners-guide-scrum-and-agile-project-management)
 
 (cl-new-community-documentation)=
-### 8. 8. 您的项目文件和传播计划：
+### 8. Have Documentation and Dissemination Plans for Your Project:
 
 - With new members joining your project, they must be able to find the information they need without asking you.
 - Investing in documentation plans will free you from many communication-related challenges by sharing general information regarding past decisions or the decision making process your project uses.
