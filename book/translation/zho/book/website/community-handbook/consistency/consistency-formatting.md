@@ -35,8 +35,8 @@ When reformatted to Markdown, the table became cleaner and easier to read:
 
 ```{figure} ../../figures/html-to-markdown2.png
 ---
-名称：html-markdown2
-Alt：从HTML转换为Markdown 的表的截图 当转换为Markdown时，该表更容易阅读和理解。 The table becomes easier to read and understand when converted to Markdown.
+name: html-to-markdown2
+alt: A screenshot of a table converted to Markdown from HTML. The table becomes easier to read and understand when converted to Markdown.
 ---
 Converting HTML to Markdown makes The Turing Way book easier to read.
 ```
@@ -127,7 +127,7 @@ Such an increase of two header levels results in warnings when building _The Tur
 ## Another Heading
 ```
 
-_中的几个文件。 _ 书没有遵循这个公约。 A list of such files can be found in [this issue](https://github.com/alan-turing-institute/the-turing-way/issues/1321), and [this PR](https://github.com/alan-turing-institute/the-turing-way/pull/1451) is a great example of how to fix a file with non-consecutive headers.
+Several files in _The Turing Way_ book do not follow this convention. A list of such files can be found in [this issue](https://github.com/alan-turing-institute/the-turing-way/issues/1321), and [this PR](https://github.com/alan-turing-institute/the-turing-way/pull/1451) is a great example of how to fix a file with non-consecutive headers.
 
 #### Demo
 
@@ -151,7 +151,7 @@ Often, a chapter might refer to content from another chapter to explain concepts
 (ch-consistency-formatting-hr-images)=
 ### Check 4: Use `MyST` for image formatting
 
-_中的一些数字和图像。 正在使用 Markdown 语法嵌入。 While this works, it does not allow the images to adapt to the screen size of the device the book is read from.</p>
+Some figures and images in _The Turing Way_ are embedded using Markdown syntax. While this works, it does not allow the images to adapt to the screen size of the device the book is read from.
 
 Markedly Structured Text (`MyST`) is a flavour of Markdown that addresses this and enables responsive images in the _The Turing Way_.
 
@@ -163,7 +163,7 @@ When writing ALT text, remember to:
 
 Please note that images included in _The Turing Way_ book should be less than 1MB. This allows the book load faster, especially for readers who may have slow internet connections.
 
-Please refer to the {ref}`style guide <ch-style-figures>` for examples on formatting images using `MyST` and adding ALT text to them. 最好是避免高度参数，因为错误的值可能会使您的图像在移动设备上被扭曲。 You should always check how your image looks in the Netlify preview of the book when you make a PR.
+Please refer to the {ref}`style guide <ch-style-figures>` for examples on formatting images using `MyST` and adding ALT text to them. When including images in your contributions, it may be better to avoid the height parameter as the wrong value could make your image appear distorted on mobile devices. You should always check how your image looks in the Netlify preview of the book when you make a PR.
 
 #### Demo
 
@@ -174,7 +174,7 @@ Please refer to the {ref}`style guide <ch-style-figures>` for examples on format
 (ch-consistency-formatting-sr)=
 ## Soft Requirements
 
-Soft requirements help improve the overall look and feel of _The Turing Way_. 一旦实施，这些检查可能不受注意，但它们也有助于使 _诱惑之路_ 成为一件已磨成的工作。 处理 _的软要求。 正在酝酿的怀_ 格式包括：
+Soft requirements help improve the overall look and feel of _The Turing Way_. When effected, these checks may go unnoticed, but they also contribute to making _The Turing Way_ a polished piece of work. Soft requirements that deal with _The Turing Way's_ formatting include:
 
 (ch-consistency-formatting-sr-one)=
 ### Check 1: Ensure that the names of chapters/subchapters are short and map exactly to how they are titled in the `_toc.yml`
@@ -206,7 +206,7 @@ Nonetheless, remember that the final title should adequately tell readers what t
 (ch-consistency-formatting-sr-two)=
 ### Check 2: Ensure proper title-casing for headers
 
-The titles of some chapters in _The Turing Way_ do not use title-casing. [Title-casing](https://en.wikipedia.org/wiki/Title_case) is a capitalisation style used to format the titles and headings of published works. 作为寻求在 _中进行可复制的数据科学、标题和标题的个人可引用的参考资料。 Ting Way_ 应该是标题。
+The titles of some chapters in _The Turing Way_ do not use title-casing. [Title-casing](https://en.wikipedia.org/wiki/Title_case) is a capitalisation style used to format the titles and headings of published works. Being a citeable reference for individuals seeking to carry out reproducible data science, titles and headings in _The Turing Way_ should be title-cased.
 
 Although _The Turing Way_ does not follow a specific title capitalisation style, some general, non-exhaustive rules to consider include:
 - Capitalise principal or important words
