@@ -1,5 +1,5 @@
-(rr-make-recursos)=
-# Recursos para "Make"
+(rr-make-resources)=
+# Resources for "Make"
 
 (rr-make-resources-manual)=
 ## Manual
@@ -7,7 +7,7 @@
 - [The Official Make Reference manual](https://www.gnu.org/software/make/manual/make.html).
 
 (rr-make-resources-discussions)=
-## Discusiones
+## Discussions
 
 - [Discusión sobre hacer en HackerNews](https://news.ycombinator.com/item?id=15041986).
 
@@ -15,10 +15,10 @@
 
 - [Hacer que no recursivo sea considerado perjudicial](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/03/hadrian.pdf): Este es un documento de investigación que describe los fallos de Make for large y construcciones complejas.
 
-(rr-make-recursos-blogs)=
-## Bloques
+(rr-make-resources-blogs)=
+## Blogs
 
-Por supuesto que no somos los primeros en sugerir el uso de Make para la reproducibilidad! Las publicaciones del blog citadas a continuación se encontraron después de que se escribió el tutorial anterior, pero pueden añadir más información y ejemplos.
+Of course we are not the first to suggest the use of Make for reproducibility! Las publicaciones del blog citadas a continuación se encontraron después de que se escribió el tutorial anterior, pero pueden añadir más información y ejemplos.
 
 - [Reproducibilidad es difícil](https://kbroman.wordpress.com/tag/reproducible-research/). Discuta hacer un proyecto de investigación reproducible usando Make.
 
@@ -28,15 +28,15 @@ Por supuesto que no somos los primeros en sugerir el uso de Make para la reprodu
 
 - [Análisis automático de datos Pipelines](http://stat545.com/automation04_make-activity.html). Un tutorial similar que usa R para el análisis.
 
-- [Escribiendo un papel reproducible](http://handbook.datalad.org/en/latest/usecases/reproducible-paper.html#automation-with-existing-tools). Un tutorial similar con Python usando variables para llenar tablas en el manuscrito .
+- [Writing a reproducible Paper](http://handbook.datalad.org/en/latest/usecases/reproducible-paper.html#automation-with-existing-tools). Un tutorial similar con Python usando variables para llenar tablas en el manuscrito .
 
 (rr-make-resources-tools)=
-## Herramientas
+## Tools
 
 - Grafica el DAG del Makefile con [makefile2graph](https://github.com/lindenb/makefile2graph).
 
 (rr-make-resources-alternatives)=
-## Alternativos a hacer
+## Alternatives to Make
 
 Hay [muchas alternativas a Make](https://en.wikipedia.org/wiki/List_of_build_automation_software). Debajo de hay algunos que nos llamaron la atención y que podrían valer la pena mirar.
 
@@ -46,6 +46,6 @@ Hay [muchas alternativas a Make](https://en.wikipedia.org/wiki/List_of_build_aut
 
 - [Bazel](https://www.bazel.build). Una versión de código abierto del sistema de construcción Blaze de Google.
 
-- [Suerte](https://buckbuild.com/). Sistema de construcción de Facebook.
+- [Buck](https://buckbuild.com/). Facebook's build system.
 
 
