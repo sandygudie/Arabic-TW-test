@@ -19,7 +19,7 @@ The motivation behind hosting these online calls for _The Turing Way_ community 
 
 We aim to create a safe space for shared experience, connection, support and collaboration for the distributed community of _The Turing Way_.
 
-If you want to attend these calls but don't know what to work on, don't worry! Si quieres asistir a estas llamadas pero no sabes en qué trabajar, no te preocupes! _Los miembros del equipo central de Turing Way_ estarán en la llamada y te señalarán algunos puntos de partida en el proyecto y otros esfuerzos en curso donde puedes marcar la diferencia.
+If you want to attend these calls but don't know what to work on, don't worry! _The Turing Way_ core team members will be on the call and point you to some starting points in the project and other ongoing efforts where you can make a difference.
 
 ## Techniques
 
@@ -33,7 +33,7 @@ These calls use a combination of two techniques:
 
 The [Shut up & Write!](https://shutupwrite.com/) are *local writing meetups where you get your writing done*. Their [method](https://shutupwrite.com/method) divides the writing process into eight steps: ideation, structuring, drafting, editing, restructuring and revising, polishing, publishing, and promoting. They encourage their participants to identify what they want to write and where they are in this eight-step process. Once they identify their starting point and commit to getting through the next steps by practicing consistency *steadily to “The End”*.
 
-Ellos explican que el cierre & Escritura! los eventos proporcionan dos cosas: events provide two things:
+They explain that the Shut up & Write! events provide two things:
 
 **1. Accountability & Habit Formation:**
 
