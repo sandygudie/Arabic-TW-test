@@ -1,43 +1,43 @@
-(بآلاف دولارات الولايات المتحدة) =
-# مراقبة الإصدار والوثائق
+(pd-overview-version)=
+# Version Control and Documentation
 
-وبمجرد تصميم المشروع، يصبح من المهم تتبع جميع التغييرات. وهذا سيوفر لك الكثير من الوقت ويمكن أن يساعد الآخرين على فهم البحوث الخاصة بك وإعادة استخدامها، ولديك سجل لما هو أفضل والمعلومات لفهم السبب.
+Once the project is designed, is important to keep track of all the changes. This will save you a lot of time and can help others understand and reuse your research - you have a record of what worked best and information to understand why.
 
-(pd-Overview-version-experiments) =
-## العمل التجريبي
+(pd-overview-version-experiments)=
+## Experimental Work
 
-من الضروري كتابة كل التفاصيل حول عملك التجريبي. وهذا يسمح للقراء القادمين وزميل ومستقبلك بفهم واستنساخ جميع الأعمال التجريبية ذات الصلة بمشروعك.
+It is necessary to write down all the details about your experimental work. This allows future reader, a colleague and your future self to understand and reproduce all the experimental work related to your project.
 
-أداة مفيدة للقيام بذلك هي {ref}`مذكرات المختبر الإلكتروني<rr-open-notebooks>` (ELNs). وشبكات ELN هي نسخة رقمية من دفتر المذكرات الورقي، مع ميزة إضافية تتمثل في إمكانية البحث والتخزين الآمن والوصول عن بعد. كما أن من السهل تقاسمها فيما بين أعضاء الفريق والمتعاونين.
+An useful tool to do this is {ref}`Electronic Lab Notebooks<rr-open-notebooks>` (ELNs). ELNs are a digital version of the paper notebook, with the added advantage of searchability, secure storage and remote access. They also are easy to share among team members and collaborators.
 
-ومن المهم توثيق وتقاسم المنهجية والتحليلات والإجراءات المستخدمة، فضلا عن المعلومات الخاصة بالبيانات.
+It is important to document and share the methodology, analysis and procedures used, as well as data specific information.
 
-(pd-Overview-version-comp)=
-## العمل الحسابي
+(pd-overview-version-comp)=
+## Computational Work
 
-في المرحلة النشطة من المشروع مهم للحفاظ على الاتساق في التعليمات البرمجية الخاصة بك (اقرأ هذا الفصل على {ref}`جودة التعليمات البرمجية<rr-code-quality>`)، بالإضافة إلى توثيق وخلق اختبارات لها.
+In the active phase of a project is important to keep consistency in your code (read this chapter on {ref}`code quality<rr-code-quality>`), as well as documenting and creating tests for it.
 
-توثيق التعليمات البرمجية الخاصة بك سيساعد الآخرين على فهم عملك. بعض الأدوات التي يمكن استخدامها لتوثيق التعليمات البرمجية الخاصة بك بسهولة أكبر:
-- "Docstring" في R أو Python
-- تنسيق "جافادوس" في جافا
-- ويسهل تطوير البرامجيات المتكاملة (RStudio, Eclipse, VS Code) عملية كتابة التعليقات وتوليد الوثائق.
+Documenting your code will help others understand your work. Some tools that can be used to document your code more easily are:
+- "Docstring" in R or Python
+- "Javadoc" format in Java
+- Integrated software development (RStudio, Eclipse, VS Code) facilitate the comment writing process and the generation of documentation.
 
-ويساعد إنشاء الاختبارات على توفير الوقت والمال. من خلال توفير طريقة لمعرفة ما إذا كان الكود الخاص بك يعمل، يمكن معالجة الأخطاء بسهولة من جانب أنت والآخرين.
+Creating tests helps to save time and money. By providing a way to know if your code works, mistakes can be easily addressed by you and others.
 
-لقراءة المزيد عن اختبار التعليمات البرمجية انتقل إلى {ref}`فصل اختبار التعليمات البرمجية<rr-testing>`.
+To read more about code testing go to the {ref}`Code Testing chapter<rr-testing>`.
 
 (pd-overview-version-vcs)=
-## التحكم في الإصدار
+## Version Control
 
-وتسجيل جميع التغييرات التي أجريت أثناء البحث هو جزء رئيسي من إجراء البحوث القابلة للتكرار. إنه يساعدك ويساعدك الآخرين على فهم القرارات المتخذة ويجعل هذا العمل أمراً جديراً بالتقدير، فستحصل على جميع المعلومات عن الخطوات المتخذة.
+Recording all the changes made while researching is a principal part of doing reproducible research. It helps you and others understand the decisions made and makes the work reproducible - you will have all the information about the steps taken.
 
-وإذا كان العمل على مشروع تعاوني، فإن ذلك سيساعد أيضا على تتبع من قام بكل تغيير.
+If working on a collaborative project, this will also help to keep track of who performed each change.
 
-الميزة المضافة هي أنه سيتم تنظيم كل شيء تنظيماً دقيقاً، مع سهولة الوصول إلى الإصدار الحالي من مشروعك وطرق البحث عن التغييرات التي أجريت في الماضي.
+The added advantage is that everything will be neatly organized, with easy access to the current version of your project and ways to look for changes made in the past.
 
-وفيما يلي بعض نظم مراقبة الإصدار:
+Some systems for controlling versions are:
 - Git
-- الزئبق
-- تخريبي
+- Mercurial
+- Subversion
 
-هناك فصل شامل حول {ref}`نظام التحكم في الإصدارات<rr-vcs>` في دليل البحوث القابلة للتكاثر والتي يمكن أن تكون مفيدة في هذه المرحلة.
+There is an extensive chapter about {ref}`Version Control System<rr-vcs>` in the Guide for Reproducible Research that can be helpful at this stage.
