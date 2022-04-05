@@ -8,32 +8,32 @@ Sometimes code contains an element of randomness, a common example being code th
 
 ### Use random number seeds
 
-أعداد عشوائية من البذور يصعب تفسيرها قليلاً لذلك هنا مثال. إليك نص بايثون صغير يطبع ثلاثة أرقام عشوائية.
+Random number seeds are a little difficult to explain so here's an example. Here's a little Python script that prints three random numbers.
 
 ```python
-استيراد عشوائي
+import random
 
-# طباعة ثلاثة أرقام عشوائية
+# Print three random numbers
 print(random.random())
 print(random.random())
 print(random.random())
 ```
 
-هذا البرنامج النصي لا يحتوي على أي أخطاء ولكن إذا قمت بتشغيله بشكل متكرر، فستحصل على إجابات مختلفة في كل مرة. الآن دعونا نعيّن رقم عشوائي.
+This script has no bugs but if you run it repeatedly you will get different answers each time. Now let's set a random number seed.
 
 ```python
-استيراد عشوائي
+import random
 
-# تعيين رقم عشوائي
-عشوائي.seed(1)
+# Set a random number seed
+random.seed(1)
 
-# طباعة ثلاثة أرقام عشوائية
-طبعة (random.random())
+# Print three random numbers
+print(random.random())
 print(random.random())
 print(random.random())
 ```
 
-الآن إذا قمت بتشغيل هذا البرنامج النصي فإنه يخرجه
+Now if you run this script it outputs
 
 ```python
 0.134364244112 
@@ -41,7 +41,7 @@ print(random.random())
 0.763774618977
 ```
 
-وفي كل مرة تقوم بتشغيل هذا البرنامج النصي ستحصل على *نفس* الإخراج، سيطبع *نفس* ثلاثة أرقام عشوائية. إذا تم تغيير رقم البذور العشوائي ستحصل على ثلاثة أرقام عشوائية مختلفة:
+and every time you run this script you will get the *same* output, it will print the *same* three random numbers. If the random number seed is changed you will get a different three random numbers:
 
 ```python
 0.956034271889
@@ -50,7 +50,7 @@ print(random.random())
 ```
 but again you will get those same numbers every time the script is run in the future.
 
-البذور العشوائية هي طريقة لجعل الأشياء عشوائية بشكل موثوق. غير أن خطر الاختبارات التي تعتمد على أعداد عشوائية هو أنها يمكن أن تكون حبيسة. قل أن لديك دالة منظمة مثل هذا:
+Random number seeds are a way of making things reliably random. However a risk with tests that depend on random number seeds is they can be brittle. Say you have a function structured something like this:
 
 ```python
 def my_function():
@@ -76,7 +76,7 @@ The result may look like this:
 
 ```{figure} ../../figures/eyeball-test1.jpg
 ---
-name: eyeball test1
+name: eyeball-test1
 alt:
 ---
 ```
@@ -85,7 +85,7 @@ On a day with rain it might look like this:
 
 ```{figure} ../../figures/eyeball-test2.jpg
 ---
-name: eyeball test2
+name: eyeball-test2
 alt:
 ---
 ```
@@ -94,8 +94,8 @@ and on a dry day it might look like this:
 
 ```{figure} ../../figures/eyeball-test3.jpg
 ---
-الاسم: اختبار eyeball 3
-البديل
+name: eyeball-test3
+alt:
 ---
 ```
 
@@ -103,12 +103,12 @@ All of these outputs look very different but are valid. However, if a researcher
 
 ```{figure} ../../figures/eyeball-test-error.jpg
 ---
-name: eyeball test-error
+name: eyeball-test-error
 alt:
 ---
 ```
 
-they could easily conclude there is a bug as a lake is unlikely to triple its volume and then lose it again in the space of a few hours. اختبارات "العين" مثل هذه تستغرق وقتاً طويلاً كما يجب أن يقوم بها الإنسان. غير أن هذه العملية يمكن أن تكون آلية جزئيا أو كليا عن طريق إنشاء "فحوص عافية" أساسية. فعلى سبيل المثال، ينبغي أن يكون مستوى المياه في وقت ما في حدود 10 في المائة من مستوى المياه في الخطوة السابقة على سبيل المثال. Another check could be that there are no negative values, as a lake can't be -30% full. These sort of tests can't cover every way something can be visibly wrong, but they are much easier to automate and will suffice for most cases.
+they could easily conclude there is a bug as a lake is unlikely to triple its volume and then lose it again in the space of a few hours. "Eyeballing" tests like these are time-consuming as they must be done by a human. However, the process can be partially or fully automated by creating basic "sanity checks". For example, the water level at one time should be within, say, 10% of the water level at the previous time step. Another check could be that there are no negative values, as a lake can't be -30% full. These sort of tests can't cover every way something can be visibly wrong, but they are much easier to automate and will suffice for most cases.
 
 (rr-testing-challenges-non-integer)=
 ## Testing if non-integer numbers are equal
@@ -117,19 +117,19 @@ they could easily conclude there is a bug as a lake is unlikely to triple its vo
 
 There is a complication with testing if the answer a piece of code outputs is equal to the expected answer when the numbers are not integers. Let's look at this Python example, but note that this problem is not unique to Python.
 
-إذا قمنا بتعيين 0.1 إلى `A` و 0.2 إلى `b` وطباعة المبلغ الخاص بهم، نحصل على 0.3، كما هو متوقع.
+If we assign 0.1 to `a` and 0.2 to `b` and print their sum, we get 0.3, as expected.
 
 ```python
 >>> a = 0.1
 >>> b = 0.2
->>> print(+ b)
+>>> print(a + b)
 0.3
 ```
 
 ولكن إذا قمنا بمقارنة نتيجة `` + `b` إلى 0.3 فإننا نحصل على خطأ ما.
 
 ```python
->>> print(+ b == 0.3)
+>>> print(a + b == 0.3)
 False
 ```
 
@@ -137,16 +137,16 @@ False
 
 ```python
 >>> a + b
-0.300000000000004
+0.30000000000000004
 ```
 
-ويرجع ذلك إلى أن أرقام النقاط العائمة هي أرقام تقريبية للأرقام الحقيقية. ويمكن أن تعتمد نتيجة الحسابات بالنقاط العائمة على المترجم أو المترجم الشفوي أو المعالج أو بنية النظام وعدد وحدات المعالجة المركزية أو العمليات المستخدمة. ويمكن أن يشكل ذلك عقبة رئيسية أمام اختبارات الكتابة.
+This is because floating-point numbers are approximations of real numbers. The result of floating-point calculations can depend upon the compiler or interpreter, processor or system architecture and number of CPUs or processes being used. This can present a major obstacle for writing tests.
 
 ### Equality in a floating point world
 
-وعند مقارنة أرقام النقاط العائمة للمساواة، علينا أن نقارنها في إطار تسامح معين، ويطلق عليها بدلا من ذلك عتبة أو دلتا وعند مقارنة أرقام النقاط العائمة للمساواة، علينا أن نقارنها في إطار تسامح معين، ويطلق عليها بدلا من ذلك عتبة أو دلتا على سبيل المثال وقد نعتبر أن القيم المحسوبة والمتوقعة لبعض الأعداد متساوية إذا كانت القيمة المطلقة لاختلافها في حدود القيمة المطلقة لتسامحنا.
+When comparing floating-point numbers for equality, we have to compare to within a given tolerance, alternatively termed a threshold or delta. وعند مقارنة أرقام النقاط العائمة للمساواة، علينا أن نقارنها في إطار تسامح معين، ويطلق عليها بدلا من ذلك عتبة أو دلتا على سبيل المثال وقد نعتبر أن القيم المحسوبة والمتوقعة لبعض الأعداد متساوية إذا كانت القيمة المطلقة لاختلافها في حدود القيمة المطلقة لتسامحنا.
 
-ويوفر العديد من أطر الاختبار وظائف لمقارنة المساواة بين الأعداد ذات النقاط العائمة في إطار تسامح معين. وعلى سبيل المثال بالنسبة لاختبار الإطار:
+Many testing frameworks provide functions for comparing equality of floating-point numbers to within a given tolerance. For example for the framework pytest:
 
 ```python
 استيراد بيتيست
