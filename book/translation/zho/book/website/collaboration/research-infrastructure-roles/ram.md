@@ -17,7 +17,7 @@
 名称：研究-应用管理器
 备选案文：描述动物雨为与用户连接的研究应用管理器的图案 • 将研究应用于现实世界，并促进研究基础设施的创新进程。
 ---
-研究应用管理员与研究团队合作，将产出嵌入到用户组织中。 _Ting Way_Community, & Stereria。 （11月20日）。 故事书中的插图描述. Zenodo. http://doi.org/10.5281/zenodo.4323154
+研究应用管理员与研究团队合作，将产出嵌入到用户组织中。 _Ting Way_Community, & Stereria。 (2020, November). Illustrations from the Turing Way book dashes. Zenodo. http://doi.org/10.5281/zenodo.4323154
 ```
 
 
