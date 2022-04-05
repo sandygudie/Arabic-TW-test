@@ -48,7 +48,7 @@ There are tools available to make writing and running tests easier, these are kn
   - CppTest
   - Boost::Test
   - google-test
-- crwdns4427:0crwdne4427:0
+- C
   - all C++ frameworks
   - Check
   - CUnit
@@ -65,7 +65,7 @@ While modern C++ and C are still mostly compatible, they're not completely and u
 - Fortran unit-tests:
   - funit
   - pfunit (works with MPI)
-- جوليا
+- julia
   - Test.jl (stdlib)
   - ReTest.jl
 
