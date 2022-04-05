@@ -9,7 +9,7 @@ height: 500px
 name: version-control
 alt: Two images are shown to represent the benefits of using version control. On the left, there is an image of two people rummaging through a blue box on top of a table. The box is full of jumbled documents and the people look confused and frustrated. The documents are named "final 2" and "let this be the final". On the right, the same two people look happy and are searching through files organised clearly in a blue filing cabinet. There are "V1, V2, V3 and V4" separations organising the files.
 ---
-_The Turing Way_ project illustration by Scriberia. النسخة الأصلية على Zenodo. [http://doi.org/10.5281/zenodo.3695300](http://doi.org/10.5281/zenodo.3695300)
+_The Turing Way_ project illustration by Scriberia. Original version on Zenodo. [http://doi.org/10.5281/zenodo.3695300](http://doi.org/10.5281/zenodo.3695300)
 ```
 
 (rr-rdm-storage-where)=
@@ -37,7 +37,7 @@ To organise your data, you can create a folder structure, or re-use a previous s
 ### Data Organisation Examples
 
 - Download [this](http://nikola.me/folder_structure.html) folder structure by Nikola Vukovic
-- يمكنك سحب/تنزيل هياكل المجلد باستخدام GitHub: [هذا القالب](https://github.com/bvreede/good-enough-project) من قبل Barbara Vreede، استناداً إلى [كوكيكتر](https://github.com/cookiecutter/cookiecutter)، تتبع الممارسات الموصى بها للحوسبة العلمية من قبل [ويلسون وآخرون (2017)](https://doi.org/10.1371/journal.pcbi.1005510).
+- You can pull/download folder structures using GitHub: [This template](https://github.com/bvreede/good-enough-project) by Barbara Vreede, based on [cookiecutter](https://github.com/cookiecutter/cookiecutter), follows recommended practices for scientific computing by [Wilson et al. (2017)](https://doi.org/10.1371/journal.pcbi.1005510).
 - See [this template](https://osf.io/4sdn3/) by Chris Hartgerink for file organisation on the [Open Science Framework](https://osf.io/).
 
 (rr-rdm-storage-conventions)=
