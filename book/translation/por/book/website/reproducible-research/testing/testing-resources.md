@@ -61,38 +61,38 @@ Tente ler o capítulo sobre ambientes computacionais reproduzíveis e, em seguid
 
 ## Materiais usados: glossário
 
-- [Centro de Ciência da Holanda](https://guide.esciencecenter.nl/#/best_practices/testing) **Creative Commons Atribuição 4.0 Internacional da Licença**
+- [Netherlands eScience centre](https://guide.esciencecenter.nl/#/best_practices/testing) **Creative Commons Attribution 4.0 International License**
 
 ### Definições/glossário
 
-- **Teste para Aceitação** Um teste se o programa atende aos requisitos fundamentais do projeto.
+- **Acceptance test:** A test that the program meets the project's fundamental requirements.
 
-- **Cobertura de código:** Uma medida que descreve quanto do código-fonte está sendo exercido pela suíte de teste.
+- **Code coverage:** A measure which describes how much of the source code is exercised by the test suite.
 
-- **Teste final a fim:** Um teste que executa o programa do início ao fim e verifica se a saída está correta.
+- **End to end test:** A test that runs the program from beginning to end and verifies that the output is correct.
 
-- **Teste de integração:** Um teste onde as unidades de código são combinadas e executadas, e a saída é verificada para verificar se as unidades foram corretamente integradas.
+- **Integration test:** A test where units of code are combined and run, and the output is verified to check the units have been correctly integrated.
 
-- **Mascaramento:** Substitua um objeto real com um finge usar ao executar testes.
+- **Mocking:** Replace a real object with a pretend one to use when running tests.
 
-- **Teste de regressão:** Comparação do resultado de um teste antes e depois do código ser alterado. Se a saída mudou um problema foi introduzido em algum lugar do programa, e um erro é lançado.
+- **Regression test:** Comparing the result of a test before and after the code has been altered. Se a saída mudou um problema foi introduzido em algum lugar do programa, e um erro é lançado.
 
-- **Teste de execução:** Testes incorporados no programa que são executados como parte dele.
+- **Runtime test:** Tests embedded within the program which are run as part of it.
 
-- **Teste de fumaça:** Verificações iniciais muito rápidas que garantem os requisitos básicos necessários para executar a retenção do projeto.
+- **Smoke test:** Very brief initial checks that ensure the basic requirements needed to run the project hold.
 
-- **Código estocástico:** Código que, embora correto, nem sempre produz o mesmo resultado. For example a program that outputs ten random numbers will generate a different result each time, despite being correct.
+- **Stochastic code:** Code which, while correct, does not always output the same result. For example a program that outputs ten random numbers will generate a different result each time, despite being correct.
 
-- **Teste do sistema:** Veja "end to end test".
+- **System test:** See "end to end test".
 
-- **Teste o desenvolvimento orientado:** Um processo de desenvolvimento de código onde testes de unidade são escritos antes das próprias unidades.
+- **Test driven development:** A process of code development where unit tests are written before the units themselves.
 
-- **Teste stub:** Implementações falsas de partes do código que são usadas no teste para remover dependências.
+- **Test stub:** Fake implementations of parts of code which are used in testing to remove dependences.
 
-- **Teste suite:** Os testes que foram escritos para um projeto.
+- **Test suite:** The tests that have been written for a project.
 
-- **Quadro de testes:** Ferramentas que tornam a escrita e o funcionamento dos testes menos intensivos.
+- **Testing framework:** Tools that make writing and running tests less labour intensive.
 
-- **Unidade:** Uma pequena parte de código que faz uma coisa simples. Geralmente ele tem uma ou algumas entradas e geralmente uma única saída.
+- **Unit:** A small piece of code that does one simple thing. Geralmente ele tem uma ou algumas entradas e geralmente uma única saída.
 
-- **Teste da unidade:** Um teste que verifica o comportamento de uma unidade.
+- **Unit test:** A test that checks the behaviour of a unit.
