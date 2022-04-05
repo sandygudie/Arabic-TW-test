@@ -1,148 +1,153 @@
-(م م-ح-citable-cff)=
-# إشارة برمجية مع CITATION.cff
+(cm-citable-cff)=
+# Software Citation with CITATION.cff
 
-[تنسيق ملف الاستشهاد](https://citation-file-format.github.io) يتيح لك تقديم بيانات تعريف الاستشهاد بها، لمجموعات البرمجيات أو البيانات، في ملفات plaintext التي يسهل قراءتها من قبل البشر والآلات على حد سواء.
+The [Citation File Format](https://citation-file-format.github.io) lets you provide citation metadata, for software or datasets, in plaintext files that are easy to read by both humans and machines.
 
 ```{figure} ../../figures/recognition.jpg
 ---
-الاسم: عرض
-: 500px
-بديل : مطوري البرامج البحثية يحصلون على التعرف عن طريق جعل البرمجيات قابلة للاقتباس.
+name: recognition
+width: 500px
+alt: Research software developers get recognition by making software citable.
 ---
-مطوري البرامج البحثية يحصلون على التعرف عن طريق جعل البرمجيات قابلة للإقتباس. _The Turing Way_ project illustration by Scriberia. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
+Research software developers get recognition by making software citable. _The Turing Way_ project illustration by Scriberia. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
 ```
 
-لتوفير هذه البيانات الوصفية، ابدأ بكتابة ملف `CITATION.cff` وإدراجه مع مجموعة البيانات الخاصة بك. `متآكل. خارج` الملف يجمع المعلومات في صيغة القيمة الرئيسية التي يمكن تفسيرها وتحديثها بسهولة من قبل البشر، و بسهولة تم تحليلها و تحويلها مع الأدوات الموجودة.
+To provide this metadata, start by writing a `CITATION.cff` file and include it with your software or dataset. A `CITATION.cff` file aggregates the information in a key-value format that can be easily interpreted and updated by humans, and easily parsed and converted with existing tools.
 
-(م - حاتل - لوه)=
-## لماذا تستخدم `CITATION.cff`?
+(cm-citable-cff-why)=
+## Why Use `CITATION.cff`?
 
-هناك مزايا كبيرة عند استخدام ملف `CITATION.cff` لمعلومات الاستشهاد لبرنامجك!
+There are great advantages when using a `CITATION.cff` file for the citation information for your software!
 
-إنه أسهل لك: عندما تستضيف التعليمات البرمجية المصدرية الخاصة بك على GitHub ولديك `CITATION. إيقاف` في المستودع الخاص بك، يمكنك استخدام تكامل Zenodo-GitHub لنشر إصدارات جديدة من البرنامج تلقائيا. سيستخدم زينودو المعلومات من `CITATION.cff` وسيعرضها مع المنشور. ليس عليك تعديل هذه المعلومات يدوياً على زينودو بعد الآن.
+It's easier for you: When you host your software source code on GitHub and have a `CITATION.cff` in your repository, you can use the Zenodo-GitHub integration to automatically publish new releases of the software. Zenodo will use the information from `CITATION.cff` and show it together with the publication. You don't have to edit this information manually on Zenodo anymore.
 
 ```{figure} ../../figures/software-credit.jpg
 ---
-الاسم: برنامج ائتمان
-عرض 500px
-بديل : المزيد من الاعتمادات لمبتكري البرامج.
+name: software-credit
+width: 500px
+alt: More credits for the software creators.
 ---
-المزيد من الائتمانات لمبتكري البرامج. _The Turing Way_ project illustration by Scriberia. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
+More credits for the software creators. _The Turing Way_ project illustration by Scriberia. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
 ```
 
-من الأسهل لمستخدمي برنامجك:
-1. يمكنهم استخدام معلومات الاستشهاد مباشرة من `CITATION.cff` للاستشهاد ببرنامجك.
-2. إذا كان الكود المصدري الخاص بك على GitHub، سوف تظهر معلومات الاقتباس في الشريط الجانبي كاقتباس منسق، وأيضا في صيغة BibTeX. يمكن للمستخدمين نسخ أيضًا ولصقه في مخطوطاتهم، و/أو ذكر برنامجك بشكل صحيح.
-3. إذا استخدموا مدير مرجع Zotero، يمكنهم استيراد بيانات التعريف الاستشهاد مباشرة من `CITATION. إيقاف` ملف في مستودع GitHub لمدير المرجع الخاص بهم.
+It's easier for the users of your software:
+1. They can directly use the citation information from `CITATION.cff` to cite your software.
+2. If your source code is on GitHub, they will show the citation information in the sidebar as a formatted citation, and also in the BibTeX format. Users can copy either, paste it into their manuscripts, and/or cite your software correctly.
+3. If they use the Zotero reference manager, they can import the citation metadata directly from the `CITATION.cff` file in the GitHub repository to their reference manager.
 
-(m-citable-cff-how-to-create)=
-## كيفية إنشاء ملف `CITATION.cff`
+(cm-citable-cff-how-to-create)=
+## How to Create a `CITATION.cff` File
 
-`CITATION.cff` هو ملف `YAML` مع تعريف مخطط خاص به. ويحدد المخطط القواعد لكل مجال من المجالات وما هي المجالات المطلوبة وما هي المجالات الاختيارية. يجب على المستخدم أن يتبع هذه القواعد من أجل إنشاء ملف `CITATION.cff`.
+The `CITATION.cff` is a `YAML` file with its own schema definition. The schema defines the rules for each field, and which fields are required and which ones are optional. The user must follow these rules in order to create a valid `CITATION.cff` file.
 
-المثال الأدنى لملف `CITATION.cff` صالح، الذي يحتوي على المفاتيح المطلوبة فقط، سيبدو هكذا:
-
-```yaml
-المؤلفون:
-  - أسماء العائلة: Doe
-    أعطيت الأسماء: جون
-cff-version 1.2. رسالة: "إذا كنت تستخدم هذا البرنامج، يرجى الاستشهاد به باستخدام البيانات الوصفية من هذا الملف". title: "برنامجي البحث"
-```
-
-ومع ذلك، فإن إضافة المزيد من الحقول يمكن أن تساعدك على إنشاء المزيد من بيانات التعريف الوصفية لبرنامجك. ويوفر المثال الوارد أدناه أيضا معلومات هامة عن البرمجيات مثل الإصدار، وتاريخ الإصدار، والترخيص، والكلمات الرئيسية.
+A minimal example of a valid `CITATION.cff` file, that only contains the required keys, would look like this:
 
 ```yaml
-خلاصة: "هذا برنامج بحثي الرائع. المؤلفون:
-  - أسماء الأسرة: Doe
+authors:
+  - family-names: Doe
     given-names: John
-    orcid: "https://orcid. rg/0000-0001-8888-9999"
-cff-version 1.2. تاريخ الإصدار: "2021-10-13"
-معرّفات:
-  - الوصف: "هذه هي مجموعة لقطات سريعة أرشيفية من جميع إصدارات برنامج بحثي "
-    نوع: doi
-    value: 10. 281/zenodo.123456
-  - الوصف: "هذه هي لقطة محفوظة من النسخة 0. 1.2 من برنامجي البحثي"
-    نوع: doi
-    قيمة: 10.5281/zenodo. 23457
-الكلمات الرئيسية:
-  - "برنامج مدهش"
-  - بحث
-ترخيص: Apache-2. رسالة: "إذا كنت تستخدم هذا البرنامج، يرجى الاستشهاد به باستخدام البيانات الوصفية من هذا الملف."
-repository-code: "https://github. om/citation-file-format/my-research-software"
-title: "برنامجي البحث"
-الإصدار: 0.11.2
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+title: "My research software"
 ```
 
-تم وصف القائمة الكاملة للحقول في [دليل مخطط CFF](https://github.com/citation-file-format/citation-file-format/blob/main/schema-guide.md). في القسم التالي، يمكنك معرفة الأدوات التي يمكن أن تساعدك على إنشاء واستخدام ملف `CITATION.cff`.
+However, adding more fields can help you create more descriptive metadata of your software. The example below also provides important information of software such as version, release date, DOI, license, keywords.
 
-### خطوات لجعل برنامجك قابلاً للتطبيق
+```yaml
+abstract: "This is my awesome research software. It does many things."
+authors:
+  - family-names: Doe
+    given-names: John
+    orcid: "https://orcid.org/0000-0001-8888-9999"
+cff-version: 1.2.0
+date-released: "2021-10-13"
+identifiers:
+  - description: "This is the collection of archived snapshots of all versions of My Research Software"
+    type: doi
+    value: 10.5281/zenodo.123456
+  - description: "This is the archived snapshot of version 0.11.2 of My Research Software"
+    type: doi
+    value: 10.5281/zenodo.123457
+keywords:
+  - "amazing software"
+  - research
+license: Apache-2.0
+message: "If you use this software, please cite it using the metadata from this file."
+repository-code: "https://github.com/citation-file-format/my-research-software"
+title: "My Research Software"
+version: 0.11.2
+```
 
-لجعل برنامجك مستشهد به، تحتاج إلى اتباع الخطوتين أدناه.
+The complete list of fields is described in the [CFF schema guide](https://github.com/citation-file-format/citation-file-format/blob/main/schema-guide.md). In the next section, you can find out which tools can help you create and use the `CITATION.cff` file.
 
-#### الخطوة 1. إنشاء ملف `CITATION.cff`
+### Steps to Make Your Software Citable
 
-هناك طريقتان لإنشاء ملف `CITATION.cff`.
+To make your software citable, you need to follow the two steps below.
 
-1. استخدم [cffinit](https://citation-file-format.github.io/cff-initializer-javascript/)، وهو تطبيق ويب يوجهك من خلال عملية إنشاء ملف الاستشهاد الخاص بك. `cffinit` لديه بعض المزايا مقارنة بالتحرير اليدوي مثل
+#### Step 1. Create a `CITATION.cff` File
 
-    - لا حاجة لتثبيت أدوات إضافية؛
-    - لا حاجة إلى المصادقة اليدوية؛
-    - التوجيه لكل مجالات؛
-    - الملاحظات المرئية للإشارة إلى المشاكل.
+There are two ways of creating a `CITATION.cff` file.
 
-    نقترح استخدام `cffinit` لأنه يبسط الإنشاء والتحقق من الصحة. لمزيد من التفاصيل حول استخدام `cffinit` راجع {ref}`cm-citable-cffinit`.
+1. Use [cffinit](https://citation-file-format.github.io/cff-initializer-javascript/), a web application which guides you through the process of creating your citation file. The `cffinit` has a few advantages compared to manual editing such as
 
-2. تعديل الملف يدويا في محرر التعليمات البرمجية المفضلة لديك. عيوب هذه الطريقة هي تثبيت الأدوات المطلوبة على النظام الخاص بك والقيام بالتحقق بنفسك. كذلك يمكن أن تكون رسائل الخطأ في عملية التحقق طويلة نسبياً ويصعب فهمها. بمجرد أن يكون لديك ملف `CITATION.cff` ، يجب التحقق من صحتها للتأكد من عدم وجود مشاكل. يمكنك التحقق من صحة ملف `CITATION.cff` الخاص بك على سطر الأوامر مع [`cffTranst` Python حزمة](https://pypi.org/project/cffconvert/).
+    - no need for installing extra tools;
+    - no need for manual validation;
+    - guidance for each fields;
+    - visual feedback to indicate issues.
+
+    We suggest using `cffinit` as it simplifies the creation and validation. For more details on using `cffinit` see {ref}`cm-citable-cffinit`.
+
+2. Edit the file manually in your favorite code editor. The disadvantages of this method are installing the required tools on your system and doing the validation yourself. Also, the error messages of the validation can be relatively long and difficult to understand. Once you have a `CITATION.cff` file, it needs to be validated to make sure there are no issues. You can validate your `CITATION.cff` file on the command line with the [`cffconvert` Python package](https://pypi.org/project/cffconvert/).
 
     ```shell
     cd path/to/CITATION.cff
-    cffTranst --المصادقة
+    cffconvert --validate
     ```
 
-    إذا كنت تفضل استخدام Docker، يمكنك استخدام [`cffTranst` Docker image](https://hub.docker.com/r/citationcff/cffconvert):
+    If you prefer to use Docker, you can use the [`cffconvert` Docker image](https://hub.docker.com/r/citationcff/cffconvert):
 
     ```shell
     cd path/to/CITATION.cff
-    docker run --rm v ${PWD}:/citationcff/cffconvert --التحقق
+    docker run --rm -v ${PWD}:/app citationcff/cffconvert --validate
     ```
 
-    إذا حصلت على رسائل خطأ، ابحث عن خطأ التحقق ذي الصلة وقم بإصلاحه.
+    If you get error messages, look for the relevant validation error and fix it.
 
 ```{note}
-للتأكد من أن مستودع GitHub الخاص بك يحتوي دائما على ملف 'CITATION.cff' صالح، يمكنك استخدام إجراء GitHub [cff-validator](https://github.com/marketplace/actions/cff-validator).
+To make sure your GitHub repository always has a valid `CITATION.cff` file, you can use the [cff-validator](https://github.com/marketplace/actions/cff-validator) GitHub Action.
 ```
 
-#### الخطوة 2. إضافة `CITATION.cff` إلى مستودع التعليمات البرمجية العامة
+#### Step 2. Add Your `CITATION.cff` to a Public Code Repository
 
-بعد إنشاء `CITATION صالح. إيقاف` ملف، سوف تحتاج إلى إضافته إلى جذر التعليمات البرمجية أو مستودع البيانات الخاص بك حتى يمكن العثور عليه واستشهاده بسهولة.
+After creating a valid `CITATION.cff` file, you will need to add it to root of your code or data repository so that it can be easily found and cited.
 
-(m-citable-cff-updating)=
-## تحديث ملف `CITATION.cff`
+(cm-citable-cff-updating)=
+## Updating your `CITATION.cff` file
 
-عندما تحتاج إلى تحديث `CITATION. إيقاف` الملف، على سبيل المثال، لإضافة مؤلف أو لتغيير المعلومات حول الإصدارات ، سوف تحتاج إلى تعديل الملف يدوياً. من المستحسن تحديث ملف `CITATION.cff` قبل إجراء إصدار البرنامج.
+When you need to update your `CITATION.cff` file, for example to add an author or to change the information about releases, you will need to edit the file manually. It is recommended to update your `CITATION.cff` file before making a software release.
 
-(م ت-ح-citable-cff-how-to-cite)=
-## كيفية الاستشهاد باستخدام `CITATION.cff`
+(cm-citable-cff-how-to-cite)=
+## How to Cite Using `CITATION.cff`
 
-إذا كنت قد وجدت برامج أو مجموعات بيانات تحتوي على `CITATION. وو`، هناك بعض الطرق للحصول على المعلومات المرجعية لاستشهاد بها في منشورك.
+If you have found software or datasets that contain a `CITATION.cff`, there are a few ways to obtain the reference information to cite them in your publication.
 
-- يمكنك استخدام إحدى الأدوات، مثل `cffconvert` برنامج سطر الأوامر لتحويل `CITATION. إيقاف` ملف واحد من [التنسيقات المدعومة](https://github.com/citation-file-format/cff-converter-python#supported-output-formats)، مثل APA أو BibTeX أو EndNote.
+- You can use one of the tools, such as `cffconvert` command line program, to convert your `CITATION.cff` file to one of the [supported formats](https://github.com/citation-file-format/cff-converter-python#supported-output-formats), such as APA, BibTeX or EndNote.
 
-- بدلاً من ذلك، إذا كانت البرامج أو مجموعات البيانات التي تريد الاستشهاد بها متاحة على GitHub، يمكنك استخدام واجهة GitHub، لنسخ المرجع إما في تنسيقات APA أو BibTeX بالنقر على زر "ذكر هذا المستودع" (انظر المنطقة الخضراء في الصورة أدناه). لمزيد من التفاصيل عن الاستشهاد بالبرامج على GitHub ، يرجى الاطلاع على [دليل GitHub's على الاستشهاد بالبرمجيات](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files).
+- Alternatively, if the software or datasets you want to cite are available on GitHub, you can use GitHub's interface to copy the reference in either APA or BibTeX formats by clicking the "Cite this repository" button (see the green area in the image below). For more details on software citation on GitHub please see [GitHub's guide on software citation](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files).
 
   ```{figure} ../../figures/github-cff-integration.jpg
   ---
-  الاسم: github-cff-integration
-  البديل : زر GitHub الذي يوفر التحويل التلقائي لملف `CITATION.cff` إلى تنسيق APA و BibTex.
+  name: github-cff-integration
+  alt: Button on GitHub that provides automatically conversion of the `CITATION.cff` file to APA's and BibTex's format.
   ---
-  "ذكر هذا المستودع" يقوم تلقائياً بتحويل ملف `CITATION.cff` إلى تنسيق APA و BibTex.
+  "Cite this repository" automatically converts the `CITATION.cff` file to APA's and BibTex's format.
   ```
 
   ```{note}
-  "ذكر هذا المستودع" يظهر الزر فقط عندما يكون هناك ملف "CITATION.cff" في المستودع.
+  "Cite this repository" button only appears when there is a `CITATION.cff` file in the repository.
   ```
 
-(الأدوات المتاحة)=
-## الأدوات المتاحة
+(cm-citable-cff-available-tools)=
+## Available Tools
 
-توجد عدة أدوات لتيسير إنشاء ملفات `CITATION.cff` والتحقق منها، وكذلك التحويل إلى صيغ أخرى ومنها. يوفر مستودع تنسيق ملف الاستشهاد [قائمة بجميع الأدوات المعروفة](https://github.com/citation-file-format/citation-file-format#tools-to-work-with-citationcff-files-wrench) لهذا الغرض.
+Several tools exist to facilitate the creation and validation of `CITATION.cff` files, as well as the conversion to and from other formats. The Citation File Format’s repository provides [a list of all known tools](https://github.com/citation-file-format/citation-file-format#tools-to-work-with-citationcff-files-wrench) for this.
