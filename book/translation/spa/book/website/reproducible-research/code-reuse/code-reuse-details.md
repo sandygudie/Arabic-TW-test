@@ -2,88 +2,88 @@
 (rr-código-reutilizar-detalles)=
 # Recomendaciones detalladas para la reutilización de código
 
-Asegúrese de que usted (o alguien más) puede reutilizar su código para hacer lo mismo exacto que hizo. Esta sección contiene una simple lista de recomendaciones para hacer su software más reutilizable. En esta sección encontrará una explicación más detallada de cada una de estas recomendaciones, con indicaciones a otras partes relevantes de esta guía.
+Make sure you (or somebody else) can re-use your code to do the same exact thing you did. Esta sección contiene una simple lista de recomendaciones para hacer su software más reutilizable. In this section contains a more in-depth explanation of each of these recommendations, with pointers to other relevant parts of this guide.
 
 ## Recomendaciones repetibles
 
-En esta etapa, puede que ni siquiera necesites ser capaz de abrir el código y leerlo, sólo quiere asegurarse de que puede volver a ejecutar todos los pasos necesarios y obtener los mismos resultados que ha obtenido.
+At this stage, you might not even need to be able to open the code and read it, you just want to make sure you can re-run all the needed steps and obtain the same results you had.
 
-### 1. Asegúrese de encontrarlo (en el espacio)
+### 1. Make sure you can find it (in space)
 
-Tu código debe ser almacenado públicamente y compartido con los colaboradores. Tiene un identificador persistente único, para que todo el mundo pueda encontrarlo y acceder a él.
+Your code must be stored publicly and shared with collaborators. It has an unique persistent identifier, so that everyone can find it and access it.
 
-**Ver también**: {ref}`rrr-vcs`
+**See also**: {ref}`rr-vcs`
 
-### 2. Asegúrate de encontrarlo (en el tiempo)
+### 2. Make sure you can find it (in time)
 
-Idealmente la evolución temporal del código se documenta con el control de versiones. Esto le permite recuperar una versión específica del pasado.
+Ideally the temporal evolution of the code is documented with version control. This allows you to retrieve a specific version from the past.
 
-**Ver también**: {ref}`rrr-vcs`
+**See also**: {ref}`rr-vcs`
 
-### 3. Asegúrese de que puede ejecutar la misma secuencia de operaciones
+### 3. Make sure you can execute the same sequence of operations
 
-A menudo el humano que configura el medio ambiente es también el que escribió el código y el que conoce el orden exacto de los pasos necesarios para poder volver a ejecutar el código y reproducir los resultados. Sin duda, esto podría documentarse cuidadosamente para que otro humano lo rehiciera.
+Often the human who set up the environment is also the one who wrote the code and the one who knows the exact order of steps needed to be able to re-run the code and reproduce the results. This could surely be carefully documented for another human to re-do it.
 
-**Ver también**: [lección de Refinería sobre Investigación Reproducible](https://coderefinery.github.io/reproducible-research/)
+**See also**: [CodeRefinery lesson on Reproducible Research](https://coderefinery.github.io/reproducible-research/)
 
-### 4. Asegúrese de que su entorno y secuencia de operaciones son robustas y no se necesita ningún humano para replicar lo que se hizo
+### 4. Make sure your environment and sequence of operations is robust and no human is needed to replicate what was done
 
-No quieren depender de los seres humanos. Tienden a cometer errores incluso si no tienen malas intenciones. Así que quiere que su entorno se escriba y se vuelva a crear cuando sea necesario y desea que su secuencia de operaciones sea ejecutada por un script pipeline que junte toda la secuencia de pasos. Un buen efecto lateral de scripting de la secuencia de operaciones es que esto a menudo puede servir como documentación de los pasos.
+You do not want to depend on humans. They tend to make errors even if they do not have bad intentions. So you want your environment to be scripted and be re-created when needed and you want your sequence of operations to be run by a pipeline script that glues together all the sequence of steps. Un buen efecto lateral de scripting de la secuencia de operaciones es que esto a menudo puede servir como documentación de los pasos.
 
-**Ver también**: {ref}`rrr-renv-options`
+**See also**: {ref}`rr-renv-options`
 
-### 5. Licencia de tu código
+### 5. License your code
 
-Asegúrese de adjuntar una licencia a su código y especificar cómo quiere que se cite cuando la gente vuelva a utilizarlo. Considere usar una licencia permisiva que permita reutilizarla. Además, debe elegir una licencia que sea compatible con las licencias de bibliotecas o paquetes de los que depende su software.
+Make sure you attach a license to your code and specify how you want to be cited when people re-use it. Consider using a permissive license that allows for reuse. Also, you should choose a license which is compatible with the licenses of libraries or packages your software depends on.
 
-**Ver también**: {ref}`rrr-licensing-software`, {ref}`rr-licensing-software-permissive`, {ref}`rrr-licensing-compatibility`
+**See also**: {ref}`rr-licensing-software`, {ref}`rr-licensing-software-permissive`, {ref}`rr-licensing-compatibility`
 
-### 6. Asegúrese de que es citable
+### 6. Make sure it is citable
 
-Asegúrese de especificar cómo quiere que se cite cuando la gente vuelva a usarlo.
+Make sure to specify how you want to be cited when people re-use it.
 
-**Ver también**: {ref}`cm-citable-cite-software`
+**See also**: {ref}`cm-citable-cite-software`
 
-### 7. Incluye datos necesarios
+### 7. Include necessary data
 
-Si el software depende de cualquier tipo de datos, los datos deben estar disponibles
+If the software depends on any sort of data, the data should be available
 
-**Ver también**: {ref}`rrr-rdm-data`
+**See also**: {ref}`rr-rdm-data`
 
-## Recomendaciones reejecutables
+## Re-runnable recommendations
 
-Asegúrese de que usted (o otros) puede reutilizarlo para hacer lo que hizo, pero con diferentes datos/parámetros
+Make sure you (or others) can re-use it to do the thing you did, but with different data/different parameters
 
-### 1. Remueve bits codificados y crea el código modular
-No quiere tener detalles específicos de sus datos o parámetros de análisis codificados en el código. Si algo puede convertirse en una función reutilizable, separarlo de los parámetros codificados en hardcoded y convertirlo en algo (re)utilizable por sí solo. Hacer los módulos puros: dada la misma entrada, una función pura siempre devuelve el mismo valor. En lugar de especificar rutas de archivos dentro de los scripts, considere pasarlos como argumentos de línea de comandos para un script más portátil y general y reutilizable.
+### 1. Remove hardcoded bits and make the code modular
+You do not want to have details specific of your data or analysis parameters hardcoded into the code. If something can become a reusable function, separate it from the hardcoded parameters and turn it into something (re)usable on its own. Make the modules pure: given the same input, a pure function always returns the same value. En lugar de especificar rutas de archivos dentro de los scripts, considere pasarlos como argumentos de línea de comandos para un script más portátil y general y reutilizable.
 
-**Ver también**: [lección de desarrollo de código Modular de CodeRefinery](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md/#1)
+**See also**: [CodeRefinery Modular Code Development lesson](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md/#1)
 
-### 2. Comprueba que los módulos que has realizado pueden tomar diferentes tipos de datos de entrada o parámetros
-Puede que aún no sepas cómo se reutilizará tu código en el futuro, pero puede prevenir cómo no debe ser usado si puede probar qué parámetros están permitidos.
+### 2. Test that the modules you made can take different types of input data or parameters
+You might not know yet how your code will be re-used in the future, but you can prevent how it should not be used if you can test which parameters are allowed.
 
-**Ver también**: [Clase de Refinería de Codefinería sobre Pruebas Automáticas](https://coderefinery.github.io/testing/motivation/)
+**See also**: [CodeRefinery lesson on Automated testing](https://coderefinery.github.io/testing/motivation/)
 
-### 3. Convierte los módulos en un paquete/caja de herramientas
-Separe aún más las especificaciones de su proyecto con los bits que pueden ser reutilizados en otros de sus proyectos o por otras personas.
+### 3. Turn the modules into a package/toolbox
+Separate even more the specifics of your project with the bits that can be reused in other of your projects or by other people.
 
-**Ver también**: {ref}`rr-renv-package`, [Software de empaquetado](https://scicomp.aalto.fi/scicomp/packaging-software/), [Paquete de software en Python](https://aaltoscicomp.github.io/python-for-scicomp/packaging/)
+**See also**: {ref}`rr-renv-package`, [Packaging software](https://scicomp.aalto.fi/scicomp/packaging-software/), [Software packaging in Python](https://aaltoscicomp.github.io/python-for-scicomp/packaging/)
 
 ## Recomendaciones portátiles
-La portabilidad se refiere a la capacidad de transferir software a un nuevo entorno. Esto podría referirse a una máquina idéntica (pero no la misma), pero también puede referirse a una nueva arquitectura de hardware, sistema operativo y tales. Ambos son importantes para la reutilización de software.
+Portability refers to the ability to transfer software to a new environment. This could refer to an identical (but not the same) machine, but it can also refer to a new hardware architecture, operating system and such. Both of these are important for software reuse.
 
-### 1. Asegúrate de que puedes recrear el ambiente en el que viviste
-El entorno es una instantánea frágil en el tiempo que acompaña silenciosamente el código. Puede incluir al humano que operó el software, los pasos que el humano hizo para preparar los datos, el hardware, el sistema operativo, las bibliotecas, paquetes externos, cajas de herramientas/dependencias. Todo esto puede ser documentado cuidadosamente para que otro humano vuelva a hacer los mismos pasos exactos.
+### 1. Make sure you can recreate the environment where it lived
+The environment is a fragile snapshot in time which silently accompanies the code. It can include the human who operated the software, the steps the human did to prepare the data, the hardware, the OS, the libraries, external packages/toolboxes/dependencies. All this can be carefully documented for another human to re-do all the same exact steps.
 
-**Ver también**: {ref}`rr-renv`
+**See also**: {ref}`rr-renv`
 
 ## Recomendaciones extendibles y modificables
-Asegúrate de que otros puedan construir tu código para ampliarlo y mejorarlo.
+Make sure others can build on your code to extend it and improve it.
 
-### 2. Asegúrese de que su código es legible por los humanos
-A menudo paga más por escribir código para otros seres humanos para que puedan leerlo (incluyendo tu futuro mismo). Un oneliner críptico con nombres de variables oscuros no es más rápido o más eficiente que dividir el liner único en múltiples pasos con nombres de variables legibles que tengan sentido. Además, el uso de convenciones de codificación ayudará a otros lectores.
+### 2. Make sure your code is readable by humans
+It often pays more to write code for other humans so they can read it (including your future self). A cryptic oneliner with obscure variable names is not any faster or more efficient than splitting the one liner into multiple steps with readable variable names that make sense. Furthermore, using coding conventions will help other readers.
 
-**Ver también**: {ref}`rrr-code-style-and-formatting`, {ref}`rr-code-quality-advantages`
+**See also**: {ref}`rr-code-style-and-formatting`, {ref}`rr-code-quality-advantages`
 
-### 3. Asegúrate de que los comentarios estén presentes
-Escribe comentarios antes de escribir el código real. Imagina que alguien podría leer los comentarios y omitir todos los bits de código entre los comentarios y obtener una imagen completa de lo que está pasando como si leyera el código completo.
+### 3. Make sure comments are present
+Write comments before writing the actual code. Imagine that somebody could just read the comments and skip all the code bits between comments and get a full picture of what is going on as if they read the whole code.
