@@ -9,21 +9,22 @@ YAML is an indentation-based markup language which aims to be both easy to read 
 A YAML file defining a computational environment might look something like this:
 
 ```
-# تعريف نظام التشغيل باسم Linux
+# Define the operating system as Linux
 os: linux
 
-# استخدم التوزيع xenial لـ Linux
-سلسلة: xenial
+# Use the xenial distribution of Linux
+dist: xenial
 
-# استخدم لغة البرمجة Python
-لغة: python
+# Use the programming language Python
+language: python
 
-# استخدم نسخة Python 3. python: 3.2
+# Use version of Python 3.2
+python: 3.2
 
-# استخدم رقم حزمة بايثون واستخدم الإصدار 1. 6-1
-الطرود:
-  رقم:
-    النسخة: 1.16.1
+# Use the Python package numpy and use version 1.16.1
+packages:
+  numpy:
+    version: 1.16.1
 ```
 
 Note that comments can be added by preceding them with a `#`.
@@ -93,8 +94,8 @@ Due to the format aiming to be easy to write and read, there are some ambiguitie
   ```
   unquoted-string: "let me put a colon here: oops"
   ```
-  عموما، يجب عليك اقتباس جميع المقاطع التي تحتوي على أي من الأحرف التالية: `[] {} : > <unk>`.
-- **علامات التبويب مقابل المساحات المخصصة للاستخدام:** لا __ تستخدم علامات التبويب للإستخدام. While the resulting YAML can still be valid, this can be a source of many subtle parsing errors. Just use spaces.
+  Generally, you should quote all strings that contain any of the following characters: `[] {} : > |`.
+- **Tabs versus spaces for indentation:** do _not_ use tabs for indentation. While the resulting YAML can still be valid, this can be a source of many subtle parsing errors. Just use spaces.
 
 (rr-renv-yaml-environments)=
 ## How To Use Yaml To Define Computational Environments
@@ -103,7 +104,7 @@ Because of their simplicity, YAML files can be handwritten. Alternatively, they 
 
 - **Manually.** It can be done manually by carefully installing the specified packages. Because YAML files can also specify operating systems and versions that may or may not match that of the person trying to replicate the environment, this may require the use of {ref}`rr-renv-vm`.
 
-- **أنظمة إدارة الحزم مثل كوندا.** كما ناقش {ref}`<rr-renv-package>`، فضلا عن كونه قادرا على إنشاء ملفات YAML من البيئات الحسابية، يمكن لـ كوندا أيضا توليد بيئات حسابية من ملفات YAML.
+- **Via Package Management Systems such as Conda.** As {ref}`discussed <rr-renv-package>`, as well as being able to generate YAML files from computational environments, Conda can also generate computational environments from YAML files.
 
 (rr-renv-yaml-security)=
 ## Security Issues
