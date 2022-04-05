@@ -44,4 +44,4 @@ If you do not have a license for your software, it is effectively unusable by th
 **See {ref}`rr-licensing` chapter for details**
 ```
 
-The first file you can add to your project repository is a 'LICENSE' file. يمكنك تحديد نوع الترخيص بناء على مستوى الحرية الذي ترغب في منحه للمستخدمين الخاص بك لاستخدام المشروع والبناء عليه، قم بزيارة الاختيار. Please follow the {ref}`Licensing Checklist<rr-licensing-checklist>` when adding a license to your project repository.</p>
+The first file you can add to your project repository is a 'LICENSE' file. You can select a license type based on the level of freedom you would like to give to your users to use and build upon your project, visit [choosealicense.com](https://choosealicense.com/). Please follow the {ref}`Licensing Checklist<rr-licensing-checklist>` when adding a license to your project repository.
