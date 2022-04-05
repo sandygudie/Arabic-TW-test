@@ -39,9 +39,9 @@ b = 5
 print(a/b)
 ```
 
-One divided by five is `0.2`, and this is what is printed if the script is run using Python 3. However, if a slightly older version of Python, such as Python 2, is used, the result printed is `0`. هذا لأن تقسيم عدد صحيح يطبق على عدد صحيح في Python 2, ولكن التقسيم (عادي) يطبق على جميع الأنواع، بما في ذلك عدد صحيح، في Python 3.
+One divided by five is `0.2`, and this is what is printed if the script is run using Python 3. However, if a slightly older version of Python, such as Python 2, is used, the result printed is `0`. This is because integer division is applied to integers in Python 2, but (normal) division is applied to all types, including integers, in Python 3.
 
-Therefore this simple script returns _different_ answers depending on the computational environment in which it is run. من السهل استخدام الإصدار الخاطئ من بايثون ، ويوضح كيف يمكن لقطعة من التعليمات البرمجية صالحة تماما أن تعطي نتائج مختلفة اعتمادا على بيئتها. If such issues can impact a simple script like this, imagine how many could appear in a complex analysis procedure which may involve thousands of lines of code and dozens of dependent packages.
+Therefore this simple script returns _different_ answers depending on the computational environment in which it is run. Using the wrong version of Python is easy to do, and demonstrates how a perfectly valid piece of code can give different results depending on its environment. If such issues can impact a simple script like this, imagine how many could appear in a complex analysis procedure which may involve thousands of lines of code and dozens of dependent packages.
 
 Researchers need to understand and capture the computational environments in which they are conducting their work, as it has the potential to impact three parties:
 
