@@ -1,11 +1,11 @@
 (rr-rdm-fair)=
 # The FAIR Principles
 
-المبادئ التوجيهية لإدارة البيانات العلمية والإشراف عليها {cite:ps}`Wilkinson2016fair` تم تطويرها كمبادئ توجيهية لتحسين العجز **واو** ****إمكانية الوصول، **طاء**قابلية التشغيل و **R**قابلية الأصول الرقمية للاستخدام الإلكتروني؛ كل ذلك يدعم قابلية البحث للتكرار. The FAIR principles play an important role in making your data available to others for reuse.
+The FAIR guiding principles for scientific data management and stewardship {cite:ps}`Wilkinson2016fair` were developed as guidelines to improve the **F**indability, **A**ccessibility, **I**nteroperability and **R**eusability of digital assets; all of which support research reproducibility. The FAIR principles play an important role in making your data available to others for reuse.
 
 It is much easier to make data FAIR if you plan to do this from the beginning of your research project. You can plan for this in your Data Management Plan (DMP) (see points 4 and 5 of the {ref}`Data Management Plan<rr-rdm-dmp>` chapter).
 
-Even though the FAIR principles have been defined to allow machines to find and use digital objects automatically, they improve the reusability of data by humans as well. وقدرة النظم الحاسوبية على العثور على البيانات والوصول إليها وتبادلها وإعادة استخدامها، مع عدم وجود أي تدخل بشري أو الحد الأدنى منها، ضرورية في العصر الحالي الذي تحركه البيانات. حيث يعتمد البشر بشكل متزايد على الدعم الحسابي للتعامل مع البيانات نتيجة لزيادة حجم الصوت، [، السرعة و المجموعة](https://www.zdnet.com/article/volume-velocity-and-variety-understanding-the-three-vs-of-big-data/).
+Even though the FAIR principles have been defined to allow machines to find and use digital objects automatically, they improve the reusability of data by humans as well. The capacity of computational systems to find, access, interoperate, and reuse data, with none or minimal human intervention, is essential in today's data-driven era, where humans increasingly rely on computational support to deal with data as a result of the increase in [volume, velocity and variety](https://www.zdnet.com/article/volume-velocity-and-variety-understanding-the-three-vs-of-big-data/).
 
 This chapter provides an abstract and broad view of what the FAIR principles are. How to put the FAIR principles into practise is discussed in other sub chapters ( {ref}`Data Organisation in Spreadsheets<rr-rdm-fair>`, {ref}`Documentation and Metadata<rr-rdm-metadata>` and {ref}`Sharing and Archiving Data<rr-rdm-sharing>`). You can also use the [Wellcome Getting Started Guide](https://f1000researchdata.s3.amazonaws.com/resources/FAIR_Open_GettingStarted.pdf) or the [How To FAIR](https://howtofair.dk/) website to find out more about the FAIR principles and how to get started.
 
