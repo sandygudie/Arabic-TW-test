@@ -12,7 +12,7 @@ Brainhack is an open science community that has an innovative meeting format to 
 * [Github](https://github.com/complexbrains)
 * [Twitter](https://twitter.com/complexbrains)
 
-**1. ¿Cuál es la *práctica normal* de la autoría de los documentos académicos en tu disciplina? o solía ser la práctica normal? or used to be the normal practice?**
+**1. What is the *normal* practice of authorship for academic papers in your discipline? or used to be the normal practice?**
 
 **Remi:** My background is in Biology and Psychology. Most papers are multi-author and so have more than one author. Single authorship can happen but not for experimental work. This work usually involves at least a Principal Investigator with a Postdoctoral Researcher or PhD student.
 
