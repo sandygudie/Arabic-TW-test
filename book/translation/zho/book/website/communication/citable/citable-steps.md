@@ -4,7 +4,7 @@
 There are many reasons why authors don't cite the data and software that they use, but one of the biggest ones is that it's not clear how. You can go a long way to reducing this barrier by following a few steps to make it as easy as possible.
 
 (cm-citable-steps-object)=
-## 1. 1. 识别您的研究对象
+## 1. Identify Your Research Objects
 
 We want to emphasise that most of our research objects should be shared so that other researchers can reproduce and reuse them. Therefore, the first step is to identify all the research components that you would share online. Practising open research isn't essential to get credit for your data or software, but it makes it much easier for others to build on your work in a way that acknowledges your contribution. There is a growing body of evidence that shows open research tends to be cited more than non-open research of equivalent quality and significance.
 
@@ -20,7 +20,7 @@ You can learn more about the different types of research objects in the chapters
 ```
 
 (cm-citable-steps-publish)=
-## 2. 2. 在线发布您的工作
+## 2. Publish your work online
 
 Online publications are attached to persistent identifiers that are used for citing them. It's important to note that not everything published online gets a unique identifier but it is important that research objects are published online with DOIs as described below.
 
@@ -46,9 +46,9 @@ It's perfectly possible to cite a dataset or software package directly, and most
 - [Journal of Open Source Software](https://joss.theoj.org/)
 
 (cm-citable-steps-referencing)=
-## 3. 3. 添加机器可读参考信息
+## 3. Add Machine-Readable Referencing Information
 
-You can go a step further by allowing people to import information about your research objects into their preferred referencing database. If [BibTeX](https://en.wikipedia.org/wiki/BibTeX) is popular in your field for managing references, post a `.bib` file of *all* your outputs (not just your papers). If [Endnote](https://endnote.com/) is more popular, make an Endnote export available. 如果 [Endnote](https://endnote.com/) 更受欢迎, 请使用 Endnote 导出. 如果您使用 GitHub 、 GitLab 或类似的 考虑在每个仓库中创建一个 `CITITATION` 文件，其中包含如何引用您项目中不同的研究结果的指南。
+You can go a step further by allowing people to import information about your research objects into their preferred referencing database. If [BibTeX](https://en.wikipedia.org/wiki/BibTeX) is popular in your field for managing references, post a `.bib` file of *all* your outputs (not just your papers). If [Endnote](https://endnote.com/) is more popular, make an Endnote export available. If you use GitHub, GitLab or similar, consider creating a `CITATION` file in each repository containing guidance for how someone can refer to different research outputs from your project.
 
 If possible, provide several formats: you won't need to update these very often and it will pay off.
 
