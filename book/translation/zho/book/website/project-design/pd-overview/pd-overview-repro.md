@@ -72,16 +72,16 @@ Learning about past design mistakes can give us insight into what we can do diff
 ### Preparing for Change
 
 ```{note}
-**我独自工作，我是否需要思考项目设计？ **
+**I work alone, do I need to think about project design?**
 
-简短的答案是“是”。
+The short answer is 'yes'.
 The project design will allow you to manage your work well for yourself (see the section: {ref}`Getting Started<pd-overview-planning-started>`).
 
 A little work and time investment early on in project design saves a lot of time later when any circumstances that demand change.
 ```
 
-It is really hard for a project to move from practices that were designed for one person to practices that work for a team. Therefore, it is essential to document and use practices that will enable collaboration if and when you have to involve others in your project. Considering good team practices even for a project run by an individual makes it easy for them to effectively accomplish their goals. 例如，您可以在您的项目中定义目标并通过询问如下问题来确定任务： 如何分割我的工作？ Learn how [agile methodologies](http://www.agilenutshell.com/) help adapt to changes. 在我们关于团队工作的 {ref}`部分学习良好团队练习<cl-new-community-teamwork>`。
+It is really hard for a project to move from practices that were designed for one person to practices that work for a team. Therefore, it is essential to document and use practices that will enable collaboration if and when you have to involve others in your project. Considering good team practices even for a project run by an individual makes it easy for them to effectively accomplish their goals. For example, you can define goals in your project and identify tasks by asking questions like: how can my work be split, how will it be reviewed, how will decisions be made, and so on. Learn how [agile methodologies](http://www.agilenutshell.com/) help adapt to changes. Learn about good team practices in our {ref}`section on teamwork<cl-new-community-teamwork>`.
 
 Project design would not ensure that everything will always go as planned or there will be no unexpected challenges. However, it helps prepare in advance for risk management and adapt to changes better. Also, see [The cost of change curve](http://www.agilemodeling.com/essays/costOfChange.htm) in the context of Software Engineering.
 
-_This chapter summarises participants' notes from a short workshop called "Good Practices for Designing Software Development Projects (The Turing Way)" at the [Collaboration Workshop 2021](https://www.software.ac.uk/cw21)  hosted by [Software Sustainability Institute](https://www.software.ac.uk). 讲习班由Malvika Sharan、Emma Karoune和Batool Almarzouq在2021年3月31日讲演。 The workshop was delivered by Malvika Sharan, Emma Karoune and Batool Almarzouq on 31 March 2021. Zenodo. Zenodo. DOI： [10.5281/zenodo.4650221](https://doi.org/10.5281/zenodo.4650221)。_
+_This chapter summarises participants' notes from a short workshop called "Good Practices for Designing Software Development Projects (The Turing Way)" at the [Collaboration Workshop 2021](https://www.software.ac.uk/cw21)  hosted by [Software Sustainability Institute](https://www.software.ac.uk). The workshop was delivered by Malvika Sharan, Emma Karoune and Batool Almarzouq on 31 March 2021. Zenodo. DOI: [10.5281/zenodo.4650221](https://doi.org/10.5281/zenodo.4650221)._
