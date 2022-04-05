@@ -81,7 +81,7 @@ Tente ler o capítulo sobre ambientes computacionais reproduzíveis e, em seguid
 
 - **Teste de fumaça:** Verificações iniciais muito rápidas que garantem os requisitos básicos necessários para executar a retenção do projeto.
 
-- **Código estocástico:** Código que, embora correto, nem sempre produz o mesmo resultado. Por exemplo, um programa que produz dez números aleatórios irá gerar um resultado diferente a cada vez, apesar de estar correto.
+- **Código estocástico:** Código que, embora correto, nem sempre produz o mesmo resultado. For example a program that outputs ten random numbers will generate a different result each time, despite being correct.
 
 - **Teste do sistema:** Veja "end to end test".
 
