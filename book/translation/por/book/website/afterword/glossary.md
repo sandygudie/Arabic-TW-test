@@ -1,21 +1,21 @@
-(glossário)=
+(glossary)=
 # Glossary
 
-## Um
+## A
 
 ```{glossary}
 
-Teste de Aceitação
- Um nível do processo de teste de software onde um sistema é testado para aceitabilidade. O objectivo deste teste é avaliar a conformidade do sistema com os requisitos do projecto e avaliar se é aceitável para o fim.
+Acceptance Testing
+ A level of the software testing process where a system is tested for acceptability. The purpose of this test is to evaluate the system's compliance with the project requirements and assess whether it is acceptable for the purpose.
 
-Reconhecimentos
- Quando contribuições para um projeto que não se qualifica como autoria são escritas. Registo descrito o nome dos colaboradores e a contribuição que eles fizeram.
+Acknowledgements
+ Where contributions to a project that don't qualify as authorship are written. It records the contributors name and the contribution that they made is described.
 
-Todos os autores são co-autores do livro como um todo. Adiciona
- o Comando usado para adicionar arquivos à área de preparo.
+Add
+  Command used to add files to the staging area. Allows the user to specify which files or directories to include in the next commit.
 
-Permite ao usuário especificar quais arquivos ou diretórios devem incluir no próximo commit. Autores
-  neste contexto são os contribuidores do projeto The Turing Way_ que deram uma contribuição substancial para o projeto, como escrever um subcapítulo, facilitando interações comunitárias, mantendo a infraestrutura do projeto e apoiando a participação de outros através de contribuições mentais.
+Authors
+  Authors in this context are the contributors to _The Turing Way_ project who have made a substantial contribution to the project such as writing a subchapter, facilitating community interactions, maintaining project’s infrastructure and supporting the participation of others through mentored-contributions. All authors are named co-authors on the book as a whole.
 
 ```
 ---
@@ -25,22 +25,22 @@ Permite ao usuário especificar quais arquivos ou diretórios devem incluir no p
 ```{glossary}
 
 Binder
-  Um serviço baseado na web que permite aos usuários fazer upload e compartilhar versões de seus projetos em um ambiente que eles definem.
+  A web-based service which allows users to upload and share fully-functioning versions of their projects in an environment they define.
 
 Binderhub
-  Um serviço que gera binders. O mais usado em todo o mundo é mybinder.org, que é mantido pela equipe Binder. É possível criar outros BinderHubs que podem suportar configurações mais especializadas. Uma dessas configurações poderia incluir autenticação para permitir que repositórios privados sejam compartilhados entre colaboradores fechados.
+  A service which generates Binders. The most widely-used is mybinder.org, which is maintained by the Binder team. It is possible to create other BinderHubs which can support more specialised configurations. One such configuration could include authentication to enable private repositories to be shared amongst close collaborators.
 
 Binderize
-  Para fazer um Binder de um projeto.
+  To make a Binder of a project.
 
 Branch
-  Uma versão paralela de um repositório. Embora ele esteja contido no mesmo repositório, ele permite que você o desenvolva separadamente e então mescle as alterações de volta ao repositório "live" ou com outros ramos, quando apropriado.
+  A parallel version of a repository. Although it is contained within the same repository it allows you to develop it separately and then merge changes back into the ‘live’ repository or with other branches when appropriate.
 
 Bug
-  Isto é um erro, falhas ou falhas em um programa de computador ou sistema que fazem com que produza um resultado incorreto ou inesperado.
+  This is an error, flaw or fault in a computer program or system that causes it to produce an incorrect or unexpected result, or to behave in unintended ways.
 
-Construa
-  Um grupo de trabalho. Por exemplo, uma construção pode ter dois empregos, cada um deles testa um projeto com uma versão diferente de uma linguagem de programação. Uma construção termina quando todas as suas tarefas são concluídas.
+Build
+  A group of jobs. For example, a build might have two jobs, each of which tests a project with a different version of a programming language. A build finishes when all of its jobs are finished.
 
 ```
 ---
@@ -49,71 +49,71 @@ Construa
 
 ```{glossary}
 
-Confira o comando Git
-  para mudar para um arquivo específico, ramo ou submissão . Permite que você ative versões mais antigas de arquivos ou commits ou alternar entre os branches ativos.
+Checkout
+  Git command to switch to a specific file, branch, or commit. Allows you to activate older versions of files or commits or switch between active branches.
 
-Ciência dos Cidadãos
-  A inclusão de membros do público em pesquisas científicas.
+Citizen Science
+  The inclusion of members of the public in scientific research.
 
-Clonar
-  Cópia de um repositório Git existente, normalmente de algum local remoto para o seu ambiente local. Quando você clona um repositório, você copia seu histórico inteiro, bem como todas as ramificações.
+Clone
+  Copy of an existing Git repository, normally from some remote location to your local environment. When you clone a repo you copy its entire history as well as all branches.
 
-Cobertura de Código
-  Uma medida que descreve quanto do código-fonte é exercido pela suíte de teste.
+Code Coverage
+  A measure which describes how much of the source code is exercised by the test suite.
 
-Código de Conduta
-  Diretrizes que estabelecem o tipo de comportamento encorajado na comunidade, delinear o processo através do qual serão abordados os problemas ou as violações das orientações e quem será responsável pela sua aplicação.
+Code of Conduct
+  Guidelines that establish the kind of behaviour encouraged in the community, outline the process by which problems or violations of the guidelines will be addressed and who will be in charge of enforcing them.
 
 Code Review
-  Uma forma adicional de testar a qualidade do código. A revisão do código permite que outro programador analise o novo código e o avalie. O objectivo é chamar a atenção para os pontos fortes e também para as potenciais áreas de melhoria.
+  An additional way of testing code quality. Code review gets another programmer to look over the new code and assess it. The goal is to point out strengths and also potential areas of improvement.
 
-Autoria de coercive
-  Quando um pesquisador sênior força um pesquisador júnior a incluir um presente ou o autor de um convidado.
+Coercive authorship
+  When a senior researcher forces a junior researcher to include a gift or guest author.
 
 Commit
-  Snapshot da história do projeto. Um commit pode ser feito após alterações de um único arquivo ou uma série de arquivos e diretórios.
+  Snapshot of project history. A commit can be made after changes of a single file or a range of files and directories.
 
-Enviar Mensagem
-  Uma mensagem que o usuário pode anexar a um commit para explicar o que ele contém.
+Commit Message
+  A message the user can attach to a commit to explain what it contains.
 
-Canal de Comunicação
-  O método de comunicação estabelecido para projetos que podem incluir listas de discussão, fóruns da comunidade, chats e/ou mídia social.
+Communication Channel
+  The method of communication established for projects that might include mailing lists, community forums, chats and/or social media.
 
-Membro da comunidade
-  Pessoas que usam o projeto. Podem ser activos em conversas ou expressar a sua opinião sobre a direcção do projecto.
+Community Member
+  People who use the project. They might be active in conversations or express their opinion on the project’s direction.
 
-Ambiente Computacional
-  Características de um computador que pode afetar o comportamento do trabalho feito sobre ele, tal como o seu sistema operacional, qual software ele instalou e quais versões de pacotes de software estão instalados.
+Computational Environment
+  Features of a computer which can impact the behaviour of work done on it, such as its operating system, what software it has installed, and what versions of software packages are installed.
 
 Conda
-  Um sistema de gerenciamento de pacotes comumente utilizado.
+  A commonly used package management system.
 
-Consortia autoria
- Um modelo de autoria de grupo coletivo ou comunitário. Todos os membros do consórcio são considerados autores e geralmente têm de ser listados no artigo publicado, embora por vezes o artigo seja publicado no nome dos grupos. Se nem todos os membros do consórcio concordarem com as responsabilidades de autor, os membros que são autores serão listados separadamente daqueles que não o são.
+Consortia authorship
+ A collective or community group authorship model. All members of the consortium are considered authors and are usually required to be listed in the published article although sometimes the article is published in the groups name. If not all members of the consortium agree to the responsibilities of authorship, the members that are authors will be listed separately from those who are not.
 
-Contêiner
-  Arquivos Lightweight que podem encapsular todo o ambiente computacional, incluindo seu sistema operacional, configurações personalizadas, software e arquivos.
+Container
+  Lightweight files that can encapsulate an entire computational environment including its operating system, customised settings, software and files.
 
-Entrega contínua
-  Ela automatiza e executa as etapas necessárias para construir e testar um projeto.
+Continuous Delivery
+  It automates and runs the steps required to build and test a project.
 
-Implantação contínua
-  Ela é implantada automaticamente cada vez que uma alteração de código é feita.
+Continuous Deployment
+  It automatically deploys each time a code change is made.
 
-Integração contínua
-  É a prática de integrar alterações a um projeto feito por indivíduos em uma direção, versão compartilhada frequentemente (geralmente várias vezes por dia). Também chamado CI.
+Continuous Integration
+  It is the practice of integrating changes to a project made by individuals into a main, shared version frequently (usually multiple times per day). Also called CI.
 
-Guias de contribuição diretrizes
-  descrevendo como uma pessoa deve contribuir com um projeto de código aberto.
+Contributing Guidelines
+  Guidelines outlining how a person should go about contributing to an open source project.
 
-Colaboradores
-  Todos os que contribuíram algo de volta para o projeto. Estes são membros de um projecto de investigação que realizaram algum trabalho que contribuiu para a conclusão global da investigação. Esta poderia ser uma pequena contribuição, como corrigir um bug no software ou uma contribuição muito maior, como escrever um artigo acadêmico.
+Contributors
+  Everyone who has contributed something back to the project. These are members of a research project that have done some work that has made a contribution to the overall completion of the research. This could be a small contribution such as fixing a bug in software or a much larger contribution such as writing an academic article.
 
-Autor correspondente
- A pessoa que administra um artigo acadêmico para o grupo de pesquisa. Eles são responsáveis por receber os comentários dos revisores, as provas, correspondente aos editores e seus detalhes são impressos na versão final do artigo publicado.
+Corresponding author
+ The person who administers an academic article for the research group. They are responsible for receiving the reviewers comments, the proofs, corresponding with the editors and their details are printed on the final version of the published article.
 
-Taxonomia CRediT
- A taxonomia CRediT é uma taxonomia de alto nível, incluindo 14 papéis, que pode ser usado para representar os papéis normalmente jogados pelos contribuidores para a saída acadêmica científica. As funções descrevem a contribuição específica de cada contribuinte para a saída acadêmica. Estes pormenores estão a tornar-se cada vez mais exigidos por revistas, bem como por autores que cumprem critérios de autoria.
+CRediT Taxonomy
+ The CRediT Taxonomy is a high-level taxonomy, including 14 roles, that can be used to represent the roles typically played by contributors to scientific scholarly output. The roles describe each contributor’s specific contribution to the scholarly output. These details are becoming increasingly required by journals as well as authors meeting authorship criteria.
 
 ```
 ---
@@ -122,24 +122,26 @@ Taxonomia CRediT
 
 ```{glossary}
 
-Repositório de dados
-  Ver repositório.
+Data repository
+  See repository.
 
-Plano DMP
-  de gerenciamento de dados.
+DMP
+  Data management plan.
 
-Recipiente Docker
-  Um ambiente computacional ativo executado a partir de uma imagem Docker.
+Docker Container
+  An active computational environment executed from a Docker image.
 
 Dockerfile
-  Um arquivo usado para criar imagens Docker Docker Image
-  Um conjunto de instruções legível para criar um ambiente computacional específico.
+  A file used for creating Docker images
+
+Docker Image
+  A machine-readable set of instructions to create a specified computational environment.
 
 Docker Registry
-  Um sistema de armazenamento e distribuição para imagens nomeadas Docker. O registro permite que usuários do Docker puxem imagens localmente, bem como fazer push de novas imagens para o registro (dado direito de acesso quando aplicável). Esses sistemas são muitas vezes hospedados na nuvem para facilitar o acesso.
+  A storage and distribution system for named Docker images. The registry allows Docker users to pull images locally, as well as push new images to the registry (given adequate access permissions when applicable). Such systems are often hosted in the cloud for ease of access.
 
-Identificador Digital de Objeto
-  Um identificador de objeto digital (DOI) é um identificador persistente ou identificador usado para identificar objetos únicos, padronizado pela Organização Internacional de Normalização (ISO). Uma implementação do Sistema de Manipulação, DOIs são amplamente utilizados principalmente para identificar o meio académico, profissional, e informações governamentais, como artigos de periódicos, relatórios de pesquisa, conjuntos de dados e publicações oficiais. No entanto, foram também utilizados para identificar outros tipos de recursos informativos, como os vídeos comerciais.
+Digital Object Identifier
+  A digital object identifier (DOI) is a persistent identifier or handle used to identify objects uniquely, standardized by the International Organization for Standardization (ISO). An implementation of the Handle System, DOIs are in wide use mainly to identify academic, professional, and government information, such as journal articles, research reports, data sets, and official publications. However, they also have been used to identify other types of information resources, such as commercial videos.
 
 ```
 ---
@@ -148,8 +150,10 @@ Identificador Digital de Objeto
 ```{glossary}
 
 Epistemology
- Theory of knowledge and deals with how knowledge is gathered and from which sources. In research terms your view of the world and of knowledge strongly influences your interpretation of data and therefore your philosophical standpoint should be made clear from the beginning. (Fonte: [Postagem de Nicole Brown](https://www.nicole-brown.co. k/epistemology/)) Práticas Equitáveis, Diversas e Inclusivas
-  A bolsa de estudos está aberta a qualquer um sem barreiras baseadas em fatores como raça, antecedentes, sexo e orientação sexual.
+ Theory of knowledge and deals with how knowledge is gathered and from which sources. In research terms your view of the world and of knowledge strongly influences your interpretation of data and therefore your philosophical standpoint should be made clear from the beginning. (Source: [Post by Nicole Brown](https://www.nicole-brown.co.uk/epistemology/))
+
+Equitable, Diverse and Inclusive Practices
+  Ensuring scholarship is open to anyone without barriers based on factors such as race, background, gender, and sexual orientation.
 
 End to End Test
   A test that runs the program from beginning to end and verifies that the output is correct.
@@ -161,132 +165,134 @@ End to End Test
 ```{glossary}
 
 FAIR
-  Localizável, Acessível, Interoperável e Reutilizável.
+  Findable, Accessible, Interoperable and Reusable.
 
-Primeiro autor
- A posição mais proeminente da autoria acadêmica. Ela transmite a posição desta pessoa como investigadora que deu o maior contributo para a investigação.
+First author
+ The most prominent position in academic authorship. It conveys this person's position as the researcher who has made the greatest contribution to the research.
 
 ```
 ---
-## Segunda:
+## G
 
 ```{glossary}
-Generalizável
-  Combinar descobertas replicáveis e robustas nos permitem formar resultados generalizados. Note que executar uma análise em uma implementação de software diferente e com um conjunto de dados diferente não fornece resultados generalizados. Haverá muito mais passos para saber se o trabalho se aplica a todos os diferentes aspectos da questão da investigação. A generalização é um passo importante para compreender que o resultado não depende de um determinado conjunto de dados nem de uma determinada versão do gasoduto de análise.
+Generalisable
+  Combining replicable and robust findings allow us to form generalisable results. Note that running an analysis on a different software implementation and with a different dataset does not provide generalised results. There will be many more steps to know how well the work applies to all the different aspects of the research question. Generalisation is an important step towards understanding that the result is not dependent on a particular dataset nor a particular version of the analysis pipeline.
 
-Sistema de controle de versão do Git
-  que o GitHub está construído por aí. É um sistema de controle de versão distribuída de código aberto amplamente utilizado desenvolvido pelo autor do Linux.
+Git
+  Version control system that GitHub is built around. It is a widely used open source distributed version control system developed by the author of Linux.
 
 Github
-  Um serviço online de hospedagem de código e controle de versão. Ele tem muitos recursos para ajudar na colaboração entre usuários e hospeda um grande número de projetos de código aberto.
+  An online code hosting and version control service. It has a great many features to aid collaboration between users, and hosts a large number of open source projects.
 
 GitLab
-  GitLab é uma ferramenta de ciclo de vida de DevOps online que fornece um gerenciador de repositórios do Git-repository fornecendo wiki, rastreamento de problemas e recursos de pipeline de integração e implantação contínua, usando uma licença open-source, desenvolvida pelo GitLab Inc. Autor fantasma
- É uma pessoa que escreve um artigo acadêmico sem ter feito a pesquisa. Poderia ser um escritor profissional. Muitas vezes, não são considerados como escritores ao abrigo dos critérios de autorização da ICJE.
+  GitLab is a web-based DevOps lifecycle tool that provides a Git-repository manager providing wiki, issue-tracking and continuous integration and deployment pipeline features, using an open-source license, developed by GitLab Inc.
 
-Autor de presente
- Pessoas que estão listadas como autores mas que não fizeram contribuições significativas para a pesquisa. Isto também é conhecido como autor de um convidado.
+Ghost author
+ It is a person who writes an academic article without having carried out the research. It could be a professional writer. They would often not qualify as an author under the ICMJE criteria for authorship.
 
-Autoria do grupo
- Alguns diários permitem o uso de nomes de grupos, mas muitos exigem que os contribuidores sejam listados e/ou o grupo de escrita seja nomeado. Isto é o mesmo que a autorização partilhada.
+Gift author
+ People who are listed as authors but who did not make significant contributions to the research. This is also known as a guest author.
 
-Garantidor
- Além de cumprir critérios para ser um autor nomeado, alguns revistas exigem um ou mais autores que assumem a responsabilidade pela integridade do trabalho como um todo desde o início ao artigo publicado.
+Group authorship
+ Some journals permit the use of group names but many require contributors to be listed and/or the writing group to be named. This is the same as shared authorship.
+
+Guarantor
+ As well as fulfilling criteria for being a named author, some journals require one or more authors that take responsibility for the integrity of the work as a whole from inception to the published article.
 ```
 ---
-## Um
+## H
 
 ```{glossary}
-Cabeça
-  O último commit no branch que é checado atualmente.
+Head
+  The latest commit on the branch which is currently checked out.
 
 Helm
-  Um gerenciador de pacotes para aplicativos do Kubernetes.
+  A package manager for Kubernetes applications.
 
-Autoria de Honorários
- É quando um indivíduo se torna um autor nomeado apesar de eles não terem feito uma contribuição substancial e/ou preenchido os critérios de autoria.
+Honorary authorship
+ This is when an individual becomes a named author even though they have not made a substantial contribution and/or met authorship criteria.
 
 Human Readable
-  Um formato legível de médio ou humano legível é qualquer codificação de dados ou informação que pode ser naturalmente lida por humanos. Alguns formatos humanos legíveis, como PDF, não são legíveis por não serem estruturados, como a representação dos dados no disco não representa as relações reais presentes nos dados.
+  A human readable medium or human readable format is any encoding of data or information that can be naturally read by humans. Some human readable formats, such as PDF, are not machine readable as they are not structured data, such as the representation of the data on disk does not represent the actual relationships present in the data.
 ```
 ---
-## Eu
+## I
 
 ```{glossary}
 
-Imagem
-  Arquivos usados para gerar contêineres.
+Image
+  Files used for generating containers.
 
-Teste de integração
-  Um nível de teste de software onde unidades individuais são combinadas e testadas como um grupo. O objectivo deste nível de testes é expor as falhas na interacção entre unidades integradas.
+Integration Testing
+  A level of software testing where individual units are combined and tested as a group. The purpose of this level of testing is to expose faults in the interaction between integrated units.
 
-Interseccionalidade
-  A forma como as identidades de uma pessoa (gênero, raça, classe, orientação sexual, capacidade física e outros) podem sobrepor-se e cruzar-se para formar uma experiência única de estatuto social, discriminação ou opressão. Este termo foi cunhado pelo Professor Kimberle├Crenshaw.
+Intersectionality
+  The way in which a person's identities (gender, race, class, sexual orientation, physical ability and others) can overlap and intersect to form a unique experience of social status, discrimination or oppression. This term was coined by Professor Kimberlé Crenshaw.
 
-Problemas
-  sistema de rastreamento de bugs para GitHub. Os colaboradores podem usar problemas para relatar bugs, solicitar recursos ou definir marcos para projetos. Os problemas são controlados, reportados e fechados pelos colaboradores durante o processo de desenvolvimento. Eles são uma ótima maneira de se comunicar com a sua equipe e relatar o progresso.
+Issues
+  Bug tracking system for GitHub. Collaborators can use issues to report bugs, request features, or set milestones for projects. Issues are tracked, reported, and closed by collaborators during the development process. They’re a great way of communicating with your team and reporting progress.
 
-Acompanhamento da issue
-  O processo de acompanhamento dos problemas atuais no projeto, como correção de erros, implementação de novos recursos ou planos de envolvimento da comunidade.
+Issue Tracking
+  The process of tracking current issues on the project, such as bug fixing, rolling out new features or community engagement plans.
 ```
 ---
-## JA
+## J
 
 ```{glossary}
 
-Tarefa
-  Um processo automatizado que clona o seu repositório em um ambiente virtual e realiza uma série de etapas, como a compilação de seu código e a execução de testes. Uma tarefa falha se o código de retorno do script encontrar um erro.
+Job
+  An automated process that clones your repository into a virtual environment and then carries out a series of phases such as compiling your code and running tests. A job fails if the return code of the script encounters an error.
 
 JupyterHub
-  Um servidor multiusuário para instâncias de Notebook Jupyter.
+  A multi-user server for Jupyter Notebook instances.
 ```
 ---
-## KB
+## K
 
 ```{glossary}
 
 Kubernetes
-  Gerenciador autônomo de cluster computacionais.
+  Autonomous computational cluster manager.
 ```
 ---
-## O
+## L
 
 ```{glossary}
 
-Licença
-  Este é um documento legal que define as permissões para o trabalho criativo e acadêmico. Explica os direitos de autor, garante a atribuição adequada e define como os outros podem copiar, distribuir e utilizar as obras.
+License
+  This is a legal document that sets out the permissions for creative and academic work. It explains copyright, ensures proper attribution and sets out how others can copy, distribute and make use of the works.
 
-Último autor
- geralmente a pessoa na equipe de pesquisa com uma função de supervisão como um PhD supervisor ou um investigador Principal. Isto depende da disciplina, pois por vezes o último autor é a pessoa que deu o menor contributo para a investigação.
+Last author
+ Usually the person in the research team with a supervisory role such as a PhD supervisor or Principal investigator. This is discipline dependent as sometimes the last author is the person that has made the smallest contribution to the research.
 ```
 ---
-## MM
+## M
 
 ```{glossary}
 
-Máquina legível
-  Máquina legível se refere a documentos, dados ou outras saídas digitais cujo conteúdo possa ser processado facilmente por computadores. Esses documentos distinguem-se dos dados legíveis em virtude da existência de uma estrutura suficiente que proporcione o contexto necessário para apoiar os processos de negócios para os quais são criados. A máquina de dados legíveis pode ser definida como dados em um formato que pode ser facilmente processado por um computador sem a intervenção humana enquanto não se perde nenhum significado semântico.
+Machine Readable
+  Machine readable refers to documents, data or other digital outputs whose content can be readily processed by computers. Such documents are distinguished from machine readable data by virtue of having sufficient structure to provide the necessary context to support the business processes for which they are created. Machine readable data can be defined as data in a format that can be easily processed by a computer without human intervention while ensuring no semantic meaning is lost.
 
-Principal
-  O ramo principal do repositório. Dependendo do fluxo de trabalho, é nas únicas pessoas que trabalham ou nas quais a integração acontece. Costumava ser chamado de 'Master' no Github.
+Main
+  The repository’s main branch. Depending on the workflow, it is the one people work on or the one where the integration happens. This used to be called ‘Master’ in Github.
 
-Mantenedor
-  Colaboradores responsáveis por dirigir a visão e gerenciar os aspectos organizacionais do projeto. Eles também podem ser autores e/ou proprietários do projeto.
+Maintainers
+  Contributors who are responsible for driving the vision and managing the organizational aspects of the project. They may also be authors and/or owners of the project.
 
 Makefile
-  Um arquivo de texto que contém a configuração para a compilação.
+  A text file that contains the configuration for the build.
 
-Mesclar
-  O processo de combinar as filiais. As alterações feitas em um ou mais ramos são aplicadas a outro.
+Merge
+  The process of combining branches. Changes made on one or more branches are applied to another.
 
-Mesclar Conflito
-  Incompatibilidades entre branches sendo mescladas.
+Merge Conflict
+  Incompatibilities between branches being merged.
 
-Metadados
-  Dados usados para descrever outros dados. Por exemplo (35, 33, 27, 30, 33) são dados mas as unidades (milhas por hora) e o facto de serem a velocidade dos automóveis numa determinada faixa de estrada é um dado adquirido.
+Metadata
+  Data used to describe other data. For example (35, 33, 27, 30, 33) is data but the units (miles per hour) and the fact these are the speeds of cars on a certain stretch of road is metadata.
 
-Teste de simulação
-  Substituir um objeto real por um finge que ele será usado durante a execução de testes.
+Mock Test
+  Replace a real object with a pretend one to use when running tests.
 ```
 ---
 ## N
@@ -299,67 +305,67 @@ Teste de simulação
 
 ```{glossary}
 
-Acesso Aberto
-  Fazendo todas as saídas publicadas livremente para o máximo uso e impacto.
+Open Access
+  Making all published outputs freely accessible for maximum use and impact.
 
-Publicação de Acesso Aberto (gratis)
-  A prática de disponibilizar publicações de pesquisa para qualquer pessoa para ler sem encargos.
+Open Access publishing (gratis)
+  The practice of making research publications available to anyone to read without charge.
 
-Publicação de Acesso Aberto (libre)
-  Libre open access é gratis, o que significa que a pesquisa está disponível gratuitamente, mas vai mais longe ao conceder aos usuários o direito de copiar, reutilizar e remixar a publicação.
+Open Access Publishing (libre)
+  Libre open access is gratis, meaning the research is available free of charge, but it goes further by granting users the right to copy, reuse, and remix the publication.
 
-Dados abertos
-  Documentando e compartilhando dados de pesquisa abertamente para reutilização.
+Open data
+  Documenting and sharing research data openly for re-use.
 
-Recursos Educacionais Abertos
-  Disponibilizando recursos educativos publicamente para serem reutilizados e modificados.
+Open Educational Resources
+  Making educational resources publicly available to be re-used and modified.
 
-Software de código aberto
-  projetos, materiais e outras informações relevantes relacionadas a hardware, tornando-os livremente acessíveis e disponíveis.
+Open Source Hardware
+  Documenting designs, materials, and other relevant information related to hardware, and making them freely accessible and available.
 
-Licença aberta
-  Uma licença é um documento que especifica o que pode e não pode ser feito com trabalho. Ele concede permissões e restrições de estados. Em termos gerais, uma licença aberta é aquela que concede permissão para acessar, reutilizar e redistribuir um trabalho com poucas ou nenhumas restrições.
+Open License
+  A license is a document that specifies what can and cannot be done with a work. It grants permissions and states restrictions. Broadly speaking, an open license is one that grants permission to access, re-use and redistribute a work with few or no restrictions.
 
 Open Notebooks
-  Uma prática emergente, documentando e compartilhando o processo experimental de tentativa e erro.
+  An emerging practice, documenting and sharing the experimental process of trial and error.
 
 Open Scholarship
-  Este é um conceito que alarga ainda mais a pesquisa aberta. Diz respeito à abertura ao público de outros aspectos da investigação científica, como sejam os recursos educativos abertos, a prática inclusiva e a ciência dos cidadãos.
+  This is a concept that extends open research further. It relates to making other aspects of scientific research open to the public such as open educational resources, having inclusive practice and citizen science.
 
-Projeto Aberto
-  *Igual à Ciência Aberta ou Projetos de Pesquisa Aberta*. Um projeto no qual uma quantidade significativa de colaboração entre a equipe principal ou de liderança e a comunidade em geral ocorre sob a forma de interações online. As interacções comunitárias devem manter a transparência e a abertura do projecto, a fim de facilitar o crescimento da sua comunidade.
+Open Project
+  *Same as Open Science or Open Research Projects*. A project in which a significant amount of collaboration between the core or leadership team and the wider community takes place in the form of online interactions. Community interactions should maintain transparency and openness of the project to facilitate the growth of your community.
 
-Software de Código Aberto
-  Documentando códigos de pesquisa e rotinas, e tornando-os livremente acessíveis e disponíveis.
+Open Source Software
+  Documenting research code and routines, and making them freely accessible and available.
 
 ORCID
-  Abrir Pesquisadores e Colaboradores iD. É um identificador único de longa duração para você como pesquisador. Um identificador digital persistente para os investigadores, que pode ser utilizado em publicações para garantir que todos os investigadores trabalhem de forma justa.
+  Open Researchers and Contributor iD. It is a long lasting unique identifier for you as a researcher. A persistent digital identifier for researchers' that can be used on publications to ensure fair credit is given for all the researchers works.
 
-Proprietário
-  A pessoa/s que tem propriedade administrativa sobre a organização ou o repositório (nem sempre é o mesmo que o autor original).
+Owner
+  The person/s who has administrative ownership over the organization or repository (not always the same as the original author).
 ```
 ---
-## PT
+## P
 
 ```{glossary}
 
-Sistema de Gerenciamento de Pacotes
-  Uma ferramenta para instalar, gerenciar e desinstalar pacotes de software incluindo versões específicas.
+Package Management System
+  A tool for installing, managing, and uninstalling software packages including specific versions.
 
-Identificador Persistente
-  Um método de identificação de longa duração para identificar um recurso único e amplamente compreensível por uma comunidade.
+Persistent Identifier
+  A long-lived method for identifying a resource that is unique, and widely understandable by a community.
 
-Padrão
-  Uma regra de padrão é uma regra que contém exatamente um % de caractere no alvo, que pode ser usado para corresponder a uma parte de um nome de arquivo.
+Pattern
+  A pattern rule is a rule that contains exactly one % character in the target, which can be used to match a part of a filename.
 
 Persona
-  Uma persona é o detalhe de um usuário imaginário ou membro, baseado em observações e entendimentos do mundo real de membros existentes ou de potenciais futuros membros.
+  A persona is the detail of an imaginary user or member, based on real-world observations and understandings of existing members or potential future members.
 
-Persona tela
-  A tela de persona pode ser usada para montar todas as suas respostas em um só lugar, compartilhe essas informações tangíveis de seu modelo mental (conceitos abstratos de nossos pensamentos) com seus colegas e crie uma linguagem comum para comunicar sobre os membros da sua comunidade, usuários, e colaboradores.
+Persona Canvas
+  The persona canvas can be used to assemble all your responses in one place, share this tangible information of your mental model (abstract concepts from our thoughts) with your colleagues and create a common language to communicate about your community members, users, and contributors.
 
-Telefone do Destino
-  Um alvo da telefonia é um alvo que não corresponde a um arquivo no sistema de arquivos. Um alvo é marcado como falso, tornando-o um pré-requisito para o objectivo .PHONY.
+Phony Target
+  A phony target is one that doesn’t correspond to a file on the filesystem. A target is marked as phony by making it a prerequisite of the .PHONY target.
 
 Positionality
  Differences in social position and power shape identities and access in society. In acknowledging positionality, we also acknowledge intersecting social locations and complex power dynamics (also see: Intersectionality).
@@ -383,7 +389,7 @@ Push
   Sending changes to a remote repo. The remote repository is updated with the changes pushed and now mirrors the local repo.
 ```
 ---
-## PQ
+## Q
 
 ```{glossary}
 
@@ -394,69 +400,71 @@ Push
 ```{glossary}
 
 RDM
-  Abreviação para gerenciamento de dados de pesquisa - veja o gerenciamento de dados de pesquisa para definição.
+  Abbreviation for research data management - see research data management for definition.
 
-LEIR
-  Um arquivo que contém informações úteis sobre um projeto como é, como usar/instalá-lo, como testá-lo e como contribuir para ele.
+README
+  A file which contains useful information about a project such as what it is, how to use/install it, how to test it, and how to contribute to it.
 
-Receita
-  Um ou mais comandos de shell que são executados por Mak. Geralmente, esses comandos atualizam o alvo da regra.
+Recipe
+  One or more shell commands that are executed by Make. Usually these commands update the target of the rule.
 
-Teste de Regressão
-  Comparando o resultado de um teste antes e depois do código ter sido alterado. Se a saída mudou um problema foi introduzido em algum lugar do programa, e um erro é lançado.
+Regression Test
+  Comparing the result of a test before and after the code has been altered. If the output has changed a problem has been introduced somewhere in the program, and an error is thrown.
 
-Replicável
-  Um resultado é replicável quando a mesma análise realizada em diferentes conjuntos de dados produz respostas qualitativamente semelhantes.
+Replicable
+  A result is replicable when the same analysis performed on different datasets produces qualitatively similar answers.
 
 repo2docker
-  Uma ferramenta para construir imagens Docker de repositórios de código.
+  A tool to build Docker images from code repositories.
 
-Repositório
-  *Igual à Reprosidade de Dados ou Código*. Um lugar de vida longa na internet onde os recursos (sejam dados, software, publicações ou qualquer outra coisa) podem ser armazenados e acessados. Esta palavra-chave é muitas vezes encurtada para "repor".
+Repository
+  *Same as Data or Code Reprository*. A long-lived place on the internet where resources (be they data, software, publications or anything else) can be stored and accessed. This keyword is often shortened to ‘repo’.
 
-Reproduzível
-  Um resultado é reprodutível quando as mesmas etapas de análise realizadas no mesmo conjunto de dados produzem a mesma resposta.
+Reproducible
+  A result is reproducible when the same analysis steps performed on the same dataset consistently produces the same answer.
 
-Renderizado a Saída
-  Isto é como o texto ficará em uma página online no Github ou página web Compendia de Pesquisa
-  Esta é uma coleção de todas as partes digitais de um projeto de pesquisa, incluindo dados, código, textos (protocolos, relatórios, questionários, metadados). A colecção é criada de modo a que todos os resultados sejam reproduzidos de forma directa.
+Rendered Output
+  This is what the text will look like on an online page in Github or web page
 
-Gerenciamento de Dados de Pesquisas
-  *Acrônimo: RDM*. Refere-se à organização, armazenamento e preservação de dados criados durante um projecto de investigação. Abrange o planeamento inicial, os processos do dia-a-dia e o arquivamento e compartilhamento a longo prazo. Reduzido para RDM.
+Research Compendia
+  This is a collection of all digital parts of a research project including data, code, texts (protocols, reports, questionnaires, metadata). The collection is created in such a way that reproducing all results is straight forward.
 
-Pesquisa Ética
-  ética de pesquisa são os princípios morais que regem como pesquisadores devem realizar seu trabalho. Estes princípios são utilizados para moldar regulamentos de investigação acordados por grupos como os organismos de administração universitários, as comunidades ou os governos. Todos os investigadores devem seguir quaisquer regulamentos que se apliquem ao seu trabalho.
+Research Data Management
+  *Acronym: RDM*. Refers to the organisation, storage and preservation of data created during a research project. It covers initial planning, day-to-day processes and long-term archiving and sharing. Shortened to RDM.
 
-Revisar
-  Sugerir alterações ou pedir confirmação de algo para uma pull request já criada.
+Research Ethics
+  Research ethics are the moral principles that govern how researchers should carry out their work. These principles are used to shape research regulations agreed by groups such as university governing bodies, communities or governments. All researchers should follow any regulations that apply to their work.
 
-Avaliação de Risco
-  Isto é usado para ajudar a escolher os conceitos de software sustentável apropriados para o seu projeto.
+Review
+  Suggesting changes or asking for committing something to an already created pull request.
 
-Matriz de Risco
-  Uma matriz de risco é uma maneira de quantificar o que está acontecendo com a coisa em que você está interessado. Um eixo mede de alguma forma a exposição e o outro o impacto de um mau acaso. Quanto mais longe for a origem, mais salvaguardas são necessárias para tornar o risco aceitável.
+Risk Assessment
+  This is used to help choose the appropriate sustainable software concepts for your project.
+
+Risk Matrix
+  A risk matrix is a way of quantifying what’s going on with the thing you’re interested in. One axis measures exposure in some way, and the other the impact of a mishap. The further from the origin, the more safeguards are needed to make the risk acceptable.
 
 Roadmapping
-  Esta é a criação de um roteiro para o seu projeto. Trata-se de um esboço para o trabalho que é necessário fazer. Ele cobre seus objetivos, visão e um cronograma para tarefas.
+  This is the creation of a roadmap for your project. It is an outline for the work you need to do. It covers your goals, vision and a timeline for tasks.
 
 
 Robust
-  A result is robust when the same dataset is subjected to different analysis workflows to answer the same research question (for example one pipeline written in R and another written in Python) and a qualitatively similar or identical answer is produced. Resultados sólidos mostram que o trabalho não depende das especificidades da linguagem de programação escolhida para realizar a análise.
+  A result is robust when the same dataset is subjected to different analysis workflows to answer the same research question (for example one pipeline written in R and another written in Python) and a qualitatively similar or identical answer is produced. Robust results show that the work is not dependent on the specificities of the programming language chosen to perform the analysis.
 
-Regra
-  Um elemento do Makefile que define algo que deve ser construído, geralmente consiste de alvos, receitas e opcionalmente pré-requisitos.
+Rule
+  An element of the Makefile that defines something that must be built, usually consists of targets, recipes, and optionally, prerequisites.
 
-Teste de Execução
-  testes incorporados no programa que são executados como parte dele.
+Runtime Test
+  Tests embedded within the program which are run as part of it.
 
 ```
 ---
-## S.O.
+## S
 
 ```{glossary}
 
-Arquivamento Próprio
-  Colocando uma publicação ou outras saídas de pesquisa em um repositório adequado, institucional ou com base em assuntos, Na sequência das possíveis restrições impostas pelo editor, por exemplo, um período de embargo, ou limites à versão autorizada a ser depositada nesses arquivos.
+Self Archiving
+  Placing a publication or other research outputs in a suitable repository, institutional or subject-based, following the possible restrictions posed by the publisher, for example an embargo period, or limits on the allowed version to be deposited in such archives.
 
 Self Reflection
   Activity of thinking about our thoughts, feelings, emotions, behaviour action, and the reasons that may lie behind them. Taking the time for reflection we can grow our understanding of who we are, what our values are, and why we think, feel, and act the way we do. When we self-reflect and become more conscious of what drives us, we can more easily make changes that help us more easily develop our self or improve our life including the way we conduct research (source: [Berkeley Wellbeing](https://www.berkeleywellbeing.com/what-is-self-reflection.html)).
@@ -488,46 +496,46 @@ System Testing
 
 ```{glossary}
 
-Destacar
-  O resultado de uma regra em um arquivo Makefile. Geralmente é um arquivo. Se não é um arquivo, é um alvo da telefonia.
+Target
+  The outcome of a rule in a Makefile. It is usually a file. If it is not a file, it’s a phony target.
 
-Desenvolvimento Orientado a Testes
-  Um processo de desenvolvimento de código onde testes de unidade são escritos antes das próprias unidades.
+Test Driven Development
+  A process of code development where unit tests are written before the units themselves.
 
-Teste Stub
-  Implementações falsas de partes do código que são usadas nos testes para remover dependências.
+Test Stub
+  Fake implementations of parts of code which are used in testing to remove dependencies.
 
-Suite de teste
-  Os testes que foram escritos para um projeto.
+Test Suite
+  The tests that have been written for a project.
 
-Testando Framework
-  Ferramentas que tornam a escrita e o funcionamento de testes menos intensivos.
+Testing Framework
+  Tools that make writing and running tests less labour intensive.
 
 Travis
-  Uma plataforma de integração contínua comumente utilizada.
+  A commonly used continuous integration platform.
 ```
 ---
 ## U
 
 ```{glossary}
 
-Unidade
-  Um pequeno pedaço de código que faz uma coisa simples. Geralmente ele tem uma ou algumas entradas e geralmente uma única saída.
+Unit
+  A small piece of code that does one simple thing. It usually has one or a few inputs and usually a single output.
 
-Unidade de teste
-  Um nível do processo de teste de software onde unidades individuais de um software são testadas. O objetivo é validar que cada unidade do software funciona conforme projetado.
+Unit Testing
+  A level of the software testing process where individual units of a software are tested. The purpose is to validate that each unit of the software performs as designed.
 ```
 ---
 ## V
 
 ```{glossary}
 
-Máquina Virtual
-  Um computador simulado que pode encapsular e todo o ambiente computacional, incluindo seu sistema operacional, configurações personalizadas, software e arquivos.
+Virtual Machine
+  A simulated computer that can encapsulate and entire computational environment including its operating system, customised settings, software and files.
 
 ```
 ---
-## PO
+## W
 
 ```{glossary}
 
@@ -539,14 +547,14 @@ Máquina Virtual
 
 ```
 ---
-## A
+## Y
 
 ```{glossary}
 YAML
-  Uma linguagem de marcação legível/gravável que é usada por muitos projetos para arquivos de configuração.
+  A human readable/writable markup language which used by many projects for configuration files.
 ```
 ---
-## Zé
+## Z
 
 ```{glossary}
 
