@@ -1,53 +1,53 @@
 (rr-rdm-dmp)=
-# Plano de gerenciamento de dados
+# Data Management Plan
 
-Um Plano de Gerenciamento de Dados (DMP) ou Plano de Gestão de Saída, é um documento que descreve como suas saídas de pesquisa serão geradas, armazenadas, usadas e compartilhadas em seu projeto. Um DMP é um documento vivo, que pode ser atualizado em todo o projeto de pesquisa conforme necessário.
+A Data Management Plan (DMP), or Output Management Plan, is a document that describes how your research outputs will be generated, stored, used and shared within your project. A DMP is a living document, which can be updated throughout the research project as needed.
 
-Um Plano de Gerenciamento de Dados é um roteiro para você gerenciar seus dados de forma eficiente e segura. Isso pode impedir a perda ou a violação de dados. Planejando com antecedência como gerenciar seus dados de forma consistente pode poupar seu tempo mais tarde! Também pode tornar mais fácil para {ref}`compartilhar<rr-rdm-sharing>` os seus dados com outras pessoas e, portanto, tornar os dados mais {ref}`FALHA<rr-rdm-fair>`
+A Data Management Plan is a roadmap for you to manage your data efficiently and securely. This can prevent data loss or breaches. Planning ahead on how to manage your data consistently can save you time later on! It can also make it easier to {ref}`share<rr-rdm-sharing>` your data with others and therefore make the data more {ref}`FAIR<rr-rdm-fair>`
 
-## Um Plano de Gestão de Dados deverá fornecer informações sobre cinco tópicos principais:
+## A Data Management Plan should provide information on five main topics:
 
-### 1. Funções e responsabilidades
-* É importante discutir quem é responsável por diferentes tarefas durante o ciclo de vida de um projecto de investigação. Definir quem é responsável pela gestão dos dados e código pode evitar confusão/má comunicação mais tarde no projeto.
-* Você deve verificar as recomendações do DMP e os requisitos do seu instituto e financiador. A equipe de suporte de pesquisa de biblioteca do seu instituto e o site do seu financiador geralmente são lugares bons para encontrar informações e ajudar. Alguns dos financiadores exigem que você use seu modelo DMP. Você pode verificar se o seu financiador ou instituto tem um DMP usando [DMPonline](https://dmponline.dcc.ac.uk/).
+### 1. Roles and Responsibilities
+* It is important to discuss who is responsible for different tasks during the life-cycle of a research project. Defining who is responsible for the management of the data and code can prevent confusion/miscommunication later in the project.
+* You should check the DMP recommendations and requirements of your institute and funder. The library research support team of your institute and the website of your funder are usually good places to find information and help. Some of the funders require you to use their DMP template. You can check if your funder or institute has a DMP using [DMPonline](https://dmponline.dcc.ac.uk/).
 
-### 2. Tipo e tamanho dos dados coletados e documentação/metadados gerados
-* Aqui você pode listar os formatos de arquivo que você usará para coletar, processar e apresentar os seus dados. Se você quiser compartilhar suas saídas de pesquisa mais tarde Os formatos de arquivo padrão que podem ser abertamente usados sem uma licença específica para um programa de software são preferidos. Para garantir isso, você deve adaptar seus arquivos ou começar a trabalhar nesses formatos mais cedo.
-* Uma distinção pode ser feita entre diferentes tipos de dados que podem ser descritos separadamente no plano:
-    * Dados raros/primários: dados coletados da fonte (mantenha sempre uma versão somente leitura de dados brutos para que você possa voltar mais tarde!)
-    * Dados processados: uma versão dos dados que foram modificados para análise ou visualização
-    * Dados finalizados: dados que estão prontos para serem compartilhados em uma publicação ou repositório de dados (veja {ref}`Compartilhar e arquivar seção de dados <rr-rdm-sharing>` para obter mais informações). Alguns repositórios de dados, como o [Zenodo](https://zenodo.org/), permitir versionamento de datasets para que você possa atualizar seu dataset finalizado se quiser liberar outra versão.
-* Todos esses tipos de dados terão de ser descritos para serem colocados no contexto, usando metadados (veja a`documentação e a seção de metadados da {ref}<rr-rdm-metadata>`) e a documentação adequada, que permitirá o futuro de você, e qualquer pessoa da sua equipe, para interpretar os dados.
-* É útil saber o tamanho aproximado (na faixa de MB, GB, TB ou PB) dos dados nestas várias etapas porque isso afetará as soluções de armazenamento disponíveis para você (discutida no próximo ponto).
+### 2. Type and size of data collected and documentation/metadata generated
+* Here, you can list the file formats you will use to collect, process and present your data. If you want to share your research outputs later, standard file formats that can be openly used without a particular license for a software programme are preferred. To ensure this, you should adapt your files or start working in these formats early on.
+* A distinction can be made between different types of data that can be described in the plan separately:
+    * Raw/primary data: data collected from the source (always keep a read-only version of raw data so you can come back to it later!)
+    * Processed data: a version of the data that has been modified for analysis or visualisation
+    * Finalised data: data that is ready to be shared in a publication or data repository (see {ref}`Sharing and archiving data section <rr-rdm-sharing>` for more information). Some data repositories, such as [Zenodo](https://zenodo.org/), allow versioning of datasets so that you can update your finalised dataset if you want to release another version.
+* All of these types of data will have to be described to be placed into context by using metadata (see the {ref}`Documentation and metadata section<rr-rdm-metadata>`) and adequate documentation which will allow future you, and anyone in your team, to interpret the data.
+* It is helpful to know the approximate size (in the range of MB, GB, TB or PB) of the data in these various stages because this will affect the storage solutions available for you (discussed in the next point).
 
-### 3. Tipo de armazenamento de dados usado e de backup de procedimentos que estão em vigor
+### 3. Type of data storage used and back up procedures that are in place
 * Check the {ref}`data storage and organisation section<rr-rdm-storage>` for storage and back-up solutions and ways to organise your files
-* Verifique se existem **custos** associados ao seu projeto
-    * Solução de armazenamento preferida (durante e após o projeto, veja abaixo)
-    * Custos pessoais (se você precisa de um gerente de dados para gerenciar grandes quantidades de dados)
-    * Licenças de software (como Notebooks do Electronic Lab, consulte a {ref}`Seção de notebooks abertos<rr-open-notebooks>`
-    * Você pode usar esta [lista de verificação pelos custos](https://www.ukdataservice.ac.uk/media/622368/costingtool.pdf) como orientação
-* Manter o controle de quem fez alterações específicas em seus dados/código será importante, particularmente para o código. Consulte o {ref}`capítulo de Controle de Versão<rr-vcs>` para obter mais informações.
-* Determine quem tem acesso aos dados e quem concede acesso. Pelo menos uma outra pessoa deve ter acesso aos seus dados, como seu supervisor/PI/chefe do departamento. Se você estiver gerenciando dados pessoais/comercialmente sensíveis, o acesso só deve ser dado a indivíduos que tenham que trabalhar com os dados.
+* Check if there are any **costs** associated with your project
+    * Preferred storage solution (during and after the project, see below)
+    * Personnel costs (if you need a data manager to manage more sensitive or large quantities of data)
+    * Software licenses (such as Electronic Lab Notebooks, see the {ref}`Open notebooks section<rr-open-notebooks>`
+    * You can use this [checklist for costs](https://www.ukdataservice.ac.uk/media/622368/costingtool.pdf) as a guidance
+* Keeping track of who made specific changes in your data/code will be important, particularly for code. See the {ref}`Version Control chapter<rr-vcs>` for more information.
+* Determine who has access to the data and who grants access. At least one other person should have access to your data, such as your supervisor/PI/head of the department. If you're managing personal/commercially sensitive data, access should only be given to individuals that have to work with the data.
 
-### 4. Preservação dos resultados de pesquisa após o projeto
-* Considere se suas saídas de pesquisa podem ser disponibilizadas ao público. Dados pessoais ou saídas de pesquisa necessárias para solicitar patentes não podem ser compartilhados publicamente, ver a {ref}`Seção de dados abertos<rr-open-data>` Se os dados não puderem ser disponibilizados publicamente, ainda terá que preservá-los por vários anos, dependendo das políticas do seu país, instituto e financiador.
-* É possível externalizar a preservação de seus dados a longo prazo para um repositório de dados. Você pode encontrar mais informações sobre como selecionar um repositório apropriado no {ref}`compartilhamento e arquivamento de dados<rr-rdm-sharing>` seção
-    * Selecione repositórios usando, por exemplo, [FAIRsharing](https://fairsharing.org/) ou [Lista recomendada da Natureza](https://www.springernature.com/gp/authors/research-data-policy/repositories/12327124), que fornece um identificador persistente, como um DOI para a sua saída de pesquisa. Um repositório deve ter uma política de preservação que especifique quanto tempo as suas saídas serão curadas. Em caso de dúvida, entre em contato com sua equipe de suporte de pesquisa de dados para obter mais informações sobre repositórios de dados.
+### 4. Preservation of the research outputs after the project
+* Consider whether your research outputs can be made publicly available. Personal data or research outputs needed to apply for patents cannot be publicly shared, see the {ref}`Open data section<rr-open-data>` If data cannot be made publicly available you will still have to preserve it for several years, depending on the policies of your country, institute and funder.
+* You can outsource long term preservation of your data to a data repository. You can find more information on how to select an appropriate repository in {ref}`sharing and archiving data<rr-rdm-sharing>` section
+    * Select repositories using, for example, [FAIRsharing](https://fairsharing.org/) or [Nature's recommended repository list](https://www.springernature.com/gp/authors/research-data-policy/repositories/12327124), that provide a persistent identifier such as a DOI for your research output. A repository should have a preservation policy that specifies how long your outputs will be curated. When in doubt, contact your library Research Data Support Team for more information about data repositories.
 
-### 5. Reutilização de suas saídas de pesquisa por outros
-* Selecione uma licença quando você tornar seu resultado disponível em um repositório (veja os subcapítulos de licença nos {ref}`dados<rr-licensing-data>` e {ref}`software<rr-licensing-software>` para mais informações). Selecionando uma licença, você informa aos outros como podem reutilizar seus dados. Se você não selecionar uma licença, outros não serão capazes de reutilizar seus dados sem pedir permissão.
-* Você pode colocar suas saídas de pesquisa em contexto usando e texto de introdução, como um arquivo README.txt
-    * Veja a documentação`de documentação e metadados do {ref}<rr-rdm-metadata>`
+### 5. Reuse of your research outputs by others
+* Select a license when you make your output available on a repository (see the Licensing subchapters on {ref}`data<rr-licensing-data>` and {ref}`software<rr-licensing-software>` for more information). By selecting a license you tell others how they can reuse your data. If you do not select a license others will not be able to reuse your data without asking you for permission.
+* You can put your research outputs into context using and introduction text, such as a README.txt file
+    * See the {ref}`documentation and metadata section<rr-rdm-metadata>`
 
-Você pode usar esta [lista de verificação](https://ukdataservice.ac.uk/learning-hub/research-data-management/plan-to-share/checklist/) para ver se você tem tudo coberto pelo seu Plano de Gestão de Dados.
+You can use this [checklist](https://ukdataservice.ac.uk/learning-hub/research-data-management/plan-to-share/checklist/) to see if you have everything covered in your Data Management Plan.
 
-## Mais recomendações de leitura
+## Further Reading Recommendations
 
-- [Módulos educativos do DataOne](https://www.dataone.org/education-modules)
-- [Informações sobre gerenciamento de dados do UK Services](https://ukdataservice.ac.uk/learning-hub/research-data-management/)
-- [Portal de Gestão de Dados de Pesquisa Delft TU](https://www.tudelft.nl/en/library/research-data-management)
-- [Vídeos (3-7 min) sobre gerenciamento de dados de Kristin Briney](https://www.youtube.com/watch?v=K5_ocBG5xek&list=PLEor4jq8YPgK_sgEiAcpHZLw-62mufXus)
-- Briney, Kristin. Gerenciamento de dados para pesquisadores : Organize, mantenha e compartilhe seus dados para o sucesso da pesquisa, Pelágica Publicação, 2015.
-- Briney, K.A., Coates, H. and Goben, A., 2020 Práticas Fundacionais de Gerenciamento de Dados de Pesquisa. Ideias e resultados da pesquisa 6: e56508. [https://doi.org/10.3897/rio.6.e56508](https://doi.org/10.3897/rio.6.e56508)
-- Hart EM, Barmby P, LeBauer D, Michonneau F, Mount S, Mulrooney P, et al. (2016) Ten Simple Rules for Digital Storage. PLoS Compor Biol 12(10): e1005097. [https://doi.org/10.1371/journal.pcbi.1005097](https://doi.org/10.1371/journal.pcbi.1005097)
+- [DataOne education modules](https://www.dataone.org/education-modules)
+- [UK Data Services data management information](https://ukdataservice.ac.uk/learning-hub/research-data-management/)
+- [TU Delft Research Data Management portal](https://www.tudelft.nl/en/library/research-data-management)
+- [Videos (3-7 min) on data management by Kristin Briney](https://www.youtube.com/watch?v=K5_ocBG5xek&list=PLEor4jq8YPgK_sgEiAcpHZLw-62mufXus)
+- Briney, Kristin. Data Management for Researchers : Organize, maintain and share your data for research success, Pelagic Publishing, 2015.
+- Briney, K.A., Coates, H. and Goben, A., 2020 Foundational Practices of Research Data Management. Research Ideas and Outcomes 6: e56508. [https://doi.org/10.3897/rio.6.e56508](https://doi.org/10.3897/rio.6.e56508)
+- Hart EM, Barmby P, LeBauer D, Michonneau F, Mount S, Mulrooney P, et al. (2016) Ten Simple Rules for Digital Data Storage. PLoS Comput Biol 12(10): e1005097. [https://doi.org/10.1371/journal.pcbi.1005097](https://doi.org/10.1371/journal.pcbi.1005097)
