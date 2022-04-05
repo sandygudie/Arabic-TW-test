@@ -1,35 +1,35 @@
-(قائمة مرجعية للمواقع الطبيعية)=
-# قوائم المراجعة والموارد
+(cm-citable-checklist)=
+# Checklists and Resources
 
-(مؤلفو قائمة مرجعية بالأحكام) =
-## قائمة التحقق للمؤلفين
+(cm-citable-checklist-authors)=
+## Checklist For Authors
 
-- اختيار مجموعات البيانات الرئيسية والبرمجيات تعتمد استنتاجاتك على
-- ذكر البيانات والبرمجيات كما لو كنت تستشهد بورقة
-- نشر بياناتك/برمجياتك الخاصة واستشهد بذلك أيضا
-- احصل على [معرف ORCID!](https://orcid.org/)
+- Pick out key datasets and software your conclusions rely on
+- Cite data and software just like you would cite a paper
+- Publish your own data/software and cite that too
+- Get an [ORCID ID!](https://orcid.org/)
 
-(بيانات قائمة مرجعية للمخاطب)=
-## لمبتكري البيانات
+(cm-citable-checklist-data)=
+## For Data Creators
 
-- إيداع بياناتك في مستودع مستقر
-- احصل على معرف دائم (DOI) لبياناتك
-- قم بتضمين مثال اقتباس في ملف README الخاص بك
+- Deposit your data in a stable repository
+- Get a persistent identifier (DOI) for your data
+- Include an example citation in your dataset's README file
 
-(برامجيات قائمة مرجعية ممتدنة)=
-## لمطوري البرمجيات
+(cm-citable-checklist-software)=
+## For Software Developers
 
-- إيداع لقطات الاصدار الرئيسية من برنامجك في مستودع ثابت
-- احصل على معرف ثابت متميز لكل إصدار رئيسي
-- قم بتضمين مثال اقتباس في دليل برنامجك
+- Deposit key version snapshots of your software in a stable repository
+- Get a distinct persistent identifier for each key version
+- Include an example citation in your software manual
 
-(توصية بقائمة مرجعية للمخاطب)=
-## توصية أخرى
+(cm-citable-checklist-recommendation)=
+## Further Recommendation
 
-- [إرشادات الاستشهاد بالبيانات](https://datacite.org/cite-your-data.html)
-- [مبادئ بيانات FAIR](https://www.force11.org/group/fairgroup/fairprinciples)
-- [الاستمارة 11 مبادئ الإشارة إلى البيانات](https://www.force11.org/datacitationprinciples)
-- [المرفق 11 - مبادئ الإشارة إلى البرمجيات](https://www.force11.org/software-citation-principles)
-- [البدء مع سجل ORCID الخاص بك](https://support.orcid.org/hc/en-us/articles/360006896894-Getting-started-with-your-ORCID-record)
-- [جعل البرنامج قابل للاستشهاد](https://guide.esciencecenter.nl/citable_software/making_software_citable.html)
-- [دليل OpenAIRE بشأن هويات الأشخاص](https://www.openaire.eu/how-can-identifiers-improve-the-dissemination-of-your-research-outputs)
+- [DataCite Citation Guidance](https://datacite.org/cite-your-data.html)
+- [FAIR data principles](https://www.force11.org/group/fairgroup/fairprinciples)
+- [FORCE11 Data Citation principles](https://www.force11.org/datacitationprinciples)
+- [FORCE11 Software Citation principles](https://www.force11.org/software-citation-principles)
+- [Getting Started with your ORCID record](https://support.orcid.org/hc/en-us/articles/360006896894-Getting-started-with-your-ORCID-record)
+- [Making software citeable](https://guide.esciencecenter.nl/citable_software/making_software_citable.html)
+- [OpenAIRE Guide on Person Identifiers](https://www.openaire.eu/how-can-identifiers-improve-the-dissemination-of-your-research-outputs)
