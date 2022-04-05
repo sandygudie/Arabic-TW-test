@@ -38,7 +38,7 @@ Before we dive into the details of what they mean, let's look at some examples o
 
 Names of digital components should be easy to understand for computers. Computers like names to have no spaces, deliberate use of delimiters, and no special or accented characters. Also computers are case sensitive, so for them `cat.txt` and `Cat.txt` are different files.
 
-أسماء الملفات `Joe <unk> s الملفات تستخدم المساحات و Punctuation.xlsx` و `JW7d^(2sl@deletethisandyourcareerisoverWx2*. xt` يظهر أعلاه استخدام مسافات فارغة وأحرف خاصة (`<unk>`، `^`، `(`، `@`،`*`، مما قد يؤدي إلى صعوبات، على سبيل المثال عندما ترغب في إرسالها إلى جهاز كمبيوتر آخر.
+The file names `Joe´s Filenames Use Spaces and Punctuation.xlsx` and `JW7d^(2sl@deletethisandyourcareerisoverWx2*.txt` shown above use empty spaces and special characters (`´`, `^`, `(`, `@`,`*`), which can lead to difficulties, for example when you want to send it someone else's computer.
 
 Good file/folder names are easy to search for (also using regular expressions) and easy to compute on (for example by splitting on `_` or `-` characters).
 
