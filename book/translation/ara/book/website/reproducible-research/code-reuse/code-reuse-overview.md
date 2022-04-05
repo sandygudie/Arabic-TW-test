@@ -1,55 +1,55 @@
 (r-code-reuse-recommendations)=
 # نظرة عامة على إعادة استخدام الكود
 
-يحتوي هذا القسم على قائمة مرجعية بالتوصيات لجعل برنامجك أكثر قابلية لإعادة الاستخدام. يحتوي قسم {ref}`rr-code reuse-detail` على شرح أكثر تعمقا لكل توصية من هذه التوصيات. يمكنك اتباع التوصيات الأكثر ملاءمة لنوع البرمجيات الخاص بك وتخطي تلك التي ليست ذات صلة في حالتك.
+This section contains a checklist of recommendations for making your software more reusable. يحتوي قسم {ref}`rr-code reuse-detail` على شرح أكثر تعمقا لكل توصية من هذه التوصيات. You can follow the recommendations that are more suitable for your type of software and skip the ones which are not relevant in your case.
 
 ## التوصيات المتكررة
 
 1. تأكد من أنك تستطيع العثور عليه (في الفضاء؛ معني: أن تكون قادراً على تحديد موقع المستودع/المشروع)
 1. تأكد من أنك تستطيع العثور عليها (في الوقت؛ المعنى: أن تكون قادراً على تحديد موقع إصدار معين)
-1. تأكد من أنك تستطيع تنفيذ نفس سلسلة العمليات
-1. تأكد من أن بيئتكم وتسلسل عملياتكم قويين ولا حاجة إلى أي إنسان لتكرار ما تم إنجازه
-1. رخصة الرمز الخاص بك
-    - مع ترخيص يسمح بإعادة الاستخدام؛
-    - مع رخصة متوافقة مع رخص التبعيات
-1. تأكد من أنه قابل للكابل
-1. تضمين البيانات الضرورية
-1. كتابة وثائق مفيدة*
+1. Make sure you can execute the same sequence of operations
+1. Make sure your environment and sequence of operations is robust and no human is needed to replicate what was done
+1. License your code
+    - with a license that allows for reuse;
+    - with a license compatible with the dependencies’ licenses
+1. Make sure it is citable
+1. Include necessary data
+1. Write useful documentation*
 
 ## توصيات قابلة لإعادة التشغيل
 
 1. إزالة الأجزاء المقوى (مثل المسارات التي كانت موجودة فقط على القرص الصلب حيث تم تشغيل خط الأنابيب) وجعل الوحدة النمطية
-1. اختبر أن الوحدات التي قمت بإنشائها يمكن أن تأخذ أنواعا مختلفة من بيانات الإدخال أو المعلمات
-1. تحويل الوحدات إلى حزمة/صندوق أدوات
-1. كتابة وثائق مفيدة*
+1. Test that the modules you made can take different types of input data or parameters
+1. Turn the modules into a package/toolbox
+1. Write useful documentation*
 
 ## التوصيات المحمولة
-1. تأكد من أنه يمكنك إعادة إنشاء البيئة حيث كانت تعيش
-1. كتابة وثائق مفيدة*
+1. Make sure you can recreate the environment where it lived
+1. Write useful documentation*
 
 ## التوصيات الموسعة
-1. كتابة وثائق مفيدة*
+1. Write useful documentation*
 
 ## توصيات قابلة للتعديل
-1. تأكد من أن الكود الخاص بك مقروء من قبل البشر
-1. تأكد من وجود التعليقات
-1. كتابة وثائق مفيدة*
+1. Make sure your code is readable by humans
+1. Make sure comments are present
+1. Write useful documentation*
 
-قد يلاحظ القارئ المراقب أن `كتابة وثائق مفيدة` مذكورة لكل مستوى من إعادة الاستخدام. ويرجع ذلك إلى الحاجة إلى مستويات مختلفة من الوثائق لمختلف مستويات إعادة الاستخدام.
+The observant reader might will notice that `Write useful documentation` is mentioned for every level of reuse. This is because different levels of documentation are required for different levels of reuse.
 
 ## Documentation
 
-*الاحتياجات المختلفة من الوثائق لمختلف مستويات إعادة الاستخدام*
+*Different documentation requirements for different levels of reuse*
 
-وكتابة الوثائق المفيدة شرط هام بالنسبة لجميع مستويات إعادة الاستخدام. غير أنه بالنسبة لمختلف مستويات إعادة الاستخدام، هناك احتياجات مختلفة من الوثائق:
+Writing useful documentation is an important requirement for all levels of reuse. However, for the different levels of reuse, there are different documentation requirements:
 
-الوثائق
-- يشرح الاستخدام، محدداً:
-  - ما الذي تفعله البرامج؛ (مطلوب للتكرار)
-  - كيف يمكن استخدامها؛ (مطلوب للتكرار)
-  - ما هي الخيارات/المعلمات المتاحة. (مطلوب للتكرار )
-- يحتوي على أمثلة لكيفية تشغيله. (مطلوب للتكرار )
-- لديه تعليمات التثبيت، بما في ذلك الأوصاف الجيدة لما يلي:
-  - المعدات التي تعتمد عليها (على سبيل المثال GPUs)؛ (مطلوبة للأجهزة المحمولة)
-  - • نظام التشغيل الذي تم اختبار البرمجيات عليه؛ (مطلوب للأجهزة المحمولة)
-  - الاحتياجات من البرمجيات (مثل المكتبات والضوابط). (مطلوب للهاتف المحمول)
+The documentation:
+- explains usage, specifying:
+  - what the software does; (required for repeatable)
+  - how it can be used; (required for repeatable)
+  - what options/parameters are available. (required for repeatable)
+- contains examples of how to run it. (required for repeatable)
+- has installation instructions, including good descriptions of:
+  - the hardware it depends on (for example GPUs); (required for portable)
+  - the operating system the software has been tested on; (required for portable)
+  - software requirements (such as libraries and shell settings). (required for portable)
