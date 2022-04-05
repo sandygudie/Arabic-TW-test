@@ -26,5 +26,5 @@
 
 - [Static Tool analysis guide](https://en.wikipedia.org/wiki/Static_program_analysis)
 - [KeyBindings in VSCode](https://code.visualstudio.com/docs/getstarted/keybindings)
-- [Blog de Dev. To sobre personalización del editor de texto](https://dev.to/josuerodriguez98/my-vs-code-customization-i4o)
+- [Dev.To blog about text-editor customization](https://dev.to/josuerodriguez98/my-vs-code-customization-i4o)
 - [EditorConfig guide](https://editorconfig.org/)
