@@ -23,7 +23,7 @@ Especially if you are handling personal or sensitive data, you need to ensure th
 
 Your institution might provide local storage solutions and policies or guidelines restricting what you can use. Thus, we recommend you familiarise yourself with your local policies and recommendations.
 
-también puede buscar las bases de datos y repositorios apropiados en [FAIRsharing](https://fairsharing.org/databases), de acuerdo a su tipo de datos y tipo de acceso a los datos. Learn more about this in the {ref}`rr-rdm-sharing` subchapter.
+When you are ready to release the data to the wider community, you can also search for the appropriate databases and repositories in [FAIRsharing](https://fairsharing.org/databases), according to your data type, and type of access to the data. Learn more about this in the {ref}`rr-rdm-sharing` subchapter.
 
 (rr-rdm-storage-organisation)=
 ## Data Organisation
@@ -37,7 +37,7 @@ To organise your data, you can create a folder structure, or re-use a previous s
 ### Data Organisation Examples
 
 - Download [this](http://nikola.me/folder_structure.html) folder structure by Nikola Vukovic
-- Puede descargar estructuras de carpetas usando GitHub: [Esta plantilla](https://github.com/bvreede/good-enough-project) de Barbara Vreede, basado en [cookiecutter](https://github.com/cookiecutter/cookiecutter), sigue las prácticas recomendadas para la computación científica por [Wilson et al. (2017)](https://doi.org/10.1371/journal.pcbi.1005510).
+- You can pull/download folder structures using GitHub: [This template](https://github.com/bvreede/good-enough-project) by Barbara Vreede, based on [cookiecutter](https://github.com/cookiecutter/cookiecutter), follows recommended practices for scientific computing by [Wilson et al. (2017)](https://doi.org/10.1371/journal.pcbi.1005510).
 - See [this template](https://osf.io/4sdn3/) by Chris Hartgerink for file organisation on the [Open Science Framework](https://osf.io/).
 
 (rr-rdm-storage-conventions)=
