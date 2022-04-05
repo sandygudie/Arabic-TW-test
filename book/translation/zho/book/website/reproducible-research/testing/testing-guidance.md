@@ -2,44 +2,44 @@
 
 # General guidance and good practice for testing
 
-有几种 {ref}`不同的类型`<rr-testing-types-of-testing> (b) 每个国家都有特定最佳做法的测试结果。 然而，这里将概述一些适用于所有这些方面的一般性指导。
+There are several {ref}`different kinds`<rr-testing-types-of-testing> of testing which each have best practice specific to them. Nevertheless, there is some general guidance that applies to all of them, which will be outlined here.
 
-(rr-testing-wrtests)=
+(rr-testing-write-tests)=
 ## Write Tests - Any Tests!
 
-开始写入测试的过程可能会非常庞大，特别是如果你有一个大的代码基础。 此外，如上所述，有许多类型的测试，所有测试的实施似乎都是不可能登山的山脉。 这就是为什么本章中最重要的指导内容如下： **写一些测试**。 在代码中测试一件很长的小件事，这件事比测试一件长于数千行的代码中没有什么要好。 您可能无法做所有事情，但是做 *个很有价值。 * 是很有价值的。
+Starting the process of writing tests can be overwhelming, especially if you have a large code base. Further to that, as mentioned, there are many kinds of tests, and implementing all of them can seem like an impossible mountain to climb. That is why the single most important piece of guidance in this chapter is as follows: **write some tests**. Testing one tiny thing in a code that's thousands of lines long is infinitely better than testing nothing in a code that's thousands of lines long. 您可能无法做所有事情，但是做 *个很有价值。 * 是很有价值的。
 
-在您可以的地方进行改进 并尽最大努力将测试包括在您写的新代码中，即使不可能为已写入的所有代码写入测试。
+Make improvements where you can, and do your best to include tests with new code you write even if it's not feasible to write tests for all the code that's already written.
 
 ## Run the tests
 
-本章中第二项最重要的建议：进行测试。 如果你很少运行它，拥有一个美丽、完美的测试套件是没有用的。 在测试运行之间留下长期空白，使得更难追踪测试失败时出现的问题，因为这样做是因为： 很多代码将被更改。 而且，如果自进行试验以来已经过去了几个星期或几个月，而试验失败， 很难或不可能知道在平均时间内获得的结果仍然有效， 它们可能已经受到了bug的影响，必须被抛弃。
+The second most important piece of advice in this chapter: run the tests. Having a beautiful, perfect test suite is no use if you rarely run it. Leaving long gaps between test runs makes it more difficult to track down what has gone wrong when a test fails because, a lot of the code will have changed. Also, if it has been weeks or months since tests have been run and they fail, it is difficult or impossible to know which results that have been obtained in the mean time are still valid, and which have to be thrown away as they could have been impacted by the bug.
 
-最好是尽可能实现测试自动化。 如果每次试验都需要单独进行，那么这种艰苦的过程很可能被忽视。 可以通过使用测试框架来做到这一点([稍后讨论](#use-a-testing-framework))。 [Jenkins](https://jenkins.io) 是这方面的另一个好工具。 最好设置您的测试能够定期运行，可能是每晚运行。
+It is best to automate your testing as far as possible. If each test needs to be run individually then that boring painstaking process is likely to get neglected. This can be done by making use of a testing framework ([discussed later](#use-a-testing-framework)). [Jenkins](https://jenkins.io) is another good tool for this. Ideally set your tests up to run at regular intervals, possibly every night.
 
-考虑在您的项目上设置连续集成(在连续集成章节中讨论)。 每次更改代码时，这将自动运行测试， 根据您使用的连续集成软件，如果测试失败，将通知您。
+Consider setting up continuous integration (discussed in the continuous integration chapter) on your project. This will automatically run your tests each time you make a change to your code and, depending on the continuous integration software you use, will notify you if any of the tests fail.
 
 ## Consider how long it takes your tests to run
 
-Some tests, like {ref}`rr-testing-unittest` only test a small piece of code and so typically are very fast. However other kinds of tests, such as {ref}`rr-testing-systemtest` which test the entire code from end to end, may take a long time to run depending on the code. 因此，在每次几分工作之后运行整个测试套装都可能是阻碍性的。 However other kinds of tests, such as {ref}`rr-testing-systemtest` which test the entire code from end to end, may take a long time to run depending on the code. 因此，在每次几分工作之后运行整个测试套装都可能是阻碍性的。 在这种情况下，最好是经常进行体重较轻的检验，如单体检验，而长时间的检验则是每天隔夜只进行一次。 您每种测试的数量相对于运行需要多长时间，也是很好的。 您应该有很多单元测试(或其他类型的测试速度较快)，但要运行很长时间的测试要少得多。
+Some tests, like {ref}`rr-testing-unittest` only test a small piece of code and so typically are very fast. However other kinds of tests, such as {ref}`rr-testing-systemtest` which test the entire code from end to end, may take a long time to run depending on the code. 因此，在每次几分工作之后运行整个测试套装都可能是阻碍性的。 However other kinds of tests, such as {ref}`rr-testing-systemtest` which test the entire code from end to end, may take a long time to run depending on the code. As such it can be obstructive to run the entire test suite after each little bit of work. In that case it is better to run lighter weight tests such as unit tests frequently, and longer tests only once per day overnight. It is also good to scale the number of each kind of tests you have in relation to how long they take to run. You should have a lot of unit tests (or other types of tests that are fast) but much fewer tests which take a long time to run.
 
 ## Document the tests and how to run them
 
-必须提供文件，说明如何进行试验。 两者都是为了您自己，以防您将来回到一个项目。 和任何其他希望在你的工作基础上更上一层楼或转载你的工作的人。 这份文件还应包括下列主题：
+It is important to provide documentation that describes how to run the tests, both for yourself in case you come back to a project in the future, and for anyone else that may wish to build upon or reproduce your work. This documentation should also cover subjects such as
 
 - Any resources, such as test dataset files that are required
 - Any configuration/settings adjustments needed to run the tests
-- 需要安装什么软件 (例如 [测试框架](#use-a-testing-framework))
+- What software (such as [testing frameworks](#use-a-testing-framework)) need to be installed
 
-理想的情况是，您将提供脚本来设置和配置任何需要的资源。
+Ideally, you would provide scripts to set up and configure any resources that are needed.
 
 ## Test Realistic Cases
 
-使您测试的案例尽可能切合实际。 例如，如果： 您有运行测试的虚拟数据，请确保数据尽可能与实际数据相似。 如果您的实际数据带有很多空值，那么您的测试数据集应该是空的。
+Make the cases you test as realistic as possible. If for example, you have dummy data to run tests on you should make sure that data is as similar as possible to the actual data. If your actual data is messy with a lot of null values, so should your test dataset be.
 
 ## Use a Testing Framework
 
-有一些工具可以使写作和运行测试更加容易，这些工具被称为测试框架。 找一个你喜欢的人，学习它提供的功能并加以利用。 共同测试框架（及其所用语文）包括：
+There are tools available to make writing and running tests easier, these are known as testing frameworks. Find one you like, learn about the features it offers, and make use of them. Common testing frameworks (and the languages they apply to) include:
 
 - Language agnostic
   - CTest, test runner for executables, bash scripts, and more. Great for legacy code hardening
@@ -71,23 +71,23 @@ While modern C++ and C are still mostly compatible, they're not completely and u
 
 ## Aim to have a good code coverage
 
-代码覆盖面是测试“覆盖”你的代码的一个尺度。 更确切地说，这是衡量在进行测试时你的代码运行多少次。 例如： 如果你有 `如果语句` 语句，但只测试如果语句评为“False”，那么如果方块将不会运行任何代码。 因此，你的代码覆盖率将是 < 100%。 代码覆盖面不包含注释等文档，所以添加更多文档不会影响您的百分比。
+Code coverage is a measure of how much of your code is "covered" by tests. More precisely it a measure of how much of your code is run when tests are conducted. So for example, if you have an `if` statement but only test things where that if statement evaluates to "False" then none of the code in the if block will be run. As a result your code coverage would be < 100%. Code coverage doesn't include documentation like comments, so adding more documentation doesn't affect your percentages.
 
-正如所讨论的那样，任何试验都比没有试验有改进。 然而，我们至少希望你的代码覆盖面尽可能高，这是很好的。
+As discussed any tests are an improvement over no tests. Nevertheless it is good to at least aspire to having your code coverage as high as feasible.
 
-大多数编程语言都有可以输入的工具，或者可以导入的工具，或者作为测试框架的一部分，自动衡量代码覆盖面。 测量代码覆盖面也有很好的 [bot](https://codecov.io/)。
+Most programming languages have tools either built into them, or that can be imported, or as part of testing frameworks, which automatically measure code coverage. There's a nice little [bot](https://codecov.io/) for measuring code coverage available too.
 
-**弹着：覆盖面好的幻想。 ** 在某些情况下，相同的代码可以而且可能应该以多种方式测试。 例如，可以快速增加对输出应用“健康检查”测试的代码的覆盖率(另见 {ref})<rr-testing-challenges-difficult-quatify>但这并不排除这样的风险：由于错误的原因，代码正在产生基本正确的答案。 一般而言，最好的测试是将前后一致的代码中的较小而不是较大的组别隔开。 然后挑出单独的逻辑步骤。 尝试以思考在执行整个过程中可能出现的特定代码块的可能情况为指导。 并检验这些个别案件。 这常常会导致同一代码经过多次测试——这是个好事！
+**弹着：覆盖面好的幻想。 ** 在某些情况下，相同的代码可以而且可能应该以多种方式测试。 For example, coverage can quickly increase on code that applies "sanity check" tests to its output (see also {ref}<rr-testing-challenges-difficult-quatify>), but this doesn't preclude the risk that the code is producing the broadly right answer for the wrong reasons. In general, the best tests are those that isolate the smaller rather than larger chunks of coherent code, and so pick out individual steps of logic. Try to be guided by thinking about the possible things that might happen to a particular chunk of code in the execution of the whole, and test these individual cases. Often, this will result in the same code being tested multiple times - this is a good thing!
 
 ## Use test doubles/stubs/mocking where appropriate
 
-如果试验失败，应构造尽可能容易地追踪失败的来源。 如果你想要测试的代码不可避免地依赖于其他东西，这将成为问题。 例如，如果测试一个与 web 交互的代码失败， 这可能是因为代码有一个 bug *或* ，因为互联网连接有问题。 同样，如果使用对象的代码测试失败，可能是因为正在测试代码中存在错误， 或对象的问题(应通过自己单独的试验进行测试)。 如果可能，应从测试中删除这些依赖项。 这可以通过在真正依赖的地方使用测试替代(测试双倍)来实现。 测试双倍可分类如下：
+If a test fails it should be constructed such that it is as easy to trace the source of the failure as possible. This becomes problematic if a piece of code you want to test unavoidably depends on other things. For example if a test for a piece of code that interacts with the web fails, that could be because the code has a bug *or* because there is a problem with the internet connection. Similarly if a test for a piece of code that uses an object fails it could be because there is a bug in the code being tested, or a problem with the object (which should be tested by its own, separate tests). These dependencies should be eliminated from tests, if possible. This can be done by using test replacements (test doubles) in the place of the real dependencies. Test doubles can be classified as follows:
 
 - A dummy object is passed around but never used, meaning its methods are never called. Such an object can for example be used to fill the parameter list of a method.
 - Fake objects have working implementations, but are usually simplified. For example, they use an in memory database and not a real database.
 - A stub is a partial implementation for an interface or class with the purpose of using an instance of this stub during testing. Stubs usually don’t respond to anything outside what’s programmed in for the test. Stubs may also record information about calls.
 - A mock object is a dummy implementation for an interface or a class in which you define the output of certain method calls. Mock objects are configured to perform a certain behaviour during a test. They typically record the interaction with the system and tests can validate that.
 
-测试双倍可传递到其他测试对象。
+Test doubles can be passed to other objects which are tested.
 
-您可以手动创建模拟对象 (通过代码) 或使用模拟框架模拟这些类。 模拟框架允许您在运行时创建模拟对象并定义其行为。 模拟对象的典型例子是数据提供者。 在生产过程中使用了连接到实际数据源的实现方法。 但为了测试模拟对象模拟数据源并确保试验条件永远相同。
+You can create mock objects manually (via code) or use a mock framework to simulate these classes. Mock frameworks allow you to create mock objects at runtime and define their behaviour. The classical example for a mock object is a data provider. In production an implementation to connect to the real data source is used. But for testing a mock object simulates the data source and ensures that the test conditions are always the same.
