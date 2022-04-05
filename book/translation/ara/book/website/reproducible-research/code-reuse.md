@@ -1,23 +1,23 @@
-(r-code-reuse)=
+(rr-code-reuse)=
 # رمز قابل لإعادة الاستخدام
-يمكن لمشروع البرنامج الخاص بك أن يتراوح بين برنامج نصي صغير تستخدمه في معالجة البيانات ودفتر ملاحظات يستخدم لتحليل البيانات، أو مكتبة برمجيات تنفذ الخوارزميات الخاصة بك. بغض النظر عن حجم أو صغر مشروع البرنامج الخاص بك، من المهم جعل التعليمات البرمجية الخاصة بك قابلة لإعادة الاستخدام.
+Your software project could range from a small script you use for data processing to a notebook used for data analysis, or a software library implementing your algorithms. Regardless of how big or small your software project is, it is important to make your code reusable.
 
-ولأنواع مختلفة من البرمجيات متطلبات مختلفة لكي تكون قابلة لإعادة الاستخدام: لنص نصي صغير، وقد يكون الحصول على الوثائق الكافية كافيا، في حين قد يكون من الضروري إجراء اختبار شامل بالنسبة لمكتبة البرمجيات الحيوية للبعثة. في المستوى الأساسي جدا، كل ما عليك فعله هو وضع التعليمات البرمجية الخاصة بك على الإنترنت في مكان ما من المحتمل أن يستمر لفترة طويلة. نهج أكثر تفصيلاً لجعل برمجيات بحثك أكثر قابلية لإعادة الاستخدام هو باتباع مبادئ برامج البحث (FAIR Principles for Research Software (FAIR4RS) {cite:ps}`ChueHong2021FAIR4RS`.
+Different types of software have different requirements for being reusable: for a small script, having sufficient documentation might be enough, while for a mission critical software library, thorough testing might be necessary. At the most basic level, all you need to do is put your code online somewhere that is likely to last a long time. A more elaborate approach to making your research software more reusable is by following the FAIR Principles for Research Software (FAIR4RS Principles) {cite:ps}`ChueHong2021FAIR4RS`.
 
-عندما نتحدث عن جعل التعليمات البرمجية قابلة لإعادة الاستخدام، من المفيد توضيح ما نعنيه. في جدول تعاريف {ref}`للقابلية للتكاثر<rr-overview-definitions-reproducibility>` قمنا بتعريف البحث القابل للتكاثر على أنه استخدام نفس البيانات والشفرة نفسها. ومع ذلك، عندما نتحدث عن إعادة استخدام التعليمات البرمجية يمكن أن يأخذ هذا عدة أشكال: قد نريد تشغيل نفس التعليمات البرمجية بالضبط (بلغات البرمجة المجمعة). وهذا قد يعني حتى نفس الملف الثنائي) بالضبط، أو قد نرغب في تعديل شفرة المصدر وتوسيع نطاقها بطريقة معينة لتتناسب مع احتياجاتنا. Freire and Chirigati {cite:ps}`Freire2018Reduciity` يوفر إطاراً لمستويات مختلفة من القابلية للتكرار، اعتماداً على ما يمكن تعديله. وهي تحدد المستويات التالية من القابلية للتكرار: قابلة للتكرار، ويمكن إعادة تشغيلها، ويمكن تحويلها، ويمكن تمديدها، ويمكن تعديلها.
+عندما نتحدث عن جعل التعليمات البرمجية قابلة لإعادة الاستخدام، من المفيد توضيح ما نعنيه. In the {ref}`Table of Definitions for Reproducibility<rr-overview-definitions-reproducibility>` we defined reproducible research as using the same data and the same code. However, when we talk about code re-use this can take many forms: we may want to run the exact same code (for compiled programming languages, this could even mean the exact same binary file), or we may want to modify the source code and extend it in some particular way to fit our needs. Freire and Chirigati {cite:ps}`Freire2018Reproducibility` provide a framework of different levels of reproducibility, depending on what can be modified. They define the following levels of reproducibility: repeatable, re-runnable, portable, extendable and modifiable.
 
-وبوسعنا أن نضع تعريفات لإطار فريري على النحو التالي:
+We can map the definitions of reproducibly on the Freire framework as follows:
 
-| Freire framework | تعاريف التكرارية                                                          |
-| ---------------- | ------------------------------------------------------------------------- |
-| التكرار          | قابل للنسخ (نفس البيانات، نفس التحليل)                                    |
-| إعادة التشغيل    | قوي & قابل للتكرار (نفس التعليمة البرمجية، بيانات مختلفة/تحليل/بارامترات) |
-| محمول            | *لم يتم النظر في* (نفس الكود/البيانات، بيئة مختلفة)                       |
-| قابل للتوسع      | (جزئيا) عامّ                                                              |
-| قابل للتعديل     | (جزئيا) عامّ                                                              |
+| Freire framework | Definitions of reproducibly                                         |
+| ---------------- | ------------------------------------------------------------------- |
+| Repeatable       | Reproducible (same data, same analysis)                             |
+| Re-runnable      | Robust & Replicable (same code, different data/analysis/parameters) |
+| Portable         | *لم يتم النظر في* (نفس الكود/البيانات، بيئة مختلفة)                 |
+| Extendable       | (partly) Generalisable                                              |
+| Modifiable       | (partly) Generalisable                                              |
 
-ولم يسبق النظر في إمكانية النقل بل في بيئة مختلفة للبرمجيات (مثل مختلف المعدات). وقد يؤثر نظام التشغيل أو حتى تركيب جديد على معدات مماثلة) على قدرة البرنامج على العمل (على سبيل المثال، قد يؤثر على التبعيات).
+Portability was not previously considered, but for software a different environment (such as different hardware, operating system or even a fresh install on comparable hardware) may affect the ability for the software to work (for example it may affect dependencies).
 
 كما أن إمكانية التعميم تلخص مفهومين: القدرة الموسعة (القدرة على الاندماج مع برمجيات أخرى) والقدرة على التعديل (القدرة على تغيير جزء من التنفيذ لتوسيع نطاق وظيفتها).
 
-في بقية هذا الفصل نقدم قائمة بالتوصيات التي يمكنك اتباعها للتأكد من أن الكود الخاص بك قابل لإعادة الاستخدام.
+In the rest of this chapter we provide list of recommendations you can follow to make sure your code is reusable.
