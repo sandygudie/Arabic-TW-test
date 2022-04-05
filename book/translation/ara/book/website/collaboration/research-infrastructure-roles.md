@@ -1,29 +1,29 @@
-(بدولارات الولايات المتحدة)
-# أدوار البنية التحتية للبحث: مقدمة
+(cl-research-infrastructure-roles)=
+# Research Infrastructure Roles: Introduction
 
-ومن النادر أن يتم التعاون الناجح بدون شخص أو مجموعة من الناس، (ب) الاضطلاع بأعمال تنظيم التفاعل بين المشاركين، وتيسير العمل، ودعم أثر المشروع. ويمكن أن يكون هؤلاء الأشخاص إما متطوعين أو مدفوعة الأجر، حسب تمويل المشروع وحجمه وطوله، وعدد المنظمات المعنية.
+It is rare that successful collaborations occur without a person, or group of people, taking on the work of structuring participants interactions, facilitating work, and supporting the impact of the project. These people may be either volunteers or paid, depending on a project's funding, size, length, and number of organisations involved.
 
-إنها تسمى **أدوار البنية التحتية للبحث** لأن العمل الذي يؤدونه هو أساسا دعم عمل الباحثين، ورغم أن البحوث يمكن أن تشكل أيضا نسبة كبيرة من هذه الأدوار. وستختلف تفاصيل هذه الأدوار ولكنها يمكن أن تشمل معالجة العمل الإداري، وإدارة تخزين البيانات؛ مشاركة أصحاب المصلحة، والإدارة المجتمعية، والاتصالات، وهندسة البرمجيات، وتنسيق الأحداث، وأكثر من ذلك بكثير.
+They're called **research infrastructure roles** because the work they perform is primarily to support the work of researchers, although research can also be a significant proportion of these roles as well. The specifics of these roles will vary but can include handling administrative work, managing data storage, stakeholder engagement, community management, communications, software engineering, events coordination, and a lot more.
 
-وينتمي الأشخاص الذين يؤدون هذه الأنواع من الأدوار إلى خلفيات متنوعة، ولكن كثيرا ما تكون لديهم بعض الخبرة البحثية، وإن لم تكن بالضرورة في الميدان الذي يعملون فيه الآن. ومن الأمثلة على عناوين الأدوار ما يلي: مدير المجتمع، أو مدير المشروع، أو مهندس البرامجيات البحثية، أو قائد القابلية للتأثر، أو مدير تطبيقات البحوث، أو مدير البرنامج، أو مدير الشبكة، أو منسق الشبكات.
+People performing these types of roles come from varied backgrounds, but will often have some research experience, although not necessarily in the field they are now working in. Examples of role titles include: Community manager, project manager, research software engineer, reproducibility lead, research application manager, programme manager, administrator, or network coordinator.
 
-(الشروط الأساسية للبحث) =
-## الشروط المسبقة
+(cl-research-infrastructure-roles-prerequisites)=
+## Prerequisites
 
-لا توجد شروط مسبقة لهذا الفصل.
+There are no prerequisites for this chapter.
 
 
-(بدولارات الولايات المتحدة الأمريكية)
+(cl-research-infrastructure-roles-summary)=
 ## Summary
 
-ويغطي هذا الفصل من "سبيل التنقل" أمثلة على مختلف أدوار الهياكل الأساسية البحثية، وأهميتها في تعزيز التعاون. البحث الأخلاقي، وإمكانية التكرار، والموارد الإضافية لمعرفة المزيد عنها.
+This chapter of the Turing Way covers examples of different research infrastructure roles, their importance in promoting collaboration, ethical research, and reproducibility, and additional resources to find out more about them.
 
-وندعو أي شخص يعمل في مجال الهياكل الأساسية للبحوث إلى تبادل خبراته كدراسة حالة إفرادية.
+We invite anyone who works in a research infrastructure role to share their experiences as a case study.
 
 
-(بنية أساسية محفزة للبحث) =
-## الدافع والخلفية
+(cl-research-infrastructure-roles-motivation)=
+## Motivation and Background
 
-بدون أدوار البنية التحتية للبحوث، لن ينجح الكثير من المشروعات أبدا! ولكن هذا العمل غالبا ما يكون مخفيا وغير مرئي في الأوساط الأكاديمية، حيث تكون الأوراق والاستشهادات هي "عملة السمعة" الرئيسية، ويركز النظام تركيزاً شديداً على تعزيز العاملين في المهن الأكاديمية "التقليدية". والدافع إلى كتابة هذا الفصل وتقديم أمثلة على نوع العمل الذي يُضطلع به في الهياكل الأساسية للبحوث هو جعل هذا العمل الخفي مرآة لجمهور أوسع وإبراز مدى أهمية هذه الجوانب البحثية بالنسبة لأي مجتمع أو مشروع.
+Without research infrastructure roles, a lot of projects would never succeed! But this work is often hidden and not visible in academia, where papers and citations are the primary "reputation currency" and the system is very focused on promoting those in "traditional" academic careers. The motivation for writing this chapter and providing examples of the type of work that goes into research infrastructure is to make this hidden labour visible to a wider audience and highlight just how critical these aspects of research are for any community or project.
 
 مبادرات أخرى مثل [ معهد استدامة البرامج ](https://www.software.ac.uk/) و  مركز التعاون العلمي &amp؛ المشاركة المجتمعية</ 1> و  المرجع المخفي </ 2> في الإدراك المتزايد لأهمية هذه الأدوار للبحث. </p> 
