@@ -1,32 +1,32 @@
-(rr-Resumen)=
-# Descripción general de la investigación reproducible
+(rr-overview)=
+# Overview of Reproducible Research
 
-(rr-Resumen-prerrequisitos)=
-## Prerrequisitos
+(rr-overview-prerequisites)=
+## Prerequisites
 
-No se necesitan conocimientos previos.
+No previous knowledge needed.
 
 ```{figure} ../figures/research-cycle.jpg
 ---
-nombre: ciclo de investigación
-alto: El proceso de investigación está representado como un ciclo perpetrado de generar ideas de investigación, llevar a cabo la planificación y el diseño de datos, la recopilación de datos y el procesamiento y análisis de datos, la publicación, la preservación y por lo tanto, permitiendo la reutilización de los datos. 
+name: research-cycle
+alt: The research process is represented as a perpetual cycle of generating research ideas, performing data planning and design, data collection, and data processing and analysis, publishing, preserving and hence, allowing re-use of data. 
 ---
-_The Turing Way_ ilustración del proyecto por Scriberia. Utilizado bajo una licencia CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-(resumen de rr)=
+(rr-overview-summary)=
 ## Summary
 
-Los resultados científicos y la evidencia se fortalecen si estos resultados pueden ser replicados y confirmados por varios investigadores independientes (ver {ref}`definiciones <rr-overview-definitions>`).
+Scientific results and evidence are strengthened if those results can be replicated and confirmed by several independent researchers (see {ref}`definitions <rr-overview-definitions>`).
 
-Cuando los investigadores emplean transparencia en su investigación, en otras palabras, cuando documentan y comparten adecuadamente los datos y procesos asociados con sus análisis - la comunidad investigadora más amplia es capaz de ahorrar tiempo valioso al reproducir o construir a partir de resultados publicados. A menudo, los datos o el código de proyectos anteriores serán reutilizados por los nuevos investigadores para verificar los hallazgos antiguos o desarrollar nuevos análisis.
+When researchers employ transparency in their research - in other words, when they properly document and share the data and processes associated with their analyses - the broader research community is able to save valuable time when reproducing or building upon published results. Often, data or code from prior projects will be re-used by new researchers to verify old findings or develop new analyses.
 
-Aprende acerca de otros beneficios de la investigación reproducible en el subcapítulo {ref}`Ventajas añadidas <rr-overview-benefits>`
+Learn about some of the other benefits of reproducible research in the {ref}`Added Advantages <rr-overview-benefits>` subchapter.
 
-Los principales medios de comunicación han [reportado en](https://www.theguardian.com/science/2018/aug/27/attempt-to-replicate-major-social-scientific-findings-of-past-decade-fails) investigaciones que muestran que un porcentaje significativo de estudios científicos no puede reproducirse. Esto hace que otros académicos y la sociedad pierdan la confianza en los resultados científicos {cite:ps}`reproducibilidad de 2016`.
+Major media outlets have [reported on](https://www.theguardian.com/science/2018/aug/27/attempt-to-replicate-major-social-scientific-findings-of-past-decade-fails) investigations showing that a significant percentage of scientific studies cannot be reproduced. This leads to other academics and society losing trust in scientific results {cite:ps}`baker2016reproducibility`.
 
-Además, los "resultados negativos" pueden publicarse fácilmente, ayudando a evitar que otros investigadores pierdan el tiempo de repetición de análisis que no devolverán los resultados esperados {cite:ps}`Dirnagl2010bias`.
+In addition, "negative results" can be published easily, helping avoid other researchers wasting time repeating analyses that will not return the expected results {cite:ps}`Dirnagl2010bias`.
 
-Para obtener más información sobre reproducibilidad, consulte el subcapítulo {ref}`Recursos <rr-overview-resources>`.
+For further reading resources on reproducibility, please check out the {ref}`Resources <rr-overview-resources>` subchapter.
 
-***Etiquetas de capítulo**: Este capítulo está supervisado para el `Grupo de estudio de datos de Turing` (`turing-dsg`).*
+***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*
