@@ -1,152 +1,152 @@
-(rr-código reutilizar)=
-# Código reutilizable
-Su proyecto de software podría ir desde un pequeño script que utiliza para el procesamiento de datos hasta un cuaderno utilizado para el análisis de datos o una biblioteca de software que implementa sus algoritmos. Independientemente de lo grande o pequeño que sea su proyecto de software, es importante hacer que su código sea reutilizable.
+(rr-code-reuse)=
+# Reusable code
+Your software project could range from a small script you use for data processing to a notebook used for data analysis, or a software library implementing your algorithms. Regardless of how big or small your software project is, it is important to make your code reusable.
 
-Diferentes tipos de software tienen diferentes requisitos para ser reutilizables: para un script pequeño, tener suficiente documentación podría ser suficiente, mientras que para una misión crítica de la biblioteca de software, podría ser necesario realizar pruebas exhaustivas. En el nivel más básico, todo lo que necesitas hacer es poner tu código en línea en algún lugar que probablemente dure mucho tiempo. Un enfoque más elaborado para hacer su software de investigación más reutilizable es siguiendo los Principios FAIR para la Investigación de Software (FAIR4RS Principios) {cite:ps}`ChueHong2021FAIR4RS`.
+Different types of software have different requirements for being reusable: for a small script, having sufficient documentation might be enough, while for a mission critical software library, thorough testing might be necessary. At the most basic level, all you need to do is put your code online somewhere that is likely to last a long time. A more elaborate approach to making your research software more reusable is by following the FAIR Principles for Research Software (FAIR4RS Principles) {cite:ps}`ChueHong2021FAIR4RS`.
 
-Cuando hablamos de hacer que el código sea reutilizable, es útil aclarar lo que queremos decir. En la {ref}`Tabla de Definiciones para Reproducibilidad<rr-overview-definitions-reproducibility>` definimos la investigación reproducible como usar los mismos datos y el mismo código. Sin embargo, cuando hablamos de reutilizar código esto puede tomar muchos formularios: es posible que queramos ejecutar el mismo código exactamente (para lenguajes de programación compilados, esto podría significar el mismo archivo binario), o tal vez queramos modificar el código fuente y ampliarlo de una manera particular para satisfacer nuestras necesidades. Freire y Chirigati {cite:ps}`Freire2018Reproducibility` proporcionan un marco de diferentes niveles de reproducibilidad, dependiendo de lo que se puede modificar. Definen los siguientes niveles de reproducibilidad: repetible, reejecutable, portátil, extensible y modificable.
+When we talk about making code reusable, it is useful to clarify what is we mean. In the {ref}`Table of Definitions for Reproducibility<rr-overview-definitions-reproducibility>` we defined reproducible research as using the same data and the same code. However, when we talk about code re-use this can take many forms: we may want to run the exact same code (for compiled programming languages, this could even mean the exact same binary file), or we may want to modify the source code and extend it in some particular way to fit our needs. Freire and Chirigati {cite:ps}`Freire2018Reproducibility` provide a framework of different levels of reproducibility, depending on what can be modified. They define the following levels of reproducibility: repeatable, re-runnable, portable, extendable and modifiable.
 
-Podemos mapear las definiciones de forma reproducible en el marco Freire de la siguiente manera:
+We can map the definitions of reproducibly on the Freire framework as follows:
 
-| Freire framework | Definiciones de reproducibles                                             |
-| ---------------- | ------------------------------------------------------------------------- |
-| Repetible        | Reproducible (mismos datos, mismo análisis)                               |
-| Ejecutable       | Robusto & Replicable (mismo código, diferentes datos/análisis/parámetros) |
-| Portable         | *No considerado* (Mismo código/datos, entorno diferente)                  |
-| Ampliable        | (parcialmente) Generalizable                                              |
-| Modificable      | (parcialmente) Generalizable                                              |
+| Freire framework | Definitions of reproducibly                                         |
+| ---------------- | ------------------------------------------------------------------- |
+| Repeatable       | Reproducible (same data, same analysis)                             |
+| Re-runnable      | Robust & Replicable (same code, different data/analysis/parameters) |
+| Portable         | *Not considered* (Same code/data, different environment)            |
+| Extendable       | (partly) Generalisable                                              |
+| Modifiable       | (partly) Generalisable                                              |
 
-La portabilidad no se consideraba anteriormente, pero para el software un entorno diferente (como hardware diferente, el sistema operativo o incluso una instalación nueva en hardware comparable) puede afectar a la capacidad de funcionamiento del software (por ejemplo, puede afectar a las dependencias).
+Portability was not previously considered, but for software a different environment (such as different hardware, operating system or even a fresh install on comparable hardware) may affect the ability for the software to work (for example it may affect dependencies).
 
 Además, el generalizable encapsula dos conceptos: Extendible (la capacidad de integrarse con otro software) y Modible (la capacidad de cambiar parte de la implementación para extender su funcionalidad).
 
-En el resto de este capítulo le proporcionamos una lista de recomendaciones que puede seguir para asegurarse de que su código es reutilizable.
+In the rest of this chapter we provide list of recommendations you can follow to make sure your code is reusable.
 
-(rr-code-reuse-recomendación-lista de verificación)=
-## Cómo hacer que tu código sea más reutilizable
-Esta sección contiene una lista de recomendaciones para hacer su software más reutilizable. La sección {ref}`rr-code-reuse-recomendation-details` contiene una explicación más detallada de cada una de estas recomendaciones. Puede seguir las recomendaciones más adecuadas para su tipo de software y omitir las que no sean relevantes en su caso.
+(rr-code-reuse-recommendation-checklist)=
+## How to make your code more reusable
+This section contains a checklist of recommendations for making your software more reusable. The {ref}`rr-code-reuse-recommendation-details` section contains a more in-depth explanation of each of these recommendations. You can follow the recommendations that are more suitable for your type of software and skip the ones which are not relevant in your case.
 
-### Recomendaciones repetibles
-1. Asegúrese de encontrarlo (en el espacio)
-1. Asegúrate de encontrarlo (en el tiempo)
-1. Asegúrese de que puede ejecutar la misma secuencia de operaciones
-1. Asegúrese de que su entorno y secuencia de operaciones son robustas y no se necesita ningún humano para replicar lo que se hizo
-1. Licencia de tu código
-    - con una licencia que permite reutilizar;
-    - con una licencia compatible con las licencias de las dependencias
-1. Asegúrese de que es citable
-1. Incluye datos necesarios
-1. Escribe documentación útil*
+### Repeatable recommendations
+1. Make sure you can find it (in space)
+1. Make sure you can find it (in time)
+1. Make sure you can execute the same sequence of operations
+1. Make sure your environment and sequence of operations is robust and no human is needed to replicate what was done
+1. License your code
+    - with a license that allows for reuse;
+    - with a license compatible with the dependencies’ licenses
+1. Make sure it is citable
+1. Include necessary data
+1. Write useful documentation*
 
-### Recomendaciones reejecutables
-1. Remueve bits codificados y crea el código modular
-1. Comprueba que los módulos que has realizado pueden tomar diferentes tipos de datos de entrada o parámetros
-1. Convierte los módulos en un paquete/caja de herramientas
-1. Escribe documentación útil*
+### Re-runnable recommendations
+1. Remove hardcoded bits and make the code modular
+1. Test that the modules you made can take different types of input data or parameters
+1. Turn the modules into a package/toolbox
+1. Write useful documentation*
 
-### Recomendaciones portátiles
-1. Asegúrate de que puedes recrear el ambiente en el que viviste
-1. Escribe documentación útil*
+### Portable recommendations
+1. Make sure you can recreate the environment where it lived
+1. Write useful documentation*
 
-### Recomendaciones extensibles
-1. Escribe documentación útil*
+### Extendable recommendations
+1. Write useful documentation*
 
-### Recomendaciones modificables
-1. Asegúrese de que su código es legible por los humanos
-1. Asegúrate de que los comentarios estén presentes
-1. Escribe documentación útil*
+### Modifiable recommendations
+1. Make sure your code is readable by humans
+1. Make sure comments are present
+1. Write useful documentation*
 
-El lector observante puede notar que `La documentación útil de escritura` se menciona para cada nivel de reutilización. Esto se debe a que se requieren diferentes niveles de documentación para diferentes niveles de reutilización.
+The observant reader might will notice that `Write useful documentation` is mentioned for every level of reuse. This is because different levels of documentation are required for different levels of reuse.
 
-### Diferentes requisitos de documentación para diferentes niveles de reutilización
-Escribir documentación útil es un requisito importante para todos los niveles de reutilización. Sin embargo, para los diferentes niveles de reutilización hay diferentes requisitos de documentación:
+### Different documentation requirements for different levels of reuse
+Writing useful documentation is an important requirement for all levels of reuse. However, for the different levels of reuse, there are different documentation requirements:
 
-La documentación:
-- explica el uso, especificando:
-  - lo que hace el software; (requerido para repetir)
-  - cómo se puede utilizar; (requerido para repetir)
-  - qué opciones/parámetros están disponibles. (obligatorio para repetir)
-- contiene ejemplos de cómo ejecutarlo. (obligatorio para repetir)
-- tiene instrucciones de instalación, incluyendo buenas descripciones de:
-  - el hardware del que depende (por ejemplo GPUs); (requerido para portátil)
-  - el sistema operativo en el que el software ha sido probado; (requerido para portátil)
-  - requerimientos de software (como librerías y ajustes de shell). (requerido para portátil)
+The documentation:
+- explains usage, specifying:
+  - what the software does; (required for repeatable)
+  - how it can be used; (required for repeatable)
+  - what options/parameters are available. (required for repeatable)
+- contains examples of how to run it. (required for repeatable)
+- has installation instructions, including good descriptions of:
+  - the hardware it depends on (for example GPUs); (required for portable)
+  - the operating system the software has been tested on; (required for portable)
+  - software requirements (such as libraries and shell settings). (required for portable)
 
-(rr-code-reuse-recomendación-detalles)=
-## Recomendaciones para código reutilizable
-Asegúrese de que usted (o alguien más) puede reutilizar su código para hacer lo mismo exacto que hizo. La sección {ref}`rr-code-reuse-recomendation-checklist` contiene una lista de recomendaciones para hacer su software más reutilizable. En esta sección encontrará una explicación más detallada de cada una de estas recomendaciones, con indicaciones a otras partes relevantes de esta guía.
+(rr-code-reuse-recommendation-details)=
+## Recommendations for reusable code
+Make sure you (or somebody else) can re-use your code to do the same exact thing you did. The {ref}`rr-code-reuse-recommendation-checklist` section contains a checklist of recommendations for making your software more reusable. In this section contains a more in-depth explanation of each of these recommendations, with pointers to other relevant parts of this guide.
 
-### Recomendaciones repetibles
-En esta etapa, puede que ni siquiera necesites ser capaz de abrir el código y leerlo, sólo quiere asegurarse de que puede volver a ejecutar todos los pasos necesarios y obtener los mismos resultados que ha obtenido.
+### Repeatable recommendations
+At this stage, you might not even need to be able to open the code and read it, you just want to make sure you can re-run all the needed steps and obtain the same results you had.
 
-#### 1. Asegúrese de encontrarlo (en el espacio)
-Tu código debe ser almacenado públicamente y compartido con los colaboradores. Tiene un identificador persistente único, para que todo el mundo pueda encontrarlo y acceder a él.
+#### 1. Make sure you can find it (in space)
+Your code must be stored publicly and shared with collaborators. It has an unique persistent identifier, so that everyone can find it and access it.
 
-**Ver también**: {ref}`rrr-vcs`
+**See also**: {ref}`rr-vcs`
 
-#### 2. Asegúrate de encontrarlo (en el tiempo)
-Idealmente la evolución temporal del código se documenta con el control de versiones. Esto le permite recuperar una versión específica del pasado.
+#### 2. Make sure you can find it (in time)
+Ideally the temporal evolution of the code is documented with version control. This allows you to retrieve a specific version from the past.
 
-**Ver también**: {ref}`rrr-vcs`
+**See also**: {ref}`rr-vcs`
 
-#### 3. Asegúrese de que puede ejecutar la misma secuencia de operaciones
-A menudo el humano que configura el medio ambiente es también el que escribió el código y el que conoce el orden exacto de los pasos necesarios para poder volver a ejecutar el código y reproducir los resultados. Sin duda, esto podría documentarse cuidadosamente para que otro humano lo rehiciera.
+#### 3. Make sure you can execute the same sequence of operations
+Often the human who set up the environment is also the one who wrote the code and the one who knows the exact order of steps needed to be able to re-run the code and reproduce the results. This could surely be carefully documented for another human to re-do it.
 
-**Ver también**: [lección de Refinería sobre Investigación Reproducible](https://coderefinery.github.io/reproducible-research/)
+**See also**: [CodeRefinery lesson on Reproducible Research](https://coderefinery.github.io/reproducible-research/)
 
-#### 4. Asegúrese de que su entorno y secuencia de operaciones son robustas y no se necesita ningún humano para replicar lo que se hizo
-No quieren depender de los seres humanos. Tienden a cometer errores incluso si no tienen malas intenciones. Así que quiere que su entorno se escriba y se vuelva a crear cuando sea necesario y desea que su secuencia de operaciones sea ejecutada por un script pipeline que junte toda la secuencia de pasos.
+#### 4. Make sure your environment and sequence of operations is robust and no human is needed to replicate what was done
+You do not want to depend on humans. They tend to make errors even if they do not have bad intentions. So you want your environment to be scripted and be re-created when needed and you want your sequence of operations to be run by a pipeline script that glues together all the sequence of steps.
 
-**Ver también**: {ref}`rrr-renv-options`
+**See also**: {ref}`rr-renv-options`
 
-#### 5. Licencia de tu código
-Asegúrese de adjuntar una licencia a su código y especificar cómo quiere que se cite cuando la gente vuelva a utilizarlo. Considere usar una licencia permisiva que permita reutilizarla. Además, debe elegir una licencia que sea compatible con las licencias de bibliotecas o paquetes de los que depende su software.
+#### 5. License your code
+Make sure you attach a license to your code and specify how you want to be cited when people re-use it. Consider using a permissive license that allows for reuse. Also, you should choose a license which is compatible with the licenses of libraries or packages your software depends on.
 
-**Ver también**: {ref}`rrr-licensing-software`, {ref}`rr-licensing-software-permissive`, {ref}`rrr-licensing-compatibility`
+**See also**: {ref}`rr-licensing-software`, {ref}`rr-licensing-software-permissive`, {ref}`rr-licensing-compatibility`
 
-#### 6. Asegúrese de que es citable
-Asegúrese de especificar cómo quiere que se cite cuando la gente vuelva a usarlo.
+#### 6. Make sure it is citable
+Make sure to specify how you want to be cited when people re-use it.
 
-**Ver también**: {ref}`cm-citable-cite-software`
+**See also**: {ref}`cm-citable-cite-software`
 
-#### 7. Incluye datos necesarios
-Si el software depende de cualquier tipo de datos, los datos deben estar disponibles
+#### 7. Include necessary data
+If the software depends on any sort of data, the data should be available
 
-**Ver también**: {ref}`rrr-rdm-data`
+**See also**: {ref}`rr-rdm-data`
 
-### Recomendaciones reejecutables
-Asegúrese de que usted (o otros) puede reutilizarlo para hacer lo que hizo, pero con diferentes datos/parámetros
+### Re-runnable recommendations
+Make sure you (or others) can re-use it to do the thing you did, but with different data/different parameters
 
-#### 1. Remueve bits codificados y crea el código modular
-No quiere tener detalles específicos de sus datos o parámetros de análisis codificados en el código. Si algo puede convertirse en una función reutilizable, separarlo de los parámetros codificados en hardcoded y convertirlo en algo (re)utilizable por sí solo. Hacer los módulos puros: dada la misma entrada, una función pura siempre devuelve el mismo valor.
+#### 1. Remove hardcoded bits and make the code modular
+You do not want to have details specific of your data or analysis parameters hardcoded into the code. If something can become a reusable function, separate it from the hardcoded parameters and turn it into something (re)usable on its own. Make the modules pure: given the same input, a pure function always returns the same value.
 
-**Ver también**: [lección de desarrollo de código Modular de CodeRefinery](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md/#1)
+**See also**: [CodeRefinery Modular Code Development lesson](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md/#1)
 
-#### 2. Comprueba que los módulos que has realizado pueden tomar diferentes tipos de datos de entrada o parámetros
-Puede que aún no sepas cómo se reutilizará tu código en el futuro, pero puede prevenir cómo no debe ser usado si puede probar qué parámetros están permitidos.
+#### 2. Test that the modules you made can take different types of input data or parameters
+You might not know yet how your code will be re-used in the future, but you can prevent how it should not be used if you can test which parameters are allowed.
 
-**Ver también**: [Clase de Refinería de Codefinería sobre Pruebas Automáticas](https://coderefinery.github.io/testing/motivation/)
+**See also**: [CodeRefinery lesson on Automated testing](https://coderefinery.github.io/testing/motivation/)
 
-#### 3. Convierte los módulos en un paquete/caja de herramientas
-Separe aún más las especificaciones de su proyecto con los bits que pueden ser reutilizados en otros de sus proyectos o por otras personas.
+#### 3. Turn the modules into a package/toolbox
+Separate even more the specifics of your project with the bits that can be reused in other of your projects or by other people.
 
-**Ver también**: {ref}`rr-renv-package`, [Software de empaquetado](https://scicomp.aalto.fi/scicomp/packaging-software/), [Paquete de software en Python](https://aaltoscicomp.github.io/python-for-scicomp/packaging/)
+**See also**: {ref}`rr-renv-package`, [Packaging software](https://scicomp.aalto.fi/scicomp/packaging-software/), [Software packaging in Python](https://aaltoscicomp.github.io/python-for-scicomp/packaging/)
 
-### Recomendaciones portátiles
-La portabilidad se refiere a la capacidad de transferir software a un nuevo entorno. Esto podría referirse a una máquina idéntica (pero no la misma), pero también puede referirse a una nueva arquitectura de hardware, sistema operativo y tales. Ambos son importantes para la reutilización de software.
+### Portable recommendations
+Portability refers to the ability to transfer software to a new environment. This could refer to an identical (but not the same) machine, but it can also refer to a new hardware architecture, operating system and such. Both of these are important for software reuse.
 
-#### 1. Asegúrate de que puedes recrear el ambiente en el que viviste
-El entorno es una instantánea frágil en el tiempo que acompaña silenciosamente el código. Puede incluir al humano que operó el software, los pasos que el humano hizo para preparar los datos, el hardware, el sistema operativo, las bibliotecas, paquetes externos, cajas de herramientas/dependencias. Todo esto puede ser documentado cuidadosamente para que otro humano vuelva a hacer los mismos pasos exactos.
+#### 1. Make sure you can recreate the environment where it lived
+The environment is a fragile snapshot in time which silently accompanies the code. It can include the human who operated the software, the steps the human did to prepare the data, the hardware, the OS, the libraries, external packages/toolboxes/dependencies. All this can be carefully documented for another human to re-do all the same exact steps.
 
-**Ver también**: {ref}`rr-renv`
+**See also**: {ref}`rr-renv`
 
-### Recomendaciones extendibles y modificables
-Asegúrate de que otros puedan construir tu código para ampliarlo y mejorarlo.
+### Extendable and Modifiable recommendations
+Make sure others can build on your code to extend it and improve it.
 
-#### 1. Asegúrese de que su código es legible por los humanos
-A menudo paga más por escribir código para otros seres humanos para que puedan leerlo (incluyendo tu futuro mismo). Un oneliner críptico con nombres de variables oscuros no es más rápido o más eficiente que dividir el liner único en múltiples pasos con nombres de variables legibles que tengan sentido. Además, el uso de convenciones de codificación ayudará a otros lectores.
+#### 1. Make sure your code is readable by humans
+It often pays more to write code for other humans so they can read it (including your future self). A cryptic oneliner with obscure variable names is not any faster or more efficient than splitting the one liner into multiple steps with readable variable names that make sense. Furthermore, using coding conventions will help other readers.
 
-**Ver también**: {ref}`rrr-code-style-and-formatting`, {ref}`rr-code-quality-advantages`
+**See also**: {ref}`rr-code-style-and-formatting`, {ref}`rr-code-quality-advantages`
 
-#### 1. Asegúrate de que los comentarios estén presentes
-Escribe comentarios antes de escribir el código real. Imagina que alguien podría leer los comentarios y omitir todos los bits de código entre los comentarios y obtener una imagen completa de lo que está pasando como si leyera el código completo.
+#### 1. Make sure comments are present
+Write comments before writing the actual code. Imagine that somebody could just read the comments and skip all the code bits between comments and get a full picture of what is going on as if they read the whole code.
