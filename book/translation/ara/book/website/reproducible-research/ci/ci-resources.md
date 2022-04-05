@@ -9,7 +9,7 @@
 - That project should have at least some tests
 - Write a `ci.yml` file which:
   - Must be inside `.github/workflows`
-  - حدد اسم حدث GitHub الذي يشغل سير العمل باستخدام مفتاح `` على YMAL.
+  - Define the name of the GitHub event that triggers the workflow using `on` key on the YMAL.
   - Defines a specific host machine on which to run the job using `jobs` and `runs-on`.
   - Includes code to install any dependencies required to run the project in a before_install step
   - Contains a script to run the project tests
