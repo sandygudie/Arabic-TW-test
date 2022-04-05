@@ -10,8 +10,8 @@ You should cite research objects directly in the paper in places where it is rel
 - Access information (a URL or DOI)
 
 A citation style is a specific arrangement, order and formatting of information necessary for a citation. For instance, the MLA style was developed by Modern Language Association (originally used in the humanities) and the APA style was developed by American Psychological Association (originally used in psychology and the social sciences).
-- El estilo de cita de MLA utiliza el siguiente formato: `Author. "Title of the Source." "Título de la fuente" Título del contenedor, Otros colaboradores, versión, número, editor, fecha de publicación, ubicación.`
-- El estilo de cita APA utiliza el siguiente formato: `Author. (Year). Title of data set (Version number). [Retrieved from] ***OR*** [DOI]`
+- MLA citation style uses the following format: `Author. "Title of the Source." Title of the Container, Other contributors, Version, Number, Publisher, Publication date, Location.`
+- APA citation style uses the following format: `Author. (Year). Title of data set (Version number). [Retrieved from] ***OR*** [DOI]`
 
 See [Scribbr Citation Styles Guide](https://www.scribbr.com/citing-sources/citation-styles/). See also [FORCE11 resource](https://www.force11.org/node/4771).
 
@@ -24,7 +24,7 @@ You can find examples of these statements in the publishers' (research data) aut
 
 ### Data availability statement examples:
 
-**Utilizando el Identificador Digital de Objetos (DOI):** "Los datos que apoyan los resultados de este estudio están abiertamente disponibles en [nombre del repositorio] en http://doi.
+**Using the Digital Object Identifier (DOI):** “The data that support the findings of this study are openly available in [repository name] at http://doi.org/[doi].”
 
 **If no DOI is issued:**
 - “The data that support the findings of this study are openly available in [repository name] at [URL], reference number [reference number].”
