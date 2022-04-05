@@ -30,7 +30,7 @@ Researchers that make use of open-source software often make changes to them, su
 ### Contributing to Others' Open Source Software Projects
 
 - _It is empowering to be able to make changes, even small ones_: You do not have to become a lifelong contributor to enjoy participating in open source. Have you ever seen a typo on a website, and wished someone would fix it? On an open source software project, you can do just that. Open source helps people feel agency over their lives and how they experience the world, and that in itself is gratifying.
-- _Es divertido_: El código abierto proporciona un conjunto de cubos Rubix interminables y cambiantes para que puedas resolver los fines de semana. Just like puzzles, both crossword and jigsaw, open source provides bite-sized intellectual escapes.
+- _It is fun_: Open source provides an endless, ever-changing set of Rubix cubes for you to solve on weekends. Just like puzzles, both crossword and jigsaw, open source provides bite-sized intellectual escapes.
 
 (rr-open-source-benefitsresearch)=
 ## How Open Source Software Benefits Research
