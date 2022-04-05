@@ -69,7 +69,7 @@ Within the category of free software, there are several subcategories, which are
 
 Modifying a program leads to a new program that is derived from the original. This is similar to deriving the new edition of a textbook from the original. Both the original and modified versions are works under copyright law, and both of them may be licensed.
 
-Como ejemplo de combinar software, imagínese un programa A que utilice dos bibliotecas preexistentes B y C. El programa A completo consistirá en la biblioteca B, biblioteca C, y algún código D que conecta las bibliotecas y quizás agrega funcionalidad adicional. Each of these four items is a work of authorship with a license. Program A can sometimes be referred to as the "Combined work", "Work as a whole" or "Larger work".
+As an example of combining software, imagine a program A that uses two preexisting libraries B and C. The complete program A will consist of library B, library C, and some code D that connects the libraries together and perhaps adds additional functionality. Each of these four items is a work of authorship with a license. Program A can sometimes be referred to as the "Combined work", "Work as a whole" or "Larger work".
 
 Different free software licenses place different constraints on how modified versions and combined works can be licensed.
 
