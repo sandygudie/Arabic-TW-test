@@ -1,67 +1,67 @@
-(motivação-co-trabalho)=
-# Fundo, Motivações e Técnicas
+(ch-coworking-motivation)=
+# Background, Motivations, and Techniques
 
-## Fundo e Motivação
+## Background and Motivation
 
-Quando _The Turing Way_ começou com cerca de 10 membros localizados no Reino Unido Podem trabalhar em tempo real e muitas vezes juntos no mesmo local. Eles compartilharam ideias, ajudaram uns aos outros, receberam enormes quantidades de escrita, edição e revisão feita, e se divertiram muito interagindo uns com os outros.
+When _The Turing Way_ started with around 10 members located in the United Kingdom, they could work in real-time and often together in the same location. They shared ideas, helped each other out, got huge amounts of writing, editing and reviewing done, and had lots of fun interacting with each other.
 
-Para ajudar a comunidade de contribuidores a crescer além da equipe principal, a trava do livro presencial (uma versão mais curta de [sprints de livros](https://www.booksprints.net/)) foi hospedada para oferecer aos participantes interessados um ambiente colaborativo semelhante com uma vantagem de se conectar informalmente. No entanto, nem todos podem participar nesses eventos presenciais. Estes funcionam apenas para pessoas que podem levar 1-2 dias inteiros de suas responsabilidades pessoais e relacionadas ao trabalho para assistir ao evento. Além disso, eles levam muito tempo e esforço na organização e são caros para correr, especialmente se quisermos acolhê-los com frequência para permitir que cada vez mais participantes sintam a alegria de trabalhar em conjunto.
+To help the community of contributors grow beyond the core team, the in-person book dash (a shorter version of [book sprints](https://www.booksprints.net/)) were hosted to offer interested participants a similar collaborative environment with an advantage to connect with each other informally. However, not everyone can join such in-person events. These only work for people who can take 1-2 full days from their job-related and personal responsibilities to attend the event. Moreover, they take a lot of time and effort in organisation and are expensive to run, especially if we want to host them frequently to allow more and more participants to experience the joy of working together.
 
-É aqui que a prática de cotrabalhar on-line é extremamente valiosa para _The Turing Way_ como um projeto comunitário.
+This is where the practice of online coworking is extremely valuable for _The Turing Way_ as a community project.
 
-A motivação por trás da hospedagem destas chamadas online para _A Caminho da Turing_ comunidade é a seguinte:
+The motivation behind hosting these online calls for _The Turing Way_ community are the following:
 
-1. Integre membros que são novos no projeto, fornecendo uma orientação em tempo real
-2. Crie conexões pessoais entre membros da comunidade
-3. Apoie os contribuidores conforme eles editam, revisam, projetam e escrevem conteúdo para o livro
-4. Crie uma sensação de responsabilidade e de propriedade para os objetivos que os nossos membros querem atingir no projeto
-5. Comemore o progresso de _The Turing Way_ e construa consensos de forma colaborativa sobre os próximos passos e direções futuras.
+1. Onboard members who are new to the project by providing a real-time orientation
+2. Build personal connections between members of the community
+3. Support contributors as they edit, review, design and write content for the book
+4. Create a sense of accountability and ownership for the goals our members want to accomplish in the project
+5. Celebrate the progress of _The Turing Way_ and collaboratively build consensus on the next steps and future directions.
 
-Buscamos criar um espaço seguro para experiência compartilhada, conexão, suporte e colaboração para a comunidade distribuída de _The Turing Way_.
+We aim to create a safe space for shared experience, connection, support and collaboration for the distributed community of _The Turing Way_.
 
-Se você quer ir a essas chamadas, mas não sabe no que trabalhar. _A Caminho em Turing_ os membros do núcleo da equipe estarão em chamada e o apontarão para alguns pontos de partida no projeto e outros esforços contínuos, onde você pode fazer a diferença.
+If you want to attend these calls but don't know what to work on, don't worry! _The Turing Way_ core team members will be on the call and point you to some starting points in the project and other ongoing efforts where you can make a difference.
 
-## Técnicas
+## Techniques
 
-Oferecemos dois tipos de chamadas de trabalho: chamadas curtas de 1 hora por semana para trabalhar em projetos em andamento na comunidade, e longas pastas de Colaboração Bimonesa de 2 horas que oferecem uma mistura de discussões comunitárias e espaços de trabalho silenciosos. Encorajamos os nossos membros a participarem durante o máximo de tempo que o calendário permitir, mesmo que não possam estar presentes durante toda a chamada.
+We offer two types of coworking calls: 1-hour short calls every week to work on ongoing projects in the community, and 2-hour long bimonthly Collaboration Cafes that offers a mix of community discussion and quiet working slots. We encourage our members to attend for as long during these designated hours as their schedule allows, even if they can't be present during the entire call.
 
-Estas chamadas utilizam uma combinação de duas técnicas:
-1. Método de silêncio & Escrita
-2. Técnica de Intervalo Pomodoro
+These calls use a combination of two techniques:
+1. Shut up & Write method
+2. Pomodoro Interval Technique
 
-### Desligar & Escrever
+### Shut up & Write
 
-O [Fechamento & Escrever!](https://shutupwrite.com/) são *encontros de escrita locais onde você obtém sua escrita*. Seu método [](https://shutupwrite.com/method) divide o processo de escrita em oito etapas: ideação, estruturação, desenho, edição, reestruturação e revisão, polimento, publicação, e promoção. Incentivam os seus participantes a identificarem o que querem escrever e onde estão neste processo de oito fases. Uma vez que eles identifiquem seu ponto de partida e se comprometam a passar pelos próximos passos, praticando a consistência *de forma constante para "The End"*.
+The [Shut up & Write!](https://shutupwrite.com/) are *local writing meetups where you get your writing done*. Their [method](https://shutupwrite.com/method) divides the writing process into eight steps: ideation, structuring, drafting, editing, restructuring and revising, polishing, publishing, and promoting. They encourage their participants to identify what they want to write and where they are in this eight-step process. Once they identify their starting point and commit to getting through the next steps by practicing consistency *steadily to “The End”*.
 
-Eles explicam que a Calada & Escreva! eventos fornecem duas coisas:
+They explain that the Shut up & Write! events provide two things:
 
-**1. Responsabilidade & Formação de Hábitos:**
+**1. Accountability & Habit Formation:**
 
-Um novo hábito se torna parte da nossa rotina quando nos comprometemos a fazê-los de forma consistente em um determinado dia, horário e local. Com base neste princípio, Desligar & Escrever eventos permitem que os participantes produzam resultados bem-sucedidos para suas atividades de escrita, assumindo o compromisso de participar do evento de escrita todas as semanas ao mesmo tempo durante 1 hora.
+A new habit becomes a part of our routine when we commit to doing them consistently on a specific day, time, and location. Based on this principle, Shut up & Write events allow participants to yield successful outcomes for their writing assignments by making the commitment to attend the writing event each week at the same time for 1 hour.
 
-**2. Motivação social & Suporte:**
+**2. Social Motivation & Support:**
 
-O *sentimento de pertença* pode aumentar o desempenho e engajamento nas tarefas. Num inquérito realizado sobre 2000 participantes de diferentes sectores, alto pertencente a um aumento de 56% no desempenho da tarefa {cite:ps}`HBR2019Belonging`. Ao longo da mesma linha, Cala a boca & Escreva eventos fornecem uma sensação de comunidade onde os participantes se sentem apoiados e motivados por todos os outros escrevendo ao seu redor.
+The *sense of belonging* can increase performance and engagement in tasks. In a survey conducted on 2000 participants from different sectors, high belonging was linked to a whopping 56% increase in job performance {cite:ps}`HBR2019Belonging`. Along the same line, Shut Up & Write events provide a sense of community where attendees feel supported and motivated by everyone else writing around them.
 
-Criam um ciclo de 3 experiências: "construção e progresso hábitos", "suporte social e responsabilidade social" e "excelente experiência de escrita", que mantêm as pessoas envolvidas, sentem-se comprometidas e realizam o que se propuseram fazer.
+They create a cycle of 3 experiences: "habit building and progress", "social support and accountability" and "great writing experience", which keep people engaged, feel committed and accomplish what they set out to do.
 
 ### Pomodoro Technique
 
-A técnica de [pomodoro](https://en.wikipedia.org/wiki/Pomodoro_Technique) usa um temporizador para dividir o trabalho em intervalos menores geralmente de 25 minutos chamados "Pomodoros", Separados por pausas curtas de 5 minutos. Como a técnica anterior, a técnica Pomodoro permite planejamento, rastreamento, gravação, processamento e visualização da tarefa em mãos.
+The [pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) uses a timer to break down work into smaller intervals usually of 25 minutes called "Pomodoros", separated by short breaks of 5 minutes. Like the previous technique, the Pomodoro technique allows planning, tracking, recording, processing and visualizing the task at hand.
 
-> Pomodoro, da palavra italiana "tomato", depois do cronômetro de cozinha em forma de tomate que Francesco Cirillo utilizou como estudante universitário. {cite:ps}`Lifehack2020pomodoro`
+> Pomodoro, from the Italian word for 'tomato', after the tomato-shaped kitchen timer that Francesco Cirillo used as a university student. {cite:ps}`Lifehack2020pomodoro`
 
-O objetivo desta técnica é evitar adiamentos e fazer as coisas com a ajuda do seguinte fluxo de trabalho:
-- identificar a tarefa
-- defina o temporizador Pomodoro (25 minutos de duração)
-- trabalhar na tarefa até o cronômetro tocar
-- pausa de 5 minutos
-- identificar o que você trabalharia na próxima
-- reinicie o temporizador e repita o fluxo de trabalho
+The goal of this technique is to avoid procrastinating and get things done with the help of the following workflow:
+- identify the task
+- set the Pomodoro timer (25 minutes long)
+- work on the task until the timer rings
+- take a 5 minutes break
+- identify what would you work on next
+- restart the timer and repeat the workflow
 
-O método original recomenda que se coloque uma marca de verificação num pedaço de papel para contar o número de Pomodoros e sugere que se faça uma pausa mais longa de 15-30 após quatro Pomodoros. As maiores quebras podem ser usadas para as seguintes tarefas:
-- Reflita sobre o trabalho que você poderia fazer no último Pomodoros
-- Reflita sobre o que você aprendeu e o que você faria de maneira diferente indo em frente
-- Identificar o próximo conjunto de tarefas ou as próximas etapas do projeto em que você está trabalhando
+The original method recommends putting a checkmark on a piece of paper to count the number of Pomodoros and suggests taking a longer break of 15-30 minutes after four Pomodoros. The longer breaks can be used for the following tasks:
+- Reflect on the work that you could get done in the last Pomodoros
+- Reflect on what you learned and what you would do differently going forward
+- Identify the next set of tasks or the next steps in the project you are working on
 
-Nos próximos sub-capítulos, explicamos nossos formatos de chamada co-trabalho onde combinamos essas duas técnicas para hospedar os cafés bisemanais e as chamadas semanais de colaboração para os membros da comunidade.
+In the next subchapters, we explain our coworking call formats where we combine these two techniques to host the biweekly Collaboration Cafes and weekly coworking calls for our community members.
