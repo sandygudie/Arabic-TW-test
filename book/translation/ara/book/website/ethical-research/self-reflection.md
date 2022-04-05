@@ -10,7 +10,7 @@ There are no prerequisites for this chapter. However, it's advised that you shou
 (er-self-reflection-summary)=
 ## Summary
 
-Our lived experiences and identities give us a particular lens to view the world through, which can be shaped by where we live, the places we work, the education we receive, or the dominant culture we were brought up in. However, this can also lead us to see a situation or problem in one particular way, or to take approaches that exclude certain people or groups. عندما يتعلق الأمر بالمعضلات الأخلاقية، فإن تجاربنا الحية تشكل أيضا أخلاقياتنا الشخصية **، والتي هي الطريقة التي نتخذ بها القرارات حول ما هو صحيح أو خاطئ.
+Our lived experiences and identities give us a particular lens to view the world through, which can be shaped by where we live, the places we work, the education we receive, or the dominant culture we were brought up in. However, this can also lead us to see a situation or problem in one particular way, or to take approaches that exclude certain people or groups. When it comes to ethical dilemmas, our lived experiences also shape our *personal ethics*, which are the way we make decisions about what is right or wrong.
 
 **Self-reflection** is a method we can use to examine our personal assumptions, patterns and actions. When we understand ourselves better, we can ask questions about why we do things in a certain way and challenge ourselves to consider new perspectives or to act differently. This can help to make sure the research we are conducting is responsible, inclusive, fair and ultimately ethical!
 
