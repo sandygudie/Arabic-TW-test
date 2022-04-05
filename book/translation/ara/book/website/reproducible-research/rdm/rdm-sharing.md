@@ -10,7 +10,7 @@ There are many reasons to share your research data publicly.
 3. To facilitate collaboration and increase the impact and quality of scientific research.
 4. To make results of research openly available as a public good, since research is often publicly funded.
 
-يمكنك قراءة المزيد حول لماذا يجب أن تكون البيانات متاحة، ولماذا يجب أن تبقى بعض البيانات مغلقة، في قسم البيانات المفتوحة {ref}`<rr-open-data>`
+You can read more about why data should be available, and why some data should remain closed, in the {ref}`Open Data section <rr-open-data>`
 
 (rr-rdm-sharing-steps)=
 ## Steps To Share Your Data
@@ -23,7 +23,7 @@ Not all data can be made openly available, due to ethical and commercial concern
 
 Data should be shared in a formal, open, and indexed data repository [{term}`def<Repository>`] where possible so that it will be accessible in the long run. Suitable data repositories by subject, content type or location can be found at [Re3data.org](https://www.re3data.org/), and in [FAIRsharing](https://fairsharing.org/databases) where you can also see which standards (metadata and identifier) the repositories implement and which journal/publisher recommend them. If possible use a repository that assigns a DOI, a digital object identifier, to make it easier for others to cite your data. Have a look in the {ref}`cm-citable` to see how to share and cite your data and other research objects. The {ref}`cm-citable-linking` section explains several options for linking your data and other research objects.
 
-بعض مستودعات البيانات العامة هي [زينودو](https://zenodo.org/)، [الشكل](https://figshare.com/)، [4TU. ResearchData](https://data.4tu.nl/info/en)، و [جاف](https://datadryad.org/).
+A few public data repositories are [Zenodo](https://zenodo.org/), [Figshare](https://figshare.com/), [4TU.ResearchData](https://data.4tu.nl/info/en), and [Dryad](https://datadryad.org/).
 
 ### Step 3: Choose a licence and link to your paper and code
 
