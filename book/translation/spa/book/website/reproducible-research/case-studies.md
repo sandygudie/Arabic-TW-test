@@ -7,8 +7,8 @@ This chapter assumes familiarity with several topics covered in this {ref}`rr`. 
 
 ## Summary
 
-En este capítulo, se presenta una selección de estudios de caso que pueden utilizarse para ver cómo se utilizan métodos de investigación reproducibles en la práctica y se aplican en todos los campos. Si crees que puedes tener un ejemplo para contribuir a ti mismo, siéntete libre de abrir un problema en [aquí](https://github.com/alan-turing-institute/the-turing-way/issues).
+In this chapter, a selection of case studies is presented that can be used to see how reproducible research methods are used in practice and applied across fields. If you think that you might have an example to contribute yourself, feel free to open an issue at [here](https://github.com/alan-turing-institute/the-turing-way/issues).
 
 ## How this will help you/ why this is useful
 
-Learning by example can be an effective way to learn new concepts. ¿Tal vez pueda iniciar su proyecto personal adaptando uno de los ejemplos a sus necesidades?
+Learning by example can be an effective way to learn new concepts. Maybe you can start your personal project by adapting one of the examples to your needs?
