@@ -7,10 +7,9 @@ In the {ref}`rr-overview-definitions` section, we discussed the different aspect
 ```{figure} ../../figures/reasons-reproducibility.png
 ---
 name: reasons-reproducibility
-alt:
-¿Por qué debemos preocuparnos de trabajar reproduciblemente?
+alt: Why we should care about working reproducibly.
 ---
-Una ilustración de razones por las que deberíamos preocuparnos de trabajar reproduciblemente.
+An illustration of reasons why we should care about working reproducibly.
 ```
 
 **1. Track a complete history of your research**
