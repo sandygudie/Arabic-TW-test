@@ -1,7 +1,7 @@
 (rr-make-casestudy-rp)=
 # Case Study: Reproducible Paper using Make
 
-In the tutorial above we used IMDB movie ratings for different genres as example data. This data was obtained from a dataset [shared on Kaggle](https://www.kaggle.com/orgesleka/imdbmovies#imdb.csv) as a CSV file. The file looks like this: This data was obtained from a dataset [shared on Kaggle](https://www.kaggle.com/orgesleka/imdbmovies#imdb.csv) as a CSV file. The file looks like this:
+In the tutorial above we used IMDB movie ratings for different genres as example data. This data was obtained from a dataset [shared on Kaggle](https://www.kaggle.com/orgesleka/imdbmovies#imdb.csv) as a CSV file. The file looks like this:
 
 ```text
 fn,tid,title,wordsInTitle,url,imdbRating,ratingCount,duration,year,type,nrOfWins,nrOfNominations,nrOfPhotos,nrOfNewsArticles,nrOfUserReviews,nrOfGenre,Action,Adult,Adventure,Animation,Biography,Comedy,Crime,Documentary,Drama,Family,Fantasy,FilmNoir,GameShow,History,Horror,Music,Musical,Mystery,News,RealityTV,Romance,SciFi,Short,Sport,TalkShow,Thriller,War,Western
@@ -11,11 +11,11 @@ titles01/tt0017136,tt0017136,Metropolis (1927),metropolis,http://www.imdb.com/ti
 titles01/tt0017925,tt0017925,Der General (1926),der general,http://www.imdb.com/title/tt0017925/,8.3,37521,6420,1926,video.movie,1,1,53,123,219,3,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 ```
 
-While on the surface this looks like a regular CSV file, when you try to open it with the Python CSV library, or Pandas, or R's `read_csv`, or even `readr:read_csv`, the data is not loaded correctly. This happens because the CSV file uses an escape character `\` for movie names that have commas in them and the CSV readers don't automatically detect this variation in the CSV format.  It turns out that this is quite a common issue for data scientists: CSV files are often messy and use an uncommon *dialect*: such as strange delimiters and uncommon quote characters.  Collectively, data scientists waste quite some time on these data wrangling issues where manual intervention is needed. But this problem is also not that easy to solve: to a computer a CSV file is simply a long string of characters and every dialect will give you *some* table, so how do we determine the dialect accurately in general? This happens because the CSV file uses an escape character `\` for movie names that have commas in them and the CSV readers don't automatically detect this variation in the CSV format.  It turns out that this is quite a common issue for data scientists: CSV files are often messy and use an uncommon *dialect*: such as strange delimiters and uncommon quote characters.  Collectively, data scientists waste quite some time on these data wrangling issues where manual intervention is needed. But this problem is also not that easy to solve: to a computer a CSV file is simply a long string of characters and every dialect will give you *some* table, so how do we determine the dialect accurately in general?
+While on the surface this looks like a regular CSV file, when you try to open it with the Python CSV library, or Pandas, or R's `read_csv`, or even `readr:read_csv`, the data is not loaded correctly. This happens because the CSV file uses an escape character `\` for movie names that have commas in them and the CSV readers don't automatically detect this variation in the CSV format.  It turns out that this is quite a common issue for data scientists: CSV files are often messy and use an uncommon *dialect*: such as strange delimiters and uncommon quote characters.  Collectively, data scientists waste quite some time on these data wrangling issues where manual intervention is needed. But this problem is also not that easy to solve: to a computer a CSV file is simply a long string of characters and every dialect will give you *some* table, so how do we determine the dialect accurately in general?
 
-Recently, researchers from the Alan Turing Institute have presented a method that achieves 97% accuracy on a large corpus of CSV files, with an improvement of 21% over existing approaches on non-standard CSV files. This research was made reproducible through the use of Make and is available through an online repository: [https://github.com/alan-turing-institute/CSV_Wrangling](https://github.com/alan-turing-institute/CSV_Wrangling). This research was made reproducible through the use of Make and is available through an online repository: [https://github.com/alan-turing-institute/CSV_Wrangling](https://github.com/alan-turing-institute/CSV_Wrangling).
+Recently, researchers from the Alan Turing Institute have presented a method that achieves 97% accuracy on a large corpus of CSV files, with an improvement of 21% over existing approaches on non-standard CSV files. This research was made reproducible through the use of Make and is available through an online repository: [https://github.com/alan-turing-institute/CSV_Wrangling](https://github.com/alan-turing-institute/CSV_Wrangling).
 
-Below we will briefly describe what the Makefile for such a project looks like.  For the complete file, please see the repository. The Makefile consists of several sections:  For the complete file, please see the repository. The Makefile consists of several sections:
+Below we will briefly describe what the Makefile for such a project looks like.  For the complete file, please see the repository. The Makefile consists of several sections:
 
 1. Data collection: because the data is collected from public sources, the repository contains a Python script that allows anyone to download the data through a simple `make data` command.
 
@@ -30,13 +30,13 @@ Below we will briefly describe what the Makefile for such a project looks like. 
 
    The `%` symbol is used to create outputs for both sources of CSV files with a single rule in {ref}`rr-make-examples-patternrules` and the rule uses in {ref}`rr-make-examples-automaticvar` to extract the input and output filenames.
 
-4. Some of the cleaning rules will remove output files that take a while to create.  Some of the cleaning rules will remove output files that take a while to create.  Therefore, these depend on a special `check_clean` target that asks the user to confirm before proceeding:
+4. Some of the cleaning rules will remove output files that take a while to create.  Therefore, these depend on a special `check_clean` target that asks the user to confirm before proceeding:
 
    ```makefile
    check_clean:
-    @echo -n "Are you sure? [y/N]" && read ans && [ $$ans == y ] [y/N]" && read ans && [ $$ans == y ]
+    @echo -n "Are you sure? [y/N]" && read ans && [ $$ans == y ]
    ```
 
 It is important to emphasize that this file was not created in one go, but was constructed iteratively. The Makefile started as a way to run several dialect detection methods on a collection of input files and gradually grew to include the creation of figures and tables from the result files. Thus the advice for using Make for reproducibility is to *start small and start early*.
 
-The published Makefile in the repository does not contain the paper, but this *is* included in the internal Makefile and follows the same structure as the `report.pdf` file in the tutorial above. 这证明对 协作特别有用，因为只有一个存储库需要共享，其中包含 个代码。 • 结果和手稿；
+The published Makefile in the repository does not contain the paper, but this *is* included in the internal Makefile and follows the same structure as the `report.pdf` file in the tutorial above. This proved especially useful for collaboration as only a single repository needed to be shared that contains the code, the results, and the manuscript.
