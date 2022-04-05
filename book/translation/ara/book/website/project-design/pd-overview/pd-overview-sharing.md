@@ -2,7 +2,7 @@
 # Sharing Your Research Work
 Now that you are in the last phase of your project, you want to make sure that your outputs are available to anyone interested in analysing or reusing them. Science can only progress from building on top of each other's results. The first step is sharing your work.
 
-But only sharing is not enough. تحتاج إلى التأكد من أن الكائنات البحثية الخاصة بك **F**غير مسموح بها، **A**مملوك، **I**غير قابل للتشغيل و **R**قابل للاستعمال ويشار إلى ذلك باسم {ref}`مبادئ FAIR<rr-rdm-fair>` التي توفر مبادئ توجيهية لتحسين القدرة على الاستبعاد، (ج) إمكانية الوصول إلى الموجودات الرقمية وقابليتها للتشغيل على نحو متبادل؛ كل ذلك يدعم قابلية البحث للتكرار. This is referred to as {ref}`FAIR Principles<rr-rdm-fair>` that provides guidelines to improve the Findability, Accessibility, Interoperability and Reusability of digital assets; all of which support research reproducibility.
+But only sharing is not enough. You need to make sure that your research objects are **F**indable, **A**ccesible, **I**noperable and **R**eusable. This is referred to as {ref}`FAIR Principles<rr-rdm-fair>` that provides guidelines to improve the Findability, Accessibility, Interoperability and Reusability of digital assets; all of which support research reproducibility.
 
 This aspect is already considered when developing your {ref}`Data Management Plan (DMP)<rr-rdm-dmp>` (see {ref}`pd-overview-planning-dmp`). Therefore, it is important to revisit your DMP to make sure that the guidelines are also applied when making your results available. You can learn more about this in a chapter on {ref}`making data FAIR<rr-rdm-fair>`).
 
