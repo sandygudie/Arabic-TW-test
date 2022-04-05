@@ -7,8 +7,8 @@ This chapter assumes familiarity with several topics covered in this {ref}`rr`. 
 
 ## Summary
 
-في هذا الفصل، يتم عرض مجموعة مختارة من دراسات الحالة التي يمكن استخدامها لمعرفة كيفية استخدام طرق البحث القابلة للاستنساخ في الممارسة العملية وتطبيقها عبر الميادين. إذا كنت تعتقد أنه قد يكون لديك مثال للمساهمة بنفسك، لا تتردد في فتح مشكلة في [هنا](https://github.com/alan-turing-institute/the-turing-way/issues).
+In this chapter, a selection of case studies is presented that can be used to see how reproducible research methods are used in practice and applied across fields. If you think that you might have an example to contribute yourself, feel free to open an issue at [here](https://github.com/alan-turing-institute/the-turing-way/issues).
 
 ## How this will help you/ why this is useful
 
-Learning by example can be an effective way to learn new concepts. ربما يمكنك بدء مشروعك الشخصي بتكييف أحد الأمثلة مع احتياجاتك؟
+Learning by example can be an effective way to learn new concepts. Maybe you can start your personal project by adapting one of the examples to your needs?
