@@ -28,12 +28,12 @@ A preprint [{term}`def<Preprint>`] is a scientific manuscript that is uploaded b
 
 Traditionally many journals are subscription journals, meaning their content is behind a paywall. Universities may have subscriptions to that journal, allowing you to access its content if you are based at a subscribing institution or you may be able to pay a one-off fee to access an individual article.
 
-如果内容对每个人开放，无需支付或是订阅机构的成员。 The number of these journals is still increasing rapidly, with 17,000 listed in the Directory of Open Access Journals [DOAJ](http://www.doaj.org) (data fetched November 2021).
+The Open Access movement led to the creation of Open Access journals, where the content is open for everyone, with no need to pay or be a member of a subscribing institution. The number of these journals is still increasing rapidly, with 17,000 listed in the Directory of Open Access Journals [DOAJ](http://www.doaj.org) (data fetched November 2021).
 
 (rr-open-access-gold-publishing)=
 #### Gold Open Access publishing
 
-Gold Open Access Publishing(或有时称为libre)可以定义为向日记支付文章处理费(APC)，因此他们可以在开放访问许可下发布您文章的最后版本， 然后可以为任何人在线永久和免费获取。 作者将保留其文章的版权。 The author will retain the copyright of their article, usually via a [Creative Commons licence](https://creativecommons.org/) of their choice, which dictates what others can do with the article. You can find out more about APCs in this [video](https://www.youtube.com/watch?v=QAeTKUpZq_Y).
+Gold Open Access Publishing (or sometimes referred to as libre) can be defined as paying an Article Processing Charge (APC) to a journal so they publish the final version of your article under an open access license, which is then permanently and freely available online for anyone. The author will retain the copyright of their article, usually via a [Creative Commons licence](https://creativecommons.org/) of their choice, which dictates what others can do with the article. You can find out more about APCs in this [video](https://www.youtube.com/watch?v=QAeTKUpZq_Y).
 
 There can often be misconceptions around publishing in Open Access journals- as they are newer to the system they are often wrongly thought of as 'less rigorous' or 'lower quality' than the 'traditional' journals. Some researchers have also been caught up in what is referred to as 'predatory publishing'- where they are tricked into paying an article processing charge to journals that are fraudulent and do not provide editorial processes that check articles for quality and legitimacy. Following the [Think.Check.Submit guidelines](https://thinkchecksubmit.org/) can help researchers to avoid predatory journals.
 
