@@ -8,7 +8,7 @@
 | {ref}`Experience with version control<rr-vcs>` | Helpful    |
 
 ## Summary
-For any open source project, one of the most challenging tasks for a new contributor is to identify ways to get involved by making online contributions to propose appropriate changes. وكثيراً ما يضطلع المشرفون المكرسون للمشاريع من الفريق الأساسي للمشروع أو مجتمع المتطوعين بدور دعم هذه المساهمات المقدمة من المساهمين الآخرين. وتوضح المبادئ التوجيهية المتعلقة بالمساهمات في المشاريع المفتوحة المصدر كيف يمكن لأفراد المجتمع المحلي تقديم مثل هذه المساهمة، ولكنها لا توضح في كثير من الأحيان كيف يمكن للمرء أن يسهم في المشروع بأن يصبح قائما على المشروع.
+For any open source project, one of the most challenging tasks for a new contributor is to identify ways to get involved by making online contributions to propose appropriate changes. Contribution guidelines of open source projects outline how community members can make such a contribution, but they often do not explain how one can contribute to the project by becoming a project maintainer. Dedicated project maintainers from the project's core team or volunteer community often take up the role of supporting such contributions by other contributors.
 
 This subchapter sheds light on the role and tasks of such project maintainers who manage or coordinate community discussions, mentor contributions, support resource development, help in issue triaging, and review Pull Requests or PRs on an online collaborative GitHub project. It also provides the best practices to be used while contributing to a project as a maintainer.
 
