@@ -20,7 +20,7 @@ The [International Committee of Medical Journal Editors (ICMJE) has a clear set 
 
 If all these criteria are not met then these contributors can only be added to the acknowledgements. Therefore, these criteria are not inclusive in terms of authorship for all contributions to a research project, even if they are substantial contributions such as software development.
 
-这个学科的许多期刊仍然使用自己的准则或经修改的ICMJE准则版本，部分原因是有人不同意单独贡献为主要作者的个人不符合作者的资格： {cite}`Panter2021最佳做法` 据认为，这应该允许作者，因为要编写一份文件，你也需要理解和解释数据，因此符合第一个标准。 It is thought that this should allow authorship because to write a paper you would also need to understand and interpret the data therefore fulfilling the first criteria.
+Many journals in this discipline still use their own guidelines or modified versions of the ICMJE guidelines due in part to a disagreement that an individual whose sole contribution is as the main writer would not qualify as an author {cite}`Panter2021bestpractices`. It is thought that this should allow authorship because to write a paper you would also need to understand and interpret the data therefore fulfilling the first criteria.
 
 (cm-aa-traditions-nat)=
 ## Natural Sciences
@@ -40,7 +40,7 @@ This is a high-level taxonomy that includes 14 roles to represent typical roles 
 
 The order of authors is also different in each discipline and the placement of each author is often not understood outside of each discipline. The nuances of the author order are not explained anywhere in an academic paper for others to understand, such as how the authors have decided this order and the relevance of it to them.
 
-一般而言，第一作者被视为在形成研究论文的想法和结构方面对该项目作出主要贡献的人， 撰写和编辑文章并负责组织文章提交。 They are also often the corresponding author that deals with any queries regarding the article. Although, in some academic circles being the corresponding author is a measure of academic status and does not have to be the same person as the first author.
+However, in general the first author is seen as the person that has given the main contribution to the project in terms of forming the ideas and structure for the research paper, writing and editing of the article and being in charge of organising the article submission. They are also often the corresponding author that deals with any queries regarding the article. Although, in some academic circles being the corresponding author is a measure of academic status and does not have to be the same person as the first author.
 
 In social sciences, the first author indicates who should get the most credit for the research and the authors are then listed in order of descending contributions, all the way to the last author who has made the least contribution. See the LSE Impact of social sciences blog - [First among equals](https://blogs.lse.ac.uk/impactofsocialsciences/2015/06/18/first-among-equals-guidelines-authorship-credit/) for a wider discussion on first authors.
 
