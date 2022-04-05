@@ -1,27 +1,28 @@
 (cl)=
-# Guia para colaboração
+# Guide for Collaboration
 
-***Este guia abrange tópicos relacionados a colaboração efetiva e inclusiva.***
+***This guide covers topics related to effective and inclusive collaboration.***
 
-A ciência dos dados é definida pela sua interdisciplinaridade. O nosso trabalho só pode atingir o seu maior potencial se houver diversas equipes de pessoas envolvidas na concepção e na entrega da pesquisa ou produto.
+Data science is defined by its interdisciplinarity. Our work can only reach its highest potential if there are diverse teams of people involved in designing and delivering the research or product.
 
 ```{figure} ../figures/collaboration.jpg
 ---
-nome: colaboração
-largura: 500px
-alt: Uma dica de iceberg é rotulada com os termos técnicos relacionados ao projeto, e alguns mergulhadores estão explorando uma enorme parte de iceberg debaixo d'água, que são rotulados com termos colaborativos orientados para a comunidade
---- Há mais para colaboração do que vemos. _O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+name: collaboration
+width: 500px
+alt: An iceberg's tip is labelled with the project related technical terms, and a few divers are exploring a huge part of iceberg underwater which are labelled with community oriented collaborative terms
+---
+There is more to collaboration than we see. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-Há muitas competências diferentes que são necessárias para trabalhar bem em grupos com uma vasta gama de conhecimentos. Neste guia, saudamos as contribuições no desenvolvimento de orientações sobre o seguinte (mas não se limitando a) tópicos:
+There are many different skills required to work well in groups with a wide range of expertise. In this guide, we welcome contributions in developing guidance on following (but not limited to) topics:
 
-* Projetando um projeto que agradece as contribuições
-* Colaboração distribuída no GitHub
-* Revisando as contribuições dos membros da equipe
-* Trabalho remoto
-* Executando um evento inclusivo
-* Coordenando uma reunião
-* Definindo expectativas explícitas
-* Cocriação participativa
+* Designing a project that welcomes contributions
+* Distributed collaboration on GitHub
+* Reviewing team member's contributions
+* Remote working
+* Running an inclusive event
+* Chairing a meeting
+* Defining explicit expectations
+* Participatory co-creation
 
-Confira nossas [diretrizes de contribuição](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) para participar.
+Check out our [contributing guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md) to get involved.
