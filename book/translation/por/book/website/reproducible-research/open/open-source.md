@@ -35,35 +35,35 @@ Pesquisadores que usam software de código aberto geralmente fazem alterações 
 (pesquisa rr-open-source-benefits)=
 ## Como beneficiar a pesquisa de software em código aberto
 
-Existem várias maneiras pelas quais o software de código aberto beneficia a pesquisa:
+There are several ways in which open-source software benefits research:
 
 (rr-open-source-benefitspesquisch-reusable)=
 ### Reutilizável
 
 Os projetos de software de código aberto permitem que os pesquisadores tirem proveito do trabalho uns dos outros. Isso permite que os investigadores apliquem os seus esforços no trabalho de grande valor. Diz-se por vezes que “todos os problemas fáceis já foram resolvidos”. Blogging, gerenciamento de conteúdo e sistemas operacionais são todos problemas com soluções de código aberto estabelecidas (e convencionais), para nomear algumas. Enquanto os desenvolvedores poderiam gastar seu tempo reinventando rodas que a comunidade de código aberto já fez, é altamente preferível usar a melhor roda do mundo, especialmente quando essa roda vem a qualquer preço. Isto reduz a duplicação de esforços e permite que os pesquisadores se concentrem em desafios ainda por resolver.
 
-O {ref}`rr-code-reuse` fornece uma lista mais aprofundada de diferentes aspectos a considerar para tornar seu código mais reutilizável, se este é um pequeno script ou uma biblioteca.
+The {ref}`rr-code-reuse` provides a more in-depth list of different aspects to consider for making your code more reusable, whether this is a small script or a library.
 
-(rr-open-source-benefitspesquisao-checkable)=
+(rr-open-source-benefitsresearch-checkable)=
 ### Verificável
 
-Projetos de código aberto permitem que toda a comunidade científica leia e teste os códigos uns dos outros. Dessa forma, erros podem ser encontrados mais rapidamente e outros pesquisadores podem validar resultados.
+Open-source projects allow the broader research community to read and test each others' code. This way, bugs can be found more quickly, and other researchers can validate results.
 
-(rr-open-source-benefitspesquisa-colaborativo)=
+(rr-open-source-benefitsresearch-collaborative)=
 ### Colaborativo
-Trabalhar abertamente também permite que qualquer número de investigadores colabore em projectos que não poderiam ser desenvolvidos por investigadores/grupos de investigação. Exemplos incluem [sistemas operacionais Linux](https://www.linux.org/) , pacotes do Python como [scipy](https://www.scipy.org/) e [numpy](http://www.numpy.org/), e a biblioteca de aprendizagem de máquina [TensorFlow](https://www.tensorflow.org/).
+Working openly also allows any number of researchers to collaborate on projects that could not possibly be developed by single researchers/research groups. Examples include [Linux](https://www.linux.org/) operating systems, Python packages such as [scipy](https://www.scipy.org/) and [numpy](http://www.numpy.org/), and the machine learning library [TensorFlow](https://www.tensorflow.org/).
 
 (rr-open-source-run)=
 ## Como executar seu projeto de software de código aberto
 
-Podes abrir uma ideia, um trabalho em andamento ou após anos de fechamento. No nível mais básico, tudo o que você precisa fazer é colocar seu código online em algum lugar que provavelmente durará muito tempo. Você pode tornar seu código citável atribuindo-lhe um DOI [{term}`def<Digital Object Identifier>`] (conforme discutido na seção em {ref}`rr-rdm-sharing`). Isso ajuda a garantir que você obtenha crédito adequado se as pessoas usarem ou construírem com base em seu trabalho.
+You can open source an idea, a work in progress, or after years of being closed source. At the most basic level, all you need to do is put your code online somewhere that is likely to last a long time. You can make your code citeable by assigning it a DOI [{term}`def<Digital Object Identifier>`] (as discussed in the section on {ref}`rr-rdm-sharing`). This helps ensure that you get proper credit if people use or build upon your work.
 
-Um lugar popular para disponibilizar seu código é o GitHub [{term}`def<Github>`] (veja o capítulo em {ref}`rr-vcs`). Você deve incluir um arquivo de licença indicando que qualquer pessoa tem permissão para usar, copiar e modificar seu trabalho. Sem isso, ninguém pode usar legalmente o seu trabalho, portanto não é de código aberto. O capítulo {ref}`rr-licensing` ajudará você a escolher a melhor licença para o seu projeto. Existem também alguns outros arquivos que você deve incluir com seu código, conforme descrito abaixo.
+A popular place to make your code available is GitHub [{term}`def<Github>`] (see the chapter on {ref}`rr-vcs`). You must include a license file stating that anyone has permission to use, copy, and modify your work. Without this, no one can legally use your work, and so it is not open source. The {ref}`rr-licensing` chapter will help you to pick the best license for your project. There are also a few other files you should include with your code, as described below.
 
 (rr-open-source-run-readme)=
 ### Seja bem-vindo Usuários, Adicionando Informações a Seu LEIAME
 
-Você deve incluir um arquivo LEIAME [{term}`def<README>`] em que você inclua informações úteis sobre o que é o projeto, como usá-la e como contribuir para ela. Aqui está uma lista das coisas principais que um README deve incluir:
+You should include a README [{term}`def<README>`] file where you include useful information about what the project is, how to use it, and how to contribute to it. Here is a list of the main things a README should include:
 
 - _O nome do projeto e o que ele é_: Isso irá ajudar significativamente alguém que se deparar com ele a ter uma ideia do projeto. Inclua alguns pontos-chave que descrevem as principais características do projeto e quais recursos você está implementando. Isso ajuda a comparar rapidamente outros projetos com o seu e dá uma ideia do porquê do projeto existe em primeiro lugar.
 - _Instruções sobre como instalar o projeto_: O instalador pode ser um colaborador, alguém que se depara e está interessado no projeto, ou mesmo você - se você conseguir uma nova máquina e precisar reinstalar seu projeto. No entanto, é um desperdício total dos seus recursos descobrir como começar o projeto do zero. As instruções também devem incluir quaisquer pré-requisitos necessários para a execução do projecto. A melhor coisa que você pode fazer é escrever as instruções de instalação quando você primeiro as faz você mesmo, e você economizará rapidamente horas de trabalho no futuro.
@@ -72,40 +72,40 @@ Você deve incluir um arquivo LEIAME [{term}`def<README>`] em que você inclua i
 - _Lista de autores/colaboradores do projeto, possivelmente com informações de contato._
 - _Reconhecimentos_
 
-Suponha que você pretende que outras pessoas colaborem em seu projeto (em vez de simplesmente disponibilizar seu código e considerá-lo completo). Nesse caso, deverá ser incluído um código de conduta para a contribuição e, muito provavelmente, um código de conduta.
+Suppose you intend for other people to collaborate on your project (as opposed to just making your code available and considering it complete). In that case, you should include Contributing Guidelines and most likely, a Code of Conduct.
 
 (rr-open-source-run-guidelines)=
 ### Diretrizes de Contribuição
 
-Diretrizes de contribuição [{term}`def<Contributing Guidelines>`] diga ao seu público como participar do seu projeto. Por exemplo, você pode incluir informações sobre:
+Contributing Guidelines [{term}`def<Contributing Guidelines>`] tell your audience how to participate in your project. For example, you might include information on:
 
 - Como arquivar um relatório de bug
 - Como sugerir uma nova funcionalidade
 - Seu planejamento ou visão para o projeto
 - Como contribuidores (ou não devem) entrar em contato com você
 
-Usando um tom quente e amigável e oferecendo sugestões específicas para contribuições (como documentação de escrita, ou criar um site) pode contribuir consideravelmente para que os recém-chegados se sintam bem acolhidos e animados para participar. Por exemplo, [Administração Ativa](https://activeadmin.info/index.html) começa seu [guia de contribuição](https://github.com/activeadmin/activeadmin/blob/master/CONTRIBUTING.md) com: "Primeiro de tudo, obrigado por considerar contribuir para o Active Admin. É as pessoas como você que fazem do Active Admin uma ferramenta tão ótima."
+Using a warm, friendly tone and offering specific suggestions for contributions (such as writing documentation, or making a website) can go a long way in making newcomers feel welcomed and excited to participate. For example, [Active Admin](https://activeadmin.info/index.html) starts its [contributing guide](https://github.com/activeadmin/activeadmin/blob/master/CONTRIBUTING.md) with: "First off, thank you for considering contributing to Active Admin. It’s people like you that make Active Admin such a great tool."
 
-No início do seu projeto, seu arquivo de Diretrizes de Contribuição pode ser simples. Você deve sempre explicar como relatar bugs ou problemas de arquivo, e quaisquer requisitos técnicos (como testes) para fazer uma contribuição. Ao longo do tempo, você pode adicionar outras perguntas frequentes aqui ou no seu arquivo de readme. Escrever esta informação significa que menos pessoas farão as mesmas perguntas vezes sem conta. É também uma boa ideia ligar o seu processo de orientações de contribuição do README, para que mais pessoas o vejam.
+In the earliest stages of your project, your Contributing Guidelines file can be simple. You should always explain how to report bugs or file issues, and any technical requirements (like tests) to make a contribution. Over time, you might add other frequently asked questions here or in your readme file. Writing down this information means fewer people will ask you the same questions over and over again. It is also a good idea to link to your contributing guidelines file from your README, so more people see it.
 
 (rr-open-source-run-conduct)=
 ### Código de Conduta
 
-Um Código de Conduta [{term}`def<Code of Conduct>`] ajuda a definir regras básicas para comportamento dos participantes do seu projeto. Isso é especialmente valioso se você estiver lançando um projeto de código aberto para uma comunidade ou empresa. Um Código de Conduta capacita você para facilitar um comportamento comunitário saudável e construtivo, o que reduzirá o seu estresse como mantenedor. Ele comunica como você espera que os participantes se comportem e descreve para quem estas expectativas se aplicam, quando se candidatam, e o que fazer se ocorrer uma violação.
+A Code of Conduct [{term}`def<Code of Conduct>`] helps set ground rules for behaviour for your project's participants. This is especially valuable if you are launching an open-source project for a community or company. A Code of Conduct empowers you to facilitate healthy, constructive community behaviour, which will reduce your stress as a maintainer. It communicates how you expect participants to behave and describes who these expectations apply to, when they apply, and what to do if a violation occurs.
 
-Muito parecido com as licenças de código aberto, existem também padrões emergentes para códigos de conduta, então você não precisa escrever o seu próprio. O [Pacto do Colaborador](https://contributor-covenant.org/) é um Código de Conduta que é usado por [mais de 40.000 projetos de código aberto](https://www.contributor-covenant.org/adopters). Não importa qual texto você usar, você deve estar preparado para aplicar seu Código de Conduta quando necessário.
+Much like open source licences, there are also emerging standards for codes of conduct, so you do not have to write your own. The [Contributor Covenant](https://contributor-covenant.org/) is a drop-in Code of Conduct that is used by [over 40,000 open source projects](https://www.contributor-covenant.org/adopters). No matter which text you use, you should be prepared to enforce your Code of Conduct when necessary.
 
-Mantenha o arquivo no diretório raiz do seu projeto, então é fácil de encontrar, e vincule a ele a partir do seu README.
+Keep the file in your project's root directory, so it is easy to find, and link to it from your README.
 
-(rr-open-fonte-contribuição)=
+(rr-open-source-contribute)=
 ## Como Contribuir com os Projetos de Software de Código Aberto de outros
 
 (rr-open-source-contribute-anatomy)=
 ### Anatomia de um projeto de software de código aberto
 
-Cada comunidade de código aberto é diferente. Dito isso, muitos projetos de software de código aberto seguem uma estrutura organizacional semelhante. Entender as diferentes funções da comunidade e o processo geral ajudará você a se orientar rapidamente para qualquer novo projeto.
+Every open source community is different. That said, many open source software projects follow a similar organizational structure. Understanding the different community roles and the overall process will help you get quickly oriented to any new project.
 
-Um projeto típico de software de código aberto tem os seguintes tipos de pessoas:
+A typical open source software project has the following types of people:
 
 - _Autor_: A pessoa/s ou organização que criou o projeto.
 - _Proprietário_: A pessoa/s que tem propriedade administrativa sobre a organização ou repositório (nem sempre é o mesmo que o autor original).
@@ -113,19 +113,19 @@ Um projeto típico de software de código aberto tem os seguintes tipos de pesso
 - _Colaboradores_: Todos os que contribuíram algo de volta para o projeto.
 - _Membros da comunidade_: pessoas que usam o projeto. Podem ser activos em conversas ou expressar a sua opinião sobre o rumo do projecto.
 
-Projetos maiores também podem ter subcomités ou grupos de trabalho focados em diferentes tarefas, como ferramentas, triagem, moderação da comunidade e organização de eventos. Consulte uma página de "equipe" no site de um projeto ou na documentação de governança do repositório para encontrar essas informações.
+Bigger projects may also have subcommittees or working groups focused on different tasks, such as tooling, triage, community moderation, and event organizing. Look on a project’s website for a “team” page, or in the repository for governance documentation, to find this information.
 
-Muitos projetos de código aberto são hospedados no GitHub (veja o capítulo sobre controle de versão para mais detalhes), que tem instalações como:
+A great many open source projects are hosted on GitHub (see the chapter on version control for more detail), which has facilities such as:
 
 - _Rastreador de problemas_: Onde as pessoas discutem problemas relacionados ao projeto.
 - _Pull requests_: Onde as pessoas discutem e revisam alterações que estão em andamento.
 - _Fóruns de fórum ou listas de discussão_: Alguns projetos podem utilizar estes canais para tópicos conversacionais (por exemplo, "Como fazer I". ." ou "Sobre o que você pensa ..." em vez de relatórios de bugs ou solicitações de recursos). Outros usam o rastreador de issues para todas as conversas.
 - _Canal de chat síncrono_: Alguns projetos usam canais de chat (como Slack ou IRC) para conversas casuais, colaboração e trocas rápidas.
 
-(rr-open-source-contribuite-changes)=
+(rr-open-source-contribute-changes)=
 ### Contribuir com Suas Alterações
 
-Diga que você adicionou uma função ou corrigiu um erro e que quer contribuir com este trabalho para o projeto principal.
+Say you have added a feature or fixed a bug and want to contribute this work to the main project.
 
 1. _Leia a documentação_: O projeto principal pode ter diretrizes de contribuição ou informações em um README instruindo futuros colaboradores sobre como fornecer suas alterações.
 2. _Certifique-se de que suas convenções coincidam com o estilo e estrutura do projeto principal_: Por exemplo, se todas as variáveis de um projeto forem nomeadas de alguma forma em particular, também deverá ser. Convenções consistentes tornam muito mais fácil para alguém que não viu sua peça do projeto antes de entendê-la ao invés de ter que descobrir seu determinado conjunto de convenções *e* o que o código está fazendo. As convenções do projecto podem ser delineadas na sua documentação, ou podem apenas ser evidenciadas pela inspecção do próprio código.
@@ -135,20 +135,20 @@ Diga que você adicionou uma função ou corrigiu um erro e que quer contribuir 
 6. _Fazer perguntas_: se há coisas sobre as quais você não tem certeza, não há nenhum dano em perguntar. Muitos projectos de maior envergadura dispõem de fóruns dedicados ou de outros locais para perguntas e debates.
 7. _Seja claro_: Quando você enviar suas alterações, Descreva claramente as mudanças que fez, por que as fez e como elas foram implementadas. Isso facilita que alguém olhe para o seu trabalho e decida se o incorpore no projeto principal para o fazer. No caso provável do projeto principal está hospedado no GitHub, você deve colocar isso no pull request (veja o capítulo {ref}`rr-vcs` para mais detalhes).
 
-(análise de contribuição-rr-open-fone)=
+(rr-open-source-contribute-looking)=
 ### Procurando por Projetos para Contribuir e Como Contribuir com eles
 
-Não é preciso pensar demasiado bem qual será exactamente a sua primeira contribuição, nem como será a sua aparência. Em vez disso, comece pensando nos projetos que você já usa ou quer usar. Os projetos para os quais você irá contribuir ativamente são aqueles para os quais você voltará. Nesses projetos, sempre que você se pega pensando que algo poderia ser melhor ou diferente, aja com o seu instinto. Você pode escanear um README e encontrar um link quebrado ou um erro de digitação. Como alternativa, você pode ser um novo usuário e notar que algo está quebrado, ou encontrar um problema que você acha que deve estar na documentação. Em vez de ignorar e seguir em frente, ou pedir a outra pessoa para consertá-lo, veja se você pode ajudar arrastando-se. É disso que se trata de código aberto.
+You do not need to overthink what exactly your first contribution will be, or how it will look. Instead, start by thinking about the projects you already use or want to use. The projects you will actively contribute to are the ones you find yourself coming back to. Within those projects, whenever you catch yourself thinking that something could be better or different, act on your instinct. You might scan a README and find a broken link or a typo. Alternatively, you could be a new user and notice something is broken, or find an issue that you think should be in the documentation. Instead of ignoring it and moving on, or asking someone else to fix it, see whether you can help out by pitching in. That is what open source is all about.
 
-Você também pode usar um dos seguintes recursos para ajudá-lo a descobrir e contribuir para novos projetos:
+You can also use one of the following resources to help you discover and contribute to new projects:
 
 - [Sexta-feira de código aberto](https://opensourcefriday.com/)
 - [Apenas Primeiros Temporizadores](https://www.firsttimersonly.com/)
 - [CodeTriage](https://www.codetriage.com/)
 
-Se você não tem certeza de como começar, há outras maneiras que você pode fazer sobre isso, como encontrar um problema aberto para enfrentar ou perguntar se você pode ajudar a escrever um novo recurso.
+If you are not sure how to start, there are a few other ways you can go about it, such as finding an open issue to tackle or asking if you can help write a new feature.
 
-Um erro comum sobre contribuir para o código aberto é que você precisa contribuir com código. Na verdade, são muitas vezes as outras partes de um projecto que são mais negligenciadas ou ignoradas. Dará um grande favor ao projecto oferecendo um impulso com este tipo de contribuições. Você poderia:
+A common misconception about contributing to open source is that you need to contribute code. In fact, it is often the other parts of a project that are most neglected or overlooked. You will do the project a huge favour by offering to pitch in with these types of contributions. You could:
 
 - Revisar código para submissões de outras pessoas.
 - Escreva e melhore a documentação do projeto.
@@ -160,11 +160,11 @@ Um erro comum sobre contribuir para o código aberto é que você precisa contri
     - Passando por questões abertas e sugerindo o encerramento de questões antigas.
     - Faça perguntas esclarecedoras sobre questões abertas recentemente para fazer avançar a discussão.
 
-(rr-open-source-fechado)=
+(rr-open-source-closed)=
 ## Software fechado
 
-E se você estiver trabalhando com pessoas que não usam o modelo de código aberto para seu software? Em primeiro lugar, isto pode parecer uma afronta a todos os princípios até agora discutidos. No entanto, geralmente há muito boas razões para que as coisas sejam como são (por exemplo, razões jurídicas, comerciais ou de segurança). Muitas vezes, ainda será possível utilizar e contribuir, mas os pormenores sobre como poderá ser diferente. Os tipos de práticas usadas no software 'fechado' são geralmente os mesmos, e os conceitos e ferramentas que você pode aprender na Via de Turing ainda se aplicam.
+What if you are working with people that do not use the open source model for their software? This may initially seem an affront to all the principles discussed so far. However, there are usually very good reasons for why things are the way they are (for example legal, commercial, or security reasons). Often, it will still be possible to use and contribute, but the details of how might be different. The kinds of practices used in 'closed' software are generally the same, and the concepts and tools you can learn about in the Turing Way still apply.
 
-Por vezes, porém, pode não haver boas razões para a abordagem da fonte fechada. Diferentes áreas de investigação têm diferentes culturas que vão contra os cereais dos princípios abertos e que se sentem muito frustrantes. A eliminação desta barreira pode ser muito complicada, uma vez que as culturas podem levar anos ou décadas a mudar.
+Sometimes, however, there might not be good reasons for the closed source approach. Different areas of research have different cultures which run against the grain of open principles and feel very frustrating. Tackling this barrier can be very tricky as cultures can take years or decades to change.
 
-Trabalhar com software fechado pode oferecer oportunidades e ameaças à sua pesquisa. Em todos os casos, a compreensão e o respeito pelas perspectivas de cada um oferecem as maiores possibilidades de êxito.
+Working with closed software can offer both opportunities and threats to your research. In all cases, understanding and respecting other's perspectives offers the greatest chances of success.
