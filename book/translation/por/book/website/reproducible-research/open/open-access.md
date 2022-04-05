@@ -1,8 +1,8 @@
-(rr-open-acesso)=
-# Abrir o Acesso
+(rr-open-access)=
+# Open Access
 
 (rr-open-access-whatis)=
-## O que é Acesso Aberto?
+## What Is Open Access?
 
 Disseminating and sharing scientific results has been part of research since it was established. The first scientific journal, Philosophical Transactions, was established in 1665 and published letters about scientific observations and experimentations. The 'commercialisation' of scientific publishing began in the 1940s and for many years publications, such as through a journal, conference proceedings or book, were available to the public if purchased through a subscription fee or individually.
 
@@ -35,14 +35,14 @@ The Open Access movement led to the creation of Open Access journals, where the 
 
 Gold Open Access Publishing (or sometimes referred to as libre) can be defined as paying an Article Processing Charge (APC) to a journal so they publish the final version of your article under an open access license, which is then permanently and freely available online for anyone. The author will retain the copyright of their article, usually via a [Creative Commons licence](https://creativecommons.org/) of their choice, which dictates what others can do with the article. You can find out more about APCs in this [video](https://www.youtube.com/watch?v=QAeTKUpZq_Y).
 
-There can often be misconceptions around publishing in Open Access journals- as they are newer to the system they are often wrongly thought of as 'less rigorous' or 'lower quality' than the 'traditional' journals. Some researchers have also been caught up in what is referred to as 'predatory publishing'- where they are tricked into paying an article processing charge to journals that are fraudulent and do not provide editorial processes that check articles for quality and legitimacy. Seguindo o [Think. Check. Enviar diretrizes](https://thinkchecksubmit.org/) pode ajudar pesquisadores a evitar periódicos predatórios.
+There can often be misconceptions around publishing in Open Access journals- as they are newer to the system they are often wrongly thought of as 'less rigorous' or 'lower quality' than the 'traditional' journals. Some researchers have also been caught up in what is referred to as 'predatory publishing'- where they are tricked into paying an article processing charge to journals that are fraudulent and do not provide editorial processes that check articles for quality and legitimacy. Following the [Think.Check.Submit guidelines](https://thinkchecksubmit.org/) can help researchers to avoid predatory journals.
 
 A criticism around gold Open Access publishing is also the cost. APCs can generally be around 2000 USD or in some cases more, which can therefore be prohibitive for authors across the globe. Some publishers offer discounts or waivers to authors from countries classified by the World Bank as low-income economies or APCs may be covered by your funder as part of your grant.
 
 Whilst some journals are fully Open Access, meaning all the articles they publish are open and free to read, some journals are hybrid. These are subscription journals that have an option for authors to pay an APC to make their content Open Access- some of the content of the journal will be behind a paywall and some will be free to read. Whilst publishers argue hybrid journals allow authors to publish openly in traditional journals, many (particularly funders) are critical of this model as 'double dipping', as publishers are being paid by authors to make their content open while simultaneously selling the journal subscription to universities.
 
 (rr-open-access-self-archiving)=
-### Auto-arquivamento
+### Self-Archiving
 
 You can also make your research open via self-archiving which is often referred to (along with preprints) as Green Open Access or gratis. The self-archiving [{term}`def<Self Archiving>`] movement aims to provide tools and assistance to scholars to deposit and disseminate their refereed journal articles in open institutional or subject-based repositories. You may choose to self-archive your work to make it more discoverable and/or after you've published it in a subscription journal to ensure there is an open version of your paper.
 
@@ -63,8 +63,9 @@ Concerning the moment to make the paper publicly available, many journals establ
 height: 500px
 name: routes-to-OA
 alt: An image of a train showing the routes to open access publishing. The green route is signalled as free and shows a preprint server at the start of the journey and self archive at the end. The gold and diamond routes are signalled as author pay and funder or institution pay and show the publish in an open access journal part of the journey.
---- Rotas para publicação aberta.
-_O projeto Turing Way_ ilustração por Scriberia. Usado sob uma licença CC-BY 4.0. Versão original do Zenodo. [http://doi.org/10.5281/zenodo.5706310](http://doi.org/10.5281/zenodo.5706310)
+---
+Routes to publishing openly.
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. Original version on Zenodo. [http://doi.org/10.5281/zenodo.5706310](http://doi.org/10.5281/zenodo.5706310)
 ```
 
 (rr-open-access-why)=
@@ -79,8 +80,9 @@ Publishing openly also has benefits for you as an author. Your work is likely to
 height: 500px
 name: share-work-openly
 alt: An poster image of a train journey and along the way five reasons why you should share your research openly are annotated.
---- Vantagens de compartilhar sua pesquisa abertamente
-_A Turing Way_ projeto ilustrado por Scriberia. Usado sob uma licença CC-BY 4.0. Versão original do Zenodo. [http://doi.org/10.5281/zenodo.5706310](http://doi.org/10.5281/zenodo.5706310)
+---
+Advantages to sharing your research openly
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. Original version on Zenodo. [http://doi.org/10.5281/zenodo.5706310](http://doi.org/10.5281/zenodo.5706310)
 ```
 
 (rr-open-access-future)=
