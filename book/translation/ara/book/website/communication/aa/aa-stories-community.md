@@ -1,4 +1,4 @@
-(م -أ - قصص-المجتمع)=
+(cm-aa-stories-community)=
 # Personal stories - Large Collaborative Research Community
 
 ## Discussion with Remi Gau and Isil Poraz Bilgin from the Brainhack community
@@ -13,7 +13,7 @@ Brainhack is an open science community that has an innovative meeting format to 
 * [Github](https://github.com/complexbrains)
 * [Twitter](https://twitter.com/complexbrains)
 
-**1. ما هي ممارسة المؤلف ** العادية للأبحاث الأكاديمية في تخصصك؟ or used to be the normal practice?**
+**1. What is the *normal* practice of authorship for academic papers in your discipline? or used to be the normal practice?**
 
 **Remi:** My background is in Biology and Psychology. Most papers are multi-author and so have more than one author. Single authorship can happen but not for experimental work. This work usually involves at least a Principal Investigator with a Postdoctoral Researcher or PhD student.
 
@@ -92,7 +92,7 @@ Due to the personal time schedules and commitments, some people were only able t
 
 There was also a master editing team to unify all these sections and another team to work on the figures, tables and glossary.
 
-Very early on we realised that the paper would be this fixed thing. However, we wanted there to be an evolving version. We were restricted with the word limit to the paper and we wanted to spill over with all the ideas and keep evolving so we started a Jupyter book. إذاً هناك فريق يعمل على [كتاب المشتري](http://brainhack.org/brainhack_jupyter_book/).
+Very early on we realised that the paper would be this fixed thing. However, we wanted there to be an evolving version. We were restricted with the word limit to the paper and we wanted to spill over with all the ideas and keep evolving so we started a Jupyter book. So there is also a team working on the [Jupyter book](http://brainhack.org/brainhack_jupyter_book/).
 
 Once all of the sections were written and then passed to the editing team, they were sent to the co-authors.
 
@@ -134,7 +134,7 @@ Therefore, I also strongly believe that adopting an accumulative 'Brainhack comm
 
 **Isil:** Also since we had a lot of supplementary details regarding the years-long events and projects that were run under Brainhack events, that was not able to go into the paper due to the limitation of the word count. We created a supplementary Jupyterbook for which we had a public repository on Github, that is constituted of markdown files for the content of the book, .json files for the data to process and many graphics to summarise the data.
 
-[مقالة حديثة من مجتمع براينهاك](https://pubmed.ncbi.nlm.nih.gov/33932337/): Gau R, Noble S, Heuer K, بوتنهورن كل، Bilgin IP، Yang YF، Huntenburg JM, Bayer JMM, Bethlehem RAI, Rhoads SA، Vogelbacher C, Borghesani V, Levitis E, Wang HT, Van Den Bossche S, Kobeleva X, Legarreta JH، Guay S, Atay SM, Varoquaux GP, Huijser DC, Sandstro **Brainhack: Developing a culture of open, inclusive, community-driven neuroscience.** Neuron. 2021 Jun 2;109(11):1769-1775. doi: 10.1016/j.neuron.2021.04.001. 30 - Epub 2021 Apr PMID: 33932337. PMID: 33932337.
+[Recent article from the Brainhack community](https://pubmed.ncbi.nlm.nih.gov/33932337/): Gau R, Noble S, Heuer K, Bottenhorn KL, Bilgin IP, Yang YF, Huntenburg JM, Bayer JMM, Bethlehem RAI, Rhoads SA, Vogelbacher C, Borghesani V, Levitis E, Wang HT, Van Den Bossche S, Kobeleva X, Legarreta JH, Guay S, Atay SM, Varoquaux GP, Huijser DC, Sandström MS, Herholz P, Nastase SA, Badhwar A, Dumas G, Schwab S, Moia S, Dayan M, Bassil Y, Brooks PP, Mancini M, Shine JM, O'Connor D, Xie X, Poggiali D, Friedrich P, Heinsfeld AS, Riedl L, Toro R, Caballero-Gaudes C, Eklund A, Garner KG, Nolan CR, Demeter DV, Barrios FA, Merchant JS, McDevitt EA, Oostenveld R, Craddock RC, Rokem A, Doyle A, Ghosh SS, Nikolaidis A, Stanley OW, Uruñuela E; Brainhack Community. **Brainhack: Developing a culture of open, inclusive, community-driven neuroscience.** Neuron. 2021 Jun 2;109(11):1769-1775. doi: 10.1016/j.neuron.2021.04.001. Epub 2021 Apr 30. PMID: 33932337.
 
 *This interview was conducted by Emma Karoune.*
 
