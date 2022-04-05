@@ -1,7 +1,7 @@
 (pd-code-styling)=
 # Code Styling and Linting
 
-¿Alguna vez has abierto un archivo de sintaxis o script dos años después de ejecutar un análisis sólo para descubrir que no tienes memoria inmediata del código? ¿Ha recibido archivos de análisis de un colaborador o los ha descargado de un repositorio en línea que nunca ha utilizado antes? Have you received analysis files from a collaborator, or downloaded them from an online repository that you have never used before? Now imagine that these files are very hard to read, or there are lots of variables being passed to arcane functions, or worse, you can't find useful code as they are saved with meaningless file names such as `analysis_1final_FINAL.R`, or `onlyusethisoneforanalysis_onamonday2a.py`.
+Have you ever opened a syntax or script file two years after running an analysis only to find that you have no immediate memory of the code? Have you received analysis files from a collaborator, or downloaded them from an online repository that you have never used before? Now imagine that these files are very hard to read, or there are lots of variables being passed to arcane functions, or worse, you can't find useful code as they are saved with meaningless file names such as `analysis_1final_FINAL.R`, or `onlyusethisoneforanalysis_onamonday2a.py`.
 
 If you have not - then you are one of the lucky ones! But if you have experienced it then you might know how frustrating it is to work with those files.
 
@@ -12,9 +12,8 @@ This chapter will highlight ways to avoid such challenges in your projects by in
 height: 500px
 name: zen-of-python
 alt: The Zen of Python, by Tim Peters. Beautiful is better than ugly. Explicit is better than implicit. Simple is better than complex. Complex is better than complicated. Flat is better than nested. Sparse is better than dense. Readability counts. Special cases aren't special enough to break the rules. Although practicality beats purity. Errors should never pass silently. Unless explicitly silenced. In the face of ambiguity, refuse the temptation to guess. There should be one-- and preferably only one --obvious way to do it. Although that way may not be obvious at first unless you're Dutch. Now is better than never. Although never is often better than *right* now. If the implementation is hard to explain, it's a bad idea. If the implementation is easy to explain, it may be a good idea. Namespaces are one honking great idea -- let's do more of those!
-Los namespaces son una gran idea que honra -- ¡Hagamos más de ellos!
 ---
-*Punto 7 del [Zen of Python](https://www.python.org/dev/peps/pep-0020/) es "Readability Counts". (This can be printed with the python command `>>> import this`)*
+*Point 7 of the [Zen of Python](https://www.python.org/dev/peps/pep-0020/) is "Readability Counts". (This can be printed with the python command `>>> import this`)*
 ```
 
 ## Overview
