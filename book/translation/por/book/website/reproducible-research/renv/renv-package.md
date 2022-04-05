@@ -1,201 +1,202 @@
-(rr-renv-pacote)=
-# Sistemas de Gerenciamento de Pacotes
+(rr-renv-package)=
+# Package Management Systems
 
-Gerenciadores de pacotes instalam e controlam os diferentes pacotes de software (e suas versões) que você usa em um ambiente. Há várias opções para escolher, por exemplo, Yum, Zypper, dpkg, e Nix (que serão mencionados na seção {ref}`rr-renv-binder`). Vamos focar no [Conda](https://conda.io/en/latest/), que tem várias funcionalidades úteis.
+Package managers install and keep track of the different software packages (and their versions) that you use within an environment. There are quite a few to choose from, for example, Yum, Zypper, dpkg, and Nix (which will be mentioned in the {ref}`rr-binderhub` section). We are going to focus on [Conda](https://conda.io/en/latest/), which has several useful functionalities.
 
-(rr-renv-pacote-conda)=
-## O que Conda faz?
+(rr-renv-package-conda)=
+## What Does Conda Do?
 
-Conda permite que os usuários criem qualquer número de ambientes inteiramente separados, e rapidamente e alternam entre eles. Por exemplo, digamos que um pesquisador tem um projeto, _Projeto Um_, que tem seu próprio ambiente, definido pela Conda, é composto do seguinte conjunto de pacotes:
+Conda allows users to create any number of entirely separate environments, and quickly and switch between them. For example, say a researcher has a project, _Project One_, which has its own environment, defined by Conda, that is made up of the following set of packages:
 
-| **Nome do Pacote** | **Versão** |
-| ------------------ | ---------- |
-| `Pacote A`         | `1.5.2`    |
-| `Pacote B`         | `2.1.10`   |
-| `Pacote C`         | `0.7.9`    |
+| **Package Name** | **Version** |
+| ---------------- | ----------- |
+| `Package A`      | `1.5.2`     |
+| `Package B`      | `2.1.10`    |
+| `Package C`      | `0.7.9`     |
 
-Mais tarde, o pesquisador começa o _Projeto Dois_ em seu próprio ambiente, com os seguintes pacotes:
+Later, the researcher starts _Project Two_ in its own environment, with the following packages:
 
-| _Nome do Pacote_ | _Versão_ |
-| ---------------- | -------- |
-| `Pacote B`       | `2.1.10` |
-| `Pacote C`       | `1.2.4`  |
-| `Pacote D`       | `1.5.2`  |
-| `Pacote E`       | `3.7.1`  |
+| _Package Name_ | _Version_ |
+| -------------- | --------- |
+| `Package B`    | `2.1.10`  |
+| `Package C`    | `1.2.4`   |
+| `Package D`    | `1.5.2`   |
+| `Package E`    | `3.7.1`   |
 
-Note aqui que a versão do `pacote C` usada no _Projeto Dois_ foi atualizada a partir da versão utilizada no _Projeto Um_. Se esses ambientes de projeto não fossem separados, o pesquisador teria a escolha de:
+Note here that the version of `package C` used in _Project Two_ has been updated from the version used in _Project One_. If these project environments were not separate, then the researcher would have the choice of:
 
-- A) Usando a versão mais antiga do `pacote C` para sempre e não se beneficiando com atualizações e correções de bugs em versões posteriores.
-- B) Instalando a versão atualizada do pacote e esperando que ele não impacte o _Projeto Um_.
-- C) Instalando a versão atualizada do pacote para uso no _Projeto 2_, depois desinstalá-lo e reinstalar o antigo sempre que eles precisarem fazer trabalho no _Projeto Um_. Isso seria extremamente aborrecido e arrisca-se a ser esquecido.
+- A) Using the older version of `package C` forever and not benefiting from updates and bugfixes in later versions.
+- B) Installing the updated version of the package and hoping that it does not impact _Project One_.
+- C) Installing the updated version of the package for use in _Project Two_, then uninstalling it and reinstalling the old one whenever they need to do work on _Project One_. This would be extremely annoying and is a step that risks being forgotten.
 
-Todas estas opções são extremamente fracas, daí a utilidade da Conda para criar ambientes distintos que são facilmente intercambiáveis.
+All of these options are extremely poor, hence the utility of Conda for creating distinct environments that are easily interchangeable.
 
-Conda também pode ser usada para capturar e exportar ambientes computacionais facilmente. Ele também pode ir na outra direção; pode gerar ambientes computacionais a partir de arquivos de configuração que podem ser usados para recriar o ambiente de outra pessoa.
+Conda can also be used to capture and export computational environments easily. It can go in the other direction too; it can generate computational environments from configuration files which can be used to recreate someone else's environment.
 
-Outro benefício da Conda é que ela oferece muito maior flexibilidade aos usuários que não têm privilégios de administração nas máquinas em que estão trabalhando (como é muito comum quando trabalham com instalações de computação de alto desempenho). Sem a Conda, é tipicamente desafiador instalar o software exigido em tais máquinas. No entanto, porque Conda cria e altera _novos_ ambientes, ao invés de fazer alterações no ambiente geral de uma máquina, os privilégios de administrador não são necessários.
+Another benefit of Conda is that it offers much greater flexibility to users who do not have admin privileges on the machines they are working on (as is very common when working with high-performance computing facilities). Without Conda, it is typically challenging to install required software onto such machines. However, because Conda creates and changes _new_ environments rather than making changes to a machine's overall system environment, admin privileges are not required.
 
-Finalmente, embora o Conda seja, até certo ponto, centrado em Python, também está bem integrado para uso com outras línguas. Por exemplo, a versão base do Conda inclui a biblioteca padrão de C++.
+Finally, while Conda is Python-centric to a degree, it is also well-integrated for use with other languages. For example, the base version of Conda includes the C++ standard library.
 
-(rr-renv-pacote-instalando)=
-## Instalando Conda
+(rr-renv-package-installing)=
+## Installing Conda
 
-Note que estas instruções de instalação são direcionadas para sistemas Linux. Instruções para instalar o Conda no Windows ou Mac system podem ser encontradas [aqui](https://docs.conda.io/projects/conda/en/latest/user-guide/install/).
+Note that these installation instructions are directed towards Linux systems. Instructions for installing Conda on Windows or Mac systems can be found [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/).
 
-Vá para [https://repo.continuum.io/miniconda/](https://repo.continuum.io/miniconda/) e baixe o último instalador do Miniconda 3 para o seu sistema (32 bits ou 64 bits). Será um nome como `miniconda_version_number.sh`. Execute o instalador usando:
+Go to [https://repo.continuum.io/miniconda/](https://repo.continuum.io/miniconda/) and download the latest Miniconda 3 installer for your system (32 bit or 64 bit). It will have a name like `miniconda_version_number.sh`. Run the installer using:
 
 ```
-bash Miniconda_versão_número.sh
+bash Miniconda_version_number.sh
 ```
 
-Você pode verificar se o Conda foi instalado com sucesso digitando:
+You can check that Conda has installed successfully by typing:
 
 ```
 conda --version
 ```
 
-que deve retornar um número de versão.
+which should output a version number.
 
-(rr-renv-pacote-usando)=
-## Criação e Uso de Ambientes
+(rr-renv-package-using)=
+## Making and Using Environments
 
-Conda instala automaticamente um ambiente de base com alguns pacotes de software comumente usados. É possível trabalhar neste ambiente de base; no entanto, é uma boa prática criar um novo ambiente para todos os projectos que se inicia.
+Conda automatically installs a base environment with some commonly used software packages. It is possible to work in this base environment; however, it is good practice to create a new environment for every project you start.
 
-Para criar um ambiente, utilize `conda create --name your_project_env_name` seguido por uma lista de pacotes a incluir. Para incluir os pacotes `scipy` e `matplotlib` , adicione-os ao final do comando:
-
-```
-criar conda --name Projetot_One scipy matplotlib
-```
-
-Pode especificar as versões de certos (ou todos) pacotes usando `=package_number` após o nome. Por exemplo, para especificar `scipy 1.2.1` no ambiente acima:
+To create an environment, use `conda create --name your_project_env_name` followed by a list of packages to include. To include the `scipy` and `matplotlib` packages, add them to the end of the command:
 
 ```
-criar conda --name Projetot_One scipy=1.2.1 "Título"
+conda create --name Project_One scipy matplotlib
 ```
 
-Ao criar ambientes, você também pode especificar versões de idiomas para instalar. Por exemplo, para usar o `Python 3.7.1` no ambiente _Project_One_:
+You can specify the versions of certain (or all) packages by using `=package_number` after the name. For example, to specify `scipy 1.2.1` in the above environment:
+
+```
+conda create --name Project_One scipy=1.2.1 matplotlib
+```
+
+When creating environments, you can also specify versions of languages to install. For example, to use `Python 3.7.1` in the _Project_One_ environment:
 
 ```
 conda create --name Project_One python=3.7.1 scipy=1.2.1 matplotlib
 ```
 
-Agora que um ambiente foi criado, é hora de ativar (começar a usar) através de `conda activate environment_name`. Portanto, neste exemplo:
+Now that an environment has been created, it is time to activate (start using) it via `conda activate environment_name`. So in this example:
 
 ```
-conda ativar Projeto_One
+conda activate Project_One
 ```
 
-Note que você pode precisar usar a fonte `` em vez de `conda` se você estiver usando uma versão antiga do Conda.
+Note that you may need to use `source` instead of `conda` if you are using an old version of Conda.
 
-Uma vez que um ambiente é ativado, você deverá ver o nome do ambiente antes de cada prompt no seu terminal:
-
-```
-(Project_One) $ python --version Python 3.7.1
-```
-
-(rr-renv-pacote-excluindo)=
-## Desativando e excluindo ambientes
-
-Você pode desativar (sair da) um ambiente usando:
+Once an environment is activated, you should see the environment name before each prompt in your terminal:
 
 ```
-"conda" desativar
+(Project_One) $ python --version
+Python 3.7.1
 ```
 
-e remover (excluir) um ambiente como mostrado aqui:
+(rr-renv-package-deleting)=
+## Deactivating and Deleting Environments
+
+You can deactivate (get out of) an environment using:
 
 ```
-remover conda env --name Projeto_One
+conda deactivate
 ```
 
-Para verificar se um ambiente foi removido com sucesso, você pode ver uma lista de todos os ambientes de Conda no sistema utilizando:
+and remove (delete) an environment as shown here:
 
 ```
-lista env conda
+conda env remove --name Project_One
 ```
 
-No entanto, a exclusão de um ambiente pode não apagar os arquivos do pacote que foram associados a ele. Isto pode levar a que muita memória seja desperdiçada em pacotes que já não são necessários. Pacotes que não são mais referenciados por nenhum ambiente podem ser excluídos usando:
+To check if an environment has been successfully removed, you can look at a list of all the Conda environments on the system using:
 
 ```
-"conda limpo" -pts
+conda env list
 ```
 
-Como alternativa, você pode excluir um ambiente (como _Project_One_), juntamente com seus pacotes associados via:
+However, deleting an environment may not delete the package files that were associated with it. This can lead to a lot of memory being wasted on packages that are no longer required. Packages that are no longer referenced by any environments can be deleted using:
 
 ```
-'conda' remover --name Projeto_One --todos
+conda clean -pts
 ```
 
-(rr-renv-pacote-remoção)=
-## Instalar e remover pacotes dentro de um ambiente
-
-Dentro de um ambiente, você pode instalar mais pacotes usando:
+Alternatively, you can delete an environment (such as _Project_One_) along with its associated packages via:
 
 ```
-instalar o package_name conda
+conda remove --name Project_One --all
 ```
 
-Da mesma forma, você pode removê-los via:
+(rr-renv-package-removing)=
+## Installing and Removing Packages Within an Environment
+
+Within an environment, you can install more packages using:
 
 ```
-apagar nome do pacote
+conda install package_name
 ```
 
-Esta é a melhor maneira de instalar pacotes de dentro do Conda, pois também instalará uma versão adaptada à Conda do pacote. No entanto, é possível utilizar outros métodos se uma versão específica do pacote não estiver disponível. Por exemplo, `pip` é comumente usado para instalar pacotes de Python. Então, um comando como:
+similarly, you can remove them via:
+
+```
+conda remove package_name
+```
+
+This is the best way to install packages from within Conda as it will also install a Conda-tailored version of the package. However, it is possible to use other methods if a Conda-specific version of a package is not available. For example, `pip` is commonly used to install Python packages. So, a command like:
 
 ```
 pip install scipy
 ```
 
-irá instalar o pacote `scipy` explicitamente - desde que o `pip` seja instalado dentro do ambiente de Conda atualmente ativo. Infelizmente, quando Conda e `pip` são usados juntos para criar um ambiente, pode conduzir a um estado que pode ser difícil de reproduzir. Especificamente, executar Conda depois do `pip` pode potencialmente substituir ou quebrar pacotes instalados via `pip`. Uma maneira de evitar isso é instalando o maior número possível de requisitos no Conda, e então usando o pip. Uma maneira de evitar isso é instalando o maior número possível de requisitos no Conda, e então usando o pip. Informações detalhadas podem ser lidas no post, [Usando o Pip em um ambiente de Conda](https://www.anaconda.com/using-pip-in-a-conda-environment/).
+will install the `scipy` package explicitly - as long as `pip` is installed inside the currently active Conda environment. Unfortunately, when Conda and `pip` are used together to create an environment, it can lead to a state that can be hard to reproduce. Specifically, running Conda after `pip` may potentially overwrite or break packages installed via `pip`. One way to avoid this is by installing as many requirements as possible with Conda, and then use pip. Detailed information can be read on the post, [Using Pip in a Conda Environment](https://www.anaconda.com/using-pip-in-a-conda-environment/).
 
-Embora os pacotes do Python tenham sido usados em muitos dos exemplos dados aqui, os pacotes do Conda não precisam ser pacotes do Python. Por exemplo, aqui o idioma base R está instalado juntamente com o pacote R `r-yaml`:
-
-```
-criar conda --name Projetot_One r-yaml
-```
-
-Para ver todos os pacotes instalados no ambiente atual, use:
+Although Python packages have been used in many of the examples given here, Conda packages do not have to be Python packages. For example, here the R base language is installed along with the R package `r-yaml`:
 
 ```
-lista de conda
+conda create --name Project_One r-base r-yaml
 ```
 
-Para verificar se um pacote em particular está instalado, por exemplo, a `scipy` neste caso:
+To see all of the installed packages in the current environment, use:
+
+```
+conda list
+```
+
+To check if a particular package is installed, for example, `scipy` in this case:
 
 ```
 conda list scipy
 ```
 
-Um canal de Conda é de onde ele baixou um pacote. Canais comuns incluem `Anaconda` (uma empresa que fornece o canal de pacote de conda padronizado), e `conda-forge` (uma tentativa de embalagem conduzida pela comunidade). Você pode instalar explicitamente um pacote a partir de um determinado canal, especificando-o como:
+A Conda channel is where it downloaded a package from. Common channels include `Anaconda` (a company which provides the defaults conda package channel), and `conda-forge` (a community-driven packaging endeavour). You can explicitly install a package from a certain channel by specifying it like:
 
 ```
 conda install -c channel_name package_name
 ```
 
-(rr-renv-pacote-exportação)=
-## Exportando e Reproduzindo Ambientes Computacionais
+(rr-renv-package-exporting)=
+## Exporting and Reproducing Computational Environments
 
-Ambientes de Conda podem ser exportados facilmente para arquivos legíveis por humanos no formato YAML. Arquivos YAML são discutidos com mais detalhes {ref}`mais tarde <rr-renv-yaml>` neste capítulo.
+Conda environments can be exported easily to human-readable files in the YAML format. YAML files are discussed in more detail {ref}`later <rr-renv-yaml>` in this chapter.
 
-Para exportar um ambiente conda para um arquivo chamado `environment.yml`, ative o ambiente e então execute:
-
-```
-exportação de env conda > environment.yml
-```
-
-Da mesma forma, ambientes de Conda podem ser criados a partir de arquivos YAML via:
+To export a conda environment to a file called `environment.yml`, activate the environment and then run:
 
 ```
-conda env criar -f environment.yml
+conda env export > environment.yml
 ```
 
-Isso permite que pesquisadores se reproduzam rapidamente em ambientes computacionais uns dos outros. Note que a lista de pacotes não é apenas aqueles explicitamente instalados. Ele pode incluir pacotes de dependências específicas para Sistema Operacional para que os arquivos de ambiente possam exigir alguma edição para ser portátil para diferentes sistemas operacionais.
-
-Os ambientes também podem ser clonados. Isso pode ser desejável, por exemplo, se um investigador iniciar um novo projecto e quiser criar um novo ambiente para trabalhar nele; o ambiente do novo projeto (pelo menos inicialmente) pode exigir os mesmos pacotes do ambiente de um projeto anterior.
-
-Por exemplo, para clonar o ambiente _Project_One_ e dar a este novo ambiente o nome _Project_Two_:
+Similarly, Conda environments can be created from YAML files via:
 
 ```
-criar conda --name Projeto_Dois --clonar Projeto_Um
+conda env create -f environment.yml
+```
+
+This allows researchers to reproduce one another's computational environments quickly. Note that the list of packages is not just those explicitly installed. It can include OS-specific dependency packages so environment files may require some editing to be portable to different operating systems.
+
+Environments can also be cloned. This may be desirable, for example, if a researcher begins a new project and wants to make a new environment to work on it in; the new project's environment (at least initially) may require the same packages as a previous project's environment.
+
+For example, to clone the _Project_One_ environment, and give this new environment the name _Project_Two_:
+
+```
+conda create --name Project_Two --clone Project_One
 ```
