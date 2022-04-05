@@ -13,7 +13,7 @@
 (rr-vcs-summary)=
 ## Summary
 
-No matter how your group is organized, the work of many contributors needs to be managed into a single set of shared working documents. 版本控制是一种方法来记录文件或一组文件中一段时间的更改，以便您和您的合作者能够跟踪他们的历史。 Management of changes or revisions to any types of information made in a file or project is called versioning.
+No matter how your group is organized, the work of many contributors needs to be managed into a single set of shared working documents. Version control is an approach to record changes made in a file or set of files over time so that you and your collaborators can track their history, review any changes, and revert or go back to earlier versions. Management of changes or revisions to any types of information made in a file or project is called versioning.
 
 In this chapter, we discuss the best practices that are relevant regardless of tools. Versioning practices mainly come from managing changes in the code repositories. However, in reality, you can use version control for nearly any type of file on a computer. For example, when writing a paper with multiple collaborators, version control can help track what changed, who changed them, and what updates were made.
 
@@ -36,7 +36,7 @@ _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licen
 
 Version control helps us understand what changes we made in the past or why we did a specific analysis in the way we did it, even weeks or months later. With the help of comments and commit messages, each version can explain what changes it contains compared to the previous versions. This is helpful when we share our analysis (not only data), and make it auditable or **reproducible** - which is good scientific practice.
 
-版本控制系统很好地存储了历史上的更改和由谁做出更改，所以尽管仍然很容易访问。 您的工作目录不会被前几个版本的碎片打乱，这些碎片是保持正常状态所必需的。 同样，在版本管制方面也是如此。 Similarly, with version control, there is no need to leave chunks of code commented should you ever need to come back to an old version again.
+A version control system neatly stores a history of changes and who made them, so while it is still easy to access them, your working directory is not cluttered by the debris of previous versions that are necessary to keep just in case. Similarly, with version control, there is no need to leave chunks of code commented should you ever need to come back to an old version again.
 
 
 Finally, version control is invaluable for collaborative projects where different people work on the same code simultaneously and build on each other's work. It allows the changes made by different people to be tracked and can automatically combine people's work while saving a great deal of painstaking effort to do so manually. Using version control for your research project means that your work is totally transparent, and because all your actions are recorded, it enables others to reproduce your studies. Moreover, version control hosting services such as {ref}`GitHub<cl-github-novice-motivation>` provide a way to communicate and collaborate in a more structured way, such as in pull requests, code reviews, and issues.
