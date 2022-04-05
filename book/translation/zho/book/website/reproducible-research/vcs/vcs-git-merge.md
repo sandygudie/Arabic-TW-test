@@ -64,9 +64,6 @@ print('hello world!!!')
 =======
 print('Hello World')
 >>>>>>> main
-=======
-print('Hello World')
->>>>>>> main
 ```
 `<<<<<<<`: Indicates the start of the lines that had a merge conflict. The first set of lines are the lines from the file that you were trying to merge the changes into.
 
@@ -74,7 +71,7 @@ print('Hello World')
 
 `>>>>>>>`: Indicates the end of the lines that had a merge conflict.
 
-You resolve a conflict by editing the file to manually merge the parts of the file that Git had trouble merging. This may mean discarding either your changes or someone else's or doing a mix of the two. You will also need to delete the `<<<<<<<`, `=======`, and `>>>>>>>` in the file. 在这个项目中，用户可能会决定支持一个 `hello 世界` 而不是另一个世界。 或者他们可以决定以以下方式取代冲突：
+You resolve a conflict by editing the file to manually merge the parts of the file that Git had trouble merging. This may mean discarding either your changes or someone else's or doing a mix of the two. You will also need to delete the `<<<<<<<`, `=======`, and `>>>>>>>` in the file. In this project, the users may decide in favour of one `hello world` over another, or they may decide to replace the conflict with:
 
 ```
 print('Hello World!!!')
@@ -92,7 +89,7 @@ git merge --abort
 
 Before you start trying to resolve conflicts, make sure you fully understand the changes and how they are incompatible to avoid the risk of making things more tangled. Merge conflicts can be intimidating to resolve, especially if you are merging branches that diverged many commits ago and now have numerous incompatibilities. However, it is worth remembering that your previous versions are safe and that you can go about fixing this issue without affecting the past versions. This is why it is good practice to **merge other's changes into your work frequently**.
 
-There are tools available to assist in resolving merge conflicts, some are free; some are not. Find and familiarise yourself with one that works for you. 常用的合并工具包括 [KDiff3](http://kdiff3.sourceforge.net/), [Beyond Compare](https://www.scootersoftware.com/), [Meld](http://meldmerge.org/), 和 [P4合并](https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge). 设置一个工具作为您的默认操作： To set a tool as your default do:
+There are tools available to assist in resolving merge conflicts, some are free; some are not. Find and familiarise yourself with one that works for you. Commonly used merge tools include [KDiff3](http://kdiff3.sourceforge.net/), [Beyond Compare](https://www.scootersoftware.com/), [Meld](http://meldmerge.org/), and [P4Merge](https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge). To set a tool as your default do:
 
 ```
 git config --global merge.tool name_of_the_tool
