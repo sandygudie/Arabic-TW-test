@@ -1,16 +1,16 @@
-(م -أ-تقاليد)=
+(cm-aa-traditions)=
 # Discipline Specific Authorship Traditions
 
 When you speak to researchers from different disciplines about academic authorship, you get many different answers about who they think should be an author, what order the authors should take and what the order means. It is therefore apparent that there are different discipline-specific traditions about how authorship is conducted for journal articles.
 
-(م - أ-تقاليد-مس =
+(cm-aa-traditions-humss)=
 ## Humanities and social science disciplines
 
 Single author publications are more common in Humanities disciplines than in Science, Technology and Medicine. Research, and the writing aspect of this, is more often seen as a solo endeavour due to the nature of the subjects involved and therefore single author papers and books are highly valued. However, a recent [white paper by Taylor & Francis](https://authorservices.taylorandfrancis.com/co-authorship-in-the-humanities-and-social-sciences/) concerning co-authorship in the humanities and social sciences found that co-authorship seems to be increasing with 74% of respondents to a recent survey reporting their typical number of authors per paper being two or more.
 
 This tradition though does mean that co-authorship is less well discussed and there seems to be no consensus on how it should be approached. The Taylor & Francis white paper also states that issues have arisen concerning the over-crediting of senior or supervisory researchers and only 18% of respondents reporting having received training in determining academic authorship.
 
-(م م-أ-تقاليد-ميد)=
+(cm-aa-traditions-med)=
 ## Medical Sciences
 The [International Committee of Medical Journal Editors (ICMJE) has a clear set of guidelines for medical science](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html) that is also used more widely in other scientific disciplines journals. The criteria are clear for authorship and require substantial contributions to several areas of the research project, including writing or editing. It sets out four criteria that must all be met to be deemed an author on the paper:
 * Significant involvement in the study design, data collection or analysis.
@@ -22,7 +22,7 @@ If all these criteria are not met then these contributors can only be added to t
 
 Many journals in this discipline still use their own guidelines or modified versions of the ICMJE guidelines due in part to a disagreement that an individual whose sole contribution is as the main writer would not qualify as an author {cite}`Panter2021bestpractices`. It is thought that this should allow authorship because to write a paper you would also need to understand and interpret the data therefore fulfilling the first criteria.
 
-(م م-أ-تقاليد-nat)=
+(cm-aa-traditions-nat)=
 ## Natural Sciences
 The natural sciences have no standard way to define academic authorship.
 
@@ -35,7 +35,7 @@ This does mean that an author could be someone that does not write the paper, ho
 Other journals such as [PLOS One](https://journals.plos.org/plosone/s/authorship), [e-life](https://reviewer.elifesciences.org/author-guide/journal-policies) and [F1000 Research](https://f1000research.com/gateways/nc3rs/for-authors/article-guidelines/research-articles) are using the ICMJE criteria for authorship but in combination with a wider attribution for different contributions using the [CRediT Taxonomy](https://casrai.org/credit/).  
 This is a high-level taxonomy that includes 14 roles to represent typical roles within scientific research making the contributions section of a paper at least more inclusive.
 
-(م - أ- التقاليد-الطلب)=
+(cm-aa-traditions-order)=
 ## Order of authors and what this means
 
 The order of authors is also different in each discipline and the placement of each author is often not understood outside of each discipline. The nuances of the author order are not explained anywhere in an academic paper for others to understand, such as how the authors have decided this order and the relevance of it to them.
