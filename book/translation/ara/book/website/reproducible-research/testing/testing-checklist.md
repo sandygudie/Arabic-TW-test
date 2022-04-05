@@ -1,22 +1,22 @@
-# قائمة التحقق لاختبار التعليمات البرمجية
+# Checklist for Code Testing
 
-تحتوي قائمة المراجعة هذه على الكثير من العناصر. كما ذكر {ref}`قبل<rr-testing-write-tests>`، من الأفضل بكثير القيام ببعض العناصر من لا شيء منها. ولا تثبط عزيمتك إذا كانت قائمة المهام هذه تبدو مستعصية.
+This checklist contains a lot of items. كما ذكر {ref}`قبل<rr-testing-write-tests>`، من الأفضل بكثير القيام ببعض العناصر من لا شيء منها. Do not be discouraged if this list of tasks seems insurmountable.
 
 <a name="Writing_tests"></a>
 
-## اختبارات الكتابة
+## Writing tests
 
-- اكتب بعض اختبارات الدخان.
-- كتابة اختبارات الوحدة لجميع وحدات التعليمات البرمجية الخاصة بك.
-- كتابة اختبارات التكامل للتحقق من التكامل بين الوحدات.
-- كتابة بعض اختبارات النظام. • إعطاء الأولوية للمسارات المشتركة والهامة من خلال البرنامج.
-- كتابة اختبارات التراجع. ويمكن أن توجد اختبارات الانحراف في أي مستوى من الاختبار.
-- إذا كان ذلك مناسباً لاختبارات قبول الكتابة في مشروعك.
-- أضف اختبارات التشغيل إلى مشروعك.
+- Write a few smoke tests.
+- Write unit tests for all your code units.
+- Write integration tests to check the integration between units.
+- Write a few system tests. Prioritise common and important paths through the program.
+- Write regression tests. Regression tests can exist at any level of testing.
+- If appropriate for your project write acceptance tests.
+- Add runtime tests into your project.
 
 <a name="Good_practice_checks"></a>
 
-## عمليات التحقق من الممارسات الجيدة
+## Good practice checks
 
 - [ ] توثيق الاختبارات وكيفية إجرائها.
   - [ ] كتابة النصوص البرمجية لإعداد وتكوين أي موارد مطلوبة لتشغيل الاختبارات.
