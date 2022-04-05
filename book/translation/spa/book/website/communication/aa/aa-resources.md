@@ -1,4 +1,4 @@
-(cm-aa-recursos)=
+(cm-aa-resources)=
 # Resources:
 * American Journal of Experts [The ethics of manuscript authorship](https://www.aje.com/en/arc/ethics-manuscript-authorship/e) including a link to the white paper - credit where credits due.
 
