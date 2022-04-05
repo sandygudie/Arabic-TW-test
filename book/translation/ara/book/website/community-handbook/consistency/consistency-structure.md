@@ -23,7 +23,7 @@ Empty files included Turing Way's Table of Contents can still be accessed by rea
 
 A general suggestion is to remove references to such files from the ToC and raise an issue in _The Turing Way_ Github [repo](https://github.com/alan-turing-institute/the-turing-way) for content to be written for those files. When the content is written, the files can then be added to the ToC.
 
-على سبيل المثال، [هذه المشكلة](https://github.com/alan-turing-institute/the-turing-way/issues/1391) تقوم بضبط قائمة من الملفات الفارغة وغير المكتملة حاليا في _طريق التوريد_، و [هذا اللقب الشخصي](https://github.com/alan-turing-institute/the-turing-way/pull/1448) يكتب محتوى للفصل الفرعي `رخص البيانات` المعروض في {ref}`الصورة <empty-toc-file>`.
+For example, [this issue](https://github.com/alan-turing-institute/the-turing-way/issues/1391) curates a list of empty and incomplete files currently in _The Turing Way_, and [this PR](https://github.com/alan-turing-institute/the-turing-way/pull/1448) writes content for the `Data Licences` subchapter shown in the {ref}`image <empty-toc-file>`.
 
 (ch-consistency-structure-hr-structure)=
 ### Check 2: Ensure chapters follow a consistent structure
