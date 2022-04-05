@@ -5,7 +5,7 @@ While the project ownership models represent the ideal frameworks in open source
 
 ## Strong Ownership
 
-A “strong-ownership” model is when a single contributor or small group of developers feel a strong sense of ownership over the project. It essentially assigns ownership of the project to a few individuals: although the source code may be freely available, projects are often not open for collaboration or do not incentivise contribution. 这是一个双管齐下的问题――从近期来看，它妨碍了建立有效的用户和开发者社区，这些社区能够帮助改进软件，长期而言也是如此。 Many code suites, especially those using High-Performance Computing (HPC), those in long-established fields and legacy code more generally, are particularly prone to these problems of strong ownership and are resistant to attempts at democratisation.
+A “strong-ownership” model is when a single contributor or small group of developers feel a strong sense of ownership over the project. It essentially assigns ownership of the project to a few individuals: although the source code may be freely available, projects are often not open for collaboration or do not incentivise contribution. This is a two-pronged problem - in the immediate term it prevents the building up of effective user and developer communities who could help to improve the software and in the long term, it may mean that codes retire along with their owners. Many code suites, especially those using High-Performance Computing (HPC), those in long-established fields and legacy code more generally, are particularly prone to these problems of strong ownership and are resistant to attempts at democratisation.
 
 ## Old or Institute-funded Projects
 
