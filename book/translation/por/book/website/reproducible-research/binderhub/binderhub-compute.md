@@ -1,37 +1,37 @@
-(rr-binderhub-computador)=
-# Recursos computacionais
+(rr-binderhub-compute)=
+# Compute Resources
 
-BinderHub é neutro em nuvem, o que significa que pode ser implantado em qualquer plataforma em nuvem. Portanto, o requisito mínimo é uma assinatura de uma plataforma em nuvem à sua escolha.
+BinderHub is cloud-neutral which means it can be deployed on any cloud platform. Therefore, the minimum requirement is a subscription to a cloud platform of your choosing.
 
-Na verdade, o BinderHub não depende de forma alguma da hospedagem na nuvem e pode ser implantado em um sistema de computação no local.
+In fact, BinderHub is not dependent on cloud-hosting at all and can be deployed onto an on-premise computing system.
 
 ## Kubernetes
 
-[Kubernetes](https://kubernetes.io/) é um sistema para automatizar a implantação, dimensionamento (fazer mais ou menos cópias), e gerenciamento de contêineres através de um cluster de computação (não precisa ser baseado na nuvem). O BinderHub usa o Kubernetes para gerenciar os recursos solicitados pelos usuários do serviço Binder e para oferecer suporte às ferramentas que constroem os ambientes.
+[Kubernetes](https://kubernetes.io/) is a system for automating deployment, scaling (making more or fewer copies), and management of containers across a compute cluster (it doesn't have to be cloud-based). BinderHub uses Kubernetes to manage the resources requested by the users of the Binder service, and to support the tools that build the environments.
 
-## Elmo
+## Helm
 
-[Elmo](https://helm.sh/) é um gerenciador de pacotes para o Kubernetes. Pacotes vêm na forma de *Gráficos* que são um conjunto de instruções para implantar, atualize e gerencie aplicativos em execução em um cluster do Kubernetes. Eles podem facilitar a instalação e gerenciamento de aplicativos do Kubernetes e gráficos específicos para projetos podem ser publicados online. Por exemplo, o Gráfico de Elmo para BinderHub está disponível [aqui](https://jupyterhub.github.io/helm-chart/#development-releases-binderhub).
+[Helm](https://helm.sh/) is a package manager for Kubernetes. Packages come in the form of *Charts* which are a set of instructions to deploy, upgrade and manage applications running on a Kubernetes cluster. They can make installing and managing Kubernetes applications much easier and specific Charts for projects can be published online. For example, the Helm Chart for BinderHub is available [here](https://jupyterhub.github.io/helm-chart/#development-releases-binderhub).
 
 ## repo2docker
 
-[repo2docker](https://repo2docker.readthedocs.io/en/latest/?badge=latest) é uma ferramenta que compila automaticamente uma imagem Docker de um repositório de código dado um arquivo de configuração. Esta imagem Docker conterá todo o código, dados e recursos listados no repositório. Todo o software necessário para executar o código também será pré-instalado a partir do arquivo de configuração.
+[repo2docker](https://repo2docker.readthedocs.io/en/latest/?badge=latest) is a tool that automatically builds a Docker image from a code repository given a configuration file. This Docker image will contain all of the code, data and resources that are listed in the repository. All the software required to run the code will also be preinstalled from the configuration file.
 
 ## JupyterHub
 
-[JupyterHub](https://jupyter.org/hub) é um servidor multiusuário para Notebooks e contêineres de Júlio. No contexto da Binder, a função principal do JupyterHub é conectar o navegador do usuário à instância do BinderHub que executa no cluster do Kubernetes. No entanto, o JupyterHub pode ser mais personalizado para fornecer maior controle sobre a operação do BinderHub.
+[JupyterHub](https://jupyter.org/hub) is a multi-user server for Jupyter Notebooks and containers alike. In the context of Binder, the JupyterHub's main role is to connect the user's browser to the BinderHub instance running on the Kubernetes cluster. However, the JupyterHub can be further customised to provide greater control over the operation of the BinderHub.
 
-BinderHub pode ser considerado como uma camada fina que fica por cima dos repo2docker e JupyterHub, orquestrando suas interações e resolvendo URLs.
+BinderHub can be thought of as thin layer that sits on top of repo2docker and JupyterHub, orchestrating their interactions and resolving URLs.
 
-## O que acontece quando um link Binder é clicado?
+## What happens when a Binder link is clicked?
 
-1. O link para o repositório é resolvido pelo BinderHub.
-2. O BinderHub pesquisa uma imagem Docker relacionada à referência fornecida (por exemplo, o hash de commit, ramificação ou tag).
-3. **Se uma imagem Docker não for encontrada**, BinderHub solicita recursos do cluster Kubernetes para executar o repo2docker para fazer o seguinte:
-   - Obter o repositório,
-   - Criar uma imagem Docker contendo o software solicitado no arquivo de configuração,
-   - Envie essa imagem para o registro Docker.
-4. BinderHub envia a imagem Docker para JupyterHub.
-5. JupyterHub solicita recursos do cluster Kubernetes para servir a imagem Docker.
-6. O JupyterHub conecta o navegador do usuário ao ambiente Docker em execução.
-7. JupyterHub monitora o recipiente para atividade e o destrói após um período de inatividade.
+1. The link to the repository is resolved by BinderHub.
+2. BinderHub searches for a Docker image relating to the provided reference (for example, git commit hash, branch or tag).
+3. **If a Docker image is not found**, BinderHub requests resources from the Kubernetes cluster to run repo2docker to do the following:
+   - Fetch the repository,
+   - Build a Docker image containing the software requested in the configuration file,
+   - Push that image to the Docker registry.
+4. BinderHub sends the Docker image to JupyterHub.
+5. JupyterHub requests resources from the Kubernetes cluster to serve the Docker image.
+6. JupyterHub connects the user's browser to the running Docker environment.
+7. JupyterHub monitors the container for activity and destroys it after a period of inactivity.
