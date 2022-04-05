@@ -6,7 +6,7 @@ A podcast is an audio programme that you can subscribe to and listen to on an ap
 (cm-podcasts-how)=
 ## Start a Podcast
 
-* [如何开始播客](https://www.podcastinsights.com/start-a-podcast/?gclid=CjwKCAiA9vOABhBfEiwATCi7GNV7zJl0tHaVkW-7DCjVdAwGa4q0vbaXB44xsSBHp7YBO8K6pH0syBoCVtUQAvD_BwE) 如果你有做播客的经验并希望更详细地写下这个信息来帮助他人。
+* [How to start a podcast](https://www.podcastinsights.com/start-a-podcast/?gclid=CjwKCAiA9vOABhBfEiwATCi7GNV7zJl0tHaVkW-7DCjVdAwGa4q0vbaXB44xsSBHp7YBO8K6pH0syBoCVtUQAvD_BwE) If you have experience making podcasts and would like to write in more detail about this to help others, then please get in touch with us.
 
 (cm-podcasts-recommendations)=
 ## Some of Our Recommended Podcasts
