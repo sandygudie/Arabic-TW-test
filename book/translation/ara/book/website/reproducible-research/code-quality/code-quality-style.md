@@ -1,11 +1,11 @@
 (نمط r-code) =
 # Code Style and Formatting
 
-نمط البرمجة هو مجموعة من الاتفاقيات حول كيفية تنسيق البرمجة. على سبيل المثال، ما الذي تسميه المتغيرات الخاصة بك؟ هل تستخدم المسافات أو علامات التبويب للإضافة؟ أين تضع تعليقات؟ استخدام نفس النمط بشكل متسق في كل الكود يجعل قراءتك أسهل. الكود الذي يسهل قراءته هو أسهل فهمه من جانبك ومن جانب المتعاونين المحتملين. ولذلك، فإن الانضمام إلى أسلوب الترميز يقلل من خطر الأخطاء وييسر العمل معا على البرمجيات. [لماذا البرمجة على نمط الأمور](http://coding.smashingmagazine.com/2012/10/25/why-coding-style-matters/) هي مقالة لطيفة عن سبب أهمية أنماط البرمجة وكيف أنها تزيد من جودة البرنامج.
+A coding style is a set of conventions on how to format code. For instance, what do you call your variables? Do you use spaces or tabs for indentation? Where do you put comments? Consistently using the same style throughout your code makes it easier to read. Code that is easy to read is easier to understand by you as well as by potential collaborators. Therefore, adhering to a coding style reduces the risk of mistakes and makes it easier to work together on software. [Why Coding Style Matters](http://coding.smashingmagazine.com/2012/10/25/why-coding-style-matters/) is a nice article on why coding styles matter and how they increase software quality.
 
-على سبيل المثال [PEP8](https://www.python.org/dev/peps/pep-0008/) هو أكثر أنماط برمجة بايثون استخداما و [ECMAScript 6](http://es6-features.org/) على سبيل المثال [ES6](http://es6-features.org/) هو مواصفات لغة الكتابة الموحدة بواسطة ECMA International للبرمجة في جافاسكريبت.
+For example, [PEP8](https://www.python.org/dev/peps/pep-0008/) is the most widely used Python coding style and [ECMAScript 6](http://es6-features.org/) aka [ES6](http://es6-features.org/) is the scripting-language specification standardized by ECMA International for programming in Javascript.
 
-للحصول على أدلة النمط الشائع الاستخدام لمختلف لغات البرمجة راجع [أدلة اللغة](https://guide.esciencecenter.nl/best_practices/language_guides/languages_overview.html). لدى جوجل أيضا دليل نمط [](https://code.google.com/p/google-styleguide/) للعديد من اللغات المستخدمة في مشاريع مفتوحة المصدر منشأ من جوجل.
+For commonly used style guides for various programming languages see the [Language Guides](https://guide.esciencecenter.nl/best_practices/language_guides/languages_overview.html). Google also has a [style guide](https://code.google.com/p/google-styleguide/) for many languages that are used in open source projects originating out of Google.
 
 (r-code-style-and format-formatting)=
 ## Automatic formatting
