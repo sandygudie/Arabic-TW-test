@@ -1,23 +1,23 @@
 (rr-code-reuse)=
 # 可重用代码
-您的软件项目可以从您用于数据处理的小脚本到用于数据分析的笔记本不等。 或者一个实现你的算法的软件库。 无论您的软件项目大小多大，都必须使您的代码可以重新使用。
+Your software project could range from a small script you use for data processing to a notebook used for data analysis, or a software library implementing your algorithms. Regardless of how big or small your software project is, it is important to make your code reusable.
 
-不同类型的软件对于可重复使用有不同的要求：对于小脚本， 有足够的文件可能就足够了，而对于一个关键的特派团软件库来说，可能需要进行彻底的测试。 在最基本的层面，您需要做的只是将您的代码放在网上的某个地方，这可能会持续很长时间。 使您的研究软件更加可复用的一个更详细的方法是遵循FAIR Software (FAIR4RS Principles) {cite:ps}`ChueHong2021FAIR4RS`
+Different types of software have different requirements for being reusable: for a small script, having sufficient documentation might be enough, while for a mission critical software library, thorough testing might be necessary. At the most basic level, all you need to do is put your code online somewhere that is likely to last a long time. A more elaborate approach to making your research software more reusable is by following the FAIR Principles for Research Software (FAIR4RS Principles) {cite:ps}`ChueHong2021FAIR4RS`.
 
-当我们谈论使代码可重复使用时，澄清我们的含义是有益的。 In the {ref}`Table of Definitions for Reproducibility<rr-overview-definitions-reproducibility>` we defined reproducible research as using the same data and the same code. 然而，当我们谈到代码的重新使用时，这可能需要多种形式：我们可能想要运行完全相同的代码(对于编译的编程语言)。 这甚至可能意味着完全相同的二进制文件， 或者我们可能希望修改源代码并以某种特定方式加以扩展以满足我们的需要。 Freire 和 Chirigati {cite:ps}`Freire2018 Repreducity` 提供了一个不同级别的可再生性框架，这取决于什么可以修改。 它们界定了下列可再生产水平：可重复、可再生、可移植、可扩展和可修改。
+当我们谈论使代码可重复使用时，澄清我们的含义是有益的。 In the {ref}`Table of Definitions for Reproducibility<rr-overview-definitions-reproducibility>` we defined reproducible research as using the same data and the same code. 然而，当我们谈到代码的重新使用时，这可能需要多种形式：我们可能想要运行完全相同的代码(对于编译的编程语言)。 这甚至可能意味着完全相同的二进制文件， 或者我们可能希望修改源代码并以某种特定方式加以扩展以满足我们的需要。 Freire and Chirigati {cite:ps}`Freire2018Reproducibility` provide a framework of different levels of reproducibility, depending on what can be modified. They define the following levels of reproducibility: repeatable, re-runnable, portable, extendable and modifiable.
 
-我们可以将在Freire框架中的重现定义描绘如下：
+We can map the definitions of reproducibly on the Freire framework as follows:
 
-| Freire framework | 可复制性的定义                     |
-| ---------------- | --------------------------- |
-| 可重复              | 可重复(相同的数据、相同的分析)            |
-| 可重新运行            | 强力 & 可复制(相同的代码，不同的数据/分析/参数) |
-| 便携式设备            | *未被考虑* (相同的代码/数据，不同的环境)     |
-| 可扩展              | (部分) 可普遍使用                  |
-| 可修改              | (部分) 可普遍使用                  |
+| Freire framework | Definitions of reproducibly                                         |
+| ---------------- | ------------------------------------------------------------------- |
+| Repeatable       | Reproducible (same data, same analysis)                             |
+| Re-runnable      | Robust & Replicable (same code, different data/analysis/parameters) |
+| Portable         | *未被考虑* (相同的代码/数据，不同的环境)                                             |
+| Extendable       | (partly) Generalisable                                              |
+| Modifiable       | (partly) Generalisable                                              |
 
-以前没有考虑过可携带性问题，而是对软件来说是一个不同的环境(例如不同的硬件)， 操作系统，甚至在类似的硬件上安装一个新的安装系统可能会影响软件的运行能力(例如它可能影响依赖)。
+Portability was not previously considered, but for software a different environment (such as different hardware, operating system or even a fresh install on comparable hardware) may affect the ability for the software to work (for example it may affect dependencies).
 
 此外，可普遍封装的两个概念：可扩展(与其他软件结合的能力) 和可修改(能够改变部分实现以扩大其功能)。
 
-在本章的其余部分，我们提供您可以遵循的建议列表，以确保您的代码可被重新使用。
+In the rest of this chapter we provide list of recommendations you can follow to make sure your code is reusable.
