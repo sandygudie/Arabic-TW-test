@@ -69,8 +69,7 @@ Annotated diagram of README.md file, if you click on the file name on your landi
 - **2. Main branch:** currently active branch ("main" is the default). Use to change to different branches of your repo (if there are more branches previously created).
 - **3. Contributors:** number of contributors (users) to your file.
 - **4. README.md file content:** the content of your README.md file appears here. This content will expand once we add more information..
-- **5. الملف الخام:** عرض ملف النص الخام
-- **6.
+- **5. Raw file:** view the raw markdown text file.
 - **6. Blame:** view the last modification made to each line of the file. It can be used to track when and who made changes and go back to older versions of the file to fix bugs.
 - **7. Edit file:** click this pencil to edit your README.md file.
 - **8. Delete file:** click the bin to delete this file.
@@ -129,7 +128,7 @@ You can see a list of your commits (or your "commit history") by clicking the cl
 
 ## 4. Add a license to your repository
 
-It is important that all of your work has a license from the very beginning or no one can reuse it. Licenses tell other researchers how they are able to reuse, modify and remix your work. لا توجد رخصة تلمح انه من الغير مسموح للاخرين استخدام عملك, حتى مع الاسناد. So it is better to include a license that lets people know what they can and can't do and how to give you credit for your work.
+It is important that all of your work has a license from the very beginning or no one can reuse it. Licenses tell other researchers how they are able to reuse, modify and remix your work. No license implies that others are *not* allowed to use your work, even with attribution. So it is better to include a license that lets people know what they can and can't do and how to give you credit for your work.
 
 Depending on your field, much of your work may be documents with only some data or code. The standard licenses offered on GitHub are most approriate for software and won’t really be the right kind for documents.
 
