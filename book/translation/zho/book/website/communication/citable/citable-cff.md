@@ -1,149 +1,153 @@
 (cm-citable-cff)=
-# 带有CITATION.cff 的软件引用
+# Software Citation with CITATION.cff
 
-[引文文件格式](https://citation-file-format.github.io) 让您提供引文元数据。 对于软件或数据集，用普通文件轻松读取，人和机器。
+The [Citation File Format](https://citation-file-format.github.io) lets you provide citation metadata, for software or datasets, in plaintext files that are easy to read by both humans and machines.
 
 ```{figure} ../../figures/recognition.jpg
 ---
-名称：识别
-宽度：500px
-Alt：研究软件开发者通过使软件易于辨认而获得承认。
+name: recognition
+width: 500px
+alt: Research software developers get recognition by making software citable.
 ---
-研究软件开发者通过使软件易用而获得承认。 _The Turing Way_ project illustration by Scriberia. Zenodo. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
+Research software developers get recognition by making software citable. _The Turing Way_ project illustration by Scriberia. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
 ```
 
-若要提供此元数据，请先编写一个 `CITATION.cff` 文件，并将其包含在您的软件或数据集中。 ff</code> 文件将信息汇总到一个关键值格式中，它可以被人类轻松地解释和更新。 并使用现有工具轻松解析和转换。
+To provide this metadata, start by writing a `CITATION.cff` file and include it with your software or dataset. A `CITATION.cff` file aggregates the information in a key-value format that can be easily interpreted and updated by humans, and easily parsed and converted with existing tools.
 
 (cm-citable-cff-why)=
-## 为什么使用 `CITATION.cff`？
+## Why Use `CITATION.cff`?
 
-使用 `CITATION.cff` 文件作为您的软件的引文信息有很大的优点！
+There are great advantages when using a `CITATION.cff` file for the citation information for your software!
 
-对于您来说更容易: 当您在 GitHub 上托管您的软件源代码并且有一个 `CITATION。 ff` 在您的仓库中，您可以使用 Zenodo-GitHub 集成自动发布软件的新版本。 Zenodo将使用来自 `CITATION.cff` 的信息，并将其与出版物一并显示。 您无需在Zenodo手动编辑此信息。
+It's easier for you: When you host your software source code on GitHub and have a `CITATION.cff` in your repository, you can use the Zenodo-GitHub integration to automatically publish new releases of the software. Zenodo will use the information from `CITATION.cff` and show it together with the publication. You don't have to edit this information manually on Zenodo anymore.
 
 ```{figure} ../../figures/software-credit.jpg
 ---
-名称：软件信贷
-宽度：500px
-Alt：为软件创建者提供更多积分。
+name: software-credit
+width: 500px
+alt: More credits for the software creators.
 ---
-为软件创建者提供更多积分。 _The Turing Way_ project illustration by Scriberia. Zenodo. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
+More credits for the software creators. _The Turing Way_ project illustration by Scriberia. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
 ```
 
-它对您的软件用户来说更容易：
-1. 他们可以直接使用来自 `CITATION.cff` 的引文信息来引述您的软件。
-2. 如果您的源代码在 GitHub 上 他们将在侧边栏显示引文信息作为一个格式化引文，以及BibTeX格式。 用户也可以复制，将其粘贴到手稿中，和/或正确引用您的软件。
-3. 如果他们使用Zotero参考管理器，他们可以直接从 `CITATION导入引文元数据。 ff GitHub 版本库中的` 文件到他们的参考管理器。
+It's easier for the users of your software:
+1. They can directly use the citation information from `CITATION.cff` to cite your software.
+2. If your source code is on GitHub, they will show the citation information in the sidebar as a formatted citation, and also in the BibTeX format. Users can copy either, paste it into their manuscripts, and/or cite your software correctly.
+3. If they use the Zotero reference manager, they can import the citation metadata directly from the `CITATION.cff` file in the GitHub repository to their reference manager.
 
-(cm-citable-cff-how to create)=
-## 如何创建 `CITATION.cff` 文件
+(cm-citable-cff-how-to-create)=
+## How to Create a `CITATION.cff` File
 
-`CITATION.cff` 是一个 `YAML` 含有其自身架构定义的文件。 模式定义了每个字段的规则，需要哪些字段和哪些字段是可选的。 用户必须遵循这些规则才能创建一个有效的 `CITATION.cff` 文件。
+The `CITATION.cff` is a `YAML` file with its own schema definition. The schema defines the rules for each field, and which fields are required and which ones are optional. The user must follow these rules in order to create a valid `CITATION.cff` file.
 
-一个有效的 `CITATION.cff` 文件的最起码的例子，即只包含所需的密钥，看起来就像这样：
+A minimal example of a valid `CITATION.cff` file, that only contains the required keys, would look like this:
 
 ```yaml
-作者：
-  - 家庭名：做
-    给定的名字：John
-cff-version：1.2。 消息：“如果您使用此软件，请使用此文件的元数据说明。”
-标题：“我的研究软件”
+authors:
+  - family-names: Doe
+    given-names: John
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+title: "My research software"
 ```
 
-然而，添加更多的字段可以帮助您创建更多的软件描述性元数据。 下面的例子还提供了软件的重要信息，如版本、发行日期、DOI、许可证、关键字。
+However, adding more fields can help you create more descriptive metadata of your software. The example below also provides important information of software such as version, release date, DOI, license, keywords.
 
 ```yaml
-摘要：“这是我精彩的研究软件。 它做了许多事情。 作者：
-  - 家庭名称： Doe
-    给定的名字：John
-    orcid: "https://orcid. rg/000000-0001-88888-99”
-cff-version：1.2。 日期发布: "2021-10-13"
-标识符:
-  - 描述: "这是我的研究软件所有版本的存档快照的集合"
-    类型: doi
-    值: 10。 第281/zenodo.123456
-  - 描述：“这是版本0的存档快照。 我的研究软件的1.2种”
-    类型：doi
-    值：10.5281/zenodo。 23457
-关键词：
-  - "惊人的软件"
-  - 研究
-许可证：Apache-2。 消息：“如果您使用此软件，请使用此文件的元数据说明。”
-仓库代码：“https://github。 om/citation-file-form/my-research-software”
+abstract: "This is my awesome research software. It does many things."
+authors:
+  - family-names: Doe
+    given-names: John
+    orcid: "https://orcid.org/0000-0001-8888-9999"
+cff-version: 1.2.0
+date-released: "2021-10-13"
+identifiers:
+  - description: "This is the collection of archived snapshots of all versions of My Research Software"
+    type: doi
+    value: 10.5281/zenodo.123456
+  - description: "This is the archived snapshot of version 0.11.2 of My Research Software"
+    type: doi
+    value: 10.5281/zenodo.123457
+keywords:
+  - "amazing software"
+  - research
+license: Apache-2.0
+message: "If you use this software, please cite it using the metadata from this file."
+repository-code: "https://github.com/citation-file-format/my-research-software"
 title: "My Research Software"
 version: 0.11.2
 ```
 
-完整的字段列表在 [CFF schema 指南](https://github.com/citation-file-format/citation-file-format/blob/main/schema-guide.md) 中描述。 在下一节中，您可以找到哪些工具可以帮助您创建和使用 `CITATION.cff` 文件。
+The complete list of fields is described in the [CFF schema guide](https://github.com/citation-file-format/citation-file-format/blob/main/schema-guide.md). In the next section, you can find out which tools can help you create and use the `CITATION.cff` file.
 
-### 使您的软件变得开启的步骤
+### Steps to Make Your Software Citable
 
-要使您的软件易于使用，您需要遵循下面的两个步骤。
+To make your software citable, you need to follow the two steps below.
 
-#### 步骤1。 创建 `CITATION.cff` 文件
+#### Step 1. Create a `CITATION.cff` File
 
-创建一个 `CITATION.cff` 文件有两种方式。
+There are two ways of creating a `CITATION.cff` file.
 
-1. 使用 [cffinit](https://citation-file-format.github.io/cff-initializer-javascript/), 这是一个引导您创建引文文件的网络应用程序。 与手动编辑相比， `cffinit` 有一些优势。
+1. Use [cffinit](https://citation-file-format.github.io/cff-initializer-javascript/), a web application which guides you through the process of creating your citation file. The `cffinit` has a few advantages compared to manual editing such as
 
-    - 无需安装额外的工具；
-    - 无需手动验证；
-    - 为每个领域提供指导；
-    - 显示问题的视觉反馈。
+    - no need for installing extra tools;
+    - no need for manual validation;
+    - guidance for each fields;
+    - visual feedback to indicate issues.
 
-    我们建议使用 `cffinit` ，因为它简化了创建和验证。 欲了解更多关于使用 `cffinit` 的详情，请见 {ref}`cm-citable-cffinit`。
+    We suggest using `cffinit` as it simplifies the creation and validation. For more details on using `cffinit` see {ref}`cm-citable-cffinit`.
 
-2. 在您最喜爱的代码编辑器中手动编辑文件。 此方法的缺点是在您的系统上安装所需的工具并自己进行验证。 此外，验证错误消息可能较长，也很难理解。 一旦你有 `CITATION.cff` 文件，它需要验证以确保没有问题。 You can validate your `CITATION.cff` file on the command line with the [`cffconvert` Python package](https://pypi.org/project/cffconvert/).
-
-    ```shell
-    cd 路径/to/CITATION.cff
-    cfftransfer --valide
-    ```
-
-    如果你喜欢使用 Docker，你可以使用 [`cffconversion` Docker 图像](https://hub.docker.com/r/citationcff/cffconvert):
+2. Edit the file manually in your favorite code editor. The disadvantages of this method are installing the required tools on your system and doing the validation yourself. Also, the error messages of the validation can be relatively long and difficult to understand. Once you have a `CITATION.cff` file, it needs to be validated to make sure there are no issues. You can validate your `CITATION.cff` file on the command line with the [`cffconvert` Python package](https://pypi.org/project/cffconvert/).
 
     ```shell
-    cd 路径/to/CITATION.cff
-    docker 运行 --rm -v ${PWD}:/app citationcff/cfftransfer --value
+    cd path/to/CITATION.cff
+    cffconvert --validate
     ```
 
-    如果您收到错误消息，请寻找相关的验证错误并修复它。
+    If you prefer to use Docker, you can use the [`cffconvert` Docker image](https://hub.docker.com/r/citationcff/cffconvert):
+
+    ```shell
+    cd path/to/CITATION.cff
+    docker run --rm -v ${PWD}:/app citationcff/cffconvert --validate
+    ```
+
+    If you get error messages, look for the relevant validation error and fix it.
 
 ```{note}
-为了确保您的 GitHub 仓库始终有一个有效的 `CITATION.cff` 文件，您可以使用 [cff-validator](https://github.com/marketplace/actions/cff-validator) GitHub 操作。
+To make sure your GitHub repository always has a valid `CITATION.cff` file, you can use the [cff-validator](https://github.com/marketplace/actions/cff-validator) GitHub Action.
 ```
 
-#### 步骤2 步骤2 将您的 `CITATION.cff` 添加到公共代码库
+#### Step 2. Add Your `CITATION.cff` to a Public Code Repository
 
-创建有效的 `CITATION。 ff` 文件， 您需要将其添加到您的代码或数据存储库的根目录，以便能够轻松地找到和引用。
+After creating a valid `CITATION.cff` file, you will need to add it to root of your code or data repository so that it can be easily found and cited.
 
 (cm-citable-cff-updating)=
-## 正在更新您的 `CITATION.cff` 文件
+## Updating your `CITATION.cff` file
 
-当你需要更新你的 `CITATION. ff` 文件，例如添加作者或更改有关发布的信息，您需要手动编辑该文件。 建议在软件发布前更新您的 `CITATION.cff` 文件。
+When you need to update your `CITATION.cff` file, for example to add an author or to change the information about releases, you will need to edit the file manually. It is recommended to update your `CITATION.cff` file before making a software release.
 
-(cm-citable-cff-how to cite)=
-## 如何使用 `CITATION.cff`
+(cm-citable-cff-how-to-cite)=
+## How to Cite Using `CITATION.cff`
 
-如果您找到了包含 `CITATION的软件或数据集。 ff`, 有几种方法可以获取参考信息以在您的出版物中引用。
+If you have found software or datasets that contain a `CITATION.cff`, there are a few ways to obtain the reference information to cite them in your publication.
 
-- 您可以使用其中的工具之一，例如 `cfftransfer` 命令行程序来转换您的 `CITATION。 ff` 文件到一个 [支持的格式](https://github.com/citation-file-format/cff-converter-python#supported-output-formats), 例如APA、BibTeX 或 EndNote.
+- You can use one of the tools, such as `cffconvert` command line program, to convert your `CITATION.cff` file to one of the [supported formats](https://github.com/citation-file-format/cff-converter-python#supported-output-formats), such as APA, BibTeX or EndNote.
 
-- 或者，如果您想要引用的软件或数据集可在 GitHub 上获取， 您可以使用 GitHub 的接口，通过点击 "Cite 此仓库" 按钮复制参考信息（参见下面图像中的绿色区域）。 关于GitHub 上的软件引文详情，请参阅 [GitHub的软件引文指南](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files)。
+- Alternatively, if the software or datasets you want to cite are available on GitHub, you can use GitHub's interface to copy the reference in either APA or BibTeX formats by clicking the "Cite this repository" button (see the green area in the image below). For more details on software citation on GitHub please see [GitHub's guide on software citation](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files).
 
   ```{figure} ../../figures/github-cff-integration.jpg
   ---
-  名称：github-cff-integration
-  alt: GitHub 上的按钮自动将 `CITATION.cff` 文件转换为 Apa 和 BibTex's 格式。
+  name: github-cff-integration
+  alt: Button on GitHub that provides automatically conversion of the `CITATION.cff` file to APA's and BibTex's format.
   ---
-  "Cite 此仓库" 自动将 `CITATION.cff` 文件转换为 ApA 和 BibTex's 格式。
+  "Cite this repository" automatically converts the `CITATION.cff` file to APA's and BibTex's format.
   ```
 
   ```{note}
-  只有当存储库中有一个 `CITATION.cff` 文件时，才会显示“引用此存储库”按钮。
+  "Cite this repository" button only appears when there is a `CITATION.cff` file in the repository.
   ```
 
 (cm-citable-cff-available-tools)=
-## 可用工具
+## Available Tools
 
-有好几个工具可以帮助创建和验证 `CITATION.cff` 文件，以及转换为或从其他格式的文件。 引文文件格式为此提供 [个所有已知工具](https://github.com/citation-file-format/citation-file-format#tools-to-work-with-citationcff-files-wrench) 列表。
+Several tools exist to facilitate the creation and validation of `CITATION.cff` files, as well as the conversion to and from other formats. The Citation File Format’s repository provides [a list of all known tools](https://github.com/citation-file-format/citation-file-format#tools-to-work-with-citationcff-files-wrench) for this.
