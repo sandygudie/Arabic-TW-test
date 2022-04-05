@@ -11,7 +11,7 @@ Project ownership is defined by responsibilities that are important for the succ
 
 Similar to the copyright default of software, if ownership in a project is not defined, it is not shared ownership. Shared ownership for an Open source project should include the following aspects:
 
-## 项目贡献者是谁
+## *Who* are the project contributors?
 
 Contributors can be individuals, developer/research teams or an organisation. For example, researchers, funding organisations, and host institutes. These contributors can be paid members of the project such as the project lead and project coordinator, or volunteers from the wider open science ecosystem contributing in their own time. These contributors engage in the project either because they are recruited in the project or have successfully found the project due to their personal interest. To ensure that the project involves a diverse community of contributors, it is also important to make the project easy to find and access. Furthermore, contributors can be actively brought in by other contributors from their network.
 
