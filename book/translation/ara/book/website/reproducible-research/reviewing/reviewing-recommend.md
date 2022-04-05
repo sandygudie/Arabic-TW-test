@@ -1,41 +1,41 @@
 (rr-reviewing-recommendation)=
-# التوصيات وأفضل الممارسات
+# Recommendations and Best Practices
 
-## من يراجع؟
+## Who Reviews?
 
-في إطار المشاريع الصغيرة الحجم التي يعرف فيها جميع المطورين بعضهم البعض عادة، الممارسة الشائعة هي أن يقوم المبرمج بوضع علامة على شخص ما في المجموعة كمراجع. عندما تكون موسومة كمستعرض، أولاً تحقق مما إذا كان لديك معرفة كافية حول التغييرات الجديدة في التعليمات البرمجية للقيام بعمل جيد في وقت معقول.
+Within small-scale projects where the developers all typically already know each other, common practice is for the coder to tag someone in the group as the reviewer. When you are tagged as a reviewer, first check if you have enough knowledge about the new changes in the code to do a good job in a reasonable amount of time.
 
-وعلى النقيض من ذلك، من المرجح أن تكون لدى مشاريع التطوير الكبيرة قواعد ملموسة قائمة لكيفية تخصيص المستعرضين لطلبات السحب الفردية. These rules serve to balance the group workload and to maximise the various benefits of the process to the project and its participants. The very largest projects may even have dedicated staff - or teams of staff - to act as reviewers. Typically, code reviews can only be performed by an authorised subset of contributors within larger projects.
+In contrast, large-scale development projects will likely have existing, concrete rules for how reviewers are allocated to individual pull requests. These rules serve to balance the group workload and to maximise the various benefits of the process to the project and its participants. The very largest projects may even have dedicated staff - or teams of staff - to act as reviewers. Typically, code reviews can only be performed by an authorised subset of contributors within larger projects.
 
 For projects where multiple rounds of review on similar material are likely and long development cycles are anticipated, a degree of strategic thinking on who completes reviews is sensible. A single reviewer is likely to be able to make comments on code they have reviewed before much more efficiently. However, letting reviewer-coder pairs like this persist is generally a bad idea, as it can lead to the same kinds of groupthink that the review process is designed to avoid in the first place.
 
-(ص - استعراض التوصيات) =
-## كن جيداً!
+(rr-reviewing-recommendation-be-nice)=
+## Be Nice!
 
-وكما هو الحال بالنسبة لجميع المؤسسات ذات المصدر المفتوح والمؤسسات التعاونية، فإن شبكة الإنترنت الجيدة تجعل العملية بأكملها تمضي بسلاسة. ولعل الأهم من ذلك هو أن تفترض دائما حسن النية على كلا جانبي التفاعل في الاستعراض، وأن تكون دائما بناءة. وتنطبق هذه المبادئ على عملية الاستعراض التي تتجاوز أي جانب آخر من جوانب المشروع تقريبا، لأنها تنطوي بالضرورة على انتقاد، ربما بين غربين كاملين.
+As with all open-source and collaborative enterprises, good internet etiquette makes the whole process go more smoothly. Perhaps most importantly, always assume good faith on both sides of the review interaction, and always be constructive. These principles are true for the review process beyond almost any other project aspect, since it necessarily involves criticism, potentially between two complete strangers.
 
-## حافظ على تعاونه
+## Keep It Collaborative
 
-خلافاً لاستعراض النظراء التقليدي, "على الطريقة الأكاديمية", معظم أنظمة مراجعة التعليمات البرمجية لها عدد من المزايا: نادراً ما تكون مجهولة الهوية، إنهم في مواجهة عامة، وبدون وسيط محرر، يمكن أن يكون الاتصال بين المستعرضين و ريفيوي مباشرا وسريعا. وهذا يعني أن استعراض الرموز هو عادة عملية سريعة ومرنة وتفاعلية. وسيكون استعراض النظراء الجيد تعاوناً تاماً عندما يقوم أحد المستعرضين بتحديد استفسار محتمل، ويمكن للطرفين المعنيين أن يعملا معا لإيجاد حل. ليس من غير المألوف أيضا أن تقوم أطراف ثالثة بتجسيد خيوط المناقشة التي يمكن أن تتنامى في ظل تعليقات استعراض أكثر حنكة، إما طوعا أو بناء على طلب. وهذا كله في صالح الجميع.
+Unlike traditional, "academic-style" peer review, most code review systems have a number of advantages: they're rarely anonymous, they're public-facing, and without the middleman of an editor, contact between reviewer and reviewee can be direct and rapid. This means code review is typically a fast, flexible, and interactive process. Good peer review will be fully collaborative, where once a potential query has been flagged by a reviewer, the two involved parties can work forward together to find a solution. It's also not atypical for third parties to chime in during the discussion threads that can grow under more gnarly review comments, either voluntarily or by request. This is all to the good.
 
-## تجنب الخواص
+## Avoid Being Subjective
 
-وينبغي أن تسعى استعراضات المدونة إلى أن تكون موضوعية قدر الإمكان. بالطبع، قد تظهر تفضيلات البرمجة الذاتية في أي مشروع. غير أنه ينبغي البت مسبقاً في هذه الأفضليات كلما أمكن ذلك على مستوى المشروع. وبالتالي، يمكن للمرء أن يتجنب الحالة التي يمكن فيها إصدار رأي على أنه حقيقة. وبدلا من ذلك، يمكن تأييد الاقتراحات بالإشارة إلى الأفضليات الموثقة التي وضعت مسبقا. إذا حصلت على تفضيلات بدون وثائق، مناقشتها مع الفريق مرة أخرى والموافقة إذا كنت ترغب في إضافة التفضيل إلى قائمة التحقق من عملية مراجعة التعليمات البرمجية الخاصة بك.
+Code reviews should strive to be as objective as possible. Of course, subjective coding preferences may come up in any project. However, such preferences wherever possible should be decided at the project level beforehand. Thus, one can avoid the situation where an opinion might be passed off as fact. Instead suggestions can be supported by pointing to documented preferences that have been set up in advance. If you do come across undocumented preferences, discuss them with the team again and agree if you would like to add the preference to the checklist of your code review process.
 
-## تحديد التغييرات الحاسمة ضد التغييرات الاختيارية
+## Specify Crucial Versus Optional Changes
 
-قد ترغب في التمييز بين التغييرات الحاسمة والتغييرات اللطيفة. على سبيل المثال، التعليقات التي تبدأ "أنت قد ..." يمكن استخدامها للتعبير عن الاقتراحات التي يريد المراجعون أن ينظر فيها المبرمج ولكنها ليست أساسية. يمكن أن تكون هذه مفيدة بشكل خاص لإرشاد المبرمجين غير المتمرسين لكتابة كود أفضل بينما لا تكون مختارة جداً. يمكن للمبرمجين بعد ذلك أن يقرروا تجاهل هذه التعليقات غير الحاسمة إذا لم يوافقوا على ذلك. يمكن للمراجعين استخدام التعليقات التي تبدأ "يجب عليك..." لتحديد تلك التي ليست اختيارية.
+You might want to differentiate between changes that are crucial and changes that are nice to have. For example, comments that begin "You might..." could be used to express suggestions the reviewers want the coder to consider but are not essential. These can be particularly useful to guide inexperienced coders to write better code while not being too picky. The coder can then decide to ignore these non-crucial comments if they don't agree. Reviewers could use comments that begin "You must..." to specify those that are not optional.
 
-## مراجعة التعليمات البرمجية في قطع صغيرة
+## Review Code in Small Chunks
 
-مراجعة التعليمات البرمجية في أجزاء صغيرة بشكل تدريجي مع تطوير المشروع يمكن أن يساعد في جعل عملية مراجعة التعليمات البرمجية أكثر كفاءة. ومن الأصعب بكثير أن يعاد النظر في مجموعة كبيرة من القوانين بمجرد إدخال أخطاء كبيرة. إذا كان من الممكن ملاحظة الأخطاء في وقت مبكر من العملية، سيكون إصلاحها أسهل بكثير، وهذا سيساعد في عملية وضع التعليمات البرمجية عموما.
+Reviewing code in small chunks incrementally as the project is developing can help make the code review process a lot more efficient. It is a lot more difficult to review an enormous codebase once significant mistakes have been introduced. If mistakes can be spotted early in the process, they are much easier to fix and this will help with the overall code development process.
 
-وفيما يلي بعض النصائح العامة حول كيفية دمج مراجعة الرموز في عملية عملنا:
+Here is some general advice on how to integrate code reviews into our working process:
 
 - Take the time, read carefully. Review everything, nothing is too short or simple.
-- حاول الحصول على شيء آخر للقيام به، ونشر الحمولة طوال يوم العمل الخاص بك. Don't review for more than an hour at a time, after that the success rate drops quite quickly.
+- Try to have something else to do, and spread the load throughout your working day. Don't review for more than an hour at a time, after that the success rate drops quite quickly.
 - Don't review more than 400 lines of code (LOC) at a time, less than 200 LOC is better. Don't review more than 500 LOC/hour.
 
-## كن على ما يرام مع أخذ المناقشة دون اتصال
+## Be Okay With Taking the Discussion Offline
 
-وفي بعض الأحيان، قد تؤدي الاتصالات عبر الإنترنت إلى إجراء محادثات غير مثمرة مع إجراء استعراضات أكثر تعقيدا. ومن شأن عقد اجتماع شخصي أن يساعد على حل بعض المسائل الأكثر صعوبة بطريقة أكثر تعاونا وودية. وكبديل لذلك، يمكن لفريق التنمية/البحث أن يعقد اجتماعات منتظمة لإجراء استعراضات رموز مع جميع أعضاء الفريق. على سبيل المثال، انظر النهج الذي يتبعه أستاذ ينظم [اجتماعات مختبرية للتعليمات البرمجية](http://fperez.org/py4science/code_reviews.html).
+Sometimes, with more complex code reviews, online communication can lead to unproductive conversations. Setting up an in-person meeting can help to resolve some of the trickier issues in a more collaborative and friendly manner. As an alternative, the development/research team can set regular meetings for doing code reviews with all of the team members. For example, see the approach taken by a professor organizing [lab meetings for code](http://fperez.org/py4science/code_reviews.html).
