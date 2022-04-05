@@ -71,12 +71,12 @@ Notes: https://hackmd.io/@turingway/bookdash-may2021-day1 <--- update this
 
 #### Development & Networking Sessions <--- update this table
 
-| Time          | Agenda                                  | Hosts        | Attendees |
-| ------------- | --------------------------------------- | ------------ | --------- |
-| 08:00 - 10:30 | see notes                               | Talk by name | names     |
-| 11:00 - 12:30 | Comunicación visual & Illustraciones==± | name         | names     |
-| 14:00 - 16:30 | see notes                               | No Talk      | names     |
-| 17:00 - 19:30 | see notes                               | Talk by name | names     |
+| Time          | Agenda                                                                    | Hosts        | Attendees |
+| ------------- | ------------------------------------------------------------------------- | ------------ | --------- |
+| 08:00 - 10:30 | see notes                                                                 | Talk by name | names     |
+| 11:00 - 12:30 | ==Themed discussion & Networking: Visual Communication & Illustrations==± | name         | names     |
+| 14:00 - 16:30 | see notes                                                                 | No Talk      | names     |
+| 17:00 - 19:30 | see notes                                                                 | Talk by name | names     |
 
 ±Theme: **TBA**
 
@@ -86,12 +86,12 @@ Notes: https://hackmd.io/@turingway/bookdash-may2021-day2 <--- update this
 
 #### Development & Networking Sessions <--- update this table
 
-| Time          | Agenda                          | Hosts | Attendees |
-| ------------- | ------------------------------- | ----- | --------- |
-| 08:00 - 10:30 | see notes                       | name  | names     |
-| 11:00 - 13:30 | see notes                       | name  | names     |
-| 14:00 - 15:30 | Accesibilidad & Comunicación==± | name  | names     |
-| 17:00 - 19:30 | see notes                       | name  | names     |
+| Time          | Agenda                                                             | Hosts | Attendees |
+| ------------- | ------------------------------------------------------------------ | ----- | --------- |
+| 08:00 - 10:30 | see notes                                                          | name  | names     |
+| 11:00 - 13:30 | see notes                                                          | name  | names     |
+| 14:00 - 15:30 | ==Themed discussion & Networking: Accessibility & communication==± | name  | names     |
+| 17:00 - 19:30 | see notes                                                          | name  | names     |
 
 ±Theme: **TBA**
 
@@ -153,7 +153,7 @@ Notes: https://hackmd.io/@turingway/bookdash-may2021-day5 <--- update this
 | 14:00 - 16:00 | see notes           | names | names     |
 | 17:00 - 19:00 | ==Open to public==± | names | names     |
 
-± ***Compartir con la comunidad & Celebración del colaborador - ***Abrir al público******
+± ***Community Share-out & Contributor Celebration - ***Open to Public******
 
 These sessions are open to public. Feel free to invite your colleagues and friends who would like to connect with The Turing Way community. In this session, all the contributors including the Book Dash attendees will have a chance to share their work with everyone through short demo/presentation.
 
@@ -167,7 +167,7 @@ These sessions are open to public. Feel free to invite your colleagues and frien
 
 :heavy_plus_sign::arrow_up_small: Pluses and deltas - Final Feedback Document <--- update links
 ---
-**IMPORTANTE:** Por favor, tómate unos minutos para **compartir tus destacados** como un comentario bajo el asunto [#1973](https://github.com/alan-turing-institute/the-turing-way/issues/1937) y **proporciona comentarios** (más y delta: https://hackmd.
+**IMPORTANT:** Please take a few minutes to **share your highlights** as a comment under issue [#1973](https://github.com/alan-turing-institute/the-turing-way/issues/1937) and **provide feedback** (pluses and delta: https://hackmd.io/@turingway/bookdash-may2021-feedback) from the event.
 
 _These will be extremely valuable for us to explain to our funders why this event was valuable, and to learn about your experience, what you enjoyed and how we can improve future events._
 
@@ -184,7 +184,7 @@ Any day-to-day feedback during the event can be directly shared in the main even
 ### Communication channels
 
 - Slack Channel: [Invitation link](https://join.slack.com/t/theturingway/shared_invite/zt-fn608gvb-h_ZSpoA29cCdUwR~TIqpBw)
-    - New to Slack? ¿Nuevo en Slack? [Ver esta guía de inicio rápido](https://hackmd.io/@turingway/slack-guide)
+    - New to Slack? [See this quick start guide](https://hackmd.io/@turingway/slack-guide)
 - Mailing list: https://tinyletter.com/TuringWay/
 - Twitter account: https://twitter.com/turingway
 
