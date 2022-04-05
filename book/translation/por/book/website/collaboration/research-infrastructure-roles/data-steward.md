@@ -1,78 +1,78 @@
-(cl-infraestrutura-data-datas)=
-# Direção de Dados: Visão Geral
+(cl-infrastructure-datastewards)=
+# Data Stewards: Overview
 
-O progresso dos dados é um papel crescente nas comunidades científicas. 'Direção de Dados' é um termo abrangente para vários papéis de suporte que envolvem a criação, gerenciamento e uso de dados de pesquisa (consulte também o capítulo {ref}`rr-rdm`).
+Data Stewards are a growing role within scientific communities. 'Data Steward' is an umbrella term for numerous support roles that involve the creation, management and usage of research data (see also the {ref}`rr-rdm` chapter).
 
-(cl-infraestrutura-dados-tarefas)=
-## O que o Progresso de Dados faz?
-As principais responsabilidades de um Data Steward podem variar, desde o consultor político-consultor, até às tarefas operacionais, a tarefas técnicas ou relacionadas com as TIC. Um Steward de Dados facilita a qualidade, a integridade e o acesso a dados (meta)de uma forma que seja consistente com as leis e políticas institucionais adequadas, assegurar o tratamento profissional de dados em todas as fases do projecto de pesquisa. Veja também: {cite:ps}`Verheul2019DataStewardship`
+(cl-infrastructure-datastewards-tasks)=
+## What do Data Stewards do?
+The core responsibilities of a Data Steward can vary, ranging from policy advisor/consultant, to hands-on operational tasks, to technical or ICT-related tasks. A Data Steward facilitates the quality, integrity and access to (meta)data in a manner that is consistent with the appropriate laws and institutional policies, ensuring professional treatment of data throughout all stages of the research project. See also: {cite:ps}`Verheul2019DataStewardship`
 
-Cada função é variada, mas as principais atividades se concentram tipicamente em torno de dados, administração e aconselhamento de pesquisadores:
-* Desenvolvimento e implementação de políticas líderes na gestão de dados de pesquisa
-* aja como um porta-voz, crie um conhecimento sobre a mais-valia de uma boa gestão de dados
-* Ajude a planejar a coleta, gestão e publicação de dados em projetos de pesquisa
-* Explore, analise e avalie as tendências de gestão de dados de pesquisa no seu grupo de pesquisas/instituições
-* Desenvolver e executar eventos de treinamento na gestão de dados de pesquisa
+Each role is varied but the main activities are typically focused around data, stewardship, and advising researchers:
+* Leading policy development and implementation on research data management
+* Act as a spokesperson, create awareness for the added value of good data management
+* Assist in planning the collection, management and publication of data in research projects
+* Explore, analyse and assess trends in research data management at your institute/research group
+* Develop and run training events on research data management
 
-As tarefas do dia-a-dia de um Data Steward podem incluir:
-* Verificando e aconselhamento em um Plano de Gestão de Dados (consulte {ref}`rr-rdm-dmp` para obter mais informações)
-* Fornecer suporte para propostas de concessão
-* Fornecendo treinamento de gerenciamento de dados
-* Guia de um pesquisador através do processo de compartilhamento de dados
-* Liderando discussões sobre que tipo de dados preservar pelo longo tempo e quais dados compartilhar publicamente
-* Planejamento para sessões de informações da comunidade futuras, treinamentos, eventos
-* Fornecer informações (por emails ou em um site)
-* Escrever um blog em um tópico relacionado ao gerenciamento de dados de pesquisa
-* Estar envolvido em comunidades internacionais e grupos de trabalho para melhorar as práticas recomendadas ou defender a importância dos dados de pesquisa
-* E muito mais!
-
-
-(cl-infraestrutura-dados-habilidades)=
-## Que qualificações ou habilidades você precisa para manter o Progresso de Dados?
-Atualmente não há nenhuma faixa formal a ser usada para se tornar um Suporte de Dados. A maioria dos Passos de Dados tem um mestre, doutoramento ou formação profissional em pesquisa e educação. Este pano de fundo é necessário para se falar a mesma linguagem que o pessoal científico, para que se torne mais fácil compreender as suas necessidades e preocupações. Dependendo do foco particular da posição, você precisaria de um fundo mais técnico/TIC, conhecimento de assuntos específicos de disciplina ou experiência em matéria de aconselhamento e construção de políticas. As competências suaves são importantes nos papéis de consultor/política, como você precisa...
-
-O relatório sobre o gerenciamento de dados do FAIR como profissão ({cite:ps}`Scholtens2019FAIRSteward`) concluiu que existem oito áreas de competência importantes para o Diretor de Dados:
-1. Política/estratégia: concepção ou sensibilização para políticas e regulamentos de gestão de dados de investigação
-2. Cumprimento: aconselhar sobre como se adaptar a políticas e regulamentos de gerenciamento de dados de pesquisa
-3. Facilitar práticas de gerenciamento de dados de pesquisa FAIR/recomendado
-4. Serviços: proposto, implementar e monitorar serviços de gerenciamento de dados e melhorar os processos de trabalho
-5. infraestrutura de dados: identifique requisitos de infraestrutura e ferramentas
-6. Gerenciamento de conhecimento: identificar o nível de conhecimento e habilidades de gestão de dados de pesquisa
-7. Rede e comunicação: crie redes para aumentar a consciência e participar (inter)das redes nacionais de gerenciamento de dados
-8. Compartilhamento de dados: arquivamento e publicação
-
-A par destas áreas específicas, a coordenação do trabalho e o desenvolvimento de competências não vinculativas pode ser importante. Ver também: {cite:ps}`Jetten2021DataStewardship`
-
-Geralmente, o Diretor de Dados adquire essas habilidades através do aprendizado no trabalho, o que é facilitado por redes existentes (veja {ref}`com suporte a múltiplas infraestruturas` abaixo). Através destas redes, as experiências podem ser trocadas com pares, o que é benéfico para o desenvolvimento pessoal e profissional. Um exemplo desses esforços colaborativos é a '23 Coisas: Suporte para Dados de Pesquisa'({cite:ps}`Jetten201923CoisData`) que fornece uma boa visão geral de recursos úteis para o Progresso de Dados. Dependendo do papel do Dados, habilidades específicas de disciplina de aprendizagem podem ser importantes contribuindo para projetos específicos ou participando de conferências e reuniões sobre tópicos relevantes. À medida que a cultura da pesquisa se adapta a (inter)mudança nacional, também mudam as competências do Steward de Dados que têm de ser continuamente atualizadas.
+The day-to-day tasks of a Data Steward could include:
+* Checking and advising on a Data Management Plan (see {ref}`rr-rdm-dmp` for more information)
+* Providing support for grant proposals
+* Providing data management training
+* Guiding a researcher through the data sharing process
+* Leading discussions on what type of data to preserve for the long time and what data to share publicly
+* Planning for upcoming community information sessions, trainings, events
+* Providing information (through emails or on a website)
+* Writing a blog on a topic related to research data management
+* Being involved in international communities and working groups to improve the recommended practises or advocate for the importance of research data
+* And a lot more!
 
 
-(cl-infraestrutura-data-desafios-de-dados)=
-## Desafios para avançar de dados
-* Como o Steward de Dados é uma profissão relativamente nova (~2017), seu perfil de trabalho nem sempre está definido formalmente e sua faixa de carreira pode não estar clara.
-* É difícil aumentar a sensibilização para a presença de políticas de dados e/ou de dados existentes, especialmente quando os recursos são limitados.
-* Leva tempo para conhecer os pesquisadores e ganhar a confiança deles, que é importante para podermos aconselhá-los adequadamente e trabalhar em conjunto na melhoria das práticas de gestão de dados.
-* Nem todos vêem como benéfico o avanço para uma cultura de investigação mais transparente e pode-se enfrentar a resistência de investigadores que não querem alterar os seus fluxos de trabalho existentes.
-* Poderá haver recursos limitados e tempo para cobrir todos os pedidos de apoio dos investigadores. Muitas vezes há apenas uma pequena equipe central de Avanço de Dados disponível para todo o instúvel.
-* Nem sempre é claro quando você está oferecendo suporte de alta qualidade e onde você poderia melhorar, como não existe educação formal e nem sempre existe uma forte cultura de feedback no seu instituto.
+(cl-infrastructure-datastewards-skills)=
+## What qualifications or skills do you need to be a Data Steward?
+There is currently no formal track to take to become a Data Steward. Most Data Stewards have a masters or doctoral education, or a background in research and education. This background is needed to speak the same language as scientific staff, so that it becomes easier to understand their requirements and concerns. Depending on the particular focus of the position, you would need a more technical/ICT background, knowledge of discipline specific matters or experience with advising and policy construction. Soft skills are important in the advisory/policy roles, as you need to..
 
-(cl-infraestrutura-dados-benefícios-benefícios)=
-## Benefícios de ter Dados Avançados
-* Compartilhar informações ou fornecer treinamento para o gerenciamento de dados para que os pesquisadores não precisem reinventar a própria roda e possam aprender facilmente sobre práticas recomendadas, que, em última análise, melhorará a qualidade da investigação.
-* A Direcção de Dados pode oferecer tranquilidade aos investigadores, fornecendo feedback sobre os seus planos de gestão de dados, práticas e aconselhamento sobre soluções alternativas.
-* Suporte a bolsas maiores e colaborativas onde o gerenciamento de dados e a ciência aberta são parte integrante da proposta ([Horizonte Europe](https://ec.europa.eu/info/research-and-innovation/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en)).
-* O Progresso de Dados pode desempenhar um papel de liderança no desenvolvimento de políticas relativas à gestão de dados e de software.
-* Os dados avançados podem fornecer respostas para perguntas de investigadores, ou direcioná-los para outros funcionários relevantes que possam responder à pergunta.
+The “Towards FAIR data stewardship as profession” report ({cite:ps}`Scholtens2019FAIRSteward`) concluded that there are eight competency areas that of importance to Data Stewards:
+1. Policy/strategy: designing or raising awareness of research data management policies and regulations
+2. Compliance: advise on how to confer to research data management policies and regulations
+3. Facilitating FAIR/recommended research data management practices
+4. Services: propose, implement and monitor data management services and improve work processes
+5. Data infrastructure: identify requirements for infrastructure and tools
+6. Knowledge management: identify the level of research data management knowledge and skills
+7. Network and communication: set up networks to increase awareness and participate in (inter)national research data management networks
+8. Data sharing: archiving and publishing
 
-(cl-infraestrutura-dados-suporte)=
-## Organizações que suportam Dados Avançados
-* [Pesquisar Aliança de Dados](https://www.rd-alliance.org/)
-* [Grupo de Interesse Progresso DTL-Data](https://www.dtls.nl/about/community/interest-groups/data-stewards-interest-group/)
-* [Acesso a Dados de Pesquisa & Conservação](https://rdapassociation.org/)
+Next to these specific areas coordination of work and development of soft skills may be important. See also: {cite:ps}`Jetten2021DataStewardship`
+
+Generally, Data Stewards acquire these skills through learning-on-the-job, which is facilitated by existing networks (see {ref}`cl-infrastructure-datastewards-support` below). Through these networks experiences can be exchanged with peers, which is beneficial for personal and professional development. An examples of these collaborative efforts is the '23 Things: Support for Research Data'({cite:ps}`Jetten201923ThingsData`) that provides a good overview of helpful resources for Data Stewards. Depending on the role of the Data Steward, learning discipline specific skills may be important through contributing to specific projects or attending conferences and meetings on relevant topics. As the research culture adapts to (inter)national changes, so too do the skills of the Data Steward that have to be continuously updated.
 
 
-(cl-infraestrutura-dados-resumo-de-resumo)=
+(cl-infrastructure-datastewards-challenges)=
+## Challenges for Data Stewards
+* As Data Steward is a relatively new profession (~2017), their job profile is not always formally defined and their career-track may be unclear.
+* It is difficult to increase the awareness of the presence of the data steward and/or existing data policies, especially when resources are limited.
+* It takes time to know the researchers and earn their trust, which is important to be able to adequately advise them and work together to improve data management practises.
+* Not everyone sees the move towards a more transparent research culture as beneficial, and you can be met with resistance from researchers that do not want to change their existing workflows.
+* There might be limited resources and time to cover all the support requests from researchers. Often there's only a small central team of Data Stewards available to the entire instutite.
+* It is not always clear when you're providing high quality support and where you could improve, as there is no formal education and there is not always a strong feedback culture at your institute.
+
+(cl-infrastructure-datastewards-benefits)=
+## Benefits of having Data Stewards
+* Sharing  information or provide training for data management so that researchers don't have to reinvent the wheel themselves and can easily learn about recommended practises, which will ultimately improve the quality of research.
+* Data Stewards can provide reassurance to researchers, by providing feedback on their Data Management Plans, practises and providing advise on alternative solutions.
+* Support for larger, collaborative grants where data management and open science are an integral part of the proposal ([Horizon Europe](https://ec.europa.eu/info/research-and-innovation/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en)).
+* Data Stewards can play a leading role in developing policies regarding data and software management.
+* Data Stewards can provide answers to questions from researchers, or direct them to other relevant staff that will be able to answer the question.
+
+(cl-infrastructure-datastewards-support)=
+## Organisations that support Data Stewards
+* [Research Data Alliance](https://www.rd-alliance.org/)
+* [DTL-Data Stewards Interest Group](https://www.dtls.nl/about/community/interest-groups/data-stewards-interest-group/)
+* [Research Data Access & Preservation](https://rdapassociation.org/)
+
+
+(cl-infrastructure-datastewards-summary)=
 ## Summary
-O Progresso de Dados é uma parte importante das comunidades científicas, apoiando práticas de gestão de dados recomendadas e poupando tempo aos pesquisadores, apoiando-os nestes esforços. Não têm um percurso ou uma qualificação formais na carreira, mas têm tipicamente uma base científica ou de investigação.
+Data Stewards are an important part of scientific communities, supporting recommended data management practices and saving researchers time by supporting them in these efforts. They do not have a formal career path or qualifications, but typically have a scientific or research background themselves.
 
 
 <!-- 
