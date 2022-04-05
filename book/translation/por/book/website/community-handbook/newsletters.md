@@ -1,25 +1,25 @@
-(boletins informativos)=
-# _The Turing Way_ Boletins mensais
+(ch-newsletters)=
+# _The Turing Way_ Monthly Newsletters
 
-_A equipe Turing Way_ publica boletins informativos todos os meses para compartilhar as últimas atualizações com a comunidade e mais além. Essas newsletters incluem anúncios de eventos, atualizações do projeto, destaques da comunidade, recursos úteis para novos e existentes contribuidores, promoção de qualquer esforço contínuo, impacto em histórias de membros de longa data e gritos para atividades on-line relevantes.
+_The Turing Way_ team releases newsletters every month to share the latest updates with the community and beyond. These newsletters include event announcements, updates from the project, highlights from the community, useful resources for new and existing contributors, promotion of any ongoing efforts, impact stories of long-standing members and shout outs to relevant online activities.
 
-Enquanto enviamos nossas boletins informativos por e-mail para nossos membros inscritos, simultaneamente publicamos e arquivamos [online no TinyLetter](https://tinyletter.com/TuringWay/archive) para que qualquer pessoa fora da comunidade possa também aprender sobre o projeto.
+While we send our newsletters by email to our subscribed members, we simultaneously publish and archive them [online on TinyLetter](https://tinyletter.com/TuringWay/archive) so that anyone outside the community can also learn about the project.
 
 ```{figure} ../figures/scriberia-newsletter.png
 ---
-altura: 400px
-nome: scribera-newsletter
-alt: duas pessoas coletando informações e empurrando-as através de um dispositivo que produz uma newsletter
+height: 400px
+name: scriberia-newsletter
+alt: two people collecting information and pushing it through a device that produces a newsletter
 ---
-uma ilustração de newsletter. Adaptado do projeto _The Turing Way_ ilustração de projeto por Scriberia. Usado sob uma licença CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+A newsletter illustration. Adapted from _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-As principais motivações para rascunhar esses boletins informativos são as seguintes:
-1. Reflita sobre os objetivos do projeto da equipe e da comunidade e quaisquer metas importantes alcançadas no último mês
-2. Destacar e celebrar o trabalho em curso e os esforços notáveis dos membros da comunidade e documentá-los
-3. Compartilhe informações sobre quaisquer eventos futuros e oportunidades para nossos membros
-4. Manter conexões em andamento com os membros inscritos
+The main motivations to draft these newsletters are the following:
+1. Reflect on the team's and community's project goals and any important milestones achieved in the last month
+2. Highlight and celebrate ongoing work and notable efforts of the community members and document them
+3. Share information about any upcoming events and opportunities for our members
+4. Maintain ongoing connections with the subscribed members
 
-Atualmente, Malvika Sharan, gerente da comunidade, rascunha esses boletins informativos que são revistos e co-publicados com Kirstie Whitaker, a liderança do projeto. As notícias publicadas antes de Setembro de 2020 foram escritas por Patricia Herterich e Kirstie Whitaker.
+Currently, Malvika Sharan, community manager, drafts these newsletters that are proofread and co-published with Kirstie Whitaker, the project lead. Newsletters published before September 2020 have been written by Patricia Herterich and Kirstie Whitaker.
 
-Neste capítulo, compartilhamos o processo que criamos em _The Turing Way_ para coletar itens de notícias, retomando a newsletter, documentando quaisquer atualizações adicionais compartilhadas pelos membros da comunidade e publicando-as pelo TinyLetter.
+In this chapter, we share the process we have established in _The Turing Way_ for collecting news items, drafting the newsletter, documenting any additional updates shared by community members and publishing them through TinyLetter.
