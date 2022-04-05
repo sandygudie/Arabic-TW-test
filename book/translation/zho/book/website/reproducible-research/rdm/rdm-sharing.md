@@ -34,7 +34,7 @@ So that others know what they can do with your data, you need to apply a licence
 In line with the {ref}`FAIR principles <rr-rdm-FAIR>`, upload the data in open formats as much as possible and include sufficient documentation and metadata so that someone else can understand your data. It is also essential to think about the file formats in which the information is provided. Data should be presented in structured and standardised formats to support interoperability, traceability, and effective reuse. In many cases, this will include providing data in multiple, standardized formats, so that it can be processed by computers and used by people.
 
 ## Additional resources on data sharing
-* '[你可以如何使研究数据可以访问？ ](https://www.software.ac.uk/how-can-you-make-research-data-accessible)': 一个包含五个步骤的博客使你的数据更容易访问
+* '[How can you make research data accessible?](https://www.software.ac.uk/how-can-you-make-research-data-accessible)': a blog that contains five steps to make your data more accessible
 * The European Commission's [data guidelines](https://open-research-europe.ec.europa.eu/for-authors/data-guidelines)
 
 (rr-rdm-data-availability-statement)=
