@@ -1,20 +1,20 @@
-(ch-newsltter-template)
-# 撰写时事通讯模板
+(ch-newsltters-template)
+# Template for Drafting Newsletters
 
-下面概述的模板是我们自2019年9月以来一直用来为 _Ting Way_ newsletter收集新闻项目的指南。 这个模板已经经过了几个月的演变，绝不说它是“完美的”格式。 当重用此模板时，您应该尝试什么对您的社区有效。 你在前面的章节中提出的建议是非常受欢迎的。
+The template outlined below is what we have been using as a guide for collecting news items for the _The Turing Way_ newsletters since September 2019. This template has evolved over several months and in no way claims to be the 'perfect' format. When reusing this template, you should experiment with what works for your community. Your suggestions in the earlier subchapters are very welcome.
 
 ```
-日期：YYYY
+Date: DD Month YYYY
 
-# 标题
+# title
 
-你好路朋友！
+Hello Turing Way friends!
 
-本月...
+This month ...
 
-冲出...
+Shout out ...
 
-事件...
+Events ...
 
 本月...
 
