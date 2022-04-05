@@ -38,7 +38,7 @@ The following naming convention for the labels for different chapters:
 (sectioninitials-filename)=
 ```
 
-هنا، يجب استبدال العنصر البديل الأول `القسم التمهيدي` بالأحرف الأولى لمختلف الأقسام في الكتاب وينبغي استبدال اسم الملف النائب الثاني `` باسم الملف حيث يتم إنشاء التسمية.
+Here, the first placeholder `sectioninitials` should be replaced by the initials for different sections in the book and the second placeholder `filename` should be replaced by the name of file where the label is being created.
 
 For the different Guides of the book, we will use the following `sectioninitials`:
 
@@ -46,7 +46,7 @@ For the different Guides of the book, we will use the following `sectioninitials
 - Project Design: `pd`
 - Collaboration: `cl`
 - Communication: `cm`
-- البحث الأخلاقي: ``
+- Ethical Research: `er`
 - Community Handbook: `ch`
 
 For example, in the guide `Reproducible Research`, we have a chapter called `Overview`. We have created a label for that chapter called `rr-overview` by adding the label on the top of the header by using the following directive
@@ -78,7 +78,7 @@ We will use examples for the chapters in "Reproducible Research" guide located i
 
 **_Case 1_**: When you cross-reference a section of the chapter within the same file _before_ a label has been created.
 
-أخذ المثال السابق من `rr-overview-resources-addmaterial`، يمكننا استخدام هذه العلامة للرجوع إليها في قسم سابق داخل نفس الملف باستخدام ما يلي:
+Taking the previous example of `rr-overview-resources-addmaterial`, we can use this label to cross-reference it in an earlier section within the same file using the following:
 
 ```
 {ref}`rr-overview-resources-addmaterial`
@@ -98,7 +98,7 @@ It will appear in your chapter like this: {ref}`rr-overview-resources-reading`.
 
 **_Case 3_**: When you cross-reference a section of a chapter in a different file (chapter) before or after a label has been created.
 
-في الفصل الفرعي "التعاريف" من الفصل "نظرة عامة"، أنشأنا تسمية `تعاريف rrr-view-view-` لقسم "جدول التعاريف لقابلية الاسترداد".
+In the subchapter "Definitions" of the "Overview" chapter, we have created a label `rr-overview-definitions` for the section "Table of definitions for reproducibility".
 
 We can cross-reference it in a different subchapter or chapter. In this case, let's cross-reference it in the landing (main) page of the "Overview" chapter by using the following:
 
