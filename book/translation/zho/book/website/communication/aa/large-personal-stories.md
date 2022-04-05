@@ -12,7 +12,7 @@ Brainhack is an open science community that has an innovative meeting format to 
 * [Github](https://github.com/complexbrains)
 * [Twitter](https://twitter.com/complexbrains)
 
-**1. 1. 您学科的 *是正常的* 学术论文作者实践？ or used to be the normal practice?**
+**1. What is the *normal* practice of authorship for academic papers in your discipline? or used to be the normal practice?**
 
 **Remi:** My background is in Biology and Psychology. Most papers are multi-author and so have more than one author. Single authorship can happen but not for experimental work. This work usually involves at least a Principal Investigator with a Postdoctoral Researcher or PhD student.
 
@@ -34,7 +34,7 @@ As the general rule of thumb, the author lists are created by those who made a '
 The only definition that has been made to this day is by the American Institute of Physics (AIP) as _"Authorship should be limited to those who have made a significant contribution to the concept, design, execution, or interpretation of the research study”_, which still does not give a clear guideline regarding how to evaluate the contributors in the fairest and consistent way across journals, institutions and laboratories.
 
 
-**2. 2. 在你的项目中讨论作者的时候？**
+**2. When did you discuss authorship in your project?**
 
 **Remi:** This was done very early in the project. We spent some of the first three meetings, in which the two main questions were finding out how to deal with authorship and the journal we wanted to aim for. We also discussed how we were dividing up the tasks.
 
@@ -51,7 +51,7 @@ But going back to what Remi mentioned, through the discussions, the feeling was 
 Therefore, these consortium authorship models remained a topic that needed more extensive discussions, which was not possible due to the pressure of time.
 
 
-**3. 3. 谁在你的项目中讨论过作者？**
+**3. Who had the discussion about authorship in your project?**
 
 **Remi:** Everybody was included in the discussions at the beginning of the project and we had a vote on it.
 
@@ -68,7 +68,7 @@ It will affect who gets a say and if the decisions are made correctly. If you ha
 **Isil:** Also the discussions, the voting to be done, the decisions taken or to be taken were all shared through the public communication channels and a google email list that includes all the contributors to make sure everyone had a chance to see this information or follow the process one way or another.
 
 
-**4. 4. 你决定在你的项目中采取什么办法？**
+**4. What approach have you decided to take in your project?**
 
 **Remi:** Our guidelines set out that we list authors into three groups:
 
@@ -85,7 +85,7 @@ We did have to revisit these guidelines.
 Due to the personal time schedules and commitments, some people were only able to be present at the beginning of the discussions and some were present throughout the whole time or some were able to contribute at the end. However, at the end of the day, we tried to do our best to quantify any contributions given at any time point throughout the process independent of the amount of presence that had been shown.
 
 
-**5. 5. 你如何以实际方式撰写纸张？**
+**5. How have you gone about paper writing practically?**
 
 **Remi:** We started by brainstorming to break the paper into different sections and then created sub teams, where each team worked on one section. There were at least 4 teams.
 
@@ -106,7 +106,7 @@ Then another meeting took place with the core team to finalise these comments. T
 Although this was helpful given the race we were in against the time in completing the tasks at hand, making this organisation more explicit between the members of the teams might have given greater opportunities for contributions from more contributors who represent a larger variety of backgrounds and opinions.
 
 
-**6. 6. 这样做有什么问题？**
+**6. What have been the problems with doing this?**
 
 **Remi:** We under specified the ranking system for the core team. We did not want the core team to do the ranking, we wanted more of a bottom up approach. Like a tiering system of what their contributions were.
 
@@ -127,13 +127,13 @@ Therefore, I also strongly believe that adopting an accumulative 'Brainhack comm
 
 
 
-**7. 7. 您在写作和项目中使用了哪些协作工具？**
+**7. What collaborative tools did you use for the writing and projects?**
 
 **Remi:** We used Google docs and sheets. Also forms for information from authors. But some Google tools are not accessible in some countries such as China. So it is good to have a discussion about what tools to use so that everyone has access to the same software and tools from the start.
 
 **Isil:** Also since we had a lot of supplementary details regarding the years-long events and projects that were run under Brainhack events, that was not able to go into the paper due to the limitation of the word count. We created a supplementary Jupyterbook for which we had a public repository on Github, that is constituted of markdown files for the content of the book, .json files for the data to process and many graphics to summarise the data.
 
-[来自盲人社区的最近文章](https://pubmed.ncbi.nlm.nih.gov/33932337/): Gau R, Noble S, Heuer K, Bottenhorn KL, Bilgin IP, Yang YF, Huntenburg JM, Bayer JM, Bethlehem RAI, Rhoads SA, Vogelbacher C、Borghesani V、Levitis E、Wang HT、Van Den Bossche S、Kobeleva X、Legarreta JH, Guay S, Atay SM, Varoquaux GP, Huijser DC, SandstroindistiumMS, Herholz P, Nastase SA, Badhwar A, Dumas G, Schwab S, Moia S, Dayan M, Bassil Y, Brooks P, Mancini M, Shine JM, O'Connor D, Xie X, Poggiali D, Friedrich P, Heinsfeld AS, Riedl L, Toro R, Caballero-Gaudes C, Eklund A, Garner KG, Nolan CR, Demeter DV, Barrios FA, Merchant JS, McDevitt EA, Oostenveld R, Craddock RC, Rokem A, Doyle A, Ghosh SS, Nikolaidis A, Stanley OW, Uruncovuela E; 布伦哈克社区。 **Brahinhack：发展开放、包容、社区驱动的神经科学文化。 ** Neuron。 **Brainhack: Developing a culture of open, inclusive, community-driven neuroscience.** Neuron. 2021 Jun 2;109(11)：1769-1775. i: 10.116/j.neuron.2021.04.001。 doi: 10.1016/j.neuron.2021.04.001. Epub 2021 Apr 30 PMID： 33932337。 PMID: 33932337.
+[Recent article from the Brainhack community](https://pubmed.ncbi.nlm.nih.gov/33932337/): Gau R, Noble S, Heuer K, Bottenhorn KL, Bilgin IP, Yang YF, Huntenburg JM, Bayer JMM, Bethlehem RAI, Rhoads SA, Vogelbacher C, Borghesani V, Levitis E, Wang HT, Van Den Bossche S, Kobeleva X, Legarreta JH, Guay S, Atay SM, Varoquaux GP, Huijser DC, Sandström MS, Herholz P, Nastase SA, Badhwar A, Dumas G, Schwab S, Moia S, Dayan M, Bassil Y, Brooks PP, Mancini M, Shine JM, O'Connor D, Xie X, Poggiali D, Friedrich P, Heinsfeld AS, Riedl L, Toro R, Caballero-Gaudes C, Eklund A, Garner KG, Nolan CR, Demeter DV, Barrios FA, Merchant JS, McDevitt EA, Oostenveld R, Craddock RC, Rokem A, Doyle A, Ghosh SS, Nikolaidis A, Stanley OW, Uruñuela E; Brainhack Community. **Brainhack: Developing a culture of open, inclusive, community-driven neuroscience.** Neuron. 2021 Jun 2;109(11):1769-1775. doi: 10.1016/j.neuron.2021.04.001. Epub 2021 Apr 30. PMID: 33932337.
 
 *This interview was conducted by Emma Karoune.*
 
