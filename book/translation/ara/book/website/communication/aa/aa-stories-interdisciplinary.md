@@ -1,5 +1,5 @@
-(م -أ - قصص متعددة التخصصات)=
-# قصص شخصية - تأليف مشاريع متعددة التخصصات
+(cm-aa-stories-interdisciplinary)=
+# Personal stories - Authorship on Interdisciplinary Projects
 
 ## Federico Nanni and Mariona Coll Ardanuy - Living with Machines
 
@@ -18,7 +18,7 @@ It brings together an interdisciplinary group of researchers from a range of dis
 * [ORCID](http://orcid.org/0000-0001-8455-7196)
 * [Website](https://github.com/mcollardanuy)
 
-**1. ما هي ممارسة المؤلف ** العادية للأبحاث الأكاديمية في تخصصك؟ or used to be the normal practice?**
+**1. What is the *normal* practice of authorship for academic papers in your discipline? or used to be the normal practice?**
 
 We are an interdisciplinary project and therefore bring with us the usual practices of authorship from two distinct disciplines: Computational linguistics and the Humanities (History). This makes it trickier when trying to decide how to tackle authorship on our publications.
 
