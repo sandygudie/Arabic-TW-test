@@ -61,11 +61,9 @@ When a merge conflict arises, it will be flagged during the merge process. Withi
 ```
 <<<<<<< HEAD
 print('hello world!!!')
-<<<<<<< HEAD
-print('hola mundo!!!')
 =======
-print('Hola Mundo')
->>>>>>> principal
+print('Hello World')
+>>>>>>> main
 ```
 `<<<<<<<`: Indicates the start of the lines that had a merge conflict. The first set of lines are the lines from the file that you were trying to merge the changes into.
 
