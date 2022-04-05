@@ -1,20 +1,24 @@
 (ch-template-bookdash-feedback)=
-# Modelo HackMD para feedback
+# HackMD template for feedback
 
-*Este modelo pode ser usado para feedback anônimo pelos participantes no HackMD no final dos eventos de lavagem de livros. A permissão de acesso pode ser configurada para que as notas possam ser lidas por todos e editadas por qualquer pessoa.*
+*This template can be used for anonymous feedback by the participants on HackMD at the end of the book dash events. The access permission can be set so that the notes can be read by everyone and edited by anyone.*
 
 ```
 
-# Turing Way Book <Month Year>: Plusos e Deltas - <Location>
+# Turing Way Book <Month Year>: Pluses and Deltas - <Location>
 
-➕Pluses
---- Por favor, adicione algo que você gostou do Book Dash. Podemos utilizá-los para anunciar o projecto Turing Way e nos relatórios de impacto para os nossos financiadores. Se você não deseja que seu comentário seja adicionado ao repositório do GitHub (e, portanto, que seja publicado), por favor adicione o 🤫 no início da linha.
+:heavy_plus_sign:Pluses
+---
+
+Please add something you liked about the Book Dash. We might use these to advertise the Turing Way project and in impact reports for our funders. If you do not want your comment to be added to the GitHub repository (and therefore be made public) please add the 🤫 at the beginning of the line.
 
 -
 -
 
 :arrow_up_small:Deltas
---- Por favor, adicione algo que você mudaria no Dash. Nós nunca executamos um antes e todos os seus comentários serão muito valiosos. Se você não deseja que seu comentário seja adicionado ao repositório do GitHub (e, portanto, que seja publicado), por favor adicione o 🤫 no início da linha.
+---
+
+Please add something that you would change about the Book Dash. We've never run one before and so all of your comments will be really valuable. If you do not want your comment to be added to the GitHub repository (and therefore be made public) please add the 🤫 at the beginning of the line.
 
 -
 -
