@@ -1,34 +1,34 @@
-(النمط - النمط المخصص)=
-# نمط مخصص
+(ch-style-custom-styling)=
+# Custom Styling
 
-على الرغم من أن المحتوى ساهم في _طريق اللارجح_ يجب أن يكتب في {ref}`Markdown <ch-consistency-formatting-hr-markdown>` كلما كان ذلك ممكناً، في بعض الأحيان، `HTML` بناء الجملة قد يكون ضرورياً لتهيئة مساهمتك بالطريقة التي تريدها. بالفعل ، كتاب المشتري يحول بناء جمل Markdown إلى `HTML`، جعل من الممكن الحصول على نسخة على الويب من _كتاب طريق الترينغ_ ونتيجة لذلك، الكتابة الخاصة بك `HTML` قد تقدم بعض التغييرات في الطريقة التي يظهر بها المحتوى الجديد على الإنترنت مقارنة ببقية الكتاب. ونتيجة لذلك، الكتابة الخاصة بك `HTML` قد تقدم بعض التغييرات في الطريقة التي يظهر بها المحتوى الجديد على الإنترنت مقارنة ببقية الكتاب.
+Although content contributed to _The Turing Way_ should be written in {ref}`Markdown <ch-consistency-formatting-hr-markdown>` where possible, sometimes, `HTML` syntax may be necessary to format your contribution the way you desire. بالفعل ، كتاب المشتري يحول بناء جمل Markdown إلى `HTML`، جعل من الممكن الحصول على نسخة على الويب من _كتاب طريق الترينغ_ ونتيجة لذلك، الكتابة الخاصة بك `HTML` قد تقدم بعض التغييرات في الطريقة التي يظهر بها المحتوى الجديد على الإنترنت مقارنة ببقية الكتاب. As a result, writing your own custom `HTML` may introduce some variation in the way your new content appears online compared to the rest of the book.
 
-للتقليل من هذا التفاوت، _طريق الترقيق_ يحافظ على [صحائف الأنماط على مستوى الكتاب](https://github.com/alan-turing-institute/the-turing-way/blob/main/book/website/_static/book-stylesheet.css) التي تتحكم في مظهر والشعور بمحتوى الكتاب. عند إدراج `HTML` في المساهمات، يرجى الرجوع إلى أوراق الأنماط هذه وإضافة الفئات والمعرفات ذات الصلة المحددة هناك إلى عناصر الـ `HTML` الخاصة بك. وهذا يضمن أن المحتوى الجديد الخاص بك يتوافق مع النمط العام للكتاب _طريق التوريق_.
+To minimise this disparity, _The Turing Way_ maintains book-wide [stylesheets](https://github.com/alan-turing-institute/the-turing-way/blob/main/book/website/_static/book-stylesheet.css) that control the look and feel of the book's content. When including `HTML` in your contributions, please refer to these stylesheets and add the relevant classes and IDs defined there to your `HTML` elements. This ensures that your new content fits the overall style of _The Turing Way_ book.
 
-في هذا الفصل الفرعي، نقدم شرحاً لكيفية الاستفادة من ألواح أساليب الكتاب لتصميم إسهاماتك في عينة من حالات الاستخدام. إذا كنت ترغب في تحسين أسلوب الكتاب، فإن هذا الفصل الفرعي يقدم أيضا لمحة عامة موجزة عن كيفية القيام بذلك.
+In this subchapter, we provide an explanation of how to leverage the book's stylesheets to style your contributions in sample use-cases. If you want to improve the style of the book, this subchapter also provides a brief overview of how to do so.
 
-(طراز النمط المخصص-النمط النمطي) =
-## استخدام الورق النمطي
+(ch-style-custom-styling-stylesheets)=
+## Using the Stylesheets
 
-(أشرطة فيديو-نمط مخصص)=
-### فيديوهات
+(ch-style-custom-styling-videos)=
+### Videos
 
-في حين أنه من الممكن تضمين الصور و الصور المتحركة في المحتوى الخاص بك باستخدام بناء الـ Markdown، من الممكن حاليا فقط تضمين مقاطع الفيديو مع `HTML`. والأكثر من ذلك، نحن لا نوصي بإضافة مقاطع فيديو مباشرة إلى _الطريق الوشيك_ مستودع Github لأن ملفات الفيديو عادة ما تكون كبيرة وسوف تجعل تحميل الكتاب أبطأ بكثير، خاصة للقراء الذين لديهم اتصالات إنترنت بطيئة.
+While it is possible to embed images and GIFs in your content using Markdown syntax, it is currently only possible to embed videos with `HTML`. More so, we do not recommend adding videos directly to _The Turing Way's_ Github repository as video files are usually large and will make the book load much slower, especially for readers with slow internet connections.
 
 لإضافة فيديو إلى مساهمتك ، قم بتحميله أولا إلى _طريق اللارجح_ قناة يوتيوب، ثم نسخ/لصق رمز HTML `` الذي يتم إنشاؤه عندما تقوم بما يلي:
-1. انقر على خيار `مشاركة` تحت الفيديو،
-1. ثم انقر فوق خيار `تضمين` من مجموعة الخيارات التي تظهر
+1. Click on the `Share` option underneath the video,
+1. And then click on the `Embed` option from the range of options that appear.
 
 
-رمز `HTML` الذي قمت بنسخه سيكون [`iframe`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) عنصر. وعلى سبيل المثال:
+The `HTML` code you copy will be an [`iframe`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) element. For example:
 
 ```
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MdOS6tPq8fc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ```
 
-بشكل افتراضي، `iframes` غير مستجيبة، مما يعني أن الفيديو الذي أدمجته للتو لن يكون في متناول القراء على الأجهزة المحمولة. لإصلاح هذا، _ورقة الطباعة_ تحدد الفئات والأسلوب التي تسمح `الإطارات` بتغيير الحجم وتلائم الشاشة التي يقرأ منها الكتاب.
+By default, `iframes` are not responsive, meaning that the video you just embedded will be inaccessible to readers on mobile devices. To fix this, _The Turing Way's_ stylesheets define classes and styling that allow `iframes` to resize and fit the screen the book is read from.
 
-لاستخدام هذا الأسلوب المخصص، قم بتغليف `iframe` في `وسوم` وقم بإعطاء عنصر `Dv` `حاوية فيديو`. وعلى سبيل المثال:
+To leverage this custom styling, wrap the `iframe` in `div` tags and give the `div` element a `video-container` class. For example:
 
 ```
 <div class="video-container">
@@ -36,27 +36,27 @@
 </div>
 ```
 
-ومن ثم فإن الرمز المذكور أعلاه ينص على ما يلي:
+The code above then renders as follows:
 
 <div class="video-container">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/MdOS6tPq8fc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-(تحسين النمط المخصص) =
-## تحسين _طريقة التوت_
+(ch-style-custom-styling-improvements)=
+## Improving _The Turing Way's_ Styling
 
-يعمل كتاب المشتري عن طريق تحويل صياغة Markdown إلى `HTML`. لذلك، لتحسين النمط العام للكتاب، يجب أن تستهدف قواعد `CSS` عناصر `HTML` التي يولدها كتاب المشتري.
+Jupyter Book works by converting Markdown syntax to `HTML`. Therefore, to improve the overall styling of the book, `CSS` rules should target the `HTML` elements that Jupyter Book generates.
 
-قبل كتابة أي CSS، افحص رمز مصدر HTML الخاص بالكتاب أولاً. هذا يعطيك فكرة عن العناصر التي يجب استهدافها، وقد يساعدك على معرفة كيفية هيكلة قواعد CSS الخاصة بك.
+Before writing any CSS, inspect the book's HTML source code first. This gives you an idea of what elements to target, and may help you figure out how to structure your CSS rules.
 
-كل متصفحات الويب تسمح لك بعرض شفرة المصدر للمواقع بسهولة. على أجهزة الكمبيوتر التي تعمل بنظام Windows OS، يتم ذلك باستخدام `CTRL + U`. بالنسبة للحواسيب التي تعمل بنظام تشغيل Mac OS، يتم ذلك باستخدام `خيار + الأمر + U`.
+All web browsers allow you to view the source code of websites easily. On computers running the Windows OS, this is done using `CTRL + U`. For computers running Mac OS, this is done using `Option + Command + U`.
 
-بمجرد تحديد العنصر (العناصر) الذي تريد تعديله، اكتب CSS الخاص بك في _ملف طريق التوبيخ_ [ورقة الطرائد](https://github.com/alan-turing-institute/the-turing-way/blob/main/book/website/_static/book-stylesheet.css). إذا كان على سبيل المثال لقد أردت تغيير `خط العائلة` من نص الفقرة عبر _كتاب الطريق_ بأكمله، ثم يمكنك إضافة قاعدة CSS التالية إلى أوراق النماذج التي تستهدف جميع العناصر التي تحتوي على `<p>` علامة:
+Once you have determined the element(s) you want to modify, write your CSS in _The Turing Way's_ [stylesheet file](https://github.com/alan-turing-institute/the-turing-way/blob/main/book/website/_static/book-stylesheet.css). إذا كان على سبيل المثال لقد أردت تغيير `خط العائلة` من نص الفقرة عبر _كتاب الطريق_ بأكمله، ثم يمكنك إضافة قاعدة CSS التالية إلى أوراق النماذج التي تستهدف جميع العناصر التي تحتوي على `<p>` علامة:
 
 ```
 p {
-    خط الأسرة: georgia, garamond, serif;
+    font-family: georgia, garamond, serif;
 }
 ```
 
-إذا كنت تعتقد أن الأسلوب المقدم في _طريقة تورينغ_ يمكن أن يكون مفيدا لمستخدمي كتاب المشتري الآخرين، يرجى النظر في تقديم مساهمة في المشروع في المرحلة التمهيدية من خلال إنشاء مشكلة GitHub جديدة وبدء مناقشة مع مشرفي المشروع : [https://github. om/executablebooks/jupyter-book/issu](https://github.com/executablebooks/jupyter-book/issues)
+If you think that the styling introduced in _The Turing way_ can be useful for other Jupyter Book users, please consider making an upstream contribution to the project by creating a new GitHub issue and starting a discussion with their maintainers: [https://github.com/executablebooks/jupyter-book/issues](https://github.com/executablebooks/jupyter-book/issues).
