@@ -1,53 +1,53 @@
 (rr-testing-types-integrationtest)=
-# Teste de integração
+# Integration Testing
 
-Teste de integração é um nível de teste de software onde unidades individuais são combinadas e testadas como um grupo. Enquanto testes unitários validam a funcionalidade de código isoladamente, testes de integração garantem que os componentes cooperem quando interlidam uns com os outros. O objectivo deste nível de testes é expor as falhas na interacção entre unidades integradas.
+Integration testing is a level of software testing where individual units are combined and tested as a group. While unit tests validate the functionality of code in isolation, integration tests ensure that components cooperate when interfacing with one another. The purpose of this level of testing is to expose faults in the interaction between integrated units.
 
-Por exemplo, talvez uma unidade que lê em alguns dados esteja funcionando e passe seus testes de unidade, e a unidade a seguir que limpa os dados depois de serem lidos também está funcionando e passa nos seus testes. No entanto, diz que a primeira unidade produz os dados como (time_data, temperature_data) mas a função que limpa os dados espera entrada do formulário (temperature_data, time_data). Isso pode obviamente levar a erros. Enquanto as unidades estão corretas, aí há um erro na sua integração.
+For example, maybe a unit that reads in some data is working and passes its unit tests, and the following unit that cleans up the data once it's been read in is also working and passes its tests. However say the first unit outputs the data as (time_data, temperature_data) but the function that cleans the data expects input of the form (temperature_data, time_data). This can obviously lead to bugs. While the units are correct there in an error in their integration.
 
-Um exemplo de teste de integração para este caso pode ser para fornecer um arquivo de dados de teste. use essas funções para lê-la e limpá-la, e verifique os dados limpos resultantes com o que seria esperado. Se um erro como este estiver presente, então os dados limpos originados não corresponderão muito provavelmente ao resultado esperado. e seria cometido um erro.
+An example of an integration test for this case could be to supply a test data file, use these functions to read it in and clean it, and check the resulting cleaned data against what would be expected. If a bug like this is present then the cleaned data outputted would be very unlikely to match the expected result, and an error would be raised.
 
-Os testes de integração são particularmente importantes em projectos de colaboração, em que diferentes pessoas trabalham em diferentes partes do código. Se duas pessoas diferentes completarem unidades separadas e depois precisarem de integrar, as questões de integração são mais prováveis, uma vez que nenhum deles compreende o código do outro. Um exemplo famoso disto é um satélite de vários milhões de dólares que [quebrou](https://en.wikipedia.org/wiki/Mars_Climate_Orbiter) porque um pedaço de código gerou dados de distância em pés, enquanto outro usuário assumiu os dados em metros. Este é mais um exemplo de uma questão de integração.
+Integration testing is particularly important in collaborative projects where different people work on different parts of the code. If two different people complete separate units and then need to integrate then integration issues are more likely as neither may understand the other's code. A famous example of this is a multi-million dollar satellite which [crashed](https://en.wikipedia.org/wiki/Mars_Climate_Orbiter) because one piece of code outputted distance data in feet, while another assumed data in meters. This is another example of an integration issue.
 
-Um subtipo de teste de integração é teste de integração do sistema. Isso testa a integração de sistemas, pacotes e quaisquer interfaces para organizações externas (como Electronic Data Interchange, Internet). Dependendo da natureza de um teste de integração do sistema de projetos pode ou não ser aplicável.
+A sub-type of integration testing is system integration testing. This tests the integration of systems, packages and any interfaces to external organizations (such as Electronic Data Interchange, Internet). Depending on the nature of a project system integration testing may or may not be applicable.
 
-## Aproximações de Teste de Integração
+## Integration Testing Approaches
 
-Existem várias abordagens diferentes dos testes de integração. O Big Bang é uma abordagem dos testes de integração, onde todas ou a maioria das unidades são combinadas e testadas de uma só vez. Essa abordagem é tomada quando a equipe de testes recebe todo o software em um pacote. Qual é, então, a diferença entre os testes de integração do Big Bang e os testes de sistema? Pois bem, os primeiros testam apenas as interacções entre as unidades, enquanto os últimos testam todo o sistema.
+There are several different approaches to integration testing. Big Bang is an approach to integration testing where all or most of the units are combined together and tested at one go. This approach is taken when the testing team receives the entire software in a bundle. So what is the difference between Big Bang integration testing and system testing? Well, the former tests only the interactions between the units while the latter tests the entire system.
 
-TopDown é uma abordagem para testes de integração onde seções de nível superior do código (que contêm muitas unidades menores) são testadas passo a passo as unidades de nível inferior são testadas passo a passo. Portanto, um código pode ser dividido em principais etapas A, B e C, e cada um desses passos contém etapas para completá-las, e essas etapas podem ter subetapas como:
+Top Down is an approach to integration testing where top-level sections of the code (that themselves contain many smaller units) are tested first and lower level units are tested step by step after that. So is a code can be split into the main steps A, B, and C, and each of those contain steps to complete them, and these steps may have substeps like:
 
-- Um
+- A
 - A.1
   - A.1.1
   - A.1.2
 - A.2
 - B
-- a.1
-- a.2
-  - a.2.1
-  - a.2.2
-  - a.2,3
-- a.3
+- B.1
+- B.2
+  - B.2.1
+  - B.2.2
+  - B.2.3
+- B.3
 
 - C
-- d.1
-  - C.1,1
-  - C.1,2
-- d.2
-  - C.2,1
+- C.1
+  - C.1.1
+  - C.1.2
+- C.2
+  - C.2.1
   - C.2.2
 
-Então, na abordagem de cima para baixo, a integração entre seções no nível superior (A, B e C) são testados, em seguida, integração entre seções ao próximo nível (por exemplo, A. -> A.2) e assim por diante. Testar unidades de nível superior executando todo o código que elas contêm, incluindo a execução de unidades de nível inferior pode levar a testes de nível superior quebrando devido a bugs de unidades de nível baixo. Isso é indesejável, então evitar que as seções de nível inferior não devam ser executadas, mas [stubs de teste](#Use_test_doubles_stubs_mocking_where_appropriate) deve ser usado para simular as saídas deles.
+So in the top down approach the integration between sections at the top level (A, B and C) are tested, then integration between sections at the next level (for example, A.1 -> A.2) and so on. Testing upper level units by running all the code they contain including running lower level ones can lead to upper level tests breaking due to bugs in low level units. This is undesirable, so to prevent this the lower level sections should not be run, but [test stubs](#Use_test_doubles_stubs_mocking_where_appropriate) should be used to simulate the outputs from them.
 
-O baixo para cima é uma abordagem ao teste de integração, onde a integração entre seções de nível inferior é testada passo a passo por seções de nível superior depois disso. Tubos de teste mais uma vez devem ser usados, neste caso, para simular entradas a partir de seções de nível mais alto.
+Bottom Up is an approach to integration testing where integration between bottom level sections are tested first and upper-level sections step by step after that. Again test stubs should be used, in this case to simulate inputs from higher level sections.
 
-Sandwich/Hybrid é uma abordagem dos testes de integração, que é uma combinação de abordagens do Top Down e do Bottom Up.
+Sandwich/Hybrid is an approach to integration testing which is a combination of Top Down and Bottom Up approaches.
 
-Qual abordagem você deve usar dependerá de qual melhor se encaixa na natureza/estrutura do seu projeto.
+Which approach you should use will depend on which best suits the nature/structure of your project.
 
-## Dicas de Teste de Integração
+## Integration Testing Tips
 
-- Certifique-se de que você tenha um documento de Design detalhado adequado onde as interações entre cada unidade sejam claramente definidas. É difícil ou impossível realizar testes de integração sem essa informação.
-- Certifique-se de que cada unidade é testada por unidade e corrija quaisquer bugs antes de iniciar os testes de integração. Se houver um erro nas unidades individuais, os testes de integração irão quase certamente falhar, mesmo que não haja erro na forma como são integrados.
-- Use mocking/stubs quando apropriado.
+- Ensure that you have a proper Detail Design document where interactions between each unit are clearly defined. It is difficult or impossible to perform integration testing without this information.
+- Make sure that each unit is unit tested and fix any bugs before you start integration testing. If there is a bug in the individual units then the integration tests will almost certainly fail even if there is no error in how they are integrated.
+- Use mocking/stubs where appropriate.
