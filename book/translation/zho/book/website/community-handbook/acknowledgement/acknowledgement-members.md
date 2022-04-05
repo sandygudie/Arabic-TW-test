@@ -15,11 +15,7 @@ Authors are listed in alphabetical order by last name. The first author is alway
 
 Authorship is cumulative. If you have been added as an author on one release, you will stay as an author on all future releases.
 
-如果这些分章不包含您感兴趣的报告类型，或者您想知道您是否有资格被命名为作者， 请通过发送电子邮件
-
-theturingway@gmail来联系核心团队。</p> 
-
-
+If these subchapters do not contain the contribution type that you are interested in or if you would like to know whether you are eligible to be named as an author, please contact the core team by emailing [theturingway@gmail.com](mailto:theturingway@gmail.com).
 
 ## Creating opportunities for shared ownership
 
@@ -33,9 +29,7 @@ We hope that such collaborative efforts lower the psychological barriers for the
 
 Furthermore, with our commitment to fair acknowledgement in this project, we create opportunities to highlight the work of every contributor without trying to fit _The Turing Way_ into a traditional credit system.
 
-This is also an opportunity for us to promote a cultural change in the research assessment system to better recognise an individual's contributions to open science. 这些贡献包括交流技能，分享供再利用的研究部分，以及提供其他学术服务，例如领导协作努力。
-
-
+This is also an opportunity for us to promote a cultural change in the research assessment system to better recognise an individual's contributions to open science. These contributions include exchanging skills, sharing research components for reuse, and offering other academic services such as leading collaborative efforts, organising events, offering consulting, maintaining community resources, teaching and mentoring for the benefit of the broader scientific community.
 
 ## Highlight your contributions!
 
