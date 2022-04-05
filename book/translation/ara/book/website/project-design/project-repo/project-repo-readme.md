@@ -22,7 +22,7 @@ For more details, see [this presentation](https://docs.google.com/presentation/d
 - Get users doing powerful things quickly
 - Watch out for jargon!
 
-Source: Hao Ye. المصدر: هاو ي. (2021، آذار/مارس). Collaborations Workshop 2021 Mini-Workshop: README tips to make your project more approachable (Version v1.0.0). Zenodo. http://doi.org/10.5281/zenodo.4647391
+Source: Hao Ye. (2021, March). Collaborations Workshop 2021 Mini-Workshop: README tips to make your project more approachable (Version v1.0.0). Zenodo. http://doi.org/10.5281/zenodo.4647391
 ```
 
 ## Case Study: _The Turing Way_
