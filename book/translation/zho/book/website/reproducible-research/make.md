@@ -1,15 +1,15 @@
 (rr-make)=
-# 使用 Make 还原性
+# Reproducibility with Make
 
-(rr-make-requirements)=
-## 必备条件
+(rr-make-prerequisites)=
+## Prerequisites
 
-| 前提条件：                                                               | 重要性 | 注                    |
-| ------------------------------------------------------------------- | --- | -------------------- |
-| [命令行的经验](https://programminghistorian.org/en/lessons/intro-to-bash) | 必需的 |                      |
-| {ref}`版本控制<rr-vcs>`                                           | 有帮助 | 使用 git 的经验很有用，可以随同示例 |
+| Prerequisite                                                                                  | Importance | Notes                                                        |
+| --------------------------------------------------------------------------------------------- | ---------- | ------------------------------------------------------------ |
+| [Experience with the command line](https://programminghistorian.org/en/lessons/intro-to-bash) | Necessary  |                                                              |
+| {ref}`Version Control<rr-vcs>`                                                          | Helpful    | Experience using git is useful to follow along with examples |
 
-推荐的技能水平：中
+Recommended skill level: intermediate
 
 (rr-make-summary)=
 ## Summary
@@ -23,26 +23,26 @@ alt: Schematic of a research project.
 ---
 一个研究项目的方案。
 ---
-一个研究项目的方案。
+Schematic of a research project.
 ```
 
 (rr-make-intro)=
-## 要制作的简介
+## An Introduction to Make
 
-制作是一个构建自动化工具。 它使用一个名为 Makefile 的配置文件，其中包含 *规则* 来生成什么。 使用 *配方* 设定配置 *目标* 目标可以有可选的 *前提条件*。  目标可以有可选的 *前提条件*。  前提条件 可以是您计算机或其他目标上的文件。 根据目标和前提条件的依赖树来决定构建 (技术上) 这是一个 {ref}`rr-make-resources-tools` 根据目标和前提条件的依赖树来决定构建 (技术上) 这是一个 {ref}`rr-make-resources-tools` It uses the *modification time* of prerequisites to update targets only when needed.
+Make is a build automation tool. 它使用一个名为 Makefile 的配置文件，其中包含 *规则* 来生成什么。 使用 *配方* 设定配置 *目标* 目标可以有可选的 *前提条件*。  Targets can optionally have *prerequisites*.  前提条件 可以是您计算机或其他目标上的文件。 Make determines what to build based on the dependency tree of the targets and prerequisites (technically, this is a {ref}`rr-make-resources-tools`). 根据目标和前提条件的依赖树来决定构建 (技术上) 这是一个 {ref}`rr-make-resources-tools` It uses the *modification time* of prerequisites to update targets only when needed.
 
 (rr-make-why)=
-### 为什么要使用 Make for Reproduciable？
+### Why use Make for Reproducibility?
 
-为什么Make 是一个很好的工具来用于可再生产，有几个原因：
+There are several reasons why Make is a good tool to use for reproducibility:
 
-1. 让我们轻松学习
-1. 在许多平台上可用
-1. 变成灵活的
-1. 许多人已经熟悉Make
+1. Make is easy to learn
+1. Make is available on many platforms
+1. Make is flexible
+1. Many people are already familiar with Make
 1. Makefile 减少认知负载，因为只要共同设定目标 `all` 和 `净化` 都存在(下文解释)， 您可以上线并 运行而不必阅读冗长的说明。 This is especially useful when you work on someone else's project or on one that you haven't used in a long time.
-1. Makefile 是可读和机器可读的文本文件。 因此而不是 给人类写关于如何生成报告或输出的说明， 您 可以提供一个 Makefile 带有可以被人阅读的说明 *和* 由计算机执行。
+1. Makefiles are human-readable and machine-readable text files. 因此而不是 给人类写关于如何生成报告或输出的说明， 您 可以提供一个 Makefile 带有可以被人阅读的说明 *和* 由计算机执行。
 1. 因为Makefile 是文本文件，他们很容易分享并保持在版本 控制。
-1. 使用 Make 不排除使用 Travis 和 Docker等其他工具。
+1. Using Make doesn't exclude using other tools such as Travis and Docker.
 
-您可以通过一个聪明的Makefile共享完整分析(代码、数据)。 和 计算工作流程，让合作者或您的文档 的读者重新计算您的结果。 通过使用 LaTeX 等工具，您甚至可以生成一个完整的手稿， 包含新计算的数字和结果！ This can increase the trust in the research output that you generate, it can make your research more accessible, and it can make collaborating easier. 本章可以向您展示如何开始操作。 本章可以向您展示如何开始操作。
+您可以通过一个聪明的Makefile共享完整分析(代码、数据)。 和 计算工作流程，让合作者或您的文档 的读者重新计算您的结果。 通过使用 LaTeX 等工具，您甚至可以生成一个完整的手稿， 包含新计算的数字和结果！ This can increase the trust in the research output that you generate, it can make your research more accessible, and it can make collaborating easier. 本章可以向您展示如何开始操作。 This chapter can show you how to get started.
