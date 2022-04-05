@@ -37,7 +37,7 @@ Esta sección contiene una lista de recomendaciones para hacer su software más 
 
 El lector observante puede notar que `La documentación útil de escritura` se menciona para cada nivel de reutilización. Esto se debe a que se requieren diferentes niveles de documentación para diferentes niveles de reutilización.
 
-## Documentación
+## Documentation
 
 *Diferentes requisitos de documentación para diferentes niveles de reutilización*
 
