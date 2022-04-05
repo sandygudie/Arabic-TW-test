@@ -5,7 +5,7 @@ The FAIR guiding principles for scientific data management and stewardship {cite
 
 It is much easier to make data FAIR if you plan to do this from the beginning of your research project. You can plan for this in your Data Management Plan (DMP) (see points 4 and 5 of the {ref}`Data Management Plan<rr-rdm-dmp>` chapter).
 
-Even though the FAIR principles have been defined to allow machines to find and use digital objects automatically, they improve the reusability of data by humans as well. 在今天的数据驱动时代，计算系统能够在没有人或很少人的干预的情况下寻找、存取、互操作和再利用数据，是必不可少的。 人类越来越依赖计算支持来处理数据，因为 [体积增加， 速度和 多样性](https://www.zdnet.com/article/volume-velocity-and-variety-understanding-the-three-vs-of-big-data/)
+Even though the FAIR principles have been defined to allow machines to find and use digital objects automatically, they improve the reusability of data by humans as well. The capacity of computational systems to find, access, interoperate, and reuse data, with none or minimal human intervention, is essential in today's data-driven era, where humans increasingly rely on computational support to deal with data as a result of the increase in [volume, velocity and variety](https://www.zdnet.com/article/volume-velocity-and-variety-understanding-the-three-vs-of-big-data/).
 
 This chapter provides an abstract and broad view of what the FAIR principles are. How to put the FAIR principles into practise is discussed in other sub chapters ( {ref}`Data Organisation in Spreadsheets<rr-rdm-fair>`, {ref}`Documentation and Metadata<rr-rdm-metadata>` and {ref}`Sharing and Archiving Data<rr-rdm-sharing>`). You can also use the [Wellcome Getting Started Guide](https://f1000researchdata.s3.amazonaws.com/resources/FAIR_Open_GettingStarted.pdf) or the [How To FAIR](https://howtofair.dk/) website to find out more about the FAIR principles and how to get started.
 
@@ -30,7 +30,7 @@ In brief, FAIR data should be:
 
 **Reusable:** Data should be well-described so that they can be used, combined, and extended in different settings.
 
-You can find a more detailed [overview of the FAIR principles by GO FAIR](https://www.go-fair.org/fair-principles) of what the FAIR principles recommend. 你也可以阅读 [错误的](https://doi.org/10.5281/zenodo.2248200) 来理解对每项原则的解释。 You can also read [A FAIRy tale](https://doi.org/10.5281/zenodo.2248200) for an understandable explanation of each principle.
+You can find a more detailed [overview of the FAIR principles by GO FAIR](https://www.go-fair.org/fair-principles) of what the FAIR principles recommend. You can also read [A FAIRy tale](https://doi.org/10.5281/zenodo.2248200) for an understandable explanation of each principle.
 
 Making data 'FAIR' is not the same as making it 'open'. Accessible means that there is a procedure in place to access the data. Data should be as open as possible, and as closed as necessary.
 
