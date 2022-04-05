@@ -21,7 +21,7 @@ In all cases, the goal is to use your programming experience to figure out how t
 
 ## For the reviewer
 
-- Check the required standards of the project. 标准通常由您要贡献的项目在 `贡献指南` 下写入。
+- Check the required standards of the project. The standards are typically written under `contributing guidelines` by the project you are contributing to.
 - Check the code meets basic project {ref}`style guide<rr-code-quality>`, if this is not automatically checked by {ref}`continuous integration (CI)<rr-ci>`.
 - Do the [tests](#tests) and [documentation](#documentation) conform to the standards?
 - Is all the code easily understood? Depending on the language, files may contain interfaces, classes or other type definitions, and functions (see [Architecture](#architecture)). The essential architectural concepts can be reviewed as follows:
@@ -37,11 +37,11 @@ In all cases, the goal is to use your programming experience to figure out how t
 
 ## Program level checklist
 
-下面是一个在查看整个程序时要考虑的事项列表。 而不是在查看单个文件或更改时。
+Here is a list of things to consider when looking at the program as a whole, rather than when looking at an individual file or change.
 
 ### Documentation
 
-Documentation is a prerequisite for using, developing, and reviewing the program. 没有参与您的项目的人应该了解您的代码做了什么， 以及您采取了什么方法。 Here are some things to check for.
+Documentation is a prerequisite for using, developing, and reviewing the program. Someone who isn’t involved with your project should understand what your code does, and what approach you’re taking. Here are some things to check for.
 
 - Is there a description of the purpose of the program or library?
 - Are detailed requirements listed?
@@ -56,30 +56,30 @@ Documentation is a prerequisite for using, developing, and reviewing the program
 
 ### Architecture
 
-这些项目主要对较大的程序很重要，但也许还是很好的 来考虑小的项目。
+These items are mainly important for larger programs, but may still be good to consider for small ones as well.
 
 - Is the program split up into clearly separated modules?
 - Are these modules as small as they can be?
-- 这些模块之间是否有清晰、等级或分层的依赖结构？
-  - 如果没有，则应重新安排功能，或者，或许需要将严重的 相互依存的模块合并起来。
+- Is there a clear, hierarchical or layered, dependency structure between these modules?
+  - If not, the functionality should be rearranged, or perhaps heavily interdependent modules should be combined.
 - Can the design be simplified?
 
 ### Security
 
-如果你制作的软件可供外部世界访问(例如一个 web 应用程序)，安全就变得重要。 安全问题是缺陷， 但并非所有缺陷都是安全问题。 有安全意识的设计可以帮助 减轻缺陷对安全的影响。
+If you're making software that is accessible to the outside world (for example a web application), then security becomes important. Security issues are defects, but not all defects are security issues. A security-conscious design can help mitigate the security impact of defects.
 
 - Which modules deal with user input?
 - Which modules generate output?
 - Are input and output compartmentalized?
-  - 如果不是，请考虑将管理所有输入 和输出的模块分开，所以验证可以在一个地方发生。
+  - If not, consider making separate modules that manage all input and output, so validation can happen in one place.
 - In which modules is untrusted data present?
   - The fewer the better.
 - Is untrusted data compartmentalized?
-  - 理想的情况是，在输入模块中验证并只将 验证数据传递给其他部分。
+  - Ideally, validate in the input module and pass only validated data to other parts.
 
 ### Legal
 
-作为开发者，你应该关注你使用的代码的 创作者的合法权利。 Here are some things to check. 在 怀疑时，向有许可证经验的人询问咨询意见。
+As a developer, you should pay attention to the legal rights of the creators of the code you're using. Here are some things to check. When in doubt, ask someone experienced in licensing for advice.
 
 - Are the licenses of all modules/libraries that are used documented?
 - Are the requirements set by those licenses fulfilled?
@@ -91,7 +91,7 @@ Documentation is a prerequisite for using, developing, and reviewing the program
 
 ## File/Change level checklist
 
-当您检查一个拉取请求中的个别更改或文件时， 代码本身就成为受检查的对象。 根据语言，文件 可能包含接口、类或其他类型的定义和函数。 所有 都应该被检查。
+When you're checking individual changes or files in a pull request, the code itself becomes the subject of scrutiny. Depending on the language, files may contain interfaces, classes or other type definitions, and functions. All these should be checked.
 
 ### Interfaces
 
@@ -99,7 +99,7 @@ Documentation is a prerequisite for using, developing, and reviewing the program
 - Does the concept it models make sense?
 - Can it be split up further? (Interfaces should be as small as possible)
 
-请注意，以下大多数项目都假定了一个面向对象的编程 风格，这可能与你正在查看的代码无关。
+Note that most of the following items assume an object-oriented programming style, which may not be relevant to the code you're looking at.
 
 ### Classes and types
 
