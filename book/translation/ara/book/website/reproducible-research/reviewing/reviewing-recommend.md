@@ -1,13 +1,13 @@
-(ص - توصية - استعراض)=
+(rr-reviewing-recommendation)=
 # التوصيات وأفضل الممارسات
 
 ## من يراجع؟
 
 في إطار المشاريع الصغيرة الحجم التي يعرف فيها جميع المطورين بعضهم البعض عادة، الممارسة الشائعة هي أن يقوم المبرمج بوضع علامة على شخص ما في المجموعة كمراجع. عندما تكون موسومة كمستعرض، أولاً تحقق مما إذا كان لديك معرفة كافية حول التغييرات الجديدة في التعليمات البرمجية للقيام بعمل جيد في وقت معقول.
 
-وعلى النقيض من ذلك، من المرجح أن تكون لدى مشاريع التطوير الكبيرة قواعد ملموسة قائمة لكيفية تخصيص المستعرضين لطلبات السحب الفردية. وتعمل هذه القواعد على تحقيق التوازن بين عبء العمل الذي تقوم به المجموعة، وعلى تعظيم الفوائد المختلفة للعملية بالنسبة للمشروع وللمشاركين فيه. بل إن أكبر المشاريع قد يكون لديها موظفون متفرغون - أو أفرقة من الموظفين - للعمل كمستعرضين. عادةً، لا يمكن إجراء مراجعات الرموز إلا من قبل مجموعة فرعية مرخص لها من المساهمين في إطار مشاريع أكبر.
+وعلى النقيض من ذلك، من المرجح أن تكون لدى مشاريع التطوير الكبيرة قواعد ملموسة قائمة لكيفية تخصيص المستعرضين لطلبات السحب الفردية. These rules serve to balance the group workload and to maximise the various benefits of the process to the project and its participants. The very largest projects may even have dedicated staff - or teams of staff - to act as reviewers. Typically, code reviews can only be performed by an authorised subset of contributors within larger projects.
 
-وفيما يتعلق بالمشاريع التي يرجح أن تكون فيها جولات متعددة من الاستعراض لمواد مشابهة ومن المتوقع أن تكون دورات تطويرية طويلة، ومن المعقول وجود درجة من التفكير الاستراتيجي بشأن من يكمل الاستعراضات. ومن المرجح أن يكون خبير استعراض واحد قادراً على إبداء تعليقات على الرموز التي استعرضها قبل أن يكون أكثر كفاءة بكثير. ومع ذلك، فإن السماح للمراجعين بأزواج المبرمجين مثل هذا الاستمرار هو فكرة سيئة عموما، وبما أنها يمكن أن تؤدي إلى نفس النوع من المجموعات فتعتقد أن عملية الاستعراض تهدف إلى تجنبها في المقام الأول.
+For projects where multiple rounds of review on similar material are likely and long development cycles are anticipated, a degree of strategic thinking on who completes reviews is sensible. A single reviewer is likely to be able to make comments on code they have reviewed before much more efficiently. However, letting reviewer-coder pairs like this persist is generally a bad idea, as it can lead to the same kinds of groupthink that the review process is designed to avoid in the first place.
 
 (ص - استعراض التوصيات) =
 ## كن جيداً!
@@ -32,9 +32,9 @@
 
 وفيما يلي بعض النصائح العامة حول كيفية دمج مراجعة الرموز في عملية عملنا:
 
-- خذ الوقت، قرأوا بعناية. استعراض كل شيء، ليس هناك ما هو قصير أو بسيط.
-- حاول الحصول على شيء آخر للقيام به، ونشر الحمولة طوال يوم العمل الخاص بك. لا تراجع لأكثر من ساعة في كل مرة، بعد أن ينخفض معدل النجاح بسرعة كبيرة.
-- لا تستعرض أكثر من 400 سطر من التعليمات البرمجية (LOC) في وقت واحد، أقل من 200 سطر أفضل من ذلك. لا تستعرض أكثر من 500 قفل في الساعة.
+- Take the time, read carefully. Review everything, nothing is too short or simple.
+- حاول الحصول على شيء آخر للقيام به، ونشر الحمولة طوال يوم العمل الخاص بك. Don't review for more than an hour at a time, after that the success rate drops quite quickly.
+- Don't review more than 400 lines of code (LOC) at a time, less than 200 LOC is better. Don't review more than 500 LOC/hour.
 
 ## كن على ما يرام مع أخذ المناقشة دون اتصال
 
