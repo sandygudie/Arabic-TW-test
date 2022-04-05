@@ -1,15 +1,15 @@
 ﻿(rr-overview-resources)=
 # Resources
-للحصول على موارد إضافية مثل مقاطع فيديو و أوراق مرجعية حول قابلية الاستنساخ، اطلع على {ref}` نظرة عامة-لمصادر-مقروءة ` و {ref}` نظرة عامة على اقسام-اضافة مادة `.
+For additional resources like videos and reference papers on reproducibility, see the {ref}`rr-overview-resources-reading` and {ref}`rr-overview-resources-addmaterial` sections.
 
 (rr-overview-resources-learn)=
 ## What to Learn Next?
-{ref}`rr-open` would be a good chapter to read next. إذا كنت ترغب في بدء تعلم ممارسات عملية، نوصي بقراءة {ref}`rr-vcs` الفصل التالي.
+{ref}`rr-open` would be a good chapter to read next. If you want to start learning hands-on practices, we recommend reading the {ref}`rr-vcs` chapter next.
 
 (rr-overview-resources-reading)=
 ## Further Reading
 
-* Baker, M. (2016). 1500 عالم يرفعون الكذبة على قابلية الاستنساخ. Nature, 533(7604), 452–454. https://doi.org/10.1038/533452a
+* Baker, M. (2016). 1,500 scientists lift the lid on reproducibility. Nature, 533(7604), 452–454. https://doi.org/10.1038/533452a
 
 * Barba, L. (2017): Barba-group Reproducibility Syllabus. figshare. Paper. https://doi.org/10.6084/m9.figshare.4879928.v1
 
@@ -24,14 +24,14 @@
 
 #### **Reproducibility**
 
-* Markowetz, F. (2018). 5 selfish reasons to work reproducibly. Slides available at https://osf.io/a8wq4/. التسجيل من حديث على TU TU في 2019. [https://youtu.be/yVT07Sukv9Q](https://youtu.be/yVT07Sukv9Q).
+* Markowetz, F. (2018). 5 selfish reasons to work reproducibly. Slides available at https://osf.io/a8wq4/. Recording from a talk at  Data Stewardship TU Delft in 2019. [https://youtu.be/yVT07Sukv9Q](https://youtu.be/yVT07Sukv9Q).
 
 * Leipzig, J (2020). Awesome Reproducible Research: A curated list of reproducible research case studies, projects, tutorials, and media. Github repo. https://github.com/leipzig/awesome-reproducible-research
 
-#### **علم البيانات**
+#### **Data Science**
 
-* _علم البيانات: دليل للمجتمع_. طلب أدلة. (2019). تم استرجاعه في 26 تشرين الأول/أكتوبر 2021 من https://askforevidence.org/articles/data-science-a-guide-for-Society
+* _Data science: A guide for society_. Ask for Evidence. (2019). Retrieved October 26, 2021, from https://askforevidence.org/articles/data-science-a-guide-for-society.
 
-* رايلي، إ. (2019). دليل علوم البيانات للمجتمع. لندن؛ senseaboutscience.org.
+* Riley, E. (2019). Data Science Guide for Society. London; senseaboutscience.org.
 
-* معهد البيانات المفتوحة. (2019). _معرفة & رأي_. 1 - ديو. تم استرجاعه في 26 أكتوبر 2021 من https://theodi.org/article/data-ethics-canvas.
+* The Open Data Institute. (2019). _Knowledge & opinion_. The ODI. Retrieved October 26, 2021, from https://theodi.org/article/data-ethics-canvas.
