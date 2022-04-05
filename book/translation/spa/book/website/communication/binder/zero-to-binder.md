@@ -19,7 +19,7 @@ Si estás siguiendo la ruta R, hemos incluido algunos pasos alternativos usando 
 ```
 
 (z2b-reqs)=
-## Requisitos
+## Requirements
 
 Necesitarás:
 
@@ -253,7 +253,7 @@ El envío de cambios de vuelta al repositorio de GitHub a través del contenedor
 (z2b-pequeño-archivos)=
 
 - Comparte la URL **https://mybinder.org/v2/gh/YOUR-USERNAME/my-first-binder/HEAD** directamente
-- Visita **[https://mybinder. rg](https://mybinder.org)**, escribe la URL de tu repositorio y copia el fragmento de texto estructurado o Markdown en tu `README. d` archivo. Este fragmento renderizará una insignia que la gente puede hacer clic, que se ve así: ![Binda](https://mybinder.org/badge_logo.svg)
+- Visita **[https://mybinder. rg](https://mybinder.org)**, escribe la URL de tu repositorio y copia el fragmento de texto estructurado o Markdown en tu `README. d` archivo. Este fragmento renderizará una insignia que la gente puede hacer clic, que se ve así: ![Binder](https://mybinder.org/badge_logo.svg)
 
 🚦🚦🚦
 
