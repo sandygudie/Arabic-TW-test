@@ -1,9 +1,9 @@
-(rr-rdm-metadados)=
-# Documentação e Metadados
+(rr-rdm-metadata)=
+# Documentation and Metadata
 
-Ter dados disponíveis de nada serve se não for possível compreendê-los. Sem metadados para fornecer provisão e contexto, os dados não podem ser usados eficazmente. Por exemplo, uma tabela de números é inútil se nenhum título descreve o que as colunas/linhas contêm. Portanto, você deve garantir que os conjuntos de dados abertos incluam metadados consistentes, ou seja, informações sobre os dados para que os dados sejam completamente descritos. Isto requer que a informação de acompanhamento seja capturada na documentação e nos metadados.
+Having data available is of no use if it cannot be understood. Without metadata to provide provenance and context, the data can't be used effectively. For example, a table of numbers is useless if no headings describe what the columns/rows contain. Therefore you should ensure that open datasets include consistent metadata, that is information about the data so that the data is fully described. This requires that information accompanying data is captured in documentation and metadata.
 
-## Documentação
+## Documentation
 
 Documentation provides context for your work. It allows your collaborators, colleagues and future you to understand what has been done and why. Data documentation can be done on different levels. All documentation accompanying data should be written in clear, plain language. Documentation allows data users have sufficient information to understand the source, strengths, weaknesses, and analytical limitations of the data so that they can make informed decisions when using it.
 
@@ -21,8 +21,8 @@ Metadata is information about the data, descriptors that facilitate cataloguing 
 (rr-rdm-metadata-standards)=
 ### Community Standards - Metadata
 
-O uso de padrões definidos pela comunidade para metadados é vital para a pesquisa reprodutível e permite a comparação de dados heterogéneos de múltiplas fontes. domínios e disciplinas.
+The use of community-defined standards for metadata is vital for reproducible research and allows for the comparison of heterogeneous data from multiple sources, domains and disciplines.
 
-As normas de metadados incluem os conteúdos e as normas estruturais. As normas de conteúdo explicam que informações devem ser registradas quando se descreve um determinado tipo de recurso e como essa informação deve ser registrada. Embora as normas estruturais definam quais são os campos e quais os tipos de informação que devem ser registados nelas.
+Metadata standards include content and structural standards. The content standards explain what information should be recorded when describing a particular type of resource and how that information should be recorded. While the structural standards define what the fields are and what types of information should be recorded in them.
 
-As normas dos metadados são também disciplinares. Por exemplo, para dados cerebrais, a [Estrutura de dados brain Imaging](https://doi.org/10.25504/FAIRsharing.rd1j6t) é o padrão a ser usado. No entanto, nem toda disciplina pode usar padrões de metadados. Você pode ver se a sua disciplina usa padrões de metadados através do [FAIRsharing](https://fairsharing.org/), um recurso para identificar e citar os metadados ou esquemas de identificação, bancos de dados ou repositórios que existem para seus dados e disciplina. Existem também situações em que os investigadores utilizam padrões de metadados mais gerais. por exemplo, quando usam um arquivo genérico para armazenar os seus dados têm de aderir aos padrões de metadados do arquivo. Neste caso, um arquivo de texto com metadados disciplinares específicos pode ser adicionado como parte da documentação.
+Metadata standards are also discipline-specific. For example, for brain data, the [Brain Imaging Data Structure](https://doi.org/10.25504/FAIRsharing.rd1j6t) is the standard to use. Not every discipline may use metadata standards, however. You can see if your discipline uses metadata standards through [FAIRsharing](https://fairsharing.org/), a resource to identify and cite the metadata or identifier schemas, databases or repositories that exist for your data and discipline. There are also situations when researchers make use of more general metadata standards, for example when they use a generic archive to store their data they have to adhere to the metadata standards of the archive. In this case, a text file with discipline-specific metadata can be added as part of the documentation.
