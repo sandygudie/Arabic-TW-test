@@ -1,132 +1,132 @@
-(عاش) =
+(binder)=
 # Binder
 
-وفي هذا الفصل، سنناقش مشروعي بيندر و mybinder.org كوسيلة لتقاسم البحوث بشفافية وتفاعل.
+In this chapter, we will discuss Project Binder and mybinder.org as a means to transparently and interactively share research.
 
-(مشاركة الباندر) =
-## لماذا يجب أن تشارك عملك؟
+(binder-share)=
+## Why should you share your work?
 
-يتم استكشاف الدافع لمشاركة مخرجات البحث بشكل أعمق في {ref}`فتح` فصل.
+Motivation for sharing research outputs is more deeply explored in the {ref}`rr-open` chapter.
 
-باختصار، يمكن لمشاركة رمز البحث الخاص بك أن تساعد في توفير السياق للنتائج التي تقدمها من خلال توضيح العملية التي مرت بها للوصول إليها. عن طريق مشاركة التعليمة البرمجية، كما أننا نتفادى إعادة ابتكار العجلة من أجل إحراز تقدم بشأن موضوع بحثي ما لأن الأدوات السابقة متاحة للبناء عليها.
+In short, sharing your research code can help provide context to the results you present by illustrating the process you went through to reach them. By sharing code, we also avoid reinventing the wheel in order to make progress on a research topic since the previous tools are available to be built on top of.
 
-ومع ذلك، فإن أكبر حاجز أمام مشاركة التعليمات البرمجية هو في كثير من الأحيان تثبيت الحزم وتهيئة البيئة الحسابية، كما سنرى في القسم التالي. من خلال مشاركة عملك عبر منصات مثل mybinder.org:
+However, the biggest barrier to sharing code is often installing packages and setting up the computational environment, as we will see in the next section. By sharing your work via platforms such as mybinder.org:
 
-- تثبيت حزم البرامج لم يعد تحديا
-- الأشخاص الذين يستخدمون أنظمة تشغيل مختلفة لديهم تجارب متشابهة لأن الحساب يحدث على المنصة، وليس على آلتهم المحلية
-- يمكن توزيع عملك على جمهور أوسع نظراً إلى أن الحاجز التقني قد تم تخفيضه
+- Installing software packages is no longer a challenge
+- People using different operating systems have similar experiences since the computation is happening on the platform, not their local machine
+- Your work can be distributed to a broader audience since the technical barrier has been lowered
 
-(الباندر-ما)=
-## ما هو مشروع بيندر؟
+(binder-what)=
+## What is Project Binder?
 
-لقد ناقشنا لماذا من المهم مشاركة عملك ووصلنا إلى نقطة حيث قررنا نشر بعض مذكرات المشتري مع كود التحليل على منصة التعاون، مثل GitHub.
+We've discussed why it's important to share your work and we've reached a point where we've decided to publish some Jupyter Notebooks with analysis code on a collaboration platform, such as GitHub.
 
-GitHub هو منصة رائعة لمشاركة التعليمات البرمجية _باستمرار_. إذا كان المستودع عامًا ، يمكن لأي شخص الانتقال إلى دفتر الملاحظات الخاص بك وقراءة المحتويات. مع ذلك، _تشغيل التعليمات البرمجية_ أكثر تعقيدا من مجرد عرضها كما يفعل GitHub . الكثير من الأجزاء المترابطة مطلوبة لتشغيل التعليمات البرمجية، مثل:
+GitHub is a great platform for sharing code _statically_. If the repository is public, anyone can navigate to your Notebook and read the contents. However, _running_ code is a lot more complicated than just displaying it as GitHub does. A lot of interdependent parts are required to run code, such as:
 
-- نسخة من الرمز نفسه؛
-- • البرمجيات المناسبة لتنفيذها؛
-- أي حزم إضافية يعتمد الرمز على أنه لم يتم شحنها كجزء من البرنامج الأساسي؛
-- (أ) أي مدخلات من البيانات التي يتطلبها التحليل؛
-- وتحتاج أيضًا إلى بعض الأجهزة (كمبيوتر!) لتشغيلها أيضاً.
+- a copy of the code itself;
+- the appropriate software to execute it;
+- any extra packages the code depends on that aren't shipped as part of the core software;
+- any input data the analysis requires;
+- and you also need some hardware (a computer!) to run it on as well.
 
-وبالإضافة إلى الحصول على جميع تلك الأجزاء، يجب عليك أيضا تثبيتها بشكل صحيح وبطريقة لا تتأثر بها أو تتعارض مع البرامج الأخرى التي قد تكون قيد التشغيل على جهازك. إنه عمل كثير!
+On top of acquiring all those parts, you also have to install them correctly and in such a way that they are not influenced or come into conflict with other software that may be running on your machine. It's a lot of work!
 
-كم سيكون أسهل بكثير إذا تمكنا من **تشغيل التعليمات البرمجية في المتصفح**، على غرار كيفية عرضها؟ وهذا ما يهدف مشروع بيندر إلى تحقيقه.
+How much easier would it be if we could **run code in the browser**, similar to how it's displayed? This is what Project Binder aims to achieve.
 
-يوفر مشروع بيندر للمستخدم البنية التحتية التالية:
+Project Binder provides a user with the following infrastructure:
 
-- بعض المعدات لتنفيذ التعليمة البرمجية، عادة خادم مستضاف في السحابة ولكن يمكن أن يكون على الأرض معدات أيضا؛
-- (أ) بيئة حسابية تحتوي:
-  - البرنامج المتقدم ،
-  - أي تبعيات إضافية للحزمة،
-  - أي بيانات الإدخال المطلوبة،
-  - ونسخة من التعليمات البرمجية نفسها (مذكرات أو نصوص)؛
-- عنوان URL إلى حيث تعمل البيئة بحيث يمكن أن تتفاعل الكود معك أو مع المتعاونين معك.
+- some hardware to execute code, usually a server hosted in the cloud but can be on-premise hardware too;
+- a computational environment containing:
+  - the approriate software,
+  - any extra package dependencies,
+  - any required input data,
+  - and a copy of the code itself (Notebooks or scripts);
+- a URL to where the environment is running so the code can be interacted with by you or your collaborators.
 
-قام مشروع بيندر بتجميع كل الأجزاء المتحركة التي تجعل مشاركة العمل الحسابي في واجهة بسيطة لإستخدامها. هناك نسخة **مجانية وعامة** من هذه الواجهة تعمل في [**mybinder.org**](https://mybinder.org).
+Project Binder has packaged together all of the moving parts that make it challenging to share computational work into a simple to use interface. There is a **free and public** version of this interface running at [**mybinder.org**](https://mybinder.org).
 
-الرسوم الكاريكاتورية أدناه، من قبل جولييت تاكا، توضح سير عمل واحد قد يعتمده عالم يستخدم بيندر.
+The cartoon below, by Juliette Taka, demonstrates one workflow a that scientist using Binder might adopt.
 
 ```{figure} ../figures/binder-comic.png
 ---
-الاسم: binder_comic
-البديل : مثال توضيحي للخطوات التي يمكن أن يتخذها الشخص لإنشاء مشروع مترابط.
+name: binder_comic
+alt: An illustration of the steps a person can take to create a binderized project.
 ---
-رصيد شكلي: [Juliette Taka, Logilab و OpenDreamKit project](https://opendreamkit.org/2017/11/02/use-case-publishing-reproducible-notebooks/)
+Figure credit: [Juliette Taka, Logilab and the OpenDreamKit project](https://opendreamkit.org/2017/11/02/use-case-publishing-reproducible-notebooks/)
 ```
 
-يمكنك معرفة المزيد حول مشروع Binder و mybinder.org في صفحة [حول mybinder.org](https://mybinder.readthedocs.io/en/latest/about/about.html).
+You can find out more about Project Binder and mybinder.org on their [About mybinder.org page](https://mybinder.readthedocs.io/en/latest/about/about.html).
 
-(دينام) =
+(binder-disam)=
 ### Disambiguation
 
 In this section, there are some related terms, which will be outlined here for clarity:
 
-- **مشروع بايندر**: مجتمع مفتوح يجعل من الممكن إنشاء بيئات شفافة ومتفاعلة وقابلة للتكاثر. الناتج التكنولوجي لهذا المشروع هو {ref}`rr-binderhub`.
-- **BinderHub**: بنية تحتية قائمة على السحابة لتوليد البيندز. الأكثر استخداما هو [mybinder.org](https://mybinder.org)، والذي يقوم بصيانته فريق المشروع بيندر. تم بناءه على مجموعة من الأدوات مفتوحة المصدر، بما في ذلك [JupyterHub](https://z2jh.jupyter.org)، لتوفير موارد الكمبيوتر السحابية للمستخدمين عبر المتصفح؛ و [`repo2docker`](https://repo2docker.readthedocs.io/)لبناء صور أرصفة من المشاريع. بما أنه مشروع مفتوح، من الممكن إنشاء BinderHubs الأخرى التي يمكنها دعم تكوينات أكثر تخصصا. One such configuration could include authentication to enable private repositories to be shared amongst close collaborators.
-- **Binder**: نسخة مشتركة من المشروع الذي يمكن الاطلاع عليه والتفاعل في بيئة حسابية قابلة للتكرار تعمل في السحابة عبر متصفح ويب. عن طريق التشغيل الآلي لتثبيت البيئة الحاسوبية (كما نوقش في فصل {ref}`rr-renv` ) مشروع بيندر يحوّل النفقات العامة لتقاسم مثل هذه البيئة إلى عمل لتقاسم عنوان URL.
+- **Project Binder**: An open community that makes it possible to create sharable, interactive, reproducible environments. The technological output of this project is a {ref}`rr-binderhub`.
+- **BinderHub**: A cloud-based infrastructure for generating Binders. The most widely-used is [mybinder.org](https://mybinder.org), which is maintained by the Project Binder team. It is built upon a range of open source tools, including [JupyterHub](https://z2jh.jupyter.org), for providing cloud compute resources to users via a browser; and [`repo2docker`](https://repo2docker.readthedocs.io/), for building docker images from projects. Since it is an open project, it is possible to create other BinderHubs which can support more specialised configurations. One such configuration could include authentication to enable private repositories to be shared amongst close collaborators.
+- **A Binder**: A sharable version of a project that can be viewed and interacted within a reproducible computational environment running in the cloud via a web browser. By automating the installation of the computing environment (as discussed in the {ref}`rr-renv` chapter), Project Binder transforms the overhead of sharing such an environment into the act of sharing a URL.
 - **[mybinder.org](https://mybinder.org)**: A public and free BinderHub. Because it is public, you should not use it if your project requires any personal or sensitive information (such as passwords).
-- **قرع**: عملية صنع بايندر من مشروع.
+- **Binderize**: The process of making a Binder from a project.
 
-(مدخل مناسب)=
-## متى يكون من المناسب استخدام mybinder.org؟
+(binder-appropriate)=
+## When is it appropriate to use mybinder.org?
 
-الحفاظ على خدمة مجانية في السحابة هو الكثير من العمل التطوعي و يكلف الكثير من المال. ومن أجل خفض تكاليف التشغيل إلى حد ما، يفرض mybinder.org قيودا حسابية على كل مثال من نماذج Binder قيد التشغيل. وهذه القيود هي:
+Maintaining a free, anonymous service in the cloud is a lot of voluntary work and costs a lot of money. In order to reduce the running costs somewhat, mybinder.org places computational restrictions on each running Binder instance. These restrictions are:
 
-- وحدة معالجة واحدة، و
-- 1 جيغابايت من ذاكرة الوصول العشوائي
+- 1 CPU, and
+- 1 GB of RAM.
 
-لذلك، mybinder.org هو **ليس** مكان مناسب للقيام بتكرار من النهاية لتدفقات عمل التعلم الآلي، على سبيل المثال!
+Hence, mybinder.org is **not** an appropriate place to perform end-to-end replications of Machine Learning workflows, for example!
 
-وهذا هو السبب الرئيسي وراء وضع هذا الفصل عن بيندر في "دليل الاتصال". ومع هذه القيود الحسابية، فإن mybinder.org يفضل جدا استضافة عروض إيضاحية تفاعلية وموارد تعلم لمجموعات البرمجيات أو التحليلات البحثية. في هذا السيناريو، الناس الذين ينقرون على رابط بيندر ربما يريدون تعلم شيء ما، والجلوس من خلال عملية تدريب نموذجي تستغرق وقتا طويلا لن يساعدهم على تحقيق ذلك. وبدلا من ذلك، يمكنك توفير نماذج مدربة مسبقاً أو إرشادات حول كيفية تدريب النماذج على المعدات الخاصة بها و _العودة_ إلى بيندر للفترة المتبقية من البرنامج التفاعلي.
+And this is the primary reason why this chapter on Binder has been placed in the "Guide for Communication". With these computational restrictions, mybinder.org lends itself very well to hosting interactive demonstrations and learning resources for software packages or research analyses. In this scenario, the people clicking the Binder link probably want to learn something, and sitting through a time-consuming model-training process likely won't help them achieve that. Instead, you could provide pre-trained models or instructions on how to train the models on their own hardware and _come back_ to the Binder for the remainder of the interactive tutorial.
 
-إذن، متى يكون من المناسب استخدام mybinder.org؟
+So, when is it appropriate to use mybinder.org?
 
-- عندما تريد _التواصل مع_ شيء بطريقة تفاعلية، مثل التحليلات القصيرة، أو الدروس، أو حتى المدونة! شاهد [مدونة أشينتيا راو مدعومة من mybinder.org](https://blog.achintyarao.in/about/)!
-- عندما تكون التعليمات البرمجية والبيانات المرتبطة بها (عند الاقتضاء) متاحة للجمهور
-- عندما تريد تشغيل التعليمات البرمجية بشكل تفاعلي لا يتطلب الكثير من الموارد أو الموارد المتخصصة (على سبيل المثال GPU)
+- When you want to _communicate_ something in an interactive manner, such as short analyses, tutorials, or even blogs! Check out [Achintya Rao's blog powered by mybinder.org](https://blog.achintyarao.in/about/)!
+- When the code and associated data (if relevant) are publicly available
+- When the code you want to run interactively does not require a lot of resource or specialist resources (for example, GPUs)
 
-(باقة فاكس)=
-## الأسئلة الشائعة
+(binder-faqs)=
+## FAQs
 
-يتم الرد على العديد من الأسئلة الشائعة في صفحة [حول mybinder.org](https://mybinder.readthedocs.io/en/latest/about/about.html).
+Many common questions are answered on the [About mybinder.org page](https://mybinder.readthedocs.io/en/latest/about/about.html).
 
-### كيف يمكنني حفظ التغييرات التي قمت بها مرة أخرى إلى مستودعي؟
+### How do I save my changes back to my repository?
 
-لسوء الحظ، لا يمكنك. على الأقل، ليس من سطر الأوامر في شريط Binder قيد التشغيل.
+Unfortunately, you can't. At least, not from the command line in a running Binder instance.
 
-الكتابة مرة أخرى إلى مستودع مستضيف، سواء كان على GitHub أو أي منصة أخرى، سوف تتطلب وثائق تفويض من نوع ما لتأذن لك بالكتابة إلى ذلك المستودع. وكما ذُكِر آنفاً، فإن المايربندر. rg خدمة عامة تماما، ولا ينبغي أن تقدم أي معلومات حساسة إلى نموذج Binder قيد التشغيل تحت أي ظروف.
+Writing back to a hosted repository, whether it be on GitHub or some other platform, will require a credential of some kind to authorise you to write to that repository. And as has been mentioned, mybinder.org is a completely public service and you should not provide any sensitive information to a running Binder instance under any circumstances.
 
-rg يقوم بتشغيل إضافة تسمى [`jupyter-offlinenotebook`](https://github.com/manics/jupyter-offlinenotebook) الذي يوفر زر التحميل لحفظ دفتر الملاحظات الخاص بك محلياً، _حتى لو فقد متصفحك اتصاله بالبنية التحتية السحابية التي توفر الكمبيوتر!_ هذا يعني أنه يمكنك حفظ تقدمك محلياً، قم بتحديث مستودعك بملاحظاتك المحفوظة، واعادة تشغيل Binder الخاص بك مع الملاحظات المحدثة.
+However, mybinder.org does run an add-on called [`jupyter-offlinenotebook`](https://github.com/manics/jupyter-offlinenotebook) which provides a download button to save your notebooks locally, _even if your browser has lost its connection with the cloud infrastructure that is providing the compute!_ This means you can save your progress locally, update your repository with your saved notebooks, and relaunch your Binder with the updated notebooks.
 
 ```{figure} ../figures/binder_notebook_banner.jpg
 ---
-الاسم: binder_notebook_banner
-البديل : لقطة شاشة من لوحة التحكم في دفتر ملاحظات المشتري مع زر التحميل الذي يبرز بواسطة مستطيل بنفسجي.
+name: binder_notebook_banner
+alt: A screenshot of the control panel of a Jupyter Notebook with a download button highlighted by a purple rectangle.
 ---
-استخدام هذا الزر "تنزيل" في دفتر ملاحظات المشتري قيد التشغيل على ميبيندر. سيسمح لك rg بحفظ دفتر الملاحظات الخاص بك محلياً، حتى بعد فصل مثيل Binder عن الموارد الحاسوبية.
+Using this "Download" button in a Jupyter Notebook running on mybinder.org will allow you to save your notebooks locally, even after the Binder instance has been disconnected from computational resources.
 ```
 
-### كيف يمكنني التعاون مع أقراني على mybinder.org؟
+### How can I collaborate with my peers on mybinder.org?
 
-ليس من المستحيل، لكن هناك بالتأكيد مساحة لتطوير هذه الميزة مقارنة بالخدمات الأخرى "للحواسيب السحابية المجانية" المتاحة.
+It's not impossible, but there's definitely room to develop this feature in comparison to other "free cloud compute" services available.
 
-وأولئك المهتمون بهذا الأمر، يمكن معرفة المزيد في [هذا المنشور في الخطاب](https://discourse.jupyter.org/t/collaborating-on-one-binder-instance/407) وفي [`jupyterlab-link-share` repositor](https://github.com/jtpio/jupyterlab-link-share).
+Those who are interested in this, can find out more in [this Discourse post](https://discourse.jupyter.org/t/collaborating-on-one-binder-instance/407) and in the [`jupyterlab-link-share` repository](https://github.com/jtpio/jupyterlab-link-share).
 
-### كيف يختلف mybinder.org عن Google Colab؟
+### How is mybinder.org different to Google Colab?
 
-يوفر Google Colab بيئة حسابية "مصارف المطبخ" مع العديد من أكثر حزم برامج علوم البيانات شعبية قبل تثبيتها. وعلى النقيض من ذلك، يقوم mybinder.org بإنشاء صور محسوسة لكل مستودع يتم تشغيلها، على وجه التحديد تثبيت الحزم المدرجة في ملفات الإعدادات الخاصة بك.
+Google Colab provides a "kitchen sink" computational environment with many of the most popular data science software packages pre-installed. In contrast, mybinder.org builds bespoke images for each repository launched, specifically installing the packages listed in your configuration files.
 
-### هل يمكنني الاتصال بـ `ادخال البيانات هنا`؟
+### Can I connect to `INSERT DATA PROVIDER HERE`?
 
-ووصلات الشبكة على mybinder.org محدودة للغاية لأغراض الأمن ومنع إساءة المعاملة. بعد أن قيل ذلك، يجب أن تكون قادراً على الاتصال بموفر بيانات خارجي طالما أنه يفي بالمعيارين التاليين:
+Network connections on mybinder.org are quite limited for security and abuse-prevention purposes. That being said you should be able to connect to an external data provider so long as it satisfies the following two criteria:
 
-- يمكن الوصول إليه عبر اتصال HTTP/HTTPS
-- لا تحتاج إلى بيانات الاعتماد للوصول إلى البيانات
+- It can be accessed over an HTTP/HTTPS connection
+- You do not need credentials to access the data
 
-تذكر، mybinder.org خدمة عامة بالكامل ولا ينبغي تحت أي ظرف من الظروف تقديم معلومات سرية، مثل وثائق التفويض، إلى هيئة بيندر.
+Remember, mybinder.org is an entirely public service and under no circumstances should you provide confidential information, such as credentials, to a Binder instance.
 
-(عشق الحشيش)=
-## كيفية إنشاء مشروع Binder جاهز
+(binder-segue)=
+## How to create a Binder-ready project
 
-الفصل التالي يحتوي على [دروس صفر إلى بيندر](z2b) التي ستوجهك من خلال إنشاء أول مشروع جاهز للبايندر على GitHub.
+The next chapter contains a [Zero-to-Binder tutorial](z2b) that will guide you through creating your first Binder-ready project on GitHub.
