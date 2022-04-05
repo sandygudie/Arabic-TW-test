@@ -1,130 +1,132 @@
 (binder)=
-# Vestimenta
+# Binder
 
-Neste capítulo, discutiremos a Binder do Projeto e mybinder.org como um meio de compartilhar pesquisas de forma transparente e interativa.
+In this chapter, we will discuss Project Binder and mybinder.org as a means to transparently and interactively share research.
 
-(binder-compartilhamento)=
-## Por que você deveria compartilhar o seu trabalho?
+(binder-share)=
+## Why should you share your work?
 
-A motivação para compartilhar os resultados de pesquisa é mais profundamente explorada no capítulo {ref}`rr-open`.
+Motivation for sharing research outputs is more deeply explored in the {ref}`rr-open` chapter.
 
-Em resumo, compartilhar seu código de pesquisa pode ajudar a fornecer contexto para os resultados que você apresenta, ilustrando o processo pelo qual você passou para alcançá-los. Ao compartilhar o código, Também evitamos reinventar a roda a fim de fazer avançar um tema de investigação, uma vez que os instrumentos anteriores estão disponíveis para serem complementados.
+In short, sharing your research code can help provide context to the results you present by illustrating the process you went through to reach them. By sharing code, we also avoid reinventing the wheel in order to make progress on a research topic since the previous tools are available to be built on top of.
 
-No entanto, a maior barreira de compartilhamento de código é muitas vezes instalar pacotes e configurar o ambiente computacional, como veremos na próxima seção. Ao compartilhar seu trabalho através de plataformas como mybinder.org:
+However, the biggest barrier to sharing code is often installing packages and setting up the computational environment, as we will see in the next section. By sharing your work via platforms such as mybinder.org:
 
-- Instalar pacotes de software não é mais um desafio
-- Pessoas usando sistemas operacionais diferentes têm experiências semelhantes já que o cálculo está acontecendo na plataforma, não sua máquina local
-- Seu trabalho pode ser distribuído para um público mais amplo uma vez que a barreira técnica baixou
+- Installing software packages is no longer a challenge
+- People using different operating systems have similar experiences since the computation is happening on the platform, not their local machine
+- Your work can be distributed to a broader audience since the technical barrier has been lowered
 
 (binder-what)=
-## O que é Projeto Binder?
+## What is Project Binder?
 
-Discutimos por que é importante compartilhar seu trabalho e chegámos a um ponto em que decidimos publicar alguns Notebooks do Jupyter com o código de análise de uma plataforma de colaboração, tais como o GitHub.
+We've discussed why it's important to share your work and we've reached a point where we've decided to publish some Jupyter Notebooks with analysis code on a collaboration platform, such as GitHub.
 
-O GitHub é uma ótima plataforma para compartilhar código _estaticamente_. Se o repositório for público, qualquer pessoa poderá navegar até o seu Notebook e ler o conteúdo. No entanto, _executar o código_ é muito mais complicado do que apenas exibi-lo como o GitHub. Muitas peças interdependentes são necessárias para executar o código, tais como:
+GitHub is a great platform for sharing code _statically_. If the repository is public, anyone can navigate to your Notebook and read the contents. However, _running_ code is a lot more complicated than just displaying it as GitHub does. A lot of interdependent parts are required to run code, such as:
 
-- uma cópia do próprio código;
-- o software apropriado para executá-lo;
-- quaisquer pacotes extras que o código depende que não sejam enviados como parte do software principal;
-- quaisquer dados de entrada que a análise exige;
-- e você também precisa de algum hardware (um computador!) para executá-lo também.
+- a copy of the code itself;
+- the appropriate software to execute it;
+- any extra packages the code depends on that aren't shipped as part of the core software;
+- any input data the analysis requires;
+- and you also need some hardware (a computer!) to run it on as well.
 
-Além de adquirir todas essas partes, você também precisa instalá-los corretamente e de tal forma que eles não sejam influenciados ou entrem em conflito com outros softwares que possam estar sendo executados em sua máquina. É muito trabalho!
+On top of acquiring all those parts, you also have to install them correctly and in such a way that they are not influenced or come into conflict with other software that may be running on your machine. It's a lot of work!
 
-Quão mais fácil seria se pudéssemos **executar código no navegador**, semelhante à forma como ele é exibido? É isso que o projeto Binder pretende alcançar.
+How much easier would it be if we could **run code in the browser**, similar to how it's displayed? This is what Project Binder aims to achieve.
 
-A Binder fornece a seguinte infraestrutura a um usuário:
+Project Binder provides a user with the following infrastructure:
 
-- algum hardware para executar código, geralmente um servidor hospedado na nuvem, mas também pode estar no local;
-- um ambiente computacional que contém:
-  - o software de approriate,
-  - quaisquer dependências extras de pacotes,
-  - todos os dados de entrada necessários,
-  - e uma cópia do próprio código (Notebooks ou scripts);
-- uma URL para onde o ambiente está rodando para que o código possa ser interagido por você ou seus colaboradores.
+- some hardware to execute code, usually a server hosted in the cloud but can be on-premise hardware too;
+- a computational environment containing:
+  - the approriate software,
+  - any extra package dependencies,
+  - any required input data,
+  - and a copy of the code itself (Notebooks or scripts);
+- a URL to where the environment is running so the code can be interacted with by you or your collaborators.
 
-A Binder do projeto empacotou todas as partes em movimento que o tornam desafiador compartilhar o trabalho computacional em uma interface simples de uso. Há uma versão **gratuita e pública** desta interface executando em [**mybinder.org**](https://mybinder.org).
+Project Binder has packaged together all of the moving parts that make it challenging to share computational work into a simple to use interface. There is a **free and public** version of this interface running at [**mybinder.org**](https://mybinder.org).
 
-O desenho animado abaixo, por Juliette Taka, demonstra um fluxo de trabalho que o cientista usando o Binder pode adotar.
+The cartoon below, by Juliette Taka, demonstrates one workflow a that scientist using Binder might adopt.
 
 ```{figure} ../figures/binder-comic.png
 ---
-nome: binder_comic
-alt: Uma ilustração dos passos que uma pessoa pode dar para criar um projeto binderizado.
---- Crédito digital: [Juliette Taka, Logilab e o projeto OpenDreamkit](https://opendreamkit.org/2017/11/02/use-case-publishing-reproducible-notebooks/)
+name: binder_comic
+alt: An illustration of the steps a person can take to create a binderized project.
+---
+Figure credit: [Juliette Taka, Logilab and the OpenDreamKit project](https://opendreamkit.org/2017/11/02/use-case-publishing-reproducible-notebooks/)
 ```
 
-Você pode saber mais sobre Project Binder e mybinder.org na sua página [Sobre mybinder.org](https://mybinder.readthedocs.io/en/latest/about/about.html).
+You can find out more about Project Binder and mybinder.org on their [About mybinder.org page](https://mybinder.readthedocs.io/en/latest/about/about.html).
 
 (binder-disam)=
-### Desambiguação
+### Disambiguation
 
-Nesta secção, há alguns termos relacionados, que serão delineados aqui para clareza:
+In this section, there are some related terms, which will be outlined here for clarity:
 
-- **Binder Projeto**: Uma comunidade aberta que torna possível criar ambientes compartilháveis, interativos e reprodutíveis. A saída tecnológica deste projeto é um {ref}`rr-binderhub`.
-- **BinderHub**: Uma infraestrutura baseada em nuvem para gerar Binders. O mais usado é o [mybinder.org](https://mybinder.org), que é mantido pela equipe do Projeto Binder. É construído sobre uma série de ferramentas de código aberto, incluindo [JupyterHub](https://z2jh.jupyter.org), para fornecer recursos de computação em nuvem aos usuários através de um navegador; e [`repo2docker`](https://repo2docker.readthedocs.io/), para construir imagens docker de projetos. Como se trata de um projeto aberto, é possível criar outros BinderHubs que podem suportar configurações mais especializadas. Uma dessas configurações poderia incluir autenticação para permitir que repositórios privados sejam compartilhados entre colaboradores fechados.
-- **Um Binder**: Uma versão compartilhável de um projeto que pode ser visualizado e interagido dentro de um ambiente computacional reproduzível rodando na nuvem através de um navegador da web. Ao automatizar a instalação do ambiente de computação (conforme discutido no capítulo {ref}`rr-renv` ), A Binder do Projeto transforma a sobrecarga de compartilhar um ambiente desse tipo no ato de compartilhar uma URL.
-- **[mybinder.org](https://mybinder.org)**: Um BinderHub, público e gratuito. Porque ele é público, você não deve usá-lo se o seu projeto exigir quaisquer informações pessoais ou confidenciais (como senhas).
-- **Binderize**: O processo de criação de um Binder a partir de um projeto.
+- **Project Binder**: An open community that makes it possible to create sharable, interactive, reproducible environments. The technological output of this project is a {ref}`rr-binderhub`.
+- **BinderHub**: A cloud-based infrastructure for generating Binders. The most widely-used is [mybinder.org](https://mybinder.org), which is maintained by the Project Binder team. It is built upon a range of open source tools, including [JupyterHub](https://z2jh.jupyter.org), for providing cloud compute resources to users via a browser; and [`repo2docker`](https://repo2docker.readthedocs.io/), for building docker images from projects. Since it is an open project, it is possible to create other BinderHubs which can support more specialised configurations. One such configuration could include authentication to enable private repositories to be shared amongst close collaborators.
+- **A Binder**: A sharable version of a project that can be viewed and interacted within a reproducible computational environment running in the cloud via a web browser. By automating the installation of the computing environment (as discussed in the {ref}`rr-renv` chapter), Project Binder transforms the overhead of sharing such an environment into the act of sharing a URL.
+- **[mybinder.org](https://mybinder.org)**: A public and free BinderHub. Because it is public, you should not use it if your project requires any personal or sensitive information (such as passwords).
+- **Binderize**: The process of making a Binder from a project.
 
-(binder-apropriado)=
-## Quando é apropriado usar mybinder.org?
+(binder-appropriate)=
+## When is it appropriate to use mybinder.org?
 
-Manter um serviço gratuito e anônimo na nuvem é muito trabalho voluntário e custa muito dinheiro. Para reduzir um pouco os custos de corrida, mybinder.org coloca restrições computacionais em cada instância Binder corrente. Essas restrições são:
+Maintaining a free, anonymous service in the cloud is a lot of voluntary work and costs a lot of money. In order to reduce the running costs somewhat, mybinder.org places computational restrictions on each running Binder instance. These restrictions are:
 
-- 1 CPU, e
-- 1 GB de RAM.
+- 1 CPU, and
+- 1 GB of RAM.
 
-Portanto, mybinder.org **não é** um lugar apropriado para realizar replicações de ponta a ponta dos fluxos de trabalho de Aprendizagem de Máquina, por exemplo!
+Hence, mybinder.org is **not** an appropriate place to perform end-to-end replications of Machine Learning workflows, for example!
 
-E esta é a principal razão pela qual este capítulo na Binder foi colocado no "Guia para Comunicação". Com essas restrições computacionais, mybinder.org se presta muito bem a hospedar demonstrações interativas e recursos de aprendizado para pacotes de software ou análises de pesquisa. Neste cenário, as pessoas que estão clicando no link Binder provavelmente querem aprender alguma coisa, e sentar-se em um processo demorado de formação de modelos provavelmente não os ajudará a conseguir isso. Em vez disso, você pode fornecer modelos pré-treinados ou instruções sobre como treinar os modelos em seu próprio hardware e _voltar_ para o Binder para o restante do tutorial interativo.
+And this is the primary reason why this chapter on Binder has been placed in the "Guide for Communication". With these computational restrictions, mybinder.org lends itself very well to hosting interactive demonstrations and learning resources for software packages or research analyses. In this scenario, the people clicking the Binder link probably want to learn something, and sitting through a time-consuming model-training process likely won't help them achieve that. Instead, you could provide pre-trained models or instructions on how to train the models on their own hardware and _come back_ to the Binder for the remainder of the interactive tutorial.
 
-Então, quando é apropriado usar mybinder.org?
+So, when is it appropriate to use mybinder.org?
 
-- Quando você quer _comunicar_ algo de forma interativa, como análises curtas, tutoriais ou até blogs! Confira [blog da Achintya Rao, alimentado por mybinder.org](https://blog.achintyarao.in/about/)!
-- Quando o código e os dados associados (se relevantes) estão disponíveis publicamente
-- Quando o código que você deseja executar interativamente não requer muito recurso ou recursos especializados (por exemplo, GPUs)
+- When you want to _communicate_ something in an interactive manner, such as short analyses, tutorials, or even blogs! Check out [Achintya Rao's blog powered by mybinder.org](https://blog.achintyarao.in/about/)!
+- When the code and associated data (if relevant) are publicly available
+- When the code you want to run interactively does not require a lot of resource or specialist resources (for example, GPUs)
 
 (binder-faqs)=
 ## FAQs
 
-Muitas perguntas comuns são respondidas na [página Sobre mybinder.org](https://mybinder.readthedocs.io/en/latest/about/about.html).
+Many common questions are answered on the [About mybinder.org page](https://mybinder.readthedocs.io/en/latest/about/about.html).
 
-### Como faço para salvar as minhas alterações no meu repositório?
+### How do I save my changes back to my repository?
 
-Infelizmente, você não pode. Pelo menos, não na linha de comando em uma instância da Binder em execução.
+Unfortunately, you can't. At least, not from the command line in a running Binder instance.
 
-Escrevendo de volta em um repositório hospedado, seja no GitHub ou em qualquer outra plataforma, exigirá uma credencial de algum tipo para autorizar você a escrever nesse repositório. E como já foi referido, mybinder. rg é um serviço completamente público e você não deve fornecer nenhuma informação sensível a uma instância de Binder em nenhuma circunstância.
+Writing back to a hosted repository, whether it be on GitHub or some other platform, will require a credential of some kind to authorise you to write to that repository. And as has been mentioned, mybinder.org is a completely public service and you should not provide any sensitive information to a running Binder instance under any circumstances.
 
-No entanto, mybinder. rg executa um complemento chamado [`jupyter-offlinenotebook`](https://github.com/manics/jupyter-offlinenotebook) que fornece um botão de download para salvar seus notebooks localmente, _mesmo que seu navegador tenha perdido a sua conexão com a infraestrutura da nuvem que está fornecendo o computador!_ Isto significa que você pode salvar seu progresso localmente, atualize seu repositório com seus cadernos salvos e reabra o seu Binder com os cadernos atualizados.
+However, mybinder.org does run an add-on called [`jupyter-offlinenotebook`](https://github.com/manics/jupyter-offlinenotebook) which provides a download button to save your notebooks locally, _even if your browser has lost its connection with the cloud infrastructure that is providing the compute!_ This means you can save your progress locally, update your repository with your saved notebooks, and relaunch your Binder with the updated notebooks.
 
 ```{figure} ../figures/binder_notebook_banner.jpg
 ---
-nome: binder_notebook_banner
-alt: uma captura de tela do painel de controle de um Notebook Jupyter com um botão de download destacado por um retângulo roxo.
---- Usando este botão "Download" em um Jupyter Notebook em execução no mybinder. rg permitirá que você salve seus notebooks localmente, mesmo depois de a instância Binder ter sido desconectada de recursos computacionais.
+name: binder_notebook_banner
+alt: A screenshot of the control panel of a Jupyter Notebook with a download button highlighted by a purple rectangle.
+---
+Using this "Download" button in a Jupyter Notebook running on mybinder.org will allow you to save your notebooks locally, even after the Binder instance has been disconnected from computational resources.
 ```
 
-### Como posso colaborar com meus pares em mybinder.org?
+### How can I collaborate with my peers on mybinder.org?
 
-Não é impossível, mas definitivamente há espaço para desenvolver esse recurso em comparação com outros serviços de "computador gratuito na nuvem" disponíveis.
+It's not impossible, but there's definitely room to develop this feature in comparison to other "free cloud compute" services available.
 
-Aqueles que estão interessados nisso, pode saber mais em [este post do Discourse](https://discourse.jupyter.org/t/collaborating-on-one-binder-instance/407) e no [`jupyterlab-link-share` repositório](https://github.com/jtpio/jupyterlab-link-share).
+Those who are interested in this, can find out more in [this Discourse post](https://discourse.jupyter.org/t/collaborating-on-one-binder-instance/407) and in the [`jupyterlab-link-share` repository](https://github.com/jtpio/jupyterlab-link-share).
 
-### Como mybinder.org é diferente do Google Colab?
+### How is mybinder.org different to Google Colab?
 
-O Google Colab fornece um ambiente computacional "kked" com muitos dos pacotes de software de ciência de dados mais populares pré-instalados. Em contraste, mybinder.org builds imagens bespoke para cada repositório iniciado, especificamente instalando os pacotes listados em seus arquivos de configuração.
+Google Colab provides a "kitchen sink" computational environment with many of the most popular data science software packages pre-installed. In contrast, mybinder.org builds bespoke images for each repository launched, specifically installing the packages listed in your configuration files.
 
-### Posso me conectar ao `INSERIR FORMAÇÃO DE DADOS AQUI`?
+### Can I connect to `INSERT DATA PROVIDER HERE`?
 
-As conexões de rede no mybinder.org são bastante limitadas para fins de segurança e prevenção de abusos. Sendo assim, você deve ser capaz de se conectar a um provedor de dados externo, contanto que satisfaça os seguintes dois critérios:
+Network connections on mybinder.org are quite limited for security and abuse-prevention purposes. That being said you should be able to connect to an external data provider so long as it satisfies the following two criteria:
 
-- Ele pode ser acessado através de uma conexão HTTP/HTTPS
-- Você não precisa de credenciais para acessar os dados
+- It can be accessed over an HTTP/HTTPS connection
+- You do not need credentials to access the data
 
-Lembre-se, mybinder.org é um serviço inteiramente público, e em nenhuma circunstância você deve fornecer informações confidenciais, como credenciais, a uma instância da Binder.
+Remember, mybinder.org is an entirely public service and under no circumstances should you provide confidential information, such as credentials, to a Binder instance.
 
 (binder-segue)=
-## Como criar um projeto pronto para Binder
+## How to create a Binder-ready project
 
-O próximo capítulo contém um [tutorial Zero-to-Binder](z2b) que irá guiá-lo pela criação de seu primeiro projeto pronto para Binder no GitHub.
+The next chapter contains a [Zero-to-Binder tutorial](z2b) that will guide you through creating your first Binder-ready project on GitHub.
