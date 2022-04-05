@@ -1,81 +1,81 @@
-(rr-vcs-git-oblig)=
-# `git الالتزام` الأمر
+(rr-vcs-git-commit)=
+# The `git commit` Command
 
-كل مرة 'تضيف' تتغير (ملفات جديدة أو ملفات موجودة مع بعض التغييرات) و 'التزام' بتلك الموجودة في مستودع Git الخاص بك، أنت تنشئ نسخة من مشروعك الذي يتم تخزينه في تاريخ مشروعك ويمكن الوصول إليه في أي وقت.
+Every time you 'add' changes (new files or existing files with some changes) and 'commit' those in your Git repository, you create a version of your project that is stored in your project history and can be accessed any time.
 
-لإدخال تغييرات مع بيان معنى حول التغييرات التي أجريت في الإصدار، استخدام `git الالتزام` مع علامة `-m` (m للرسالة):
-
-```
-git الالتزام -m 'بيان مفيد حول التغيير هنا'
-```
-
-يمكنك مشاهدة سجل من التزاماتك السابقة باستخدام
+To commit changes with a meaning statement about changes made in a version, use `git commit` with a `-m` (m for message) flag:
 
 ```
-سجل git
+git commit -m 'helpful statement about the change here'
 ```
 
-في تقرير السجل على المحطة الطرفية الخاصة بك، سترى أن كل إصدار يتم توسيمه تلقائيا مع سلسلة فريدة من الأرقام والحروف، تسمى SHA. يمكنك تحديد الإصدارات المختلفة والوصول إليها ومقارنتها باستخدام SHA المقابلة. هنا مثال على ارتكاب في سجل Git: SHA في السطر الأول جداً، وبصرف النظر عن SHA هذه، يحتوي السجل أيضا على معلومات عن التاريخ والوقت ومؤلف التغيير وكذلك رسالة الالتزام ("الإصلاح الطباعي الثانوي").
+You can see a log of your previous commits using
 
 ```
-الالتزام 0346c937d0c451f6c622c5800a46f9e9e1c2b035
-المؤلف: مالفيكا شاران <some@email.com>
-التاريخ: اربعاء 6 18:22:40 2020 +0100
+git log
+```
 
-    الاصلاح الطولي
+In the log report on your terminal, you will see that each version is automatically tagged with a unique string of numbers and letters, called an SHA. You can identify, access and compare different versions by using their corresponding SHA. هنا مثال على ارتكاب في سجل Git: SHA في السطر الأول جداً، وبصرف النظر عن SHA هذه، يحتوي السجل أيضا على معلومات عن التاريخ والوقت ومؤلف التغيير وكذلك رسالة الالتزام ("الإصلاح الطباعي الثانوي").
+
+```
+commit 0346c937d0c451f6c622c5800a46f9e9e1c2b035
+Author: Malvika Sharan <some@email.com>
+Date:   Wed May 6 18:22:40 2020 +0100
+
+    minor typo fix
 
 ```
 
 (rr-vcs-commit-messages)=
-## المزيد من رسائل التسليم
+## More on the Commit Messages
 
-بينما تعمل على مشروعك، سوف تقطع المزيد والمزيد من الالتزامات. بدون أي معلومات أخرى، من الصعب تذكر أي نسخة من مشروعك. تخزين الإصدارات السابقة غير مجدية إذا كنت لا تستطيع فهمها، واكتشاف ما تحتويه من خلال تفتيش التعليمات البرمجية هو أمر محبط ويستغرق وقتاً قيّماً.
+As you work on your project, you will make more and more commits. Without any other information, it can be hard to remember which version of your project is in which. Storing past versions is useless if you can not understand them, and figuring out what they contain by inspecting the code is frustrating and takes valuable time.
 
-عندما ترتكب، لديك الفرصة لكتابة رسالة التزام تصف ما هو الالتزام وما يفعله، ويجب عليك دائماً، *دائماً،* **_دائماً_** فعل ذلك. يتم إرفاق رسالة الالتزام بالالتزام، لذا إذا نظرت إلى الوراء (على سبيل المثال، عبر `git log`)، ستظهر إن إنشاء رسائل التزام وصفية ومتبصرة هو أحد أفضل الأشياء التي يمكنك القيام بها لتحقيق أقصى استفادة من التحكم في الإصدار. إن إنشاء رسائل التزام وصفية ومتبصرة هو أحد أفضل الأشياء التي يمكنك القيام بها لتحقيق أقصى استفادة من التحكم في الإصدار. إنه يتيح للناس (ومستقبلك عندما تكون قد نسيت منذ فترة طويلة ما كنت تفعله ولماذا) فهم التحديثات التي يحتوي عليها الالتزام بسرعة دون الحاجة إلى قراءة التعليمات البرمجية وإهدار الوقت لمعرفة ذلك. رسائل جيدة الالتزام تحسن جودة التعليمات البرمجية عن طريق تقليل الافتراضات الخاطئة من قبل الناس عن سبب إجراء بعض التغييرات.
+When you commit, you have the chance to write a commit message describing what the commit is and what it does, and you should always, *always,* **_always_** do so. يتم إرفاق رسالة الالتزام بالالتزام، لذا إذا نظرت إلى الوراء (على سبيل المثال، عبر `git log`)، ستظهر إن إنشاء رسائل التزام وصفية ومتبصرة هو أحد أفضل الأشياء التي يمكنك القيام بها لتحقيق أقصى استفادة من التحكم في الإصدار. Creating insightful and descriptive commit messages is one of the best things you can do to get the most out of version control. It lets people (and your future self when you have long since forgotten what you were doing and why) quickly understand what updates a commit contains without having to carefully read code and waste time figuring it out. Good commit messages improve your code quality by drastically reducing wrong assumptions by people on why certain changes were made.
 
-عندما تلتزم عبر `git الالتزام` دون خيار `-m` أو `--رسالة` ، يظهر الحقل (إما داخل المحطة الطرفية أو في محرر النص) حيث يمكن كتابة رسالة التزام. يمكنك كتابة بيان ذي مغزى وحفظ (وإغلاق إذا كتبت الرسالة عن طريق محرر النص). يمكنك تعيين المحرر المفضل الخاص بك كمحرر افتراضي عن طريق تشغيل بيان مثل هذا:
+When you commit via `git commit` without the `-m` or `--message` option, a field appears (either within the terminal or in a text editor) where a commit message can be written. You can write a meaningful statement and save (and close if writing the message via text editor). You can set your preferred editor as the default by running a statement like this:
 
 ```
-git config --محرر عالمي "your_preferred_editor"
+git config --global core.editor "your_preferred_editor"
 ```
 
-لتجنب كتابة رسالة الالتزام هذه في محرر، يمكنك استخدام الأمر `git الالتزام -m "رسالتك هنا"`، كما نوقش سابقاً.
+To avoid writing this commit message in an editor, you can use the command `git commit -m "your message here"`, as discussed earlier.
 
 (rr-vcs-commit-messages-practice)=
-### الممارسات الجيدة
+### Good practice
 
-القاعدة الأولى هو: **جعلها ذات معنى**. رسالة الالتزام مثل "إصلاح خطأ" تترك للشخص بالكامل لفهم ما يعنيه ذلك (مجدداً)، هذا الشخص قد يكون لديك بضعة أشهر في المستقبل عندما نسيت ما كنت تفعله). قد يؤدي هذا إلى إهدار الوقت الخاص بك أو غيرك لمعرفة ما هو الخطأ، ما هي التغييرات التي تم إجراؤها، وكيف تم إصلاح الأخطاء. وعلى هذا النحو، يجب أن *تفسر رسالة الالتزام الجيدة ما فعلته، ولماذا فعلته، وما يتأثر بالتغييرات*. كما هو الحال مع التعليقات، يجب أن تصف ما هو الكود "يفعل" بدلاً من الكود نفسه. على سبيل المثال، ليس من الواضح ما يفعله في الواقع "تغيير N_sim إلى 10"، ولكن "تغيير عدد المحاكاة التي يديرها البرنامج إلى 10" واضح.
+The number one rule is: **make it meaningful**. A commit message like "Fixed a bug" leaves it entirely up to the person to understand what that means (again, this person may very well be you a few months in the future when you have forgotten what you were doing). This can end up wasting your or others time figuring out what the bug was, what changes were actually made, and how a bug was fixed. As such, a good commit message should *explain what you did, why you did it, and what is impacted by the changes*. As with comments, you should describe what the code is "doing" rather than the code itself. For example, it is not obvious what "Change N_sim to 10" actually does, but "Change number of simulations run by the program to 10" is clear.
 
-**تلخيص التغييرات في التزامك يحتوي على**. يجب أن يكتب هذا في السطر الأول (بحد أقصى 50 حرفاً)، ثم اترك سطراً فارغاً قبل أن تستمر في وصف الرسالة أو جملتها. السطر الأول هو الإصدار المختصر الذي يظهر كملخص عند استخدام الأمر:
-
-```
-سجل git
-```
-
-وهذا يجعل من الأسهل بكثير البحث بسرعة عن طريق عدد كبير من الالتزامات. من الممارسات الجيدة أيضا **استخدام المضارع المحتم** في هذه الرسائل. على سبيل المثال، بدلاً من "أنا أضيف اختبارات لـ" أو "إضافة اختبارات لـ"، استخدم "إضافة اختبارات لـ".
-
-وفيما يلي مثال جيد على بنية رسالة الالتزام:
+**Summarise the changes your commit contains**. This should be written in the first line (in 50 characters maximum), then leave a blank line before you continue with the description or body of the message. The first line is the shortened version that appears as a summary when you use the command:
 
 ```
-قصير (50 حرفا). أو أقل) موجز التغييرات
+git log
+```
 
-نص تفسيري أكثر تفصيلا، إذا لزم الأمر. قم بإختلافه إلى
-حوالي 72 حرفاً أو نحو ذلك. في بعض السياقات، يتم التعامل مع سطر
-الأول كموضوع للبريد الإلكتروني وبقية
-النص كجسم. السطر الفارغ الذي يفصل الملخص
-عن الجسم حاسم الأهمية (إلا إذا حذفت الجسم
-كلياً)؛ أدوات مثل إعادة القاعدة يمكن أن تصبح ملتبسة إذا قمت بتشغيل
-الاثنين معا.
+This makes it much easier to quickly search through a large number of commits. It is also a good practice to **use the imperative present tense** in these messages. For example, instead of "I added tests for" or "Adding tests for", use "Add tests for".
 
-وتأتي فقرات أخرى بعد خطوط فارغة.
+Here is a good example of a commit message structure:
 
-  - نقاط الرصاص على ما يرام، أيضًا
+```
+Short (50 chars. or less) summary of changes
 
-  - عادة ما تستخدم الوصلة أو النجمة للرصاص,
-    مسبوقة بمسافة واحدة، مع خطوط فارغة في
-    فيما بينها، ولكن الاتفاقيات تختلف هنا
+More detailed explanatory text, if necessary. Wrap it to
+about 72 characters or so. In some contexts, the first
+line is treated as the subject of an email and the rest of
+the text as the body. The blank line separating the
+summary from the body is critical (unless you omit the body
+entirely); tools like rebase can get confused if you run
+the two together.
+
+Further paragraphs come after blank lines.
+
+  - Bullet points are okay, too
+
+  - Typically, a hyphen or asterisk is used for the bullet,
+    preceded by a single space, with blank lines in
+    between, but conventions vary here
 ```
 (rr-vcs-commit-summary)=
-## التزام Git: موجز
+## Git commit: Summary
 
-من خلال إجراء التغييرات الخاصة بك طوال تطوير مشروعك في وحدات ذات معنى مع رسائل التزام وصفية وواضحة، يمكنك إنشاء تاريخ يسهل فهمه. وهذا من شأنه أن يساعدكم ويساعدكم الآخرين على فهم التقدم المحرز في عملكم. وعلاوة على ذلك، وكما سيبين الفرع التالي، كما أنه سيجعل من السهل عرض الإصدارات السابقة من السجل الخاص بك أو العودة إلى التغييرات التي أجريتها.
+By committing your changes throughout the development of your project in meaningful units with descriptive and clear commit messages, you can create an easily understandable history. This will help you and others to understand the progress of your work. Furthermore, as the next section will demonstrate, it will also make it easy to view past versions of your history or revert changes you have made.
