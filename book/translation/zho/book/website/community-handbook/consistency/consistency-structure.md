@@ -6,7 +6,7 @@ Structure refers to how _The Turing Way_ is organised. A good structural framewo
 (ch-consistency-structure-hr)=
 ## Hard Requirements
 
-涉及 _的硬性检查。 正面怀的_ 结构包括：
+The hard checks that deal with _The Turing Way's_ structure include:
 
 (ch-consistency-structure-hr-emptyfiles)=
 ### Check 1: Do not add empty files in the `_toc.yml`
@@ -23,7 +23,7 @@ Empty files included Turing Way's Table of Contents can still be accessed by rea
 
 A general suggestion is to remove references to such files from the ToC and raise an issue in _The Turing Way_ Github [repo](https://github.com/alan-turing-institute/the-turing-way) for content to be written for those files. When the content is written, the files can then be added to the ToC.
 
-例如， [这个问题](https://github.com/alan-turing-institute/the-turing-way/issues/1391) 管理了一个目前在 _的空文件和不完整文件列表_, 和 [此 PR](https://github.com/alan-turing-institute/the-turing-way/pull/1448) 为 `数据许可证` 子章节显示于 {ref}`图像 <empty-toc-file>` 编写内容。
+For example, [this issue](https://github.com/alan-turing-institute/the-turing-way/issues/1391) curates a list of empty and incomplete files currently in _The Turing Way_, and [this PR](https://github.com/alan-turing-institute/the-turing-way/pull/1448) writes content for the `Data Licences` subchapter shown in the {ref}`image <empty-toc-file>`.
 
 (ch-consistency-structure-hr-structure)=
 ### Check 2: Ensure chapters follow a consistent structure
@@ -58,7 +58,7 @@ Refer to the [chapter template](https://github.com/alan-turing-institute/the-tur
 (ch-consistency-structure-hr-toc)=
 ### Check 3: Do not add a 'table of content' in chapters or subchapters.
 
-Some chapters in _The Turing Way_ were written with a hand-crafted table of contents. 然而，仍然存在着这种情况。 Jupyter 书自动生成一个永久性的目录，可以在 _左侧找到。 Ting Way_ book， 以及位于每个页面右上角的具体页面表格。 This makes a manually written table of contents unnecessary, and it may negatively impact a reader's experience with _The Turing Way_.
+Some chapters in _The Turing Way_ were written with a hand-crafted table of contents. However, Jupyter Book auto-generates a permanent table of contents that can be found on the left side of _The Turing Way_ book, and a dynamic, page-specific table of content located at the top-right of each page. This makes a manually written table of contents unnecessary, and it may negatively impact a reader's experience with _The Turing Way_.
 
 ```{figure} ../../figures/many-table-of-contents.png
 ---
@@ -76,16 +76,15 @@ The manually written table of contents is unnecessary as Jupyter Book auto-gener
 (ch-consistency-structure-hr-citing)=
 ### Ensure external sources are properly cited and referenced
 
-{ref}`风格指南<ch-style-citing>`所述， _诱惑路径_书本引用被存储在名为 `的 BibTeX 文件中。
-ib`. 在编写新内容时，确保引用来自外部来源的信息使用 BibTeX 格式并添加到 `引用。</p>
+As described in the {ref}`style guide<ch-style-citing>`, _The Turing Way_'s book-wide references are stored in a BibTeX file called `references.bib`. When writing new content, ensure that information culled from external sources are cited using the BibTeX format and added to the `references.bib` file as appropriate.
 
-<p spaces-before="0">The {ref}<code>style guide<ch-style-citing>` demonstrates how to add a new reference to the centralised BibTeX file, and shows how this reference can be included in your writing.
+The {ref}`style guide<ch-style-citing>` demonstrates how to add a new reference to the centralised BibTeX file, and shows how this reference can be included in your writing.
 
 
 (ch-consistency-structure-soft-req)=
 ## Soft Requirements
 
-处理 _的软要求。 正在酝酿的怀的_ 结构包括：
+Soft requirements that deal with _The Turing Way's_ structure include:
 
 (ch-consistency-structure-sr-summary)=
 ### Check 1: Ensure each chapter has a good summary in their landing page
