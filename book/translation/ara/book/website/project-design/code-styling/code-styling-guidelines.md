@@ -27,7 +27,7 @@ The R style guide suggests keeping file names basic. This might be appropriate f
 
 ### Versioning
 
-An extra consideration to file-naming is versioning your software. استخدام إرشادات الإصدار سيساعد على تجنب استخدام كلمات مثل `_FINAL. R`. A typical convention is the MajorMinorPatch (or MajorMinorRevision) approach. In this, your first attempt at a package or library might look like this:
+An extra consideration to file-naming is versioning your software. Using versioning guidelines will help avoid using words like `_FINAL.R`. A typical convention is the MajorMinorPatch (or MajorMinorRevision) approach. In this, your first attempt at a package or library might look like this:
 ```
 my-package_1_0_0.py
 ```
@@ -46,7 +46,7 @@ For clarity and readability, choosing a set of naming conventions for your varia
 - CamelCase
 - lowerCamelCase
 - Underscore_Methods
-- مختلطة_قضية_سحب_Underscores
+- Mixed_Case_With_Underscores
 - lowercase
 
 For example:
