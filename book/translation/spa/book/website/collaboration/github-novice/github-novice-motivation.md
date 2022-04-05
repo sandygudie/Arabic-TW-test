@@ -5,7 +5,7 @@ GitHub is an online web interface for collaborating, developing, sharing and usi
 
 GitHub is not the only available development platform, but it hosts this book and is widely used across disciplinary and private-public boundaries. Thus, this chapter is tailored towards GitHub and its resources, though other platforms probably have analogous functions.
 
-Algunas cosas clave para saber acerca de GitHub: – tiene excelentes características de gestión de proyectos, una plataforma social y herramientas de comunicación que son útiles para cualquier proyecto donde un grupo de personas está trabajando juntos en el mismo conjunto de documentos.
+Some key things to know about GitHub: – it has terrific project management features, a social platform and communication tools that are useful for any project where a group of people is working together on the same set of documents.
 - it can be used to store documentation, data and make web pages for projects.
 - it provides an easy-to-use interface for {ref}`version control<rr-vcs>` that allows all activities to be recorded so you can revisit past versions and you know who made each contribution to the project.
 - it has many options for automating repeated project management tasks.
@@ -19,7 +19,7 @@ You can manage your project by creating project boards that include to-do lists 
 
 You can use GitHub directly in your web browser or download it to your computer. Most instructions about how to use GitHub will start with you downloading it to your computer. However, there is no need to download GitHub onto your computer; it is much simpler to use it in a web browser.
 
-Para poder usar GitHub, no necesitas ser un programador de computadora! Para formatear texto, sólo necesitas aprender un tipo muy simple de sintaxis de formato de archivo llamada markdown. To format text, you only need to learn a very simple type of file formatting syntax called markdown. Again, you do not need to download a markdown editor as it can all be written directly in GitHub in your web browser. Markdown syntax [{term}`def<Syntax>`] is designed to be human readable even if it isn’t rendered [{term}`def<Rendered Output>`]. This allows you to format your text into a nice-looking document, including adding in links, pictures, tables and web links. In most cases, GitHub even provides a "preview" option that allows you to see what your rendered document will look like.
+In order to use GitHub, you do not need to be a computer coder! To format text, you only need to learn a very simple type of file formatting syntax called markdown. Again, you do not need to download a markdown editor as it can all be written directly in GitHub in your web browser. Markdown syntax [{term}`def<Syntax>`] is designed to be human readable even if it isn’t rendered [{term}`def<Rendered Output>`]. This allows you to format your text into a nice-looking document, including adding in links, pictures, tables and web links. In most cases, GitHub even provides a "preview" option that allows you to see what your rendered document will look like.
 
 For example, if you want to put a heading in markdown you use a ‘#’ (hash symbol) followed by a space and the title. Like this `# heading 1`, this will produce the first level header style for that text.
 
