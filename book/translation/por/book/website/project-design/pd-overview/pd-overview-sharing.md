@@ -1,55 +1,55 @@
 (pd-overview-sharing)=
-# Compartilhando seu trabalho de pesquisa
-Agora que você está na última etapa de seu projeto, você quer ter certeza de que suas saídas estão disponíveis para qualquer pessoa interessada em analisá-las ou reutilizá-las. A ciência só pode avançar partindo do fundamento dos resultados uns dos outros. O primeiro passo é compartilhar seu trabalho.
+# Sharing Your Research Work
+Now that you are in the last phase of your project, you want to make sure that your outputs are available to anyone interested in analysing or reusing them. Science can only progress from building on top of each other's results. The first step is sharing your work.
 
-Mas só a partilha não basta. Você precisa ter certeza de que seus objetos de pesquisa são recuados **F**, **Um**ccesible, **Eu**nobrei e **R**eusável. Isso é referido como {ref}`Princípios do FAIR<rr-rdm-fair>` que fornece orientações para melhorar a Localização, Acessibilidade, interoperabilidade e reutilização dos ativos digitais; tudo isso apoia a reprodutibilidade da investigação.
+But only sharing is not enough. You need to make sure that your research objects are **F**indable, **A**ccesible, **I**noperable and **R**eusable. This is referred to as {ref}`FAIR Principles<rr-rdm-fair>` that provides guidelines to improve the Findability, Accessibility, Interoperability and Reusability of digital assets; all of which support research reproducibility.
 
-Este aspecto já é considerado ao desenvolver seu {ref}`Plano de gerenciamento de dados (DMP)<rr-rdm-dmp>` (ver {ref}`pd-overview-planning-dmp`). Portanto, é importante revisitar a sua DMP para garantir que as diretrizes também sejam aplicadas ao disponibilizar seus resultados. Você pode aprender mais sobre isso em um capítulo em {ref}`fazer dados FALHA<rr-rdm-fair>`).
+This aspect is already considered when developing your {ref}`Data Management Plan (DMP)<rr-rdm-dmp>` (see {ref}`pd-overview-planning-dmp`). Therefore, it is important to revisit your DMP to make sure that the guidelines are also applied when making your results available. You can learn more about this in a chapter on {ref}`making data FAIR<rr-rdm-fair>`).
 
 (pd-overview-sharing-archive)=
-## Arquivar suas Saídas
+## Archive your Outputs
 
-Como seus dados, suas saídas devem ser arquivadas em um lugar aberto, onde as pessoas podem acessá-los. Um repositório é um bom lugar para armazenar seus resultados.
+Like your data, your outputs should be archived in an open place, where people can access them. A repository is a good place to store your results.
 
-Uma visão geral de alguns repositórios disponíveis para o arquivamento de seus dados pode ser encontrada no [re3data.org](https://www.re3data.org/).
+An overview of some repositories available for archiving your data can be found in [re3data.org](https://www.re3data.org/).
 
-Outro bom recurso onde você pode ler mais sobre este tópico é o capítulo em {ref}`Compartilhar e Arquivar Dados<rr-rdm-sharing>`.
+Another good resource where you can read more about this topic is the chapter on {ref}`Sharing and Archiving Data<rr-rdm-sharing>`.
 
 (pd-overview-sharing-protocols)=
-## Compartilhe seus protocolos
+## Share your Protocols
 
-Uma das razões para fazer investigação reprodutível é proporcionar a outros os instrumentos necessários para se construírem sobre ela. Se os detalhes dos protocolos não forem compartilhados, os pesquisadores podem gastar meses otimizando-os antes de poderem começar com seus projetos.
+One of the reasons to do reproducible research is to provide others with the tools to build on top of it. If the details of the protocols are not shared, researchers can spend months optimizing them before being able to start with their projects.
 
-Uma ferramenta que pode ser usada para evitar isso é [protocolos.io](https://www.protocols.io/). Ele oferece uma maneira de garantir que os seus protocolos estejam abertamente disponíveis, permitindo que você os atualize mantendo o controle das alterações. Além disso, ter os seus protocolos em linha torna mais fáceis de compartilhar, criando oportunidades de contribuir.
+A tool that can be used to avoid this is [protocols.io](https://www.protocols.io/). It provides a way to ensure that your protocols are openly available, allowing you to update them while keeping track of the changes. Furthermore, having your protocols online makes them easier to share, creating opportunity for contributing.
 
-## Compartilhar Scripts de Análise e Software de Pesquisa
+## Share Analysis Scripts and Research Software
 
-Se você estiver usando um sistema de controle de versão você terá este coberto.
+If you have been using a version control system you will have this covered.
 
-Se o desenvolvimento de scripts de análise e software de pesquisa faz parte de sua pesquisa, você precisará usar um sistema de controle de versão. Se você é novo no controle de versão, você pode ler mais sobre isso no capítulo {ref}`Controle de Versão<rr-vcs>`.
+If developing analysis scripts and research software is part of your research, you need to use a version control system. If you are new to version control you can read more about it in the {ref}`Version Control<rr-vcs>` chapter.
 
-É possível integrar o seu sistema de controle de versão com um repositório geral. Por exemplo, ao integrar o GitHub com o Zenodo, você pode obter Digital Object Identifiers ou DOIs para o seu software. Isto torna automaticamente mais fácil de compartilhar e torná-lo citável. Você pode ler sobre DOIs no capítulo de {ref}`Fazer Componentes de Pesquisa Citable<cm-citable>`.
+You can integrate your version control system with a general-purpose repository. For example, when integrating GitHub with Zenodo you can get Digital Object Identifiers or DOIs for your software. This automatically makes it easier to share and makes it citable. You can read about DOIs in the chapter on {ref}`Making Research Components Citable<cm-citable>`.
 
-## Coletando sua Pesquisa
+## Collecting your Research
 
-Assim que você terminar sua pesquisa, você pode querer coletar todas as partes digitais do seu projeto em um só lugar. Chama-se a isto um compêndio da investigação. Publicar o seu papel juntamente com um compêndio de pesquisa permite toda a sua pesquisa: do design do projeto, através da coleção e análise de dados e das saídas resultantes.
+Once you are done with your research you may want to collect all the digital parts of your project in one place. This is called a research compendium. Publishing your paper along with a research compendium allows the full extent of your research: from the design of the project, through the data recollection and analysis and the resulting outputs.
 
-Isso tem infinitas vantagens. Ele torna a sua obra compartilhável e reprodutível, outros podem usá-la e dá-lhe mais visibilidade.
+This has endless advantages. It makes your work shareable and reproducible, others can build upon it and gives you more visibility.
 
-Você pode ler como configurar sua pesquisa compendia, {ref}`este capítulo<rr-compendia>`.
+You can read how to set up your research compendia, {ref}`this chapter<rr-compendia>`.
 
 (pd-overview-sharing-License)=
-## Adicionar Licença para Saídas de Pesquisa
+## Add License to Research Outputs
 
-Mesmo que você tenha uma licença no início do projeto, você precisa pensar sobre isso novamente ao compartilhar seus resultados e resultados finais - isso permite que as pessoas tenham as informações sobre como sua pesquisa deve ser reutilizada e compartilhada.
+Even if you got a license at the beginning of the project you need to think about it again when sharing your outputs and final results - this allows people to have the information about how your research should be reused and shared.
 
-Se você quiser mais informações sobre como escolher e adicionar uma licença ao seu projeto, você pode verificar o {ref}`Capítulo de Licenciamento<rr-licensing>`.
+If you want more information about how to choose and add a license to your project you can check the {ref}`Licensing Chapter<rr-licensing>`.
 
 (pd-overview-citation)=
-## Citações de recebimento
+## Receive Citations
 
-Todo este trabalho duro terá sua recompensa. Tendo publicado todas as suas pesquisas do design para os resultados adiciona visibilidade ao seu trabalho e mais oportunidade de obter crédito.
+All this hard work will have its reward. Having published all your research from the design to the results adds visibility to your work and more opportunity to get credit.
 
-Não só seus resultados podem ser citados, como seus métodos e protocolos podem ser reutilizados e seu design pode ser compartilhado.
+Not only can your results can be cited, but your methods and protocols can be reused and your design can be shared.
 
-Leia {ref}`este capítulo no ORCID<cm-citable-orcid>` para obter mais informações sobre como coletar diferentes resultados de pesquisa em um só lugar usando ORCID e destacá-los para obter crédito justo pelo seu trabalho.
+Read {ref}`this chapter on ORCID<cm-citable-orcid>` for more information about how you can collect different research outputs in one place using ORCID and highlight them to get fair credit for your work.
