@@ -33,4 +33,4 @@ There are many chapters that we don't link here to avoid overwhelming readers wh
 We invite you to contribute to this chapter by adding important tools or practices that have not been mentioned here.
 ```
 
-En los diferentes subcapítulos discutimos cómo puedes {ref}`empezar a planificar<pd-overview-planning>` para el diseño del proyecto el aspecto de comunicación y colaboración de {ref}`<pd-overview-repro>` para asegurar la reproducibilidad, {ref}`herramientas y métodos<pd-overview-methods>` para reproducibilidad, {ref}`control de versión y documentación<pd-overview-version>` aspectos y {ref}`compartiendo su investigación<pd-overview-sharing>`.
+In the different subchapters we discuss how you can {ref}`start planning<pd-overview-planning>` for project design, the {ref}`communication and collaboration<pd-overview-repro>` aspect for ensuring reproducibility, {ref}`tools and methods<pd-overview-methods>` for reproducibility, {ref}`version control and documentation<pd-overview-version>` aspects and {ref}`sharing your research<pd-overview-sharing>`.
