@@ -23,4 +23,4 @@ Some of the attempts at resisting these automated debt calls, very cleverly imit
 ## Further Reading
 A September 2020 report by Michele Gilman at the Data and Society Research Institute draws on existing public law frameworks to provide guidance to lawyers on how to challenge automated decision making that disproportionately harms low income communities.
 
-POVERTYLAWGORITHMS: A Poverty Lawyers's Guide to Combat Automated Decision-Making Harms on Low-Income Communities refers to rights from Consumer Law. 家庭法、住房、公共福利、学校和教育、工人权利、移民监督 [链接](https://datasociety.net/library/poverty-lawgorithms)
+POVERTYLAWGORITHMS: A Poverty Lawyer’s Guide to Fighting Automated Decision-Making Harms on Low-Income Communities Refers to rights from Consumer Law, Family Law, Housing, Public Benefits, Schools and Education, Workers’ Rights, Immigration Surveillance [link](https://datasociety.net/library/poverty-lawgorithms)
