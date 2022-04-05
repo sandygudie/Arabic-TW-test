@@ -1,45 +1,45 @@
 (rr-overview-barriers)=
-# الحواجز التي تحول دون قابلية إعادة الإنتاج
+# Barriers to reproducibility
 
-حتى الآن شرحنا {ref}`ما نعنيه<rr-overview-definitions>` بالبحث القابل لإعادة الإنتاج، وشرحنا بعضا من {ref}`الفوائد الإضافية<rr-overview-benefits>`.
+So far we have explained {ref}`what we mean<rr-overview-definitions>` by reproducible research and explained some of the {ref}`additional benefits<rr-overview-benefits>`.
 
 في هذا القسم نغطي بعض العوائق (الحقيقية والمتصورة) التي قد تواجهك في جعل عملك قابلاً للتكرار.
 
 ```{figure} ../../figures/barriers-reproducibility.png
 ---
-العرض: 500px
-الاسم: reproduci-barriers
-بديل: شريحة من العرض التقديمي الذي يظهر مختلف الحواجز أمام قابلية إعادة الإنتاج. النص الموجود في مركز الشريحة(السلايد) يعرض "الحواجز أمام البحث القابل لإعادة الإنتاج (Reproducible research)" والحواجز التالية مرتبة حسب اتجاه دوران عقارب الساعة - ليس مرجحا للمكافأة، يقيَّم وفق معايير أعلى من الآخرين، انحياز الناشرين نحو الاكتشافات المبتكرة، التمسك بالتعديل الخامس (Plead the 5th) ، يستهلك الوقت، توفير الدعم للمستخدمين الجدد، يتطلب مهارات إضافية.
+width: 500px
+name: reproducibility-barriers
+alt: Slide from the presentation showing the different barriers to reproducibility. The text in the center says 'Barriers to reproducible research' and the following barriers are arranged clockwise around the slide - Is not considered for promotion, Held to a higher standard than others, Publication bias towards novel findings, Plead the 5th, Takes time, Support additional users, Requires additional skills.
 ---
-شريحة تبين بعض الحواجز التي تحول دون قابلية إعادة إنتاج البحث من Kirstie Whitaker [تحدث عن _The Turing Way_](https://youtu.be/wZeoZaIV0VE?t=312) في [csv,conf,v4](https://csvconf.com/2019) في مايو 2019.
+A slide outlining some of the barriers to reproducible research from Kirstie Whitaker's [talk about _The Turing Way_](https://youtu.be/wZeoZaIV0VE?t=312) at [csv,conf,v4](https://csvconf.com/2019) in May 2019.
 Used under a CC-BY 4.0 license.
 DOI: [10.5281/zenodo.2669547](https://doi.org/10.5281/zenodo.2669547).
 ```
 
-يوجز هذا الفصل بعض تلك الحواجز وبضعة اقتراحات لتجاوزها. يمكن تصنيف الحواجز التي تحول دون قابلية إعادة إنتاج البحث إلى ثلاث فئات رئيسية. الفئة الأولى و الأصعب في التجاوز هي تلك الحواجز المتعلقة بالهيكلية الحالية لحوافز البحث الأكاديمي: {ref}`حوافز محدودة لتقبل النقد و كشف الأخطاء<rr-overview-barriers-incentives>` (أو "التمسك بالتعديل الخامس (Plead the fifth)") {ref}`الانحياز المعروف للناشرين نحو الاكتشافات المبتكرة<rr-overview-barriers-publication>`, حقيقة أن البحوث القابلة لإعادة الإنتاج أو البحوث المفتوحة قد تخضع {ref}`لتقييم وفق معايير أعلى من الآخرين<rr-overview-barriers-standards>`، وأن كل الجهد المبذول {ref}`ليس مرجحا للمكافأة<rr-overview-barriers-promotion>`. ثم هناك التحديات التقنية والنظرية في التعامل مع {ref}`البيانات الضخمة(big data) و البنية الحاسوبية الأساسية(Computational infrastructure) المعقدة<rr-overview-barriers-infrastructure>` و {ref}`حقيقة أن قابلية إعادة الإنتاج لا تعني أن النتائج صحيحة.<rr-overview-barriers-notright>`. و ننهي بثلاثة حواجز متعلقة بالضغوطات على علماء البيانات: يمكن النظر إلى هذا العمل على أنه {ref}`يستغرق وقتاً إضافياً<rr-overview-barriers-time>`، قد تكون مطالبا {ref}`بتوفير دعم للمستخدمين الجدد<rr-overview-barriers-support>` (تلميح: أنت لست مطالبا بذلك! ، و أنك أنت و أعضاء فريقك قد تكونون {ref}`بحاجة إلى مهارات إضافية<rr-overview-barriers-skills>`. الخبر السار هو أن _منهج تورينج (The Turing Way)_ خصص لمساعدتك على اكتساب تلك المهارات!
+This chapter outlines some of those barriers, and a few suggestions to get around them. The barriers to reproducible research can be described in three main groups. The first, and hardest to overcome are those relating to the current incentive structure in academic research: {ref}`Limited incentives to give evidence against yourself<rr-overview-barriers-incentives>` (or "Plead the fifth"), the known {ref}`publication bias towards novel findings<rr-overview-barriers-publication>`, the fact that reproducible or open research may be {ref}`held to higher standards than others<rr-overview-barriers-standards>`, and that all this effort is {ref}`not considered for promotion<rr-overview-barriers-promotion>`. Then there are the technical and theoretical challenges of working with {ref}`big data and complex computational infrastructure<rr-overview-barriers-infrastructure>` and remembering that {ref}`being reproducible does not mean the answer is right<rr-overview-barriers-notright>`. We finish with three barriers considering the pressures on individual data scientists: that this work can be perceived to {ref}`take extra time<rr-overview-barriers-time>`, that you may be required to {ref}`support additional users<rr-overview-barriers-support>` (spoiler: you aren't!), and that you and members of your team might {ref}`require additional skills<rr-overview-barriers-skills>`. The good news is that helping you learn those skills is exactly what _The Turing Way_ is here for!
 
 (rr-overview-barriers-incentives)=
-## حوافز محدودة لتقبل النقد و كشف الأخطاء
+## Limited incentives to give evidence against yourself
 
-يتضمن [التعديل الخامس](https://en.wikipedia.org/wiki/Fifth_Amendment_to_the_United_States_Constitution) لدستور الولايات المتحدة بندا ينص على أنه لا يجوز إجبار أي شخص في أي قضية جنائية على أن \[يكونوا] شاهدين على [أنفسهم\] (معدلة للغة محايدة جندريًا). يعني مصطلح "التمسك بالتعديل الخامس" أن شخصاً ما يختار عدم تقديم دليل على احتمال وجود خطأ ما في سلوكه السابق, They have the right to remain silent.
+The [Fifth Amendment](https://en.wikipedia.org/wiki/Fifth_Amendment_to_the_United_States_Constitution) to the United States Constitution includes a clause that no one "shall be compelled in any criminal case to be a witness against [them]sel[ves]". (Edited to gender-neutral language.) To "plead the fifth" means that someone chooses not to give evidence that there might have been something wrong in their past behaviour. They have the right to remain silent.
 
-نحن نعلم أنه لا أحد يريد أن يورط نفسه، كما نعلم أنه لا أحد معصوم من الخطأ, و وضع برمجياتك و بياناتك على الإنترنت يمكن أن يكون أمرا فاضحا و مرهبا، و من الطبيعي للإنسان أن يخشى نقد الآخرين. بالرغم من أنه لا يوجد _قانون_ يضبط التواصل حول البحث القابل لإعادة الإنتاج (Reproducible research), إلا إذا ارتكبت احتيالا صريحا في عملك, فإن مشاركة الأخطاء التي تجدها في عملك مثبطة للغاية.
+We know that no one wants to incriminate themselves, and also that no one is infallible. Putting your code and data online can be very revealing and intimidating, and it is part of the human condition to be nervous of being judged by others. Although there is no _law_ governing the communication of reproducible research - unless you commit explicit fraud in your work - sharing errors that you find in your work is heavily disincentivised.
 
 ```{figure} ../../figures/make-ok-to-be-human.jpg
 ---
 height: 500px
 name: make-ok-to-be-human
-alt: A cartoon of a woman holding a folder of files and looking worried. فقاعة تفكير تقول، إذا شاركت بياناتي قد يجد الناس فيها أخطاءً. النص التوضيحي على الصور يقول الحاجة يجب أن يصير من المقبول أن تكون إنسانا.
+alt: A cartoon of a woman holding a folder of files and looking worried. Thought bubble says, If I share my data people might find mistakes. The caption on the images reads Need to make it ok to be human.
 ---
-مثال توضيحي لحاجز "التمسك بالتعديل الخامس" حيث تثبط ثقافتنا الحالية عن الاعتراف بالأخطاء وتصحيحها.
+An illustration of the "plead the fifth" barrier where our current culture disincentivises acknowledging and correcting mistakes.
 Illustration by The Ludic Group LLP from Kirstie Whitaker's keynote presentation at Scientific Data in 2017.
 Used under a CC-BY 4.0 license.
 DOI: [10.6084/m9.figshare.5577340.v1](https://doi.org/10.6084/m9.figshare.5577340.v1).
 ```
 
-إن كشف نفسك للنقد، خاصة إذا ما وجدت أخطاء في الأعمال المنشورة، أمر صعب ومجهد, لكننا بحاجة إلى موازنة هذه التكلفة الفردية مقابل واقع أن نشر البرمجيات يمكن أن يسمح للباحثين الآخرين بالإدلاء بملاحظات، التعلم و إمكانية مساعدتهم في بحثهم. في الواقع، يمكن الجزم تقريبا أن نشر البرمجيات و توثيق البيانات الخاصة بك من إثره أن يحفزك على إجراء تحاليل بحثك وفق معايير أعلى, إضافة إلى أن توخي الحذر بشأن ما تكتبه وتوثيق قراراتك، يمكن أن يساهم في توليد أفكار جديدة لك و لغيرك.
+Giving evidence against yourself, particularly if you find mistakes in published material, is difficult and stressful. But we need to balance that individual cost against the fact that releasing code can help other researchers provide feedback, learn and may help them in their research. In fact, you will almost certainly find that publishing your code and data documentation motivates you to conduct your analyses to a higher standard. Being careful about what you write down, and documenting your decisions, can also help generate new ideas for yourself and for others.
 
-والأهم من ذلك، أننا في حاجة للاستغناء عن عقلية الامتناع عن نشر أي شيء أكثر أمانا من نشر _ أي شيء_. يهدف _منهج تورينج_ إلى مساعدتك على اتخاذ خطوات صغيرة نحو جعل عملك قابلا لإعادة الإنتاج بالتزامن مع تقدم حياتك المهنية, نحن لا نريد لأي شخص أن يشعر أنه وحيد، أو "ليس بالكفاءة المطلوبة" عندما يبدأ و يواصل رحلته في البحث المفتوح.
+Most importantly, we need to move away from a culture where publishing nothing is safer than publishing _something_. _The Turing Way_ is here to help you take little steps towards being more reproducible as your career progresses. We don't want anyone to feel alone, or "not good enough" as they start and continue their open research journey.
 
 (rr-overview-barriers-publication)=
 ## Publication bias towards novel findings
@@ -57,7 +57,7 @@ A researcher who makes their work reproducible by sharing their code and data ma
 
 If code and data are available, peer reviewers may go looking for differences in the implementation. They may come back with new ideas on ways to analyse the data because they have been able to experiment with the work. There is a risk that they then require additional changes from the authors of the submitted manuscript before it is accepted for peer review.
 
-و كما ذكرنا في قسم {ref}`"التمسك بالتعديل الخامس"<rr-overview-barriers-incentives>` أعلاه, فإن الحل لهذا التحدي يكمن في توحيد الحوافز المهنية حتى يكون فعل الأفضل من أجل _العلم_ مفيدا للأفراد المشتركين أيضا.
+As we described in the {ref}`"Plead the Fifth"<rr-overview-barriers-incentives>` section above, the solution to this challenge is to align career incentives so that doing what is best for _science_ also benefits the individuals involved.
 
 (rr-overview-barriers-promotion)=
 ## Not considered for promotion
@@ -78,7 +78,7 @@ Even "standard" high performance computing, can be difficult to set up to be per
 (rr-overview-barriers-notright)=
 ## Being reproducible does not mean the answer is right
 
-By making the code and data used to produce a result openly available to others, our results may be **reproduced** but mistakes made by the initial author can be carried through. الحصول على نفس الإجابة الخاطئة في كل مرة هو خطوة في الاتجاه الصحيح، ولكن لا يزال هناك الكثير من الإجابة **** الخاطئة!
+By making the code and data used to produce a result openly available to others, our results may be **reproduced** but mistakes made by the initial author can be carried through. Getting the same wrong answer each time is a step in the right direction, but still very much a **wrong** answer!
 
 This barrier isn't really a _barrier_ to reproducible research as much as a caveat that investing time in reproducibility doesn't necessarily mean that you're doing better science. You can consider computational reproducibility as being necessary but not sufficient for high quality research. A critical approach is needed, rather than naively using existing software or implementing statistical methods without understanding what they do. See, for example, [a discussion](https://ryxcommar.com/2019/08/30/scikit-learns-defaults-are-wrong) in August 2019 about whether the default settings for Scikit-learn's implementation of logistic regression are misleading to new users. Interpretability and interoperability are required to properly evaluate the original research and to strengthen findings.
 
