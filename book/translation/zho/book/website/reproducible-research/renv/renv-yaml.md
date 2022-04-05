@@ -9,21 +9,22 @@ YAML is an indentation-based markup language which aims to be both easy to read 
 A YAML file defining a computational environment might look something like this:
 
 ```
-# 将操作系统定义为 Linux
+# Define the operating system as Linux
 os: linux
 
-# 使用 Linux
-的xenial 分布: xenial
+# Use the xenial distribution of Linux
+dist: xenial
 
-# 使用编程语言 Python
-语言: python
+# Use the programming language Python
+language: python
 
-# 使用版本的 Python 3。 python: 3.2
+# Use version of Python 3.2
+python: 3.2
 
-# 使用 Python 软件包编号并使用版本 1。 6.1
-软件包：
-  编号：
-    版本：1.16.1
+# Use the Python package numpy and use version 1.16.1
+packages:
+  numpy:
+    version: 1.16.1
 ```
 
 Note that comments can be added by preceding them with a `#`.
@@ -99,11 +100,11 @@ Due to the format aiming to be easy to write and read, there are some ambiguitie
 (rr-renv-yaml-environments)=
 ## How To Use Yaml To Define Computational Environments
 
-Because of their simplicity, YAML files can be handwritten. Alternatively, they can be automatically generated as discussed in the {ref}`rr-renv-package` subchapter. 从YAML文件中可以通过几种方式复制计算环境。 From a YAML file, a computational environment can be replicated in a few ways.
+Because of their simplicity, YAML files can be handwritten. Alternatively, they can be automatically generated as discussed in the {ref}`rr-renv-package` subchapter. From a YAML file, a computational environment can be replicated in a few ways.
 
-- **手动。 ** 可以通过仔细安装指定的软件包来手动完成。 Because YAML files can also specify operating systems and versions that may or may not match that of the person trying to replicate the environment, this may require the use of {ref}`rr-renv-vm`.
+- **Manually.** It can be done manually by carefully installing the specified packages. Because YAML files can also specify operating systems and versions that may or may not match that of the person trying to replicate the environment, this may require the use of {ref}`rr-renv-vm`.
 
-- **通过Conda等包管理系统。 ** 正如 {ref}`所讨论的 <rr-renv-package>`以及能够从计算环境生成YAML 文件。 Conda 也可以从 YAML 文件生成计算环境。
+- **Via Package Management Systems such as Conda.** As {ref}`discussed <rr-renv-package>`, as well as being able to generate YAML files from computational environments, Conda can also generate computational environments from YAML files.
 
 (rr-renv-yaml-security)=
 ## Security Issues
