@@ -43,7 +43,7 @@ If you want to take a look at an active open source project, this textbook *is* 
 - [1.](https://www.fosteropenscience.eu/node/1420) **CC-BY 4.0**
 - [2.](https://open-science-training-handbook.gitbook.io/book/introduction) **CC 1.0**
 - [3.](https://www.fosteropenscience.eu/content/introduction-open-science-funders-introductory) **Attribution + Noncommercial - CC-BY-NC**
-- [4.](https://link.springer.com/chapter/10.1007/978-3-319-00026-8_2) **رخصة المشاع الإبداعي غير التجارية غير مرخصة**
+- [4.](https://link.springer.com/chapter/10.1007/978-3-319-00026-8_2) **Creative Commons Attribution Noncommercial Licence**
 - [5.](https://elifesciences.org/articles/16800) **Attribution 4.0 International (CC BY 4.0)**
 - [6.](https://www.fosteropenscience.eu/content/introduction-open-science-funders-introductory) **Attribution + Noncommercial - CC-BY-NC**
 - [7.](http://book.openingscience.org.s3-website-eu-west-1.amazonaws.com/vision/open_research_data.html) **Creative Commons Attribution-NonCommercical**
