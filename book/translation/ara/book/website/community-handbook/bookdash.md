@@ -1,21 +1,21 @@
 (ch-bookdash)=
-# _طريق التدوين_ اشارات الكتاب
+# _The Turing Way_ Book Dashes
 
-_الطريق الوشيك_ [أحداث الكتاب](https://the-turing-way.netlify.app/community-handbook/bookdash.html) هي نسخة أقل كثافة من [سباقات الكتاب](https://en.wikipedia.org/wiki/Book_sprint), حيث يعمل المشاركون بشكل تعاوني على _الطريق الوشيك_ كتاب متزامنة لتطوير فصول جديدة ومراجعة/تحرير الفصول الموجودة لجعلها أكثر سهولة الوصول، شاملة ومستكملة. كما أنها تسهم في تعزيز المشروع بتحسين الطرق التي نعمل بها في المجتمع المحلي ونأخذ زمام المبادرة في إنجاز مختلف المهام أو المشاريع الفرعية.
+_The Turing Way_ [Book Dash events](https://the-turing-way.netlify.app/community-handbook/bookdash.html) are a less intense version of [Book Sprints](https://en.wikipedia.org/wiki/Book_sprint), where participants collaboratively work on _The Turing Way_ book synchronously to develop new chapters and review/edit existing ones to make them more accessible, comprehensive and up-to-date. They also contribute to enhancing the project by improving the ways we work in the community and take the lead on accomplishing different tasks or subprojects.
 
-في الماضي، قمنا بتنظيم أحداث كتاب باش لمدة 1-2 يوم، شخصيا أو في شكل هجيني، حيث قام أحد المشاركين بالتنسيق مع فريقهم عن بعد. غير أنه لضمان تكافؤ الفرص للمشاركين الدوليين للانضمام إلى الأنشطة التي تستضيفها شخصياً أثناء انتشار وباء COVID-19 والتصدي لها، بدأنا باستضافة علامات الكتاب بشكل افتراضي. هذه المقالات الافتراضية للكتاب مدتها خمسة أيام، مصممة للمشاركة المرنة من جانب الأعضاء في مختلف المناطق الزمنية. ويمكن للمشاركين أن يختاروا كل يوم دورة عمل مشتركة قصيرة مدتها 2.5 ساعة أو أكثر بناء على توافرها، بدلا من أن يلتزموا طوال يوم عملهم. In the future, we will co-design hybrid events with "online-first" approach for the Book Dash attendees who will have the opportunity to organise small local meet-ups for collaboration and social events.
+In the past, we have organised 1-2 days long Book Dash events in person or in a hybrid format, where one of the participants coordinated with their team remotely. However, to ensure that international participants have an equal chance to join and address the challenges of hosting in-person events during the COVID-19 pandemic, we started hosting Book Dashes virtually. These virtual Book Dashes are five days long, designed for flexible participation by members in different time zones. ويمكن للمشاركين أن يختاروا كل يوم دورة عمل مشتركة قصيرة مدتها 2.5 ساعة أو أكثر بناء على توافرها، بدلا من أن يلتزموا طوال يوم عملهم. In the future, we will co-design hybrid events with "online-first" approach for the Book Dash attendees who will have the opportunity to organise small local meet-ups for collaboration and social events.
 
 ```{figure} ../figures/first-pull-request.png
 ---
-الطول: 400px
-الاسم: book-dash
-بديل : شخص يساعد شخص آخر في تقديم طلب السحب الأول على GitHub
+height: 400px
+name: book-dash
+alt: A person helping out another person making their first pull request on GitHub
 ---
-تقديم طلب السحب الأول على GitHub.
-_توضيح مشروع طريق التورين_ من سكريبيريا. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807] (https://doi.org/10.5281/zenodo.3332807).
+Making your first pull request on GitHub.
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-## الدعوة إلى مساهمات مختلفة
+## Inviting Diverse Contributions
 
 للمشاركين الذين يحضرون لوحة الكتب عن بعد:
 - First time Book Dash attendees who have previously interacted with the project or community who send in their application describing where/how in the project and community they would like to contribute. See the {ref}`eligibility<ch-bookdash-eligibility>` section for details.
@@ -48,7 +48,7 @@ This does not mean that you must have contributed to the project before - it is 
 
 إذا لم تكن قد تفاعلت مع مجتمعنا من قبل، ولكن تريد المشاركة في داش الكتاب، يرجى الانضمام إلى أحد أحداث مجتمعنا مثل [جلسات العمل المشتركة](https://the-turing-way.netlify.app/community-handbook/coworking/coworking-weekly.html) أو [مقهى التعاون](https://the-turing-way.netlify.app/community-handbook/coworking/coworking-collabcafe.html#ch-coworking-collabcafe). بهذه الطريقة، ستحصل على معرفة عن مشروعنا وتفهم المزيد عن كيفية المساهمة خلال لوحة كتاب.
 
-## دعم المشاركة الشخصية والهجينة والبعيدة
+## Support In-Person, Hybrid and Remote Participation
 
 وقد تم تنظيم نشرات كتابية سابقة للمشاركة الشخصية في أماكن تقع في المملكة المتحدة (البلد الأصلي للمشروع)، كأحداث هجينة، أو على الإنترنت كلياً.
 
@@ -61,7 +61,7 @@ This does not mean that you must have contributed to the project before - it is 
 * ويتاح الدعم المالي لدعم احتياجات المشاركين من إمكانية الوصول عن بعد في نشرات الكتاب الهجينة والنائية تماما. وهي تشمل (دون أن تقتصر على) الوصول المؤقت إلى شبكة الإنترنت العالية السرعة، ومنحة رعاية الطفل، والنشر الحي أثناء الحدث. وهذه المنح متاحة أيضا لاستئجار أو شراء معدات صغيرة مثل سماعات الرأس أو كاميرا الويب لتعزيز الخبرة العامة للمشاركين.
 * كما أن هناك دعماً مالياً لتكاليف المعيشة مثل شراء الوجبات الغذائية أو العلاج للمناسبات الاجتماعية على شبكة الإنترنت خلال كتاب Dash.
 
-## المزيد من الموارد على دفتر الكتاب
+## More Resources on Book Dash
 
 في هذا الفصل، نناقش تطبيق {ref}`<ch-bookdash-application>`، {ref}`التحضير للحدث واختيار المشاركين<ch-bookdash-preparation>` و {ref}`التحضير للحدث<ch-bookdash-events>` عمليات.
 
