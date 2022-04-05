@@ -63,7 +63,9 @@ Ethical work can also include thinking critically about contracts. You should th
 
 Law is not static and unchanging. The law is made by humans and it can be changed by humans. If you feel that the law in your jurisdiction works in a way that is unhelpful or damaging, consider joining efforts to change it! Changing laws is a long-term project and can take decades.
 
-وليس القصد من هذا القسم شرح كيفية القيام بذلك: فالمكان الجيد للبدء هو إيجاد منظمة تقوم بحملات انتخابية تعمل في هذا المجال. واسأليهم عن كيفية المشاركة.<!--- قم بتحرير هذا للإشارة إلى الفصل النشط، عندما نكون قد كتبناه -->راجع التفاصيل في الفصول على {ref}`- النشاط` لمزيد من التفاصيل.
+This section is not intended to explain how to do this: a good place to start is to find a campaigning organisation who is working on the issue, and ask them how to get involved.
+<!--- edit this to refer to the activism chapter, when we have written it -->
+See details in the chapters on {ref}`er-activism` for more details.
 
 ## Policy
 
