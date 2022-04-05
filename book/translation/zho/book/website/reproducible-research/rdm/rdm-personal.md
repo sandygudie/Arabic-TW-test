@@ -5,7 +5,7 @@ This section provides a general overview of things to consider when working with
 
 ### Personal data
 
-个人数据是关于 **个活人** 的信息，他们可以使用您正在处理的数据进行识别。 直接或间接（例如一个人的姓名、地址或其他独特的身份识别特征，例如他们的社会保障号码）。 [与死者有关的数据在大多数情况下不被视为GDRPR](https://gdpr.eu/eu-gdpr-personal-data/) 之下的个人数据。" 间接识别资料包括健康、经济、文化或社会特征。 Especially when a certain combination of these identifiers can be used to identify a person, care must be taken to manage the data properly. Particularly sensitive data include data relating to a person's:
+Personal data is information about **living people** who can be identified using the data that you are processing, either directly or indirectly (for example, a person's name, address or other unique identifier such as their Social Security number). "[Data related to the deceased are not considered personal data in most cases under the GDPR](https://gdpr.eu/eu-gdpr-personal-data/)." Indirect identifiers include health, economic, cultural or social characteristics. Especially when a certain combination of these identifiers can be used to identify a person, care must be taken to manage the data properly. Particularly sensitive data include data relating to a person's:
 * racial/ethnic identity
 * political opinions
 * religious/philosophical beliefs
@@ -69,17 +69,17 @@ Think ahead and plan how you will:
 
 There are a number of strategies that you can adopt to **safeguard the privacy** of your research subjects:
 
-**1. 1. 最大限度地减少数据**
+**1. Data minimisation**
 
 * If personal information isn't needed, don't collect it.
 * Periodically review whether you are retaining unnecessary identifying information.
 * When identifying information is no longer needed, safely remove, delete or destroy it.
 
-**2. 2. 数据保留限制**
+**2. Data retention limits**
 * Decide how long you will retain identifiable data before removing direct identifiers, applying more complex anonymisation techniques, or deleting the data altogether.
 * When deleting sensitive data you need to be aware that standard methods for deleting files (for example moving files to the recycle bin and emptying it) are not secure. These deleted files may be recovered. Use software like BleachBit to safely delete the data.
 
-**3. 3. 安全数据传输**
+**3. Secure data transfer**
 * Before deciding to transfer personal data, you should consider whether the transfer of identifiable data is necessary. For example, can data be de-identified or anonymised?
 * If data cannot be made unidentifiable then you must ensure you have authority to transfer the personal data, and that there are appropriate safeguards in place to protect the data before, during and after transit.
 * Often your university or institute will provide solutions for secure file transfer. Contact you research data, privacy or IT support team for guidance.
@@ -94,7 +94,7 @@ There are a number of strategies that you can adopt to **safeguard the privacy**
       * More complicated to setup: use PGP tooling (can also be used to securely send email)
     * See the [Ghent University Encryption for Researchers manual](https://osf.io/nx8km/) for more details and step-by-step guides
 
-**5. 5. 访问权限**
+**5. Access permissions**
 * Management of shared folder permissions.
 * Password protection.
 
@@ -108,11 +108,11 @@ Anonymisation is a process by which identifying information in a dataset is remo
    * As such, when intending to share potentially identifiable data or the outputs generated from the data, you may need to consider more advanced anonymisation techniques such as statistical disclosure control (SDC, see [this handbook](https://securedatagroup.org/sdc-handbook/) for more information).
 * For more information about anonymisation you can watch [this webinar by Enrico Glerean](https://www.youtube.com/watch?v=ILXeA4fx3cI).
 
-**7. 7. 共享敏感数据**
+**7. Sharing sensitive data**
 
 If you plan to share or publish your data you must ensure that your data are appropriate and safe to share. For example, you should consider whether the data can be adequately anonymised, and whether anonymised data will remain useful (see also {ref}`Barriers to data sharing<rr-rdm-sharing>`Open Research Chapter). After applying methods to de-identify and anonymise sensitive data, there may still be a risk of re-identification (see {cite}`Meyer2018personaldata`).
 
-An additional safety measure, or alternative to anonimisation, is applying access controls to ensure the data are shared appropriately and securely. This may involve finding a data repository which can provide suitable access controls (see [here](https://osf.io/tvyxz/wiki/8.%20Approved%20Protected%20Access%20Repositories/) for a list of protected Access Repositories). 这些仓库可以提供对项目元数据的访问，这些元数据允许他人查找， {ref}`引述数据<cm-citable-cite>` 限制访问/条件访问还为潜在的重新用户提供他们访问数据所需的信息，使数据 {ref}`FAIR <rr-rdm-fair>` 例如，获取数据的条件可能要求潜在数据重新使用者： These repositories can provide access to the metadata of the project, which allows others to find and {ref}`cite the data<cm-citable-cite>`. Restricted/conditional access also provides potential re-users with the information they need to access the data, making the data {ref}`FAIR <rr-rdm-fair>`. For example, conditions to access the data could require the potential data re-user to:
+An additional safety measure, or alternative to anonimisation, is applying access controls to ensure the data are shared appropriately and securely. This may involve finding a data repository which can provide suitable access controls (see [here](https://osf.io/tvyxz/wiki/8.%20Approved%20Protected%20Access%20Repositories/) for a list of protected Access Repositories). These repositories can provide access to the metadata of the project, which allows others to find and {ref}`cite the data<cm-citable-cite>`. Restricted/conditional access also provides potential re-users with the information they need to access the data, making the data {ref}`FAIR <rr-rdm-fair>`. For example, conditions to access the data could require the potential data re-user to:
   * Register and/or provide contact details to ensure reusers are genuine and aware of their responsibilities
   * Provide information about how they use the data
   * Agree to conditions (data security, privacy, restrictions included in consent forms)
@@ -120,13 +120,13 @@ An additional safety measure, or alternative to anonimisation, is applying acces
 **Resources**
 * [Protecting sensitive data course](https://mantra.edina.ac.uk/protectionrightsandaccess) by [MANTRA](https://mantra.edina.ac.uk)
 * {cite}`Meyer2018personaldata`.
-* [由 \[Zosia Beckles 介绍\](https://youtu.be/J9kWkzK83i4)](https://www.youtube.com/watch?v=J9kWkzK83i4&list=PLyeHH3bEQqIbgbw75gheV27nFF2ctPPpR&index=1), [Michele Voznick](https://youtu.be/w5v5d6r6irs) and [Tessa Darbyshire](https://youtu.be/jEFu1ykVI_I) on Responsible Data Management: Legal & Ethical Aspects as part of the [Fail it session](https://www.youtube.com/c/AI4ScientificDiscovery).
+* [Presentations](https://www.youtube.com/watch?v=J9kWkzK83i4&list=PLyeHH3bEQqIbgbw75gheV27nFF2ctPPpR&index=1) by [Zosia Beckles](https://youtu.be/J9kWkzK83i4), [Michele Voznick](https://youtu.be/w5v5d6r6irs) and [Tessa Darbyshire](https://youtu.be/jEFu1ykVI_I) on Responsible Data Management: Legal & Ethical Aspects as part of the [Fail to Nail it sessions](https://www.youtube.com/c/AI4ScientificDiscovery).
 * [Presentation](https://www.youtube.com/watch?v=H2mv6q4WwOU&) by Rob Gommans on GDPR and the Processing of (Identifiable) Image, Audio, and Video Data for Scientific Research Purposes.
 * [Presentation](https://youtu.be/_3bufely0c0) by Stephan Heunis on Brain research data and personal data privacy: practical tips to share and protect.
 * [Presentation](https://youtu.be/eAKhI0qde2w?t=1104) by Walter Scholger on the GDPR with resources such as informed consent templates (18:30 - 38:50).
 * [Presentation](https://www.youtube.com/watch?v=PSe2V1KTQ8w&) on handling personal data by Enrico Glerean and Päivi Lindström from Aalto University. See [here](https://www.aalto.fi/en/services/rdm-training) for the full course.
-* 由Rosalie Salameh 在GDRPR上演示
+* [Presentation](https://www.youtube.com/watch?v=J457qBdQ3xo) on the GDPR by Rosalie Salameh.
 * [Presentation](https://vimeo.com/362161972) and [article](https://www.smashingmagazine.com/2017/07/privacy-by-design-framework/) on **privacy by design**.
-* 关于Hina Zahid分享数据中的伦理和法律问题的介绍
+* [Presentation](https://www.youtube.com/watch?v=2WebuDlzEIw&list=PLG87Imnep1Sln3F69_kBROUrIbT5iderf&index=2) on Ethical and legal issues in data sharing by Hina Zahid.
 * [Slides](https://osf.io/5xhya/) by Hanne Elsen on Privacy and the GDPR in the Research Life Cycle.
 * [Workshop materials](https://osf.io/em3da/) on data de-identification procedures for data sharing.
