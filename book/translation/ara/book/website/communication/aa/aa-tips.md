@@ -1,18 +1,18 @@
 (cm-aa-tips)=
-# نصائح للحصول على السلطة على اليمين
+# Tips for Getting Authorship Right
 
 (cm-aa-tips-who)=
 ## Establish who wants to be an author
 
 It is worth considering that not everyone on the same research project or in the same community will have the same motivation when it comes to authorship. Not everyone places the same importance on academic citation rates and therefore this is an issue that needs to be considered at the start of a project.
 
-**حافز قوي** سيكون هناك أعضاء الفريق الذين يركزون على المسار المهني الأكاديمي ويشعرون بأن المؤلف الورقي هو القوة الدافعة للتقدم الوظيفي. They will put high importance on being an author and probably will also have strong opinions on how they want authorship to be attributed and what order authors names should take.
+**Strong motivation** There will be team members that are focused on an academic career path and feel paper authorship is a driving force for career progression. They will put high importance on being an author and probably will also have strong opinions on how they want authorship to be attributed and what order authors names should take.
 
-**حافز متوسط** أعضاء الفريق الآخرين، وربما يكون الأكاديميون الأكثر رسوخاً الذين يملكون بالفعل عدداً كبيراً من المنشورات ويعملون في وظائف ثابتة. وقد يكون القلق أقل بشأن ترتيب المؤلفين في أوراقهم أو كيفية إسناد التبرعات وتتبعها.
+**Medium motivation** Other team members, probably more established academics who already have a substantial amount of publications and in stable employment, may be less worried about the order of authors on their papers or how contributions are attributed and tracked.
 
-**انخفاض الحافز** أعضاء الفريق الذين ليسوا مهتمين بالحياة المهنية الأكاديمية البحتة ولكنهم لا يزالون يشكلون جزءا لا يتجزأ من الفريق وقدموا مساهمات كبيرة للمشروع. وقد لا تكون مهتمة على الإطلاق بالمؤلِّف مثل مهندسي البحوث.
+**Low motivation** Team members that are not interested in a purely academic career but still are an integral part of the team and have made substantial contributions to the project, such as research engineers, may not be interested in authorship at all.
 
-(م -أ-تلميح) =
+(cm-aa-tips-culture)=
 ## Encourage a culture of ethical and equitable authorship
 There may be unethical practices that exist in your discipline, or even in your institution, but this does not mean that you have to follow them. You can implement a more ethical and equitable authorship approach in your own research.
 
@@ -42,7 +42,7 @@ It is not good practice to wait until you have finished writing a paper to have 
 
 * Record a time for the policy to be reviewed, who will do it and what will happen in this review.
 
-(م -أ-نصحات-على الصعود)=
+(cm-aa-tips-onboarding)=
 ## Make the authorship policy and agreement part of onboarding
 It is likely that you will have new members join your project at different stages and it is important that you make the authorship policy known to them during onboarding.
 
