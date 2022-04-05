@@ -9,11 +9,11 @@ A presentation for a wide audience can include photos, illustrations, graphics a
 
 Some of the websites that offer these resources for free are:
 
-* 用于图标和照片的 Noun 项目
+* [The Noun Project](https://thenounproject.com) for icons and photographs
 * [Unsplash](https://unsplash.com) for photographs
-* 照片的Pexels
+* [Pexels](https://www.pexels.com) for photographs
 * [Freepik](https://www.freepik.com/free-photos-vectors/english) for icons and illustrations
-* https://www.flaticon.com/free-icons/english
+* [Flaticon](https://www.flaticon.com/free-icons/english) for icons
 * [Canva](https://www.canva.com) for icons
 
 ## Technical Set-up for Recording a Talk
@@ -29,7 +29,7 @@ Presenting a talk through a digital medium involves tackling some technical chal
 ### Sound Setting
 
 * For the members of your audience who aren't hard of hearing, sound quality will always be more important than video quality.
-* 将您的声音记录在演示文稿中使用的同一设备，以检查声音质量并进行任何调整以确保简洁。
+* Before the presentation, record your voice using the same device you will be using in the presentation to check the sound quality and make any adjustments you can to ensure a crisp sound.
 
 ### Video Recording
 
