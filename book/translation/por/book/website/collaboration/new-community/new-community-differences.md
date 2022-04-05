@@ -1,30 +1,30 @@
-(cl-nova-comunidade-diferenças)=
-# Valorizando a Diversidade e Diferenças
+(cl-new-community-differences)=
+# Valuing Diversity and Differences
 
-Quando as pessoas colaboram com os outros, não importa se já trabalharam com elas ou se são completamente estranhas, É preciso ter em conta que cada um terá diferentes origens, diferentes culturas, fusos horários diferentes, diferentes níveis de habilidades e experiências de vida muito diferentes.
+When people collaborate with others, no matter if they have already worked with them or they are complete strangers, you need to take into account that everyone will have different backgrounds, different cultures, different time zones, different levels of skills and very different lived experiences.
 
-(cl-nova-comunidade-diferenças-perspectivas)=
-## Bem-vindo Perspectiva de Diversos de Seus Membros
+(cl-new-community-differences-perspectives)=
+## Welcome Diverse Perspectives From Your Members
 
-Pense cuidadosamente sobre quem são seus interessados, se lhes forem dadas oportunidades justas para serem ouvidas, se certos grupos estiverem menos representados que os outros, e se você tiver uma estratégia para garantir a diversidade na sua comunidade.
+Think carefully about who your stakeholders are, if they are given fair opportunities to be heard, if certain groups are less represented than others, and if you have strategy in place to ensure diversity in your community.
 
-É importante estar ciente das diferentes motivações que os seus membros terão por trás de se juntar para trabalhar no seu projeto. Por exemplo, no caso de projectos relacionados com COVID-19, pode-se esperar que algumas pessoas se juntem a vós, porque querem saber que tipo de dados existem sobre o COVID-19. alguns virão com a intenção de fazer parte de um grupo enquanto aprendem algumas habilidades, Alguns simplesmente apanharão para ver o que você está fazendo. Ao passo que algumas pessoas se juntarão a vós, porque têm familiares que sofrem de infecção do COVID-19 e querem acelerar o processo de diagnóstico. Esteja preparado para acolher suas diversas perspectivas no seu projeto.
+It is important to be mindful of the varying motivations your members will have behind joining to work on your project. For example, in the case of COVID-19 related projects, you can expect that some people will join you because they want to know what kind of data on COVID-19 exist, some will come with an intention to be part of a group while learning some skills, some will simply hang out to watch what you are doing, whereas some people will join you because they have relatives who are suffering from COVID-19 infection and they want to speed up the diagnostic process. Be prepared to welcome their diverse perspectives into your project.
 
-(cl-nova-comunidade-diferenças-circunstâncias)=
-## As pessoas têm diferentes circunstâncias pessoais
+(cl-new-community-differences-circumstances)=
+## People Have Different Personal Circumstances
 
-A título individual, podemos pensar que todos têm as mesmas condições de trabalho que nós. como acesso aos instrumentos e recursos ou à sua instalação de trabalho, quando a realidade está longe disso. Os nossos colegas, mesmo na mesma cidade, podem ter situações de vida diferentes, responsabilidades e condições médicas e recursos à sua disposição. Não suponha que todos terão acesso igual ou capacidade para participar do seu projeto. Para criar oportunidades equitativas para todos, crie listas de tarefas com diferentes necessidades de tempo e recursos (como hardware, software, materiais de referência ou largura de banda na internet) para que as pessoas possam escolher onde contribuir com base nos recursos disponíveis.
+As an individual we may think that everyone has the same working conditions as us, such as access to the tools and resources or their work setup, whereas the reality is far from that. Our colleagues even in the same city may have different living situations, caring responsibilities, medical conditions and resources available to them. Don’t assume that everyone will have equal access or capacity to participate in your project. To create equitable opportunities for everyone, create task lists with varying requirements of time and resources (like hardware, software, reference materials or internet bandwidth) so that people can choose where to contribute based on resources available to them.
 
-(cl-nova-comunidade-diferenças-recursos)=
-## Permitir o acesso ao Conhecimento e Recursos Assumidos
+(cl-new-community-differences-resources)=
+## Allow Access to Assumed Knowledge and Resources
 
-Trabalhar com membros da equipa de diferentes disciplinas e contextos pode proporcionar uma enorme quantidade de novas perspectivas. No entanto, é importante normalizar os conceitos que todas as partes devem conhecer para uma colaboração produtiva. Por exemplo, a substituição de jargão e acrônimos por alternativas mais claras tornará a informação acessível a todos os membros da equipe. Onde é necessária alguma terminologia técnica, pode ser útil ter um documento de definições compartilhado e editável. Além disso, é importante criar um ambiente de apoio onde qualquer pessoa possa pedir esclarecimentos sem se sentir ofendida.
+Working with team members from different disciplines and backgrounds can provide a wealth of new perspectives. However, it is important to standardise which concepts all parties should be familiar with for productive collaboration. For example, replacing jargon and acronyms with clearer alternatives will make information accessible to all team members. Where some technical terminology is necessary, it can be useful to have a shared, editable definitions document. Additionally, it is important to create a supportive environment where anyone can ask for clarification without feeling looked down upon.
 
-Além disso, oferece acesso aos recursos sempre que você puder para garantir que todos tenham a oportunidade de obter uma compreensão comum. Por exemplo, se a ideia do seu projeto é baseada em um documento recente revisado por pares, que está por trás do pagamento membros de institutos de baixa renda que não possuem uma assinatura daquele diário não poderão participar a menos que sejam dadas acesso às informações discutidas nesse papel.
+Additionally, provide access to resources whenever you can to ensure that everyone has the opportunity to gain a common understanding. For example, if your project idea is based on a recent peer reviewed paper that is behind the paywall, members from low income institutes who don't hold a subscription to that journal will not be able to participate unless given access to the information discussed in that paper.
 
 (cl-new-community-differences-viewpoints)=
-## Convide aqueles que podem te ajudar a expandir seus pontos de vista
+## Invite Those Who Can Help You Expand Your Viewpoints
 
-Certifique-se de convidar perspectivas dos seus membros para ajudar você a manter a heterogeneidade e uma distribuição justa na liderança, métodos, dataset e soluções que podem ser reproduzidos para diferentes cenários ou em diferentes plataformas. Por exemplo, ao fazer recomendações com base no dataset selecionado para investigação relacionada com cuidados de saúde, Pense se se aplicarão a diferentes condições geográficas, como sejam tanto os países desenvolvidos como os países em desenvolvimento. Se não, considere o que você deve mudar e quem pode convidar para ajudar a melhorar seu projeto.
+Make sure that you invite perspectives from your members who can help you maintain heterogeneity and fair distribution in leadership, methods, dataset and solutions that can be reproduced for different scenarios or across different platforms. For example, when making recommendations based on the selected dataset for health care related research, think if they will apply to different geographic conditions, such as both developed and developing countries. If not, consider what you should change, and who you can invite to help improve your project.
 
-Se faltam vozes e pontos de vista cruciais em seu projeto, como você pode convidá-los? Converse com um especialista (como clínico e epidemiologista, líder comunitário e oficial de comunicações) se não for um você mesmo. Lembre-se sempre que diferentes partes interessadas podem introduzir pontos de vista novos mas críticos e frequentemente inesperados e ajudá-lo a evitar suposições incorretas ou ineficazes.
+If crucial voices and viewpoints are missing in your project, how can you invite them in? Talk to an expert (such as clinician, epidemiologist, community lead, and communication officer) if you are not one yourself. Always remember that different stakeholders can introduce new but critical and often unexpected viewpoints and help you avoid incorrect or ineffective assumptions.
