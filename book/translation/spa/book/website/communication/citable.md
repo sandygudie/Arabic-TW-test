@@ -1,44 +1,44 @@
 (cm-citable)=
-# Hacer que los objetos de investigación sean accesibles
+# Making Research Objects Citable
 
-## Prerrequisitos / nivel de habilidad recomendado
+## Prerequisites / recommended skill level
 
-| Prerrequisito                                         | Importancia           |
-| ----------------------------------------------------- | --------------------- |
-| {ref}`Resumen de Reproducibilidad<rr-overview>` | Útil pero no esencial |
-| {ref}`Abrir investigación<rr-open>`             | Útil pero no esencial |
+| Prerequisite                                          | Importance               |
+| ----------------------------------------------------- | ------------------------ |
+| {ref}`Overview of Reproducibility<rr-overview>` | Useful but not essential |
+| {ref}`Open research<rr-open>`                   | Useful but not essential |
 
 ## Summary
 
-Muchos investigadores sostienen que el tiempo dedicado a prácticas de investigación reproducibles reduce el tiempo que tienen disponible para actividades que tradicionalmente están vinculadas al crédito académico, como escribir documentos.
+Many researchers argue that time spent on reproducible research practices reduces the time they have available for activities that are traditionally linked to academic credit, such as writing papers.
 
-¿Qué pasa si usted también puede obtener crédito por sus esfuerzos de reproducibilidad? En este capítulo, describiremos cómo trabajar reproduciblemente le permitirá publicar la mayoría de sus resultados de investigación de una manera que pueda ser citada por otros (no sólo por su papel)!
+What if you could get credit for your reproducibility efforts as well? In this chapter, we will describe how working reproducibly will allow you to get most of your research outputs published in a way that can be cited by others (not just your paper)!
 
 ```{figure} ../figures/orcid-ids.jpg
 ---
-nombre: orcid-ids
-alt: Esta imagen muestra a una investigadora hembra en el centro con sus brazos levantados. Está rodeada en órbita por diferentes tipos de documentos. En la parte superior izquierda, hay un título que indica 'IDS ORCIDO', mientras que en la parte inferior derecha está el texto que dice: "Un anillo para descartar todas las salidas".
+name: orcid-ids
+alt: This image shows a female researcher in the centre with her arms raised. She is surrounded in an orbit by different types of documents. On the top left, there is a caption stating 'ORCID IDS', while on the bottom right there is the text that says - 'One ring to rule all outputs'.
 ---
-ORCID permite a un investigador conectar su perfil con todos los objetos de investigación publicados, cada uno de los cuales también tiene sus identificadores únicos persistentes. Aprenderás sobre esto en este capítulo. _The Turing Way_ proyecto de ilustración por Scriberia. Utilizado bajo una licencia CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+ORCID ID allows a researcher to connect their profile with all the published research objects, each of which also have their unique persistent identifiers. You will learn about these in this chapter. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-(cm-citable-motivación)=
-## Fondo & Motivación
+(cm-citable-motivation)=
+## Background & Motivation
 
-La investigación académica ha mantenido tradicionalmente una "economía de reputación" en la que las citas son la moneda o se considera una importante métrica de éxito. La mayoría de los criterios de promoción y contratación de las instituciones de investigación dependen en mayor o menor medida de su historial de publicación: cuántos artículos ha publicado, cuán "importante" fueron las revistas, y cuántas veces se ha citado cada artículo utilizando los identificadores únicos.
+Academic research has traditionally maintained a 'reputation economy' where citations are the currency or considered a major metric of success. Most research institutions' promotion and hiring criteria depend to a greater or lesser extent on your publishing record: how many articles you have published, how "important" the journals were, and how many times each article has been cited using the unique identifiers.
 
-Esta es una práctica bien establecida y aunque tiene sus problemas estructurales (académicos) al menos todos los interesados entienden lo que está involucrado. Una de las consecuencias de este sistema es que el trabajo que *no* resulta en artículos publicados tiende a ser ignorado, disuadir a los investigadores de hacer sus datos más abiertos o especializarse en el desarrollo de software.
+This is a well-established practice, and while it has its structural (academic) problems at least all stakeholders understand what's involved. One of the consequences of this system is that labour which *doesn't* result in published articles tends to be ignored, discouraging researchers from making their data more open or specialising in software development.
 
-Establecer buenas prácticas de citas utilizando identificadores persistentes y citables para el contenido que no sea objeto de artículos es un paso hacia el reconocimiento de este valioso trabajo y el estímulo para que más personas lo acepten. Si puede demostrar el impacto de su trabajo de investigación reproducible, además de los resultados de investigación más tradicionales, puede justificar gastar más tiempo en hacer las cosas bien.
+Establishing good citation practices using persistent and citable identifiers for non-article content is a step towards recognising this valuable work and encouraging more people to take it up. If you can demonstrate the impact of your reproducible research work in addition to more traditional research outputs, you can justify spending more time on doing things right.
 
-Describemos, cómo puedes {ref}`preparar tu objeto de investigación para que sea citable<cm-citable-steps>`, {ref}`cómo otros pueden citarles<cm-citable-cite>` (o puedes citar a otros trabajar) y cómo puedes usarlos para {ref}`obtener reconocimiento y construir tu perfil<cm-citable-orcid>`.
+We describe, how you can {ref}`prepare your research object to be citable<cm-citable-steps>`, {ref}`how others can cite them<cm-citable-cite>` (or you can cite others work) and how you can use them to {ref}`gain recognition and build your profile<cm-citable-orcid>`.
 
-(cm-citable-contributo)=
-## Contribuir a este Capítulo
+(cm-citable-contribute)=
+## Contribute to this Chapter
 
-Te invitamos a contribuir a este capítulo escribiendo acerca de uno o varios de los siguientes aspectos:
-- Demostrar el impacto con varias métricas descritas en este capítulo
-- Añada algunos consejos para la publicación revisada por pares de componentes de investigación con DOI (como revistas de datos, JOSS para el software)
-- Añade información sobre [citando JSON](http://citebay.com/how-to-cite/json/)
-- Cómo citar prácticas obsoletas o versiones antiguas como citar un papel temprano o un manual de software
-- Más ideas sobre qué no/no necesita ser citado
+We invite you to contribute to this chapter by writing about one or multiple of the following aspects:
+- Demonstrate impact with various metrics described in this chapter
+- Add some tips for peer-reviewed publishing of research components with DOIs (like data journals, JOSS for software)
+- Add information about [citing JSON](http://citebay.com/how-to-cite/json/)
+- How to cite deprecated practices or legacy versions such as citing an early paper or a software manual
+- More thoughts on what does/doesn't need to be cited
