@@ -1,39 +1,39 @@
-(er-ativismo)=
-# Ativismo para Pesquisadores
+(er-activism)=
+# Activism for Researchers
 
-(er-activismo-pré-requisitos)=
-## Pré-requisitos
+(er-activism-prerequisites)=
+## Prerequisites
 
-Este capítulo não tem condições prévias.
+There are no prerequisite for this chapter.
 
-(er-ativismo-resumo)=
+(er-activism-summary)=
 ## Summary
 
-Este capítulo cobre porque o ativismo pode ser uma parte importante da prática da ciência de dados éticos. Também cobre diferentes tipos de ativismo e como se pode ser um ativista dentro do seu local de trabalho, seu campo, seu país ou o mundo em geral!
+This chapter covers why activism can be an important part of ethical data science practice. It also covers different kinds of activism and how you can be an activist within your workplace, your field, your country, or the world at large!
 
-(motivação-ativação)=
-## Motivação e fundo
+(er-activism-motivation)=
+## Motivation and Background
 
-Há muitos cenários diferentes em que cientistas e investigadores se empenhariam em activismo para conseguir mudança, como uma política institucional diferente sobre dados abertos. aumentar os padrões éticos de pesquisa (veja o {ref}`er`), ou melhorar as condições de trabalho. Os cientistas podem exercer ativismo em todos os tópicos relacionados ao seu trabalho, instituições, campos, ou questões interdisciplinares, como a pesquisa aberta, ou temas que não estão relacionados com a sua carreira.
+There are many different scenarios where scientists and researchers would engage in activism to achieve change, such as a different institutional policy on open data, increasing ethical standards of research (see the {ref}`er`), or improving working conditions. Scientists may engage in activism across topics related to their work, institutions, fields, or cross-disciplinary issues such as open research, or on topics unrelated to their career.
 
-O [Dicionário de Cambridge](https://dictionary.cambridge.org/dictionary/english/activism) define o ativismo como "o uso de ações diretas e visíveis para alcançar um resultado, geralmente político ou social". Ativismo pode assumir muitas formas e alcançar muitas coisas diferentes, mas é mais eficaz quando as pessoas trabalham em conjunto como uma comunidade com um objetivo compartilhado.
+The [Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/activism) defines activism as "the use of direct and noticeable action to achieve a result, usually a political or social one". Activism can take many forms and achieve many different things, but it's most effective when people work together as a community with a shared goal.
 
-Não é preciso ter muita experiência de activismo - ou até chamar-se activista - para pôr em prática alguns destes métodos. No entanto, pode ser difícil saber por onde começar quando você quer fazer uma mudança.
+You don't have to have a lot of experience in activism - or even call yourself an activist - to put some of these methods into practice. However, it can be difficult to know where to start when you want to make a change.
 
-(er-ativação-maneiras)=
-## As formas de alterar
+(er-activism-ways)=
+## Ways to make change
 
-O ativismo em seu local de trabalho pode incluir:
-* *{ref}`er-activismo-unionização`* organização coletiva de trabalhadores para melhorar as condições de trabalho
-* *{ref}`Política interna`* campanha para alterar a forma como a sua instituição toma decisões ou lida com certas situações: isto pode incluir, Por exemplo, defendendo práticas de dados abertos!
-* *{ref}`er-activismwhistleblowing`* do ato de alertar as autoridades ou a imprensa para problemas na sua instituição
+Activism in your workplace can include:
+* *{ref}`er-activism-unionisation`* collective organisation of workers to improve working conditions
+* *{ref}`er-internal-policy`* campaigning to change the way your institution makes decisions or handles certain situations: this can include, for example, advocating for open data practices!
+* *{ref}`er-activismwhistleblowing`* the act of alerting authorities or the press to problems in your institution
 
-No futuro, gostaríamos de expandir este capítulo para incluir guias ao activismo na sociedade em geral para os cientistas, Por exemplo, como interagir com os processos de formulação de políticas governamentais.
+In the future, we would like to expand this chapter to include guides to activism in wider society for scientists, for example, how to engage with government policy-making processes.
 
-Ativismo no seu campo pode incluir
-* Trabalhando para mudar políticas e práticas para organizações profissionais.
-* Divulgação para incentivar as pessoas a trabalhar em seu campo, especialmente as pessoas de meios que estão sub-representadas
+Activism in your field can include
+* Working to change policies and practices for professional organisations.
+* Outreach to encourage people to work in your field, especially people from backgrounds that are underrepresented
 
-O activismo também pode trabalhar para alterar leis ou políticas: por exemplo, pressão no sentido de uma melhor legislação de protecção de dados no seu país, ou de recursos para aplicar as leis existentes. Na Austrália, ativistas colaboraram com grupos de assistência jurídica a {ref}`resistem à 'Robô'<er-activism-robodebt>` (um sistema automatizado que disse aos beneficiários do bem-estar que eles deviam dinheiro).
+Activism can also work towards changing laws or policies: for example, lobbying for better data protection legislation in your country, or for resources to implement existing laws. In Australia, activists collaborated with legal aid groups to {ref}`resist 'Robodebt'<er-activism-robodebt>` (an automated system that told welfare benefits recipients that they owed money).
 
-Ativismo também pode fazer parte da mudança do mundo para melhor! Isto pode incluir, por exemplo, a sensibilização para a literacia de dados.
+Activism can also be part of changing the world for the better! This can include for example awareness-raising about data literacy.
