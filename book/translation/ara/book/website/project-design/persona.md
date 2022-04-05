@@ -21,7 +21,7 @@ People sharing their ideas through direct conversations and on social media. _Th
 
 (pd-persona-motivation)= In a community-oriented and open source project, participants come with different levels of technical skills, as well as from different backgrounds, identities, demographic distribution and lived experiences. The personas and pathways development tool allows us to take experiences and expectations of individuals into account when planning the community aspects of our projects.
 
-يهدف هذا الفصل إلى التقاط 'شخصيات`مختلفة من الأعضاء أو المستخدمين وفهم 'المسار` التي يتخذونها للاتصال بالمشروع أو البقاء في علاقة به.
+This chapter aims to capture different 'personas' of members or users and understand the 'pathways' they take to come in contact or staying involved with the project.
 
 In the first subchapter, we provide a {ref}`persona creation tool<pd-persona-creation>`. In the second subchapter, {ref}`Contributors Personas and Pathways <pd-persona-contributors>`, we discuss how one can identify pathways using examples from _The Turing Way_ community.
 
