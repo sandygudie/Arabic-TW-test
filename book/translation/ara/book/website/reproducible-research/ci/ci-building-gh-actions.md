@@ -56,17 +56,17 @@ We can also separate the `build` and `test` functions of our workflow into more 
 
 ```
 
-الوظائف:
-  بناء:
-    تشغيل: ubuntu-latest
-    خطوات:
-    - استخدامات: الإجراءات/checkout@v2
-  اختبار:
-    خطوات:
-    - الاسم: npm تثبيت
-      تشغيل: <unk>
-        npm تثبيت
-        npm الاختبار
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+  test:
+    steps:
+    - name: npm install
+      run: |
+        npm install
+        npm test
 ```
 
 The most basic action is `actions/checkout@v2`. This uses a GitHub provided action called [`checkout`](https://github.com/actions/checkout) to allow the workflow to access the contents of the repository. All the steps of a job run sequentially on the runner associated with the job. By default, if a step fails, the subsequent steps of the job are skipped. Each run keyword represents a new process and shell in the runner environment. When you provide multi-line commands, each line runs in the same shell.
