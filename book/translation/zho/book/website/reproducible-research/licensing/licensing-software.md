@@ -56,7 +56,7 @@ These four freedoms together effectively neutralize copyright; *Freedoms 0* and 
 
 Note that it is perfectly acceptable to sell copies of free software, warranty, or development services; this is about the freedom to do things with the software, not about its price.
 
-还使用了另外两个类似的定义； 开放源代码研究所 [开放源代码定义](https://opensource.org/osd-annotated) and [Debian Free Software Guidelines](https://www.debian.org/social_contract#guidelines). 上面由Richard Stallman提出的自由软件定义是最简单明了的，实际上，它所界定的类别几乎完全相同。 The free software definition above, by Richard Stallman, is the most straightforward and concise, and in practice, the categories they define are almost identical.
+There are two other, similar definitions in use; the Open Source Institute's [Open Source Definition](https://opensource.org/osd-annotated) and the [Debian Free Software Guidelines](https://www.debian.org/social_contract#guidelines). The free software definition above, by Richard Stallman, is the most straightforward and concise, and in practice, the categories they define are almost identical.
 
 Software that is not free is proprietary. Software that you are not allowed to copy or modify falls into this category, as does software with usage restrictions, for example, "For research use only" or "For non-commercial use only".
 
@@ -69,7 +69,7 @@ Within the category of free software, there are several subcategories, which are
 
 Modifying a program leads to a new program that is derived from the original. This is similar to deriving the new edition of a textbook from the original. Both the original and modified versions are works under copyright law, and both of them may be licensed.
 
-作为合并软件的一个例子，设想一个程序A，使用两个事先存在的库 B 和 C 。 完整的方案A将由库B、库C组成， 和一些将图书馆连接在一起的代码D，或许会增加额外的功能。 Each of these four items is a work of authorship with a license. Program A can sometimes be referred to as the "Combined work", "Work as a whole" or "Larger work".
+As an example of combining software, imagine a program A that uses two preexisting libraries B and C. The complete program A will consist of library B, library C, and some code D that connects the libraries together and perhaps adds additional functionality. Each of these four items is a work of authorship with a license. Program A can sometimes be referred to as the "Combined work", "Work as a whole" or "Larger work".
 
 Different free software licenses place different constraints on how modified versions and combined works can be licensed.
 
