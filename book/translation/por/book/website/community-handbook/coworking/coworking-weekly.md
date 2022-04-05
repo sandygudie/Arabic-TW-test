@@ -1,73 +1,73 @@
-(pt_BR-coworking-weekly)=
-# Chamadas de cotrabalho semanais
+(ch-coworking-weekly)=
+# Weekly Coworking Calls
 
-_A equipe Turing Way_ tem hospedado chamadas de menor porte a cada semana. Estes apelos são semelhantes aos Cafusos Colaboradores, mas têm apenas uma hora de duração. Desde Maio de 2020, essas chamadas têm lugar vários dias por semana às 11:00 GMT/BST. Não está hospedado nos dias em que já está agendado um Colaborador de Fofo.
+_The Turing Way_ team has been hosting shorter coworking calls each week. These calls are similar to the Collaboration Cafes, but only 1-hour long. Since May 2020, these calls have been taking place multiple days each week at 11:00 GMT/BST. It is not hosted on the days when there is a Collaboration Cafe already scheduled.
 
-Como o Colaborador Cafes, hospedamos essas chamadas online usando o [Zoom](https://www.zoom.us/). Usamos a Calada & Escreva! método proporcionando tempo alocado para períodos de 20 a 25 minutos de sessões Pomodoro e duas pausas curtas para conversar sobre o nosso trabalho e trocar o que fizemos.
+Like Collaboration Cafes, we host these calls online using [Zoom](https://www.zoom.us/). We use the Shut up & Write! method by providing allocated time for two 20-25 minutes long Pomodoro sessions and two short breaks to chat about our work and exchange what we got done.
 
-O principal alvo destas chamadas são membros que estão trabalhando em certos problemas ou PRs no _The Turing Way_ de vir juntar-se a outros membros da comunidade em suas horas de trabalho habituais. Essas chamadas também oferecem oportunidades para esclarecer dúvidas sobre o projeto, obter a revisão de PR, discutam ideias diferentes juntas, e mantenha-se conectado com outros membros da comunidade.
+The primary target of these calls are members who are working on certain issues or PRs in _The Turing Way_ to come along and join other community members in their usual working hours. These calls also provide opportunities to clarify doubts about the project, get PRs reviewed, brainstorm different ideas together, and stay connected with other members in the community.
 
-## Participando de uma chamada de co-trabalho on-line
+## Attending an online coworking call
 
-O cronograma para estas chamadas é atualizado o [calendário da comunidade semanal](https://calendar.google.com/calendar/embed?src=theturingway%40gmail.com&ctz=Europe%2FLondon). Nós anunciamos isso em nossas [newsletters mensais](https://tinyletter.com/TuringWay/archive) e enviamos um lembrete toda segunda-feira no canal [Slack](https://tinyurl.com/jointuringwayslack).
+The schedule for these coworking calls is updated weekly [community calendar](https://calendar.google.com/calendar/embed?src=theturingway%40gmail.com&ctz=Europe%2FLondon). We announce these in our [monthly newsletters](https://tinyletter.com/TuringWay/archive) and send a reminder every Monday on the [Slack channel](https://tinyurl.com/jointuringwayslack).
 
-Embora agendada para 1 hora, você está convidado a participar por um período mais curto como sua agenda permite, No entanto, por favor, informe o anfitrião da chamada, para que eles saibam quem espera pela ligação. Se você estiver interessado em cooperar com um dos membros da equipe num dia que não esteja listado na agenda entre em contato com eles pelo Slack ou por email para que possam encontrar um slot comum para trabalhar com você.
+Though scheduled for 1 hour, you are welcome to join for shorter period as your schedule allows, however, please let the host of the call know so that they know who to expect on the call. If you are interested in coworking with one of the team members on a day that is not listed on the schedule, please contact them on Slack or by email so that they can find a common slot to work with you.
 
-### Recurso usado para a chamada
+### Resource used for the call
 
-O requisito de recursos para estas chamadas é também muito semelhante ao Caio de Colaboração.
+The resource requirement for these calls is also very similar to the Collaboration Cafe.
 
-1. Notas compartilhadas por [HackMD](https://hackmd.io/): [https://hackmd.io/@turingway/coworking-call](https://hackmd.io/@turingway/coworking-call)
-2. Chamada online por [Zoom](https://www.zoom.us/): O link de Zoom é fornecido no HackMD.
-3. Um relógio Pomodoro online: [https://cuckoo.team/TW-coworking](https://cuckoo.team/TW-coworking)
+1. Shared notes by [HackMD](https://hackmd.io/): [https://hackmd.io/@turingway/coworking-call](https://hackmd.io/@turingway/coworking-call)
+2. Online call by [Zoom](https://www.zoom.us/): The Zoom link is provided in the HackMD.
+3. An online Pomodoro clock: [https://cuckoo.team/TW-coworking](https://cuckoo.team/TW-coworking)
 
-Não registramos essas chamadas. Também não criamos {ref}`salas de interrupção<ch-coworking-collabcafe-breakout>` a menos que haja várias pessoas trabalhando nas mesmas coisas.
+We don't record these calls. We also don't create {ref}`breakout rooms<ch-coworking-collabcafe-breakout>` unless there are multiple people working on same things.
 
-### Formato da chamada
+### Format of the call
 
-Temos um template para o {ref}`Colaboração<ch-template-coworking-weekly>`, que é atualizado sobre o [HackMD compartilhado](https://hackmd.io/@malvikasharan/TW-coworking) para cada semana.
+We have a template for the {ref}`Collaboration Cafes<ch-template-coworking-weekly>`, which is updated on the [shared HackMD](https://hackmd.io/@malvikasharan/TW-coworking) for each week.
 
-Vamos executar o seguinte cronograma em cada chamada:
+We'll run the following schedule during each call:
 
-| Duração | Atividade                                        |
-| ------- | ------------------------------------------------ |
-| Iniciar | 👋 Bem-vindo                                      |
-| 5 min   | Configuração de introduções e objetivos pessoais |
-| 25 min  | 🍅 Primeira sessão Pomodoro                       |
-| 5 min   | ☕ Quebrar e denunciar                            |
-| 25 min  | 🍅 Segunda sessão Pomodoro                        |
-| 5 min   | Abrir discussão e Fechar 👋                       |
+| Duration | Activity                                |
+| -------- | --------------------------------------- |
+| Start    | 👋 Welcome                               |
+| 5 mins   | Introductions and personal goal setting |
+| 25 mins  | 🍅 1st Pomodoro session                  |
+| 5 mins   | ☕️ Break and report out                 |
+| 25 mins  | 🍅 2nd Pomodoro session                  |
+| 5 mins   | Open discussion and Close 👋             |
 
-Em contraste com os cafés de Colaboração, o calendário para estas chamadas parece mais intenso e menos susceptível de discussão. No entanto, uma vez que estes apelos contam com menos participantes, oferece mais oportunidades para interacções informais.
+In contrast to the Collaboration Cafes, the schedule for these calls seems more intense with less chance for discussion. However, since these calls are attended by fewer participants, it provides more opportunities for informal interactions.
 
-### Coordenando chamadas de trabalho
+### Chairing Coworking Calls
 
-Por favor, atualize o documento todo mês usando os seguintes passos:
+Please update the document each month using the following steps:
 
-- [Atualize o HackMD](https://hackmd.io/@turingway/coworking-call) a cada mês adicionando datas para as chamadas semanais
-- Mover as anotações da chamada anterior abaixo da área de template (que serão arquivadas nesta página de Notion periodicamente)
-- Compartilhe as notas no Slack e Twitter anunciando as datas
-- Utilize as notas durante a chamada para compartilhar informações à medida que você preside à chamada
-- Certifique-se de compartilhar o link do Código de Conduta e usar o Cuckoo compartilhado (ou outros relógios da web)
-- Crie salas de interrupção para pessoas antes de iniciar as sessões do Pomodoro - quando necessário
-- À medida que a primeira sessão do Pomodoro termina, feche quaisquer salas de interrupção, peça comentários e reinicie a segunda sessão do Pomodoro
-- A chamada está agendada para 60 minutos, podendo assim acomodar até 2 sessões de Pomodoro
-- Feche a chamada de agradecimento a todos, e dê chefe das notas para a próxima chamada
+- [Update the HackMD](https://hackmd.io/@turingway/coworking-call) each month by adding dates for the weekly calls
+- Move the notes from the previous call below the template area (that will be archived in this Notion page periodically)
+- Share the notes on Slack and Twitter announcing the dates
+- Use the notes during the call to share information as you chair the call
+- Make sure that you share the Code of Conduct link and use the shared Cuckoo (or other web-based clocks)
+- Create breakout rooms for people before starting the Pomodoro sessions - when needed
+- As the first Pomodoro session ends, close any breakout rooms, ask for feedback, and then restart the second Pomodoro session
+- The call is scheduled for 60 minutes, and hence can accommodate up to 2 Pomodoro sessions
+- Close the call thanking everyone, and arhieve the notes for the next call
 
-#### Início
+#### Beginning
 
-A chamada começa com os membros da equipe que acolhem os participantes, compartilhando o Código de Conduta, lembrando como participar da chamada, e preparar o terreno para que todos partilhem o que estão a fazer e o que irão fazer.
+The call begins with the team members welcoming the participants, sharing the Code of Conduct, reminding how to participate in the call, and setting the stage for everyone to share how they are doing and what they will be working on.
 
 #### Pomodoros
 
-A cadeira de sessão iniciará o [temporizador](https://cuckoo.team/TW-coworking) para manter o controle das sessões do Pomodoro. Se todos planearem trabalhar em tarefas independentes, permaneceremos na sala principal e trabalharemos em silêncio. Para qualquer discussão ou tarefa colaborativa em que duas pessoas da chamada estejam trabalhando, criaremos [salas de interrupção](#breakout-rooms) para elas.
+The session chair will start the [timer](https://cuckoo.team/TW-coworking) to keep track of the Pomodoro sessions. If everyone plans to work on independent tasks, we will remain in the main room and work silently. For any discussion or collaborative task that two people of the call are working on, we will create [breakout rooms](#breakout-rooms) for them.
 
-Se houver novos membros a chamar, um dos membros (normalmente host da chamada) levará o novo membro a uma sala de interrupção para mostrar em torno do repositório do projeto e compartilhará algumas dicas para começar.
+If there are new members on the call, one of the members (usually host of the call) will take the new member to a breakout room to show around the project repository and share some tips for getting started.
 
-#### Quebras
+#### Breaks
 
-Vamos fazer pausas curtas depois de cada Pomodoro para reflectir sobre o que podemos fazer qualquer erro que qualquer participante possa ter detectado, contornar nosso progresso e celebrar pequenos sucessos.
+We will take short breaks after each Pomodoro to reflect on what we could get done, troubleshoot any error that any attendee might have come across, verbalise our progress and celebrate small successes.
 
-#### Se entrar nesta chamada mais tarde
+#### If joining this call later
 
-Se você se juntar mais tarde, poderá ver pessoas a trabalhar tranquilamente em suas tarefas. Você pode rastrear o tempo restante antes do próximo intervalo, abrindo o [relógio compartilhado](https://cuckoo.team/TW-coworking) em seu navegador. Se você sabe com antecedência que ingressou mais tarde, você pode avisar o anfitrião da chamada entrando em contato antes da chamada ou deixando uma nota no documento compartilhado.
+If you join later, you might see people quietly working on their tasks. You can track the time left before the next break by opening the [shared clock](https://cuckoo.team/TW-coworking) in your browser. If you know in advance that you'd join later, you can let the host of the call know by either contacting them before the call or leaving a note in the shared document.
