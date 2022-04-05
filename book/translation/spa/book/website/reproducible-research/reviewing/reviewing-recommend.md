@@ -1,13 +1,13 @@
-(rr-recomendación-revisión)=
+(rr-reviewing-recommendation)=
 # Recomendaciones y mejores prácticas
 
 ## ¿Quién reseña?
 
 Dentro de proyectos a pequeña escala donde los desarrolladores normalmente ya se conocen entre sí práctica común es que el programador etiquete a alguien en el grupo como revisor. Cuando estás etiquetado como revisor, primero compruebe si tiene suficiente conocimiento sobre los nuevos cambios en el código para hacer un buen trabajo en una cantidad de tiempo razonable.
 
-Por el contrario, es probable que los proyectos de desarrollo a gran escala tengan normas concretas para cómo se asignan los revisores a las solicitudes individuales de extracción. Estas reglas sirven para equilibrar la carga de trabajo del grupo y para maximizar los diversos beneficios del proceso para el proyecto y sus participantes. Los proyectos más grandes pueden incluso tener personal dedicado -o equipos de personal- para actuar como revisores. Por lo general, las revisiones de código sólo pueden ser realizadas por un subconjunto autorizado de colaboradores dentro de proyectos más grandes.
+Por el contrario, es probable que los proyectos de desarrollo a gran escala tengan normas concretas para cómo se asignan los revisores a las solicitudes individuales de extracción. These rules serve to balance the group workload and to maximise the various benefits of the process to the project and its participants. The very largest projects may even have dedicated staff - or teams of staff - to act as reviewers. Typically, code reviews can only be performed by an authorised subset of contributors within larger projects.
 
-Para proyectos en los que es probable que haya múltiples rondas de revisión en material similar y que se anticiquen ciclos de desarrollo largos, un cierto grado de pensamiento estratégico sobre quién completa las revisiones es sensato. Es probable que un solo revisor sea capaz de hacer comentarios sobre el código que han revisado antes mucho más eficientemente. Sin embargo, permitir que los pares de codificadores de revisores como este persisten es una mala idea. ya que puede conducir a los mismos tipos de grupos de pensar que el proceso de revisión está diseñado para evitar en primer lugar.
+For projects where multiple rounds of review on similar material are likely and long development cycles are anticipated, a degree of strategic thinking on who completes reviews is sensible. A single reviewer is likely to be able to make comments on code they have reviewed before much more efficiently. However, letting reviewer-coder pairs like this persist is generally a bad idea, as it can lead to the same kinds of groupthink that the review process is designed to avoid in the first place.
 
 (rr-reviewing-recomendation-be-nice)=
 ## ¡Sé Nichola!
@@ -32,9 +32,9 @@ Revisar código en pedazos pequeños incrementalmente a medida que el proyecto e
 
 Aquí hay algunos consejos generales sobre cómo integrar las revisiones de código en nuestro proceso de trabajo:
 
-- Tómese el tiempo, lea con cuidado. Revisar todo, nada es demasiado corto o simple.
-- Intenta tener algo más que hacer y difunde la carga a lo largo de tu día laborable. No revise por más de una hora a la vez, después de eso la tasa de éxito cae bastante rápidamente.
-- No revise más de 400 líneas de código (LOC) a la vez, menos de 200 LOC es mejor. No revise más de 500 LOC/hora.
+- Take the time, read carefully. Review everything, nothing is too short or simple.
+- Intenta tener algo más que hacer y difunde la carga a lo largo de tu día laborable. Don't review for more than an hour at a time, after that the success rate drops quite quickly.
+- Don't review more than 400 lines of code (LOC) at a time, less than 200 LOC is better. Don't review more than 500 LOC/hour.
 
 ## Esté de acuerdo al tomar la discusión fuera de línea
 
