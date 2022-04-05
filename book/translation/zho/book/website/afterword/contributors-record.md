@@ -472,7 +472,7 @@
 > 我通过在学术项目中进行可复制性案例研究而参与 _诱惑方式_ - 基本上是。 在项目初始阶段，我是一种可再生性探测器！ :female_detective: 美味之路是我第一次与这么多不同机构的合作者合作的经历。 和这个项目周围的社区对我来说是一个真正的亮点。 我的正式时间已经结束了。 但我仍然喜欢通过书籍破折号和其他活动保持联系。
 
 * 更多信息：
-> As scientists, we share our work via papers and talks, but the intricacies of precisely *how* we implement an analysis pipeline or novel algorithm can be very difficult to convey in those formats. 我们正在看到默认的更改，我们想要通过开放访问运动发布我们的文章。 并且我很想看到我们收集的数据和我们开发的代码的心态发生类似的变化，以便其他人能够复制， 我们从我们的工作中汲取经验教训并在此基础上再接再厉。 我想确保分享这类研究产出的途径对每个人开放。 无论其方案编制经验水平如何，这一路线可能并不总是简单的。 但这是一个分享和学习我们的经验的好机会！ 这么多的研究项目现在含有计算元素。 但很容易忘记，不是每个人都能获得软件工程方面的培训，或者有一批具有这种兴趣的同事。 如果我们说我们希望人们的研究公开并可加以复制， 我们需要向他们提供他们有信心这样做所需要的工具。 我认为，通过提供一种友善的方式来弥合这种差距。 为研究人员各阶段的职业生涯提供实用和有用的指南。
+> As scientists, we share our work via papers and talks, but the intricacies of precisely *how* we implement an analysis pipeline or novel algorithm can be very difficult to convey in those formats. 我们正在看到默认的更改，我们想要通过开放访问运动发布我们的文章。 我们正在看到默认的更改，我们想要通过开放访问运动发布我们的文章。 并且我很想看到我们收集的数据和我们开发的代码的心态发生类似的变化，以便其他人能够复制， 我们从我们的工作中汲取经验教训并在此基础上再接再厉。 我想确保分享这类研究产出的途径对每个人开放。 无论其方案编制经验水平如何，这一路线可能并不总是简单的。 但这是一个分享和学习我们的经验的好机会！ 这么多的研究项目现在含有计算元素。 但很容易忘记，不是每个人都能获得软件工程方面的培训，或者有一批具有这种兴趣的同事。 如果我们说我们希望人们的研究公开并可加以复制， 我们需要向他们提供他们有信心这样做所需要的工具。 我认为，通过提供一种友善的方式来弥合这种差距。 为研究人员各阶段的职业生涯提供实用和有用的指南。
 
 <!---M--->
 ## M
@@ -662,7 +662,7 @@
 > 我是曼彻斯特大学研究数据资料库，共同领导研究数据管理支助服务。 我的重点是数据分享、培训和鼓励研究人员从事公开研究。 我的背景是社会科学，我最近开始与英国图书馆和谢菲尔德大学合读一门博士，研究开放的机会和国家图书馆的作用。
 
 * 更多信息：
-> 我热衷于支持研究人员！ 使研究人员尽可能容易地使其研究工作变得易于复制和公开， 而且，这要比以封闭方式进行研究更容易。 我试图帮助研究人员在使他们的研究公开方面取得一些小的改进，因为有些进展比没有任何进展更好！ 从事研究数据管理的工作，我自然感到关切的是，数据没有被认真看待为一项独立的研究产出，而学术界的奖励制度则非常适合“影响大”的期刊文章。 作为一个非STEM背景的人，我也很想了解我们如何能够尽可能地提供可重复的研究。 这将是我直接在 GitHub 工作的第一个项目，我很高兴能够更加自信地使用它！ I spend much of my time talking to researchers about the overarching principles of *why* reproducible and open research is a good idea and am excited by the idea of giving people practical guidance on *how* to do this. 在这些讨论中，短信代码经常被用来作为不分享代码的理由，这样如果我们能够产生一些帮助人们克服这种障碍的东西是巨大的。 我希望我们也能够在曼彻斯特大学和全国各地的其他Ting大学使用诱导之路！
+> 我热衷于支持研究人员！ 使研究人员尽可能容易地使其研究工作变得易于复制和公开， 而且，这要比以封闭方式进行研究更容易。 我试图帮助研究人员在使他们的研究公开方面取得一些小的改进，因为有些进展比没有任何进展更好！ 从事研究数据管理的工作，我自然感到关切的是，数据没有被认真看待为一项独立的研究产出，而学术界的奖励制度则非常适合“影响大”的期刊文章。 作为一个非STEM背景的人，我也很想了解我们如何能够尽可能地提供可重复的研究。 这将是我直接在 GitHub 工作的第一个项目，我很高兴能够更加自信地使用它！ I spend much of my time talking to researchers about the overarching principles of *why* reproducible and open research is a good idea and am excited by the idea of giving people practical guidance on *how* to do this. 在这些讨论中，短信代码经常被用来作为不分享代码的理由，这样如果我们能够产生一些帮助人们克服这种障碍的东西是巨大的。 在这些讨论中，短信代码经常被用来作为不分享代码的理由，这样如果我们能够产生一些帮助人们克服这种障碍的东西是巨大的。 我希望我们也能够在曼彻斯特大学和全国各地的其他Ting大学使用诱导之路！
 
 
 ### 拉查埃尔·安斯沃斯
@@ -1254,7 +1254,7 @@
 
 荷兰电子科学中心是荷兰开发和应用科学界总体软件和方法的国家枢纽。 其主要目标是使具有不同计算经验的科学家能够充分利用现有电子基础设施的潜力，并使他们能够实现本来无法实现的科学突破。 荷兰电子科学中心主要由荷兰国家研究理事会和国家电子基础设施组织提供资金。
 
-荷兰电子科学中心有 [自己的指南](https://guide.esciencecenter.nl/) 用于可复制的软件开发。 电子科学中心指南的焦点与 _绘图方式_ 有很大的重叠，因此避免重复工作是有道理的。 The eScience center contributes to _The Turing Way_ in the areas which are relevant for the eScience guide. 电子科学指南指出 _在原本会重复信息的情况下诱惑方式_。
+荷兰电子科学中心有 [自己的指南](https://guide.esciencecenter.nl/) 用于可复制的软件开发。 电子科学中心指南的焦点与 _绘图方式_ 有很大的重叠，因此避免重复工作是有道理的。 The eScience center contributes to _The Turing Way_ in the areas which are relevant for the eScience guide. 电子科学指南指出 _在原本会重复信息的情况下诱惑方式_。 电子科学指南指出 _在原本会重复信息的情况下诱惑方式_。
 
 每个成员的贡献详情按字母顺序排列。
 
@@ -1293,7 +1293,7 @@
 
 FAIR Cookbook 是一种在线资源，帮助研究人员和数据管理人员专业人员使他们的数据可以查找、可检索、互操作和可复用（FAIR）。 FAIR Plus Cookbook 基于 _诱惑方式_ 项目和社区模型。 并根据FAIR要素、听众类型、阅读时间和困难程度提供章节作为“配方”。
 
-_The Turing Way_ team members and [project's editorial board members](https://fairplus.github.io/the-fair-cookbook/content/recipes/boilerplate/people.html), Susanna-Assunta Sansone and Philippe Rocca-Serra, collaborate to ensure an interoperability between the two resources and exchange experiences as open source project developers. FAIR Cookbook [有相关章节来自 _The Ting Way_](https://fairplus.github.io/the-fair-cookbook/search.html?q=turing+way)。 与此相类似， _Ting Way_ 介绍了这个项目并提供了一个名为 [从FAIR 共同作者到FAIR Doer](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-stories.html) 由 Susanna-Assunta Sansone (FAIR Cookbook 项目的共同领导者)的撞击故事。 您可以在第 [章中找到更多的详细信息和背景，利用正在酝酿的路径书](https://fairplus.github.io/the-fair-cookbook/content/recipes/introduction/the-turing-way.html?highlight=turing)。
+_The Turing Way_ team members and [project's editorial board members](https://fairplus.github.io/the-fair-cookbook/content/recipes/boilerplate/people.html), Susanna-Assunta Sansone and Philippe Rocca-Serra, collaborate to ensure an interoperability between the two resources and exchange experiences as open source project developers. FAIR Cookbook [有相关章节来自 _The Ting Way_](https://fairplus.github.io/the-fair-cookbook/search.html?q=turing+way)。 FAIR Cookbook [有相关章节来自 _The Ting Way_](https://fairplus.github.io/the-fair-cookbook/search.html?q=turing+way)。 与此相类似， _Ting Way_ 介绍了这个项目并提供了一个名为 [从FAIR 共同作者到FAIR Doer](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-stories.html) 由 Susanna-Assunta Sansone (FAIR Cookbook 项目的共同领导者)的撞击故事。 您可以在第 [章中找到更多的详细信息和背景，利用正在酝酿的路径书](https://fairplus.github.io/the-fair-cookbook/content/recipes/introduction/the-turing-way.html?highlight=turing)。
 
 ### Susanna-Assunta Sansone
 
