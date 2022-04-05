@@ -8,7 +8,7 @@ When people collaborate with others, no matter if they have already worked with 
 
 Think carefully about who your stakeholders are, if they are given fair opportunities to be heard, if certain groups are less represented than others, and if you have strategy in place to ensure diversity in your community.
 
-It is important to be mindful of the varying motivations your members will have behind joining to work on your project. 例如，COVID-19相关项目的情况。 您可以指望一些人会加入您，因为他们想知道COVID-19有什么类型的数据。 有些人在学习一些技能的同时打算成为一个小组的成员。 有些人只需要看看你正在做的事情。 一些人会加入你，因为他们有亲属患有COVID-19传染病，他们想要加速诊断过程。 随时准备欢迎他们对你的项目的不同看法。 Be prepared to welcome their diverse perspectives into your project.
+It is important to be mindful of the varying motivations your members will have behind joining to work on your project. For example, in the case of COVID-19 related projects, you can expect that some people will join you because they want to know what kind of data on COVID-19 exist, some will come with an intention to be part of a group while learning some skills, some will simply hang out to watch what you are doing, whereas some people will join you because they have relatives who are suffering from COVID-19 infection and they want to speed up the diagnostic process. Be prepared to welcome their diverse perspectives into your project.
 
 (cl-new-community-differences-circumstances)=
 ## People Have Different Personal Circumstances
