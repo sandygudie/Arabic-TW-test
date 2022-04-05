@@ -78,5 +78,5 @@ The table below compares features of distributed and centralised issue repositor
 
 ## Further Reading
 
-- Publicación del blog comparando la conveniencia y proximidad de la comunidad de Listas de Correo y Foros: [https://psychcentral.com/blog/mailing-lists-vers)[video] forums-community-convenience-closeness/](https://psychcentral.com/blog/mailing-lists-versus-forums-community-convenience-closeness/)
-- Blog publicado por [Tim Head](https://github.com/betatim):  [https://betatim.github.io/posts/though, hts-on-collective-thinking/](https://betatim.github.io/posts/thoughts-on-collective-thinking/)
+- Blog post comparing the convenience and community closeness of Mailing Lists and Forums: <https://psychcentral.com/blog/mailing-lists-versus-forums-community-convenience-closeness/>
+- Blog post by [Tim Head](https://github.com/betatim):  <https://betatim.github.io/posts/thoughts-on-collective-thinking/>
