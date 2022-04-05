@@ -21,7 +21,7 @@ In all cases, the goal is to use your programming experience to figure out how t
 
 ## For the reviewer
 
-- Check the required standards of the project. عادة ما تكون المعايير مكتوبة تحت `المبادئ التوجيهية المساهمة` من قبل المشروع الذي تسهم فيه.
+- Check the required standards of the project. The standards are typically written under `contributing guidelines` by the project you are contributing to.
 - Check the code meets basic project {ref}`style guide<rr-code-quality>`, if this is not automatically checked by {ref}`continuous integration (CI)<rr-ci>`.
 - Do the [tests](#tests) and [documentation](#documentation) conform to the standards?
 - Is all the code easily understood? Depending on the language, files may contain interfaces, classes or other type definitions, and functions (see [Architecture](#architecture)). The essential architectural concepts can be reviewed as follows:
@@ -37,11 +37,11 @@ In all cases, the goal is to use your programming experience to figure out how t
 
 ## Program level checklist
 
-إليك قائمة بالأمور التي يجب أخذها بعين الاعتبار عند النظر إلى البرنامج ككل، بدلاً من النظر إلى ملف أو تغيير فردي.
+Here is a list of things to consider when looking at the program as a whole, rather than when looking at an individual file or change.
 
 ### Documentation
 
-Documentation is a prerequisite for using, developing, and reviewing the program. يجب على أي شخص لا يشارك في مشروعك أن يفهم ما تفعله التعليمات البرمجية الخاصة بك، وما هو النهج الذي تتبعه. Here are some things to check for.
+Documentation is a prerequisite for using, developing, and reviewing the program. Someone who isn’t involved with your project should understand what your code does, and what approach you’re taking. Here are some things to check for.
 
 - Is there a description of the purpose of the program or library?
 - Are detailed requirements listed?
@@ -56,30 +56,30 @@ Documentation is a prerequisite for using, developing, and reviewing the program
 
 ### Architecture
 
-هذه العناصر مهمة بشكل رئيسي للبرامج الأكبر، ولكن قد تكون لا تزال جيدة للنظر فيها بالنسبة للبرامج الصغيرة أيضًا.
+These items are mainly important for larger programs, but may still be good to consider for small ones as well.
 
 - Is the program split up into clearly separated modules?
 - Are these modules as small as they can be?
-- هل هناك بنية تبعية واضحة أو هرمية أو طبقات بين هذه الوحدات؟
-  - إذا لم يكن الأمر كذلك، يجب إعادة ترتيب الوظيفة، أو ربما يجب دمج الوحدات المترابطة بكثير.
+- Is there a clear, hierarchical or layered, dependency structure between these modules?
+  - If not, the functionality should be rearranged, or perhaps heavily interdependent modules should be combined.
 - Can the design be simplified?
 
 ### Security
 
-إذا كنت تصنع برمجيات يمكن الوصول إليها للعالم الخارجي (على سبيل المثال تطبيق ويب )، يصبح الأمان مهما. مشاكل الأمان عيوب, ولكن ليست كل العيوب مشاكل أمنية. التصميم الواعي للأمن يمكن أن يساعد في تخفيف التأثير الأمني للعيوب.
+If you're making software that is accessible to the outside world (for example a web application), then security becomes important. Security issues are defects, but not all defects are security issues. A security-conscious design can help mitigate the security impact of defects.
 
 - Which modules deal with user input?
 - Which modules generate output?
 - Are input and output compartmentalized?
-  - إذا لم يكن الأمر كذلك، فكر في إنشاء وحدات منفصلة تدير كل المدخلات والمخرج، لذا يمكن التحقق من الصحة في مكان واحد.
+  - If not, consider making separate modules that manage all input and output, so validation can happen in one place.
 - In which modules is untrusted data present?
   - The fewer the better.
 - Is untrusted data compartmentalized?
-  - من الناحية المثالية، تحقق من صحة وحدة الإدخال وتمرير فقط البيانات التي تم التحقق منها إلى أجزاء أخرى.
+  - Ideally, validate in the input module and pass only validated data to other parts.
 
 ### Legal
 
-كمطور، يجب عليك أن تولي الاهتمام للحقوق القانونية لـ منشئي التعليمات البرمجية التي تستخدمها. Here are some things to check. عندما يكون موضع شك، اسأل شخصا ذا خبرة في الترخيص للحصول على المشورة.
+As a developer, you should pay attention to the legal rights of the creators of the code you're using. Here are some things to check. When in doubt, ask someone experienced in licensing for advice.
 
 - Are the licenses of all modules/libraries that are used documented?
 - Are the requirements set by those licenses fulfilled?
@@ -91,7 +91,7 @@ Documentation is a prerequisite for using, developing, and reviewing the program
 
 ## File/Change level checklist
 
-عندما تقوم بالتحقق من التغييرات الفردية أو الملفات في طلب الجذب، يصبح الرمز نفسه موضوع تمحيص. اعتمادا على اللغة، قد تحتوي الملفات على واجهات أو فئات أو تعاريف نوع آخر، ووظائف. يجب التحقق من كل هذه .
+When you're checking individual changes or files in a pull request, the code itself becomes the subject of scrutiny. Depending on the language, files may contain interfaces, classes or other type definitions, and functions. All these should be checked.
 
 ### Interfaces
 
