@@ -39,57 +39,49 @@ Name / Institute or affiliation / What specific aspect of GitHub do you find cha
 
 🗣️ Welcome!
 
-* 
-* 
-* 
+- Reminder: [Code of conduct & community participation guidelines](https://the-turing-way.netlify.app/community-handbook/coc.html)
+- If you experience or witness unacceptable behaviour, or have any other concerns, please report it by contacting the organisers - Malvika and Kirstie. ([theturingway@gmail.com](mailto:theturingway@gmail.com)).
 
-🗣️ 欢迎!
+### Roll call
 
-- 提醒：[行为守则 & 社区参与准则](https://the-turing-way.netlify.app/community-handbook/coc)。 tml
-- 如果您经历或见证了不可接受的行为，或有任何其他顾虑。 请联系组织者Malvika和Kirstie报告。 ([theturingway@gmail.com](mailto:theturingway@gmail.com)).
-
-([theturingway@gmail.com](mailto:theturingway@gmail.com)).
-
-### 滚称为
-
-- 名称/断开器问题：分享那些让你感到厌倦或最近给你带来和平的大自然中的东西——也许是一朵花， 一个视图，一个照片，一个精选的植物，一个飞过去的鸟…… 
+- Name / Icebreaker question: Share something from nature that has awed you or brought you peace recently - perhaps a flower, a view, a photo, a scent, a potted plant, a bird that flew past... 
 * 
 * 
 *  
 
 🗣️ Introduction to GitHub
 
-- Training materials: https://malvikasharan. ithub.io/developing_collaborative_document/
-- 幻灯片：[Friendly GitHub Intro](https://docs.google)。 om/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwEnkLrDy-Fd4/edit?usp=sharing)
-- Cheatsheet: https://guides.github.com/pdfs/markdown-cheatsheet-online。 df
+- Training materials: https://malvikasharan.github.io/developing_collaborative_document/
+- Slides: [Friendly GitHub Intro](https://docs.google.com/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/edit?usp=sharing)
+- Cheatsheet: https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 
-**断路室任务：** 
+**Breakout room task:** 
 - 
 - 
 - 
 
 **Resources** :
 
-- 有用的GitHub 资源
-  - [GitHub for Collaboration (from Mozilla)](https://mozilla)。 io/open-leadership-training-series/articles/github-for-collaboration/)
-  - [了解GitHub workflow](https://guides. ithub.com/introduction/flow/
-  - [友好的Github Intro Workshop (来自Danielle Robinson)](https://daniellecrobinson.github.io/friendly-github-intro/)
-  - [GitHub help](https://help.github. om/)
-  - [[Oh Shit, Git!?!](http://ohshitgit.com/)
-  - [尝试Git](https://try.github)。 o/)
+- Useful GitHub resources
+  - [GitHub for Collaboration (from Mozilla)](https://mozilla.github.io/open-leadership-training-series/articles/github-for-collaboration/)
+  - [Understanding the GitHub workflow](https://guides.github.com/introduction/flow/)
+  - [A Friendly Github Intro Workshop (from Danielle Robinson)](https://daniellecrobinson.github.io/friendly-github-intro/)
+  - [GitHub help](https://help.github.com/)
+  - [Oh Shit, Git!?!](http://ohshitgit.com/)
+  - [Try Git](https://try.github.io/)
   - [Git book](https://git-scm.com/book/en/v2)
-  - [GitHub glossary](https://github) om/joeyklee/friendly-github-intro/blob/master/glossary.md)
-  - [writting on Github](https://help.github.com/categories/writting-on-github/)
-  - [Markdown Cheatsheet](https://github. om/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+  - [GitHub glossary](https://github.com/joeyklee/friendly-github-intro/blob/master/glossary.md)
+  - [Writing on Github](https://help.github.com/categories/writing-on-github/)
+  - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
   - [Git workflow](https://www.atlassian.com/git/tutorials/comparing-workflows)
 
 **Questions / Comments?**
   - 
   -
 
-**反馈**
+**Feedback**
 
-哪些有效？ What did not work? What additional support would you need before or during the Book Dash?
+What worked? What did not work? What additional support would you need before or during the Book Dash?
 
 -
 -
