@@ -1,7 +1,7 @@
 (cl-remote-collab-manage-teams)=
 # Managing Distributed Teams
 
-En los capítulos de {ref}`cl-new-community` y {ref}`<code>Liderazgo en Ciencias de Datos<cl-leadership>` </code>, ya hemos discutido en profundidad cómo podemos administrar una nueva comunidad en línea y crear un liderazgo saludable para un equipo. Therefore, in this subchapter, we have listed a few reminders of tasks that are specifically important for managing distributed teams.
+In the {ref}`cl-new-community` and {ref}`Leadership in Data Science<cl-leadership>` chapters, we have already discussed in-depth how we can manage a new online community and build healthy leadership for a team. Therefore, in this subchapter, we have listed a few reminders of tasks that are specifically important for managing distributed teams.
 
 - Set clear expectations for the team members about the project and their roles and responsibilities.
 - Help establish all modes of communication, tools, and resources according to the team's requirements for both their project and social interactions.
