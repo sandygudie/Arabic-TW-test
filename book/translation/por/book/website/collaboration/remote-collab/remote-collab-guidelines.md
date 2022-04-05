@@ -1,83 +1,83 @@
 (cl-remote-collab-guidelines)=
-# Diretrizes para colaboração remota
+# Guidelines for Remote Collaboration
 
-Neste contexto, As diretrizes são um conjunto de regras ou protocolos que podem criar um terreno comum para todos comunicarem e trocarem informações dentro de uma equipe distribuída para uma colaboração eficaz e bem-sucedida.
+In this context, guidelines are a set of rules or protocols that can create a common ground for everyone to communicate and exchange information within a distributed team for effective and successful collaboration.
 
-A principal motivação é definir orientações claras em torno das expectativas sobre ferramentas de comunicação, etiqueta para reuniões on-line, tarefas, cronogramas e cronogramas antecipadamente para o arranjo colaborativo e remoto e distribuído em uma equipe ou comunidade.
+The main motivation is to set clear guidelines around expectations on communication tools, etiquette for online meetings, tasks, timelines and schedules in advance for the remote and distributed collaborative working arrangement in a team or community.
 
-## Modo de comunicação e colaboração
+## Mode of communication and collaboration
 <!---Add details and more points point to other chapters for details--->
 
-Isso deve fornecer detalhes considerando:
-- Ferramentas / software a serem usadas para entrar/participar das chamadas on-line.
-- Recomendações sobre os tipos de equipamento que podem fornecer aos participantes a experiência esperada pelos organizadores.
-- Medidas que serão mantidas em vigor para manter as interações e o intercâmbio de dados seguros.
-- Como os participantes podem obter acesso a esses recursos e ferramentas.
-- Formas de melhorar a visibilidade e a acessibilidade a estas ferramentas.
+This should provide details regarding:
+- The tools/software to be used for joining/attending the online calls.
+- Recommendations for the types of equipment that can provide participants with the experience as expected by the organisers.
+- Measures that will be kept in place to keep interactions and data exchange secure.
+- How participants can gain access to these resources and tool.
+- Ways to improve visibility and accessibility to these tools.
 
-Para obter uma lista de ferramentas colaborativas veja {ref}`este subcapítulo<cl-remote-collab-tools>`.
+For a list of collaborative tools see {ref}`this subchapter<cl-remote-collab-tools>`.
 
-## Diferentes maneiras para interações informais
+## Different ways for informal interactions
 <!---Add details and more points point to other chapters for details--->
-Interações informais são instrumentais para garantir o envolvimento total dos seus participantes, portanto fornece maneiras para:
-- Incentivar conversas casuais de equipe entre reuniões, definindo algumas discussões/planos de interação sociais pré-planejados.
-- Ajudar as pessoas de diferentes fusos horários a alcançar e construir um sentimento de pertença (por exemplo, através de notas compartilhadas ou e-mails de resumo).
+Informal interactions are instrumental for ensuring full engagement of your participants, therefore provide ways for:
+- Encouraging casual team conversations between meetings by setting some pre-planned social discussions/interaction plans.
+- Helping people from different time zones to catch up and build a sense of belonging (for example, by shared notes or summary emails).
 
-## Compartilhando dados, recursos e documentação
+## Sharing data, resources and documentation
 <!---Add details and more points point to other chapters for details--->
-Junte algumas recomendações e diretrizes para compartilhar dados (dados de pesquisa, informações pessoais), recursos (ferramentas e equipamento) e documentação (políticas, manuais).
+Put together some recommendations and guidelines for sharing data (research data, personal information), resources (tools and equipment) and documentation (policies, manuals).
 
-Estas recomendações devem incluir:
-- A plataforma preferida para compartilhar dados de pesquisa (publicados e não publicados).
-  - Decida a maneira mais apropriada para compartilhar dados, documentos, scripts de análise por exemplo, fornecendo unidades e repositórios compartilhados no Google, GitHub ou outras plataformas similares.
-- Como proteger informações confidenciais como dados e senha.
-- Manuais e treinamento para configurar uma conta e manter o acesso.
-- Localização de documentos diferentes da organização que são fáceis de encontrar.
-- Suporte para instalação e solução de problemas.
+These recommendations should include:
+- The preferred platform for sharing research data (published and unpublished).
+  - Decide on the most appropriate way to share data, documents, analysis scripts, such as by providing shared drives and repositories on Google, GitHub or other similar platforms.
+- How to protect sensitive information such as data and password.
+- Manuals and training for setting up an account and maintaining access.
+- Locations of different documents from the organisation that are easy to find.
+- Helpdesk or support for setup and troubleshooting.
 
-## Planejamento de reuniões, agendamento e agenda
+## Planning meetings, scheduling, and agenda
 <!---Add details and more points point to other chapters for details--->
-Estabeleça tarefas e marcos chave no início do projeto para determinar como as reuniões serão planejadas, programadas e organizadas.
-- Decida a frequência das suas reuniões e defina um protocolo.
-- Uma vez que um protocolo seja estabelecido, circule e reve-o dentro da equipe, para garantir uma compreensão comum de tarefas e objetivos.
-- Agende reuniões que entrem em todos os fusos horários, tenha um horário regular e envie convites de agenda para evitar confusões.
-- Convide todos os participantes em coletar pontos de agenda.
-- Se uma equipe for grande, dividida em grupos de subprojetos para criar uma rede mais forte.
-- Agendamento rotativo para cadeiras e anotadores da equipe.
+Establish key tasks and milestones at the beginning of the project to determine how meetings will be planned, scheduled and organised.
+- Decide on the frequency of your meetings and set a protocol.
+- Once a protocol has been established, circulate and review it within the team to ensure a common understanding of tasks and goals.
+- Schedule meetings that are effective across time zones, have a regular time slot and send out calendar invites to avoid confusions.
+- Invite everyone's input in collecting agenda points.
+- If a team is big, split into sub-project groups to create a stronger network.
+- Rotating schedule for chairs and note-takers from the team.
 
-## Etiqueta para reuniões e comunicações on-line
+## Etiquette for online meetings and communications
 <!---Add details and more points point to other chapters for details--->
-Seus participantes devem saber como se espera participar de uma reunião. Isso inclui detalhes de como eles podem contribuir para uma discussão em curso (levantar a mão fisicamente ou usar uma funcionalidade em seu software de hospedagem de chamadas), como podem compartilhar pensamentos se não se sentem confortáveis em conversar ou como podem ajudar a criar um ambiente globalmente acolhedor.
-- Estabeleça um formato de comunicação dentro de todo o grupo e subgrupos.
-  - Comunicar claramente qual ferramenta será usada, por exemplo, o Zoom para a chamada, o Google Docs para documentação e o Trello para pontos de ação.
-- Crie uma agenda predefinida com uma cadeira alocada e um tomador de notas para evitar a informalidade e a perda de foco.
-- Diretrizes de pré-comunicação para a criação de um espaço seguro para interações inclusivas on-line, incluindo:
-  - Silenciar microfone quando não estiver conversando.
-  - Manter a câmera de vídeo ligada quando estiver em uma reunião fechada.
-  - Dar a opção de desligar o vídeo se a chamada estiver sendo gravada.
-  - Compartilhe dicas sobre como "levantar a mão" para participar de uma discussão, no bate-papo, fisicamente ou usando um emoji.
-  - Envie uma orientação para os oradores, as cadeiras, os leitores de notas e as pessoas com responsabilidades diferentes.
-- Informe claramente como participar e saia de uma reunião.
-  - Existe uma regra específica para se juntar atrasado ou sair mais cedo?
-- Mire em manter a flexibilidade e reduza a formalidade
-  - Isto é particularmente útil para as pessoas que trabalham de casa e que vão ter os seus familiares e animais de companhia à sua volta.
+Your participants must know how they are expected to participate in a meeting. This includes details on how they can contribute to an ongoing discussion (raise hand physically, or use a feature in your call hosting software), how they can share thoughts if they don't feel comfortable talking or how they can help create an overall welcoming environment.
+- Establish a format of communication within the whole group and subgroups.
+  - Communicate clearly which tool will be used, for example, Zoom for the call, Google Docs for documentation, Trello for action points.
+- Create a pre-defined agenda with an allocated chair and note-taker to prevent informality and loss of focus.
+- Pre-communicate guidelines for creating a safe space for inclusive interactions online, including:
+  - Muting microphone when not talking.
+  - Keeping video camera on when in a closed meeting.
+  - Give the option to switch off the video if the call is being recorded.
+  - Share tips on how to 'raise hand' to participate in a discussion, on chat, physically, or using an emoji.
+  - Send out a guideline for speakers, chairs, note takers and people with different responsibilities.
+- Communicate clearly how to join and leave a meeting.
+  - Is there a particular rule for joining late or leaving early?
+- Aim to maintain flexibility and reduce formality
+  - This is particularly useful for people who are working from home and will have their family members and pets around.
 
-## Acompanhe e-mails e comunicações para criar responsabilidade
+## Follow up emails and communications for creating accountability
 <!---Add details and more points point to other chapters for details--->
-Seguir com os participantes após a reunião é uma boa maneira de compartilhar as duas principais mensagens da reunião, pontos de ação que foram criados para pessoas diferentes e pedir feedback quando necessário.
-- Certifique-se de que todos saibam qual seu papel e responsabilidades são.
-- Acompanhe regularmente as equipes e os indivíduos.
-  - Isto deve ser feito para celebrar o êxito em vez de a microgestão.
+Following up with the participants after the meeting is a good way to both share the key messages from the meeting, action points that have been created for different people and to ask for feedback when needed.
+- Make sure that everyone knows what their role and responsibilities are.
+- Follow up with teams and individuals regularly.
+  - This should be done to celebrate success rather than micromanaging.
 
-## Mais algumas dicas para manter a equipe engajada
+## A few more tips for keeping the team engaged
 <!---Add details and more points point to other chapters for details--->
-- Defina claramente as responsabilidades das equipes de liderança (hospedeiro, tomador, guardião e suporte técnico).
-- Escolha modos de engajamento que sejam adequados tanto para introvertidos quanto para extrovertidos.
-- Crie oportunidades de construção de competências e treinamento além do trabalho.
-- Agende reuniões informais como cofres virtuais e jogos online.
+- Set the leadership teams responsibilities clearly (host, note-taker, gatekeeper and technical support).
+- Choose modes of engagement that are suitable for both introverts or extroverts.
+- Create opportunities for skill-building and training beyond work.
+- Schedule informal meetings like virtual coffees and online games.
 
-## Leitura adicional
+## Further reading
 
-- [Deanna deBara, o guia final para reuniões remotas em 2020](https://slackhq.com/ultimate-guide-remote-meetings), 2 de janeiro de 2020
+- [Deanna deBara, The ultimate guide to remote meetings in 2020](https://slackhq.com/ultimate-guide-remote-meetings), January 2, 2020
 
-***Tags de Capítulo**: Este capítulo é curado pelo `Grupo de Estudo de Dados de Turing` (`turing-dsg`).*
+***Chapter Tags**: This chapter is curated for the `Turing Data Study Group` (`turing-dsg`).*
