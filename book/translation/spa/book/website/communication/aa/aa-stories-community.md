@@ -1,4 +1,4 @@
-(cm-aa-cuentos-comunidad)=
+(cm-aa-stories-community)=
 # Personal stories - Large Collaborative Research Community
 
 ## Discussion with Remi Gau and Isil Poraz Bilgin from the Brainhack community
@@ -13,7 +13,7 @@ Brainhack is an open science community that has an innovative meeting format to 
 * [Github](https://github.com/complexbrains)
 * [Twitter](https://twitter.com/complexbrains)
 
-**1. ¿Cuál es la *práctica normal* de la autoría de los documentos académicos en tu disciplina? o solía ser la práctica normal? or used to be the normal practice?**
+**1. What is the *normal* practice of authorship for academic papers in your discipline? or used to be the normal practice?**
 
 **Remi:** My background is in Biology and Psychology. Most papers are multi-author and so have more than one author. Single authorship can happen but not for experimental work. This work usually involves at least a Principal Investigator with a Postdoctoral Researcher or PhD student.
 
@@ -92,7 +92,7 @@ Due to the personal time schedules and commitments, some people were only able t
 
 There was also a master editing team to unify all these sections and another team to work on the figures, tables and glossary.
 
-Very early on we realised that the paper would be this fixed thing. However, we wanted there to be an evolving version. We were restricted with the word limit to the paper and we wanted to spill over with all the ideas and keep evolving so we started a Jupyter book. Así que también hay un equipo trabajando en el [libro de Jupyter](http://brainhack.org/brainhack_jupyter_book/).
+Very early on we realised that the paper would be this fixed thing. However, we wanted there to be an evolving version. We were restricted with the word limit to the paper and we wanted to spill over with all the ideas and keep evolving so we started a Jupyter book. So there is also a team working on the [Jupyter book](http://brainhack.org/brainhack_jupyter_book/).
 
 Once all of the sections were written and then passed to the editing team, they were sent to the co-authors.
 
