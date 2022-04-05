@@ -18,7 +18,7 @@ We can map the definitions of reproducibly on the Freire framework as follows:
 
 Portability was not previously considered, but for software a different environment (such as different hardware, operating system or even a fresh install on comparable hardware) may affect the ability for the software to work (for example it may affect dependencies).
 
-Além disso, o Generalisable encapsula dois conceitos: Extensível (a habilidade de se integrar com outros softwares) e modificável (a habilidade de alterar parte da implementação para estender sua funcionalidade).
+Also, Generalisable encapsulates two concepts: Extendable (the ability to integrate with other software) and Modifiable (the ability to change part of the implementation to extend its functionality).
 
 In the rest of this chapter we provide list of recommendations you can follow to make sure your code is reusable.
 
