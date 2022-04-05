@@ -23,7 +23,7 @@ Empty files included Turing Way's Table of Contents can still be accessed by rea
 
 A general suggestion is to remove references to such files from the ToC and raise an issue in _The Turing Way_ Github [repo](https://github.com/alan-turing-institute/the-turing-way) for content to be written for those files. When the content is written, the files can then be added to the ToC.
 
-Por ejemplo, [esta incidencia](https://github.com/alan-turing-institute/the-turing-way/issues/1391) cura una lista de archivos vacíos e incompletos actualmente en _The Turing Way_, y [este PR](https://github.com/alan-turing-institute/the-turing-way/pull/1448) escribe contenido para el subcapítulo de `Licencias de datos` que se muestra en el {ref}`imagen <empty-toc-file>`.
+For example, [this issue](https://github.com/alan-turing-institute/the-turing-way/issues/1391) curates a list of empty and incomplete files currently in _The Turing Way_, and [this PR](https://github.com/alan-turing-institute/the-turing-way/pull/1448) writes content for the `Data Licences` subchapter shown in the {ref}`image <empty-toc-file>`.
 
 (ch-consistency-structure-hr-structure)=
 ### Check 2: Ensure chapters follow a consistent structure
@@ -76,9 +76,9 @@ The manually written table of contents is unnecessary as Jupyter Book auto-gener
 (ch-consistency-structure-hr-citing)=
 ### Ensure external sources are properly cited and referenced
 
-Como se describe en la guía de estilo {ref}`<ch-style-citing>`, _Las referencias de la Vía Turística_se almacenan en un archivo BibTeX llamado `referencias. ib`. Al escribir un nuevo contenido, asegúrese de que la información eliminada de fuentes externas se cite usando el formato BibTeX y se agregue a las referencias `.</p>
+As described in the {ref}`style guide<ch-style-citing>`, _The Turing Way_'s book-wide references are stored in a BibTeX file called `references.bib`. When writing new content, ensure that information culled from external sources are cited using the BibTeX format and added to the `references.bib` file as appropriate.
 
-<p spaces-before="0">The {ref}<code>style guide<ch-style-citing>` demonstrates how to add a new reference to the centralised BibTeX file, and shows how this reference can be included in your writing.
+The {ref}`style guide<ch-style-citing>` demonstrates how to add a new reference to the centralised BibTeX file, and shows how this reference can be included in your writing.
 
 
 (ch-consistency-structure-soft-req)=
