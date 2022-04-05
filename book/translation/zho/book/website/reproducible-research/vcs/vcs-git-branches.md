@@ -16,8 +16,9 @@ Using branches keeps working code safe, particularly in collaborations. Each con
 ```{figure} ../../figures/sub-branch.png
 ---
 name: sub-branch
-alt: An illustration of branching in Git. There are four branches shown named main, Feature A, Feature B, and Feature A-1. 特征A和特征B是主要分支的分支，而特征A-1则是由特征A制成的分支。 ---
-在Git中显示分支的示例
+alt: An illustration of branching in Git. There are four branches shown named main, Feature A, Feature B, and Feature A-1. Feature A and B are branches of the main branch, while Feature A-1 is a branch made from Feature A.
+---
+An illustration of branching in Git
 ```
 
 You can create a branch and switch to it using:
@@ -51,4 +52,4 @@ Branches should be used to **keep the main branch clean**. That is, the main sho
 
 ## Interactive tutorial
 
-[Learn Git Branching](https://learngitbranching.js.org/) is a project to provide an interactive way to learn Git. 通过 通过他们的教程将提供最常用的 git 命令和分支操作技术的丰富经验。
+[Learn Git Branching](https://learngitbranching.js.org/) is a project to provide an interactive way to learn Git. Going through their tutorials will provide substantial experience with the most commonly used git commands and branch manipulation techniques.
