@@ -35,7 +35,7 @@ Authors
 
 To reference terms in your glossary, use the syntax ``[{term}`def<Term>`]``.
 
-例如，将“作者”一词与其术语表文件中的定义联系起来， 请使用语法 ``[{term}`def<Authors>`]`` 此术语出现的旁边， 应该像这样渲染在线的作者: "*作者 [{term}`def<Authors>`] 已经在这里被引用。 *"
+For example, to link the term 'Authors' to its definition in the glossary file, please use the syntax ``[{term}`def<Authors>`]`` next to where this term appears, which should render online like this: "*Authors [{term}`def<Authors>`] has been referenced here.*"
 
 (ch-style-more-features-blocks)=
 ## Special Content Blocks
