@@ -1,33 +1,33 @@
-(er-self-reference-identity-position)=
-# 身份和定位性
+(er-self-reflection-identity-positionality)=
+# Identity and positionality
 
-传统的科学培训可能使我们相信，客观地分析和解释数据是可能的。 这往往是因为大多数科学和数据往往被视为固有的中立性。 然而，我们现在知道收集数据的方式， 记录和使用可能对数据科学系统的公平、问责制和偏见造成重大问题。 例如，我们可以选择一种模型的培训数据，而不考虑它是否以某种特定方式具有代表性。 或者我们可能不考虑色盲者是否能够访问数据视觉化。
+Traditional science training may lead us to believe that it is possible to analyse and interpret data objectively. This tends to be because most sciences, and data, are often seen as being inherently neutral. However, we know now that the way data is collected, recorded and used can create significant problems for fairness, accountability and bias in data science systems. For example, we might choose training data for a model without thinking to consider whether it is representative in a particular way, or we might not consider whether a data visualisation is accessible to people with color blindness.
 
-有些学派说，真正的客观性是不可能的，因为每个人都有自己的亲身经历。 这为我们看到世界提供了透镜，并影响我们的行为方式，包括我们如何进行研究。 这些因素可能是像我们解决某个特定问题的动机那样的“宏观”影响，或是像我们在数字上代表社会概念的方式那样的“微观”影响。   
+Some schools of thought say that true objectivity is impossible because every person comes with their own lived experiences. This provides the lenses through which we see the world and influences the way we behave, including how we do research. 这些因素可能是像我们解决某个特定问题的动机那样的“宏观”影响，或是像我们在数字上代表社会概念的方式那样的“微观”影响。   
 虽然对我们所有人体验世界的个别方式有许多好处， 每个人所采取的单一观点也可能使我们的想法和工作方式中含有未见到的偏见。
 
-通过更好地了解我们自己，我们可以更加积极主动地发现我们可能存在偏见或知识空白之处。 这意味着我们可以透明地了解我们的独特观点如何影响我们的工作方式，它有利于科学的完整性和可再生性。 它也有助于我们查明可能不会受到挑战的系统性和结构性障碍，并努力克服这些障碍。 为了使我们的研究环境更具包容性(见 {ref}`Activism<er-activism>`)。
+By better understanding ourselves, we can be more proactive about spotting where we might hold biases or gaps in our knowledge. This means we can be transparent about how our unique view has influenced the way we work, which is beneficial to scientific integrity and reproducibility. It can also help us to identify and work against systemic and structural barriers that might otherwise go unchallenged, in order to make our research environments more inclusive (see {ref}`Activism<er-activism>`).
 
-放置我们的身份， 在我们的研究中获得知识的社会文化地位和理论方法 [{term}`def<Epistemology>`] 被称为我们的 *定位性*。 我们可以通过 *reflexity*的实践来理解我们的位置， 这是使用 *自我思考的过程* [{term}`def<Self Reflection>`] 更好地理解我们的身份和经验如何影响我们的工作方式。
+The placement of our identities, socio-cultural position and epistemological approach [{term}`def<Epistemology>`] to knowledge in the context of our research is called our *positionality*. We can understand our positionality through the practice of *reflexivity*, which is the process of using *self-reflection* [{term}`def<Self Reflection>`] to better understand how our identities and experiences influence the way we behave in our work.
 
-(er-sel-reference-socio-graces)=
-## 对自己的认识
+(er-self-reflection-social-graces)=
+## Understanding ourselves
 
-自我反思和反思可能具有挑战性，需要时间和实践才能感到自然。 要发挥最大的效力， 随着我们不断变化和我们周围的世界的发展，它们应该在我们的整个工作中得到利用，并且永远不会“完成”。
+Self-reflection and reflexivity can be challenging, and takes time and practice to feel natural. To be most effective, they should be employed throughout our work and will never be 'finished' as we constantly change and so does the world around us.
 
-为了帮助启动，有许多框架可以用作指南。 其中之一叫做“社会坟墓”，是由心理治疗家约翰·伯恩哈姆开发的。 1990年代的Alison Roper-Hall和同事 {cite:ps}`烧毁2018开发`
+In order to help get started, there are lots of frameworks that can be used as a guide. One of these is called the 'Social Graces', which was developed by psychotherapists John Burnham, Alison Roper-Hall and colleagues in the 1990s {cite:ps}`burnham2018developments`.
 
-社会阶级可以帮助涵盖影响我们权力和特权的身份特征。 它们不是固定的，您可以选择最相关的，或者添加更多。 社会阶级的想法是明确指出权力差异，这种差异在我们的互动中可能是明显可见的或看不到的。
+The Social Graces are a mnemonic to help cover aspects of identity that affect our power and privilege. They are not fixed and you can choose the most relevant ones, or add more. The idea of the Social Graces was to explicitly name power differentials, which might be visible or invisible in our interactions.
 
-- **G** = 性别，地理分布
-- **R** = 种族，Religion
-- **A** = 年龄、能力、外观
-- **C** = 类别，文化
-- **E** = 族裔、教育、就业
-- **S** = 性行为、性取向、灵性
+- **G** = Gender, Geography
+- **R** = Race, Religion
+- **A** = Age, Ability, Appearance
+- **C** = Class, Culture
+- **E** = Ethnicity, Education, Employment
+- **S** = Sexuality, Sexual Orientation, Spirituality
 
-格拉斯是一个有用的地方，可以开始思考你的交叉身份。
+The Graces are a helpful place to start thinking about your intersecting identities.
 
-提出以下问题也是有益的：
-- 我特别指明了哪些社会阶级？ 是否有些人站在我面前？
-- 哪些社会阶级对我来说并不突出，这种情况为何如此？ 
+It can also be helpful to ask:
+- Which of the Social Graces do I particularly identify with? Are there some that stood out to me right away?
+- Which Social Graces did not stand out to me, and why might that be? 
