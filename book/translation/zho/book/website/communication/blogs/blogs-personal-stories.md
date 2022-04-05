@@ -12,15 +12,15 @@ You can find out more about her work from the links below:
 
 We would like to thank **Dr Veronika Cheplygina** for answering our interview questions about her very successful blog series called ['How I fail'](https://veronikach.com/failure/).
 
-## 1. 1. 您为什么要开始博客？
+## 1. Why did you start your blog?
 
 Very originally (during university) I wanted to have a blog because I was interested in setting it up, and not actually in writing anything. I did try to write some awkward posts, but felt mostly embarrassed about them and ended up deleting them. Only during my PhD/postdoc, I think, I started writing more frequently, mostly updates about my work, exploring productivity tools, and failures.
 
-## 2. 2. 您是如何开始的？
+## 2. How did you get started?
 
 As described above it was quite gradual, the first blog I set up, I programmed in PHP myself (and it had lots of bugs). Then I switched to a free WordPress blog and then installed WordPress on my website. As for writing on the blog, when I did start to write more, I made it a habit to write (for example) once a week, and it became more natural after a while. Also, it became more clear what is really "my" topics to write about, or not. The CV of Failures I shared during my postdoc resonated, and that later turned into the How I Fail series.
 
-## 3. 3. 你认为你的博客对你的研究/项目/社区有什么影响？
+## 3. What impact do you think your blog is making on your research/project/community?
 
 It helps people to see stories by other real people, and relate to the issues that are discussed.
 
@@ -33,23 +33,23 @@ I am not sure there is an explicit community, but I do feel like I have a suppor
 For the blog, I have a sense of what kind of person reads my blog, even if I have never met them. It's great to see the statistics for previous blog posts, and receive a thank you email or message once in a while.
 
 
-## 4. 4. 您用什么工具/软件来制作您的博客？
+## 4. What tools/software do you use most to produce your blog?
 
 Primarily WordPress. I use Mailchimp to send out a newsletter (only if there are any new posts) and Canva if I make graphics (but usually I'm too lazy). WordPress shares my new posts to Twitter and LinkedIn.
 
-## 5. 5. 您对其他可能有兴趣开始博客的人有什么顶级提示吗？
+## 5. Do you have any top tips for other people that might be interested in starting a blog?
 
 Make it a habit to post something. Review your posts after a while to see what kind of tags/categories you seem to use more often, and which kind get more responses.
 
-## 6. 6. 您在事情上有什么要避免的提示吗？
+## 6. Do you have any tips on things to avoid?
 
 Don't fall into the "X step simple formula for bloggers" which is optimized to create short content with lots of clicks. There are lots of types of "real" blogs that do not do this, and which have dedicated readers.
 
-## 7. 7. 您将来在哪里看到您的博客？
+## 7. Where do you see your blog going in the future?
 
 It's been on the back burner a bit last year, so first of all I would like to get back to writing regularly. I'm also thinking about compressing some of the information into a book, for example, but I haven't quite decided on the format yet.
 
-## 8. 8. 您想要分享的其他东西吗？
+## 8. Is there anything else that you want to share?
 
 It's like running, it's better to just start and go regularly, instead of waiting until you have professional shoes.
 
