@@ -5,8 +5,8 @@ Internal policy advocacy is when individuals or groups associated with an organi
 
 ```{figure} ../figures/advocacy.jpg
 ---
-nombre: abogacía
-alt: Una persona firma una petición sostenida por otra persona.
+name: advocacy
+alt: One person signs a petition held by another person, in front of a group of people marching under a banner reading "Advocacy!"
 ---
 There are different ways to take part in advocacy. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.4906004](https://doi.org/10.5281/zenodo.4906004).
 ```
@@ -15,7 +15,7 @@ There are different ways to take part in advocacy. _The Turing Way_ project illu
 A basic set of steps you can take for internal policy advocacy (adapted from [guidelines](https://knowhow.ncvo.org.uk/how-to/how-to-run-effective-campaigns) produced by the NCVO in the UK, used under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license):
 1. Define the issue
     - What is the problem that you are concerned about?
-    - Is it linked to other issues or policies? ¿Está vinculado a otras cuestiones o políticas? Herramientas como [árboles de problemas](https://www.odi.org/publications/5258-planning-tools-problem-tree-analysis) pueden ser útiles para mapear qué más está contribuyendo al problema. It might be the case that the policy you are worried about builds on other internal policies or problems. You might want to campaign against those instead.
+    - Is it linked to other issues or policies? Tools like [problem trees](https://www.odi.org/publications/5258-planning-tools-problem-tree-analysis) can be useful to map out what else is contributing to the problem. It might be the case that the policy you are worried about builds on other internal policies or problems. You might want to campaign against those instead.
     - Can you encapsulate the problem in a short, easy-to-understand message?
 2. Gather evidence
     - Research the issue you are campaigning about thoroughly
@@ -28,7 +28,7 @@ A basic set of steps you can take for internal policy advocacy (adapted from [gu
     - Get endorsement from people who hold power in your field, or in other areas
     - Find ways to involve your colleagues, inside and outside the organisation: for example, signing a petition can be a first step
 4. Know who to lobby
-    - Identify your routes of influence. ¿Quién está en condiciones de cambiar? ¿Cómo llegarás? How will you reach them?
+    - Identify your routes of influence. Who is in a position to make change? How will you reach them?
     - Think about your own contacts: can you reach people in charge directly, or do you need to go via other people
     - Don't get disheartened at the first hurdle, lobbying is hard work!
 5. Use a range of tactics
