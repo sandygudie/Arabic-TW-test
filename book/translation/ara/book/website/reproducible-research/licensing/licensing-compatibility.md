@@ -23,12 +23,12 @@ Many of the examples in this section relate to [xtas](http://xtas.net). xtas is 
 ```{figure} ../../figures/xtas-overview96.png
 ---
 name: xtas-overview96
-alt: A graphical overview of xtas. A large rectangle represents the combined work xtas. Within this rectangle, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Underneath this, there are three side-by-side squares, representing respectively Python libraries, software, and data, that are used by xtas. Within the Python libraries square, there are three boxes. داخل مربع مكتبات بايتون، هناك ثلاثة صناديق يحتوي المربع الأول على كلمات "BSD" و "MIT" و "ALv2". The second box contains "LGPLv2.1". The third box contains "GPLv2+". Within the Software square, there are four boxes. داخل مربع البرمجيات، هناك أربعة صناديق الصندوق الأول يحتوي على "خدمة الويب". The second box contains "LGPL v2.1+". The third box contains "Research only", and the fourth box contains "GPL 2+/3+". The Data square also contains four boxes. The first box contains "CC BY-SA 3.0". The second box contains "Research Only". The third box contains "No license, US" and the fourth box contains "CoNLL'02 only".
+alt: A graphical overview of xtas. A large rectangle represents the combined work xtas. Within this rectangle, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Underneath this, there are three side-by-side squares, representing respectively Python libraries, software, and data, that are used by xtas. Within the Python libraries square, there are three boxes. The first box contains the words "BSD", "MIT" and "ALv2". The second box contains "LGPLv2.1". The third box contains "GPLv2+". Within the Software square, there are four boxes. The first box contains "Web Service". The second box contains "LGPL v2.1+". The third box contains "Research only", and the fourth box contains "GPL 2+/3+". The Data square also contains four boxes. The first box contains "CC BY-SA 3.0". The second box contains "Research Only". The third box contains "No license, US" and the fourth box contains "CoNLL'02 only".
 ---
 A graphical overview of xtas.
 ```
 
-المكونات الأربعة غير xtas تخضع لتراخيص البرمجيات الحرة، ويملك مؤلفو xtas حقوق التأليف والنشر في رمز xtas Python، بحيث يمكن توزيع جميع المكونات الخمسة بواسطة مؤلفي xtas . BSD LGPLv2 و GPLv2+ الجميع يسمحون بترخيص العمل المجمع تحت الإصدار 2 أو أكثر من GPL، لذلك هناك ترخيص واحد على الأقل يمكن ترخيصه للعمل المشترك بموجبه.
+xtas itself is written in Python, and it uses a number of Python libraries that are licensed under common free licenses. These include the simple permissive BSD and MIT licenses, the permissive Apache License version 2.0 (ALv2), the GNU Lesser General Public License version 2.1 (LGPLv2.1), and the GNU General Public License version 2 or later (GPLv2+).
 
 (Note that the dependency on the GPLv2+ Python library is deprecated, but for the sake of these examples, we will assume it to still be there.)
 
@@ -98,7 +98,7 @@ xtas as a whole, and the xtas Python code, can be licensed in any way the author
 ```{figure} ../../figures/xtas-unidecode96.png
 ---
 name: xtas-unidecode96
-alt: مثال مثال xtas vs. unidecode ويمثل المستطيل الكبير العمل المشترك xta. يمثل المستطيل الكبير العمل المشترك xta. Within this rectangle, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Below that is a square containing the words "unidecode" and "Python lib GPLv2+".
+alt: An illustration of the xtas vs. unidecode example. The large rectangle represents the combined work xtas. Within this rectangle, there is a wide low rectangle at the top representing the xtas Python code, licensed under the Apache License v2. Below that is a square containing the words "unidecode" and "Python lib GPLv2+".
 ---
 An illustration of the xtas vs. unidecode example.
 ```
@@ -127,7 +127,7 @@ The xtas authors should choose a license for the xtas Python code that is compat
 
 The combined work should then be licensed under the GPL version 3 or later. If it is important that it can be used under the GPLv2 as well, then the xtas authors can license the xtas Python code under both the ALv2 and the GPLv2 (meaning, they offer both licenses, and the user can choose to accept either or both), and the combined work under the GPL version 2 or later.
 
-Finally, it may be decided later that the xtas Python source code is a derivative work of unidecode because it calls into it. حتى لو لم يدرج في العمل أي رمز غير مدمج، ثم يجب على مؤلفي xtas توزيع رمز xtas Python تحت واحد على الأقل من رخص GPL التي توزع تحت الرمز unidecode في تلك الحالة، يمكنهم تقديم xtas بموجب مجموعة تراخيص ALv2 و GPLv2+. In that case, they can offer xtas under the ALv2 and GPLv2+ set of licenses.
+Finally, it may be decided later that the xtas Python source code is a derivative work of unidecode because it calls into it. Even if none of unidecode is included in the work, then the xtas authors must distribute the xtas Python code under at least one of the GPL licenses that unidecode is distributed under. In that case, they can offer xtas under the ALv2 and GPLv2+ set of licenses.
 
 The simplest solution, in this case, would be to simply license the xtas Python code and the derived work under the GPLv3.
 
@@ -152,7 +152,7 @@ There are five works: Snowball, chardet, unidecode, the xtas Python code, and xt
 
 #### Can the derivative works be distributed? Do the licenses allow this, and are they compatible?
 
-The four non-xtas components are under free software licenses, and the xtas authors own the copyright to the xtas Python code, so all five components can be distributed by the xtas authors. (ALv2)، رخصة GNU العامة الأقل إصدار 2.1 (LGPLv2.1)، ورخصة GNU العامة العامة الإصدار 2 أو أكثر (GPLv2+).
+The four non-xtas components are under free software licenses, and the xtas authors own the copyright to the xtas Python code, so all five components can be distributed by the xtas authors. The BSD, LGPLv2.1 and GPLv2+ all allow licensing the combined work under the GPL version 2 or higher, so there is at least one license that the combined work can be licensed under.
 
 #### How should the work(s) be licensed?
 
