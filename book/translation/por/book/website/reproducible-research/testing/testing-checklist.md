@@ -1,22 +1,22 @@
-# Checklist para teste de código
+# Checklist for Code Testing
 
-Esta lista de verificação contém um monte de itens. As {ref}`mentioned before<rr-testing-write-tests>`, it is far better to do some of the items than none of them. Não desanime se esta lista de tarefas parecer intransponível.
+This checklist contains a lot of items. As {ref}`mentioned before<rr-testing-write-tests>`, it is far better to do some of the items than none of them. Do not be discouraged if this list of tasks seems insurmountable.
 
 <a name="Writing_tests"></a>
 
-## Testes de escrita
+## Writing tests
 
-- Escrevam algumas provas de fumo.
-- Escreva testes de unidade para todas as unidades do seu código.
-- Escreva testes de integração para verificar a integração entre unidades.
-- Escreva alguns testes do sistema. Priorize caminhos comuns e importantes através do programa.
-- Escreva testes de regressão. Podem existir testes de regressão em qualquer nível de teste.
-- Se apropriado para testes de aceitação de seu projeto.
-- Adicione testes de tempo de execução ao seu projeto.
+- Write a few smoke tests.
+- Write unit tests for all your code units.
+- Write integration tests to check the integration between units.
+- Write a few system tests. Prioritise common and important paths through the program.
+- Write regression tests. Regression tests can exist at any level of testing.
+- If appropriate for your project write acceptance tests.
+- Add runtime tests into your project.
 
 <a name="Good_practice_checks"></a>
 
-## Boas verificações práticas
+## Good practice checks
 
 - [ ] Document the tests and how to run them.
   - [ ] Write scripts to set up and configure any resources that are needed to run the tests.
