@@ -1,5 +1,5 @@
 (بناء r-binderhuberhub)=
-# بناء BinderHub الخاص بك
+# قم ببناء BinderHub الخاص بك
 
 [mybinder.org](https://mybinder.org/) هو BinderHub المجاني العام الذي يستضيف ما يقرب من 100 ألف بايندر في الأسبوع. لماذا تريد بناء الخاص بك؟
 
