@@ -39,51 +39,49 @@ Name / Institute or affiliation / What specific aspect of GitHub do you find cha
 
 🗣️ Welcome!
 
-[Código de conducta & directrices de participación comunitaria](https://the-turing-way.netlify.app/community-handbook/coc. tml)
-- Si experimentas o eres testigo de un comportamiento inaceptable, o tienes otras preocupaciones, por favor informarlo contactando con los organizadores - Malvika y Kirstie. ([theturingway@gmail.com](mailto:theturingway@gmail.com)).
+- Reminder: [Code of conduct & community participation guidelines](https://the-turing-way.netlify.app/community-handbook/coc.html)
+- If you experience or witness unacceptable behaviour, or have any other concerns, please report it by contacting the organisers - Malvika and Kirstie. ([theturingway@gmail.com](mailto:theturingway@gmail.com)).
 
-### Llamada rol
+### Roll call
 
-- Nombre / Pregunta del rompecabezas: Comparte algo de la naturaleza que te ha impresionado o te ha traído paz recientemente - quizás una flor, una vista, una foto, un perfume, una planta en macetas, un pájaro que voló pasado... * 
+- Name / Icebreaker question: Share something from nature that has awed you or brought you peace recently - perhaps a flower, a view, a photo, a scent, a potted plant, a bird that flew past... 
+* 
 * 
 *  
 
-🗣️ Introducción a GitHub
+🗣️ Introduction to GitHub
 
-- Material de entrenamiento: https://malvikasharan. ithub.io/developing_collaborative_document/
-- Slides: [Friendly GitHub intro](https://docs.google. om/presentation/d/1_bmRZcLwQr.UVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/edit?usp=sharing)
-- Cheatsheet: https://guides.github.com/pdfs/markdown-cheatsheet-online. df
+- Training materials: https://malvikasharan.github.io/developing_collaborative_document/
+- Slides: [Friendly GitHub Intro](https://docs.google.com/presentation/d/1_bmRZcLwQrUkVTAMvq7W_x4ML_aphSwVEnkLrDy-Fd4/edit?usp=sharing)
+- Cheatsheet: https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 
-**Tarea de salida:** 
+**Breakout room task:** 
 - 
 - 
 - 
 
-**Recursos** :
+**Resources** :
 
-- Recursos útiles de GitHub
-  - [GitHub para la colaboración (de Mozilla)](https://mozilla. ithub.io/open-leadership-training-series/articles/github-for-collaboration/)
-  - [Entendiendo el flujo de trabajo de GitHub](https://guides. ithub.com/introduction/flow/)
-  - [A Friendly Github Intro Workshop (from Technelle Robinson)](https://daniellecrobinson.github.io/friendly-github-intro/)
-  - [GitHub help](https://help.github. om/)
+- Useful GitHub resources
+  - [GitHub for Collaboration (from Mozilla)](https://mozilla.github.io/open-leadership-training-series/articles/github-for-collaboration/)
+  - [Understanding the GitHub workflow](https://guides.github.com/introduction/flow/)
+  - [A Friendly Github Intro Workshop (from Danielle Robinson)](https://daniellecrobinson.github.io/friendly-github-intro/)
+  - [GitHub help](https://help.github.com/)
   - [Oh Shit, Git!?!](http://ohshitgit.com/)
-  - [Prueba Git](https://try.github. o/)
+  - [Try Git](https://try.github.io/)
   - [Git book](https://git-scm.com/book/en/v2)
-  - [GitHub glossary](https://github. om/joeyklee/friendly-github-intro/blob/master/glossary.md)
-  - [Escribiendo en Github](https://help.github.com/categories/writing-on-github/)
-  - [Markdown Cheatsheet](https://github. om/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+  - [GitHub glossary](https://github.com/joeyklee/friendly-github-intro/blob/master/glossary.md)
+  - [Writing on Github](https://help.github.com/categories/writing-on-github/)
+  - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
   - [Git workflow](https://www.atlassian.com/git/tutorials/comparing-workflows)
 
-**Preguntas / comentarios?**
+**Questions / Comments?**
   - 
   -
 
-**Comentarios**
+**Feedback**
 
-¿Qué funcionó? What did not work? ¿Qué soporte adicional necesitaría antes o durante el Cuadro de Control de Libro?
-
--
--
+What worked? What did not work? What additional support would you need before or during the Book Dash?
 
 -
 -
