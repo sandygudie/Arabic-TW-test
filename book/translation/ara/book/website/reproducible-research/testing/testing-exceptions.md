@@ -36,8 +36,8 @@ print(random.random())
 Now if you run this script it outputs
 
 ```python
-0.134364244112 
- 0.847433736937
+0.134364244112
+0.847433736937
 0.763774618977
 ```
 
@@ -59,7 +59,7 @@ def my_function():
   c = a + b
 ```
 
-If you set the random number seed you will always get the same value of `c`, so it can be tested. But, say the model is changed and the function that calculates `a` uses a different number of random numbers that it did previously. الآن لن يكون `` مختلفا فقط ولكن `ب` سيكون أيضا لأنه كما هو موضح أعلاه الأعداد العشوائية التي يتم إخراجها بسبب رقم عشوائي هي بترتيب ثابت. As a result the random numbers produced to calculate `b` will have changed. This can lead to tests failing when there is in fact no bug.
+If you set the random number seed you will always get the same value of `c`, so it can be tested. But, say the model is changed and the function that calculates `a` uses a different number of random numbers that it did previously. Now not only will `a` be different but `b` will be too, because as shown above the random numbers outputted given a random number seed are in a fixed order. As a result the random numbers produced to calculate `b` will have changed. This can lead to tests failing when there is in fact no bug.
 
 #### Measure the distribution of results
 
@@ -126,14 +126,14 @@ If we assign 0.1 to `a` and 0.2 to `b` and print their sum, we get 0.3, as expec
 0.3
 ```
 
-ولكن إذا قمنا بمقارنة نتيجة `` + `b` إلى 0.3 فإننا نحصل على خطأ ما.
+If, however, we compare the result of `a` plus `b` to 0.3 we get False.
 
 ```python
 >>> print(a + b == 0.3)
 False
 ```
 
-إذا نظرنا إلى قيمة `` + `b` مباشرة، يمكننا أن نرى أن هناك هامش خطأ دقيق.
+If we show the value of `a` plus `b` directly, we can see there is a subtle margin of error.
 
 ```python
 >>> a + b
@@ -144,17 +144,17 @@ This is because floating-point numbers are approximations of real numbers. The r
 
 ### Equality in a floating point world
 
-When comparing floating-point numbers for equality, we have to compare to within a given tolerance, alternatively termed a threshold or delta. وعند مقارنة أرقام النقاط العائمة للمساواة، علينا أن نقارنها في إطار تسامح معين، ويطلق عليها بدلا من ذلك عتبة أو دلتا على سبيل المثال وقد نعتبر أن القيم المحسوبة والمتوقعة لبعض الأعداد متساوية إذا كانت القيمة المطلقة لاختلافها في حدود القيمة المطلقة لتسامحنا.
+When comparing floating-point numbers for equality, we have to compare to within a given tolerance, alternatively termed a threshold or delta. For example, we might consider the calculated and expected values of some number to be equal if the absolute value of their difference is within the absolute value of our tolerance.
 
 Many testing frameworks provide functions for comparing equality of floating-point numbers to within a given tolerance. For example for the framework pytest:
 
 ```python
-استيراد بيتيست
+import pytest
 
-أ = 0.1
-ب = 0.2
-ج = أ + ب
-تأكيد c == pytest.approx (0.3)
+a = 0.1
+b = 0.2
+c = a + b
+assert c == pytest.approx(0.3)
 ```
 
 this passes, but if the 0.3 was changed to 0.4 it would fail.
@@ -165,11 +165,11 @@ Unit test frameworks for other languages also often provide similar functions:
 - CPPUnit for C++: CPPUNIT_ASSERT_DOUBLES_EQUAL(expected, actual, delta)
 - googletest for C++: ASSERT_NEAR(val1, val2, abs_error)
 - FRUIT for Fortran: subroutine assert_eq_double_in_range_(var1, var2, delta, message)
-- الوحدة المشتركة من أجل جافا: org.junit. Assert.assertEquals(كان متوقعا، فعلي مزدوج، دلتا مزدوجة)
+- JUnit for Java: org.junit.Assert.assertEquals(double expected, double actual, double delta)
 - testthat for R:
   - expect_equal(actual, expected, tolerance=DELTA) - absolute error within DELTA
-  - expect_equal(فعلي, متوقع, scale=المتوقع, tolerance=DELTA) - خطأ نسبي داخل DELTA
-- جوليا:
+  - expect_equal(actual, expected, scale=expected, tolerance=DELTA) - relative error within DELTA
+- julia:
   - `val1 ≈ val2`
   - `isapprox(val1, val2, atol=abs_delta, rtol=rel_delta)`
-  - `Test.jl` مع `±`: `@testval1 ± val2 atol=abs_delta rtol=rel_delta`
+  - `Test.jl` with `≈`: `@test val1 ≈ val2 atol=abs_delta rtol=rel_delta`
