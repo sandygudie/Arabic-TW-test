@@ -5,10 +5,9 @@ Open research and its subcomponents fit under the umbrella of a broader concept 
 
 ```{figure} ../../figures/open-umbrella.png
 ---
-高度：500px
-name: open-market
-alt: A description of Open Scholarship as a market with other elements of Open Research under its
----
+height: 500px
+name: open-umbrella
+alt: A depiction of Open Scholarship as an umbrella with other elements of Open Research beneath it.
 ---
 ```
 
@@ -59,7 +58,7 @@ PPI is *not*:
 PPI *is*:
 - _Involvement_: patients and members of the public contribute at *all* stages of the research cycle.
 
-当将PPI纳入研究时，研究人员与</em> 志愿者一起工作 *，而不是做关于* 的工作 *工作。 PPI volunteers are usually patients or members of the public with a particular interest in some area of research, which means that the topic is often very personal, and being involved in the research cycle can be an empowering experience. For the researcher, PPI often generates unique and invaluable insights from the volunteers' expertise which the researcher cannot always predict.
+When incorporating PPI into research, researchers work *with* volunteers, rather than doing work *about* them. PPI volunteers are usually patients or members of the public with a particular interest in some area of research, which means that the topic is often very personal, and being involved in the research cycle can be an empowering experience. For the researcher, PPI often generates unique and invaluable insights from the volunteers' expertise which the researcher cannot always predict.
 
 It is a good idea to consider PPI very early in a project, ideally before any grant applications or submissions for ethical approval have been written. PPI volunteers can help researchers in many ways, such as the following:
 1. Generate or shape research questions.
