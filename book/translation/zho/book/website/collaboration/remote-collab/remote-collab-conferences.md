@@ -152,7 +152,7 @@ The different subsections are marked as "Earlier-phase", "Mid-phase", and "Later
 
 ***Mid-phase***
 
-选择一个标准平台来管理您所有的表格，例如 [Surveymonkey](https://www.surveymonkey.com/) 或 [Google 表格](https://www.google.com/forms/about/), 使用关于如何确保收集到的数据的安全性的说明
+*Choose a standard platform to manage all your forms, for example, [Surveymonkey](https://www.surveymonkey.com/) or [Google forms](https://www.google.com/forms/about/), with a statement on how you ensure the security of the data collected*.
 
 - Theme suggestion form.
 - Speakers suggestion form.
@@ -176,7 +176,7 @@ The different subsections are marked as "Earlier-phase", "Mid-phase", and "Later
 - If the sessions are supposed to run in parallel, create an agenda based on the session topic/theme.
 - In addition to the talks, have plenty of slots for breakout discussions, short workshops and other opportunities to exchange skills.
 - Provide new and interesting topics that are not selected for long talks as an opportunity to present their idea in short or lightning talks.
-- 邀请预先录制的闪电会谈和关于可以在展览馆集合的海报的会谈（例如） a 每个人都可以访问的 YouTube 播放列表。
+- Instead of having a live lightning talk and poster presentation, invite submission of pre-recorded lightning talks and talks on posters that can be assembled in a gallery (for example, a YouTube playlist) that can be accessed by everyone.
   - For poster sessions, create a gallery of posters online that can be browsed easily.
     * Use [F1000 Research](https://f1000research.com/posters/8-400), [Zenodo](https://zenodo.org/), [Figshare](https://figshare.com/) or [Open Science Framework (OSF)](https://osf.io/meetings) to ensure that a DOI is assigned to each submission and allows browsable collections. Other options are Flicker, Unsplash and Google photos.
     * Share link of each poster with their online video in the shared document.
@@ -300,5 +300,5 @@ The different subsections are marked as "Earlier-phase", "Mid-phase", and "Later
 
 ## Bibliography
 
-- 运行会议</em> 的 *清单是 [Gallantries (Galaxy+The Carpentries手册)](https://galaxy-carpentries.github.io/gallantries/handbook) 的一个扩展版本的 [Carpentres 讲习班清单](https://docs.carpentries.org/topic_folders/hosts_instructors/hosts_instructors_checklist.html)
+- The *Checklist for running a meeting* is a summarised version of the [Gallantries (Galaxy+The Carpentries handbook)](https://galaxy-carpentries.github.io/gallantries/handbook) which is an expanded version of [The Carpentries workshop checklist](https://docs.carpentries.org/topic_folders/hosts_instructors/hosts_instructors_checklist.html).
 - The *Checklist for running a longer event such as a conference or sprint* is a summarised version of the debrief document written by the [chairs of the 1st CarpentryCon conference](https://2018.carpentrycon.org/) organisation committee.
