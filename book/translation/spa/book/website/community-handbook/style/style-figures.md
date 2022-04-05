@@ -1,63 +1,63 @@
-(cifras-ch)=
-# Usando figuras en _The Turing Way_
+(ch-style-figures)=
+# Using figures in _The Turing Way_
 
-Te animamos a añadir imágenes a los capítulos de libros de _The Turing Way_. Esta sección de la guía de estilo explicará cómo utilizar el formato [Texto estructurado marcado](https://myst-parser.readthedocs.io/en/latest/) (MyST) para añadirlos al libro con el correspondiente {ref}`texto alternativo<ch-style-figures-alttext>` y {ref}`subtítulos<ch-style-figures-caption>`.
+We encourage you to add images to _The Turing Way_ book chapters. This section of the style guide will explain how to use [Markedly Structured Text](https://myst-parser.readthedocs.io/en/latest/) (MyST) format to add them to the book with appropriate {ref}`alt text<ch-style-figures-alttext>` and {ref}`captions<ch-style-figures-caption>`.
 
-Estamos muy pasionados por asegurar que los creadores de los archivos de imagen originales (¡incluye!) sean {ref}`reconocidos apropiadamente<ch-style-figures-licence>`. Por favor, no utilice imágenes que no estén autorizadas para su reutilización.
+We are very passionate about ensuring that the creators of the original image files (including you!) are {ref}`acknowledged appropriately<ch-style-figures-licence>`. Please do not use images that are not licenced for reuse.
 
-En este subcapítulo hemos usado el término **figura** para referirnos a una ilustración que transmite información en el contexto de _los capítulos_ de la Vía Turística. El término **imagen** se utiliza para referirse al propio objeto de archivo.
+In this sub-chapter we have used the term **figure** to refer to an illustration that conveys information in the context of _The Turing Way_ chapters. The term **image** is used to refer to the file object itself.
 
-(ch-style-figuras-licencia)=
-## Licencia abierta
+(ch-style-figures-licence)=
+## Open licence
 
-Por favor, asegúrese de atribuir los archivos de imagen de forma justa y evitar que los archivos sean restringidos a la reutilización o carezcan de permisos de reproducción.
+Please ensure that you attribute the image files fairly and avoid files that are either restricted from reuse or lack reproduction permissions.
 
-Las siguientes recomendaciones te ayudarán a comprobar que estas usando las imágenes de acuerdo a sus permisos de licencia:
+The following recommendations will help you to check that you're using the images according to their licence permissions:
 
-* Si estás usando tus propias imágenes, por favor añádelas a la carpeta `figuras`. Entonces estarán disponibles bajo una [Atribución de Creative Commons 4. Internacional (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.ast) licencia como con el resto del libro.
-* Alternativamente, puedes buscar imágenes en el dominio público ([licencia CC0](https://creativecommons.org/share-your-work/public-domain/cc0)) o imágenes licenciadas a través de los términos Creative Commons apropiados. Imágenes que también están disponibles bajo CC-BY 4. los permisos son muy fácilmente interoperables con _The Turing Way_ ya que esta es la misma licencia que el resto del contenido del libro.
-* Si una imagen (por ejemplo que ha encontrado en internet), no está disponible bajo una licencia abierta, póngase en contacto con el autor original de la imagen y solicite permiso para reproducir su imagen. Asegúrate de preguntarles **cómo les gustaría ser acreditados** en el título de la figura.
+* If you are using your own images, please add them to the `figures` folder. They will then be made available under a [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.ast) licence as with the rest of the book.
+* Alternatively, you can source images in the public domain ([CC0 licence](https://creativecommons.org/share-your-work/public-domain/cc0)) or images licensed through appropriate Creative Commons terms. Images that are also available under CC-BY 4.0 permissions are very easily interoperable with the _The Turing Way_ as this is the same licence as the rest of the content for the book.
+* If an image (for example that you have found on the internet), is not available under an open licence please contact the original author of the image and seek permission to reproduce their image. Make sure to ask them **how they would like to be credited** in the caption for the figure.
 
-En general, asegúrese siempre de citar la imagen correctamente como se indica por los propietarios de la imagen. "Imagen de Internet" no es suficiente.
+In general, make sure to always cite the image properly as directed by the image owners. "Image from the internet" is not enough.
 
-(ch-style-figuras-imagen)=
-## Tipo de imagen, nombre de archivo, tamaño y ubicación
+(ch-style-figures-image)=
+## Image type, file name, size and location
 
-Por favor, sube `.jpg` o `.png` archivos menores de 1 MB para que puedan cargarse más rápido en el libro online. Si su archivo es mayor de 1MB, por favor utilice una herramienta local de edición de imágenes, o una herramienta online como [IMG2GO](https://www.img2go.com/compress-image) para comprimir su archivo.
+Please upload `.jpg` or `.png` files that are under 1MB to allow them to load faster in the online book. If your file is larger than 1MB, please use a local image editing tools, or online tool like [IMG2GO](https://www.img2go.com/compress-image) to compress your file.
 
-Para nombrar su archivo de imagen, utilice todas las minúsculas y separe las palabras con guiones. Cada archivo de imagen utilizado en este libro debe ubicarse en el archivo `_figure-list. d` en el directorio `libro/website/figures` de nuestro [repositorio de GitHub](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/website/figures). If you use a new image file, please add the file in the `figures` directory, and add details in the `_figure-list.md`.
+To name your image file, please use all-lowercase and separate words with hyphens. Every image file used in this book should be located in the file `_figure-list.md` in the directory `book/website/figures` of our [GitHub Repository](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/website/figures). If you use a new image file, please add the file in the `figures` directory, and add details in the `_figure-list.md`.
 
 (ch-style-figures-syntax)=
-## Sintaxis MyST para agregar una figura a un capítulo de _Vía Turística_
+## MyST syntax to add a figure to a _Turing Way_ chapter
 
-Todos nuestros capítulos están escritos en archivos Markdown. Por lo tanto, usar la sintaxis de Markdown para incluir una figura en un archivo Markdown funcionará bien, por ejemplo, `![](../.. figuras/file-collection.jpg)`, donde se proporciona la ruta relativa del archivo de imagen dentro de los corchetes redondos '()'.
+All our chapters are written in Markdown files. Therefore, using Markdown syntax to include a figure in a Markdown file will work fine, for example, `![](../../figures/file-collection.jpg)`, where the relative path of the image file is provided inside the round brackets '()'.
 
-**Sin embargo**, este formato no permite que las imágenes respondan a los tamaños de pantalla, las hace inaccesibles para leer en pantallas pequeñas y teléfonos inteligentes. Además, esto no permite a los autores cambiar el tamaño de las figuras en sus capítulos o hacer referencia cruzada a ellas en otro lugar del libro.
+**However**, this formatting does not allow images to be responsive to screen sizes, making them inaccessible to read on small screens and smartphones. Furthermore, this doesn't allow authors to resize figures in their chapters or cross reference them somewhere else in the book.
 
-Por lo tanto, nuestra recomendación es usar [Texto estructurado marcamente](https://myst-parser.readthedocs.io/en/latest/) (MyST) formato disponible en Jupyter Book.
+Therefore, our recommendation is to use [Markedly Structured Text](https://myst-parser.readthedocs.io/en/latest/) (MyST) format available in Jupyter Book.
 
-Puedes cambiar el tamaño de las figuras para ajustar cómo aparecen en nuestros capítulos usando los parámetros: `ancho` y `altura` (toma valor en px, por ejemplo, 400px) o `escala` (toma valor en porcentaje, por ejemplo, 50%), especialmente si su cifra original es grande. Usando el parámetro: `nombre`, puedes referenciar figuras en otros capítulos de una manera similar como se define en {ref}`ch-style-crossref`.
+You can resize figures to adjust how they appear in our chapters using the parameters: `width` and `height` (takes value in px, for example, 400px) or `scale` (takes value in percentage, for example, 50%), especially if your original figure is large. Using the parameter: `name`, you can reference figures in other chapters in a similar manner as defined in {ref}`ch-style-crossref`.
 
-Todos los componentes de su figura (ubicación, tamaño y nombre de figuras) pueden encapsularse en una sección dentro de un archivo markdown utilizando la siguiente directiva:
+All the components of your figure (figures location, size and name) can be encapsulated in section within a markdown file using the following directive:
 
 ````
 ```{figure} ../../figures/file-collection.jpg
 ---
-altura: 500px
-nombre: file-collection
+height: 500px
+name: file-collection
 ---
 ```
 ````
-Esta figura puede ser referida en otros archivos utilizando el rol {ref} como:
+This figure can be referred in other files using the {ref} role like:
 
 ```
-{ref}`archivo-colección`
+{ref}`file-collection`
 ```
-Ten en cuenta que una altura de 500px funciona muy bien con el libro _The Turing Way_ , pero esto es solo una sugerencia.
+Please note that a height of 500px works very well with _The Turing Way_ book, but this is only a suggestion.
 (ch-style-figures-alttext)=
-## Texto alternativo
-Se utiliza texto alternativo o texto alternativo para describir la apariencia y función de una imagen en una página HTML. Nuestra figura de ejemplo puede explicarse con esta frase: *Dos personas navegando felizmente archivos en un cajón de documentos.* Añadir texto alternativo a figura es uno de los primeros principios de accesibilidad web.
-Añadir texto alternativo a figura es uno de los primeros principios de accesibilidad web. El software lector de pantalla puede leer un texto alternativo para explicar mejor el contenido de la figura a sus usuarios.
+## Alternative text
+Alternative text or alt text are used for describing the appearance and function of an image on an HTML page. Nuestra figura de ejemplo puede explicarse con esta frase: *Dos personas navegando felizmente archivos en un cajón de documentos.* Añadir texto alternativo a figura es uno de los primeros principios de accesibilidad web.
+Adding alternative text to figure is one of the first principles of web accessibility. Screen reader software can read an alt text to better explain the content of the figure to its users.
 (ch-style-figuras-subtítulo)=
 
 ````
@@ -65,17 +65,17 @@ Añadir texto alternativo a figura es uno de los primeros principios de accesibi
 ---
 height: 500px
 name: file-collection
-alt: Dos personas navegando felizmente archivos en un cajón de documentos.
+alt: Two people happily browsing files in a drawer of documents.
 ---
-_The Turing Way_ ilustración del proyecto por Scriberia. Utilizado bajo una licencia CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 ````
-Otra ventaja de usar texto alternativo es cuando una imagen no puede ser cargada en un navegador, o el enlace a los saltos de la imagen, se muestra en lugar de una figura como se muestra a continuación:
+Another advantage of using alt text is when an image cannot be loaded in a browser, or the link to the image breaks, it is displayed in place of an figure like shown below:
 
 ```{figure} ../../figures/alt-text-demo.png
 Haciendo tu primer pull request en GitHub.
 ---
-_The Turing Way_ ilustración del proyecto por Scriberia. Utilizado bajo una licencia CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
 Por ejemplo, un título podría decir:
@@ -84,31 +84,31 @@ Por ejemplo, un título podría decir:
 ---
 height: 500px
 name: file-collection
-alt: Dos personas navegando felizmente archivos en un cajón de documentos.
+alt: Two people happily browsing files in a drawer of documents.
 ---
-_The Turing Way_ ilustración del proyecto por Scriberia. Utilizado bajo una licencia CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-(ch-style-figuras-subtítulo)=
-## Leyenda
+(ch-style-figures-caption)=
+## Caption
 
-Los subtítulos aparecen debajo de la figura. Deberían ser breves y concisos e incluir una referencia a la fuente de donde proceden. En particular, es importante describir la licencia bajo la cual se reutiliza la imagen.
+Captions appear below the figure. They should be short and concise and include a reference to the source where they are taken from. In particular it is important to describe the licence under which the image is re-used.
 
 (ch-style-figuras-avanzadas)=
 
-> Haciendo tu primer pull request en GitHub. _The Turing Way_ project ilustration by Scriberia. Utilizado bajo una licencia CC-BY 4.0. DOI: \[10.5281/zenodo.3332807\](https://doi.org/10.5281/zenodo.3332807).
+> Making your first pull request on GitHub. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: \[10.5281/zenodo.3332807\](https://doi.org/10.5281/zenodo.3332807).
 
-La sintaxis para esta imagen es la siguiente, y la forma en que aparece en el libro está debajo del fragmento de código.
+The syntax for this image is as follows, and the way it appears in the book is below the code snippet.
 
 ````
-```{figure} ../../figures/first-pull-request. ng
+```{figure} ../../figures/first-pull-request.png
 ---
 height: 400px
 name: first-pull-request
 alt: A person helping out another person making their first pull request on GitHub
 ---
-Realizando tu primer pull request en GitHub.
-_The Turing Way_ proyecto de ilustración por Scriberia. Utilizado bajo una licencia CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+Making your first pull request on GitHub.
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 ````
 
@@ -116,19 +116,19 @@ _The Turing Way_ proyecto de ilustración por Scriberia. Utilizado bajo una lice
 ---
 height: 400px
 name: first-pull-request
-alt: Una persona ayudando a otra persona haciendo su primer pull request en GitHub
+alt: A person helping out another person making their first pull request on GitHub
 ---
-Realizando tu primera pull request en GitHub.
-_The Turing Way_ proyecto de ilustración por Scriberia. Utilizado bajo una licencia CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+Making your first pull request on GitHub.
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
 ```
 
-Por favor, asegúrese de que el enlace a la fuente es el {term}`identificador de objeto digital <Digital Object Identifier>` no el registro de Zenodo. También asegúrate de haber creado un enlace a la fuente usando el formato del enlace markdown: `[text](url)`.
+Please make sure that the link to the source is the {term}`digital object identifier <Digital Object Identifier>` not the Zenodo record. Also ensure that you have created a link to the source using markdown link formatting: `[text](url)`.
 
-(ch-style-figuras-avanzadas)=
-## Funciones avanzadas y "gotchas"
+(ch-style-figures-advanced)=
+## Advanced features and "gotchas"
 
-Para parámetros más avanzados, consulte la [Documentación del Libro de Jupyter](https://jupyterbook.org/content/figures.html). Esa página incluye información sobre cómo [escalar y alinear](https://jupyterbook.org/content/figures.html#figure-scaling-and-aligning) las figuras, y cómo agregar las cifras o sus subtítulos a los [márgenes](https://jupyterbook.org/content/figures.html#margin-captions-and-figures) del libro.
+For more advanced parameters, please see the [Jupyter Book Documentation](https://jupyterbook.org/content/figures.html). That page includes information on how to [scale and align](https://jupyterbook.org/content/figures.html#figure-scaling-and-aligning) the figures, and how to add the figures or their captions to the [margins](https://jupyterbook.org/content/figures.html#margin-captions-and-figures) of the book.
 
-Hemos notado un par de "gotchas" de los colaboradores a _The Turing Way_ e intentaremos mantener esta sección de la guía actualizada para cualquier otra persona que aprenda la sintaxis MyST para figuras
+We've noticed a couple of "gotchas" from contributors to _The Turing Way_ and we'll try to keep this section of the guide up to date for anyone else learning the MyST syntax for figures
 
-* Tanto `:` como `"` tienen un significado sintáctico para Esfinge. Esto significa que es importante que no utilices estos caracteres en tu texto alternativo.
+* Both `:` and `"` have syntactic meaning for Sphinx. That means it is important that you do not use these characters in your alt text.
