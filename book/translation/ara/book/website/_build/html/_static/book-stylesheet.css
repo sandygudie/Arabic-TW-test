@@ -18,7 +18,25 @@ Styling for Table of Contents
 
 \*--------------------------------------------------------------------*/
 
-direction: rtl;
+div {
+ direction: rtl;
+}
+
+p {
+ direction: rtl;
+}
+
+h1 {
+ direction: rtl;
+}
+
+h2 {
+ direction: rtl;
+}
+
+h3 {
+ direction: rtl;
+}
 
 #site-navigation li > a {
   font-size: 1.1em;
