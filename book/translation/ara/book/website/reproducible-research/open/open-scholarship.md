@@ -26,7 +26,7 @@ Fully open OERs comply with the 5 Rs:
 - _Remix_: the right to combine the original or revised content with other open content to create something new (for example, incorporate the content into a mashup).
 - _Redistribute_: the right to share copies of the original content, your revisions, or your remixes with others (for example, give a copy of the content to a friend).
 
-Researchers generate a great deal of educational resources in the course of teaching students and each other (at workshops, for example). By making these openly available (for example, in the [open educational resource commons](https://www.oercommons.org/)), the wider community can benefit from them in three main ways:
+يُنتج الباحثون قدرًا كبيرًا من الموارد التعليمية في مجال تدريس الطلاب وبين بعضهم البعض (في ورش العمل، على سبيل المثال). By making these openly available (for example, in the [open educational resource commons](https://www.oercommons.org/)), the wider community can benefit from them in three main ways:
 
 1. Most obviously, the community can use the materials to learn about the content they cover.
 2. Sharing resources reduces duplication of effort. If an educator needs materials for teaching and such materials already exist openly, then they need not make their own from scratch, thereby saving time.
