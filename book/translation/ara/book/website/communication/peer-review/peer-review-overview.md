@@ -1,24 +1,24 @@
-crwdns856660:0crwdne856660:0
+(cm-pr-overview)=
 
-# crwdns856662:0crwdne856662:0
+# Peer Review Types
 
-## crwdns856664:0crwdne856664:0
-crwdns856666:0crwdne856666:0 crwdns856668:0crwdne856668:0
-* crwdns856670:0crwdne856670:0
-* crwdns856672:0crwdne856672:0
-* crwdns856674:0crwdne856674:0
-* crwdns856676:0crwdne856676:0
-
-
-crwdns856678:0crwdne856678:0 crwdns856680:0crwdne856680:0 crwdns856682:0{ref}crwdne856682:0 crwdns856684:0crwdne856684:0 crwdns856686:0{ref}crwdne856686:0
+## Types of Peer Review
+​ Peer review is a critical component of advancing research. Peer review can be done on many different research outputs, including:
+* manuscripts
+* software (including code, documentation, and examples)
+* datasets
+* communication and presentation materials
 
 
-## crwdns856688:0crwdne856688:0
-* crwdns856690:0crwdne856690:0 crwdns856692:0crwdne856692:0
-* crwdns856694:0crwdne856694:0 crwdns856696:0crwdne856696:0
-* crwdns856698:0crwdne856698:0
+Peer review can be formal or informal and ideally occurs at different levels throughout a project. When most people think of peer review they think of this in the context of reviewing a journal article. Journal articles, as opposed to preprints {ref}`preprint<rr-open-access-whatis-publishing>`, have gone through the peer review process- the paper has been peer reviewed and modified by the author in response to the reviewer's suggestions, so these papers are seen to have added value. However, there are also initiatives to peer review preprints, for example, [Peer Community In](https://peercommunityin.org/) arranges reviews for manuscripts. You can read more about preprints in the {ref}`Open Access<rr-open-access>` chapter.
 
-crwdns856700:0[collaboration]crwdne856700:0 crwdns856702:0crwdne856702:0
+
+## Levels of Peer Review
+* *Step 1* - Peer review often happens informally among team members. Feedback helps improve your project, on its way to being shared with the broader community.​
+* *Step 2* - The project is going well, but it needs input from the broader community to reach it's full potential. This stage is often where the formal peer review process happens, but in an open project this level of feedback is often provided throughout.​
+* *Step 3* - By incorporating everyone's ideas, the project unites the community and percieves feedback as a way to improve projects rather than as a competitive process.
+
+We see peer review as an important exercise in \[collaboration\](We need to add links to collaboration here) not limited to a quality-safeguard procedure. However, in current research practice, peer review often appears as a hurdle everyone needs to pass through.
 
 
 
