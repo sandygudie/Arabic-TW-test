@@ -1,29 +1,32 @@
-crwdns856584:0crwdne856584:0
-# crwdns856586:0crwdne856586:0
+(cm-peer-review)=
+# Peer Review
 
-crwdns856588:0crwdne856588:0
-## crwdns856590:0crwdne856590:0
+(cm-peer-review-prerequisites)=
+## Prerequisites
 
-| crwdns856592:0crwdne856592:0      | crwdns856594:0crwdne856594:0 | crwdns856596:0crwdne856596:0 | crwdns856598:0crwdne856598:0                              |
-| --------------------------------- | ---------------------------- | ---------------------------- | --------------------------------------------------------- |
-| crwdns856600:0{ref}crwdne856600:0 | crwdns856602:0crwdne856602:0 |                              | crwdns856604:0crwdne856604:0                              |
-| crwdns856606:0{ref}crwdne856606:0 | crwdns856608:0crwdne856608:0 |                              | crwdns856610:0crwdne856610:0 crwdns856612:0crwdne856612:0 |
-| crwdns856614:0{ref}crwdne856614:0 | crwdns856616:0crwdne856616:0 |                              | crwdns856618:0crwdne856618:0                              |
+| Prerequisite                                               | Importance | Skill Level | Notes                                                                                                                                                  |
+| ---------------------------------------------------------- | ---------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| {ref}`Section Code Reviewing Process <rr-reviewing>` | Helpful    |             | We see code review as a part of peer review proces                                                                                                     |
+| {ref}`Section Research Data Management <rr-rdm>`     | Helpful    |             | A part of review process involves reviewing the data on which the publication is based. Knowledge of Research Data Management can help with evaluation |
+| {ref}`Guide for Collaboration <cl>`                  | Helpful    |             | We see review as a form of collaboration                                                                                                               |
 
 ```{figure} ../figures/peer-review-process.jpg
-crwdns856620:0crwdne856620:0 crwdns856622:0crwdne856622:0 crwdns856624:0crwdne856624:0 crwdns856626:0crwdne856626:0
-crwdns856628:0crwdne856628:0
-crwdns856630:0crwdne856630:0 crwdns856632:0crwdne856632:0 crwdns856634:0crwdne856634:0
+---
+name: Peer review
+alt: The reviewer wolf really wants to be friends with the pigs, but the pigs perceive the wolf as a threat. The pigs work amongst themselves (with their coauthors, colleagues, and office-mates) to improve their defenses against the world. However, it is not until the pigs open their work to input from the entire community (including the wolf!) that they can build sturdy house. Ultimately, the wolf and pigs work together to build a sturdy house that protects them all from the storm.
+---
+Illustration about peer review.
+_The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.
 ```
 
-crwdns856636:0crwdne856636:0
-## crwdns856638:0crwdne856638:0
+(cm-peer-review-summary)=
+## Summary
 
-crwdns856640:0crwdne856640:0 crwdns856642:0crwdne856642:0 crwdns856644:0crwdne856644:0
+This chapter introduces the process of peer review of journal articles as a part of the more general process of peer review of each other's work and scientific collaboration. Its first part talks about different types and levels of peer review, depending on the type of scientific output. The second part of the chapter is specific to peer review of a manuscript and provides practical guidance for those who need to do a formal peer review for a journal.
 
 
-crwdns856646:0crwdne856646:0
-## crwdns856648:0crwdne856648:0
+(cm-peer-review-motivation)=
+## Motivation and Background
 
-crwdns856650:0{term}crwdne856650:0 crwdns856652:0crwdne856652:0 crwdns856654:0crwdne856654:0 crwdns856656:0crwdne856656:0 crwdns856658:0crwdne856658:0
+Peer Review [{term}`def<Peer Review>`] should be seen as process that helps to improve the quality of the research. Peer review can be formal or informal and ideally occurs at different levels throughout a project. Traditionally the formal peer review has been associated with publishing a journal article. However, new forms of peer review are emerging in publishing and also beyond in the research landscape. We want to highlight that peer review happens on different levels throughout a project, and is an ultimate form of engaging with other people's work.
 
