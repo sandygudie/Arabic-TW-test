@@ -1,18 +1,18 @@
 
-crwdns856704:0crwdne856704:0
-# crwdns856706:0crwdne856706:0
+(cm-prr-resources)=
+# Resources
 
-## crwdns856708:0crwdne856708:0
-crwdns856710:0{ref}crwdne856710:0 crwdns856712:0{ref}crwdne856712:0
+## What to Learn Next
+If you have not read the {ref}`chapter on Open Research<rr-open>`, you might want to read it now for more context on how Peer Review fits into Open Research. Reading {ref}`Guide for Collaboration <cl>` might also help to think of your role in the scientific process.
 
-## crwdns856714:0crwdne856714:0
-* crwdns856716:0crwdne856716:0 crwdns856718:0crwdne856718:0 crwdns856720:0crwdne856720:0 crwdns856722:0crwdne856722:0 crwdns856724:0crwdne856724:0
-* crwdns856726:0crwdne856726:0 crwdns856728:0crwdne856728:0
-* crwdns856730:0crwdne856730:0 crwdns856732:0crwdne856732:0 crwdns856734:0crwdne856734:0 crwdns856736:0crwdne856736:0 crwdns856738:0crwdne856738:0
-* crwdns856740:0crwdne856740:0 crwdns856742:0crwdne856742:0 crwdns856744:0crwdne856744:0 crwdns856746:0crwdne856746:0 crwdns856748:0crwdne856748:0
-* crwdns856750:0crwdne856750:0 crwdns856752:0crwdne856752:0 crwdns856754:0crwdne856754:0 crwdns856756:0crwdne856756:0 crwdns856758:0crwdne856758:0
-* crwdns856760:0crwdne856760:0 crwdns856762:0crwdne856762:0 crwdns856764:0crwdne856764:0 crwdns856766:0crwdne856766:0 crwdns856768:0crwdne856768:0
+## Further Reading
+* Alexander, G.R. (2005). A Guide to Reviewing Manuscripts. Maternal and Child Health Journal, 9 (1): 113-117. https://doi.org/10.1007/s10995-005-2423-y
+* Committee on Publication Ethics Council (2017). [Ethical guidelines for peer reviewers](https://publicationethics.org/files/Ethical_Guidelines_For_Peer_Reviewers_2.pdf).
+* Lee, A.S. (1995). Reviewing a manuscript for publication. Journal of Operations Management, 13: 87-92. https://doi.org/10.1016/0272-6963(95)94762-W
+* Foster, Antoinette, Hindle, Samantha, Murphy, Katrina M., & Saderi, Daniela. (2021). Open Reviewers Reviewer Guide. Zenodo. https://doi.org/10.5281/zenodo.5484087
+* Foster, Antoinette, Hindle, Samantha, Murphy, Katrina M., & Saderi, Daniela. (2021). Open Reviewers Review Assessment Rubric. Zenodo. https://doi.org/10.5281/zenodo.5484072
+* Foster, Antoinette, Hindle, Samantha, Murphy, Katrina M., & Saderi, Daniela. (2021). Open Reviewers Bias Reflection Guide. Zenodo. https://doi.org/10.5281/zenodo.5484052
 
-# crwdns856770:0crwdne856770:0
-* [crwdns856774:0crwdne856774:0](crwdns856772:0crwdne856772:0)
-* [crwdns856778:0crwdne856778:0](crwdns856776:0crwdne856776:0)
+# Courses
+* [FOSTER open peer review course](https://www.fosteropenscience.eu/learning/open-peer-review/#/id/5a17e150c2af651d1e3b1bce)
+* [Open Science MOOC course and resources about oepn evaluation](https://opensciencemooc.eu/modules/open-evaluation/)
