@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zero-to-Binder &#8212; The Turing Way</title>
     
-  <link href="../../_static/css/theme.css" rel="stylesheet" />
-  <link href="../../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+  <link href="../../_static/css/theme.css" rel="stylesheet">
+  <link href="../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -22,8 +22,8 @@
       
 
     
-    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../../_static/sphinx-book-theme.e8e5499552300ddf5d7adccae7cc3b70.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
     <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
@@ -32,9 +32,9 @@
     <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     
-  <link rel="preload" as="script" href="../../_static/js/index.1c5a1a01449ed65a7b51.js">
+  <link rel="preload" as="script" href="../../_static/js/index.be7d3bbb2ef33a8344ce.js">
 
-    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
@@ -42,10 +42,10 @@
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
     <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
-    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
-    <script >
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
         const thebe_selector = ".thebe"
         const thebe_selector_input = "pre"
         const thebe_selector_output = ".output"
@@ -58,8 +58,21 @@
     <link rel="next" title="Guide for Collaboration" href="../../collaboration/collaboration.html" />
     <link rel="prev" title="Binder" href="../binder.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="en" />
+    <meta name="docsearch:language" content="en">
     
+
+    <!-- Google Analytics -->
+    
+<script async="" src="https://www.google-analytics.com/analytics.js"></script>
+<script>
+                        window.ga = window.ga || function () {
+                            (ga.q = ga.q || []).push(arguments) };
+                        ga.l = +new Date;
+                        ga('create', 'UA-167881009-1', 'auto');
+                        ga('set', 'anonymizeIp', true);
+                        ga('send', 'pageview');
+                    </script>
+
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
     
@@ -75,6 +88,10 @@
         <div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="../../index.html">
       
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
       <img src="../../_static/logo.jpg" class="logo" alt="logo">
       
       
@@ -84,7 +101,7 @@
 </div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
-</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
         <ul class="nav bd-sidenav">
  <li class="toctree-l1">
@@ -1915,7 +1932,7 @@
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
     </div>
 </div>
 
@@ -1951,12 +1968,12 @@
         </div>
 
         <!-- Table of contents -->
-        <div class="d-none d-md-block col-md-2 bd-toc show">
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
             
             <div class="tocsection onthispage pt-5 pb-3">
                 <i class="fas fa-list"></i> Contents
             </div>
-            <nav id="bd-toc-nav">
+            <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#requirements">
@@ -2091,10 +2108,153 @@
 </div>
     <div id="main-content" class="row">
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
-        
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Zero-to-Binder</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#requirements">
+   Requirements
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#creating-a-repo-to-binderize">
+   1. Creating a repo to Binderize
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#why-does-the-repo-have-to-be-public">
+     Why does the repo have to be public?
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#launch-your-first-repo">
+   2. Launch your first repo!
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#what-s-happening-in-the-background-part-1">
+     What’s happening in the background? - Part 1
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#run-the-script">
+   3. Run the script
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#pinning-dependencies">
+   4. Pinning Dependencies
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#what-s-happening-in-the-background-part-2">
+     What’s happening in the background? - Part 2
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#more-on-pinning-dependencies">
+     More on pinning dependencies
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#check-the-environment">
+   5. Check the Environment
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#sharing-your-work">
+   6. Sharing your Work
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#accessing-data-in-your-binder">
+   7. Accessing data in your Binder
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#small-public-files">
+     Small public files
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#medium-public-files">
+     Medium public files
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#large-public-files">
+     Large public files
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#private-files">
+     Private files
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#get-data-with-postbuild">
+   8. Get data with
+   <code class="docutils literal notranslate">
+    <span class="pre">
+     postBuild
+    </span>
+   </code>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#changing-the-interface">
+   Changing the Interface
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#from-inside-a-running-binder">
+     from inside a running Binder
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#by-changing-the-mybinder-org-launch-link">
+     by changing the mybinder.org launch link
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#by-using-the-mybinder-org-form">
+     by using the mybinder.org form
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#now-over-to-you">
+   Now over to you!
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
               <div>
                 
-  <div class="section" id="zero-to-binder">
+  <div class="tex2jax_ignore mathjax_ignore section" id="zero-to-binder">
 <span id="z2b"></span><h1>Zero-to-Binder<a class="headerlink" href="#zero-to-binder" title="Permalink to this headline">¶</a></h1>
 <p>In this chapter, we will create a Binder project from scratch: we will first make a repository on GitHub and then launch in on <a class="reference external" href="http://mybinder.org">mybinder.org</a>.
 Sections where you are expected to complete a task are denoted by three traffic light 🚦 emojis.
@@ -2129,8 +2289,8 @@ Please sign up for one if you don’t already have one: <a class="reference exte
 <span id="z2b-step-1"></span><h2>1. Creating a repo to Binderize<a class="headerlink" href="#creating-a-repo-to-binderize" title="Permalink to this headline">¶</a></h2>
 <p>🚦🚦🚦</p>
 <div class="tabbed-set docutils">
-<input checked="checked" id="df9a1f1c-efa2-4307-840d-f6523fc06117" name="3fd60b64-a484-4ba0-b176-3586e869aa9e" type="radio">
-</input><label class="tabbed-label" for="df9a1f1c-efa2-4307-840d-f6523fc06117">
+<input checked="checked" id="2e7858fc-0e25-4a94-8bfd-0991c7d6a797" name="e10113df-643a-4e6c-8dff-9d62d813076a" type="radio">
+</input><label class="tabbed-label" for="2e7858fc-0e25-4a94-8bfd-0991c7d6a797">
 Python</label><div class="tabbed-content docutils">
 <ol class="simple">
 <li><p>Create a new repo on GitHub called “my-first-binder”</p>
@@ -2142,8 +2302,8 @@ Python</label><div class="tabbed-content docutils">
 <li><p>Create a file called <code class="docutils literal notranslate"><span class="pre">hello.py</span></code> via the web interface with <code class="docutils literal notranslate"><span class="pre">print(&quot;Hello</span> <span class="pre">from</span> <span class="pre">Binder!&quot;)</span></code> on the first line and commit to the <code class="docutils literal notranslate"><span class="pre">main</span></code> branch</p></li>
 </ol>
 </div>
-<input id="67d3e039-b723-40b3-a343-27254f578779" name="3fd60b64-a484-4ba0-b176-3586e869aa9e" type="radio">
-</input><label class="tabbed-label" for="67d3e039-b723-40b3-a343-27254f578779">
+<input id="3de6e29a-6273-4c05-88f8-2f8b621b869a" name="e10113df-643a-4e6c-8dff-9d62d813076a" type="radio">
+</input><label class="tabbed-label" for="3de6e29a-6273-4c05-88f8-2f8b621b869a">
 Julia</label><div class="tabbed-content docutils">
 <ol>
 <li><p>Create a new repo on GitHub called “my-first-binder”</p>
@@ -2162,8 +2322,8 @@ This will install Julia into the Binder environment.</p>
 </li>
 </ol>
 </div>
-<input id="ab24c2f0-a0d6-4597-becb-6a1a2fe36b8c" name="3fd60b64-a484-4ba0-b176-3586e869aa9e" type="radio">
-</input><label class="tabbed-label" for="ab24c2f0-a0d6-4597-becb-6a1a2fe36b8c">
+<input id="1e72f522-2400-45e1-9918-5d63408287e4" name="e10113df-643a-4e6c-8dff-9d62d813076a" type="radio">
+</input><label class="tabbed-label" for="1e72f522-2400-45e1-9918-5d63408287e4">
 R</label><div class="tabbed-content docutils">
 <ol>
 <li><p>Create a new repo on GitHub called “my-first-binder”</p>
@@ -2231,24 +2391,24 @@ It should look like this:</p>
 <span id="z2b-step-3"></span><h2>3. Run the script<a class="headerlink" href="#run-the-script" title="Permalink to this headline">¶</a></h2>
 <p>🚦🚦🚦</p>
 <div class="tabbed-set docutils">
-<input checked="checked" id="05082d1a-614c-4b9e-ad40-ce4a9af97862" name="9a96e5fd-687e-4b50-9b20-5aa81bb6ba1f" type="radio">
-</input><label class="tabbed-label" for="05082d1a-614c-4b9e-ad40-ce4a9af97862">
+<input checked="checked" id="005b3eca-4a85-4f76-98ff-be5ece8adcd1" name="1aaa8edf-eea3-4291-ada3-7c3911081b9b" type="radio">
+</input><label class="tabbed-label" for="005b3eca-4a85-4f76-98ff-be5ece8adcd1">
 Python</label><div class="tabbed-content docutils">
 <ol class="simple">
 <li><p>From the launch panel, select “Terminal”</p></li>
 <li><p>In the new terminal window, type <code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">hello.py</span></code> and press return</p></li>
 </ol>
 </div>
-<input id="2beb4cb4-7864-4093-b50c-5fbb34561d96" name="9a96e5fd-687e-4b50-9b20-5aa81bb6ba1f" type="radio">
-</input><label class="tabbed-label" for="2beb4cb4-7864-4093-b50c-5fbb34561d96">
+<input id="30b58156-86fb-498d-af22-0fff52d2ea8d" name="1aaa8edf-eea3-4291-ada3-7c3911081b9b" type="radio">
+</input><label class="tabbed-label" for="30b58156-86fb-498d-af22-0fff52d2ea8d">
 Julia</label><div class="tabbed-content docutils">
 <ol class="simple">
 <li><p>From the launch panel, select “Terminal”</p></li>
 <li><p>In the new terminal window, type <code class="docutils literal notranslate"><span class="pre">julia</span> <span class="pre">hello.jl</span></code> and press return</p></li>
 </ol>
 </div>
-<input id="ff88b81c-51e4-4cb8-a9af-125dd763ebdb" name="9a96e5fd-687e-4b50-9b20-5aa81bb6ba1f" type="radio">
-</input><label class="tabbed-label" for="ff88b81c-51e4-4cb8-a9af-125dd763ebdb">
+<input id="ed0299ea-9ada-47de-a0ad-46b9e8483591" name="1aaa8edf-eea3-4291-ada3-7c3911081b9b" type="radio">
+</input><label class="tabbed-label" for="ed0299ea-9ada-47de-a0ad-46b9e8483591">
 R</label><div class="tabbed-content docutils">
 <ol class="simple">
 <li><p>From the launch panel, select “Terminal”</p></li>
@@ -2263,8 +2423,8 @@ R</label><div class="tabbed-content docutils">
 <p>It was easy to get started, but our environment is barebones - let’s add a <strong>dependency</strong>!</p>
 <p>🚦🚦🚦</p>
 <div class="tabbed-set docutils">
-<input checked="checked" id="795023da-3fcd-42a9-8e60-004279ee1ec6" name="4b39d049-a11e-4f79-8ee9-c36f69eaf8e3" type="radio">
-</input><label class="tabbed-label" for="795023da-3fcd-42a9-8e60-004279ee1ec6">
+<input checked="checked" id="79f09694-5b3d-405e-ba1e-07b63bb72fe7" name="2e2bf12a-16ba-447a-bfef-180738cb1a6e" type="radio">
+</input><label class="tabbed-label" for="79f09694-5b3d-405e-ba1e-07b63bb72fe7">
 Python</label><div class="tabbed-content docutils">
 <ol class="simple">
 <li><p>In your repo, create a file called <code class="docutils literal notranslate"><span class="pre">requirements.txt</span></code></p></li>
@@ -2273,8 +2433,8 @@ Python</label><div class="tabbed-content docutils">
 <li><p>Visit <strong><a class="reference external" href="https://mybinder.org/v2/gh/YOUR-USERNAME/my-first-binder/HEAD">https://mybinder.org/v2/gh/YOUR-USERNAME/my-first-binder/HEAD</a></strong> again in a new tab</p></li>
 </ol>
 </div>
-<input id="f2c30f7d-65dd-4f18-a1ce-8aea56b32525" name="4b39d049-a11e-4f79-8ee9-c36f69eaf8e3" type="radio">
-</input><label class="tabbed-label" for="f2c30f7d-65dd-4f18-a1ce-8aea56b32525">
+<input id="6df58e8d-8764-4fd1-aaec-88a78871279a" name="2e2bf12a-16ba-447a-bfef-180738cb1a6e" type="radio">
+</input><label class="tabbed-label" for="6df58e8d-8764-4fd1-aaec-88a78871279a">
 Julia</label><div class="tabbed-content docutils">
 <ol>
 <li><p>In your repo, edit the <code class="docutils literal notranslate"><span class="pre">Project.toml</span></code> file</p></li>
@@ -2288,8 +2448,8 @@ Julia</label><div class="tabbed-content docutils">
 <li><p>Visit <strong><a class="reference external" href="https://mybinder.org/v2/gh/YOUR-USERNAME/my-first-binder/HEAD">https://mybinder.org/v2/gh/YOUR-USERNAME/my-first-binder/HEAD</a></strong> again in a new tab</p></li>
 </ol>
 </div>
-<input id="7addd8e7-91b0-402a-8f1c-09cff8b755a8" name="4b39d049-a11e-4f79-8ee9-c36f69eaf8e3" type="radio">
-</input><label class="tabbed-label" for="7addd8e7-91b0-402a-8f1c-09cff8b755a8">
+<input id="bf88d5fe-9bf8-4970-8b3b-fa5964bd326c" name="2e2bf12a-16ba-447a-bfef-180738cb1a6e" type="radio">
+</input><label class="tabbed-label" for="bf88d5fe-9bf8-4970-8b3b-fa5964bd326c">
 R</label><div class="tabbed-content docutils">
 <ol class="simple">
 <li><p>In your repo, create a file called <code class="docutils literal notranslate"><span class="pre">install.R</span></code></p></li>
@@ -2318,8 +2478,8 @@ These red messages don’t necessarily mean there’s a problem with your build 
 <div class="section" id="more-on-pinning-dependencies">
 <span id="z2b-dependencies"></span><h3>More on pinning dependencies<a class="headerlink" href="#more-on-pinning-dependencies" title="Permalink to this headline">¶</a></h3>
 <div class="tabbed-set docutils">
-<input checked="checked" id="e3c8032b-4b32-43dd-a675-400f53f4a68b" name="593c81cd-445c-4f75-8a05-6b5c4bb2fe71" type="radio">
-</input><label class="tabbed-label" for="e3c8032b-4b32-43dd-a675-400f53f4a68b">
+<input checked="checked" id="049576ad-d32c-42d2-a2c9-e46ffb537aef" name="c74f86bd-2196-4b12-9c8c-94f64a3d3835" type="radio">
+</input><label class="tabbed-label" for="049576ad-d32c-42d2-a2c9-e46ffb537aef">
 Python</label><div class="tabbed-content docutils">
 <p>In the above example, we used two equals signs (<code class="docutils literal notranslate"><span class="pre">==</span></code>) to pin the version of <code class="docutils literal notranslate"><span class="pre">numpy</span></code>.
 This tells Binder to install that <em>specific</em> version.</p>
@@ -2327,8 +2487,8 @@ This tells Binder to install that <em>specific</em> version.</p>
 This is useful when you have a lot of dependencies that may have dependencies on each other and allows Binder to find a configuration of your dependencies that do not conflict with one another whilst avoiding any earlier versions which may break or change your code.</p>
 <p>Finally, you could not provide a version number at all (just the name of the library/package) and Binder will install the latest version of that package.</p>
 </div>
-<input id="c4168b64-a0ac-4ae4-8851-781243cfdb67" name="593c81cd-445c-4f75-8a05-6b5c4bb2fe71" type="radio">
-</input><label class="tabbed-label" for="c4168b64-a0ac-4ae4-8851-781243cfdb67">
+<input id="94f40d3e-dae3-44e9-8f41-5992eeee72ba" name="c74f86bd-2196-4b12-9c8c-94f64a3d3835" type="radio">
+</input><label class="tabbed-label" for="94f40d3e-dae3-44e9-8f41-5992eeee72ba">
 Julia</label><div class="tabbed-content docutils">
 <p>In the above example, we copied a hash into our <code class="docutils literal notranslate"><span class="pre">Project.toml</span></code> file which is related to the version of the package we’d like to install.
 For a full dependency graph, we would also need to include a <code class="docutils literal notranslate"><span class="pre">Manifest.toml</span></code> file which would document dependencies of dependencies.
@@ -2336,8 +2496,8 @@ Between these two files, we are able to instantiate an exact replication of a Ju
 <p>Of course we can imagine that, as the environment grows and the inter-dependencies become more complex, it would become very taxing to write these files by hand!
 The truth is that you’d never do it manually, the built-in package manager <code class="docutils literal notranslate"><span class="pre">Pkg</span></code> can <a class="reference external" href="https://julialang.github.io/Pkg.jl/v1/environments/">generate them automatically</a>.</p>
 </div>
-<input id="bc268562-7884-4916-9ab1-3350e831eee5" name="593c81cd-445c-4f75-8a05-6b5c4bb2fe71" type="radio">
-</input><label class="tabbed-label" for="bc268562-7884-4916-9ab1-3350e831eee5">
+<input id="21bf1259-5d20-40e8-b328-ae2632a436ba" name="c74f86bd-2196-4b12-9c8c-94f64a3d3835" type="radio">
+</input><label class="tabbed-label" for="21bf1259-5d20-40e8-b328-ae2632a436ba">
 R</label><div class="tabbed-content docutils">
 <p>In the above example, we specified that we want to use R in our project by including a date in <code class="docutils literal notranslate"><span class="pre">runtime.txt</span></code>.
 The date tells Binder which CRAN snapshot to source R and packages from.
@@ -2354,8 +2514,8 @@ For more robust and specific version pinning in R, have a look at the <a class="
 <span id="z2b-step-5"></span><h2>5. Check the Environment<a class="headerlink" href="#check-the-environment" title="Permalink to this headline">¶</a></h2>
 <p>🚦🚦🚦</p>
 <div class="tabbed-set docutils">
-<input checked="checked" id="f1fff2d9-fa95-481e-aad3-7851e276fd58" name="822e3647-3bc7-4645-b441-2491eb322c13" type="radio">
-</input><label class="tabbed-label" for="f1fff2d9-fa95-481e-aad3-7851e276fd58">
+<input checked="checked" id="d44fc878-7a55-429c-9791-a014a7eb5c0d" name="23ae2d46-9c79-4270-b009-2b739b33e1ab" type="radio">
+</input><label class="tabbed-label" for="d44fc878-7a55-429c-9791-a014a7eb5c0d">
 Python</label><div class="tabbed-content docutils">
 <ol>
 <li><p>From the launch panel, select “Python 3” from the Notebook section to open a new notebook</p></li>
@@ -2377,8 +2537,8 @@ Python</label><div class="tabbed-content docutils">
 </li>
 </ol>
 </div>
-<input id="e976ad27-554b-42c1-a725-9b27946dd888" name="822e3647-3bc7-4645-b441-2491eb322c13" type="radio">
-</input><label class="tabbed-label" for="e976ad27-554b-42c1-a725-9b27946dd888">
+<input id="fde92034-346f-4a4f-b46f-da4be41261a3" name="23ae2d46-9c79-4270-b009-2b739b33e1ab" type="radio">
+</input><label class="tabbed-label" for="fde92034-346f-4a4f-b46f-da4be41261a3">
 Julia</label><div class="tabbed-content docutils">
 <ol>
 <li><p>From the launch panel, select “Julia” from the Notebook section to open a new Julia notebook</p></li>
@@ -2395,8 +2555,8 @@ Julia</label><div class="tabbed-content docutils">
 </li>
 </ol>
 </div>
-<input id="8e40cb77-4756-4bb7-a4c1-15930d8872c0" name="822e3647-3bc7-4645-b441-2491eb322c13" type="radio">
-</input><label class="tabbed-label" for="8e40cb77-4756-4bb7-a4c1-15930d8872c0">
+<input id="108caea2-8bce-482c-8169-efd59417e523" name="23ae2d46-9c79-4270-b009-2b739b33e1ab" type="radio">
+</input><label class="tabbed-label" for="108caea2-8bce-482c-8169-efd59417e523">
 R</label><div class="tabbed-content docutils">
 <ol>
 <li><p>From the launch panel, select “R” from the Notebook section to open a new R notebook</p></li>
@@ -2495,8 +2655,8 @@ However, that is not to say that they are the <em>only</em> groups of people who
 <span id="z2b-step-8"></span><h2>8. Get data with <code class="docutils literal notranslate"><span class="pre">postBuild</span></code><a class="headerlink" href="#get-data-with-postbuild" title="Permalink to this headline">¶</a></h2>
 <p>🚦🚦🚦</p>
 <div class="tabbed-set docutils">
-<input checked="checked" id="9e5a82a9-ab0a-4d4c-9cc4-fee9dbf5741b" name="0f191e54-11f6-4855-acb1-4b534d933867" type="radio">
-</input><label class="tabbed-label" for="9e5a82a9-ab0a-4d4c-9cc4-fee9dbf5741b">
+<input checked="checked" id="284b4698-7621-490d-b548-d13742f658ca" name="092ee82c-a886-48ea-8ea2-325af3eda471" type="radio">
+</input><label class="tabbed-label" for="284b4698-7621-490d-b548-d13742f658ca">
 Python</label><div class="tabbed-content docutils">
 <ol class="simple">
 <li><p>Go to your GitHub repo and create a file called <code class="docutils literal notranslate"><span class="pre">postBuild</span></code></p></li>
@@ -2533,8 +2693,8 @@ The <code class="docutils literal notranslate"><span class="pre">-q</span></code
 <p>See this <a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/09-plotting/index.html">Software Carpentry lesson</a> for more info.</p>
 </div>
 </div>
-<input id="3552a4af-49d0-4b29-8642-b7eb5bd58b08" name="0f191e54-11f6-4855-acb1-4b534d933867" type="radio">
-</input><label class="tabbed-label" for="3552a4af-49d0-4b29-8642-b7eb5bd58b08">
+<input id="457777f9-9aca-4725-a268-e9bb62a0c4e7" name="092ee82c-a886-48ea-8ea2-325af3eda471" type="radio">
+</input><label class="tabbed-label" for="457777f9-9aca-4725-a268-e9bb62a0c4e7">
 Julia</label><div class="tabbed-content docutils">
 <ol>
 <li><p>Go to your GitHub repo and create a file called <code class="docutils literal notranslate"><span class="pre">postBuild</span></code></p></li>
@@ -2565,11 +2725,11 @@ The <code class="docutils literal notranslate"><span class="pre">-q</span></code
 <span class="n">data</span> <span class="o">=</span> <span class="n">CSV</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="s">&quot;gapminder.csv&quot;</span><span class="p">,</span> <span class="n">DataFrame</span><span class="p">)</span>
 
 <span class="c"># Extract the row corresponding to Australia</span>
-<span class="n">aus_gdp</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="n">data</span><span class="p">[</span><span class="o">:</span><span class="p">,</span> <span class="o">:</span><span class="n">country</span><span class="p">]</span> <span class="o">.==</span> <span class="s">&quot;Australia&quot;</span><span class="p">,</span> <span class="o">:</span><span class="p">]</span>
+<span class="n">aus_gdp</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="n">data</span><span class="p">[</span><span class="o">:</span><span class="p">,</span> <span class="ss">:country</span><span class="p">]</span> <span class="o">.==</span> <span class="s">&quot;Australia&quot;</span><span class="p">,</span> <span class="o">:</span><span class="p">]</span>
 <span class="n">aus_gdp</span> <span class="o">=</span> <span class="kt">Matrix</span><span class="p">(</span><span class="n">aus_gdp</span><span class="p">[</span><span class="o">:</span><span class="p">,</span><span class="mi">2</span><span class="o">:</span><span class="k">end</span><span class="p">])[</span><span class="o">:</span><span class="p">]</span>  <span class="c"># as vector</span>
 
 <span class="c"># Extract the years as Ints from the column names</span>
-<span class="n">years</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">[</span><span class="k">end</span><span class="o">-</span><span class="mi">3</span><span class="o">:</span><span class="k">end</span><span class="p">]</span> <span class="k">for</span> <span class="n">x</span> <span class="kp">in</span> <span class="n">names</span><span class="p">(</span><span class="n">data</span><span class="p">)[</span><span class="mi">2</span><span class="o">:</span><span class="k">end</span><span class="p">]]</span>
+<span class="n">years</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">[</span><span class="k">end</span><span class="o">-</span><span class="mi">3</span><span class="o">:</span><span class="k">end</span><span class="p">]</span> <span class="k">for</span> <span class="n">x</span> <span class="k">in</span> <span class="n">names</span><span class="p">(</span><span class="n">data</span><span class="p">)[</span><span class="mi">2</span><span class="o">:</span><span class="k">end</span><span class="p">]]</span>
 <span class="n">years</span> <span class="o">=</span> <span class="n">parse</span><span class="o">.</span><span class="p">(</span><span class="kt">Int</span><span class="p">,</span> <span class="n">years</span><span class="p">)</span>
 
 <span class="c"># Plot</span>
@@ -2577,8 +2737,8 @@ The <code class="docutils literal notranslate"><span class="pre">-q</span></code
 </pre></div>
 </div>
 </div>
-<input id="6719ddb2-ded5-4046-b980-3bc50c751889" name="0f191e54-11f6-4855-acb1-4b534d933867" type="radio">
-</input><label class="tabbed-label" for="6719ddb2-ded5-4046-b980-3bc50c751889">
+<input id="00c07b3f-7ea7-4993-9ad5-abe7b868468b" name="092ee82c-a886-48ea-8ea2-325af3eda471" type="radio">
+</input><label class="tabbed-label" for="00c07b3f-7ea7-4993-9ad5-abe7b868468b">
 R</label><div class="tabbed-content docutils">
 <ol>
 <li><p>Go to your GitHub repo and create a file called <code class="docutils literal notranslate"><span class="pre">postBuild</span></code></p></li>
@@ -2729,44 +2889,42 @@ We’ll now cover three ways you can manipulate your Binder URL to navigate betw
 
               </div>
               
-        
-        <div class='prev-next-bottom'>
             
-    <a class='left-prev' id="prev-link" href="../binder.html" title="previous page">Binder</a>
-    <a class='right-next' id="next-link" href="../../collaboration/collaboration.html" title="next page">Guide for Collaboration</a>
-
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="../binder.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Binder</p>
         </div>
-        
+    </a>
+    <a class='right-next' id="next-link" href="../../collaboration/collaboration.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Guide for Collaboration</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            
         </div>
     </div>
-    <footer class="footer mt-5 mt-md-0">
-    <div class="container">
-      <p>
-        
-          By The Turing Way Community<br/>
-        
-            &copy; Copyright 2020-2021.<br/>
-      </p>
-    </div>
-  </footer>
+    <footer class="footer">
+  <p>
+    
+      By The Turing Way Community<br/>
+    
+        &copy; Copyright 2020-2021.<br/>
+  </p>
+</footer>
 </main>
 
 
       </div>
     </div>
   
-  <script src="../../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
-
-  
-<script async="" src="https://www.google-analytics.com/analytics.js"></script>
-<script>
-                        window.ga = window.ga || function () {
-                            (ga.q = ga.q || []).push(arguments) };
-                        ga.l = +new Date;
-                        ga('create', 'UA-167881009-1', 'auto');
-                        ga('set', 'anonymizeIp', true);
-                        ga('send', 'pageview');
-                    </script>
+  <script src="../../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
 
   </body>
 </html>
