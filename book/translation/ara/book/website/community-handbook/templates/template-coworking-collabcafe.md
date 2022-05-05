@@ -1,103 +1,102 @@
-(ch-template-coworking-collabcafe)=
-# Collaboration Cafe Call Template
+crwdns838918:0crwdne838918:0
+# crwdns838920:0crwdne838920:0
 
-*A permanent document exists in the HackMD: [https://hackmd.io/@KirstieJane/CollabCafe](https://hackmd.io/@KirstieJane/CollabCafe) that is regularly updated with the empty template for next event.*
+*crwdns838922:0crwdne838922:0*
 
-## _The Turing Way_ online Collaboration Cafe | DATE MONTH YEAR
+## crwdns838924:0crwdne838924:0
 
-Thank you for joining the _Turing Way_'s online Collaboration Cafe! We're delighted to have you here :coffee: :sparkles: :cake:
+crwdns838926:0crwdne838926:0 crwdns838928:0:coffee:crwdnd838928:0:sparkles:crwdnd838928:0:cake:crwdne838928:0
 
-(*We do recommend bringing your actual tea, coffee, water or your favorite beverage to this cafe! :smile:*)
+crwdns838930:0crwdne838930:0 crwdns838932:0:smile:crwdne838932:0
 
-**What?** *The Turing Way is a **lightly opinionated guide to reproducible data science and research**. This collaboration cafe aims to engage with researchers interested in learning and sharing more about this topic in an **online book**: https://the-turing-way.netlify.com*
+crwdns838934:0crwdne838934:0 crwdns838936:0crwdne838936:0
 
-*Read more about it here: https://the-turing-way.netlify.app/community-handbook/coworking.html*
+*crwdns838938:0crwdne838938:0*
 
-**Who?** ***Everyone** interested in reproducible, ethical, and inclusive data science and research are welcome to join the full or any part of The Turing Way project, community, and/or this call.*
+crwdns838940:0crwdne838940:0
 
-**When?** DD Month YYYY, HH:MM BST (link for local time from https://arewemeetingyet.com)
+crwdns838942:0crwdne838942:0
 
-**How?** *Zoom link will be provided 10 minutes before the call*
+crwdns838944:0crwdne838944:0
 
-***All questions, comments and recommendations are welcome!***
+***crwdns838946:0crwdne838946:0***
 
-### Useful links
+### crwdns838948:0crwdne838948:0
 
-* Shared notes: https://hackmd.io/@KirstieJane/CollabCafe
-* The Turing Way GitHub repository: https://github.com/alan-turing-institute/the-turing-way
-* All about [online Collaboration Cafes](https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md)
-* Turing Way calendar: https://calendar.google.com/calendar?cid=dGhldHVyaW5nd2F5QGdtYWlsLmNvbQ
-* Contribution guidelines: https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md
-* Chat on Gitter: https://gitter.im/alan-turing-institute/the-turing-way
-* Join the mailing list: https://tinyletter.com/TuringWay
-* Can't join the collaboration cafe but want to work with us? Check out the co-working calls during the week: https://hackmd.io/@malvikasharan/TW-coworking
+* crwdns838950:0crwdne838950:0
+* crwdns838952:0crwdne838952:0
+* crwdns869888:0crwdne869888:0
+* crwdns838956:0crwdne838956:0
+* crwdns838958:0crwdne838958:0
+* crwdns838960:0crwdne838960:0
+* crwdns838962:0crwdne838962:0
+* crwdns838964:0crwdne838964:0 crwdns838966:0crwdne838966:0
 
-### Code of conduct
+### crwdns838968:0crwdne838968:0
 
-* [Take a moment to read this](https://github.com/alan-turing-institute/the-turing-way/blob/main/CODE_OF_CONDUCT.md)
+* [crwdns838972:0crwdne838972:0](crwdns838970:0crwdne838970:0)
 
-### Pomodoro timer for this session
-https://cuckoo.team/collabcafe
+### crwdns838974:0crwdne838974:0
+crwdns838976:0crwdne838976:0
 
-### Sign up below
-*Name + <A fun Icebreaker> + an emoji to represent it ([emoji cheatsheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md))*
+### crwdns838978:0crwdne838978:0
+*crwdns838980:0crwdne838980:0*
 
-*(Remember that this is a public document. You can use a pseudonym if you'd prefer.)*
+*crwdns838982:0crwdne838982:0 crwdns838984:0crwdne838984:0*
 
-### Conversation Starters
+### crwdns838986:0crwdne838986:0
 
-*Advertise and promote your event, or anything exciting you're working on.* ✨
-
-*
-*
-
-### Schedule
-
-https://cuckoo.team/tw-collabcafe
-
-| Duration | Activity                                                         |
-| -------- | ---------------------------------------------------------------- |
-| Start    | 👋 Welcome, code of conduct review                                |
-| 10 mins  | Introductions and personal goal setting                          |
-| 20 mins  | 🍅 1st Pomodoro session                                           |
-| 5 mins   | ☕️ Break                                                         |
-| 20 mins  | 🍅 2nd Pomodoro session                                           |
-| 5 mins   | ☕️ Break                                                         |
-| 20 mins  | 🍅 3rd Pomodoro session                                           |
-| 5 mins   | ☕️ Break                                                         |
-| 30 mins  | Open discussion: celebrations, reflections and future directions |
-| 5 mins   | 👋 Close                                                          |
-
-### Timers
-
-* 20 minute timer (beach): http://amazingtimer.com/countdown_timer.php?h=0&m=20&s=0&b=26
-* 5 minute timer (cat): http://amazingtimer.com/countdown_timer.php?h=0&m=5&s=0&b=30
-* 5 minute timer (chameleon): http://amazingtimer.com/countdown_timer.php?h=0&m=5&s=0&b=40
-
-### Breakout rooms: Topic proposals
-
-*If you have an idea for a topic you'd like to discuss in a breakout room, please add it below and put your name next to it. If you like one of the topics that is already suggested, please add your name next to that one. Team work makes the dream work. For more information about breakout rooms see [the description on GitHub](https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md#breakout-rooms).*
-
-Topic for breakout / Names
+crwdns838988:0crwdne838988:0
 
 *
+*
 
-### Notes and questions
+### crwdns838990:0crwdne838990:0
+
+crwdns838992:0crwdne838992:0
+
+| crwdns838994:0crwdne838994:0 | crwdns838996:0crwdne838996:0 |
+| ---------------------------- | ---------------------------- |
+| crwdns838998:0crwdne838998:0 | crwdns839000:0crwdne839000:0 |
+| crwdns839002:0crwdne839002:0 | crwdns839004:0crwdne839004:0 |
+| crwdns839006:0crwdne839006:0 | crwdns839008:0crwdne839008:0 |
+| crwdns839010:0crwdne839010:0 | crwdns839012:0crwdne839012:0 |
+| crwdns839014:0crwdne839014:0 | crwdns839016:0crwdne839016:0 |
+| crwdns839018:0crwdne839018:0 | crwdns839020:0crwdne839020:0 |
+| crwdns839022:0crwdne839022:0 | crwdns839024:0crwdne839024:0 |
+| crwdns839026:0crwdne839026:0 | crwdns839028:0crwdne839028:0 |
+| crwdns839030:0crwdne839030:0 | crwdns839032:0crwdne839032:0 |
+| crwdns839034:0crwdne839034:0 | crwdns839036:0crwdne839036:0 |
+
+### crwdns839038:0crwdne839038:0
+
+* crwdns839040:0crwdne839040:0
+* crwdns839042:0crwdne839042:0
+* crwdns839044:0crwdne839044:0
+
+### crwdns839046:0crwdne839046:0
+
+*crwdns839048:0crwdne839048:0 crwdns839050:0crwdne839050:0 crwdns839052:0crwdne839052:0 crwdns869890:0crwdne869890:0*
+
+crwdns839056:0crwdne839056:0
 
 *
 
-### Feedback at the end of the call
+### crwdns839058:0crwdne839058:0
+
+*
+
+### crwdns839060:0crwdne839060:0
 
 *
 
 ----
 
-#### Wondering where to start?
+#### crwdns839062:0crwdne839062:0
 
-Here are a few suggestions for a good first contributions:
+crwdns839064:0crwdne839064:0
 
-- Fix a typo in [the book](https://the-turing-way.netlify.com) and/or [repository](https://github.com/alan-turing-institute/the-turing-way).
-- Flag the unclear or duplicated information in the book by opening an [issue on the GitHub](https://github.com/alan-turing-institute/the-turing-way/issues).
-- Fix an [old issue](https://github.com/alan-turing-institute/the-turing-way/issues) or comment on the the [pull requests](https://github.com/alan-turing-institute/the-turing-way/pulls).
-- Write your personal experience of reproducible research in this [google form](https://goo.gl/forms/akFqZEIy2kxAjfZW2).
-- See more info on the GitHub: https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md
+- crwdns839066:0crwdne839066:0
+- crwdns839068:0crwdne839068:0
+- crwdns839070:0crwdne839070:0
+- crwdns839072:0crwdne839072:0
