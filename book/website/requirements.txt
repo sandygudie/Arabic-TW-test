@@ -1,5 +1,6 @@
 # Requirements for the demo notebooks
 # Useful for MyBinder configuration
+python == 3.8
 pandas==1.0.5
 numpy==1.21.0
 matplotlib==3.2.2
