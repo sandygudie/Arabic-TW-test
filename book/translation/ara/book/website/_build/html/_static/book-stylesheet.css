@@ -18,24 +18,39 @@ Styling for Table of Contents
 
 \*--------------------------------------------------------------------*/
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
 div {
  direction: rtl;
 }
 
-p {
- direction: rtl;
+
+body {
+    text-align: right;
+    font-family: 'Noto Sans Arabic', sans-serif;
 }
 
 h1 {
- direction: rtl;
+  font-family: 'Noto Sans Arabic', sans-serif;
+  font-weight: 500;
+  color: blue;
+
+  /* color: #757474; */
 }
 
 h2 {
- direction: rtl;
+  font-family: 'Noto Sans Arabic', sans-serif;
+  font-weight: 400;
+  /* color: #757474; */
+
 }
 
 h3 {
- direction: rtl;
+  font-family: 'Noto Sans Arabic', sans-serif;
+  font-weight: 400;
+  /* color: #757474; */
+
 }
 
 #site-navigation li > a {
@@ -105,4 +120,31 @@ table caption .footnote {
 
 tr:hover {
   background-color: #f7f7f7;
+}
+
+
+div {
+ direction: rtl;
+}
+
+body {
+ direction: rtl;
+}
+
+h1 {
+ direction: rtl;
+}
+
+h2 {
+ direction: rtl;
+}
+
+h3 {
+ direction: rtl;
+}
+
+body {
+  background: #fff;
+  color: #666666;
+  family: 'IBM Plex Sans Arabic', sans-serif;
 }

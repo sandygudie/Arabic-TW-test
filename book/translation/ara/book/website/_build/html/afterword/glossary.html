@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="ar">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -42,6 +42,7 @@
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
     <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
+    <script src="../_static/translations.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
@@ -53,11 +54,11 @@
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="canonical" href="https://the-turing-way.netlify.com/afterword/glossary.html" />
     <link rel="index" title="Index" href="../genindex.html" />
-    <link rel="search" title="Search" href="../search.html" />
+    <link rel="search" title="بحث" href="../search.html" />
     <link rel="next" title="Bibliography" href="bibliography.html" />
     <link rel="prev" title="Legal disclaimer: The Turing Way is not legal advice!" href="legal-disclaimer.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="en">
+    <meta name="docsearch:language" content="ar">
     
 
     <!-- Google Analytics -->
@@ -94,7 +95,7 @@
     </a>
 </div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
   <i class="icon fas fa-search"></i>
-  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="بحث في هذا الكتاب ..." aria-label="بحث في هذا الكتاب ..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
         <ul class="nav bd-sidenav">
@@ -1905,8 +1906,8 @@
             
             <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
                 data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                aria-expanded="true" aria-label="تبديل التنقل" aria-controls="site-navigation"
+                title="تبديل التنقل" data-toggle="tooltip" data-placement="left">
                 <i class="fas fa-bars"></i>
                 <i class="fas fa-arrow-left"></i>
                 <i class="fas fa-arrow-up"></i>
@@ -1914,7 +1915,7 @@
             
             
 <div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="قم بتنزيل هذه الصفحة"><i
             class="fas fa-download"></i></button>
 
     <div class="dropdown-buttons">
@@ -1922,10 +1923,10 @@
         
         <!-- Download raw file -->
         <a class="dropdown-buttons" href="../_sources/afterword/glossary.md"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                class="btn btn-secondary topbarbtn" title="تنزيل ملف المصدر" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
-        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="طباعة إلى PDF"
                 onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
     </div>
 </div>
@@ -1938,23 +1939,23 @@
     <div class="dropdown-buttons sourcebuttons">
         <a class="repository-button"
             href="https://github.com/alan-turing-institute/the-turing-way"><button type="button" class="btn btn-secondary topbarbtn"
-                data-toggle="tooltip" data-placement="left" title="Source repository"><i
-                    class="fab fa-github"></i>repository</button></a>
+                data-toggle="tooltip" data-placement="left" title="مستودع المصدر"><i
+                    class="fab fa-github"></i>مخزن</button></a>
         <a class="issues-button"
             href="https://github.com/alan-turing-institute/the-turing-way/issues/new?title=Issue%20on%20page%20%2Fafterword/glossary.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+                title="افتح قضية"><i class="fas fa-lightbulb"></i>قضية مفتوحة</button></a>
         <a class="edit-button" href="https://github.com/alan-turing-institute/the-turing-way/edit/main/book/website/afterword/glossary.md"><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
+                title="قم بتحرير هذه الصفحة"><i class="fas fa-pencil-alt"></i>أقترح تحرير</button></a>
     </div>
 </div>
 
             <!-- Full screen (wrap in <a> to have style consistency -->
 
 <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-        title="Fullscreen mode"><i
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="وضع ملء الشاشة"
+        title="وضع ملء الشاشة"><i
             class="fas fa-expand"></i></button></a>
 
             <!-- Launch buttons -->
@@ -1965,7 +1966,7 @@
         <div class="d-none d-md-block col-md-2 bd-toc show noprint">
             
             <div class="tocsection onthispage pt-5 pb-3">
-                <i class="fas fa-list"></i> Contents
+                <i class="fas fa-list"></i> محتويات
             </div>
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
@@ -2115,7 +2116,7 @@
                     <div id="jb-print-toc">
                         
                         <div>
-                            <h2> Contents </h2>
+                            <h2> محتويات </h2>
                         </div>
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
@@ -2263,9 +2264,9 @@
 <div class="section" id="a">
 <h2>A<a class="headerlink" href="#a" title="Permalink to this headline">¶</a></h2>
 <dl class="glossary simple">
-<dt id="term-Acceptance-Testing">Acceptance Testing<a class="headerlink" href="#term-Acceptance-Testing" title="Permalink to this term">¶</a></dt><dd><p>A level of the software testing process where a system is tested for acceptability. The purpose of this test is to evaluate the system’s compliance with the project requirements and assess whether it is acceptable for the purpose.</p>
+<dt id="term-Acceptance-Testing">Acceptance Testing<a class="headerlink" href="#term-Acceptance-Testing" title="Permalink to this term">¶</a></dt><dd><p>A level of the software testing process where a system is tested for acceptability. The purpose of this test is to evaluate the system's compliance with the project requirements and assess whether it is acceptable for the purpose.</p>
 </dd>
-<dt id="term-Acknowledgements">Acknowledgements<a class="headerlink" href="#term-Acknowledgements" title="Permalink to this term">¶</a></dt><dd><p>Where contributions to a project that don’t qualify as authorship are written. It records the contributors name and the contribution that they made is described.</p>
+<dt id="term-Acknowledgements">Acknowledgements<a class="headerlink" href="#term-Acknowledgements" title="Permalink to this term">¶</a></dt><dd><p>Where contributions to a project that don't qualify as authorship are written. It records the contributors name and the contribution that they made is described.</p>
 </dd>
 <dt id="term-Add">Add<a class="headerlink" href="#term-Add" title="Permalink to this term">¶</a></dt><dd><p>Command used to add files to the staging area. Allows the user to specify which files or directories to include in the next commit.</p>
 </dd>
@@ -2379,7 +2380,7 @@
 <dl class="glossary simple">
 <dt id="term-FAIR">FAIR<a class="headerlink" href="#term-FAIR" title="Permalink to this term">¶</a></dt><dd><p>Findable, Accessible, Interoperable and Reusable.</p>
 </dd>
-<dt id="term-First-author">First author<a class="headerlink" href="#term-First-author" title="Permalink to this term">¶</a></dt><dd><p>The most prominent position in academic authorship. It conveys this person’s position as the researcher who has made the greatest contribution to the research.</p>
+<dt id="term-First-author">First author<a class="headerlink" href="#term-First-author" title="Permalink to this term">¶</a></dt><dd><p>The most prominent position in academic authorship. It conveys this person's position as the researcher who has made the greatest contribution to the research.</p>
 </dd>
 </dl>
 </div>
@@ -2427,7 +2428,7 @@
 </dd>
 <dt id="term-Integration-Testing">Integration Testing<a class="headerlink" href="#term-Integration-Testing" title="Permalink to this term">¶</a></dt><dd><p>A level of software testing where individual units are combined and tested as a group. The purpose of this level of testing is to expose faults in the interaction between integrated units.</p>
 </dd>
-<dt id="term-Intersectionality">Intersectionality<a class="headerlink" href="#term-Intersectionality" title="Permalink to this term">¶</a></dt><dd><p>The way in which a person’s identities (gender, race, class, sexual orientation, physical ability and others) can overlap and intersect to form a unique experience of social status, discrimination or oppression. This term was coined by Professor Kimberlé Crenshaw.</p>
+<dt id="term-Intersectionality">Intersectionality<a class="headerlink" href="#term-Intersectionality" title="Permalink to this term">¶</a></dt><dd><p>The way in which a person's identities (gender, race, class, sexual orientation, physical ability and others) can overlap and intersect to form a unique experience of social status, discrimination or oppression. This term was coined by Professor Kimberlé Crenshaw.</p>
 </dd>
 <dt id="term-Issues">Issues<a class="headerlink" href="#term-Issues" title="Permalink to this term">¶</a></dt><dd><p>Bug tracking system for GitHub. Collaborators can use issues to report bugs, request features, or set milestones for projects. Issues are tracked, reported, and closed by collaborators during the development process. They’re a great way of communicating with your team and reporting progress.</p>
 </dd>
@@ -2517,7 +2518,7 @@
 </dd>
 <dt id="term-Open-Source-Software">Open Source Software<a class="headerlink" href="#term-Open-Source-Software" title="Permalink to this term">¶</a></dt><dd><p>Documenting research code and routines, and making them freely accessible and available.</p>
 </dd>
-<dt id="term-ORCID">ORCID<a class="headerlink" href="#term-ORCID" title="Permalink to this term">¶</a></dt><dd><p>Open Researchers and Contributor iD. It is a long lasting unique identifier for you as a researcher. A persistent digital identifier for researchers’ that can be used on publications to ensure fair credit is given for all the researchers works.</p>
+<dt id="term-ORCID">ORCID<a class="headerlink" href="#term-ORCID" title="Permalink to this term">¶</a></dt><dd><p>Open Researchers and Contributor iD. It is a long lasting unique identifier for you as a researcher. A persistent digital identifier for researchers' that can be used on publications to ensure fair credit is given for all the researchers works.</p>
 </dd>
 <dt id="term-Owner">Owner<a class="headerlink" href="#term-Owner" title="Permalink to this term">¶</a></dt><dd><p>The person/s who has administrative ownership over the organization or repository (not always the same as the original author).</p>
 </dd>
@@ -2547,7 +2548,7 @@
 </dd>
 <dt id="term-Prerequisite">Prerequisite<a class="headerlink" href="#term-Prerequisite" title="Permalink to this term">¶</a></dt><dd><p>The prerequisite(s) of a rule correspond to files or other targets in the Makefile that must be up to date before the rule is run.</p>
 </dd>
-<dt id="term-Project-Design">Project Design<a class="headerlink" href="#term-Project-Design" title="Permalink to this term">¶</a></dt><dd><p>An early phase of the project where a project’s key features, structure, criteria for success, and major deliverables are all planned out.</p>
+<dt id="term-Project-Design">Project Design<a class="headerlink" href="#term-Project-Design" title="Permalink to this term">¶</a></dt><dd><p>An early phase of the project where a project's key features, structure, criteria for success, and major deliverables are all planned out.</p>
 </dd>
 <dt id="term-Pull-Request">Pull Request<a class="headerlink" href="#term-Pull-Request" title="Permalink to this term">¶</a></dt><dd><p>Proposed changes to a remote repository. Collaborators without write access can send a pull request to the administrator with the changes they’ve made to the repo. The administrator can then approve and merge or reject the changes to the main repository. For open source projects pull requests can be sent by anyone that has forked a project.</p>
 </dd>
@@ -2690,7 +2691,7 @@
 <h2>Z<a class="headerlink" href="#z" title="Permalink to this headline">¶</a></h2>
 <dl class="glossary simple">
 </dl>
-<p>—&gt;</p>
+<p>---&gt;</p>
 </div>
 </div>
 
@@ -2719,16 +2720,16 @@
             
                 <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="legal-disclaimer.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="legal-disclaimer.html" title="السابق صفحة">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
-            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-subtitle">السابق</p>
             <p class="prev-next-title">Legal disclaimer: The Turing Way is not legal advice!</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="bibliography.html" title="next page">
+    <a class='right-next' id="next-link" href="bibliography.html" title="التالي صفحة">
     <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-subtitle">التالي</p>
         <p class="prev-next-title">Bibliography</p>
     </div>
     <i class="fas fa-angle-right"></i>
@@ -2740,9 +2741,9 @@
     <footer class="footer">
   <p>
     
-      By The Turing Way Community<br/>
+      بواسطة The Turing Way Community<br/>
     
-        &copy; Copyright 2020-2021.<br/>
+        &copy; حقوق النشر 2020-2021.<br/>
   </p>
 </footer>
 </main>

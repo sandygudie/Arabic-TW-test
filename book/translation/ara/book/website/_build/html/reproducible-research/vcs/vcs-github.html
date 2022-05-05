@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="ar">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -42,6 +42,7 @@
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
     <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
+    <script src="../../_static/translations.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
@@ -53,11 +54,11 @@
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
     <link rel="canonical" href="https://the-turing-way.netlify.com/reproducible-research/vcs/vcs-github.html" />
     <link rel="index" title="Index" href="../../genindex.html" />
-    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="search" title="بحث" href="../../search.html" />
     <link rel="next" title="Summary Table of Git Commands" href="vcs-git-summary.html" />
     <link rel="prev" title="Interactive, Visual Git" href="vcs-git-interactive.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="en">
+    <meta name="docsearch:language" content="ar">
     
 
     <!-- Google Analytics -->
@@ -94,13 +95,13 @@
     </a>
 </div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
   <i class="icon fas fa-search"></i>
-  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="بحث في هذا الكتاب ..." aria-label="بحث في هذا الكتاب ..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
         <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../../welcome.html">
-   Welcome
+   مرحبا بكم
   </a>
  </li>
 </ul>
@@ -1905,8 +1906,8 @@
             
             <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
                 data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                aria-expanded="true" aria-label="تبديل التنقل" aria-controls="site-navigation"
+                title="تبديل التنقل" data-toggle="tooltip" data-placement="left">
                 <i class="fas fa-bars"></i>
                 <i class="fas fa-arrow-left"></i>
                 <i class="fas fa-arrow-up"></i>
@@ -1914,7 +1915,7 @@
             
             
 <div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="قم بتنزيل هذه الصفحة"><i
             class="fas fa-download"></i></button>
 
     <div class="dropdown-buttons">
@@ -1922,10 +1923,10 @@
         
         <!-- Download raw file -->
         <a class="dropdown-buttons" href="../../_sources/reproducible-research/vcs/vcs-github.md"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                class="btn btn-secondary topbarbtn" title="تنزيل ملف المصدر" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
-        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="طباعة إلى PDF"
                 onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
     </div>
 </div>
@@ -1938,23 +1939,23 @@
     <div class="dropdown-buttons sourcebuttons">
         <a class="repository-button"
             href="https://github.com/alan-turing-institute/the-turing-way"><button type="button" class="btn btn-secondary topbarbtn"
-                data-toggle="tooltip" data-placement="left" title="Source repository"><i
-                    class="fab fa-github"></i>repository</button></a>
+                data-toggle="tooltip" data-placement="left" title="مستودع المصدر"><i
+                    class="fab fa-github"></i>مخزن</button></a>
         <a class="issues-button"
             href="https://github.com/alan-turing-institute/the-turing-way/issues/new?title=Issue%20on%20page%20%2Freproducible-research/vcs/vcs-github.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+                title="افتح قضية"><i class="fas fa-lightbulb"></i>قضية مفتوحة</button></a>
         <a class="edit-button" href="https://github.com/alan-turing-institute/the-turing-way/edit/main/book/website/reproducible-research/vcs/vcs-github.md"><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
+                title="قم بتحرير هذه الصفحة"><i class="fas fa-pencil-alt"></i>أقترح تحرير</button></a>
     </div>
 </div>
 
             <!-- Full screen (wrap in <a> to have style consistency -->
 
 <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-        title="Fullscreen mode"><i
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="وضع ملء الشاشة"
+        title="وضع ملء الشاشة"><i
             class="fas fa-expand"></i></button></a>
 
             <!-- Launch buttons -->
@@ -1965,7 +1966,7 @@
         <div class="d-none d-md-block col-md-2 bd-toc show noprint">
             
             <div class="tocsection onthispage pt-5 pb-3">
-                <i class="fas fa-list"></i> Contents
+                <i class="fas fa-list"></i> محتويات
             </div>
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
@@ -2030,7 +2031,7 @@
                     <div id="jb-print-toc">
                         
                         <div>
-                            <h2> Contents </h2>
+                            <h2> محتويات </h2>
                         </div>
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
@@ -2096,11 +2097,11 @@
 <p>For simplicity, we will use GitHub as an example to explain commands that are used for interacting with Git repositories.</p>
 <div class="section" id="create-a-local-copy-of-an-online-repository">
 <span id="rr-vcs-github-local"></span><h2>Create a Local Copy of an Online Repository<a class="headerlink" href="#create-a-local-copy-of-an-online-repository" title="Permalink to this headline">¶</a></h2>
-<p>So far, all Git commands introduced in this chapter are concerned with local, unconnected Git repositories. In order to collaborate with others, hosting services, such as GitHub, can store a <em>clone</em> (a copy) of your local repository and expose it to others. Usually, you will have a local repository and a <em>remote</em>, web-hosted repository. Your local repository is connected to the web-based clone. In technical terms, the web-based clone is a <code class="docutils literal notranslate"><span class="pre">remote</span></code> of the local repository. Usually, this remote is called “origin”. Having a web-based remote allows you to <em>push</em> changes to your project online. It enables others to obtain their own clone of your repository (a copy of your repository to their local computer), make changes, and submit a <em>pull request</em> that allows you to integrate their changes. For example, one can create an independent local copy of a project using the following Git command:</p>
+<p>So far, all Git commands introduced in this chapter are concerned with local, unconnected Git repositories. In order to collaborate with others, hosting services, such as GitHub, can store a <em>clone</em> (a copy) of your local repository and expose it to others. Usually, you will have a local repository and a <em>remote</em>, web-hosted repository. Your local repository is connected to the web-based clone. In technical terms, the web-based clone is a <code class="docutils literal notranslate"><span class="pre">remote</span></code> of the local repository. Usually, this remote is called &quot;origin&quot;. Having a web-based remote allows you to <em>push</em> changes to your project online. It enables others to obtain their own clone of your repository (a copy of your repository to their local computer), make changes, and submit a <em>pull request</em> that allows you to integrate their changes. For example, one can create an independent local copy of a project using the following Git command:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="o">&lt;</span><span class="n">insert</span> <span class="n">GitHub</span> <span class="n">link</span> <span class="n">of</span> <span class="n">the</span> <span class="n">repository</span> <span class="n">here</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>Collaborators can update their local version of an online repository or <em>pull</em> other’s work into their copy using the command:</p>
+<p>Collaborators can update their local version of an online repository or <em>pull</em> other's work into their copy using the command:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">pull</span>
 </pre></div>
 </div>
@@ -2139,7 +2140,7 @@
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">push</span> <span class="o">-</span><span class="n">u</span> <span class="n">origin</span> <span class="n">main</span>
 </pre></div>
 </div>
-<p>The same procedure applies to you if you want to clone someone else’s repository.</p>
+<p>The same procedure applies to you if you want to clone someone else's repository.</p>
 <div class="section" id="pull-requests">
 <span id="rr-vcs-github-online-pull"></span><h3>Pull Requests<a class="headerlink" href="#pull-requests" title="Permalink to this headline">¶</a></h3>
 <p>If you are working on a personal branch and some other changes were made in the main branch, you can <em>pull</em> those changes down to your branch using the Git command:</p>
@@ -2158,7 +2159,7 @@
 <p>When you create a local copy of a repository, you only keep the versions of the files that are in the repository at the time of creating that copy. If any changes are made in the original repository afterwards, your copy will get out of sync. This can lead to problems like conflicting file contents when making a pull request or merging changes from your branch to the main repository. Therefore, when working on different branches or forks of a repository, it is a good practice to keep them updated with the main repository and in sync with the original repository.</p>
 <div class="section" id="a-workflow-to-contribute-to-others-github-projects-via-git">
 <span id="rr-vcs-github-contributing-workflow"></span><h3>A Workflow to Contribute to Others Github Projects via <code class="docutils literal notranslate"><span class="pre">git</span></code>:<a class="headerlink" href="#a-workflow-to-contribute-to-others-github-projects-via-git" title="Permalink to this headline">¶</a></h3>
-<p>Using the fork button on the GitHub repository you wish to contribute to, create a copy of the repository in your account. The main repository that you forked will be referred to as the “upstream” repository.</p>
+<p>Using the fork button on the GitHub repository you wish to contribute to, create a copy of the repository in your account. The main repository that you forked will be referred to as the &quot;upstream&quot; repository.</p>
 <p>You can now work on your copy using the command line, via the following steps (make sure you replace the placeholder user and repository names):</p>
 <ol>
 <li><p>Clone it to your local machine:</p>
@@ -2166,17 +2167,17 @@
 </pre></div>
 </div>
 </li>
-<li><p>Add the ‘upstream’ repository to the list of remote repositories using the <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">remote</span></code> command:</p>
+<li><p>Add the 'upstream' repository to the list of remote repositories using the <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">remote</span></code> command:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">remote</span> <span class="n">add</span> <span class="n">upstream</span> <span class="n">git</span><span class="nd">@github</span><span class="o">.</span><span class="n">com</span><span class="p">:</span><span class="n">upstream</span><span class="o">-</span><span class="n">github</span><span class="o">-</span><span class="n">username</span><span class="o">/</span><span class="n">repository_name</span>
 </pre></div>
 </div>
 </li>
-<li><p>Verify the new remote ‘upstream’ repository:</p>
+<li><p>Verify the new remote 'upstream' repository:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">remote</span> <span class="o">-</span><span class="n">v</span>
 </pre></div>
 </div>
 </li>
-<li><p>Update your fork with the latest upstream changes, by first fetching the upstream repository’s branches and latest commits to bring them into your repository:</p>
+<li><p>Update your fork with the latest upstream changes, by first fetching the upstream repository's branches and latest commits to bring them into your repository:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">fetch</span> <span class="n">upstream</span>
 </pre></div>
 </div>
@@ -2196,7 +2197,7 @@
 </li>
 </ol>
 <p>Now, your local main branch is up-to-date with everything modified upstream. If there are no unique commits on the local main branch, git will simply perform a fast-forward.</p>
-<p><em>Note: The upstream/main is the original repository’s main which you wish to contribute to, whereas origin/main refers to the repository you cloned in your local machine after it was forked on GitHub.</em></p>
+<p><em>Note: The upstream/main is the original repository's main which you wish to contribute to, whereas origin/main refers to the repository you cloned in your local machine after it was forked on GitHub.</em></p>
 <p>Once your fork is in sync with the upstream main repository, you can always keep your local cloned repository in sync with origin (fork in this case) by using:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">checkout</span> <span class="n">main</span>
 <span class="n">git</span> <span class="n">pull</span>
@@ -2255,16 +2256,16 @@
             
                 <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="vcs-git-interactive.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="vcs-git-interactive.html" title="السابق صفحة">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
-            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-subtitle">السابق</p>
             <p class="prev-next-title">Interactive, Visual Git</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="vcs-git-summary.html" title="next page">
+    <a class='right-next' id="next-link" href="vcs-git-summary.html" title="التالي صفحة">
     <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-subtitle">التالي</p>
         <p class="prev-next-title">Summary Table of Git Commands</p>
     </div>
     <i class="fas fa-angle-right"></i>
@@ -2276,9 +2277,9 @@
     <footer class="footer">
   <p>
     
-      By The Turing Way Community<br/>
+      بواسطة The Turing Way Community<br/>
     
-        &copy; Copyright 2020-2021.<br/>
+        &copy; حقوق النشر 2020-2021.<br/>
   </p>
 </footer>
 </main>
