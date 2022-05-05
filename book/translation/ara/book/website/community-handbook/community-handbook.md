@@ -1,59 +1,54 @@
-(ch)=
-# Community Handbook
+crwdns835624:0crwdne835624:0
+# crwdns835626:0crwdne835626:0
 
-***This is a community handbook that discusses aspects of The Turing Way project that one can use for participating in this community.***
+***crwdns835628:0crwdne835628:0***
 
-_The Turing Way_ is a community-led book project that involves diverse perspectives of researchers, funders, educators, learners and various stakeholders from around the world.
+crwdns835630:0crwdne835630:0
 
-The Community Handbook part of this book aims to provide information about the project, ways of working, and other aspects that can make community participation equitable for our members.
+crwdns835632:0crwdne835632:0
 
-We are incredibly grateful to our community members who are the readers, co-authors, contributors, collaborators, maintainers, helper and supporters.
+crwdns835634:0crwdne835634:0
 
-Thank you for joining the incredible journey of _The Turing Way_!
+crwdns835636:0crwdne835636:0
 
 ```{figure} ../figures/community.jpg
----
-height: 400px
-name: community
-alt: A garden full of folks working on different parts of the garden. Someone is welcoming others, someone is teaching the basics, someone is writing best practices and someone is helping this community grow.
----
-*The Turing Way* community illustrated as a garden. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+crwdns835638:0crwdne835638:0 crwdns835640:0crwdne835640:0
+crwdns835642:0crwdne835642:0 crwdns835644:0crwdne835644:0 crwdns835646:0crwdne835646:0 crwdns835648:0crwdne835648:0
 ```
 
-## License for The Turing Way book series
+## crwdns835650:0crwdne835650:0
 
-All content in this book series is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.ast) (CC BY 4.0) license.
+crwdns835652:0crwdne835652:0
 
-The original files can be accessed online on our [GitHub repository](https://github.com/alan-turing-institute/the-turing-way/tree/main/book/website).
+crwdns835654:0crwdne835654:0
 
-## Useful links
+## crwdns835656:0crwdne835656:0
 
-Visit the Turing Way GitHub repository at [https://github.com/alan-turing-institute/the-turing-way](https://github.com/alan-turing-institute/the-turing-way) to find out what we are working on. Start contributing to the book by reading our [contribution guidelines](https://github.com/alan-turing-institute/the-turing-way/blob/main/CONTRIBUTING.md).
+crwdns835658:0crwdne835658:0 crwdns835660:0crwdne835660:0
 
-If you are new and would like to connect with us, join our [Gitter channel](https://gitter.im/alan-turing-institute/the-turing-way). We also host bimonthly [online Collaboration Cafés](https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md) to cowork online with our community members online. This would be the right place to get opinions from other community members and request their feedback and review on your work.
+crwdns835662:0crwdne835662:0 crwdns835664:0crwdne835664:0 crwdns835666:0crwdne835666:0
 
-For specific questions or concerns, you can contact our community manager **Malvika Sharan** by email at [msharan@turing.ac.uk](mailto:msharan@turing.ac.uk). Alternatively, you can contact the lead investigator **Kirstie Whitaker** by email at [kwhitaker@turing.ac.uk](mailto:kwhitaker@turing.ac.uk).
+crwdns835668:0crwdne835668:0 crwdns835670:0crwdne835670:0
 
-To stay updated with our community events, subscribe to [_The Turing Way_ calendar](https://calendar.google.com/calendar?cid=dGhldHVyaW5nd2F5QGdtYWlsLmNvbQ). To receive monthly newsletters, [join our mailing list](https://tinyletter.com/TuringWay)
+crwdns835672:0crwdne835672:0 crwdns835674:0crwdne835674:0
 
-We are also on [Twitter](https://twitter.com/turingway), follow us for daily updates.
+crwdns835676:0crwdne835676:0
 
-### Wondering where to start?
+### crwdns835678:0crwdne835678:0
 
-Here are a few suggestions for a good first contributions:
+crwdns835680:0crwdne835680:0
 
-- Fix a typo in [the book](https://the-turing-way.netlify.com) and/or [repository](https://github.com/alan-turing-institute/the-turing-way).
-- Flag the unclear or duplicated information in the book by opening an [issue on the GitHub](https://github.com/alan-turing-institute/the-turing-way/issues).
-- Fix an [old issue](https://github.com/alan-turing-institute/the-turing-way/issues) or comment on the the [pull requests](https://github.com/alan-turing-institute/the-turing-way/pulls).
-- Write your personal experience of reproducible research in this [google form](https://goo.gl/forms/akFqZEIy2kxAjfZW2).
-- See more info on the GitHub: https://github.com/alan-turing-institute/the-turing-way/blob/main/project_management/online-collaboration-cafe.md
+- crwdns835682:0crwdne835682:0
+- crwdns835684:0crwdne835684:0
+- crwdns835686:0crwdne835686:0
+- crwdns835688:0crwdne835688:0
 
-## The Turing Way Contact Points
+## crwdns835692:0crwdne835692:0
 
-The lead investigator for this project is [Dr Kirstie Whitaker](https://whitakerlab.github.io/about). She leads the Tools, Practices and Systems Research Programme at [The Alan Turing Institute](http://turing.ac.uk).
+crwdns835694:0crwdne835694:0 crwdns835696:0crwdne835696:0
 
-The Community Manager is [Malvika Sharan](https://about.me/malvikasharan). She is a research associate at the [Alan Turing Institute](http://turing.ac.uk).
+crwdns835698:0crwdne835698:0 crwdns835700:0crwdne835700:0
 
-You can contact them on the community Gitter Channel [https://gitter.im/alan-turing-institute/the-turing-way](https://gitter.im/alan-turing-institute/the-turing-way). You can write an email to Malvika Sharan for any question of query by using the community email [theturingway@gmail.com](mailto:theturingway@gmail.com) or contact her directly by emailing [msharan@turing.ac.uk](mailto:msharan@turing.ac.uk). In case you want to directly reach Kirstie, email her at [kwhitaker@turing.ac.uk](mailto:kwhitaker@turing.ac.uk).
+crwdns835702:0crwdne835702:0 crwdns835704:0crwdne835704:0 crwdns835706:0crwdne835706:0
 
-For contact details for Code of Conduct related query and reporting, please see the {ref}`Code of Conduct file <ch-coc>` in this Community Handbook.
+crwdns835708:0{ref}crwdne835708:0
