@@ -1,0 +1,349 @@
+
+<!DOCTYPE html>
+
+<html lang="ar">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guidance on Peer Review for a Journal &#8212; The Turing Way</title>
+    
+  <link href="../../_static/css/theme.css" rel="stylesheet">
+  <link href="../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/book-stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../../_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <link rel="canonical" href="https://the-turing-way.netlify.com/communication/peer-review/peer-review-guidance.html" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="بحث" href="../../search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="ar">
+    
+
+    <!-- Google Analytics -->
+    
+<script async="" src="https://www.google-analytics.com/analytics.js"></script>
+<script>
+                        window.ga = window.ga || function () {
+                            (ga.q = ga.q || []).push(arguments) };
+                        ga.l = +new Date;
+                        ga('create', 'UA-167881009-1', 'auto');
+                        ga('set', 'anonymizeIp', true);
+                        ga('send', 'pageview');
+                    </script>
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../../index.html">
+      
+      
+      
+      <h1 class="site-logo" id="site-title">The Turing Way</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="بحث في هذا الكتاب ..." aria-label="بحث في هذا الكتاب ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../welcome.html">
+   مرحبا بكم
+  </a>
+ </li>
+</ul>
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Visit our <a href="https://github.com/alan-turing-institute/the-turing-way">GitHub Repository</a> <div>This book is powered by <a href="https://jupyterbook.org">Jupyter Book</a></div>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="تبديل التنقل" aria-controls="site-navigation"
+                title="تبديل التنقل" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="قم بتنزيل هذه الصفحة"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../_sources/communication/peer-review/peer-review-guidance.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="تنزيل ملف المصدر" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="طباعة إلى PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/alan-turing-institute/the-turing-way"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="مستودع المصدر"><i
+                    class="fab fa-github"></i>مخزن</button></a>
+        <a class="issues-button"
+            href="https://github.com/alan-turing-institute/the-turing-way/issues/new?title=Issue%20on%20page%20%2Fcommunication/peer-review/peer-review-guidance.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="افتح قضية"><i class="fas fa-lightbulb"></i>قضية مفتوحة</button></a>
+        <a class="edit-button" href="https://github.com/alan-turing-institute/the-turing-way/edit/main/book/website/communication/peer-review/peer-review-guidance.md"><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="قم بتحرير هذه الصفحة"><i class="fas fa-pencil-alt"></i>أقترح تحرير</button></a>
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="وضع ملء الشاشة"
+        title="وضع ملء الشاشة"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> محتويات
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#before-you-accept-an-invitation-to-peer-review">
+   Before you accept an invitation to peer review
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#writing-a-review">
+   Writing a review
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#how-to-organize-the-review-work">
+     How to organize the review work
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Guidance on Peer Review for a Journal</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> محتويات </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#before-you-accept-an-invitation-to-peer-review">
+   Before you accept an invitation to peer review
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#writing-a-review">
+   Writing a review
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#how-to-organize-the-review-work">
+     How to organize the review work
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="guidance-on-peer-review-for-a-journal">
+<span id="cm-pr-guidance"></span><h1>Guidance on Peer Review for a Journal<a class="headerlink" href="#guidance-on-peer-review-for-a-journal" title="Permalink to this headline">¶</a></h1>
+<p>The text is inspired by this <a class="reference external" href="https://renebekkers.wordpress.com/2020/06/24/how-to-review-a-paper/">blog post</a> by <a class="reference external" href="https://research.vu.nl/en/persons/rene-bekkers">Rene Bekkers</a>, released under the CC BY 4.0 licence. There is no consensus among journals and editors on a set of minimum criteria that the peer review process should cover. The extensive set of criteria provided here are general considerations from the perspectives of openness and reproducibility. The bar is set pretty high: a review checking each of the criteria will take you at least three hours, but more likely between five and eight hours.</p>
+<div class="section" id="before-you-accept-an-invitation-to-peer-review">
+<span id="cm-pr-guidance-before"></span><h2>Before you accept an invitation to peer review<a class="headerlink" href="#before-you-accept-an-invitation-to-peer-review" title="Permalink to this headline">¶</a></h2>
+<p>The following steps will help you make a decision whether to review the paper or not. They need to be taken fast. It is a good practice to let the editor know immediately if you are unable to review a paper, so the editor can start to look for someone else to review the paper. Suggesting other possible reviewers is very helpful. Your non-response means a delay for the authors and the editor.</p>
+<ol class="simple">
+<li><p>Check what kind of journal this is. Have you heard of it before? Does it have a reputation in your discipline? Are you planning to submit your own work there? Is this journal an <a class="reference external" href="https://the-turing-way.netlify.app/reproducible-research/open/open-access.html">Open Access</a> journal? Beware of <a class="reference external" href="https://predatoryjournals.com/journals/">predatory journals</a>.</p></li>
+<li><p>Check if you are the right person to review the paper. Reviewers do not need to be experts in all respects. It is a good practice to describe your disciplinary background and expertise in relation to the manuscript you are invited to review. If you do not have useful expertise to improve the paper, politely decline.</p></li>
+<li><p>Check whether you know the author(s). If you do, you might describe how you know the author(s) and ask the editor whether it is appropriate for you to review the paper. If you have a conflict of interest, notify the editor and politely decline.</p></li>
+<li><p>Check whether the authors have made the data and code available - see also <a class="reference external" href="https://the-turing-way.netlify.app/reproducible-research/open/open-access.html">Open Access</a>. You can set a requirement for the author to make the data available for peer review or openly available before you accept an invitation to review their work. It needs to be taken into account that some data  would be illegal or dangerous to make available, such as datasets that contain identifying information that cannot be removed. In most cases, the authors can provide at least partial access to the data by excluding variables that contain personal information. If the paper does not provide a link to the data and the analysis script, you can ask the editor to ask the authors to provide the data and the code.</p></li>
+</ol>
+<p>You might get requests to review a paper that you have reviewed before, for a conference or another journal. In these cases, you can let the editor know and ask the editor whether she would like to see the previous review. For the editor it will be useful to know whether the current manuscript is the same as the version, or includes revisions.</p>
+</div>
+<div class="section" id="writing-a-review">
+<span id="cm-pr-guidance-writing"></span><h2>Writing a review<a class="headerlink" href="#writing-a-review" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="how-to-organize-the-review-work">
+<h3>How to organize the review work<a class="headerlink" href="#how-to-organize-the-review-work" title="Permalink to this headline">¶</a></h3>
+<p>There is no established procedure, you need to find what works for you. The journal you are reviewing for may also provide guidance on how to write a review. If you are reviewing for the first time, this workflow might be useful.</p>
+<ol class="simple">
+<li><p>It might be a good idea to read a paper twice. First, go over the paper superficially and quickly. This gets you a sense of where the authors are going.</p></li>
+<li><p>After a quick glance at the paper, you can determine whether you think the paper has the potential to be published, perhaps after revisions. If you think the paper is beyond repair, explain this to the editor.</p></li>
+<li><p>If the paper is good enough to be revised and resubmitted, you can start providing more detailed comments.</p></li>
+<li><p>The second time you go over the paper, do a very close reading. Some of the information may be in the supplementary information provided with the paper - read them carefully as well.</p></li>
+</ol>
+<p><strong>The tone of the review</strong> There is a ‘golden rule’ for people writing a review: treat others as you would like to be treated. Write the review report that you would have liked to receive if you had been the author. The following principles might help you:</p>
+<ol class="simple">
+<li><p>Be honest but constructive. You are not at war. There is no need to burn a paper to the ground.</p></li>
+<li><p>Avoid addressing the authors personally. Say: “the paper could benefit from…” instead of “the authors need”.</p></li>
+<li><p>Stay close to the facts. Do not speculate about reasons why the authors have made certain choices beyond the arguments stated in the paper.</p></li>
+<li><p>Take a developmental approach. Any paper will contain flaws and imperfections. Your job is to improve science by identifying problems and suggesting ways to repair them. Think with the authors about ways they can improve the paper in such a way that it benefits collective scholarship.</p></li>
+<li><p>Try to see beyond bad writing style and mistakes in spelling. Also be mindful of disciplinary and cultural differences between the authors and yourself.</p></li>
+</ol>
+<p><strong>The substance of the advice</strong></p>
+<ol class="simple">
+<li><p>It is a good principle to begin the review report by describing the way you reviewed the paper. If you searched for literature, checked the data and verified the results, ran additional analyses, state this. It will allow the editor to adjudicate the review.</p></li>
+<li><p>Then give a brief overview of the paper. If the invitation asks you to provide a general recommendation, state it early in the review. The recommendation is the first thing the editor wants to know. Typically, you are invited to recommend ‘reject’, ‘revise &amp; resubmit’ – with major or minor revisions, or ‘accept’.</p></li>
+<li><p>Use ‘reject’ only if absolutely necessary. Most journal editors make use of desk-rejection if the paper seems a poor fit; if the editor sent the paper out for review, she probably thinks it has the potential to be published. Start from the assumption that the authors have invested a great deal of time in the paper and that they want to improve it.</p></li>
+<li><p>List the strengths and the weaknesses of the paper. To ease the message you can use the sandwich principle: start with the strengths, then discuss the weaknesses, and conclude with an encouragement.</p></li>
+<li><p>Try to give actionable advice. For the weaknesses in the paper, suggest ways to repair them. It is convenient for both the editor and the authors to number your suggestions. Distinguish major issues, such as not discussing alternative explanations, from minor issues such as missing references and typos. There could be points that the authors are underselling. In that case, you could identify them as strengths that the authors can emphasize more strongly. It is handy to refer to issues with direct quotes and page numbers or line numbers.</p></li>
+<li><p>Traditionally, the review process is designed to be anonymous. However, some reviewers sign their reviews. A non-anonymous review can be seen as an accountability device: by exposing who they are to the authors of the paper, the reviewers set higher standards for themselves. This needs to be done carefully: some editors do not appreciate signed reviews. There are voices that express concerns for a graduate student or an early career researcher facing retribution for being critical of a more senior researcher. There is also a process called open peer review; in this case, the review is open for everyone viewing the paper. The peer review might blend these features; for example, one might be able to see the review text but not the name of the reviewer who did it, or the name of the reviewer but not the text itself. The design of the peer review process and its transparency varies from journal to journal.</p></li>
+</ol>
+<p><strong>Second round of reviewing process</strong> If the authors have revised their paper, check if your suggestions have been implemented. It is a good principle to avoid making new demands for the second round that you have not made before.</p>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./communication/peer-review"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+      بواسطة The Turing Way Community<br/>
+    
+        &copy; حقوق النشر 2020-2021.<br/>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>
