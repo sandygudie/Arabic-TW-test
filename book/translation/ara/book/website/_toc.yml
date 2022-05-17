@@ -439,7 +439,7 @@ parts:
       - title: Research Software Engineers Overview
         file: collaboration/research-infrastructure-roles/research-software-engineer
       - title: Research Application Manager Overview
-        file: collaboration/research-infrastructure-roles/ram       
+        file: collaboration/research-infrastructure-roles/ram
     - title: Remote Collaboration
       file: collaboration/remote-collab
       sections:
