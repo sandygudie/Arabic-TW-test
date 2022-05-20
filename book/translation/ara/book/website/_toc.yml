@@ -28,20 +28,20 @@ parts:
         file: reproducible-research/overview/overview-barriers
       - title: Resources
         file: reproducible-research/overview/overview-resources
-    - title: Open Research
+    - title: البحوث المفتوحة
       file: reproducible-research/open
       sections:
-      - title: Open Data
+      - title: البيانات المفتوحة (Open Data)
         file: reproducible-research/open/open-data
       - title: Open Source Software
         file: reproducible-research/open/open-source
-      - title: Open Hardware
+      - title: الأجهزة المفتوحة (Open Hardware)
         file: reproducible-research/open/open-hardware
       - title: Open Access
         file: reproducible-research/open/open-access
       - title: Open Notebooks
         file: reproducible-research/open/open-notebooks
-      - title: Open Scholarship
+      - title: العلوم المفتوحة
         file: reproducible-research/open/open-scholarship
       - title: Checklist
         file: reproducible-research/open/open-checklist
