@@ -154,3 +154,7 @@ body {
   direction: rtl;
   text-align: right;
 }
+
+.fa-angle-right {
+  transform: rotate(180deg)
+}

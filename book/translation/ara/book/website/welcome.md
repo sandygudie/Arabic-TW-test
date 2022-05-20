@@ -19,7 +19,7 @@
 name: welcome-image
 alt: The Turing Way project is illustrated as a road or path with shops for different data science skills. People can go in and out with their shopping cart and pick and choose what they need.
 ---
-The Turing Way project illustration by Scriberia. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
+رسم توضيحي لمشروع (The Turing Way)  بواسطة Scriberia. النسخة الأصلية على Zenodo، [http://doi.org/10.5281/zenodo.3695300](http://doi.org/10.5281/zenodo.3695300)
 ```
 
 (welcome-community)=
@@ -54,10 +54,10 @@ alt: The Turing Way Guide to reproducible research and it's stucture illustrated
 (welcome-history)=
 ## التاريخ
 
-بدأ الكتاب في كانون الثاني (يناير) 2019 كدليل لمنهجية تناتُج علم البيانات، حيث يُغطي {ref}`rr-vcs`و {ref}`rr-test`و {ref}`rr-ci`. ومع ذلك، فإن المهارات التقنية تُمثل جانب واحد فقط من آلية جعل البحث في علوم البيانات "مفتوحًا للجميع"، لذا توسع منهج تورينج _The Turing Way_ في فبراير 2020 </0> <0>لمجموعة من الأجزاء: {ref}`rr`، {ref}`pd`، {ref}`cm`و {ref}`سل`و {ref}`إر`.
+الكتاب في كانون الثاني (يناير) 2019 كدليل لمنهجية فهم كيفية إعادة تكرار  المشروعات العلمية في علم البيانات، لكن المهارات التقنية تُمثل جانب واحد فقط من آلية جعل البحث في علوم البيانات "مفتوحًا للجميع"، لذا توسع بكتاب منهج تورينج  (The Turing Way) في فبراير 2020 لمجموعة أكبر تتناول عملية التواصل و التعاون و تطبيق الأخلاقيات البحثية في العلوم والدراست الأكاديمية.
 
 (welcome-citing)=
-## الإستشهاد بكتاب _منهج تورينج  (The Turing Way)_
+## الإستشهاد بكتاب منهج تورينج  (The Turing Way)
 
 كل شيء في _منهج منهج تورينج (The Turing Way)_ متاح مجانًا بموجب ترخيص [CC-BY](https://github.com/alan-turing-institute/the-turing-way/blob/main/LICENSE.md).
 
@@ -67,7 +67,7 @@ alt: The Turing Way Guide to reproducible research and it's stucture illustrated
 
 > The Turing Way Community, Becky Arnold, Louise Bowler, Sarah Gibson, Patricia Herterich, Rosie Higman, … Kirstie Whitaker. (2019, March 25). The Turing Way: A Handbook for Reproducible Data Science (Version v0.0.4). Zenodo. http://doi.org/10.5281/zenodo.3233986
 
-يرجى زيارة رابط [DOI](https://doi.org/10.5281/zenodo.3233853) للحصول على أحدث إصدار للكتاب، حيث يتم تحديث الكتاب بشكل مستمر. يُرجى ملاحظة أن الرابط أعلاه لم يتم إنشاؤه تلقائياً لذا قد يكون قديماً. تسمح لنا المعرّفات الرقمية (DOI) بأرشفة ملف الكتاب أو البحث، وهي طريقة مفيدة لتتبع عمل المشروع  أو الإستشهاد به في المنشورات الأكاديمية.
+يرجى زيارة رابط [DOI](https://doi.org/10.5281/zenodo.3233853) للحصول على أحدث إصدار للكتاب، حيث يتم تحديث الكتاب بشكل مستمر، يُرجى ملاحظة أن الرابط أعلاه لم يتم إنشاؤه تلقائياً لذا قد يكون قديماً. تسمح لنا المعرّفات الرقمية (DOI) بأرشفة ملف الكتاب أو البحث، وهي طريقة مفيدة لتتبع عمل المشروع  أو الإستشهاد به في المنشورات الأكاديمية.
 
 
 نحن حقا نقدر أي إشارات تقوم بها إلى _منهج تورينج  (The Turing Way)_ في عملك، ونأمل أن يكون مفيدا. إذا كان لديك أي أسئلة، من فضلك لاتتردد في [التواصل](https://github.com/alan-turing-institute/the-turing-way#get-in-touch) معنا.
