@@ -148,3 +148,8 @@ body {
   color: #666666;
   family: 'IBM Plex Sans Arabic', sans-serif;
 }
+
+
+.caption-number {
+  direction: rtl;
+}
