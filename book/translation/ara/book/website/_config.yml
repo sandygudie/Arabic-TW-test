@@ -5,7 +5,7 @@
 
 #######################################################################################
 # Book settings
-title                       : The Turing Way  # The title of the book. Will be placed in the left navbar.
+title                       : "منهج تورنج"  # The title of the book. Will be placed in the left navbar.
 author                      : The Turing Way Community  # The author of the book
 copyright                   : "2020-2021"  # Copyright year to be placed in the footer
 logo                        : "./figures/logo/logo.jpg"  # A path to the book logo
@@ -25,8 +25,8 @@ html:
   navbar_number_sections    : False  # Add a number to each section in your left navbar
   google_analytics_id       : "UA-167881009-1"  # A GA id that can be used to track book views.
   home_page_in_navbar       : true  # Whether to include your home page in the left Navigation Bar
-  extra_navbar              : Visit our <a href="https://github.com/alan-turing-institute/the-turing-way">GitHub Repository</a>
-    <div>This book is powered by <a href="https://jupyterbook.org">Jupyter Book</a></div>
+  extra_navbar              : يمكنك زيارة <a href="https://github.com/alan-turing-institute/the-turing-way">GitHub Repository</a>
+    <div>هذا الكتاب تم بناءة بواسطة <a href="https://jupyterbook.org">Jupyter Book</a></div>
   comments:
     hypothesis: true
 
