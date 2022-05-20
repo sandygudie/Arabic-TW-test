@@ -10,5 +10,5 @@ height: 400px
 name: road-to-reproducibility
 alt: Three hands holding magnifying glasses and varifying 'road to reproducibility' of The Turig Way.
 ---
-الطريق إلى إمكانية التكرار. ---رسم توضيحي لمشروع  (The Turing Way) منهج تورينج  بواسطة Scriberia. يستخدم بموجب ترخيص CC-BY 4.0. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).
+رسم توضيحي لمشروع (The Turing Way)  بواسطة Scriberia. النسخة الأصلية على Zenodo، [http://doi.org/10.5281/zenodo.3695300](http://doi.org/10.5281/zenodo.3695300)
 ```
