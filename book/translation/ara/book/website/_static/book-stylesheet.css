@@ -152,4 +152,5 @@ body {
 
 .caption-number {
   direction: rtl;
+  text-align: right;
 }

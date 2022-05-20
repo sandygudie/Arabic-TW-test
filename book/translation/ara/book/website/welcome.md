@@ -42,12 +42,12 @@ The Turing Way project illustration by Scriberia. Zenodo. [http://doi.org/10.528
 name: theturingway-chapters
 alt: The Turing Way Guide to reproducible research and it's stucture illustrated to show a set of doors to represent how it's built on chapters and sub chapters of the different areas of the guide
 ---
-رسم توضيحي لمشروع  (The Turing Way) منهج تورينج  بواسطة Scriberia. النسخة الأصلية على Zenodo، [http://doi.org/10.5281/zenodo.3695300](http://doi.org/10.5281/zenodo.3695300)
+رسم توضيحي لمشروع (The Turing Way)  بواسطة Scriberia. النسخة الأصلية على Zenodo، [http://doi.org/10.5281/zenodo.3695300](http://doi.org/10.5281/zenodo.3695300)
 ```
 
-على الرغم من أن منهج تورينج _The Turing Way_ يتلقى الدعم والتمويل من مؤسسة آلان تورينج [The Alan Turing Institute](https://www.turing.ac.uk/)، فقد صُمم المشروع ليكون تعاونًا عالميًا. لدينا مساهمات ومشاركات من جميع أنحاء المملكة المتحدة، ومن الهند، والمكسيك، وأستراليا، والولايات المتحدة الأمريكية، والعديد من البلدان الأوروبية والعربية والأسبانية. تمت كتابة الفصول ومراجعتها وتنظيمها من قبل أعضاء في مؤسسات بحثية، وجامعات، ودوائر حكومية وصناعية. نحن ملتزمون بتهيئة مجال يُمكن الأشخاص ذوي الخبرات المتنوعة، والتجارب الحية مشاركة حصيتلهم المعرفية مع الآخرين، وذلك لإتاحة الفرصة لنا جميعًا استثمار في علم البيانات لتحسين العالم.
+على الرغم من أن منهج تورينج (The Turing Way) يتلقى الدعم والتمويل من مؤسسة آلان تورينج [The Alan Turing Institute](https://www.turing.ac.uk/)، فقد صُمم المشروع ليكون تعاونًا عالميًا، لدينا مساهمات ومشاركات من جميع أنحاء المملكة المتحدة، ومن الهند، والمكسيك، وأستراليا، والولايات المتحدة الأمريكية، والعديد من البلدان الأوروبية والعربية والأسبانية. تمت كتابة الفصول ومراجعتها وتنظيمها من قبل أعضاء في مؤسسات بحثية، وجامعات، ودوائر حكومية وصناعية، نحن ملتزمون بتهيئة مجال يُمكن الأشخاص ذوي الخبرات المتنوعة، والتجارب الحية مشاركة حصيتلهم المعرفية مع الآخرين، وذلك لإتاحة الفرصة لنا جميعًا استثمار في علم البيانات لتحسين العالم.
 
-نحن نقدر مشاركة كل فرد من أفراد مجتمعنا، ويهمنا أن يَحظى كل مساهم ومشارك لدينا بتجربة ممتعة ومرضية. وفقًا لذلك ، من المتوقع أن يُظهر كل من يشارك في مشروع منهج تورينج _The Turing Way_ الإحترام ولطف المعاملة لجميع أعضاء المشروع في كل الأوقات. يجب أن تلتزم جميع المساهمات بمدونة قواعد السلوك [الخاصة بنا](https://github.com/alan-turing-institute/the-turing-way/blob/main/CODE_OF_CONDUCT.md).
+نحن نقدر مشاركة كل فرد من أفراد مجتمعنا، ويهمنا أن يَحظى كل مساهم ومشارك لدينا بتجربة ممتعة ومرضية، وفقًا لذلك ، من المتوقع أن يُظهر كل من يشارك في مشروع منهج تورينج (The Turing Way) الإحترام ولطف المعاملة لجميع أعضاء المشروع في كل الأوقات. يجب أن تلتزم جميع المساهمات بمدونة قواعد السلوك [الخاصة بنا](https://github.com/alan-turing-institute/the-turing-way/blob/main/CODE_OF_CONDUCT.md).
 
 ![Gif showing screen capture of contributors table, smiling faces and emojis representing the types of contributions in a table](https://media.giphy.com/media/gKIUisnjpj2PS75nOJ/giphy.gif)
 
