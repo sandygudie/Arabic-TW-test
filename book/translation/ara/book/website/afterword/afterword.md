@@ -5,6 +5,7 @@
 تمت كتابة جوانب التعاون المجتمعي والتنميةالمتعلقة بالكتاب في ملحق [دليل المجتمع](../community-handbook/community-handbook).
 
 ```{figure} ../figures/road-to-reproducibility.jpg
+---
 height: 400px
 name: road-to-reproducibility
 alt: Three hands holding magnifying glasses and varifying 'road to reproducibility' of The Turig Way.
