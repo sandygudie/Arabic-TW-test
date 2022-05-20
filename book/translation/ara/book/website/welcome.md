@@ -47,30 +47,30 @@ _The Turing Way_ project illustration by Scriberia. النسخة الأصلية 
 
 على الرغم من أن منهج تورينج _The Turing Way_ يتلقى الدعم والتمويل من مؤسسة آلان تورينج [The Alan Turing Institute](https://www.turing.ac.uk/)، فقد صُمم المشروع ليكون تعاونًا عالميًا. لدينا مساهمات ومشاركات من جميع أنحاء المملكة المتحدة، ومن الهند، والمكسيك، وأستراليا، والولايات المتحدة الأمريكية، والعديد من البلدان الأوروبية والعربية والأسبانية. تمت كتابة الفصول ومراجعتها وتنظيمها من قبل أعضاء في مؤسسات بحثية، وجامعات، ودوائر حكومية وصناعية. نحن ملتزمون بتهيئة مجال يُمكن الأشخاص ذوي الخبرات المتنوعة، والتجارب الحية مشاركة حصيتلهم المعرفية مع الآخرين، وذلك لإتاحة الفرصة لنا جميعًا استثمار في علم البيانات لتحسين العالم.
 
-نحن نقدر مشاركة كل فرد من أفراد مجتمعنا ونريد التأكد من أن كل مساهم لديه تجربة ممتعة ومرضية. تبعاً لذلك، يتوقع من كل من يشارك في مشروع _منهج تورينج  (The Turing Way)_ أن يُظِهر الاحترام والكياسة لأعضاء المجتمع الآخرين على الدوام. يجب أن تلتزم جميع المساهمات بقواعد السلوك [الخاصة بنا](https://github.com/alan-turing-institute/the-turing-way/blob/main/CODE_OF_CONDUCT.md).
+نحن نقدر مشاركة كل فرد من أفراد مجتمعنا، ويهمنا أن يَحظى كل مساهم ومشارك لدينا بتجربة ممتعة ومرضية. وفقًا لذلك ، من المتوقع أن يُظهر كل من يشارك في مشروع منهج تورينج _The Turing Way_ الإحترام ولطف المعاملة لجميع أعضاء المشروع في كل الأوقات. يجب أن تلتزم جميع المساهمات بمدونة قواعد السلوك [الخاصة بنا](https://github.com/alan-turing-institute/the-turing-way/blob/main/CODE_OF_CONDUCT.md).
 
 ![Gif showing screen capture of contributors table, smiling faces and emojis representing the types of contributions in a table](https://media.giphy.com/media/gKIUisnjpj2PS75nOJ/giphy.gif)
 
 (welcome-history)=
-## ماهو تاريجنا؟
+## التاريخ
 
-بدأ الكتاب في كانون الثاني (يناير) 2019 كدليل لمنهجية إعادة التكرار والإنتاج لعلم البيانات ، حيث يُغطي {ref}`rr-vcs`و {ref}`rr-test`و {ref}`rr-ci`. ومع ذلك ، فإن المهارات التقنية ليست سوى جانب واحد من جعل البحث في علوم البيانات "مفتوحًا للجميع" ، وهكذا في فبراير 2020 ،</em> _توسعت السلسلة إلى أجزاء كثيرة: {ref}`rr`، {ref}`pd`، {ref}`cm`و {ref}`سل`و {ref}`إر`.</p>
+بدأ الكتاب في كانون الثاني (يناير) 2019 كدليل لمنهجية تناتُج علم البيانات، حيث يُغطي {ref}`rr-vcs`و {ref}`rr-test`و {ref}`rr-ci`. ومع ذلك، فإن المهارات التقنية تُمثل جانب واحد فقط من آلية جعل البحث في علوم البيانات "مفتوحًا للجميع"، لذا توسع منهج تورينج _The Turing Way_ في فبراير 2020 </0> <0>لمجموعة من الأجزاء: {ref}`rr`، {ref}`pd`، {ref}`cm`و {ref}`سل`و {ref}`إر`.
 
 (welcome-citing)=
-## كيفية الإستشهاد بكتاب _منهج تورينج  (The Turing Way)_
+## الإستشهاد بكتاب _منهج تورينج  (The Turing Way)_
 
-كل شيء هنا متاح مجانًا بموجب ترخيص [CC-BY](https://github.com/alan-turing-institute/the-turing-way/blob/main/LICENSE.md).
+كل شيء في _منهج منهج تورينج (The Turing Way)_ متاح مجانًا بموجب ترخيص [CC-BY](https://github.com/alan-turing-institute/the-turing-way/blob/main/LICENSE.md).
 
 يمكنك الاستشهاد بـ _منهج تورينج  (The Turing Way)_ من خلال أرشيف Zenodo للمشروع باستخدام DOI: [10.5281/zenodo.3233853](https://doi.org/10.5281/zenodo.3233853).
 
-وسيبدو الاقتباس على هذا النحو التالي:
+وسيبدو المرجع على هذا النحو التالي:
 
 > The Turing Way Community, Becky Arnold, Louise Bowler, Sarah Gibson, Patricia Herterich, Rosie Higman, … Kirstie Whitaker. (2019, March 25). The Turing Way: A Handbook for Reproducible Data Science (Version v0.0.4). Zenodo. http://doi.org/10.5281/zenodo.3233986
 
-يرجى زيارة رابط [DOI](https://doi.org/10.5281/zenodo.3233853) للحصول على أحدث إصدار للكتاب حيث يتم تحديث الكتاب بشكل مستمر مع ملاحظة أن الرابط أعلاه تلقائياً وقد يكون قديماً. تسمح لنا المعرّفات الرقمية (DOI) بأرشفة الكتاب أو البحث وهي مفيدة لتتبع الإشارة أو الإستشهاد به في المنشورات الأكاديمية.
+يرجى زيارة رابط [DOI](https://doi.org/10.5281/zenodo.3233853) للحصول على أحدث إصدار للكتاب، حيث يتم تحديث الكتاب بشكل مستمر. يُرجى ملاحظة أن الرابط أعلاه لم يتم إنشاؤه تلقائياً لذا قد يكون قديماً. تسمح لنا المعرّفات الرقمية (DOI) بأرشفة ملف الكتاب أو البحث، وهي طريقة مفيدة لتتبع عمل المشروع  أو الإستشهاد به في المنشورات الأكاديمية.
 
 يمكنك أيضًا مشاركة عنوان URL لصفحة الكتاب في الانترنت ، على سبيل المثال ، {ref}`https://the-turing-way.netlify.app/reproducible-research/overview/overview-definitions.html <rr-overview-definitions>`، ولكن اعلم أن المشروع قيد التطوير وقد تتغير هذه الروابط بمرور الوقت. قد ترغب في تضمين رابط</a>لأرشيف الويب
 
 ، مثل: [https://web.archive.org/web/20191030093753/https://the-turing-way.netlify.com/reproducibility/03/definitions.html](https://web.archive.org/web/20191030093753/https://the-turing-way.netlify.com/reproducibility/03/definitions.html)، للتأكد من أن لايكون رابط الكتاب مُعطل!</p> 
 
-نحن حقا نقدر أي إشارات تقوم بها إلى _منهج تورينج  (The Turing Way)_ في عملك، ونأمل أن يكون مفيدا. إذا كان لديك أي أسئلة ، لاتتردد في [التواصل](https://github.com/alan-turing-institute/the-turing-way#get-in-touch) معنا.
+نحن حقا نقدر أي إشارات تقوم بها إلى _منهج تورينج  (The Turing Way)_ في عملك، ونأمل أن يكون مفيدا. إذا كان لديك أي أسئلة، من فضلك لاتتردد في [التواصل](https://github.com/alan-turing-institute/the-turing-way#get-in-touch) معنا.
