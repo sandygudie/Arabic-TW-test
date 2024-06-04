@@ -1,30 +1,7 @@
-"project_id": "1"                     #open project and go to Integrations > API
-"api_token": "919b778d8f5f3892b1eaea1458b0b2dc60d29219be5b66f2f4b5b1621720e013e7be0acaa6ba654f"          #open profile settings and go to API > New Token > create Token
-#"base_path": "/project-base-path"
-"base_url": "https://turingway.crowdin.com"
-"preserve_hierarchy": true
-"files": [
-  {
-    "source": "/book/website/",                                     #source files filter
-    "translation": "/book/translation/%three_letters_code%/%original_path%/%original_file_name%",
-    "ignore": [
-      "LICENSE.md", #ignore the translated files
-      "_toc.yml",                                   #ignore 1.txt, a.txt, folder/1.txt, folder/a.txt
-      "_config.yml",                               #ignore 1.txt, folder/1.txt
-      "_redirects",                               #ignore crowdin?test.txt, folder/crowdin?test.txt
-      "/requirements.txt",
-      "runtime.txt",                               #ignore crowdin?test.txt, folder/crowdin?test.txt
-      "*.png",                     #ignore 123.txt , folder/123.tx      #ignore 123.txt , folder/123.txt
-      "*.jpg",
-      "_build/html",
-      "_static",
-      "scripts",
-      "requirements",
-      "assets",
-      "figures",
-      "analytic",
-      "translation"
-    ]   
-  }
-]
-
+project_id: '1'
+api_token: 919b778d8f5f3892b1eaea1458b0b2dc60d29219be5b66f2f4b5b1621720e013e7be0acaa6ba654f
+base_url: 'https://turingway.crowdin.com'
+preserve_hierarchy: 1
+files:
+  - source: /book/website/
+    translation: /book/translation/%three_letters_code%/%original_path%/%original_file_name%
