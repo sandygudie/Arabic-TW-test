@@ -1,6 +1,5 @@
 [build]
   base = "book/translation/ara/book/website/"
-  environment = { PYTHON_VERSION = "3.8" }
   command = "pip install -r requirements.txt && jupyter-book build ."
   publish = "_build/html"
 
